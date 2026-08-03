@@ -1,4 +1,9 @@
 {
+  "https://lingogrove.com/direct-vs-indirect-object-pronouns-spanish/": {
+    "submitted_date": "2026-08-04",
+    "verified_status": "pending",
+    "note": "new publish; Bing 200 / Yandex 202."
+  },
   "https://lingogrove.com/por-vs-para/": {
     "submitted_date": "2026-08-03",
     "verified_status": "pending",
@@ -48,5 +53,10 @@
     "submitted_date": "2026-08-03",
     "verified_status": "pending",
     "note": "launch batch, new publish; Bing 202 / Yandex 202."
+  },
+  "https://lingogrove.com/saber-vs-conocer/": {
+    "submitted_date": "2026-08-04",
+    "verified_status": "pending",
+    "note": "new publish (Grammar tier); Bing 200 / Yandex 202."
   }
 }
