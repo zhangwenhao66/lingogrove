@@ -926,4 +926,85 @@ export const guides: Guide[] = [
 			{ label: 'CliffsNotes — "Verbs That Change Meaning in the Preterite"', url: 'https://www.cliffsnotes.com/study-guides/spanish/spanish-i/narration-in-the-past/verbs-that-change-meaning-in-the-preterite' },
 		],
 	},
+	{
+		slug: 'direct-vs-indirect-object-pronouns-spanish',
+		category: 'Grammar',
+		title: 'Direct vs. Indirect Object Pronouns: Lo/La vs. Le/Les',
+		description: 'Lo, la, le, les overlap almost everywhere except the third person. The real rule, the le-to-se swap, and the regional exception fluent speakers still get wrong.',
+		published: '2026-08-04',
+		updated: '2026-08-04',
+		coreSummary: 'Direct object pronouns (lo, la, los, las) stand in for whatever receives a verb\'s action; indirect object pronouns (le, les) stand in for whoever the action is done to or for. Every person except the third singular and plural shares identical forms (me, te, nos, os), so the real confusion concentrates entirely around lo/la versus le/les, plus leísmo, a regional swap of le for a masculine lo that the RAE actually accepts, while the reverse swaps do not.',
+		language: 'Spanish',
+		sections: [
+			{
+				heading: 'Why English doesn\'t force the choice, and Spanish does',
+				body: [
+					'English marks the direct/indirect distinction with word order and prepositions, not with different pronoun forms. *I saw her* and *I gave her the book* use the exact same word, "her," whether she\'s the one being seen or the one receiving something. Nothing about the pronoun itself tells you which role she\'s playing; the sentence structure does that work instead.',
+					'Spanish keeps the two roles as separate pronoun families, but the families mostly overlap: *me, te, nos, os* work identically whether the pronoun is direct or indirect. The two sets diverge only in the third person, singular and plural, which is exactly the spot where English speakers, who\'ve never had to track this distinction in their own pronouns, run into trouble. It\'s the same underlying pattern as [saber and conocer](/saber-vs-conocer/): English collapses a distinction into one word or one form, Spanish keeps it split, and the split is what actually has to be learned.',
+				],
+			},
+			{
+				heading: 'Direct object pronouns: what receives the action',
+				body: [
+					'The direct object is the person or thing the verb acts on directly, the answer to "what?" or "whom?" The forms are *me, te, lo/la, nos, os, los/las*, and *lo/la/los/las* agree in gender and number with the noun they replace.',
+					'*Veo el parque.* → *Lo veo.* (I see it.) *Compro las manzanas.* → *Las compro.* (I buy them.) *Conozco a tu hermano.* → *Lo conozco.* (I know him.) In each case, the pronoun takes the place of the exact thing the verb is acting on, and it has to match that thing\'s gender and number.',
+				],
+			},
+			{
+				heading: 'Indirect object pronouns: who the action is for',
+				body: [
+					'The indirect object answers "to whom?" or "for whom?": the recipient or beneficiary of the action, not the thing being acted on. The forms are *me, te, le, nos, os, les*, and unlike *lo/la*, they don\'t change for gender: *le* covers "to/for him," "to/for her," and "to/for you (formal)" alike.',
+					'*Escribo una carta a mi hermano.* → *Le escribo una carta.* (I write him a letter.) Notice the letter itself isn\'t what *le* refers to; *le* points at the person receiving it. Spanish also commonly keeps the explicit *a + noun* phrase alongside the pronoun even though it looks redundant to an English speaker: *Le doy el regalo a mi madre* keeps both *le* and *a mi madre*, a real feature of Spanish (clitic doubling) rather than a mistake or an emphasis device.',
+				],
+				image: {
+					src: '/images/direct-vs-indirect-object-pronouns-spanish-diagram.svg',
+					alt: 'Comparison table of Spanish direct object pronouns (me, te, lo/la, nos, os, los/las) and indirect object pronouns (me, te, le, nos, os, les) by grammatical person, with the third-person row highlighted to show where the two sets diverge.',
+				},
+			},
+			{
+				heading: 'When both show up together: le becomes se',
+				body: [
+					'A sentence can carry both a direct and an indirect object pronoun at once, and when it does, the indirect pronoun always comes first: *Me lo dan* (They give it to me), not *Lo me dan*.',
+					'Spanish also blocks a specific combination outright: *le* or *les* can never sit directly in front of *lo, la, los,* or *las*. Whenever that pairing would occur, *le/les* becomes *se* instead. *Doy el regalo a mi madre* → *Le doy el regalo* → replace the direct object too, and it becomes *Se lo doy* (I give it to her), never *Le lo doy*, which isn\'t a form that exists in Spanish. The swap is purely mechanical and applies every time, regardless of what *se* is standing in for.',
+				],
+			},
+			{
+				heading: 'Word order: before the verb, or attached after it',
+				body: [
+					'Object pronouns go immediately before a conjugated verb: *Lo veo. Se lo doy. No la compro.* They attach to the end of an infinitive or a gerund, and to an affirmative command, and attaching them shifts the stress, which usually requires a written accent to keep the pronunciation the same: *Voy a comprarlo* (or, just as correctly, *Lo voy a comprar*), *Estoy comprándolo*, *Cómpralo*.',
+					'Negative commands break that pattern: the pronoun goes back in front of the verb, not attached to it. *No lo compres*, never *No cómpralo*. That flip between affirmative and negative commands is one of the more common places learners default to the wrong order out of habit.',
+				],
+			},
+			{
+				heading: 'Leísmo, laísmo, and loísmo: the regional variation that actually matters',
+				body: [
+					'One regional swap is common enough that the RAE formally recognizes it as acceptable, not just as an error people happen to make. *Leísmo* is the use of *le* in place of *lo* for a masculine singular direct object that refers to a specific person: *A Juan le vi ayer*, alongside the standard *A Juan lo vi ayer*. Both are considered correct, and *leísmo* of this specific kind (masculine, singular, personal) is especially common in Spain; Latin American Spanish tends to stick with the standard *lo*.',
+					'The reverse swaps aren\'t accepted anywhere. *Laísmo*, using *la/las* for an indirect object, produces sentences like *La dije la verdad*, which is simply wrong; the correct form is *Le dije la verdad* (I told her the truth). *Loísmo*, using *lo/los* for an indirect object, produces *Lo compré un regalo*, also wrong; the correct form is *Le compré un regalo* (I bought him a gift). Both are treated as genuine errors by the RAE, regardless of region, unlike the masculine-personal *leísmo* case above.',
+					'This is the same kind of one-English-word-hides-two-Spanish-forms problem that shows up with [por and para](/por-vs-para/): the categories look interchangeable from the English side, and the only way through is to stop translating and ask what job the word is doing in the sentence.',
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'What\'s the real difference between direct and indirect object pronouns in Spanish?',
+				answer: 'A direct object pronoun (*lo, la, los, las*) replaces the exact thing a verb acts on and has to match its gender and number: *Compro el libro* → *Lo compro*. An indirect object pronoun (*le, les*) replaces the recipient or beneficiary of the action and doesn\'t change for gender: *Doy el libro a mi hermana* → *Le doy el libro*. The two families share identical forms everywhere except the third person, which is where the confusion concentrates.',
+			},
+			{
+				question: 'Why does "le" turn into "se" in sentences like "se lo doy"?',
+				answer: 'Spanish doesn\'t allow *le* or *les* to sit directly in front of *lo, la, los,* or *las*; that combination simply doesn\'t exist as a spoken form. Whenever it would occur, *le/les* is replaced by *se*: *Le doy el libro* plus *lo doy* becomes *Se lo doy* (I give it to her/him/them), never *Le lo doy*. The rule is mechanical and applies every time that pairing would come up, not just in specific phrases.',
+			},
+			{
+				question: 'Is leísmo actually correct Spanish, or is it a mistake?',
+				answer: 'It depends which direction it goes. The RAE accepts *leísmo* (using *le* instead of *lo* for a masculine singular direct object referring to a person, as in *A Juan le vi*) as a legitimate regional variant, especially common in Spain. It does not accept the reverse errors: *laísmo* (*la* used for an indirect object) and *loísmo* (*lo* used for an indirect object) are both considered incorrect everywhere, regardless of region.',
+			},
+			{
+				question: 'How do you know whether to use "lo" or "le" in a specific sentence?',
+				answer: 'Ask what role the pronoun is playing. If it stands for the exact thing the verb acts on (the answer to "what?" or "whom?"), it\'s *lo/la* (or *los/las* for plural), and it has to agree in gender and number with that thing. If it stands for who the action is done to or for (the answer to "to whom?" or "for whom?"), it\'s *le* (or *les*), which stays the same regardless of gender.',
+			},
+		],
+		sources: [
+			{ label: 'Real Academia Española — Diccionario panhispánico de dudas: "leísmo"', url: 'https://www.rae.es/dpd/le%C3%ADsmo' },
+			{ label: 'Real Academia Española — Libro de estilo de la lengua española: "Leísmo, laísmo y loísmo"', url: 'https://www.rae.es/libro-estilo-lengua-espa%C3%B1ola/le%C3%ADsmo-la%C3%ADsmo-y-lo%C3%ADsmo' },
+		],
+	},
 ];

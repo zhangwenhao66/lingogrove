@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" font-family="system-ui, -apple-system, sans-serif">
+	<rect width="800" height="420" fill="#f6f4e9"/>
+	<rect x="24" y="24" width="752" height="372" rx="10" fill="#fffefa" stroke="#ddd8c4"/>
+
+	<rect x="24" y="24" width="752" height="56" rx="10" fill="#2f6b47"/>
+	<rect x="24" y="60" width="752" height="20" fill="#2f6b47"/>
+	<text x="400" y="60" text-anchor="middle" fill="#ffffff" font-size="22" font-weight="700">DIRECT vs. INDIRECT OBJECT PRONOUNS</text>
+
+	<text x="154" y="100" text-anchor="middle" fill="#5a5648" font-size="13" font-weight="700">PERSON</text>
+	<text x="407" y="100" text-anchor="middle" fill="#2f6b47" font-size="13" font-weight="700">DIRECT (lo / la)</text>
+	<text x="653" y="100" text-anchor="middle" fill="#204a31" font-size="13" font-weight="700">INDIRECT (le)</text>
+
+	<line x1="24" y1="118" x2="776" y2="118" stroke="#ddd8c4" stroke-width="1"/>
+
+	<rect x="24" y="208" width="752" height="42" fill="#fbead0"/>
+	<rect x="24" y="334" width="752" height="42" fill="#fbead0"/>
+
+	<g font-size="15" font-weight="700" fill="#201f1a">
+		<text x="48" y="151">yo</text>
+		<text x="48" y="193">tú</text>
+		<text x="48" y="235">él / ella / usted</text>
+		<text x="48" y="277">nosotros</text>
+		<text x="48" y="319">vosotros</text>
+		<text x="48" y="361">ellos / ellas / ustedes</text>
+	</g>
+
+	<g font-size="18" font-weight="700" fill="#2f6b47" text-anchor="middle">
+		<text x="407" y="151">me</text>
+		<text x="407" y="193">te</text>
+		<text x="407" y="235" fill="#b5570f">lo / la</text>
+		<text x="407" y="277">nos</text>
+		<text x="407" y="319">os</text>
+		<text x="407" y="361" fill="#b5570f">los / las</text>
+	</g>
+
+	<g font-size="18" font-weight="700" fill="#204a31" text-anchor="middle">
+		<text x="653" y="151">me</text>
+		<text x="653" y="193">te</text>
+		<text x="653" y="235" fill="#b5570f">le</text>
+		<text x="653" y="277">nos</text>
+		<text x="653" y="319">os</text>
+		<text x="653" y="361" fill="#b5570f">les</text>
+	</g>
+
+	<line x1="284" y1="118" x2="284" y2="396" stroke="#ddd8c4" stroke-width="1"/>
+	<line x1="530" y1="118" x2="530" y2="396" stroke="#ddd8c4" stroke-width="1"/>
+
+	<text x="400" y="412" text-anchor="middle" fill="#5a5648" font-size="13" font-style="italic">Every person matches except the third — that's the only place lo/la and le actually differ.</text>
+</svg>
