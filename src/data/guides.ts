@@ -836,4 +836,94 @@ export const guides: Guide[] = [
 			},
 		},
 	},
+	{
+		slug: 'saber-vs-conocer',
+		category: 'Grammar',
+		title: 'Saber vs. Conocer: Spanish Has Two Verbs for "To Know"',
+		description: 'English "to know" covers facts and people alike. Spanish splits it in two, and the split gets stricter, not looser, in the past tense.',
+		published: '2026-08-04',
+		updated: '2026-08-04',
+		coreSummary: 'Saber is for facts, information, and learned skills (sé su número, sé nadar); conocer is for familiarity with people, places, and things (conozco a Ana, conozco Lima). The two verbs are not interchangeable, and the distinction gets sharper rather than fuzzier in the preterite: supe means "I found out," while conocí means "I met," a genuine change in meaning, not just tense.',
+		language: 'Spanish',
+		sections: [
+			{
+				heading: 'One English verb, two Spanish jobs',
+				body: [
+					'English "to know" stretches to cover two very different mental acts: knowing that something is true (*I know his phone number*), and being acquainted with someone or something (*I know his sister*). Spanish keeps those apart with two separate verbs, *saber* and *conocer*, and, unlike some pairs where the wrong choice is just an accent mistake, using the wrong one here produces a sentence a native speaker will notice immediately, because it claims something different than what you meant.',
+					'The quickest sorting test: if you could rephrase the English sentence with "know how to," "know that," or "know a fact about," reach for *saber*. If you could rephrase it with "am familiar with" or "have met," reach for *conocer*. That test holds for almost every case; the exceptions are worth knowing on their own, and they show up further down.',
+				],
+			},
+			{
+				heading: 'Saber: facts, information, and how to do things',
+				body: [
+					'**Facts and information.** *Sé que el tren sale a las ocho.* (I know the train leaves at eight.) *No sé su número.* (I don\'t know his number.) *Saber* takes a fact, a piece of data, or a *que*-clause as its object, something you could, in principle, write down.',
+					'**Skills, with an infinitive.** *Sé nadar. Sé tocar el piano. Sé hablar español.* (I know how to swim. I know how to play piano. I know how to speak Spanish.) This is the construction English speakers most often get wrong by reaching for *conocer* instead, because "I know how to" sounds closer to "familiarity" in English than it does in Spanish grammar.',
+					'*Saber* and *poder* both get translated as "can" in English, and that overlap causes a second, separate mix-up. *Sé nadar* claims a skill: you learned to swim at some point and haven\'t forgotten how. *Puedo nadar* claims present ability, for reasons that have nothing to do with skill: the pool is open, nobody\'s stopping you, your arm isn\'t in a cast. A strong swimmer with a broken arm can honestly say *sé nadar, pero no puedo nadar ahora* ("I know how to swim, but I can\'t swim right now") without any contradiction.',
+					'*Saber* is also one of the genuinely irregular verbs in Spanish rather than just an orthographic one: the *yo* form is *sé* (not *sabo*), the preterite stem is *sup-* (*supe, supiste, supo...*), and the future is built on *sabr-* (*sabré*) rather than the infinitive stem. None of those follow a predictable spelling rule the way *conocer*\'s does. They have to be learned as their own forms.',
+				],
+			},
+			{
+				heading: 'Conocer: familiarity with people, places, and things',
+				body: [
+					'**People.** *Conozco a Ana desde hace diez años.* (I\'ve known Ana for ten years.) Note the *a*: when the direct object of *conocer* is a specific person, Spanish requires the "personal a" before it, so it\'s *conozco a Ana*, never *conozco Ana*. Leaving it out is one of the most common non-native errors with this verb, distinct from the saber/conocer choice itself.',
+					'**Places.** *Conozco Lima, pero nunca he estado en Cusco.* (I know Lima, but I\'ve never been to Cusco.) Here *conocer* means "have been to / am familiar with," which is why it doesn\'t take the personal *a*: a city isn\'t a person.',
+					'**Things: books, films, ideas.** *Conozco esa novela; la leí el año pasado.* (I know that novel; I read it last year.) You aren\'t reciting facts about the novel here, you\'re claiming acquaintance with it as a whole, and that\'s what puts it on *conocer*\'s side rather than *saber*\'s.',
+					'*Conocer* also has a common reflexive form, *conocerse*, and it splits into two different meanings depending on who\'s doing the knowing. *Nos conocimos en la universidad* means "We met each other in college," the moment a mutual acquaintance began. *Me conozco bien* means "I know myself well," turning the same reflexive back on the speaker rather than between two people. Only the context (a plural subject meeting someone else, versus a subject examining themselves) tells you which reading applies.',
+					'*Conocer*\'s *yo* form is *conozco*, not *conoco*, but that\'s a spelling adjustment shared by a whole family of Spanish verbs ending in *-acer*, *-ecer*, *-ocer*, and *-ucir* (*parecer* → *parezco*, *conducir* → *conduzco*), not an irregularity unique to this verb the way *saber*\'s forms are.',
+				],
+				image: {
+					src: '/images/saber-vs-conocer-diagram.svg',
+					alt: 'Two-column comparison diagram: SABER covers facts and information, skills with an infinitive, the preterite meaning "found out," the idiom saber a ("taste like"), and a genuinely irregular yo form; CONOCER covers people, places, and familiarity with things, the preterite meaning "met," the personal a requirement before a person, and a yo form that is only a spelling adjustment.',
+				},
+			},
+			{
+				heading: 'Where the split gets sharper: the preterite',
+				body: [
+					'Most saber/conocer explanations stop at "facts vs. people," but the distinction actually tightens rather than loosens once you move into the preterite. In the preterite, *saber* and *conocer* do more than change endings: each one names a different kind of event.',
+					'*Supe que María se casó.* Not "I knew that María got married" but "**I found out** that María got married": the preterite marks the moment the fact entered your head, not an ongoing state of possessing it. *Conocí a Ana en la fiesta.* Not "I knew Ana at the party" but "**I met** Ana at the party": the moment acquaintance began, not a state of already knowing her.',
+					'This isn\'t a quirk unique to these two verbs. *Saber* and *conocer* belong to a small group of Spanish verbs, alongside *poder* ("was able to" becomes "managed to") and *querer* ("wanted to" becomes "tried to," in the affirmative, or "refused to" in the negative), where the preterite reports the specific instant a state began or resolved rather than simply placing a known state in the past. Learners who\'ve already sorted out the [broader preterite-versus-imperfect split](/preterite-vs-imperfect/) still trip on this group specifically, because the meaning shift is larger than "completed vs. ongoing." It\'s closer to two different English verbs mapping onto the same Spanish root.',
+				],
+			},
+			{
+				heading: 'Two more places they aren\'t quite parallel',
+				body: [
+					'**"Saber a" means "to taste like," not "to know."** *Esto sabe a limón.* (This tastes like lemon.) It\'s an idiomatic extension of *saber*\'s "have knowledge of" sense (you could think of it as the dish "knowing of" lemon), but it has to be memorized as its own construction rather than derived from the facts-vs-people rule.',
+					'**"Conocer de" exists, but "saber de" is usually the better choice.** Spanish speakers sometimes say *conoce de carpintería* under the influence of *saber*, but the more standard and preferred phrasing is *sabe de carpintería* ("he knows about carpentry") or, for a specific instance, *sabía de casos así* ("I knew of cases like that") over *conocía de casos así*. If you\'re choosing between the two for a "know about X" construction, *saber de* is the safer default.',
+					'One more contrast worth having next to this one: [ser and estar](/ser-vs-estar/) split English "to be" the way saber/conocer splits "to know," and the underlying move for both pairs is the same: stop translating the English word, and ask what kind of claim the sentence is actually making.',
+				],
+			},
+			{
+				heading: 'Three common mistakes, corrected',
+				body: [
+					'Seeing the wrong choice next to the right one tends to stick better than the rule alone. Three mix-ups account for most of the errors English speakers make with this pair.',
+					'*Yo conozco que ella vive en Lima* is wrong; *yo sé que ella vive en Lima* is right. A fact introduced by *que* always takes *saber*, even though *conozco* can feel like the safer, more general-sounding verb.',
+					'*Yo sé a tu profesor* is wrong; *yo conozco a tu profesor* is right. A person always takes *conocer*, and the personal *a* travels with *conocer*, never with *saber*.',
+					'*Sé Madrid muy bien* is wrong; *conozco Madrid muy bien* is right. A place is a matter of familiarity, something you\'ve been to and walked around in, not information you could recite, so it stays on *conocer*\'s side even though "I know Madrid well" sounds like a fact in English.',
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'Do you use saber or conocer for "I know how to swim" in Spanish?',
+				answer: '*Sé nadar*, with *saber*. Any "know how to [verb]" construction (swimming, cooking, playing an instrument) uses *saber* plus an infinitive, never *conocer*. *Conocer* can\'t take an infinitive as its object at all.',
+			},
+			{
+				question: 'Why does "conocí a Ana" mean "I met Ana" instead of "I knew Ana"?',
+				answer: 'In the preterite, *conocer* reports the moment acquaintance began rather than an ongoing state of familiarity, so *conocí a Ana en la fiesta* means "I met Ana at the party." To describe an ongoing state of already knowing her in the past, Spanish switches to the imperfect: *conocía a Ana desde la universidad* ("I knew/had known Ana since college").',
+			},
+			{
+				question: 'Do you need the personal "a" with both saber and conocer?',
+				answer: 'No — only *conocer* triggers it, and only when the direct object is a specific person: *conozco a Ana*. *Saber* never takes the personal *a*, because its object is a fact, a skill, or a *que*-clause, never a person: *sé que Ana llegó*, not *sé a que Ana llegó*.',
+			},
+			{
+				question: 'Is "saber a" ever used the way English uses "to know"?',
+				answer: 'No — *saber a* is an idiom that means "to taste like" (*esto sabe a canela*, "this tastes like cinnamon"), unrelated to the facts-vs-familiarity distinction covered above. It has to be learned as its own fixed expression rather than derived from either of saber\'s main uses.',
+			},
+		],
+		sources: [
+			{ label: 'Real Academia Española — Diccionario de la lengua española: "saber"', url: 'https://dle.rae.es/saber' },
+			{ label: 'Real Academia Española — Diccionario panhispánico de dudas: "conocer, conocerse"', url: 'https://www.rae.es/dpd/conocer' },
+			{ label: 'CliffsNotes — "Verbs That Change Meaning in the Preterite"', url: 'https://www.cliffsnotes.com/study-guides/spanish/spanish-i/narration-in-the-past/verbs-that-change-meaning-in-the-preterite' },
+		],
+	},
 ];

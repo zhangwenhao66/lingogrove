@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" font-family="system-ui, -apple-system, sans-serif">
+	<rect width="800" height="420" fill="#f6f4e9"/>
+	<rect x="24" y="24" width="360" height="372" rx="10" fill="#fffefa" stroke="#ddd8c4"/>
+	<rect x="416" y="24" width="360" height="372" rx="10" fill="#fffefa" stroke="#ddd8c4"/>
+
+	<rect x="24" y="24" width="360" height="56" rx="10" fill="#2f6b47"/>
+	<rect x="24" y="60" width="360" height="20" fill="#2f6b47"/>
+	<text x="204" y="60" text-anchor="middle" fill="#ffffff" font-size="26" font-weight="700">SABER</text>
+
+	<rect x="416" y="24" width="360" height="56" rx="10" fill="#204a31"/>
+	<rect x="416" y="60" width="360" height="20" fill="#204a31"/>
+	<text x="596" y="60" text-anchor="middle" fill="#ffffff" font-size="26" font-weight="700">CONOCER</text>
+
+	<g fill="#201f1a" font-size="16">
+		<text x="48" y="118" font-weight="700">Facts &amp; information</text>
+		<text x="48" y="140" fill="#5a5648" font-size="14">Sé que el tren sale a las ocho.</text>
+
+		<text x="48" y="172" font-weight="700">Skills (+ infinitive)</text>
+		<text x="48" y="194" fill="#5a5648" font-size="14">Sé nadar. Sé tocar el piano.</text>
+
+		<text x="48" y="226" font-weight="700">Preterite: found out</text>
+		<text x="48" y="248" fill="#5a5648" font-size="14">Supe que María se casó.</text>
+
+		<text x="48" y="280" font-weight="700">Idiom: saber a</text>
+		<text x="48" y="302" fill="#5a5648" font-size="14">Esto sabe a limón. (tastes like)</text>
+
+		<text x="48" y="334" font-weight="700">Yo form</text>
+		<text x="48" y="356" fill="#5a5648" font-size="14">sé — genuinely irregular</text>
+	</g>
+
+	<g fill="#201f1a" font-size="16">
+		<text x="440" y="118" font-weight="700">People &amp; places</text>
+		<text x="440" y="140" fill="#5a5648" font-size="14">Conozco a Ana. Conozco Lima.</text>
+
+		<text x="440" y="172" font-weight="700">Familiarity with things</text>
+		<text x="440" y="194" fill="#5a5648" font-size="14">Conozco esa novela.</text>
+
+		<text x="440" y="226" font-weight="700">Preterite: met</text>
+		<text x="440" y="248" fill="#5a5648" font-size="14">Conocí a Ana en la fiesta.</text>
+
+		<text x="440" y="280" font-weight="700">Requires personal "a"</text>
+		<text x="440" y="302" fill="#5a5648" font-size="14">before a person as object</text>
+
+		<text x="440" y="334" font-weight="700">Yo form</text>
+		<text x="440" y="356" fill="#5a5648" font-size="14">conozco — spelling change only</text>
+	</g>
+
+	<line x1="400" y1="24" x2="400" y2="396" stroke="#ddd8c4" stroke-width="1"/>
+</svg>
