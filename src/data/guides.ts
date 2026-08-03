@@ -95,23 +95,23 @@ export const guides: Guide[] = [
 		slug: 'por-vs-para',
 		category: 'Grammar',
 		title: 'Por vs. Para: The Actual Difference (With Real Examples)',
-		description: 'Por and para both translate as "for" — exactly why English speakers mix them up. The real rule has nothing to do with translation.',
+		description: 'Por and para both translate as "for," which is exactly why English speakers mix them up. The real rule has nothing to do with translation.',
 		published: '2026-08-03',
-		updated: '2026-08-03',
-		coreSummary: 'Para marks purpose, destination, deadline, or recipient — the thing an action is aimed at. Por marks cause, means, duration, exchange, or motion through a place — the thing an action moves through or comes from. Both can translate as English "for," which is exactly why the English translation is the wrong tool for choosing between them.',
+		updated: '2026-08-04',
+		coreSummary: 'Para marks purpose, destination, deadline, or recipient: the thing an action is aimed at. Por marks cause, means, duration, exchange, or motion through a place: the thing an action moves through or comes from. Both can translate as English "for," which is exactly why the English translation is the wrong tool for choosing between them.',
 		language: 'Spanish',
 		sections: [
 			{
 				heading: 'Why one English word hides two Spanish prepositions',
 				body: [
-					'English collapses a lot of ground into the single word "for": *this gift is for you*, *I studied for two hours*, *thanks for the help*, *we left for Madrid*. Spanish keeps two separate prepositions for that ground, and they are not interchangeable — using the wrong one is a genuine grammar error, not a stylistic slip, and Spanish speakers notice it immediately.',
+					'English collapses a lot of ground into the single word "for": *this gift is for you*, *I studied for two hours*, *thanks for the help*, *we left for Madrid*. Spanish keeps two separate prepositions for that ground, and they are not interchangeable. Using the wrong one is a genuine grammar error, not a stylistic slip, and Spanish speakers notice it immediately.',
 					'The reason English speakers default to translating word-for-word is that "for" does not map cleanly onto either *por* or *para* on its own. The fix is to stop translating and start asking what role the phrase is playing: is it pointing at a goal, or is it pointing at a cause? *Para* points forward, at where something is headed. *Por* points backward or sideways, at why or how or through what something happens.',
 				],
 			},
 			{
 				heading: 'Para: purpose, destination, deadline, recipient',
 				body: [
-					'*Para* answers "what for?" or "where to?" — it always has a target. Four uses cover almost everything you will see:',
+					'*Para* answers "what for?" or "where to?" It always has a target. Four uses cover almost everything you will see:',
 					'**Purpose or goal.** *Estudio español para viajar a Chile el próximo año.* (I study Spanish in order to travel to Chile next year.) If you can rephrase the sentence with "in order to," it is *para*.',
 					'**Destination.** *Salimos para Madrid mañana.* (We\'re leaving for Madrid tomorrow.) The endpoint of the trip, not the road you take to get there.',
 					'**Deadline.** *El informe es para el viernes.* (The report is due by Friday.) A point in the future the action is aimed at, not a stretch of time it fills.',
@@ -125,10 +125,10 @@ export const guides: Guide[] = [
 			{
 				heading: 'Por: cause, means, duration, exchange, motion through',
 				body: [
-					'*Por* answers "why?" or "how?" or "through what?" — it points at an origin, a method, or a path, not a destination.',
+					'*Por* answers "why?" or "how?" or "through what?" It points at an origin, a method, or a path, not a destination.',
 					'**Cause or reason.** *Cerraron la escuela por la tormenta.* (They closed the school because of the storm.) This is the one learners get wrong most often in the other direction: *gracias por tu ayuda* ("thanks for your help") uses *por*, not *para*, because the help is the reason for the thanks, not its destination.',
 					'**Means.** *Te llamo por teléfono esta noche.* (I\'ll call you by phone tonight.) The channel something travels through.',
-					'**Duration.** *Vivimos en Lima por tres años.* (We lived in Lima for three years.) A stretch of time the action fills, not a deadline it\'s aimed at — compare this to *el informe es para el viernes* above.',
+					'**Duration.** *Vivimos en Lima por tres años.* (We lived in Lima for three years.) A stretch of time the action fills, not a deadline it\'s aimed at (compare this to *el informe es para el viernes* above).',
 					'**Exchange.** *Cambié mi coche viejo por uno nuevo.* (I traded my old car for a new one.) Money or goods changing hands, one thing standing in for another.',
 					'**Motion through a place.** *Caminamos por el centro histórico.* (We walked through the historic center.) Contrast this with *para*\'s destination sense: *caminamos para el centro* would mean walking toward downtown as a goal, not wandering through it.',
 				],
@@ -138,13 +138,13 @@ export const guides: Guide[] = [
 				body: [
 					'Because the categories above can blur together in a fast conversation, the fastest working test is a rephrasing test, not a translation test: if you can substitute "in order to," "for the purpose of," or "by [deadline]" and the sentence still makes sense, it\'s *para*. If you can substitute "because of," "by means of," "through," or "in exchange for," it\'s *por*.',
 					'A handful of set phrases don\'t map onto either category cleanly and are just worth memorizing directly: *por fin* (finally), *por supuesto* (of course), *por ejemplo* (for example), and *para siempre* (forever) are fixed expressions where the preposition is baked into the idiom rather than derived from the rule.',
-					'Por and para aren\'t the only pair of Spanish words that collapse into one option in English — [ser and estar](/ser-vs-estar/) both translate as "to be," and the logic for telling them apart works the same way this one does: stop translating, and ask what job the word is doing in the sentence.',
+					'Por and para aren\'t the only pair of Spanish words that collapse into one option in English: [ser and estar](/ser-vs-estar/) both translate as "to be," and the logic for telling them apart works the same way this one does. Stop translating, and ask what job the word is doing in the sentence.',
 				],
 			},
 			{
 				heading: '"Estar para" and "estar por": one more place they split',
 				body: [
-					'The two prepositions split again when they pair with *estar*, and here the two phrases genuinely overlap rather than sitting in clean, separate categories. *Estar para* + infinitive most often signals readiness or mood: *No estoy para chistes* ("I\'m not in the mood for jokes") uses it to describe a state of mind, and the same construction can describe something poised and ready to happen. *Estar por* + infinitive leans toward intention or something expected in the near future — closer to "about to" or "still to be done."',
+					'The two prepositions split again when they pair with *estar*, and here the two phrases genuinely overlap rather than sitting in clean, separate categories. *Estar para* + infinitive most often signals readiness or mood: *No estoy para chistes* ("I\'m not in the mood for jokes") uses it to describe a state of mind, and the same construction can describe something poised and ready to happen. *Estar por* + infinitive leans toward intention or something expected in the near future, closer to "about to" or "still to be done."',
 					'Both phrases can genuinely mean "about to" depending on the region, which makes this one of the few spots where the clean por/para logic above gives way to dialect variation: some Spanish-speaking regions favor *estar por* for "about to," others reach for *estar para* in the same situation. Unlike the core rule, this is a case where listening to how the people around you actually talk is more reliable than applying a fixed rule.',
 				],
 			},
@@ -152,7 +152,7 @@ export const guides: Guide[] = [
 		faq: [
 			{
 				question: 'Do you say "gracias por" or "gracias para"?',
-				answer: '"Gracias por" — always. Thanks are given for a reason or cause (someone\'s help, a favor, a gift already received), which is *por* territory. "Gracias para" is a common learner error precisely because "for" sounds neutral in English but the underlying logic is causal, not purpose-directed.',
+				answer: '"Gracias por," always. Thanks are given for a reason or cause (someone\'s help, a favor, a gift already received), which is *por* territory. "Gracias para" is a common learner error precisely because "for" sounds neutral in English but the underlying logic is causal, not purpose-directed.',
 			},
 			{
 				question: 'Is there a quick test for choosing por or para?',
@@ -160,7 +160,7 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'Why does "por el parque" mean something different from "para el parque"?',
-				answer: '*Caminamos por el parque* means walking through the park — the park is the path, not the goal. *Caminamos para el parque* means walking toward the park as a destination. Same verb, same object, opposite relationship between the walker and the place.',
+				answer: '*Caminamos por el parque* means walking through the park: the park is the path, not the goal. *Caminamos para el parque* means walking toward the park as a destination. Same verb, same object, opposite relationship between the walker and the place.',
 			},
 			{
 				question: 'Does the por/para distinction disappear in casual speech?',
