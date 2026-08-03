@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" font-family="system-ui, -apple-system, sans-serif">
+	<rect width="800" height="420" fill="#f6f4e9"/>
+	<rect x="24" y="24" width="360" height="372" rx="10" fill="#fffefa" stroke="#ddd8c4"/>
+	<rect x="416" y="24" width="360" height="372" rx="10" fill="#fffefa" stroke="#ddd8c4"/>
+
+	<rect x="24" y="24" width="360" height="56" rx="10" fill="#2f6b47"/>
+	<rect x="24" y="60" width="360" height="20" fill="#2f6b47"/>
+	<text x="204" y="60" text-anchor="middle" fill="#ffffff" font-size="28" font-weight="700">POR</text>
+
+	<rect x="416" y="24" width="360" height="56" rx="10" fill="#204a31"/>
+	<rect x="416" y="60" width="360" height="20" fill="#204a31"/>
+	<text x="596" y="60" text-anchor="middle" fill="#ffffff" font-size="28" font-weight="700">PARA</text>
+
+	<g fill="#201f1a" font-size="16">
+		<text x="48" y="118" font-weight="700">Cause / reason</text>
+		<text x="48" y="140" fill="#5a5648" font-size="14">Cerraron la escuela por la tormenta.</text>
+
+		<text x="48" y="172" font-weight="700">Means</text>
+		<text x="48" y="194" fill="#5a5648" font-size="14">Te llamo por teléfono.</text>
+
+		<text x="48" y="226" font-weight="700">Duration</text>
+		<text x="48" y="248" fill="#5a5648" font-size="14">Vivimos en Lima por tres años.</text>
+
+		<text x="48" y="280" font-weight="700">Exchange</text>
+		<text x="48" y="302" fill="#5a5648" font-size="14">Cambié el coche por uno nuevo.</text>
+
+		<text x="48" y="334" font-weight="700">Motion through</text>
+		<text x="48" y="356" fill="#5a5648" font-size="14">Caminamos por el centro.</text>
+	</g>
+
+	<g fill="#201f1a" font-size="16">
+		<text x="440" y="118" font-weight="700">Purpose / goal</text>
+		<text x="440" y="140" fill="#5a5648" font-size="14">Estudio para aprender.</text>
+
+		<text x="440" y="172" font-weight="700">Destination</text>
+		<text x="440" y="194" fill="#5a5648" font-size="14">Salimos para Madrid mañana.</text>
+
+		<text x="440" y="226" font-weight="700">Deadline</text>
+		<text x="440" y="248" fill="#5a5648" font-size="14">El informe es para el viernes.</text>
+
+		<text x="440" y="280" font-weight="700">Recipient</text>
+		<text x="440" y="302" fill="#5a5648" font-size="14">Este regalo es para mi abuela.</text>
+	</g>
+
+	<line x1="400" y1="24" x2="400" y2="396" stroke="#ddd8c4" stroke-width="1"/>
+</svg>

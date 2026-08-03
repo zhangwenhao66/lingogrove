@@ -1,0 +1,37 @@
+---
+import type { ConjugationTable } from '../data/guides';
+
+interface Props {
+	table: ConjugationTable;
+}
+
+const { table } = Astro.props;
+---
+
+<div class="mt-2">
+	<p class="m-0 text-sm text-[var(--ink)]/60">
+		<strong class="text-[var(--ink)]">{table.verb}</strong> ({table.translation}) — {table.language}, <span class="capitalize">{table.regularity}</span>
+	</p>
+
+	{table.tenses.map((tense) => (
+		<div class="mt-6 first:mt-4">
+			<h3 class="font-display mb-2 text-base font-bold text-[var(--ink)]">{tense.tense}</h3>
+			<div class="overflow-x-auto">
+				<table class="word-table">
+					<tbody>
+						{tense.forms.map((f) => (
+							<tr>
+								<th scope="row" class="font-normal text-[var(--ink)]/60">{f.pronoun}</th>
+								<td class="headword">{f.form}</td>
+							</tr>
+						))}
+					</tbody>
+				</table>
+			</div>
+		</div>
+	))}
+
+	<p class="mt-5 text-xs text-[var(--ink)]/45">
+		Checked against <a href={table.source.url} target="_blank" rel="noopener noreferrer" class="underline">{table.source.label}</a>{table.source.note ? ` — ${table.source.note}` : ''}.
+	</p>
+</div>

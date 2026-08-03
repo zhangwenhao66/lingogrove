@@ -1,0 +1,215 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Article from '../../vendor/site-toolkit/packages/schema/src/Article.astro';
+import BreadcrumbList from '../../vendor/site-toolkit/packages/schema/src/BreadcrumbList.astro';
+import FAQPage from '../../vendor/site-toolkit/packages/schema/src/FAQPage.astro';
+import { pickRelatedGuides } from '../../vendor/site-toolkit/packages/related-guides/src/index.ts';
+import ConjugationTableView from '../components/ConjugationTableView.astro';
+import { guides, type Guide } from '../data/guides';
+import { AUTHOR_NAME, SITE_ORIGIN } from '../consts';
+
+export function getStaticPaths() {
+	return guides.map((guide) => ({
+		params: { slug: guide.slug },
+		props: { guide },
+	}));
+}
+
+interface Props {
+	guide: Guide;
+}
+
+const { guide } = Astro.props;
+// Rotating-window related-guides selection -- see vendor/site-toolkit/packages/related-guides
+// for why this isn't a fixed .slice(0, 6) (that bug starved most of a category of any inbound link).
+const related = pickRelatedGuides(guides, guide);
+
+const categoryToPath: Record<string, string> = {
+	'Grammar': '/grammar/',
+	'Loanwords': '/loanwords/',
+	'Phrases': '/phrases/',
+	'Conjugations': '/conjugations/',
+};
+const catPath = categoryToPath[guide.category] ?? '/';
+
+const REGISTER_LABEL: Record<string, string> = {
+	neutral: 'Neutral',
+	casual: 'Casual',
+	informal: 'Informal',
+	formal: 'Formal',
+	vulgar: 'Vulgar',
+	offensive: 'Can be offensive',
+};
+
+const pageUrl = `${SITE_ORIGIN}/${guide.slug}/`;
+const heroImage = `${SITE_ORIGIN}${guide.image ?? '/favicon.svg'}`;
+const toISO = (d: string) => `${d}T00:00:00+00:00`;
+const breadcrumbItems = [
+	{ name: 'Home', item: `${SITE_ORIGIN}/` },
+	{ name: guide.category, item: `${SITE_ORIGIN}${catPath}` },
+	{ name: guide.title, item: pageUrl },
+];
+
+function md(text: string): string {
+	return text
+		.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+		.replace(/\*(.*?)\*/g, '<em>$1</em>')
+		.replace(/\[([^\]]+)\]\(((?:[^()]|\([^()]*\))*)\)/g, '<a href="$2">$1</a>');
+}
+---
+
+<Layout title={guide.title} description={guide.description} ogImage={guide.image ?? '/favicon.svg'} ogType="article">
+	{guide.faq && guide.faq.length > 0 && <FAQPage items={guide.faq} slot="head" />}
+	<Article
+		slot="head"
+		headline={guide.title}
+		description={guide.description}
+		datePublished={toISO(guide.published ?? guide.updated)}
+		dateModified={toISO(guide.updated)}
+		authorName={AUTHOR_NAME}
+		authorUrl={`${SITE_ORIGIN}/about/`}
+		image={heroImage}
+		url={pageUrl}
+	/>
+	<BreadcrumbList slot="head" items={breadcrumbItems} />
+
+	<!-- Entry header: like a field-notebook headword card. -->
+	<div class="stratum -mt-10 bg-[var(--bedrock)]">
+		<div class="stratum-inner py-10 md:py-12">
+			<div class="mx-auto max-w-[680px]">
+				<nav class="mb-6 flex flex-wrap items-center gap-1.5 text-sm text-[var(--bedrock-text)]/55">
+					<a href="/" class="no-underline hover:text-white hover:underline">Home</a>
+					<span>/</span>
+					<a href={catPath} class="no-underline hover:text-white hover:underline">{guide.category}</a>
+				</nav>
+				<p class="m-0 text-[0.7rem] font-semibold uppercase tracking-[0.14em] text-[#8fd4a8]">
+					{guide.category}{guide.language ? ` · ${guide.language}` : ''}
+				</p>
+				<h1 class="font-display mt-3 text-3xl leading-[1.15] font-bold text-white md:text-4xl">{guide.title}</h1>
+				<p class="mt-4 text-lg leading-relaxed text-[var(--bedrock-text)]/85">{guide.description}</p>
+				<p class="mt-4 mb-0 text-xs text-[var(--bedrock-text)]/50">Last updated {guide.updated}</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="mx-auto max-w-[680px]">
+		{guide.image && (
+			<figure class="m-0 mt-10">
+				<img src={guide.image} alt={guide.imageAlt ?? guide.title} class="aspect-[16/9] w-full border border-[var(--ink)]/15 object-cover" loading="eager" />
+				{guide.imageCredit && <figcaption class="mt-2 text-xs text-[var(--ink)]/45" set:html={md(guide.imageCredit)} />}
+			</figure>
+		)}
+
+		<div class="callout mt-9 pl-5">
+			<p class="m-0 text-[0.7rem] font-semibold uppercase tracking-[0.1em] text-[var(--ink)]/45">Core summary</p>
+			<p class="mt-2 mb-0 text-[1.05rem] leading-relaxed text-[var(--ink)]">{guide.coreSummary}</p>
+		</div>
+
+		{guide.usageNote && (guide.usageNote.register || guide.usageNote.regionNote) && (
+			<div class="usage-note mt-5 pl-5">
+				{guide.usageNote.register && (
+					<p class="m-0 text-[0.7rem] font-semibold uppercase tracking-[0.1em] text-[#a04a2a]">
+						Register: {REGISTER_LABEL[guide.usageNote.register]}
+					</p>
+				)}
+				{guide.usageNote.regionNote && (
+					<p class="mt-1.5 mb-0 text-sm leading-relaxed text-[var(--ink)]/70">{guide.usageNote.regionNote}</p>
+				)}
+			</div>
+		)}
+
+		<article class="mt-9">
+			{guide.sections.map((section) => (
+				<section class="mb-8 border-b border-[var(--rule)] pb-8 last:mb-0 last:border-b-0 last:pb-0">
+					<h2 class="font-display mb-3.5 text-xl font-bold text-[var(--ink)]">{section.heading}</h2>
+					{section.body.map((paragraph) => <p class="mb-3.5 text-[0.9375rem] leading-[1.85] text-[var(--ink)]/70 last:mb-0" set:html={md(paragraph)} />)}
+					{section.image && (
+						<figure class="m-0 mt-5">
+							<img src={section.image.src} alt={section.image.alt} class="mx-auto h-auto max-h-[70vh] w-auto max-w-full" loading="lazy" />
+							{section.image.credit && <figcaption class="mt-2 text-xs text-[var(--ink)]/45" set:html={md(section.image.credit)} />}
+						</figure>
+					)}
+				</section>
+			))}
+		</article>
+
+		{guide.conjugation && (
+			<div class="mt-9 border-t border-[var(--rule)] pt-8">
+				<h2 class="font-display mb-2 text-xl font-bold text-[var(--ink)]">Full conjugation table</h2>
+				<ConjugationTableView table={guide.conjugation} />
+			</div>
+		)}
+
+		{guide.faq && guide.faq.length > 0 && (
+			<div class="mt-9">
+				<h2 class="font-display mb-4 text-xl font-bold text-[var(--ink)]">Frequently asked questions</h2>
+				<div class="flex flex-col">
+					{guide.faq.map((item) => (
+						<div class="border-b border-[var(--rule)] py-4 first:pt-0 last:border-b-0">
+							<p class="m-0 font-semibold text-[var(--ink)]">{item.question}</p>
+							<p class="mt-2 mb-0 text-sm leading-relaxed text-[var(--ink)]/65" set:html={md(item.answer)} />
+						</div>
+					))}
+				</div>
+			</div>
+		)}
+
+		{guide.sources && guide.sources.length > 0 && (
+			<div class="mt-9 border-t border-[var(--ink)] pt-4">
+				<p class="m-0 text-[0.7rem] font-semibold uppercase tracking-[0.1em] text-[var(--ink)]/45">Sources</p>
+				<ul class="mt-2 mb-0 list-none pl-0 text-sm text-[var(--ink)]/65">
+					{guide.sources.map((s) => (
+						<li class="py-1"><a href={s.url} target="_blank" rel="noopener noreferrer" class="text-[var(--ink)]/70 no-underline hover:text-[var(--ink)] hover:underline">{s.label}</a></li>
+					))}
+				</ul>
+			</div>
+		)}
+
+		{related.length > 0 && (
+			<div class="mt-10">
+				<h3 class="mb-3.5 text-xs font-semibold uppercase tracking-[0.1em] text-[var(--ink)]/45">More in {guide.category}</h3>
+				<div class="flex flex-col">
+					{related.map((g) => (
+						<a href={`/${g.slug}/`} class="item border-b border-[var(--rule)] py-3 no-underline first:pt-0 last:border-b-0">
+							<p class="m-0 text-[0.9375rem] font-semibold leading-snug text-[var(--ink)] hover:underline">{g.title}</p>
+						</a>
+					))}
+				</div>
+			</div>
+		)}
+
+		<div class="mt-10 border-t border-[var(--rule)] pt-6 text-sm text-[var(--ink)]/55">
+			<p class="m-0">Written and edited by <a href="/about/" class="text-[var(--ink)]/70 no-underline hover:text-[var(--ink)] hover:underline">{AUTHOR_NAME}</a></p>
+		</div>
+	</div>
+</Layout>
+
+<style>
+	.callout {
+		position: relative;
+	}
+	.callout::before {
+		content: '';
+		position: absolute;
+		left: 0; top: 0.2em; bottom: 0.2em;
+		width: 5px;
+		background: var(--flag);
+	}
+	.usage-note {
+		position: relative;
+	}
+	.usage-note::before {
+		content: '';
+		position: absolute;
+		left: 0; top: 0.2em; bottom: 0.2em;
+		width: 5px;
+		background: #a04a2a;
+	}
+	.item {
+		display: block;
+		transition: padding-left 0.15s ease;
+	}
+	.item:hover {
+		padding-left: 0.5rem;
+	}
+</style>

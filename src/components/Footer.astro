@@ -1,0 +1,19 @@
+---
+import { SITE_TITLE } from '../consts';
+const year = new Date().getFullYear();
+---
+
+<footer class="bg-[var(--bedrock)]">
+	<div class="mx-auto flex max-w-5xl flex-col gap-4 px-4 py-9 text-sm text-[var(--bedrock-text)]/75 md:flex-row md:items-center md:justify-between">
+		<p class="font-display m-0 text-[0.95rem] text-[var(--bedrock-text)]">&copy; {year} {SITE_TITLE}</p>
+		<nav class="flex flex-wrap gap-5">
+			<a href="/grammar/" class="text-[var(--bedrock-text)]/75 no-underline hover:text-white hover:underline">Grammar</a>
+			<a href="/loanwords/" class="text-[var(--bedrock-text)]/75 no-underline hover:text-white hover:underline">Loanwords</a>
+			<a href="/phrases/" class="text-[var(--bedrock-text)]/75 no-underline hover:text-white hover:underline">Phrases</a>
+			<a href="/conjugations/" class="text-[var(--bedrock-text)]/75 no-underline hover:text-white hover:underline">Conjugations</a>
+			<a href="/about/" class="text-[var(--bedrock-text)]/75 no-underline hover:text-white hover:underline">About</a>
+			<a href="/privacy/" class="text-[var(--bedrock-text)]/75 no-underline hover:text-white hover:underline">Privacy</a>
+			<a href="/terms/" class="text-[var(--bedrock-text)]/75 no-underline hover:text-white hover:underline">Terms</a>
+		</nav>
+	</div>
+</footer>

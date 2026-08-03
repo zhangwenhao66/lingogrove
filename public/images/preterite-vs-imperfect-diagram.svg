@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 340" font-family="system-ui, -apple-system, sans-serif">
+	<rect width="800" height="340" fill="#f6f4e9"/>
+
+	<!-- Preterite: a completed point on the line -->
+	<text x="48" y="56" fill="#201f1a" font-size="20" font-weight="700">Preterite — a completed action</text>
+	<line x1="48" y1="110" x2="752" y2="110" stroke="#ddd8c4" stroke-width="2"/>
+	<circle cx="220" cy="110" r="7" fill="#2f6b47"/>
+	<text x="220" y="140" text-anchor="middle" fill="#204a31" font-size="15" font-weight="600">bajó las escaleras</text>
+	<text x="220" y="160" text-anchor="middle" fill="#5a5648" font-size="13">(went down — done)</text>
+	<line x1="48" y1="90" x2="48" y2="130" stroke="#ddd8c4" stroke-width="1"/>
+	<text x="48" y="80" text-anchor="middle" fill="#8a8674" font-size="12">past</text>
+	<line x1="752" y1="90" x2="752" y2="130" stroke="#ddd8c4" stroke-width="1"/>
+	<text x="752" y="80" text-anchor="middle" fill="#8a8674" font-size="12">now</text>
+
+	<!-- Imperfect: an ongoing wavy segment, no clear edges -->
+	<text x="48" y="220" fill="#201f1a" font-size="20" font-weight="700">Imperfect — an action in progress</text>
+	<line x1="48" y1="274" x2="752" y2="274" stroke="#ddd8c4" stroke-width="2"/>
+	<path d="M 150 274 Q 175 262, 200 274 T 250 274 T 300 274" fill="none" stroke="#2f6b47" stroke-width="3" stroke-linecap="round"/>
+	<text x="225" y="304" text-anchor="middle" fill="#204a31" font-size="15" font-weight="600">bajaba las escaleras</text>
+	<text x="225" y="324" text-anchor="middle" fill="#5a5648" font-size="13">(was going down — no start or end shown)</text>
+</svg>

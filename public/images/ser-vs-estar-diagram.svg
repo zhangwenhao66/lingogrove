@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" font-family="system-ui, -apple-system, sans-serif">
+	<rect width="800" height="420" fill="#f6f4e9"/>
+	<rect x="24" y="24" width="360" height="372" rx="10" fill="#fffefa" stroke="#ddd8c4"/>
+	<rect x="416" y="24" width="360" height="372" rx="10" fill="#fffefa" stroke="#ddd8c4"/>
+
+	<rect x="24" y="24" width="360" height="56" rx="10" fill="#2f6b47"/>
+	<rect x="24" y="60" width="360" height="20" fill="#2f6b47"/>
+	<text x="204" y="60" text-anchor="middle" fill="#ffffff" font-size="28" font-weight="700">SER</text>
+
+	<rect x="416" y="24" width="360" height="56" rx="10" fill="#204a31"/>
+	<rect x="416" y="60" width="360" height="20" fill="#204a31"/>
+	<text x="596" y="60" text-anchor="middle" fill="#ffffff" font-size="28" font-weight="700">ESTAR</text>
+
+	<text x="204" y="104" text-anchor="middle" fill="#5a5648" font-size="13" font-style="italic">defining traits</text>
+	<text x="596" y="104" text-anchor="middle" fill="#5a5648" font-size="13" font-style="italic">states and conditions</text>
+
+	<g fill="#201f1a" font-size="16">
+		<text x="48" y="150" font-weight="700">Identity / origin</text>
+		<text x="48" y="172" fill="#5a5648" font-size="14">Es de Colombia. Soy profesor.</text>
+
+		<text x="48" y="206" font-weight="700">Inherent characteristics</text>
+		<text x="48" y="228" fill="#5a5648" font-size="14">Ella es simpática. (a trait of hers)</text>
+
+		<text x="48" y="262" font-weight="700">Time, date, events</text>
+		<text x="48" y="284" fill="#5a5648" font-size="14">Son las tres. La fiesta es aquí.</text>
+
+		<text x="48" y="318" font-weight="700">Material / possession</text>
+		<text x="48" y="340" fill="#5a5648" font-size="14">La mesa es de madera.</text>
+	</g>
+
+	<g fill="#201f1a" font-size="16">
+		<text x="440" y="150" font-weight="700">Location</text>
+		<text x="440" y="172" fill="#5a5648" font-size="14">Madrid está en España.</text>
+
+		<text x="440" y="206" font-weight="700">Temporary condition</text>
+		<text x="440" y="228" fill="#5a5648" font-size="14">Ella está simpática hoy. (right now)</text>
+
+		<text x="440" y="262" font-weight="700">Result of a change</text>
+		<text x="440" y="284" fill="#5a5648" font-size="14">La puerta está abierta.</text>
+
+		<text x="440" y="318" font-weight="700">Ongoing action</text>
+		<text x="440" y="340" fill="#5a5648" font-size="14">Estoy comiendo.</text>
+	</g>
+
+	<line x1="400" y1="24" x2="400" y2="396" stroke="#ddd8c4" stroke-width="1"/>
+</svg>

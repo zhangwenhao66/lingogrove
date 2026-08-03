@@ -1,0 +1,85 @@
+@import 'tailwindcss';
+@import '@fontsource-variable/lora';
+
+/*
+ * Grove house style.
+ *
+ * The design bet: this reads as a field notebook for words, not a blog. A dictionary
+ * page's one job is legibility under scanning eyes, so the palette stays quiet — warm
+ * paper, near-black ink — and the single accent is a grove green reserved for the
+ * target-language word itself (the thing a reader's eye should land on first) and for
+ * category labels. Everything else stays plain so that accent keeps doing its job.
+ *
+ * Type: Lora (self-hosted variable serif) for display and the target-language headword,
+ * system sans for UI chrome and body copy — the pairing most print dictionaries use
+ * (serif headword, sans gloss).
+ */
+:root {
+	--ink: #201f1a;
+	--paper: #f6f4e9;
+	--rule: #ddd8c4;
+	--flag: #2f6b47;
+	--flag-dark: #204a31;
+	--leaf: #fffefa;
+	--bedrock: #17241b;
+	--bedrock-text: #d7ddce;
+}
+
+body {
+	background-color: var(--paper);
+	color: var(--ink);
+	font-family: system-ui, -apple-system, 'Segoe UI', 'Noto Sans SC', sans-serif;
+}
+
+.font-display {
+	font-family: 'Lora Variable', 'Noto Serif SC', Georgia, serif;
+}
+
+.font-prose {
+	font-family: 'Lora Variable', 'Noto Serif SC', Georgia, serif;
+}
+
+/* Ruled card: the notebook's boxed entry, hairline rule on lighter stock. */
+.panel {
+	background: var(--leaf);
+	border: 1px solid var(--rule);
+}
+
+/* Category / eyebrow label in small caps, set in grove green. */
+.rubric {
+	font-size: 0.65rem;
+	font-weight: 700;
+	letter-spacing: 0.16em;
+	text-transform: uppercase;
+	color: var(--flag-dark);
+}
+
+/* Conjugation / comparison table: ruled rows, tabular figures so columns line up. */
+.word-table {
+	width: 100%;
+	border-collapse: collapse;
+}
+.word-table th,
+.word-table td {
+	text-align: left;
+	padding: 0.6rem 0.8rem;
+	border-bottom: 1px solid var(--rule);
+}
+.word-table thead th {
+	font-size: 0.65rem;
+	font-weight: 700;
+	letter-spacing: 0.12em;
+	text-transform: uppercase;
+	color: var(--ink);
+	opacity: 0.55;
+	border-bottom: 1.5px solid var(--ink);
+}
+.word-table tbody tr:last-child th,
+.word-table tbody tr:last-child td {
+	border-bottom: 0;
+}
+.word-table td.headword {
+	font-family: 'Lora Variable', 'Noto Serif SC', Georgia, serif;
+	font-weight: 600;
+	color: var(--flag-dark);
+}

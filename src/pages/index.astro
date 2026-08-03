@@ -1,0 +1,116 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { guides, type GuideCategory } from '../data/guides';
+
+const sorted = [...guides].sort((a, b) => b.updated.localeCompare(a.updated));
+const latest = sorted[0];
+
+const PILLARS: { category: GuideCategory; path: string; deck: string; tone: string }[] = [
+	{
+		category: 'Grammar',
+		path: '/grammar/',
+		deck: 'The comparisons that keep coming up because the rule alone never quite settles it.',
+		tone: 'var(--stratum-1, #ece7d4)',
+	},
+	{
+		category: 'Loanwords',
+		path: '/loanwords/',
+		deck: 'Foreign words English borrowed without ever fully translating, explained properly.',
+		tone: 'var(--stratum-2, #e2dcc4)',
+	},
+	{
+		category: 'Phrases',
+		path: '/phrases/',
+		deck: '"How do you say X" answers, with the regional and formality differences included.',
+		tone: 'var(--stratum-3, #d6cfb3)',
+	},
+	{
+		category: 'Conjugations',
+		path: '/conjugations/',
+		deck: 'Full verb tables, generated from code and checked against a grammar reference.',
+		tone: 'var(--stratum-4, #cac1a2)',
+	},
+];
+
+const byPillar = PILLARS.map((p) => ({
+	...p,
+	items: sorted.filter((g) => g.category === p.category).slice(0, 3),
+}));
+---
+
+<Layout>
+	<section class="pt-4 pb-14 md:pt-8">
+		<h1 class="font-display max-w-3xl text-4xl leading-[1.12] font-bold tracking-tight text-[var(--ink)] md:text-5xl">
+			A language reference for the moment you need one exact answer.
+		</h1>
+		<p class="mt-5 max-w-xl text-[1.02rem] leading-relaxed text-[var(--ink)]/60">
+			Translations, loanword meanings, verb conjugations, and grammar explained in plain English —
+			checked against real dictionaries and grammar references, not written from memory.
+		</p>
+		{latest && (
+			<a href={`/${latest.slug}/`} class="latest mt-8 inline-block max-w-xl border-l-2 border-[var(--flag)] pl-4 no-underline">
+				<p class="m-0 text-[0.7rem] font-semibold uppercase tracking-[0.14em] text-[var(--flag-dark)]">Latest</p>
+				<p class="font-display latest-title m-0 mt-1 text-[1.2rem] leading-snug font-bold text-[var(--ink)]">{latest.title}</p>
+			</a>
+		)}
+	</section>
+
+	{byPillar.map((p, i) => (
+		<section class={`stratum ${i === byPillar.length - 1 ? '-mb-10' : ''}`} style={`background:${p.tone}`}>
+			<div class="stratum-inner py-12 md:py-14">
+				<div class="flex flex-wrap items-baseline justify-between gap-x-6 gap-y-1">
+					<h2 class="font-display m-0 text-[1.7rem] font-bold tracking-tight text-[var(--ink)]">{p.category}</h2>
+					<a href={p.path} class="text-sm font-medium text-[var(--flag-dark)] no-underline hover:underline">
+						All {p.category.toLowerCase()}
+					</a>
+				</div>
+				<p class="mt-2 mb-0 max-w-xl text-[0.95rem] leading-relaxed text-[var(--ink)]/60">{p.deck}</p>
+
+				{p.items.length > 0 ? (
+					<div class="mt-8 grid gap-x-8 gap-y-8 sm:grid-cols-2 lg:grid-cols-3">
+						{p.items.map((g) => (
+							<a href={`/${g.slug}/`} class="entry block no-underline">
+								{g.image && (
+									<img
+										src={g.image}
+										alt={g.imageAlt ?? g.title}
+										class="aspect-[3/2] w-full border border-[var(--ink)]/15 object-cover"
+										loading="lazy"
+									/>
+								)}
+								<p class="font-display entry-title m-0 mt-3 text-[1.15rem] leading-snug font-bold text-[var(--ink)]">{g.title}</p>
+								<p class="m-0 mt-1.5 text-sm leading-relaxed text-[var(--ink)]/60">{g.description}</p>
+							</a>
+						))}
+					</div>
+				) : (
+					<p class="mt-8 mb-0 text-sm text-[var(--ink)]/45">
+						Nothing published here yet. <a href={p.path} class="text-[var(--flag-dark)] underline underline-offset-2">See what this section covers</a>.
+					</p>
+				)}
+			</div>
+		</section>
+	))}
+</Layout>
+
+<style>
+	.latest:hover .latest-title,
+	.entry:hover .entry-title {
+		text-decoration: underline;
+		text-underline-offset: 3px;
+	}
+	.entry img {
+		transition: transform 0.2s ease;
+	}
+	.entry:hover img {
+		transform: translateY(-2px);
+	}
+	@media (prefers-reduced-motion: reduce) {
+		.entry img {
+			transition: none;
+		}
+		.entry:hover img {
+			transform: none;
+		}
+	}
+</style>
