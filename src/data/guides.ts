@@ -1234,4 +1234,98 @@ export const guides: Guide[] = [
 			{ label: 'Real Academia Española — Nueva gramática básica: "Pronombres reflexivos y recíprocos"', url: 'https://www.rae.es/gram%C3%A1tica-b%C3%A1sica/el-pronombre-personal/pronombres-reflexivos-y-rec%C3%ADprocos' },
 		],
 	},
+	{
+		slug: 'spanish-future-tense',
+		category: 'Grammar',
+		title: 'Spanish Future Tense: Ir a + Infinitive vs. the Simple Future',
+		description: 'Spanish has two ways to talk about the future, and picking the "wrong" one isn\'t just a style slip — one of them barely means future at all in half its real uses.',
+		published: '2026-08-05',
+		updated: '2026-08-05',
+		coreSummary: 'Spanish uses two distinct constructions for the future: the periphrasis ir a + infinitive (voy a llamar), which now dominates everyday speech, and the simple future tense (llamaré), built by adding one set of endings — historically fused from the present tense of haber — directly onto the infinitive. Per the Real Academia Española, the simple future is increasingly replaced by ir a + infinitive in spoken American Spanish, but it survives specifically for the futuro de conjetura (guessing about the present, as in Serán las tres, "it\'s probably three") and for formal, literary, and legal registers — a modal use that has no future-tense meaning in English at all.',
+		language: 'Spanish',
+		sections: [
+			{
+				heading: 'Two ways to point at the future — and they\'re not interchangeable',
+				body: [
+					'Spanish has two everyday ways to talk about something that hasn\'t happened yet. *Voy a llamar a mi hermana esta noche* ("I\'m going to call my sister tonight") uses the periphrasis *ir* + *a* + infinitive. *Llamaré a mi hermana esta noche* ("I will call my sister tonight") uses the simple future tense, built by adding endings straight onto the infinitive. Plenty of English-language grammar guides present these as a casual-versus-formal pair, the Spanish equivalent of "I\'m gonna call" against "I will call." That\'s close, but it understates what\'s actually going on.',
+					'The Real Academia Española\'s own description of the periphrasis is more precise: *ir a* + infinitive expresses *posterioridad* (futurity) and constantly competes with the future indicative and the conditional to do that job, but the periphrasis shows up far more often in spoken language than in writing, and some formal registers avoid it as inappropriate. That\'s a statement about frequency and register, not about which form is "more correct" — both are standard Spanish, and (as the sections below cover) the simple future carries at least two jobs the periphrasis can\'t do at all.',
+				],
+				image: {
+					src: '/images/spanish-future-tense-diagram.svg',
+					alt: 'Two timelines comparing Spanish future forms: "voy a llamar" clustered near the present as a spoken, in-motion plan, and "llamaré" spread further out as a formal prediction, with a separate marker showing the same simple future used at the present moment for conjecture, as in "serán las tres."',
+				},
+			},
+			{
+				heading: 'Building the periphrastic future',
+				body: [
+					'The formation is mechanical: conjugate *ir* in the present tense (*voy, vas, va, vamos, vais, van*), add *a*, then add any infinitive unchanged. *Va a llover.* (It\'s going to rain.) *Vamos a comer.* (We\'re going to eat.) Nothing about the main verb changes — all the conjugating happens on *ir*.',
+					'When the main verb takes a reflexive or object pronoun, Spanish allows it in two positions: attached to the end of the infinitive, or moved in front of the conjugated *ir*. *Voy a levantarme temprano* and *Me voy a levantar temprano* both mean "I\'m going to get up early," with no difference in meaning. This is the same either-or placement Spanish uses whenever [a conjugated verb is directly followed by an infinitive](/spanish-reflexive-verbs/) — it isn\'t specific to the future.',
+				],
+			},
+			{
+				heading: 'Building the simple future: one set of endings for every verb',
+				body: [
+					'The simple future is unusual among Spanish tenses because it doesn\'t split into three separate ending patterns for *-ar*, *-er*, and *-ir* verbs. Every regular verb, regardless of conjugation class, takes the exact same six endings — *-é, -ás, -á, -emos, -éis, -án* — attached to the full infinitive, not a shortened stem: *hablar* → *hablaré*, *comer* → *comeré*, *vivir* → *viviré*. Compare that to the present or preterite, where *-ar* verbs and *-er/-ir* verbs use noticeably different endings, and the future\'s uniformity stands out.',
+					'There\'s a historical reason the endings look less like typical verb endings and more like a separate word tacked on — that\'s covered further down, after the irregular verbs.',
+				],
+			},
+			{
+				heading: 'The twelve verbs that don\'t just tack endings onto the infinitive',
+				body: [
+					'Twelve common verbs keep the same six future endings but attach them to a shortened or altered stem instead of the full infinitive. They fall into three patterns. Five drop the infinitive\'s final vowel: *caber* → *cabr-*, *haber* → *habr-*, *poder* → *podr-*, *querer* → *querr-*, *saber* → *sabr-*. Five drop the vowel and insert a *-d-*: *poner* → *pondr-*, *salir* → *saldr-*, *tener* → *tendr-*, *valer* → *valdr-*, *venir* → *vendr-*. Two don\'t fit either pattern and just have to be memorized: *decir* → *dir-*, *hacer* → *har-*.',
+					'Once the stem is settled, the endings are identical to any regular verb\'s: *tener* becomes *tendré, tendrás, tendrá, tendremos, tendréis, tendrán*. Ser, otherwise one of Spanish\'s most irregular verbs, isn\'t on this list at all — [its future tense conjugates entirely regularly](/ser-conjugation/): *seré, serás, será, seremos, seréis, serán*.',
+				],
+			},
+			{
+				heading: 'The simple future used to be a periphrasis too',
+				body: [
+					'The reason future endings look bolted onto the infinitive rather than woven into it is that, historically, they were a separate word. Latin had lost its own synthetic future forms, and Vulgar Latin rebuilt one by fusing the infinitive with the present tense of *habere* ("to have"): *cantare habeo*, literally "I have to sing," gradually lost its sense of obligation and became a plain future, "I will sing." As the construction fused into a single word, *cantar he* became *cantaré* — and before the fusion was complete, Spanish speakers could still insert a pronoun between the two pieces, as in *cantar lo he* ("I will sing it"), a possibility that disappeared once *cantar he* solidified into one word.',
+					'The same process is playing out again, in real time, with *ir a* + infinitive. Spanish built its current simple future by grammaticalizing a periphrasis centuries ago, and today\'s periphrastic future is doing the equivalent job while it slowly displaces the simple future in everyday speech — a cycle documented in RAE\'s own account of *futuros sintéticos y analíticos*.',
+				],
+			},
+			{
+				heading: 'The real trap: future tense that isn\'t about the future',
+				body: [
+					'The simple future has two uses that have nothing to do with predicting what happens later, and both trip up learners because a literal translation misses them entirely. The first is the *futuro de conjetura*: using the future tense to guess about something happening right now. Asked *"¿Dónde está Juan?"*, a Spanish speaker might answer *"Estará en casa"* — not "He will be at home," but "He\'s probably at home." Asked the time with no clock in sight, *"Serán las tres"* means "It\'s probably three," not any statement about a future three o\'clock. RAE gives its own example of the same value: *"Ahora mismo serán las ocho"* ("It\'s probably eight right now").',
+					'The second is modal: a future-tense statement addressed to someone else can function as an order, a warning, or a threat rather than a prediction. RAE\'s own examples cover all three — *"Comprarás el más barato"* ("You will buy the cheapest one," functioning as an instruction), *"Te caerás"* ("You\'ll fall," functioning as a warning), and *"Me las pagarás"* ("You\'ll pay for this," functioning as a threat). None of these are claims about the future; the future tense is doing the work English would hand to a modal verb or a different sentence altogether.',
+				],
+			},
+			{
+				heading: 'So which one do you actually reach for?',
+				body: [
+					'For a plan someone has already decided on and is about to act on, *ir a* + infinitive is the default in spoken Spanish, especially across Latin America — RAE notes that the synthetic (simple) future tends to be replaced by the periphrastic future in American Spanish, while remaining common with the conjecture value and in formal registers such as literary, judicial, and administrative Spanish. *Voy a estudiar medicina* reads as a plan already in motion; *Estudiaré medicina* reads more like a vow or a prediction, and turns up more often in writing, formal speech, or Spain than in casual conversation elsewhere.',
+					'Reach for the simple future specifically when the sentence is a promise, a prediction about something genuinely uncertain, a formal or written statement, or a guess about what\'s true right now. Everywhere else, *ir a* + infinitive is the safer, more natural default, and it\'s the one native speakers reach for first.',
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'Is "voy a hablar" just a casual version of "hablaré"?',
+				answer: 'Not exactly. They overlap heavily in meaning, and ir a + infinitive is far more common in speech, especially in Latin America, but the simple future carries two jobs the periphrasis doesn\'t: the futuro de conjetura (guessing about the present, as in "Serán las tres," "it\'s probably three") and modal uses like orders, warnings, and threats ("Te caerás," "you\'ll fall"). Calling one "casual" and the other "formal" misses those uses entirely.',
+			},
+			{
+				question: 'Why do Spanish future-tense endings look the same for -ar, -er, and -ir verbs?',
+				answer: 'Because they aren\'t really conjugation-class endings at all — they\'re what\'s left of the present tense of haber ("to have"), fused onto the infinitive. Vulgar Latin built the future by combining an infinitive with habere, so cantare habeo became cantar he and eventually cantaré. Since the ending is a fossilized auxiliary verb rather than a tense marker specific to each conjugation, it stayed the same regardless of whether the main verb ends in -ar, -er, or -ir.',
+			},
+			{
+				question: 'Why do verbs like tener and poner change their stem in the future tense?',
+				answer: 'Twelve verbs shorten or alter the infinitive before adding the future endings. Five drop the final vowel (poder → podr-, saber → sabr-, caber → cabr-, querer → querr-, haber → habr-), five drop the vowel and add a -d- (tener → tendr-, poner → pondr-, salir → saldr-, valer → valdr-, venir → vendr-), and two are irregular outright (decir → dir-, hacer → har-). The endings attached to those stems are the same six regular endings every other verb uses.',
+			},
+			{
+				question: 'Does "estará" always mean "will be"?',
+				answer: 'No — this is the biggest trap in the tense. Spanish uses the future to express conjecture about the present, not just predictions about later. "¿Dónde está Juan?" "Estará en casa" doesn\'t mean "He will be at home"; it means "He\'s probably at home right now." The clue is usually context: no future time marker, and a question that\'s asking about the present.',
+			},
+			{
+				question: 'Is the simple future disappearing from spoken Spanish?',
+				answer: 'It\'s fading from everyday conversational use in favor of ir a + infinitive, particularly in American Spanish, according to the RAE\'s own grammar. It hasn\'t disappeared, though — it remains the normal choice for conjecture about the present, for formal predictions and promises, and for literary, judicial, and administrative registers, where the periphrastic future can read as too informal.',
+			},
+		],
+		sources: [
+			{ label: 'Real Academia Española — Nueva gramática básica: "El futuro simple (cantaré)"', url: 'https://www.rae.es/gram%C3%A1tica-b%C3%A1sica/el-verbo/tiempos-verbales-del-modo-indicativo/el-futuro-simple-cantar%C3%A9' },
+			{ label: 'Real Academia Española — Nueva gramática de la lengua española: "El futuro simple (cantaré). Futuros sintéticos y analíticos"', url: 'https://www.rae.es/gram%C3%A1tica/sintaxis/el-futuro-simple-cantar%C3%A9-futuros-sint%C3%A9ticos-y-anal%C3%ADticos' },
+			{ label: 'Real Academia Española — Nueva gramática de la lengua española: "Perífrasis de infinitivo (III). Perífrasis temporales y aspectuales. El verbo ir"', url: 'https://www.rae.es/gram%C3%A1tica/sintaxis/per%C3%ADfrasis-de-infinitivo-iii-per%C3%ADfrasis-temporales-y-aspectuales-el-verbo-ir' },
+			{ label: 'StudySpanish.com — "Future Tense" (irregular stem list, cross-checked)', url: 'https://studyspanish.com/grammar/lessons/future' },
+			{ label: 'Gramática histórica del castellano — "Futuro simple de indicativo: evolución"', url: 'https://www.delcastellano.com/evolucion-futuro/' },
+		],
+	},
 ];
