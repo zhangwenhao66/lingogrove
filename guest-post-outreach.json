@@ -1,0 +1,53 @@
+[
+  {
+    "date": "2026-08-04",
+    "site": "lingogrove",
+    "niche_focus": "language reference for English speakers (translation words, loanword meanings, verb conjugation, grammar disambiguation) — modeled after SpanishDict/WordHippo",
+    "channels_researched": [
+      {
+        "name": "Glossika Blog",
+        "url": "https://ai.glossika.com/blog/glossika-guest-post-guideline",
+        "status": "pitch sent 2026-08-04",
+        "notes": "Real, active guidelines page. Accepts language/culture/grammar/niche-language pieces, ~1,500 words, pitch required before writing (non-negotiable), pays $50 flat + 2 backlinks. Email support@glossika.com. Good topic fit for LingoGrove's loanword content (schadenfreude/senpai/deja vu angle). 2026-08-04: processed as backlog item per new humanizer+independent-review+auto-send policy — re-verified guidelines page still live and unchanged (curl, dateModified 2024-09-18), no prior send to this domain, ran through humanizer, independent review agent returned CAN SEND, sent via gmail_send.py --from lingogrove. Message ID 19fcb764c146040b, From header confirmed as LingoGrove <contact@lingogrove.com> (alias delivery verified, not silently rewritten). Full record in outreach-drafts.md."
+      },
+      {
+        "name": "Learn English Weekly",
+        "url": "https://learnenglishweekly.com/write-for-us",
+        "status": "viable — pitch drafted, not sent",
+        "notes": "Real, active. Accepts English grammar/vocabulary/ESL content, 800-1,500 words. Submission via Google Form (https://forms.gle/HS7iyzaSmUicWQ6f8) or email, form wants an outline/article not just site info so treated as a pitch channel rather than a direct-submit form. One dofollow backlink. Good fit — vocabulary-building angle on loanwords."
+      },
+      {
+        "name": "English EFL",
+        "url": "https://www.english-efl.com/submit-guest-post/",
+        "status": "viable — pitch drafted, not sent",
+        "notes": "Real, active. Categories include Grammar and Vocabulary — good fit for LingoGrove's grammar disambiguation content (por vs para angle). Pitch requested before full submission. Email info@english-efl.com. 400-1,500 words, max 3 external links, explicitly rejects promotional/press-release content (our pitch is a genuine article idea, not a sales pitch, so this is fine)."
+      },
+      {
+        "name": "Virtual Writing Tutor Blog",
+        "url": "https://blog.virtualwritingtutor.com/guest-blog-posts-welcome/",
+        "status": "viable — pitch drafted, not sent",
+        "notes": "Real, active. Topics explicitly include grammar, punctuation, vocabulary, style — strong fit for LingoGrove. Operator says submissions are reviewed selectively ('very picky') and no response = rejection, so sent a pitch first rather than a finished article. Email admin@virtualwritingtutor.com. No payment; requires social sharing of published post."
+      },
+      {
+        "name": "ICAL TEFL",
+        "url": "https://icaltefl.com/guest-blogs-write-for-us/",
+        "status": "real and open, weaker topic fit — pitch drafted anyway (moderate overlap via grammar teaching angle), not sent",
+        "notes": "Real, active. Audience is TEFL/ESL teachers (classroom techniques, job hunting, teaching methodology) rather than general-audience language reference readers — narrower fit than the other four. Still has a plausible classroom-angled pitch (preterite vs imperfect teaching framing), included as a lower-priority option. Email admin@icaltefl.com with outline first, 600-700 words."
+      },
+      {
+        "name": "LingoRelic Language Academy",
+        "url": "https://lingorelic.com/write-for-us-guest-posts-for-lingorelic-language-academy/",
+        "status": "real but poor topic fit — not pursued",
+        "notes": "Real, active guest post program, but scope is specifically French-language exam prep (TEF/TCF/DELF/DALF), teaching-assistantship-in-France content, and Canadian immigration — none of which overlaps with LingoGrove's general translation/loanword/grammar reference content. No pitch drafted."
+      },
+      {
+        "name": "OptiLingo",
+        "url": "https://www.optilingo.com/write-for-us/",
+        "status": "dead link — disqualified",
+        "notes": "Search results and prior write-ups reference an OptiLingo 'write for us' page, but the domain now 404s (optilingo.com redirects to a generic 'Page not found' — verified via browser render, not just curl). No longer a real open channel."
+      }
+    ],
+    "actions_taken": "No form submissions made — none of the real/open channels found were simple directory-style forms (site name/URL/description/contact only); all require a topic pitch or outline first per their own guidelines. Drafted 5 tailored pitch emails (not sent) based on actual published LingoGrove guides (schadenfreude-meaning, por-vs-para, preterite-vs-imperfect, ser-vs-estar) — full drafts saved to guest-post-pitch-drafts.md in this repo, ready for Owen to review/approve and send.",
+    "result_summary": "5/7 channels viable (Glossika, Learn English Weekly, English EFL, Virtual Writing Tutor, ICAL TEFL as lower-priority); 1 real-but-poor-fit (LingoRelic, French-exam-specific); 1 dead link (OptiLingo). This is a stronger hit rate than the first runs on hollowvane/factcrumbs/warcrumbs (all 0 viable) — language-learning/ESL blogs run much more active, well-maintained guest-post programs than the rage-bait/trivia/military-history niches did. Pending for Owen: review the 5 drafted pitches in guest-post-pitch-drafts.md and decide which to actually send (all use contact@lingogrove.com as reply-to, confirmed configured on the site's About page)."
+  }
+]
