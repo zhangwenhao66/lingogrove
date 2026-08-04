@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 360" font-family="system-ui, -apple-system, sans-serif">
+	<rect width="800" height="360" fill="#f6f4e9"/>
+
+	<!-- Top: the shared proposition -->
+	<text x="400" y="42" text-anchor="middle" fill="#201f1a" font-size="19" font-weight="700">Same content: "tiene razón" (he's right)</text>
+	<rect x="300" y="58" width="200" height="36" rx="6" fill="#eae5d0" stroke="#ddd8c4" stroke-width="1"/>
+	<text x="400" y="81" text-anchor="middle" fill="#5a5648" font-size="13">no time or tense changes below</text>
+
+	<line x1="400" y1="94" x2="220" y2="140" stroke="#ddd8c4" stroke-width="2"/>
+	<line x1="400" y1="94" x2="580" y2="140" stroke="#ddd8c4" stroke-width="2"/>
+
+	<!-- Left: indicativo -->
+	<rect x="60" y="140" width="320" height="80" rx="8" fill="#e7efe9" stroke="#2f6b47" stroke-width="1.5"/>
+	<text x="220" y="168" text-anchor="middle" fill="#204a31" font-size="17" font-weight="700">Creo que tiene razón</text>
+	<text x="220" y="190" text-anchor="middle" fill="#204a31" font-size="13">INDICATIVO — presented as fact, asserted</text>
+	<text x="220" y="208" text-anchor="middle" fill="#5a5648" font-size="12">"I think he's right"</text>
+
+	<!-- Right: subjuntivo, two framings -->
+	<rect x="420" y="120" width="320" height="72" rx="8" fill="#f1e6db" stroke="#8a5a2e" stroke-width="1.5"/>
+	<text x="580" y="146" text-anchor="middle" fill="#6b3f16" font-size="17" font-weight="700">Espero que tenga razón</text>
+	<text x="580" y="166" text-anchor="middle" fill="#6b3f16" font-size="13">SUBJUNTIVO — framed as hoped, not asserted</text>
+	<text x="580" y="184" text-anchor="middle" fill="#5a5648" font-size="12">"I hope he's right"</text>
+
+	<rect x="420" y="204" width="320" height="72" rx="8" fill="#f1e6db" stroke="#8a3b2e" stroke-width="1.5"/>
+	<text x="580" y="230" text-anchor="middle" fill="#8a3b2e" font-size="17" font-weight="700">Dudo que tenga razón</text>
+	<text x="580" y="250" text-anchor="middle" fill="#8a3b2e" font-size="13">SUBJUNTIVO — framed as doubted, not asserted</text>
+	<text x="580" y="268" text-anchor="middle" fill="#5a5648" font-size="12">"I doubt he's right"</text>
+
+	<!-- Bottom note -->
+	<text x="400" y="320" text-anchor="middle" fill="#201f1a" font-size="14" font-weight="600">Mood marks the speaker's stance toward the claim — not when it happens.</text>
+	<text x="400" y="342" text-anchor="middle" fill="#8a8674" font-size="12">tiene (indicativo) vs. tenga (subjuntivo) — same verb, same "now," different framing</text>
+</svg>
