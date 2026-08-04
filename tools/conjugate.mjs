@@ -9,10 +9,13 @@
  *    in conjugate.test.mjs against three real verbs (hablar/comer/vivir) fetched from an
  *    independent source, not just asserted.
  *  - IRREGULAR verbs: looked up form-by-form from IRREGULAR_VERBS. Nothing here is
- *    generated or guessed. Every form was fetched from Wiktionary's Spanish conjugation
- *    tables (which are built from RAE-conformant conjugation templates) on 2026-08-03,
- *    cross-checked against a second independent source (ellaverbs.com, via web search)
- *    for the forms compared, and is re-verified in conjugate.test.mjs.
+ *    generated or guessed. Every form was transcribed from the Real Academia Española /
+ *    ASALE conjugation table in the Diccionario de la lengua española (DLE 23.8.1,
+ *    https://dle.rae.es/ser), fetched 2026-08-04, and is re-verified in
+ *    conjugate.test.mjs. The simple tenses and both imperatives were independently
+ *    re-checked against Wiktionary's Spanish conjugation of "ser"; the compound tenses
+ *    were re-checked against Wiktionary's conjugation of "haber", since every Spanish
+ *    compound tense is a form of haber plus the invariable participle.
  *
  * Do NOT add an irregular verb's forms by typing them in from memory. Fetch them from a
  * cited source, add the citation to IRREGULAR_VERBS[verb].source, and add a test.
@@ -107,10 +110,12 @@ export const IRREGULAR_VERBS = {
 		language: 'Spanish',
 		translation: 'to be',
 		source: {
-			label: 'Wiktionary — Spanish conjugation of "ser"',
-			url: 'https://en.wiktionary.org/wiki/ser',
-			note: 'Cross-checked against ellaverbs.com for imperfect/future forms, fetched 2026-08-03',
+			label: 'the Real Academia Española conjugation table for "ser"',
+			url: 'https://dle.rae.es/ser',
+			note: 'Every form transcribed from the RAE/ASALE conjugation table (DLE 23.8.1) on 2026-08-04; simple tenses and both imperatives re-checked against Wiktionary\'s "ser" entry, compound tenses against its "haber" entry',
 		},
+		// Key order below is the order the tenses render in. Simple tenses first, then the
+		// compound (haber + sido) ones, then the non-finite forms.
 		tenses: {
 			Present: ['soy', 'eres', 'es', 'somos', 'sois', 'son'],
 			Preterite: ['fui', 'fuiste', 'fue', 'fuimos', 'fuisteis', 'fueron'],
@@ -118,13 +123,43 @@ export const IRREGULAR_VERBS = {
 			Future: ['seré', 'serás', 'será', 'seremos', 'seréis', 'serán'],
 			Conditional: ['sería', 'serías', 'sería', 'seríamos', 'seríais', 'serían'],
 			'Subjunctive (present)': ['sea', 'seas', 'sea', 'seamos', 'seáis', 'sean'],
+			// RAE prints the -ra and -se sets as one paradigm ("fuera o fuese"); the two are
+			// interchangeable in this tense, so they share a row here rather than duplicating it.
+			'Subjunctive (imperfect)': ['fuera / fuese', 'fueras / fueses', 'fuera / fuese', 'fuéramos / fuésemos', 'fuerais / fueseis', 'fueran / fuesen'],
+			'Subjunctive (future)': ['fuere', 'fueres', 'fuere', 'fuéremos', 'fuereis', 'fueren'],
 			// Imperative has no "yo" form; slots are tú, usted, nosotros, vosotros, ustedes.
+			// RAE's own table omits the nosotros slot (see IMPERATIVE_PRONOUNS below).
 			'Imperative (affirmative)': ['sé', 'sea', 'seamos', 'sed', 'sean'],
+			'Imperative (negative)': ['no seas', 'no sea', 'no seamos', 'no seáis', 'no sean'],
+			'Present perfect': ['he sido', 'has sido', 'ha sido', 'hemos sido', 'habéis sido', 'han sido'],
+			Pluperfect: ['había sido', 'habías sido', 'había sido', 'habíamos sido', 'habíais sido', 'habían sido'],
+			'Preterite anterior': ['hube sido', 'hubiste sido', 'hubo sido', 'hubimos sido', 'hubisteis sido', 'hubieron sido'],
+			'Future perfect': ['habré sido', 'habrás sido', 'habrá sido', 'habremos sido', 'habréis sido', 'habrán sido'],
+			'Conditional perfect': ['habría sido', 'habrías sido', 'habría sido', 'habríamos sido', 'habríais sido', 'habrían sido'],
+			'Subjunctive (present perfect)': ['haya sido', 'hayas sido', 'haya sido', 'hayamos sido', 'hayáis sido', 'hayan sido'],
+			'Subjunctive (pluperfect)': ['hubiera / hubiese sido', 'hubieras / hubieses sido', 'hubiera / hubiese sido', 'hubiéramos / hubiésemos sido', 'hubierais / hubieseis sido', 'hubieran / hubiesen sido'],
+			'Subjunctive (future perfect)': ['hubiere sido', 'hubieres sido', 'hubiere sido', 'hubiéremos sido', 'hubiereis sido', 'hubieren sido'],
+			'Non-finite forms': ['ser', 'siendo', 'sido', 'haber sido', 'habiendo sido'],
 		},
 	},
 };
 
+/**
+ * The imperative's five slots. RAE's own imperative table for ser lists only four
+ * (tú/vos, usted, vosotros, ustedes) because the nosotros command *seamos* is the present
+ * subjunctive doing imperative duty, not a distinct imperative form. Wiktionary's table
+ * does list it, and learners look for it, so it stays — the page prose says which is which.
+ */
 const IMPERATIVE_PRONOUNS = ['tú', 'usted', 'nosotros', 'vosotros', 'ustedes'];
+
+/** The "Non-finite forms" block isn't person-inflected; its row labels are form names. */
+const NON_FINITE_LABELS = ['infinitive', 'gerund', 'past participle', 'perfect infinitive', 'perfect gerund'];
+
+export function rowLabelsForTense(tense) {
+	if (tense === 'Non-finite forms') return NON_FINITE_LABELS;
+	if (tense.startsWith('Imperative')) return IMPERATIVE_PRONOUNS;
+	return PRONOUNS;
+}
 
 export function buildIrregularConjugationTable(verb, tenses) {
 	const entry = IRREGULAR_VERBS[verb];
@@ -138,7 +173,10 @@ export function buildIrregularConjugationTable(verb, tenses) {
 		tenses: tenses.map((tense) => {
 			const forms = entry.tenses[tense];
 			if (!forms) throw new Error(`No "${tense}" data for "${verb}" in IRREGULAR_VERBS`);
-			const pronouns = tense.startsWith('Imperative') ? IMPERATIVE_PRONOUNS : PRONOUNS;
+			const pronouns = rowLabelsForTense(tense);
+			if (forms.length !== pronouns.length) {
+				throw new Error(`"${verb}" ${tense} has ${forms.length} forms but ${pronouns.length} row labels`);
+			}
 			return {
 				tense,
 				forms: forms.map((form, i) => ({ pronoun: pronouns[i], form })),
@@ -157,9 +195,12 @@ if (process.argv[1] && fileURLToPath(import.meta.url) === process.argv[1]) {
 		process.exit(1);
 	}
 	const defaultTenses = ['Present', 'Preterite', 'Imperfect', 'Future', 'Conditional', 'Subjunctive (present)'];
-	const tenses = tenseArg ? tenseArg.split(',') : defaultTenses;
-	const table = IRREGULAR_VERBS[verb]
-		? buildIrregularConjugationTable(verb, verb === 'ser' ? [...defaultTenses, 'Imperative (affirmative)'] : tenses)
+	const entry = IRREGULAR_VERBS[verb];
+	// For an irregular verb, "all tenses" means every paradigm in its data table, in the
+	// order that table declares them — not a hardcoded list that can drift out of sync.
+	const tenses = tenseArg ? tenseArg.split(',') : entry ? Object.keys(entry.tenses) : defaultTenses;
+	const table = entry
+		? buildIrregularConjugationTable(verb, tenses)
 		: buildRegularConjugationTable(verb, { language: 'Spanish', translation: '', tenses });
 	console.log(JSON.stringify(table, null, 2));
 }

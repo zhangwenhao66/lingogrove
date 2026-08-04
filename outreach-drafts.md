@@ -47,15 +47,17 @@ The Linguasorb entry points to linguasorb.com/spanish/, which now returns a 404.
 
 Both of those links also sit on your French resources page. The Digital Maine Library link on both pages (library.digitalmaine.org/subject/language-learning/) is dead too, though that one is just a domain move: the whole site now lives at digitalmainelibrary.org.
 
-On the Linguasorb slot: I run a Spanish reference site called LingoGrove. The nearest thing I have to what Linguasorb was doing is https://lingogrove.com/ser-conjugation/, which has a conjugation table for ser across the simple tenses, with the forms checked against Wiktionary and a second source instead of written from memory. It does not cover the compound tenses or the imperfect subjunctive yet. There are also shorter pages on ser vs estar, por vs para, and preterite vs imperfect.
+On the Linguasorb slot: I run a Spanish reference site called LingoGrove. The nearest thing I have to what Linguasorb was doing is https://lingogrove.com/ser-conjugation/, which has the full conjugation of ser, simple and compound, transcribed from the RAE conjugation table rather than written from memory, with the imperfect and future subjunctives and both command sets included. There are also shorter pages on ser vs estar, por vs para, and preterite vs imperfect.
 
 I should say it's a new site and much narrower than Linguasorb was, so it may well not be worth a slot on your guide. The dead links seemed worth passing along regardless.
 
 Owen Zhang
 lingogrove.com
 
-### ⚠️ 顺带发现的站内问题（不属本任务范围）
+### ✅ 顺带发现的站内问题（不属本任务范围）——2026-08-04 已修复
 
 `lingogrove.com/ser-conjugation/` 的页面标题自称 **"The Complete Guide to Every Tense"**，但表格只覆盖七组简单时态，缺虚拟式过去未完成（fuera/fuese）、将来虚拟、全部复合完成时态、否定命令。**标题本身夸大了覆盖范围**，建议内容审计任务修正标题或补齐时态。
 
 另：该页源注写"cross-checked against ellaverbs.com for imperfect/future forms"——第二来源只覆盖了未完成过去/将来两组，且 ellaverbs.com 是商业动词练习博客而非 RAE 这类权威源。"经第二来源交叉核对"这个说法偏薄，建议改用 RAE 或 Wiktionary 之外的权威语法源重新核一遍。
+
+**处理结果（2026-08-04）**：两条都已修，选择"补齐时态"而不是"改标题"。表格从 7 组扩到 19 组（RAE 的 18 组 + 单独拆出的否定命令），全部逐条抄自 `dle.rae.es/ser` 的 RAE/ASALE 变位表；源注和 FAQ 的来源说法改成如实描述"RAE 为主源 + Wiktionary 的 ser/haber 两条独立复核"，ellaverbs.com 全站已无引用。详见 `内容发布日志.md` 2026-08-04 条目。

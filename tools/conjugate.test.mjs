@@ -5,12 +5,24 @@
  * source, never produced by running the generator and pasting the output back. A test
  * written that way passes by construction and would catch nothing.
  *
- * Sources (all fetched 2026-08-03):
+ * Sources:
  *  - Regular -ar/-er/-ir endings: Wiktionary's Spanish conjugation tables for hablar,
- *    comer, vivir (https://en.wiktionary.org/wiki/hablar, /comer, /vivir).
- *  - Irregular "ser": Wiktionary's Spanish conjugation table for ser
- *    (https://en.wiktionary.org/wiki/ser), cross-checked against ellaverbs.com's
- *    published imperfect/future forms (found via web search), which matched exactly.
+ *    comer, vivir (https://en.wiktionary.org/wiki/hablar, /comer, /vivir), fetched
+ *    2026-08-03.
+ *  - Irregular "ser": the Real Academia Española / ASALE conjugation table in the
+ *    Diccionario de la lengua española (https://dle.rae.es/ser, DLE 23.8.1), fetched
+ *    2026-08-04. Every expected value in the "ser" block below is transcribed from that
+ *    table. Two independent re-checks against Wiktionary, fetched the same day:
+ *      · the simple tenses and both imperatives matched https://en.wiktionary.org/wiki/ser
+ *        exactly (including fuera/fuese, fuere and the negative imperative);
+ *      · the compound tenses matched https://en.wiktionary.org/wiki/haber composed with
+ *        the participle sido (he/había/hube/habré/habría, haya/hubiera/hubiese/hubiere).
+ *    Two differences between the sources, both resolved in favour of RAE and documented
+ *    on the page rather than silently averaged away:
+ *      · RAE's imperative table has no nosotros slot (seamos is the present subjunctive
+ *        used as a command); Wiktionary lists it. We keep the slot and say so.
+ *      · RAE prints the imperfect subjunctive as one paradigm, "fuera o fuese";
+ *        Wiktionary splits it into two rows. We keep one row, "fuera / fuese".
  *
  * Run with: npm test
  */
@@ -164,8 +176,136 @@ test('ser present subjunctive', () => {
 	assert.deepEqual(IRREGULAR_VERBS.ser.tenses['Subjunctive (present)'], ['sea', 'seas', 'sea', 'seamos', 'seáis', 'sean']);
 });
 
+test('ser imperfect subjunctive (-ra and -se sets share one row)', () => {
+	assert.deepEqual(IRREGULAR_VERBS.ser.tenses['Subjunctive (imperfect)'], [
+		'fuera / fuese',
+		'fueras / fueses',
+		'fuera / fuese',
+		'fuéramos / fuésemos',
+		'fuerais / fueseis',
+		'fueran / fuesen',
+	]);
+});
+
+test('ser future subjunctive', () => {
+	assert.deepEqual(IRREGULAR_VERBS.ser.tenses['Subjunctive (future)'], ['fuere', 'fueres', 'fuere', 'fuéremos', 'fuereis', 'fueren']);
+});
+
 test('ser affirmative imperative (no yo form)', () => {
 	assert.deepEqual(IRREGULAR_VERBS.ser.tenses['Imperative (affirmative)'], ['sé', 'sea', 'seamos', 'sed', 'sean']);
+});
+
+test('ser negative imperative', () => {
+	assert.deepEqual(IRREGULAR_VERBS.ser.tenses['Imperative (negative)'], ['no seas', 'no sea', 'no seamos', 'no seáis', 'no sean']);
+});
+
+// --- Compound tenses: haber + the invariable participle "sido" -------------------------
+
+test('ser present perfect', () => {
+	assert.deepEqual(IRREGULAR_VERBS.ser.tenses['Present perfect'], ['he sido', 'has sido', 'ha sido', 'hemos sido', 'habéis sido', 'han sido']);
+});
+
+test('ser pluperfect', () => {
+	assert.deepEqual(IRREGULAR_VERBS.ser.tenses.Pluperfect, ['había sido', 'habías sido', 'había sido', 'habíamos sido', 'habíais sido', 'habían sido']);
+});
+
+test('ser preterite anterior', () => {
+	assert.deepEqual(IRREGULAR_VERBS.ser.tenses['Preterite anterior'], ['hube sido', 'hubiste sido', 'hubo sido', 'hubimos sido', 'hubisteis sido', 'hubieron sido']);
+});
+
+test('ser future perfect', () => {
+	assert.deepEqual(IRREGULAR_VERBS.ser.tenses['Future perfect'], ['habré sido', 'habrás sido', 'habrá sido', 'habremos sido', 'habréis sido', 'habrán sido']);
+});
+
+test('ser conditional perfect', () => {
+	assert.deepEqual(IRREGULAR_VERBS.ser.tenses['Conditional perfect'], ['habría sido', 'habrías sido', 'habría sido', 'habríamos sido', 'habríais sido', 'habrían sido']);
+});
+
+test('ser present perfect subjunctive', () => {
+	assert.deepEqual(IRREGULAR_VERBS.ser.tenses['Subjunctive (present perfect)'], ['haya sido', 'hayas sido', 'haya sido', 'hayamos sido', 'hayáis sido', 'hayan sido']);
+});
+
+test('ser pluperfect subjunctive (-ra and -se sets share one row)', () => {
+	assert.deepEqual(IRREGULAR_VERBS.ser.tenses['Subjunctive (pluperfect)'], [
+		'hubiera / hubiese sido',
+		'hubieras / hubieses sido',
+		'hubiera / hubiese sido',
+		'hubiéramos / hubiésemos sido',
+		'hubierais / hubieseis sido',
+		'hubieran / hubiesen sido',
+	]);
+});
+
+test('ser future perfect subjunctive', () => {
+	assert.deepEqual(IRREGULAR_VERBS.ser.tenses['Subjunctive (future perfect)'], [
+		'hubiere sido',
+		'hubieres sido',
+		'hubiere sido',
+		'hubiéremos sido',
+		'hubiereis sido',
+		'hubieren sido',
+	]);
+});
+
+test('ser non-finite forms', () => {
+	assert.deepEqual(IRREGULAR_VERBS.ser.tenses['Non-finite forms'], ['ser', 'siendo', 'sido', 'haber sido', 'habiendo sido']);
+});
+
+// --- Coverage: the page's title promises every tense, so the data table must have them ---
+
+test('ser covers every paradigm RAE prints for it', () => {
+	// RAE's table for ser: 5 simple indicative + 5 compound indicative, 3 simple
+	// subjunctive + 3 compound subjunctive, the imperative, and the non-finite forms.
+	// The negative imperative is ours (RAE folds negative commands into the subjunctive).
+	assert.deepEqual(Object.keys(IRREGULAR_VERBS.ser.tenses), [
+		'Present',
+		'Preterite',
+		'Imperfect',
+		'Future',
+		'Conditional',
+		'Subjunctive (present)',
+		'Subjunctive (imperfect)',
+		'Subjunctive (future)',
+		'Imperative (affirmative)',
+		'Imperative (negative)',
+		'Present perfect',
+		'Pluperfect',
+		'Preterite anterior',
+		'Future perfect',
+		'Conditional perfect',
+		'Subjunctive (present perfect)',
+		'Subjunctive (pluperfect)',
+		'Subjunctive (future perfect)',
+		'Non-finite forms',
+	]);
+});
+
+test('every compound paradigm is its haber form plus the participle sido', () => {
+	// Transcribed from Wiktionary's conjugation of haber, the independent re-check on the
+	// compound forms. If a compound row ever drifts, this catches it without re-listing it.
+	const HABER = {
+		'Present perfect': ['he', 'has', 'ha', 'hemos', 'habéis', 'han'],
+		Pluperfect: ['había', 'habías', 'había', 'habíamos', 'habíais', 'habían'],
+		'Preterite anterior': ['hube', 'hubiste', 'hubo', 'hubimos', 'hubisteis', 'hubieron'],
+		'Future perfect': ['habré', 'habrás', 'habrá', 'habremos', 'habréis', 'habrán'],
+		'Conditional perfect': ['habría', 'habrías', 'habría', 'habríamos', 'habríais', 'habrían'],
+		'Subjunctive (present perfect)': ['haya', 'hayas', 'haya', 'hayamos', 'hayáis', 'hayan'],
+		'Subjunctive (future perfect)': ['hubiere', 'hubieres', 'hubiere', 'hubiéremos', 'hubiereis', 'hubieren'],
+	};
+	for (const [tense, auxForms] of Object.entries(HABER)) {
+		assert.deepEqual(
+			IRREGULAR_VERBS.ser.tenses[tense],
+			auxForms.map((aux) => `${aux} sido`),
+			`${tense} should be haber + sido`,
+		);
+	}
+});
+
+test('every ser paradigm has the right number of slots for its row labels', () => {
+	for (const [tense, forms] of Object.entries(IRREGULAR_VERBS.ser.tenses)) {
+		const expected = tense === 'Non-finite forms' || tense.startsWith('Imperative') ? 5 : 6;
+		assert.equal(forms.length, expected, `${tense} should have ${expected} slots`);
+	}
 });
 
 test('buildIrregularConjugationTable assembles ser with correct pronoun labels, including the 5-slot imperative', () => {
@@ -188,6 +328,17 @@ test('buildIrregularConjugationTable rejects a verb not in the table', () => {
 	assert.throws(() => buildIrregularConjugationTable('estar', ['Present']));
 });
 
+test('buildIrregularConjugationTable labels the non-finite block by form name, not pronoun', () => {
+	const table = buildIrregularConjugationTable('ser', ['Non-finite forms']);
+	assert.deepEqual(table.tenses[0].forms, [
+		{ pronoun: 'infinitive', form: 'ser' },
+		{ pronoun: 'gerund', form: 'siendo' },
+		{ pronoun: 'past participle', form: 'sido' },
+		{ pronoun: 'perfect infinitive', form: 'haber sido' },
+		{ pronoun: 'perfect gerund', form: 'habiendo sido' },
+	]);
+});
+
 test('buildIrregularConjugationTable rejects a tense with no data for the verb', () => {
-	assert.throws(() => buildIrregularConjugationTable('ser', ['Imperative (negative)']));
+	assert.throws(() => buildIrregularConjugationTable('ser', ['Subjunctive (imperfect perfect)']));
 });

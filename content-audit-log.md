@@ -90,3 +90,16 @@
   "escalation": null
 }
 ```
+
+---
+
+## 非轮转记录：2026-08-04 `ser-conjugation` 定向准确性修正
+
+**这不是一次完整审计，不计入本任务的轮转顺序**（该页仍未被 `trafficsite-content-quality-audit` 审过，下次排序时应按"从未审计"最高优先级对待）。记在这里只是留痕，避免下次审计时以为这些问题还在。
+
+来源：2026-08-04 `trafficsite-broken-link-building` 任务顺带发现两条问题，记录在 `broken-link-outreach-log.md` / `outreach-drafts.md`。当天在独立会话里定向修完：
+
+1. **标题夸大覆盖范围**：标题 "The Complete Guide to Every Tense" vs 表格只有 7 组简单时态。选择补齐而非改标题，现为 19 组。
+2. **第二核对源权威性不足**：ellaverbs.com（商业动词练习博客）换成 RAE/ASALE 变位表作主源，Wiktionary 的 ser + haber 两条作独立复核。
+
+本次**只核了变位表与来源说法**，未做 SERP 竞品差异化、GEO 打分、AI 写作痕迹（破折号密度）、配图、内链健康度等其余维度——该页正文仍有若干叙述性破折号，留给正式审计处理。
