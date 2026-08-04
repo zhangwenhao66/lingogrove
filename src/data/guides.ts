@@ -1159,4 +1159,79 @@ export const guides: Guide[] = [
 			{ label: 'Real Academia Española — Libro de estilo de la lengua española: "Leísmo, laísmo y loísmo"', url: 'https://www.rae.es/libro-estilo-lengua-espa%C3%B1ola/le%C3%ADsmo-la%C3%ADsmo-y-lo%C3%ADsmo' },
 		],
 	},
+	{
+		slug: 'spanish-reflexive-verbs',
+		category: 'Grammar',
+		title: 'Spanish Reflexive Verbs: How "Se" Actually Works (It Isn\'t Always "Yourself")',
+		description: 'Me lavo means "I wash myself." Me duermo doesn\'t mean "I sleep myself" — it means "I fall asleep." The RAE has a name for that second "se," and it isn\'t reflexivo.',
+		published: '2026-08-04',
+		updated: '2026-08-04',
+		coreSummary: 'A Spanish reflexive verb, strictly defined, is one where the pronoun (me, te, se, nos, os, se) refers back to the same person doing the action, as in me lavo, "I wash myself." Many verbs that look identical in form, like dormirse, irse, quedarse, and comerse, use the same pronouns without that self-referring meaning at all; the RAE classifies these as verbos pronominales rather than true reflexives, because the "se" shifts what the verb means instead of standing in for a person.',
+		language: 'Spanish',
+		sections: [
+			{
+				heading: 'What "reflexive" technically means',
+				body: [
+					'The RAE\'s own definition is precise: a reflexive pronoun agrees with an antecedent within the same clause, and in a true reflexive use, the pronoun and its antecedent are coarguments of the same verb — the subject and the object are the same entity. Their example is *Roberto se peinaba con gomina*: the antecedent of *se* is Roberto, the subject of *peinar*, and *se* is also the object of that same verb. Roberto is combing Roberto.',
+					'That\'s the narrow, textbook sense of "reflexive," and it covers plenty of everyday verbs: *Me lavo* (I wash myself), *Se viste* (She dresses herself), *Nos miramos en el espejo* (We look at ourselves in the mirror). In every one of these, swapping in "myself/yourself/herself" produces a sentence that actually means the same thing as the Spanish.',
+				],
+			},
+			{
+				heading: 'The pronouns and where they go',
+				body: [
+					'The reflexive pronouns are *me, te, se, nos, os, se* — the same atonic clitic set used for direct and indirect objects, with one simplification: unlike *lo/la* versus *le*, the third-person reflexive is always *se*, for singular or plural, masculine or feminine. There\'s no gender-marked reflexive form to choose between.',
+					'Placement follows the same rule as [direct and indirect object pronouns](/direct-vs-indirect-object-pronouns-spanish/): the pronoun goes immediately before a conjugated verb (*Me levanto*), and attaches to the end of an infinitive, a gerund, or an affirmative command (*Voy a levantarme*, *Estoy levantándome*, *¡Levántate!*), with a written accent added where needed to keep the original stress. Negative commands put it back in front: *No te levantes*, never *No levántate*.',
+				],
+			},
+			{
+				heading: 'Reciprocal "se": a different meaning hiding in the same form',
+				body: [
+					'Plural reflexive pronouns can also mean "each other" rather than "themselves," and Spanish doesn\'t mark the difference with a separate word. *Se conocen* is genuinely ambiguous out of context: it can mean "they know themselves" (each person individually knows who they are, an unusual thing to say) or "they know each other" (reciprocal, by far the more common reading).',
+					'When the ambiguity matters or a speaker wants to underline the reciprocity, Spanish adds *el uno al otro* (or *la una a la otra*, *los unos a los otros*, matched to the group\'s gender and number): *Se conocen el uno al otro*. That phrase doesn\'t add reciprocal meaning that wasn\'t already there — *se conocen* already carries it — it just removes any doubt.',
+				],
+				image: {
+					src: '/images/spanish-reflexive-verbs-diagram.svg',
+					alt: 'Comparison of four Spanish verb pairs — ir/irse, dormir/dormirse, quedar/quedarse, comer/comerse — showing how adding "se" shifts each verb\'s meaning rather than making it reflexive.',
+				},
+			},
+			{
+				heading: 'The real trap: verbs where "se" doesn\'t mean "yourself" at all',
+				body: [
+					'A large group of common Spanish verbs is built with the same *me/te/se/nos/os/se* pronouns but doesn\'t fit the "acting on yourself" definition at all. The RAE explicitly recommends against calling these verbs *reflexivos*, because that label can\'t distinguish a genuine reflexive reading from one where the pronoun isn\'t functioning as an argument of the verb at all. Their own contrast: *Me mojé a mí mismo* is reflexive (I got myself wet, on purpose, targeting myself), while *Empezó a llover y me mojé* is not (I got wet because it started raining) — same verb form, *mojarse*, completely different relationship between the subject and the pronoun. The RAE\'s term for this second category is *verbo pronominal*.',
+					'*Dormir* means to sleep, the ongoing state; *dormirse* means to fall asleep, the moment sleep starts. Nobody is sleeping themselves. *Ir* means to go, usually toward a stated destination; *irse* means to leave or go away, and shifts the focus to the act of departing rather than the destination — *Voy al cine* (I\'m going to the movies) versus *Me voy al cine* (I\'m off to the movies / I\'m leaving for the movies). *Quedar* means to arrange to meet up or to be left over; *quedarse* means to stay, remain, or end up in some state — *Quedamos a las ocho* (We\'re meeting at eight) versus *Me quedo en casa* (I\'m staying home). *Comer* means to eat; *comerse* means to eat up or finish off, adding a sense of completion — *Comí la sopa* (I ate the soup) versus *Me comí la sopa* (I ate up the soup, all of it).',
+					'None of these four pairs can be translated by inserting "myself" into the English sentence. That\'s the practical test: if adding "myself/yourself/himself" to the English translation doesn\'t produce a sentence that means the same thing as the Spanish, the "se" isn\'t doing reflexive work, whatever a textbook chapter titled "Reflexive Verbs" might call it.',
+				],
+			},
+			{
+				heading: 'Common true reflexive verbs for daily routines',
+				body: [
+					'The verbs that actually are reflexive in the strict sense cluster heavily around routines a person performs on their own body, which is exactly why so many Spanish courses introduce reflexives through a morning-routine list. *Levantarse* (to get up), *ducharse* (to shower), *lavarse* (to wash oneself, or a specific body part: *me lavo las manos*), *vestirse* (to get dressed), *peinarse* (to comb one\'s hair), *cepillarse los dientes* (to brush one\'s teeth), *acostarse* (to go to bed), *maquillarse* (to put on makeup): in each case, the subject is doing something to their own body, which is exactly the coargument relationship the RAE\'s definition describes.',
+					'*Me levanto a las siete, me ducho, me visto y me cepillo los dientes antes de salir.* (I get up at seven, shower, get dressed, and brush my teeth before leaving.) Every "me" in that sentence genuinely stands for "myself" — swap in the English reflexive pronoun and the meaning holds, which is the same test that fails for *dormirse*, *irse*, *quedarse*, and *comerse* above.',
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'What\'s the real difference between a reflexive verb and a pronominal verb in Spanish?',
+				answer: 'A true reflexive verb uses "se" (or me/te/nos/os) to refer back to the same person performing the action, so the subject and object are the same entity: *me lavo* really does mean "I wash myself." A pronominal verb uses the identical pronouns, but the "se" doesn\'t stand for a person at all — it shifts the verb\'s meaning instead, as in *dormirse* (to fall asleep) or *irse* (to leave). The RAE recommends the broader term "pronominal" precisely because "reflexive" only accurately describes the first kind.',
+			},
+			{
+				question: 'How do you know if "se conocen" means "they know each other" or "they know themselves"?',
+				answer: 'Context almost always settles it, and "they know each other" (reciprocal) is by far the more common reading in real usage — "they know themselves," where each person individually knows who they are, is an unusual thing to actually say. When the sentence is genuinely ambiguous or a speaker wants to remove any doubt, Spanish adds *el uno al otro* (matched in gender/number to the subject): *Se conocen el uno al otro*.',
+			},
+			{
+				question: 'Why does "me dormí" mean something different from "dormí"?',
+				answer: '*Dormí* (I slept) describes the state of being asleep, its duration and quality. *Me dormí* (I fell asleep) marks the moment the state began. Neither use of "me" here means "myself" — nobody sleeps themselves — which is exactly why the RAE classifies *dormirse* as a pronominal verb rather than a reflexive one, alongside *irse*, *quedarse*, and *comerse*.',
+			},
+			{
+				question: 'Do reflexive pronouns follow the same position rules as object pronouns?',
+				answer: 'Yes. Reflexive pronouns go immediately before a conjugated verb (*Me levanto*), attach to the end of an infinitive, gerund, or affirmative command (*Levántate*, *Estoy levantándome*), and move back in front of the verb for negative commands (*No te levantes*). They\'re drawn from the same atonic clitic set as direct and indirect object pronouns, with the simplification that the third-person reflexive is always "se," regardless of gender or number.',
+			},
+		],
+		sources: [
+			{ label: 'Real Academia Española — Glosario de términos gramaticales: "verbo pronominal"', url: 'https://www.rae.es/gtg/verbo-pronominal' },
+			{ label: 'Real Academia Española — Glosario de términos gramaticales: "pronombre reflexivo"', url: 'https://www.rae.es/gtg/pronombre-reflexivo' },
+			{ label: 'Real Academia Española — Nueva gramática básica: "Pronombres reflexivos y recíprocos"', url: 'https://www.rae.es/gram%C3%A1tica-b%C3%A1sica/el-pronombre-personal/pronombres-reflexivos-y-rec%C3%ADprocos' },
+		],
+	},
 ];

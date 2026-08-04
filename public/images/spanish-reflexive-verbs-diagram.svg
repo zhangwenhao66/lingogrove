@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" font-family="system-ui, -apple-system, sans-serif">
+	<rect width="800" height="460" fill="#f6f4e9"/>
+	<rect x="24" y="24" width="752" height="412" rx="10" fill="#fffefa" stroke="#ddd8c4"/>
+
+	<rect x="24" y="24" width="752" height="56" rx="10" fill="#2f6b47"/>
+	<rect x="24" y="60" width="752" height="20" fill="#2f6b47"/>
+	<text x="400" y="60" text-anchor="middle" fill="#ffffff" font-size="20" font-weight="700">SAME VERB, DIFFERENT MEANING WITH "SE"</text>
+
+	<text x="212" y="100" text-anchor="middle" fill="#2f6b47" font-size="13" font-weight="700">VERB ALONE</text>
+	<text x="588" y="100" text-anchor="middle" fill="#b5570f" font-size="13" font-weight="700">VERB + SE</text>
+
+	<line x1="24" y1="112" x2="776" y2="112" stroke="#ddd8c4" stroke-width="1"/>
+	<line x1="400" y1="112" x2="400" y2="424" stroke="#ddd8c4" stroke-width="1"/>
+
+	<rect x="24" y="192" width="752" height="80" fill="#fbead0"/>
+	<rect x="24" y="352" width="752" height="80" fill="#fbead0"/>
+
+	<g font-size="19" font-weight="700" fill="#2f6b47" text-anchor="middle">
+		<text x="212" y="146">ir</text>
+		<text x="212" y="226">dormir</text>
+		<text x="212" y="306">quedar</text>
+		<text x="212" y="386">comer</text>
+	</g>
+	<g font-size="13" fill="#5a5648" text-anchor="middle">
+		<text x="212" y="167">to go (toward a place)</text>
+		<text x="212" y="247">to sleep (the state)</text>
+		<text x="212" y="327">to arrange to meet / be left over</text>
+		<text x="212" y="407">to eat</text>
+	</g>
+
+	<g font-size="19" font-weight="700" fill="#b5570f" text-anchor="middle">
+		<text x="588" y="146">irse</text>
+		<text x="588" y="226">dormirse</text>
+		<text x="588" y="306">quedarse</text>
+		<text x="588" y="386">comerse</text>
+	</g>
+	<g font-size="13" fill="#5a5648" text-anchor="middle">
+		<text x="588" y="167">to leave / go away (the departure itself)</text>
+		<text x="588" y="247">to fall asleep (the moment it starts)</text>
+		<text x="588" y="327">to stay / end up (in a place or state)</text>
+		<text x="588" y="407">to eat up, finish off</text>
+	</g>
+
+	<text x="400" y="450" text-anchor="middle" fill="#5a5648" font-size="13" font-style="italic">The RAE calls this "se" pronominal, not reflexive — it isn't standing in for "myself."</text>
+</svg>
