@@ -691,24 +691,24 @@ export const guides: Guide[] = [
 		slug: 'ser-conjugation',
 		category: 'Conjugations',
 		title: 'Ser Conjugation: The Complete Guide to Every Tense',
-		description: 'Ser is Spanish\'s most irregular verb, stitched from two Latin verbs by history. All 19 of its paradigms are here, simple and compound, transcribed from the RAE conjugation table.',
+		description: 'Ser is Spanish\'s most irregular verb, born of two Latin verbs. All 19 paradigms, simple and compound, are here, sourced from the RAE conjugation table.',
 		published: '2026-08-03',
-		updated: '2026-08-04',
+		updated: '2026-08-05',
 		coreSummary: 'Ser means "to be" in the identity/characteristics sense (see Ser vs. Estar), and it is one of only a handful of fully irregular Spanish verbs: soy, eres, es bear no resemblance to a regular -er verb\'s endings because they descend from an entirely different Latin verb than the rest of ser\'s own paradigm. The table below is the complete paradigm, transcribed from the Real Academia Española: the five simple indicative tenses and their five compound counterparts, all three subjunctives (present, imperfect fuera/fuese, and the near-extinct future fuere) plus their compounds, affirmative and negative commands, and the non-finite forms ser, siendo, sido.',
 		language: 'Spanish',
 		sections: [
 			{
 				heading: 'Why ser breaks every conjugation pattern',
 				body: [
-					'Regular Spanish verbs conjugate by attaching a predictable set of endings to a stem — that\'s the whole system behind verbs like hablar or vivir. Ser doesn\'t follow that system because, historically, it isn\'t really one verb: Spanish ser is suppletive, meaning its paradigm was assembled from two different Latin verbs rather than descending cleanly from one. According to the linguistic research site Spanish Linguist, the present-tense indicative forms (*soy, eres, es, somos, sois, son*) descend from the Latin verb *esse* ("to be"), while nearly everything else in ser\'s conjugation — the infinitive itself, the subjunctive, the future and conditional stems, the *tú* imperative (*sé*) — descends instead from Latin *sedere*, "to sit."',
-					'That\'s the actual reason *soy* and *sería* don\'t look like they belong to the same verb at first glance: for most of Spanish\'s history, they effectively didn\'t. Two separate Latin verbs merged into a single paradigm, and Spanish speakers today just learn the result as one (extremely irregular) verb.',
+					'Regular Spanish verbs conjugate by attaching a predictable set of endings to a stem: that\'s the whole system behind verbs like hablar or vivir. Ser doesn\'t follow that system because, historically, it isn\'t really one verb: Spanish ser is suppletive, meaning its paradigm was assembled from two different Latin verbs rather than descending cleanly from one. According to the linguistic research site Spanish Linguist, the present-tense indicative forms (*soy, eres, es, somos, sois, son*) descend from the Latin verb *esse* ("to be"), while nearly everything else in ser\'s conjugation (the infinitive itself, the subjunctive, the future and conditional stems, and the *tú* imperative *sé*) descends instead from Latin *sedere*, "to sit."',
+					'That\'s the actual reason *soy* and *sería* don\'t look like they belong to the same verb at first glance: for most of Spanish\'s history, they effectively didn\'t. Two separate Latin verbs merged into a single paradigm, and Spanish speakers today just learn the result as one (extremely irregular) verb. That fusion is a separate question from what *ser* actually does in a sentence, which the [ser vs. estar comparison](/ser-vs-estar/) covers in full.',
 				],
 			},
 			{
 				heading: 'How to actually use each tense',
 				body: [
 					'**Present** (*soy, eres, es...*) states identity, origin, and inherent characteristics right now: *Soy de Chile.* (I\'m from Chile.)',
-					'**Preterite** (*fui, fuiste, fue...*) — notably identical in form to the preterite of *ir* ("to go") — reports a completed state in the past: *Fue un buen año.* (It was a good year.) Context is the only thing that tells *fue* apart from "he/she/it went."',
+					'**Preterite** (*fui, fuiste, fue...*) reports a completed state in the past: *Fue un buen año.* (It was a good year.) These forms are notably identical to the preterite of *ir* ("to go"), so context is the only thing that tells *fue* apart from "he/she/it went."',
 					'**Imperfect** (*era, eras, era...*) describes an ongoing past state with no marked beginning or end: *Era muy joven.* (I was very young.) If the [preterite-versus-imperfect distinction](/preterite-vs-imperfect/) itself is still fuzzy, ser\'s two very different-looking past forms are a good pair to drill it on.',
 					'**Future** (*seré, serás, será...*) and **conditional** (*sería, serías, sería...*) work the way they do for any verb: future for what will be, conditional for what would be.',
 					'**Present subjunctive** (*sea, seas, sea...*) shows up after expressions of doubt, wish, or emotion: *Espero que sea verdad.* (I hope it\'s true.)',
@@ -729,7 +729,7 @@ export const guides: Guide[] = [
 			{
 				heading: 'A regional variant the table above doesn\'t cover: voseo',
 				body: [
-					'The table on this page uses *tú* for the informal singular "you," which is standard across Spain and most of Latin America. But in Argentina, Uruguay, and parts of Central America, everyday speech uses *vos* instead of *tú* — a system called *voseo* — and ser is one of only two verbs (alongside *ir*) that breaks the regular voseo pattern. Most verbs form their voseo present by swapping a final "-r" for "-s" and shifting the stress to the last syllable, but ser\'s voseo present is simply *vos sos*, not a predictable variation on *tú eres*.',
+					'The table on this page uses *tú* for the informal singular "you," which is standard across Spain and most of Latin America. But in Argentina, Uruguay, and parts of Central America, everyday speech uses *vos* instead of *tú* (a system called *voseo*), and ser is one of only two verbs (alongside *ir*) that breaks the regular voseo pattern. Most verbs form their voseo present by swapping a final "-r" for "-s" and shifting the stress to the last syllable, but ser\'s voseo present is simply *vos sos*, not a predictable variation on *tú eres*.',
 					'In Rioplatense Spanish, the dialect spoken around the Río de la Plata basin covering Argentina and Uruguay, *voseo* isn\'t a casual regionalism confined to friends. It\'s the everyday standard, used in schools, advertising, and television. A learner who only knows *tú eres* will still be understood there, but *vos sos* is what they\'ll actually hear.',
 					'This is not a dialect curiosity that reference works leave out. RAE\'s own conjugation table puts *sos* on the same line as *eres*, labelled "tú / vos," rather than treating it as a footnote. The one place *vos* changes nothing is the command form: the voseo imperative of ser is *sé*, identical to the *tú* form, which is unusual, since most verbs take a distinct stressed voseo command.',
 				],
@@ -738,11 +738,11 @@ export const guides: Guide[] = [
 		faq: [
 			{
 				question: 'Why don\'t "soy" and "sería" look like forms of the same verb?',
-				answer: 'Because historically they aren\'t, quite. Ser is a suppletive verb: its present-tense forms (soy, eres, es...) descend from the Latin verb esse ("to be"), while most of its other forms — including the infinitive ser itself — descend from a different Latin verb, sedere ("to sit"). Two verbs merged into one paradigm over the course of Spanish\'s history.',
+				answer: 'Because historically they aren\'t, quite. Ser is a suppletive verb: its present-tense forms (soy, eres, es...) descend from the Latin verb esse ("to be"), while most of its other forms, including the infinitive ser itself, descend from a different Latin verb, sedere ("to sit"). Two verbs merged into one paradigm over the course of Spanish\'s history.',
 			},
 			{
 				question: 'Is the preterite of "ser" the same as the preterite of "ir"?',
-				answer: 'Yes, exactly the same: fui, fuiste, fue, fuimos, fuisteis, fueron serves as the preterite for both ser ("to be") and ir ("to go"). Only context tells you which verb is meant — "fui a la tienda" (I went to the store) versus "fui estudiante" (I was a student).',
+				answer: 'Yes, exactly the same: fui, fuiste, fue, fuimos, fuisteis, fueron serves as the preterite for both ser ("to be") and ir ("to go"). Only context tells you which verb is meant: "fui a la tienda" (I went to the store) versus "fui estudiante" (I was a student).',
 			},
 			{
 				question: 'Why does "ser" have only 5 imperative forms instead of 6?',
