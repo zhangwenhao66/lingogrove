@@ -50,9 +50,9 @@
     "note": "launch batch, new publish; Bing 202 / Yandex 202."
   },
   "https://lingogrove.com/ser-conjugation/": {
-    "submitted_date": "2026-08-04",
+    "submitted_date": "2026-08-05",
     "verified_status": "pending",
-    "note": "resubmitted after accuracy fix (table completed to 19 paradigms, re-sourced to RAE); Bing 200 / Yandex 202. Originally submitted 2026-08-03 as launch batch, Bing 202 / Yandex 202."
+    "note": "resubmitted after trafficsite-content-quality-audit fix (removed 6 narrative em-dashes, trimmed meta description 178->151 chars, added ser-vs-estar cross-link); Bing 200 / Yandex 202. Previously resubmitted 2026-08-04 after accuracy fix (table completed to 19 paradigms, re-sourced to RAE), Bing 200 / Yandex 202; originally submitted 2026-08-03 as launch batch, Bing 202 / Yandex 202."
   },
   "https://lingogrove.com/saber-vs-conocer/": {
     "submitted_date": "2026-08-04",
