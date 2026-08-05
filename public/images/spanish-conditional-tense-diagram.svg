@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" font-family="system-ui, -apple-system, sans-serif">
+	<rect width="800" height="400" fill="#f6f4e9"/>
+
+	<!-- Row 1: hypothetical si-clause -->
+	<text x="48" y="46" fill="#201f1a" font-size="19" font-weight="700">Hypothetical — "si" + imperfect subjunctive, then conditional</text>
+	<rect x="48" y="62" width="330" height="46" rx="6" fill="#eae5cf" stroke="#ddd8c4"/>
+	<text x="63" y="91" fill="#5a5648" font-size="15">Si tuviera dinero,</text>
+	<rect x="400" y="62" width="352" height="46" rx="6" fill="#e4efe6" stroke="#bcd6c2"/>
+	<text x="415" y="91" fill="#204a31" font-size="15" font-weight="600">viajaría.</text>
+	<text x="470" y="91" fill="#5a5648" font-size="13">(I would travel — but I don't have the money)</text>
+
+	<!-- Row 2: future-in-the-past / reported speech -->
+	<text x="48" y="152" fill="#201f1a" font-size="19" font-weight="700">Future-in-the-past — a plan reported from a past vantage point</text>
+	<rect x="48" y="168" width="330" height="46" rx="6" fill="#eae5cf" stroke="#ddd8c4"/>
+	<text x="63" y="197" fill="#5a5648" font-size="15">Anunció que</text>
+	<rect x="400" y="168" width="352" height="46" rx="6" fill="#e4efe6" stroke="#bcd6c2"/>
+	<text x="415" y="197" fill="#204a31" font-size="15" font-weight="600">se jubilaría al año siguiente.</text>
+	<text x="480" y="215" text-anchor="middle" fill="#5a5648" font-size="13">(announced he would retire the following year)</text>
+
+	<!-- Row 3: courtesy / attenuation scale -->
+	<text x="48" y="270" fill="#201f1a" font-size="19" font-weight="700">Courtesy scale — softening a request, weakest to strongest</text>
+	<line x1="48" y1="330" x2="752" y2="330" stroke="#ddd8c4" stroke-width="2"/>
+	<circle cx="120" cy="330" r="7" fill="#8a3b2e"/>
+	<text x="120" y="360" text-anchor="middle" fill="#8a3b2e" font-size="15" font-weight="600">Quiero café.</text>
+	<text x="120" y="380" text-anchor="middle" fill="#8a8674" font-size="12">(plain, direct)</text>
+	<circle cx="400" cy="330" r="7" fill="#5a5648"/>
+	<text x="400" y="360" text-anchor="middle" fill="#5a5648" font-size="15" font-weight="600">Quería un café.</text>
+	<text x="400" y="380" text-anchor="middle" fill="#8a8674" font-size="12">(imperfect, softer)</text>
+	<circle cx="680" cy="330" r="7" fill="#2f6b47"/>
+	<text x="680" y="360" text-anchor="middle" fill="#204a31" font-size="15" font-weight="600">Querría un café.</text>
+	<text x="680" y="380" text-anchor="middle" fill="#8a8674" font-size="12">(conditional, most attenuated)</text>
+</svg>
