@@ -1512,4 +1512,78 @@ export const guides: Guide[] = [
 			{ label: 'Lawless Spanish — "Conditional Conjugations" (irregular stem list, cross-checked)', url: 'https://www.lawlessspanish.com/grammar/verbs/conditional-conjugations/' },
 		],
 	},
+	{
+		slug: 'double-object-pronouns-spanish',
+		category: 'Grammar',
+		title: 'Spanish Double Object Pronouns: Se Lo, Me Lo, and the Order Rule',
+		description: 'Se lo doy, not le lo doy. RAE\'s strict ordering rule (se first, then person, then recipient before thing) decides how two pronouns fuse into one.',
+		published: '2026-08-06',
+		updated: '2026-08-06',
+		coreSummary: 'Spanish sentences that name both a thing and its recipient in pronoun form fuse a direct and an indirect object pronoun into one pair, as in se lo doy (I give it to her). The Real Academia Española fixes their sequence with a strict hierarchy: se always first, then second person before first before third, then the recipient pronoun (dative) before the thing pronoun (accusative). A separate, mandatory rule also replaces le or les with se whenever it would otherwise sit directly in front of lo, la, los, or las.',
+		language: 'Spanish',
+		sections: [
+			{
+				heading: 'Why two pronouns end up in one sentence',
+				body: [
+					'Spanish routinely names both the thing being given, shown, or told and the person receiving it, and each half is what [direct and indirect object pronouns](/direct-vs-indirect-object-pronouns-spanish/) individually replace. *Le doy el libro a María* (I give María the book) already uses one: *le* stands in for *a María*. Drop the noun phrase for the book too, and Spanish swaps in a second, direct object pronoun instead: *lo*, for *el libro*. Put both pronouns in the same sentence, in the order Spanish requires, and *le doy el libro* becomes *se lo doy*, never *le lo doy*, a combination that doesn\'t actually occur in Spanish, for the reason covered below.',
+					'Any clause that answers both "what" and "to/for whom" in pronoun form ends up carrying a pair like this: *me lo, te la, nos los, os las, se lo*. Every one of them follows the same two rules: a fixed order, and a mandatory substitution whenever *le* or *les* would otherwise land in front of a third-person direct object pronoun.',
+				],
+			},
+			{
+				heading: 'The order rule: se first, then person, then role',
+				body: [
+					'The Real Academia Española\'s Nueva gramática básica lays out the sequence for combined atonic pronouns as a strict hierarchy, each condition outranking the ones that follow it. *Se* always comes first, ahead of every other pronoun. Among what\'s left, second person outranks first, which outranks third: *te* before *me*, *me* before *le/les/lo/la*. And within a single person, the dative pronoun (the recipient, "to/for" someone) precedes the accusative pronoun, the thing itself.',
+					'That hierarchy is why *me lo dan* (they give it to me) and *te lo doy* (I give it to you) put the person pronoun first and the thing pronoun second, never the reverse: *lo me dan* isn\'t a sentence Spanish produces. *Nos lo enseñan* (they teach it to us) and *os la mandamos* (we send it to you all) follow the identical pattern across every person, not only the third. The RAE\'s own grammar gives the same dative-before-accusative pattern in a single worked example: "Te lo enviaron."',
+				],
+				image: {
+					src: '/images/double-object-pronouns-spanish-diagram.svg',
+					alt: 'Diagram of the Spanish double object pronoun order: rank 1 is se (replacing le/les), rank 2 is grammatical person (2nd before 1st before 3rd), rank 3 is dative before accusative, worked through the example "Le doy el libro a María" becoming "Se lo doy."',
+				},
+			},
+			{
+				heading: 'Why "le" and "les" become "se"',
+				body: [
+					'The one pairing Spanish blocks outright is *le* or *les* sitting directly in front of *lo, la, los,* or *las*; that specific sequence doesn\'t exist as a spoken form. Whenever it would occur, *le/les* is replaced by *se*, a substitution that applies mechanically every time, regardless of what the underlying *le* was standing in for. *Le doy el libro a María* becomes, once *el libro* is also pronominalized, *Se lo doy*, never *Le lo doy*.',
+					'*Se* itself carries no gender or number marking, which makes it genuinely ambiguous on its own: *se lo mostró* could mean "showed it to him," "to her," "to you (formal)," or "to them," with nothing in the pronoun itself to settle which. When context doesn\'t make it clear, Spanish adds the same kind of clarifying phrase used with a single indirect object pronoun (*se lo mostró a ella*, *se lo mostró a ellos*), spelling out who *se* refers to without changing the pronoun.',
+				],
+			},
+			{
+				heading: 'Where the pair goes: before the verb, or fused onto it',
+				body: [
+					'Double object pronouns follow the [same placement pattern as a single object or reflexive pronoun](/spanish-reflexive-verbs/): they go immediately in front of a conjugated verb (*Te lo doy. No me lo digas.*) and shift to attaching after the verb, fused into a single written word, with infinitives, gerunds, and affirmative commands: *Voy a dártelo* (or *Te lo voy a dar*, both correct), *Estoy explicándoselo*, *Dámelo*, *Dénmelas*.',
+					'Fusing two pronouns onto a verb form almost always pushes the stress back far enough that Spanish\'s ordinary accent rules require a written accent to keep the pronunciation unchanged. The RAE\'s orthography guide gives *dámelo*, *dénmelas*, and *pedírsela* as exactly this case: words that become *esdrújulas* (stressed on the third-to-last syllable) once both pronouns attach, which is why they carry a tilde the bare verb form doesn\'t need. Negative commands break the fusion pattern entirely and send both pronouns back in front of the verb: *No me lo des*, *No se lo digas*, never *No dámelo* or *No díselo*. The RAE\'s own grammar walks through this exact alternation in one string of examples: "Se lo daré; Traigo esto para dárselo; Dáselo; No se lo des." That progression is proclitic before a conjugated verb, then enclitic fused onto an infinitive, then enclitic fused onto an affirmative command, then back to proclitic the moment the command turns negative.',
+				],
+			},
+			{
+				heading: 'Common mistakes with double object pronouns',
+				body: [
+					'The order slip is the most frequent: putting the thing before the person, as in *lo me dan* instead of *me lo dan*, reverses the RAE\'s person-before-role hierarchy and reads as a beginner error rather than a regional variant. The second is forgetting the *se* substitution and producing *le lo doy*, a sequence that simply doesn\'t occur in Spanish, however logical it looks to an English speaker mentally translating "to him" plus "it" word for word.',
+					'The third is leaving one pronoun behind when attaching to an infinitive or gerund, splitting them instead of moving both together as a single fused unit: the correct form is *voy a dártelo*, not two separate pieces. The fourth is dropping the written accent that two fused pronouns almost always require, writing *damelo* instead of *dámelo*, a missing tilde that doesn\'t change the meaning in isolation, but is the kind of small, checkable error native readers notice immediately.',
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'What is a double object pronoun in Spanish?',
+				answer: 'It\'s a sentence carrying both a direct object pronoun (the thing: lo, la, los, las) and an indirect object pronoun (the recipient: me, te, le/se, nos, os, les/se) at once, replacing two full noun phrases with two pronouns instead of one: Le doy el libro a María becomes Se lo doy, with se standing for a María and lo standing for el libro.',
+			},
+			{
+				question: 'Does the le-to-se swap change the pronoun order, or just the pronoun itself?',
+				answer: 'Just the pronoun. Se replaces le or les whenever a third-person indirect object pronoun would otherwise sit in front of lo, la, los, or las, but it still occupies the exact same first-ranked slot in the sequence that le or les held. Se lo doy keeps se in front of lo for the same structural reason te lo doy keeps te in front of lo: the RAE\'s ordering hierarchy fixes which rank comes first, and the swap only changes which word fills that rank, not where the rank sits.',
+			},
+			{
+				question: 'What order do double object pronouns follow in Spanish?',
+				answer: 'The RAE\'s rule ranks se first, ahead of every other pronoun; among what\'s left, second person outranks first, which outranks third; and within a single person, the pronoun standing for the recipient (dative) comes before the pronoun standing for the thing (accusative). In practice, that means the person pronoun always precedes the thing pronoun: me lo, te la, nos los, se lo, never the reverse.',
+			},
+			{
+				question: 'Do double object pronouns attach to the verb or go in front of it?',
+				answer: 'Both, depending on the verb form. They go immediately in front of a conjugated verb (Te lo doy, No me lo digas) and attach as a single fused word after an infinitive, gerund, or affirmative command (Dámelo, Estoy explicándoselo), which almost always adds a written accent to preserve the original stress. Negative commands are the exception that sends them back in front: No me lo des, never No dámelo.',
+			},
+		],
+		sources: [
+			{ label: 'Real Academia Española — Nueva gramática básica: "Grupos de pronombres átonos"', url: 'https://www.rae.es/gram%C3%A1tica-b%C3%A1sica/el-pronombre-personal/colocaci%C3%B3n-de-los-pronombres-%C3%A1tonos/grupos-de-pronombres-%C3%A1tonos' },
+			{ label: 'Real Academia Española — Nueva gramática de la lengua española: "Secuencias de pronombres átonos"', url: 'https://www.rae.es/gram%C3%A1tica/sintaxis/secuencias-de-pronombres-%C3%A1tonos' },
+			{ label: 'Real Academia Española — Ortografía básica: "Formas verbales con pronombres personales átonos"', url: 'https://www.rae.es/ortograf%C3%ADa-b%C3%A1sica/uni%C3%B3n-y-separaci%C3%B3n-de-palabras-y-otros-elementos-en-la-escritura/la-escritura-de-formas-o-expresiones-complejas/formas-verbales-con-pronombres-personales-%C3%A1tonos' },
+		],
+	},
 ];
