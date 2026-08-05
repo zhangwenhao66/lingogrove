@@ -1586,4 +1586,102 @@ export const guides: Guide[] = [
 			{ label: 'Real Academia Española — Ortografía básica: "Formas verbales con pronombres personales átonos"', url: 'https://www.rae.es/ortograf%C3%ADa-b%C3%A1sica/uni%C3%B3n-y-separaci%C3%B3n-de-palabras-y-otros-elementos-en-la-escritura/la-escritura-de-formas-o-expresiones-complejas/formas-verbales-con-pronombres-personales-%C3%A1tonos' },
 		],
 	},
+	{
+		slug: 'spanish-pronouns',
+		category: 'Grammar',
+		title: 'Spanish Pronouns: All Six Families in One Place',
+		description: 'Six pronoun families (subject, object, reflexive, prepositional, possessive, demonstrative) share most forms; they diverge mainly by person and region.',
+		published: '2026-08-06',
+		updated: '2026-08-06',
+		coreSummary: 'Spanish organizes pronouns into six families (subject, object, reflexive, prepositional, possessive, and demonstrative) that reuse the same core forms (me, te, nos, os) across almost every role, so the real learning curve concentrates in the third person and in regional splits like vosotros versus ustedes and the voseo pronoun vos. Object pronouns carry enough internal complexity, including the lo/la versus le/les split and how the two fuse into pairs like se lo, to need their own two dedicated guides rather than a summary here.',
+		language: 'Spanish',
+		sections: [
+			{
+				heading: 'One search term, six different grammatical jobs',
+				body: [
+					'"Spanish pronouns" isn\'t one grammar topic. It\'s six, and they don\'t all work the same way. A subject pronoun (*yo*, *tú*) tells you who\'s performing the verb. An object pronoun (*lo*, *le*) tells you who or what is receiving the action. A reflexive pronoun (*se*) tells you the subject and the object are the same entity. A prepositional pronoun (*mí*, *conmigo*) only ever follows a preposition. A possessive pronoun (*mío*, *suyo*) stands in for "my [noun]" or "his [noun]" without naming the noun. A demonstrative pronoun (*esto*, *aquello*) points at something without naming it at all.',
+					'The good news: Spanish reuses the same small set of forms across most of these families. *Me*, *te*, *nos*, and *os* show up, unchanged, as object pronouns, reflexive pronouns, and (with a preposition in front) prepositional pronouns. The learning curve isn\'t spread evenly across the whole system. It concentrates almost entirely in the third person, where the families actually diverge from each other, and in a handful of regional splits that change which subject pronoun a whole country uses.',
+				],
+				image: {
+					src: '/images/spanish-pronouns-diagram.svg',
+					alt: 'Diagram of six Spanish pronoun families (subject, object, reflexive, prepositional, possessive, demonstrative), each with example forms and a sample sentence, noting that me/te/nos/os are shared across several families while the third person and region are where they actually diverge.',
+				},
+			},
+			{
+				heading: 'Subject pronouns: often dropped, and split by region',
+				body: [
+					'The subject pronouns are *yo* (I), *tú* or *vos* (you, informal singular), *usted* (you, formal singular), *él/ella* (he/she), *nosotros/nosotras* (we), *vosotros/vosotras* (you all, Spain informal), *ustedes* (you all), and *ellos/ellas* (they). Spanish conjugates its verbs to mark person and number, so the subject pronoun is frequently dropped entirely: *Hablo español* ("I speak Spanish") already tells you who\'s speaking through the verb ending, and adding *yo* only makes sense for emphasis or contrast.',
+					'Two splits are worth knowing before they cause confusion. First, the plural "you": Spain distinguishes informal *vosotros/vosotras* from formal *ustedes*, while Latin American Spanish drops *vosotros* entirely and uses *ustedes* for both registers, addressing close friends and strangers with the same pronoun. *Vosotros sois de España* only makes sense in Spain; *Ustedes son de España* works everywhere and is the only option outside Spain.',
+					'Second, *vos* replaces *tú* as the informal "you" across a wide stretch of the Spanish-speaking world, a usage the RAE\'s Diccionario panhispánico de dudas formally recognizes as part of the language rather than treating it as substandard. It fully displaces *tú* in Argentina and Uruguay, is Paraguay\'s everyday informal form, and shows up regionally in Costa Rica, Nicaragua, parts of El Salvador, and Colombia\'s Paisa region around Medellín. It also carries its own present-tense verb endings, stressed on the last syllable rather than following the *tú* pattern: *vos sos* (not *tú eres*), *vos tenés* (not *tú tienes*), *vos hablás* (not *tú hablas*). Textbooks built around Spain or Mexico often skip *vos* entirely, which is why it surprises learners the first time they hear Argentine Spanish.',
+				],
+			},
+			{
+				heading: 'Object pronouns, briefly: the deep dive lives elsewhere',
+				body: [
+					'Direct object pronouns (*me, te, lo, la, nos, os, los, las*) replace whatever receives a verb\'s action; indirect object pronouns (*me, te, le, nos, os, les*) replace whoever the action is done to or for. Every person except the third shares identical forms between the two sets, which means nearly all of the real complexity sits in *lo/la* versus *le/les*, and in what happens when both show up in the same sentence, as in *se lo doy* rather than the ungrammatical *le lo doy*.',
+					'That third-person split, and the ordering rule for combining two object pronouns, gets a full treatment in two dedicated guides: [direct vs. indirect object pronouns](/direct-vs-indirect-object-pronouns-spanish/) and [double object pronouns](/double-object-pronouns-spanish/). This overview intentionally doesn\'t re-derive those rules; read those two if that\'s specifically what brought you here.',
+				],
+			},
+			{
+				heading: 'Reflexive pronouns: identical forms, one different rule',
+				body: [
+					'Reflexive pronouns (*me, te, se, nos, os, se*) mark that the subject and the object of a verb are the same entity: *Me lavo* ("I wash myself"), not "I wash someone else." The forms are identical to the object pronoun set with one simplification: object pronouns split the third person by gender and number (*lo/la/los/las* for direct, *le/les* for indirect), but the reflexive third person is always *se*, with no gender or number marking at all.',
+					'Where the pronoun attaches, and what happens with verbs like *dormirse* and *quedarse* that use the same forms without a truly reflexive meaning, is covered in full in [Spanish reflexive verbs](/spanish-reflexive-verbs/).',
+				],
+			},
+			{
+				heading: 'Prepositional pronouns: mí, ti, sí, and why "con mí" is wrong',
+				body: [
+					'After a preposition, Spanish switches to a distinct set of tonic (stressed) pronouns: *mí, ti, sí* for first, second, and reflexive third person singular, plus the same subject-pronoun forms (*él, ella, usted, nosotros, vosotros, ellos, ustedes*) for everything else. *Este regalo es para mí* ("This gift is for me") uses *mí*, not *yo*, because it follows the preposition *para*.',
+					'One preposition forces a written fusion: when *con* ("with") precedes *mí, ti,* or *sí*, Spanish doesn\'t say them as two separate words. It merges them into *conmigo, contigo, consigo*. Saying *con mí* is simply not correct Spanish; the fused form is mandatory. *¿Vienes conmigo?* ("Are you coming with me?"), never *¿Vienes con mí?*.',
+					'A handful of prepositions and conjunction-like particles break the pattern entirely and take ordinary subject-pronoun forms instead of the tonic prepositional set: *entre* ("between"), *según* ("according to"), and the exceptive words *excepto, salvo,* and *menos* (all roughly "except"). The RAE\'s own examples show *tú* and *yo* surviving unchanged after *entre*, as in *Lo que hablemos será entre tú y yo* ("What we talk about will stay between you and me"), where a learner might expect *entre mí y ti* by analogy with every other preposition. *Según tú, somos el enemigo* ("According to you, we\'re the enemy") and *Todos llegaron, menos él* ("Everyone arrived, except him") follow the same exception.',
+				],
+			},
+			{
+				heading: 'Possessive pronouns: the same word, two different shapes',
+				body: [
+					'Spanish possessives come in two forms that trade off stress and position. The short, unstressed forms (*mi, tu, su, nuestro, vuestro*, and their plurals) sit before the noun: *Mi casa es grande* ("My house is big"). The long, stressed forms (*mío, tuyo, suyo, nuestro, vuestro*, with full gender and number agreement) come after the noun, or stand entirely on their own with *ser*: *un amigo mío* ("a friend of mine"), *Esta casa es mía* ("This house is mine").',
+					'Both forms agree in gender and number with the thing owned, never with the owner. *Suyo* covers "his," "her," "your (formal)," and "their" without changing shape, because Spanish possessives track only the object, not who possesses it. That\'s exactly why *suyo* on its own is often ambiguous, and why Spanish speakers add a clarifying phrase (*de él, de ella, de usted*) when context doesn\'t settle it.',
+				],
+			},
+			{
+				heading: 'Demonstrative pronouns: distance, and a neutral set with nothing to agree with',
+				body: [
+					'The demonstrative pronouns track distance from the speaker in three steps: *este/esta/estos/estas* (this, near the speaker), *ese/esa/esos/esas* (that, at a middle distance, often near the listener), and *aquel/aquella/aquellos/aquellas* (that, far from both). *Este libro es interesante* ("This book is interesting") sits differently on that scale than *Aquella montaña es alta* ("That mountain over there is tall").',
+					'Alongside those gendered forms, Spanish keeps a separate neutral set (*esto, eso, aquello*) that never takes a gender or a plural, because they don\'t stand in for any specific noun at all. They point at an idea, a situation, or something unnamed or unidentified: *No entiendo esto* ("I don\'t understand this," referring to a whole situation, not one object) and *Eso no es verdad* ("That\'s not true," referring to a claim someone just made). Confusing the neutral *eso* with the masculine *ese* is a real error, since *ese* has to agree with a specific noun it\'s replacing, and the neutral forms exist precisely because sometimes there isn\'t one.',
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'How many types of pronouns does Spanish have?',
+				answer: 'Six main families: subject (yo, tú/vos, usted...), object (me, te, lo/la, le...), reflexive (me, te, se...), prepositional (mí, ti, conmigo...), possessive (mi/mío, tu/tuyo...), and demonstrative (este/esto, ese/eso, aquel/aquello). Most share the same forms for first and second person (me, te, nos, os); the real differences concentrate in the third person and in a few regional splits.',
+			},
+			{
+				question: 'What\'s the difference between vosotros and ustedes?',
+				answer: 'In Spain, vosotros/vosotras is the informal plural "you" and ustedes is the formal plural "you," a real register distinction. Latin American Spanish doesn\'t use vosotros at all; ustedes covers both formal and informal plural "you" everywhere outside Spain, so a phrase like ustedes son works for close friends and strangers alike.',
+			},
+			{
+				question: 'What is vos, and is it the same as tú?',
+				answer: 'Vos replaces tú as the informal "you" in Argentina, Uruguay, and Paraguay, plus parts of Central America and Colombia, and the RAE\'s Diccionario panhispánico de dudas formally recognizes it as standard rather than substandard usage. It comes with its own present-tense verb forms, stressed on the last syllable: vos sos (not tú eres), vos tenés (not tú tienes), vos hablás (not tú hablas).',
+			},
+			{
+				question: 'Why is "con mí" wrong?',
+				answer: 'Because Spanish requires con to fuse with mí, ti, and sí into single words (conmigo, contigo, consigo) rather than standing next to them as separate words. Con mí, con ti, and con sí simply aren\'t forms Spanish uses; the fused forms are mandatory. A handful of other prepositions and particles, including entre, según, excepto, salvo, and menos, take ordinary subject-pronoun forms instead, as in entre tú y yo, not entre mí y ti.',
+			},
+			{
+				question: 'Do Spanish possessive pronouns agree with the owner or the thing owned?',
+				answer: 'The thing owned, always. Suyo, for example, covers "his," "her," "your (formal)," and "their" without changing form, because it agrees with the possessed noun\'s gender and number, not with who owns it. That\'s also why suyo alone is often ambiguous, and why Spanish speakers add de él, de ella, or de usted when the context doesn\'t already make the owner clear.',
+			},
+		],
+		sources: [
+			{ label: 'Real Academia Española — El buen uso del español: "Los pronombres personales. Formas y características"', url: 'https://www.rae.es/buen-uso-espa%C3%B1ol/los-pronombres-personales-formas-y-caracter%C3%ADsticas' },
+			{ label: 'Real Academia Española — Diccionario panhispánico de dudas: "voseo"', url: 'https://www.rae.es/dpd/voseo' },
+			{ label: 'Real Academia Española — Diccionario panhispánico de dudas: "pronombres personales tónicos"', url: 'https://www.rae.es/dpd/pronombres%20personales%20t%C3%B3nicos' },
+			{ label: 'Real Academia Española — Nueva gramática de la lengua española: "Conjunciones que denotan excepción"', url: 'https://www.rae.es/gram%C3%A1tica/sintaxis/conjunciones-que-denotan-excepci%C3%B3n' },
+			{ label: 'Real Academia Española — El buen uso del español: "Los posesivos. Caracterización y formas"', url: 'https://www.rae.es/buen-uso-espa%C3%B1ol/los-posesivos-caracterizaci%C3%B3n-y-formas' },
+			{ label: 'Real Academia Española — Nueva gramática de la lengua española: "Los demostrativos neutros"', url: 'https://www.rae.es/gram%C3%A1tica/sintaxis/los-demostrativos-neutros' },
+			{ label: 'Real Academia Española — El buen uso del español: "Los demostrativos"', url: 'https://www.rae.es/buen-uso-espa%C3%B1ol/los-demostrativos' },
+		],
+	},
 ];

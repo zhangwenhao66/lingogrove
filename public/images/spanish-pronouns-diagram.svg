@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" font-family="system-ui, -apple-system, sans-serif">
+	<rect width="800" height="560" fill="#f6f4e9"/>
+	<rect x="24" y="24" width="752" height="512" rx="10" fill="#fffefa" stroke="#ddd8c4"/>
+
+	<rect x="24" y="24" width="752" height="56" rx="10" fill="#2f6b47"/>
+	<rect x="24" y="60" width="752" height="20" fill="#2f6b47"/>
+	<text x="400" y="60" text-anchor="middle" fill="#ffffff" font-size="19" font-weight="700">SIX FAMILIES OF SPANISH PRONOUNS</text>
+
+	<!-- row 1 -->
+	<rect x="46" y="102" width="220" height="150" rx="8" fill="#fbead0" stroke="#ddd8c4"/>
+	<rect x="290" y="102" width="220" height="150" rx="8" fill="#fbead0" stroke="#ddd8c4"/>
+	<rect x="534" y="102" width="220" height="150" rx="8" fill="#fbead0" stroke="#ddd8c4"/>
+
+	<text x="156" y="128" text-anchor="middle" fill="#5a5648" font-size="12" font-weight="700">SUBJECT</text>
+	<text x="156" y="152" text-anchor="middle" fill="#2f6b47" font-size="14" font-weight="700">yo, tú/vos, usted,</text>
+	<text x="156" y="170" text-anchor="middle" fill="#2f6b47" font-size="14" font-weight="700">nosotros, vosotros,</text>
+	<text x="156" y="188" text-anchor="middle" fill="#2f6b47" font-size="14" font-weight="700">ustedes, ellos</text>
+	<text x="156" y="216" text-anchor="middle" fill="#201f1a" font-size="12" font-style="italic">"Vos sos mi amigo."</text>
+	<text x="156" y="234" text-anchor="middle" fill="#5a5648" font-size="11">region splits this family</text>
+
+	<text x="400" y="128" text-anchor="middle" fill="#5a5648" font-size="12" font-weight="700">OBJECT</text>
+	<text x="400" y="152" text-anchor="middle" fill="#2f6b47" font-size="14" font-weight="700">me, te, lo/la,</text>
+	<text x="400" y="170" text-anchor="middle" fill="#2f6b47" font-size="14" font-weight="700">le, nos, os,</text>
+	<text x="400" y="188" text-anchor="middle" fill="#2f6b47" font-size="14" font-weight="700">los/las, les</text>
+	<text x="400" y="216" text-anchor="middle" fill="#201f1a" font-size="12" font-style="italic">"Se lo doy."</text>
+	<text x="400" y="234" text-anchor="middle" fill="#b5570f" font-size="11">2 full guides of its own</text>
+
+	<text x="644" y="128" text-anchor="middle" fill="#5a5648" font-size="12" font-weight="700">REFLEXIVE</text>
+	<text x="644" y="152" text-anchor="middle" fill="#2f6b47" font-size="14" font-weight="700">me, te, se,</text>
+	<text x="644" y="170" text-anchor="middle" fill="#2f6b47" font-size="14" font-weight="700">nos, os, se</text>
+	<text x="644" y="188" text-anchor="middle" fill="#201f1a" font-size="12" font-style="italic">"Me lavo."</text>
+	<text x="644" y="216" text-anchor="middle" fill="#5a5648" font-size="11">3rd person never</text>
+	<text x="644" y="234" text-anchor="middle" fill="#5a5648" font-size="11">splits by gender</text>
+
+	<!-- row 2 -->
+	<rect x="46" y="278" width="220" height="150" rx="8" fill="#eaf1ea" stroke="#2f6b47"/>
+	<rect x="290" y="278" width="220" height="150" rx="8" fill="#eaf1ea" stroke="#2f6b47"/>
+	<rect x="534" y="278" width="220" height="150" rx="8" fill="#eaf1ea" stroke="#2f6b47"/>
+
+	<text x="156" y="304" text-anchor="middle" fill="#5a5648" font-size="12" font-weight="700">PREPOSITIONAL</text>
+	<text x="156" y="328" text-anchor="middle" fill="#204a31" font-size="14" font-weight="700">mí, ti, sí,</text>
+	<text x="156" y="346" text-anchor="middle" fill="#204a31" font-size="14" font-weight="700">conmigo, contigo</text>
+	<text x="156" y="392" text-anchor="middle" fill="#201f1a" font-size="12" font-style="italic">"¿Vienes conmigo?"</text>
+	<text x="156" y="410" text-anchor="middle" fill="#5a5648" font-size="11">con fuses; entre/según don't</text>
+
+	<text x="400" y="304" text-anchor="middle" fill="#5a5648" font-size="12" font-weight="700">POSSESSIVE</text>
+	<text x="400" y="328" text-anchor="middle" fill="#204a31" font-size="14" font-weight="700">mi/mío, tu/tuyo,</text>
+	<text x="400" y="346" text-anchor="middle" fill="#204a31" font-size="14" font-weight="700">su/suyo</text>
+	<text x="400" y="392" text-anchor="middle" fill="#201f1a" font-size="12" font-style="italic">"Esta casa es mía."</text>
+	<text x="400" y="410" text-anchor="middle" fill="#5a5648" font-size="11">agrees with the thing owned</text>
+
+	<text x="644" y="304" text-anchor="middle" fill="#5a5648" font-size="12" font-weight="700">DEMONSTRATIVE</text>
+	<text x="644" y="328" text-anchor="middle" fill="#204a31" font-size="14" font-weight="700">este/esto, ese/eso,</text>
+	<text x="644" y="346" text-anchor="middle" fill="#204a31" font-size="14" font-weight="700">aquel/aquello</text>
+	<text x="644" y="392" text-anchor="middle" fill="#201f1a" font-size="12" font-style="italic">"No entiendo esto."</text>
+	<text x="644" y="410" text-anchor="middle" fill="#5a5648" font-size="11">neutral forms have no plural</text>
+
+	<line x1="46" y1="452" x2="754" y2="452" stroke="#ddd8c4" stroke-width="1"/>
+	<text x="400" y="480" text-anchor="middle" fill="#5a5648" font-size="12" font-style="italic">me, te, nos, os are shared across object, reflexive, and (with a preposition) prepositional forms —</text>
+	<text x="400" y="500" text-anchor="middle" fill="#5a5648" font-size="12" font-style="italic">only the 3rd person and the subject forms actually change shape family to family.</text>
+	<text x="400" y="524" text-anchor="middle" fill="#b5570f" font-size="12" font-weight="700">The "object" family gets two dedicated deep-dives — see below.</text>
+</svg>
