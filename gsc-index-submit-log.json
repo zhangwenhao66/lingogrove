@@ -1,0 +1,22 @@
+[
+  {
+    "date": "2026-08-04",
+    "action": "submitted",
+    "reason": "trafficsite-gsc-index-requests例行运行，跨天连续游标机制首次运行（本站首次出现在本任务日志）。今日新发布2篇（saber-vs-conocer/direct-vs-indirect-object-pronouns-spanish，por-vs-para为审计更新非新发布不计入），取direct-vs-indirect-object-pronouns-spanish（URL is not on Google）提交成功。第二轮取saber-vs-conocer（同样未收录）提交成功。",
+    "submitted_urls": [
+      "https://lingogrove.com/direct-vs-indirect-object-pronouns-spanish/",
+      "https://lingogrove.com/saber-vs-conocer/"
+    ],
+    "quota_used": "2 of shared account-wide daily quota (9th and 18th requests this run)"
+  },
+  {
+    "date": "2026-08-05",
+    "action": "submitted",
+    "reason": "trafficsite-gsc-index-requests例行运行。今日新发布2篇（spanish-future-tense/subjunctive-spanish）。第一轮取spanish-future-tense（URL is not on Google）提交成功。第二轮误读日志标题'Spanish Subjunctive'为slug尝试'spanish-subjunctive'返回404（Indexing request rejected），核实guides.ts+内容发布日志.md后确认真实slug为subjunctive-spanish（curl 200），改提交正确URL（URL is not on Google）成功。",
+    "submitted_urls": [
+      "https://lingogrove.com/spanish-future-tense/",
+      "https://lingogrove.com/subjunctive-spanish/"
+    ],
+    "quota_used": "2 requests this run (round 1 and round 2; one wasted 404 attempt on wrong slug guess, not GSC quota since 404 rejection happens before consuming a real submission slot)"
+  }
+]
