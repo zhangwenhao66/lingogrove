@@ -17,7 +17,9 @@
   "https://lingogrove.com/por-vs-para/": {
     "submitted_date": "2026-08-03",
     "verified_status": "pending",
-    "note": "launch batch, new publish; Bing 202 / Yandex 202."
+    "note": "launch batch, new publish; Bing 202 / Yandex 202.",
+    "last_checked_date": "2026-08-06",
+    "verified_method": "bwt_url_inspection"
   },
   "https://lingogrove.com/ser-vs-estar/": {
     "submitted_date": "2026-08-03",
@@ -32,7 +34,9 @@
   "https://lingogrove.com/deja-vu-meaning/": {
     "submitted_date": "2026-08-03",
     "verified_status": "pending",
-    "note": "launch batch, new publish; Bing 202 / Yandex 202."
+    "note": "launch batch, new publish; Bing 202 / Yandex 202.",
+    "last_checked_date": "2026-08-06",
+    "verified_method": "bwt_url_inspection"
   },
   "https://lingogrove.com/schadenfreude-meaning/": {
     "submitted_date": "2026-08-03",
@@ -47,17 +51,23 @@
   "https://lingogrove.com/happy-birthday-in-spanish/": {
     "submitted_date": "2026-08-03",
     "verified_status": "pending",
-    "note": "launch batch, new publish; Bing 202 / Yandex 202."
+    "note": "launch batch, new publish; Bing 202 / Yandex 202.",
+    "last_checked_date": "2026-08-06",
+    "verified_method": "bwt_url_inspection"
   },
   "https://lingogrove.com/good-night-in-spanish/": {
     "submitted_date": "2026-08-03",
     "verified_status": "pending",
-    "note": "launch batch, new publish; Bing 202 / Yandex 202."
+    "note": "launch batch, new publish; Bing 202 / Yandex 202.",
+    "last_checked_date": "2026-08-06",
+    "verified_method": "bwt_url_inspection"
   },
   "https://lingogrove.com/i-love-you-in-spanish/": {
     "submitted_date": "2026-08-03",
     "verified_status": "pending",
-    "note": "launch batch, new publish; Bing 202 / Yandex 202."
+    "note": "launch batch, new publish; Bing 202 / Yandex 202.",
+    "last_checked_date": "2026-08-06",
+    "verified_method": "bwt_url_inspection"
   },
   "https://lingogrove.com/ser-conjugation/": {
     "submitted_date": "2026-08-05",
@@ -88,5 +98,10 @@
     "submitted_date": "2026-08-05",
     "verified_status": "pending",
     "note": "new publish (Grammar tier); Bing 200 / Yandex 202."
+  },
+  "https://lingogrove.com/spanish-accent-marks/": {
+    "submitted_date": "2026-08-06",
+    "verified_status": "pending",
+    "note": "daily publish; Bing 200 / Yandex 202."
   }
 }
