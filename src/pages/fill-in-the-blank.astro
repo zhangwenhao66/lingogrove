@@ -1,0 +1,89 @@
+---
+import Layout from '../layouts/Layout.astro';
+import WordQuiz from '../components/WordQuiz.astro';
+import BreadcrumbList from '../../vendor/site-toolkit/packages/schema/src/BreadcrumbList.astro';
+import { jsonLdStringify } from '../../vendor/site-toolkit/packages/schema/src/jsonLdStringify';
+import { wordQuizItems } from '../data/wordQuiz';
+import { SITE_ORIGIN, SITE_TITLE, AUTHOR_NAME } from '../consts';
+
+const pageUrl = `${SITE_ORIGIN}/fill-in-the-blank/`;
+const title = 'Fill in the Blank: A Spanish Grammar Quiz';
+const description =
+	'Por or para? Ser or estar? Sé or conozco? Pick the word that fits a real example sentence from our own grammar coverage, then see whether you were right before you read why.';
+const updated = '2026-08-06';
+
+const articleCount = new Set(wordQuizItems.map((i) => i.sourceSlug)).size;
+
+const webAppSchema = jsonLdStringify({
+	'@context': 'https://schema.org',
+	'@type': 'WebApplication',
+	name: 'Fill in the Blank: LingoGrove Quiz',
+	url: pageUrl,
+	description,
+	applicationCategory: 'EducationApplication',
+	operatingSystem: 'Any',
+	browserRequirements: 'Requires JavaScript',
+	offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' },
+	publisher: { '@type': 'Organization', name: SITE_TITLE, url: `${SITE_ORIGIN}/` },
+	dateModified: updated,
+});
+
+const breadcrumbItems = [
+	{ name: 'Home', item: `${SITE_ORIGIN}/` },
+	{ name: 'Fill in the Blank', item: pageUrl },
+];
+---
+
+<Layout title={title} description={description}>
+	<script type="application/ld+json" set:html={webAppSchema} slot="head" is:inline />
+	<BreadcrumbList slot="head" items={breadcrumbItems} />
+
+	<div class="mx-auto max-w-[680px]">
+		<nav class="mb-8 text-sm text-[var(--ink)]/40">
+			<a href="/" class="no-underline hover:text-[var(--ink)] hover:underline">Home</a>
+			<span class="mx-1.5">/</span>
+			<span class="text-[var(--ink)]/70">Fill in the Blank</span>
+		</nav>
+
+		<h1 class="font-display m-0 text-[2.1rem] leading-tight font-semibold text-[var(--ink)]">{title}</h1>
+		<p class="mt-3 text-[1.05rem] leading-relaxed text-[var(--ink)]/70">{description}</p>
+		<p class="mt-3 text-xs uppercase tracking-wide text-[var(--ink)]/40">Last updated {updated}</p>
+
+		<div class="panel mt-7 rounded-[10px] px-6 py-5">
+			<p class="rubric m-0">Core summary</p>
+			<p class="mt-2 mb-0 text-[0.9375rem] leading-relaxed text-[var(--ink)]/85">
+				Every sentence here comes straight from a real LingoGrove grammar article — nothing is invented for
+				the quiz. Each round draws 12 questions at random from a deck of {wordQuizItems.length}, spanning
+				{articleCount} confusable-word-pair articles, so the set changes each time you play. Pick the word
+				that fits, then read the explanation and follow the link back to the full article.
+			</p>
+		</div>
+
+		<div class="mt-8">
+			<WordQuiz count={12} />
+		</div>
+
+		<article class="font-prose mt-9 text-[0.9375rem] leading-[1.85] text-[var(--ink)]/80">
+			<h2 class="font-display mt-10 mb-3 text-[1.4rem] font-semibold text-[var(--ink)]">Why a quiz instead of a list of rules</h2>
+			<p class="mb-3.5">
+				A page that just states "por marks cause, para marks purpose" can be read and repeated by an AI
+				answer box in a single sentence — the visitor never needs to open the page. A blank you have to fill
+				in yourself, before the answer and its explanation appear, doesn't work that way: it needs a click
+				and a guess first. The underlying rules are the same ones already published across this site's
+				<a href="/" class="text-[var(--flag-dark)] no-underline hover:underline">grammar coverage</a>; this
+				page just turns a sample of the example sentences into a game.
+			</p>
+			<p class="mb-0">
+				Every explanation links back to the article it came from, with the same reasoning already laid out
+				there — nothing on this page is asserted without a fuller explanation in the linked piece.
+			</p>
+		</article>
+
+		<div class="mt-10 flex items-start gap-4 border-t border-[var(--rule)] pt-6">
+			<div>
+				<p class="m-0 font-semibold text-[var(--ink)]"><a href="/about/" class="no-underline text-inherit hover:text-[var(--flag-dark)]">{AUTHOR_NAME}</a></p>
+				<p class="rubric mt-1 mb-0">Editor, {SITE_TITLE}</p>
+			</div>
+		</div>
+	</div>
+</Layout>
