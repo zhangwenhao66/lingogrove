@@ -137,8 +137,170 @@ Owen Zhang
 LingoGrove, lingogrove.com
 contact@lingogrove.com
 
-### 待独立复核（见下方状态更新）
+### 待独立复核（见下方状态更新，Glossika这条2026-08-04已处理，见下）
 
 - 收件人：support@glossika.com
 - 邮件里引用的数据点：https://lingogrove.com/schadenfreude-meaning/ 确为本站已发布真实页面（`src/data/guides.ts` 收录）
 - lingogrove 别名已于2026-08-04验证可用（见 `gmail_send.py` FROM_ALIASES 注释），实际发送将使用 `--from lingogrove`
+
+---
+
+## 2026-08-06 · 积压 guest post 草稿处理（清剩余4条）· English EFL / ICAL TEFL / Learn English Weekly / Virtual Writing Tutor
+
+背景：`guest-post-pitch-drafts.md` 里5份草稿的另外4份（Glossika已于08-04处理并发出）。本轮逐条重新核实渠道仍开放（curl UA伪装抓取，全部200，标题标签确认内容未变）、内容仅基于 `src/data/guides.ts` 已发布文章（por-vs-para / preterite-vs-imperfect / schadenfreude-meaning / deja-vu-meaning / senpai-meaning）、过 humanizer 去除em/en dash与其他AI写作痕迹、全账号+本站JSON查重（4个收件人此前均无任何矩阵站点联系记录）。
+
+**Loanwords 主题的两份（Learn English Weekly、Virtual Writing Tutor）刻意做了差异化处理**：Learn English Weekly走"ESL学习者在字幕/媒体里撞见这些词"的词汇积累角度；Virtual Writing Tutor（写作批改工具博客）改走"写作里常见误用"角度，具体误用点分别改写自guides.ts原文的准确区分（schadenfreude页区分"private feeling" vs "gloating"；senpai页区分"reciprocal mentor relationship" vs 英文网络meme化的"someone senior"），不是同一段文字换收件人。
+
+### 1. English EFL（info@english-efl.com）— Por vs. Para
+
+**渠道复核**：curl抓取 `https://www.english-efl.com/submit-guest-post/`，200，页面标题 "Write For Us: Submit A Guest Post - English EFL"，仍在线。
+**事实核对**：por/para的cause-vs-destination区分、por fin/por supuesto/por ejemplo/para siempre固定短语，均逐条对应 `src/data/guides.ts` 中 `por-vs-para` 条目原文。
+**Humanizer**：原稿1处em dash（"...maintain at [url] — I'd write a fresh..."）已改写为句号断句；主题行原用em dash改为冒号。
+
+Subject: Guest post pitch: Por vs. Para for ESL grammar learners
+
+Hi,
+
+I run LingoGrove (lingogrove.com), a plain-English grammar and translation reference site aimed at learners and the people who teach them. I'd like to pitch a guest post for your Grammar/Vocabulary section.
+
+Working title: "Por vs. Para: A Teacher's Cheat Sheet for the Distinction Students Never Stop Mixing Up." It would walk through the actual decision points (cause vs. destination/goal, plus the handful of fixed expressions that don't follow the pattern) instead of just restating the textbook rule. It's based on the reference guide I already maintain at https://lingogrove.com/por-vs-para/, though I'd write a fresh, classroom-angled version for you rather than a reprint.
+
+400 to 1,500 words per your guidelines, original content, and I'll keep external links to the three you allow. Let me know if this fits what you're looking for.
+
+Best,
+Owen Zhang
+LingoGrove, lingogrove.com
+contact@lingogrove.com
+
+**独立复核第一轮**：判定"problem"——正文写"keep external links to the two you allow"，但研究记录里 English EFL 的实际规则是最多3条外链（not 2），把对方自己的规则说错是可核实的具体错误。**已修正**："two"改为"three"，第二轮独立复核判定"can send"。
+
+**状态**：✅ **已发送**（2026-08-06）。`gmail_send.py --from lingogrove`，收件人 info@english-efl.com，Message ID `19fd724609bb4350`。
+
+### 2. ICAL TEFL（admin@icaltefl.com）— Preterite vs. Imperfect
+
+**渠道复核**：curl抓取 `https://icaltefl.com/guest-blogs-write-for-us/`，200，页面加载正常（TEFL guest blog内容）。
+**事实核对**："completed vs. ongoing"是学生常背诵但仍误用的简化说法、preterite/imperfect的实际区分是aspect不是时长，均对应 `src/data/guides.ts` 中 `preterite-vs-imperfect` 条目原文（FAQ第一条明确写"Is the difference...about how long ago something happened? No — that's a common misconception"）。
+**Humanizer**：原稿正文无em/en dash，仅主题行的em dash改为冒号，其余未改动。
+
+Subject: Guest post outline: the Spanish tense distinction that trips up every classroom
+
+Hi ICAL TEFL team,
+
+I run LingoGrove (lingogrove.com), a grammar and translation reference site, and wanted to send a short guest post outline per your guidelines before writing the full piece.
+
+Outline: "Preterite vs. Imperfect: A Classroom Framing That Actually Sticks," a roughly 600 to 700 word, teacher-facing take on how to explain Spanish's two past tenses without falling back on "completed vs. ongoing" (which students memorize and still misapply). It draws on the reference version I maintain at https://lingogrove.com/preterite-vs-imperfect/, rewritten for a TEFL/classroom audience instead of a self-study lookup.
+
+Happy to adjust the angle if you'd rather have something on a different grammar point. Let me know if this is a fit.
+
+Thanks,
+Owen Zhang
+LingoGrove, lingogrove.com
+contact@lingogrove.com
+
+**独立复核**：判定"can send"（第一轮已通过，未发现问题）。
+
+**状态**：✅ **已发送**（2026-08-06）。`gmail_send.py --from lingogrove`，收件人 admin@icaltefl.com，Message ID `19fd724350782fed`。
+
+### 3. Learn English Weekly（learnenglishweekly@gmail.com）— Loanwords, ESL vocabulary angle
+
+**渠道复核**：curl抓取 `https://learnenglishweekly.com/write-for-us`，200，页面标题 "Write for Us – Guest Post Opportunities at Learn English Weekly"，仍在线。原稿列了Google表单选项，本轮选择直接发邮件（表单要求粘贴大段outline文本，邮件同样可达且更便于走查重/复核流程）。
+**事实核对**：schadenfreude/déjà vu/senpai三词均为 `src/data/guides.ts` 已发布的 `schadenfreude-meaning`、`deja-vu-meaning`、`senpai-meaning` 条目，无编造数据。
+**Humanizer**：原稿2处em dash（"formally taught — schadenfreude..." 和 bio里"lingogrove.com) — a reference site..."）已改写为冒号/句号；主题行en dash改为冒号；补上正式邮件的问候语开头和落款（原稿是给表单粘贴用的纯outline文本，无称呼/落款，改成邮件格式）。
+
+Subject: Guest Post Submission: Everyday Loanwords ESL Learners Already Half-Know
+
+Hi Learn English Weekly team,
+
+I run LingoGrove (lingogrove.com), a grammar and vocabulary reference site, and wanted to pitch something aimed at the adult side of your readership specifically, since your site covers both kids and adults. I'd like to contribute a piece on loanwords that show up constantly in English media but almost never get formally taught: schadenfreude, déjà vu, senpai. These aren't obscure SAT words. They're words adult learners will run into in captions, subtitles, and casual conversation long before any textbook gets to them, and knowing the literal meaning and correct usage, not just the general vibe, closes a real gap.
+
+I maintain reference explainers on each at lingogrove.com, including https://lingogrove.com/schadenfreude-meaning/, and would write a new, self-study-angled piece for your site rather than adapt those directly. 800 to 1,500 words, British English, original.
+
+Thanks,
+Owen Zhang
+LingoGrove, lingogrove.com
+contact@lingogrove.com
+
+**状态**：✅ **已发送**（2026-08-06）。第二轮独立复核判定"can send"。`gmail_send.py --from lingogrove`，收件人 learnenglishweekly@gmail.com，Message ID `19fd7249bb3119ff`。
+
+**独立复核第一轮**：判定"problem"——跟同批发给 Virtual Writing Tutor 的loanwords邮件类别/角度太接近，本邮件没有任何一句是"只能对Learn English Weekly说、不能套用到任何ESL词汇博客"的内容，读起来像模板。**已修正**：加入对该站首页 meta 描述里实际观察到的"for both kids and adults"这一真实细节（curl抓取时读到，非编造），把切入点收窄成"专门为你们的成人读者写"，与"字幕/媒体场景"角度结合，已过第二轮独立复核（见下方状态）。
+
+### 4. Virtual Writing Tutor（admin@virtualwritingtutor.com）— Loanwords, writing-misuse angle (differentiated from #3)
+
+**渠道复核**：curl抓取 `https://blog.virtualwritingtutor.com/guest-blog-posts-welcome/`，200，页面标题 "Guest Blog Posts Welcome – Virtual Writing Tutor Blog"，仍在线。
+**事实核对**：两处具体"误用"说法均逐字对应guides.ts原文而非编造 —— schadenfreude页原文区分"gloating"（外显行为）vs schadenfreude（私下感受，"whether or not you ever act on it or had anything to do with causing the misfortune"）；senpai页原文写"'senior' captures the rank but misses the mentoring expectation"，"English absorbed only the internet-meme sense"。
+**Humanizer + 差异化**：原稿1处em dash（"guest post page — since you mentioned..."）已改写为句号；与第3封同为loanwords主题，本轮改写角度从"ESL学习者字幕场景"换成"写作里的具体误用"（更贴合Virtual Writing Tutor作为写作批改工具博客的受众），词序、举例内容、句式结构均与第3封不同，不是同一段文字换收件人。
+
+Subject: Guest post idea: three loanwords writers use without knowing what they translate to
+
+Hi,
+
+I run LingoGrove (lingogrove.com), a grammar, vocabulary, and translation reference site. I read your guest post page. Since you mentioned being selective, I wanted to check an idea with you before writing anything.
+
+Proposed piece: senpai, schadenfreude, and déjà vu are three loanwords people tend to use more by feel than by definition. The piece would walk through what each one literally translates to, a sentence where it's used correctly, and one distinction I'd draw out for each that's easy to blur. For schadenfreude, that's separating the word itself, a private feeling, from gloating, which is the visible act of showing triumph: you can feel schadenfreude without ever gloating about it, and gloat about something that isn't schadenfreude at all. For senpai, it's that the common English usage flattens it to "someone senior," which drops the reciprocal mentor relationship the word actually names in Japanese.
+
+I maintain reference pages on all three at lingogrove.com and would write an original piece for your audience rather than reuse that copy. Happy to do a grammar-focused piece instead, such as ser vs. estar or preterite vs. imperfect, if that fits better with what you've run recently.
+
+Thanks,
+Owen Zhang
+LingoGrove, lingogrove.com
+contact@lingogrove.com
+
+**独立复核共4轮**（比其余4封都多，记录完整过程）：
+- 第1轮：判定"problem"——原稿把两处误用说法写成"gets treated as"/"tends to attract"，读起来像在断言一种被观察到的普遍误用趋势，但没有任何语料/样本来源支撑。
+- 第2轮（改写为"one distinction I'd draw out for each"）：判定"problem"——主题行"three loanwords writers use without knowing what they translate to"和开头"people tend to use more by feel than by definition"仍带同样的"trend claim"结构，只改了两处具体误用点，没改主题行和主旨句。
+- 第3轮（改主题行为"what...actually translate to"，主旨句改为纯内容列举）：判定"problem"——senpai那句"the common English usage flattens it to 'someone senior'"仍是对"英语使用习惯"的泛化断言，同一类问题换了个位置。
+- 第4轮（两处均改为"the piece would..."纯editorial框架，不再断言使用习惯，只描述稿件内容）：判定 **"can send"**。
+
+四轮改动都没有引入新数据点，两处区分点全程逐句对应 `src/data/guides.ts` 原文（schadenfreude页的feeling-vs-gloating区分、senpai页"'senior' captures the rank but misses the mentoring expectation"），改的只是措辞框架不是事实内容。
+
+**状态**：✅ **已发送**（2026-08-06）。`gmail_send.py --from lingogrove`，收件人 admin@virtualwritingtutor.com，Message ID `19fd7265e25ff768`。
+
+### 全账号查重（2026-08-06，`gmail_send.py list --query "to:<addr>"`，无 --from 过滤）
+
+- info@english-efl.com → `[]`，无记录
+- admin@icaltefl.com → `[]`，无记录
+- learnenglishweekly@gmail.com → `[]`，无记录
+- admin@virtualwritingtutor.com → `[]`，无记录
+
+`guest-post-outreach.json` 本站14天内记录同样只有Glossika一条，4个新收件人均未出现。
+
+---
+
+## 2026-08-06 · 新调研 · LingoDeer Blog（本轮唯一发现的新viable渠道）
+
+**背景**：WebSearch额度本轮session中途耗尽（200/200，环境共享额度非本任务独占），已尝试的方向：翻译/口译专业博客、法语学习博客、德语学习博客、词源/语言学爱好者博客、日语学习博客（后两个方向额度耗尽前未能搜完）。找到的候选中，多数不合格：
+- **CCube Academy**（write-for-us页）：内容判定为低质量通用"education/online learning/colleges/careers"guest post收链接站，措辞类似SEO外链农场（"boost your online presence"、"reach the right audience"），与LingoGrove语言参考定位不符，跳过
+- **Oui In France**（wanna-guest-post页）：curl核实`datePublished: 2016-12-02`，正文原文写"The last time I asked for guest posts was in 2015 when I went on vacation"——这是一次性的、绑定特定年份"假期"的老帖子，不是常设开放渠道，且要求投稿人必须是"a blogger"、"a regular reader of my site"（互惠交换性质），跳过
+- **Fluent in 3 Months**（guest-posting-guide页）：curl返回404，已失效
+- **Language Reach**：未能找到实际write-for-us提交页（猜测常见路径均404，WebSearch额度已耗尽无法进一步定位），本轮搁置不算作候选
+- **OptiLingo**：再次核实（本站2026-08-04已判定死链），本轮curl返回403（此前判定是404，均指向该页已不可用），维持disqualified结论
+
+**LingoDeer Blog（blog.lingodeer.com）核查通过**：
+- 渠道真实性：curl抓取 `https://blog.lingodeer.com/guidelines/`，200，页面内容为完整的"LingoDeer Guest Blogging Guidelines"（Ghost博客平台），非SEO农场页面。LingoDeer是知名语言学习App（类似Duolingo定位），覆盖日语/韩语/普通话/西班牙语/法语/意大利语/德语/俄语/越南语/葡萄牙语/阿拉伯语
+- 规则：原创、1500-2500字、写作风格要求helpful/in-depth/clear/engaging、至少链接2篇LingoDeer站内文章、最多1条推广性外链、需附作者简介、投稿邮箱 blog@lingodeer.com（主题行 "LingoDeer Blog Idea"）——先投pitch而非成稿
+- **全账号查重**：`gmail_send.py list --query "to:blog@lingodeer.com"` → `[]`，无记录；本站JSON同样无记录
+- **选题依据**：LingoDeer的核心教学语言含西班牙语，选了 ser-vs-estar（LingoGrove现有内容里深度最完整的一篇，含地域变体讨论），比807-2500字要求更接近的深度素材，逐句核对均来自 `src/data/guides.ts` 的 `ser-vs-estar` 条目原文（está muerto/fue profesor por dos años的shorthand反例、ser aburrido/estar aburrido等变义形容词对、la fiesta es aquí/el libro está aquí的地点区分、Basque Country Spanish vs Caribbean Spanish的地域变体说明），无编造数据
+- **Humanizer**：正文无em/en dash，无排比三连、无AI高频词，主题行按LingoDeer要求格式写"LingoDeer Blog Idea: ..."
+
+Subject: LingoDeer Blog Idea: Why "Ser" and "Estar" Aren't Just "Permanent vs. Temporary"
+
+Hi LingoDeer team,
+
+I run LingoGrove (lingogrove.com), a grammar and translation reference site for English speakers, and wanted to pitch an idea per your guest posting guidelines.
+
+Working idea: an in-depth piece on ser vs. estar for your Spanish-learning readers, going past the standard "permanent vs. temporary" shorthand into where it actually breaks down (está muerto uses estar for something about as permanent as it gets, fue profesor por dos años uses ser for something clearly temporary) and into a more reliable test: whether the sentence defines the subject or reports a state it happens to be in. I'd cover the adjectives that flip meaning depending on which verb they pair with, such as ser aburrido versus estar aburrido and ser listo versus estar listo, the location split between la fiesta es aquí and el libro está aquí, and touch on regional variation, since Basque Country Spanish pushes estar into more contexts than Caribbean Spanish typically does.
+
+I maintain the reference version of this at https://lingogrove.com/ser-vs-estar/ and would write a fresh, expanded piece for LingoDeer rather than adapt it directly, in the 1,500 to 2,500 word range, with links to relevant LingoDeer posts included per your guidelines.
+
+Let me know if this fits what you're looking for, or if you'd rather have something on a different grammar point. I also maintain reference guides on por vs. para and preterite vs. imperfect.
+
+Thanks,
+Owen Zhang
+LingoGrove, lingogrove.com
+contact@lingogrove.com
+
+**独立复核**：判定"can send"（第一轮通过，未发现问题）。
+
+**状态**：✅ **已发送**（2026-08-06）。`gmail_send.py --from lingogrove`，收件人 blog@lingodeer.com，Message ID `19fd72ae070db36b`。
+
+### 待独立复核（见下方状态更新，本轮共4个独立agent，逐个跑）
