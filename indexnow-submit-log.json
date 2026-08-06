@@ -22,9 +22,9 @@
     "verified_method": "bwt_url_inspection"
   },
   "https://lingogrove.com/ser-vs-estar/": {
-    "submitted_date": "2026-08-03",
+    "submitted_date": "2026-08-06",
     "verified_status": "pending",
-    "note": "launch batch, new publish; Bing 202 / Yandex 202."
+    "note": "resubmitted after content-quality-audit fix (removed 14 narrative em-dashes, added rico example, softened regionNote regional-variation claim with sourced dialectal detail, added verbatim RAE quote); Bing 200 / Yandex 202. Originally submitted 2026-08-03 as launch batch, Bing 202 / Yandex 202."
   },
   "https://lingogrove.com/preterite-vs-imperfect/": {
     "submitted_date": "2026-08-03",

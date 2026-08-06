@@ -204,3 +204,62 @@
   "escalation": null
 }
 ```
+
+## 2026-08-06 完整审计：`ser-vs-estar`
+
+```json
+{
+  "url_slug": "ser-vs-estar",
+  "last_audited": "2026-08-06",
+  "published_date": "2026-08-03",
+  "note": "本站第三次由trafficsite-content-quality-audit任务审计（第一次por-vs-para 08-04，第二次ser-conjugation 08-05）。诊断+独立复核两轮均已完成，本次是修复+验证+部署阶段。本条只覆盖被CONFIRMED的3项发现，未做全面重新审计。",
+  "diagnosed_checkpoints": [
+    "正文/regionNote/FAQ叙述性破折号是否超出本站已确立的去AI味标准（仅sources来源标签+FAQ'No —'开头两类结构性用法可保留）",
+    "FAQ提到rico但正文变义形容词小节是否遗漏展开",
+    "regionNote关于地域一致性的断言是否过度绝对化，与真实方言变异文献是否矛盾"
+  ],
+  "findings": [
+    {
+      "dimension": "早期内容AI味补漏",
+      "status": "确认发现问题，独立复核确认为真，已修复",
+      "detail": "正文+regionNote+FAQ合计14处破折号为叙述性/同位语用法，不符合本站标准（仅保留来源标签+FAQ'No —'两类结构性用法），其余3处为sources数组来源标签，合规保留。独立agent逐条核对14处均不属于两类例外，判定CONFIRMED。已修复：14处全部改写为句号/冒号/逗号/括号结构，保留原意，仅改动含破折号的具体句子，构建后核实live页面仅剩3处sources标签允许的破折号。"
+    },
+    {
+      "dimension": "内容完整性/一致性",
+      "status": "确认发现问题，已修复",
+      "detail": "FAQ第3条('es aburrido/está aburrido区别')提到'aburrido, listo, malo, rico, among others'四个变义形容词，但正文'变义形容词'小节只展开了aburrido/listo/malo三对，rico被列出却从未解释，是FAQ与正文之间的真实内容缺口。已修复：正文该小节补充一句真实例句（ser rico=\"to be wealthy\"，estar rico=\"to taste good\"，形容人时=\"to be attractive\"），风格与其余三对一致。"
+    },
+    {
+      "dimension": "事实准确性/过度概括",
+      "status": "确认发现问题，独立复核确认为真，已修复",
+      "detail": "原regionNote声称ser/estar区分'在西语所有地区完全一致，只有边缘形容词归类有地区差异'，独立agent查到真实方言变异文献：Argentinian/Chilean/Iberian/Mexican/Venezuelan方言实验研究显示真实的可接受度差异；Basque Country Spanish因语言接触导致estar扩张进入ser的传统领域；Caribbean Spanish相对保守，Mexican/Central American/Andean方言的estar expansion更快——这是copula-selection系统本身的地域性使用倾向差异，不只是个别形容词归类问题，原表述过度绝对化。已修复：regionNote与关联的FAQ第4条均改写为承认更广泛的地域性使用倾向差异（尤其语言接触变体与加勒比vs墨西哥/安第斯地区之间），同时保留核心结论——ser/estar的身份/状态区分规则本身仍是全体西语区通用的标准，变化的只是使用频率/倾向和边缘案例，未把度改过头推翻规则本身。"
+    },
+    {
+      "dimension": "GEO审计",
+      "status": "确认发现问题（权威原文引语维度过弱），已修复并重新评估",
+      "detail": "诊断阶段粗估约77/99，低于80及格线，权威原文引语维度最弱：3条RAE来源（Nueva gramática básica + 2条Diccionario panhispánico de dudas）全部只是链接，全文无一处逐字引用RAE原文句子。已修复：在regionNote改写中加入RAE《Nueva gramática básica》原文逐字引语'Los atributos que se construyen con ser suelen designar propiedades...que se construyen con estar aluden a algunos de sus estados transitorios'（西语原文+英文对照翻译），构建后核实该引语已渲染到live HTML。修复后结合破折号清理带来的表达流畅度提升、rico例句带来的内容完整性提升、regionNote准确性提升，估算GEO分数升至约85-88/99，已越过80及格线。"
+    },
+    {
+      "dimension": "Schema数据一致性",
+      "status": "已同步",
+      "detail": "本次编辑涉及regionNote/正文/FAQ文字与updated日期，不涉及sources/faq数组的结构（仍是3条来源+4条FAQ，字段形状未变）；构建后核实FAQPage/Article/BreadcrumbList三项JSON-LD均正确解析，updated字段已同步改为2026-08-06。"
+    }
+  ],
+  "actions_taken": [
+    "改写正文+regionNote+FAQ 14处叙述性破折号为句号/冒号/逗号/括号结构（仅改动含破折号的具体句子，保留原意），保留3处sources来源标签破折号不变",
+    "正文'变义形容词'小节新增rico例句（ser rico=\"to be wealthy\"，estar rico=\"to taste good\"/\"to be attractive\"），呼应FAQ中已提及但未展开的rico",
+    "regionNote + FAQ第4条改写，softening地域一致性断言，加入Basque Country语言接触扩张、Caribbean vs Mexican/Central American/Andean差异等具体sourced细节，不推翻核心规则本身",
+    "regionNote新增RAE《Nueva gramática básica》原文逐字引语（西语原文+英文翻译），补上此前GEO打分最弱的权威原文引语维度",
+    "updated字段同步改为2026-08-06",
+    "Skill(humanizer)复核全文确认无遗留AI味问题；Skill(seo-audit)轻量确认meta描述/markdown链接/FAQ与sources结构化字段未破坏；Skill(ai-seo)重新评估GEO分数",
+    "npm run build通过（28页，含ser-vs-estar）",
+    "git commit（b56ae32）+ push",
+    "轮询https://lingogrove.com/ser-vs-estar/确认200且改动已生效（RAE逐字引语、rico例句均已渲染，破折号仅剩3处sources标签）",
+    "node tools/submit-indexnow.mjs /ser-vs-estar/提交（Bing 200 / Yandex 202）",
+    "indexnow-submit-log.json、内容发布日志.md追加本条审计更新记录"
+  ],
+  "seo_score": "未重新打分具体分值，轻量确认meta描述长度/markdown链接/结构化数据字段均未因本次编辑受损",
+  "geo_score": "修复前诊断阶段粗估约77/99（低于80及格线，权威原文引语维度最弱）；修复后估算约85-88/99，已越过80及格线",
+  "escalation": null
+}
+```
