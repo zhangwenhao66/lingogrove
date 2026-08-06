@@ -178,17 +178,17 @@ export const guides: Guide[] = [
 		title: 'Ser vs. Estar: How to Actually Tell Them Apart',
 		description: 'Both mean "to be," which is why English speakers struggle with them. The real distinction is defining a trait versus describing a state.',
 		published: '2026-08-03',
-		updated: '2026-08-03',
+		updated: '2026-08-06',
 		coreSummary: 'Ser identifies and defines: identity, origin, inherent characteristics, time, and material. Estar locates and describes a state: location, condition, and the result of a change. The common shorthand "ser is permanent, estar is temporary" breaks down often enough (someone can be permanently dead and use estar, or be only briefly a student and use ser) that it\'s more reliable to ask whether the sentence is defining the subject or reporting its current condition.',
 		language: 'Spanish',
 		usageNote: {
-			regionNote: 'This distinction is standard across every variety of Spanish — Spain, Mexico, and the rest of Latin America all draw the ser/estar line the same way. What varies regionally is which adjectives get treated as "characteristics" vs. "states" in edge cases (see the FAQ on ser/estar with adjectives), not the underlying rule.',
+			regionNote: 'The underlying ser/estar distinction described here holds everywhere Spanish is spoken: as the Real Academia Española puts it, "Los atributos que se construyen con ser suelen designar propiedades...que se construyen con estar aluden a algunos de sus estados transitorios" (attributes built with ser tend to designate properties, while those built with estar point to some of their transitory states). What does vary by region is how far estar\'s territory stretches in everyday speech. Studies of language-contact varieties, such as Basque Country Spanish, find estar expanding into contexts that would take ser elsewhere, and Caribbean Spanish tends to stay closer to the traditional split than Mexican, Central American, or Andean Spanish, where estar shows up more freely with adjectives other regions still pair with ser. None of that changes which verb a given sentence calls for by the rule itself; it changes how often speakers push the edge cases in one direction or the other (see the FAQ on ser/estar with adjectives).',
 		},
 		sections: [
 			{
 				heading: 'One English verb, two Spanish jobs',
 				body: [
-					'English "to be" does double duty: it identifies things (*she is a doctor*) and it describes their state (*she is tired*). Spanish splits that job between two verbs that are not interchangeable. Using the wrong one doesn\'t just sound foreign — it can genuinely change what a sentence means, which is different from most por/para-style mix-ups where the error is purely grammatical.',
+					'English "to be" does double duty: it identifies things (*she is a doctor*) and it describes their state (*she is tired*). Spanish splits that job between two verbs that are not interchangeable. Using the wrong one doesn\'t just sound foreign: it can genuinely change what a sentence means, which is different from most por/para-style mix-ups where the error is purely grammatical.',
 					'The textbook shorthand is "ser for permanent, estar for temporary," and it gets learners most of the way there. But it has real exceptions: *está muerto* ("he is dead") uses estar for something about as permanent as it gets, and *fue profesor por dos años* ("he was a teacher for two years") uses ser for something clearly temporary. The more reliable question is: is this sentence defining what the subject fundamentally is, or reporting a state it currently happens to be in?',
 				],
 			},
@@ -196,8 +196,8 @@ export const guides: Guide[] = [
 				heading: 'Ser: identity, origin, and defining traits',
 				body: [
 					'**Identity and origin.** *Es de Colombia. Soy profesor.* (She is from Colombia. I am a teacher.) Where someone or something is from, and what category it belongs to.',
-					'**Inherent characteristics.** *Ella es simpática.* (She is nice — as a trait of who she is.) This is the sentence Spanish teachers use most often to introduce the contrast, because swapping in estar here doesn\'t just sound wrong, it changes the claim being made (see the next section).',
-					'**Time, dates, and where events happen.** *Son las tres. La fiesta es aquí.* (It\'s three o\'clock. The party is here.) Note that last one: the location of an *event* uses ser, while the location of a physical *object or person* uses estar — a distinction that trips up a lot of learners because both look like "location" sentences on the surface.',
+					'**Inherent characteristics.** *Ella es simpática.* (She is nice, as a trait of who she is.) This is the sentence Spanish teachers use most often to introduce the contrast, because swapping in estar here doesn\'t just sound wrong, it changes the claim being made (see the next section).',
+					'**Time, dates, and where events happen.** *Son las tres. La fiesta es aquí.* (It\'s three o\'clock. The party is here.) Note that last one: the location of an *event* uses ser, while the location of a physical *object or person* uses estar, a distinction that trips up a lot of learners because both look like "location" sentences on the surface.',
 					'**Material and possession.** *La mesa es de madera. El libro es de Ana.* (The table is made of wood. The book belongs to Ana.) What something is made of or who it belongs to is treated as a defining fact, not a state.',
 				],
 				image: {
@@ -208,17 +208,17 @@ export const guides: Guide[] = [
 			{
 				heading: 'Estar: location, condition, and the result of a change',
 				body: [
-					'**Location of people, places, and objects.** *Madrid está en España. El libro está en la mesa.* (Madrid is in Spain. The book is on the table.) Physical location — where something or someone actually is right now — is estar\'s territory almost without exception.',
-					'**Temporary or perceived condition.** *Ella está simpática hoy.* (She\'s being nice today.) This is the direct contrast with *ella es simpática* above: swapping ser for estar with the same adjective doesn\'t just change the tense feel, it changes the claim from "this is who she is" to "this is how she\'s acting right now" — implying it might not usually be the case.',
+					'**Location of people, places, and objects.** *Madrid está en España. El libro está en la mesa.* (Madrid is in Spain. The book is on the table.) Physical location (where something or someone actually is right now) is estar\'s territory almost without exception.',
+					'**Temporary or perceived condition.** *Ella está simpática hoy.* (She\'s being nice today.) This is the direct contrast with *ella es simpática* above: swapping ser for estar with the same adjective doesn\'t just change the tense feel, it changes the claim from "this is who she is" to "this is how she\'s acting right now," implying it might not usually be the case.',
 					'**The result of a change.** *La puerta está abierta.* (The door is open.) Someone opened it; estar reports the resulting state, not the identity of the door.',
-					'**Ongoing action (progressive tense).** *Estoy comiendo.* (I am eating.) Every Spanish progressive construction uses estar plus a gerund, never ser — this one has no exceptions.',
+					'**Ongoing action (progressive tense).** *Estoy comiendo.* (I am eating.) Every Spanish progressive construction uses estar plus a gerund, never ser. This one has no exceptions.',
 				],
 			},
 			{
 				heading: 'The adjectives that flip meaning depending on which verb you use',
 				body: [
-					'A small set of adjectives change what they mean depending on which verb pairs with them, and these are the clearest proof that "permanent vs. temporary" isn\'t quite the right lens. *Ser aburrido* means "to be boring" (a trait); *estar aburrido* means "to be bored" (a state). *Ser listo* means "to be clever"; *estar listo* means "to be ready." *Ser malo* means "to be bad" (as a person); *estar malo* means "to be sick" or "to taste bad" (a condition). In each pair, ser names what something is and estar names what state it\'s currently in — the adjective\'s dictionary meaning barely changes, but the claim being made about the subject does.',
-					'Ser also happens to be one of Spanish\'s most irregular verbs in its own right — its [full conjugation table](/ser-conjugation/) is worth a look if soy, era, and fui don\'t look to you like forms of the same word. And if por vs. para is next on your list of mixed-up pairs, [that one works on a similar logic](/por-vs-para/): stop translating "for" and ask what job the word is doing.',
+					'A small set of adjectives change what they mean depending on which verb pairs with them, and these are the clearest proof that "permanent vs. temporary" isn\'t quite the right lens. *Ser aburrido* means "to be boring" (a trait); *estar aburrido* means "to be bored" (a state). *Ser listo* means "to be clever"; *estar listo* means "to be ready." *Ser malo* means "to be bad" (as a person); *estar malo* means "to be sick" or "to taste bad" (a condition). *Ser rico* means "to be wealthy"; *estar rico* means "to taste good" (or, describing a person, "to be attractive"). In each pair, ser names what something is and estar names what state it\'s currently in. The adjective\'s dictionary meaning barely changes, but the claim being made about the subject does.',
+					'Ser also happens to be one of Spanish\'s most irregular verbs in its own right: its [full conjugation table](/ser-conjugation/) is worth a look if soy, era, and fui don\'t look to you like forms of the same word. And if por vs. para is next on your list of mixed-up pairs, [that one works on a similar logic](/por-vs-para/): stop translating "for" and ask what job the word is doing.',
 				],
 			},
 		],
@@ -229,15 +229,15 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'Why does "la fiesta es aquí" use ser when it\'s about location?',
-				answer: 'Because the sentence is really saying where an event takes place, not where a physical object sits. Spanish treats the location of events (parties, meetings, concerts) as something ser defines, while the location of people and objects — *el libro está aquí* — uses estar. It looks like the same "location" category in English, but Spanish splits it in two.',
+				answer: 'Because the sentence is really saying where an event takes place, not where a physical object sits. Spanish treats the location of events (parties, meetings, concerts) as something ser defines, while the location of people and objects (*el libro está aquí*) uses estar. It looks like the same "location" category in English, but Spanish splits it in two.',
 			},
 			{
 				question: 'What\'s the difference between "es aburrido" and "está aburrido"?',
-				answer: '*Es aburrido* means the person or thing is boring — a characteristic. *Está aburrido* means the person is bored right now — a state. A handful of common adjectives (aburrido, listo, malo, rico, among others) shift meaning this way depending on which verb they\'re paired with.',
+				answer: '*Es aburrido* means the person or thing is boring, a characteristic. *Está aburrido* means the person is bored right now, a state. A handful of common adjectives (aburrido, listo, malo, rico, among others) shift meaning this way depending on which verb they\'re paired with.',
 			},
 			{
 				question: 'Do all Spanish-speaking countries use ser and estar the same way?',
-				answer: 'The core rule is consistent everywhere Spanish is spoken. What varies by region is mostly which side of a borderline adjective feels more natural in casual speech, not the underlying identity-vs-state logic, which holds across Spain and Latin America alike.',
+				answer: 'The core identity-vs-state logic is consistent everywhere Spanish is spoken. What varies by region is how far estar\'s territory stretches in everyday speech: language-contact varieties like Basque Country Spanish push estar into more contexts, and Caribbean Spanish tends to stay closer to the traditional pattern than Mexican, Central American, or Andean Spanish. None of that changes which verb a given sentence calls for by the rule itself, only how often speakers stretch the edge cases.',
 			},
 		],
 		sources: [
