@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 680" font-family="system-ui, -apple-system, sans-serif">
+	<rect width="800" height="680" fill="#f6f4e9"/>
+	<rect x="24" y="24" width="752" height="632" rx="10" fill="#fffefa" stroke="#ddd8c4"/>
+
+	<rect x="24" y="24" width="752" height="56" rx="10" fill="#2f6b47"/>
+	<rect x="24" y="60" width="752" height="20" fill="#2f6b47"/>
+	<text x="400" y="60" text-anchor="middle" fill="#ffffff" font-size="19" font-weight="700">WHERE DOES THE STRESS FALL?</text>
+
+	<!-- row 1: four stress classes -->
+	<rect x="42" y="102" width="170" height="150" rx="8" fill="#fbead0" stroke="#ddd8c4"/>
+	<rect x="222" y="102" width="170" height="150" rx="8" fill="#fbead0" stroke="#ddd8c4"/>
+	<rect x="402" y="102" width="170" height="150" rx="8" fill="#fbead0" stroke="#ddd8c4"/>
+	<rect x="582" y="102" width="176" height="150" rx="8" fill="#fbead0" stroke="#ddd8c4"/>
+
+	<text x="127" y="126" text-anchor="middle" fill="#5a5648" font-size="11" font-weight="700">AGUDAS</text>
+	<text x="127" y="142" text-anchor="middle" fill="#5a5648" font-size="10">last syllable</text>
+	<text x="127" y="172" text-anchor="middle" fill="#2f6b47" font-size="15" font-weight="700">ra-ZÓN</text>
+	<text x="127" y="196" text-anchor="middle" fill="#201f1a" font-size="10.5">tilde if it ends in</text>
+	<text x="127" y="212" text-anchor="middle" fill="#201f1a" font-size="10.5">vowel, n, or s</text>
+	<text x="127" y="234" text-anchor="middle" fill="#b5570f" font-size="10" font-style="italic">reloj, feliz: no tilde</text>
+
+	<text x="307" y="126" text-anchor="middle" fill="#5a5648" font-size="11" font-weight="700">LLANAS</text>
+	<text x="307" y="142" text-anchor="middle" fill="#5a5648" font-size="10">2nd-to-last</text>
+	<text x="307" y="172" text-anchor="middle" fill="#2f6b47" font-size="15" font-weight="700">LÁ-piz</text>
+	<text x="307" y="196" text-anchor="middle" fill="#201f1a" font-size="10.5">tilde if it ends in</text>
+	<text x="307" y="212" text-anchor="middle" fill="#201f1a" font-size="10.5">any other consonant</text>
+	<text x="307" y="234" text-anchor="middle" fill="#b5570f" font-size="10" font-style="italic">casa, joven: no tilde</text>
+
+	<text x="487" y="126" text-anchor="middle" fill="#5a5648" font-size="11" font-weight="700">ESDRÚJULAS</text>
+	<text x="487" y="142" text-anchor="middle" fill="#5a5648" font-size="10">3rd-to-last</text>
+	<text x="487" y="172" text-anchor="middle" fill="#2f6b47" font-size="15" font-weight="700">a-NÁ-li-sis</text>
+	<text x="487" y="196" text-anchor="middle" fill="#201f1a" font-size="10.5">always tilded</text>
+	<text x="487" y="212" text-anchor="middle" fill="#201f1a" font-size="10.5">no exceptions</text>
+	<text x="487" y="234" text-anchor="middle" fill="#5a5648" font-size="10" font-style="italic">hábitat, rápido</text>
+
+	<text x="670" y="126" text-anchor="middle" fill="#5a5648" font-size="11" font-weight="700">SOBRESDRÚJULAS</text>
+	<text x="670" y="142" text-anchor="middle" fill="#5a5648" font-size="10">before 3rd-to-last</text>
+	<text x="670" y="172" text-anchor="middle" fill="#2f6b47" font-size="14" font-weight="700">CUÉN-ta-me-lo</text>
+	<text x="670" y="196" text-anchor="middle" fill="#201f1a" font-size="10.5">always tilded</text>
+	<text x="670" y="212" text-anchor="middle" fill="#201f1a" font-size="10.5">verb + attached pronouns</text>
+	<text x="670" y="234" text-anchor="middle" fill="#5a5648" font-size="10" font-style="italic">recítenoslo</text>
+
+	<!-- section divider -->
+	<rect x="24" y="276" width="752" height="40" fill="#2f6b47"/>
+	<text x="400" y="302" text-anchor="middle" fill="#ffffff" font-size="15" font-weight="700">THE DIACRITICAL TILDE: SAME SPELLING, DIFFERENT WORD</text>
+
+	<!-- diacritical pairs grid: 2 columns x 4 rows -->
+	<rect x="42" y="332" width="352" height="66" rx="6" fill="#eaf1ea" stroke="#2f6b47"/>
+	<rect x="406" y="332" width="352" height="66" rx="6" fill="#eaf1ea" stroke="#2f6b47"/>
+	<rect x="42" y="406" width="352" height="66" rx="6" fill="#eaf1ea" stroke="#2f6b47"/>
+	<rect x="406" y="406" width="352" height="66" rx="6" fill="#eaf1ea" stroke="#2f6b47"/>
+	<rect x="42" y="480" width="352" height="66" rx="6" fill="#eaf1ea" stroke="#2f6b47"/>
+	<rect x="406" y="480" width="352" height="66" rx="6" fill="#eaf1ea" stroke="#2f6b47"/>
+	<rect x="42" y="554" width="352" height="66" rx="6" fill="#eaf1ea" stroke="#2f6b47"/>
+	<rect x="406" y="554" width="352" height="66" rx="6" fill="#eaf1ea" stroke="#2f6b47"/>
+
+	<text x="62" y="358" fill="#204a31" font-size="15" font-weight="700">tú</text>
+	<text x="100" y="358" fill="#5a5648" font-size="11">you (subject)</text>
+	<text x="62" y="380" fill="#b5570f" font-size="15" font-weight="700">tu</text>
+	<text x="100" y="380" fill="#5a5648" font-size="11">your</text>
+
+	<text x="426" y="358" fill="#204a31" font-size="15" font-weight="700">él</text>
+	<text x="464" y="358" fill="#5a5648" font-size="11">he / him</text>
+	<text x="426" y="380" fill="#b5570f" font-size="15" font-weight="700">el</text>
+	<text x="464" y="380" fill="#5a5648" font-size="11">the</text>
+
+	<text x="62" y="432" fill="#204a31" font-size="15" font-weight="700">sí</text>
+	<text x="100" y="432" fill="#5a5648" font-size="11">yes / itself</text>
+	<text x="62" y="454" fill="#b5570f" font-size="15" font-weight="700">si</text>
+	<text x="100" y="454" fill="#5a5648" font-size="11">if</text>
+
+	<text x="426" y="432" fill="#204a31" font-size="15" font-weight="700">dé</text>
+	<text x="466" y="432" fill="#5a5648" font-size="11">give (subjunctive)</text>
+	<text x="426" y="454" fill="#b5570f" font-size="15" font-weight="700">de</text>
+	<text x="466" y="454" fill="#5a5648" font-size="11">of / from</text>
+
+	<text x="62" y="506" fill="#204a31" font-size="15" font-weight="700">sé</text>
+	<text x="100" y="506" fill="#5a5648" font-size="11">I know / be! (command)</text>
+	<text x="62" y="528" fill="#b5570f" font-size="15" font-weight="700">se</text>
+	<text x="100" y="528" fill="#5a5648" font-size="11">reflexive "self"</text>
+
+	<text x="426" y="506" fill="#204a31" font-size="15" font-weight="700">té</text>
+	<text x="464" y="506" fill="#5a5648" font-size="11">tea</text>
+	<text x="426" y="528" fill="#b5570f" font-size="15" font-weight="700">te</text>
+	<text x="464" y="528" fill="#5a5648" font-size="11">you (object)</text>
+
+	<text x="62" y="580" fill="#204a31" font-size="15" font-weight="700">mí</text>
+	<text x="102" y="580" fill="#5a5648" font-size="11">me</text>
+	<text x="62" y="602" fill="#b5570f" font-size="15" font-weight="700">mi</text>
+	<text x="102" y="602" fill="#5a5648" font-size="11">my</text>
+
+	<text x="426" y="580" fill="#204a31" font-size="15" font-weight="700">más</text>
+	<text x="474" y="580" fill="#5a5648" font-size="11">more</text>
+	<text x="426" y="602" fill="#b5570f" font-size="15" font-weight="700">mas</text>
+	<text x="474" y="602" fill="#5a5648" font-size="11">but (literary)</text>
+
+	<line x1="42" y1="638" x2="758" y2="638" stroke="#ddd8c4" stroke-width="1"/>
+	<text x="400" y="660" text-anchor="middle" fill="#5a5648" font-size="11.5" font-style="italic">Green = tonic (stressed) word. Orange = atonic (unstressed) word with an unrelated grammatical job.</text>
+</svg>

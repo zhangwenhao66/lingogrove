@@ -1684,4 +1684,92 @@ export const guides: Guide[] = [
 			{ label: 'Real Academia Española — El buen uso del español: "Los demostrativos"', url: 'https://www.rae.es/buen-uso-espa%C3%B1ol/los-demostrativos' },
 		],
 	},
+	{
+		slug: 'spanish-accent-marks',
+		category: 'Grammar',
+		title: 'Spanish Accent Marks: The Rules Behind Every Tilde',
+		description: 'Spanish writes an accent only when a word breaks its default stress pattern, or when two identical words need telling apart — not on every stressed syllable.',
+		published: '2026-08-06',
+		updated: '2026-08-06',
+		coreSummary: 'Spanish does not mark every stressed syllable with a written accent; it marks only the ones that break a predictable default (agudas ending in a vowel, or in n or s not preceded by another consonant; llanas ending in any other consonant; esdrújulas and sobresdrújulas always) per the RAE\'s Ortografía de la lengua española, plus a separate, closed list of diacritical tildes — tú/tu, él/el, sí/si, dé/de, sé/se, té/te, mí/mi, más/mas, and the interrogative set qué/que, cuál/cual, quién/quien, cómo/como, cuándo/cuando, dónde/donde — that exist purely to distinguish two identically spelled words with unrelated grammatical jobs. A 2010 RAE reform also removed the accent requirement from the adverb solo and the demonstrative pronouns este/ese/aquel, a change many English-language guides still haven\'t caught up with.',
+		language: 'Spanish',
+		sections: [
+			{
+				heading: "It's a stress mark, not decoration",
+				body: [
+					"Most Spanish words carry no written accent at all, and that's normal, not an oversight. The tilde over a vowel exists for one job: marking where the spoken stress falls when the spelling alone wouldn't tell you. Spanish syllables are classified by where that stress lands: agudas stress the last syllable, llanas (also called graves) stress the second-to-last, esdrújulas stress the third-to-last, and sobresdrújulas — which only occur when a verb has one or more pronouns attached to the end — stress a syllable even earlier than that, per the RAE's own classification of word types by stress position.",
+					"Spanish spelling already predicts stress placement most of the time, which is exactly why most words don't need a written accent. A tilde only shows up when a word breaks the pattern its ending would otherwise predict, or — in a separate, smaller set of cases — when two words are spelled identically and the accent is the only thing telling them apart.",
+				],
+				image: {
+					src: '/images/spanish-accent-marks-diagram.svg',
+					alt: 'Diagram of the four Spanish stress classes (agudas, llanas, esdrújulas, sobresdrújulas) with example words, plus a grid of eight diacritical tilde pairs like tú/tu and él/el showing how the accent distinguishes otherwise identical words.',
+				},
+			},
+			{
+				heading: 'The default pattern, and what breaks it',
+				body: [
+					"Two stress patterns count as \"default\" in Spanish, meaning they get no written accent even though the word is genuinely stressed somewhere. Agudas (last-syllable stress) default to ending in any consonant other than n or s — reloj, feliz, ciudad, papel — no tilde needed, because that's exactly what an aguda word is expected to do. Llanas (second-to-last-syllable stress) default the other way: they're expected to end in a vowel, n, or s — casa, joven, examen, crisis — again with no tilde, because that ending already signals where the stress falls.",
+					"A written accent appears precisely when a word breaks its own default. An aguda that ends in a vowel, or in n or s not preceded by another consonant, needs a tilde to override the llana reading that ending would otherwise suggest: razón, colibrí, compás, revisó. That \"not preceded by another consonant\" clause matters: agudas ending in -s that follows a second consonant, like robots, tictacs, and zigzags, stay untilded, because that -s cluster doesn't read as the plain vowel-or-n-or-s ending the rule is built around. A llana that ends in any consonant other than n or s needs a tilde for the opposite reason: lápiz, árbol, azúcar, túnel. Esdrújulas and sobresdrújulas skip the whole calculation — per the RAE's rules of graphic accentuation, they're always written with a tilde, no exceptions: análisis, rápido, hábitat, cuéntamelo.",
+				],
+			},
+			{
+				heading: 'The diacritical tilde: telling two identical words apart',
+				body: [
+					"A second, unrelated category of accent has nothing to do with stress rules at all. Spanish has a closed, tradition-fixed list of monosyllables that are spelled identically whether or not they're stressed, so the tilde is the only visual signal separating a tonic (stressed, meaningful-on-its-own) word from an atonic (unstressed, grammatical-glue) one that happens to look the same. Per the RAE's entry on the diacritical tilde, the core pairs are tú (\"you,\" [subject pronoun](/spanish-pronouns/)) versus tu (\"your\"), él (\"he/him\") versus el (\"the\"), sí (\"yes,\" or the reflexive \"itself\") versus si (\"if\"), dé (the subjunctive/command form of dar) versus de (\"of/from\"), sé (\"I know,\" or the command form of ser) versus se (the reflexive particle), té (\"tea\") versus te (the object pronoun \"you\"), mí (the [prepositional pronoun](/spanish-pronouns/) \"me\") versus mi (\"my\"), and más (\"more\") versus mas (an old-fashioned literary \"but,\" rare outside formal writing).",
+					"None of these pairs follow the agudas/llanas logic from the section above — both members of each pair are monosyllables, so neither one would take a written accent under the ordinary stress rules. The tilde is doing a completely different job here: distinguishing meaning, not marking stress placement that the spelling wouldn't already predict.",
+				],
+			},
+			{
+				heading: 'Question words versus everyday connectors: cuándo and cuando',
+				body: [
+					"A related but distinct set of diacritical tildes covers polysyllabic interrogative and exclamative words: qué, cuál, quién, cómo, cuán, cuánto, cuándo, dónde, and adónde, per the RAE's dedicated entry on this group. These carry the tilde whenever they're asking or exclaiming something — directly, as in ¿Cuándo llegas? (\"When are you arriving?\"), or indirectly inside a larger sentence, as in No sé cuándo llega (\"I don't know when he's arriving\"). Their unaccented twins — que, cual, quien, como, cuando, donde — do a completely different grammatical job as relative pronouns or conjunctions: Llegó cuando quiso (\"He arrived when he wanted to\") uses cuando as a plain connector joining two clauses, with no question implied anywhere in the sentence.",
+					"That same unaccented cuando shows up as the connector [Spanish uses to introduce future-oriented temporal clauses that trigger the subjunctive mood](/subjunctive-spanish/), as in Te llamaré cuando llegue (\"I'll call you when I arrive\") — a completely different function from the accented cuándo asking when something happens. Mixing the two up doesn't just look like a typo to a Spanish reader; ¿Sabes cuando llega? without the tilde reads as a garbled half-question, because dropping the accent quietly turns an interrogative into a connector that isn't asking anything.",
+				],
+			},
+			{
+				heading: 'The 2010 reform: solo and the demonstratives lost their accent',
+				body: [
+					"For decades, style guides taught sólo (the adverb meaning \"only,\" as in Sólo quiero ayudar) as a mandatory diacritical tilde distinguishing it from solo the adjective (\"alone\"), and éste/ésta/aquél as the required accented forms of the demonstrative pronouns versus their unaccented adjective counterparts. The RAE's 2010 Ortografía de la lengua española changed that. Per the Academia's own explanatory notice on the change, both solo and the demonstrative pronouns este, ese, and aquel (with their feminine and plural forms) are now written without a tilde as the standard, RAE-endorsed practice, even in sentences where the older rule would have called for one to avoid ambiguity — the accent is now optional in genuinely ambiguous cases, never required.",
+					"The RAE's stated reasoning is worth knowing, because it explains why this wasn't just a style preference: the traditional diacritical tilde is supposed to separate a stressed (tonic) word from an unstressed (atonic) one that's spelled the same way, the way tú and tu work above. But solo the adverb and solo the adjective are both stressed the same way; so are the demonstrative pronoun este and the demonstrative adjective este. There's no tonic/atonic contrast to mark in the first place, which is why the Academia dropped the requirement rather than just relaxing it. This is exactly the rule that trips up otherwise-careful learners, since a lot of English-language grammar content on the web still teaches the pre-2010 version as current.",
+				],
+			},
+			{
+				heading: 'Applying it without re-deriving the rules every time',
+				body: [
+					"In practice, fluent Spanish writers aren't running the agudas/llanas calculation on every word; they've simply memorized where the tildes go, the same way English speakers don't consciously apply spelling rules to write \"receive\" correctly. For a learner, the fastest path to the same fluency is counting backward from the end of an unfamiliar word — is the stress on the last syllable, the second-to-last, or further back? — and checking that against what the ending would predict by default. If the two disagree, the word needs a tilde.",
+					"The diacritical pairs and the interrogative set are worth memorizing as a fixed list rather than deriving, since they don't follow the stress rules at all. And it's worth knowing that casual Spanish writing — texting, social media, quick notes — routinely drops accents that formal writing keeps; that's a register choice speakers make deliberately, not evidence that the accent doesn't matter. In anything meant to be read as standard, correctly punctuated Spanish, the RAE's rules above are still the ones in force.",
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'Do all Spanish words need an accent mark?',
+				answer: "No. Most Spanish words carry no written accent, because their spelling already predicts where the stress falls by default (agudas ending in a consonant other than n or s, including an -s that follows another consonant, as in robots; llanas ending in a vowel, n, or s). A tilde only appears when a word breaks that default pattern, when it's an esdrújula or sobresdrújula (which are always accented), or when the accent is the only thing distinguishing two identically spelled words with different meanings.",
+			},
+			{
+				question: 'Why does sí have an accent but si doesn\'t?',
+				answer: 'These are a diacritical tilde pair, not an example of the ordinary stress rules — both are monosyllables, so neither would take a written accent based on stress alone. Sí ("yes," or the reflexive "itself") and si ("if") are spelled identically, so the RAE-fixed tradition uses the tilde purely to tell the two unrelated words apart on the page.',
+			},
+			{
+				question: 'Is sólo (with an accent) still correct Spanish?',
+				answer: "Per the RAE's 2010 Ortografía de la lengua española, no — solo, the adverb meaning \"only,\" is now written without a tilde as standard practice, along with the demonstrative pronouns este, ese, and aquel. The Academia made the accent optional only in genuinely ambiguous sentences, never mandatory. A lot of older or non-RAE-sourced grammar content online still teaches the pre-2010 rule as current, which is where the confusion usually comes from.",
+			},
+			{
+				question: 'What\'s the difference between cuando and cuándo?',
+				answer: "Cuándo (accented) is the interrogative \"when,\" used in direct questions (¿Cuándo llegas?) and indirect ones inside a larger sentence (No sé cuándo llega). Cuando (unaccented) is a plain connector joining two clauses, as in Llegó cuando quiso (\"He arrived when he wanted to\") — and it's the same unaccented cuando that introduces future-oriented temporal clauses requiring the subjunctive mood, as in Te llamaré cuando llegue.",
+			},
+			{
+				question: 'Do Spanish accent marks change pronunciation, or just spelling?',
+				answer: "They mark pronunciation first — the tilde shows where the spoken stress actually falls, and for agudas/llanas/esdrújulas that stress placement is real regardless of whether a word happens to need a written accent. The diacritical tilde pairs (tú/tu, sí/si, and the rest) are the exception: both words in each pair are pronounced with stress, so there the accent's only job is distinguishing meaning on the page, not marking a pronunciation difference that wouldn't otherwise exist.",
+			},
+		],
+		sources: [
+			{ label: 'Real Academia Española — El buen uso del español: "Las reglas de acentuación gráfica"', url: 'https://www.rae.es/buen-uso-espa%C3%B1ol/las-reglas-de-acentuaci%C3%B3n-gr%C3%A1fica' },
+			{ label: 'Real Academia Española — Ortografía de la lengua española: "Clases de palabras por la posición de la sílaba tónica"', url: 'https://www.rae.es/ortograf%C3%ADa/clases-de-palabras-por-la-posici%C3%B3n-de-la-s%C3%ADlaba-t%C3%B3nica' },
+			{ label: 'Real Academia Española — El buen uso del español: "La tilde diacrítica. Uso y función"', url: 'https://www.rae.es/buen-uso-espa%C3%B1ol/la-tilde-diacr%C3%ADtica-uso-y-funci%C3%B3n' },
+			{ label: 'Real Academia Española — Ortografía de la lengua española: "Tilde diacrítica en qué, cuál, quién, cómo, cuán, cuánto, cuándo, dónde y adónde"', url: 'https://www.rae.es/ortograf%C3%ADa/tilde-diacr%C3%ADtica-en-qu%C3%A9-cu%C3%A1l-qui%C3%A9n-c%C3%B3mo-cu%C3%A1n-cu%C3%A1nto-cu%C3%A1ndo-d%C3%B3nde-y-ad%C3%B3nde' },
+			{ label: 'Real Academia Española — Nota informativa: "Sobre la tilde en solo"', url: 'https://www.rae.es/noticia/nota-informativa-sobre-la-tilde-en-solo' },
+			{ label: 'Real Academia Española — Español al día: "El adverbio solo y los pronombres demostrativos, sin tilde"', url: 'https://www.rae.es/espanol-al-dia/el-adverbio-solo-y-los-pronombres-demostrativos-sin-tilde' },
+		],
+	},
 ];
