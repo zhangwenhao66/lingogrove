@@ -18,5 +18,15 @@
       "https://lingogrove.com/subjunctive-spanish/"
     ],
     "quota_used": "2 requests this run (round 1 and round 2; one wasted 404 attempt on wrong slug guess, not GSC quota since 404 rejection happens before consuming a real submission slot)"
+  },
+  {
+    "date": "2026-08-06",
+    "action": "submitted",
+    "reason": "trafficsite-gsc-index-requests例行运行。今日新发布2篇（double-object-pronouns-spanish/spanish-pronouns，见内容发布日志.md）。第一轮取double-object-pronouns-spanish（URL is not on Google）提交成功。第二轮因Chrome扩展断连未能到达本站，spanish-pronouns及队列后续候选本次未检查。",
+    "submitted_urls": [
+      "https://lingogrove.com/double-object-pronouns-spanish/"
+    ],
+    "already_indexed_no_action": [],
+    "quota_used": "1 request this run (round 1 only; round 2 not reached due to Chrome extension disconnect)"
   }
 ]
