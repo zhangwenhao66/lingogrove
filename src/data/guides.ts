@@ -1641,7 +1641,7 @@ export const guides: Guide[] = [
 				heading: 'Possessive pronouns: the same word, two different shapes',
 				body: [
 					'Spanish possessives come in two forms that trade off stress and position. The short, unstressed forms (*mi, tu, su, nuestro, vuestro*, and their plurals) sit before the noun: *Mi casa es grande* ("My house is big"). The long, stressed forms (*mío, tuyo, suyo, nuestro, vuestro*, with full gender and number agreement) come after the noun, or stand entirely on their own with *ser*: *un amigo mío* ("a friend of mine"), *Esta casa es mía* ("This house is mine").',
-					'Both forms agree in gender and number with the thing owned, never with the owner. *Suyo* covers "his," "her," "your (formal)," and "their" without changing shape, because Spanish possessives track only the object, not who possesses it. That\'s exactly why *suyo* on its own is often ambiguous, and why Spanish speakers add a clarifying phrase (*de él, de ella, de usted*) when context doesn\'t settle it.',
+					'Both forms agree in gender and number with the thing owned, never with the owner. *Suyo* covers "his," "her," "your (formal)," and "their" without changing shape, because Spanish possessives track only the object, not who possesses it. That\'s exactly why *suyo* on its own is often ambiguous, and why Spanish speakers add a clarifying phrase (*de él, de ella, de usted*) when context doesn\'t settle it. The short prenominal forms get a full breakdown, including why only *nuestro* and *vuestro* mark gender, in [Spanish possessive adjectives](/spanish-possessive-adjectives/).',
 				],
 			},
 			{
@@ -1852,6 +1852,95 @@ export const guides: Guide[] = [
 			{ label: 'Larousse — Définitions: "des" (plural indefinite/partitive, and contraction of de + les)', url: 'https://www.larousse.fr/dictionnaires/francais/des/24121' },
 			{ label: 'Office québécois de la langue française — Vitrine linguistique: "De dans une phrase négative"', url: 'https://vitrinelinguistique.oqlf.gouv.qc.ca/23514/la-grammaire/les-determinants/determinants-indefinis/de-dans-une-phrase-negative' },
 			{ label: 'Office québécois de la langue française — Vitrine linguistique: "Les déterminants : mode d\'emploi"', url: 'https://vitrinelinguistique.oqlf.gouv.qc.ca/24332/la-grammaire/la-grammaire-actuelle/les-classes-de-mots-et-les-groupes/les-determinants' },
+		],
+	},
+	{
+		slug: 'spanish-possessive-adjectives',
+		category: 'Grammar',
+		title: 'Spanish Possessive Adjectives: Mi, Tu, Su, and Why Only Some Agree in Gender',
+		description: 'Only two of Spanish\'s seven possessives change for gender. Mi, tu, and su mark number alone, su covers four owners, and vuestro exists only in Spain.',
+		published: '2026-08-09',
+		updated: '2026-08-09',
+		coreSummary: 'Spanish has seven possessive-adjective forms, but they don\'t all follow the same agreement rule: mi, tu, and su are apocopated forms that mark number only, never gender, while nuestro and vuestro carry full gender and number agreement, per the RAE\'s Nueva gramática básica de la lengua española. Su alone stands for four different owners (his, her, your-formal, their), which is why Spanish speakers routinely add a clarifying phrase like de él or de ella, and vuestro is a Spain-only form, since Latin American Spanish reuses su/sus for plural "your" the same way it already does for the subject pronoun ustedes.',
+		language: 'Spanish',
+		sections: [
+			{
+				heading: 'Seven words, one job, two different agreement rules',
+				body: [
+					'A Spanish possessive placed in front of a noun (mi hermano, tu casa, su coche) is what the RAE\'s grammar glossary calls a determinante posesivo, distinct from a possessive that follows the noun (un amigo mío, la casa suya), which the Academia\'s Nueva gramática treats as behaving like an ordinary postnominal adjective. This guide covers the prenominal set, since that\'s what "mi casa" and "spanish possessive adjectives" both point at: mi/mis, tu/tus, su/sus, nuestro/nuestra/nuestros/nuestras, and vuestro/vuestra/vuestros/vuestras, seven forms covering six grammatical persons because su does double duty for third-person singular and third-person plural alike.',
+					'Two things about that list trip learners up almost immediately. First, only two of the seven forms change shape for gender; the rest stay fixed no matter what they modify. Second, su by itself is ambiguous on its own, not a learner error but an actual gap in the word\'s information, and Spanish has a fixed, everyday fix for it.',
+				],
+				image: {
+					src: '/images/spanish-possessive-adjectives-diagram.svg',
+					alt: 'Diagram contrasting mi/tu/su (which mark number only, never gender) with nuestro/vuestro (which mark both gender and number), plus the clarifying phrases (de él, de ella, de usted, de ellos/ellas, de ustedes) used to resolve su\'s built-in ambiguity, and a note that vuestro is used only in Spain.',
+				},
+			},
+			{
+				heading: 'Mi, tu, su: apocopated forms that mark number, never gender',
+				body: [
+					'Mi/mis ("my"), tu/tus ("your," informal singular), and su/sus ("his/her/your-formal/their") only ever change for number, and never for the gender of the noun they modify. Mi hermano and mi hermana both take mi, with no -a ending to signal that hermana is feminine; tu perro and tu perra work the same way, and so does su oficina next to su coche. This is unlike Spanish\'s ordinary adjectives, which almost always flex for gender (rojo/roja, alto/alta), and it\'s exactly the pattern learners default to expecting, then have to unlearn for this one function word.',
+					'The reason is historical rather than arbitrary: mi, tu, and su are apocopated (shortened) forms of the longer possessives mío, tuyo, and suyo, which do carry full gender marking when they appear after a noun or stand alone (la casa es mía, not mío). The written accent matters here too: mi (the possessive) and [mí](/spanish-accent-marks/) (the stressed pronoun meaning "for me," used after a preposition) are one of the closed set of diacritical tilde pairs, where the accent mark is the only thing telling two identically spelled words apart. The difference isn\'t only on paper. Mí carries real stress in speech, while mi, like most possessives placed before a noun, doesn\'t; writing mí hermano instead of mi hermano puts the accent on the wrong word entirely, not just a typo a reader would gloss over.',
+				],
+			},
+			{
+				heading: 'Nuestro and vuestro: the only two that agree in gender too',
+				body: [
+					'Nuestro/nuestra/nuestros/nuestras ("our") and vuestro/vuestra/vuestros/vuestras ("your," informal plural, Spain) are the two possessives that carry a full four-form paradigm, switching the final vowel for gender the same way an ordinary adjective does. Nuestro hermano and nuestra hermana actually change shape depending on what\'s being possessed, unlike mi hermano and mi hermana from the section above, which stay identical either way.',
+					'That contrast is the single rule that trips up learners who\'ve already internalized mi/tu/su and then assume the whole possessive system behaves the same way. It doesn\'t: nuestros primos ("our cousins," masculine or mixed group) and nuestras primas ("our [female] cousins") are a real, required distinction, not a stylistic option, per the RAE\'s classification of possessive forms in the Nueva gramática básica.',
+				],
+			},
+			{
+				heading: 'Su is ambiguous on its own, and Spanish has a fixed way to clarify it',
+				body: [
+					'Sus llaves can mean "his keys," "her keys," "your keys" (formal usted), or "their keys." Su/sus still tracks the number of the thing possessed (llave/llaves), just not who owns it, so the word itself gives no signal which owner is meant. Su oficina, taken on its own with no surrounding context, is ambiguous in four different directions at once, not an artifact of a learner misreading it; a native speaker needs context or a follow-up question to know which owner is intended.',
+					'When context alone doesn\'t settle it, Spanish speakers reach for a fixed clarifying structure: replace the possessive with the noun plus de and the relevant pronoun. La oficina de él ("his office"), la oficina de ella ("her office"), la oficina de usted ("your office," formal), la oficina de ellos or la oficina de ellas ("their office," masculine/mixed or all-feminine group), and la oficina de ustedes ("your office," plural). This is the standard, everyday way Spanish resolves an ambiguity built into the word su itself, not a workaround learners are expected to improvise on the spot.',
+				],
+			},
+			{
+				heading: 'Vuestro is Spain-only; the rest of the Spanish-speaking world reuses su',
+				body: [
+					'Vuestro exists because Spain keeps a real register split in the plural "you": informal vosotros/vosotras against formal ustedes, [covered in full for the subject-pronoun side of this same split](/spanish-pronouns/). The possessive follows that exact line. Vuestro coche ("your car," addressed informally to a group) only makes sense where vosotros is in active use.',
+					'Latin American Spanish drops vosotros from everyday speech and uses ustedes for both informal and formal plural "you," collapsing a distinction Spain keeps. Because there\'s no vosotros in ordinary use to pair a possessive with, there\'s little everyday occasion for vuestro either: su coche covers "your car" (plural, any register) across the region instead, the same su that already covers "his," "her," and "their." A Latin American speaker will recognize vuestro instantly from a book or a Spanish film, and it can still surface in formal or ceremonial writing paired with ustedes, but it isn\'t a form most speakers produce in daily conversation.',
+				],
+			},
+			{
+				heading: 'When the possessive moves after the noun',
+				body: [
+					'Every possessive above sits in front of its noun as a determinante posesivo, per the RAE\'s grammatical glossary, legitimizing the noun phrase the same way an article does, which is why mi and un can\'t both precede casa at once (mi casa or una casa, never un mi casa). Move the long forms (mío, tuyo, suyo, nuestro, vuestro) after the noun instead, and the RAE\'s Nueva gramática treats them as ordinary postnominal adjectives: un amigo mío ("a friend of mine") needs no article beyond the un already there, and la casa es suya ("the house is hers") uses the same long form as a predicate, with no noun attached at all.',
+					'The two positions aren\'t interchangeable in feel. Mi amigo is the neutral, default way to say "my friend," with no particular emphasis on the possession itself. Un amigo mío shifts to the long form specifically to draw attention to whose friend this is, often with the sense of "one friend among several," and it\'s the structure Spanish reaches for when the point is contrast: es idea mía, no tuya ("it\'s my idea, not yours") needs the postnominal form precisely because it\'s setting one owner against another.',
+					'A third, related use goes further still: when the possessive stands in for the noun entirely rather than modifying it, it crosses into a different grammatical category, a possessive pronoun rather than a possessive adjective, typically requiring the definite article (el mío, la suya) when it isn\'t simply following ser. That\'s a separate set of rules from the ones on this page; [the full possessive-pronoun paradigm, alongside Spanish\'s five other pronoun families](/spanish-pronouns/), covers it in depth.',
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'Why are mi, tu, and su called "apocopated" forms?',
+				answer: 'Apocope means a word gets shortened by dropping its ending. Mi, tu, and su are the apocopated versions of the longer possessives mío, tuyo, and suyo, used specifically when the possessive sits in front of a noun. That shortening is also why mi, tu, and su never picked up gender marking: the fuller forms they were cut from carry it (mío/mía), but the cut-down prenominal forms don\'t.',
+			},
+			{
+				question: 'Why doesn\'t "mi" change for gender, but "nuestro" does?',
+				answer: 'Mi, tu, and su are apocopated (shortened) forms of the longer possessives mío, tuyo, and suyo, and that shortened form never picked up gender marking. Nuestro and vuestro were never shortened the same way, so they kept the full four-form paradigm (nuestro/nuestra/nuestros/nuestras) that ordinary Spanish adjectives carry, switching the final vowel to match the gender of the noun they modify.',
+			},
+			{
+				question: 'What does "su" mean: his, her, your, or their?',
+				answer: 'All four, and the word itself doesn\'t say which. Su casa is ambiguous without context. When it matters, Spanish speakers add a clarifying phrase instead: la casa de él (his), la casa de ella (her), la casa de usted (your, formal), or la casa de ellos/de ellas/de ustedes (their/your, plural).',
+			},
+			{
+				question: 'Is "vuestro" used in Latin America?',
+				answer: 'Rarely in everyday speech. Vuestro pairs with the subject pronoun vosotros, which Spain uses for informal plural "you" but which Latin American Spanish drops from ordinary conversation in favor of ustedes for both formal and informal plural address. Vuestro can still turn up in formal or ceremonial Latin American writing paired with ustedes, but su/sus is what covers plural "your" in daily speech across the region.',
+			},
+			{
+				question: 'What\'s the difference between "mi casa" and "una casa mía"?',
+				answer: 'Both are correct, but they carry different emphasis. Mi casa places the possessive in front of the noun as a determinante posesivo, doing the same job an article does, and reads as neutral. Una casa mía moves the long form mía after the noun, where it behaves like an ordinary adjective, and typically signals contrast or singles the possession out among several, closer to "a house of mine" than the plain "my house."',
+			},
+		],
+		sources: [
+			{ label: 'Real Academia Española — Glosario de términos gramaticales: "determinante posesivo"', url: 'https://www.rae.es/gtg/determinante-posesivo' },
+			{ label: 'Real Academia Española — Glosario de términos gramaticales: "posesivo"', url: 'https://www.rae.es/gtg/posesivo' },
+			{ label: 'Real Academia Española — El buen uso del español: "Los posesivos. Caracterización y formas"', url: 'https://www.rae.es/buen-uso-espa%C3%B1ol/los-posesivos-caracterizaci%C3%B3n-y-formas' },
+			{ label: 'Real Academia Española — Nueva gramática básica de la lengua española: "11.2.2 Formas"', url: 'https://www.rae.es/gram%C3%A1tica-b%C3%A1sica/demostrativos-y-posesivos/los-posesivos/formas' },
+			{ label: 'Real Academia Española — Nueva gramática básica de la lengua española: "11.2.3 Rasgos distintivos"', url: 'https://www.rae.es/gram%C3%A1tica-b%C3%A1sica/demostrativos-y-posesivos/los-posesivos/rasgos-distintivos' },
+			{ label: 'Real Academia Española — Nueva gramática de la lengua española: "Propiedades fundamentales de los posesivos"', url: 'https://www.rae.es/gram%C3%A1tica/sintaxis/propiedades-fundamentales-de-los-posesivos' },
 		],
 	},
 ];

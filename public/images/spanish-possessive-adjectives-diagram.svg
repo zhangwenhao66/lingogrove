@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" font-family="system-ui, -apple-system, sans-serif">
+	<rect width="800" height="520" fill="#f6f4e9"/>
+	<rect x="24" y="24" width="752" height="472" rx="10" fill="#fffefa" stroke="#ddd8c4"/>
+
+	<rect x="24" y="24" width="752" height="56" rx="10" fill="#2f6b47"/>
+	<rect x="24" y="60" width="752" height="20" fill="#2f6b47"/>
+	<text x="400" y="60" text-anchor="middle" fill="#ffffff" font-size="19" font-weight="700">WHO AGREES WITH WHAT: SPANISH POSSESSIVES</text>
+
+	<!-- row 1: two agreement patterns -->
+	<rect x="46" y="100" width="342" height="150" rx="8" fill="#fbead0" stroke="#ddd8c4"/>
+	<rect x="412" y="100" width="342" height="150" rx="8" fill="#eaf1ea" stroke="#2f6b47"/>
+
+	<text x="217" y="124" text-anchor="middle" fill="#5a5648" font-size="12" font-weight="700">MI, TU, SU — NUMBER ONLY</text>
+	<text x="217" y="148" text-anchor="middle" fill="#b5570f" font-size="14" font-weight="700">mi/mis · tu/tus · su/sus</text>
+	<text x="217" y="176" text-anchor="middle" fill="#201f1a" font-size="12" font-style="italic">mi hermano / mi hermana</text>
+	<text x="217" y="194" text-anchor="middle" fill="#201f1a" font-size="12" font-style="italic">(no change either way)</text>
+	<text x="217" y="222" text-anchor="middle" fill="#5a5648" font-size="11">apocopated forms of mío/tuyo/suyo</text>
+
+	<text x="583" y="124" text-anchor="middle" fill="#5a5648" font-size="12" font-weight="700">NUESTRO, VUESTRO — GENDER + NUMBER</text>
+	<text x="583" y="148" text-anchor="middle" fill="#204a31" font-size="14" font-weight="700">nuestro/a/os/as · vuestro/a/os/as</text>
+	<text x="583" y="176" text-anchor="middle" fill="#201f1a" font-size="12" font-style="italic">nuestro hermano / nuestra hermana</text>
+	<text x="583" y="194" text-anchor="middle" fill="#201f1a" font-size="12" font-style="italic">(-o / -a switches)</text>
+	<text x="583" y="222" text-anchor="middle" fill="#5a5648" font-size="11">the only two full four-form possessives</text>
+
+	<!-- row 2: su ambiguity -->
+	<rect x="46" y="270" width="708" height="130" rx="8" fill="#fbead0" stroke="#ddd8c4"/>
+	<text x="400" y="294" text-anchor="middle" fill="#5a5648" font-size="12" font-weight="700">"SU CASA": ONE WORD, MULTIPLE POSSIBLE OWNERS</text>
+	<text x="400" y="320" text-anchor="middle" fill="#b5570f" font-size="13" font-weight="700">de él · de ella · de usted · de ellos/ellas · de ustedes</text>
+	<text x="400" y="346" text-anchor="middle" fill="#201f1a" font-size="12" font-style="italic">la casa de ella = "her house" — the clarifier Spanish adds when context doesn't settle it</text>
+	<text x="400" y="374" text-anchor="middle" fill="#5a5648" font-size="11">su never changes shape for his / her / your (formal) / their</text>
+
+	<!-- row 3: regional footer -->
+	<rect x="46" y="416" width="708" height="60" rx="8" fill="#eaf1ea" stroke="#2f6b47"/>
+	<text x="400" y="440" text-anchor="middle" fill="#204a31" font-size="12" font-weight="700">Vuestro is Spain-only</text>
+	<text x="400" y="460" text-anchor="middle" fill="#5a5648" font-size="11">Latin American Spanish drops vosotros entirely, so su/sus covers plural "your" everywhere outside Spain</text>
+</svg>
