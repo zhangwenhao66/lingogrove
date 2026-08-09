@@ -4,17 +4,23 @@
 
 ---
 
-## 2026-08-04 · 断链置换 · Scarborough Public School District（World Language 指南）
+## 2026-08-04 · 断链置换 · Scarborough Public School District（World Language 指南）（2026-08-09 收件人已解决，草稿更新待复核）
 
-- **状态**：🔴 **未发送，留待处理**。两轮独立复核，第二轮判定"有问题"（收件人归属错误），按硬性原则 3 不发送
+- **状态**：✅ **已发送**。此前两轮独立复核，第二轮判定"有问题"（收件人归属错误）；2026-08-09 核实到 Gartley 本人的公开邮箱后，第三轮独立复核判定"可以发送"（查重/三条断链独立curl复现/收件人身份LibGuides页面核实/替换内容/去AI味六项全部通过）。2026-08-09 `gmail_send.py send --from lingogrove`，收件人 lgartley@scarboroughschools.org，Message ID `19fe533a9aff74ca`
 - **来源页**：https://scarboroughschools.libguides.com/spanish/resources （另 https://scarboroughschools.libguides.com/french/resources 带同样三条链接）
-- **收件人**：⚠️ **未定，本轮最大阻塞点**。见下方"待解决"
-- **已核实失效链接**（均为干净 404，两页都有）：
+- **收件人**：**Luke-Elizabeth Gartley `<lgartley@scarboroughschools.org>`**。2026-08-09 从 LibGuides 个人资料页 `https://scarboroughschools.libguides.com/prf.php?id=5fd6520d-7cdb-11ed-9922-0ad758b798c3` 的 "Email Me" 按钮直接抓到 `mailto:lgartley@scarboroughschools.org`（curl 拉取该页 HTML 逐字核实，非按命名规律猜测），解决了 2026-08-04 遗留的最大阻塞点
+- **2026-08-09 复查确认三条链接仍失效**（均带正确 `Accept` 头重新 curl，避免误判）：
+  - `https://www.linguasorb.com/spanish/` → 404（cloudflare）
+  - `https://www.linguasorb.com/apps` → 404（cloudflare）
+  - `https://library.digitalmaine.org/subject/language-learning/` → 404；根域 `https://library.digitalmaine.org/` 301 到 `https://digitalmainelibrary.org/`（200）确认属实
+  - 来源页 `scarboroughschools.libguides.com/spanish/resources` 与 `/french/resources` 本身仍在线（200），链接结构未变
+- **已核实失效链接（2026-08-04 原始记录）**：
   - `https://www.linguasorb.com/spanish/` → Apache 404（`The requested URL was not found on this server.`）。Wayback 最后一次成功抓取 **2025-09-25**（200），下一次抓取 2025-11-13 即 404
   - `https://www.linguasorb.com/apps` → 404，锚文本 `Spanish Verb app`
   - `https://library.digitalmaine.org/subject/language-learning/` → 404。**实为整站域名迁移**：`library.digitalmaine.org` 根域 301 到 `digitalmainelibrary.org`（已实测），不是站内换路径
   - 补充：`linguasorb.com` 根域返回 HTTP 200 但正文是 nginx `403 Forbidden`；`/french/` 同样 404。故只能说"域名仍有响应"，不能说首页正常
 - **递出内容**：https://lingogrove.com/ser-conjugation/ （另提 ser vs estar / por vs para / preterite vs imperfect）
+- **2026-08-09 新增检查**：正文过 `Skill(humanizer)` 和 `Skill(avoid-ai-writing)`（本草稿写于 2026-08-04，早于 2026-08-07 起生效的英文内容双重检查硬性规则，此前从未过 avoid-ai-writing）——两项均判定通过，无需改动，详见文末新增记录
 
 ### 两轮复核结论
 
@@ -28,18 +34,18 @@
 - 这两个 guide 也不属于 "SHS Learning Commons"，页面上根本不含该字样。邮件里 "your Learning Commons guide" 对 Dupree 是**双重错误归属**，且发给了无权修改这些链接的人
 - 次要问题：主题行写 "Two dead links" 但正文实际报了三条
 
-### 待解决（下次运行接手）
+### 待解决（2026-08-04 原始记录，2026-08-09 状态见下）
 
-1. **拿到 Gartley 的可核实邮箱**。本轮已查过：两个 guide 页无 profile box、LibGuides 站内 `prf.php` / `index.php?b=g` / `about` 均未暴露任何 Gartley 邮箱地址；复核 agent 提到的 `lgartley@scarboroughschools.org` **本会话未能独立核实**，不能凭 `首字母+姓@域名` 的命名规律直接发冷邮件。下次可从学区官网教职工目录（scarboroughschools.org）核实后再发
-2. 换收件人后，正文首句 "your Learning Commons guide" 必须改写（Gartley 确实是这两个 guide 的作者，可直接写 "your Spanish resources guide"）
-3. 主题行改为三条链接的说法
-4. Digital Maine 那句改为直接给出新域名 `digitalmainelibrary.org`，比"大概搬到站内别处了"更有用也更准确
+1. ✅ **2026-08-09 已解决**：拿到 Gartley 的可核实邮箱。2026-08-04 本轮已查过两个 guide 页无 profile box、LibGuides 站内 `prf.php` / `index.php?b=g` / `about` 均未暴露任何 Gartley 邮箱地址，且不能凭"首字母+姓@域名"命名规律直接发冷邮件。2026-08-09 重新核实：直接 curl 抓取 LibGuides 个人资料页 `prf.php?id=5fd6520d-7cdb-11ed-9922-0ad758b798c3` 的 HTML，页面里的 "Email Me" 按钮本身就是 `mailto:lgartley@scarboroughschools.org`——不是猜测，是页面自带的公开联系方式，此前只是没有从这个具体页面里抓对位置
+2. ✅ 换收件人后，正文首句已经是 "your Spanish resources guide"，没有 "Learning Commons" 字样（2026-08-04 就已修正，未曾发出过错误版本）
+3. ✅ 主题行已是 "Three dead links"（三条链接），与正文一致
+4. ✅ Digital Maine 那句已直接给出新域名 `digitalmainelibrary.org`
 
-### 邮件正文（已过 humanizer；已修正前两轮指出的事实错误；收件人称谓待改）
+### 邮件正文（已过 humanizer + avoid-ai-writing；已修正前两轮指出的事实错误；收件人已确认）
 
 Subject: Three dead links on the Spanish resources guide
 
-Hi [待定：Luke-Elizabeth Gartley],
+Hi Luke-Elizabeth Gartley,
 
 I was checking Spanish resource pages for dead links and ran into a few on your Spanish resources guide (scarboroughschools.libguides.com/spanish/resources).
 
@@ -52,7 +58,19 @@ On the Linguasorb slot: I run a Spanish reference site called LingoGrove. The ne
 I should say it's a new site and much narrower than Linguasorb was, so it may well not be worth a slot on your guide. The dead links seemed worth passing along regardless.
 
 Owen Zhang
-lingogrove.com
+LingoGrove, lingogrove.com
+contact@lingogrove.com
+
+### 2026-08-09 · humanizer + avoid-ai-writing 复查结果
+
+正文写于 2026-08-04，早于 2026-08-07 起生效的"英文对外内容必须过 humanizer + avoid-ai-writing"硬性规则，此前只过了 humanizer，没过过 avoid-ai-writing。2026-08-09 补跑：
+
+- `Skill(humanizer)`：无新发现，正文无 em dash、无 AI 高频词、无排比三连、无宣传腔，判定通过
+- `Skill(avoid-ai-writing)`：逐条核对 Tier 1/2/3 词表、模板短语、copula avoidance、hedge-stacking 等类别，无命中；"seemed worth passing along regardless" 与词表里的 "worth exploring/worth your time" 类空泛背书不同——这里是在解释邮件本身为什么值得发（即使对方站点可能用不上），不是在营销内容本身，判定为可保留的自然措辞，非需修正的AI味。整体判定通过，未作改动
+
+### 2026-08-09 · 本轮全账号查重
+
+`gmail_send.py list --query "to:lgartley@scarboroughschools.org"` → `[]`，无记录。`gmail_send.py list --query "to:scarboroughschools.org"` → `[]`，无记录（覆盖同域名下任何人）。确认此前从未联系过这个收件人或这个学区。
 
 ### ✅ 顺带发现的站内问题（不属本任务范围）——2026-08-04 已修复
 

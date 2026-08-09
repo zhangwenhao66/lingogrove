@@ -38,5 +38,49 @@
     ],
     "already_indexed_no_action": [],
     "quota_used": "1 request (round 2, continuation after Chrome extension reconnect)"
+  },
+  {
+    "date": "2026-08-07",
+    "action": "submitted",
+    "reason": "trafficsite-gsc-index-requests例行运行（跨天连续游标轮换，两轮）。按收入代理排序队列逐个URL Inspection检查：已收录（URL is on Google）的候选跳过不消耗配额，共3个；找到未收录候选后提交REQUEST INDEXING，两轮各提交1个，共2个。",
+    "submitted_urls": [
+      "https://lingogrove.com/good-night-in-spanish/",
+      "https://lingogrove.com/ser-vs-estar/"
+    ],
+    "already_indexed_no_action": [
+      "https://lingogrove.com/i-love-you-in-spanish/",
+      "https://lingogrove.com/happy-birthday-in-spanish/",
+      "https://lingogrove.com/schadenfreude-meaning/"
+    ],
+    "quota_used": "2 requests (2轮各1次)"
+  },
+  {
+    "date": "2026-08-08",
+    "action": "submitted_then_uncertain",
+    "reason": "trafficsite-gsc-index-requests例行运行（两轮遍历）。第一轮：已收录候选跳过4个，找到未收录候选ser-conjugation提交REQUEST INDEXING并收到'Indexing requested'确认。第二轮：候选spanish-conditional-tense已收录跳过；下一候选por-vs-para（Discovered - currently not indexed）连续5次点击REQUEST INDEXING均未出现'Indexing requested'确认横幅（3次显示'Testing if live URL can be indexed'进度条后无果而终，2次点击无任何视觉反馈），怀疑当日账号级GSC提交配额已耗尽（跨14站共用同一配额池），但未见明确的'Quota Exceeded'错误提示文案，判定为不确定状态，按看门狗规则立即停止本轮继续遍历。",
+    "submitted_urls": [
+      "https://lingogrove.com/ser-conjugation/"
+    ],
+    "already_indexed_no_action": [
+      "https://lingogrove.com/i-love-you-in-spanish/",
+      "https://lingogrove.com/happy-birthday-in-spanish/",
+      "https://lingogrove.com/schadenfreude-meaning/",
+      "https://lingogrove.com/spanish-conditional-tense/"
+    ],
+    "uncertain_submission": [
+      "https://lingogrove.com/por-vs-para/ — 5次REQUEST INDEXING点击尝试均未获得UI确认，可能未真正提交，下次运行应重新核实此URL的索引请求状态"
+    ],
+    "quota_used": "1 request confirmed (ser-conjugation) + 1 uncertain attempt (por-vs-para，未确认是否计入配额)"
+  },
+  {
+    "date": "2026-08-09",
+    "action": "submitted",
+    "reason": "trafficsite-gsc-index-requests例行运行，本次游标起点站。今日有两篇新发布（spanish-possessive-adjectives、french-articles），均处理：两者URL Inspection均确认'URL is not on Google'，REQUEST INDEXING后均确认'Indexing requested'。上次运行(8/8)卡住的por-vs-para本次未重新核实，留待下次运行。",
+    "submitted_urls": [
+      "https://lingogrove.com/spanish-possessive-adjectives/",
+      "https://lingogrove.com/french-articles/"
+    ],
+    "already_indexed_no_action": [],
+    "quota_used": "2 requests"
   }
 ]

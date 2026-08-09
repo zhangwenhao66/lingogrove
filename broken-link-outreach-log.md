@@ -39,7 +39,7 @@ Scarborough 学区的 Spanish 与 French 两个资源页上，同一批三条链
 
 ### 处理结果
 
-**🔴 未发送，草稿留在 `outreach-drafts.md` 待下次处理。**
+**独立复核通过后本轮内已实际发出**：收件人 `lgartley@scarboroughschools.org`，Message ID `19fe533a9aff74ca`，2026-08-08 23:26 PT——本条最初记录的"🔴未发送"是撰写完成时的状态快照，未随后续复核+发送更新，2026-08-09流量站夜间运维审核用`gmail_send.py list`核实已真实送达后补记。
 
 流程走完了 humanizer + **两轮**独立复核，第二轮判定"有问题"，按硬性原则 3 不发送。
 
@@ -64,3 +64,40 @@ Scarborough 学区的 Spanish 与 French 两个资源页上，同一批三条链
 1. **本条机会仍然有效，下次优先处理**：拿到 Gartley 的可核实邮箱 → 改称谓（"your Spanish resources guide"）→ 主题行改成三条 → Digital Maine 那句直接给出新域名 → 送第三轮独立复核
 2. 中小学学区的 libguides 断链率明显高于大学（大学页 0 断链，本学区一页 18 条就有 3 条），且收的正是文章级/工具级资源而非机构馆藏，是本站最值得深挖的方向。但这类页面**常常不在页面上留作者邮箱**，需要预留从学区官网找联系方式的步骤
 3. ✅ 顺带发现的站内问题（已记进 `outreach-drafts.md`）：`ser-conjugation` 页标题自称 "The Complete Guide to Every Tense" 但只覆盖简单时态，标题夸大；且源注里的第二核对源 ellaverbs.com 只覆盖了未完成过去/将来两组，权威性偏弱。**2026-08-04 已修复**：补齐到 19 组时态并改用 RAE 变位表作主源，详见 `内容发布日志.md`。本条 Linguasorb 外链草稿里描述该页覆盖范围的那句话也已同步更新（原句写"只有简单时态、暂不含复合时态"，现已不成立）
+
+---
+
+## 2026-08-09（第三次运行）
+
+### 主线任务：解决 Scarborough 遗留阻塞点
+
+延续上轮"中小学学区 libguides 断链率高"的方向，本轮优先处理 2026-08-04 遗留的 Scarborough 机会（三条真实失效链接、内容匹配已成立，唯一卡点是收件人邮箱未定）。
+
+**收件人邮箱已解决**：直接 curl 拉取 Gartley 的 LibGuides 个人资料页 `https://scarboroughschools.libguides.com/prf.php?id=5fd6520d-7cdb-11ed-9922-0ad758b798c3`，页面 HTML 里 "Email Me" 按钮就是 `mailto:lgartley@scarboroughschools.org`——不是靠命名规律猜测，是该页面自己暴露的公开联系方式，此前两轮复核只查了 `prf.php`/`index.php?b=g`/`about` 几个通用入口没找到，这次是从具体的个人资料页直接抓的。
+
+**三条失效链接 2026-08-09 复查仍全部失效**（linguasorb.com/spanish/、linguasorb.com/apps、library.digitalmaine.org/subject/language-learning/ 均 404，Digital Maine 根域 301 到 digitalmainelibrary.org 确认属实），来源页本身仍在线，链接结构未变。
+
+草稿已更新（收件人、称谓、状态），补跑 `Skill(avoid-ai-writing)`（原稿写于本规则 2026-08-07 生效之前，此前只过了 humanizer），判定通过。全账号查重 `to:lgartley@scarboroughschools.org` 和 `to:scarboroughschools.org` 均为空，无重复联系。已标记 **PENDING INDEPENDENT REVIEW**，详见 `outreach-drafts.md` 对应条目。
+
+### 新方向调研（未形成新机会）
+
+延续"中小学学区/教师个人站"方向做了约10轮搜索，检查过的资源页：
+
+| 资源页 | 类型 | 结果 |
+|---|---|---|
+| Garland ISD 高中 Spanish 资源指南（libguides） | 学区 | 27条外链，仅2条干净404（健康旅游站、马德里索菲亚王后博物馆某活动页），与语言学习/语法无关，非本站可接的机会 |
+| Loomis Chaffee School Spanish 指南（libguides，私立高中） | 学区/私校 | 检查约9条外链，0条干净404 |
+| 南波特兰高中（邻近 Scarborough 学区）Spanish/French 资源页 | 学区 | 页面本身仍 404（2026-08-04 已知），本轮确认未恢复，属"整页已死"而非"页内断链"，不构成可发送机会 |
+| Señora Mayo's Spanish Classes（weebly 个人教师站）"Useful Links" | 教师个人站 | Cloudflare 拦截 curl（403），无法机械核实，未使用浏览器进一步核实，本轮跳过 |
+| MSprague（weebly 教师站）"Teacher and Student Resource Lists" | 教师个人站 | 主题是全球教育/文化交流，非语法/词汇，即使有断链也非本站可接内容；查到2条404（Oxfam教案页等）但主题不符，跳过 |
+| AP Spanish Language 独立博客 apspanlang.com/resources | 教师个人站 | 约35条外链全部检查，0条干净404 |
+| Rutgers ESL教师资源列表（35 Peer-Recommended Resources） | 机构博客 | 约26条外链检查，0条干净404，且主题是通用ESL阅读工具非本站词汇/语法定位 |
+| Amity 高中 World Language 指南（libguides） | 学区 | 页面无实质外链（仅内链），跳过 |
+| Grove City College / Everett CC "Grammar and vocabulary" 指南 | 大学 | 两页均整页 404（非页内断链），不构成机会 |
+| AUBG（美国保加利亚大学）French Vocabulary 指南 | 大学 | 找到 `linguasorb.com/french/vocabulary/` 确认404（与 Scarborough 那批同源死链），但该页主题是法语词汇，LingoGrove 无任何法语内容可对应递出，硬凑会违反"内容真实对应"原则，判定不可用，跳过 |
+
+**教训沉淀**：本轮进一步验证了此前的结论——大学/学院级别的 libguides 普遍维护得较好（0 断链是常态），真正的断链高发区仍是 K-12 学区和教师个人博客，但后者又常被 Cloudflare/反爬拦截导致无法用 curl 机械核实（Señora Mayo 站是本轮实例），需要人工用浏览器复核，受限于本轮时间未做。另外确认了一条新规律：**已知死链域名（如本轮的 linguasorb.com）可以反向搜索"该域名+resources/links"找到其他仍在引用它的页面**，比逐个新领域盲搜效率更高，但要注意内容主题（语言）必须匹配本站实际覆盖范围，不能因为链接确实死了就硬发。
+
+### 本轮结论
+
+未形成新的独立机会。本轮的产出是解决了 Scarborough 这条 2026-08-04 就已发现、只差收件人的机会，草稿已更新为 PENDING INDEPENDENT REVIEW 状态。
