@@ -1,4 +1,9 @@
 {
+  "https://lingogrove.com/french-articles/": {
+    "submitted_date": "2026-08-09",
+    "verified_status": "pending",
+    "note": "new publish (Grammar tier); Bing 200 / Yandex 202."
+  },
   "https://lingogrove.com/spanish-pronouns/": {
     "submitted_date": "2026-08-06",
     "verified_status": "pending",
@@ -12,7 +17,9 @@
   "https://lingogrove.com/direct-vs-indirect-object-pronouns-spanish/": {
     "submitted_date": "2026-08-04",
     "verified_status": "pending",
-    "note": "new publish; Bing 200 / Yandex 202."
+    "note": "new publish; Bing 200 / Yandex 202.",
+    "last_checked_date": "2026-08-08",
+    "verified_method": "bwt_url_inspection"
   },
   "https://lingogrove.com/por-vs-para/": {
     "submitted_date": "2026-08-03",
@@ -29,7 +36,9 @@
   "https://lingogrove.com/preterite-vs-imperfect/": {
     "submitted_date": "2026-08-03",
     "verified_status": "pending",
-    "note": "launch batch, new publish; Bing 202 / Yandex 202."
+    "note": "launch batch, new publish; Bing 202 / Yandex 202.",
+    "last_checked_date": "2026-08-08",
+    "verified_method": "bwt_url_inspection"
   },
   "https://lingogrove.com/deja-vu-meaning/": {
     "submitted_date": "2026-08-03",
@@ -41,12 +50,16 @@
   "https://lingogrove.com/schadenfreude-meaning/": {
     "submitted_date": "2026-08-03",
     "verified_status": "pending",
-    "note": "launch batch, new publish; Bing 202 / Yandex 202."
+    "note": "launch batch, new publish; Bing 202 / Yandex 202.",
+    "last_checked_date": "2026-08-08",
+    "verified_method": "bwt_url_inspection"
   },
   "https://lingogrove.com/senpai-meaning/": {
     "submitted_date": "2026-08-03",
     "verified_status": "pending",
-    "note": "launch batch, new publish; Bing 202 / Yandex 202."
+    "note": "launch batch, new publish; Bing 202 / Yandex 202.",
+    "last_checked_date": "2026-08-08",
+    "verified_method": "bwt_url_inspection"
   },
   "https://lingogrove.com/happy-birthday-in-spanish/": {
     "submitted_date": "2026-08-03",
@@ -77,7 +90,9 @@
   "https://lingogrove.com/saber-vs-conocer/": {
     "submitted_date": "2026-08-04",
     "verified_status": "pending",
-    "note": "new publish (Grammar tier); Bing 200 / Yandex 202."
+    "note": "new publish (Grammar tier); Bing 200 / Yandex 202.",
+    "last_checked_date": "2026-08-08",
+    "verified_method": "bwt_url_inspection"
   },
   "https://lingogrove.com/spanish-reflexive-verbs/": {
     "submitted_date": "2026-08-04",
