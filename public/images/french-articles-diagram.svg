@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" font-family="system-ui, -apple-system, sans-serif">
+	<rect width="800" height="560" fill="#f6f4e9"/>
+	<rect x="24" y="24" width="752" height="512" rx="10" fill="#fffefa" stroke="#ddd8c4"/>
+
+	<rect x="24" y="24" width="752" height="56" rx="10" fill="#2f6b47"/>
+	<rect x="24" y="60" width="752" height="20" fill="#2f6b47"/>
+	<text x="400" y="60" text-anchor="middle" fill="#ffffff" font-size="19" font-weight="700">THREE FRENCH ARTICLES, TWO RULES THAT CHANGE THEM</text>
+
+	<!-- row 1: the three article families -->
+	<rect x="46" y="102" width="220" height="150" rx="8" fill="#fbead0" stroke="#ddd8c4"/>
+	<rect x="290" y="102" width="220" height="150" rx="8" fill="#fbead0" stroke="#ddd8c4"/>
+	<rect x="534" y="102" width="220" height="150" rx="8" fill="#fbead0" stroke="#ddd8c4"/>
+
+	<text x="156" y="128" text-anchor="middle" fill="#5a5648" font-size="12" font-weight="700">DEFINITE</text>
+	<text x="156" y="152" text-anchor="middle" fill="#2f6b47" font-size="14" font-weight="700">le, la, l&#8217;, les</text>
+	<text x="156" y="180" text-anchor="middle" fill="#201f1a" font-size="12" font-style="italic">&#8220;Le café est bon.&#8221;</text>
+	<text x="156" y="198" text-anchor="middle" fill="#5a5648" font-size="11">specific noun, or a</text>
+	<text x="156" y="216" text-anchor="middle" fill="#5a5648" font-size="11">whole category</text>
+
+	<text x="400" y="128" text-anchor="middle" fill="#5a5648" font-size="12" font-weight="700">INDEFINITE</text>
+	<text x="400" y="152" text-anchor="middle" fill="#2f6b47" font-size="14" font-weight="700">un, une, des</text>
+	<text x="400" y="180" text-anchor="middle" fill="#201f1a" font-size="12" font-style="italic">&#8220;J&#8217;ai un chat.&#8221;</text>
+	<text x="400" y="198" text-anchor="middle" fill="#5a5648" font-size="11">an unspecified,</text>
+	<text x="400" y="216" text-anchor="middle" fill="#5a5648" font-size="11">countable item</text>
+
+	<text x="644" y="128" text-anchor="middle" fill="#5a5648" font-size="12" font-weight="700">PARTITIVE</text>
+	<text x="644" y="152" text-anchor="middle" fill="#2f6b47" font-size="14" font-weight="700">du, de la, de l&#8217;</text>
+	<text x="644" y="180" text-anchor="middle" fill="#201f1a" font-size="12" font-style="italic">&#8220;Je bois de l&#8217;eau.&#8221;</text>
+	<text x="644" y="198" text-anchor="middle" fill="#5a5648" font-size="11">an unspecified</text>
+	<text x="644" y="216" text-anchor="middle" fill="#5a5648" font-size="11">portion of a mass</text>
+
+	<!-- row 2: the two rules that change them -->
+	<rect x="46" y="278" width="220" height="150" rx="8" fill="#eaf1ea" stroke="#2f6b47"/>
+	<rect x="290" y="278" width="352" height="150" rx="8" fill="#eaf1ea" stroke="#2f6b47"/>
+
+	<text x="156" y="304" text-anchor="middle" fill="#5a5648" font-size="12" font-weight="700">CONTRACTION</text>
+	<text x="156" y="328" text-anchor="middle" fill="#204a31" font-size="14" font-weight="700">à+le&#8594;au  à+les&#8594;aux</text>
+	<text x="156" y="346" text-anchor="middle" fill="#204a31" font-size="14" font-weight="700">de+le&#8594;du  de+les&#8594;des</text>
+	<text x="156" y="392" text-anchor="middle" fill="#201f1a" font-size="12" font-style="italic">&#8220;Je vais au cinéma.&#8221;</text>
+	<text x="156" y="410" text-anchor="middle" fill="#5a5648" font-size="11">la and l&#8217; never contract</text>
+
+	<text x="466" y="304" text-anchor="middle" fill="#5a5648" font-size="12" font-weight="700">NEGATION</text>
+	<text x="466" y="328" text-anchor="middle" fill="#204a31" font-size="14" font-weight="700">un/une/des/du/de la/de l&#8217; &#8594; de</text>
+	<text x="466" y="352" text-anchor="middle" fill="#201f1a" font-size="12" font-style="italic">&#8220;Je n&#8217;ai pas de chat.&#8221;</text>
+	<text x="466" y="378" text-anchor="middle" fill="#b5570f" font-size="11" font-weight="700">exceptions keep the original article:</text>
+	<text x="466" y="396" text-anchor="middle" fill="#5a5648" font-size="11">être as identity, or an implied contrast</text>
+	<text x="466" y="414" text-anchor="middle" fill="#5a5648" font-size="11">(&#8220;pas du vin, mais de la bière&#8221;)</text>
+
+	<line x1="46" y1="452" x2="754" y2="452" stroke="#ddd8c4" stroke-width="1"/>
+	<text x="400" y="480" text-anchor="middle" fill="#5a5648" font-size="12" font-style="italic">&#8220;Des&#8221; does three unrelated jobs: plural of &#8220;un/une&#8221;, plural of &#8220;du/de la&#8221;, and the contraction of &#8220;de + les&#8221; —</text>
+	<text x="400" y="500" text-anchor="middle" fill="#5a5648" font-size="12" font-style="italic">only word order and what precedes it tell you which one you&#8217;re looking at.</text>
+</svg>

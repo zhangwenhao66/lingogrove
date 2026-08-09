@@ -1772,4 +1772,86 @@ export const guides: Guide[] = [
 			{ label: 'Real Academia Española — Español al día: "El adverbio solo y los pronombres demostrativos, sin tilde"', url: 'https://www.rae.es/espanol-al-dia/el-adverbio-solo-y-los-pronombres-demostrativos-sin-tilde' },
 		],
 	},
+	{
+		slug: 'french-articles',
+		category: 'Grammar',
+		title: 'French Articles: Le, La, Les, Un, Une, Du, and the Rules That Change Them',
+		description: 'French splits "a noun" into three degrees of definiteness, not two like English, and two grammatical rules reshape them: contraction and negation.',
+		published: '2026-08-09',
+		updated: '2026-08-09',
+		coreSummary: 'French sorts nouns into three degrees of definiteness where English mostly manages with two: definite articles (le, la, l\', les) for a specific or generic noun, indefinite articles (un, une, des) for an unspecified countable item, and partitive articles (du, de la, de l\', des) for an unspecified portion of something treated as a mass. Two rules reliably reshape all three: à and de fuse with le and les into au, aux, du, and des whenever a definite article follows them (never with la or l\'), and negation collapses un, une, des, du, de la, and de l\' down to de or d\', with two exceptions: être asserting identity rather than quantity, and a sentence that sets up an implicit contrast.',
+		language: 'French',
+		sections: [
+			{
+				heading: 'Three degrees of "a noun," not two',
+				body: [
+					'English gets by with roughly two article choices: "the" for something specific, "a/an" (or nothing at all) for everything else. French runs a finer grid. Larousse\'s own dictionary defines the article as a word that precedes a noun and determines it "more or less precisely," while also marking its gender and number. In French, that produces three separate degrees rather than two.',
+					'The definite articles (le, la, l\', les) mark a noun that\'s specific and identifiable, or, more surprising to English speakers, an entire category treated as a whole: Le café est bon pour la santé ("Coffee is good for your health") uses le for coffee-in-general, a sentence English states with no article at all. The indefinite articles (un, une, des) mark a countable item that hasn\'t already been identified: J\'ai un chat ("I have a cat," one unspecified cat). The partitive articles (du, de la, de l\') mark an unspecified portion of something usually treated as a mass rather than a count of separate items: Je bois de l\'eau ("I drink [some] water"), a "some" that English speakers routinely drop by reflex because their own language doesn\'t require it.',
+				],
+				image: {
+					src: '/images/french-articles-diagram.svg',
+					alt: 'Diagram of the three French article families (definite le/la/les, indefinite un/une/des, partitive du/de la/de l\') with example sentences, plus the two rules that reshape them: contraction with à and de, and reduction to de under negation, both with their exceptions noted.',
+				},
+			},
+			{
+				heading: 'Definite for the specific and the general; indefinite and partitive split by countability',
+				body: [
+					'The definite/indefinite choice in French tracks roughly the same logic as English "the" versus "a," with one extra wrinkle: French uses the definite article for a noun considered as a whole category, not just for a noun already mentioned or already known to the listener. J\'aime le café ("I like coffee") is definite in French even though the sentence is making a general statement, not pointing at a specific cup.',
+					'Once a noun is indefinite rather than definite, French then asks a second question English doesn\'t grammaticalize the same way: is this something you count, or something you measure? Un chat, deux chats: cats are countable, so the indefinite article (un, une, plural des) applies. Pain, eau, and vin aren\'t normally counted one by one in ordinary speech, so they take the partitive (du pain, de l\'eau, du vin) instead, marking a portion of a mass rather than a tally of separate items. Elle mange du pain ("She\'s eating [some] bread") describes an unspecified amount of bread, not "a bread" as a countable unit; that reading exists in French too (une baguette, un pain), but it requires switching to a noun that names a specific countable shape.',
+				],
+			},
+			{
+				heading: 'À and de fuse with le and les, never with la or l\'',
+				body: [
+					'When the prepositions à ("to/at") or de ("of/from") land directly in front of the masculine singular article le or the plural les, French doesn\'t let the two words sit side by side. It forces a single fused word: à + le becomes au, à + les becomes aux, de + le becomes du, and de + les becomes des. Je vais au cinéma ("I\'m going to the movies") is the only correct form; à le cinéma isn\'t an informal shortcut, it\'s simply not French. Larousse\'s own entries for à and for le document the same pattern with parallel examples, including boire au goulot ("to drink from the bottle") for à + le, and s\'attendre aux difficultés ("to expect difficulties") for à + les.',
+					'The feminine la and the elided l\' never take part in this fusion, no matter what precedes them: à la fille, à l\'école, de la maison, and de l\'université all stay as two separate words. That asymmetry (le and les fuse; la and l\' don\'t) is worth memorizing as a fixed rule rather than a pattern to derive, since nothing about the sound of la or l\' explains why they\'d resist a contraction that le and les don\'t.',
+				],
+			},
+			{
+				heading: 'Negation flips the article to de, with two real exceptions',
+				body: [
+					'After a negated verb, French routinely reduces the indefinite and partitive articles down to a single de (or d\' before a vowel sound), regardless of the gender or number the article started with. J\'ai un chat becomes Je n\'ai pas de chat; Elle boit du café becomes Elle ne boit pas de café. The definite article le/la/les doesn\'t follow this rule at all: Je n\'aime pas le café keeps le, because negating "I like coffee" denies a relationship to an already-definite category, not a quantity of coffee.',
+					'Two situations keep the original article instead of collapsing it to de, according to the Office québécois de la langue française\'s grammar reference. The first is the verb être functioning as a linking verb: Ce n\'est pas un problème ("That\'s not a problem") keeps un rather than shifting to de problème, because être here is asserting or denying an identity, not counting or measuring a quantity of something. The second is a sentence built around an implicit contrast, where the negated noun is being weighed against a different one rather than denied outright: Nous n\'avons pas des reproches à te faire, mais des éloges ("We don\'t have criticisms for you, but praise") and Nicole ne boira pas du vin ce soir, mais de la bière ("Nicole won\'t drink wine tonight, but beer") both keep the original article on the negated side, because the sentence is substituting one thing for another rather than claiming zero quantity.',
+				],
+			},
+			{
+				heading: 'One word, three unrelated jobs: why "des" keeps showing up everywhere',
+				body: [
+					'Des is three different grammatical objects wearing the same spelling. It\'s the plural form of the indefinite un/une (J\'ai des amis, "I have [some] friends," an unspecified plural count). It\'s also the plural form of the partitive du/de la: French doesn\'t give mass nouns a separate plural partitive shape, so when an ordinarily mass-like noun gets pluralized into countable instances, des covers that too (Elle achète des fromages, "She\'s buying some cheeses," treating cheese varieties as countable items). And, entirely separately, des is the mandatory contraction of the preposition de plus the plural definite article les, as documented in Larousse\'s own entry for des: le prix des billets ("the price of the tickets") uses this des to mean "of the," pointing at specific, already-identified tickets, not "some" unspecified ones.',
+					'Nothing in the spelling distinguishes the three. What tells them apart is the sentence around them: an indefinite or partitive des attached to a direct object collapses to de under negation (Je n\'ai pas d\'amis), while a contraction des attached to a possessive-style "of the" phrase doesn\'t follow that rule at all, because it was never marking an unspecified quantity in the first place. Worth noting for anyone learning the language rather than just borrowing from it: a phrase like [déjà vu](/deja-vu-meaning/) crosses into English with its meaning intact but none of this article machinery attached, since English never needed an article in front of it at all.',
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'How many types of articles does French have?',
+				answer: 'Three: definite (le, la, l\', les) for a specific or generic noun, indefinite (un, une, des) for an unspecified countable item, and partitive (du, de la, de l\') for an unspecified portion of a mass noun. English collapses roughly the same ground into "the" and "a/an," which is why the three-way French split feels unfamiliar at first. Spanish organizes its own function words on a different axis entirely, by grammatical role rather than degree of specificity; see the [Spanish pronouns overview](/spanish-pronouns/) for how that separate framework is built.',
+			},
+			{
+				question: 'When do à and de contract with the definite article, and when don\'t they?',
+				answer: 'À and de always fuse with le and les: à + le → au, à + les → aux, de + le → du, de + les → des. That fusion is mandatory, not a style choice. La and l\' never contract with anything, no matter which preposition precedes them, so à la, à l\', de la, and de l\' always stay as two separate words.',
+			},
+			{
+				question: 'Why does "un" or "du" change to "de" after a negative verb?',
+				answer: 'French reduces the indefinite article (un, une, des) and the partitive article (du, de la, de l\') to a plain de or d\' after a negated verb, because the negation is denying a quantity rather than an identity: Je n\'ai pas de chat, not Je n\'ai pas un chat. The definite article (le, la, les) doesn\'t change under negation, since it isn\'t marking a quantity to begin with.',
+			},
+			{
+				question: 'Why doesn\'t "Ce n\'est pas un problème" become "Ce n\'est pas de problème"?',
+				answer: 'Because être functioning as a linking verb is an exception to the negation-to-de rule, per the Office québécois de la langue française\'s grammar reference. Ce n\'est pas un problème is asserting or denying an identity ("this thing isn\'t a problem"), not counting or measuring a quantity of problems, so the article stays in its original form. The same exception applies whenever the negated noun is being contrasted with a different one, as in "pas du vin, mais de la bière."',
+			},
+			{
+				question: 'Is "des" always the plural of "un" or "une"?',
+				answer: 'No. Des does three unrelated jobs that happen to share one spelling: it\'s the plural of the indefinite un/une, the plural of the partitive du/de la (French has no separate plural partitive form), and, unrelated to either, the mandatory contraction of de + les, as in le prix des billets ("the price of the tickets"). Only the surrounding sentence tells you which one you\'re looking at.',
+			},
+		],
+		sources: [
+			{ label: 'Larousse — Définitions: "article"', url: 'https://www.larousse.fr/dictionnaires/francais/article/5556' },
+			{ label: 'Larousse — Définitions: "déterminant"', url: 'https://www.larousse.fr/dictionnaires/francais/d%C3%A9terminant/24796' },
+			{ label: 'Larousse — Définitions: "de" (partitive article, examples)', url: 'https://www.larousse.fr/dictionnaires/francais/de/21718' },
+			{ label: 'Larousse — Définitions: "à" (contraction with le/les)', url: 'https://www.larousse.fr/dictionnaires/francais/%C3%A0/5' },
+			{ label: 'Larousse — Définitions: "des" (plural indefinite/partitive, and contraction of de + les)', url: 'https://www.larousse.fr/dictionnaires/francais/des/24121' },
+			{ label: 'Office québécois de la langue française — Vitrine linguistique: "De dans une phrase négative"', url: 'https://vitrinelinguistique.oqlf.gouv.qc.ca/23514/la-grammaire/les-determinants/determinants-indefinis/de-dans-une-phrase-negative' },
+			{ label: 'Office québécois de la langue française — Vitrine linguistique: "Les déterminants : mode d\'emploi"', url: 'https://vitrinelinguistique.oqlf.gouv.qc.ca/24332/la-grammaire/la-grammaire-actuelle/les-classes-de-mots-et-les-groupes/les-determinants' },
+		],
+	},
 ];
