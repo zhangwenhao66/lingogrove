@@ -1592,7 +1592,7 @@ export const guides: Guide[] = [
 		title: 'Spanish Pronouns: All Six Families in One Place',
 		description: 'Six pronoun families (subject, object, reflexive, prepositional, possessive, demonstrative) share most forms; they diverge mainly by person and region.',
 		published: '2026-08-06',
-		updated: '2026-08-06',
+		updated: '2026-08-10',
 		coreSummary: 'Spanish organizes pronouns into six families (subject, object, reflexive, prepositional, possessive, and demonstrative) that reuse the same core forms (me, te, nos, os) across almost every role, so the real learning curve concentrates in the third person and in regional splits like vosotros versus ustedes and the voseo pronoun vos. Object pronouns carry enough internal complexity, including the lo/la versus le/les split and how the two fuse into pairs like se lo, to need their own two dedicated guides rather than a summary here.',
 		language: 'Spanish',
 		sections: [
@@ -1647,7 +1647,7 @@ export const guides: Guide[] = [
 			{
 				heading: 'Demonstrative pronouns: distance, and a neutral set with nothing to agree with',
 				body: [
-					'The demonstrative pronouns track distance from the speaker in three steps: *este/esta/estos/estas* (this, near the speaker), *ese/esa/esos/esas* (that, at a middle distance, often near the listener), and *aquel/aquella/aquellos/aquellas* (that, far from both). *Este libro es interesante* ("This book is interesting") sits differently on that scale than *Aquella montaña es alta* ("That mountain over there is tall").',
+					'The demonstrative pronouns track distance in three steps: *este/esta/estos/estas* (this, near the speaker), *ese/esa/esos/esas* (that, near the listener), and *aquel/aquella/aquellos/aquellas* (that, far from both) — though the RAE\'s own grammar treats *ese* as the unmarked term of the three rather than a fixed midpoint, so it doesn\'t carry a set distance value the way *este* and *aquel* do. [The full three-way system, its regional variants, and the exceptions that trip learners up are covered in depth separately](/spanish-demonstrative-adjectives/). *Este libro es interesante* ("This book is interesting") sits differently on that scale than *Aquella montaña es alta* ("That mountain over there is tall").',
 					'Alongside those gendered forms, Spanish keeps a separate neutral set (*esto, eso, aquello*) that never takes a gender or a plural, because they don\'t stand in for any specific noun at all. They point at an idea, a situation, or something unnamed or unidentified: *No entiendo esto* ("I don\'t understand this," referring to a whole situation, not one object) and *Eso no es verdad* ("That\'s not true," referring to a claim someone just made). Confusing the neutral *eso* with the masculine *ese* is a real error, since *ese* has to agree with a specific noun it\'s replacing, and the neutral forms exist precisely because sometimes there isn\'t one.',
 				],
 			},
@@ -1941,6 +1941,94 @@ export const guides: Guide[] = [
 			{ label: 'Real Academia Española — Nueva gramática básica de la lengua española: "11.2.2 Formas"', url: 'https://www.rae.es/gram%C3%A1tica-b%C3%A1sica/demostrativos-y-posesivos/los-posesivos/formas' },
 			{ label: 'Real Academia Española — Nueva gramática básica de la lengua española: "11.2.3 Rasgos distintivos"', url: 'https://www.rae.es/gram%C3%A1tica-b%C3%A1sica/demostrativos-y-posesivos/los-posesivos/rasgos-distintivos' },
 			{ label: 'Real Academia Española — Nueva gramática de la lengua española: "Propiedades fundamentales de los posesivos"', url: 'https://www.rae.es/gram%C3%A1tica/sintaxis/propiedades-fundamentales-de-los-posesivos' },
+		],
+	},
+	{
+		slug: 'spanish-demonstrative-adjectives',
+		category: 'Grammar',
+		title: 'Spanish Demonstrative Adjectives: Este, Ese, and Aquel (It\'s Not Just "This" vs. "That")',
+		description: 'English collapses this/that into two positions. Spanish keeps three (este, ese, aquel), plus a binary reading where ese is the unmarked middle term, not a fixed "medium distance."',
+		published: '2026-08-10',
+		updated: '2026-08-10',
+		coreSummary: 'Spanish demonstratives split English\'s two-way this/that into three forms: este (near the speaker), ese (near the listener), and aquel (far from both). But the RAE\'s Nueva gramática notes a more recent reading where the real opposition is binary, este against aquel, with ese as the unmarked term that can lean either way depending on context. Much of Latin America collapses the system further into a two-way este/acá vs. ese/allá split and keeps aquel mostly for literary or evocative use, and a separate RAE rule requires the feminine forms esta, esa, and aquella (not the masculine-looking este, ese, aquel) before feminine nouns like águila and agua that start with a stressed a-sound.',
+		language: 'Spanish',
+		sections: [
+			{
+				heading: 'Three points on a line, not two',
+				body: [
+					'English gets by with two demonstratives, "this" for what\'s near and "that" for everything else. Spanish keeps a third position: este/esta/estos/estas marks what\'s near the speaker, ese/esa/esos/esas marks what\'s near the listener, and aquel/aquella/aquellos/aquellas marks what\'s far from both. The RAE\'s grammatical glossary classifies all three as determinantes demostrativos, the adjective-like set that sits in front of a noun and narrows it down by position rather than by ownership, the job [Spanish\'s possessive forms](/spanish-possessive-adjectives/) handle instead.',
+					'Este libro ("this book," in the speaker\'s hands), ese libro ("that book," over by the listener), and aquel libro ("that book," across the room or further) can describe the exact same object depending on where the speaker imagines it relative to each person in the conversation. English speakers default to treating ese and aquel as interchangeable synonyms for "that," and for a lot of everyday speech the mix-up goes unnoticed, but the three-way system is real, and the sections below cover where it actually changes meaning.',
+				],
+				image: {
+					src: '/images/spanish-demonstrative-adjectives-diagram.svg',
+					alt: 'Diagram showing este (near speaker), ese (near listener, unmarked), and aquel (far from both) as three points on a distance line, their full gender/number paradigms, the Latin American binary collapse (este/acá vs. ese/allá), and the neuter forms esto/eso/aquello.',
+				},
+			},
+			{
+				heading: 'Ese isn\'t really "medium distance": it\'s the unmarked term',
+				body: [
+					'Most English-language explanations describe the three-way system as near / medium / far, as if ese always meant "medium distance" the way "medium" sits between "small" and "large." The RAE\'s Nueva gramática de la lengua española, in its entry on the classes of demonstratives, notes a more recent analysis that treats the real opposition as binary rather than three equal steps: este marks closeness to the speaker, aquel marks distance from both speaker and listener, and ese is the unmarked term, carrying no fixed distance value of its own and able to lean toward either reading depending on where the listener is standing and what the speaker wants to emphasize.',
+					'That\'s why ese so often gets used for something that isn\'t literally halfway between the speaker and something far off. Ese problema ("that problem") doesn\'t place the problem at a measured midpoint; it just declines to claim the speaker\'s own space (este) or push the thing conspicuously far away (aquel). Treating ese as a fixed middle distance is the kind of rule that sounds tidy in a table and falls apart the first time it meets real usage.',
+				],
+			},
+			{
+				heading: 'In much of Latin America, the system collapses to two',
+				body: [
+					'The three-way split isn\'t universal across the Spanish-speaking world. The same RAE grammar entry describes a binary system active in parts of Latin America, where este pairs with the adverb acá to mark closeness to the speaker, and ese pairs with allá to mark distance, leaving aquel largely reserved for literary writing and for what the Academia calls deixis evocadora: pointing back at something remembered or emotionally distant rather than physically far away, closer to English "in those days" than to a spatial "over there."',
+					'A learner who only studies the three-way peninsular system can walk away thinking aquel is a routine, everyday word across the Spanish-speaking world; in practice, its frequency in ordinary conversation varies a lot by region, and hearing it less often in Latin American speech isn\'t a sign of nonstandard Spanish, it\'s the binary system doing its job.',
+				],
+			},
+			{
+				heading: 'Este and aquel do a different job inside a written sentence',
+				body: [
+					'Beyond pointing at physical objects, demonstratives also do anaphoric work, referring back to something already mentioned in a text, and here este and aquel split a different way. When a sentence has already named two things, aquel typically refers back to whichever one was mentioned first (the more distant, in text-position terms), while este refers back to whichever was mentioned second (the nearer one). Juan y Pedro discutieron: este defendía su idea, aquel la suya ("Juan and Pedro argued: the latter defended his idea, the former defended his own") uses este for Pedro, the more recently named of the two, and aquel for Juan, the one named first. English states "the former... the latter" in the same order the two people were introduced, former for whoever came first, then latter for whoever came second. Spanish reverses that word order: este comes first in the sentence even though it points to the second-named person, and aquel comes second even though it points back to the first-named one.',
+					'This usage shows up mostly in formal or literary writing rather than casual conversation, but it explains a pattern that otherwise looks backwards to an English speaker: aquel referring to what\'s textually "closer" to the start of the sentence, not to what\'s physically far away.',
+				],
+			},
+			{
+				heading: 'The exception nobody expects: "esta águila," not "este águila"',
+				body: [
+					'Spanish famously uses the masculine article el in front of feminine singular nouns that start with a stressed a- sound (el águila, el agua, el hacha), purely to avoid two a-sounds colliding, even though águila, agua, and hacha stay grammatically feminine (las águilas, agua fría, not agua frío). Learners who\'ve internalized that rule often extend it by analogy to demonstratives, producing este águila or ese agua on the assumption that the same euphonic fix applies.',
+					'The RAE\'s Nueva gramática is explicit that this analogy is wrong. The masculine-looking este, ese, and aquel before these nouns has become common in speech and writing, but the Academia recommends the feminine forms instead (esta águila, esa águila, aquella agua), because demonstratives, unlike the article el, don\'t carry the specific phonological shape that motivated the article\'s exception in the first place. It\'s a genuine trap precisely because it runs opposite to a rule learners were taught correctly for articles just one lesson earlier.',
+				],
+			},
+			{
+				heading: 'Esto, eso, aquello: the neuter set with no noun to modify',
+				body: [
+					'Alongside the twelve gendered, numbered forms above, Spanish has a separate three-word neuter set: esto, eso, and aquello. The RAE\'s grammar treats these as exclusively pronominal. They never precede a noun, never change for number, and never take a written accent, unlike their gendered counterparts, which historically could carry one as pronouns before [the 2010 spelling reform dropped that requirement](/spanish-accent-marks/).',
+					'Esto, eso, and aquello point at things that don\'t have a grammatical gender to agree with: an idea, a situation, an action, something gestured at without being named. ¿Qué es esto? ("What is this?") can gesture at an object whose name the speaker doesn\'t know or hasn\'t decided on yet. The RAE is specific that these forms are meant for non-personal referents, and using esto or eso to identify a person (Esto, más que un muchacho, parece un espantapájaros, "This, more than a boy, looks like a scarecrow") reads as offensive rather than simply informal. There\'s one carve-out: in an attributive sentence built with ser, the same neuter form can flip to praise instead of insult, as in Esto es un jugador de verdad ("Now this is a real player"), where the construction singles the person out for admiration rather than stripping them of ordinary gendered reference.',
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'What\'s the real difference between ese and aquel if they both mean "that"?',
+				answer: 'Aquel marks distance from both the speaker and the listener; ese is the unmarked term and doesn\'t carry a fixed distance value of its own, per the RAE\'s Nueva gramática. In practice, ese covers most everyday "that," while aquel is reserved for something conspicuously farther off, or, in much of Latin America, mostly for literary and evocative use rather than everyday spatial reference.',
+			},
+			{
+				question: 'Do demonstrative adjectives like este still need an accent mark?',
+				answer: 'No. Este, ese, and aquel (as adjectives placed before a noun) have never taken a written accent. Their pronoun counterparts (éste, ésta, aquél, and so on) historically could carry a diacritical tilde to distinguish them from the adjective forms, but the RAE\'s 2010 spelling reform dropped that requirement, even in sentences where the two readings could otherwise be ambiguous.',
+			},
+			{
+				question: 'Can esto, eso, or aquello refer to a person?',
+				answer: 'Only in one specific construction. Identifying a person with esto or eso (Esto parece un espantapájaros) reads as offensive, per the RAE, since these neuter forms are meant for non-personal referents. The exception is an attributive sentence built with ser, such as Esto es un jugador de verdad ("Now this is a real player"), where the same construction turns into praise instead of an insult.',
+			},
+			{
+				question: 'Why is it "esta águila" and not "este águila," if águila takes "el" as its article?',
+				answer: 'The masculine-looking el before águila, agua, and similar feminine nouns exists purely to avoid two stressed a-sounds colliding, and it\'s specific to the article. Demonstratives don\'t share that phonological trigger, so the RAE recommends the feminine forms (esta águila, esa águila, aquella agua) even though este águila and ese agua have become common through analogy with the article rule.',
+			},
+			{
+				question: 'Is aquel still used in everyday Latin American Spanish?',
+				answer: 'Less than the peninsular three-way system suggests. Parts of Latin America use a binary system instead, este/acá for closeness and ese/allá for distance, which leaves aquel mostly for literary writing and for evocative reference to something remembered rather than physically distant, per the RAE\'s Nueva gramática. Hearing it less often in everyday Latin American conversation reflects that regional system, not an error.',
+			},
+		],
+		sources: [
+			{ label: 'Real Academia Española — Nueva gramática de la lengua española: "Clases de demostrativos"', url: 'https://www.rae.es/gram%C3%A1tica/sintaxis/clases-de-demostrativos' },
+			{ label: 'Real Academia Española — Nueva gramática de la lengua española: "Los demostrativos neutros"', url: 'https://www.rae.es/gram%C3%A1tica/sintaxis/los-demostrativos-neutros' },
+			{ label: 'Real Academia Española — Nueva gramática básica de la lengua española: "11.1.2 Determinantes y pronombres"', url: 'https://www.rae.es/gram%C3%A1tica-b%C3%A1sica/demostrativos-y-posesivos/los-demostrativos/determinantes-y-pronombres-0' },
+			{ label: 'Real Academia Española — El buen uso del español: "Los demostrativos"', url: 'https://www.rae.es/buen-uso-espa%C3%B1ol/los-demostrativos' },
+			{ label: 'Real Academia Española — Español al día: "El adverbio solo y los pronombres demostrativos, sin tilde"', url: 'https://www.rae.es/espanol-al-dia/el-adverbio-solo-y-los-pronombres-demostrativos-sin-tilde' },
+			{ label: 'Real Academia Española — Glosario de términos gramaticales: "determinante demostrativo"', url: 'https://www.rae.es/gtg/determinante-demostrativo' },
 		],
 	},
 ];
