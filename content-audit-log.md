@@ -263,3 +263,93 @@
   "escalation": null
 }
 ```
+
+```json
+{
+  "url_slug": "preterite-vs-imperfect",
+  "last_audited": "2026-08-10",
+  "published_date": "2026-08-03",
+  "note": "全站last_audited最早的两站之一（WageLark 08-06 20:06 < LingoGrove 08-06 20:15，其余8站均08-09），本次跨站排序里排第二；站内该文从未被本任务审计过，按guides.ts数组位置（3篇已审计之后的第一篇未审计条目）选取",
+  "article_specific_checklist": [
+    "preterite=完整封闭事件/imperfect=进行中无标记起止 这条核心语法规则是否与RAE《Nueva gramática》原文一致，'不是关于多久以前/多长'这条易被误解的表述是否准确",
+    "El mayordomo bajó/bajaba las escaleras 等具体西语示例句的语法变位是否正确，是否真的对应权威语法源的实际用例而非编造",
+    "ser的preterite（fui, fue...）和imperfect（era, eras...）是否与其独立词条ser-conjugation的对应表格一致（跨文章互链桥接句核对）",
+    "正文/FAQ密集的破折号使用是否符合本站已确立的AI写作痕迹硬性上限（≤1处/千词）"
+  ],
+  "findings": [
+    {
+      "dimension": "事实准确性",
+      "status": "未发现问题",
+      "detail": "WebSearch多次交叉核实RAE《Nueva gramática de la lengua española》原文：'perfecto simple presenta la acción como acabada/completada（aspecto perfectivo）；imperfecto presenta la acción sin delimitación de término（aspecto imperfectivo）'与正文核心论断完全一致。更直接的证据：RAE官方页面'El pretérito imperfecto (cantaba) (I). Información deíctica e información aspectual'原文用例正是'El mayordomo bajaba las escaleras' vs 'El mayordomo bajó las escaleras'这对句子（用于说明同一区分），与本文示例句逐字相同，证实非编造而是直接采自RAE原文用例。文中'vivió/vivía en México diez años'处理长时段preterite的手法与独立语言学习网站给出的'Viví en Bogotá dos años'范式一致，非false range式AI编造。全部西语示例句（bajó/bajaba, vivió/vivía, llegué/llegaba, dormía/durmió, jugaba/jugué, nevó, llovía/hacía frío）逐一核对变位形式均语法正确。"
+    },
+    {
+      "dimension": "EEAT",
+      "status": "未发现问题",
+      "detail": "两条RAE《Nueva gramática de la lengua española》官方语法页具名引用（非泛泛而谈），schema author字段为具名Person（Owen Zhang）+about页链接。"
+    },
+    {
+      "dimension": "时效性",
+      "status": "不适用",
+      "detail": "语法规则类内容，RAE官方规则历史上无变动记录，发布7天无需刷新。"
+    },
+    {
+      "dimension": "竞品差异化",
+      "status": "未发现问题",
+      "detail": "get_serp_results实测'preterite vs imperfect'：本文尚未进入前20（符合发布7天预期），头部竞品SpanishDict/StudySpanish/Reddit/Duolingo博客/Bowdoin等均为通用列举式讲解，无一篇像本文一样系统性使用'同动词只改aspect'的最小对比句对（Cuando llegué, ella dormía / Cuando llegaba, ella durmió）教学法，也无一篇直接引用RAE官方语法条文原文用例，属真实差异化。"
+    },
+    {
+      "dimension": "SEO技术审计",
+      "status": "未发现问题",
+      "detail": "curl实测live页面：title 71字符、description 145字符、5个H2结构清晰、canonical自引用正确、robots.txt对全部AI爬虫Allow，ads.txt正确指向pub-5245502795720653。"
+    },
+    {
+      "dimension": "GEO审计",
+      "status": "未发现问题（修复后）",
+      "detail": "coreSummary定义块✓/FAQ自包含问答（4条）✓/Article+FAQPage+BreadcrumbList schema✓/RAE原文引语✓/H2结构匹配学习者常见提问模式✓；修复前表达流畅度维度因19处叙述性破折号+否定排比句式偏弱，修复后已清零，与站内其他文章基线一致。"
+    },
+    {
+      "dimension": "早期内容AI味补漏",
+      "status": "发现并修复",
+      "detail": "详见下方actions_taken——19处叙述性em dash（约1处/95词，远超本站≤1处/千词硬性上限，含多处'word — aside — word'三明治结构）+ coreSummary否定排比句式，经独立复核agent确认后修复。"
+    },
+    {
+      "dimension": "外部引用链接腐烂",
+      "status": "未发现问题",
+      "detail": "两条RAE来源均经WebSearch交叉验证内容仍真实存在（curl直连403为RAE对自动化抓取的常规拦截，与本站历次审计一致，非链接失效）。"
+    },
+    {
+      "dimension": "内链健康度",
+      "status": "未发现问题",
+      "detail": "grep确认3处站内正文手动锚文本真实链接到本文（ser-conjugation/saber-vs-conocer/spanish-conditional-tense），桥接句描述经核对均准确反映本文实际内容，非孤儿页；且本文与ser-conjugation互相桥接，双向核对均准确（ser-conjugation第712行原文即直接引导读者回本文巩固该区分）。"
+    },
+    {
+      "dimension": "Schema数据一致性",
+      "status": "未发现问题（修复后）",
+      "detail": "curl实测live页面Article/FAQPage/BreadcrumbList三种JSON-LD均正确渲染，dateModified修复后连续5次请求稳定为2026-08-10，与guides.ts的updated字段一致。"
+    },
+    {
+      "dimension": "合规/敏感度漂移",
+      "status": "未发现问题",
+      "detail": "西语语法教学内容，无敏感话题；privacy/about页面均200可访问。"
+    },
+    {
+      "dimension": "配图可用性与版权",
+      "status": "发现并修复（同一问题的配套修复）",
+      "detail": "配图/images/preterite-vs-imperfect-diagram.svg为站内自制示意图（非第三方图片，无版权问题），实测200可正常加载；但图内4处文字标签同样存在em dash（Preterite—/Imperfect—标题及两处例句注释），与正文问题同源，一并修复为冒号/逗号结构。"
+    }
+  ],
+  "actions_taken": [
+    "独立复核agent确认19处叙述性em dash为真实AI写作痕迹（非引用标签的正常破折号用法），全部改写为句号/冒号/逗号/括号结构；coreSummary否定排比句式改写为直接肯定表述；全程未改动任何语法规则表述、西语示例句或RAE引用内容",
+    "配套修复diagram.svg图内4处相同问题的标签文字",
+    "updated字段改为2026-08-10（published字段已存在，未触发L-0809-1回退风险）",
+    "npm run build通过（32页无错误），build产物人工核对SVG四处标签正确渲染",
+    "git commit（e851480）+ push，Cloudflare Pages自动部署",
+    "轮询https://lingogrove.com/preterite-vs-imperfect/确认200，连续5次请求dateModified稳定为2026-08-10（排除CDN缓存假阳性）",
+    "node tools/submit-indexnow.mjs /preterite-vs-imperfect/提交（Bing 200 / Yandex 202）",
+    "内容发布日志.md追加本条审计更新记录"
+  ],
+  "seo_score": "技术SEO抽查（title/meta/h2/canonical/robots.txt/ads.txt）无问题",
+  "geo_score": "修复前表达流畅度维度因破折号密度偏弱，修复后与站内文章基线一致，未重新量化打分",
+  "escalation": null
+}
+```
