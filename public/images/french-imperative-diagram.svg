@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 640" font-family="system-ui, -apple-system, sans-serif">
+	<rect width="800" height="640" fill="#f6f4e9"/>
+	<rect x="24" y="24" width="752" height="592" rx="10" fill="#fffefa" stroke="#ddd8c4"/>
+
+	<rect x="24" y="24" width="752" height="56" rx="10" fill="#2f6b47"/>
+	<rect x="24" y="60" width="752" height="20" fill="#2f6b47"/>
+	<text x="400" y="60" text-anchor="middle" fill="#ffffff" font-size="19" font-weight="700">THE FRENCH IMPERATIVE: FORMATION AND THE PRONOUN FLIP</text>
+
+	<!-- row 1: er verb -s drop and the euphonic s -->
+	<rect x="46" y="102" width="345" height="118" rx="8" fill="#fbead0" stroke="#ddd8c4"/>
+	<rect x="409" y="102" width="345" height="118" rx="8" fill="#fbead0" stroke="#ddd8c4"/>
+
+	<text x="218" y="128" text-anchor="middle" fill="#5a5648" font-size="12" font-weight="700">DROP THE SUBJECT, DROP THE -S</text>
+	<text x="218" y="154" text-anchor="middle" fill="#2f6b47" font-size="15" font-weight="700">tu chantes &#8594; Chante !</text>
+	<text x="218" y="178" text-anchor="middle" fill="#201f1a" font-size="12" font-style="italic">&#8220;Chante si le c&#339;ur t&#8217;en dit.&#8221;</text>
+	<text x="218" y="198" text-anchor="middle" fill="#5a5648" font-size="11">-er verbs (and aller) only</text>
+
+	<text x="581" y="128" text-anchor="middle" fill="#5a5648" font-size="12" font-weight="700">THE -S RETURNS BEFORE EN / Y</text>
+	<text x="581" y="154" text-anchor="middle" fill="#2f6b47" font-size="15" font-weight="700">Va ! &#8594; Vas-y !</text>
+	<text x="581" y="178" text-anchor="middle" fill="#201f1a" font-size="12" font-style="italic">&#8220;Manges-en. Parles-en &#224; tes amis.&#8221;</text>
+	<text x="581" y="198" text-anchor="middle" fill="#5a5648" font-size="11">not when en/y completes a following infinitive</text>
+
+	<!-- row 2: four irregular verbs -->
+	<rect x="46" y="240" width="708" height="146" rx="8" fill="#eaf1ea" stroke="#2f6b47"/>
+	<text x="400" y="264" text-anchor="middle" fill="#5a5648" font-size="12" font-weight="700">FOUR VERBS BORROW FROM THE SUBJUNCTIVE INSTEAD</text>
+
+	<text x="130" y="296" text-anchor="middle" fill="#204a31" font-size="13" font-weight="700">avoir</text>
+	<text x="130" y="316" text-anchor="middle" fill="#201f1a" font-size="12">aie</text>
+	<text x="130" y="334" text-anchor="middle" fill="#201f1a" font-size="12">ayons / ayez</text>
+
+	<text x="309" y="296" text-anchor="middle" fill="#204a31" font-size="13" font-weight="700">&#234;tre</text>
+	<text x="309" y="316" text-anchor="middle" fill="#201f1a" font-size="12">sois</text>
+	<text x="309" y="334" text-anchor="middle" fill="#201f1a" font-size="12">soyons / soyez</text>
+
+	<text x="489" y="296" text-anchor="middle" fill="#204a31" font-size="13" font-weight="700">savoir</text>
+	<text x="489" y="316" text-anchor="middle" fill="#201f1a" font-size="12">sache</text>
+	<text x="489" y="334" text-anchor="middle" fill="#201f1a" font-size="12">sachons / sachez</text>
+
+	<text x="668" y="296" text-anchor="middle" fill="#204a31" font-size="13" font-weight="700">vouloir</text>
+	<text x="668" y="316" text-anchor="middle" fill="#201f1a" font-size="12">veuille</text>
+	<text x="668" y="334" text-anchor="middle" fill="#201f1a" font-size="12">veuillons / veuillez</text>
+
+	<line x1="70" y1="352" x2="734" y2="352" stroke="#c8dcc9" stroke-width="1"/>
+	<text x="400" y="374" text-anchor="middle" fill="#5a5648" font-size="11" font-style="italic">&#8220;Aie confiance en toi. Sache que je serai l&#224; pour toi.&#8221;</text>
+
+	<!-- row 3: pronoun order flip -->
+	<rect x="46" y="404" width="345" height="132" rx="8" fill="#fbead0" stroke="#ddd8c4"/>
+	<rect x="409" y="404" width="345" height="132" rx="8" fill="#fbead0" stroke="#ddd8c4"/>
+
+	<text x="218" y="430" text-anchor="middle" fill="#5a5648" font-size="12" font-weight="700">AFFIRMATIVE: DIRECT OBJECT FIRST</text>
+	<text x="218" y="458" text-anchor="middle" fill="#2f6b47" font-size="16" font-weight="700">Dis-le-moi.</text>
+	<text x="218" y="480" text-anchor="middle" fill="#201f1a" font-size="11">le (direct) before moi (indirect)</text>
+	<text x="218" y="500" text-anchor="middle" fill="#5a5648" font-size="11">pronouns attach with a hyphen</text>
+	<text x="218" y="520" text-anchor="middle" fill="#5a5648" font-size="11">te &#8594; toi, me &#8594; moi</text>
+
+	<text x="581" y="430" text-anchor="middle" fill="#5a5648" font-size="12" font-weight="700">NEGATIVE: ORDINARY WORD ORDER</text>
+	<text x="581" y="458" text-anchor="middle" fill="#2f6b47" font-size="16" font-weight="700">Ne me le dis pas.</text>
+	<text x="581" y="480" text-anchor="middle" fill="#201f1a" font-size="11">me (indirect) before le (direct)</text>
+	<text x="581" y="500" text-anchor="middle" fill="#5a5648" font-size="11">pronouns move in front, no hyphen</text>
+	<text x="581" y="520" text-anchor="middle" fill="#5a5648" font-size="11">toi &#8594; te, moi &#8594; me</text>
+
+	<line x1="46" y1="562" x2="754" y2="562" stroke="#ddd8c4" stroke-width="1"/>
+	<text x="400" y="588" text-anchor="middle" fill="#5a5648" font-size="12" font-style="italic">En and y always take the second slot with another pronoun, hyphenated only in the affirmative:</text>
+	<text x="400" y="608" text-anchor="middle" fill="#5a5648" font-size="12" font-style="italic">&#8220;Offrez-leur-en&#8221; &#8596; &#8220;Ne leur en donnez plus.&#8221;</text>
+</svg>

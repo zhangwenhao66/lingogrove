@@ -2112,4 +2112,91 @@ export const guides: Guide[] = [
 			{ label: 'Coto Academy — "Omitting Particles in Japanese"', url: 'https://cotoacademy.com/omitting-particles-japanese-can-skip-wa-o-ga-e-japanese/' },
 		],
 	},
+	{
+		slug: 'french-imperative',
+		category: 'Grammar',
+		title: 'French Imperative: Chante, Sois, and the Pronoun Order That Reverses',
+		description: 'French commands drop the subject pronoun, and most -er verbs also drop the final -s, until en or y shows up and the -s comes back. Four verbs skip the system entirely.',
+		published: '2026-08-10',
+		updated: '2026-08-10',
+		coreSummary: 'The French imperative exists only in the tu, nous, and vous forms, drops the subject pronoun, and mostly reuses the present indicative, except that -er verbs drop the final -s at tu (chante, not chantes) unless the pronoun en or y follows, when the -s returns for pronunciation (vas-y). Four verbs, avoir, être, savoir, and vouloir, ignore that whole system and borrow their forms from the subjunctive instead (aie, sois, sache, veuille), and object pronouns reverse their order depending on the command: direct object first in an affirmative command (dis-le-moi), back to ordinary word order in a negative one (ne me le dis pas).',
+		language: 'French',
+		sections: [
+			{
+				heading: 'Drop the subject, and most -er verbs drop the final s too',
+				body: [
+					'The French imperative only exists in three grammatical persons: tu, nous, and vous. There\'s no je, il/elle, or ils/elles form, because giving a command to yourself or describing a third party issuing one doesn\'t fit what the mood is for. Per Larousse\'s own definition, the imperative is "a verb mood characterized by the absence of conjugation pronouns," used to give an order in an affirmative sentence or a prohibition in a negative one. The subject pronoun simply disappears: tu chantes becomes Chante, not Tu chante. Nothing about that change touches the noun system a command might still need; Ouvre la porte keeps [the same definite article rules](/french-articles/) any other French sentence would use.',
+					'Most imperative forms are borrowed straight from the present indicative, minus the pronoun. The one form that isn\'t is the single biggest thing to learn about the whole system: at tu, -er verbs (and aller, which conjugates like one at the imperative) drop the final -s that the indicative keeps. Chante si le cœur t\'en dit ("sing if you feel like it") loses the -s that tu chantes has. Va finir tes devoirs avant d\'aller jouer keeps va, not vas. Lève-toi et marche uses lève, not lèves. Balaie (or balaye, both spellings are standard) bien tous les recoins de la pièce drops the -s the same way.',
+				],
+				image: {
+					src: '/images/french-imperative-diagram.svg',
+					alt: 'Diagram of French imperative formation: dropping the subject pronoun and the -er verb final -s at tu, the -s returning before en/y, the four irregular verbs (avoir, être, savoir, vouloir) borrowing from the subjunctive, and the pronoun order flipping between an affirmative command (dis-le-moi) and a negative one (ne me le dis pas).',
+				},
+			},
+			{
+				heading: 'The s comes back before en and y, but only when they\'re pronouns',
+				body: [
+					'That dropped -s isn\'t gone for good. Per the Office québécois de la langue française\'s grammar reference, -er verbs take the -s back at the imperative specifically when the pronoun en or y immediately follows, purely for pronunciation: French avoids letting two vowel sounds collide, so a liaison consonant gets inserted. Manges-en ("eat some") is pronounced with the s carrying over into en, and the same pattern shows up in Avant d\'entreprendre ce voyage, parles-en à tes amis et penses-y bien and Si tu veux aller te promener, vas-y avant qu\'il ne fasse trop sombre.',
+					'The rule has a real exception, and it turns on what en or y is actually doing in the sentence. If en or y is the complement of an infinitive verb that follows the imperative, rather than a pronoun attached to the imperative itself, the -s doesn\'t come back: Il y a beaucoup de fruits au marché, va en acheter keeps va because en belongs to acheter, not va. Ton bureau est en désordre, va y mettre un peu d\'ordre works the same way, with y attached to mettre. And when en isn\'t a pronoun at all but the preposition meaning "in," as in Travaille en silence, there\'s no pronoun to trigger the rule in the first place. One verb ignores all of this: laisser keeps its -s even when en or y is the following infinitive\'s complement, for euphony, as in Il y a trop d\'air dans ce pneu, laisses-en échapper un peu.',
+				],
+			},
+			{
+				heading: '-ir, -oir, and -re verbs mostly copy the indicative, except eight that don\'t',
+				body: [
+					'Verbs ending in -ir, -oir, and -re at the infinitive mostly keep their present-indicative tu form unchanged at the imperative, -s and all. Assieds-toi (or assois-toi) près de moi and Fais attention à la marche both use the same ending the indicative would.',
+					'A short, fixed list of -ir verbs breaks that pattern and behaves like -er verbs instead, dropping the final -s: assaillir, défaillir, offrir, souffrir, tressaillir, along with couvrir, cueillir, ouvrir, and the other verbs built on those same roots. Ouvre grand ton cœur à tous ceux qui t\'entourent and Couvre-toi bien, car il fait un froid glacial dehors both use the -er-style ending even though the infinitives (ouvrir, couvrir) end in -ir.',
+				],
+			},
+			{
+				heading: 'Four verbs skip the whole system: avoir, être, savoir, and vouloir',
+				body: [
+					'Avoir, être, savoir, and vouloir don\'t follow either of the patterns above. Per the OQLF, their tu-form imperative is borrowed from the present subjunctive or from one of its older forms: aie (not "as"), sois (not "es"), sache (not "sais"), veuille (not "veux"). Aie confiance en toi and Sache que je serai toujours là pour toi both use these borrowed forms rather than anything an indicative conjugation table would produce.',
+					'At nous and vous, most verbs still just copy the present indicative, the same as any other group: Prenez garde au chien, Profitons de ce temps de répit bien mérité. Avoir and être keep tracking the subjunctive at these persons too, matching its plural exactly: ayons, ayez, soyons, soyez, as in Soyez assurés que nous prendrons soin d\'elle. Savoir and vouloir, though, get their own dedicated imperative plural forms rather than a straight subjunctive borrowing: sachons, sachez, and veuillons, veuillez (with voulons, voulez sometimes substituted for the vouloir forms in practice), as in Veuillez prendre note que nous serons fermés pendant l\'été. There\'s also a rarely used compound past imperative, built from avoir or être plus a past participle and borrowing its forms from the past subjunctive, with one added wrinkle: avoir loses its final -s at tu even here, so it\'s Aie mangé quand ils arriveront, not Aies mangé, while Soyez partis d\'ici deux jours keeps être\'s regular subjunctive-borrowed form.',
+				],
+			},
+			{
+				heading: 'Two pronouns, one command: the order reverses between yes and no',
+				body: [
+					'In an affirmative command, object pronouns move after the verb and attach to it with a hyphen: Regarde-le, Donne-moi ça. When a command carries two pronouns at once, the OQLF\'s rule is that the direct object goes immediately after the verb, with the indirect object second, which is the reverse of how those same pronouns would order themselves in an ordinary declarative sentence. Rendez-le-nous ("give it back to us") puts le (direct, standing for "the book") before nous (indirect, "to us"). Dites-le-moi le plus tôt possible works the same way: le first, moi second. Colloquial French sometimes inverts that order in speech, but the OQLF is explicit that written French should keep Donne-le-moi, not Donne-moi-le.',
+					'A negative command reverses the whole mechanism. Both pronouns move back in front of the verb, the hyphens disappear, and the order reverts to what an ordinary declarative sentence would use, which for a 1st- or 2nd-person indirect pronoun paired with a direct one puts the indirect pronoun first: Ne nous les réserve pas ("don\'t hold them for us," nous before les), Ne me le dis pas ("don\'t tell me that," me before le). The third-person indirect pronouns lui and leur don\'t flip this way, because in ordinary word order they already come after a direct object pronoun: Ne le lui offrez pas and Ne la leur refusons pas both keep the direct pronoun (le, la) ahead of the indirect one (lui, leur), in the negative exactly as they would in any other negative sentence.',
+					'En and y follow their own rule regardless of affirmative or negative: paired with another pronoun, they always take the second slot. Offrez-leur-en ("offer them some") and Appuyez-vous-y ("lean on it") hyphenate the pair in the affirmative; Ne vous y fiez pas ("don\'t trust it") and Ne leur en donnez plus ("don\'t give them any more") drop the hyphen in the negative, but en and y still land second either way.',
+				],
+			},
+			{
+				heading: 'Reflexive commands: te becomes toi, but only when you say yes',
+				body: [
+					'An affirmative command built on me or te doesn\'t just move the pronoun after the verb, it also swaps it for its stressed form: te becomes toi, me becomes moi. Lève-toi et marche comes from tu te lèves, with te promoted to toi once it moves behind the verb. A negative command undoes both changes at once: the pronoun moves back in front of the verb and reverts to its plain form, so Ne te lève pas keeps te, never toi.',
+					'The OQLF\'s own phrasing for the en/y exception confirms this directly: before en or y, "on fait l\'élision des pronoms me et te (qui se substituent à moi et toi)", meaning the pronouns actually used in that slot are moi and toi, elided down to m\' and t\' for pronunciation. Donnez-m\'en un kilo and Fais-m\'y penser are correct; the colloquial Donnez-moi-z-en and Fais-moi-z-y, with an inserted [z] sound, are flagged by the OQLF as an error, since there\'s never a liaison -s between two pronouns. Occupe-t\'en follows the same pattern for te.',
+					'[Spanish reflexive verbs](/spanish-reflexive-verbs/) follow a structurally similar split: the pronoun attaches to an affirmative command and moves back in front for a negative one, as in ¡Levántate! versus No te levantes, never No levántate. Spanish doesn\'t add French\'s extra step of swapping to a separate stressed pronoun form, since te simply attaches as a suffix either way; French\'s te/toi alternation is the one added wrinkle Spanish\'s version of the same rule doesn\'t have.',
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'Why does "tu chantes" become "chante" as a command, not "chantes"?',
+				answer: 'At the imperative, -er verbs (and aller) drop the final -s that the present indicative keeps at tu. Tu chantes becomes Chante; tu vas becomes Va. This is the one systematic difference between the imperative and indicative forms at tu for regular -er verbs; the nous and vous forms don\'t drop anything and match the indicative directly.',
+			},
+			{
+				question: 'When does the dropped -s come back on an imperative verb?',
+				answer: 'When the pronoun en or y immediately follows, purely for pronunciation: manges-en, vas-y, parles-en. Per the OQLF, that -s doesn\'t return if en or y is instead the complement of a following infinitive rather than a pronoun attached to the imperative itself (va en acheter, va y mettre), or if en isn\'t a pronoun at all (Travaille en silence). One verb, laisser, keeps the -s even in that exception case.',
+			},
+			{
+				question: 'Why is the command form of "être" sois instead of es?',
+				answer: 'Avoir, être, savoir, and vouloir don\'t form their imperative from the present indicative at all. Per the OQLF, their tu-form imperative borrows from the present subjunctive or an older version of it: aie, sois, sache, veuille. At nous/vous, avoir and être keep tracking the subjunctive (ayons/ayez, soyons/soyez), while savoir and vouloir use their own dedicated forms, sachons/sachez and veuillons/veuillez.',
+			},
+			{
+				question: 'Why is it "dis-le-moi" and not "dis-moi-le"?',
+				answer: 'In an affirmative command with two object pronouns, French places the direct object immediately after the verb and the indirect object second: dis-le-moi, rendez-le-nous. That\'s the reverse of ordinary declarative word order, where a 1st- or 2nd-person indirect pronoun normally comes first (il me le dit). The OQLF explicitly recommends against the colloquial dis-moi-le in written French, even though the inverted order is sometimes heard in speech.',
+			},
+			{
+				question: 'Why does "te" become "toi" in "lève-toi" but not in "ne te lève pas"?',
+				answer: 'An affirmative command moves the pronoun after the verb and swaps it for its stressed form, te to toi, me to moi: lève-toi. A negative command moves the pronoun back in front of the verb and reverts it to the plain form: ne te lève pas. The OQLF confirms the same substitution happens before en and y, where me and te elide to m\' and t\' rather than staying as moi and toi outright: donnez-m\'en, not donnez-moi-z-en.',
+			},
+		],
+		sources: [
+			{ label: 'Larousse — Encyclopédie: "impératif" (definition, grammatical persons)', url: 'https://www.larousse.fr/encyclopedie/divers/imp%C3%A9ratif/60148' },
+			{ label: 'Office québécois de la langue française — Vitrine linguistique: "L\'impératif : formes et conjugaison"', url: 'https://vitrinelinguistique.oqlf.gouv.qc.ca/24203/la-grammaire/le-verbe/conjugaison/formes-de-limperatif' },
+			{ label: 'Office québécois de la langue française — Vitrine linguistique: "Verbes à l\'impératif : ordre des pronoms et trait d\'union"', url: 'https://vitrinelinguistique.oqlf.gouv.qc.ca/24206/la-grammaire/les-pronoms/pronoms-personnels/pronoms-personnels-employes-avec-un-verbe-a-limperatif' },
+		],
+	},
 ];
