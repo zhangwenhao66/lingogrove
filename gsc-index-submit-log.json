@@ -82,5 +82,18 @@
     ],
     "already_indexed_no_action": [],
     "quota_used": "2 requests"
+  },
+  {
+    "date": "2026-08-10",
+    "action": "submitted",
+    "reason": "trafficsite-gsc-index-requests例行运行，本次游标起点站。今日审计更新页preterite-vs-imperfect（未收录）REQUEST INDEXING后确认'Indexing requested'。今日新发布spanish-demonstrative-adjectives查到已自然收录，未提交。上次运行(8/9)遗留的por-vs-para（此前8/8曾卡在'Testing if live URL can be indexed'无结果）本次重新核实仍未收录，REQUEST INDEXING后确认'Indexing requested'，遗留问题已解决。",
+    "submitted_urls": [
+      "https://lingogrove.com/preterite-vs-imperfect/",
+      "https://lingogrove.com/por-vs-para/"
+    ],
+    "already_indexed_no_action": [
+      "https://lingogrove.com/spanish-demonstrative-adjectives/"
+    ],
+    "quota_used": "2 requests"
   }
 ]
