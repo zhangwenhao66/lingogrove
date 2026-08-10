@@ -2031,4 +2031,85 @@ export const guides: Guide[] = [
 			{ label: 'Real Academia Española — Glosario de términos gramaticales: "determinante demostrativo"', url: 'https://www.rae.es/gtg/determinante-demostrativo' },
 		],
 	},
+	{
+		slug: 'japanese-particles-wa-ga-wo-ni',
+		category: 'Grammar',
+		title: 'Japanese Particles: Wa, Ga, Wo, and Ni (The Difference English Doesn\'t Mark)',
+		description: 'English marks a subject with word order alone. Japanese splits the job across four particles: wa (topic), ga (subject), wo (object), and ni (time, place, destination).',
+		published: '2026-08-10',
+		updated: '2026-08-10',
+		coreSummary: 'Japanese splits the job English gives to word order and a single subject across four particles: は (wa) marks the topic under discussion, が (ga) marks the specific grammatical subject, を (wo, pronounced "o" in modern speech) marks the direct object, and に (ni) covers time, the location of existence, destination with motion verbs, and the recipient of giving and receiving verbs, switching to で only when an action rather than a state happens at that spot. The wa/ga distinction has no single-word English equivalent, which is why linguist Mikami Akira devoted an entire 1960 book, 象は鼻が長い (Zō wa Hana ga Nagai, "the elephant\'s nose is long"), to explaining it, and wa, wo, and ga can all drop out of casual speech, since Japanese\'s fixed subject-object-verb order still signals their role without them.',
+		language: 'Japanese',
+		sections: [
+			{
+				heading: 'Four particles doing the job English gives to word order',
+				body: [
+					'English signals grammatical role mostly through position: the subject goes before the verb, the object after it, and moving a word into a different slot changes who did what to whom. Japanese works the other way around. Word order stays fairly flexible because each noun\'s job is marked by a small particle attached right after it, not by where the noun sits in the sentence. Four of these particles account for most of what a beginner runs into first: は (wa), が (ga), を (wo), and に (ni). Treating them as rough synonyms for English prepositions, or as interchangeable with each other, is where a lot of early study time gets spent undoing mistakes.',
+					'None of the four map cleanly onto a single English word. は flags what the sentence is about; が flags whichever noun is grammatically doing or being the thing described; を flags the noun being acted on; に anchors a time, a location, a destination, or a recipient. Grammar particles aren\'t the only place Japanese resists a one-word English gloss; a borrowed noun like [senpai](/senpai-meaning/) carries the same kind of structure English has no single equivalent for. The sections below take the four particles one at a time, starting with the pair that causes the most confusion: wa and ga, both of which get taught to English speakers as some version of "is," even though they\'re answering two different questions.',
+				],
+				image: {
+					src: '/images/japanese-particles-wa-ga-wo-ni-diagram.svg',
+					alt: 'Diagram of the classic sentence 象は鼻が長い (zō wa hana ga nagai) showing wa marking the topic and ga marking the subject, plus a four-cell breakdown of wa (topic), ga (subject), wo (direct object), and ni (time/place/destination/recipient), with a footer noting that wa, wo, and ga can all drop in casual speech, never in writing.',
+				},
+			},
+			{
+				heading: 'Wa marks the topic; ga marks the subject, and English doesn\'t split those apart',
+				body: [
+					'The clearest way to see the wa/ga split is a sentence Japanese linguists themselves keep coming back to: 象は鼻が長い (zō wa hana ga nagai). Word for word it reads "elephant TOPIC nose SUBJECT long," which isn\'t natural English; translated for meaning, it becomes "as for elephants, the nose is long," or more loosely, "elephants have long noses." The sentence is old enough as a teaching example that the German linguist Karl Florenz flagged it as unanalyzable by the grammar he already knew, since it appears to hand one sentence two different subjects. Linguist Mikami Akira\'s answer, worked out at length in his 1960 book 象は鼻が長い ―日本文法入門 (Zō wa Hana ga Nagai, "The Elephant\'s Nose Is Long: An Introduction to Japanese Grammar"), was that Japanese doesn\'t need a single subject at all: 象は sets up elephants as the topic, the thing the rest of the sentence is going to say something about, and 鼻が then names what\'s specifically true within that topic, the nose, as the grammatical subject of 長い ("long").',
+					'This is the piece that trips up English speakers, because English collapses topic and subject into one slot. "Elephants have long noses" puts "elephants" in the single subject position English grammar allows, so there\'s no separate word doing the job は does here. A rough working test: reach for は when setting the scene or making a general statement (watashi wa gakusei desu, "as for me, [I\'m] a student"), and reach for が when naming exactly which thing is doing or being something, especially in answer to a question word. Dare ga kimasu ka ("who is coming?") almost always takes が, not は, because the question is asking exactly which specific person, which is が\'s job, not what the conversation\'s topic is.',
+				],
+			},
+			{
+				heading: 'Ga also shows up whenever something\'s existence, not its topic, is the point',
+				body: [
+					'が isn\'t only the answer to "who" and "what" questions. It\'s also the default particle with the two verbs Japanese uses to state that something exists: います (imasu, for people and animals) and あります (arimasu, for objects and abstract things). Neko ga imasu ("there\'s a cat") uses が because the sentence isn\'t picking the cat out as an already-established topic, it\'s introducing the cat\'s existence as new information. Swap in は instead (neko wa imasu) and the sentence shifts from a plain statement of existence toward a contrast, implying there\'s some other animal or person the cat is being distinguished from.',
+					'That contrast reading is a second, separate job は can do beyond marking a topic: singling something out against an implied alternative. Kore wa oishii ("this is delicious") reads as a plain statement on its own, but in a context where several dishes are on the table, the same sentence can carry a faint "this one, unlike the others" undertone that が wouldn\'t add.',
+				],
+			},
+			{
+				heading: 'Wo marks the object being acted on, and explains why wa isn\'t spelled the way it sounds',
+				body: [
+					'を (wo) is the most mechanically straightforward of the four: it marks a sentence\'s direct object, the thing a verb\'s action lands on. Hon wo yomu ("read a book") puts を right after 本 (hon, "book") because the book is what\'s being read, not who\'s doing the reading. Pan wo taberu ("eat bread"), tegami wo kaku ("write a letter"), and doa wo akeru ("open the door") all follow the same pattern: noun, then を, then the verb the noun is on the receiving end of.',
+					'を also explains a spelling quirk that trips learners up the moment they notice it. は, when it\'s functioning as the topic particle, is written with the hiragana normally read "ha," but pronounced "wa." を is written with a character historically read "wo" and is now pronounced identically to お ("o") in ordinary speech. Per Wikipedia\'s overview of Japanese particles, both are leftover exceptions from historical kana usage (歴史的仮名遣い), a spelling convention that froze certain characters\' pronunciation in writing even after everyday speech had already shifted on. へ, when used as the particle meaning "toward," has the same mismatch: written like the syllable "he," read as "e." None of this is a modern simplification or a texting shortcut; it\'s a few hundred years of sound change that the writing system never caught up to.',
+					'Per Coto Academy\'s breakdown of particle omission, は, を, and が are the particles casual spoken Japanese most commonly drops, though only in speech, never in writing; particles carrying more specific information, like に, で, and へ, tend to stay put even in relaxed conversation. What keeps a sentence understandable without は, を, or が is Japanese\'s fixed subject-object-verb word order, which still signals each noun\'s role even when the word marking it isn\'t said out loud.',
+				],
+			},
+			{
+				heading: 'Ni covers at least four separate jobs, and de takes over once it\'s about doing, not being',
+				body: [
+					'に (ni) is the particle that does the most different things on this list, which is exactly why it\'s the hardest of the four to summarize in one sentence. With います and あります, the existence verbs from the section above, に marks where that existence takes place: neko ga koko ni imasu ("the cat is here") pins down a location the same way "at" or "in" would in English. With a verb of motion like 行く (iku, "go") or 帰る (kaeru, "return"), に marks the destination: gakkou ni iku ("go to school"). With a time expression, に marks when something happens: shichiji ni okiru ("wake up at 7"). And with a giving or receiving verb, に marks the person on the other end of the exchange: tomodachi ni purezento wo ageru ("give a present to a friend").',
+					'Where に gets contrasted directly with another particle is で (de), which also marks a location, but a different kind. Per Tofugu\'s comparison of the two, に pins down where someone or something is, while で marks where an action takes place. Toshokan ni hon ga aru ("there\'s a book in the library") uses に because the book existing in the library is a state, not an action. Toshokan de hon wo yomu ("read a book in the library") switches to で because reading is something actively happening at that location. The same physical place, the library, takes a different particle depending on whether the sentence describes something being there or something being done there.',
+					'Spanish runs into its own version of one job split across two words: [ser and estar](/ser-vs-estar/) both translate as "to be" in English, but split on whether a sentence is defining the subject or reporting its current condition, a different axis from に/で\'s existence-versus-action split, though the same basic shape of problem for an English speaker used to one word covering both.',
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'What\'s the real difference between wa and ga?',
+				answer: 'は (wa) marks the topic, the thing the rest of the sentence is going to say something about. が (ga) marks the specific grammatical subject, whichever noun is actually doing or being the thing described. English collapses both into a single subject slot, which is why 象は鼻が長い ("as for elephants, the nose is long") reads as having two subjects to an English speaker. Linguist Mikami Akira devoted his 1960 book 象は鼻が長い to arguing that Japanese doesn\'t need a single subject at all, only a topic and, separately, whatever が marks within it.',
+			},
+			{
+				question: 'Is を pronounced "wo" or "o"?',
+				answer: '"O," in virtually all everyday modern speech. を is written with a character historically read "wo," but Japanese pronunciation shifted centuries ago while the spelling of certain particles, including は, を, and へ, stayed frozen in what\'s called historical kana usage. The older "wo" sound mostly survives today in singing or for deliberate emphasis, not ordinary conversation.',
+			},
+			{
+				question: 'Can wa, wo, and ga be dropped in casual Japanese?',
+				answer: 'Often, yes, but only in speech, never in writing. は, を, and が are the particles casual spoken Japanese most commonly drops, per Coto Academy\'s breakdown of particle omission, while particles carrying more specific information, like に, で, and へ, tend to stay. What keeps the sentence understandable without them is Japanese\'s fixed subject-object-verb word order, which still signals each noun\'s role even when the particle marking it isn\'t said out loud.',
+			},
+			{
+				question: 'Why does に have so many different meanings?',
+				answer: 'One particle covers four related jobs, sharing a spelling because the jobs are related, not by coincidence: the location of something\'s existence (koko ni imasu, "it\'s here"), a point in time (shichiji ni, "at 7"), a destination with a motion verb (gakkou ni iku, "go to school"), and the recipient of a giving or receiving verb (tomodachi ni ageru, "give to a friend"). What ties them together is that all four mark a fixed point, in space, time, or in a two-person exchange, rather than an action happening across an area, which is で\'s job instead.',
+			},
+			{
+				question: 'Is ga the same as ni for marking "where something is"?',
+				answer: 'No, they mark different pieces of the same existence sentence. が marks the thing that exists (neko ga imasu, "there\'s a cat"), while に marks where it exists (koko ni imasu, "it\'s here"). Combined, neko ga koko ni imasu means "the cat is here," with が on the subject and に on the location, each doing a separate job in the same sentence.',
+			},
+		],
+		sources: [
+			{ label: 'Wikipedia — "Japanese particles" (historical kana usage for は, を, へ)', url: 'https://en.wikipedia.org/wiki/Japanese_particles' },
+			{ label: 'Wikipedia (Japanese) — "三上章" (Mikami Akira, 象は鼻が長い publication details)', url: 'https://ja.wikipedia.org/wiki/%E4%B8%89%E4%B8%8A%E7%AB%A0' },
+			{ label: 'Tofugu — "に (Ni) vs で (De): How These Two Particles Define Location and Time Differently"', url: 'https://www.tofugu.com/japanese/ni-vs-de/' },
+			{ label: 'Coto Academy — "Omitting Particles in Japanese"', url: 'https://cotoacademy.com/omitting-particles-japanese-can-skip-wa-o-ga-e-japanese/' },
+		],
+	},
 ];

@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" font-family="system-ui, -apple-system, sans-serif">
+	<rect width="800" height="600" fill="#f6f4e9"/>
+	<rect x="24" y="24" width="752" height="552" rx="10" fill="#fffefa" stroke="#ddd8c4"/>
+
+	<rect x="24" y="24" width="752" height="56" rx="10" fill="#2f6b47"/>
+	<rect x="24" y="60" width="752" height="20" fill="#2f6b47"/>
+	<text x="400" y="58" text-anchor="middle" fill="#ffffff" font-size="17" font-weight="700">は・が・を・に — WHAT EACH PARTICLE MARKS</text>
+
+	<!-- row 1: the classic wa/ga sentence -->
+	<rect x="46" y="100" width="708" height="130" rx="8" fill="#fbead0" stroke="#ddd8c4"/>
+	<text x="400" y="124" text-anchor="middle" fill="#5a5648" font-size="12" font-weight="700">ONE SENTENCE, TWO DIFFERENT JOBS</text>
+	<text x="400" y="162" text-anchor="middle" font-size="26" font-weight="700">
+		<tspan fill="#201f1a">象</tspan><tspan fill="#b5570f">は </tspan><tspan fill="#201f1a">鼻</tspan><tspan fill="#204a31">が </tspan><tspan fill="#201f1a">長い</tspan>
+	</text>
+	<text x="400" y="186" text-anchor="middle" fill="#201f1a" font-size="12" font-style="italic">zō wa hana ga nagai — "as for elephants, the nose is long"</text>
+	<text x="270" y="210" text-anchor="middle" fill="#b5570f" font-size="11" font-weight="700">は → marks the TOPIC</text>
+	<text x="530" y="210" text-anchor="middle" fill="#204a31" font-size="11" font-weight="700">が → marks the SUBJECT</text>
+
+	<!-- row 2a -->
+	<rect x="46" y="250" width="342" height="110" rx="8" fill="#fbead0" stroke="#ddd8c4"/>
+	<text x="217" y="272" text-anchor="middle" fill="#b5570f" font-size="13" font-weight="700">は (wa) — TOPIC</text>
+	<text x="217" y="294" text-anchor="middle" fill="#201f1a" font-size="12" font-style="italic">watashi wa gakusei desu</text>
+	<text x="217" y="314" text-anchor="middle" fill="#5a5648" font-size="11">"as for me, [I'm] a student"</text>
+	<text x="217" y="334" text-anchor="middle" fill="#5a5648" font-size="10">written は (ha), read "wa" as a particle</text>
+
+	<rect x="412" y="250" width="342" height="110" rx="8" fill="#eaf1ea" stroke="#2f6b47"/>
+	<text x="583" y="272" text-anchor="middle" fill="#204a31" font-size="13" font-weight="700">が (ga) — SUBJECT</text>
+	<text x="583" y="294" text-anchor="middle" fill="#201f1a" font-size="12" font-style="italic">neko ga imasu</text>
+	<text x="583" y="314" text-anchor="middle" fill="#5a5648" font-size="11">"there's a cat" (this one, specifically)</text>
+	<text x="583" y="334" text-anchor="middle" fill="#5a5648" font-size="10">also marks who/what after question words</text>
+
+	<!-- row 2b -->
+	<rect x="46" y="374" width="342" height="110" rx="8" fill="#fbead0" stroke="#ddd8c4"/>
+	<text x="217" y="396" text-anchor="middle" fill="#b5570f" font-size="13" font-weight="700">を (wo) — DIRECT OBJECT</text>
+	<text x="217" y="418" text-anchor="middle" fill="#201f1a" font-size="12" font-style="italic">hon wo yomu</text>
+	<text x="217" y="438" text-anchor="middle" fill="#5a5648" font-size="11">"read a book" — the book is acted on</text>
+	<text x="217" y="458" text-anchor="middle" fill="#5a5648" font-size="10">written を, pronounced "o" in modern Japanese</text>
+
+	<rect x="412" y="374" width="342" height="110" rx="8" fill="#eaf1ea" stroke="#2f6b47"/>
+	<text x="583" y="396" text-anchor="middle" fill="#204a31" font-size="13" font-weight="700">に (ni) — TIME / PLACE / GOAL</text>
+	<text x="583" y="418" text-anchor="middle" fill="#201f1a" font-size="12" font-style="italic">shichiji ni okiru</text>
+	<text x="583" y="438" text-anchor="middle" fill="#5a5648" font-size="11">"wake up at 7" — also destination + recipient</text>
+	<text x="583" y="458" text-anchor="middle" fill="#5a5648" font-size="10">で marks where an action happens instead</text>
+
+	<!-- footer -->
+	<rect x="46" y="498" width="708" height="58" rx="8" fill="#eaf1ea" stroke="#2f6b47"/>
+	<text x="400" y="520" text-anchor="middle" fill="#204a31" font-size="12" font-weight="700">Casual speech drops は, を, and が — never in writing</text>
+	<text x="400" y="540" text-anchor="middle" fill="#5a5648" font-size="11">Word order (subject–object–verb) still carries the role even without the particle</text>
+</svg>
