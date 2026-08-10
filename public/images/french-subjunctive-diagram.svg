@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700" font-family="system-ui, -apple-system, sans-serif">
+	<rect width="800" height="700" fill="#f6f4e9"/>
+	<rect x="24" y="24" width="752" height="652" rx="10" fill="#fffefa" stroke="#ddd8c4"/>
+
+	<rect x="24" y="24" width="752" height="56" rx="10" fill="#2f6b47"/>
+	<rect x="24" y="60" width="752" height="20" fill="#2f6b47"/>
+	<text x="400" y="60" text-anchor="middle" fill="#ffffff" font-size="18" font-weight="700">FRENCH SUBJUNCTIVE: A MOOD, NOT A TENSE</text>
+
+	<!-- row 1: mood minimal pair -->
+	<rect x="46" y="100" width="345" height="108" rx="8" fill="#fbead0" stroke="#ddd8c4"/>
+	<rect x="409" y="100" width="345" height="108" rx="8" fill="#fbead0" stroke="#ddd8c4"/>
+
+	<text x="218" y="124" text-anchor="middle" fill="#5a5648" font-size="12" font-weight="700">INDICATIVE: PRESENTED AS FACT</text>
+	<text x="218" y="150" text-anchor="middle" fill="#2f6b47" font-size="14" font-weight="700">Je crois qu&#8217;elle vient.</text>
+	<text x="218" y="172" text-anchor="middle" fill="#201f1a" font-size="11" font-style="italic">&#8220;I believe she is coming.&#8221;</text>
+	<text x="218" y="192" text-anchor="middle" fill="#5a5648" font-size="11">asserted as true</text>
+
+	<text x="581" y="124" text-anchor="middle" fill="#5a5648" font-size="12" font-weight="700">SUBJUNCTIVE: NOT YET REAL</text>
+	<text x="581" y="150" text-anchor="middle" fill="#2f6b47" font-size="14" font-weight="700">Il faut qu&#8217;elle vienne.</text>
+	<text x="581" y="172" text-anchor="middle" fill="#201f1a" font-size="11" font-style="italic">&#8220;She needs to come.&#8221;</text>
+	<text x="581" y="192" text-anchor="middle" fill="#5a5648" font-size="11">framed as necessary, not confirmed</text>
+
+	<!-- row 2: regular formation -->
+	<rect x="46" y="222" width="708" height="90" rx="8" fill="#eaf1ea" stroke="#2f6b47"/>
+	<text x="400" y="246" text-anchor="middle" fill="#5a5648" font-size="12" font-weight="700">REGULAR FORMATION: SAME ENDINGS FOR EVERY VERB GROUP</text>
+	<text x="400" y="270" text-anchor="middle" fill="#204a31" font-size="14" font-weight="700">ils parlent &#8594; parl- + -e, -es, -e, -ions, -iez, -ent</text>
+	<text x="400" y="292" text-anchor="middle" fill="#5a5648" font-size="11">nous/vous can switch to the nous-present stem instead: ils boivent / nous buvons &#8594; que nous buvions</text>
+
+	<!-- row 3: ten irregulars, three groups -->
+	<rect x="46" y="330" width="708" height="230" rx="8" fill="#fbead0" stroke="#ddd8c4"/>
+	<text x="400" y="354" text-anchor="middle" fill="#5a5648" font-size="12" font-weight="700">TEN IRREGULAR VERBS &#8212; SORTED BY WHAT ACTUALLY BREAKS</text>
+
+	<rect x="66" y="368" width="220" height="172" rx="6" fill="#ffffff" stroke="#2f6b47" stroke-width="1.5"/>
+	<text x="176" y="390" text-anchor="middle" fill="#204a31" font-size="12" font-weight="700">OWN ENDINGS TOO</text>
+	<text x="176" y="410" text-anchor="middle" fill="#201f1a" font-size="13" font-weight="700">avoir &#8594; aie, ayons, ayez</text>
+	<text x="176" y="430" text-anchor="middle" fill="#201f1a" font-size="13" font-weight="700">&#234;tre &#8594; sois, soyons, soyez</text>
+	<text x="176" y="454" text-anchor="middle" fill="#5a5648" font-size="11">-ons/-ez, not -ions/-iez</text>
+	<text x="176" y="472" text-anchor="middle" fill="#5a5648" font-size="11">the ONLY two exceptions</text>
+	<text x="176" y="490" text-anchor="middle" fill="#5a5648" font-size="11">to the shared-endings rule</text>
+
+	<rect x="292" y="368" width="216" height="172" rx="6" fill="#ffffff" stroke="#ddd8c4"/>
+	<text x="400" y="390" text-anchor="middle" fill="#204a31" font-size="12" font-weight="700">ONE STEM, ALL SIX FORMS</text>
+	<text x="400" y="412" text-anchor="middle" fill="#201f1a" font-size="12">faire &#8594; fasse / fassions</text>
+	<text x="400" y="432" text-anchor="middle" fill="#201f1a" font-size="12">pouvoir &#8594; puisse / puissions</text>
+	<text x="400" y="452" text-anchor="middle" fill="#201f1a" font-size="12">savoir &#8594; sache / sachions</text>
+	<text x="400" y="476" text-anchor="middle" fill="#5a5648" font-size="11">nous/vous do NOT switch stem</text>
+	<text x="400" y="494" text-anchor="middle" fill="#5a5648" font-size="11">endings are regular</text>
+
+	<rect x="518" y="368" width="216" height="172" rx="6" fill="#ffffff" stroke="#ddd8c4"/>
+	<text x="626" y="390" text-anchor="middle" fill="#204a31" font-size="12" font-weight="700">TWO STEMS (LIKE BOIRE)</text>
+	<text x="626" y="412" text-anchor="middle" fill="#201f1a" font-size="12">aller &#8594; aille / allions</text>
+	<text x="626" y="432" text-anchor="middle" fill="#201f1a" font-size="12">vouloir &#8594; veuille / voulions</text>
+	<text x="626" y="452" text-anchor="middle" fill="#201f1a" font-size="12">valoir &#8594; vaille / valions</text>
+	<text x="626" y="476" text-anchor="middle" fill="#5a5648" font-size="11">nous/vous match the</text>
+	<text x="626" y="494" text-anchor="middle" fill="#5a5648" font-size="11">imparfait stem, not present</text>
+
+	<line x1="66" y1="518" x2="734" y2="518" stroke="#e0d9bd" stroke-width="1"/>
+	<text x="400" y="540" text-anchor="middle" fill="#5a5648" font-size="11" font-style="italic">falloir / pleuvoir are impersonal-only: the whole conjugation is one form &#8212; qu&#8217;il faille, qu&#8217;il pleuve</text>
+
+	<!-- row 4: relative clause trigger -->
+	<rect x="46" y="572" width="708" height="86" rx="8" fill="#eaf1ea" stroke="#2f6b47"/>
+	<text x="400" y="596" text-anchor="middle" fill="#5a5648" font-size="12" font-weight="700">A TRIGGER MOST GUIDES SKIP: RELATIVE CLAUSES</text>
+	<text x="400" y="620" text-anchor="middle" fill="#204a31" font-size="13" font-weight="700">C&#8217;est le seul qui ait accept&#233;.</text>
+	<text x="400" y="642" text-anchor="middle" fill="#5a5648" font-size="11">seul / premier / dernier / unique, or a negative/interrogative/hypothetical main clause</text>
+</svg>

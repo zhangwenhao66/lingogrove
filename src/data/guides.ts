@@ -2199,4 +2199,94 @@ export const guides: Guide[] = [
 			{ label: 'Office québécois de la langue française — Vitrine linguistique: "Verbes à l\'impératif : ordre des pronoms et trait d\'union"', url: 'https://vitrinelinguistique.oqlf.gouv.qc.ca/24206/la-grammaire/les-pronoms/pronoms-personnels/pronoms-personnels-employes-avec-un-verbe-a-limperatif' },
 		],
 	},
+	{
+		slug: 'french-subjunctive',
+		category: 'Grammar',
+		title: 'French Subjunctive: Avoir and Être Are the Only Two Real Exceptions',
+		description: 'Ten French verbs take an irregular subjunctive stem, but only avoir and être also swap the endings — the mood itself has nothing to do with time.',
+		published: '2026-08-10',
+		updated: '2026-08-10',
+		coreSummary: 'The French subjunctive (le subjonctif) is a mood, not a tense: it marks whether the speaker presents a clause as fact (indicative) or as wanted, doubted, necessary, or judged (subjunctive), triggered by verbs of volition, emotion, and doubt, by impersonal expressions like il faut que, and — less widely taught — by relative clauses whose antecedent carries a superlative, seul/premier/dernier, or a negative, interrogative, or hypothetical main clause. Formation is regular for every verb except two: per the Office québécois de la langue française, all verbs take the endings -e, -es, -e, -ions, -iez, -ent except avoir and être, which alone also replace those endings with their own (aie, ayons, ayez; sois, soyons, soyez).',
+		language: 'French',
+		sections: [
+			{
+				heading: 'A mood, not a tense — "il faut que" shows the whole logic in three words',
+				body: [
+					'French verbs split across three moods — indicatif, subjonctif, impératif — and the subjonctif is the one built to mark stance rather than time. Grammar references built on Larousse\'s definitions call it the "mode de l\'irréel": its job is to mark that a clause\'s content isn\'t settled fact, in contrast with the indicative\'s job of reporting what\'s confirmed.',
+					'Il faut qu\'elle vienne makes the point in three words. Faut carries the necessity, vienne is what\'s still pending — the sentence doesn\'t claim she has arrived, only that her arrival is required. Set that against Je crois qu\'elle vient, where the identical event (her coming) takes the indicative instead, because now it\'s being asserted as the speaker\'s belief rather than framed as a requirement. Both sentences point at the same near-future arrival; only the verb\'s mood shifts, tracking how confirmed or how merely required that arrival is.',
+					'That split — mood tracking stance rather than tense — runs through the subjunctive of other Romance languages too, including [Spanish](/subjunctive-spanish/), where the same asserted-versus-wanted contrast shows up under its own set of triggering verbs. In French specifically, the subjunctive is common rather than a bookish leftover: il faut que, je veux que, and c\'est dommage que put it into completely ordinary conversation, sometimes more than once in the same exchange.',
+				],
+				image: {
+					src: '/images/french-subjunctive-diagram.svg',
+					alt: 'Diagram of the French subjunctive: the mood-not-tense distinction between "Je crois qu\'elle vient" and "Il faut qu\'elle vienne," the regular formation rule (ils-stem plus shared endings), and the ten irregular verbs split into three groups — avoir/être with their own endings, faire/pouvoir/savoir with one irregular stem, and aller/vouloir/valoir with two.',
+				},
+			},
+			{
+				heading: 'Building the regular forms: one stem, one set of endings, for every verb group',
+				body: [
+					'The regular formation rule is mechanical: take the ils/elles form of the present indicative, drop the final -ent, and add the subjunctive endings -e, -es, -e, -ions, -iez, -ent. Parler → ils parlent → parl- → que je parle, que tu parles, qu\'il parle, que nous parlions, que vous parliez, qu\'ils parlent. Finir → ils finissent → finiss- → que je finisse. Vendre → ils vendent → vend- → que je vende. The distinctive part, confirmed directly on the Office québécois de la langue française\'s own reference page for subjunctive formation, is that these same six endings apply across all three verb groups — a genuine simplification compared to the present indicative, where -er, -ir, and -re verbs each carry their own separate ending sets.',
+					'A subset of verbs splits into two stems rather than one, and the split follows a rule rather than being random per verb. For nous and vous, the stem comes from the nous form of the present indicative instead of the ils form; every other person keeps using the ils-derived stem. Boire → ils boivent gives boiv- for je/tu/il/ils (que je boive), but nous buvons gives buv- for nous/vous (que nous buvions). Venir → ils viennent gives vienn- (que tu viennes), but nous venons gives ven- (que nous venions). The same alternation between a "boot" stem and a plural stem that shows up in the present indicative for these verbs carries straight into the subjunctive.',
+				],
+			},
+			{
+				heading: 'Ten irregular verbs, but only two rewrite the endings themselves',
+				body: [
+					'Multiple independent conjugation references (cross-checked against each other for the exact forms below) group French\'s subjunctive irregulars into ten verbs: aller, avoir, être, faire, falloir, pleuvoir, pouvoir, savoir, valoir, and vouloir. They don\'t all break the same way, and sorting them by what actually breaks is more useful than memorizing them as one flat list.',
+					'Avoir and être are the only two that also replace the endings, not just the stem — the one exception the OQLF\'s formation page calls out by name. Avoir: aie, aies, ait, ayons, ayez, aient. Être: sois, sois, soit, soyons, soyez, soient. Notice nous and vous take -ons and -ez here, not the -ions/-iez every other verb in this article uses; that\'s the genuine exception, not the irregular stem itself.',
+					'Faire, pouvoir, and savoir keep one irregular stem across all six persons, with the regular endings intact: fasse, fasses, fasse, fassions, fassiez, fassent; puisse, puisses, puisse, puissions, puissiez, puissent; sache, saches, sache, sachions, sachiez, sachent. Unlike the boire/venir pattern above, nous and vous don\'t switch to a second stem here — one irregular root covers the whole conjugation. These same forms resurface elsewhere in French grammar: [the imperative](/french-imperative/) of avoir, être, savoir, and vouloir is borrowed directly from these subjunctive stems (aie, sois, sache, veuille) rather than from the present indicative the way most verbs\' commands are.',
+					'Aller, vouloir, and valoir do split into two stems, the same structural move as boire or venir, except the alternation isn\'t a small vowel shift — it\'s two visibly different-looking roots. Aller: aille, ailles, aille, allions, alliez, aillent (allions/alliez match the imparfait, not a stripped-down present-tense form). Vouloir: veuille, veuilles, veuille, voulions, vouliez, veuillent. Valoir: vaille, vailles, vaille, valions, valiez, vaillent — same aill-/all- and veuill-/voul- and vaill-/val- pattern in all three.',
+					'Falloir and pleuvoir aren\'t irregular so much as incomplete: both are impersonal verbs that only ever take il as a subject, so their entire subjunctive conjugation is a single form — qu\'il faille, qu\'il pleuve. There\'s no je, tu, or nous version to be irregular in the first place.',
+				],
+			},
+			{
+				heading: 'What actually triggers it: desire, doubt, necessity — and a relative-clause rule most guides skip',
+				body: [
+					'The clearest trigger category is verbs and impersonal expressions of volition, emotion, doubt, and necessity: vouloir que, souhaiter que, avoir peur que, douter que, and the impersonal il faut que, il est possible que, il est dommage que. As in Spanish, the que-clause only takes the subjunctive when its subject differs from the main clause\'s; when both share a subject, French collapses to an infinitive instead. Je veux partir (I want to leave) shares one subject, so there\'s no que-clause at all; Je veux qu\'il parte (I want him to leave) splits into two subjects — the wanting is mine, the leaving is his — which is exactly when que + subjunctive appears.',
+					'A second, much less commonly taught trigger sits inside relative clauses. Per the OQLF\'s dedicated page on the subjunctive in relative clauses, when the main clause is negative, interrogative, or hypothetical, the relative clause that follows normally takes the subjunctive — Il n\'y a que cette proposition qui soit acceptable, or En connaissez-vous d\'autres qui aient la même compétence? The same page notes that an antecedent carrying a relative superlative (le plus, le moins, le meilleur) or an adjective with superlative force — seul, premier, dernier, unique, un des rares — pulls in the subjunctive the same way: c\'est l\'unique personne, le seul qui ait accepté. Most language-learning material skips straight past this rule and only teaches the verb-list triggers above.',
+					'A narrower, genuinely obscure rule sits with faire and pouvoir specifically. Per the OQLF, when these two verbs appear in an impersonal pronominal form (il se fait, il se peut) preceded by the interrogative adverb comment and followed by que, the subjunctive is required, marking the speaker\'s astonishment at what they\'re reporting — Comment se peut-il que cette femme soit encore debout? and Je ne sais pas comment il se fait que cette personne récolte ainsi tous les lauriers are the OQLF\'s own illustrations of the pattern.',
+				],
+			},
+			{
+				heading: 'The subjunctive that outlived its own tense',
+				body: [
+					'French\'s present subjunctive does double duty for both present and future meaning — Je veux qu\'il vienne covers "I want him to come" regardless of whether the coming happens today or next month — so there\'s no separate future subjunctive to reach for at all. The imperfect and pluperfect subjunctive exist on paper (vînt, eût fini) but, per multiple French-language grammar histories including the French Wikipedia\'s dedicated entry on the imperfect subjunctive, their decline began around the mid-19th century and accelerated sharply through the 20th; by the 21st century they\'ve become "tout à fait désuet" in ordinary spoken and even most written French, surviving mainly in the third-person singular in literary prose that\'s deliberately reaching for an older register.',
+					'The parallel with [Spanish\'s own subjunctive](/subjunctive-spanish/) is exact in shape, different in which register kept the fossil alive. Spanish\'s futuro simple de subjuntivo survives almost exclusively in legal texts; French\'s imperfect and pluperfect subjunctive survive almost exclusively in literary prose. Both are historical layers of the same mood that spoken usage abandoned centuries ago while one narrow professional or literary register kept using them out of habit.',
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'Is the French subjunctive a tense or a mood?',
+				answer: 'A mood, not a tense. French recognizes several moods (indicatif, subjonctif, impératif, and others), and the subjunctive mood has its own tenses within it (mainly present, with imperfect and pluperfect now largely confined to literary French). The question it answers isn\'t when something happens — it\'s whether the speaker presents it as fact versus wanted, doubted, necessary, or judged.',
+			},
+			{
+				question: 'Why is "il faut que" always followed by the subjunctive?',
+				answer: 'Il faut que is an impersonal expression of necessity, one of the core trigger categories alongside verbs of volition, emotion, and doubt. Necessity presents the following clause as required rather than confirmed fact, which is exactly the fact-versus-not-yet-real distinction the subjunctive mood marks.',
+			},
+			{
+				question: 'Why do avoir and être use ayons/ayez and soyons/soyez instead of the usual -ions/-iez endings?',
+				answer: 'Every French verb takes the same subjunctive endings — -e, -es, -e, -ions, -iez, -ent — except avoir and être, per the Office québécois de la langue française\'s formation reference. Those two verbs are the sole exception to the shared-endings rule, not just to the shared-stem rule; their nous/vous forms take -ons/-ez instead.',
+			},
+			{
+				question: 'Why does "le seul qui" trigger the subjunctive in a relative clause?',
+				answer: 'Per the OQLF, a relative clause takes the subjunctive when its antecedent carries a relative superlative (le plus, le meilleur) or an adjective with superlative force (seul, premier, dernier, unique) — c\'est le seul qui ait accepté. The same rule applies when the main clause is negative, interrogative, or hypothetical. This trigger is real and commonly tested but rarely covered outside grammar-reference material.',
+			},
+			{
+				question: 'Can I still use the imperfect subjunctive in spoken French?',
+				answer: 'Not really. Its decline began in the mid-19th century and sharpened through the 20th; by now it\'s essentially absent from spoken French and rare even in writing, surviving mainly in third-person-singular literary prose reaching for an older register. Contemporary French uses the present subjunctive in its place regardless of the surrounding tense.',
+			},
+			{
+				question: 'Why does "vouloir" have two different stems in one conjugation (veuille vs. voulions)?',
+				answer: 'Vouloir follows the same two-stem pattern as verbs like boire or venir: nous and vous take their stem from the nous form of the present indicative (voulons → voulions), while every other person takes it from the ils form (veulent → veuille). Aller and valoir split the same way (aille/allions, vaille/valions).',
+			},
+		],
+		sources: [
+			{ label: 'Office québécois de la langue française — Vitrine linguistique: "Le subjonctif : formes et conjugaison" (shared endings, avoir/être exception)', url: 'https://vitrinelinguistique.oqlf.gouv.qc.ca/index.php?id=24237' },
+			{ label: 'Office québécois de la langue française — Vitrine linguistique: "Subjonctif après certains verbes"', url: 'https://vitrinelinguistique.oqlf.gouv.qc.ca/24253/la-grammaire/le-verbe/modes/subjonctif/subjonctif-apres-certains-verbes' },
+			{ label: 'Office québécois de la langue française — Vitrine linguistique: "Subjonctif et subordonnée relative"', url: 'https://vitrinelinguistique.oqlf.gouv.qc.ca/25168/la-grammaire/le-verbe/modes/subjonctif/subjonctif-et-subordonnee-relative' },
+			{ label: 'Office québécois de la langue française — Vitrine linguistique: "Subjonctif après faire et pouvoir en tournure pronominale impersonnelle"', url: 'https://vitrinelinguistique.oqlf.gouv.qc.ca/24807/la-grammaire/le-verbe/modes/subjonctif/subjonctif-apres-faire-et-pouvoir-en-tournure-pronominale-impersonnelle' },
+			{ label: 'Wikipédia (français) — "Subjonctif imparfait en français" (decline timeline, cross-checked against independent grammar histories)', url: 'https://fr.wikipedia.org/wiki/Subjonctif_imparfait_en_fran%C3%A7ais' },
+			{ label: 'Larousse — Encyclopédie: "subjonctif" (mode de l\'irréel definition)', url: 'https://www.larousse.fr/encyclopedie/divers/subjonctif/92766' },
+		],
+	},
 ];
