@@ -252,21 +252,21 @@ export const guides: Guide[] = [
 		title: 'Preterite vs. Imperfect: How Spanish Splits the Simple Past',
 		description: 'English has one simple past tense; Spanish has two. The difference is whether the sentence treats the action as finished or as unfolding.',
 		published: '2026-08-03',
-		updated: '2026-08-03',
-		coreSummary: 'The preterite (canté) presents a past action as a completed whole, with a clear edge. The imperfect (cantaba) presents a past action or state in progress, without marking where it started or ended. The choice isn\'t about how far back something happened or how long it lasted — a preterite action can span years and an imperfect one can span seconds — it\'s about which angle the speaker takes on it.',
+		updated: '2026-08-10',
+		coreSummary: 'The preterite (canté) presents a past action as a completed whole, with a clear edge. The imperfect (cantaba) presents a past action or state in progress, without marking where it started or ended. How long something took doesn\'t decide the choice: a preterite action can span years and an imperfect one can span seconds. What decides it is the angle the speaker takes on the action.',
 		language: 'Spanish',
 		sections: [
 			{
 				heading: 'English hides a distinction Spanish makes you choose',
 				body: [
-					'"I walked to school" is a single English sentence that could describe a one-time trip or a five-year daily routine — English doesn\'t force you to specify which. Spanish does: *caminé a la escuela* (preterite) says it happened, as a completed event; *caminaba a la escuela* (imperfect) says it was an ongoing or repeated action, described from the inside, with no stated beginning or end. Neither is more "past" than the other, and neither is inherently longer or shorter — the difference is entirely about how the speaker is framing the action, not when or how long it took.',
-					'This is the single hardest thing about the pair for English speakers, because English simply doesn\'t require you to make this choice, so there\'s no equivalent instinct to draw on. Spanish grammar treats it as a question of aspect — whether an action is viewed as a finished whole or as unfolding — not a question of tense in the sense of "how long ago."',
+					'"I walked to school" is a single English sentence that could describe a one-time trip or a five-year daily routine. English doesn\'t force you to specify which. Spanish does: *caminé a la escuela* (preterite) says it happened, as a completed event; *caminaba a la escuela* (imperfect) says it was an ongoing or repeated action, described from the inside, with no stated beginning or end. Neither is more "past" than the other, and neither is inherently longer or shorter. The difference is entirely about how the speaker is framing the action, not when or how long it took.',
+					'This is the single hardest thing about the pair for English speakers, because English simply doesn\'t require you to make this choice, so there\'s no equivalent instinct to draw on. Spanish grammar treats it as a question of aspect (whether an action is viewed as a finished whole or as unfolding), not a question of tense in the sense of "how long ago."',
 				],
 			},
 			{
 				heading: 'Preterite: a completed action with an edge',
 				body: [
-					'The preterite reports an action as done, viewed from outside as a single, bounded event, whether that event took an instant or a decade. *El mayordomo bajó las escaleras* ("The butler went down the stairs") reports that the descent was completed. *Vivió en México durante diez años* ("She lived in Mexico for ten years") is also preterite, even though ten years is a long stretch — because the sentence is framing that decade as a closed, completed chapter, not describing what daily life was like while it was happening.',
+					'The preterite reports an action as done, viewed from outside as a single, bounded event, whether that event took an instant or a decade. *El mayordomo bajó las escaleras* ("The butler went down the stairs") reports that the descent was completed. *Vivió en México durante diez años* ("She lived in Mexico for ten years") is also preterite, even though ten years is a long stretch, because the sentence is framing that decade as a closed, completed chapter, not describing what daily life was like while it was happening.',
 					'Preterite is the tense that moves a story\'s plot forward: it answers "then what happened?" A string of preterite verbs in a row reads as a sequence of completed events, one after another.',
 				],
 				image: {
@@ -277,35 +277,35 @@ export const guides: Guide[] = [
 			{
 				heading: 'Imperfect: an action viewed from the inside, without its edges',
 				body: [
-					'The imperfect presents a past situation from inside its own duration, without committing to when it started or ended. *El mayordomo bajaba las escaleras* ("The butler was going down the stairs") describes the descent in progress — it doesn\'t say whether he reached the bottom. Compare it to the preterite version above: same verb, same subject, but the imperfect leaves the ending open.',
-					'Imperfect is the tense for background, description, and habitual or repeated actions in the past: *Cuando era niño, jugaba en el parque todos los días* ("When I was a kid, I used to play in the park every day") — a repeated routine with no single completed instance being reported. It\'s also the tense for setting a scene: *Llovía y hacía frío* ("It was raining and it was cold") describes the conditions surrounding an event, not the event itself.',
+					'The imperfect presents a past situation from inside its own duration, without committing to when it started or ended. *El mayordomo bajaba las escaleras* ("The butler was going down the stairs") describes the descent in progress. It doesn\'t say whether he reached the bottom. Compare it to the preterite version above: same verb, same subject, but the imperfect leaves the ending open.',
+					'Imperfect is the tense for background, description, and habitual or repeated actions in the past: *Cuando era niño, jugaba en el parque todos los días* ("When I was a kid, I used to play in the park every day"). That\'s a repeated routine with no single completed instance being reported. It\'s also the tense for setting a scene: *Llovía y hacía frío* ("It was raining and it was cold") describes the conditions surrounding an event, not the event itself.',
 				],
 			},
 			{
 				heading: 'Why the same sentence can use either, on purpose',
 				body: [
-					'The clearest way to see the distinction is a pair that uses the same verb and changes only the aspect. *Cuando llegué, ella dormía* ("When I arrived, she was sleeping") uses preterite for the arrival — a completed, single event — and imperfect for the sleeping, which was already in progress and had no marked start or end from the sentence\'s point of view. Swap the verbs: *Cuando llegaba, ella durmió* would be an odd sentence, because it treats the arrival as ongoing and the sleeping as a sudden, completed event, which doesn\'t match how these situations normally unfold.',
-					'A narrative typically braids both together: imperfect sets the scene and describes ongoing conditions, preterite reports the events that interrupt or move through that scene. This is also why "how long ago" or "how long it lasted" is the wrong test — *vivió allí diez años* (preterite, a completed ten-year stretch) and *vivía allí cuando pasó el terremoto* (imperfect, an ongoing state interrupted by a preterite event) both involve "living somewhere" and can both refer to long periods; what differs is whether that period is being treated as a finished block or as an ongoing backdrop.',
-					'One irregular verb worth knowing both forms of by heart is *ser* — its preterite (*fui, fue...*) and imperfect (*era, eras...*) are both common and completely different-looking from each other, which makes it a good verb to drill this distinction on. See the [full ser conjugation table](/ser-conjugation/) for every form.',
+					'The clearest way to see the distinction is a pair that uses the same verb and changes only the aspect. *Cuando llegué, ella dormía* ("When I arrived, she was sleeping") uses preterite for the arrival (a completed, single event) and imperfect for the sleeping, which was already in progress and had no marked start or end from the sentence\'s point of view. Swap the verbs: *Cuando llegaba, ella durmió* would be an odd sentence, because it treats the arrival as ongoing and the sleeping as a sudden, completed event, which doesn\'t match how these situations normally unfold.',
+					'A narrative typically braids both together: imperfect sets the scene and describes ongoing conditions, preterite reports the events that interrupt or move through that scene. This is also why "how long ago" or "how long it lasted" is the wrong test: *vivió allí diez años* (preterite, a completed ten-year stretch) and *vivía allí cuando pasó el terremoto* (imperfect, an ongoing state interrupted by a preterite event) both involve "living somewhere" and can both refer to long periods. What differs is whether that period is being treated as a finished block or as an ongoing backdrop.',
+					'One irregular verb worth knowing both forms of by heart is *ser*: its preterite (*fui, fue...*) and imperfect (*era, eras...*) are both common and completely different-looking from each other, which makes it a good verb to drill this distinction on. See the [full ser conjugation table](/ser-conjugation/) for every form.',
 				],
 			},
 		],
 		faq: [
 			{
 				question: 'Is the difference between preterite and imperfect about how long ago something happened?',
-				answer: 'No — that\'s a common misconception. Both tenses can describe events from any point in the past. The real distinction is aspect: preterite presents an action as a completed whole, imperfect presents it as ongoing or habitual, without marking its start or end. A preterite action can span a decade; an imperfect one can span a single moment.',
+				answer: 'No, that\'s a common misconception. Both tenses can describe events from any point in the past. The real distinction is aspect: preterite presents an action as a completed whole, imperfect presents it as ongoing or habitual, without marking its start or end. A preterite action can span a decade; an imperfect one can span a single moment.',
 			},
 			{
 				question: 'Why do "vivió" and "vivía" both mean "lived," and how do I know which to use?',
-				answer: '*Vivió en México diez años* frames those ten years as a completed, closed chapter — as if answering "what did she do?" *Vivía en México cuando pasó el terremoto* frames the living-there as an ongoing backdrop that a specific event (the earthquake, in preterite) interrupted — closer to "what was going on when something else happened?"',
+				answer: '*Vivió en México diez años* frames those ten years as a completed, closed chapter, as if answering "what did she do?" *Vivía en México cuando pasó el terremoto* frames the living-there as an ongoing backdrop that a specific event (the earthquake, in preterite) interrupted, closer to "what was going on when something else happened?"',
 			},
 			{
 				question: 'Which tense do you use to describe the weather or a scene in the past?',
-				answer: 'Imperfect, almost always: *llovía*, *hacía calor*, *el cielo estaba gris*. Background conditions are being described from the inside, with no stated beginning or end, which is exactly what the imperfect is for. A specific weather event that started and finished — *nevó por dos horas* ("it snowed for two hours") — can take the preterite instead.',
+				answer: 'Imperfect, almost always: *llovía*, *hacía calor*, *el cielo estaba gris*. Background conditions are being described from the inside, with no stated beginning or end, which is exactly what the imperfect is for. A specific weather event that started and finished, such as *nevó por dos horas* ("it snowed for two hours"), can take the preterite instead.',
 			},
 			{
 				question: 'Can the exact same habitual action be described in either tense?',
-				answer: 'Yes, depending on whether the routine is bounded. *Jugaba en el parque todos los días* ("I used to play in the park every day") uses imperfect for an open-ended pattern with no stated start or end. *Jugué en el parque todos los días durante dos años* ("I played in the park every day for two years") uses preterite for the identical routine, but now framed as one completed, bounded chapter — the "for two years" is what closes it off and licenses the switch.',
+				answer: 'Yes, depending on whether the routine is bounded. *Jugaba en el parque todos los días* ("I used to play in the park every day") uses imperfect for an open-ended pattern with no stated start or end. *Jugué en el parque todos los días durante dos años* ("I played in the park every day for two years") uses preterite for the identical routine, but now framed as one completed, bounded chapter: the "for two years" is what closes it off and licenses the switch.',
 			},
 		],
 		sources: [
