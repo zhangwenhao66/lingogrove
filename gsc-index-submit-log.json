@@ -95,5 +95,27 @@
       "https://lingogrove.com/spanish-demonstrative-adjectives/"
     ],
     "quota_used": "2 requests"
+  },
+  {
+    "date": "2026-08-10",
+    "action": "submitted",
+    "reason": "trafficsite-gsc-index-requests例行运行，游标起点站。检查queue前5个已匹配候选（schadenfreude-meaning/french-imperative/deja-vu-meaning/french-subjunctive均已收录）；german-adjective-endings（proxy第2）URL Inspection显示Live Test 404——核实为并发运行中的content-publishing任务尚未commit/deploy的在制品（guides.ts有uncommitted diff、public/images对应SVG未跟踪），非本任务范围内的真实站点故障，跳过不处理。选中未匹配候选senpai-meaning（Discovered-currently not indexed），REQUEST INDEXING后确认'Indexing requested'。游标完成一圈后二次回访本站，happy-birthday-in-spanish/i-love-you-in-spanish/spanish-reflexive-verbs/spanish-conditional-tense均已收录，未再提交。",
+    "submitted_urls": [
+      "https://lingogrove.com/senpai-meaning/"
+    ],
+    "already_indexed_no_action": [
+      "https://lingogrove.com/schadenfreude-meaning/",
+      "https://lingogrove.com/french-imperative/",
+      "https://lingogrove.com/deja-vu-meaning/",
+      "https://lingogrove.com/french-subjunctive/",
+      "https://lingogrove.com/happy-birthday-in-spanish/",
+      "https://lingogrove.com/i-love-you-in-spanish/",
+      "https://lingogrove.com/spanish-reflexive-verbs/",
+      "https://lingogrove.com/spanish-conditional-tense/"
+    ],
+    "skipped_not_deployed": [
+      "https://lingogrove.com/german-adjective-endings/"
+    ],
+    "quota_used": "1 request"
   }
 ]
