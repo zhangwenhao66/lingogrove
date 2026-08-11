@@ -353,3 +353,102 @@
   "escalation": null
 }
 ```
+
+## 2026-08-11 完整审计：`deja-vu-meaning`
+
+```json
+{
+  "url_slug": "deja-vu-meaning",
+  "last_audited": "2026-08-11",
+  "published_date": "2026-08-03",
+  "note": "本站第五次由trafficsite-content-quality-audit任务审计。跨站排序：全站last_audited最早（2026-08-10 13:32），本轮排第一。站内选取原因：guides.ts数组位置上前三篇已审计文章（por-vs-para/ser-vs-estar/preterite-vs-imperfect）之后的第一篇从未审计条目（ser-conjugation虽在数组更靠后但已于08-05审计过）。",
+  "diagnosed_checkpoints": [
+    "Larousse'déjà-vu'词条两义定义（记忆错觉+平庸无新意）是否真实存在且措辞匹配",
+    "Émile Boirac 1876年首创该词的具体场合（Revue Philosophique公开信，非later书籍）是否准确，因为'是信件还是书'这类具体归因最容易被模型编造",
+    "PMC6043696论文标题与其在正文中被引用支撑的'颞叶-海马体信号错位'解释是否匹配",
+    "Cleveland Clinic对jamais vu的定义及'盯着单词看到失真'的具体例子是否准确复述",
+    "正文是否存在AI写作痕迹（尤其破折号密度），因本站前四篇姊妹文章审计均确认过量破折号问题"
+  ],
+  "findings": [
+    {
+      "dimension": "事实准确性",
+      "status": "未发现问题",
+      "detail": "WebSearch核实Larousse'déjà-vu'词条确有两义（记忆障碍+'非新事物、平庸、无独创性'），与正文引用逐字匹配；Boirac 1876年'Revue Philosophique'公开信首创该词的说法经WebSearch多方交叉核实准确（该信是对匿名读者来信的回复，他后来在1917年著作《L'Avenir des Sciences Psychiques》中再次讨论该概念，但首创时刻确系1876年信件非书籍，与FAQ'not...in one of his later books'的表述一致）；PMC6043696论文（Pešlová et al. 2018，'Hippocampal involvement in nonpathological déjà vu'）确实存在，其海马体亚区脆弱性发现与正文'颞叶-海马体信号时序错位'这一主流科普解释（经WebSearch核实为Cleveland Clinic等多方独立复述的标准说法）方向一致，非编造；Cleveland Clinic jamais vu定义（盯着常见单词直到看起来不对/拼写错误）经WebSearch核实与官方页面表述吻合。"
+    },
+    {
+      "dimension": "EEAT",
+      "status": "未发现问题",
+      "detail": "5条具名权威来源（Larousse/Merriam-Webster/Cleveland Clinic/Wikipedia Boirac词条/PMC论文），无泛泛而谈。"
+    },
+    {
+      "dimension": "时效性",
+      "status": "不适用",
+      "detail": "词源学+认知科学科普内容，核心事实（1876年首创、词典定义、神经科学主流解释）无过时风险，published=2026-08-03，updated本次改为2026-08-11。"
+    },
+    {
+      "dimension": "竞品差异化",
+      "status": "未发现问题",
+      "detail": "get_serp_results实测'deja vu meaning'关键词：前20名为Wikipedia/Verywellmind/Cleveland Clinic/Cambridge Dictionary/Merriam-Webster/APA/WebMD/Psychology Today/BBC Bitesize等，均聚焦英语单一心理学含义，无一篇覆盖本文核心差异化角度——法语'c'est du déjà-vu'作为日常'平庸无新意'第二义从未被英语借入这一事实，构成真实增量而非同质化内容。"
+    },
+    {
+      "dimension": "SEO技术审计",
+      "status": "未发现问题（description副产品优化）",
+      "detail": "curl实测live页面：title 88字节/canonical自引用正确/单一h1/5个h2层级清晰/Article+FAQPage+BreadcrumbList三种schema正确渲染/robots.txt对AI爬虫全部Allow/ads.txt正确指向pub-5245502795720653。description原163字符，因em dash修复改写连带压缩至155字符，落入理想区间，非独立触发的修复。"
+    },
+    {
+      "dimension": "GEO审计",
+      "status": "粗估达标，未做侵入性修复",
+      "detail": "coreSummary定义块✓/FAQ自包含问答（4条）✓/5条具名权威来源✓/schema完整✓，权威原文引语维度中等（有Larousse/Merriam-Webster定义直接引用，但无RAE式逐句摘录）；粗估约80-84/99，未发现需强化的具体薄弱点。"
+    },
+    {
+      "dimension": "早期内容AI味补漏",
+      "status": "确认发现问题，独立复核确认为真，已修复",
+      "detail": "正文+coreSummary+regionNote+FAQ合计17处叙述性em dash（narrative密度约16-18处/千词），独立agent逐条复核确认CONFIRMED：0处属于本站两类允许例外（sources标签的'Publisher — Title'格式/FAQ'No —'开头），远超本站前四篇姊妹文章（por-vs-para/ser-conjugation/ser-vs-estar/preterite-vs-imperfect）已确立的≤1处/千词标准。已修复：17处全部改写为句号/冒号/逗号/括号结构，仅改动含破折号的具体句子，未改动任何事实表述；Skill(humanizer)+Skill(avoid-ai-writing)复核确认无其他AI写作痕迹残留（未发现rule-of-three滥用/AI词汇/空泛归因等其他类别问题）。"
+    },
+    {
+      "dimension": "外部引用链接腐烂",
+      "status": "未发现问题",
+      "detail": "curl实测5条来源：Larousse/Cleveland Clinic/Wikipedia/PMC均200；Merriam-Webster返回403，经WebSearch交叉核实词条内容仍真实存在，判定为对自动化抓取的常规拦截（本站历次审计已确立此判断标准），非链接失效。"
+    },
+    {
+      "dimension": "内链健康度",
+      "status": "未发现问题",
+      "detail": "grep确认2处站内正文手动锚文本真实链接到本文（senpai-meaning第418行/french-articles第1821行），非孤儿页；本文自身正文内也有1条出站链接到schadenfreude-meaning，桥接句'is the German entry in that same club'经核对该文确系German loanword类目，描述准确。"
+    },
+    {
+      "dimension": "Schema数据一致性",
+      "status": "已同步",
+      "detail": "本次编辑涉及description/正文/regionNote/FAQ文字与updated日期，不涉及sources/faq数组的字段结构；构建后curl核实live页面Article/FAQPage/BreadcrumbList三项JSON-LD均正确解析，description字段与guides.ts一致。"
+    },
+    {
+      "dimension": "合规/敏感度漂移",
+      "status": "未发现问题",
+      "detail": "认知科学/词源学科普内容，无人物/事件/群体相关敏感表述。"
+    },
+    {
+      "dimension": "配图可用性与版权",
+      "status": "未发现问题",
+      "detail": "本文无guide级image字段，回退站点favicon.svg；核实为全站统一模式（本站配图以自制SVG语法对比图为主，词义类文章无此需求），非本文缺陷，无第三方图片版权风险。"
+    },
+    {
+      "dimension": "AdSense政策合规",
+      "status": "未发现问题",
+      "detail": "认知科学科普内容，无暴力/限制类目/误导性标题问题；ads.txt/robots.txt/privacy/about页面均实测正常。"
+    }
+  ],
+  "actions_taken": [
+    "改写正文+coreSummary+regionNote+FAQ 17处叙述性em dash为句号/冒号/逗号/括号结构（仅改动含破折号的具体句子，保留原意），保留5处sources来源标签破折号不变",
+    "description连带从163字符压缩到155字符（em dash修复的副产品）",
+    "updated字段同步改为2026-08-11（published字段已存在于原条目，未触发L-0809-1回填风险）",
+    "Skill(humanizer)+Skill(avoid-ai-writing)复核确认无其他AI写作痕迹残留",
+    "npm test（64/64通过）+ npm run build（36页）通过",
+    "git commit（402bb2f，仅暂存guides.ts，未提交并发修改中的gsc-index-submit-log.json）+ push，Cloudflare Pages自动部署",
+    "轮询https://lingogrove.com/deja-vu-meaning/确认200且改动已生效（narrative em dash清零，仅剩5处sources标签）",
+    "node tools/submit-indexnow.mjs /deja-vu-meaning/提交（Bing 200 / Yandex 202）",
+    "内容发布日志.md追加本条审计更新记录"
+  ],
+  "seo_score": "未重新打分具体分值，技术SEO抽查（title/meta/h1/h2/canonical/schema/robots.txt/ads.txt）均无问题，description已连带优化到理想区间",
+  "geo_score": "粗估约80-84/99（未做正式逐项打分），未发现需要修复的薄弱项",
+  "escalation": null
+}
+```
