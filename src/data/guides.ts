@@ -317,49 +317,49 @@ export const guides: Guide[] = [
 		slug: 'deja-vu-meaning',
 		category: 'Loanwords',
 		title: 'Déjà Vu Meaning: What It Actually Means (And Where the Phrase Comes From)',
-		description: 'Déjà vu literally means "already seen" in French — but French dictionaries give the phrase a second, more everyday meaning that English never borrowed.',
+		description: 'Déjà vu literally means "already seen" in French. French dictionaries, though, give the phrase a second, more everyday meaning that English never borrowed.',
 		published: '2026-08-03',
-		updated: '2026-08-03',
-		coreSummary: 'In English, "déjà vu" names one specific thing: the eerie feeling of having already experienced a situation that is, in fact, new to you. In French, the phrase covers that same psychological sense but also does ordinary duty as a mild criticism — "nothing new, seen before, unoriginal" — a second meaning most English speakers who use the phrase have never encountered.',
+		updated: '2026-08-11',
+		coreSummary: 'In English, "déjà vu" names one specific thing: the eerie feeling of having already experienced a situation that is, in fact, new to you. In French, the phrase covers that same psychological sense but also does ordinary duty as a mild criticism, "nothing new, seen before, unoriginal," a second meaning most English speakers who use the phrase have never encountered.',
 		language: 'French',
 		usageNote: {
 			register: 'neutral',
-			regionNote: 'English uses "déjà vu" only for the memory illusion. In everyday French, "c\'est du déjà-vu" is a common way to dismiss something as unoriginal or predictable — closer to English "seen it all before" or "nothing new here" — a sense that never made the jump into English.',
+			regionNote: 'English uses "déjà vu" only for the memory illusion. In everyday French, "c\'est du déjà-vu" is a common way to dismiss something as unoriginal or predictable, closer to English "seen it all before" or "nothing new here," a sense that never made the jump into English.',
 		},
 		sections: [
 			{
-				heading: 'Literally "already seen" — and French gives it two jobs',
+				heading: 'Literally "already seen": French gives it two jobs',
 				body: [
-					'*Déjà* means "already" and *vu* is the past participle of *voir*, "to see" — so *déjà vu* is, word for word, "already seen." That much lines up with how English speakers use the phrase. What doesn\'t line up is that French dictionaries record two separate senses for it. The Larousse dictionary lists the phrase as covering both "a memory disorder giving the sudden and intense impression of having already lived through the present situation in the past," and, separately, "something that is not new, that is banal, without originality."',
-					'That second sense is alive in everyday French in a way it never became in English: *c\'est du déjà-vu* is an ordinary way to say a film, a plot twist, or a political promise is predictable and unoriginal — no memory illusion involved, just a shrug at something recycled.',
+					'*Déjà* means "already" and *vu* is the past participle of *voir*, "to see," so *déjà vu* is, word for word, "already seen." That much lines up with how English speakers use the phrase. What doesn\'t line up is that French dictionaries record two separate senses for it. The Larousse dictionary lists the phrase as covering both "a memory disorder giving the sudden and intense impression of having already lived through the present situation in the past," and, separately, "something that is not new, that is banal, without originality."',
+					'That second sense is alive in everyday French in a way it never became in English: *c\'est du déjà-vu* is an ordinary way to say a film, a plot twist, or a political promise is predictable and unoriginal, with no memory illusion involved, just a shrug at something recycled.',
 				],
 			},
 			{
 				heading: 'How English narrowed it to one specific feeling',
 				body: [
-					'Merriam-Webster defines déjà vu, in its main English sense, as "the illusion of remembering scenes and events when experienced for the first time" — a feeling that you have seen or heard something before, even though you haven\'t. That\'s the sense English adopted wholesale and the sense that stuck, to the exclusion of the French "unoriginal" meaning.',
-					'The term itself is relatively young as coined vocabulary: the French philosopher Émile Boirac first used it in 1876, in an open letter to the journal *Revue Philosophique* describing "le sentiment du déjà vu" as a specific type of memory illusion. He returned to the term later in his own writing on psychical research, but the coining moment is the 1876 letter, not a book. Either way, the psychological sense is a fairly recent, deliberately coined piece of vocabulary — not an old expression that gradually picked up its clinical meaning over centuries.',
+					'Merriam-Webster defines déjà vu, in its main English sense, as "the illusion of remembering scenes and events when experienced for the first time": a feeling that you have seen or heard something before, even though you haven\'t. That\'s the sense English adopted wholesale and the sense that stuck, to the exclusion of the French "unoriginal" meaning.',
+					'The term itself is relatively young as coined vocabulary: the French philosopher Émile Boirac first used it in 1876, in an open letter to the journal *Revue Philosophique* describing "le sentiment du déjà vu" as a specific type of memory illusion. He returned to the term later in his own writing on psychical research, but the coining moment is the 1876 letter, not a book. Either way, the psychological sense is a fairly recent, deliberately coined piece of vocabulary, not an old expression that gradually picked up its clinical meaning over centuries.',
 				],
 			},
 			{
 				heading: 'What\'s actually happening when you get it',
 				body: [
-					'Déjà vu is a studied, mainstream topic in memory research, not a fringe idea. One line of explanation treats it as a momentary miscommunication between the brain\'s temporal lobe, where memories are stored, and the hippocampus, which handles short-term memory — essentially a signal-timing glitch that makes a brand-new scene register briefly as familiar. Other explanations point to inattentiveness during a similar past experience, a partially forgotten memory being triggered by a few matching details, or a minor processing error rather than any dramatic mix-up.',
-					'What research does not support is the idea that déjà vu means something is wrong with you: on its own, an occasional déjà vu experience is common and unremarkable. Frequent or prolonged episodes are sometimes discussed alongside certain neurological conditions in clinical literature, which is a separate topic from the ordinary, occasional version almost everyone experiences — worth raising with a doctor if it becomes frequent, not something to self-diagnose from a word-meaning page.',
+					'Déjà vu is a studied, mainstream topic in memory research, not a fringe idea. One line of explanation treats it as a momentary miscommunication between the brain\'s temporal lobe, where memories are stored, and the hippocampus, which handles short-term memory: essentially a signal-timing glitch that makes a brand-new scene register briefly as familiar. Other explanations point to inattentiveness during a similar past experience, a partially forgotten memory being triggered by a few matching details, or a minor processing error rather than any dramatic mix-up.',
+					'What research does not support is the idea that déjà vu means something is wrong with you: on its own, an occasional déjà vu experience is common and unremarkable. Frequent or prolonged episodes are sometimes discussed alongside certain neurological conditions in clinical literature, which is a separate topic from the ordinary, occasional version almost everyone experiences. It\'s worth raising with a doctor if it becomes frequent, not something to self-diagnose from a word-meaning page.',
 				],
 			},
 			{
 				heading: 'The word for the opposite feeling',
 				body: [
-					'If déjà vu is something new feeling falsely familiar, *jamais vu* — literally "never seen" — is the reverse: something genuinely familiar suddenly feeling strange or unrecognized. Cleveland Clinic describes it as the feeling that something you know well seems unreal or unfamiliar, and gives the common example of staring at an ordinary word until it stops looking like a real word. It\'s the less famous sibling of déjà vu, but it\'s a real, separately studied phenomenon, not just wordplay on the more famous term.',
-					'Déjà vu belongs to a small club of loanwords English kept in their original form because no native word covered the same specific ground — [schadenfreude](/schadenfreude-meaning/) is the German entry in that same club.',
+					'If déjà vu is something new feeling falsely familiar, *jamais vu* (literally "never seen") is the reverse: something genuinely familiar suddenly feeling strange or unrecognized. Cleveland Clinic describes it as the feeling that something you know well seems unreal or unfamiliar, and gives the common example of staring at an ordinary word until it stops looking like a real word. It\'s the less famous sibling of déjà vu, but it\'s a real, separately studied phenomenon, not just wordplay on the more famous term.',
+					'Déjà vu belongs to a small club of loanwords English kept in their original form because no native word covered the same specific ground. [Schadenfreude](/schadenfreude-meaning/) is the German entry in that same club.',
 				],
 			},
 		],
 		faq: [
 			{
 				question: 'Who coined the term "déjà vu"?',
-				answer: 'The French philosopher Émile Boirac first used it in 1876, in an open letter to the journal Revue Philosophique describing "le sentiment du déjà vu" as a type of memory illusion — not, as sometimes reported, in one of his later books.',
+				answer: 'The French philosopher Émile Boirac first used it in 1876, in an open letter to the journal Revue Philosophique describing "le sentiment du déjà vu" as a type of memory illusion (not, as sometimes reported, in one of his later books).',
 			},
 			{
 				question: 'Does "déjà-vu" mean something different in French than it does in English?',
@@ -371,7 +371,7 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'What\'s the opposite of déjà vu called?',
-				answer: '"Jamais vu" — literally "never seen." It\'s the feeling that something genuinely familiar suddenly seems strange or unrecognizable, such as staring at a common word until it stops looking like a real word.',
+				answer: '"Jamais vu" means literally "never seen." It\'s the feeling that something genuinely familiar suddenly seems strange or unrecognizable, such as staring at a common word until it stops looking like a real word.',
 			},
 		],
 		sources: [
