@@ -2367,4 +2367,85 @@ export const guides: Guide[] = [
 			{ label: 'Wikipedia (Deutsch) — "Deutsche Deklination" (weak/strong/mixed case tables, citing Duden-Redaktion\'s Die Grammatik, 8th ed., 2009, p. 363)', url: 'https://de.wikipedia.org/wiki/Deutsche_Deklination' },
 		],
 	},
+	{
+		slug: 'spanish-commands',
+		category: 'Grammar',
+		title: 'Spanish Commands: Why "No Hables" Doesn\'t Look Like "Habla"',
+		description: 'Affirmative tú and vosotros commands have their own exclusive forms. Almost everything else, including every negative command, borrows the present subjunctive instead.',
+		published: '2026-08-11',
+		updated: '2026-08-11',
+		coreSummary: 'Spanish commands run on two separate systems, not one. Affirmative tú and vosotros forms (habla, hablad) are exclusive to the imperative and exist nowhere else in the verb. Usted, ustedes, and nosotros commands, along with every negative command in any person, including tú and vosotros, are borrowed wholesale from the present subjunctive (no hables, hable, hablemos). The RAE states this plainly: the imperative mood is not used in negative form at all.',
+		language: 'Spanish',
+		sections: [
+			{
+				heading: 'Habla, but no hables: two different systems, not one',
+				body: [
+					'*Habla más despacio* ("Speak more slowly") and *No hables tan rápido* ("Don\'t speak so fast") use the same verb, addressed to the same person, and produce two endings that don\'t look related at all: *habla* versus *hables*. Most learners assume the negative is just the affirmative with *no* stuck in front, and go looking for the rule that\'s supposed to explain the vowel change. There isn\'t one, because *habla* and *hables* aren\'t variants of the same form to begin with.',
+					'Per the RAE\'s own glossary entry on *modo imperativo*, only three grammatical persons have imperative forms that exist exclusively in that mood and nowhere else in the verb\'s conjugation: *tú*, *vos*, and *vosotros*, and only in the affirmative. Every other command in Spanish, meaning *usted*, *ustedes*, and *nosotros* commands regardless of polarity, plus every single negative command in any person at all, is built by borrowing a form the present subjunctive already has. *Habla* is one of the imperative\'s own exclusive forms. *Hables*, in *no hables*, is a present-subjunctive form standing in for a negative imperative that Spanish simply doesn\'t have.',
+				],
+			},
+			{
+				heading: 'Affirmative tú and vosotros: forms that exist nowhere else',
+				body: [
+					'The regular affirmative *tú* command is identical to the verb\'s third-person singular present indicative: *hablar* gives *habla* (same as *él habla*), *comer* gives *come*, *escribir* gives *escribe*. No new form is created; Spanish reuses a shape the verb already has, just aimed at a different person.',
+					'Eight common verbs break that pattern outright, with affirmative *tú* commands that don\'t match their third-person present indicative at all: *decir* → *di*, *hacer* → *haz*, *ir* → *ve*, *poner* → *pon*, *salir* → *sal*, *ser* → *sé*, *tener* → *ten*, *venir* → *ven*. *Tener*\'s regular pattern would predict *tiene*; the actual command is *ten*. These eight are worth memorizing as a fixed set precisely because no rule generates them.',
+					'One coincidence worth knowing: *ver*\'s regular affirmative *tú* command is also *ve* (identical to *él ve*), which happens to be spelled exactly like *ir*\'s irregular *ve*. Context is the only thing separating *¡Ve la película!* ("Watch the movie!") from *¡Ve a casa!* ("Go home!").',
+					'The affirmative *vosotros* command follows a separate, completely regular rule that applies to every Spanish verb without exception, including all eight of the *tú*-irregular verbs above: drop the infinitive\'s final *-r* and add *-d*. *Hablar* → *hablad*, *comer* → *comed*, *escribir* → *escribid*, and even *ir* → *id*, *decir* → *decid*, *tener* → *tened*. There is no irregular *vosotros* affirmative command in Spanish.',
+				],
+				image: {
+					src: '/images/spanish-commands-diagram.svg',
+					alt: 'Diagram of Spanish command formation showing affirmative tú and vosotros as exclusive imperative forms (habla, hablad), the eight irregular tú commands (di, haz, ve, pon, sal, sé, ten, ven), usted/ustedes/nosotros plus every negative command borrowing the present subjunctive instead (hable, hablen, hablemos, no hables), the vamos-not-vayamos exception for affirmative "let\'s go," and the vosotros-plus-reflexive rule where -d drops before -os (levantaos, poneos) except for irse\'s idos/iros.',
+				},
+			},
+			{
+				heading: 'Usted, ustedes, and nosotros: borrowed from the subjunctive by default',
+				body: [
+					'*Usted* and *ustedes* commands never have a dedicated imperative form at all, affirmative or negative; both polarities use the identical present-subjunctive form. *Hable* (usted) and *hablen* (ustedes) serve as both the affirmative and the negative command, with only *no* separating *hable* from *no hable*. That\'s a real structural difference from *tú*, where the affirmative (*habla*) and negative (*no hables*) are two different forms.',
+					'The *nosotros* ("let\'s...") command works the same way, borrowed from the present subjunctive: *hablemos*, *comamos*, *escribamos*. One common verb breaks this in the affirmative only: *ir*\'s expected subjunctive form is *vayamos*, but native speakers use *vamos* for affirmative "let\'s go" instead. Per the RAE\'s own dictionary of doubts, *vamos* historically comes from a contraction of *vayamos*, though speakers today no longer perceive it as one; *vayamos* remains the form actually used for the negative (*no vayamos*, "let\'s not go") and inside subordinate clauses like *quiero que vayamos* ("I want us to go").',
+				],
+			},
+			{
+				heading: 'Negative commands: the imperative mood has no negative form at all',
+				body: [
+					'The RAE\'s own grammar states this directly: the imperative mood is not used in negative sentences at all. Whenever a command is negated, in any person, Spanish substitutes the present subjunctive instead, which is why *no hables* and *no habléis* don\'t resemble *habla* and *hablad* even though *tú* and *vosotros* do have their own exclusive affirmative forms elsewhere. *No comas*, *no coma*, *no comamos*, *no comáis*, *no coman* all follow this same substitution, regardless of which person is being addressed.',
+					'This affirmative/negative split also governs pronoun placement, already covered in the [reflexive verbs](/spanish-reflexive-verbs/) and [double object pronoun](/double-object-pronouns-spanish/) pieces: object and reflexive pronouns attach to the end of an affirmative command (*Siéntate*, *Dímelo*) and move back in front of the verb for a negative one (*No te sientes*, *No me lo digas*). Fusing a pronoun onto an affirmative command is also one of the more common sources of the written accents covered in the [Spanish accent marks](/spanish-accent-marks/) guide, since forms like *dímelo* and *cuéntamelo* become *esdrújulas* that need a tilde to keep their original stress.',
+				],
+			},
+			{
+				heading: 'Vosotros plus a reflexive pronoun: where the -d disappears',
+				body: [
+					'When a reflexive *os* attaches to an affirmative *vosotros* command, the *-d* at the end drops before it: *levantad* + *os* becomes *levantaos*, not *levantados*; *poned* + *os* becomes *poneos*. This is a regular, exceptionless rule, with one single verb standing outside it.',
+					'*Irse*\'s expected form by that same rule would be *íos* (*id* + *os*, minus the *-d*). Spanish kept the *-d* instead, giving *idos*. Per the RAE\'s own explanatory note on the form, *íos* did exist historically, but its phonetically thin shape led speakers to retain the original *-d*, and *idos* remains the Academy\'s most recommended form in formal writing. In everyday speech, though, a different form, *iros*, arrived at by shifting that same *-d* to an *-r*, has become the dominant colloquial choice, and the RAE accepted it as valid alongside *idos* in 2017, while still marking *idos* as the more formal option.',
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'Why does "no hables" look completely different from "habla"?',
+				answer: 'Because they belong to two separate systems. Habla is one of the imperative mood\'s own exclusive forms, reserved for affirmative tú and vosotros commands and used nowhere else in the verb. Hables, in no hables, is a present-subjunctive form: per the RAE, Spanish has no negative imperative at all, so every negative command in every person borrows the subjunctive instead.',
+			},
+			{
+				question: 'What are the eight irregular tú commands in Spanish?',
+				answer: 'Decir → di, hacer → haz, ir → ve, poner → pon, salir → sal, ser → sé, tener → ten, and venir → ven. None of these matches the regular pattern, where the affirmative tú command equals the third-person singular present indicative (tener\'s regular pattern would predict tiene, not ten), so there\'s no shortcut to deriving them; they get learned as a set.',
+			},
+			{
+				question: 'Is "vamos" or "vayamos" correct for "let\'s go" in Spanish?',
+				answer: 'Both exist, split by polarity. Vamos is what speakers actually use for affirmative "let\'s go," even though vayamos is the mathematically expected present-subjunctive form that every other nosotros command follows. Vayamos is still the correct form for the negative, no vayamos ("let\'s not go"), and inside subordinate clauses like quiero que vayamos.',
+			},
+			{
+				question: 'Is "idos" or "iros" the correct vosotros command for irse?',
+				answer: 'Both are accepted today. Idos is the traditional, formally recommended form, kept from an older stage of the language rather than dropping to the regularly-expected íos. Iros, formed by shifting that same sound to an -r instead, is now the dominant form in everyday speech, and the RAE recognized it as valid alongside idos in 2017.',
+			},
+			{
+				question: 'Do usted commands use different forms for affirmative and negative?',
+				answer: 'No, and that\'s a structural difference from tú, not just a stylistic one. Usted and ustedes commands never have a dedicated imperative form at all; hable and hablen are both the affirmative and the negative command, with only the word no separating hable from no hable. Tú, by contrast, switches between two different forms: habla (affirmative) and hables (negative).',
+			},
+		],
+		sources: [
+			{ label: 'Real Academia Española — Glosario de términos gramaticales: "(modo) imperativo"', url: 'https://www.rae.es/gtg/modo-imperativo' },
+			{ label: 'Real Academia Española — Nueva gramática de la lengua española: "Los enunciados imperativos (I). Propiedades formales del imperativo. Pronombres átonos y negación"', url: 'https://www.rae.es/gram%C3%A1tica/sintaxis/los-enunciados-imperativos-i-propiedades-formales-del-imperativo-pronombres-%C3%A1tonos-y-negaci%C3%B3n' },
+			{ label: 'Real Academia Española — Diccionario panhispánico de dudas: "ir, irse"', url: 'https://www.rae.es/dpd/ir' },
+			{ label: 'Real Academia Española — Nota sobre la aceptación de "iros" como forma de imperativo de 2.ª persona del plural', url: 'https://www.rae.es/gram%C3%A1tica/docs/%C2%ABiros%C2%BB%20imperativo.pdf' },
+		],
+	},
 ];
