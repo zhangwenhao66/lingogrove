@@ -2448,4 +2448,94 @@ export const guides: Guide[] = [
 			{ label: 'Real Academia Española — Nota sobre la aceptación de "iros" como forma de imperativo de 2.ª persona del plural', url: 'https://www.rae.es/gram%C3%A1tica/docs/%C2%ABiros%C2%BB%20imperativo.pdf' },
 		],
 	},
+	{
+		slug: 'french-negation',
+		category: 'Grammar',
+		title: 'French Negation: Why Personne, Aucun, and Nulle Part Break the Pas Pattern',
+		description: 'Personne, aucun, and nulle part are the exceptions: everywhere else, French negation slots neatly between the auxiliary and the past participle, exactly where pas sits.',
+		published: '2026-08-11',
+		updated: '2026-08-11',
+		coreSummary: 'French negation is built from two parts, ne plus a second negative word (pas, jamais, plus, rien, personne, aucun, nulle part, ni), that sandwich the conjugated verb: Je ne sais pas. In compound tenses and before infinitives, most of those second words keep hugging the auxiliary or infinitive the same way pas does, but per the Office québécois de la langue française, personne, nulle part, and aucun break that pattern and fall behind the past participle or infinitive instead, every time. Ne...que is a separate structure entirely, a restriction meaning "only" rather than a true negation, and its que half moves to sit directly in front of whatever it restricts rather than staying fixed after the verb.',
+		language: 'French',
+		sections: [
+			{
+				heading: 'Two parts, one sandwich, and the half that vanishes in speech',
+				body: [
+					'French negation is built from two separate pieces that only work as a pair. The adverb ne (n\' before a vowel sound) comes first, and a second negative word closes the sandwich around the conjugated verb: Je ne sais pas ("I don\'t know"), Elle ne mange jamais de viande ("She never eats meat"), Nous n\'avons rien vu ("We saw nothing"). English gets by with a single negative marker; per the OQLF\'s own syntax reference on negation, French routinely needs both an adverb (ne) and a second negative element, which can be another adverb (pas, plus, jamais, guère), a pronoun (personne, rien, aucun), or a determiner (aucun, nul) standing in front of a noun.',
+					'That first half is also the one careful writing can\'t drop but relaxed speech drops constantly. Per Larousse\'s own dictionary entry on ne, the particle disappears routinely in casual spoken French, and the dictionary\'s own illustrative examples show exactly what that looks like: j\'irai pas, il veut jamais, c\'est pas moi, next to the written-French versions of the same three sentences, je n\'irai pas, il ne veut jamais, ce n\'est pas moi. A learner who only studies textbook French can be caught off guard the first time a native speaker says J\'sais pas instead of Je ne sais pas; it isn\'t sloppiness, it\'s the normal register split Larousse itself documents.',
+				],
+				image: {
+					src: '/images/french-negation-diagram.svg',
+					alt: 'Diagram of French negation: the ne...pas sandwich around a conjugated verb, the compound-tense split where pas/jamais/plus/rien wrap the auxiliary but personne/aucun/nulle part fall after the past participle, the restrictive ne...que with its mobile que, and the fixed jamais-before-rien/personne ordering when negatives stack.',
+				},
+			},
+			{
+				heading: 'In compound tenses, three words refuse to hug the auxiliary',
+				body: [
+					'In a simple tense, the sandwich just wraps the one verb. In a compound tense like the passé composé, there are two verb parts, an auxiliary (avoir or être) plus a past participle, and most negative words squeeze into the gap between them, exactly where pas sits: Je n\'ai pas mangé, Je n\'ai jamais visité Lyon, Je n\'ai plus vu Marc depuis ce jour-là, Je n\'ai rien vu. Pas, jamais, plus, and rien all take that same slot, immediately after the auxiliary and before the participle.',
+					'Personne, aucun, and nulle part refuse to sit there. Per the OQLF\'s own reference page on personne as an indefinite pronoun, which gives Je n\'y ai trouvé personne as its own worked example, personne moves past the participle entirely instead of wedging in front of it: Je n\'ai vu personne, not the pas-style Je n\'ai personne vu. Nulle part follows the identical rule, landing after the participle: Il n\'est allé nulle part. Aucun (or aucune, since it agrees in gender with the noun it stands in for) does the same: Elle n\'a fait aucune faute, not aucune wedged before the participle the way rien would be. Three words, one shared behavior that sets them apart from every other negative in the language: they land after the participle, not between the two verb parts.',
+				],
+			},
+			{
+				heading: 'The same three words fall behind an infinitive, too',
+				body: [
+					'Negating an infinitive, after il faut, pour, afin de, avant de, or décider de, keeps both halves of the negation together as a single block sitting in front of the infinitive, in the order ne + [negative word] + infinitive: Il a décidé de ne pas venir ("He decided not to come"), J\'essaie de ne jamais mentir ("I try never to lie"), Elle préfère ne rien dire ("She prefers to say nothing"). Pas, jamais, and rien front-load the infinitive the same way they front-load an auxiliary.',
+					'Personne and nulle part break from the group again, and in the same direction as before: both trail behind the infinitive instead of standing in front of it. Préférer ne voir personne ("to prefer to see nobody") puts personne after voir, not before it, mirroring exactly how it falls after a past participle rather than in front of one. The two contexts, compound tenses and infinitives, are really the same underlying rule showing up twice: whatever construction has a second verb form for the negative word to attach around, personne and nulle part attach to the far side of it rather than the near side.',
+				],
+			},
+			{
+				heading: 'Ne...que isn\'t negation at all, and que refuses to sit still',
+				body: [
+					'Ne...que looks like it belongs on the same list as ne...pas or ne...rien, but it functions as a restriction meaning "only" rather than a true negation: Je n\'ai que deux frères doesn\'t deny having brothers, it limits the count to exactly two, functionally equivalent to Je n\'ai seulement deux frères. Because it restricts rather than negates, ne...que can\'t be combined with pas, plus, rien, personne, jamais, or ni...ni to build one coherent sentence; que has to work alone against ne, the way any single true negative word does.',
+					'Que also refuses to sit in the fixed slot pas, jamais, plus, and rien all share. It\'s mobile, moving to sit directly in front of whichever element of the sentence it\'s actually restricting, rather than staying anchored right after the verb: Il n\'a mangé que la moitié du gâteau (restricting the quantity eaten) reads differently from Il n\'a mangé que le matin (restricting when the eating happened), with que sliding to whichever phrase carries the restriction. In compound tenses, que still can\'t move in front of the auxiliary the way ne does; ne stays anchored before avoir or être, and que floats somewhere after the past participle, wherever the restricted element sits.',
+				],
+			},
+			{
+				heading: 'Stacking negatives: jamais outranks rien and personne, but plus can go either way',
+				body: [
+					'French allows more than one negative word in a single clause without them canceling each other out the way a double negative would in standard English. Ils ne vont jamais rien perdre ("They will never lose anything") stacks jamais and rien in one sentence, and the order between them isn\'t arbitrary: jamais consistently comes before rien, personne, or nulle part when they combine, so jamais rien is the pattern, not rien jamais.',
+					'Plus is the one flexible piece. Combined with jamais, either order is accepted: Je ne ferai plus jamais ça and Je ne ferai jamais plus ça both mean "I will never do that again," with no meaning difference between the two orderings. Combined with rien, personne, or nulle part instead, plus takes the first slot every time: plus rien, plus personne, plus nulle part, never the reverse. What plus won\'t do is combine with pas, guère, or point; those three don\'t stack with rien, jamais, personne, or nulle part either, which keeps the two negation systems, the "pas family" and the "jamais/rien/personne family," from mixing into the same sentence.',
+				],
+			},
+			{
+				heading: 'One more thing negation changes: the article on the noun that follows',
+				body: [
+					'Negating a verb doesn\'t just add ne and a second word, it can reach into the noun phrase that follows and change the article, too. J\'ai un chat becomes Je n\'ai pas de chat, with the indefinite article un collapsing down to a bare de. That reduction, including its two real exceptions (a linking être and an implicit contrast), is covered in full in [the French articles guide](/french-articles/); it\'s the same negation system this article covers, just reaching one step further into the sentence.',
+					'Aucun works differently from that de-reduction, even though the two land on similar-sounding English translations. Je n\'ai pas de sœur strips the article down to bare de, but Je n\'ai aucune sœur keeps aucune standing directly in the article\'s own slot, agreeing in gender with sœur the way an article would, rather than reducing to an invariant particle. Aucun also stays grammatically singular no matter what it\'s negating, even for nouns that are normally plural-only (aucunes vacances doesn\'t exist; aucune vacance does), because it\'s asserting a count of zero, and zero is inherently singular. Commands built on any of this negation machinery, and the pronoun-order reversal that comes with a negative command specifically, are covered separately in [the French imperative guide](/french-imperative/), including why dis-le-moi flips to ne me le dis pas the moment the command turns negative.',
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'Why does "personne" go after the past participle instead of between the auxiliary and the participle like "pas"?',
+				answer: 'Personne, along with nulle part and aucun, is one of a small set of French negative words that consistently fall behind the second verb form (a past participle in a compound tense, an infinitive elsewhere) rather than wedging into the same slot pas, jamais, plus, and rien use. Per the OQLF\'s own reference on personne as an indefinite pronoun, Je n\'ai vu personne is correct; the pas-style Je n\'ai personne vu is not.',
+			},
+			{
+				question: 'Is "ne...que" a true negation?',
+				answer: 'No. It expresses a restriction meaning "only," not a denial: Je n\'ai que deux frères limits a count to two rather than denying having brothers. Because it restricts instead of negating, it can\'t combine with pas, plus, rien, personne, jamais, or ni...ni in the same clause, and its que half is mobile, moving to sit in front of whatever element it\'s restricting rather than staying fixed right after the verb.',
+			},
+			{
+				question: 'Is it correct to say "ne...jamais rien" and "ne...jamais personne" together?',
+				answer: 'Yes, stacking negatives is standard French and doesn\'t cancel out the meaning the way a double negative would in standard English. Ils ne vont jamais rien perdre is correct. The order between them is fixed: jamais comes before rien, personne, and nulle part whenever they combine, so jamais rien and jamais personne are the accepted orders, not the reverse.',
+			},
+			{
+				question: 'Is it okay to drop "ne" when speaking French?',
+				answer: 'In casual spoken French, yes, and it happens constantly: j\'irai pas instead of je n\'irai pas. Per Larousse\'s own dictionary entry on ne, this dropping is a normal feature of relaxed spoken registers, while careful expression, especially in writing, is expected to keep both halves of the negation. It isn\'t an error in speech, but it isn\'t appropriate in formal writing either.',
+			},
+			{
+				question: 'What\'s the difference between "je n\'ai pas de sœur" and "je n\'ai aucune sœur"?',
+				answer: 'Both deny having a sister, but through different mechanisms. Pas de reduces the indefinite article down to a bare, invariant de. Aucune instead stands directly in the article\'s own position and agrees in gender with the noun (aucun for a masculine noun, aucune for a feminine one), while pas de doesn\'t change form for gender at all. Aucun/aucune is also more emphatic, closer to "not a single sister" than the more neutral pas de sœur.',
+			},
+			{
+				question: 'Which order is correct: "plus jamais" or "jamais plus"?',
+				answer: 'Both are accepted with no difference in meaning: Je ne ferai plus jamais ça and Je ne ferai jamais plus ça both mean "I will never do that again." Plus is the one negative word flexible enough to go on either side of jamais. Combined with rien, personne, or nulle part instead, plus always takes the first position (plus rien, plus personne), never the reverse.',
+			},
+		],
+		sources: [
+			{ label: 'Office québécois de la langue française — Vitrine linguistique: "Généralités sur la négation"', url: 'https://vitrinelinguistique.oqlf.gouv.qc.ca/23905/la-syntaxe/la-negation-et-la-restriction/generalites-sur-la-negation' },
+			{ label: 'Office québécois de la langue française — Vitrine linguistique: "PERSONNE comme pronom indéfini : syntaxe et emploi"', url: 'https://vitrinelinguistique.oqlf.gouv.qc.ca/22893/la-syntaxe/la-negation-et-la-restriction/le-pronom-indefini-personne' },
+			{ label: 'Office québécois de la langue française — Vitrine linguistique: "Pronom indéfini RIEN : syntaxe et emploi"', url: 'https://vitrinelinguistique.oqlf.gouv.qc.ca/23886/la-syntaxe/la-negation-et-la-restriction/le-pronom-indefini-rien' },
+			{ label: 'Larousse — Dictionnaire de français: "ne" (informal spoken dropping, illustrative examples)', url: 'https://www.larousse.fr/dictionnaires/francais/ne/53983' },
+		],
+	},
 ];
