@@ -2289,4 +2289,82 @@ export const guides: Guide[] = [
 			{ label: 'Larousse — Encyclopédie: "subjonctif" (mode de l\'irréel definition)', url: 'https://www.larousse.fr/encyclopedie/divers/subjonctif/92766' },
 		],
 	},
+	{
+		slug: 'german-adjective-endings',
+		category: 'Grammar',
+		title: 'German Adjective Endings: Weak, Strong, and Mixed Declension',
+		description: 'German adjectives change ending based on what precedes them, because only one word in the phrase has to mark case, gender, and number, not every word.',
+		published: '2026-08-11',
+		updated: '2026-08-11',
+		coreSummary: 'A German adjective placed before a noun takes one of three sets of endings depending entirely on what precedes it, not on the adjective itself. After a definite article that already shows case, gender, and number (der, die, das and their other forms), the adjective takes the weak ending, either -e or -en. With no article at all, the adjective takes the strong ending and borrows almost exactly the forms the definite article itself would use, with one standing exception in the genitive singular. After an indefinite article or a possessive (ein, kein, mein, and the rest), the adjective mixes the two patterns, going strong only in the three spots where that article carries no ending of its own.',
+		language: 'German',
+		sections: [
+			{
+				heading: 'Someone has to mark the case, and it is either the article or the adjective',
+				body: [
+					'A German noun phrase has to display three pieces of grammatical information: which of four cases it is playing (nominative, accusative, dative, or genitive), which of three genders the noun belongs to (masculine, neuter, or feminine), and whether it is singular or plural. That information has to show up somewhere in the phrase, but German only needs one word to carry it, not every word. Wikipedia\'s "Deutsche Deklination" entry states the governing rule directly, citing Duden-Redaktion\'s reference grammar Die Grammatik (8th edition, 2009, p. 363): "Wenn dem Adjektiv ein Artikelwort mit Beugungsendung vorangeht, wird das Adjektiv schwach flektiert, sonst stark," meaning "if an article word with an inflectional ending precedes the adjective, the adjective inflects weakly; otherwise it inflects strongly."',
+					'That single rule produces the pair every German course eventually points to: der kalte Kaffee ("the cold coffee") next to kalter Kaffee (the same two words with no article, closer to "cold coffee" as a general statement). In der kalte Kaffee, der already marks masculine, nominative, and singular, so kalt only needs the weak ending -e. In kalter Kaffee, nothing precedes kalt, so the adjective has to carry that information itself, and it does so by taking -er, the same ending der would have carried in that exact slot. What decides the ending, in every case, is whatever word sits in front of the adjective, not the adjective\'s own meaning or spelling.',
+				],
+				image: {
+					src: '/images/german-adjective-endings-diagram.svg',
+					alt: 'Diagram contrasting der kalte Kaffee (weak, article shows the case) with kalter Kaffee (strong, no article), followed by full case-and-gender tables for the weak and strong endings, a mixed-declension comparison of ein kalter Kaffee versus einen kalten Kaffee, and the genitive singular exception where strong declension uses -en instead of -es.',
+				},
+			},
+			{
+				heading: 'Weak endings: after der, die, and das, only two forms ever show up',
+				body: [
+					'When a definite article (der, die, das and its other case forms) or a similar word like dieser or jener precedes the adjective, the ending is called weak, and the entire system collapses to two possible endings: -e and -en. The rule for choosing between them is short: -en covers every plural form, every dative form, and every genitive form, plus the masculine singular accusative; -e covers everything left over, the nominative singular in all three genders plus the accusative singular in the feminine and neuter. Working through kalter Kaffee (cold coffee, masculine), kaltes Wasser (cold water, neuter), kalte Milch (cold milk, feminine), and kalte Getränke (cold drinks, plural, all capitalized nouns as standard German orthography requires, a convention covered in more detail in the [Schadenfreude entry](/schadenfreude-meaning/)) with der, das, die, and die in front produces der kalte Kaffee, das kalte Wasser, die kalte Milch, and die kalten Getränke in the nominative. Switching to the accusative changes only the masculine form, to den kalten Kaffee, while das kalte Wasser and die kalte Milch stay exactly as they were.',
+					'The dative and genitive erase the gender distinction from the ending entirely. Dem kalten Kaffee, dem kalten Wasser, and der kalten Milch all take -en in the dative, as does den kalten Getränken in the plural; des kalten Kaffees, des kalten Wassers, der kalten Milch, and der kalten Getränke do the same in the genitive. Two endings, spread across four cases, three genders, and a plural, is the entire weak system.',
+				],
+			},
+			{
+				heading: 'Strong endings: the adjective takes over the article\'s job',
+				body: [
+					'Drop the article entirely, and the adjective has to carry the case, gender, and number information on its own. It does this by borrowing almost exactly the endings the definite article itself would have used in that spot: kalter Kaffee takes -er the way der does, kaltes Wasser takes -es the way das does, and kalte Milch and kalte Getränke take -e the way die does in the nominative. The dative singular masculine and neuter both take -em, matching dem: mit kaltem Kaffee, mit kaltem Wasser. The dative and genitive plural track the article closely too: mit kalten Getränken in the dative, trotz kalter Getränke in the genitive, echoing den and der.',
+					'There is one standing exception, in the genitive singular of the masculine and neuter. The article-matching pattern would predict kaltes Kaffees and kaltes Wassers, following des, but the actual forms are wegen kalten Kaffees and wegen kalten Wassers, with -en instead. Wikipedia\'s "Deutsche Deklination" entry, citing the same Duden reference grammar (Die Grammatik, 8th edition, 2009, p. 363), records this as the one place strong declension departs from the article pattern it otherwise mirrors. The reason usually given is that the noun already carries the genitive singular\'s own -s ending in this slot (Kaffees, Wassers), so a second, article-style genitive marker on the adjective would just repeat information the noun has already supplied.',
+				],
+			},
+			{
+				heading: 'Mixed endings: after ein, kein, and mein, it splits down the middle',
+				body: [
+					'Indefinite articles (ein) and possessives (mein, dein, sein, ihr, unser, euer, kein) do not fit neatly into either the weak or the strong pattern, because they only sometimes carry an ending of their own. Ein and mein have no ending at all in the masculine nominative singular, the neuter nominative singular, and the neuter accusative singular; everywhere else, they inflect just like der does. The adjective that follows fills in exactly the gap this leaves: strong wherever the article has no ending to show the case itself, weak everywhere the article already has one.',
+					'Working through mein kalter Kaffee, mein kaltes Wasser, meine kalte Milch, and meine kalten Getränke in the nominative shows the split directly. Mein has no ending before Kaffee or Wasser, so kalt takes the strong -er and -es exactly as it would with no article at all, while meine already marks feminine and plural, so kalt drops back to the weak -e and -en. The same three-way split holds in the accusative, where für mein kaltes Wasser keeps the strong -es (mein still has no ending here) while für meinen kalten Kaffee, für meine kalte Milch, and für meine kalten Getränke are all weak, because meinen and meine both carry endings of their own. Every dative and genitive form is weak across the board, mit meinem kalten Kaffee, wegen meines kalten Kaffees, and so on, since mein always has an ending in those two cases.',
+				],
+			},
+			{
+				heading: 'Predicate and adverbial adjectives skip all of this',
+				body: [
+					'None of the three systems above applies once the adjective moves after the noun instead of in front of it. Wikipedia\'s "Deutsche Deklination" article draws the line clearly: an adjective takes an ending only when it is used attributively, directly in front of a noun it modifies. Used predicatively, after a linking verb like sein, or adverbially, modifying a verb instead of a noun, German adjectives take no ending whatsoever, regardless of the noun\'s case, gender, or number. Der Wahn ist kurz, die Reu ist lang, a line from Friedrich Schiller\'s Das Lied von der Glocke, leaves kurz and lang completely unmarked even though Wahn is masculine and Reu is feminine; an attributive version of the same idea, like der kurze Wahn, would need the weak -e.',
+					'French organizes similar noun-phrase agreement without German\'s extra case layer. French nouns do not inflect for case the way German nouns do, so a French adjective agrees only in gender and number with the noun it modifies, independent of whatever the article is doing; the [French articles guide](/french-articles/) covers how French sorts nouns by definiteness rather than case in the first place. German adds a fourth dimension, case, and pushes the job of marking it onto whichever word in the phrase, article or adjective, actually needs to carry it.',
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'How do I know whether to use weak, strong, or mixed endings on a German adjective?',
+				answer: 'Check what comes immediately before the adjective. A definite article, or a similar word like dieser or jener, signals weak endings (-e or -en only). No article at all signals strong endings, where the adjective borrows the definite article\'s own forms. An indefinite article or possessive (ein, kein, mein, dein, sein, ihr, unser, euer) signals mixed endings: strong only in the three spots where that article itself has no ending (masculine nominative singular, neuter nominative singular, neuter accusative singular), weak everywhere else.',
+			},
+			{
+				question: 'Why is it "der kalte Kaffee" but "kalter Kaffee" without "der"?',
+				answer: '"Der" already shows masculine, nominative, and singular on its own, so the weak adjective ending after it only needs to be the plain -e. Drop "der," and nothing else in the phrase marks that information, so "kalt" has to do it itself, taking -er, the same ending "der" carries in that position.',
+			},
+			{
+				question: 'Why does "ein kalter Kaffee" change to "einen kalten Kaffee" in the accusative?',
+				answer: '"Ein" has no ending in the masculine nominative singular, so "kalt" takes the strong -er to mark that slot itself: "ein kalter Kaffee." In the accusative, "ein" becomes "einen," which does carry an ending, so the adjective switches to the weak -en instead: "einen kalten Kaffee." The article and the adjective never both mark the same information at once; whichever one has an ending in a given case, gender, and number combination is the one that carries it.',
+			},
+			{
+				question: 'Why is the genitive singular "kalten Kaffees" and not "kaltes Kaffees"?',
+				answer: 'Strong declension otherwise mirrors the definite article\'s own endings almost exactly, but the genitive singular masculine and neuter are the one place it does not: the adjective takes -en instead of the expected -es. Wikipedia\'s "Deutsche Deklination" entry, citing Duden-Redaktion\'s Die Grammatik (8th edition, 2009, p. 363), records this as the standing exception to the pattern. The likely reason is that the noun already shows the genitive with its own -s ending (Kaffees, Wassers), so marking it a second time on the adjective would be redundant.',
+			},
+			{
+				question: 'Does "Der Kaffee ist kalt" use any of these endings?',
+				answer: 'No. Weak, strong, and mixed endings only apply to an adjective placed directly in front of the noun it modifies, called attributive use. Used after a linking verb like "sein" (predicative use) or modifying a verb instead of a noun (adverbial use), German adjectives take no ending at all, in any case, gender, or number. "Der Wahn ist kurz, die Reu ist lang," from Schiller\'s Das Lied von der Glocke, leaves "kurz" and "lang" completely unmarked even though "Wahn" is masculine and "Reu" is feminine.',
+			},
+		],
+		sources: [
+			{ label: 'Leibniz-Institut für Deutsche Sprache (IDS Mannheim) — Grammis: "Starke und schwache Adjektivflexion"', url: 'https://grammis.ids-mannheim.de/progr@mm/6751' },
+			{ label: 'Leibniz-Institut für Deutsche Sprache (IDS Mannheim) — Grammis: "Vertiefung: Gemischte Adjektivflexion"', url: 'https://grammis.ids-mannheim.de/progr@mm/6752' },
+			{ label: 'Wikipedia (Deutsch) — "Deutsche Deklination" (weak/strong/mixed case tables, citing Duden-Redaktion\'s Die Grammatik, 8th ed., 2009, p. 363)', url: 'https://de.wikipedia.org/wiki/Deutsche_Deklination' },
+		],
+	},
 ];

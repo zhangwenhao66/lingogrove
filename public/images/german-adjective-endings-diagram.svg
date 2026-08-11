@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" font-family="system-ui, -apple-system, sans-serif">
+	<rect width="800" height="800" fill="#f6f4e9"/>
+	<rect x="24" y="24" width="752" height="752" rx="10" fill="#fffefa" stroke="#ddd8c4"/>
+
+	<rect x="24" y="24" width="752" height="56" rx="10" fill="#2f6b47"/>
+	<rect x="24" y="60" width="752" height="20" fill="#2f6b47"/>
+	<text x="400" y="60" text-anchor="middle" fill="#ffffff" font-size="18" font-weight="700">GERMAN ADJECTIVE ENDINGS: WHO SHOWS THE CASE?</text>
+
+	<!-- row 1: the core rule, minimal pair -->
+	<rect x="46" y="100" width="345" height="112" rx="8" fill="#fbead0" stroke="#ddd8c4"/>
+	<rect x="409" y="100" width="345" height="112" rx="8" fill="#fbead0" stroke="#ddd8c4"/>
+
+	<text x="218" y="124" text-anchor="middle" fill="#5a5648" font-size="11" font-weight="700">ARTICLE SHOWS THE CASE &#8594; WEAK</text>
+	<text x="218" y="150" text-anchor="middle" fill="#2f6b47" font-size="17" font-weight="700">der kalte Kaffee</text>
+	<text x="218" y="172" text-anchor="middle" fill="#201f1a" font-size="11">der already marks masc./nom./sg.</text>
+	<text x="218" y="192" text-anchor="middle" fill="#5a5648" font-size="11">adjective just adds -e</text>
+
+	<text x="581" y="124" text-anchor="middle" fill="#5a5648" font-size="11" font-weight="700">NO ARTICLE AT ALL &#8594; STRONG</text>
+	<text x="581" y="150" text-anchor="middle" fill="#2f6b47" font-size="17" font-weight="700">kalter Kaffee</text>
+	<text x="581" y="172" text-anchor="middle" fill="#201f1a" font-size="11">nothing else marks the case</text>
+	<text x="581" y="192" text-anchor="middle" fill="#5a5648" font-size="11">adjective borrows der's own -er</text>
+
+	<!-- row 2: weak table -->
+	<rect x="46" y="228" width="708" height="176" rx="8" fill="#eaf1ea" stroke="#2f6b47"/>
+	<text x="400" y="252" text-anchor="middle" fill="#204a31" font-size="13" font-weight="700">WEAK (after der / die / das): only -e and -en ever appear</text>
+
+	<text x="132" y="280" text-anchor="middle" fill="#5a5648" font-size="11" font-weight="700">CASE</text>
+	<text x="262" y="280" text-anchor="middle" fill="#5a5648" font-size="11" font-weight="700">MASC.</text>
+	<text x="397" y="280" text-anchor="middle" fill="#5a5648" font-size="11" font-weight="700">NEUT.</text>
+	<text x="532" y="280" text-anchor="middle" fill="#5a5648" font-size="11" font-weight="700">FEM.</text>
+	<text x="667" y="280" text-anchor="middle" fill="#5a5648" font-size="11" font-weight="700">PLURAL</text>
+	<line x1="70" y1="290" x2="734" y2="290" stroke="#c8dcc9" stroke-width="1"/>
+
+	<text x="100" y="312" fill="#5a5648" font-size="12">Nom.</text>
+	<text x="262" y="312" text-anchor="middle" fill="#201f1a" font-size="13" font-weight="700">-e</text>
+	<text x="397" y="312" text-anchor="middle" fill="#201f1a" font-size="13" font-weight="700">-e</text>
+	<text x="532" y="312" text-anchor="middle" fill="#201f1a" font-size="13" font-weight="700">-e</text>
+	<text x="667" y="312" text-anchor="middle" fill="#201f1a" font-size="13" font-weight="700">-en</text>
+
+	<text x="100" y="338" fill="#5a5648" font-size="12">Akk.</text>
+	<text x="262" y="338" text-anchor="middle" fill="#201f1a" font-size="13" font-weight="700">-en</text>
+	<text x="397" y="338" text-anchor="middle" fill="#201f1a" font-size="13" font-weight="700">-e</text>
+	<text x="532" y="338" text-anchor="middle" fill="#201f1a" font-size="13" font-weight="700">-e</text>
+	<text x="667" y="338" text-anchor="middle" fill="#201f1a" font-size="13" font-weight="700">-en</text>
+
+	<text x="100" y="364" fill="#5a5648" font-size="12">Dat.</text>
+	<text x="262" y="364" text-anchor="middle" fill="#201f1a" font-size="13" font-weight="700">-en</text>
+	<text x="397" y="364" text-anchor="middle" fill="#201f1a" font-size="13" font-weight="700">-en</text>
+	<text x="532" y="364" text-anchor="middle" fill="#201f1a" font-size="13" font-weight="700">-en</text>
+	<text x="667" y="364" text-anchor="middle" fill="#201f1a" font-size="13" font-weight="700">-en</text>
+
+	<text x="100" y="390" fill="#5a5648" font-size="12">Gen.</text>
+	<text x="262" y="390" text-anchor="middle" fill="#201f1a" font-size="13" font-weight="700">-en</text>
+	<text x="397" y="390" text-anchor="middle" fill="#201f1a" font-size="13" font-weight="700">-en</text>
+	<text x="532" y="390" text-anchor="middle" fill="#201f1a" font-size="13" font-weight="700">-en</text>
+	<text x="667" y="390" text-anchor="middle" fill="#201f1a" font-size="13" font-weight="700">-en</text>
+
+	<!-- row 3: strong table -->
+	<rect x="46" y="416" width="708" height="176" rx="8" fill="#fbead0" stroke="#ddd8c4"/>
+	<text x="400" y="440" text-anchor="middle" fill="#5a5648" font-size="13" font-weight="700">STRONG (no article): the adjective borrows der's own endings</text>
+
+	<text x="132" y="468" text-anchor="middle" fill="#5a5648" font-size="11" font-weight="700">CASE</text>
+	<text x="262" y="468" text-anchor="middle" fill="#5a5648" font-size="11" font-weight="700">MASC.</text>
+	<text x="397" y="468" text-anchor="middle" fill="#5a5648" font-size="11" font-weight="700">NEUT.</text>
+	<text x="532" y="468" text-anchor="middle" fill="#5a5648" font-size="11" font-weight="700">FEM.</text>
+	<text x="667" y="468" text-anchor="middle" fill="#5a5648" font-size="11" font-weight="700">PLURAL</text>
+	<line x1="70" y1="478" x2="734" y2="478" stroke="#ddd8c4" stroke-width="1"/>
+
+	<text x="100" y="500" fill="#5a5648" font-size="12">Nom.</text>
+	<text x="262" y="500" text-anchor="middle" fill="#201f1a" font-size="13" font-weight="700">-er</text>
+	<text x="397" y="500" text-anchor="middle" fill="#201f1a" font-size="13" font-weight="700">-es</text>
+	<text x="532" y="500" text-anchor="middle" fill="#201f1a" font-size="13" font-weight="700">-e</text>
+	<text x="667" y="500" text-anchor="middle" fill="#201f1a" font-size="13" font-weight="700">-e</text>
+
+	<text x="100" y="526" fill="#5a5648" font-size="12">Akk.</text>
+	<text x="262" y="526" text-anchor="middle" fill="#201f1a" font-size="13" font-weight="700">-en</text>
+	<text x="397" y="526" text-anchor="middle" fill="#201f1a" font-size="13" font-weight="700">-es</text>
+	<text x="532" y="526" text-anchor="middle" fill="#201f1a" font-size="13" font-weight="700">-e</text>
+	<text x="667" y="526" text-anchor="middle" fill="#201f1a" font-size="13" font-weight="700">-e</text>
+
+	<text x="100" y="552" fill="#5a5648" font-size="12">Dat.</text>
+	<text x="262" y="552" text-anchor="middle" fill="#201f1a" font-size="13" font-weight="700">-em</text>
+	<text x="397" y="552" text-anchor="middle" fill="#201f1a" font-size="13" font-weight="700">-em</text>
+	<text x="532" y="552" text-anchor="middle" fill="#201f1a" font-size="13" font-weight="700">-er</text>
+	<text x="667" y="552" text-anchor="middle" fill="#201f1a" font-size="13" font-weight="700">-en</text>
+
+	<text x="100" y="578" fill="#5a5648" font-size="12">Gen.</text>
+	<text x="262" y="578" text-anchor="middle" fill="#a8451f" font-size="13" font-weight="700">-en*</text>
+	<text x="397" y="578" text-anchor="middle" fill="#a8451f" font-size="13" font-weight="700">-en*</text>
+	<text x="532" y="578" text-anchor="middle" fill="#201f1a" font-size="13" font-weight="700">-er</text>
+	<text x="667" y="578" text-anchor="middle" fill="#201f1a" font-size="13" font-weight="700">-er</text>
+
+	<text x="400" y="602" text-anchor="middle" fill="#a8451f" font-size="10.5" font-style="italic">* not -es: kalten Kaffees, not kaltes Kaffees. The noun's own -s already marks the genitive.</text>
+
+	<!-- row 4: mixed -->
+	<rect x="46" y="622" width="708" height="110" rx="8" fill="#eef0f7" stroke="#8a93b8"/>
+	<text x="400" y="646" text-anchor="middle" fill="#3a4270" font-size="13" font-weight="700">MIXED (after ein / kein / mein): strong only where the article has no ending</text>
+
+	<text x="218" y="674" text-anchor="middle" fill="#3a4270" font-size="15" font-weight="700">ein kalter Kaffee</text>
+	<text x="218" y="694" text-anchor="middle" fill="#5a5648" font-size="11">masc. nom.: "ein" has no ending, so -er (strong)</text>
+
+	<text x="581" y="674" text-anchor="middle" fill="#3a4270" font-size="15" font-weight="700">einen kalten Kaffee</text>
+	<text x="581" y="694" text-anchor="middle" fill="#5a5648" font-size="11">masc. akk.: "einen" already has one, so -en (weak)</text>
+
+	<text x="400" y="716" text-anchor="middle" fill="#5a5648" font-size="11" font-style="italic">Same split for neuter nom./akk. ("ein kaltes Wasser"); every other slot is weak, like after der.</text>
+
+	<!-- footer -->
+	<text x="400" y="756" text-anchor="middle" fill="#5a5648" font-size="12" font-style="italic">One word marks the case: the article when it can, the adjective when it must.</text>
+</svg>
