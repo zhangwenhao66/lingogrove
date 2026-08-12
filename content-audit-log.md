@@ -452,3 +452,102 @@
   "escalation": null
 }
 ```
+
+## 2026-08-12 完整审计：`schadenfreude-meaning`
+
+```json
+{
+  "url_slug": "schadenfreude-meaning",
+  "last_audited": "2026-08-12",
+  "published_date": "2026-08-03",
+  "note": "本站第六次由trafficsite-content-quality-audit任务审计。站内选取：guides.ts数组位置上前四篇已审计文章（por-vs-para/ser-vs-estar/preterite-vs-imperfect/deja-vu-meaning）之后的第一篇从未审计条目（ser-conjugation虽在数组更靠后但已于08-05审计过）。",
+  "diagnosed_checkpoints": [
+    "Duden'boshafte Freude über das Missgeschick, Unglück eines andern'与DWDS'更中性表述'两条定义是否逐字准确",
+    "正文反复出现的绝对化论断（'no single English word names that exact feeling'/'the gap English didn't fill'/标题'English Never Had'）是否做过反例检索——是否真的没有任何英语本土词汇覆盖这个概念",
+    "regionNote'两种语言里都不是俚语或粗俗词'的register断言是否准确",
+    "正文是否存在AI写作痕迹（尤其破折号密度），因本站前五篇姊妹文章审计均确认过量破折号问题",
+    "与deja-vu-meaning/senpai-meaning的互链桥接句（'同一俱乐部的德语代表'等）是否准确反映本文实际内容"
+  ],
+  "findings": [
+    {
+      "dimension": "事实准确性",
+      "status": "确认发现问题，独立复核确认为真，已修复",
+      "detail": "WebSearch核实Duden定义'boshafte Freude über das Missgeschick, Unglück eines andern'与DWDS'更中性表述（无malicious限定）'均逐字准确；pronunciation（SHAH-dən-froy-də /ˈʃɑːdənˌfrɔɪdə/）经Wiktionary/Cambridge等多方核实准确。**发现问题**：正文反复做出的绝对化论断（标题'The German Word English Never Had'、coreSummary'no single English word names that exact feeling'、正文'That's the gap German filled and English didn't'）从未做过反例检索。独立agent用WebSearch核实：英语确实存在一个极罕见但有词典记录的本土词'epicaricacy'（源自希腊语epi+chara+kakon），可追溯到Nathan Bailey 1721年《An Universal Etymological English Dictionary》（以'epicharikaky'拼法收录），更早的希腊语原词形式见于Robert Burton 1621年《The Anatomy of Melancholy》；该词确实存在但'几乎无人使用'（World Wide Words原文'an erudite coining known to hardly anybody'），这正是英语最终转而借用schadenfreude的原因。这与教训库L-0804-2（'普遍性/一致性断言未做反例检索'）同一失效模式。GSC竞品SERP实测'schadenfreude meaning'第8名恰好是Reddit讨论帖'How does English not have it's own word for Schadenfreude?'，证实这是真实存在的高频疑问，非本文虚构风险。已修复：coreSummary/正文两处绝对化措辞软化为'no English word in common use'/'no word in common use'（保留核心论点——没有词进入日常使用），新增FAQ第5条+World Wide Words来源，具体交代epicaricacy的存在与被淘汰的原因。"
+    },
+    {
+      "dimension": "EEAT",
+      "status": "未发现问题",
+      "detail": "两条权威源（Duden官方词典+DWDS语料库词典），修复后增至三条（新增World Wide Words词源专文），非泛泛而谈。"
+    },
+    {
+      "dimension": "时效性",
+      "status": "不适用",
+      "detail": "词源学科普内容，核心事实无过时风险，published=2026-08-03，updated本次改为2026-08-12。"
+    },
+    {
+      "dimension": "竞品差异化",
+      "status": "确认发现可强化点，已通过事实修复顺带解决",
+      "detail": "get_serp_results实测'schadenfreude meaning'：本文尚未进入前20（符合发布9天预期）。头部竞品Wikipedia/Merriam-Webster/lithub/Reddit/EBSCO/psyche.co/calm.com/OED/Psychology Today/Grammarly/Cambridge等均止步于词源+定义的常规覆盖，无一篇提及epicaricacy这个具体反例（Wikipedia'Schadenfreude'条目的disambiguation页未見epicaricacy专门讨论）。本次为回应事实准确性问题新增的FAQ条目，直接命中SERP第8名Reddit帖子体现的真实搜索意图（'英语难道真的没有对应词吗'），构成对现有竞品的真实增量，非独立触发的差异化修复。"
+    },
+    {
+      "dimension": "SEO技术审计",
+      "status": "未发现问题",
+      "detail": "curl实测live页面：title 88字节含品牌后缀、description 141字符（在理想区间内）、canonical自引用正确、单一h1、5个h2层级清晰、Article+FAQPage+BreadcrumbList+Person+WebPage schema均正确渲染、robots.txt对全部AI爬虫Allow、ads.txt正确指向pub-5245502795720653、privacy/about页面均200。"
+    },
+    {
+      "dimension": "GEO审计",
+      "status": "修复前粗估未过线附近，修复后估算提升，未做侵入性额外改写",
+      "detail": "Skill(ai-seo)按11维度粗估：coreSummary定义块✓/FAQ自包含问答（修复后5条）✓/schema完整✓；权威原文引语与统计数据维度此前仅2条来源且均为链接式引用，偏弱；epicaricacy修复顺带补强了统计数据完整性（具体年份1721/1621）与权威信号（新增来源）两个维度。粗估修复前约76-80/99（因来源数量少于其余姊妹文章的3-5条，处于及格线附近），修复后约81-85/99，越过80及格线，未发现其余需要强化的具体薄弱点。"
+    },
+    {
+      "dimension": "早期内容AI味补漏",
+      "status": "确认发现问题，独立复核确认为真（并修正了初始误判计数），已修复",
+      "detail": "正文+coreSummary+regionNote+FAQ合计16处em dash，独立复核agent逐条核对后指出：2处为sources来源标签（'Duden — \"Schadenfreude\"'等，合规保留）、1处为FAQ第4条'No —'开头（本站两类允许例外之一，最初诊断误将其计入违规，独立agent核实后予以纠正），其余13处为叙述性/同位语破折号，不符合本站已确立标准。已修复：13处全部改写为句号/冒号/括号结构，仅改动含破折号的具体句子，保留原意；构建后core实live页面narrative dash清零，仅剩3处sources标签+1处FAQ'No —'开头共4处允许用法。"
+    },
+    {
+      "dimension": "外部引用链接腐烂",
+      "status": "未发现问题",
+      "detail": "curl实测Duden/DWDS均200；新增来源World Wide Words经WebSearch交叉核实内容真实存在且与引用内容匹配。"
+    },
+    {
+      "dimension": "内链健康度",
+      "status": "未发现问题",
+      "detail": "grep确认3处站内正文手动锚文本真实链接到本文（deja-vu-meaning/senpai-meaning/german-adjective-endings），非孤儿页；本文自身正文也有2条出站链接到deja-vu-meaning/senpai-meaning，桥接句'同一小圈子的外来词'经核对准确；german-adjective-endings桥接句提及本文'German capitalizes all nouns'惯例，经核对本文正文确有此描述，桥接准确。"
+    },
+    {
+      "dimension": "Schema数据一致性",
+      "status": "已同步",
+      "detail": "本次编辑涉及coreSummary/regionNote/正文/FAQ文字、新增1条FAQ、新增1条来源、updated日期；构建后curl核实live页面Article/FAQPage/BreadcrumbList三项JSON-LD均正确解析，FAQPage新增第5条问答已渲染。"
+    },
+    {
+      "dimension": "合规/敏感度漂移",
+      "status": "未发现问题",
+      "detail": "词源学科普内容，无人物/事件/群体相关敏感表述。"
+    },
+    {
+      "dimension": "配图可用性与版权",
+      "status": "未发现问题",
+      "detail": "本文无guide级image字段，回退站点favicon.svg；核实为全站统一模式（词义类文章无自制SVG需求），非本文缺陷，无第三方图片版权风险。"
+    },
+    {
+      "dimension": "AdSense政策合规",
+      "status": "未发现问题",
+      "detail": "词源学科普内容，无暴力/限制类目/误导性标题问题；ads.txt/robots.txt/privacy/about页面均实测正常。"
+    }
+  ],
+  "actions_taken": [
+    "改写coreSummary+正文+regionNote+FAQ共13处叙述性em dash为句号/冒号/括号结构（仅改动含破折号的具体句子，保留原意），保留2处sources来源标签+1处FAQ'No —'开头共3类允许用法",
+    "软化coreSummary与正文两处绝对化论断（'no single English word'→'no English word in common use'；'no single native word'→'no word in common use'），新增FAQ第5条'Does English have a native word for this at all?'具体交代epicaricacy的存在与被淘汰原因，新增World Wide Words来源",
+    "updated字段同步改为2026-08-12（published字段已存在，未触发L-0809-1回填风险）",
+    "Skill(humanizer)+Skill(avoid-ai-writing)复核确认无其他AI写作痕迹残留（发现新增FAQ答案与站内已有句式'which is exactly why'重复三次，已在本次运行内改写为'so'避免同一短语过度复现）",
+    "npm test（64/64通过）+ npm run build（40页）通过",
+    "git commit（e93ce42）+ push，Cloudflare Pages自动部署（本站无独立deploy hook）",
+    "轮询https://lingogrove.com/schadenfreude-meaning/确认200且改动已生效（epicaricacy内容/破折号清零均核实；CDN边缘节点缓存有短暂新旧混合期，多次采样后确认已全面切换为新版本）",
+    "node tools/submit-indexnow.mjs提交",
+    "内容发布日志.md追加本条审计更新记录"
+  ],
+  "seo_score": "未重新打分具体分值，技术SEO抽查（title/meta/h1/h2/canonical/schema/robots.txt/ads.txt/privacy/about）均无问题",
+  "geo_score": "修复前粗估约76-80/99（来源数量偏少，处于及格线附近）；修复后估算约81-85/99，已越过80及格线",
+  "escalation": null
+}
+```
