@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" font-family="system-ui, -apple-system, sans-serif">
+	<rect width="800" height="460" fill="#f6f4e9"/>
+
+	<rect x="24" y="24" width="360" height="196" rx="10" fill="#fffefa" stroke="#ddd8c4"/>
+	<rect x="24" y="24" width="360" height="40" rx="10" fill="#2f6b47"/>
+	<rect x="24" y="48" width="360" height="16" fill="#2f6b47"/>
+	<text x="204" y="50" text-anchor="middle" fill="#ffffff" font-size="18" font-weight="700">PERSONAL A</text>
+	<g fill="#201f1a" font-size="14">
+		<text x="44" y="94" font-weight="700">No "a": indefinite object</text>
+		<text x="44" y="114" fill="#5a5648">Busco un buen fontanero.</text>
+		<text x="44" y="132" fill="#8a8570" font-size="12">(looking for any plumber)</text>
+		<text x="44" y="164" font-weight="700">"a" required: specific person</text>
+		<text x="44" y="184" fill="#5a5648">Busco a mi hermano.</text>
+		<text x="44" y="202" fill="#8a8570" font-size="12">(looking for one known person)</text>
+	</g>
+
+	<rect x="416" y="24" width="360" height="196" rx="10" fill="#fffefa" stroke="#ddd8c4"/>
+	<rect x="416" y="24" width="360" height="40" rx="10" fill="#204a31"/>
+	<rect x="416" y="48" width="360" height="16" fill="#204a31"/>
+	<text x="596" y="50" text-anchor="middle" fill="#ffffff" font-size="18" font-weight="700">ONLY TWO CONTRACTIONS</text>
+	<g fill="#201f1a" font-size="14">
+		<text x="436" y="94" font-weight="700">a + el → al</text>
+		<text x="436" y="114" fill="#5a5648">Voy al cine. (never "a el cine")</text>
+		<text x="436" y="146" font-weight="700">de + el → del</text>
+		<text x="436" y="166" fill="#5a5648">Vengo del trabajo. (never "de el trabajo")</text>
+		<text x="436" y="198" fill="#8a8570" font-size="12">No contraction with la, los, las, or the pronoun él.</text>
+	</g>
+
+	<rect x="24" y="240" width="752" height="196" rx="10" fill="#fffefa" stroke="#ddd8c4"/>
+	<rect x="24" y="240" width="752" height="40" rx="10" fill="#5a4a2f"/>
+	<rect x="24" y="264" width="752" height="16" fill="#5a4a2f"/>
+	<text x="400" y="266" text-anchor="middle" fill="#ffffff" font-size="18" font-weight="700">VERBS THAT COME WITH THEIR OWN PREPOSITION</text>
+
+	<g fill="#201f1a" font-size="14">
+		<text x="44" y="310" font-weight="700">pensar EN</text>
+		<text x="44" y="330" fill="#5a5648" font-size="13">Pienso en las vacaciones.</text>
+		<text x="44" y="348" fill="#8a8570" font-size="12">to think about</text>
+
+		<text x="234" y="310" font-weight="700">pensar DE</text>
+		<text x="234" y="330" fill="#5a5648" font-size="13">¿Qué piensas de esta película?</text>
+		<text x="234" y="348" fill="#8a8570" font-size="12">to have an opinion of</text>
+
+		<text x="424" y="310" font-weight="700">soñar CON</text>
+		<text x="424" y="330" fill="#5a5648" font-size="13">Sueño con viajar a Japón.</text>
+		<text x="424" y="348" fill="#8a8570" font-size="12">to dream about</text>
+
+		<text x="614" y="310" font-weight="700">depender DE</text>
+		<text x="614" y="330" fill="#5a5648" font-size="13">Depende de tu esfuerzo.</text>
+		<text x="614" y="348" fill="#8a8570" font-size="12">to depend on</text>
+
+		<text x="44" y="392" font-weight="700">tratar DE</text>
+		<text x="44" y="412" fill="#5a5648" font-size="13">Trato de llegar a tiempo.</text>
+		<text x="44" y="430" fill="#8a8570" font-size="12">to try to</text>
+
+		<text x="234" y="392" font-weight="700">consistir EN</text>
+		<text x="234" y="412" fill="#5a5648" font-size="13">El curso consiste en diez lecciones.</text>
+		<text x="234" y="430" fill="#8a8570" font-size="12">to consist of</text>
+	</g>
+</svg>

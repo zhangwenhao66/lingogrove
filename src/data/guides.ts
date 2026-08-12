@@ -2538,4 +2538,96 @@ export const guides: Guide[] = [
 			{ label: 'Larousse — Dictionnaire de français: "ne" (informal spoken dropping, illustrative examples)', url: 'https://www.larousse.fr/dictionnaires/francais/ne/53983' },
 		],
 	},
+	{
+		slug: 'spanish-prepositions',
+		category: 'Grammar',
+		title: 'Spanish Prepositions: The Rules a Vocabulary List Won\'t Teach You',
+		description: 'Every guide lists en, a, de, con, sin. Few connect personal a, the fixed pensar en/pensar de split, and the Mexican hasta reversal into one working system.',
+		published: '2026-08-12',
+		updated: '2026-08-12',
+		coreSummary: 'Spanish has about fifteen core prepositions, and per the RAE\'s own CREA frequency corpus de, en, and a are among the ten most common words in the entire language, so getting them wrong is never a minor slip. Personal a has no English equivalent and depends on whether a direct object is a specific person, verbs like pensar, soñar, depender, and consistir pair with a fixed preposition that rarely matches the one the English verb takes, only a+el (al) and de+el (del) contract, and hasta can reverse its own meaning in Mexican and Central American Spanish depending on the verb it modifies.',
+		language: 'Spanish',
+		sections: [
+			{
+				heading: 'Why the list of fifteen prepositions isn\'t the hard part',
+				body: [
+					'Every Spanish course opens with the same table: a, ante, bajo, con, contra, de, desde, durante, en, entre, hacia, hasta, para, por, según, sin, sobre, tras. Memorizing that list takes an afternoon. What it doesn\'t teach is which preposition to reach for once you\'re inside a real sentence, because Spanish prepositions don\'t map onto English ones the way a bilingual dictionary implies. En covers both "in" and "on" (en la mesa, en la ciudad); de covers "of," "from," and "about" depending on context; a shows up in places English wouldn\'t put any preposition at all.',
+					'These are not obscure words worth skimming past. Per the RAE\'s own "1000 formas más frecuentes" frequency list, drawn from more than 160 million word forms in the CREA corpus, de is the single most frequent word in the entire Spanish language, ahead of every article and every verb, with en and a both landing in the top ten as well. A mistake with one of these three words lands inside some of the most heavily repeated words a Spanish speaker will ever produce.',
+					'That last case, a preposition English simply doesn\'t have, is one of the most common sources of genuine grammar errors for English-speaking learners, and it has nothing to do with mistranslating a word: the gap is structural, not lexical.',
+				],
+			},
+			{
+				heading: 'The preposition English doesn\'t have: personal a',
+				body: [
+					'Per the Real Academia Española\'s own Diccionario panhispánico de dudas entry on the preposition a, Spanish inserts a in front of a direct object that refers to a specific, identifiable person, a marker English has no equivalent for at all. The dictionary\'s own minimal pair makes the distinction directly: "Busca (una) traductora" ("she\'s looking for a translator," any translator, alguna, la que sea) against "Busca a una traductora" ("she\'s looking for a translator," one particular, already-in-mind translator, una en particular).',
+					'The test isn\'t "is it a person," it\'s "is it a specific one." Tengo un gato (I have a cat) skips a because the direct object is a possession, not an individual being singled out; a sentence with a named, known person, like the RAE\'s own example Vi a Pedro en el cine (I saw Pedro at the movies), needs it. Skipping personal a in front of a specific person is one of the errors native speakers notice immediately, the same way a missing article stands out in English.',
+					'This is also why the a doesn\'t survive once the noun gets replaced by a pronoun: Conozco a tu hermano collapses to Lo conozco, not A él lo conozco. The whole a-marked phrase gets swapped for the pronoun; the full rule for which pronoun to reach for is covered in [direct vs. indirect object pronouns](/direct-vs-indirect-object-pronouns-spanish/).',
+				],
+			},
+			{
+				heading: 'Verbs that come with their own preposition, and it isn\'t the English one',
+				body: [
+					'A second, unrelated trap: many Spanish verbs are fixed to a specific preposition, and that preposition frequently doesn\'t match whatever preposition the equivalent English verb takes. Getting the verb right and the preposition wrong still reads as a mistake.',
+					'Pensar splits into two different meanings depending on which preposition follows it. Pensar en means "to think about," used for whatever\'s occupying your thoughts: Pienso en las vacaciones (I\'m thinking about vacation). Pensar de asks for an opinion instead: ¿Qué piensas de esta película? (What do you think of this movie?). Swapping the two changes the actual question being asked, not just the phrasing.',
+					'A handful of other high-frequency pairs work the same way and have to be learned as part of the verb itself, not derived from the English translation: soñar con (to dream about, never soñar de), depender de (to depend on), tratar de (to try to), and consistir en (to consist of). El resultado depende de tu esfuerzo, El curso consiste en diez lecciones, Trato de llegar a tiempo.',
+				],
+				image: {
+					src: '/images/spanish-prepositions-diagram.svg',
+					alt: 'Diagram showing three preposition rules: personal a required before a specific person but not an indefinite one, the only two Spanish contractions (a+el = al, de+el = del), and six verbs with a fixed preposition (pensar en, pensar de, soñar con, depender de, tratar de, consistir en) each with an example sentence.',
+				},
+			},
+			{
+				heading: 'Al and del: the only two contractions in the entire language',
+				body: [
+					'Spanish keeps its prepositions and articles almost entirely separate, with exactly one exception in each direction. A + el contracts to al, and de + el contracts to del, every time, with no option to write them separately: Voy al cine (never a el cine), Vengo del trabajo (never de el trabajo).',
+					'The contraction only fires with the masculine singular article el. It doesn\'t touch la, los, las, or the accented pronoun él: Voy a la tienda stays two words, and Se lo di a él (I gave it to him) keeps a él separate, because él there is a pronoun, not the article.',
+				],
+			},
+			{
+				heading: 'Hasta can flip its own meaning, depending on where you are',
+				body: [
+					'Hasta ordinarily means "until" or "up to," a meaning that holds in Spain, Argentina, and most of South America regardless of which verb it modifies. Mexican Spanish linguistics scholarship on this specific construction, including Juan M. Lope Blanch\'s study "Precisiones sobre el uso mexicano de la preposición hasta" and a later re-analysis by Jun\'nosuke Miyoshi, "Nueva reflexión sobre el uso particular americano de hasta," documents Mexican Spanish, along with usage recorded across other parts of Latin America, as reading hasta in the opposite direction when it modifies a telic predicate: a verb or verb phrase with a built-in endpoint (opening, arriving, finishing) rather than an open-ended, ongoing state.',
+					'One way this scholarship describes the pattern is as a silent no sitting in front of the verb: Viene hasta las diez, in this usage, means the same thing as the standard No viene hasta las diez, "he doesn\'t come until ten," even though the sentence itself has no negative word in it at all.',
+					'Abren hasta las diez works the same way. Read the standard, non-elliptical way, it would oddly suggest a shop opens and then keeps "opening" until ten, which doesn\'t match how abrir actually works; in this Mexican usage, it means they don\'t open until ten, i.e., closed before then. With a genuinely ongoing-state verb instead, like cerrar in the sense of "staying open until closing," hasta keeps its ordinary meaning everywhere: La tienda cierra hasta las nueve reads as "the store is open until nine" in every major dialect, with no hidden no to supply. It\'s exactly the kind of gap a translation app won\'t catch, because both readings are grammatically well-formed, just with opposite real-world meanings.',
+				],
+			},
+			{
+				heading: 'Where por and para fit into all this',
+				body: [
+					'Two of the fifteen core prepositions, por and para, get a full breakdown of their own rather than a short mention here, because the purpose-versus-cause distinction between them is dense enough to need worked examples: see [por vs. para](/por-vs-para/) for the logic that drives the choice between them. The same approach used there, stop translating and ask what job the word is doing in the sentence, applies to every preposition on this page.',
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'Do you need personal a before every person in Spanish?',
+				answer: 'Only before a direct object that refers to a specific, identifiable person, not an indefinite one. Busco un buen fontanero (looking for any plumber) skips a; Busco a mi hermano (looking for one specific, known person) requires it. A possession like Tengo un gato also skips a, because the direct object isn\'t a person being singled out.',
+			},
+			{
+				question: 'What\'s the difference between pensar en and pensar de?',
+				answer: 'Pensar en means "to think about" and is used for whatever\'s occupying someone\'s thoughts: Pienso en las vacaciones. Pensar de asks for an opinion: ¿Qué piensas de esta película? The two prepositions aren\'t interchangeable; swapping them changes what\'s actually being asked.',
+			},
+			{
+				question: 'Why does "al" exist but "de la" doesn\'t contract to anything?',
+				answer: 'Spanish only contracts a preposition with the masculine singular article el: a + el becomes al, and de + el becomes del. La, los, and las never contract with a preposition, and neither does the pronoun él, so a él (to him) always stays two words even though it looks similar to a el.',
+			},
+			{
+				question: 'Does hasta always mean "until" in Spanish?',
+				answer: 'In Spain, Argentina, and most of South America, yes. In Mexico and parts of Central America, per Mexican Spanish linguistics scholarship on the construction (Lope Blanch, Miyoshi), hasta can reverse in meaning when it pairs with a telic verb, one with a built-in endpoint, like abrir: Abren hasta las diez means they don\'t open until ten in that usage, rather than the standard "open until ten" reading. With an ongoing-state verb like cerrar (in the "stays open until closing" sense), hasta keeps its ordinary meaning everywhere.',
+			},
+			{
+				question: 'Is there a shortcut for knowing which preposition follows a Spanish verb?',
+				answer: 'No reliable one. The preposition a verb takes (soñar con, depender de, consistir en, tratar de) is fixed to that specific verb and doesn\'t follow from the English translation or from any general rule about the preposition\'s usual meaning. The only way through is learning each verb-preposition pair as a single unit.',
+			},
+		],
+		sources: [
+			{ label: 'Real Academia Española — Diccionario panhispánico de dudas: "a" (personal a, minimal pairs)', url: 'https://www.rae.es/dpd/a' },
+			{ label: 'Real Academia Española — Glosario de términos gramaticales: "Complemento directo con a personal, complemento directo preposicional"', url: 'https://www.rae.es/gtg/complemento-directo-con-a-personal-complemento-directo-preposicional' },
+			{ label: 'SpanishDictionary.com — Compare: "Pensar en vs. Pensar de"', url: 'https://www.spanishdict.com/compare/pensar%20en/pensar%20de' },
+			{ label: 'Real Fast Spanish — "25 Common Spanish Verbs and Their Prepositions"', url: 'https://www.realfastspanish.com/grammar/verbs-prepositions' },
+			{ label: 'Miyoshi, Jun\'nosuke — "Nueva reflexión sobre el uso particular americano de hasta," Anuario de Letras: Lingüística y Filología (2013)', url: 'https://dialnet.unirioja.es/descarga/articulo/4933453.pdf' },
+			{ label: 'WordReference Forums — "hasta (México)"', url: 'https://forum.wordreference.com/threads/hasta-m%C3%A9xico.315420/' },
+			{ label: 'Wikipedia — "Most common words in Spanish" (RAE CREA "1000 formas más frecuentes" frequency data)', url: 'https://en.wikipedia.org/wiki/Most_common_words_in_Spanish' },
+		],
+	},
 ];
