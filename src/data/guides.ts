@@ -388,25 +388,25 @@ export const guides: Guide[] = [
 		title: 'Schadenfreude Meaning: The German Word English Never Had',
 		description: 'Schadenfreude names the pleasure of watching someone else\'s misfortune. German built the word from two plain nouns; English just borrowed it.',
 		published: '2026-08-03',
-		updated: '2026-08-03',
-		coreSummary: 'Schadenfreude is a German compound noun — Schaden ("harm, damage") plus Freude ("joy") — meaning pleasure taken in someone else\'s misfortune. Duden, the standard German dictionary, defines it as "boshafte Freude über das Missgeschick, Unglück eines andern" ("malicious joy at another\'s mishap or misfortune"), while the corpus-based dictionary DWDS gives a more neutral phrasing without the "malicious" qualifier. English adopted the German word directly rather than translate it, largely because no single English word names that exact feeling.',
+		updated: '2026-08-12',
+		coreSummary: 'Schadenfreude is a German compound noun (Schaden, "harm, damage," plus Freude, "joy") meaning pleasure taken in someone else\'s misfortune. Duden, the standard German dictionary, defines it as "boshafte Freude über das Missgeschick, Unglück eines andern" ("malicious joy at another\'s mishap or misfortune"), while the corpus-based dictionary DWDS gives a more neutral phrasing without the "malicious" qualifier. English adopted the German word directly rather than translate it, largely because no English word in common use named that exact feeling.',
 		language: 'German',
 		usageNote: {
 			register: 'neutral',
-			regionNote: 'Not a slang or vulgar term in either language — it\'s an ordinary, everyday noun in German, and a fairly literary or formal-register borrowing in English, more likely to show up in writing or a pointed remark than in casual small talk.',
+			regionNote: 'Not a slang or vulgar term in either language: it\'s an ordinary, everyday noun in German, and a fairly literary or formal-register borrowing in English, more likely to show up in writing or a pointed remark than in casual small talk.',
 		},
 		sections: [
 			{
 				heading: 'A compound word English never got around to building',
 				body: [
-					'German builds new words by fusing existing ones together, and *Schadenfreude* is one of the clearest examples: *Schaden* means "harm" or "damage," *Freude* means "joy," and stacking them gives you, transparently, "harm-joy." Duden, the standard reference dictionary for German, defines it as "boshafte Freude über das Missgeschick, Unglück eines andern" — malicious joy at another person\'s mishap or misfortune.',
-					'English could have built the same compound out of its own materials — "harm-joy" isn\'t an unreasonable calque — but it never did. Instead, English speakers reached for the ready-made German word once they needed to name the feeling precisely, which is the common path a loanword takes when the borrowing language has the concept but never bothered to name it on its own.',
+					'German builds new words by fusing existing ones together, and *Schadenfreude* is one of the clearest examples: *Schaden* means "harm" or "damage," *Freude* means "joy," and stacking them gives you, transparently, "harm-joy." Duden, the standard reference dictionary for German, defines it as "boshafte Freude über das Missgeschick, Unglück eines andern": malicious joy at another person\'s mishap or misfortune.',
+					'English could have built the same compound out of its own materials ("harm-joy" isn\'t an unreasonable calque). It came close once, in fact: an obscure eighteenth-century coinage named the same feeling but never caught on (more on that below). Instead, English speakers reached for the ready-made German word once they needed to name the feeling precisely, which is the common path a loanword takes when the borrowing language has the concept but no word for it that anyone actually uses.',
 				],
 			},
 			{
 				heading: 'The specific feeling it names',
 				body: [
-					'The precision matters: Schadenfreude isn\'t pleasure at just anything bad happening, and it isn\'t wanting harm on someone in advance. It\'s the specific, narrower reaction of enjoying misfortune that has already happened to someone else — a rival sports team blowing a lead, a driver who cut you off getting pulled over two blocks later, a smug prediction aging badly. The emotion is common enough to be near-universal, which is exactly why a one-word label for it was useful enough to travel between languages.',
+					'The precision matters: Schadenfreude isn\'t pleasure at just anything bad happening, and it isn\'t wanting harm on someone in advance. It\'s the specific, narrower reaction of enjoying misfortune that has already happened to someone else: a rival sports team blowing a lead, a driver who cut you off getting pulled over two blocks later, a smug prediction aging badly. The emotion is common enough to be near-universal, which is exactly why a one-word label for it was useful enough to travel between languages.',
 					'German dictionaries themselves don\'t fully agree on how much moral judgment to build into the definition. Duden\'s "boshafte Freude" leans into "malicious," while DWDS defines the same word without that qualifier, as simply pleasure at another\'s mishap. Psychologists studying the emotion generally treat it the second way: a description of a common reaction, not a verdict on the character of whoever feels it.',
 				],
 			},
@@ -415,25 +415,25 @@ export const guides: Guide[] = [
 				body: [
 					'In English, Schadenfreude functions as an uncountable noun, almost always used on its own rather than pluralized or modified heavily: *"There was more than a little schadenfreude in the office when the loudest critic\'s project got cancelled."* It keeps its German capitalization in careful writing (German capitalizes all nouns), though English style guides vary and lowercase *schadenfreude* is common and accepted.',
 					'Pronunciation is the other thing that trips up new users: it\'s roughly *SHAH-dən-froy-də*, with the "sch" as an English "sh" sound and the final "e" pronounced as a short, weak vowel rather than silent.',
-					'It sits in the same category as words like [déjà vu](/deja-vu-meaning/) and [senpai](/senpai-meaning/) — a foreign phrase English adopted wholesale rather than translate, because nothing native said quite the same thing.',
+					'It sits in the same category as words like [déjà vu](/deja-vu-meaning/) and [senpai](/senpai-meaning/), a foreign phrase English adopted wholesale rather than translate, because nothing native said quite the same thing.',
 				],
 			},
 			{
 				heading: '"Schadenfreude" isn\'t quite the same thing as "gloating"',
 				body: [
-					'English does have words that sit near schadenfreude, and it\'s worth being precise about how they differ. "Gloating" describes openly, visibly expressing triumph over someone else\'s failure, often when you had some hand in causing it or in besting them directly — it\'s an action, not just a feeling, and it usually shows. Schadenfreude is the private feeling itself, whether or not you ever act on it or had anything to do with causing the misfortune in the first place: you can feel schadenfreude silently, watching the news, about a stranger\'s bad luck you had zero part in.',
-					'That\'s the gap German filled and English didn\'t: English has words for showing triumph (gloating, crowing) but no single native word for the quieter, purely internal version of the same reaction, which is exactly the gap Schadenfreude was borrowed to fill.',
+					'English does have words that sit near schadenfreude, and it\'s worth being precise about how they differ. "Gloating" describes openly, visibly expressing triumph over someone else\'s failure, often when you had some hand in causing it or in besting them directly. It\'s an action, not just a feeling, and it usually shows. Schadenfreude is the private feeling itself, whether or not you ever act on it or had anything to do with causing the misfortune in the first place: you can feel schadenfreude silently, watching the news, about a stranger\'s bad luck you had zero part in.',
+					'That\'s the gap German filled and English didn\'t, in ordinary usage: English has words for showing triumph (gloating, crowing) but no word in common use for the quieter, purely internal version of the same reaction, which is exactly the gap Schadenfreude was borrowed to fill.',
 				],
 			},
 		],
 		faq: [
 			{
 				question: 'What does "schadenfreude" literally mean, word for word?',
-				answer: 'It\'s a compound of two German nouns: Schaden ("harm" or "damage") and Freude ("joy"). Duden defines the whole word as "boshafte Freude über das Missgeschick, Unglück eines andern" — malicious joy at another\'s mishap or misfortune — though the dictionary DWDS phrases the same meaning without the "malicious" qualifier.',
+				answer: 'It\'s a compound of two German nouns: Schaden ("harm" or "damage") and Freude ("joy"). Duden defines the whole word as "boshafte Freude über das Missgeschick, Unglück eines andern" (malicious joy at another\'s mishap or misfortune), though the dictionary DWDS phrases the same meaning without the "malicious" qualifier.',
 			},
 			{
 				question: 'Is schadenfreude the same thing as being cruel or mean-spirited?',
-				answer: 'Not exactly. It describes a specific, common emotional reaction — enjoying someone else\'s bad luck, often in a minor or karmic-feeling situation — rather than actively wishing harm on someone. The word names the feeling; it doesn\'t pass judgment on whether feeling it makes someone a bad person.',
+				answer: 'Not exactly. It describes a specific, common emotional reaction (enjoying someone else\'s bad luck, often in a minor or karmic-feeling situation) rather than actively wishing harm on someone. The word names the feeling; it doesn\'t pass judgment on whether feeling it makes someone a bad person.',
 			},
 			{
 				question: 'How do you pronounce schadenfreude?',
@@ -443,10 +443,15 @@ export const guides: Guide[] = [
 				question: 'Is schadenfreude a rude or vulgar word in German?',
 				answer: 'No — it\'s a completely ordinary, everyday noun in German, with no vulgar or offensive connotation. In English, it tends to sound a bit more formal or literary simply because it\'s a borrowed word rather than because of anything impolite about it.',
 			},
+			{
+				question: 'Does English have a native word for this at all?',
+				answer: 'Barely, and it never caught on. Reference works record an obscure English coinage, epicaricacy, going back to the early 1700s, built from Greek roots for roughly "joy at evil." It named the identical feeling, but almost nobody used it, so English reached past its own vocabulary for schadenfreude once the concept needed a word people would actually recognize.',
+			},
 		],
 		sources: [
 			{ label: 'Duden — "Schadenfreude"', url: 'https://www.duden.de/rechtschreibung/Schadenfreude' },
 			{ label: 'DWDS — "Schadenfreude"', url: 'https://www.dwds.de/wb/Schadenfreude' },
+			{ label: 'World Wide Words — "Epicaricacy: the rare English word for Schadenfreude"', url: 'https://www.worldwidewords.org/ww-epi3.html' },
 		],
 	},
 	{
