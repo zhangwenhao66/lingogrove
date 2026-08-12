@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 900" font-family="system-ui, -apple-system, sans-serif">
+	<rect width="800" height="900" fill="#f6f4e9"/>
+	<rect x="24" y="24" width="752" height="852" rx="10" fill="#fffefa" stroke="#ddd8c4"/>
+
+	<rect x="24" y="24" width="752" height="56" rx="10" fill="#2f6b47"/>
+	<rect x="24" y="60" width="752" height="20" fill="#2f6b47"/>
+	<text x="400" y="60" text-anchor="middle" fill="#ffffff" font-size="17" font-weight="700">GERMAN PERFEKT: HABEN/SEIN + PARTIZIP II</text>
+
+	<!-- row 1: Satzklammer word order -->
+	<rect x="46" y="100" width="708" height="118" rx="8" fill="#fbead0" stroke="#ddd8c4"/>
+	<text x="400" y="124" text-anchor="middle" fill="#5a5648" font-size="11" font-weight="700">WORD ORDER: AUXILIARY IN POSITION 2, PARTICIPLE AT THE END</text>
+
+	<text x="90" y="168" fill="#201f1a" font-size="15">Ich</text>
+	<rect x="130" y="150" width="70" height="28" rx="5" fill="#2f6b47"/>
+	<text x="165" y="169" text-anchor="middle" fill="#ffffff" font-size="14" font-weight="700">habe</text>
+	<text x="215" y="168" fill="#201f1a" font-size="15">das Buch gestern</text>
+	<rect x="420" y="150" width="110" height="28" rx="5" fill="#8a4b1f"/>
+	<text x="475" y="169" text-anchor="middle" fill="#ffffff" font-size="14" font-weight="700">gelesen.</text>
+	<text x="165" y="196" text-anchor="middle" fill="#2f6b47" font-size="10">position 2</text>
+	<text x="475" y="196" text-anchor="middle" fill="#8a4b1f" font-size="10">clause-final</text>
+	<text x="620" y="169" text-anchor="middle" fill="#5a5648" font-size="11">"I read the book yesterday"</text>
+
+	<!-- row 2: haben vs sein -->
+	<rect x="46" y="234" width="345" height="270" rx="8" fill="#eaf1ea" stroke="#2f6b47"/>
+	<rect x="409" y="234" width="345" height="270" rx="8" fill="#f2e6da" stroke="#8a4b1f"/>
+
+	<text x="218" y="260" text-anchor="middle" fill="#204a31" font-size="14" font-weight="700">HABEN (default)</text>
+	<text x="581" y="260" text-anchor="middle" fill="#6b3712" font-size="14" font-weight="700">SEIN (marked cases)</text>
+
+	<text x="66" y="286" fill="#201f1a" font-size="11">Almost every verb, including</text>
+	<text x="66" y="303" fill="#201f1a" font-size="11">all transitive verbs (ones</text>
+	<text x="66" y="320" fill="#201f1a" font-size="11">with a direct object):</text>
+	<text x="66" y="345" fill="#2f6b47" font-size="12" font-weight="700">ich habe gemacht</text>
+	<text x="66" y="363" fill="#2f6b47" font-size="12" font-weight="700">ich habe gegessen</text>
+	<text x="66" y="381" fill="#2f6b47" font-size="12" font-weight="700">ich habe gearbeitet</text>
+
+	<text x="66" y="410" fill="#5a5648" font-size="10">Regional exception: "ich habe</text>
+	<text x="66" y="425" fill="#5a5648" font-size="10">gesessen/gestanden/gelegen" is</text>
+	<text x="66" y="440" fill="#5a5648" font-size="10">standard in northern Germany</text>
+	<text x="66" y="455" fill="#5a5648" font-size="10">(south/Austria/Switzerland use sein)</text>
+
+	<text x="66" y="483" fill="#5a5648" font-size="10">Motion with NO stated destination:</text>
+	<text x="66" y="497" fill="#2f6b47" font-size="11" font-weight="700">ich habe geschwommen</text>
+
+	<text x="429" y="286" fill="#201f1a" font-size="11">sein, bleiben, werden</text>
+	<text x="429" y="301" fill="#201f1a" font-size="11">themselves, always sein</text>
+
+	<text x="429" y="326" fill="#201f1a" font-size="11">Motion WITH a stated</text>
+	<text x="429" y="341" fill="#201f1a" font-size="11">destination/direction:</text>
+	<text x="429" y="360" fill="#8a4b1f" font-size="12" font-weight="700">ich bin gegangen</text>
+	<text x="429" y="377" fill="#8a4b1f" font-size="12" font-weight="700">ich bin ans Ufer geschwommen</text>
+
+	<text x="429" y="403" fill="#201f1a" font-size="11">State-change verbs:</text>
+	<text x="429" y="420" fill="#8a4b1f" font-size="11" font-weight="700">aufwachen, sterben, wachsen</text>
+
+	<text x="429" y="446" fill="#201f1a" font-size="11">Fixed exceptions (no motion,</text>
+	<text x="429" y="461" fill="#201f1a" font-size="11">no state change, still sein):</text>
+	<text x="429" y="480" fill="#8a4b1f" font-size="11" font-weight="700">passieren, geschehen, gelingen,</text>
+	<text x="429" y="497" fill="#8a4b1f" font-size="11" font-weight="700">misslingen, begegnen</text>
+
+	<!-- row 3: Partizip II formation -->
+	<rect x="46" y="522" width="708" height="150" rx="8" fill="#fffefa" stroke="#ddd8c4"/>
+	<text x="400" y="546" text-anchor="middle" fill="#5a5648" font-size="11" font-weight="700">FORMING THE PARTIZIP II</text>
+
+	<text x="66" y="574" fill="#201f1a" font-size="12" font-weight="700">Regular (weak):</text>
+	<text x="66" y="593" fill="#5a5648" font-size="11">ge- + stem + -t</text>
+	<text x="66" y="612" fill="#2f6b47" font-size="12">machen &#8594; gemacht</text>
+	<text x="66" y="630" fill="#5a5648" font-size="10">stem ends -d/-t/-m/-n: +et</text>
+	<text x="66" y="646" fill="#2f6b47" font-size="12">arbeiten &#8594; gearbeitet</text>
+
+	<text x="292" y="574" fill="#201f1a" font-size="12" font-weight="700">Irregular (strong):</text>
+	<text x="292" y="593" fill="#5a5648" font-size="11">ge- + stem (often vowel</text>
+	<text x="292" y="608" fill="#5a5648" font-size="11">change) + -en, memorized</text>
+	<text x="292" y="630" fill="#2f6b47" font-size="12">essen &#8594; gegessen</text>
+	<text x="292" y="648" fill="#2f6b47" font-size="12">sprechen &#8594; gesprochen</text>
+
+	<text x="530" y="574" fill="#201f1a" font-size="12" font-weight="700">No ge- at all:</text>
+	<text x="530" y="593" fill="#5a5648" font-size="11">inseparable prefixes</text>
+	<text x="530" y="608" fill="#5a5648" font-size="11">(be-/emp-/ent-/er-/ge-/</text>
+	<text x="530" y="622" fill="#5a5648" font-size="11">miss-/ver-/zer-) and -ieren</text>
+	<text x="530" y="642" fill="#8a4b1f" font-size="12">besuchen &#8594; besucht</text>
+	<text x="530" y="660" fill="#8a4b1f" font-size="12">studieren &#8594; studiert</text>
+
+	<!-- row 4: Perfekt vs Präteritum -->
+	<rect x="46" y="694" width="708" height="164" rx="8" fill="#eaf1ea" stroke="#2f6b47"/>
+	<text x="400" y="718" text-anchor="middle" fill="#204a31" font-size="12" font-weight="700">PERFEKT VS. PR&#196;TERITUM: A REGISTER SPLIT, NOT A MEANING SPLIT</text>
+
+	<text x="66" y="746" fill="#201f1a" font-size="11" font-weight="700">Spoken German (nearly every verb):</text>
+	<text x="66" y="765" fill="#2f6b47" font-size="13" font-weight="700">Perfekt</text>
+	<text x="66" y="783" fill="#5a5648" font-size="10">Pr&#228;teritum sounds overly formal</text>
+	<text x="66" y="798" fill="#5a5648" font-size="10">or regionally odd in conversation</text>
+
+	<text x="292" y="746" fill="#201f1a" font-size="11" font-weight="700">Written narrative (standard):</text>
+	<text x="292" y="765" fill="#2f6b47" font-size="13" font-weight="700">Pr&#228;teritum</text>
+	<text x="292" y="783" fill="#5a5648" font-size="10">Default tense for literary and</text>
+	<text x="292" y="798" fill="#5a5648" font-size="10">journalistic chronological narration</text>
+
+	<text x="530" y="746" fill="#201f1a" font-size="11" font-weight="700">Exception, even in speech:</text>
+	<text x="530" y="765" fill="#8a4b1f" font-size="12" font-weight="700">war, hatte, wollte,</text>
+	<text x="530" y="783" fill="#8a4b1f" font-size="12" font-weight="700">musste, konnte...</text>
+	<text x="530" y="801" fill="#5a5648" font-size="10">sein, haben, modal verbs stay</text>
+	<text x="530" y="815" fill="#5a5648" font-size="10">in Pr&#228;teritum even when spoken</text>
+
+	<text x="400" y="838" text-anchor="middle" fill="#5a5648" font-size="10">Source: Duden Sprachwissen ("Perfekt vs. Pr&#228;teritum") + Leibniz-Institut f&#252;r Deutsche Sprache (IDS Mannheim), Grammis</text>
+</svg>

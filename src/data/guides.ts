@@ -2630,4 +2630,86 @@ export const guides: Guide[] = [
 			{ label: 'Wikipedia — "Most common words in Spanish" (RAE CREA "1000 formas más frecuentes" frequency data)', url: 'https://en.wikipedia.org/wiki/Most_common_words_in_Spanish' },
 		],
 	},
+	{
+		slug: 'german-perfect-tense',
+		category: 'Grammar',
+		title: 'German Perfect Tense (Perfekt): Haben, Sein, and the Partizip II',
+		description: 'German Perfekt looks like English present perfect but works like spoken simple past: haben vs. sein, the participle, and when Präteritum takes over.',
+		published: '2026-08-12',
+		updated: '2026-08-12',
+		coreSummary: 'The German Perfekt combines a present-tense form of haben or sein with a Partizip II placed at the very end of the clause. Most verbs take haben; sein is reserved for sein, bleiben, and werden themselves, for verbs of directed motion, for verbs of state change, and for a fixed set of exceptions including passieren, geschehen, and gelingen, while a handful of verbs like schwimmen switch between the two depending on whether the sentence states a destination. Unlike English, which pairs present perfect with a distinct simple past, spoken German uses Perfekt for nearly every verb in ordinary conversation and saves Präteritum mainly for written narrative, except for sein, haben, and the modal verbs, which stay in Präteritum even when spoken aloud.',
+		language: 'German',
+		sections: [
+			{
+				heading: 'Perfekt doesn\'t map onto English "have done"',
+				body: [
+					'German learners usually meet the Perfekt through its literal translation: *ich habe gegessen* becomes "I have eaten," and it\'s tempting to treat the two tenses as interchangeable, reserved for the same narrow situations. English present perfect resists a specific past time marker; *"I have eaten yesterday"* is simply ungrammatical, and *"I ate yesterday"* is the only correct option. German Perfekt carries no such restriction. *Ich habe gestern Pizza gegessen* ("I ate pizza yesterday") is completely standard, ordinary spoken German, using the exact tense that would be blocked in English by the word "yesterday."',
+					'The mismatch runs deeper than one blocked sentence. In conversation, German speakers reach for Perfekt to report almost anything that happened earlier, regardless of whether it connects to the present the way English present perfect requires. What actually separates German\'s two past tenses, Perfekt and Präteritum, has far less to do with meaning than a learner coming from English would expect, and far more to do with whether the sentence is spoken or written, a distinction covered in full further down.',
+				],
+			},
+			{
+				heading: 'Building it: the auxiliary in position 2, the participle at the end',
+				body: [
+					'Per the Leibniz-Institut für Deutsche Sprache\'s Grammis reference, the Perfekt is formed from the present tense of one of two auxiliary verbs, haben or sein, plus the Partizip II (past participle) of the main verb. That much is a direct parallel to English "have" plus a participle. What isn\'t parallel is where the two pieces end up in the sentence.',
+					'German main clauses put the finite (conjugated) verb in the second position, no matter how many other elements come before or after it. In a Perfekt sentence, that finite slot is filled by the auxiliary, while the participle gets pushed all the way to the end of the clause, forming what\'s often called the Satzklammer, or "sentence bracket": *Ich habe das Buch gestern gelesen* ("I read the book yesterday") splits *habe* and *gelesen* across the whole sentence, with *das Buch gestern* sitting between them. English keeps "have" and the participle sitting next to each other; German never does, once anything else is in the clause.',
+				],
+				image: {
+					src: '/images/german-perfect-tense-diagram.svg',
+					alt: 'Diagram of the German Perfekt showing the Satzklammer word order (auxiliary in position 2, participle clause-final), the haben-vs-sein decision split with the schwimmen direction test and the northern/southern German regional variant for sitzen/stehen/liegen, the three Partizip II formation patterns (regular -t, irregular -en, no ge- for inseparable prefixes and -ieren verbs), and the Perfekt-vs-Präteritum register split with the sein/haben/modal-verb exception.',
+				},
+			},
+			{
+				heading: 'Choosing haben or sein',
+				body: [
+					'Haben is the default. It covers the large majority of German verbs, including every transitive verb, meaning any verb that takes a direct object: *ich habe das Auto gewaschen*, *ich habe einen Brief geschrieben*. When in doubt, haben is the statistically safe guess.',
+					'Sein is reserved for a smaller, more specific set. Per Duden\'s own reference on the choice, three groups take sein: the verbs *sein*, *bleiben*, and *werden* themselves, always; verbs of movement that carry, or could carry, a directional destination (*ich bin gegangen*, *sie ist über die Straße gesprungen*); and intransitive verbs describing a change in the subject\'s state (*er ist aufgewacht*, *die Blumen sind verblüht*). A short list of verbs that fit neither the motion nor the state-change description still take sein by fixed convention: *passieren*, *geschehen*, *gelingen*, *misslingen*, and *begegnen*.',
+					'The genuinely tricky part, and the one most course-style explanations flatten into a single rule, is that several motion verbs, including *schwimmen*, *fliegen*, and *laufen*, can take either auxiliary depending on whether the sentence states a direction. Per Duden, *ich habe geschwommen* describes swimming as an activity with no stated destination, while *ich bin ans andere Ufer geschwommen* ("I swam to the other shore") switches to sein the moment a destination enters the sentence. The verb itself doesn\'t decide; the presence or absence of a directional phrase does.',
+					'One more layer worth knowing before assuming a "wrong" form is a mistake: per Duden and the Leibniz-Institut\'s Grammis, verbs of rest, *sitzen*, *stehen*, and *liegen*, split by region. Northern German uses haben as the standalone-verb rule would predict: *ich habe gesessen*, *ich habe gestanden*. Southern Germany, Austria, and Switzerland instead use sein for the same verbs: *ich bin gesessen*, *ich bin gestanden*. Both are correct within their respective regions; neither is a regional error to be corrected toward the other.',
+				],
+			},
+			{
+				heading: 'Forming the Partizip II',
+				body: [
+					'Regular (weak) verbs form the participle by adding the prefix *ge-* and the ending *-t* to the verb stem: *machen* → *gemacht*, *kaufen* → *gekauft*. When the stem itself ends in *-d*, *-t*, *-m*, or *-n* preceded by a consonant, an *-e-* is inserted before the *-t* so the word stays pronounceable: *arbeiten* → *gearbeitet*, not *gearbtet*; *regnen* → *geregnet*.',
+					'Irregular (strong) verbs take *ge-* plus the ending *-en* instead, often with a vowel change in the stem that has to be learned verb by verb rather than derived from a rule: *essen* → *gegessen*, *sprechen* → *gesprochen*, *sehen* → *gesehen*.',
+					'Two categories of verbs drop the *ge-* prefix entirely, regardless of whether they\'re otherwise regular or irregular. Verbs carrying one of the eight inseparable prefixes, *be-*, *emp-*, *ent-*, *er-*, *ge-*, *miss-*, *ver-*, and *zer-*, form their participle without it: *besuchen* → *besucht*, *verstehen* → *verstanden*, never *gebesucht* or *geverstanden*. Verbs ending in *-ieren* follow the same no-*ge-* pattern regardless of prefix: *studieren* → *studiert*, *telefonieren* → *telefoniert*. Separable-prefix verbs behave differently from both: they keep the *ge-*, but it lands between the separable prefix and the stem rather than at the very front of the word. *Aufstehen* → *aufgestanden*, not *gaufgestanden*.',
+				],
+			},
+			{
+				heading: 'Perfekt vs. Präteritum: when Germans actually use which',
+				body: [
+					'Per Duden\'s own comparison of the two tenses, the split between Perfekt and Präteritum is primarily one of register, spoken versus written, not one of meaning. In spoken German, narration overwhelmingly happens in Perfekt; Präteritum forms sound regionally unusual or unnecessarily formal in casual conversation. In standard written German, the relationship flips: Präteritum is the default tense for chronological narration in literary texts, reports, and news writing, while Perfekt is comparatively rare outside of dialogue or personal letters.',
+					'A small, extremely frequent group of verbs breaks the spoken-Perfekt default even in casual conversation. *Sein*, *haben*, and the modal verbs (*wollen*, *müssen*, *können*, *dürfen*, *sollen*, *mögen*) stay in Präteritum in speech: *war*, *hatte*, *wollte*, *musste*, *konnte*, *durfte*, *sollte*, and *mochte* are what German speakers actually say, not the grammatically valid but conversationally stilted Perfekt equivalents *ist gewesen*, *hat gehabt*, *hat gewollt*, and so on. Unlike the aspectual choice a Spanish speaker makes between the [preterite and imperfect](/preterite-vs-imperfect/), which tracks whether an action was completed or ongoing, choosing Perfekt or Präteritum in German has almost nothing to do with what actually happened and almost everything to do with whether the sentence is spoken or written, and which specific verb is involved.',
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'Is the German Perfekt the same as the English present perfect?',
+				answer: 'Only in form, not in how it\'s actually used. English present perfect blocks specific past-time markers ("I have eaten yesterday" is ungrammatical), while German Perfekt allows them freely (ich habe gestern gegessen is standard). In spoken German, Perfekt functions much closer to English simple past, reporting anything that happened earlier, regardless of its connection to the present moment.',
+			},
+			{
+				question: 'How do I know whether to use haben or sein in the Perfekt?',
+				answer: 'Haben is the default and covers most verbs, including every transitive verb. Sein applies to sein, bleiben, and werden themselves; to motion verbs with a stated direction or destination; to verbs describing a change of state; and to a fixed exception list (passieren, geschehen, gelingen, misslingen, begegnen). A few motion verbs, like schwimmen, switch between haben and sein depending on whether the sentence names a destination.',
+			},
+			{
+				question: 'Why don\'t "studiert" and "besucht" start with ge-?',
+				answer: 'Two categories of verbs drop the ge- prefix entirely: verbs ending in -ieren (studieren → studiert, telefonieren → telefoniert) and verbs carrying one of the eight inseparable prefixes be-, emp-, ent-, er-, ge-, miss-, ver-, and zer- (besuchen → besucht). Separable-prefix verbs are different again: they keep the ge-, but it moves between the prefix and the stem, as in aufstehen → aufgestanden.',
+			},
+			{
+				question: 'Is "ich bin gesessen" wrong?',
+				answer: 'Not within its region. Standard German (and northern German usage specifically) forms the perfect of sitzen, stehen, and liegen with haben (ich habe gesessen), since these verbs describe rest rather than motion or state change. Southern Germany, Austria, and Switzerland use sein instead (ich bin gesessen) as their regional standard. Per Duden and the Leibniz-Institut\'s Grammis, both forms are correct within their respective regions.',
+			},
+			{
+				question: 'Should I use Perfekt or Präteritum when speaking German?',
+				answer: 'Perfekt, for nearly every verb. Präteritum sounds overly formal or regionally unusual in casual spoken German and is mainly reserved for written narrative. The one major exception is sein, haben, and the modal verbs (wollen, müssen, können, dürfen, sollen, mögen), which German speakers use in Präteritum (war, hatte, wollte, musste...) even in ordinary conversation, because the Perfekt equivalents (ist gewesen, hat gehabt) sound stilted.',
+			},
+		],
+		sources: [
+			{ label: 'Duden — Sprachwissen: "Perfekt vs. Präteritum"', url: 'https://www.duden.de/sprachwissen/sprachratgeber/Perfekt-vs-Pr%C3%A4teritum' },
+			{ label: 'Duden — Sprachwissen: "Perfektbildung mit „haben" oder „sein""', url: 'https://www.duden.de/sprachwissen/sprachratgeber/Perfektbildung-mit-haben-oder-sein' },
+			{ label: 'Leibniz-Institut für Deutsche Sprache (IDS Mannheim) — Grammis: "Ich bin gesessen/gestanden oder ich habe gesessen/gestanden? — Regionale Varianten beim Perfekt mit sein oder haben"', url: 'https://grammis.ids-mannheim.de/fragen/87' },
+			{ label: 'Leibniz-Institut für Deutsche Sprache (IDS Mannheim) — Grammis: "Ich bin geschwommen oder ich habe geschwommen? — Perfekt mit sein oder haben"', url: 'https://grammis.ids-mannheim.de/fragen/86' },
+		],
+	},
 ];
