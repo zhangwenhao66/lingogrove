@@ -19,3 +19,15 @@
 - **Deadline**：2026-08-25 17:00
 - **发布状态**：✅ 已提交，跳转 `thankyou.asp`，Pending approval。提交回执 product id = `481530d64fc7128ba525f46bced40109`。
 - **上线复核**：⏳ 待下次任务运行时补查。
+
+### 2026-08-12 — LingoGrove（lingogrove.com）
+
+- **问题标题**：Spanish teachers and tutors: what finally got the subjunctive to click for a student after everything else failed?
+- **角度**：绑定`spanish-subjunctive`一文，征集西班牙语教师/家教/语言学习教练——具体讲述一次学生长期被虚拟式困扰、最终真正理解的时刻，是什么解释/练习/重新框定起了作用，以及为什么标准教科书讲法没起作用而这个方法起了作用。与此前问过的外来词语义漂移角度（senpai词条，聚焦词汇跨语言含义窄化）完全不同，这次聚焦语法教学突破点。
+- **绑定文章**：LingoGrove `spanish-subjunctive`（Spanish Subjunctive: Why It's a Mood, Not a Tense）。
+- **分类标签**：Topics = General + Parenting & Education；Countries = UK & Republic of Ireland + Canada + United States。
+- **表单设置**：Job title = Content Creator；Organisation = LingoGrove；Contact = Email；Unpaid；Email address 和 Contact email 均填 `contact@lingogrove.com`。
+- **Deadline**：2026-09-02 17:00
+- **发布状态**：✅ 已提交，跳转到 thankyou.asp，提示 "Pending approval..."。提交回执 product id = `1f0ddff654e0f154475efe0028b9e3bc`。
+- **上线复核**：⏳ 待补做（当天提交，通常需要1-2天过审）。
+- **备注**：本次是08-04登录失效连续三次导致周二排期落空后的补做。

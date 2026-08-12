@@ -117,5 +117,15 @@
       "https://lingogrove.com/german-adjective-endings/"
     ],
     "quota_used": "1 request"
+  },
+  {
+    "date": "2026-08-12",
+    "action": "submitted",
+    "reason": "游标第10站，完成本轮完整一圈（游标起点WageLark→终点LingoGrove）。今日新发布spanish-prepositions（personal a+固定动词介词搭配+al/del缩合+墨西哥hasta反转四点整合角度）URL Inspection显示未收录（URL is unknown to Google），REQUEST INDEXING后确认'Indexing requested'。整轮10站全部成功提交，未遇到Quota Exceeded。",
+    "submitted_urls": [
+      "https://lingogrove.com/spanish-prepositions/"
+    ],
+    "already_indexed_no_action": [],
+    "quota_used": "1 request"
   }
 ]
