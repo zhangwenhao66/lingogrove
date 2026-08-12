@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" font-family="system-ui, -apple-system, sans-serif">
+	<rect width="800" height="420" fill="#f6f4e9"/>
+	<rect x="24" y="24" width="360" height="372" rx="10" fill="#fffefa" stroke="#ddd8c4"/>
+	<rect x="416" y="24" width="360" height="372" rx="10" fill="#fffefa" stroke="#ddd8c4"/>
+
+	<rect x="24" y="24" width="360" height="56" rx="10" fill="#2f6b47"/>
+	<rect x="24" y="60" width="360" height="20" fill="#2f6b47"/>
+	<text x="204" y="60" text-anchor="middle" fill="#ffffff" font-size="24" font-weight="700">HABIBI (to a man)</text>
+
+	<rect x="416" y="24" width="360" height="56" rx="10" fill="#204a31"/>
+	<rect x="416" y="60" width="360" height="20" fill="#204a31"/>
+	<text x="596" y="60" text-anchor="middle" fill="#ffffff" font-size="24" font-weight="700">HABIBTI (to a woman)</text>
+
+	<g fill="#201f1a" font-size="16">
+		<text x="48" y="118" font-weight="700">Root ح-ب-ب (ḥ-b-b)</text>
+		<text x="48" y="140" fill="#5a5648" font-size="14">core meaning: "love, fondness"</text>
+
+		<text x="48" y="176" font-weight="700">+ habib حبيب</text>
+		<text x="48" y="198" fill="#5a5648" font-size="14">"beloved" — masculine adjective</text>
+
+		<text x="48" y="234" font-weight="700">+ -i ي ("my")</text>
+		<text x="48" y="256" fill="#5a5648" font-size="14">1st-person possessive suffix</text>
+
+		<text x="48" y="300" font-weight="700" font-size="20">= habibi حبيبي</text>
+		<text x="48" y="324" fill="#5a5648" font-size="14">"my beloved," addressed to a male</text>
+
+		<text x="48" y="366" fill="#5a5648" font-size="13">Same pattern as ابني (ibni, "my son")</text>
+	</g>
+
+	<g fill="#201f1a" font-size="16">
+		<text x="440" y="118" font-weight="700">Root ح-ب-ب (ḥ-b-b)</text>
+		<text x="440" y="140" fill="#5a5648" font-size="14">core meaning: "love, fondness"</text>
+
+		<text x="440" y="176" font-weight="700">+ habiba حبيبة</text>
+		<text x="440" y="198" fill="#5a5648" font-size="14">"beloved" — feminine (+ ة tāʾ marbūṭa)</text>
+
+		<text x="440" y="234" font-weight="700">+ -i ي ("my")</text>
+		<text x="440" y="256" fill="#5a5648" font-size="14">ة is silent alone, but voiced as /t/</text>
+		<text x="440" y="276" fill="#5a5648" font-size="14">whenever a suffix follows it</text>
+
+		<text x="440" y="312" font-weight="700" font-size="20">= habibti حبيبتي</text>
+		<text x="440" y="336" fill="#5a5648" font-size="14">"my beloved," addressed to a female</text>
+
+		<text x="440" y="366" fill="#5a5648" font-size="13">Same /t/ rule as رسالتي (risalati, "my letter")</text>
+	</g>
+
+	<line x1="400" y1="24" x2="400" y2="396" stroke="#ddd8c4" stroke-width="1"/>
+</svg>

@@ -2717,4 +2717,86 @@ export const guides: Guide[] = [
 			{ label: 'Leibniz-Institut für Deutsche Sprache (IDS Mannheim) — Grammis: "Ich bin geschwommen oder ich habe geschwommen? — Perfekt mit sein oder haben"', url: 'https://grammis.ids-mannheim.de/fragen/86' },
 		],
 	},
+	{
+		slug: 'habibi-meaning',
+		category: 'Loanwords',
+		title: 'Habibi Meaning: What Arabic\'s Most Common Term of Endearment Actually Means',
+		description: 'Habibi literally means "my beloved," but that single gloss hides how far the word stretches: family, friends, and even strangers, not just romance.',
+		published: '2026-08-12',
+		updated: '2026-08-12',
+		coreSummary: 'Habibi (حبيبي) breaks down to habib ("beloved," from the root ح-ب-ب, "to love") plus the possessive suffix -i ("my"), so it literally means "my beloved." In practice its use is far broader than that translation suggests: Arabic speakers say habibi to romantic partners, parents, children, and friends alike, and tone and relationship signal how serious it is, not the word itself. The feminine form, habibti, is reserved for addressing a woman.',
+		language: 'Arabic',
+		usageNote: {
+			register: 'casual',
+			regionNote: 'Habibi is used across virtually the entire Arabic-speaking world, from the Gulf to the Levant to Egypt and North Africa, without the sharp regional splits some slang terms have. What actually determines the right word is who you\'re addressing, not geography: habibi for a male, habibti for a female, regardless of dialect.',
+		},
+		sections: [
+			{
+				heading: 'Literally "my beloved": the grammar packed into one word',
+				body: [
+					'Habibi (حبيبي) is built from pieces stacked on a shared root. The Arabic root ح-ب-ب (ḥ-b-b) carries the core idea of love and fondness, and it produces the adjective/noun حبيب (habib), which Wiktionary glosses simply as "dear, beloved." Add the first-person possessive suffix ي (-i, "my") and habib becomes habibi: "my beloved." Wiktionary\'s entry for the root also notes that the same three-consonant pattern shows up across other Semitic languages with the same sense: Hebrew חָבִיב (ḥāḇīḇ) and Classical Syriac ܚܒܝܒܐ (ḥabbīḇā) both carry the "beloved, dear" meaning, pointing to a root that predates Arabic rather than a recent coinage within it.',
+					'That root-plus-suffix structure is the same mechanism Arabic uses to build "my [relationship]" for a wide range of people, not just terms of endearment: ابني (ibni, "my son"), أختي (ukhti, "my sister"), صديقي (sadiqi, "my friend"). Habibi is not a special or idiomatic exception to Arabic grammar. It follows a fully regular possessive construction, one that happens to be built on the word for "beloved" instead of a family or friendship term.',
+				],
+				image: {
+					src: '/images/habibi-meaning-diagram.svg',
+					alt: 'Diagram showing habibi built from the root ح-ب-ب ("love") plus habib ("beloved") plus the possessive suffix -i ("my"), alongside the parallel feminine construction with habiba and tāʾ marbūṭa producing habibti.',
+				},
+			},
+			{
+				heading: 'Habibi or habibti: the distinction that\'s easy to miss',
+				body: [
+					'Arabic marks gender on nearly everything: adjectives, verbs, even the person being addressed. Habibi/habibti is a direct example of that. Habibi (حبيبي) addresses a man or boy; the feminine counterpart, habibti (حبيبتي), addresses a woman or girl. Learners who\'ve mostly encountered habibi, the more frequent form in songs and media (Lebanese singer Fairuz released a well-known single titled "أنا لحبيبي," "I Belong to My Beloved," in 1970), sometimes default to it regardless of who they\'re talking to. To a native speaker that reads as a minor but noticeable grammar slip, not a stylistic choice.',
+					'The feminine form isn\'t built by simply swapping a letter. Habib becomes habiba (حبيبة), which Wiktionary glosses as "beloved, sweetheart (female)," using Arabic\'s standard feminine marker, the letter ة (tāʾ marbūṭa). On its own, that letter is silent or pronounced as a light "-ah." "Arabic Level One," an open-access Arabic textbook published through the ASCCC Open Educational Resources Initiative, states the same rule this article relies on for habibti: the tāʾ marbūṭa is "pronounced like the letter \'Taa\'" precisely "when followed by a possessive suffix or in the construct state," which is exactly the environment -i creates. That\'s the mechanism behind رسالتي (risalati, "my letter," from risala, "letter") pronouncing the "t" that risala alone doesn\'t, and it\'s why habiba plus -i doesn\'t come out as "habiba-i": it contracts to habibti, with the newly-voiced t absorbing into the suffix.',
+				],
+			},
+			{
+				heading: 'A word with no fixed relationship attached',
+				body: [
+					'The hardest thing for English speakers to calibrate about habibi is that, unlike most English terms of endearment, it doesn\'t map to one type of relationship. Parents call their children habibi or habibti. Siblings and close friends use it with each other with no romantic reading at all, closer to how "bro" or "dude" functions between male friends in English, though habibi carries more warmth than that comparison suggests. Romantic partners use exactly the same word, for exactly the opposite reason: to signal deep affection. The word doesn\'t disambiguate itself; the relationship between speaker and listener does that work.',
+					'That flexibility extends further than most English "beloved"-type words go. Across much of the Arab world, habibi also shows up as a warm but entirely non-romantic way to address someone you don\'t know well, such as a shopkeeper or a taxi driver, in roughly the spirit of an English speaker saying "hon" or "my friend" to someone they\'ve just met. That\'s a register choice, not a boundary being crossed, though exactly how far it extends to strangers varies by individual speaker and setting more than by any single national rule.',
+				],
+			},
+			{
+				heading: 'Where habibi sits among Arabic\'s other terms of endearment',
+				body: [
+					'Habibi is not Arabic\'s only word of this kind, just its most widely exported one. Two others worth knowing: يا حياتي (ya hayati), literally "oh, my life," built the same way as habibi but from حياة (hayah, "life") instead of "beloved," and generally reserved, unlike habibi, for close relationships such as a partner or a child rather than strangers. And يا قمر (ya amar/ya qamar), "oh, my moon," particularly common in Levantine Arabic (Syria, Lebanon, Jordan, Palestine). The everyday "ya amar" pronunciation drops the ق (qaf) sound that the more formal ya qamar keeps, a general feature of Levantine dialects rather than something special to this one phrase.',
+					'In recent years habibi has also picked up a second life as English-language internet slang, used semi-affectionately or ironically by people with no Arabic background at all, largely through social media. That trajectory, a word moving out of a specific language community and into English internet culture, stripped of most of its original grammar and context, is the same path [senpai](/senpai-meaning/) took out of Japanese anime fandom. Senpai has since been formally added to the Oxford English Dictionary; habibi, by contrast, has only reached Collins English Dictionary\'s public New Word Proposal queue, a reader-submitted list of candidate words that has not been accepted as a headword.',
+					'It\'s also a reminder that plenty of languages build one flexible word to cover a spread of relationships that English tends to split into several. Spanish does something similar with [te quiero vs. te amo](/i-love-you-in-spanish/), where a single verb choice, rather than a separate vocabulary, signals how serious the affection is.',
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'Is habibi only used romantically?',
+				answer: 'No. Habibi is used between romantic partners, but just as commonly between parents and children, siblings, and close friends with no romantic meaning at all, and in parts of the Arab world even as a friendly way to address someone you don\'t know well. The relationship between speaker and listener determines the meaning, not the word itself.',
+			},
+			{
+				question: 'What\'s the difference between habibi and habibti?',
+				answer: 'Habibi (حبيبي) addresses a man or boy; habibti (حبيبتي) addresses a woman or girl. They\'re the same possessive construction, "my beloved," built on the masculine and feminine forms of the adjective habib/habiba. Using habibi for a woman is a minor but noticeable grammar mistake, not an accepted variant.',
+			},
+			{
+				question: 'Where does the word habibi come from?',
+				answer: 'It comes from the Arabic root ح-ب-ب (ḥ-b-b), which carries the core meaning of love and fondness. That root produces habib, which Wiktionary glosses as "dear, beloved," and adding the possessive suffix -i ("my") gives habibi, "my beloved." The same root appears with the same sense in related Semitic languages, including Hebrew and Classical Syriac.',
+			},
+			{
+				question: 'Can non-Arabic speakers use habibi?',
+				answer: 'In casual, friendly contexts, yes. It\'s widely understood as a warm, informal term of endearment, and it has crossed into English-language internet slang on its own. It does carry cultural and grammatical weight in Arabic, though, including the habibi/habibti gender distinction, so it lands differently depending on who\'s using it, and with whom.',
+			},
+			{
+				question: 'Is habibi used the same way in every Arabic-speaking country?',
+				answer: 'The word and its core meaning are consistent across the Arabic-speaking world; there isn\'t the kind of sharp country-by-country split some slang terms have. What varies more is exactly how far its use extends to strangers versus being kept for people you already know, which depends more on individual and regional social habits than on any hard national line.',
+			},
+		],
+		sources: [
+			{ label: 'Wiktionary — "حبيب" (habib)', url: 'https://en.wiktionary.org/wiki/%D8%AD%D8%A8%D9%8A%D8%A8' },
+			{ label: 'Wiktionary — "حبيبي" (habibi)', url: 'https://en.wiktionary.org/wiki/%D8%AD%D8%A8%D9%8A%D8%A8%D9%8A' },
+			{ label: 'Wiktionary — "حبيبة" (habiba)', url: 'https://en.wiktionary.org/wiki/%D8%AD%D8%A8%D9%8A%D8%A8%D8%A9' },
+			{ label: 'Wikipedia — "Tāʾ marbūṭa"', url: 'https://en.wikipedia.org/wiki/Ta%27_marbuta' },
+			{ label: 'Arabic Level One (Kassas et al., ASCCC OERI) — "6.5: Taa Marbouta \'Tied Taa\'"', url: 'https://human.libretexts.org/Bookshelves/Languages/Arabic/Arabic_Level_One/06:_Chapter_Six-_Introducting_My_Family/6.05:_Taa_Marbouta_Tied_Taa' },
+			{ label: 'Collins English Dictionary — New Word Proposal: "habibi"', url: 'https://www.collinsdictionary.com/us/submission/1088160/habibi' },
+			{ label: 'Discogs — Fairuz, "أنا لحبيبي / لشو الحكي" (1970 single)', url: 'https://www.discogs.com/release/7534075' },
+			{ label: 'Arab America — "More Than Just Habibi: 8 Expressions of Endearment from the Arab World"', url: 'https://www.arabamerica.com/more-than-just-habibi-expressions-endearment-arab-world-this-valentines-day/' },
+			{ label: 'Arab America — Arabic101: "Ya Amar"', url: 'https://www.arabamerica.com/arabic101/ya-amar/' },
+		],
+	},
 ];
