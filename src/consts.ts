@@ -5,3 +5,4 @@ export const SITE_ORIGIN = 'https://lingogrove.com';
 export const AUTHOR_NAME = 'Owen Zhang';
 export const ADSENSE_PUBLISHER_ID = 'pub-5245502795720653';
 export const GA4_ID = 'G-BELRL4BRGC';
+export const CLARITY_ID = 'y152uq4y7g';
