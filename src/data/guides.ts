@@ -2799,4 +2799,158 @@ export const guides: Guide[] = [
 			{ label: 'Arab America — Arabic101: "Ya Amar"', url: 'https://www.arabamerica.com/arabic101/ya-amar/' },
 		],
 	},
+	{
+		slug: 'spanish-verb-tenses-chart',
+		category: 'Grammar',
+		title: 'Spanish Verb Tenses Chart: The 6 Tenses You Actually Need',
+		description: 'A full Spanish paradigm runs to nearly twenty tenses across three moods. This chart covers the six that carry everyday conversation, with hablar conjugated across each.',
+		published: '2026-08-13',
+		updated: '2026-08-13',
+		coreSummary: 'Spanish verbs fall under three moods (indicative, subjunctive, and imperative), but day-to-day conversation runs on five indicative tenses (present, preterite, imperfect, future, conditional), the present subjunctive, and the imperative. This chart conjugates the regular verb hablar across the first six side by side, then walks through what each one is actually for, with links to a full breakdown of the trickier pairs like preterite versus imperfect.',
+		language: 'Spanish',
+		sections: [
+			{
+				heading: 'Three moods, and only one of them has no past tense',
+				body: [
+					'Spanish organizes its verbs under three moods: indicative, subjunctive, and imperative. According to the Real Academia Española, the indicative carries more tense distinctions than the other two. The subjunctive marks fewer, splitting mainly into present, present perfect, imperfect, and pluperfect in everyday use, since the future subjunctive has all but dropped out of speech and survives mostly in legal writing today. The imperative sits apart from both: RAE\'s own grammar notes that it doesn\'t take part in the usual tense oppositions at all. It has only a present, no past or future forms, and no compound tenses built with haber.',
+					'That leaves a short list of forms that actually carries a normal Spanish conversation: five indicative tenses, the present subjunctive, and the imperative. The chart below conjugates the regular verb hablar ("to speak") across the first six, side by side, so the endings can be compared at a glance instead of hunted down across six separate tables. The imperative isn\'t part of that grid, since (per the RAE point above) it has no past or future to sit next to; it gets its own note further down instead.',
+				],
+				image: {
+					src: '/images/spanish-verb-tenses-chart-diagram.svg',
+					alt: 'Diagram of the three Spanish verb moods (indicative, subjunctive, imperative) showing which tenses fall under each, and noting that the imperative has only a present tense with no compound forms.',
+				},
+			},
+			{
+				heading: 'The chart: hablar across six tenses',
+				body: [
+					'Hablar is a fully regular -ar verb, which makes it the cleanest example: every form below comes from stripping -ar off the infinitive and attaching a standard ending, with no stem changes or exceptions involved. Regular -er and -ir verbs follow the same logic with their own ending sets. Comer ("to eat") becomes como, comí, comía, comeré, comería, coma; vivir ("to live") becomes vivo, viví, vivía, viviré, viviría, viva. Once the pattern below is familiar, applying it to any other regular verb is mostly a matter of swapping the stem.',
+					'Notice that nosotros stays identical in the present and preterite (hablamos, both times); the rest of the sentence is what tells them apart, not the verb form itself. These forms come from the same Wiktionary-checked conjugation generator this site uses for every regular verb on it, not typed in by hand.',
+				],
+			},
+			{
+				heading: 'What each tense is actually for',
+				body: [
+					'**Present** (hablo, hablas, habla...) covers habitual actions, general truths, and often the near future in casual speech: *Hablo español* ("I speak Spanish"), *Salgo mañana* ("I\'m leaving tomorrow," present standing in for a planned future event).',
+					'**Preterite** (hablé, hablaste, habló...) and **imperfect** (hablaba, hablabas, hablaba...) split Spanish\'s simple past between a completed action viewed as a whole and an ongoing or habitual one viewed from the inside. *Hablé con ella ayer* ("I talked to her yesterday") reports a finished event; *Hablaba con ella todos los días* ("I used to talk to her every day") describes a repeated pattern with no marked start or end. This distinction trips up almost every English speaker learning Spanish, since English uses one past tense for both; the [full preterite-versus-imperfect breakdown](/preterite-vs-imperfect/) works through more pairs like this one.',
+					'**Future** (hablaré, hablarás, hablará...) states what will happen, though Spanish speakers reach for it less often in casual speech than the chart might suggest; *ir a* + infinitive (*voy a hablar*, "I\'m going to talk") covers a lot of the same ground. The [full future tense guide](/spanish-future-tense/) covers both.',
+					'**Conditional** (hablaría, hablarías, hablaría...) is Spanish\'s "would" form, used for hypotheticals and polite requests alike: *Hablaría contigo si tuviera tiempo* ("I would talk to you if I had time"). The [conditional tense guide](/spanish-conditional-tense/) covers the polite-request use and other angles that go beyond a plain "would" translation.',
+					'**Present subjunctive** (hable, hables, hable...) shows up after expressions of doubt, wish, emotion, or influence over someone else\'s actions, rather than being tied to a particular point in time: *Espero que hables con ella* ("I hope you talk to her"). It\'s a mood shift as much as a tense, which the [full subjunctive guide](/subjunctive-spanish/) explains in more depth.',
+					'**Imperative** (¡habla!, an informal command) is the one form RAE describes as sitting outside the normal tense system entirely: just a present, no compound forms. Negative commands don\'t even use the imperative; Spanish borrows the present subjunctive for those instead (*no hables*, not a negated *habla*). The [Spanish commands guide](/spanish-commands/) covers why affirmative and negative commands end up looking so different from each other.',
+				],
+			},
+			{
+				heading: 'The tenses this chart leaves out',
+				body: [
+					'Six tenses cover the forms in daily use, but a complete Spanish verb paradigm runs longer than that. Every simple tense above has a compound counterpart built from a conjugated haber plus an unchanging past participle: *he hablado* (present perfect), *había hablado* (pluperfect), *habré hablado* (future perfect), and so on. Learn haber\'s own conjugation once and all of those compounds follow automatically, since the participle itself never changes form.',
+					'The subjunctive adds two tenses beyond the present shown here: an imperfect (*hablara* or *hablase*, both correct and interchangeable) and, in formal or legal writing, an all-but-extinct future subjunctive (*hablare*) that RAE itself notes has narrowed almost entirely to legal texts today. For a verb with every one of these paradigms laid out and sourced, including the compound and rare forms, the [full ser conjugation](/ser-conjugation/) shows what the complete picture looks like for one (highly irregular) verb.',
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'How many verb tenses does Spanish actually have?',
+				answer: 'More than the six on this chart. Once every mood\'s simple and compound tenses are counted, a full paradigm runs close to twenty entries per verb, as the [complete ser conjugation](/ser-conjugation/) lays out form by form. In practice, a fluent speaker uses maybe eight of those regularly; the rest are either mechanical compounds built from haber, or forms like the future subjunctive that have mostly disappeared outside legal Spanish.',
+			},
+			{
+				question: 'Do I need to memorize every tense to speak Spanish well?',
+				answer: 'No. The five indicative tenses plus the present subjunctive and the imperative, the six shown in the chart above, cover the overwhelming majority of everyday conversation. The compound tenses (*he hablado*, *había hablado*) are built mechanically from haber once that verb is learned, and the imperfect and future subjunctive are worth recognizing more than producing on the fly.',
+			},
+			{
+				question: 'What\'s the real difference between the preterite and the imperfect?',
+				answer: 'The preterite reports a past action as a finished whole; the imperfect describes it from the inside, as ongoing or habitual, without marking when it started or stopped. *Hablé con ella* ("I talked to her") is a completed event; *hablaba con ella* ("I used to talk to her" or "I was talking to her") is a repeated or in-progress one. The [full preterite-versus-imperfect comparison](/preterite-vs-imperfect/) works through more pairs where the same verb changes meaning depending on which one is used.',
+			},
+			{
+				question: 'Is the future subjunctive (hablare) something I need to learn?',
+				answer: 'Not for everyday speech. The Real Academia Española notes that its use has narrowed almost entirely to legal and administrative writing today. It survives in a handful of fixed expressions, but a learner is far more likely to need the other subjunctive forms first.',
+			},
+			{
+				question: 'Why doesn\'t the imperative show up in the chart with the other tenses?',
+				answer: 'Because it isn\'t built the same way. RAE\'s own grammar describes the imperative as sitting outside the normal tense system: it has no past, no future, and no compound forms, just a single present-tense set of command forms. That\'s also why negative commands switch to the present subjunctive instead of using the imperative at all (*no hables*, not a negated *habla*).',
+			},
+		],
+		sources: [
+			{ label: 'Real Academia Española — "Los tiempos verbales" (El buen uso del español)', url: 'https://www.rae.es/buen-uso-espa%C3%B1ol/los-tiempos-verbales' },
+			{ label: 'Real Academia Española — "(modo) subjuntivo" (Glosario de términos gramaticales)', url: 'https://www.rae.es/gtg/modo-subjuntivo' },
+			{ label: 'Wiktionary — Spanish conjugation of "hablar"', url: 'https://en.wiktionary.org/wiki/hablar' },
+		],
+		conjugation: {
+			verb: 'hablar',
+			language: 'Spanish',
+			translation: 'to speak',
+			regularity: 'regular',
+			tenses: [
+				{
+					tense: 'Present',
+					forms: [
+						{ pronoun: 'yo', form: 'hablo' },
+						{ pronoun: 'tú', form: 'hablas' },
+						{ pronoun: 'él/ella/usted', form: 'habla' },
+						{ pronoun: 'nosotros', form: 'hablamos' },
+						{ pronoun: 'vosotros', form: 'habláis' },
+						{ pronoun: 'ellos/ellas/ustedes', form: 'hablan' },
+					],
+				},
+				{
+					tense: 'Preterite',
+					forms: [
+						{ pronoun: 'yo', form: 'hablé' },
+						{ pronoun: 'tú', form: 'hablaste' },
+						{ pronoun: 'él/ella/usted', form: 'habló' },
+						{ pronoun: 'nosotros', form: 'hablamos' },
+						{ pronoun: 'vosotros', form: 'hablasteis' },
+						{ pronoun: 'ellos/ellas/ustedes', form: 'hablaron' },
+					],
+				},
+				{
+					tense: 'Imperfect',
+					forms: [
+						{ pronoun: 'yo', form: 'hablaba' },
+						{ pronoun: 'tú', form: 'hablabas' },
+						{ pronoun: 'él/ella/usted', form: 'hablaba' },
+						{ pronoun: 'nosotros', form: 'hablábamos' },
+						{ pronoun: 'vosotros', form: 'hablabais' },
+						{ pronoun: 'ellos/ellas/ustedes', form: 'hablaban' },
+					],
+				},
+				{
+					tense: 'Future',
+					forms: [
+						{ pronoun: 'yo', form: 'hablaré' },
+						{ pronoun: 'tú', form: 'hablarás' },
+						{ pronoun: 'él/ella/usted', form: 'hablará' },
+						{ pronoun: 'nosotros', form: 'hablaremos' },
+						{ pronoun: 'vosotros', form: 'hablaréis' },
+						{ pronoun: 'ellos/ellas/ustedes', form: 'hablarán' },
+					],
+				},
+				{
+					tense: 'Conditional',
+					forms: [
+						{ pronoun: 'yo', form: 'hablaría' },
+						{ pronoun: 'tú', form: 'hablarías' },
+						{ pronoun: 'él/ella/usted', form: 'hablaría' },
+						{ pronoun: 'nosotros', form: 'hablaríamos' },
+						{ pronoun: 'vosotros', form: 'hablaríais' },
+						{ pronoun: 'ellos/ellas/ustedes', form: 'hablarían' },
+					],
+				},
+				{
+					tense: 'Subjunctive (present)',
+					forms: [
+						{ pronoun: 'yo', form: 'hable' },
+						{ pronoun: 'tú', form: 'hables' },
+						{ pronoun: 'él/ella/usted', form: 'hable' },
+						{ pronoun: 'nosotros', form: 'hablemos' },
+						{ pronoun: 'vosotros', form: 'habléis' },
+						{ pronoun: 'ellos/ellas/ustedes', form: 'hablen' },
+					],
+				},
+			],
+			source: {
+				label: 'Wiktionary — Spanish regular verb conjugation (hablar/comer/vivir)',
+				url: 'https://en.wiktionary.org/wiki/hablar',
+				note: 'Regular -ar/-er/-ir endings, cross-checked against Wiktionary conjugation tables fetched 2026-08-03; this table was generated by tools/conjugate.mjs, not typed by hand.',
+			},
+		},
+	},
 ];

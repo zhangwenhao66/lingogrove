@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" font-family="system-ui, -apple-system, sans-serif">
+	<rect width="800" height="420" fill="#f6f4e9"/>
+	<text x="400" y="42" text-anchor="middle" fill="#201f1a" font-size="20" font-weight="700">Spanish has three moods; only one of them has no past tense</text>
+
+	<!-- Indicative column -->
+	<rect x="40" y="72" width="220" height="320" rx="10" fill="#ffffff" stroke="#ddd8c4" stroke-width="1.5"/>
+	<text x="150" y="102" text-anchor="middle" fill="#204a31" font-size="16" font-weight="700">Indicative</text>
+	<text x="150" y="122" text-anchor="middle" fill="#5a5648" font-size="12">states facts</text>
+	<rect x="60" y="140" width="180" height="30" rx="6" fill="#eef1e6"/>
+	<text x="150" y="160" text-anchor="middle" fill="#201f1a" font-size="13">Present: hablo</text>
+	<rect x="60" y="178" width="180" height="30" rx="6" fill="#eef1e6"/>
+	<text x="150" y="198" text-anchor="middle" fill="#201f1a" font-size="13">Preterite: hablé</text>
+	<rect x="60" y="216" width="180" height="30" rx="6" fill="#eef1e6"/>
+	<text x="150" y="236" text-anchor="middle" fill="#201f1a" font-size="13">Imperfect: hablaba</text>
+	<rect x="60" y="254" width="180" height="30" rx="6" fill="#eef1e6"/>
+	<text x="150" y="274" text-anchor="middle" fill="#201f1a" font-size="13">Future: hablaré</text>
+	<rect x="60" y="292" width="180" height="30" rx="6" fill="#eef1e6"/>
+	<text x="150" y="312" text-anchor="middle" fill="#201f1a" font-size="13">Conditional: hablaría</text>
+	<text x="150" y="350" text-anchor="middle" fill="#8a8674" font-size="11">+ 5 compound tenses</text>
+	<text x="150" y="366" text-anchor="middle" fill="#8a8674" font-size="11">(haber + hablado)</text>
+
+	<!-- Subjunctive column -->
+	<rect x="290" y="72" width="220" height="320" rx="10" fill="#ffffff" stroke="#ddd8c4" stroke-width="1.5"/>
+	<text x="400" y="102" text-anchor="middle" fill="#204a31" font-size="16" font-weight="700">Subjunctive</text>
+	<text x="400" y="122" text-anchor="middle" fill="#5a5648" font-size="12">doubt, wish, emotion</text>
+	<rect x="310" y="140" width="180" height="30" rx="6" fill="#eef1e6"/>
+	<text x="400" y="160" text-anchor="middle" fill="#201f1a" font-size="13">Present: hable</text>
+	<rect x="310" y="178" width="180" height="30" rx="6" fill="#eef1e6"/>
+	<text x="400" y="198" text-anchor="middle" fill="#201f1a" font-size="13">Imperfect: hablara/-se</text>
+	<rect x="310" y="216" width="180" height="26" rx="6" fill="#f1ede0"/>
+	<text x="400" y="234" text-anchor="middle" fill="#5a5648" font-size="11">Future: hablare (legal texts only)</text>
+	<text x="400" y="270" text-anchor="middle" fill="#8a8674" font-size="11">+ 3 compound tenses</text>
+	<text x="400" y="286" text-anchor="middle" fill="#8a8674" font-size="11">(haya/hubiera hablado)</text>
+
+	<!-- Imperative column -->
+	<rect x="540" y="72" width="220" height="320" rx="10" fill="#ffffff" stroke="#ddd8c4" stroke-width="1.5"/>
+	<text x="650" y="102" text-anchor="middle" fill="#204a31" font-size="16" font-weight="700">Imperative</text>
+	<text x="650" y="122" text-anchor="middle" fill="#5a5648" font-size="12">commands only</text>
+	<rect x="560" y="140" width="180" height="30" rx="6" fill="#eef1e6"/>
+	<text x="650" y="160" text-anchor="middle" fill="#201f1a" font-size="13">Present: ¡habla!</text>
+	<text x="650" y="200" text-anchor="middle" fill="#5a5648" font-size="12">No past, future,</text>
+	<text x="650" y="218" text-anchor="middle" fill="#5a5648" font-size="12">or compound forms.</text>
+	<text x="650" y="236" text-anchor="middle" fill="#5a5648" font-size="12">One tense, full stop.</text>
+
+	<text x="400" y="410" text-anchor="middle" fill="#8a8674" font-size="12">Six tenses shown here (5 indicative + present subjunctive) plus the imperative cover everyday Spanish.</text>
+</svg>
