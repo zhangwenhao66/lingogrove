@@ -2953,4 +2953,89 @@ export const guides: Guide[] = [
 			},
 		},
 	},
+	{
+		slug: 'inshallah-meaning',
+		category: 'Loanwords',
+		title: 'Inshallah Meaning: What "God Willing" Actually Says in Arabic',
+		description: 'Inshallah breaks down to three Arabic words meaning "if God has willed it." The same phrase can carry sincere religious hope or a noncommittal "we\'ll see," depending entirely on context.',
+		published: '2026-08-13',
+		updated: '2026-08-13',
+		coreSummary: 'Inshallah (إن شاء الله, more precisely transliterated in shāʾa Allāh) literally means "if God has willed [it]": in is the conditional "if," shāʾa is the past-tense verb "willed," and Allah is simply Arabic for "God." The phrase comes directly from the Qur\'an, Surah Al-Kahf 18:23-24, which instructs against promising to do something in the future without adding it. Its everyday use goes far beyond religious speech: Muslims, Arab Christians, and Arabic-speaking Jews all say it routinely, and depending on tone and setting it can express sincere hope, a formulaic habit, or a polite way of not quite committing.',
+		language: 'Arabic',
+		usageNote: {
+			register: 'neutral',
+			regionNote: 'Inshallah\'s core meaning holds everywhere Arabic is spoken, but its spelling in English shifts with the dialect writing it down. Wikipedia\'s own list of accepted transliterations includes Inchallah, which reflects Maghrebi Arabic filtered through French colonial-era orthography, next to In sha Allah, more associated with Gulf and Levantine speech. Neither spelling changes how the phrase is meant: a speaker\'s tone in the moment, not their dialect, is what separates devotional weight in a formal or religious setting from something closer to "hopefully, but no promises" in casual conversation.',
+		},
+		sections: [
+			{
+				heading: 'Literally "if God has willed it": the grammar behind one phrase',
+				body: [
+					'Inshallah is built from three separate Arabic words, not one. إن (in) is a conditional particle meaning "if." شاء (shāʾa) is a past-tense verb meaning "he willed" or "he wished." الله (Allāh) is simply the Arabic word for God, used by Arabic-speaking Muslims, Christians, and Jews alike. Strung together, in shāʾa Allāh reads literally as "if God has willed [it]," which English renderings soften to "God willing" or "if God wills." Wiktionary\'s entry for the phrase preserves exactly this three-part structure rather than treating it as a single fused word.',
+					'That three-word structure is also why religious and academic writing prefers spelling it as three separate words, in shāʾa Allāh or in sha Allah, rather than the single run-together inshallah most casual English writing uses. Other common English spellings include insha\'Allah, in shaa Allah, and inchallah; Wikipedia\'s entry on the phrase lists all of these as accepted transliterations of the same Arabic original, إن شاء الله. Classical Islamic scholarship has its own technical name for expressions like this one, istiṯnāʾ ("exception clause"), reflecting that grammatically the phrase carves out an exception to any claim about the future.',
+				],
+				image: {
+					src: '/images/inshallah-meaning-diagram.svg',
+					alt: 'Diagram showing inshallah built from three Arabic words: in ("if," conditional), shāʾa ("willed," past-tense verb), and Allah ("God"), combining to mean "if God has willed it," with a note on the related Iberian borrowing ojalá/oxalá.',
+				},
+			},
+			{
+				heading: 'A command from the Qur\'an, not just a common expression',
+				body: [
+					'Inshallah isn\'t a phrase that developed gradually in everyday speech the way most idioms do. It\'s directly commanded in the Qur\'an, in Surah Al-Kahf, verses 23 and 24. The Sahih International translation renders it: "And never say of anything, \'Indeed, I will do that tomorrow,\' except [when adding], \'If Allah wills.\'" According to traditional tafsir accounts of these verses, they were revealed after the Prophet Muhammad promised to answer a question the following day without qualifying that promise, and the answer was delayed. The verse that follows instructs that if a speaker forgets to say inshallah, they should remember God as soon as they notice the omission.',
+					'Wikipedia\'s summary of the phrase\'s meaning is direct: it "signifies that nothing, neither action nor thought, happens without God\'s permission." Saying inshallah when discussing a future plan is meant to acknowledge that human intentions are always subject to a will beyond the speaker\'s own control, not simply a verbal habit tacked onto the end of a sentence.',
+				],
+			},
+			{
+				heading: 'Used by Muslims, Christians, and Jews alike',
+				body: [
+					'Despite its Qur\'anic origin, inshallah isn\'t exclusive to Muslims. Per Wikipedia\'s entry on the phrase, it "is more generally and commonly used by Muslims, Arab Christians, and Arabic speakers of other religions to refer to events that one hopes will happen in the future, having the same meaning as the English word \'hopefully.\'" The word Allah itself is simply the Arabic word for God, not a name specific to Islam, which is part of why the expression crossed religious lines within Arabic-speaking communities long before it crossed into English.',
+					'It isn\'t the only Arabic-origin phrase to make that leap into everyday English use. [Habibi](/habibi-meaning/), the Arabic term of endearment, followed a similar path out of a specific religious and cultural context and into casual, sometimes ironic use online, though the two phrases moved for different reasons: habibi through social media informality, inshallah through its specific religious weight making it a recognizable phrase even to people who don\'t speak Arabic.',
+				],
+			},
+			{
+				heading: 'From sincere hope to a noncommittal "maybe"',
+				body: [
+					'The same three words carry noticeably different weight depending on context. Wikipedia\'s own entry draws this distinction explicitly: "When used sincerely or in formal settings, it expresses the speaker\'s hope for a specific outcome; however, in everyday speech, it is frequently used to suggest uncertainty, a lack of firm commitment, or as an open-ended response to requests or promises." Someone saying inshallah while making a solemn promise means it as an acknowledgment that the outcome rests with God. Someone saying it in response to a vague invitation may mean something closer to "probably not, but I won\'t say no outright."',
+					'That gap is a recurring source of cross-cultural confusion, and it\'s frequently discussed online by people trying to explain it to friends outside the culture, precisely because the casual, noncommittal use can read to an outsider as evasiveness rather than the culturally recognized soft decline it usually is. The word has also picked up new visibility in English-language media in recent years: Wikipedia traces its spread partly to U.S. troops who picked it up from interpreters during deployments in Iraq and Afghanistan, and notes its use by public figures including Joe Biden in a 2020 presidential debate and Anne Hathaway in a widely shared 2026 moment, both of which drew news coverage explaining the phrase to unfamiliar audiences.',
+				],
+			},
+			{
+				heading: 'The Iberian word that grew from the same root',
+				body: [
+					'Spanish ojalá and Portuguese oxalá both trace back to Arabic, a legacy of centuries of Arabic presence on the Iberian Peninsula. Wiktionary\'s etymology for ojalá derives it from Andalusi Arabic law shāʾa llāh or wa shāʾa llāh, "if/and God would will it," a close relative of in shāʾa Allāh built from the same verb (shāʾa, "willed") and the same subject (Allāh, "God"), but not a word-for-word copy of the exact conditional in shāʾa Allāh phrase. Wikipedia\'s own entry on inshallah treats ojalá and oxalá more simply as forms the expression was "borrowed as" in Iberian languages; either framing agrees on the underlying source, an Arabic invocation built on the same "God willing" idea.',
+					'In modern Spanish, that inherited word does grammatical work most English speakers never learn about: ojalá is one of the fixed triggers that force the subjunctive mood. Per the Real Academia Española\'s own grammar, the subjunctive is required after ojalá regardless of whether que follows it, as in Ojalá todo salga bien ("Hopefully everything turns out fine") rather than the indicative sale. [Spanish\'s subjunctive mood](/subjunctive-spanish/) has several separate triggers, but ojalá is the one most directly descended from an expression asking, in effect, the same question inshallah does in Arabic: what happens if this is left up to a will greater than the speaker\'s own.',
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'What does inshallah literally mean?',
+				answer: 'It breaks down into three Arabic words: in ("if"), shāʾa ("willed," a past-tense verb), and Allah ("God"). Put together, in shāʾa Allāh literally means "if God has willed [it]," which is usually rendered in English as "God willing" or "if God wills."',
+			},
+			{
+				question: 'Is inshallah used only by Muslims?',
+				answer: 'No. While the phrase comes directly from the Qur\'an, it\'s used across the Arabic-speaking world by Muslims, Arab Christians, and Arabic-speaking Jews alike, in roughly the same sense as the English word "hopefully." Allah is simply the Arabic word for God, not a term exclusive to Islam.',
+			},
+			{
+				question: 'What\'s the correct spelling: inshallah, insha\'Allah, or in sha Allah?',
+				answer: 'All of these are accepted English transliterations of the same Arabic original, إن شاء الله. Religious and academic writing tends to prefer the three-word spelling, in shāʾa Allāh or in sha Allah, since it preserves the phrase\'s three separate words; casual English writing most often uses the single run-together form, inshallah.',
+			},
+			{
+				question: 'Why do people sometimes use inshallah to avoid committing to something?',
+				answer: 'The same phrase changes weight with context. Used sincerely or formally, it expresses genuine hope in an outcome still subject to God\'s will. In casual conversation, it\'s frequently used to signal uncertainty or an open-ended response to a request, closer to "maybe, we\'ll see" than a firm promise, which can read as evasive to someone unfamiliar with that everyday usage.',
+			},
+			{
+				question: 'Is inshallah related to the Spanish word ojalá?',
+				answer: 'They\'re closely related but not identical. Ojalá (and Portuguese oxalá) descend from a related Andalusi Arabic phrase, law shāʾa llāh or wa shāʾa llāh ("if/and God would will it"), built from the same verb and the same word for God as inshallah, rather than being a direct transliteration of in shāʾa Allāh itself. Both trace to the same underlying idea of leaving an outcome up to God\'s will.',
+			},
+		],
+		sources: [
+			{ label: 'Wikipedia — "Inshallah"', url: 'https://en.wikipedia.org/wiki/Inshallah' },
+			{ label: 'Wiktionary — "in sha Allah"', url: 'https://en.wiktionary.org/wiki/in_sha_Allah' },
+			{ label: 'Wiktionary — "ojalá"', url: 'https://en.wiktionary.org/wiki/ojal%C3%A1' },
+			{ label: 'Quran.com — Surah Al-Kahf, 18:23-24', url: 'https://quran.com/en/al-kahf/23-24' },
+			{ label: 'Britannica — "Inshallah"', url: 'https://www.britannica.com/topic/inshallah' },
+			{ label: 'Real Academia Española — Nueva gramática: "Elección del modo con preposiciones, adverbios e interjecciones" (ojalá + subjunctive)', url: 'https://www.rae.es/gram%C3%A1tica/sintaxis/elecci%C3%B3n-del-modo-con-preposiciones-adverbios-e-interjecciones' },
+		],
+	},
 ];
