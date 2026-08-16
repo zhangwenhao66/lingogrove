@@ -54,8 +54,8 @@
   "https://lingogrove.com/por-vs-para/": {
     "submitted_date": "2026-08-03",
     "verified_status": "pending",
-    "note": "launch batch, new publish; Bing 202 / Yandex 202.; Discovered but not crawled (Discovered on 03 Aug 2026)",
-    "last_checked_date": "2026-08-09",
+    "note": "Discovered but not crawled, discovered 03 Aug 2026, age 13 days as of 08-16 check, approaching stale threshold",
+    "last_checked_date": "2026-08-16",
     "verified_method": "bwt_url_inspection"
   },
   "https://lingogrove.com/ser-vs-estar/": {
@@ -66,15 +66,15 @@
   "https://lingogrove.com/preterite-vs-imperfect/": {
     "submitted_date": "2026-08-03",
     "verified_status": "pending",
-    "note": "launch batch, new publish; Bing 202 / Yandex 202.",
-    "last_checked_date": "2026-08-11",
+    "note": "Discovered but not crawled, discovered 03 Aug 2026, age 13 days as of 08-16 check, approaching stale threshold",
+    "last_checked_date": "2026-08-16",
     "verified_method": "bwt_url_inspection"
   },
   "https://lingogrove.com/deja-vu-meaning/": {
     "submitted_date": "2026-08-03",
     "verified_status": "pending",
-    "note": "launch batch, new publish; Bing 202 / Yandex 202.; Discovered but not crawled (Discovered on 03 Aug 2026)",
-    "last_checked_date": "2026-08-11",
+    "note": "Discovered but not crawled, discovered 03 Aug 2026, age 13 days as of 08-16 check, approaching stale threshold",
+    "last_checked_date": "2026-08-16",
     "verified_method": "bwt_url_inspection"
   },
   "https://lingogrove.com/schadenfreude-meaning/": {
@@ -94,8 +94,8 @@
   "https://lingogrove.com/happy-birthday-in-spanish/": {
     "submitted_date": "2026-08-03",
     "verified_status": "pending",
-    "note": "launch batch, new publish; Bing 202 / Yandex 202.; Discovered but not crawled (Discovered on 03 Aug 2026)",
-    "last_checked_date": "2026-08-09",
+    "note": "Discovered but not crawled, discovered 03 Aug 2026, age 13 days as of 08-16 check, approaching stale threshold",
+    "last_checked_date": "2026-08-16",
     "verified_method": "bwt_url_inspection"
   },
   "https://lingogrove.com/good-night-in-spanish/": {
@@ -108,8 +108,8 @@
   "https://lingogrove.com/i-love-you-in-spanish/": {
     "submitted_date": "2026-08-03",
     "verified_status": "pending",
-    "note": "launch batch, new publish; Bing 202 / Yandex 202.; Discovered but not crawled (Discovered on 03 Aug 2026)",
-    "last_checked_date": "2026-08-09",
+    "note": "Discovered but not crawled, discovered 03 Aug 2026, age 13 days as of 08-16 check, approaching stale threshold",
+    "last_checked_date": "2026-08-16",
     "verified_method": "bwt_url_inspection"
   },
   "https://lingogrove.com/ser-conjugation/": {
@@ -182,5 +182,10 @@
     "submitted_date": "2026-08-13",
     "verified_status": "pending",
     "note": "new publish (Loanwords tier); Bing 200 / Yandex 200."
+  },
+  "https://lingogrove.com/irregular-preterite-verbs-spanish/": {
+    "submitted_date": "2026-08-16",
+    "verified_status": "pending",
+    "note": "new publish (Grammar tier); Bing 200 / Yandex 202."
   }
 }
