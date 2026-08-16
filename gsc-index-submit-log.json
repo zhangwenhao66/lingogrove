@@ -151,5 +151,18 @@
       "https://lingogrove.com/ser-conjugation/"
     ],
     "quota_used": "0 (skipped, no unindexed candidate found)"
+  },
+  {
+    "date": "2026-08-16",
+    "action": "submitted",
+    "reason": "同日第二次运行（首次运行结尾因Claude in Chrome工具故障卡在Hollowvane，等待网络恢复后重试成功续跑）。GSC'Discovered - currently not indexed'分类候选（por-vs-para等4个）均为报告延迟的已提交项。改查build-index-queue.py队列高代理候选：habibi-meaning/schadenfreude-meaning均已收录（本站索引速度很快），spanish-imperfect-endings确认'URL is not on Google'（URL unknown to Google），REQUEST INDEXING提交成功确认'Indexing requested'。",
+    "submitted_urls": [
+      "https://lingogrove.com/spanish-imperfect-endings/"
+    ],
+    "already_indexed_no_action": [
+      "https://lingogrove.com/habibi-meaning/",
+      "https://lingogrove.com/schadenfreude-meaning/"
+    ],
+    "quota_used": "1 of shared account-wide daily quota"
   }
 ]
