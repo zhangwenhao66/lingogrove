@@ -136,5 +136,20 @@
       "https://lingogrove.com/spanish-verb-tenses-chart/"
     ],
     "quota_used": "1 of shared account-wide daily quota (10th request this run)"
+  },
+  {
+    "date": "2026-08-16",
+    "action": "skipped_all_indexed",
+    "reason": "按队列脚本代理排序检查候选：inshallah-meaning（08-13新发布）、por-vs-para、preterite-vs-imperfect、senpai-meaning、spanish-reflexive-verbs均已收录。改查Page indexing报告的'Crawled - currently not indexed'分类，命中ser-conjugation，复查时也已变为收录状态。6个候选全部已收录，跳过不消耗配额。",
+    "submitted_urls": [],
+    "already_indexed_no_action": [
+      "https://lingogrove.com/inshallah-meaning/",
+      "https://lingogrove.com/por-vs-para/",
+      "https://lingogrove.com/preterite-vs-imperfect/",
+      "https://lingogrove.com/senpai-meaning/",
+      "https://lingogrove.com/spanish-reflexive-verbs/",
+      "https://lingogrove.com/ser-conjugation/"
+    ],
+    "quota_used": "0 (skipped, no unindexed candidate found)"
   }
 ]
