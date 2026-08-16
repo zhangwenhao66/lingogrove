@@ -458,10 +458,10 @@ export const guides: Guide[] = [
 		slug: 'senpai-meaning',
 		category: 'Loanwords',
 		title: 'Senpai Meaning: What It Actually Means in Japanese (Not Just Anime)',
-		description: 'Before it was an internet meme, senpai named a real, structured relationship in Japanese schools and workplaces — not just "someone senior."',
+		description: 'Before it was an internet meme, senpai named a real, structured relationship in Japanese schools and workplaces: not just "someone senior."',
 		published: '2026-08-03',
-		updated: '2026-08-03',
-		coreSummary: 'Senpai (先輩) literally combines 先 ("ahead, before") with 輩 ("fellow, companion, generation") to mean a senior member of the same school, company, or group — someone who joined or started before you and, by the norms of the relationship, is expected to mentor the people who came after. The junior counterpart is kōhai (後輩). English absorbed only the internet-meme sense of the word; the Oxford English Dictionary added "senpai" to its December 2025 update alongside a batch of other Japanese and Korean loanwords.',
+		updated: '2026-08-16',
+		coreSummary: 'Senpai (先輩) literally combines 先 ("ahead, before") with 輩 ("fellow, companion, generation") to mean a senior member of the same school, company, or group: someone who joined or started before you and, by the norms of the relationship, is expected to mentor the people who came after. The junior counterpart is kōhai (後輩). English absorbed only the internet-meme sense of the word; the Oxford English Dictionary added "senpai" to its December 2025 update alongside a batch of other Japanese and Korean loanwords.',
 		language: 'Japanese',
 		usageNote: {
 			register: 'neutral',
@@ -471,24 +471,24 @@ export const guides: Guide[] = [
 			{
 				heading: 'What the kanji actually says',
 				body: [
-					'先輩 is written with two characters. 先 (*sen*) means "before, ahead, previous" — it\'s the same character used in words like *saki* (先, "ahead" or "the future," depending on context). 輩 (*hai*, here read *pai*) means "fellow, companion, people of the same group" — it shows up in words for peer groups and generations. Put together, senpai means something close to "one of us who came before" rather than simply "someone older" or "someone in charge." The Japanese-English dictionary Jisho glosses it as "senior (at school, work, etc.); superior; elder; older person; predecessor."',
+					'先輩 is written with two characters. 先 (*sen*) means "before, ahead, previous." It\'s the same character used in words like *saki* (先, "ahead" or "the future," depending on context). 輩 (*hai*, here read *pai*) means "fellow, companion, people of the same group." It shows up in words for peer groups and generations. Put together, senpai means something close to "one of us who came before" rather than simply "someone older" or "someone in charge." The Japanese-English dictionary Jisho glosses it as "senior (at school, work, etc.); superior; elder; older person; predecessor."',
 					'The junior counterpart, kōhai (後輩), swaps 先 for 後 (*go/kō*, "after, behind"), giving the mirror-image "one of us who came after."',
 				],
 			},
 			{
 				heading: 'A real relationship, not just a rank',
 				body: [
-					'Senpai-kōhai is a structured, reciprocal relationship built into Japanese schools, sports clubs, and workplaces, not just a label for "older person." Someone becomes your senpai by having joined the same school, club, team, or company before you did — age isn\'t the deciding factor, tenure is. A 22-year-old who joined a company a year before a 30-year-old new hire is still that new hire\'s senpai.',
-					'The relationship carries real obligations in both directions: a senpai is expected to look out for and mentor their kōhai, showing them the ropes and taking some responsibility for how they\'re doing, while a kōhai is expected to show a degree of deference and respect in return. It\'s closer to a built-in mentorship system than a simple hierarchy, and it\'s one reason the concept doesn\'t map cleanly onto a single English word — "senior" captures the rank but misses the mentoring expectation.',
-					'One rule that surprises learners: you don\'t call yourself senpai. It\'s a status granted by others, not a label you claim for yourself — a Japanese speaker introducing themselves would never say "I\'m your senpai," even if the relationship is objectively true.',
-					'Senpai also functions as an honorific suffix, the same way *-san*, *-kun*, and *-chan* do: attached directly to a name, as in *Tanaka-senpai*, it\'s a standard, polite way to address someone senior, whether by surname or first name, and it\'s gender-neutral. The relationship is generally described as being at its strictest inside school club activities (*bukatsu*) — sports clubs like baseball, kendo, or soccer, where the senpai-kōhai structure governs everything from how practice is run to how new members are expected to speak to senior ones.',
+					'Senpai-kōhai is a structured, reciprocal relationship built into Japanese schools, sports clubs, and workplaces, not just a label for "older person." Someone becomes your senpai by having joined the same school, club, team, or company before you did: age isn\'t the deciding factor, tenure is. A 22-year-old who joined a company a year before a 30-year-old new hire is still that new hire\'s senpai.',
+					'The relationship carries obligations in both directions: a senpai is expected to look out for and mentor their kōhai, showing them the ropes and taking some responsibility for how they\'re doing, while a kōhai is expected to show a degree of deference and respect in return. It\'s closer to a built-in mentorship system than a simple hierarchy, and it\'s one reason the concept doesn\'t map cleanly onto a single English word: "senior" captures the rank but misses the mentoring expectation.',
+					'One rule that surprises learners: you don\'t call yourself senpai. It\'s a status granted by others, not a label you claim for yourself: a Japanese speaker introducing themselves would never say "I\'m your senpai," even if the relationship is objectively true.',
+					'Senpai also functions as an honorific suffix, the same way *-san*, *-kun*, and *-chan* do: attached directly to a name, as in *Tanaka-senpai*, it\'s a standard, polite way to address someone senior, whether by surname or first name, and it\'s gender-neutral. Coto Academy describes the relationship as being at its strictest inside school club activities (*bukatsu*), sports clubs like baseball, kendo, or soccer, where the senpai-kōhai structure governs everything from how practice is run to how new members are expected to speak to senior ones.',
 				],
 			},
 			{
 				heading: 'How English narrowed it into a meme, then a dictionary entry',
 				body: [
-					'The English-internet sense of senpai — used loosely for anyone whose attention or approval you want, romantic or otherwise — grew out of anime and manga fandom, with the phrase "notice me, senpai" spreading on sites like Tumblr starting around 2012 and picking up further momentum once it was used repeatedly by high-profile YouTubers. That usage strips out almost everything about the structured senpai-kōhai relationship and keeps only "someone whose attention is desirable," which is a genuinely different meaning from the Japanese original.',
-					'The word has since moved from internet slang toward formal recognition: the Oxford English Dictionary added "senpai" in its December 2025 update, alongside other recently adopted Japanese and Korean words. That\'s a fairly rare trajectory for a meme-driven usage — most internet slang never reaches a major dictionary at all, unlike older borrowings such as [schadenfreude](/schadenfreude-meaning/), which entered English decades ago through ordinary usage rather than a meme.',
+					'The English-internet sense of senpai (used loosely for anyone whose attention or approval you want, romantic or otherwise) grew out of anime and manga fandom, with the phrase "notice me, senpai" spreading on sites like Tumblr starting around 2012 and picking up further momentum once it was used repeatedly by high-profile YouTubers. That usage strips out almost everything about the structured senpai-kōhai relationship and keeps only "someone whose attention is desirable," a different meaning from the Japanese original.',
+					'The word has since moved from internet slang toward formal recognition: the Oxford English Dictionary added "senpai" in its December 2025 update, alongside other recently adopted Japanese and Korean words. That\'s a fairly rare trajectory for a meme-driven usage: most internet slang never reaches a major dictionary at all, unlike older borrowings such as [schadenfreude](/schadenfreude-meaning/), which entered English decades ago through ordinary usage rather than a meme.',
 				],
 			},
 		],
@@ -503,7 +503,7 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'What\'s the difference between the Japanese meaning of senpai and the internet meme?',
-				answer: 'In Japanese, senpai describes a specific, reciprocal mentorship relationship at school, work, or in a club. The English internet usage — as in "notice me, senpai" — strips that down to just "someone whose attention you want," a much narrower and more casual sense that spread through anime fandom starting around 2012.',
+				answer: 'In Japanese, senpai describes a specific, reciprocal mentorship relationship at school, work, or in a club. The English internet usage (as in "notice me, senpai") strips that down to just "someone whose attention you want," a much narrower and more casual sense that spread through anime fandom starting around 2012.',
 			},
 			{
 				question: 'Is "senpai" an official English word now?',
