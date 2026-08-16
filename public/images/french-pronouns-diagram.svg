@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 760" font-family="system-ui, -apple-system, sans-serif">
+	<rect width="800" height="760" fill="#f6f4e9"/>
+	<rect x="24" y="24" width="752" height="712" rx="10" fill="#fffefa" stroke="#ddd8c4"/>
+
+	<rect x="24" y="24" width="752" height="56" rx="10" fill="#2f6b47"/>
+	<rect x="24" y="60" width="752" height="20" fill="#2f6b47"/>
+	<text x="400" y="60" text-anchor="middle" fill="#ffffff" font-size="17" font-weight="700">WHICH FRENCH PRONOUN? FOLLOW THE PREPOSITION</text>
+
+	<!-- start box -->
+	<rect x="300" y="98" width="200" height="46" rx="8" fill="#eaf1ea" stroke="#2f6b47"/>
+	<text x="400" y="126" text-anchor="middle" fill="#2f6b47" font-size="13" font-weight="700">What follows the verb?</text>
+
+	<!-- connectors from start -->
+	<line x1="340" y1="144" x2="140" y2="176" stroke="#5a5648" stroke-width="1.5"/>
+	<line x1="400" y1="144" x2="400" y2="176" stroke="#5a5648" stroke-width="1.5"/>
+	<line x1="460" y1="144" x2="660" y2="176" stroke="#5a5648" stroke-width="1.5"/>
+
+	<!-- branch 1: no preposition -->
+	<rect x="46" y="176" width="188" height="58" rx="8" fill="#fbead0" stroke="#ddd8c4"/>
+	<text x="140" y="198" text-anchor="middle" fill="#5a5648" font-size="11" font-weight="700">NO PREPOSITION</text>
+	<text x="140" y="216" text-anchor="middle" fill="#201f1a" font-size="11">Je vois Marc</text>
+	<text x="140" y="230" text-anchor="middle" fill="#201f1a" font-size="11">&#8594; direct object</text>
+
+	<rect x="46" y="248" width="188" height="34" rx="8" fill="#2f6b47"/>
+	<text x="140" y="270" text-anchor="middle" fill="#ffffff" font-size="14" font-weight="700">me / te / le / la / nous / vous / les</text>
+
+	<!-- branch 2: à -->
+	<rect x="306" y="176" width="188" height="58" rx="8" fill="#fbead0" stroke="#ddd8c4"/>
+	<text x="400" y="198" text-anchor="middle" fill="#5a5648" font-size="11" font-weight="700">VERB + À</text>
+	<text x="400" y="216" text-anchor="middle" fill="#201f1a" font-size="11">a person, or a thing/place</text>
+	<text x="400" y="230" text-anchor="middle" fill="#201f1a" font-size="11">which one is it?</text>
+
+	<!-- branch 3: de -->
+	<rect x="566" y="176" width="188" height="58" rx="8" fill="#fbead0" stroke="#ddd8c4"/>
+	<text x="660" y="198" text-anchor="middle" fill="#5a5648" font-size="11" font-weight="700">VERB + DE</text>
+	<text x="660" y="216" text-anchor="middle" fill="#201f1a" font-size="11">Il parle de son voyage</text>
+	<text x="660" y="230" text-anchor="middle" fill="#201f1a" font-size="11">&#8594; a thing, idea, or quantity</text>
+
+	<rect x="566" y="248" width="188" height="34" rx="8" fill="#2f6b47"/>
+	<text x="660" y="270" text-anchor="middle" fill="#ffffff" font-size="14" font-weight="700">en</text>
+
+	<!-- à splits into three -->
+	<line x1="340" y1="234" x2="220" y2="326" stroke="#5a5648" stroke-width="1.5"/>
+	<line x1="400" y1="234" x2="400" y2="326" stroke="#5a5648" stroke-width="1.5"/>
+	<line x1="460" y1="234" x2="580" y2="326" stroke="#5a5648" stroke-width="1.5"/>
+
+	<rect x="126" y="326" width="188" height="52" rx="8" fill="#eaf1ea" stroke="#2f6b47"/>
+	<text x="220" y="348" text-anchor="middle" fill="#5a5648" font-size="11" font-weight="700">À + A THING OR PLACE</text>
+	<text x="220" y="366" text-anchor="middle" fill="#201f1a" font-size="11">Je vais à Paris (never a person)</text>
+
+	<rect x="126" y="392" width="188" height="34" rx="8" fill="#2f6b47"/>
+	<text x="220" y="414" text-anchor="middle" fill="#ffffff" font-size="16" font-weight="700">y</text>
+
+	<rect x="306" y="326" width="188" height="52" rx="8" fill="#eaf1ea" stroke="#2f6b47"/>
+	<text x="400" y="348" text-anchor="middle" fill="#5a5648" font-size="11" font-weight="700">À + A PERSON (most verbs)</text>
+	<text x="400" y="366" text-anchor="middle" fill="#201f1a" font-size="11">parler à, sourire à, téléphoner à</text>
+
+	<rect x="306" y="392" width="188" height="34" rx="8" fill="#2f6b47"/>
+	<text x="400" y="414" text-anchor="middle" fill="#ffffff" font-size="14" font-weight="700">lui / leur</text>
+
+	<rect x="486" y="326" width="200" height="66" rx="8" fill="#fce8e6" stroke="#c0554a"/>
+	<text x="586" y="346" text-anchor="middle" fill="#8a3a30" font-size="11" font-weight="700">À + A PERSON, EXCEPT: penser à,</text>
+	<text x="586" y="361" text-anchor="middle" fill="#8a3a30" font-size="11" font-weight="700">tenir à, croire à, être à, and 5 more</text>
+	<text x="586" y="379" text-anchor="middle" fill="#201f1a" font-size="11">Il pense à elle, never &#8220;il lui pense&#8221;</text>
+
+	<rect x="486" y="408" width="200" height="34" rx="8" fill="#8a3a30"/>
+	<text x="586" y="430" text-anchor="middle" fill="#ffffff" font-size="13" font-weight="700">à + moi / toi / lui / elle...</text>
+
+	<line x1="46" y1="466" x2="754" y2="466" stroke="#ddd8c4" stroke-width="1"/>
+
+	<!-- disjunctive row -->
+	<rect x="46" y="486" width="708" height="74" rx="8" fill="#eaf1ea" stroke="#2f6b47"/>
+	<text x="400" y="508" text-anchor="middle" fill="#5a5648" font-size="12" font-weight="700">DISJUNCTIVE (STRESSED): AFTER ANY OTHER PREPOSITION, FOR EMPHASIS, OR ALONE</text>
+	<text x="400" y="530" text-anchor="middle" fill="#2f6b47" font-size="15" font-weight="700">moi &#183; toi &#183; lui &#183; elle &#183; soi &#183; nous &#183; vous &#183; eux &#183; elles</text>
+	<text x="400" y="548" text-anchor="middle" fill="#201f1a" font-size="11">avec moi &#183; c&#8217;est lui &#183; Toi et moi, nous sommes...</text>
+
+	<!-- stacking order row -->
+	<rect x="46" y="576" width="708" height="94" rx="8" fill="#fbead0" stroke="#ddd8c4"/>
+	<text x="400" y="600" text-anchor="middle" fill="#5a5648" font-size="12" font-weight="700">TWO PRONOUNS TOGETHER: ONE FIXED ORDER (DECLARATIVE / NEGATIVE)</text>
+	<text x="400" y="626" text-anchor="middle" fill="#2f6b47" font-size="15" font-weight="700">me/te/se/nous/vous &#8594; le/la/les &#8594; lui/leur &#8594; y &#8594; en</text>
+	<text x="400" y="648" text-anchor="middle" fill="#201f1a" font-size="11">Il me le donne &#183; Il le lui donne &#183; Il y en a</text>
+	<text x="400" y="664" text-anchor="middle" fill="#5a5648" font-size="11" font-style="italic">reverses only for an affirmative command: Donne-le-moi</text>
+
+	<line x1="46" y1="686" x2="754" y2="686" stroke="#ddd8c4" stroke-width="1"/>
+	<text x="400" y="710" text-anchor="middle" fill="#5a5648" font-size="12" font-style="italic">me, te, nous, and vous are identical as direct and indirect objects;</text>
+	<text x="400" y="728" text-anchor="middle" fill="#5a5648" font-size="12" font-style="italic">only the third person splits, le/la vs. lui, les vs. leur.</text>
+</svg>

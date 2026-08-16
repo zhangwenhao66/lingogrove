@@ -3217,4 +3217,96 @@ export const guides: Guide[] = [
 			{ label: 'Real Academia Española — Ortografía básica: "La acentuación gráfica de las palabras con secuencias vocálicas"', url: 'https://www.rae.es/ortograf%C3%ADa-b%C3%A1sica/uso-de-la-tilde/las-reglas-de-acentuaci%C3%B3n-gr%C3%A1fica/la-acentuaci%C3%B3n-gr%C3%A1fica-de-las-palabras-con-secuencias-voc%C3%A1licas' },
 		],
 	},
+	{
+		slug: 'french-pronouns',
+		category: 'Grammar',
+		title: 'French Pronouns: All Five Families and the Stacking Order',
+		description: 'Subject, object, disjunctive, and the adverbial y and en reuse the same handful of forms. A verb\'s preposition decides which family applies, not what the pronoun means.',
+		published: '2026-08-17',
+		updated: '2026-08-17',
+		coreSummary: 'French sorts personal pronouns into five families, subject, direct object, indirect object, disjunctive (stressed), and the adverbial pronouns y and en, and several of them reuse the exact same forms: me, te, nous, and vous cover both the direct and indirect object roles without changing shape. What decides which family a given sentence needs is the preposition the verb takes, not the pronoun\'s English translation: no preposition means a direct object, verb plus à plus a person usually means lui or leur, and verb plus à plus a thing or place means y. A short, fixed list of verbs, including penser à, tenir à, and croire à, breaks that last rule and takes a disjunctive pronoun even when the object is a person, and when two pronouns land in the same sentence they lock into one fixed order that only reverses for an affirmative command.',
+		language: 'French',
+		sections: [
+			{
+				heading: 'Five families, and three of them share their forms',
+				body: [
+					'French splits pronouns into five separate jobs rather than one all-purpose list, and per the Office québécois de la langue française\'s own reference on personal pronouns, several of the forms do double duty across those jobs instead of each family getting its own unique set of words. Subject pronouns (je, tu, il/elle/on, nous, vous, ils/elles) trigger the verb\'s conjugation and never do anything else. Direct object pronouns (me, te, le/la, nous, vous, les) stand in for whatever the verb acts on with no preposition in between: Je vois Marc becomes Je le vois. Indirect object pronouns (me, te, lui, nous, vous, leur) take over the same slot when the noun is attached to the verb by à: Je parle à Marc becomes Je lui parle.',
+					'Line those two object rows up and the overlap is obvious: me, te, nous, and vous are identical whether the object is direct or indirect. Only the third person actually splits, le/la against lui, and les against leur, which means most of the real learning curve in this system sits in one grammatical person, not across all six.',
+				],
+				image: {
+					src: '/images/french-pronouns-diagram.svg',
+					alt: 'Decision-tree diagram for choosing a French object pronoun: no preposition leads to a direct object pronoun, verb + à + person leads to lui/leur, verb + à + thing or place leads to y, verb + de + thing or quantity leads to en, and a short list of exception verbs (penser à, tenir à, croire à, and others) routes a person back to a disjunctive pronoun instead of lui/leur.',
+				},
+			},
+			{
+				heading: 'No preposition, à, or de: the test that actually decides it',
+				body: [
+					'The preposition a verb takes decides which family its object belongs to, not what the pronoun means in English and not whether the noun it replaces happens to be a person or a thing. Three tests cover almost every ordinary verb.',
+					'**No preposition at all.** The object attaches straight to the verb, so it takes a direct object pronoun: J\'écoute la radio becomes Je l\'écoute; Il connaît mes parents becomes Il les connaît.',
+					'**Verb + à + a person**, for most verbs. That calls for lui or leur: Je téléphone à ma sœur becomes Je lui téléphone; Il sourit aux enfants becomes Il leur sourit. Per a French pronoun reference published by Concordia University\'s Université ouverte des humanités, this is the ordinary pattern for verbs like parler à, sourire à, plaire à, appartenir à, ressembler à, nuire à, succéder à, and téléphoner à.',
+					'**Verb + à + a thing or place.** That calls for y instead, and y never stands for a person: Il répond à la question becomes Il y répond; Je vais à Paris becomes J\'y vais.',
+				],
+			},
+			{
+				heading: 'Nine verbs that refuse lui and leur for a person',
+				body: [
+					'A short, fixed list of verbs breaks the "à + person = lui/leur" rule above. Per the same Université ouverte des humanités reference, verbs including penser à, songer à, croire à, tenir à, renoncer à, recourir à, être à, faire attention à, and rêver à route a personal object to à plus a disjunctive pronoun instead, even though the object is a person: Il pense à Marie becomes Il pense à elle, never the ordinary-looking Il lui pense. Elle tient à ses amis becomes Elle tient à eux. The same source adds a further set of pronominal verbs that follow the identical pattern: s\'adresser à, s\'attacher à, s\'intéresser à, se plaindre à, se fier à, se joindre à, se rendre à, and s\'opposer à all take à plus a disjunctive pronoun for a person, never lui or leur.',
+					'The two verb lists sit right next to each other in form and pull in opposite directions in practice: téléphoner à and penser à both take à plus a person, but only téléphoner hands that person over to lui. There\'s no shortcut for telling the two groups apart beyond that reference\'s own lists; the verb\'s meaning doesn\'t predict which side it falls on, which is exactly why generic language-learning guides tend to skip this exception rather than name the verbs it covers.',
+				],
+			},
+			{
+				heading: 'En replaces de-phrases, and it can stand for a person too',
+				body: [
+					'En stands in for a complement introduced by de, the same way y stands in for one introduced by à: J\'ai besoin de ce livre becomes J\'en ai besoin; Il parle de son voyage becomes Il en parle. It also carries French\'s expressions of quantity, standing in for de plus a number or an amount: J\'ai deux frères becomes J\'en ai deux.',
+					'Per the OQLF\'s own reference on the pronoun en, it most often stands for a thing or an animal, but it is explicitly accepted for a person too, and that accepted use isn\'t limited to counting: Mes deux enfants, j\'en suis très fier ("My two children, I\'m very proud of them") replaces the whole de mes deux enfants complement, not just a number attached to it. Where French still tends to reach for a disjunctive pronoun instead is a single, specific person named as the sentence\'s sole focus: Je parle de Pierre more often becomes Je parle de lui than J\'en parle, though this choice isn\'t as rigid a fork as the à-side exception verbs from the previous section.',
+				],
+			},
+			{
+				heading: 'Disjunctive pronouns: after prepositions, for emphasis, and standing alone',
+				body: [
+					'Disjunctive pronouns, moi, toi, lui, elle, soi, nous, vous, eux, elles, are the pronouns French reaches for whenever a personal pronoun has to stand on its own rather than attach directly to a conjugated verb. Per the OQLF\'s reference on the disjunctive pronoun, that covers several distinct situations: after any preposition other than the à that routes to lui, leur, or y (avec moi, chez eux, pour toi), for emphasis or contrast (Moi, je pense que...), inside a compound subject or object (Toi et moi, nous sommes de bons amis), standing completely alone or right after c\'est (C\'est moi), and the exception-verb pattern from the previous section (penser à elle).',
+					'Soi is the odd one out on that list: it pairs with an indefinite or generic subject rather than a specific person, as in chacun pour soi or on doit avoir confiance en soi, and it never substitutes for a named il or elle the way the other eight forms do.',
+				],
+			},
+			{
+				heading: 'Stack two pronouns and they lock into one order, except in a command',
+				body: [
+					'When a sentence needs two object pronouns at once, French doesn\'t let them fall in whatever order feels natural. In an ordinary declarative or negative sentence, they line up in a fixed sequence: me/te/se/nous/vous, then le/la/les, then lui/leur, then y, then en. Il me le donne (me before le), Il le lui donne (le before lui, since both are third person and lui drops behind), Il nous y emmène (nous before y), Il y en a (y before en, the fixed phrase "there is/are").',
+					'That order only reverses in one place: an affirmative command, where the direct object moves ahead of the indirect one instead (Donne-le-moi, not Donne-moi-le), a rule covered in full, including the hyphenation and the negative-command reversal back to ordinary order, in [the French imperative guide](/french-imperative/). [Spanish double object pronouns](/double-object-pronouns-spanish/) enforce an equally strict order of their own, but for a different reason: Spanish blocks le or les from sitting directly in front of lo, la, los, or las and substitutes se instead (se lo doy, never le lo doy), while French makes no such substitution; it just lines le/la/les up ahead of lui/leur in sequence, as two separate words, the same way it does for every other pronoun pair.',
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'Why is "je pense à elle" correct but "je lui pense" is wrong?',
+				answer: 'Penser à is one of a short, fixed list of verbs, including songer à, croire à, tenir à, renoncer à, recourir à, être à, faire attention à, and rêver à, that route a personal object to à plus a disjunctive pronoun (moi, toi, lui, elle, nous, vous, eux, elles) instead of the ordinary lui/leur pattern most à-verbs use. This is a fixed exception tied to the specific verb, not a general rule; téléphoner à, right next to it in form, does take lui (je lui téléphone).',
+			},
+			{
+				question: 'How do I know whether "à + noun" needs "lui/leur" or "y"?',
+				answer: 'It depends on whether the noun after à is a person or a thing/place, not on the verb itself. Most verbs send a personal à-object to lui or leur (je lui téléphone) and a thing- or place-based à-object to y (j\'y réponds, j\'y vais). Y never stands for a person.',
+			},
+			{
+				question: 'Can "en" ever refer to a person?',
+				answer: 'Yes. Per the OQLF, en most often stands for a thing or an animal but is explicitly accepted for a person too, and not only in counting expressions like J\'ai deux frères becomes J\'en ai deux; Mes deux enfants, j\'en suis très fier ("My two children, I\'m very proud of them") replaces a personal complement without counting anything. For a single, specific person named as the sentence\'s sole focus, French still tends to reach for the disjunctive pronoun instead, je parle de lui rather than j\'en parle.',
+			},
+			{
+				question: 'What order do two object pronouns go in in a normal French sentence?',
+				answer: 'Me/te/se/nous/vous, then le/la/les, then lui/leur, then y, then en, in that fixed sequence: il me le donne, il le lui donne, il y en a. That order is specific to declarative and negative sentences; it flips for an affirmative command, where the direct object pronoun moves ahead of the indirect one instead (donne-le-moi).',
+			},
+			{
+				question: 'Is "lui" always an indirect object pronoun?',
+				answer: 'No, lui does two separate jobs that happen to share a spelling. As an indirect object pronoun it attaches to the verb (je lui parle). As a disjunctive pronoun it stands alone or after a preposition (avec lui, c\'est lui, je pense à lui with the penser-à exception verbs). The two uses are grammatically distinct even though the word is identical.',
+			},
+			{
+				question: 'Why do "me," "te," "nous," and "vous" look the same as both direct and indirect object pronouns?',
+				answer: 'Those four forms are identical across both roles; French only splits direct from indirect in the third person, where le/la (direct) contrasts with lui (indirect), and les (direct) contrasts with leur (indirect). That third-person split is where nearly all of the system\'s real complexity concentrates.',
+			},
+		],
+		sources: [
+			{ label: 'Office québécois de la langue française — Vitrine linguistique: "Les pronoms personnels"', url: 'https://vitrinelinguistique.oqlf.gouv.qc.ca/la-grammaire/les-pronoms/pronoms-personnels' },
+			{ label: 'Office québécois de la langue française — Vitrine linguistique: "Pronom disjoint et mise en évidence"', url: 'https://vitrinelinguistique.oqlf.gouv.qc.ca/23406/la-grammaire/les-pronoms/pronoms-personnels/pronom-disjoint-et-mise-en-evidence' },
+			{ label: 'Université ouverte des humanités (Concordia University) — "Alternance pronom conjoint complément indirect / pronom disjoint précédé de la préposition « à »"', url: 'https://uoh.concordia.ca/pronoms/co/m/co/pro-comp-indirect_ou_pronom_disjoint_avec_prep.html' },
+			{ label: 'Office québécois de la langue française — Vitrine linguistique: "Pronom personnel EN : usages et mode d\'emploi"', url: 'https://vitrinelinguistique.oqlf.gouv.qc.ca/23513/la-grammaire/les-pronoms/pronoms-personnels/le-pronom-personnel-en' },
+		],
+	},
 ];
