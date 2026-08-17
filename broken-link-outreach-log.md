@@ -101,3 +101,69 @@ Scarborough 学区的 Spanish 与 French 两个资源页上，同一批三条链
 ### 本轮结论
 
 未形成新的独立机会。本轮的产出是解决了 Scarborough 这条 2026-08-04 就已发现、只差收件人的机会，草稿已更新为 PENDING INDEPENDENT REVIEW 状态。
+
+---
+
+## 2026-08-16（第四次运行，`trafficsite-broken-link-building`）
+
+### 1.5 竞品外链缺口分析（spanishdict.com / wordhippo.com）
+
+用 `dataforseo_query.py domain` + `backlinks --limit 100` 分别拉取两个竞品的外链概览和明细：
+
+| 竞品 | 引荐域名数 | 100条抽样外链画像 | 判定 |
+|---|---|---|---|
+| spanishdict.com | 14078 | 几乎全部是 IXL、Rosetta Stone、Dictionary.com、Teachers Pay Teachers、Wyzant、Vocabulary.com 等 DR 580+ 大品牌的合作型链接 | **不可赢**——典型"依赖品牌规模的链接"，本站体量完全不在同一量级，硬追无意义 |
+| wordhippo.com | 12552 | 多为中小站点对具体词义页（如 `/what-is/the-meaning-of/spanish-word-espayol.html`）的零散引用，很大比例是低质内容农场/PBN 特征域名（DR 0、重复引用同一页面），非编辑推荐的资源列表 | **不可赢**——不是"资源列表/roundup"或"真实编辑推荐"类型，是查询式内容的自然引用 |
+
+原始快照存档：`独立站/research-db/direct-api-log/20260816T061303Z_domain_spanishdict-com_*.json`、`...061305Z_domain_wordhippo-com_*.json`、`...061359Z_backlinks_spanishdict-com_*.json`、`...061403Z_backlinks_wordhippo-com_*.json`。
+
+**转向间接方法**：直接外链明细挖不到可赢机会，改用 WebSearch 反向搜索"谁把 spanishdict/wordhippo 列为资源"，找到多个大学 libguides（Wabash College、University of Alabama、Oakton CC、Durham Tech、STFX、College of Eastern Idaho、Paradise Valley CC、UTRGV、West Sound Academy 等），逐一用 curl 核实页面内的其他外链是否失效——这不是竞品反链本身的机会，而是竞品反链暴露出的"同类资源列表"入口，用来找断链。**候选总数**：9 个页面（另有 moonspaces.weebly.com 因主题不符未计入候选）。**筛选后判定有真实机会**：1 个（Wabash College）。
+
+### 第 1-2 步：断链检查
+
+本轮共检查 12 个资源页（含 1.5 阶段间接发现的 9 个 + Señora Mayo 复核 + Moonspaces + 直接搜索新增候选），约 210+ 条外链：
+
+| 资源页 | 类型 | 外链数(约) | 真实失效 |
+|---|---|---|---|
+| **Wabash College Lilly Library, Spanish web resources** | 大学 | 45 | **1**（ilovelanguages.com 旧目录页 404，站点改版丢弃该结构） |
+| Durham Tech, SPA/web | 大学 | 20 | 0（发现1条疑似404但确认是格式错误的`<span href>`非真实`<a>`链接，不算真实断链，见下） |
+| University of Alabama, Spanish learning tools | 大学 | 8 | 0 |
+| Oakton Community College, Spanish links | 大学 | 页面结构为JS/地图组件为主，无实质外部资源链接 | — |
+| STFX, French websites | 大学 | 14 | 0 |
+| College of Eastern Idaho, Learning Spanish | 大学 | 页面无实质外部资源链接（书目为主） | — |
+| Paradise Valley CC, SPA101/102 | 大学 | 12 | 0 |
+| UTRGV, OER Spanish | 大学 | 18 | 0 |
+| West Sound Academy（K-12 私立学校）, Language Learning Tools | K-12 | 约25 | 0（2条因沙箱SSL/超时返回000，不计入失效证据） |
+| Señora Mayo's Spanish Classes（weebly，教师个人站） | 教师个人站 | — | 页面/整站已 404，**整站下线**，非单页断链 |
+| Moonspaces（weebly，教师站）Grammar and Vocabulary Websites | 教师个人站 | 15 | 0条404，但主题是通用英语/ESL词汇非外语语法，即使有断链也不匹配，跳过 |
+
+### 发现的真实失效链接
+
+**Wabash College Lilly Library** Spanish 资源指南（`library.wabash.edu/spanish/web`）：
+
+- **`http://www.ilovelanguages.com/index.php?category=Languages%7CBy+Language%7CSpanish`** → 404（页面标题 "Not found — I Love Languages"），锚文本 "I Love Languages--Spanish"，已核对是真实 `<a href>` 标签（非误报）
+- 交叉验证：ilovelanguages.com 根域名仍存活（301跳转），但站点已整体重建为博客形态，不再保留旧版目录式分类页结构，无等价新URL可替换——与本站历史记录里的 Digital Maine 断链同属"改版丢弃旧结构"型
+
+### 排除的误报
+
+- **Durham Tech SPA/web** 页面上 `fsi-language-courses.org/Content.php?page=Spanish` curl 返回干净404，但核对源码后该URL只出现在格式错误的 `<span target="_blank" href="...">` 标签内，不是 `<a>` 标签——span元素不响应href，这条"链接"在真实渲染页面上从来就不可点击，不构成对访客的断链体验。按硬性原则1（只处理真实确认失效）判定不算机会，跳过。**新教训**：curl grep到`href="..."`不能只看是否包含在标签属性里，还要确认外层标签是`<a>`而非其他无效标签，否则会把"从未生效的死代码"误判成"曾经有效后来失效的断链"
+- West Sound Academy 页面上 `temi.repubblica.it/...` 和 `www.surfacelanguages.com` 均返回000（连接失败/SSL错误），DNS/根域交叉核实后无法判定是真实404还是沙箱网络环境问题，按口径不计入失效证据
+
+### 主题匹配判定
+
+Wabash 机会**成立但不对等**，已在邮件里如实声明。I Love Languages 原本是较宽泛的西班牙语资源导航目录，LingoGrove 提供的是更窄的语法/动词变位参考子集（ser-vs-estar、por-vs-para、preterite-vs-imperfect、ser-conjugation，均用 RAE 变位表核对），邮件明确写"覆盖面比原链接窄，只是语法部分的替代"，不夸大等价性。
+
+### 处理结果
+
+**独立复核通过后本轮内已实际发出**：收件人 `beckj@wabash.edu`（Jeff Beck，Wabash College Lilly Library Reference Librarian；地址来自该指南页面自带的"Report a problem"链接，非按命名规律猜测），Message ID `1a00945a1beab9a7`，2026-08-16。独立复核 agent 六项检查（查重/断链真实性/收件人合法性/主题匹配/语气/去AI味）全部通过，一轮即通过未发现问题。
+
+### Señora Mayo 历史遗留项了结
+
+2026-08-09 遗留的"Cloudflare拦截curl，需浏览器复核"待办本轮用 Browser pane 处理：`senoramayo.weebly.com` 整站（含首页）现在返回404，不是单页失效而是**整站已下线**。无正常运作站点可投递，永久跳过，不再是"待处理"状态。
+
+### 本轮教训沉淀
+
+1. **竞品外链缺口分析对工具/资料型站的直接产出有限**：spanishdict/wordhippo 这类头部竞品的外链几乎全是"品牌规模不可赢"或"零散引用非编辑推荐"两类，直接扫外链明细挖不到可赢机会。但**反向搜索"谁引用竞品作为资源"**这个中间步骤本身是有效的机会发现路径——本轮唯一的真实机会（Wabash）就是这样找到的，而不是靠直接查外链列表
+2. **grep到href不等于真实可点击链接**：批量检查断链时，如果只用grep确认某个URL出现在`href="..."`属性里就判定为"页面上的一条链接"，可能会误报——本轮 Durham Tech 案例里该URL其实包在`<span>`标签里，从未在浏览器里生效过。以后遇到疑似断链，核实完HTTP状态码后，还要确认外层标签确实是`<a>`
+3. **大学/学院级 libguides 维护良好的结论进一步夯实**：本轮新增检查的 CEI/Paradise Valley/UTRGV/Alabama/STFX/Durham Tech 六所院校、约80条外链，0条真实失效
+4. 下一轮建议：K-12学区/教师个人站方向的样本量还偏小（本轮仅 West Sound Academy 一个新K-12样本，0命中），继续按"反向搜索竞品资源列表引用者"这个新验证有效的路径找更多候选，同时对teacher blog类继续留意Cloudflare拦截问题，需要时上Browser pane

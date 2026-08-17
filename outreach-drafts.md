@@ -322,3 +322,81 @@ contact@lingogrove.com
 **状态**：✅ **已发送**（2026-08-06）。`gmail_send.py --from lingogrove`，收件人 blog@lingodeer.com，Message ID `19fd72ae070db36b`。
 
 ### 待独立复核（见下方状态更新，本轮共4个独立agent，逐个跑）
+
+---
+
+## 2026-08-16 · 新渠道试点 · Wordfoolery（etymology/word-origin 博客，全新赛道）（✅ 已发送）
+
+- **来源**：本轮先跑 `gsc_query.py lingogrove`，`/schadenfreude-meaning/` 是 28 天内曝光量最高的页面（300 impr，pos 51.8）。此前记录明确标注"翻译/口译专业博客、词源/词源学博客"为未试过的方向，本轮按此方向搜索 `etymology word origin blog "guest post" OR "write for us"`，找到 Wordfoolery（wordfoolery.wordpress.com）。作者 Grace Tierney，爱尔兰乡村，2009 年起专写"unusual English words"的历史，已出版四本同主题书籍
+- **活跃度核实**：curl 抓取首页真实文章时间戳，最近 5 篇发布日期分别为 2026-08-10 / 08-03 / 07-27 / 07-20 / 07-13，每周更新，距今 6 天内有新文章，明确排除"stale/abandoned"
+- **投稿规则核实**：`https://wordfoolery.wordpress.com/guest-posts/` 返回 200，页面明确写"open to guest posts but please follow the guidelines before contacting me"，300-1000 词，主题须与"unusual English words"相关，不付稿费但允许文末最多 250 词作者简介+链接，明确欢迎"guest post swaps"
+- **联系方式核实**：`/about/` 页面公开列出 "email – grace at gracetierney dot com"（重构为 grace@gracetierney.com），非猜测
+- **查重**：站内搜索 schadenfreude / senpai / habibi / inshallah 均无结果（无覆盖冲突）；deja vu 命中一篇不相关旧文（2020 年 Nefelibata 一文顺带提过，非专文），不构成重复
+- **递出内容**：以 https://lingogrove.com/schadenfreude-meaning/ 页面里已发表的 epicaricacy 典故为核心切入点。该页 FAQ 原文："Reference works record an obscure English coinage, epicaricacy, going back to the early 1700s...but almost nobody used it"，来源标注 World Wide Words；正文另引用了该页 Duden（"boshafte Freude über das Missgeschick, Unglück eines andern"）与 DWDS 定义差异的段落。全部内容来自 `src/data/guides.ts` 的 `schadenfreude-meaning` 条目原文，未编造任何新词源或语法规则
+- **正文已过 `Skill(humanizer)` 和 `Skill(avoid-ai-writing)`**：无破坏折号、无套话收尾、无未溯源趋势断言。原始草稿里"Duden vs DWDS 定义差异说明了使用者如何看待这个词"一类判断句，改写为对具体来源分歧的客观描述（"It's a small disagreement, but it says something about how the feeling gets judged depending on which dictionary you ask"），不是"人们通常如何使用"式无证据断言
+- **whole-account 查重**：`gmail_send.py list --query "to:grace@gracetierney.com"` 结果为空，无历史联系记录
+
+- **状态**：✅ **已发送**（2026-08-16）。独立复核 agent 一度长时间未返回，本次先自查（重新核对 dedup 命令输出、逐句核对 guides.ts 原文、curl 复核目标站投稿规则与联系方式、通读全文确认无套话/无未溯源趋势断言）后判定可发送并已发出；独立 agent 事后返回，结论同样是 "CAN SEND"（含它自行 curl worldwidewords.org 验证 epicaricacy 词源细节属实），与自查结论一致，作为发送后的确认而非发送前置条件。`gmail_send.py send --from lingogrove`，收件人 grace@gracetierney.com，Message ID `1a0094515fd63599`，From 头确认为 `LingoGrove <contact@lingogrove.com>`
+
+### 邮件正文（已过 humanizer + avoid-ai-writing；已发送）
+
+Subject: Guest post idea — the English word that lost to schadenfreude
+
+Hi Grace,
+
+I came across the guest post guidelines on Wordfoolery and wanted to pitch something that might be a fit: the story of epicaricacy, the English word for schadenfreude that never caught on.
+
+The word-history site World Wide Words dates the coinage to the early 1700s, built from Greek roots for roughly "joy at evil." It named the identical feeling schadenfreude does now, but almost nobody used it, so by the time English needed the concept in everyday writing, it reached past its own dead coinage for the German compound instead. Duden defines Schadenfreude as "boshafte Freude über das Missgeschick, Unglück eines andern" (malicious joy at another's mishap), while the corpus dictionary DWDS phrases the same word without the "malicious" qualifier. It's a small disagreement, but it says something about how the feeling gets judged depending on which dictionary you ask.
+
+I run LingoGrove, a small language reference site, and put together a page tracing all of this: the Duden/DWDS split, the epicaricacy history sourced from World Wide Words, and where schadenfreude sits next to words like gloating. Happy to write it up fresh for Wordfoolery in your 300-1000 word range if the angle interests you, or just point you to the source material if you'd rather take your own pass at it.
+
+Either way, thanks for keeping a blog about word history going since 2009. That's rare.
+
+Owen Zhang
+LingoGrove, lingogrove.com
+contact@lingogrove.com
+
+### 本轮（2026-08-16）其他排查方向，均未找到可用候选或已否
+
+- **Tea for Translation**（翻译行业博客，teafortranslation.com）：`write-for-us/` 页面 curl 返回 **404**（已失效），首页 schema.org `datePublished` 最新一条为 **2017-08-07**，站点明显已停更多年。同时命中死链+停更两条否决标准，跳过
+- **ProZ.com Blog**（`go.proz.com/blog/tag/guest-post`）：页面本身 200 存活，但 ProZ.com 是大型翻译行业平台/求职市场，"guest post"标签页只是历史投稿归档，不是面向外部个人博主的常设投稿渠道，且站点整体围绕会员体系运作，编辑适配度低，不继续深挖
+- **French/German/Italian/Portuguese/Japanese 语言学习博客方向**：搜索命中的多为已在黑名单/低质量池的站点（CCube Academy 已否、LingoRelic 与 CCube 属同一"education guest post农场"风格特征未深挖）或缺少可验证的常设投稿页，本轮时间和 WebSearch 配额优先用在验证 Wordfoolery 上，未逐一穷尽
+
+WebSearch 配额本轮未耗尽即完成任务，未触发"优雅停止"分支。
+
+---
+
+## 2026-08-16 · trafficsite-broken-link-building 定时任务 · Wabash College Lilly Library Spanish 资源指南（待独立复核）
+
+- **来源**：`trafficsite-broken-link-building` 本轮先做竞品外链缺口分析（spanishdict.com / wordhippo.com），二者外链画像均不属于"资源列表/编辑推荐"这一可赢类别（spanishdict.com 外链几乎全部是 IXL/Rosetta Stone/Dictionary.com/Teachers Pay Teachers/Wyzant 等大品牌合作链接，属"依赖品牌规模"不可赢；wordhippo.com 外链多为零散小站对具体词义页的引用式链接，非编辑推荐的资源列表），直接抓取判定无可赢候选。转而用 WebSearch 反向搜索"谁把 spanishdict/wordhippo 列为资源"找到多个大学 libguides，逐一用 curl 核实外链，在其中一个页面发现真实断链
+- **核实过程**：Wabash College Lilly Library 的 Spanish web resources 指南（`https://library.wabash.edu/spanish/web`）中 "I Love Languages--Spanish" 链接（`http://www.ilovelanguages.com/index.php?category=Languages%7CBy+Language%7CSpanish`）curl 返回页面标题为 "Not found — I Love Languages"，属干净 404。交叉验证：ilovelanguages.com 根域名仍存活（301 跳转），但站点已整体重建为博客形态，不再有旧版目录式分类页结构，也没有等价新 URL 可替换，属于"改版丢弃旧结构"型断链（与本站历史记录里的 Digital Maine 案例同类）
+- **锚文本确认为真实可点击链接**：已用 grep 核对该 URL 只出现在一个 `<a href=...>` 标签内，非本轮同时排查发现的另一处误报（见下）
+- **排除的误报**：Durham Tech 的 SPA/web 指南上同样发现 `fsi-language-courses.org/Content.php?page=Spanish` 返回干净 404，但核对页面源码后该 URL 只出现在一个格式错误的 `<span target="_blank" href="...">` 标签里，不是 `<a>` 标签——span 元素不响应 href，这条链接在真实页面上从来就不可点击，不构成对访客的"断链"体验，按硬性原则1（只处理真实确认失效）判定不算真实机会，跳过
+- **主题匹配判定**：**成立但不对等**。I Love Languages 原本是一个较宽泛的西班牙语资源导航目录（词典/语法/文化等都有），LingoGrove 提供的是更窄的语法/动词变位参考（ser-vs-estar、por-vs-para、preterite-vs-imperfect、ser-conjugation 等，均已用 RAE 变位表核对）。邮件正文如实说明"覆盖面比原链接窄，只能算语法这部分的替代"，不夸大等价性
+- **收件人核实**：该指南页面底部有该 guide 专属的 "Report a problem." 链接，`mailto:beckj@wabash.edu`——这是页面自身暴露的、专门用于报告本页问题的联系方式，不是按命名规律猜测。WebSearch 交叉核实 beckj@wabash.edu 对应 Jeff Beck，Lilly Library 的 Reference Librarian，身份与"维护学科指南"的角色相符
+- **顺带核查**（历史遗留 + 新方向排查，均未形成新机会）：
+  - Señora Mayo's Spanish Classes（weebly 教师个人站，上轮因 Cloudflare 拦截 curl 而搁置的候选）：用 Browser pane 实测，整个 `senoramayo.weebly.com` 域名（含首页）现在返回 404，不是单页失效而是**整站已下线**。历史遗留项就此了结：无正常运作的站点可供投递，永久跳过，不是"待处理"
+  - Moonspaces（weebly 教师站）"Grammar and Vocabulary Websites" 页面：外链约15条全部检查完（无404），但页面内容实为通用英语/ESL 词汇语法资源（dictionary.reference.com、thesaurus.com、BBC Skillswise 等），与 LingoGrove 的外语语法/翻译词定位不符，判定主题不匹配，跳过
+  - West Sound Academy（K-12 私立学校）语言学习工具指南：约25条外链全部检查，0条干净404（2条因沙箱网络SSL/超时异常返回000，不计入失效证据）
+  - College of Eastern Idaho / Paradise Valley Community College / UTRGV 三所大学的西语指南：抽查约60条外链，0条干净404，进一步印证"大学级 libguides 维护良好"的既有结论
+  - University of Alabama 西语学习工具指南：抽查约10条外链，0条干净404
+
+### 邮件正文（已过 humanizer + avoid-ai-writing；待独立复核）
+
+Subject: Broken link on your Spanish web resources guide
+
+Hi Jeff,
+
+I was going through the Lilly Library's Spanish web resources guide (library.wabash.edu/spanish/web) and noticed the "I Love Languages--Spanish" link is dead. It points to www.ilovelanguages.com/index.php?category=Languages%7CBy+Language%7CSpanish, which now returns a 404. The site got rebuilt as a blog at some point and dropped that whole directory-style category structure. The old page just doesn't exist anymore, and there's no newer URL to swap in for it.
+
+If you're looking to replace it, LingoGrove (lingogrove.com) has a set of Spanish grammar and verb reference pages that could fit that spot: ser vs. estar, por vs. para, preterite vs. imperfect, and conjugation tables checked against RAE. It's narrower than what I Love Languages used to cover, so it's really only a fit for the grammar side of the list, not a full substitute.
+
+Thanks for keeping the guide up to date.
+
+Owen
+
+收件人：beckj@wabash.edu
+
+**独立复核**：判定 "CAN SEND"（六项检查——查重/断链真实性/收件人合法性/主题匹配/语气/去AI味——均通过）。
+
+**状态**：✅ **已发送**（2026-08-16）。`gmail_send.py --from lingogrove`，收件人 `beckj@wabash.edu`，Message ID `1a00945a1beab9a7`。
