@@ -3467,4 +3467,107 @@ export const guides: Guide[] = [
 			{ label: 'Real Academia Española — Diccionario panhispánico de dudas: "dónde"', url: 'https://www.rae.es/dpd/d%C3%B3nde' },
 		],
 	},
+	{
+		slug: 'italian-future-tense',
+		category: 'Grammar',
+		title: 'Italian Future Tense: When "Sarà" Isn\'t About the Future At All',
+		description: 'Italian\'s future tense uses one regular set of endings, but native speakers also reach for it to guess, soften a claim, or state a rule, not just to predict what\'s next.',
+		published: '2026-08-17',
+		updated: '2026-08-17',
+		coreSummary: 'Italian\'s futuro semplice takes one set of endings for every verb, regardless of conjugation class, a legacy of its origin as a separate word: the infinitive fused with the present tense of avere ("to have"). Per Treccani\'s Enciclopedia dell\'Italiano, that same form does far more than point forward in time. Alongside genuine predictions (domani pioverà, "it will rain tomorrow"), it expresses epistemic guesses about the present (sarà a casa, "he\'s probably home"), softened claims, and outright rules or orders, uses a literal "will" translation misses completely.',
+		language: 'Italian',
+		sections: [
+			{
+				heading: 'One form, but "will" is only one of its jobs',
+				body: [
+					'*Domani pioverà a Milano* ("It will rain tomorrow in Milan") is the future tense doing exactly what an English speaker expects: pointing at something that hasn\'t happened yet. *Mio marito non è tornato: avrà perso il treno* uses the identical grammatical form, *avrà*, in a sentence that isn\'t about the future at all. It means "He\'s probably missed the train," a guess about something that may already be true right now, not a prediction about later.',
+					'Treccani\'s Enciclopedia dell\'Italiano groups prediction, intention, softened claims, and commands together as usi deittici: uses that still nominally point at a future moment, however loosely that\'s stretched. Only two functions fall outside that grouping entirely, guessing about the present and marking which of two events comes first, and both share the identical conjugation with every deittico use. Even inside the "points at the future" label, the tense covers plenty a learner who memorizes "future tense = will" would never predict.',
+				],
+				image: {
+					src: '/images/italian-future-tense-diagram.svg',
+					alt: 'Three rows showing the same Italian future-tense endings doing three different jobs: "Domani pioverà" as a genuine prediction (futuro temporale), "Sarà a casa" as a guess about the present (futuro epistemico), and "Pagherai una multa" as a rule stated as fact rather than a forecast (futuro iussivo).',
+				},
+			},
+			{
+				heading: 'Building it: one set of endings, no split by conjugation class',
+				body: [
+					'Regular formation is mechanical, and unlike the present tense or the passato remoto, it doesn\'t split into three separate patterns for *-are*, *-ere*, and *-ire* verbs. Drop the infinitive\'s final *-e*, then add one of six endings that are identical across every conjugation class: *-ò, -ai, -à, -emo, -ete, -anno*. *Credere* becomes *crederò, crederai, crederà, crederemo, crederete, crederanno*; *partire* becomes *partirò, partirai, partirà, partiremo, partirete, partiranno*.',
+					'The one adjustment applies only to *-are* verbs: they swap their characteristic *-a-* for *-e-* before the ending goes on, matching the *-ere* and *-ire* stem vowel exactly. *Parlare* doesn\'t become *parlarò*; it becomes *parlerò*. *Mangiare* becomes *mangerò*, not *mangiarò*.',
+					'Two spelling adjustments exist purely to keep pronunciation intact, not to mark anything grammatical. *-care* and *-gare* verbs insert an *h* before the ending: *giocare* becomes *giocherò*, not *giocerò*, which would soften the hard *c* [k] into the *ch* sound [tʃ]. Conversely, *-ciare* and *-giare* verbs drop their silent *i*, since it existed only to soften the *c*/*g* in the infinitive and the following *e* already does that job on its own: *cominciare* becomes *comincerò*, not *comincierò*.',
+				],
+			},
+			{
+				heading: 'Sixteen verbs that shorten instead of just adding endings',
+				body: [
+					'Sixteen common verbs keep the same six endings but attach them to a shortened stem instead of the full infinitive: *andare* → *andr-*, *avere* → *avr-*, *bere* → *berr-*, *dare* → *dar-*, *dire* → *dir-*, *dovere* → *dovr-*, *essere* → *sar-*, *fare* → *far-*, *potere* → *potr-*, *rimanere* → *rimarr-*, *sapere* → *sapr-*, *stare* → *star-*, *vedere* → *vedr-*, *venire* → *verr-*, *vivere* → *vivr-*, *volere* → *vorr-*. Once the stem is settled, the endings attached to it are the same regular six every other verb uses: *avere* becomes *avrò, avrai, avrà, avremo, avrete, avranno*.',
+					'Most of these come from the same mechanism: an unstressed vowel dropping out of the stem, sometimes followed by the resulting consonant cluster smoothing into a doubled *r*. Treccani traces two specific cases directly: *vedere* loses its unstressed *e* (*vederò* becomes *vedrò*), while *venire* both loses the vowel and then has its *n* assimilate into the following *r* (*venirò* becomes *∗venrò*, which becomes *verrò*). *Bere*, *rimanere*, and *volere* end up with the same *-rr-* shape through the same kind of vowel loss and assimilation.',
+					'Two of the sixteen break that pattern in the opposite direction: *dare* and *stare* keep their *-a-* instead of losing it, giving *darò* and *starò* rather than a shortened stem. Treccani offers this as the likely explanation rather than a settled one: the *-a-* probably survives here by analogy with those two verbs\' own present-tense forms, *do* and *sto*.',
+				],
+			},
+			{
+				heading: 'Where a "regular" ending like -ò actually comes from',
+				body: [
+					'Classical Latin already had its own synthetic future, but sound changes had quietly blurred its endings into the present and imperfect until the three tenses became hard to tell apart by ear. Vulgar Latin worked around the confusion by building a new future out of the infinitive plus the present tense of *habere* ("to have"). That periphrasis didn\'t start out meaning "future" at all: Treccani traces its earliest use, in Cicero\'s own prose, as a statement of obligation, closer to "I have a duty to sing" than "I will sing." Centuries of use in contexts where duty and forward-looking time overlapped let the obligation sense fade until only the future meaning was left, and the two words gradually contracted into one: *cantare habeo* narrowed step by step into *cantarò*.',
+					'That contraction didn\'t land the same way everywhere. Old regional dialects built their own future endings out of local variants of *avere*\'s present tense: Old Lombard produced *farai* ("farò"), Old Paduan *anderè* ("andrò"). It wasn\'t until the eighteenth century that the Tuscan-based endings standard Italian uses today spread widely enough to displace them, and the older regional endings held on well past that in parts of Piedmont and in Istrian and Dolomitic Ladin dialects.',
+				],
+			},
+			{
+				heading: '"Sarà" doesn\'t always mean "will be": the epistemic guess',
+				body: [
+					'One of the future tense\'s most common real-world jobs has nothing to do with time at all. Treccani calls this the *uso epistemico*: using the future to express an inference or a guess about something happening right now, rather than a claim about what happens later. The literal translation of *Non vedo Marco da un\'ora: sarà uscito a fare una passeggiata* would be "I haven\'t seen Marco in an hour: he will have gone out for a walk," a future-tense claim. What the sentence actually communicates is a present-tense guess, "he\'s probably gone out for a walk."',
+					'The tell is almost always context, not grammar: there\'s no future time marker in the sentence, and the situation being described is something the speaker is uncertain about right now, not later. Asked what time it is with no clock visible, *Saranno le tre* means "It\'s probably three," not any statement about a future three o\'clock.',
+				],
+			},
+			{
+				heading: 'Softening a claim, or stating a rule: the attenuativo and iussivo uses',
+				body: [
+					'The future can also soften a statement rather than time it. Treccani\'s *futuro attenuativo* places a claim at a psychological distance from the speaker to make it land more gently, a courtesy device that shows up especially in argumentative or literary prose: *Ammetterai che la tua proposta aveva qualche difetto* reads less like a prediction and more like a polite way of saying "you\'ll admit," softening what could otherwise be a blunt accusation.',
+					'At the opposite extreme, the same tense can carry real force. The *futuro iussivo* uses future-tense grammar to issue an order or state a binding rule as though it were simply a fact, a pattern so old it survives in the second of the Ten Commandments (*non avrai altro Dio all\'infuori di me*, "you shall have no other god before me") and remains common today in legal and administrative Italian. *I trasgressori pagheranno una multa* reads grammatically like a forecast that violators will eventually pay a fine, but functionally it states the penalty as a rule, closer in force to "violators are fined" than to any prediction.',
+				],
+			},
+			{
+				heading: 'Futuro anteriore: the same trick, one step further back',
+				body: [
+					'The futuro anteriore (future perfect) is a compound tense: the future of *avere* or *essere*, plus the main verb\'s past participle. Its core job is sequencing two future events, marking which one finishes first: *Quando avrò finito il lavoro, ti chiamerò* ("When I\'ve finished the work, I\'ll call you") places the finishing before the calling, even though both are still ahead of the present moment.',
+					'Like the futuro semplice, it also carries a suppositive sense, only aimed at the past instead of the present: *Se Marco non ha risposto al messaggio, avrà avuto un buon motivo* means "If Marco hasn\'t answered the message, he probably had a good reason," not any statement about the future. And unlike Latin, which required the sequencing tense in this situation, Italian doesn\'t strictly enforce it: per Treccani, everyday and even literary Italian frequently uses the plain futuro semplice in both clauses instead (*Quando arriverà il pacco, ti manderò un messaggio*, "When the package arrives, I\'ll send you a message," with neither verb marked as happening first), and casual spoken Italian often reaches for the passato prossimo in its place (*Ti chiamo quando ho mangiato*, "I\'ll call you when I\'ve eaten").',
+				],
+			},
+			{
+				heading: 'Where this future tense is losing ground',
+				body: [
+					'Italian isn\'t alone in watching its inherited future tense get squeezed by something newer. [Spanish](/spanish-future-tense/) faces a comparable shift, with the periphrasis *ir a* + infinitive edging into territory its own future tense once held largely to itself. Italian\'s version of that pressure shows up in a different construction: for a plan someone has already settled on, everyday speech increasingly reaches for the plain present tense instead of the futuro semplice. *Domani parto* and *Domani partirò* both mean "I\'m leaving tomorrow," and the present-tense version is now the more common choice in casual conversation.',
+					'What the futuro semplice keeps for itself, per Treccani, are the jobs a present tense genuinely can\'t do: real uncertainty about later, formal and written statements, and the modal functions covered above, guessing about right now, softening a claim, or stating a rule as though it were simply a fact.',
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'Does "sarà" always mean "will be"?',
+				answer: 'No. Alongside genuine predictions, Italian uses the future tense as a guess about the present, a function Treccani calls the futuro epistemico. "Dov\'è Luca?" "Sarà in ufficio" doesn\'t mean "He will be in the office"; it means "He\'s probably in the office right now." The clue is usually context: no future time marker, and a question about the present rather than later.',
+			},
+			{
+				question: 'Why do verbs like "giocare" add an h in the future tense?',
+				answer: '"-care" and "-gare" verbs insert an h before the future endings to keep their hard c/g sound: giocare becomes giocherò, not giocerò, which would soften the c into the "ch" sound in "cheese." It\'s a spelling fix, not an irregularity in the verb itself; the same h shows up anywhere else an -e or -i would otherwise soften the consonant.',
+			},
+			{
+				question: 'Why do verbs like "avere" and "vedere" lose a vowel in the future stem?',
+				answer: 'Historically, an unstressed vowel dropped out of the verb stem, a process called syncope. Vedere\'s expected form "vederò" lost its e to become vedrò; venire went a step further, losing its vowel and then having the resulting n assimilate into the following r ("venirò" → "*venrò" → "verrò"). Bere, rimanere, and volere pick up the same doubled-r shape through the same kind of vowel loss and assimilation.',
+			},
+			{
+				question: 'What\'s the difference between futuro semplice and futuro anteriore?',
+				answer: 'Futuro semplice (parlerò) is the simple future built from one word. Futuro anteriore (avrò parlato) is a compound tense: the future of avere or essere plus a past participle, used mainly to show that one future event finishes before another one. It also has its own past-facing guessing use: "avrà avuto le sue ragioni" means "he probably had his reasons," not any statement about the future.',
+			},
+			{
+				question: 'Do Italians actually use the future tense for near-term plans?',
+				answer: 'Less and less in casual speech. For a plan that\'s already decided, everyday spoken Italian increasingly reaches for the plain present tense instead: "Domani parto" ("I\'m leaving tomorrow") rather than "Domani partirò." The futuro semplice stays the default for genuine predictions, formal or written statements, and its distinctly modal jobs: guessing about the present, softening a claim, or stating a rule.',
+			},
+		],
+		sources: [
+			{ label: 'Treccani — La grammatica italiana (2012): "Futuro semplice, indicativo"', url: 'https://www.treccani.it/enciclopedia/indicativo-futuro-semplice_(La-grammatica-italiana)/' },
+			{ label: 'Treccani — Enciclopedia dell\'Italiano (2010): "Futuro" (Elisa De Roberto)', url: 'https://www.treccani.it/enciclopedia/futuro_(Enciclopedia-dell%27Italiano)/' },
+			{ label: 'Treccani — La grammatica italiana (2012): "Futuro anteriore, indicativo"', url: 'https://www.treccani.it/enciclopedia/indicativo-futuro-anteriore_(La-grammatica-italiana)/' },
+			{ label: 'One World Italiano — "Futuro semplice" (regular endings, cross-checked)', url: 'https://oneworlditaliano.com/grammatica-italiana/riferimento-grammaticale/futuro-semplice/' },
+			{ label: 'Scudit — "I primi 111 verbi italiani: gli irregolari al futuro" (irregular stem list, cross-checked)', url: 'https://www.scudit.net/md111verbi_5.htm' },
+		],
+	},
 ];

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" font-family="system-ui, -apple-system, sans-serif">
+	<rect width="800" height="420" fill="#f6f4e9"/>
+
+	<text x="400" y="44" text-anchor="middle" fill="#201f1a" font-size="20" font-weight="700">One future-tense form, three different jobs</text>
+
+	<!-- Row 1: futuro temporale -->
+	<rect x="48" y="76" width="704" height="88" rx="8" fill="#eceadb" stroke="#ddd8c4" stroke-width="1"/>
+	<text x="72" y="108" fill="#204a31" font-size="18" font-weight="700">Domani pioverà.</text>
+	<text x="72" y="132" fill="#5a5648" font-size="14">"It will rain tomorrow."</text>
+	<text x="728" y="120" text-anchor="end" fill="#2f6b47" font-size="14" font-weight="600">futuro temporale</text>
+	<text x="728" y="140" text-anchor="end" fill="#5a5648" font-size="12">a genuine prediction</text>
+
+	<!-- Row 2: futuro epistemico -->
+	<rect x="48" y="176" width="704" height="88" rx="8" fill="#eceadb" stroke="#ddd8c4" stroke-width="1"/>
+	<text x="72" y="208" fill="#204a31" font-size="18" font-weight="700">Sarà a casa.</text>
+	<text x="72" y="232" fill="#5a5648" font-size="14">"He's probably home."</text>
+	<text x="728" y="220" text-anchor="end" fill="#8a3b2e" font-size="14" font-weight="600">futuro epistemico</text>
+	<text x="728" y="240" text-anchor="end" fill="#5a5648" font-size="12">a guess about right now, not later</text>
+
+	<!-- Row 3: futuro iussivo -->
+	<rect x="48" y="276" width="704" height="88" rx="8" fill="#eceadb" stroke="#ddd8c4" stroke-width="1"/>
+	<text x="72" y="308" fill="#204a31" font-size="18" font-weight="700">Pagherai una multa.</text>
+	<text x="72" y="332" fill="#5a5648" font-size="14">"You'll pay a fine."</text>
+	<text x="728" y="320" text-anchor="end" fill="#6a4e9c" font-size="14" font-weight="600">futuro iussivo</text>
+	<text x="728" y="340" text-anchor="end" fill="#5a5648" font-size="12">a rule stated as fact, not a forecast</text>
+
+	<text x="400" y="396" text-anchor="middle" fill="#8a8674" font-size="13">Same six endings in every row — only context tells you which job the tense is doing.</text>
+</svg>
