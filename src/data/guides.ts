@@ -3386,4 +3386,85 @@ export const guides: Guide[] = [
 			{ label: 'Office québécois de la langue française — Vitrine linguistique: "Pronom personnel EN : usages et mode d\'emploi"', url: 'https://vitrinelinguistique.oqlf.gouv.qc.ca/23513/la-grammaire/les-pronoms/pronoms-personnels/le-pronom-personnel-en' },
 		],
 	},
+	{
+		slug: 'spanish-question-words',
+		category: 'Grammar',
+		title: 'Spanish Question Words: The Full List, Qué vs. Cuál',
+		description: 'English uses "what" for both qué and cuál, so learners naturally reach for qué asking a name or an email address, the one spot Spanish actually wants cuál instead.',
+		published: '2026-08-17',
+		updated: '2026-08-17',
+		coreSummary: 'Spanish groups nine interrogative words, qué, cuál, quién, cómo, cuán, cuánto, cuándo, dónde, and adónde, under one accent rule: per the RAE, they keep their written tilde even inside an indirect question like no sé dónde vive, because the accent marks the word\'s grammatical role, not its punctuation. The split that actually trips up English speakers isn\'t the accent, though; it\'s qué versus cuál. Both translate as "what," but Spanish reserves qué for definitions and for anything placed directly before a noun (¿qué libro quieres?), and reserves cuál for picking one item out of an implied set, which covers a name, a phone number, or an email address (¿cuál es tu correo electrónico?, never ¿qué es tu correo electrónico?). That\'s the opposite of how English maps "what" onto both situations.',
+		language: 'Spanish',
+		sections: [
+			{
+				heading: 'The list, and the accent rule that never comes off',
+				body: [
+					'Spanish has nine core interrogative words: qué ("what"), quién/quiénes ("who"), cuál/cuáles ("which/what," see below), cómo ("how"), cuándo ("when"), dónde ("where"), adónde ("where to"), cuán ("how," an intensifier mostly used in exclamations rather than questions), and cuánto/cuánta/cuántos/cuántas ("how much/how many"). Por qué ("why") is this same qué preceded by the preposition por, not a separate word.',
+					'Every one of these carries a written accent, and per the [RAE\'s own entry on the diacritical tilde](https://www.rae.es/buen-uso-espa%C3%B1ol/qu%C3%A9-cu%C3%A1l-qui%C3%A9n-c%C3%B3mo-cu%C3%A1n-cu%C3%A1nto-cu%C3%A1ndo-d%C3%B3nde-y-ad%C3%B3nde-con-tilde), that accent stays in place regardless of punctuation: a direct question, an indirect one folded into a longer sentence, or an exclamation all keep it. The [accent-marks guide](/spanish-accent-marks/) covers the mechanism behind that rule in full, including why an indirect question doesn\'t drop the tilde; this list is the complete set it applies to.',
+				],
+				image: {
+					src: '/images/spanish-question-words-diagram.svg',
+					alt: 'Decision diagram for choosing between qué and cuál: qué directly before a noun is always qué; without a noun right after, a request for a definition or explanation takes qué, while a request for one item from an implied set (a name, phone number, or email address) takes cuál.',
+				},
+			},
+			{
+				heading: 'Qué vs. cuál: the mistake almost every English speaker makes',
+				body: [
+					'English collapses two different questions into one word, "what," and Spanish keeps them apart. Qué asks for a definition or an explanation: ¿Qué es la democracia? ("What is democracy?") wants a concept explained, not one option picked from a list. Cuál asks the opposite kind of question, picking a single item out of a set the speaker already has in mind, even when that set is only implied rather than spelled out: ¿Cuál es tu color favorito? doesn\'t define "favorite color," it asks which one, out of all possible colors, is yours.',
+					'That distinction is what produces the single most common error English speakers make with this pair. A name, a phone number, and an email address are all treated in Spanish as one item selected from an open set (everyone has their own), so all three take cuál, not qué: ¿Cuál es tu nombre?, ¿Cuál es tu número de teléfono?, ¿Cuál es tu correo electrónico? English asks all three with "what," which pulls learners toward the wrong word, ¿Qué es tu nombre?, a sentence a native speaker reads as asking for a definition of the word "name" rather than asking what someone is called.',
+					'The one place qué wins outright, regardless of how many options exist, is directly in front of a noun. ¿Qué libro quieres? ("Which book do you want?") stays qué even when the speaker is choosing among a full shelf of specific books; ¿Cuál libro quieres? is the error English speakers make in the other direction, reaching for cuál because English would say "which" here. Cuál almost never sits immediately before a noun in standard use; it\'s followed by de (¿cuál de los libros?, "which of the books") or stands on its own with a verb (¿cuál quieres?), not by the noun itself.',
+				],
+			},
+			{
+				heading: 'Por qué, porque, porqué, and para qué: four look-alikes, four jobs',
+				body: [
+					'Four related-looking forms cover "why" and "because" in Spanish, and per the [RAE\'s own explainer on the set](https://www.rae.es/espanol-al-dia/porque-porque-por-que-por-que-0), each has a fixed, non-interchangeable job. Por qué, written as two words with a tilde on qué, is the interrogative: it opens a direct or indirect question asking for a reason (¿Por qué llegaste tarde?, No entiendo por qué se fue). Porque, one word with no accent, is the causal conjunction that answers that question (Llegué tarde porque perdí el autobús). Porqué, one word with an accent, is a noun meaning "the reason" or "the motive," and it takes a determiner the way any ordinary noun does: No entiendo el porqué de su decisión ("I don\'t understand the reason for his decision"). Por que, two words with no accent on que, is rarer and shows up when por is a preposition attached to a relative pronoun or subordinating que rather than to an interrogative one, as in la razón por que se fue ("the reason [for which] he left").',
+					'Para qué is a separate question altogether, and confusing it with por qué is its own common error. Por qué asks for a cause, something that happened before and produced the result; para qué asks for a purpose, something the action is aimed at achieving. ¿Por qué estudias español? most naturally answers with a reason (porque me mudé a México); ¿Para qué estudias español? answers with a goal (para conseguir un trabajo mejor). The broader logic behind that cause-versus-purpose split, and how the same distinction shows up outside questions entirely, is covered in the [por vs. para guide](/por-vs-para/).',
+				],
+			},
+			{
+				heading: 'Cuánto is the only one that agrees in gender',
+				body: [
+					'Quién and cuál also have plural forms, quiénes and cuáles, but that\'s number agreement only, and neither one attaches directly in front of a noun the way an ordinary adjective does; ¿cuál libro? isn\'t standard usage (see the qué-before-a-noun rule above). Cuánto goes further: it inflects for both gender and number, becoming cuánto, cuánta, cuántos, or cuántas depending on the noun it modifies, the same way a regular adjective would. ¿Cuánto dinero tienes? (masculine singular, "how much money"), ¿Cuánta agua queda? (feminine singular, "how much water"), ¿Cuántos hermanos tienes? (masculine plural, "how many siblings"), ¿Cuántas personas vinieron? (feminine plural, "how many people came"). Used without a following noun, standing in on its own, cuánto still has to agree with whatever it\'s replacing: ¿Cuántas quieres? only makes sense if the thing being counted is already established as feminine plural in context.',
+				],
+			},
+			{
+				heading: 'Dónde vs. adónde: location versus destination',
+				body: [
+					'Dónde asks about a fixed location: ¿Dónde vives? ("Where do you live?") wants a place, full stop. Adónde adds the sense of movement toward a destination, and per the [RAE\'s guidance on the pair](https://www.rae.es/dpd/d%C3%B3nde), it\'s used specifically with verbs that imply motion: ¿Adónde vas? ("Where are you going [to]?") is built on ir, a movement verb, and pairs naturally with adónde, though dónde alone (¿Dónde vas?) is also accepted with a motion verb; the RAE treats both as correct there without ranking one over the other. What the RAE flags as the real error is running adónde the other way, using it for a verb that describes a static location rather than movement. ¿Adónde vives? doesn\'t work, because vivir doesn\'t involve going anywhere.',
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'Why is "¿cuál es tu nombre?" correct instead of "¿qué es tu nombre?"',
+				answer: 'Names, phone numbers, and email addresses are treated in Spanish as one item picked from an open set, everyone has their own, and that kind of question takes cuál, not qué. ¿Qué es tu nombre? reads to a native speaker as asking for a definition of the word "name," which is the job qué actually does, not as asking what someone is called.',
+			},
+			{
+				question: 'Does "qué" ever take "cuál" instead when it comes before a noun?',
+				answer: 'No. Qué directly in front of a noun stays qué regardless of how many options are on the table: ¿qué libro quieres? is correct even choosing from a full shelf. Cuál almost never sits immediately before a noun; it\'s followed by de (¿cuál de los libros?) or stands alone with a verb (¿cuál quieres?).',
+			},
+			{
+				question: 'What\'s the actual difference between "por qué" and "porque"?',
+				answer: 'Por qué (two words, tilde on qué) is the interrogative that opens a question asking for a reason, in both direct questions (¿Por qué llegaste tarde?) and indirect ones (no entiendo por qué se fue). Porque (one word, no accent) is the causal conjunction that answers that kind of question: llegué tarde porque perdí el autobús.',
+			},
+			{
+				question: 'Is "porqué," written as one word with an accent, ever correct?',
+				answer: 'Yes, but only as a noun meaning "the reason" or "the motive," and it takes a determiner the way any noun does: no entiendo el porqué de su decisión ("I don\'t understand the reason for his decision"). It\'s a distinct word from the interrogative por qué and the conjunction porque, not a spelling variant of either.',
+			},
+			{
+				question: 'Do Spanish question words keep their accent inside a sentence that isn\'t a direct question?',
+				answer: 'Yes. Per the RAE, the tilde on words like dónde, cuándo, and qué marks their grammatical role as interrogative or exclamative pronouns and adverbs, not the presence of question marks. No sé dónde vive ("I don\'t know where he lives") keeps the accent on dónde even though the sentence itself isn\'t a question.',
+			},
+			{
+				question: 'Does "cuánto" change form depending on what\'s being asked about?',
+				answer: 'Yes, and it\'s the only one that agrees in gender as well as number: cuánto dinero (masculine singular), cuánta agua (feminine singular), cuántos hermanos (masculine plural), cuántas personas (feminine plural). Quién and cuál also have plural forms (quiénes, cuáles), but that\'s number only, never gender, and neither attaches directly to a following noun the way cuánto does.',
+			},
+		],
+		sources: [
+			{ label: 'Real Academia Española — "Qué, cuál, quién, cómo, cuán, cuánto, cuándo, dónde y adónde, con tilde"', url: 'https://www.rae.es/buen-uso-espa%C3%B1ol/qu%C3%A9-cu%C3%A1l-qui%C3%A9n-c%C3%B3mo-cu%C3%A1n-cu%C3%A1nto-cu%C3%A1ndo-d%C3%B3nde-y-ad%C3%B3nde-con-tilde' },
+			{ label: 'Real Academia Española — "«Porqué» / «porque» / «por qué» / «por que»"', url: 'https://www.rae.es/espanol-al-dia/porque-porque-por-que-por-que-0' },
+			{ label: 'Real Academia Española — Diccionario panhispánico de dudas: "dónde"', url: 'https://www.rae.es/dpd/d%C3%B3nde' },
+		],
+	},
 ];

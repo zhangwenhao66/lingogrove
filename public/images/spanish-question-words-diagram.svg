@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 620" font-family="system-ui, -apple-system, sans-serif">
+	<rect width="800" height="620" fill="#f6f4e9"/>
+	<rect x="24" y="24" width="752" height="572" rx="10" fill="#fffefa" stroke="#ddd8c4"/>
+
+	<rect x="24" y="24" width="752" height="56" rx="10" fill="#2f6b47"/>
+	<rect x="24" y="60" width="752" height="20" fill="#2f6b47"/>
+	<text x="400" y="60" text-anchor="middle" fill="#ffffff" font-size="17" font-weight="700">QUÉ OR CUÁL? WHAT ARE YOU ASKING FOR?</text>
+
+	<!-- start box -->
+	<rect x="280" y="98" width="240" height="46" rx="8" fill="#eaf1ea" stroke="#2f6b47"/>
+	<text x="400" y="126" text-anchor="middle" fill="#2f6b47" font-size="13" font-weight="700">Does "qué" sit right before a noun?</text>
+
+	<line x1="330" y1="144" x2="150" y2="176" stroke="#5a5648" stroke-width="1.5"/>
+	<line x1="470" y1="144" x2="650" y2="176" stroke="#5a5648" stroke-width="1.5"/>
+
+	<!-- branch: qué + noun -->
+	<rect x="46" y="176" width="208" height="72" rx="8" fill="#fbead0" stroke="#ddd8c4"/>
+	<text x="150" y="198" text-anchor="middle" fill="#5a5648" font-size="11" font-weight="700">YES &#8594; ALWAYS QUÉ</text>
+	<text x="150" y="216" text-anchor="middle" fill="#201f1a" font-size="11">&#191;Qué libro quieres?</text>
+	<text x="150" y="232" text-anchor="middle" fill="#201f1a" font-size="11">never &#191;Cuál libro...?,</text>
+	<text x="150" y="246" text-anchor="middle" fill="#201f1a" font-size="11">even with many options</text>
+
+	<rect x="46" y="264" width="208" height="34" rx="8" fill="#2f6b47"/>
+	<text x="150" y="286" text-anchor="middle" fill="#ffffff" font-size="14" font-weight="700">qué + noun</text>
+
+	<!-- branch: no noun directly after -->
+	<rect x="546" y="176" width="208" height="58" rx="8" fill="#fbead0" stroke="#ddd8c4"/>
+	<text x="650" y="198" text-anchor="middle" fill="#5a5648" font-size="11" font-weight="700">NO NOUN RIGHT AFTER</text>
+	<text x="650" y="216" text-anchor="middle" fill="#201f1a" font-size="11">what kind of answer</text>
+	<text x="650" y="230" text-anchor="middle" fill="#201f1a" font-size="11">do you actually want?</text>
+
+	<line x1="600" y1="234" x2="480" y2="330" stroke="#5a5648" stroke-width="1.5"/>
+	<line x1="700" y1="234" x2="700" y2="330" stroke="#5a5648" stroke-width="1.5"/>
+
+	<!-- sub-branch: definition -->
+	<rect x="330" y="330" width="230" height="72" rx="8" fill="#fbead0" stroke="#ddd8c4"/>
+	<text x="445" y="352" text-anchor="middle" fill="#5a5648" font-size="11" font-weight="700">A DEFINITION OR EXPLANATION</text>
+	<text x="445" y="370" text-anchor="middle" fill="#201f1a" font-size="11">&#191;Qué es la democracia?</text>
+	<text x="445" y="386" text-anchor="middle" fill="#201f1a" font-size="11">("what does it mean")</text>
+
+	<rect x="330" y="418" width="230" height="34" rx="8" fill="#2f6b47"/>
+	<text x="445" y="440" text-anchor="middle" fill="#ffffff" font-size="14" font-weight="700">qué</text>
+
+	<!-- sub-branch: one item from a set -->
+	<rect x="586" y="330" width="168" height="86" rx="8" fill="#fbead0" stroke="#ddd8c4"/>
+	<text x="670" y="352" text-anchor="middle" fill="#5a5648" font-size="11" font-weight="700">ONE ITEM FROM A SET</text>
+	<text x="670" y="370" text-anchor="middle" fill="#201f1a" font-size="11">&#191;Cuál es tu correo</text>
+	<text x="670" y="384" text-anchor="middle" fill="#201f1a" font-size="11">electr&#243;nico?</text>
+	<text x="670" y="400" text-anchor="middle" fill="#201f1a" font-size="11">(name, number, choice)</text>
+
+	<rect x="586" y="432" width="168" height="34" rx="8" fill="#2f6b47"/>
+	<text x="670" y="454" text-anchor="middle" fill="#ffffff" font-size="14" font-weight="700">cuál</text>
+
+	<!-- footer note -->
+	<rect x="46" y="486" width="708" height="86" rx="8" fill="#eaf1ea" stroke="#2f6b47"/>
+	<text x="400" y="508" text-anchor="middle" fill="#2f6b47" font-size="12" font-weight="700">THE ENGLISH TRAP</text>
+	<text x="400" y="528" text-anchor="middle" fill="#201f1a" font-size="11">English uses "what" for both jobs, so learners default to qué for everything.</text>
+	<text x="400" y="546" text-anchor="middle" fill="#201f1a" font-size="11">&#191;Qu&#233; es tu nombre? sounds reasonable in English logic but is wrong in Spanish;</text>
+	<text x="400" y="562" text-anchor="middle" fill="#201f1a" font-size="11">a name is one item from a set (everyone's own), so it takes cu&#225;l: &#191;Cu&#225;l es tu nombre?</text>
+</svg>
