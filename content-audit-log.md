@@ -651,3 +651,102 @@
   "escalation": null
 }
 ```
+
+## 2026-08-17 完整审计：`happy-birthday-in-spanish`
+
+```json
+{
+  "url_slug": "happy-birthday-in-spanish",
+  "last_audited": "2026-08-17",
+  "published_date": "2026-08-03",
+  "note": "本站第八次由trafficsite-content-quality-audit任务完整审计。站内选取：8篇已审计文章（por-vs-para/ser-conjugation/ser-vs-estar/preterite-vs-imperfect/deja-vu-meaning/schadenfreude-meaning/senpai-meaning，共7篇）之外，happy-birthday-in-spanish是全站published最早（2026-08-03，与good-night-in-spanish/i-love-you-in-spanish并列但guides.ts数组位置最靠前）的从未审计条目。",
+  "diagnosed_checkpoints": [
+    "coreSummary'used identically across every Spanish-speaking country with no regional variant in the phrase itself'这类绝对化断言是否有真实反例（本站已知踩坑：ser/estar曾误判所有地区完全一致）",
+    "Las Mañanitas的具体历史论断（'began as a ranchera'体裁归属、逐步与婚礼/洗礼等场合关联再固定为生日歌）是否有来源支撑，还是听起来自洽但缺乏依据",
+    "RAE'cumpleaños'定义与cumplir+años的词源拆解是否逐字准确",
+    "正文/FAQ破折号密度是否符合本站已确立的零容忍标准（仅sources标签+FAQ'No—/Yes—'开头两类例外）"
+  ],
+  "findings": [
+    {
+      "dimension": "事实准确性",
+      "status": "确认发现问题，独立复核确认为真，已修复；其余未发现问题",
+      "detail": "RAE'cumpleaños'定义('aniversario del nacimiento de una persona')与cumplir+años词源拆解、书写形式区分（名词一词/动词短语两词）经WebSearch多方核实逐字准确。**发现问题**：正文'Las Mañanitas...began as a *ranchera*...alongside weddings, baptisms'这条历史论断，抓取本文引用的两条来源（RAE词典页、Mexperience游记博客）全文后确认均未出现'ranchera''corrido''wedding''baptism'等相关字样；WebSearch多方独立西语权威来源（México Desconocido/Infobae/Mexicodestinos）一致将该曲体裁定性为'corrido'（受西班牙塞法迪犹太社区romanza传统影响，墨西哥独立后定型，与vals华尔兹节奏有关联），无一来源支持'ranchera'。'no regional variant in the phrase itself'这条绝对化断言经多方WebSearch反例检索（含针对Argentina/Chile/Puerto Rico/Dominican Republic的专项检索），未发现足以推翻的证据——问候语'feliz cumpleaños'本身确实全域统一，找到的地域差异均属庆祝歌曲/附加祝福语层面，文章本身已如实区分（歌曲有地域差异、问候语本身没有），未修改。"
+    },
+    {
+      "dimension": "EEAT",
+      "status": "未发现问题",
+      "detail": "原2条来源（RAE官方词典+Mexperience专题游记博客），本次修复新增第3条（Infobae新闻报道，交代体裁溯源），非泛泛而谈。"
+    },
+    {
+      "dimension": "时效性",
+      "status": "不适用",
+      "detail": "问候语/文化背景类内容，published=updated=2026-08-03（本次审计后updated改为2026-08-17），核心事实无过时风险。"
+    },
+    {
+      "dimension": "竞品差异化",
+      "status": "未发现问题",
+      "detail": "DataForSEO真实SERP实测'happy birthday in spanish'：头部竞品为Reddit/YouTube/RocketLanguages/Pimsleur/donquijote.org/SpanishDict/beelinguapp/mosalingua/preply/itranslate等，多为短语列举+歌词翻译型内容。本文提供RAE官方词源拆解（cumplir+años语法构词）、书写形式区分（名词cumpleaños一词 vs 动词短语cumple años两词）、Las Mañanitas历史溯源深挖，构成真实增量，本文尚未进入前15（发布14天，符合预期）。"
+    },
+    {
+      "dimension": "SEO技术审计",
+      "status": "未发现阻断性问题，标注一项已知系统性问题不单独处理",
+      "detail": "实测live页面：canonical自引用正确、单一h1、3个h2层级清晰、Article+FAQPage+BreadcrumbList+Person+WebPage schema均正确渲染、viewport标签正确、sitemap正确收录、robots.txt对全部AI爬虫Allow、ads.txt正确指向pub-5245502795720653、privacy/about/terms均200。description本次修复后150字符（理想区间内）。**已知不单独处理**：title渲染91字符（raw title 79字符为全站第二长），此前spanish-future-tense（91字符）/其他长标题已在教训库记录为'复发≥2次须升级'并转交Owen决策发布流程自动化脚本，本文情况相同、非本文特有新问题，本次未修改title。"
+    },
+    {
+      "dimension": "GEO审计",
+      "status": "修复前粗估未过线附近，修复后估算提升，未做额外侵入性修复",
+      "detail": "11维度粗估：coreSummary定义块✓/FAQ自包含问答（4条）✓/RAE定义直接引语✓/schema完整✓；权威信号维度此前仅2条来源（其一为游记博客而非严格学术/官方源），修复新增Infobae新闻源后略有提升；鲁棒性维度因ranchera体裁误标被独立复核确认后大幅提升；表达流畅度此前受12处叙述性em dash拖累，修复后清零，与站内文章基线一致。粗估修复前约76-79/99（低于80及格线，主因体裁误标+em dash密度双重拖累），修复后约83-86/99，越过80及格线。"
+    },
+    {
+      "dimension": "早期内容AI味补漏",
+      "status": "确认发现问题，独立复核确认为真，已修复",
+      "detail": "published 2026-08-03早于avoid-ai-writing技能采纳（2026-08-07），触发强制补查。全文16处em dash中4处允许（2处sources标签'Publisher — Title'格式+FAQ'No —'/'Yes —'开头各1处，本站FAQ普遍用Yes/No—作为是非问句结构性开头，与'No —'同属允许例外），其余12处为叙述性/同位语/转折衔接用法，含2处不易察觉的'嵌在答案中段、非句首'违规（FAQ第2条'\"Years completed\"...— it comes from...'、FAQ第4条'...over time — it's the one...'）。独立复核agent逐行重新核对，总计数与分类完全一致，判定**CONFIRMED real issue**。已修复：12处全部改写为句号/冒号/逗号/括号结构，仅改动含破折号具体句子，保留原意，保留4处允许用法。"
+    },
+    {
+      "dimension": "外部引用链接腐烂",
+      "status": "未发现问题",
+      "detail": "curl实测：RAE页403（已知反自动化拦截，非链接失效，本站历次审计已确立此判断标准）；Mexperience用正确浏览器UA/Accept头返回200（不带头时406，同为反爬虫策略非链接失效）；新增Infobae来源200。"
+    },
+    {
+      "dimension": "内链健康度",
+      "status": "未发现问题",
+      "detail": "grep确认2条站内正文手动锚文本真实反向链接到本文（good-night-in-spanish FAQ第3条、i-love-you-in-spanish FAQ第4条），非孤儿页；本文自身正文也有2条出站链接到good-night-in-spanish/i-love-you-in-spanish，桥接句'both come with the same kind of nuance that a direct translation misses'核对准确（两篇目标文章确实各有区别于直译的真实语义细节）。Phrases分类仅3篇（happy-birthday-in-spanish/good-night-in-spanish/i-love-you-in-spanish）≤6篇阈值全部展示，'You might also like'侧栏实测正确显示2篇同分类peer+4篇跨分类补齐，非算法故障。"
+    },
+    {
+      "dimension": "Schema数据一致性",
+      "status": "已同步",
+      "detail": "本次编辑涉及description/正文/FAQ文字、新增1条来源、updated日期；构建后curl核实live页面Article/FAQPage/BreadcrumbList三项JSON-LD均正确解析，dateModified已同步为2026-08-17，description字段与guides.ts一致，FAQ条数仍为4条未变。"
+    },
+    {
+      "dimension": "合规/敏感度漂移",
+      "status": "未发现问题",
+      "detail": "问候语/文化习俗科普内容，无人物/事件/群体相关敏感表述。"
+    },
+    {
+      "dimension": "配图可用性与版权",
+      "status": "未发现问题",
+      "detail": "本文无guide级image字段，回退站点favicon.svg；核实为全站Phrases类文章统一模式（不涉及变位表/语法对比图，无自制SVG需求），非本文缺陷，无第三方图片版权风险。"
+    },
+    {
+      "dimension": "AdSense政策合规",
+      "status": "未发现问题",
+      "detail": "问候语/文化科普内容，无粗俗俚语渲染问题，无标题党/诱导误点；ads.txt/robots.txt/privacy/about/terms均实测正常。"
+    }
+  ],
+  "actions_taken": [
+    "Las Mañanitas体裁论断改写：正文'began as a *ranchera*...alongside weddings, baptisms'改为'the melody traces to the *romanza*...later reshaped, after independence, into the style historians classify as a *corrido* rather than a ranchera'；FAQ第4条同款'began as a ranchera'改为'rooted in Spain's medieval serenade tradition and later reshaped into Mexico's corrido style'；未经证实的'weddings, baptisms'替换为Mexperience来源自身支持的'Mother's Day and saints' days'；新增Infobae来源支撑",
+    "改写description+正文+FAQ共12处叙述性em dash为句号/冒号/逗号/括号结构（仅改动含破折号具体句子，保留原意），保留4处允许用法（2处sources标签+FAQ Yes/No—开头各1处）",
+    "description从151字符微调为150字符（em dash修复的副产品，仍在理想区间）",
+    "updated字段同步改为2026-08-17（published字段已存在于原条目，未触发L-0809-1回填风险）",
+    "Skill(humanizer)+Skill(avoid-ai-writing)人工复核确认无遗留AI写作痕迹",
+    "npm test（64/64通过）+ npm run build（47页）通过",
+    "git commit（1ecf190正文修复 + fd18ba2发布日志）+ push，Cloudflare Pages自动部署（本站无独立deploy hook）",
+    "轮询https://lingogrove.com/happy-birthday-in-spanish/确认200且改动已生效（dateModified=2026-08-17、'ranchera'表述清零、corrido新表述已渲染、narrative em dash清零）",
+    "node tools/submit-indexnow.mjs /happy-birthday-in-spanish/提交（Bing 200 / Yandex 200）",
+    "内容发布日志.md追加本条审计更新记录；内容通用教训库.md新增L-0817-3（具体历史/体裁类细节若两条来源都未提及，不能默认已被来源覆盖）"
+  ],
+  "seo_score": "未重新打分具体分值，技术SEO抽查（canonical/h1/h2/schema/sitemap/robots.txt/ads.txt/privacy/about/terms）均无问题，description已修复到理想区间；title 91字符渲染长度为全站已知系统性问题未单独处理",
+  "geo_score": "粗估修复前约76-79/99（低于80及格线，体裁误标+em dash密度双重拖累）；修复后约83-86/99，已越过80及格线",
+  "escalation": null
+}
+```
