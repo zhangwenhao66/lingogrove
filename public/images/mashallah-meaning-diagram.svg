@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" font-family="system-ui, -apple-system, sans-serif">
+	<rect width="800" height="460" fill="#f6f4e9"/>
+	<rect x="24" y="24" width="752" height="300" rx="10" fill="#fffefa" stroke="#ddd8c4"/>
+
+	<g font-size="15" fill="#201f1a">
+		<!-- three morpheme boxes -->
+		<rect x="56" y="56" width="192" height="120" rx="8" fill="#8a5a1e"/>
+		<text x="152" y="96" text-anchor="middle" fill="#ffffff" font-size="26" font-weight="700">ما</text>
+		<text x="152" y="122" text-anchor="middle" fill="#ffffff" font-size="15" font-weight="700">mā</text>
+		<text x="152" y="144" text-anchor="middle" fill="#f2e7d8" font-size="13">relative pronoun</text>
+		<text x="152" y="162" text-anchor="middle" fill="#f2e7d8" font-size="13">"what"</text>
+
+		<text x="272" y="122" text-anchor="middle" font-size="26" fill="#5a5648">+</text>
+
+		<rect x="304" y="56" width="192" height="120" rx="8" fill="#8a5a1e"/>
+		<text x="400" y="96" text-anchor="middle" fill="#ffffff" font-size="26" font-weight="700">شاء</text>
+		<text x="400" y="122" text-anchor="middle" fill="#ffffff" font-size="15" font-weight="700">shāʾa</text>
+		<text x="400" y="144" text-anchor="middle" fill="#f2e7d8" font-size="13">past-tense verb</text>
+		<text x="400" y="162" text-anchor="middle" fill="#f2e7d8" font-size="13">"willed"</text>
+
+		<text x="520" y="122" text-anchor="middle" font-size="26" fill="#5a5648">+</text>
+
+		<rect x="552" y="56" width="192" height="120" rx="8" fill="#8a5a1e"/>
+		<text x="648" y="96" text-anchor="middle" fill="#ffffff" font-size="26" font-weight="700">الله</text>
+		<text x="648" y="122" text-anchor="middle" fill="#ffffff" font-size="15" font-weight="700">Allāh</text>
+		<text x="648" y="144" text-anchor="middle" fill="#f2e7d8" font-size="13">proper noun</text>
+		<text x="648" y="162" text-anchor="middle" fill="#f2e7d8" font-size="13">"God"</text>
+
+		<!-- arrow down -->
+		<line x1="400" y1="188" x2="400" y2="222" stroke="#5a5648" stroke-width="2"/>
+		<polygon points="400,232 392,216 408,216" fill="#5a5648"/>
+
+		<!-- result -->
+		<rect x="112" y="244" width="576" height="60" rx="8" fill="#5c3a12"/>
+		<text x="400" y="270" text-anchor="middle" fill="#ffffff" font-size="18" font-weight="700">mā shāʾa -llāh: "what God has willed [has happened]"</text>
+		<text x="400" y="292" text-anchor="middle" fill="#e6d7c2" font-size="13">usually written mashallah, masha'Allah, or ma sha Allah</text>
+	</g>
+
+	<rect x="24" y="340" width="752" height="96" rx="10" fill="#fffefa" stroke="#ddd8c4"/>
+	<g font-size="14" fill="#201f1a">
+		<text x="48" y="368" font-weight="700">Same three-letter root as inshallah, opposite direction in time</text>
+		<text x="48" y="392" fill="#5a5648">Mashallah's shāʾa is past tense: said about something that already exists or just happened.</text>
+		<text x="48" y="412" fill="#5a5648">Inshallah looks forward to something hoped for. Same root (sh-y-ʾ, "to will"), different tense.</text>
+	</g>
+</svg>

@@ -3039,6 +3039,82 @@ export const guides: Guide[] = [
 		],
 	},
 	{
+		slug: 'mashallah-meaning',
+		category: 'Loanwords',
+		title: 'Mashallah Meaning: "God Has Willed It," Not "God Willing"',
+		description: 'Mashallah literally means "what God has willed." It is the past-tense counterpart to inshallah, marking something already true rather than something hoped for.',
+		published: '2026-08-17',
+		updated: '2026-08-17',
+		coreSummary: 'Mashallah (ما شاء الله, more precisely transliterated mā shāʾa -llāh) breaks down to three Arabic words: mā ("what"), shāʾa ("willed," a past-tense verb from the root ش-ي-ء, sh-y-ʾ), and Allah ("God"). Put together it literally means "what God has willed [has happened]." The phrase appears in the Qur\'an, Surah Al-Kahf 18:39, inside a parable about a wealthy man who fails to say it while boasting about his garden. Because shāʾa is past tense, mashallah is said about something that already exists or has already happened, the opposite direction in time from inshallah, which looks forward to something hoped for.',
+		language: 'Arabic',
+		usageNote: {
+			register: 'neutral',
+			regionNote: 'The Arabic phrase itself doesn\'t change across the Muslim world, but its Latin-alphabet spelling drifts with the language writing it down. Turkish and Azerbaijani render it Maşaallah, Malay and Indonesian write Masya Allah, and Bosnian uses Mašala, each following that language\'s own spelling conventions rather than a shared Arabic-to-English standard. Urdu and Persian speakers mostly sidestep the question by writing the phrase in Arabic script directly (ماشاءاللہ), since both languages already use a version of that alphabet.',
+		},
+		sections: [
+			{
+				heading: 'Mā, shāʾa, Allah: three words compressed into one',
+				body: [
+					'The root ش-ي-ء (sh-y-ʾ) carries the sense of "will" or "intention" in Arabic, and it sits behind two words in this phrase at once: the everyday noun شيء (shayʾ, "thing") and the past-tense verb شَاءَ (shāʾa, "he willed" or "he wished") that mashallah is actually built on. Add مَا (mā), a relative pronoun meaning "what" or "that which," and الله (Allāh), simply the Arabic word for God, and the three combine into mā shāʾa -llāh, which reads literally as "what God has willed [has occurred]." English glosses usually expand that to "God has willed it" rather than translating word for word, since a literal rendering reads awkwardly in English.',
+					'None of these three words is spelled with a single fixed Latin-alphabet form, which is why the phrase turns up written several different ways in English: Mashallah, Masha\'Allah, Masha Allah, Ma Sha Allah, and MashaAllah. All of them point back to the same Arabic original, ما شاء الله, and none is more "correct" than another; they differ only in how much of the underlying word-by-word structure the writer chose to preserve. Mashallah, the single run-together form, is the version most casual English writing settles on.',
+				],
+				image: {
+					src: '/images/mashallah-meaning-diagram.svg',
+					alt: 'Diagram showing mashallah built from three Arabic words: mā ("what," relative pronoun), shāʾa ("willed," past-tense verb), and Allah ("God"), combining to mean "what God has willed," contrasted with inshallah\'s forward-looking tense.',
+				},
+			},
+			{
+				heading: 'The phrase comes from one specific Qur\'anic parable about boasting',
+				body: [
+					'Surah Al-Kahf, verse 39, is the specific point in the Qur\'an where mashallah comes from. The verse sits inside a parable about two men: one wealthy, with a lush garden, who boasts to his poorer companion about his wealth and the size of his household, and one who warns him against the arrogance of the boast. The Sahih International translation renders the verse: "And why did you, when you entered your garden, not say, \'What Allah willed [has occurred]; there is no power except in Allah\'?" The implication is that the wealthy man should have credited his garden to God\'s will instead of his own accomplishment, and the parable goes on to describe the garden\'s destruction shortly after.',
+					'Because the verse frames mā shāʾa -llāh as what a person ought to say while looking at their own good fortune, rather than something to recite for other reasons, later tradition reads it as a way of acknowledging that a blessing comes from God rather than from the speaker\'s own doing. That same framing is behind the phrase\'s association with warding off the evil eye: a hadith attributed to the Prophet Muhammad and recorded in the major hadith collections holds that "the evil eye is real," and saying mashallah while admiring something acknowledges the blessing without the boastful tone that tradition connects to inviting envy.',
+				],
+			},
+			{
+				heading: 'Mashallah or inshallah: it comes down to tense',
+				body: [
+					'Mashallah and [inshallah](/inshallah-meaning/) share the same verb, shāʾa, but pair it with different grammar, and that grammatical difference is the entire distinction between them. Mashallah\'s mā shāʾa is a completed statement: something has already been willed, so it already exists or has already happened. Inshallah\'s in shāʾa is conditional, built on the particle in ("if"): the outcome is still pending, subject to a future will. "Mashallah, what a beautiful garden" responds to something the speaker is looking at right now. "Inshallah, next year\'s harvest will be good" defers to an outcome that hasn\'t happened yet. Learners who treat the two as interchangeable synonyms for "praise God" are missing the actual grammatical hinge between them: which direction in time the sentence is pointing.',
+					'A third related phrase, alhamdulillah ("all praise is due to God"), is sometimes grouped with these two in explainers aimed at English speakers, since all three are common short Arabic phrases invoking God in daily speech. It occupies its own lane rather than filling the gap between the other two: alhamdulillah expresses thanks for something, mashallah acknowledges something admired in the present, and inshallah defers to the future.',
+				],
+			},
+			{
+				heading: 'From devotional acknowledgment to everyday compliment',
+				body: [
+					'Mashallah\'s use has broadened well beyond the specific religious context of the verse it comes from. Across the Arabic-speaking world it functions as a general expression of admiration for something observable, a new baby or good exam results as much as a lush garden. In South Asia, particularly among Urdu- and Hindi-speaking Muslim communities in Pakistan and India, the phrase carries the same warding-off-envy logic but leans even further toward an everyday compliment, closer to "well done" than to a formal religious utterance, and it turns up painted on vehicles or stitched onto children\'s clothing for the same protective reason. Along with [habibi](/habibi-meaning/) and inshallah, it\'s one of a handful of short Arabic phrases that a lot of non-Arabic speakers pick up through overheard conversation, film, and music rather than formal study, which is part of why the exact grammar behind it stays fuzzy even for people who use it often.',
+					'That crossover into casual admiration is visible even outside Arabic-speaking countries: the 2012 Bollywood film Ek Tha Tiger has a song titled "Mashallah," mixing Hindi and Arabic lyrics, that repeats the phrase as a straightforward expression of being impressed by someone. The same short exclamation, stripped of any expectation that the speaker is consciously reciting a Qur\'anic verse, turns up constantly in social-media comments and reaction videos, functioning much like "amazing" or "incredible" would in English, with the evil-eye logic still underneath it for anyone who knows where the phrase comes from.',
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'What does mashallah literally mean?',
+				answer: 'It breaks down into three Arabic words: mā ("what"), shāʾa ("willed," a past-tense verb), and Allah ("God"). Put together, mā shāʾa -llāh literally means "what God has willed [has happened]," commonly glossed in English as "God has willed it."',
+			},
+			{
+				question: 'What\'s the difference between mashallah and inshallah?',
+				answer: 'Both use the same verb, shāʾa ("willed"), but in different grammatical forms. Mashallah\'s mā shāʾa is past tense, said about something that already exists or has already happened. Inshallah\'s in shāʾa is conditional, built on "if," and looks forward to something hoped for but not yet certain. The difference is tense, not a difference in how devout either phrase is.',
+			},
+			{
+				question: 'Why do people say mashallah after a compliment?',
+				answer: 'The phrase\'s Qur\'anic origin, Surah Al-Kahf 18:39, frames it as what a person should say when looking at their own good fortune, rather than boasting about it. Later tradition connects that framing to warding off the evil eye: saying mashallah while admiring something acknowledges the blessing as coming from God, without the boastful tone associated with inviting envy.',
+			},
+			{
+				question: 'Is mashallah only used by Muslims?',
+				answer: 'Its origin is Qur\'anic and its core religious use is within Muslim communities, but like other short Arabic phrases invoking God, it circulates more broadly among Arabic speakers of other faiths and, especially in South Asia, has broadened into something closer to a general compliment or "well done," used somewhat independently of how religiously observant the speaker is.',
+			},
+			{
+				question: 'What\'s the correct spelling: mashallah, masha\'Allah, or ma sha Allah?',
+				answer: 'None of them is wrong. Arabic doesn\'t map onto the Latin alphabet in one fixed way, so mashallah, masha\'Allah, and ma sha Allah are all legitimate transliterations of the same original, ما شاء الله, and the same variation shows up across languages that adopted the phrase: Turkish Maşaallah, Malay/Indonesian Masya Allah, and Bosnian Mašala. If you\'re writing for a general audience, mashallah is the spelling readers will recognize fastest.',
+			},
+		],
+		sources: [
+			{ label: 'Wikipedia — "Mashallah"', url: 'https://en.wikipedia.org/wiki/Mashallah' },
+			{ label: 'Wiktionary — "ما شاء الله"', url: 'https://en.wiktionary.org/wiki/%D9%85%D8%A7_%D8%B4%D8%A7%D8%A1_%D8%A7%D9%84%D9%84%D9%87' },
+			{ label: 'Quran.com — Surah Al-Kahf, 18:39 (Sahih International)', url: 'https://quran.com/18/39' },
+			{ label: 'Sunnah.com — Sahih Muslim 2188 (Ibn Abbas, on the evil eye)', url: 'https://sunnah.com/muslim:2188' },
+		],
+	},
+	{
 		slug: 'irregular-preterite-verbs-spanish',
 		category: 'Grammar',
 		title: 'Irregular Preterite Verbs in Spanish: The Patterns Behind the Chaos',
