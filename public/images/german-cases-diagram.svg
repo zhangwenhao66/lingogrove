@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 980" font-family="system-ui, -apple-system, sans-serif">
+	<rect width="800" height="980" fill="#f6f4e9"/>
+	<rect x="24" y="24" width="752" height="932" rx="10" fill="#fffefa" stroke="#ddd8c4"/>
+
+	<rect x="24" y="24" width="752" height="56" rx="10" fill="#2f6b47"/>
+	<rect x="24" y="60" width="752" height="20" fill="#2f6b47"/>
+	<text x="400" y="60" text-anchor="middle" fill="#ffffff" font-size="17" font-weight="700">GERMAN CASES: WHAT EACH MARKS, AND WHERE IT ACTUALLY SHOWS UP</text>
+
+	<!-- row 1: four cases + question words -->
+	<rect x="46" y="100" width="708" height="96" rx="8" fill="#eaf1ea" stroke="#2f6b47"/>
+	<text x="400" y="124" text-anchor="middle" fill="#204a31" font-size="13" font-weight="700">FOUR CASES, EACH GOVERNED BY A VERB OR PREPOSITION (Rektion), NOT CHOSEN FOR MEANING</text>
+	<text x="132" y="150" text-anchor="middle" fill="#201f1a" font-size="12.5" font-weight="700">Nominativ</text>
+	<text x="132" y="168" text-anchor="middle" fill="#5a5648" font-size="10.5">subject &#183; wer/was?</text>
+	<text x="309" y="150" text-anchor="middle" fill="#201f1a" font-size="12.5" font-weight="700">Akkusativ</text>
+	<text x="309" y="168" text-anchor="middle" fill="#5a5648" font-size="10.5">direct object &#183; wen/was?</text>
+	<text x="486" y="150" text-anchor="middle" fill="#201f1a" font-size="12.5" font-weight="700">Dativ</text>
+	<text x="486" y="168" text-anchor="middle" fill="#5a5648" font-size="10.5">indirect object &#183; wem?</text>
+	<text x="663" y="150" text-anchor="middle" fill="#201f1a" font-size="12.5" font-weight="700">Genitiv</text>
+	<text x="663" y="168" text-anchor="middle" fill="#5a5648" font-size="10.5">possession &#183; wessen?</text>
+
+	<!-- row 2: article paradigm table -->
+	<rect x="46" y="212" width="708" height="196" rx="8" fill="#fbead0" stroke="#ddd8c4"/>
+	<text x="400" y="236" text-anchor="middle" fill="#5a5648" font-size="13" font-weight="700">THE DEFINITE ARTICLE CARRIES ALMOST ALL THE MARKING (grammis: 5 endings, 16 slots)</text>
+
+	<text x="132" y="260" text-anchor="middle" fill="#5a5648" font-size="10.5" font-weight="700">MASC.</text>
+	<text x="309" y="260" text-anchor="middle" fill="#5a5648" font-size="10.5" font-weight="700">NEUT.</text>
+	<text x="486" y="260" text-anchor="middle" fill="#5a5648" font-size="10.5" font-weight="700">FEM.</text>
+	<text x="663" y="260" text-anchor="middle" fill="#5a5648" font-size="10.5" font-weight="700">PLURAL</text>
+	<line x1="70" y1="270" x2="734" y2="270" stroke="#e6d9b8" stroke-width="1"/>
+
+	<text x="70" y="292" fill="#5a5648" font-size="10.5" font-weight="700">Nom.</text>
+	<text x="132" y="292" text-anchor="middle" fill="#201f1a" font-size="13" font-weight="700">der</text>
+	<text x="309" y="292" text-anchor="middle" fill="#201f1a" font-size="13" font-weight="700">das</text>
+	<text x="486" y="292" text-anchor="middle" fill="#201f1a" font-size="13" font-weight="700">die</text>
+	<text x="663" y="292" text-anchor="middle" fill="#201f1a" font-size="13" font-weight="700">die</text>
+
+	<text x="70" y="318" fill="#5a5648" font-size="10.5" font-weight="700">Akk.</text>
+	<text x="132" y="318" text-anchor="middle" fill="#201f1a" font-size="13" font-weight="700">den</text>
+	<text x="309" y="318" text-anchor="middle" fill="#201f1a" font-size="13" font-weight="700">das</text>
+	<text x="486" y="318" text-anchor="middle" fill="#201f1a" font-size="13" font-weight="700">die</text>
+	<text x="663" y="318" text-anchor="middle" fill="#201f1a" font-size="13" font-weight="700">die</text>
+
+	<text x="70" y="344" fill="#5a5648" font-size="10.5" font-weight="700">Dat.</text>
+	<text x="132" y="344" text-anchor="middle" fill="#201f1a" font-size="13" font-weight="700">dem</text>
+	<text x="309" y="344" text-anchor="middle" fill="#201f1a" font-size="13" font-weight="700">dem</text>
+	<text x="486" y="344" text-anchor="middle" fill="#201f1a" font-size="13" font-weight="700">der</text>
+	<text x="663" y="344" text-anchor="middle" fill="#201f1a" font-size="13" font-weight="700">den</text>
+
+	<text x="70" y="370" fill="#5a5648" font-size="10.5" font-weight="700">Gen.</text>
+	<text x="132" y="370" text-anchor="middle" fill="#201f1a" font-size="13" font-weight="700">des</text>
+	<text x="309" y="370" text-anchor="middle" fill="#201f1a" font-size="13" font-weight="700">des</text>
+	<text x="486" y="370" text-anchor="middle" fill="#201f1a" font-size="13" font-weight="700">der</text>
+	<text x="663" y="370" text-anchor="middle" fill="#201f1a" font-size="13" font-weight="700">der</text>
+
+	<text x="400" y="396" text-anchor="middle" fill="#5a5648" font-size="10.5" font-style="italic">Masculine singular is the only column where all four forms differ; feminine/plural repeat the most.</text>
+
+	<!-- row 3: where the noun itself changes -->
+	<rect x="46" y="422" width="708" height="212" rx="8" fill="#eaf1ea" stroke="#2f6b47"/>
+	<text x="400" y="446" text-anchor="middle" fill="#204a31" font-size="13" font-weight="700">WHERE THE NOUN ITSELF CHANGES: THREE SPOTS, PER GRAMMIS' KASUSFLEXION</text>
+
+	<text x="70" y="470" fill="#201f1a" font-size="11" font-weight="700">Nominative:</text>
+	<text x="200" y="470" fill="#201f1a" font-size="11">never marked on the noun</text>
+
+	<text x="70" y="494" fill="#201f1a" font-size="11" font-weight="700">Weak nouns:</text>
+	<text x="200" y="494" fill="#201f1a" font-size="11">der B&#228;r &#8594; den B&#228;ren / dem B&#228;ren / des B&#228;ren (acc., dat., gen. singular alike)</text>
+
+	<text x="70" y="518" fill="#201f1a" font-size="11" font-weight="700">Dative plural:</text>
+	<text x="200" y="518" fill="#201f1a" font-size="11">den M&#252;ttern, den Kindern: nearly always -n when phonologically possible</text>
+
+	<text x="70" y="542" fill="#201f1a" font-size="11" font-weight="700">Genitive sg.:</text>
+	<text x="200" y="542" fill="#201f1a" font-size="11">des Mannes, des Kindes: strong masc./neut. nouns add -(e)s (full rule: German Genitive Case)</text>
+
+	<rect x="70" y="558" width="660" height="26" rx="4" fill="#fdeaea" stroke="#c99"/>
+	<text x="400" y="575" text-anchor="middle" fill="#8a2e2e" font-size="11">grammis citation: "da lockten sie den B&#228;ren mit Honig," a real newspaper example</text>
+
+	<text x="400" y="608" text-anchor="middle" fill="#5a5648" font-size="10.5" font-style="italic">Every other case, gender, and inflection class: the noun looks identical to its nominative form.</text>
+
+	<!-- row 4: prepositions by case -->
+	<rect x="46" y="646" width="708" height="164" rx="8" fill="#fbead0" stroke="#ddd8c4"/>
+	<text x="400" y="670" text-anchor="middle" fill="#5a5648" font-size="13" font-weight="700">PREPOSITIONS DECIDE THE CASE BEFORE THE NOUN GETS A SAY</text>
+
+	<text x="70" y="696" fill="#201f1a" font-size="11" font-weight="700">Accusative:</text>
+	<text x="200" y="696" fill="#201f1a" font-size="11">durch &#183; f&#252;r &#183; gegen &#183; ohne &#183; um</text>
+
+	<text x="70" y="720" fill="#201f1a" font-size="11" font-weight="700">Dative:</text>
+	<text x="200" y="720" fill="#201f1a" font-size="11">aus &#183; bei &#183; mit &#183; nach &#183; seit &#183; von &#183; zu</text>
+
+	<text x="70" y="744" fill="#201f1a" font-size="11" font-weight="700">Genitive:</text>
+	<text x="200" y="744" fill="#201f1a" font-size="11">w&#228;hrend &#183; trotz &#183; wegen &#183; (an)statt, though wegen increasingly heard with dative in speech</text>
+
+	<text x="70" y="768" fill="#201f1a" font-size="11" font-weight="700">Two-way:</text>
+	<text x="200" y="768" fill="#201f1a" font-size="11">an &#183; auf &#183; hinter &#183; in &#183; neben &#183; &#252;ber &#183; unter &#183; vor &#183; zwischen (movement = acc., location = dat.)</text>
+
+	<text x="400" y="796" text-anchor="middle" fill="#5a5648" font-size="10.5" font-style="italic">Same Rektion relationship grammis describes for verbs: helfen always takes dative, sehen always takes accusative.</text>
+
+	<!-- row 5: cross-language note -->
+	<rect x="46" y="826" width="708" height="106" rx="8" fill="#eaf1ea" stroke="#2f6b47"/>
+	<text x="400" y="850" text-anchor="middle" fill="#204a31" font-size="13" font-weight="700">NOT UNIQUE TO GERMAN, JUST UNUSUALLY VISIBLE</text>
+	<text x="400" y="876" text-anchor="middle" fill="#201f1a" font-size="11">French sorts nouns by definiteness and gender, not case; agreement stays on article + adjective.</text>
+	<text x="400" y="898" text-anchor="middle" fill="#201f1a" font-size="11">German kept a fourth dimension, case, and spreads the job across article, adjective, and sometimes noun.</text>
+	<text x="400" y="920" text-anchor="middle" fill="#5a5648" font-size="10.5" font-style="italic">See: German Adjective Endings &#183; German Genitive Case &#183; French Articles</text>
+</svg>

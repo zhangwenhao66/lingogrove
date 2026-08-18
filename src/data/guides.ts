@@ -3724,4 +3724,77 @@ export const guides: Guide[] = [
 			{ label: 'PONS — "Präpositionen mit Genitiv im Deutschen" (fuller list beyond während/trotz/wegen/statt)', url: 'https://de.pons.com/p/wissensecke/grammatik-to-go/praepositionen-mit-genitiv' },
 		],
 	},
+	{
+		slug: 'german-cases',
+		category: 'Grammar',
+		title: 'German Cases: Nominative, Accusative, Dative, and Genitive',
+		description: 'German marks a noun\'s role with four cases, but most of that marking lands on the article. The noun itself changes in only a few predictable spots.',
+		published: '2026-08-18',
+		updated: '2026-08-18',
+		coreSummary: 'German uses four cases, nominative, accusative, dative, and genitive, to mark whether a noun is the subject, the direct object, the indirect object, or a possessor. Per the Leibniz-Institut für Deutsche Sprache\'s grammis reference, case is a grammatical category of nouns, adjectives, articles, and pronouns that marks syntactic relations in a sentence, and it is usually governed by the surrounding verb or preposition rather than chosen freely. Most of that marking lands on the article rather than the noun: nominative nouns take no case marker at all, and the noun itself changes only in a few predictable spots, chiefly the weak ("n-declension") masculine nouns across three cases, the near-universal dative plural -n, and the genitive singular -(e)s on strong masculine and neuter nouns.',
+		language: 'German',
+		sections: [
+			{
+				heading: 'What a case actually is, and who decides it',
+				body: [
+					'Grammis, the grammar reference maintained by the Leibniz-Institut für Deutsche Sprache (IDS Mannheim), defines Kasus directly: it is a grammatical category of the word classes noun, adjective, article, and pronoun that marks syntactic relations in a sentence. German has four of them, nominative, genitive, dative, and accusative. Grammis is specific about how a case gets assigned in the first place: it is normally determined by the linguistic environment, syntactically motivated by verbs and prepositions that govern case, a relationship grammis calls Rektion. Nouns can govern case too, in the form of genitive attributes, one noun taking the genitive because a different noun in the same phrase requires it of it.',
+					'That governing relationship is why case is not really a free choice attached to meaning. A verb like helfen simply requires a dative object no matter what the sentence is about, the way sehen requires an accusative one; a preposition like durch always hands its noun the accusative, regardless of what that noun refers to. The practical shortcut most learners reach for, asking wer/was for the nominative, wessen for the genitive, wem for the dative, and wen/was for the accusative, works because those question words track exactly the syntactic role grammis describes, not because the cases carry some inherent meaning on their own.',
+				],
+			},
+			{
+				heading: 'The article carries almost all of the marking',
+				body: [
+					'Grammis\' own page on article inflection states that articles decline according to gender (in the singular only), number, and case, and separately notes that the definite article\'s full paradigm packs five distinct inflectional endings into sixteen slots (four cases across three singular genders plus the plural), which produces a fair amount of overlap between forms, a pattern grammis terms syncretism. The feminine and plural columns show the most of it: die stays die in the nominative and accusative, der stays der in the dative and genitive. The masculine singular is the one column where all four cases actually look different from each other, der, den, dem, des, which is very likely why so many grammar drills default to masculine-noun examples when introducing the system.',
+					'Laid out as a table, the definite article\'s four forms per gender are: nominative der/das/die/die, accusative den/das/die/die, dative dem/dem/der/den, genitive des/des/der/der (masculine, neuter, feminine, plural, in that order). Indefinite articles and possessives track the same pattern with their own endings, which is the same paradigm the [German Adjective Endings guide](/german-adjective-endings/) covers in more depth for the specific case where no article is present at all and an adjective has to take over the article\'s job of marking case, gender, and number by itself.',
+				],
+				image: {
+					src: '/images/german-cases-diagram.svg',
+					alt: 'Diagram showing the four German cases and question-word test, the full der/die/das article paradigm across nominative/accusative/dative/genitive and masculine/neuter/feminine/plural, the three spots where the noun itself changes (weak nouns, dative plural -n, genitive singular -(e)s), and accusative/dative/genitive prepositions grouped by case.',
+				},
+			},
+			{
+				heading: 'The noun itself barely changes, except in three predictable spots',
+				body: [
+					'Grammis\' page on noun case inflection (Kasusflexion) makes a point most case explanations skip: in most instances, the case markers actually show up on the other words in the noun phrase, the article or adjective, while a bare noun with no article or adjective in front of it usually carries no case marker of its own at all. The nominative gets none, ever. The accusative changes the noun only for a specific subset of masculine nouns, the so-called weak nouns (already covered for the genitive in the [German Genitive Case guide](/german-genitive/)): der Bär takes -en in the accusative, den Bären, a form grammis illustrates with a real newspaper citation, "da lockten sie den Bären mit Honig." Everywhere else, in every other inflection class and in the plural, the nominative and accusative forms of the noun are identical.',
+					'Two markers do show up reliably. The dative plural is, per grammis, the one case that is "almost always" marked with -n on the noun itself across all three genders whenever phonologically possible, den Müttern rather than den Mütter, illustrated with another real citation, "was mittlerweile bei Müttern akzeptiert werde." And strong masculine and neuter nouns take -(e)s in the genitive singular, des Mannes, des Kindes, the exact ending system the German Genitive Case guide breaks down in full, including when it is -s versus -es and the seven weak nouns that take -ns instead. Put together, grammis states the noun\'s own case suffixes as just four patterns: -(e)s and -s for the genitive singular, -(e) for an optional, largely archaic dative singular, -(e)n for the accusative/dative/genitive singular of weak nouns, and -n for the dative plural. That is the entire list of ways a German noun changes for case on its own; everything else is carried by the article.',
+					'Weak nouns are worth flagging as their own category rather than a one-off, because the same noun keeps the identical -en ending across three different cases where a strong noun would use three different endings, or none. Der Junge stays Jungen in the accusative, dative, and genitive alike (den Jungen, dem Jungen, des Jungen), with the genitive singular\'s -ns exceptions (Name, Wille, Glaube, Gedanke, Buchstabe, Friede, Funke) the one place that pattern breaks, again covered in the German Genitive Case guide.',
+				],
+			},
+			{
+				heading: 'Prepositions decide the case before the noun ever gets a say',
+				body: [
+					'A closed set of German prepositions always takes the same case, independent of meaning, matching the Rektion relationship grammis describes for verbs. Durch, für, gegen, ohne, and um always take the accusative. Aus, bei, mit, nach, seit, von, and zu always take the dative. Während, trotz, wegen, and (an)statt are the genitive prepositions taught earliest, though wegen increasingly takes the dative in casual speech, a shift the German Genitive Case guide covers at length. A third group, the two-way prepositions (an, auf, hinter, in, neben, über, unter, vor, and zwischen), switches between accusative and dative depending on whether the phrase describes movement toward a destination or a fixed location, a distinction significant enough to deserve its own guide rather than a paragraph here.',
+					'None of this is unique to German among the languages this site covers, just unusually visible. French sorts its nouns by definiteness and gender rather than case, and dropped most noun-phrase case marking centuries ago, which the [French Articles guide](/french-articles/) covers from the French side; the agreement work that German splits across article, adjective, and occasionally the noun itself, French mostly settles with the article and adjective agreeing in gender and number alone. Seen next to that, German reads as a language that simply never dropped a category English and French both lost, and kept building out ways to mark it wherever the sentence needed it most.',
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'How many cases does German have, and what does each one mark?',
+				answer: 'Four: nominative (the subject), accusative (the direct object), dative (the indirect object), and genitive (possession or "of"). Per grammis (IDS Mannheim), case is a grammatical category of nouns, adjectives, articles, and pronouns that marks syntactic relations in a sentence, and it is normally assigned by the governing verb or preposition rather than chosen for meaning.',
+			},
+			{
+				question: 'What is the fastest way to identify which case a German sentence needs?',
+				answer: 'Ask the matching question word: wer/was for nominative, wen/was for accusative, wem for dative, wessen for genitive. That works because each question word tracks the same syntactic role (subject, direct object, indirect object, possessor) that determines the case in the first place, not because the cases carry inherent meaning.',
+			},
+			{
+				question: 'Do German nouns actually change with case, or is it just the articles?',
+				answer: 'Mostly just the articles. Per grammis\' page on noun case inflection, a bare German noun usually carries no case marker of its own at all; the nominative never gets one. The noun itself changes in only a few predictable spots: weak masculine nouns take -(e)n across the accusative, dative, and genitive singular; the dative plural is marked with -n on the noun almost whenever phonologically possible; and strong masculine/neuter nouns take -(e)s in the genitive singular.',
+			},
+			{
+				question: 'Why does "der Bär" become "den Bären" in the accusative?',
+				answer: 'Bär belongs to the weak nouns (the "n-declension"), a class of mostly masculine nouns that mark the accusative, dative, and genitive singular alike with a plain -(e)n, unlike strong masculine nouns, which keep the same form in the nominative and accusative and only change in the genitive. Grammis illustrates this exact word with a real citation: "da lockten sie den Bären mit Honig."',
+			},
+			{
+				question: 'Which German prepositions take which case?',
+				answer: 'Durch, für, gegen, ohne, and um always take the accusative. Aus, bei, mit, nach, seit, von, and zu always take the dative. Während, trotz, wegen, and (an)statt are the genitive prepositions taught earliest, though wegen is increasingly heard with the dative in casual speech. A separate group, the two-way prepositions (an, auf, hinter, in, neben, über, unter, vor, zwischen), takes accusative or dative depending on whether the phrase describes movement or a fixed location.',
+			},
+		],
+		sources: [
+			{ label: 'grammis (IDS Mannheim) — "Kasus" (terminology entry)', url: 'https://grammis.ids-mannheim.de/terminologie/117' },
+			{ label: 'grammis (IDS Mannheim) — "Kasusflexion" (noun case marking, incl. den Bären / bei Müttern citations)', url: 'https://grammis.ids-mannheim.de/progr@mm/4066' },
+			{ label: 'grammis (IDS Mannheim) — "Flexion der Artikel" (article inflection paradigm)', url: 'https://grammis.ids-mannheim.de/progr@mm/4063' },
+			{ label: 'PONS — "Präpositionen mit Genitiv im Deutschen"', url: 'https://de.pons.com/p/wissensecke/grammatik-to-go/praepositionen-mit-genitiv' },
+		],
+	},
 ];
