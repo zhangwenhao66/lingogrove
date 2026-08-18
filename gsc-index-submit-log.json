@@ -174,5 +174,18 @@
     ],
     "already_indexed_no_action": [],
     "quota_used": "1 of shared account-wide daily quota"
+  },
+  {
+    "date": "2026-08-18",
+    "action": "submitted",
+    "reason": "无今日新发布。build-index-queue.py队列头部候选habibi-meaning/inshallah-meaning经URL Inspection核实均已'URL is on Google'。查到mashallah-meaning确认'URL is not on Google'，REQUEST INDEXING提交成功确认'Indexing requested'。",
+    "submitted_urls": [
+      "https://lingogrove.com/mashallah-meaning/"
+    ],
+    "already_indexed_no_action": [
+      "https://lingogrove.com/habibi-meaning/",
+      "https://lingogrove.com/inshallah-meaning/"
+    ],
+    "quota_used": "1 of shared account-wide daily quota"
   }
 ]
