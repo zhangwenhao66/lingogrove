@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" font-family="system-ui, -apple-system, sans-serif">
+	<rect width="800" height="500" fill="#f6f4e9"/>
+	<rect x="24" y="24" width="360" height="330" rx="10" fill="#fffefa" stroke="#ddd8c4"/>
+	<rect x="416" y="24" width="360" height="330" rx="10" fill="#fffefa" stroke="#ddd8c4"/>
+
+	<rect x="24" y="24" width="360" height="56" rx="10" fill="#2f6b47"/>
+	<rect x="24" y="60" width="360" height="20" fill="#2f6b47"/>
+	<text x="204" y="60" text-anchor="middle" fill="#ffffff" font-size="18" font-weight="700">*masalo: "admire" (NP)</text>
+
+	<rect x="416" y="24" width="360" height="56" rx="10" fill="#8a7a3f"/>
+	<rect x="416" y="60" width="360" height="20" fill="#8a7a3f"/>
+	<text x="596" y="60" text-anchor="middle" fill="#ffffff" font-size="18" font-weight="700">*masalo: "suspect" (CP)</text>
+
+	<g fill="#201f1a" font-size="16">
+		<text x="48" y="112" font-weight="700">Hawaiian: mahalo</text>
+		<text x="48" y="134" fill="#5a5648" font-size="14">1. thanks, gratitude; to thank</text>
+		<text x="48" y="154" fill="#5a5648" font-size="14">2. admiration, praise, esteem</text>
+
+		<text x="48" y="196" font-weight="700">Māori: mīharo / maaharo</text>
+		<text x="48" y="218" fill="#5a5648" font-size="14">"to wonder at, be amazed, admire"</text>
+
+		<text x="48" y="260" font-weight="700">Tahitian: maharo (uncertain link)</text>
+		<text x="48" y="282" fill="#5a5648" font-size="14">gloss: an emotion (anger, desire)</text>
+		<text x="48" y="300" fill="#5a5648" font-size="14">subsiding, not admiring</text>
+
+		<text x="48" y="336" fill="#5a5648" font-size="13">Source: POLLEX-Online, reconstruction MASALO.B</text>
+	</g>
+
+	<g fill="#201f1a" font-size="16">
+		<text x="440" y="112" font-weight="700">East Uvea: mahalo</text>
+		<text x="440" y="134" fill="#5a5648" font-size="14">"to think, presume, suspect,</text>
+		<text x="440" y="152" fill="#5a5648" font-size="14">conjecture," same spelling as</text>
+		<text x="440" y="170" fill="#5a5648" font-size="14">Hawaiian, unrelated meaning</text>
+
+		<text x="440" y="212" font-weight="700">East Futuna: masalo</text>
+		<text x="440" y="234" fill="#5a5648" font-size="14">"think, be of the opinion that"</text>
+
+		<text x="440" y="284" fill="#5a5648" font-size="14">Two separate Proto-Polynesian</text>
+		<text x="440" y="302" fill="#5a5648" font-size="14">roots that happen to converge on</text>
+		<text x="440" y="320" fill="#5a5648" font-size="14">the same modern spelling.</text>
+
+		<text x="440" y="346" fill="#5a5648" font-size="13">Source: POLLEX-Online, reconstruction MASALO.A</text>
+	</g>
+
+	<line x1="400" y1="24" x2="400" y2="354" stroke="#ddd8c4" stroke-width="1"/>
+
+	<rect x="24" y="390" width="752" height="86" rx="10" fill="#204a31"/>
+	<text x="400" y="422" text-anchor="middle" fill="#ffffff" font-size="16" font-weight="700">Aloha comes from a third, unrelated root entirely</text>
+	<text x="400" y="450" text-anchor="middle" fill="#dfe9e3" font-size="14">Proto-Polynesian *ʻalofa, "love, affection, compassion," no connection to either *masalo above</text>
+</svg>

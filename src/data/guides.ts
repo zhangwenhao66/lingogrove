@@ -3570,4 +3570,77 @@ export const guides: Guide[] = [
 			{ label: 'Scudit — "I primi 111 verbi italiani: gli irregolari al futuro" (irregular stem list, cross-checked)', url: 'https://www.scudit.net/md111verbi_5.htm' },
 		],
 	},
+	{
+		slug: 'mahalo-meaning',
+		category: 'Loanwords',
+		title: 'Mahalo Meaning: Thanks, Admiration, and No Relation to Aloha',
+		description: 'Mahalo means thank you, but the Pukui & Elbert dictionary lists a second sense too, admiration, and its Polynesian root has nothing to do with aloha\'s.',
+		published: '2026-08-18',
+		updated: '2026-08-18',
+		coreSummary: 'Mahalo is a Hawaiian word covering two related senses in the Pukui & Elbert Hawaiian Dictionary, the standard reference for the language: thanks or gratitude, and admiration, praise, or esteem. Its ancestor, reconstructed by the Polynesian Lexicon Project as Proto-Nuclear-Polynesian *masalo ("be astonished at, admire"), traces to a different Proto-Polynesian root than aloha\'s (*ʻalofa, "love, affection"), so despite their similar shape and shared status as the two Hawaiian words most people outside Hawaiʻi already know, the two are not variants of each other.',
+		language: 'Hawaiian',
+		sections: [
+			{
+				heading: 'One dictionary entry, two related senses',
+				body: [
+					'The Pukui & Elbert Hawaiian Dictionary, compiled by Mary Kawena Pukui and Samuel H. Elbert and still the field\'s standard reference, lists mahalo as a noun and transitive verb (nvt.) with two senses under one entry. The first is thanks or gratitude, and to thank: mahalo nui loa, "thanks very much"; ʻōlelo mahalo, "compliment"; mahalo ā nui, another way of saying "thanks very much." The second is admiration, praise, esteem, regards, or respects, and to admire, praise, or appreciate, illustrated in the dictionary with ʻo wau nō me ka mahalo ("I am, [yours] respectfully") and its own worked example ka mea i mahalo ʻia, Mr. Pākī, glossed "the esteemed Mr. Pākī."',
+					'Both senses share the same underlying idea rather than being two unrelated words that happen to look alike: mahalo names a positive, appreciative regard for someone or something, and English splits that single feeling into "thanks" (regard for an act) and "admiration" (regard for a quality) where Hawaiian keeps it as one word. That is also why mahalo works as both a noun and a verb without changing form, typical of Hawaiian, which marks far less on the word itself than English does and relies more on word order and context. A single loanword doing work English fragments into several is common wherever a short borrowed term crosses over whole: Arabic\'s [habibi](/habibi-meaning/) covers a comparably wide stretch of affection and address that English splits across "dear," "honey," and more, depending on who\'s being addressed.',
+				],
+				image: {
+					src: '/images/mahalo-meaning-diagram.svg',
+					alt: 'Diagram showing Hawaiian mahalo descending from Proto-Nuclear-Polynesian *masalo ("be astonished at, admire"), with cognates Maori mīharo/maaharo ("to wonder, admire") and a Tahitian form, maharo, that POLLEX itself flags as an uncertain semantic connection, set apart from an unrelated look-alike root, Proto-Central-Pacific *masalo ("think, consider, suspect"), which produced East Uvea mahalo ("to think, presume") and East Futuna masalo ("think, be of the opinion that"), plus a third, separate root behind aloha, Proto-Polynesian *ʻalofa ("love, affection").',
+				},
+			},
+			{
+				heading: 'The root means "admire," not "thank"',
+				body: [
+					'POLLEX-Online, the Polynesian Lexicon Project run out of the University of Auckland and the Max Planck Institute for Evolutionary Anthropology, traces Hawaiian mahalo to a reconstructed ancestor at the Nuclear Polynesian level, *masalo, glossed simply "be astonished at, admire." The "thanks" sense that dominates mahalo\'s modern use isn\'t in that root gloss at all; it\'s a meaning the Hawaiian reflex picked up on its own, with the admiration sense as the closer match to the ancestral form. The same root shows up, more faintly, in a couple of other Polynesian languages: New Zealand Māori has mīharo and the related maaharo, both meaning "to wonder at, be amazed, admire." Tahitian has a possible cognate, maharo, glossed as an emotion (anger, desire) subsiding rather than as admiration, but POLLEX itself flags the connection between the Tahitian form and the rest of the group as an uncertain semantic match, not a confirmed one.',
+					'There is a second, separate Polynesian root that happens to look almost identical: *masalo at the older Central Pacific level, glossed "think about, consider, suspect." POLLEX records this one in East Futuna (masalo, "think, be of the opinion that") and East Uvea, whose reflex is spelled mahalo, identical to the Hawaiian word, but glossed "to think, presume, suspect, conjecture." That East Uvea mahalo and the Hawaiian mahalo this article is about are not the same word reaching two islands; they\'re two different Proto-Polynesian roots that happened to converge on the same modern spelling, one meaning "admire" and the other "suspect." English kept only the "thanks" half of mahalo\'s own sense once it borrowed the word into tourist-facing use, the same kind of narrowing that happened when English adopted [schadenfreude](/schadenfreude-meaning/) rather than translate it: the loanword survives, but usually carrying less of its home meaning than it started with.',
+				],
+			},
+			{
+				heading: 'Why mahalo and aloha aren\'t variants of each other',
+				body: [
+					'Because mahalo and aloha are the two Hawaiian words most non-Hawaiian speakers already know, and both are three syllables built on the same a-o vowel pattern, it\'s a reasonable guess that they\'re related, one word bent two ways. They aren\'t. The Pukui & Elbert dictionary tags aloha, "love, affection, compassion...greeting, salutation," with its own separate Proto-Polynesian source, *ʻalofa, an entirely different ancestor from mahalo\'s *masalo. Aloha\'s use as a greeting and farewell (as well as a general expression of love and compassion) and mahalo\'s use as a thank-you sit on unconnected etymological branches; they only sound like siblings.',
+					'The dictionary entry for aloha also notes that two of its most familiar compounds, aloha ahiahi ("good evening") and aloha kakahiaka ("good morning"), were introduced after contact with Europeans, built later on the older root rather than inherited from it. Pukui and Elbert don\'t flag either of mahalo\'s two senses the same way, though that\'s a separate question from how old the "thanks" sense itself is: some sources point to Lorrin Andrews\' 1865 Hawaiian dictionary as evidence that mahalo\'s use as a straightforward "thank you" hardened only after Western contact, a claim about the word\'s history that the Pukui & Elbert entry alone doesn\'t settle either way.',
+				],
+			},
+			{
+				heading: 'Where mahalo actually shows up',
+				body: [
+					'Mahalo nui loa ("thank you very much") and the near-synonym mahalo ā nui are the standard ways to intensify a plain mahalo, the Hawaiian equivalent of adding "so much" or "very" to an English thanks. There is no separate formal register the way some languages mark politeness with an entirely different word; degree does that work instead, a single mahalo for an everyday thanks, mahalo nui loa when the moment calls for more.',
+					'Outside conversation, mahalo is one of the most visible Hawaiian words on public signage across the islands: on trash-can lids and doors, at park exits, on restaurant receipts, at airport gates. That visibility has produced a well-known local joke about visitors who see "MAHALO" stenciled on a Waikiki fast-food trash bin and conclude it must be the Hawaiian word for garbage or trash. It isn\'t; the sign is thanking people for throwing their trash away, not labeling the bin. The actual Hawaiian and Hawaiʻi Pidgin word for trash or rubbish is ʻōpala, an unrelated word.',
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'What\'s the Pukui & Elbert dictionary\'s actual definition of mahalo?',
+				answer: 'Two senses under one entry: thanks or gratitude (to thank), and admiration, praise, or esteem (to admire, praise, appreciate). Both trace to the same Proto-Nuclear-Polynesian root, reconstructed as *masalo and glossed "be astonished at, admire," which is closer to the second sense than the "thank you" meaning most English speakers know it for.',
+			},
+			{
+				question: 'Are mahalo and aloha related words?',
+				answer: 'No. They\'re the two best-known Hawaiian words outside Hawaiʻi and share a similar three-syllable, a-o vowel shape, but the Pukui & Elbert dictionary traces them to two separate Proto-Polynesian roots: mahalo to *masalo ("admire"), aloha to *ʻalofa ("love, affection"). Despite the resemblance, one isn\'t a variant of the other.',
+			},
+			{
+				question: 'What\'s the difference between mahalo and mahalo nui loa?',
+				answer: 'Mahalo nui loa means "thank you very much," an intensified form of plain mahalo. Hawaiian doesn\'t mark a separate formal register with a different word the way some languages do; instead, adding nui loa ("very much" / "very great") to mahalo does the same job English does by adding "so much" or "very" to "thanks."',
+			},
+			{
+				question: 'Does mahalo have more than one meaning?',
+				answer: 'Yes, though the two are related rather than unconnected. Beyond thanks or gratitude, the same dictionary entry covers admiration, praise, esteem, and respect, illustrated with phrases like ʻo wau nō me ka mahalo ("I am, yours respectfully") that have nothing to do with saying thank you.',
+			},
+			{
+				question: 'Why does mahalo appear on trash cans in Hawaii?',
+				answer: 'The word on the bin is short for a thank-you message, something like "mahalo for keeping this area clean," not a label meaning "trash." Visitors who see "MAHALO" stenciled on Waikiki trash bins sometimes assume it\'s the Hawaiian word for garbage, prompting a well-known local joke about the mix-up; the actual word for trash is ʻōpala.',
+			},
+		],
+		sources: [
+			{ label: 'Pukui & Elbert Hawaiian Dictionary (1986), via Wehewehe Wikiwiki / Ulukau — "mahalo"', url: 'https://www.wehewehe.org/gsdl2.85/cgi-bin/hdict?e=q-11000-00---off-0hdict--00-1----0-10-0---0---0direct-10-ED--4--textpukuielbert-----0-1l--11-en-Zz-1---Zz-1-home-mahalo---00-4-1-00-0--4----0-0-11-00-0utfZz-8-00&a=d&d=D11816' },
+			{ label: 'Pukui & Elbert Hawaiian Dictionary (1986), via Wehewehe Wikiwiki / Ulukau — "aloha"', url: 'https://www.wehewehe.org/gsdl2.85/cgi-bin/hdict?e=q-11000-00---off-0hdict--00-1----0-10-0---0---0direct-10-ED--4--textpukuielbert-----0-1l--11-en-Zz-1---Zz-1-home-aloha---00-4-1-00-0--4----0-0-11-00-0utfZz-8-00&a=d&d=D1020' },
+			{ label: 'POLLEX-Online (Polynesian Lexicon Project) — Reconstruction "MASALO.B" [be astonished at, admire]', url: 'https://pollex.eva.mpg.de/entry/masalo.b/' },
+			{ label: 'POLLEX-Online (Polynesian Lexicon Project) — Reconstruction "MASALO.A" [think about, consider, suspect]', url: 'https://pollex.eva.mpg.de/entry/masalo.a/' },
+			{ label: 'Da Pidgin — "ʻŌpala" (Hawaiian Pidgin word for trash/rubbish)', url: 'https://dapidgin.com/olelo/opala' },
+		],
+	},
 ];
