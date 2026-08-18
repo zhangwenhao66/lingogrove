@@ -31,3 +31,14 @@
 - **发布状态**：✅ 已提交，跳转到 thankyou.asp，提示 "Pending approval..."。提交回执 product id = `1f0ddff654e0f154475efe0028b9e3bc`。
 - **上线复核**：⏳ 待补做（当天提交，通常需要1-2天过审）。
 - **备注**：本次是08-04登录失效连续三次导致周二排期落空后的补做。
+
+### 2026-08-18（周二，正常排期）— LingoGrove（lingogrove.com）
+
+- **问题标题**：Arabic teachers and cross-cultural trainers: has a term of endearment like habibi caused a real misunderstanding in a professional setting?
+- **角度**：绑定`habibi-meaning`一文讲的habibi（حبيبي）字面意思"我的挚爱"，但在整个阿拉伯语世界里对恋人、父母、子女、朋友都通用，真正决定严肃程度的是语气和关系而非词本身。征集阿拉伯语教师/译者/口译员/跨文化培训师举出真实案例——某个学习者/商务联系人/同事在专业或跨文化场合使用或收到了habibi/habibti类称呼，导致对方对关系性质或意图产生了真实的误读。发生了什么，后来又是怎么厘清的。与此前问过的外来词语义漂移角度（08-04，senpai词条）、语法教学突破点角度（08-12，虚拟式）均不重叠，这次聚焦称呼语在跨文化专业场合的误用。
+- **绑定文章**：LingoGrove `habibi-meaning`（Habibi Meaning: What Arabic's Most Common Term of Endearment Actually Means）。
+- **分类标签**：Topics = General + Professional Services；Countries = Australia + UK & Republic of Ireland + Canada + United States。
+- **表单设置**：Job title = Content Creator；Organisation = LingoGrove；Contact = Email；Unpaid；Email address 和 Contact email 均填 `contact@lingogrove.com`。
+- **Deadline**：2026-09-15 17:00（鼠标真实点击日历控件选中）。
+- **发布状态**：✅ 已提交，跳转到 thankyou.asp，提示 "Pending approval..."。提交回执 product id = `319c3efad5cfc91593d07e400e06bb1e`。
+- **上线复核**：⏳ 待下次任务运行时补查。

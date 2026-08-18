@@ -17,6 +17,13 @@
       "question_url": "https://www.quora.com/What-are-some-irregular-preterite-verbs-in-Spanish",
       "answer_url": "https://www.quora.com/What-are-some-irregular-preterite-verbs-in-Spanish/answer/Owen-Zhang-161",
       "date": "2026-08-16"
+    },
+    {
+      "target_page": "mahalo-meaning",
+      "question_url": "https://www.quora.com/I-know-aloha-means-something-about-the-breath-of-life-HA-what-does-alo-mean",
+      "answer_url": "https://www.quora.com/I-know-aloha-means-something-about-the-breath-of-life-HA-what-does-alo-mean/answer/Owen-Zhang-161",
+      "date": "2026-08-18",
+      "notes": "发布时该问题已有2个真实答案，一条正确指出mahalo/aloha不同源但只说'我认为'无引证，另一条引用Google的alo=front/face+ha=breath民间词源。以站内mahalo-meaning文章骨架撰写（Polynesian Lexicon Project将mahalo构拟为Proto-Nuclear-Polynesian *masalo，aloha构拟为不同词根Proto-Polynesian *ʻalofa；Pukui & Elbert词典对aloha的释义不含alo+ha拆分；mahalo在词典同一词条下有thanks/admiration两个相关义项，英语拆成两个词而夏威夷语合一）。过humanizer+avoid-ai-writing双重检查。用Add Link功能插入真实超链接，发布前/后均用javascript_tool核实DOM为真实<a href>。"
     }
   ],
   "reddit": []
