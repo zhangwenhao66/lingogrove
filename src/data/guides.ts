@@ -3643,4 +3643,85 @@ export const guides: Guide[] = [
 			{ label: 'Da Pidgin — "ʻŌpala" (Hawaiian Pidgin word for trash/rubbish)', url: 'https://dapidgin.com/olelo/opala' },
 		],
 	},
+	{
+		slug: 'german-genitive',
+		category: 'Grammar',
+		title: 'German Genitive Case: Des, Der, and Duden\'s Own Genitivregel',
+		description: 'Des and der mark the genitive on the article, and masculine or neuter nouns often mark it again with their own -s. Duden\'s own rule explains why skipping both is still wrong.',
+		published: '2026-08-18',
+		updated: '2026-08-18',
+		coreSummary: 'German marks the genitive twice at once: the article changes to des (masculine/neuter) or der (feminine/plural), and masculine and neuter nouns typically add their own -s or -es on top of that. Duden\'s own "Genitivregel" explains a category of error native speakers make too, in three parts: the case has to be visible on some word in the phrase (Sichtbarkeitsregel), a genitive-s noun can never stand alone without a companion word even when the noun itself is clearly genitive (s-Regel), and when no companion is available German swaps in a substitute construction instead (Ersatzregel). Seven masculine nouns, led by der Name, break the usual -s pattern with -ns instead, and während, trotz, wegen, and (an)statt are the four most commonly taught genitive prepositions, still required in formal writing, with wegen increasingly taking the dative in speech, a shift well-documented enough to have inspired a bestselling book title that quietly breaks its own rule.',
+		language: 'German',
+		sections: [
+			{
+				heading: 'Two places at once: the article and the noun',
+				body: [
+					'German has four cases, and the genitive is the one that answers wessen, "whose." Like every German case, it shows up on the article: der becomes des for masculine nouns, das becomes des for neuter nouns, and die becomes der for both feminine nouns and every plural, regardless of gender. Indefinite articles follow the same split, ein becoming eines for masculine and neuter, eine becoming einer for feminine. So far that matches how the other three cases work, changing only the little word in front of the noun.',
+					'The genitive breaks that pattern. Masculine and neuter nouns in the singular typically add their own ending too, an -s or -es tacked onto the noun itself, so the case gets marked twice in the same phrase: des Mannes ("of the man"), des Kindes ("of the child"). Feminine nouns and plurals don\'t do this; der Frau and der Kinder look exactly the same whether the noun is singular or plural, masculine-adjacent or not, because only the article carries the information. That double marking on masculine and neuter singular nouns is the detail most explanations skip past, and it\'s also the reason the rest of this guide exists: once a noun can mark genitive on its own, German has to decide when that\'s -s and when it\'s -es, and what happens when neither the article nor the noun ending is available to do the job.',
+				],
+				image: {
+					src: '/images/german-genitive-diagram.svg',
+					alt: 'Diagram showing German genitive marked on both article and noun (des Mannes, des Kindes vs. der Frau, der Kinder), Duden\'s -s vs. -es formation rules, the seven -ns nouns plus Herz, Duden\'s three-part Genitivregel with the "sich Problems annehmen" example, and the four most-taught genitive prepositions with the wegen-dative shift.',
+				},
+			},
+			{
+				heading: 'Choosing between -s and -es',
+				body: [
+					'Duden\'s own language-advice page on the topic, "Genitiv auf -s oder -es?", lays out when each ending applies. Nouns ending in a sibilant sound, -ss, -z, or -tz, take -es without exception: des Hasses ("of the hatred"), des Glanzes ("of the shine"), des Satzes ("of the sentence"). At the other end, nouns ending in -en, -em, -el, -er, or carrying a diminutive suffix take only -s, never -es: des Schwimmens, des Pegels, des Fahrers, des Büchleins. Between those two poles, Duden says plainly that a large group of other one- and two-syllable masculine and neuter nouns can take either ending, and which one a given writer reaches for often comes down to how the sentence sounds out loud rather than any hard rule.',
+					'A few patterns tip the choice one way or the other even inside that flexible middle group. The fuller -es form is favored when the genitive phrase is placed before the noun it modifies rather than after, as in des Tages Hitze ("the day\'s heat") or des Waldes Kühle ("the forest\'s coolness"), and it\'s also favored in compounds built with a linking -s for purely acoustic reasons, as in des Jubiläumsjahres. The shorter -s form, by contrast, tends to win with two-syllable nouns whose final syllable is unstressed, and with nouns ending in a vowel or a vowel plus h: des Abdrucks, des Mitleids, des Schnees, des Flohs. Duden\'s print dictionary marks this optionality directly in its entries, printing the -e in brackets right after the headword, as in "Blut, das; -[e]s."',
+					'An adjective placed in front of one of these genitive nouns has its own separate ending to track, and it doesn\'t simply mirror the noun\'s -s or -es. The [German Adjective Endings guide](/german-adjective-endings/) covers the standing exception where strong declension takes -en instead of the expected -es specifically in the masculine and neuter genitive singular, des kalten Kaffees rather than des kaltes Kaffees, so the noun and its adjective end up marking the same case with two different-looking endings.',
+				],
+			},
+			{
+				heading: 'Seven nouns that skip the pattern entirely',
+				body: [
+					'A separate class of masculine nouns, the so-called weak nouns, doesn\'t follow the -s/-es system above at all. Weak nouns like der Junge take a plain -n across the accusative, dative, and genitive alike: den Jungen, dem Jungen, des Jungen. Seven of them break even that pattern, tacking an extra -s onto the -n specifically in the genitive, so the ending becomes -ns rather than -n: der Name becomes des Namens, der Wille becomes des Willens, der Glaube becomes des Glaubens, der Gedanke becomes des Gedankens, der Buchstabe becomes des Buchstabens, der Friede becomes des Friedens, and der Funke becomes des Funkens. Duden\'s own declension table for Wille confirms the pattern directly: der Wille, den Willen, dem Willen, des Willens, with -en in the accusative and dative but -ens in the genitive alone.',
+					'Das Herz sits outside even that group, and it\'s worth learning as its own exception rather than forcing it into either pattern. It\'s neuter, not masculine, so it doesn\'t belong with the seven weak nouns above by gender in the first place, but its genitive still lands on des Herzens, matching their -ens shape. Its accusative, however, doesn\'t change at all: unlike den Namen or den Willen, the accusative stays das Herz, identical to the nominative. Nothing else in the language quite behaves this way, which is exactly why grammar references tend to flag Herz as a one-off rather than folding it into a rule.',
+				],
+			},
+			{
+				heading: 'Why "sich Problems annehmen" is still wrong',
+				body: [
+					'Duden runs a language-advice column, and one of its entries is a piece called simply "Die Genitivregel," built around three sentences that look genitive at first glance but are ungrammatical: sich Studien befleißigen, sich Problems annehmen, den Kauf Orangen tätigen. The column breaks the rule into three parts. First, the Sichtbarkeitsregel, the visibility rule: a genitive phrase needs at least one word in it whose ending clearly signals that case. Studien and Orangen don\'t signal genitive on their own, so the phrase needs a companion, an article or adjective, that does: sich tiefgehender Studien befleißigen, der Kauf der Orangen.',
+					'Problems looks like it should already satisfy that rule, since -s is a genitive ending. That\'s where the second part, the s-Regel, comes in: Duden states that a noun carrying genitive-s (the strong masculine and neuter pattern covered above) is never allowed to stand completely alone, no matter how clearly its ending marks the case. It always needs an accompanying article or adjective, so sich dieses Problems annehmen works where sich Problems annehmen doesn\'t. When a writer doesn\'t want to add that companion word at all, the third part, the Ersatzregel, offers a way out: swap in a different construction instead of forcing an invisible or unaccompanied genitive. Von plus dative covers most genitive attributes, turning der Kauf Orangen into der Kauf von Orangen; a partitive genitive can become a same-case apposition instead, eine Tasse Kaffees becoming eine Tasse Kaffee; and several prepositions that historically took the genitive now default to the dative in exactly this situation, trotz Widersprüche becoming trotz Widersprüchen. Proper names are the one carve-out to all three rules: Ellas Besuch needs no companion at all, because a name ending in -s is already understood as genitive on its own.',
+				],
+			},
+			{
+				heading: 'The four prepositions holding the line, and the one that\'s slipping',
+				body: [
+					'Während ("during"), trotz ("despite"), wegen ("because of"), and (an)statt ("instead of") are the four genitive prepositions taught earliest and used most often, and a good starting list to memorize: während des Sommers, trotz des Regens, wegen des Staus, anstatt eines Anrufs. They aren\'t the only ones still standing, though. Formal, business, and legal German keeps a longer roster of genitive prepositions in active use, among them aufgrund, angesichts, anhand, innerhalb, außerhalb, mithilfe, laut, and dank, so genitive government in prepositions is far from a dying feature of the written language even as it slips in casual speech.',
+					'Wegen is the one actually moving in real time. In casual spoken German, wegen dem Wetter (dative) is common enough that most fluent speakers use it without a second thought, even though wegen des Wetters (genitive) remains the form expected in formal writing and is what usage guides still mark as standard. It\'s the same spoken-versus-written split that shapes how German handles past tense, where the [German Perfect Tense guide](/german-perfect-tense/) covers casual speech leaning on the Perfekt in situations formal writing would still reach for the Präteritum instead. The genitive-to-dative shift is well documented enough that it gave a real book its title: Bastian Sick\'s Der Dativ ist dem Genitiv sein Tod, a collection of his Zwiebelfisch language column from Spiegel Online, sold more than a million copies after its 2004 release and turned this exact genitive-to-dative drift into a recurring theme across the series. The title itself performs the joke it names: a grammatically careful phrasing would read der Tod des Genitivs, "the genitive\'s death," in the genitive Duden still calls correct, but Sick titled the book in the colloquial dative-possessive pattern instead, "the dative is to the genitive its death," the exact construction the book spends its pages describing.',
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'How do I recognize German genitive case in a sentence?',
+				answer: 'Ask wessen, "whose." The article is the clearest signal: der/das become des, and die becomes der for both feminine nouns and all plurals. Masculine and neuter singular nouns usually add their own -s or -es on top of that article change, so des Mannes and des Kindes mark the case twice in the same phrase, while der Frau and der Kinder mark it only on the article.',
+			},
+			{
+				question: 'How do I know whether a noun takes -s or -es in the genitive?',
+				answer: 'Per Duden\'s "Genitiv auf -s oder -es?": nouns ending in a sibilant (-ss, -z, -tz) always take -es, des Hasses, des Satzes. Nouns ending in -en, -em, -el, -er, or a diminutive suffix always take -s only, des Schwimmens, des Pegels. Many other one- and two-syllable masculine and neuter nouns allow either ending, with -es favored when the genitive precedes its noun (des Tages Hitze) and -s favored after a vowel or vowel+h (des Schnees).',
+			},
+			{
+				question: 'Why is it "des Namens" and not "des Names"?',
+				answer: 'Der Name belongs to a set of seven weak masculine nouns, along with Wille, Glaube, Gedanke, Buchstabe, Friede, and Funke, that take a plain -n in the accusative and dative (den Namen, dem Namen) but add an extra -s specifically in the genitive, producing -ns rather than -n: des Namens. Duden\'s own declension table for Wille shows the identical pattern: der Wille, den Willen, dem Willen, des Willens.',
+			},
+			{
+				question: 'Why is "sich Problems annehmen" wrong if Problems is genitive?',
+				answer: 'Duden\'s "Die Genitivregel" explains this with its second part, the s-Regel: a noun carrying genitive-s can never stand completely alone, no matter how clearly the -s marks the case. It always needs an accompanying article or adjective, so the correct phrasing is sich dieses Problems annehmen. The same page\'s first rule, the Sichtbarkeitsregel, requires that the genitive be visible on at least one word in the phrase in the first place; its third rule, the Ersatzregel, offers substitute constructions like von plus dative when a writer would rather not add a companion word at all.',
+			},
+			{
+				question: 'Is the German genitive case dying out?',
+				answer: 'It\'s retreating from casual speech more than from formal writing. Wegen dem Wetter (dative) is heard constantly in everyday German even though wegen des Wetters (genitive) is what usage guides still mark as standard, and the other three of the most commonly taught genitive prepositions, während, trotz, and (an)statt, show the same drift to a lesser degree. Bastian Sick\'s bestselling Der Dativ ist dem Genitiv sein Tod, published in 2004 and built on his Spiegel Online language column, turned this exact shift into its title, and did so using the colloquial dative construction it describes rather than the "correct" genitive phrasing der Tod des Genitivs.',
+			},
+		],
+		sources: [
+			{ label: 'Duden — "Die Genitivregel"', url: 'https://www.duden.de/sprachwissen/sprachratgeber/Die-Genitivregel' },
+			{ label: 'Duden — "Genitiv auf \'-s\' oder \'-es\'?"', url: 'https://www.duden.de/sprachwissen/sprachratgeber/Genitiv-auf-s-oder-es' },
+			{ label: 'Duden — Deklination "Wille" (der Wille, den Willen, dem Willen, des Willens)', url: 'https://www.duden.de/deklination/substantive/Wille' },
+			{ label: 'Wikipedia (English) — "Der Dativ ist dem Genitiv sein Tod"', url: 'https://en.wikipedia.org/wiki/Der_Dativ_ist_dem_Genitiv_sein_Tod' },
+			{ label: 'PONS — "Präpositionen mit Genitiv im Deutschen" (fuller list beyond während/trotz/wegen/statt)', url: 'https://de.pons.com/p/wissensecke/grammatik-to-go/praepositionen-mit-genitiv' },
+		],
+	},
 ];
