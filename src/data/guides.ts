@@ -571,31 +571,31 @@ export const guides: Guide[] = [
 		slug: 'good-night-in-spanish',
 		category: 'Phrases',
 		title: 'How to Say Good Night in Spanish (And Why It\'s Not Just a Farewell)',
-		description: '"Buenas noches" translates as "good night" — but in Spanish it\'s mainly a greeting said on arrival after dark, not a farewell before bed.',
+		description: '"Buenas noches" translates as "good night," but in Spanish it\'s mainly a greeting said on arrival after dark, not a farewell before bed.',
 		published: '2026-08-03',
-		updated: '2026-08-03',
-		coreSummary: '"Good night" in Spanish is buenas noches, but its main job is different from the English phrase: Spanish speakers use it chiefly as a greeting when arriving somewhere after dark, the way English speakers say "good evening" — not primarily as a farewell before bed. It can also be used to say goodbye at night, but treating it as only a farewell (the default English instinct) misses how it\'s used most of the time.',
+		updated: '2026-08-19',
+		coreSummary: '"Good night" in Spanish is buenas noches, but its main job is different from the English phrase: Spanish speakers use it chiefly as a greeting when arriving somewhere after dark, the way English speakers say "good evening," not primarily as a farewell before bed. It can also be used to say goodbye at night, but treating it as only a farewell (the default English instinct) misses how it\'s used most of the time.',
 		language: 'Spanish',
 		sections: [
 			{
 				heading: 'One phrase Spanish uses for both hello and goodbye',
 				body: [
-					'*Buenas noches* sits alongside *buenos días* ("good morning") and *buenas tardes* ("good afternoon/evening") as one of the three time-of-day greetings that structure everyday Spanish small talk. Like the other two, its primary use is as a greeting, not a farewell: if you walk into a restaurant, a shop, or a friend\'s home after dark, *buenas noches* is what you say on arrival, the direct equivalent of English "good evening" in that moment — not "good night."',
-					'That\'s the detail that catches English speakers off guard, because in English "good night" is used almost exclusively as something you say when leaving or heading to bed, never as a greeting on arrival. Spanish overlaps the greeting and farewell functions into the same phrase, and context — are you walking in or walking out? — does the disambiguating work that English splits across two different phrases ("good evening" to arrive, "good night" to leave).',
+					'*Buenas noches* sits alongside *buenos días* ("good morning") and *buenas tardes* ("good afternoon/evening") as one of the three time-of-day greetings that structure everyday Spanish small talk. Like the other two, its primary use is as a greeting, not a farewell: if you walk into a restaurant, a shop, or a friend\'s home after dark, *buenas noches* is what you say on arrival, the direct equivalent of English "good evening" in that moment, not "good night."',
+					'That\'s the detail that catches English speakers off guard, because in English "good night" is used almost exclusively as something you say when leaving or heading to bed, never as a greeting on arrival. Spanish overlaps the greeting and farewell functions into the same phrase, and context (are you walking in or walking out?) does the disambiguating work that English splits across two different phrases ("good evening" to arrive, "good night" to leave).',
 				],
 			},
 			{
 				heading: 'When it does work as a farewell',
 				body: [
-					'*Buenas noches* is also perfectly normal as a farewell at night, especially right before people go to sleep or head home for the evening — that use does exist and isn\'t wrong. The point isn\'t that the farewell sense is incorrect, it\'s that defaulting to treating it as *only* a farewell, the way the English phrase works, will make you say goodbye when you meant to say hello, or miss that someone greeting you late in the evening isn\'t actually leaving.',
+					'*Buenas noches* is also perfectly normal as a farewell at night, especially right before people go to sleep or head home for the evening, and that use isn\'t wrong. What trips people up is defaulting to treating it as *only* a farewell, the way the English phrase works: that habit will make you say goodbye when you meant to say hello, or miss that someone greeting you late in the evening isn\'t actually leaving.',
 					'A shortened, casual version, *¡Buenas!*, can stand in for whichever of the three time-of-day greetings fits the moment, similar to how an English speaker might just say "evening" instead of the full "good evening." It isn\'t universal, though: the Real Academia Española notes it\'s a colloquial form used in Spain, the Río de la Plata area, and parts of the Andean and Central American regions, rather than something you\'ll hear everywhere Spanish is spoken.',
 				],
 			},
 			{
 				heading: 'The phrases for the moment you actually head to bed',
 				body: [
-					'For the specific moment of tucking in — not just marking that it\'s evening — Spanish reaches for different phrases built on *dormir* ("to sleep") or *descansar* ("to rest"). *Que duermas bien* ("sleep well" / "sleep tight") talks about the sleep itself; *que descanses* talks more broadly about resting, closer to "have a restful night" than to sleep specifically. Both are genuine, commonly used wishes, and the choice between them is mostly about which aspect — the sleeping or the resting — a speaker wants to emphasize, not a hard rule.',
-					'Register works the same way for both verbs, independent of which one you pick: *que duermas bien* is the informal *tú* form, and its direct formal counterpart, same verb, is *que duerma bien* (*usted*). *Descansar* follows the identical pattern — *que descanses* (tú) versus *que descanse* (usted) — so the dormir-versus-descansar choice and the tú-versus-usted choice are two separate decisions, not one. A parent putting a child to bed is more likely to reach for a simple *¡a dormir!* ("off to bed!") than any of these — a command, not a wish.',
+					'For the specific moment of tucking in, not just marking that it\'s evening, Spanish reaches for different phrases built on *dormir* ("to sleep") or *descansar* ("to rest"). *Que duermas bien* ("sleep well" / "sleep tight") talks about the sleep itself; *que descanses* talks more broadly about resting, closer to "have a restful night" than to sleep specifically. Both are commonly used wishes, and the choice between them is mostly about which aspect, the sleeping or the resting, a speaker wants to emphasize, not a hard rule.',
+					'Register works the same way for both verbs, independent of which one you pick: *que duermas bien* is the informal *tú* form, and its direct formal counterpart, same verb, is *que duerma bien* (*usted*). *Descansar* follows the identical pattern: *que descanses* for tú, *que descanse* for usted, so the dormir-versus-descansar choice and the tú-versus-usted choice are two separate decisions, not one. A parent putting a child to bed is more likely to reach for a simple *¡a dormir!* ("off to bed!") than any of these; it\'s a command, not a wish.',
 				],
 			},
 		],
@@ -614,7 +614,7 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'When does "buenas noches" become the right greeting instead of "buenas tardes"?',
-				answer: 'Roughly the same threshold as English "good evening" versus "good afternoon" — once it\'s dark or evening has clearly set in. There\'s no fixed clock time; it follows the same fuzzy, context-based sense of "evening" that English speakers already use for the tardes-to-noches switch.',
+				answer: 'Roughly the same threshold as English "good evening" versus "good afternoon": once it\'s dark or evening has clearly set in. There\'s no fixed clock time; it follows the same fuzzy, context-based sense of "evening" that English speakers already use for the tardes-to-noches switch.',
 			},
 		],
 		sources: [
