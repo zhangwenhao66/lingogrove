@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" font-family="system-ui, -apple-system, sans-serif">
+	<rect width="800" height="420" fill="#f6f4e9"/>
+
+	<rect x="24" y="24" width="752" height="176" rx="10" fill="#fffefa" stroke="#ddd8c4"/>
+	<rect x="24" y="24" width="752" height="40" rx="10" fill="#2f6b47"/>
+	<rect x="24" y="48" width="752" height="16" fill="#2f6b47"/>
+	<text x="400" y="50" text-anchor="middle" fill="#ffffff" font-size="18" font-weight="700">Y → E, O → U (SOUND, NOT SPELLING)</text>
+
+	<g fill="#201f1a" font-size="14">
+		<text x="44" y="94" font-weight="700">y → e before an /i/ sound</text>
+		<text x="44" y="114" fill="#5a5648">simpática e inteligente</text>
+		<text x="44" y="132" fill="#8a8570" font-size="12">(not "simpática y inteligente")</text>
+
+		<text x="424" y="94" font-weight="700">o → u before an /o/ sound</text>
+		<text x="424" y="114" fill="#5a5648">uno u otro</text>
+		<text x="424" y="132" fill="#8a8570" font-size="12">(not "uno o otro")</text>
+
+		<text x="44" y="166" fill="#8a8570" font-size="12">Exception: aspirated h — Franco y Hitler, Watson o Holmes.</text>
+		<text x="44" y="184" fill="#8a8570" font-size="12">Exception: diphthongs — madera y hierro (hie- isn't a plain /i/).</text>
+	</g>
+
+	<rect x="24" y="216" width="752" height="180" rx="10" fill="#fffefa" stroke="#ddd8c4"/>
+	<rect x="24" y="216" width="752" height="40" rx="10" fill="#204a31"/>
+	<rect x="24" y="240" width="752" height="16" fill="#204a31"/>
+	<text x="400" y="242" text-anchor="middle" fill="#ffffff" font-size="18" font-weight="700">PERO vs. SINO — "BUT" ISN'T ONE WORD</text>
+
+	<g fill="#201f1a" font-size="14">
+		<text x="44" y="286" font-weight="700">pero — restricts, doesn't erase</text>
+		<text x="44" y="306" fill="#5a5648">Está muy débil, pero puede salir.</text>
+		<text x="44" y="324" fill="#8a8570" font-size="12">(weak — AND ALSO able to go out)</text>
+
+		<text x="424" y="286" font-weight="700">sino — replaces, after a negation</text>
+		<text x="424" y="306" fill="#5a5648">No es alto, sino bajo.</text>
+		<text x="424" y="324" fill="#8a8570" font-size="12">(not tall — INSTEAD short)</text>
+
+		<text x="44" y="366" fill="#8a8570" font-size="12">Conjugated verb after sino needs "que": No lo dijo, sino que lo gritó.</text>
+	</g>
+</svg>

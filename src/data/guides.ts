@@ -3965,4 +3965,87 @@ export const guides: Guide[] = [
 			{ label: 'FrenchLearner — "En vs. Dans in French"', url: 'https://www.frenchlearner.com/grammar/en-vs-dans/' },
 		],
 	},
+	{
+		slug: 'spanish-conjunctions',
+		category: 'Grammar',
+		title: 'Spanish Conjunctions: Why "But" Isn\'t Always Pero',
+		description: 'A vocabulary list hands you y, o, pero, sino, ni and stops. It won\'t tell you y turns into e before an i-sound, or why pero and sino aren\'t interchangeable.',
+		published: '2026-08-19',
+		updated: '2026-08-19',
+		coreSummary: 'Spanish conjunctions carry rules English "and," "or," and "but" don\'t need: per the RAE, the copulative y becomes e before a word that starts with an /i/ sound, and o becomes u before an /o/ sound, purely so the two vowels don\'t collide. And "but" splits into two non-interchangeable words: pero restricts a claim without denying it, while sino replaces it outright and only follows an explicit negation, switching to sino que whenever a conjugated verb comes next.',
+		language: 'Spanish',
+		sections: [
+			{
+				heading: 'The short list that hides a longer set of rules',
+				body: [
+					'Spanish\'s core conjunctions read like a short list: y (and), o (or), pero and sino (both "but"), ni (nor), and aunque (although, even though). Memorizing what each one means in isolation takes a few minutes. What trips up English speakers is that two of these words don\'t behave the way their English translations suggest at all — y and o physically change shape depending on the sound that follows them, and pero and sino aren\'t interchangeable synonyms for "but," they make different claims about the sentence around them.',
+					'Porque, the causal "because," gets its own full treatment elsewhere — see [por qué, porque, porqué, and por que](/spanish-question-words/) for how that word is spelled four different ways depending on the job it\'s doing. This page covers the four rules that don\'t show up in a plain vocabulary list: the y/o sound swap, the pero/sino split, when sino needs a trailing que, and why ni almost never takes a comma in front of it. It\'s the same lesson [Spanish prepositions](/spanish-prepositions/) teach about a different word class: the short list is the easy part, and the real rules only show up once you start putting the words to work in a sentence.',
+				],
+			},
+			{
+				heading: 'Y becomes e, o becomes u — not for meaning, for sound',
+				body: [
+					'Per the RAE\'s own explainer on the change, the copulative conjunction y becomes e whenever the following word starts with the sound /i/, and the disjunctive o becomes u whenever the following word starts with the sound /o/. The rule exists purely to keep two identical vowel sounds from colliding, not to change any meaning: madre e hija (mother and daughter), simpática e inteligente (nice and smart), siete u ocho (seven or eight), unos u otros (some or others).',
+					'The RAE is explicit that this is about sound, not spelling — the swap still fires when the /i/ or /o/ sound is spelled with a silent h in front of it: aguja e hilo (needle and thread), mujeres u hombres (women or men). It does not fire, though, when that h is aspirated rather than silent, as in loanwords and some proper names — Franco y Hitler and Watson o Holmes both keep the plain y and o, because the h there is actually pronounced.',
+					'Two more cases where the swap stays off: a following diphthong, where the i is part of a two-vowel sound rather than standing alone (madera y hierro, not madera e hierro, because hie- doesn\'t count as a plain /i/), and a y that opens a whole sentence or discourse fragment with a meaning closer to "what about," as in ¿Y Ignacio? — that y is doing a different job and never becomes e no matter what follows it.',
+				],
+				image: {
+					src: '/images/spanish-conjunctions-diagram.svg',
+					alt: 'Diagram showing two conjunction rules: y changes to e before an /i/ sound (simpática e inteligente) and o changes to u before an /o/ sound (uno u otro), with exceptions for aspirated h and diphthongs; and pero vs. sino, where pero restricts a claim ("Está muy débil, pero puede salir") and sino replaces one after a negation ("No es alto, sino bajo").',
+				},
+			},
+			{
+				heading: 'Pero vs. sino: why "but" isn\'t one word',
+				body: [
+					'English collapses every contrast into "but." Spanish splits the job across two conjunctions that aren\'t interchangeable, and per the RAE\'s own breakdown of adversative conjunctions, the difference comes down to what happens to the first half of the sentence. With pero, two ideas get contrasted: one is stated, the opposite one is only implied. Está muy débil, pero puede salir a la calle ("She\'s very weak, but she can go outside") states that she can go out; it implies, without saying so directly, that you might have expected otherwise given how weak she is. The first half stands — pero just restricts or qualifies it.',
+					'Sino works differently, and per the RAE it requires an explicit or implicit negation in the first half of the sentence. Where pero leaves the first clause standing, sino cancels it outright and substitutes something else in its place: No es alto, sino bajo ("He isn\'t tall, he\'s short") doesn\'t qualify "not tall" — it replaces it with "short." The RAE\'s own summary of the contrast is direct: sino entirely excludes what the first, always-negative clause claimed; pero only narrows it, without denying it completely.',
+					'That negation requirement is the fast test. If the first clause isn\'t negative, sino is off the table and pero is the only option: No tengo hambre, pero comeré un poco (I\'m not hungry, but I\'ll eat a little) keeps pero because the second clause doesn\'t replace anything the first one claimed, it adds a separate, restricting fact on top of it.',
+				],
+			},
+			{
+				heading: 'Sino que, and the sino/si no spelling trap',
+				body: [
+					'Sino picks up an extra que whenever the clause it introduces has its own conjugated verb, rather than just a noun or an infinitive. The RAE\'s own dictionary entry on sino gives the pattern directly: when what\'s being contrasted are two clauses each with a personal verb form, sino needs que attached — No lo dijo, sino que lo gritó (He didn\'t say it, he shouted it), not No lo dijo, sino lo gritó. Without a second conjugated verb, que drops out: No le gusta leer, sino tocar la guitarra (He doesn\'t like reading, but playing guitar) stays as plain sino, because tocar is an infinitive, not a second finite clause.',
+					'A separate, purely orthographic trap sits right next to this rule: sino (one word) is the adversative conjunction described above; si no (two words) is nothing more than the conjunction si ("if") followed by the negating adverb no ("not"), and the RAE\'s entry warns specifically against confusing them. Si no vienes, avísame ("If you don\'t come, let me know") is a conditional clause and has to stay two words; collapsing it to Sino vienes, avísame changes the sentence into nonsense, because sino can\'t open a conditional clause at all.',
+				],
+			},
+			{
+				heading: 'Ni…ni, and the comma that almost never goes before it',
+				body: [
+					'Ni ("nor") most often shows up doubled, as the discontinuous conjunction ni…ni, coordinating two or more elements as a single negative set: Ni lava ni presta la batea (She neither washes nor lends the washtub); El mandatario se refirió a los jóvenes que ni trabajan ni estudian (The official was referring to young people who neither work nor study). Per the Real Academia\'s Ortografía, as summarized in Fundéu\'s own style guidance, a comma is incompatible with y, e, ni, o, and u whenever they\'re joining members of a series or equivalent syntactic elements within the same sentence — so no comma goes before ni…ni linking two verb phrases, and none goes before a plain o or y doing the same job in a short list.',
+					'The exceptions are narrow and deliberate rather than a loophole to lean on. A comma can appear when the conjunction is repeated before every item in a longer series for rhetorical emphasis (polisíndeton), or when the coordinated sequence functions more like a parenthetical aside than a plain, flat list. Outside those two specific cases, treating ni, y, or o like an ordinary comma-preceded word is the actual error, not the exception.',
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'Why does "y" sometimes become "e" in Spanish?',
+				answer: 'Per the RAE, the copulative conjunction y changes to e whenever the following word starts with the sound /i/ — including when that sound is spelled with a silent h, as in aguja e hilo. It\'s a purely phonetic rule to avoid two identical vowel sounds colliding, not a change in meaning. It doesn\'t fire before a diphthong (madera y hierro) or an aspirated h (Franco y Hitler).',
+			},
+			{
+				question: 'What\'s the actual difference between pero and sino?',
+				answer: 'Pero contrasts two ideas without denying the first one — Está muy débil, pero puede salir keeps "she\'s very weak" true while adding a restricting fact. Sino requires an explicit negation in the first clause and swaps in a full replacement for it: No es alto, sino bajo names bajo as the corrected description itself, not an added detail tacked onto "not tall." Pero restricts; sino replaces.',
+			},
+			{
+				question: 'When do I need "sino que" instead of just "sino"?',
+				answer: 'Whenever the clause after sino has its own conjugated verb rather than just a noun or infinitive: No lo dijo, sino que lo gritó needs que because lo gritó is a second finite clause. No le gusta leer, sino tocar la guitarra stays as plain sino because tocar is an infinitive, not a conjugated verb.',
+			},
+			{
+				question: 'Is "sino" the same word as "si no"?',
+				answer: 'No — they\'re unrelated and the RAE warns against confusing them. Sino (one word) is the adversative conjunction covered above. Si no (two words) is just si ("if") plus the negating adverb no ("not"), used in ordinary conditional clauses: Si no vienes, avísame ("If you don\'t come, let me know").',
+			},
+			{
+				question: 'Do you ever put a comma before "ni"?',
+				answer: 'Almost never in ordinary use. Per the RAE\'s Ortografía, a comma is incompatible with y, e, ni, o, and u when they join elements of a series or equivalent syntactic members, so ni…ni linking two verb phrases takes no comma. The narrow exceptions are rhetorical repetition of the conjunction for emphasis, or when the coordinated sequence reads as a parenthetical aside rather than a flat list.',
+			},
+		],
+		sources: [
+			{ label: 'Real Academia Española — Español al día: "Cambio de la «y» copulativa en «e»"', url: 'https://www.rae.es/espanol-al-dia/cambio-de-la-y-copulativa-en-e-0' },
+			{ label: 'Real Academia Española — El buen uso del español: "Las conjunciones disyuntivas y adversativas"', url: 'https://www.rae.es/buen-uso-espa%C3%B1ol/las-conjunciones-disyuntivas-y-adversativas' },
+			{ label: 'Real Academia Española — Glosario de términos gramaticales: "conjunción adversativa"', url: 'https://www.rae.es/gtg/conjunci%C3%B3n-adversativa' },
+			{ label: 'Real Academia Española — Diccionario panhispánico de dudas: "sino"', url: 'https://www.rae.es/dpd/sino' },
+			{ label: 'Fundéu Guzmán Ariza — "«ni», uso de la coma"', url: 'https://fundeu.do/ni-uso-de-la-coma/' },
+			{ label: 'Real Academia Española — Libro de estilo de la lengua española: "Conjunciones"', url: 'https://www.rae.es/libro-estilo-lengua-espa%C3%B1ola/conjunciones' },
+		],
+	},
 ];
