@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700" font-family="system-ui, -apple-system, sans-serif">
+	<rect width="800" height="700" fill="#f6f4e9"/>
+	<rect x="24" y="24" width="752" height="652" rx="10" fill="#fffefa" stroke="#ddd8c4"/>
+
+	<rect x="24" y="24" width="752" height="56" rx="10" fill="#2f6b47"/>
+	<rect x="24" y="60" width="752" height="20" fill="#2f6b47"/>
+	<text x="400" y="60" text-anchor="middle" fill="#ffffff" font-size="18" font-weight="700">TWO PRETERITE ENDINGS SETS, THREE ACCENTS EACH</text>
+
+	<!-- -AR column -->
+	<rect x="42" y="98" width="352" height="330" rx="8" fill="#fbead0" stroke="#ddd8c4"/>
+	<text x="218" y="124" text-anchor="middle" fill="#5a5648" font-size="12" font-weight="700">-AR VERBS · hablar</text>
+
+	<rect x="52" y="138" width="332" height="26" rx="5" fill="#eaf1ea" stroke="#2f6b47"/>
+	<text x="62" y="156" fill="#204a31" font-size="13">yo</text>
+	<text x="374" y="156" text-anchor="end" fill="#204a31" font-size="14" font-weight="700">habl<tspan fill="#b5570f">é</tspan></text>
+
+	<text x="62" y="190" fill="#201f1a" font-size="13">tú</text>
+	<text x="374" y="190" text-anchor="end" fill="#201f1a" font-size="14" font-weight="600">hablaste</text>
+
+	<rect x="52" y="204" width="332" height="26" rx="5" fill="#eaf1ea" stroke="#2f6b47"/>
+	<text x="62" y="222" fill="#204a31" font-size="13">él/ella/usted</text>
+	<text x="374" y="222" text-anchor="end" fill="#204a31" font-size="14" font-weight="700">habl<tspan fill="#b5570f">ó</tspan></text>
+
+	<text x="62" y="256" fill="#201f1a" font-size="13">nosotros</text>
+	<text x="374" y="256" text-anchor="end" fill="#201f1a" font-size="14" font-weight="600">hablamos</text>
+
+	<text x="62" y="282" fill="#201f1a" font-size="13">vosotros</text>
+	<text x="374" y="282" text-anchor="end" fill="#201f1a" font-size="14" font-weight="600">hablasteis</text>
+
+	<text x="62" y="308" fill="#201f1a" font-size="13">ellos/ustedes</text>
+	<text x="374" y="308" text-anchor="end" fill="#201f1a" font-size="14" font-weight="600">hablaron</text>
+
+	<line x1="62" y1="324" x2="374" y2="324" stroke="#ddd8c4" stroke-width="1"/>
+	<text x="218" y="344" text-anchor="middle" fill="#5a5648" font-size="10.5">accents only on yo and él/ella/usted</text>
+	<text x="218" y="360" text-anchor="middle" fill="#5a5648" font-size="10.5">(final-syllable stress ending in a vowel)</text>
+
+	<rect x="52" y="376" width="332" height="38" rx="5" fill="#eaf1ea" stroke="#2f6b47" stroke-dasharray="3,2"/>
+	<text x="218" y="391" text-anchor="middle" fill="#204a31" font-size="10.5" font-weight="700">nosotros = present tense</text>
+	<text x="218" y="405" text-anchor="middle" fill="#204a31" font-size="10">hablamos means "we speak" and "we spoke"</text>
+
+	<!-- -ER/-IR column -->
+	<rect x="406" y="98" width="352" height="330" rx="8" fill="#fbead0" stroke="#ddd8c4"/>
+	<text x="582" y="124" text-anchor="middle" fill="#5a5648" font-size="12" font-weight="700">-ER / -IR VERBS · comer, vivir</text>
+
+	<rect x="416" y="138" width="332" height="26" rx="5" fill="#eaf1ea" stroke="#2f6b47"/>
+	<text x="426" y="156" fill="#204a31" font-size="13">yo</text>
+	<text x="738" y="156" text-anchor="end" fill="#204a31" font-size="14" font-weight="700">com<tspan fill="#b5570f">í</tspan> / viv<tspan fill="#b5570f">í</tspan></text>
+
+	<text x="426" y="190" fill="#201f1a" font-size="13">tú</text>
+	<text x="738" y="190" text-anchor="end" fill="#201f1a" font-size="14" font-weight="600">comiste / viviste</text>
+
+	<rect x="416" y="204" width="332" height="26" rx="5" fill="#eaf1ea" stroke="#2f6b47"/>
+	<text x="426" y="222" fill="#204a31" font-size="13">él/ella/usted</text>
+	<text x="738" y="222" text-anchor="end" fill="#204a31" font-size="14" font-weight="700">comi<tspan fill="#b5570f">ó</tspan> / vivi<tspan fill="#b5570f">ó</tspan></text>
+
+	<text x="426" y="256" fill="#201f1a" font-size="13">nosotros</text>
+	<text x="738" y="256" text-anchor="end" fill="#201f1a" font-size="14" font-weight="600">comimos / vivimos</text>
+
+	<text x="426" y="282" fill="#201f1a" font-size="13">vosotros</text>
+	<text x="738" y="282" text-anchor="end" fill="#201f1a" font-size="14" font-weight="600">comisteis / vivisteis</text>
+
+	<text x="426" y="308" fill="#201f1a" font-size="13">ellos/ustedes</text>
+	<text x="738" y="308" text-anchor="end" fill="#201f1a" font-size="14" font-weight="600">comieron / vivieron</text>
+
+	<line x1="426" y1="324" x2="738" y2="324" stroke="#ddd8c4" stroke-width="1"/>
+	<text x="582" y="344" text-anchor="middle" fill="#5a5648" font-size="10.5">one shared set for -er and -ir</text>
+	<text x="582" y="360" text-anchor="middle" fill="#5a5648" font-size="10.5">(no split, unlike the present tense)</text>
+
+	<rect x="416" y="376" width="332" height="38" rx="5" fill="#fdece3" stroke="#b5570f" stroke-dasharray="3,2"/>
+	<text x="582" y="391" text-anchor="middle" fill="#8a3d13" font-size="10.5" font-weight="700">-er nosotros ≠ present tense</text>
+	<text x="582" y="405" text-anchor="middle" fill="#8a3d13" font-size="10">comimos (past) vs. comemos (present)</text>
+
+	<!-- Bottom note -->
+	<rect x="42" y="446" width="716" height="200" rx="8" fill="#fbead0" stroke="#ddd8c4"/>
+	<text x="400" y="472" text-anchor="middle" fill="#5a5648" font-size="12" font-weight="700">ONE MISTAKE, SHARED BY TÚ AND VOS</text>
+	<text x="62" y="500" fill="#201f1a" font-size="12.5">Every other tú form ends in -s: hablas, hablabas, hablarás, hablarías.</text>
+	<text x="62" y="522" fill="#201f1a" font-size="12.5">The preterite breaks that pattern: hablaste has no final -s.</text>
+	<text x="62" y="554" fill="#8a3d13" font-size="13" font-weight="700">✗ hablastes, comistes, dijistes — nonstandard, from analogy with every other tú form</text>
+	<text x="62" y="580" fill="#204a31" font-size="13" font-weight="700">✓ hablaste, comiste, dijiste — the standard tú and vos form alike</text>
+	<text x="62" y="612" fill="#5a5648" font-size="11">Voseo regions (Argentina, Uruguay, parts of Central America) use these same standard forms;</text>
+	<text x="62" y="630" fill="#5a5648" font-size="11">voseo only creates its own distinct endings in the present tense and informal commands.</text>
+</svg>

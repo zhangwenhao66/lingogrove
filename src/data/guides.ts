@@ -3797,4 +3797,78 @@ export const guides: Guide[] = [
 			{ label: 'PONS — "Präpositionen mit Genitiv im Deutschen"', url: 'https://de.pons.com/p/wissensecke/grammatik-to-go/praepositionen-mit-genitiv' },
 		],
 	},
+	{
+		slug: 'spanish-preterite-endings',
+		category: 'Grammar',
+		title: 'Spanish Preterite Endings: The Two Sets and Where the Accents Go',
+		description: 'Every regular Spanish verb takes one of two preterite endings sets, with accents that follow a real rule, not habit, and one common mistake shared by tú and vos.',
+		published: '2026-08-19',
+		updated: '2026-08-19',
+		coreSummary: 'Regular Spanish verbs take one of two endings sets in the preterite: -ar verbs use -é, -aste, -ó, -amos, -asteis, -aron, while -er and -ir verbs share -í, -iste, -ió, -imos, -isteis, -ieron. Three of those six forms in each set carry a written accent (yo and él/ella/usted), because Spanish requires a tilde on any word stressed on its final syllable that ends in a vowel. The nosotros form is identical to the present tense for -ar and -ir verbs (hablamos, vivimos mean both "we speak/spoke" and "we live/lived"), but not for -er verbs, where comemos (present) and comimos (preterite) differ. A widespread nonstandard habit, adding an extra -s to the tú form (hablastes instead of hablaste), comes from analogy with every other tú conjugation, which does end in -s.',
+		language: 'Spanish',
+		usageNote: {
+			regionNote: 'Voseo regions use the same standard preterite forms as tú (vos hablaste, vos comiste), since voseo only creates distinct verb forms in the present indicative and the informal imperative. In casual Rioplatense speech an extra -s sometimes gets added to that shared tú/vos form (vos hablastes), which is the same nonstandard habit covered below for tú, not a separate voseo-specific ending.',
+		},
+		sections: [
+			{
+				heading: 'The two endings sets, worked through in full',
+				body: [
+					'Regular preterite verbs take one of exactly two endings sets, decided only by whether the infinitive ends in -ar or in -er/-ir. -Ar verbs (modeled on hablar): hablé, hablaste, habló, hablamos, hablasteis, hablaron. -Er and -ir verbs share a single set (modeled on comer and vivir): comí, comiste, comió, comimos, comisteis, comieron; viví, viviste, vivió, vivimos, vivisteis, vivieron. There is no separate -er set and -ir set here, unlike the present tense, where the two conjugations split in the nosotros and vosotros forms (comemos/coméis versus vivimos/vivís).',
+					'*Hablé con mi hermana ayer* ("I talked with my sister yesterday"). *Comimos en ese restaurante la semana pasada* ("We ate at that restaurant last week"). *¿A qué hora llegaste?* ("What time did you arrive?"). Every regular verb in the language slots into one of these two sets with no further variation; irregularities come from a different stem, never a third set of endings. For the verbs that do swap in a new stem, see the [irregular preterite verbs](/irregular-preterite-verbs-spanish/) breakdown.',
+				],
+				image: {
+					src: '/images/spanish-preterite-endings-diagram.svg',
+					alt: 'Diagram showing the two Spanish preterite endings sets: -ar verbs (hablé, hablaste, habló, hablamos, hablasteis, hablaron, with accents on hablé and habló) and -er/-ir verbs (comí, comiste, comió, comimos, comisteis, comieron, with accents on comí and comió), with the nosotros row for -ar and -ir marked as identical to the present tense.',
+				},
+			},
+			{
+				heading: 'Why the accents land on yo and él/ella/usted, and nowhere else',
+				body: [
+					'Three of the six forms in each preterite set carry a written accent: hablé/habló and comí/comió/viví/vivió, on the yo and él/ella/usted rows. That follows a general Spanish stress rule, not a special preterite-only exception. Spanish requires a written accent on any word stressed on its last syllable (a class called aguda) when that word ends in a vowel, or in -n or -s not preceded by another consonant. Per Real Academia Española\'s own reference on the general accentuation rules, that\'s the same rule that puts a tilde on words like comité, colibrí, and razón.',
+					'Hablé and habló are both stressed on their final syllable and end in a vowel, so the rule forces the accent. Hablaste, hablamos, and hablasteis are all llana, stressed on their second-to-last syllable, so none of them qualify, and hablaron is llana too, stressed the same way, so its final -n doesn\'t trigger an accent either. That\'s a different mechanism from the [Spanish imperfect\'s accent rule](/spanish-imperfect-endings/), where the -ía endings take a tilde in every single form because of a hiato (a stressed vowel next to another vowel), not because of where the stress falls. The preterite and the imperfect both use written accents to carry real grammatical weight, but two separate orthography rules are doing the work.',
+				],
+			},
+			{
+				heading: 'Nosotros sometimes matches the present tense, and sometimes doesn\'t',
+				body: [
+					'The nosotros form of the preterite is spelled identically to the nosotros form of the present tense for -ar and -ir verbs, but not for -er verbs. Hablamos means both "we speak" and "we spoke," with no spelling or accent difference at all; vivimos means both "we live" and "we lived," for the same reason. Comemos ("we eat") and comimos ("we ate") don\'t share that overlap; the -er preterite nosotros form takes -imos, not -emos, so it stays distinct from its present-tense counterpart.',
+					'Context almost always resolves the -ar/-ir overlap for a listener, the same way English *read* is spelled identically in the present and past tense and gets sorted out by the sentence around it: *Hoy hablamos con el gerente* ("Today we talk with the manager") versus *Ayer hablamos con el gerente* ("Yesterday we talked with the manager"). A time word like hoy or ayer, or the surrounding verb tenses in the rest of the sentence, is what actually carries the distinction, not the verb form itself.',
+				],
+			},
+			{
+				heading: '"Hablastes" is wrong, and the reason it keeps happening is the same for tú and vos',
+				body: [
+					'A widespread nonstandard habit adds an extra -s to the tú preterite form: hablastes instead of hablaste, comistes instead of comiste, dijistes instead of dijiste. Every other tú conjugation in Spanish ends in -s (hablas, hablarás, hablabas, hablarías, hablaras), which makes the preterite the one tense where tú breaks that pattern with a bare -e or -iste ending. The extra -s is an analogy correcting for that irregularity, not a random typo, which is also why it shows up reliably across very different Spanish-speaking regions rather than clustering in one place.',
+					'The same habit surfaces under vos, since voseo uses the identical standard preterite forms as tú (vos hablaste, vos comiste, vos viniste) rather than its own distinct set. In casual Rioplatense speech, vos hablastes turns up for the same analogical reason as tú hablastes; it\'s treated as informal and corrected in writing in both cases, not a recognized separate voseo ending. Voseo does have its own distinct forms elsewhere, in the present tense and the informal imperative, but the preterite isn\'t one of them.',
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'What are the regular Spanish preterite endings?',
+				answer: '-Ar verbs take -é, -aste, -ó, -amos, -asteis, -aron (hablé, hablaste, habló, hablamos, hablasteis, hablaron). -Er and -ir verbs share one set, -í, -iste, -ió, -imos, -isteis, -ieron (comí/viví, comiste/viviste, comió/vivió, comimos/vivimos, comisteis/vivisteis, comieron/vivieron).',
+			},
+			{
+				question: 'Why do "hablé" and "habló" have accents but "hablaste" doesn\'t?',
+				answer: 'Hablé and habló are stressed on their final syllable and end in a vowel, which is exactly the pattern Spanish always marks with a written accent. Hablaste is stressed on an earlier syllable, so the same rule doesn\'t apply and it takes no accent.',
+			},
+			{
+				question: 'Is the nosotros form of the preterite the same as the present tense?',
+				answer: 'For -ar and -ir verbs, yes: hablamos and vivimos are spelled identically in both tenses, and only the surrounding sentence (a time word like hoy or ayer, or nearby verbs) signals which one is meant. For -er verbs it\'s not the same: the preterite takes comimos while the present takes comemos.',
+			},
+			{
+				question: 'Is "hablastes" ever correct?',
+				answer: 'No. The standard tú preterite form is hablaste, with no final -s. Hablastes is a widespread nonstandard form that comes from analogy with every other tú conjugation, which does end in -s (hablas, hablabas, hablarás), but grammar references treat it as an error rather than an accepted regional variant.',
+			},
+			{
+				question: 'Does vos change the preterite endings?',
+				answer: 'No. Voseo creates its own distinct forms only in the present indicative and the informal imperative. In the preterite, vos uses the same standard forms as tú (vos hablaste, vos comiste), including the same nonstandard -s habit (vos hablastes) that also turns up under tú.',
+			},
+		],
+		sources: [
+			{ label: 'Real Academia Española — Ortografía básica: "Las reglas de acentuación gráfica: reglas generales"', url: 'https://www.rae.es/ortograf%C3%ADa-b%C3%A1sica/uso-de-la-tilde/las-reglas-de-acentuaci%C3%B3n-gr%C3%A1fica/reglas-generales' },
+			{ label: 'SpanishDict Answers — "Is the Nosotros form of the preterite tense the same as present tense?"', url: 'https://www.spanishdict.com/answers/223171/is-the-nosotros-form-of-the-preterite-tense-the-same-as-present-tense' },
+			{ label: 'El Castellano — "hablasteS/hablaste, dijisteS/dijiste,... ¿son correctas las dos?"', url: 'https://www.elcastellano.org/mario-pons-hernandez' },
+		],
+	},
 ];
