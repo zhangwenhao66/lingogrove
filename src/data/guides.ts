@@ -3871,4 +3871,98 @@ export const guides: Guide[] = [
 			{ label: 'El Castellano — "hablasteS/hablaste, dijisteS/dijiste,... ¿son correctas las dos?"', url: 'https://www.elcastellano.org/mario-pons-hernandez' },
 		],
 	},
+	{
+		slug: 'french-prepositions',
+		category: 'Grammar',
+		title: 'French Prepositions: Why À, En, and Dans Don\'t Match English',
+		description: 'À, en, and dans can all translate as "in," chez only ever precedes a person, and countries split three separate ways. The structural rules behind each one.',
+		published: '2026-08-19',
+		updated: '2026-08-19',
+		coreSummary: 'French prepositions don\'t map onto English one-to-one: à, en, and dans can each translate as "in" depending on what follows, chez only ever precedes a person or profession and never a place, and country names split into en (feminine), au (masculine), and aux (plural) rather than taking one fixed word. Time works on a separate axis: depuis marks a duration still in progress, pendant marks one that\'s already finished, and pour marks one still to come.',
+		language: 'French',
+		sections: [
+			{
+				heading: 'Why à, en, and dans all sort of mean "in"',
+				body: [
+					'Per Larousse\'s own definition, a preposition is "un morphème grammatical invariable qui se place devant un constituant de la phrase pour le relier à un autre constituant ou à la phrase tout entière": an invariable grammatical unit placed in front of part of a sentence to connect it to another part, or to the sentence as a whole. That\'s a definition about structure, not meaning, and it\'s the reason a bilingual dictionary struggles here. The same English word can require three different French words depending on the kind of relationship being expressed, not on what any of the three words individually means.',
+					'J\'habite à Paris. J\'habite en France. Le passeport est dans le tiroir. All three would translate into English as some version of "in," and none of the three prepositions can swap into either of the other two sentences. À treats Paris as a point on a map. En treats France as a category the speaker belongs to. Dans treats the drawer as a physical container the passport is literally inside. There\'s no single rule that covers all three; each preposition has its own logic, and that\'s what the rest of this page works through.',
+				],
+			},
+			{
+				heading: 'À: a point on a map, and a mandatory fusion with le and les',
+				body: [
+					'À marks a location treated as a single point rather than a container: a city (à Paris, à Tokyo), a specific address or spot (à la gare, à l\'école, au marché), or a moment in time treated as a fixed point (à midi, à trois heures). It doesn\'t carry any sense of physically being enclosed by something; it just marks where or when.',
+					'The same fusion covered in [French articles](/french-articles/) applies here without exception: à never sits directly next to le or les. À + le becomes au (au marché, never à le marché), and à + les becomes aux (aux Pays-Bas, never à les Pays-Bas). À la and à l\' don\'t contract with anything and stay as two separate words.',
+				],
+			},
+			{
+				heading: 'Dans and en: a container versus a category, and two different "in ten minutes"',
+				body: [
+					'Dans marks literal physical enclosure: dans le tiroir (in the drawer), dans la voiture (in the car), dans la boîte (in the box). Something is dans another thing when it\'s spatially inside it.',
+					'En marks membership in a category or a mode, not physical containment: en France treats the country as a category the speaker is part of, not a container holding them, and en voiture (by car) or en général (in general) work the same way, describing a mode or manner rather than an enclosure.',
+					'The same split carries over into time, and it\'s one of the more common mix-ups for English speakers, since "in ten minutes" covers both cases in English. En + a time span states how long an action takes to complete: Je peux me préparer en dix minutes ("I can get ready within ten minutes") is about the duration of the getting-ready itself. Dans + a time span marks a future point measured from now: Nous partons dans dix minutes ("we\'re leaving ten minutes from now") is about when departure happens, not how long it takes. Swapping the two changes whether the sentence is describing a duration or a deadline.',
+				],
+				image: {
+					src: '/images/french-prepositions-diagram.svg',
+					alt: 'Diagram contrasting à (a point), dans (a container), and en (a category) with example sentences, chez as the preposition reserved for people rather than places, the three-way en/au/aux split for country names with the five masculine exceptions ending in -e, en versus dans with time spans, and depuis/pendant/pour as three unrelated ways to translate "for."',
+				},
+			},
+			{
+				heading: 'Chez: the preposition reserved only for people',
+				body: [
+					'Per Larousse\'s entry on chez, the word refers to "la demeure ou le local professionnel de quelqu\'un," someone\'s home or professional premises, with the dictionary\'s own example Aller chez le médecin ("go to the doctor\'s"). Chez always attaches to a person, or to a profession or role standing in for a person; it never attaches to a place name directly the way à does.',
+					'That distinction stays visible even when two phrases point at the same physical spot. À la boulangerie names the place itself, the shop as a location. Chez le boulanger names the person who runs it, and going chez le boulanger lands you in the same building, but grammatically one phrase is a location and the other is a person whose workplace happens to be implied.',
+					'Chez also takes the disjunctive pronouns covered in [French pronouns](/french-pronouns/) rather than subject pronouns: chez moi, chez toi, chez eux, never chez je or chez ils. That\'s the same rule that puts a disjunctive pronoun after any other preposition, from avec moi to pour toi.',
+				],
+			},
+			{
+				heading: 'Countries take three different prepositions, not one',
+				body: [
+					'Country names don\'t take a single fixed preposition; the choice depends on the country\'s grammatical gender and number. En pairs with feminine country names, which is most of them, since most countries ending in -e are feminine: en France, en Chine, en Espagne. Au pairs with masculine singular country names: au Japon, au Canada, au Brésil. Aux pairs with country names that are grammatically plural: aux États-Unis, aux Pays-Bas.',
+					'A small, fixed set of countries breaks the "-e ending means feminine" pattern and takes au instead of en despite ending in -e: le Mexique, le Cambodge, le Mozambique, le Zimbabwe, and le Belize are all masculine, so it\'s au Mexique and au Cambodge, not en Mexique or en Cambodge. These have to be memorized individually rather than derived from the spelling rule.',
+					'Cities are simpler: à applies regardless of gender, since city names in French generally aren\'t treated as gendered nouns the way countries are. À Paris and à Tokyo follow the same pattern no matter what the city\'s name looks like.',
+				],
+			},
+			{
+				heading: 'Depuis, pendant, and pour: three unrelated ways to say "for"',
+				body: [
+					'English "for" covers a wide range of time relationships, and French splits it into at least three prepositions that aren\'t interchangeable. Per Larousse\'s entry on depuis, the word indicates the starting point of an action or state that continues up to the moment of speaking. Crucially, French pairs depuis with the present tense, not a past tense the way English does: J\'habite ici depuis dix ans ("I\'ve lived here for ten years") uses habite, present tense, because the living arrangement is still ongoing right now. English speakers instinctively reach for a past-tense-feeling construction here, since the English sentence uses "have lived," but the French verb has to stay present.',
+					'Per Larousse\'s entry on pendant, the word marks a duration or the whole span occupied by an action, most often used with the past or future tense to state how long something took or will take, without any connection to what\'s happening at the moment of speaking. J\'ai travaillé pendant deux heures ("I worked for two hours") describes a finished stretch of time; the work is over.',
+					'Pour projects a duration forward from a stated or implied starting point, used for an action that\'s planned or intended rather than already underway or already finished: Je pars pour deux semaines ("I\'m leaving for two weeks") states the length of an upcoming trip before it starts. Mixing up depuis and pendant is one of the most common time-preposition errors for English speakers precisely because English collapses all three of these distinctions into the single word "for."',
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'Why does "in France" use en but "in Japan" use au?',
+				answer: 'French picks the country preposition by grammatical gender and number, not by geography. France is feminine, so it takes en; Japan (le Japon) is masculine, so it takes au. Plural-name countries like the United States take aux (aux États-Unis). A handful of countries, including le Mexique and le Cambodge, end in -e but are masculine anyway and take au despite the usual "-e means feminine" pattern.',
+			},
+			{
+				question: 'What\'s the real difference between à and dans?',
+				answer: 'À treats a location as a single point, used for cities, addresses, and moments in time (à Paris, à midi). Dans marks literal physical enclosure, something spatially inside something else (dans le tiroir, dans la voiture). They aren\'t interchangeable: à Paris means "in/at Paris" as a city, while dans Paris would describe something physically within the city\'s boundaries, a much narrower and less common usage.',
+			},
+			{
+				question: 'Can chez ever refer to a place instead of a person?',
+				answer: 'No. Chez always attaches to a person, or to a profession or role standing in for one, per Larousse\'s own definition ("la demeure ou le local professionnel de quelqu\'un," someone\'s home or professional premises). À la boulangerie names the bakery as a place; chez le boulanger names the baker and implies going to wherever that person works. The two phrases can point at the same physical spot, but grammatically one names a location and the other names a person.',
+			},
+			{
+				question: 'What\'s the difference between en dix minutes and dans dix minutes?',
+				answer: 'En dix minutes states how long an action takes to complete: Je peux me préparer en dix minutes means the getting-ready itself takes ten minutes. Dans dix minutes marks a future point measured from now: Nous partons dans dix minutes means departure happens ten minutes from now. One describes a duration, the other a deadline.',
+			},
+			{
+				question: 'Why does depuis pair with the present tense when English uses "have been"?',
+				answer: 'Depuis marks the starting point of a state or action that\'s still continuing at the moment of speaking, and French treats that as a present-tense fact rather than a completed past event. J\'habite ici depuis dix ans uses habite (present) because the living arrangement is still true right now. English "I have lived here for ten years" uses a perfect construction to do the same job, but French doesn\'t need one, since the present tense already implies the action is ongoing.',
+			},
+		],
+		sources: [
+			{ label: 'Larousse — Dictionnaire de français: "préposition"', url: 'https://www.larousse.fr/dictionnaires/francais/pr%C3%A9position/63622' },
+			{ label: 'Larousse — Dictionnaire de français: "en"', url: 'https://www.larousse.fr/dictionnaires/francais/en/29043' },
+			{ label: 'Larousse — Dictionnaire de français: "dans"', url: 'https://www.larousse.fr/dictionnaires/francais/dans/21617' },
+			{ label: 'Larousse — Dictionnaire de français: "chez"', url: 'https://www.larousse.fr/dictionnaires/francais/chez/15246' },
+			{ label: 'Larousse — Dictionnaire de français: "depuis"', url: 'https://www.larousse.fr/dictionnaires/francais/depuis/23940' },
+			{ label: 'Larousse — Dictionnaire de français: "pendant"', url: 'https://www.larousse.fr/dictionnaires/francais/pendant/59176' },
+			{ label: 'Lawless French — "Prepositions with Continents and Countries"', url: 'https://www.lawlessfrench.com/grammar/geographical-prepositions-continents-countries/' },
+			{ label: 'FrenchLearner — "En vs. Dans in French"', url: 'https://www.frenchlearner.com/grammar/en-vs-dans/' },
+		],
+	},
 ];

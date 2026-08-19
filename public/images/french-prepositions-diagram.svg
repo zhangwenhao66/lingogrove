@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 780" font-family="system-ui, -apple-system, sans-serif">
+	<rect width="800" height="780" fill="#f6f4e9"/>
+	<rect x="24" y="24" width="752" height="732" rx="10" fill="#fffefa" stroke="#ddd8c4"/>
+
+	<rect x="24" y="24" width="752" height="56" rx="10" fill="#2f6b47"/>
+	<rect x="24" y="60" width="752" height="20" fill="#2f6b47"/>
+	<text x="400" y="60" text-anchor="middle" fill="#ffffff" font-size="18" font-weight="700">PREPOSITIONS THAT DON&#8217;T MAP TO ENGLISH ONE-TO-ONE</text>
+
+	<!-- row 1: à vs dans vs en (spatial) -->
+	<rect x="46" y="102" width="228" height="150" rx="8" fill="#eaf1ea" stroke="#2f6b47"/>
+	<text x="160" y="126" text-anchor="middle" fill="#2f6b47" font-size="13" font-weight="700">À — a point</text>
+	<text x="160" y="148" text-anchor="middle" fill="#201f1a" font-size="13">à Paris</text>
+	<text x="160" y="166" text-anchor="middle" fill="#201f1a" font-size="13">à l&#8217;école</text>
+	<text x="160" y="188" text-anchor="middle" fill="#5a5648" font-size="11" font-style="italic">city, address, or a moment</text>
+	<text x="160" y="204" text-anchor="middle" fill="#5a5648" font-size="11" font-style="italic">treated as a single spot</text>
+	<text x="160" y="230" text-anchor="middle" fill="#8a8570" font-size="10">à + le/les &#8594; au / aux</text>
+
+	<rect x="286" y="102" width="228" height="150" rx="8" fill="#eaf1ea" stroke="#2f6b47"/>
+	<text x="400" y="126" text-anchor="middle" fill="#2f6b47" font-size="13" font-weight="700">DANS — a container</text>
+	<text x="400" y="148" text-anchor="middle" fill="#201f1a" font-size="13">dans le tiroir</text>
+	<text x="400" y="166" text-anchor="middle" fill="#201f1a" font-size="13">dans la voiture</text>
+	<text x="400" y="188" text-anchor="middle" fill="#5a5648" font-size="11" font-style="italic">literal physical</text>
+	<text x="400" y="204" text-anchor="middle" fill="#5a5648" font-size="11" font-style="italic">enclosure</text>
+
+	<rect x="526" y="102" width="228" height="150" rx="8" fill="#eaf1ea" stroke="#2f6b47"/>
+	<text x="640" y="126" text-anchor="middle" fill="#2f6b47" font-size="13" font-weight="700">EN — a category</text>
+	<text x="640" y="148" text-anchor="middle" fill="#201f1a" font-size="13">en France</text>
+	<text x="640" y="166" text-anchor="middle" fill="#201f1a" font-size="13">en voiture</text>
+	<text x="640" y="188" text-anchor="middle" fill="#5a5648" font-size="11" font-style="italic">membership or mode,</text>
+	<text x="640" y="204" text-anchor="middle" fill="#5a5648" font-size="11" font-style="italic">not literal enclosure</text>
+
+	<!-- row 2: chez -->
+	<rect x="46" y="268" width="708" height="110" rx="8" fill="#fdf3e3" stroke="#5a4a2f"/>
+	<text x="400" y="292" text-anchor="middle" fill="#5a4a2f" font-size="13" font-weight="700">CHEZ — reserved for people, never for a place name</text>
+	<text x="400" y="316" text-anchor="middle" fill="#201f1a" font-size="13">à la boulangerie (the place itself) &#160;vs.&#160; chez le boulanger (the baker, implying his shop)</text>
+	<text x="400" y="338" text-anchor="middle" fill="#5a5648" font-size="12">chez moi &#183; chez toi &#183; chez eux &#8212; takes disjunctive pronouns, never subject pronouns</text>
+	<text x="400" y="360" text-anchor="middle" fill="#8a8570" font-size="11" font-style="italic">Larousse: &#8220;le logement ou le lieu professionnel de quelqu&#8217;un&#8221;</text>
+
+	<!-- row 3: countries -->
+	<rect x="46" y="396" width="708" height="150" rx="8" fill="#eaf1ea" stroke="#2f6b47"/>
+	<text x="400" y="420" text-anchor="middle" fill="#2f6b47" font-size="13" font-weight="700">COUNTRIES SPLIT THREE WAYS, NOT ONE</text>
+	<text x="164" y="446" text-anchor="middle" fill="#201f1a" font-size="12" font-weight="700">EN + feminine</text>
+	<text x="164" y="466" text-anchor="middle" fill="#5a5648" font-size="12">en France, en Chine</text>
+	<text x="400" y="446" text-anchor="middle" fill="#201f1a" font-size="12" font-weight="700">AU + masculine</text>
+	<text x="400" y="466" text-anchor="middle" fill="#5a5648" font-size="12">au Japon, au Canada</text>
+	<text x="636" y="446" text-anchor="middle" fill="#201f1a" font-size="12" font-weight="700">AUX + plural</text>
+	<text x="636" y="466" text-anchor="middle" fill="#5a5648" font-size="12">aux &#201;tats-Unis</text>
+	<text x="400" y="500" text-anchor="middle" fill="#5a5648" font-size="11" font-style="italic">Exception: five countries end in -e but are masculine</text>
+	<text x="400" y="520" text-anchor="middle" fill="#201f1a" font-size="12">le Mexique &#183; le Cambodge &#183; le Mozambique &#183; le Zimbabwe &#183; le Belize &#8594; au Mexique</text>
+
+	<!-- row 4: en vs dans time -->
+	<rect x="46" y="564" width="342" height="168" rx="8" fill="#fdf3e3" stroke="#5a4a2f"/>
+	<text x="217" y="588" text-anchor="middle" fill="#5a4a2f" font-size="13" font-weight="700">EN + time = how long it takes</text>
+	<text x="217" y="614" text-anchor="middle" fill="#201f1a" font-size="12">Je peux me pr&#233;parer en dix minutes.</text>
+	<text x="217" y="634" text-anchor="middle" fill="#5a5648" font-size="11" font-style="italic">I can get ready within ten minutes</text>
+	<text x="217" y="666" text-anchor="middle" fill="#5a4a2f" font-size="13" font-weight="700">DANS + time = a future point</text>
+	<text x="217" y="692" text-anchor="middle" fill="#201f1a" font-size="12">Nous partons dans dix minutes.</text>
+	<text x="217" y="712" text-anchor="middle" fill="#5a5648" font-size="11" font-style="italic">we leave, ten minutes from now</text>
+
+	<rect x="412" y="564" width="342" height="168" rx="8" fill="#eaf1ea" stroke="#2f6b47"/>
+	<text x="583" y="588" text-anchor="middle" fill="#2f6b47" font-size="13" font-weight="700">DEPUIS, PENDANT, POUR</text>
+	<text x="583" y="612" text-anchor="middle" fill="#201f1a" font-size="12" font-weight="700">depuis: still ongoing</text>
+	<text x="583" y="630" text-anchor="middle" fill="#5a5648" font-size="11">J&#8217;habite ici depuis dix ans.</text>
+	<text x="583" y="654" text-anchor="middle" fill="#201f1a" font-size="12" font-weight="700">pendant: already finished</text>
+	<text x="583" y="672" text-anchor="middle" fill="#5a5648" font-size="11">J&#8217;ai travaill&#233; pendant deux heures.</text>
+	<text x="583" y="696" text-anchor="middle" fill="#201f1a" font-size="12" font-weight="700">pour: a planned future span</text>
+	<text x="583" y="714" text-anchor="middle" fill="#5a5648" font-size="11">Je pars pour deux semaines.</text>
+</svg>
