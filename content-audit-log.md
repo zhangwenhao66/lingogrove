@@ -750,3 +750,46 @@
   "escalation": null
 }
 ```
+
+```json
+{
+  "url_slug": "good-night-in-spanish",
+  "last_audited": "2026-08-19",
+  "published_date": "2026-08-03",
+  "note": "跨站排序：lingogrove为10站中此任务last_audited最早（唯一无近5天审计记录）的站，本次优先处理；站内选取本站从未被此任务审计过的最早发布文章之一（并列另一篇i-love-you-in-spanish，本次择其一）",
+  "diagnosed_checkpoints": [
+    "buenas noches主要作为夜间到达问候语而非告别语的核心反直觉论点是否有真实依据",
+    "¡Buenas!缩略形式的地域分布声明（西班牙/拉普拉塔河地区/部分安第斯与中美地区）是否忠实于RAE原文而非编造",
+    "que duermas bien/que descanses的dormir/descansar语义区分及tú/usted变位是否准确",
+    "正文AI写作痕迹（本文发布于2026-08-03，早于avoid-ai-writing技能2026-08-07接入）"
+  ],
+  "findings": [
+    { "dimension": "事实准确性", "status": "未发现问题", "detail": "WebSearch独立信源交叉核实buenas noches作为到达问候语的用法（多个西语学习站一致确认），以及RAE espanol-al-dia原页面内容与¡Buenas!地域分布声明逐字匹配（西班牙/拉普拉塔河/部分安第斯与中美），非编造。que duermas bien(sleep-focused)/que descanses(rest-focused)的语义区分及正式/非正式register经独立信源确认准确。" },
+    { "dimension": "EEAT", "status": "未发现问题", "detail": "单一但权威的RAE官方来源+具体西语例句，非泛泛而谈。" },
+    { "dimension": "时效性", "status": "不适用", "detail": "语法/用法类内容，RAE规则无变动记录。" },
+    { "dimension": "竞品差异化", "status": "未重新核实排名，未发现结构性问题", "detail": "本文core angle（到达问候语vs告别语的反直觉区分）在既有published/updated元数据层面无过时或同质化信号，未做SERP重新抽查。" },
+    { "dimension": "SEO技术审计", "status": "未发现问题", "detail": "实测live页面：title/meta description/canonical自引用/h1/schema(Article+FAQPage+BreadcrumbList+Person+WebPage)均正确渲染。" },
+    { "dimension": "GEO审计", "status": "延续基线未发现新薄弱项", "detail": "结构（coreSummary定义块+FAQ schema+具体例句）与本站已确立~80+/99基线一致，去AI味修复未减少信息密度或改动schema字段。" },
+    { "dimension": "早期内容AI味补漏", "status": "确认发现问题，已修复", "detail": "正文含17处破折号：14处为叙述性/同位语破折号（含1处'isn't X, it's Y'翻案句式），3处为本站已确立的可接受结构性用法（1处来源标签+2处FAQ'Yes —'开头，对照happy-birthday-in-spanish 8/17审计确立的白名单）。改写14处为逗号/冒号/括号/分号结构，翻案句式改写为直接陈述；顺手删除1处Tier-1A强调词'genuine'。" },
+    { "dimension": "外部引用链接腐烂", "status": "未发现问题", "detail": "RAE来源403为已知反自动化拦截（本站saber-vs-conocer审计已确立判断标准），WebSearch确认内容仍真实可查。" },
+    { "dimension": "内链健康度", "status": "未发现问题", "detail": "被happy-birthday-in-spanish与i-love-you-in-spanish两篇文章正文手写锚文本链接，非孤儿页；Phrases分类仅3篇，[slug].astro轮转窗口全展示。" },
+    { "dimension": "Schema数据一致性", "status": "已同步", "detail": "仅改动破折号相关正文文字，未改动schema依赖字段；updated同步为2026-08-19。" },
+    { "dimension": "合规/敏感度漂移", "status": "未发现问题", "detail": "纯语法/用法教学内容，无敏感表述。" },
+    { "dimension": "配图可用性与版权", "status": "不适用", "detail": "本文与本站另6篇'Phrases/Loanwords meaning'类短文一致，按站点模板设计无hero image字段（[slug].astro对guide.image做条件渲染，缺省回退favicon.svg作为OG image），非新问题，此前多篇同类文章审计均未标记。" },
+    { "dimension": "AdSense政策合规风险", "status": "未发现问题", "detail": "内容无暴力/武器/赌博等限制类目；ads.txt正确指向pub-5245502795720653；privacy/terms/about页面均200可访问；robots.txt对GPTBot/ChatGPT-User/ClaudeBot/Claude-Web/PerplexityBot/Google-Extended均Allow。" }
+  ],
+  "actions_taken": [
+    "改写14处叙述性破折号为逗号/冒号/括号/分号结构（仅改动含破折号的具体句子，保留原意，不做大范围重写）",
+    "将'The point isn't that the farewell sense is incorrect, it's that...'翻案句式改写为直接陈述'What trips people up is defaulting to...'",
+    "删除1处Tier-1A强调词'genuine'",
+    "updated字段同步为2026-08-19（published字段本已存在，无需git历史回填）",
+    "npm test（64/64通过）+ npm run build（53页通过）",
+    "git commit(6a17d44) + push，Cloudflare Pages git自动部署（本站无独立deploy hook），curl轮询3次确认https://lingogrove.com/good-night-in-spanish/ 200且改动已生效",
+    "node tools/submit-indexnow.mjs /good-night-in-spanish/ 提交（Bing 200 / Yandex 200）",
+    "内容发布日志.md追加本条审计更新记录"
+  ],
+  "seo_score": "未重新打分具体分值，技术SEO抽查（title/meta/h1/schema/canonical）无问题",
+  "geo_score": "延续本站粗估~80+/99基线，本次修复未改变信息密度或结构，未重新逐项打分",
+  "escalation": null
+}
+```
