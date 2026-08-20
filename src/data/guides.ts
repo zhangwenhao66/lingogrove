@@ -4142,4 +4142,84 @@ export const guides: Guide[] = [
 			{ label: 'Office québécois de la langue française — Vitrine linguistique: "Verbe pronominal de sens réciproque"', url: 'https://vitrinelinguistique.oqlf.gouv.qc.ca/22955/la-grammaire/le-verbe/verbes-pronominaux/verbe-pronominal-de-sens-reciproque' },
 		],
 	},
+	{
+		slug: 'french-past-participle',
+		category: 'Grammar',
+		title: 'French Past Participle: Why "Dû" Has an Accent and "Due" Doesn\'t',
+		description: 'Regular participles just add é or i. Devoir\'s dû keeps a circumflex only in the masculine singular, and a participle used with avoir only agrees with a direct object that comes before it.',
+		published: '2026-08-20',
+		updated: '2026-08-20',
+		coreSummary: 'Per the OQLF, French classifies only -er verbs and -ir verbs with an -issant present participle as regular, which gives predictable participles like aimé and fini; every other verb, including all -re and -oir verbs, is irregular and its participle (dû, pu, su, voulu, and dozens more) has to be learned individually. A participle used with avoir stays invariable unless a direct object already sits before the verb, as in les lettres que j\'ai écrites, while a participle used with être normally agrees with the subject outright, except for pronominal verbs like se laver, which still use être but follow avoir\'s direct-object rule instead. Devoir\'s dû keeps its circumflex accent only in the masculine singular, specifically to stay distinct from the article du.',
+		language: 'French',
+		sections: [
+			{
+				heading: 'Two endings are "regular." Every -re and -oir verb isn\'t',
+				body: [
+					'Per the OQLF\'s own classification, "presque tous les verbes qui se terminent par -er et plusieurs de ceux qui se terminent par -ir sont réguliers": almost all -er verbs, and several -ir verbs, are regular. That regularity shows up cleanly in the participle: aimer, écouter, parler, and nettoyer all form theirs by swapping -er for -é (aimé, écouté, parlé, nettoyé), and finir, réfléchir, réussir, and haïr swap -ir for -i (fini, réfléchi, réussi, haï), but that -i swap only applies to the -ir verbs whose present participle ends in -issant, the same subgroup the OQLF uses to define this class.',
+					'Everything else is irregular by the OQLF\'s own definition, and that "everything else" is bigger than the two-endings summary suggests: "tous les verbes qui ne sont pas des verbes réguliers en -er ou en -ir sont irréguliers," which explicitly includes -ir verbs whose present participle isn\'t -issant (courir), and every single verb ending in -oir (voir) or -re (boire, prendre, craindre), with no exceptions carved out for either ending. Traditional textbooks often teach a three-way split instead, -er verbs, -ir verbs, and -re verbs, each with its own "regular" ending (-é, -i, -u). The OQLF itself notes that grammar references vary on this: some use two groups, some three, some four, splitting by -er/-ir/-oir/-re endings instead of by predictability. Both conventions are legitimate; the difference is just which layer of French verbs "regular" is describing, and the two don\'t line up. A -re verb that behaves consistently for you (vendre → vendu, perdre → perdu, répondre → répondu) sits right next to one that doesn\'t (prendre → pris, not "prendu").',
+				],
+				image: {
+					src: '/images/french-past-participle-diagram.svg',
+					alt: 'Diagram of French past participle formation and agreement: the OQLF two-ending regular class, the avoir rule (invariable unless the direct object precedes the verb), the être rule (agrees with the subject except for pronominal verbs, which borrow avoir\'s direct-object test instead), and the dû/due/dus/dues circumflex that survives only in the masculine singular.',
+				},
+			},
+			{
+				heading: 'The irregular participles that carry the highest-frequency verbs',
+				body: [
+					'The OQLF\'s own comparison table for four common -oir verbs shows how differently their participles land even though their infinitives look alike: devoir, pouvoir, savoir, and vouloir give dû, pu, su, and voulu, four different vowels for four verbs that share an -oir ending. None of the four follows any predictable rule from the infinitive; they simply have to be memorized as a set, the same way English speakers memorize "go, went, gone" without expecting a pattern to carry over to "grow, grew, grown."',
+					'Some of the most common -re and -ir (non-issant) irregular participles follow their own recurring shapes even without a single unifying rule: faire → fait, dire → dit, mettre → mis, prendre → pris, écrire → écrit, ouvrir → ouvert. None of these is derivable from the infinitive the way aimé or fini are; they belong to the same "learn it as a set" category as dû, pu, su, and voulu, just with different endings from each other.',
+				],
+			},
+			{
+				heading: 'With avoir, the participle only moves when a direct object already came first',
+				body: [
+					'Per the OQLF, "le participe passé des verbes conjugués avec l\'auxiliaire avoir s\'accorde en genre et en nombre avec le complément direct (CD) si celui-ci est placé avant le verbe": a participle used with avoir agrees in gender and number with the direct object, but only when that direct object sits before the verb. The test the OQLF itself recommends is asking qui? or quoi? right after the verb; if the answer trails the verb, there\'s nothing to agree with yet, and the participle stays invariable.',
+					'The OQLF\'s own worked examples show what triggers agreement in practice: Cette récompense, il l\'avait souvent promise et offerte (l\' stands in for récompense, feminine singular, placed first), Ces étudiantes, je les ai reçues hier (les stands in for étudiantes, feminine plural), and Les lettres que j\'ai écrites à ma sœur sont restées sans réponse (que stands in for lettres, feminine plural). All three direct objects are pronouns (le/la/les or the relative que), because a direct object that isn\'t a pronoun almost never gets pulled in front of its verb in ordinary French word order; the full mechanics of that pronoun set, including where each one sits relative to the verb, are covered in [the French pronouns guide](/french-pronouns/). Where there\'s no direct object at all, or where it follows the verb as usual (J\'ai beaucoup aimé sa dernière exposition, where sa dernière exposition trails aimé), the participle just stays as written in the infinitive-minus-ending form: unchanged.',
+				],
+			},
+			{
+				heading: 'With être, the rule flips, except for one verb type that keeps avoir\'s logic anyway',
+				body: [
+					'The OQLF states this rule as flatly as a grammar rule gets: "la règle d\'accord du participe passé employé avec l\'auxiliaire être est simple: le participe s\'accorde en genre et en nombre avec le sujet." There\'s no direct-object test and no word-order exception here: the participle simply matches the subject. That covers two distinct situations. First, a short list of intransitive verbs that only ever take être, mostly verbs of motion or state change: Les invités sont arrivés en fin de soirée, Rachel est sortie avec des amis. Second, the passive voice, where a verb that normally takes avoir switches to être specifically because the sentence has been recast passively: Cette vedette est poursuivie par les journalistes, Les étudiants ont été accusés à tort.',
+					'Pronominal verbs (se laver, se parler, s\'écrire, and the rest) also take être in every compound tense, with no exceptions, but their agreement doesn\'t follow the simple subject-matching rule above. It follows avoir\'s direct-object test instead, just applied to the reflexive pronoun itself as the candidate direct object. That mechanism, including why it produces agreement in some pronominal sentences and not others, is covered in full in [the French reflexive verbs guide](/french-reflexive-verbs/); it\'s the same avoir-style test this article describes, just running on se instead of on le/la/les/que.',
+				],
+			},
+			{
+				heading: 'The one spelling the accent exists to protect: dû vs. du',
+				body: [
+					'Per the OQLF\'s own entry distinguishing the two, du and dû aren\'t different senses of the same word; they belong to different word classes entirely. Du is a determiner, either the partitive (il lui reste encore du travail) or the contraction of de + le (le plat du jour). Dû is either a masculine noun (il a payé son dû, "he paid what he owed") or the past participle/adjective from devoir, and it\'s only in that masculine-singular participle-or-adjective use that the circumflex appears at all: the OQLF gives due, dus, and dues as the feminine-singular, masculine-plural, and feminine-plural forms, none of them carrying the accent.',
+					'The OQLF\'s own examples show the accent disappearing exactly where the grammar predicts it should: Le montant de la facture est dû avant la fin du mois (masculine singular, accent kept) sits next to La panne est due à un court-circuit and Beaucoup d\'accidents sont dus à la fatigue (feminine singular and masculine plural, no accent in either). Per the Académie française\'s own 1990 rectifications, the circumflex on i and u became optional everywhere except a short named list where it still separates two different words: dû, jeûne, the adjectives mûr and sûr, and the verb croître. Dropping it from dû specifically would have collapsed it into du, so that one form kept the accent while most other i/u circumflexes elsewhere in French became optional.',
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'Why does "dû" have an accent but "due" doesn\'t?',
+				answer: 'The circumflex on dû exists only to keep the masculine-singular past participle/adjective of devoir visually distinct from du, the unrelated determiner (the partitive article, or de + le contracted). Per the OQLF, that collision risk disappears the moment the word takes on a different gender or number, so due, dus, and dues never carry the accent at all: only dû does.',
+			},
+			{
+				question: 'Do all French -re verbs form their past participle with -u?',
+				answer: 'No, and the OQLF doesn\'t even classify -re verbs as regular in the first place: "tous les verbes qui ne sont pas des verbes réguliers en -er ou en -ir sont irréguliers" includes every -re verb without exception. Many do follow a consistent -u pattern (vendre → vendu, perdre → perdu, répondre → répondu), but plenty of others don\'t (prendre → pris, écrire → écrit, boire → bu), so -u is a common shape among -re verbs, not a rule you can apply blindly.',
+			},
+			{
+				question: 'When does a past participle used with avoir agree with the subject?',
+				answer: 'It never agrees with the subject. A participle used with avoir agrees with the direct object, and only when that direct object is placed before the verb, most often because it\'s a pronoun like le, la, les, or the relative que. If there\'s no direct object, or if it follows the verb as usual, the participle stays invariable no matter what the subject is.',
+			},
+			{
+				question: 'Is "allé" a regular participle since "aller" ends in -er?',
+				answer: 'Its shape looks regular (aller → allé, following the -er-to-é pattern), but aller itself is one of French\'s most irregular verbs, mixing several different stems across its conjugation: va- for most of the present indicative (je vais, tu vas, il va, ils vont), ir- in the future and conditional (elle ira, nous irions), and all- for the rest, including nous allons/vous allez in the present and the participle allé. The participle happening to land on the regular -é ending is closer to a coincidence than a sign the verb behaves predictably elsewhere.',
+			},
+			{
+				question: 'How is agreement with être different for reflexive verbs than for verbs like "arriver"?',
+				answer: 'Verbs like arriver, sortir, and venir that simply take être as their fixed auxiliary follow the plain rule: the participle agrees with the subject, full stop. Reflexive (pronominal) verbs also take être, but their agreement runs on avoir\'s direct-object test instead, applied to the reflexive pronoun, which is why a pronominal participle can end up not agreeing with the subject at all, unlike arriver or sortir. The full mechanics are in the French reflexive verbs guide.',
+			},
+		],
+		sources: [
+			{ label: 'Office québécois de la langue française — Vitrine linguistique: "Verbes réguliers et irréguliers"', url: 'https://vitrinelinguistique.oqlf.gouv.qc.ca/24654/la-grammaire/le-verbe/conjugaison/verbes-reguliers-et-irreguliers' },
+			{ label: 'Office québécois de la langue française — Vitrine linguistique: "Accord du participe passé employé avec l\'auxiliaire avoir"', url: 'https://vitrinelinguistique.oqlf.gouv.qc.ca/21546/la-grammaire/le-verbe/accord-du-participe-passe/avec-lauxiliaire-avoir/accord-du-participe-passe-employe-avec-lauxiliaire-avoir' },
+			{ label: 'Office québécois de la langue française — Vitrine linguistique: "Accord du participe passé employé avec l\'auxiliaire être"', url: 'https://vitrinelinguistique.oqlf.gouv.qc.ca/21547/la-grammaire/le-verbe/accord-du-participe-passe/avec-lauxiliaire-etre/accord-du-participe-passe-employe-avec-lauxiliaire-etre' },
+			{ label: 'Office québécois de la langue française — Vitrine linguistique: "Les homophones DU et DÛ"', url: 'https://vitrinelinguistique.oqlf.gouv.qc.ca/21501/la-grammaire/les-homophones-grammaticaux/les-homophones-du-et-du' },
+			{ label: 'Académie française — Dictionnaire: "Les rectifications de l\'orthographe" (1990)', url: 'https://www.dictionnaire-academie.fr/annexes/rectifications-orthographe.html' },
+		],
+	},
 ];
