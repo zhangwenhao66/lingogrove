@@ -627,44 +627,44 @@ export const guides: Guide[] = [
 		title: 'How to Say I Love You in Spanish: Te Quiero vs. Te Amo',
 		description: 'Spanish gives you two ways to say "I love you," and picking the wrong one either undersells how you feel or comes on far stronger than you meant to.',
 		published: '2026-08-03',
-		updated: '2026-08-03',
+		updated: '2026-08-20',
 		coreSummary: 'Te quiero and te amo both translate as "I love you," but they aren\'t interchangeable. Te quiero is the everyday version, used for friends, family, and romantic partners alike, and doesn\'t necessarily signal deep romantic seriousness. Te amo is more intense, most often used for committed romantic love, though it also shows up between very close family members (especially parents and children) in parts of Latin America. Spain leans toward using te quiero even between romantic partners, while Latin America uses both, generally keeping te amo for the most serious declarations.',
 		language: 'Spanish',
 		usageNote: {
-			regionNote: 'Spain tends to favor te quiero broadly, even between long-term partners, while Latin American Spanish uses both — with te amo more consistently reserved for serious romantic commitment. This is a tendency, not a hard boundary; you\'ll hear exceptions in both regions.',
+			regionNote: 'Spain tends to favor te quiero broadly, even between long-term partners, while Latin American Spanish uses both, with te amo more consistently reserved for serious romantic commitment. This is a tendency, not a hard boundary; you\'ll hear exceptions in both regions.',
 		},
 		sections: [
 			{
 				heading: 'Two verbs, two intensities',
 				body: [
-					'Spanish has two common verbs that can both be translated "to love": *querer* (whose core meaning is closer to "to want" or "to care for") and *amar* (a more elevated, specifically love-focused verb). *Te quiero* and *te amo* — "I love/want you" and "I love you," respectively — pull from those two verbs, and native speakers treat them as genuinely different statements, not stylistic variants of the same one.',
+					'Spanish has two common verbs that can both be translated "to love": *querer* (whose core meaning is closer to "to want" or "to care for") and *amar* (a more elevated, specifically love-focused verb). *Te quiero* and *te amo* ("I love/want you" and "I love you," respectively) pull from those two verbs, and native speakers treat them as genuinely different statements, not stylistic variants of the same one.',
 				],
 			},
 			{
 				heading: 'Te quiero: the everyday version',
 				body: [
-					'*Te quiero* is the more common of the two by a wide margin, and it\'s used across a much wider range of relationships: friends tell each other *te quiero*, family members say it routinely, and romantic partners use it too, especially outside of the most serious or formal declarations. Because *querer* also means "to want," the phrase carries a lighter, warmer connotation of care and affection rather than an all-consuming romantic claim — closer to "I care about you deeply" than to a wedding-vow-level statement.',
+					'*Te quiero* is the more common of the two by a wide margin, and it\'s used across a much wider range of relationships: friends tell each other *te quiero*, family members say it routinely, and romantic partners use it too, especially outside of the most serious or formal declarations. Because *querer* also means "to want," the phrase carries a lighter, warmer connotation of care and affection rather than an all-consuming romantic claim. It lands closer to "I care about you deeply" than to a wedding-vow-level statement.',
 					'If you\'re unsure which to use with a new romantic partner, *te quiero* is the safer default precisely because it doesn\'t overcommit.',
 				],
 			},
 			{
 				heading: 'Te amo: saved for something bigger',
 				body: [
-					'*Te amo* is reserved, by convention, for deeper, more serious romantic love — the kind of statement that typically comes after a relationship has had real time to develop, not something said casually or early on. Using it too soon in a new romance can read as unexpectedly intense or even a little theatrical to a native speaker, roughly the way declaring "I am deeply, permanently in love with you" would land oddly if said to someone you\'d been dating for two weeks.',
-					'Romantic intensity isn\'t the only place *te amo* shows up, though: in Mexico and especially in Argentina, it\'s also commonly used between parents and children, as a sign of serious, weighty affection rather than romance. So "almost always romantic" is the right instinct for a new acquaintance, but not an absolute rule — the common thread across every use of *te amo* is depth of feeling, not necessarily romance specifically.',
+					'*Te amo* is reserved, by convention, for deeper, more serious romantic love: the kind of statement that typically comes after a relationship has had real time to develop, not something said casually or early on. Using it too soon in a new romance can read as unexpectedly intense or even a little theatrical to a native speaker, roughly the way declaring "I am deeply, permanently in love with you" would land oddly if said to someone you\'d been dating for two weeks.',
+					'Romantic intensity isn\'t the only place *te amo* shows up, though: in Mexico and especially in Argentina, it\'s also commonly used between parents and children, as a sign of serious, weighty affection rather than romance. So "almost always romantic" is the right instinct for a new acquaintance, but not an absolute rule. The common thread across every use of *te amo* is depth of feeling, not necessarily romance specifically.',
 				],
 			},
 			{
 				heading: 'A regional wrinkle worth knowing',
 				body: [
-					'The intensity gap between the two phrases holds everywhere Spanish is spoken, but which one gets used day-to-day varies by region. In Spain, *te quiero* is the phrase couples typically use even in long-term, committed relationships — *te amo* can sound almost too formal or literary for everyday use. In much of Latin America, both phrases are in active use, with *te amo* more reliably reserved for genuinely serious romantic love and *te quiero* covering everything from friendship to an early relationship.',
-					'For a warm, clearly non-romantic alternative — telling a friend you value them without touching either "love" verb — Spanish speakers often reach for *me caes muy bien* ("I like you a lot," literally closer to "you strike me very well") instead.',
+					'The intensity gap between the two phrases holds everywhere Spanish is spoken, but which one gets used day-to-day varies by region. In Spain, *te quiero* is the phrase couples typically use even in long-term, committed relationships. *Te amo* can sound almost too formal or literary for everyday use there. In much of Latin America, both phrases are in active use, with *te amo* more reliably reserved for genuinely serious romantic love and *te quiero* covering everything from friendship to an early relationship.',
+					'For a warm, clearly non-romantic alternative (telling a friend you value them without touching either "love" verb), Spanish speakers often reach for *me caes muy bien* ("I like you a lot," literally closer to "you strike me very well") instead.',
 				],
 			},
 			{
 				heading: 'A third rung below both: "me gustas"',
 				body: [
-					'There\'s a lighter step below even *te quiero* for early romantic interest: *me gustas* ("I like you," in the sense of "I\'m into you," not the plain-liking sense of *me gusta* for a food or a movie). It signals attraction without committing to anything like love — closer to a crush confession than a relationship milestone, and often what gets said before either *te quiero* or *te amo* is on the table at all.',
+					'There\'s a lighter step below even *te quiero* for early romantic interest: *me gustas* ("I like you," in the sense of "I\'m into you," not the plain-liking sense of *me gusta* for a food or a movie). It signals attraction without committing to anything like love, closer to a crush confession than a relationship milestone. It\'s often what gets said before either *te quiero* or *te amo* is even on the table.',
 					'Put in order of escalating commitment, the three sit roughly as *me gustas* (attraction, no commitment implied) → *te quiero* (affection, appropriate for friends, family, and established but not necessarily deeply serious romance) → *te amo* (deep, committed romantic love). None of the three is interchangeable with either of the others.',
 				],
 			},
@@ -672,7 +672,7 @@ export const guides: Guide[] = [
 		faq: [
 			{
 				question: 'Can you say "te quiero" to a friend without it sounding romantic?',
-				answer: 'Yes — te quiero is routinely used between friends and family members with no romantic implication. Context (who you\'re talking to, the relationship) makes the meaning clear, the same way "I love you" can be platonic or romantic in English depending on who says it to whom.',
+				answer: 'Yes, te quiero is routinely used between friends and family members with no romantic implication. Context (who you\'re talking to, the relationship) makes the meaning clear, the same way "I love you" can be platonic or romantic in English depending on who says it to whom.',
 			},
 			{
 				question: 'Is "te amo" too intense for a new relationship?',
@@ -684,7 +684,7 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'Is there a way to express fondness for a friend without using "love" at all?',
-				answer: 'Yes — "me caes muy bien" ("I like you a lot") is a common, warm way to express platonic appreciation without touching querer or amar, useful when "I love you" would feel like too much even in its lighter, platonic English sense. For more everyday Spanish phrases with this kind of nuance, see [happy birthday](/happy-birthday-in-spanish/) and [good night](/good-night-in-spanish/) in Spanish.',
+				answer: 'Yes, "me caes muy bien" ("I like you a lot") is a common, warm way to express platonic appreciation without touching querer or amar, useful when "I love you" would feel like too much even in its lighter, platonic English sense. For more everyday Spanish phrases with this kind of nuance, see [happy birthday](/happy-birthday-in-spanish/) and [good night](/good-night-in-spanish/) in Spanish.',
 			},
 		],
 		sources: [
