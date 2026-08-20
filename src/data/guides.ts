@@ -4222,4 +4222,98 @@ export const guides: Guide[] = [
 			{ label: 'Académie française — Dictionnaire: "Les rectifications de l\'orthographe" (1990)', url: 'https://www.dictionnaire-academie.fr/annexes/rectifications-orthographe.html' },
 		],
 	},
+	{
+		slug: 'spanish-superlatives',
+		category: 'Grammar',
+		title: 'Spanish Superlatives: -ísimo, El Más, and the Forms Between Them',
+		description: 'Spanish has two unrelated things called "superlative," plus a rare Latin-inherited suffix and an RAE-recognized prefix strategy most learners never hear about.',
+		published: '2026-08-20',
+		updated: '2026-08-20',
+		coreSummary: 'Spanish keeps two grammatically separate constructions under the label "superlative": the relative superlative (el/la más + adjective + an optional de group) ranks one member against others, while the absolute superlative (usually the suffix -ísimo, occasionally the Latin-inherited -érrimo, or informally a prefix like re- or súper-) marks an extreme degree with no comparison group at all. Per the RAE, four adjectives (bueno, malo, grande, pequeño) build their relative superlative irregularly as mejor, peor, mayor, and menor rather than with más, and a small set of adjectives, mostly frozen in set phrases like enemigo acérrimo, still take the archaic -érrimo suffix inherited straight from Latin instead of the regular -ísimo.',
+		language: 'Spanish',
+		sections: [
+			{
+				heading: 'Two different things share the name "superlative"',
+				body: [
+					'English speakers usually meet "superlative" as one category: add -est or put "most" in front, done. Spanish grammar splits that single English idea into two constructions that don\'t work the same way and aren\'t interchangeable. The RAE\'s own glossary defines them separately: the superlativo relativo expresses a property held by one member of a group to a higher degree than the rest of that group, while the superlativo absoluto expresses the extreme degree of a quality without comparing it to anything.',
+					'Ana es la más alta de la clase ("Ana is the tallest in the class") is relative: there\'s a group (la clase) and Ana is being ranked against it. Ana es altísima ("Ana is extremely tall") is absolute: there\'s no group, no ranking, just a claim about how tall Ana is on her own. Swap them and the sentence still parses, but it stops meaning what you meant: la más alta without a group reads as incomplete, and altísima de la clase isn\'t how the absolute form is used at all. It\'s the same kind of collapse-in-English problem that makes [por and para](/por-vs-para/) hard to tell apart: one English word, two unrelated Spanish grammar rules underneath it.',
+				],
+				image: {
+					src: '/images/spanish-superlatives-diagram.svg',
+					alt: 'Two-column diagram comparing the relative superlative (el/la más + adjective + optional de-group, with the irregular mejor/peor/mayor/menor set) against the absolute superlative (adjective root plus ísimo, the rare érrimo suffix, or a colloquial re-/súper- prefix), each with a worked example.',
+				},
+			},
+			{
+				heading: 'The relative superlative: article + más/menos, group optional',
+				body: [
+					'The RAE\'s Nueva gramática básica breaks the relative superlative into three parts: the first term (the entity being described, Ana), the quantificative group (más or menos, or one of the irregular forms below), and a restrictive complement or "coda" that names the comparison group: de la clase, de mis amigos, del equipo. That third part is explicitly optional in the RAE\'s own account: la más alta is a complete, grammatical sentence even with the group left unstated if context already supplies it.',
+					'Word order is fixed: article, then más or menos, then the adjective, then the optional de-phrase. La más interesante película, with the adjective before the noun, isn\'t how this construction works. The article attaches to the noun the property belongs to, and the comparison sits after it: la película más interesante de la temporada.',
+				],
+			},
+			{
+				heading: 'The irregular relative superlatives: why "más bueno" is wrong',
+				body: [
+					'Four common adjectives don\'t take más or menos at all when they\'re used as a relative superlative (or a comparative). Bueno becomes mejor, malo becomes peor, grande becomes mayor, and pequeño becomes menor. Más bueno and más malo are the kind of error that marks a sentence as clearly non-native, not a minor stylistic slip.',
+					'Mayor and menor carry a wrinkle the -ísimo forms don\'t: in everyday use they lean toward age rather than physical size. Mi hermano mayor means "my older brother," and a Spanish speaker describing a bigger house will usually reach for una casa más grande rather than una casa mayor, even though mayor is available and grammatically fine for size too. The RAE itself doesn\'t restrict mayor/menor to age, but the age reading is the one that dominates in practice, which is why más grande and más pequeño survive in casual speech alongside mejor/peor even though the same "don\'t use más with these" logic would predict otherwise.',
+				],
+			},
+			{
+				heading: 'Forming -ísimo: the spelling changes exist to protect the sound',
+				body: [
+					'For most adjectives, forming the absolute superlative just means dropping the final vowel and adding -ísimo, -ísima, -ísimos, or -ísimas, with the accent on that í mandatory: alto becomes altísimo, lenta becomes lentísima. Adjectives already ending in a consonant like -l or -r just take the suffix directly (fácil becomes facilísimo, popular becomes popularísimo), per the RAE\'s own list in El buen uso del español. Like [demonstrative adjectives](/spanish-demonstrative-adjectives/), the resulting form still has to agree in gender and number with the noun it modifies: altísimo, altísima, altísimos, altísimas, not one fixed shape.',
+					'Several endings force a spelling change to keep the pronunciation intact rather than the grammar. A final -z becomes -c- before the suffix (feliz → felicísimo, RAE\'s own example), a final -co becomes -quísimo (rico → riquísimo) and a final -go becomes -guísimo (largo → larguísimo), both there so the hard c/g sound survives in front of í. Adjectives ending in -or or -n insert a -c- as well: mayor becomes mayorcísimo, and joven becomes jovencísimo. That means an already-irregular comparative like mayor can still take its own absolute superlative, a form most Spanish courses skip entirely.',
+					'The vowel-ending rules split by stress. Adjectives ending in the unstressed diphthong -io/-ia drop both vowels: sucio becomes sucísimo, amplia becomes amplísima. Adjectives ending in the stressed hiato -ío/-ía drop only the final vowel, keeping the accented í: frío becomes friísimo. The two look almost identical on the page (sucio vs. frío) but land on different suffix shapes because Spanish treats a diphthong and a hiatus as different vowel structures.',
+				],
+			},
+			{
+				heading: 'The Latin fossils: -érrimo, and why "acérrimo" doesn\'t mean "acre" anymore',
+				body: [
+					'A small closed set of adjectives keeps a superlative suffix inherited directly from Latin, -érrimo/-érrima, instead of the regular -ísimo. The RAE\'s Nueva gramática lists it alongside -ísimo as one of the two suffixes that mark "grado extremo," but the list of words that still use it is short and mostly frozen: pobre → paupérrimo, célebre → celebérrimo, íntegro → integérrimo, áspero → aspérrimo, and acre → acérrimo.',
+					'That last one survives almost entirely inside one fixed phrase: enemigo acérrimo, "bitter" or "sworn enemy." Acre on its own means acrid or bitter-tasting, but most speakers who say enemigo acérrimo aren\'t thinking about taste at all. The word has drifted into functioning as a pure intensifier bolted onto enemigo, detached from the adjective it technically superlatives. Spanish speakers use it fluently without necessarily being able to name the base adjective it comes from, which is a different kind of irregularity than mejor/peor: those are irregular but transparent, while -érrimo forms are irregular and largely opaque outside the handful of phrases that kept them alive.',
+				],
+			},
+			{
+				heading: 'A third option the RAE names but most courses skip: prefixes',
+				body: [
+					'The RAE\'s own account of the absolute superlative doesn\'t stop at suffixes. Its glossary on grado superlativo explicitly lists prefixation as a third way to build one, giving reguapo, superatractivo, and hipercalórico as examples alongside altísimo: re-, super-, mega-, and hiper- attached directly to the adjective, no suffix needed.',
+					'That prefix strategy isn\'t evenly distributed across the Spanish-speaking world. A 2019 study of intensifiers in Buenos Aires and Tucumán, Argentina describes re- as occupying a specialized, highly productive slot in Rioplatense Spanish specifically, well beyond its more occasional use elsewhere: relindo, rebueno, and recaro are ordinary spoken Spanish in Argentina and Uruguay in contexts where riquísimo or buenísimo would sound equally natural but noticeably more formal. The prefix chain can also stack for extra emphasis in casual speech: recontra- and requete- both function as intensified versions of re- itself. None of this shows up in writing the way -ísimo does. Re- and its relatives stay almost entirely spoken and informal, while -ísimo works comfortably in both registers.',
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'What\'s the actual difference between "la más alta" and "altísima"?',
+				answer: 'La más alta is a relative superlative: it ranks one person or thing against a group, stated or implied (la más alta de la clase, "the tallest in the class"). Altísima is an absolute superlative: it states an extreme degree of height with no group being compared at all. A sentence can use either, but they answer different questions: relative answers "highest compared to what," absolute answers "how extreme."',
+			},
+			{
+				question: 'Why can\'t I say "más bueno" or "más malo"?',
+				answer: 'Bueno and malo don\'t form their comparative or relative superlative with más at all: they have dedicated irregular forms, mejor and peor, the same way English uses "better/best" instead of "more good." Más bueno and más malo are understood but read as a clear non-native error, not a stylistic choice.',
+			},
+			{
+				question: 'Is "mayor" just a fancier way to say "más grande"?',
+				answer: 'They overlap grammatically but not in everyday use. Mayor is the irregular relative superlative/comparative of grande and is grammatically valid for physical size, but in practice it\'s used mainly for age: mi hermano mayor, "my older brother." For physical size, Spanish speakers default to más grande far more often than mayor, even though the "no más with irregular forms" rule would predict otherwise.',
+			},
+			{
+				question: 'What does "enemigo acérrimo" mean, and why doesn\'t it use "-ísimo"?',
+				answer: 'Acérrimo is the Latin-inherited superlative of acre ("acrid" or "bitter"), formed with the archaic suffix -érrimo instead of the regular -ísimo. It survives almost entirely in the fixed phrase enemigo acérrimo, "bitter enemy" or "sworn enemy," where most speakers use it as a pure intensifier without consciously connecting it back to acre at all.',
+			},
+			{
+				question: 'Is "recontra-" a real intensifier, or just slang?',
+				answer: 'It\'s real, spoken, informal Spanish, not a written-register form. Re- itself is one of the prefixes the RAE\'s own glossary lists as a legitimate way to build an absolute superlative (alongside super- and hiper-), and it\'s especially productive in Rioplatense Spanish (Argentina and Uruguay), where recontra- and requete- function as stacked, more intense versions of the same re- prefix in casual conversation.',
+			},
+			{
+				question: 'Do you always need "de" after "el más + adjective"?',
+				answer: 'No. Per the RAE\'s own grammar, the de-phrase naming the comparison group (de la clase, de mis amigos) is a restrictive complement that\'s explicitly optional: la más alta is a complete relative superlative on its own when the group is already clear from context.',
+			},
+		],
+		sources: [
+			{ label: 'RAE — Glosario de términos gramaticales: "superlativo absoluto, superlativo morfológico, superlativo relativo"', url: 'https://www.rae.es/gtg/superlativo-absoluto-superlativo-morfol%C3%B3gico-superlativo-relativo' },
+			{ label: 'RAE — Glosario de términos gramaticales: "grado superlativo"', url: 'https://www.rae.es/gtg/grado-superlativo' },
+			{ label: 'RAE — Nueva gramática básica de la lengua española: "27.4.1 El superlativo absoluto"', url: 'https://www.rae.es/gram%C3%A1tica-b%C3%A1sica/construcciones-comparativas-superlativas-y-consecutivas/las-construcciones-superlativas/el-superlativo-absoluto' },
+			{ label: 'RAE — Nueva gramática básica de la lengua española: "27.4.2 El superlativo relativo"', url: 'https://www.rae.es/gram%C3%A1tica-b%C3%A1sica/construcciones-comparativas-superlativas-y-consecutivas/las-construcciones-superlativas/el-superlativo-relativo' },
+			{ label: 'RAE — El buen uso del español: "Formas del superlativo absoluto (I). El sufijo -ísimo/-ísima"', url: 'https://www.rae.es/buen-uso-espa%C3%B1ol/formas-del-superlativo-absoluto-i-el-sufijo-%C3%ADsimo%C3%ADsima' },
+			{ label: 'RAE — Nueva gramática de la lengua española: "Sufijos característicos de los adjetivos calificativos (II): -ísimo/-ísima, -érrimo/-érrima"', url: 'https://www.rae.es/gram%C3%A1tica/morfolog%C3%ADa/sufijos-caracter%C3%ADsticos-de-los-adjetivos-calificativos-ii-los-sufijos-de-grado-extremo-%C3%ADsimo%C3%ADsima-%C3%A9rrimo%C3%A9rrima' },
+			{ label: 'ResearchGate — "Proposing a tripartite intensifier system: re, muy, and bien in Buenos Aires and Tucumán, Argentina" (2019)', url: 'https://www.researchgate.net/publication/334272425_Proposing_a_tripartite_intensifier_system_re_muy_and_bien_in_Buenos_Aires_and_Tucuman_Argentina' },
+		],
+	},
 ];

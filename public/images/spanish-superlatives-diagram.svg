@@ -1,0 +1,61 @@
+<svg viewBox="0 0 760 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+	<title id="title">Two kinds of Spanish superlative</title>
+	<desc id="desc">Relative superlative uses el/la/los/las plus más or menos plus adjective, optionally followed by de and a comparison group, as in Ana es la más alta de la clase. Absolute superlative uses a suffix or prefix with no comparison group, as in Ana es altísima.</desc>
+	<defs>
+		<style>
+			.card { fill: #ffffff; stroke: #d8dee9; stroke-width: 1.5; rx: 12; }
+			.hdr-rel { fill: #2b6cb0; }
+			.hdr-abs { fill: #b7472a; }
+			.hdr-text { fill: #ffffff; font: 700 18px system-ui, sans-serif; }
+			.label { fill: #1a202c; font: 600 15px system-ui, sans-serif; }
+			.mono { fill: #2d3748; font: 14px ui-monospace, monospace; }
+			.example { fill: #4a5568; font: italic 14px system-ui, sans-serif; }
+			.arrow { stroke: #a0aec0; stroke-width: 2; fill: none; marker-end: url(#arrowhead); }
+		</style>
+		<marker id="arrowhead" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+			<path d="M0,0 L8,4 L0,8 Z" fill="#a0aec0" />
+		</marker>
+	</defs>
+
+	<rect x="0" y="0" width="760" height="420" fill="#f7fafc" />
+
+	<!-- Relative superlative card -->
+	<rect class="card" x="20" y="20" width="340" height="380" />
+	<rect class="hdr-rel" x="20" y="20" width="340" height="44" rx="12" />
+	<rect class="hdr-rel" x="20" y="52" width="340" height="12" />
+	<text class="hdr-text" x="40" y="48">Relative superlative</text>
+
+	<text class="label" x="40" y="100">Needs a comparison group</text>
+	<text class="mono" x="40" y="130">el / la / los / las</text>
+	<text class="mono" x="40" y="152">+ más / menos + adjective</text>
+	<text class="mono" x="40" y="174">(+ de + group, optional)</text>
+
+	<line class="arrow" x1="60" y1="190" x2="60" y2="215" />
+	<text class="example" x="40" y="240">Ana es la más alta</text>
+	<text class="example" x="40" y="260">de la clase.</text>
+	<text class="label" x="40" y="295">"Ana is the tallest</text>
+	<text class="label" x="40" y="315">in the class."</text>
+	<text class="mono" x="40" y="355">Irregular set:</text>
+	<text class="mono" x="40" y="377">bueno→mejor  malo→peor</text>
+	<text class="mono" x="40" y="397">grande→mayor  pequeño→menor</text>
+
+	<!-- Absolute superlative card -->
+	<rect class="card" x="400" y="20" width="340" height="380" />
+	<rect class="hdr-abs" x="400" y="20" width="340" height="44" rx="12" />
+	<rect class="hdr-abs" x="400" y="52" width="340" height="12" />
+	<text class="hdr-text" x="420" y="48">Absolute superlative</text>
+
+	<text class="label" x="420" y="100">No comparison group at all</text>
+	<text class="mono" x="420" y="130">adjective root + ísimo</text>
+	<text class="mono" x="420" y="152">(rare: root + érrimo)</text>
+	<text class="mono" x="420" y="174">(colloquial: re-/súper- + adj.)</text>
+
+	<line class="arrow" x1="440" y1="190" x2="440" y2="215" />
+	<text class="example" x="420" y="240">Ana es altísima.</text>
+	<text class="label" x="420" y="270">"Ana is extremely tall" —</text>
+	<text class="label" x="420" y="290">no one else is being compared.</text>
+	<text class="mono" x="420" y="330">Spelling shifts: rico→riquísimo</text>
+	<text class="mono" x="420" y="350">largo→larguísimo  feliz→felicísimo</text>
+	<text class="mono" x="420" y="370">joven→jovencísimo  sucio→sucísimo</text>
+	<text class="mono" x="420" y="390">frío→friísimo</text>
+</svg>
