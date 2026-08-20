@@ -197,5 +197,19 @@
     ],
     "already_indexed_no_action": [],
     "quota_used": "1 of shared account-wide daily quota"
+  },
+  {
+    "date": "2026-08-20",
+    "action": "skipped_no_quota_used",
+    "reason": "无今日新发布。优先级队列前5候选habibi-meaning/inshallah-meaning/schadenfreude-meaning/german-genitive/german-cases经URL Inspection逐一核实均已收录（URL is on Google）。改查Pages报告确认discovered-currently-not-indexed=0、crawled-currently-not-indexed=0（仅1个网站自身redirect问题，非索引问题）。判定该站接近满收录，无未提交过的真实候选，跳过本轮不消耗配额，游标继续前进至WageLark。",
+    "submitted_urls": [],
+    "already_indexed_no_action": [
+      "https://lingogrove.com/habibi-meaning/",
+      "https://lingogrove.com/inshallah-meaning/",
+      "https://lingogrove.com/schadenfreude-meaning/",
+      "https://lingogrove.com/german-genitive/",
+      "https://lingogrove.com/german-cases/"
+    ],
+    "quota_used": "0 of shared account-wide daily quota"
   }
 ]
