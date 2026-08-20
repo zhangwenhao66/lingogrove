@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 860" font-family="system-ui, -apple-system, sans-serif">
+	<rect width="800" height="860" fill="#f6f4e9"/>
+	<rect x="24" y="24" width="752" height="812" rx="10" fill="#fffefa" stroke="#ddd8c4"/>
+
+	<rect x="24" y="24" width="752" height="56" rx="10" fill="#2f6b47"/>
+	<rect x="24" y="60" width="752" height="20" fill="#2f6b47"/>
+	<text x="400" y="60" text-anchor="middle" fill="#ffffff" font-size="17" font-weight="700">FOUR TYPES OF VERBES PRONOMINAUX, PER LAROUSSE</text>
+
+	<!-- row 1: 4 types -->
+	<rect x="46" y="102" width="345" height="130" rx="8" fill="#eaf1ea" stroke="#2f6b47"/>
+	<text x="218" y="126" text-anchor="middle" fill="#2f6b47" font-size="13" font-weight="700">ESSENTIELLEMENT PRONOMINAL</text>
+	<text x="218" y="150" text-anchor="middle" fill="#201f1a" font-size="13">s&#8217;&#233;vanouir &#183; se souvenir &#183; s&#8217;enfuir</text>
+	<text x="218" y="172" text-anchor="middle" fill="#5a5648" font-size="11" font-style="italic">no verb exists without &#171;se&#187; &#8212;</text>
+	<text x="218" y="190" text-anchor="middle" fill="#5a5648" font-size="11" font-style="italic">&#171;&#233;vanouir&#187; alone isn&#8217;t a word</text>
+	<text x="218" y="212" text-anchor="middle" fill="#8a8570" font-size="10">participle always agrees with subject</text>
+
+	<rect x="409" y="102" width="345" height="130" rx="8" fill="#eaf1ea" stroke="#2f6b47"/>
+	<text x="581" y="126" text-anchor="middle" fill="#2f6b47" font-size="13" font-weight="700">R&#201;FL&#201;CHI (REFLEXIVE)</text>
+	<text x="581" y="150" text-anchor="middle" fill="#201f1a" font-size="13">Paul se lave &#8212; Paul washes himself</text>
+	<text x="581" y="172" text-anchor="middle" fill="#5a5648" font-size="11" font-style="italic">subject and object are</text>
+	<text x="581" y="190" text-anchor="middle" fill="#5a5648" font-size="11" font-style="italic">the same person</text>
+	<text x="581" y="212" text-anchor="middle" fill="#8a8570" font-size="10">agreement depends on &#171;se&#187;&#8217;s role</text>
+
+	<rect x="46" y="248" width="345" height="130" rx="8" fill="#eaf1ea" stroke="#2f6b47"/>
+	<text x="218" y="272" text-anchor="middle" fill="#2f6b47" font-size="13" font-weight="700">R&#201;CIPROQUE (RECIPROCAL)</text>
+	<text x="218" y="296" text-anchor="middle" fill="#201f1a" font-size="13">Paul et Jean s&#8217;&#233;crivent</text>
+	<text x="218" y="316" text-anchor="middle" fill="#5a5648" font-size="11" font-style="italic">Paul and Jean write to</text>
+	<text x="218" y="334" text-anchor="middle" fill="#5a5648" font-size="11" font-style="italic">each other, not to themselves</text>
+	<text x="218" y="356" text-anchor="middle" fill="#8a8570" font-size="10">agreement depends on &#171;se&#187;&#8217;s role</text>
+
+	<rect x="409" y="248" width="345" height="130" rx="8" fill="#eaf1ea" stroke="#2f6b47"/>
+	<text x="581" y="272" text-anchor="middle" fill="#2f6b47" font-size="13" font-weight="700">SENS PASSIF (PASSIVE SENSE)</text>
+	<text x="581" y="296" text-anchor="middle" fill="#201f1a" font-size="13">Ce bois se travaille bien</text>
+	<text x="581" y="316" text-anchor="middle" fill="#5a5648" font-size="11" font-style="italic">this wood works well &#8212;</text>
+	<text x="581" y="334" text-anchor="middle" fill="#5a5648" font-size="11" font-style="italic">no person is doing the acting</text>
+	<text x="581" y="356" text-anchor="middle" fill="#8a8570" font-size="10">participle always agrees with subject</text>
+
+	<!-- auxiliary banner -->
+	<rect x="46" y="398" width="708" height="70" rx="8" fill="#fdf3e3" stroke="#5a4a2f"/>
+	<text x="400" y="424" text-anchor="middle" fill="#5a4a2f" font-size="13" font-weight="700">ALL FOUR TYPES TAKE &#202;TRE IN COMPOUND TENSES &#8212; NEVER AVOIR</text>
+	<text x="400" y="448" text-anchor="middle" fill="#201f1a" font-size="12">Je me suis r&#233;joui &#183; Il s&#8217;&#233;tait bless&#233; &#183; Elles se seront enfuies</text>
+
+	<!-- row 3 header -->
+	<rect x="24" y="490" width="752" height="46" fill="#2f6b47"/>
+	<text x="400" y="519" text-anchor="middle" fill="#ffffff" font-size="15" font-weight="700">PAST PARTICIPLE AGREEMENT: DEPENDS ON WHAT &#171;SE&#187; IS DOING</text>
+
+	<!-- agreement examples -->
+	<rect x="46" y="552" width="708" height="86" rx="8" fill="#eaf1ea" stroke="#2f6b47"/>
+	<text x="66" y="578" fill="#2f6b47" font-size="13" font-weight="700">Elle s&#8217;est lav&#233;e.</text>
+	<text x="66" y="600" fill="#201f1a" font-size="12">&#171;se&#187; is the direct object, placed before the verb &#8594; participle agrees with the subject.</text>
+	<text x="66" y="620" fill="#5a5648" font-size="11" font-style="italic">She washed herself. (Elle a lav&#233; qui? Elle-m&#234;me.)</text>
+
+	<rect x="46" y="650" width="708" height="86" rx="8" fill="#fdf3e3" stroke="#5a4a2f"/>
+	<text x="66" y="676" fill="#5a4a2f" font-size="13" font-weight="700">Elle s&#8217;est lav&#233; les mains.</text>
+	<text x="66" y="698" fill="#201f1a" font-size="12">the direct object (les mains) comes after the verb instead of &#171;se&#187; &#8594; participle stays invariable.</text>
+	<text x="66" y="718" fill="#5a5648" font-size="11" font-style="italic">She washed her hands. (Elle a lav&#233; quoi? Les mains.)</text>
+
+	<rect x="46" y="748" width="708" height="86" rx="8" fill="#fdf3e3" stroke="#5a4a2f"/>
+	<text x="66" y="774" fill="#5a4a2f" font-size="13" font-weight="700">Elles se sont parl&#233;.</text>
+	<text x="66" y="796" fill="#201f1a" font-size="12">&#171;se&#187; is only an indirect object (parler &#224; quelqu&#8217;un) &#8594; participle stays invariable.</text>
+	<text x="66" y="816" fill="#5a5648" font-size="11" font-style="italic">They spoke to each other. &#171;se&#187; is COI, not COD, so no agreement.</text>
+</svg>

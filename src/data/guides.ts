@@ -4048,4 +4048,98 @@ export const guides: Guide[] = [
 			{ label: 'Real Academia Española — Libro de estilo de la lengua española: "Conjunciones"', url: 'https://www.rae.es/libro-estilo-lengua-espa%C3%B1ola/conjunciones' },
 		],
 	},
+	{
+		slug: 'french-reflexive-verbs',
+		category: 'Grammar',
+		title: 'French Reflexive Verbs: Why "Lavée" Loses Its -e in "Lavé Les Mains"',
+		description: 'Reflexive verbs always take être, not avoir. But the past participle only sometimes agrees with the subject, depending on what "se" is doing grammatically.',
+		published: '2026-08-20',
+		updated: '2026-08-20',
+		coreSummary: 'Per Larousse, French recognizes four types of pronominal verb: essentiellement pronominal verbs like s\'évanouir and se souvenir that have no non-pronominal form at all, réfléchi verbs like se laver where the subject acts on itself, réciproque verbs like s\'écrire where two or more subjects act on each other, and verbs with a passive sense like ce bois se travaille bien. Per the OQLF, every one of these takes être, never avoir, in compound tenses. Past participle agreement isn\'t automatic, though: essentiellement pronominal and passive-sense verbs always agree with the subject, but réfléchi and réciproque verbs only agree when the reflexive pronoun itself functions as the direct object placed before the verb. Elle s\'est lavée agrees; elle s\'est lavé les mains doesn\'t, because the direct object (les mains) comes after the verb instead; and elles se sont parlé doesn\'t either, because "se" is only an indirect object there.',
+		language: 'French',
+		sections: [
+			{
+				heading: 'Se + verb: what Larousse means by "pronominal"',
+				body: [
+					'Per Larousse\'s own encyclopedia entry, a verbe pronominal is one "qui se conjugue avec un pronom personnel réfléchi de la même personne que le sujet": a verb conjugated with a reflexive personal pronoun matching the subject\'s person. The pronoun set is small and reused across every pronominal verb in French: me, te, se, nous, vous, se. Four of those six forms, me, te, nous, and vous, double as the ordinary [direct- and indirect-object pronouns](/french-pronouns/) used everywhere else in French; only se is unique to the pronominal form, since it covers every third-person subject regardless of gender or number. The OQLF illustrates the pattern with Je me réjouis de cette bonne nouvelle, Nous nous excusons pour ce retard, and Dimitri et Julie se marient.',
+					'Larousse then splits pronominal verbs into four distinct types. Essentiellement pronominal verbs, like s\'évanouir ("to faint") and se repentir ("to repent"), are lexicalized only in the pronominal form and have no ordinary verb sitting underneath them. Réfléchi verbs, the textbook case, have the subject acting on itself: Paul se lave, "Paul washes himself." Réciproque verbs have two or more subjects acting on each other instead: Paul et Jean s\'écrivent, "Paul and Jean write to each other." And pronominal verbs with a sens passif drop the acting subject from the sentence entirely: Ce bois se travaille bien, "this wood works well," where nobody is doing any working to the wood; the sentence just states a property of the wood itself.',
+				],
+			},
+			{
+				heading: 'Réfléchi vs. réciproque: the same form, two different meanings',
+				body: [
+					'A plural subject doesn\'t automatically make a pronominal verb reciprocal. Per the OQLF\'s own entry on verbes pronominaux de sens réciproque, Mes deux frères ne se rasent jamais la fin de semaine ("my two brothers never shave on the weekend") is réfléchi despite its plural subject, because chacun des sujets agit sur lui-même et non sur l\'autre: each brother shaves himself, not his brother. Paul et France s\'observent sans dire un mot ("Paul and France watch each other without saying a word") is réciproque instead, because Paul observe France et France observe Paul.',
+					'When a sentence is ambiguous between the two readings, or a writer wants to remove any doubt, French can spell out the mutual reading explicitly. The OQLF gives Hélène et Martine s\'aident mutuellement dans leur travail ("Hélène and Martine help each other in their work") as its own example: adding mutuellement, l\'un l\'autre, or réciproquement locks in the reciprocal reading the way eux-mêmes or elles-mêmes would lock in a reflexive one.',
+				],
+			},
+			{
+				heading: 'Common réfléchi verbs for daily routines',
+				body: [
+					'The réfléchi type clusters heavily around routines performed on one\'s own body, which is why so many French courses open with a morning-routine list: se lever ("to get up"), se laver ("to wash oneself"), se doucher ("to shower"), s\'habiller ("to get dressed"), se raser ("to shave"), se maquiller ("to put on makeup"), se brosser les dents ("to brush one\'s teeth"), se coucher ("to go to bed"). Je me lève, je me douche, je m\'habille et je me brosse les dents avant de partir ("I get up, shower, get dressed, and brush my teeth before leaving") strings several of them together the way they actually get used.',
+					'Every "me" in that sentence stands for "myself," which is the test that separates a true réfléchi verb from the essentiellement pronominal verbs covered next: swap in the English reflexive pronoun, and if the sentence still means the same thing, it\'s réfléchi.',
+				],
+			},
+			{
+				heading: 'Essentiellement pronominal: verbs that don\'t exist without "se"',
+				body: [
+					'Per the OQLF\'s entry on verbes essentiellement pronominaux, this type "ne peut être employé qu\'à la forme pronominale," meaning the bare verb, stripped of se, simply doesn\'t exist as a word. The OQLF\'s own examples make the point directly: se méfier ("le verbe méfier n\'existe pas"), s\'enquérir ("le verbe enquérir n\'existe pas"), se souvenir ("le verbe souvenir n\'existe pas"), and s\'enfuir ("le verbe enfuir n\'existe pas"). In each case, the pronoun ne représente rien dans la phrase: it isn\'t standing in for the subject, an object, or anyone else, so it has no syntactic function to analyze at all.',
+					'That\'s a different failure mode than an ordinary réfléchi or réciproque verb simply not being used pronominally in a given sentence. Reconnaître works fine on its own (Elle a reconnu son erreur, "she recognized her mistake"), so Maya et Édouard se sont reconnus is an ordinary réciproque use with a working non-pronominal counterpart sitting right behind it. Évanouir has no such counterpart; s\'évanouir is the only form the verb has ever had.',
+				],
+			},
+			{
+				heading: 'Sens passif: when nobody is doing the acting',
+				body: [
+					'This fourth Larousse type tends to get the lightest treatment in language-learning material, likely because it has no reflexive-pronoun choice to drill and no participle-agreement puzzle attached to it: it always agrees with the subject, the same as an essentiellement pronominal verb. But sens passif constructions show up constantly in everyday descriptions of a general property, not just in the ce bois se travaille bien example above: ça se mange froid ("it\'s eaten cold"), ce livre se lit facilement ("this book reads easily"), ce vin se boit frais ("this wine is drunk chilled"). Each one states something the subject generally allows or invites, with the agent left unnamed.',
+				],
+			},
+			{
+				heading: 'The real trap: être in compound tenses, never avoir',
+				body: [
+					'Per the OQLF\'s entry on l\'emploi de la forme pronominale, "le verbe pronominal conjugué à un temps composé se construit toujours avec l\'auxiliaire être": a pronominal verb in a compound tense always takes être, with no exceptions across any of the four types above. The OQLF\'s own examples span all four: Je me suis réjoui de cette bonne nouvelle (réfléchi), Il s\'était blessé en taillant ses rosiers (réfléchi), Dimitri et Julie se seraient mariés (réciproque), Elles se seront enfuies (essentiellement pronominal).',
+					'That\'s a structural break from the rest of French verb conjugation, where avoir is the default auxiliary and être is reserved for a short, memorized list of motion and state verbs (aller, venir, naître, mourir, and the rest of the so-called "maison d\'être" set). Every pronominal verb sits outside that memorized list entirely; the pronominal form itself is what decides the auxiliary, regardless of which of the four types the verb belongs to or what auxiliary the same verb would take in its non-pronominal use.',
+				],
+			},
+			{
+				heading: 'Past participle agreement: it depends on what "se" is doing, not just who the subject is',
+				body: [
+					'Essentiellement pronominal and sens passif verbs skip any real analysis: their participle always agrees in gender and number with the subject, no exceptions. Rachel s\'est évanouie à cause de la chaleur agrees because évanouir has no other possible construction to check against.',
+					'Réfléchi and réciproque verbs are different, and this is where most of the real difficulty sits. Per the OQLF\'s entry on verbes occasionnellement pronominaux, the rule is the same one that governs any participle used with avoir: agreement follows the direct object, and only when that direct object comes before the verb. Elle s\'est lavée agrees, because se is itself the direct object (elle a lavé qui? elle-même) and it sits before the verb. Elle s\'est lavé les mains doesn\'t agree, because the direct object shifts to les mains (elle a lavé quoi? les mains), which follows the verb instead of se; the OQLF lists Ils se sont acheté une nouvelle voiture and Rachel s\'est préparé une bonne tasse de thé as the same pattern.',
+					'A third outcome shows up whenever se isn\'t a direct object at all. Marie et Ludvick se sont téléphoné tous les jours stays invariable, per the OQLF\'s réciproque entry, because téléphoner takes à (Marie téléphone à qui? À Ludvick), which makes se an indirect object rather than a direct one; the occasionnellement pronominal entry gives the identical pattern for Elles se sont parlé, since parler works the same way. Three sentences, three different outcomes, and none of them can be predicted just by looking at the subject.',
+				],
+				image: {
+					src: '/images/french-reflexive-verbs-diagram.svg',
+					alt: 'Diagram showing Larousse\'s four types of French pronominal verb (essentiellement pronominal, réfléchi, réciproque, sens passif), the rule that all four always take être rather than avoir in compound tenses, and three past-participle agreement outcomes: elle s\'est lavée agreeing because se is a direct object before the verb, elle s\'est lavé les mains staying invariable because the direct object follows the verb instead, and elles se sont parlé staying invariable because se is only an indirect object.',
+				},
+			},
+		],
+		faq: [
+			{
+				question: 'Why does "elle s\'est lavée" have an -e but "elle s\'est lavé les mains" doesn\'t?',
+				answer: 'The participle agrees with the direct object, and only when that direct object comes before the verb. In elle s\'est lavée, se is itself the direct object (she washed who? herself) and it sits before the verb, so the participle agrees. In elle s\'est lavé les mains, the direct object is les mains (she washed what? her hands), which follows the verb instead of se, so the participle stays invariable. The OQLF documents this as the same rule that governs any participle used with avoir; the pronominal form doesn\'t get a separate rule.',
+			},
+			{
+				question: 'What makes a verb "essentiellement pronominal" in French?',
+				answer: 'A verb where the bare, non-pronominal form doesn\'t exist as a word at all. Per the OQLF, méfier, enquérir, souvenir, and enfuir aren\'t French verbs on their own; only se méfier, s\'enquérir, se souvenir, and s\'enfuir exist. Because the pronoun in these verbs doesn\'t represent the subject, an object, or anyone else, it has no direct- or indirect-object role to analyze, and the past participle simply agrees with the subject every time, with no exceptions.',
+			},
+			{
+				question: 'Do all French pronominal verbs use être in the passé composé?',
+				answer: 'Yes, without exception, across all four types Larousse identifies. Per the OQLF, "le verbe pronominal conjugué à un temps composé se construit toujours avec l\'auxiliaire être." That holds for réfléchi verbs (je me suis réjoui), réciproque verbs (ils se seraient mariés), essentiellement pronominal verbs (elles se seront enfuies), and sens passif verbs alike. Ordinary French verbs mostly default to avoir, with être reserved for a short memorized list of motion and state verbs, but the pronominal form itself overrides that default entirely.',
+			},
+			{
+				question: 'How do you tell a reflexive verb from a reciprocal one when the subject is plural?',
+				answer: 'A plural subject alone doesn\'t decide it. Per the OQLF, mes deux frères ne se rasent jamais la fin de semaine is réfléchi even with a plural subject, because each brother shaves himself rather than the other; Paul et France s\'observent is réciproque, because each one is acting on the other. When a sentence could go either way, French can spell out the mutual reading with mutuellement, réciproquement, or l\'un l\'autre, the way English might add "each other" for the same reason.',
+			},
+			{
+				question: 'Does negating a French pronominal verb work any differently?',
+				answer: 'No. The reflexive pronoun stays attached to the conjugated verb the same way any object pronoun does, and ne...pas simply sandwiches the pair, following the same [word order rules](/french-negation/) that apply to every other negated verb: elle ne se lave pas, ils ne se sont pas téléphoné. The pronoun never moves outside the ne...pas frame the way it would for an affirmative command.',
+			},
+		],
+		sources: [
+			{ label: 'Larousse — Encyclopédie: "verbe pronominal"', url: 'https://www.larousse.fr/encyclopedie/divers/verbe_pronominal/83559' },
+			{ label: 'Office québécois de la langue française — Vitrine linguistique: "Emploi de la forme pronominale"', url: 'https://vitrinelinguistique.oqlf.gouv.qc.ca/22939/la-grammaire/le-verbe/verbes-pronominaux/emploi-de-la-forme-pronominale' },
+			{ label: 'Office québécois de la langue française — Vitrine linguistique: "Accord du participe passé des verbes essentiellement pronominaux"', url: 'https://vitrinelinguistique.oqlf.gouv.qc.ca/22940/la-grammaire/le-verbe/accord-du-participe-passe/avec-lauxiliaire-etre/accord-du-participe-passe-des-verbes-essentiellement-pronominaux' },
+			{ label: 'Office québécois de la langue française — Vitrine linguistique: "Accord du participe passé des verbes occasionnellement pronominaux"', url: 'https://vitrinelinguistique.oqlf.gouv.qc.ca/22942/la-grammaire/le-verbe/accord-du-participe-passe/avec-lauxiliaire-etre/accord-du-participe-passe-des-verbes-occasionnellement-pronominaux' },
+			{ label: 'Office québécois de la langue française — Vitrine linguistique: "Verbe pronominal de sens réciproque"', url: 'https://vitrinelinguistique.oqlf.gouv.qc.ca/22955/la-grammaire/le-verbe/verbes-pronominaux/verbe-pronominal-de-sens-reciproque' },
+		],
+	},
 ];
