@@ -399,4 +399,42 @@ Owen
 
 **独立复核**：判定 "CAN SEND"（六项检查——查重/断链真实性/收件人合法性/主题匹配/语气/去AI味——均通过）。
 
+---
+
+## 2026-08-20 · guest-post-outreach 定时任务 · Arabic for Nerds（新赛道：Arabic语言学/词典类博客，待Owen决定投递方式）
+
+**渠道核实**：`arabic-for-nerds.com` 被Cloudflare挡curl（403），改用`r.jina.ai`只读代理抓正文（非WebFetch，符合环境规则）。确认：
+- 真实、活跃：2026年内有多篇发布，含7/8、7/31的原创语言学分析文章，创始人Gerald Drißner是奥地利记者/阿拉伯语语法书作者，有真实About页、LinkedIn公司页、contributors页
+- Guest post渠道真实存在且近期在用：`/category/guest-articles/` 下能搜到2026年4月、6月发布的真实客座文章（"Al-Mu'jam Al-Kabeer"、"Emphatic Consonants"），不是一个摆设的guidelines页
+- 指南原文（`guest-article-guidelines/`）：主题为Arabic语言/文化/伊斯兰相关，>800词，排除PR agency/公司，不卖DoFollow链接，允许非广告性质的作者博客/社交链接
+- **投递方式是网页表单，不是邮箱**：`/submit-news/`，两步表单（Step 1: 消息+姓名，Step 2推测为邮箱），没有可直接email的地址
+- 主题匹配：站点内容偏语言学分析深度（词根构词、方言、古兰经语法），比LingoGrove的habibi/inshallah/mashallah系列"词义是什么"框架更学术化，选了一个能对上双方深度的角度：inshallah如何通过安达卢斯阿拉伯语演变成西班牙语ojalá，串联本站已发布的`inshallah-meaning`页面里已核实的真实内容（RAE语法规则、Wiktionary词源）
+
+**因表单无法通过`gmail_send.py`发送**，本轮只完成撰写+两道去AI味检查，未提交表单。留给下一轮或Owen决定是否要走网页表单投递（需要真人访问`https://arabic-for-nerds.com/submit-news/`填两步表单，不在当前自动化范围内）。
+
+### 投递内容（已过 humanizer + avoid-ai-writing；供人工填入 https://arabic-for-nerds.com/submit-news/ 的 YOUR MESSAGE 字段，Step 2大概率还要填邮箱，用 contact@lingogrove.com）
+
+主题/角度：How inshallah gave Spanish its ojalá
+
+Hi Gerald,
+
+I run LingoGrove (lingogrove.com). It's a reference site for English speakers working through loanwords, translation choices, and grammar points that don't map cleanly between languages.
+
+I'd like to pitch a guest piece for Arabic for Nerds: how إن شاء الله produced Spanish ojalá and Portuguese oxalá.
+
+Ojalá isn't a direct copy of inshallah. Wiktionary traces it to a related Andalusi Arabic phrase, law shāʾa llāh or wa shāʾa llāh ("if/and God would will it"), built on the same verb shāʾa and the same word Allāh but a different conditional particle. It still does grammatical work in modern Spanish: the Real Academia Española lists ojalá as one of the fixed triggers that force the subjunctive mood, with or without que (Ojalá todo salga bien, not the indicative sale). I'd trace that chain from the Qur'anic construction in Surah Al-Kahf, through Andalusi Arabic contact on the Iberian Peninsula, to the modern Spanish grammar rule.
+
+I worked out the Arabic side of this while researching my own site's inshallah piece (https://lingogrove.com/inshallah-meaning/), which I'd link back to as a source. The Arabic for Nerds piece would be a fresh, longer article built around the Andalusi transmission and the RAE grammar rule, not a rehash of the "what does this phrase mean" framing my own site uses.
+
+Let me know if this angle works, or if a different focus would fit better.
+
+Best,
+Owen Zhang
+LingoGrove, lingogrove.com
+contact@lingogrove.com
+
+**去AI味检查**：无em/en dash，无弯引号，无"delve/leverage/robust"类AI高频词，无排比三连（"loanwords, translation choices, and grammar points"是沿用2026-08-04已发送并批准的Glossika邮件里的固定表述，非新造），签名格式与本站此前所有已发送邮件一致。
+
+**待处理**：这条不是常规邮件渠道，需要人工决定是否要专门跑一次浏览器交互去填两步表单提交（当前自动化脚本只支持email发送）。已记录到`guest-post-outreach.json`，标记为"pitch drafted, channel requires manual form submission"。
+
 **状态**：✅ **已发送**（2026-08-16）。`gmail_send.py --from lingogrove`，收件人 `beckj@wabash.edu`，Message ID `1a00945a1beab9a7`。
