@@ -246,5 +246,10 @@
   "https://lingogrove.com/french-reflexive-verbs/": {
     "submitted_date": "2026-08-20",
     "verified_status": "pending"
+  },
+  "https://lingogrove.com/french-past-participle/": {
+    "submitted_date": "2026-08-20",
+    "verified_status": "pending",
+    "note": "new publish (Grammar tier, 12th run of day: OQLF's two-ending regular/irregular classification (-er and -issant -ir only; every -re/-oir verb technically irregular, contradicting the common three-group textbook model), devoir/pouvoir/savoir/vouloir irregular set, avoir agreement's direct-object-must-precede rule with OQLF's own worked examples, être agreement split between plain subject-matching (motion verbs, passive voice) and the pronominal exception that borrows avoir's rule instead (cross-referenced to french-reflexive-verbs to avoid duplicating that mechanism), and why du/due keep the circumflex only in the masculine singular per the Academie francaise 1990 rectifications; sourced from 4 OQLF Vitrine linguistique pages + Academie francaise dictionnaire-academie.fr, all fetched and verified verbatim; passed independent 8-fold audit (zero blocking findings) plus a second humanizer/avoid-ai-writing pass this run caught and fixed on its own (8 prose em dashes cut to match site convention, one negation-stack sentence, one filler phrase); also backfilled two stale keyword-file entries missing [已用] tags from the prior run's french-reflexive-verbs publish); Bing 200 / Yandex 202. Live URL confirmed 200 with real article content before submission."
   }
 }
