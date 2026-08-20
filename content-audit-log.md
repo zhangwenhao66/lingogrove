@@ -793,3 +793,47 @@
   "escalation": null
 }
 ```
+
+```json
+{
+  "url_slug": "i-love-you-in-spanish",
+  "last_audited": "2026-08-20",
+  "published_date": "2026-08-03",
+  "article_specific_checklist": [
+    "RAE对querer('to want'/'to care for'核心义)与amar(更强烈、专指爱情的动词)的词典定义表述是否准确",
+    "te quiero偏日常/te amo偏庄重的强度分级，以及me gustas作为'轻于te quiero'的第三级用法，是否符合母语者惯例而非编造",
+    "西班牙偏好te quiero(even长期伴侣)vs拉美两者并用、te amo更多保留给严肃场合的地域差异声明是否有独立信源支持",
+    "te amo在墨西哥/阿根廷用于父母子女之间(非浪漫语境)这一细分用法是否准确",
+    "'me gustas'(第二人称单数取悦主语)与'me gusta'(普通喜欢)的语法区分讲解是否准确"
+  ],
+  "findings": [
+    { "dimension": "事实准确性", "status": "未发现问题", "detail": "5条核心论断逐条WebSearch独立信源核实：RAE querer/amar定义（dle.rae.es 403为反爬保护，WebSearch确认内容与SpanishDict/Yabla等多源交叉印证匹配）；te quiero/te amo强度分级与西班牙vs拉美地域差异（baselang/spanish.academy/lingobi等多个独立语言学习站corroborate'Spain favors te quiero even for long-term partners, younger Spaniards almost never say te amo to partners'）；me gustas语法机制（第二人称单数tú做取悦主语，与SpanishStep/SpeakBetterSpanish等信源逐字匹配）。未发现编造或失真。" },
+    { "dimension": "EEAT", "status": "未发现问题", "detail": "RAE两条官方词典引用+Na'atik Language & Culture Institute博客专门讨论该四级敬语强度区分，非泛泛而谈，sources 3条均可验证。" },
+    { "dimension": "时效性", "status": "未发现问题", "detail": "语言用法惯例类内容，published 2026-08-03至今无需更新的时效性数据；本次审计仅涉及文风修复，updated字段更新前已确认published字段存在。" },
+    { "dimension": "竞品差异化", "status": "未发现问题", "detail": "该主题SERP由baselang/spanish.academy/migaku等大量同质化'te quiero vs te amo'讲解站主导，但本文额外覆盖了'me gustas'第三级敬语与'me caes muy bien'非浪漫替代表达，多数竞品仅二元对比不含这两层，属真实增量。" },
+    { "dimension": "SEO技术审计", "status": "未发现问题", "detail": "title 54字符+' | LingoGrove'(13字符)=67字符渲染长度，与同批UmberLore审计对同一数值区间(67字符)已做出的NOT-CONFIRMED判断一致（仅比本矩阵已接受的61字符先例多6字符，远低于78字符超标量级），不重复起新独立agent复核。meta description 148字符，在可接受范围内。" },
+    { "dimension": "GEO审计", "status": "未发现问题", "detail": "coreSummary清晰陈述核心结论，4条FAQ均为可直接摘录的完整问答，正文按'两个动词/日常版/郑重版/地域差异/第三级'结构组织，符合Content Extractability标准。" },
+    { "dimension": "早期内容AI味补漏", "status": "确认发现问题，已修复", "detail": "published 2026-08-03早于avoid-ai-writing 2026-08-07接入，属补查范围。先扫sections[].body/faq[].answer发现8处叙事性em dash（含2处FAQ答案'Yes — ...'开头），密度约每90词一处，独立agent复核判定CONFIRMED（'clause — aside'模板高度统一，非偶发变体）。改写后二次全字段扫描又发现usageNote.regionNote字段遗漏1处（该字段易被误判为'标注'而非'正文'，已追加记录至内容通用教训库L-0810-4）。10处全部改写为句号/逗号/冒号/括号，仅保留sources[].label的'机构名 — 出版物名'引用标签惯例（3处，站内既有格式）。" },
+    { "dimension": "外部引用链接腐烂", "status": "未发现问题", "detail": "3条sources链接curl实测：dle.rae.es两条403（已知RAE反爬保护，WebSearch确认内容仍真实可查），naatikmexico.org一条200。" },
+    { "dimension": "内链健康度", "status": "未发现问题", "detail": "grep确认已收到3处真实inbound手动锚文本链接（happy-birthday-in-spanish/good-night-in-spanish的FAQ引用、另一篇讨论动词灵活性的文章），非孤儿页；Phrases分类3篇体量小，related-guides轮转窗口全覆盖。" },
+    { "dimension": "Schema数据一致性", "status": "未发现问题", "detail": "headline/datePublished/dateModified均从guide.title/published/updated字段自动派生，无手工重复维护，结构上无漂移风险；本次仅改动叙事文字与updated字段，未影响schema结构。" },
+    { "dimension": "合规/敏感度漂移", "status": "未发现问题", "detail": "纯语言用法教学内容，无敏感表述。" },
+    { "dimension": "配图可用性与版权", "status": "不适用", "detail": "本文无image字段，与本站同类'Phrases'短文一致，非新问题。" },
+    { "dimension": "AdSense政策合规风险", "status": "未发现问题", "detail": "内容无暴力/武器/赌博等限制类目；此前审计已确认ads.txt/隐私政策等基础设施就位，本次未发现新变化。" }
+  ],
+  "independent_verification": "1条独立agent复核8处em dash是否构成AI写作特征真实问题，判定CONFIRMED（理由：密度约每90词一处，全部遵循同一'从句 — 补充说明'模板，非偶发变体，与本站humanizer/avoid-ai-writing规则明确列为高置信度AI特征的模式一致）。title标签67字符沿用同批UmberLore审计已确立的判断（NOT-CONFIRMED），未重复起新agent。",
+  "actions_taken": [
+    "sections[].body 6处、faq[].answer 2处、usageNote.regionNote 1处（二次扫描补充发现）共9处叙事性em dash改写为句号/逗号/冒号/括号（保留sources[].label 3处引用标签格式不变）",
+    "updated字段从2026-08-03改为2026-08-20（published字段已存在'2026-08-03'，符合先检查published是否存在的前置要求）",
+    "npm run build 57页成功生成",
+    "git commit(e9e5ece，仅暂存src/data/guides.ts) + push，Cloudflare Pages git自动部署（本站无独立deploy hook），curl轮询确认https://lingogrove.com/i-love-you-in-spanish/ 已生效且仅剩citation标签破折号",
+    "node tools/submit-indexnow.mjs /i-love-you-in-spanish/ 提交（Bing 200 / Yandex 200）",
+    "内容发布日志.md追加本条审计更新记录，明确标注为content-quality-audit审计更新非新发布",
+    "内容通用教训库.md在L-0810-4条目下追加本次复发记录（usageNote.regionNote字段类型新变体）"
+  ],
+  "seo_score": "title 67字符（沿用同批判断可接受）、meta description 148字符，其余技术SEO维度健康无变化",
+  "geo_score": "无自动化打分工具适用于本站；结构化程度（coreSummary+FAQ+分层示例）经人工核对达标，修复未减少信息密度",
+  "escalation": null,
+  "pending_for_owen": null
+}
+```
