@@ -88,9 +88,9 @@
   },
   "https://lingogrove.com/por-vs-para/": {
     "submitted_date": "2026-08-03",
-    "verified_status": "pending",
-    "note": "discovered 03 Aug 2026, 账龄恰好14天, 逼近阈值, 下次运行大概率转stale",
-    "last_checked_date": "2026-08-17",
+    "verified_status": "stale_not_indexed",
+    "note": "discovered 04 Aug 2026, 账龄15天, 超14天阈值(此前08-17标注恰好14天逼近阈值,本次确认转stale)",
+    "last_checked_date": "2026-08-19",
     "verified_method": "bwt_url_inspection"
   },
   "https://lingogrove.com/ser-vs-estar/": {
@@ -100,30 +100,30 @@
   },
   "https://lingogrove.com/preterite-vs-imperfect/": {
     "submitted_date": "2026-08-03",
-    "verified_status": "pending",
-    "note": "discovered 03 Aug 2026, 账龄恰好14天, 逼近阈值, 下次运行大概率转stale",
-    "last_checked_date": "2026-08-17",
+    "verified_status": "stale_not_indexed",
+    "note": "discovered 04 Aug 2026, 账龄15天, 超14天阈值(此前08-17标注恰好14天逼近阈值,本次确认转stale)",
+    "last_checked_date": "2026-08-19",
     "verified_method": "bwt_url_inspection"
   },
   "https://lingogrove.com/deja-vu-meaning/": {
     "submitted_date": "2026-08-03",
-    "verified_status": "pending",
-    "note": "discovered 03 Aug 2026, 账龄恰好14天, 逼近阈值, 下次运行大概率转stale",
-    "last_checked_date": "2026-08-17",
+    "verified_status": "stale_not_indexed",
+    "note": "discovered 04 Aug 2026, 账龄15天, 超14天阈值(此前08-17标注恰好14天逼近阈值,本次确认转stale)",
+    "last_checked_date": "2026-08-19",
     "verified_method": "bwt_url_inspection"
   },
   "https://lingogrove.com/schadenfreude-meaning/": {
     "submitted_date": "2026-08-03",
-    "verified_status": "pending",
-    "note": "discovered 03 Aug 2026, 账龄恰好14天, 逼近阈值, 下次运行大概率转stale",
-    "last_checked_date": "2026-08-17",
+    "verified_status": "stale_not_indexed",
+    "note": "discovered 04 Aug 2026, 账龄15天, 超14天阈值(此前08-17标注恰好14天逼近阈值,本次确认转stale)",
+    "last_checked_date": "2026-08-19",
     "verified_method": "bwt_url_inspection"
   },
   "https://lingogrove.com/senpai-meaning/": {
     "submitted_date": "2026-08-03",
-    "verified_status": "pending",
-    "note": "discovered 03 Aug 2026, 账龄恰好14天, 逼近阈值, 下次运行大概率转stale",
-    "last_checked_date": "2026-08-17",
+    "verified_status": "stale_not_indexed",
+    "note": "discovered 04 Aug 2026, 账龄15天, 超14天阈值(此前08-17标注恰好14天逼近阈值,本次确认转stale)",
+    "last_checked_date": "2026-08-19",
     "verified_method": "bwt_url_inspection"
   },
   "https://lingogrove.com/happy-birthday-in-spanish/": {
@@ -242,5 +242,9 @@
     "submitted_date": "2026-08-19",
     "verified_status": "pending",
     "note": "new publish (Grammar tier: à/en/dans spatial split, chez reserved for people, en/au/aux country-preposition gender rule + 5 masculine -e exceptions, en-vs-dans time duration, depuis/pendant/pour tense pairing); Bing 200 / Yandex 200. Live URL confirmed 200 with real article content before submission."
+  },
+  "https://lingogrove.com/french-reflexive-verbs/": {
+    "submitted_date": "2026-08-20",
+    "verified_status": "pending"
   }
 }
