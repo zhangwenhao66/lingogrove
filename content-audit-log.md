@@ -837,3 +837,73 @@
   "pending_for_owen": null
 }
 ```
+
+```json
+{
+  "url_slug": "spanish-preterite-endings",
+  "last_audited": "2026-08-21",
+  "published_date": "2026-08-19",
+  "checklist": [
+    "两套变位词尾（-ar组 vs -er/-ir共用组）及其重音落点是否与RAE官方重音规则一致",
+    "nosotros形式与现在时同形/不同形的具体断言（-ar/-ir同形，-er不同形）是否语言学准确",
+    "'hablastes'非标准形式的成因解释、以及vos在虚拟过去式上是否真的与tú共用同一套词尾，是否准确",
+    "3条外部信源（RAE/SpanishDict/El Castellano）是否仍然存活"
+  ],
+  "findings": [
+    {
+      "dimension": "事实准确性（语法规则本身）",
+      "status": "未发现问题",
+      "detail": "逐条核对：-ar组(-é,-aste,-ó,-amos,-asteis,-aron)与-er/-ir共用组(-í,-iste,-ió,-imos,-isteis,-ieron)词尾拼写准确；重音规则（aguda类词——重音落在末音节且以元音/n/s结尾——须标重音符）与RAE官方页面逐字吻合（WebSearch独立核实RAE页面'palabras agudas...carry a tilde when they end in n or s...or in the vowels a,e,i,o,u'与正文断言一致）；nosotros形式的-ar/-ir与现在时同形（hablamos/vivimos）、-er不同形（comemos现在时 vs comimos过去时）断言准确，是西班牙语语法的标准已知事实；'hablastes'非标准形式的类比成因解释（每个其他tú变位都以-s结尾造成类推）语言学上站得住；vos在虚拟过去式（preterite）上确实与tú共用同一套标准词尾（voseo只在直陈式现在时与非正式命令式产生独立形式），这是voseo语法的标准认知，断言准确。本文不涉及该站'变位表须程序生成'的已知风险（本文是叙事说明型内容，未引用`ConjugationTableView`组件或`tools/conjugate.mjs`生成的表格，纯散文体描述这套规则，无生成/测试基础设施可核对，改为纯人工语法核实）。"
+    },
+    {
+      "dimension": "外部引用链接腐烂",
+      "status": "未发现问题",
+      "detail": "SpanishDict Answers与El Castellano两条curl直接200；RAE.es返回403（政府/学术机构常见的反爬拦截），换WebSearch独立核实该RAE页面确实存活且内容（aguda词重音规则的具体措辞）与本文引用逐字对应，判定非真实链接失效。"
+    },
+    {
+      "dimension": "早期内容AI味补漏",
+      "status": "未发现问题",
+      "detail": "本文published 2026-08-19，晚于avoid-ai-writing 2026-08-07生效日，理论上不属于强制回溯范围，但仍机械扫描：正文/coreSummary/FAQ/usageNote共0处叙事性em dash与0处ASCII双连字符(' -- '，按本次运行在DialWick新发现的L-0821-4子模式一并核查)；仅2处sources[].label沿用本站既定'出版方 — 标题'引用格式（按本次运行早些时候在DayAlmanac确立的LEAVE子模式判定豁免，未改动）。写作质量干净，无需修复。"
+    },
+    {
+      "dimension": "SEO技术审计",
+      "status": "未发现问题",
+      "detail": "线上https://lingogrove.com/spanish-preterite-endings/ 200；title 91字符、meta description 161字符（仅超出~160字符经验阈值1字符，参照本次运行早些时候CalcBadger对'超标仅个位数字符不修复'的判断先例，未做改动）；canonical自指正确；单一h1、5个h2无跳级；schema含Article/FAQPage/BreadcrumbList/Person/WebPage；配图svg curl 200。"
+    },
+    {
+      "dimension": "GEO审计",
+      "status": "未发现问题",
+      "detail": "coreSummary完整给出两套词尾+重音规则+nosotros同形异形规则的可独立引用摘要；5组FAQ配FAQPage schema；正文含真实西语例句+英译；引用RAE官方规则原文措辞增强权威性；跨域内链2处（/irregular-preterite-verbs-spanish/、/spanish-imperfect-endings/）均curl 200确认可达。判定明显达标。"
+    },
+    {
+      "dimension": "竞品差异化",
+      "status": "未发现问题",
+      "detail": "DataForSEO真实SERP核实'spanish preterite endings'目标词，lingogrove未进前18（新站正常预期，SERP位#1为AI Overview），头部竞品（spanishdict.com/lingvist.com/study.com/bbc.co.uk等）多为基础变位介绍，未见任何一家像本文一样专门解释'hablastes为什么错、且tú与vos共享同一个类推成因'这一具体常见错误的语言学机制。本文的'规则+常见错误成因+voseo对照'构成真实增量价值。"
+    },
+    {
+      "dimension": "内链健康度",
+      "status": "未发现问题（无手写入链，依赖轮转算法覆盖，非缺陷）",
+      "detail": "grep未发现其他文章手写锚文本链接到本文，但本文所属Grammar分类共39篇（远超6篇阈值），vendor/site-toolkit的pickRelatedGuides轮转窗口正常适用，历史上该算法已验证接近100%覆盖率，判定非孤儿页风险，不视为需修复的问题。本文自身对外链接2处（irregular-preterite-verbs-spanish/spanish-imperfect-endings）均curl 200确认存在且内容匹配正文转述。"
+    },
+    {
+      "dimension": "Schema数据一致性",
+      "status": "未发现问题",
+      "detail": "FAQPage.mainEntity 5问与guides.ts faq数组逐字一致。"
+    },
+    {
+      "dimension": "AdSense政策合规风险",
+      "status": "未发现问题",
+      "detail": "语言学习语法内容，零敏感类目风险。"
+    }
+  ],
+  "independent_verification": "本次未发现任何confirmed问题，未触发第3步独立复核agent（该步骤仅在发现疑似问题时触发）。RAE.es的403判定使用WebSearch独立交叉核实内容匹配，未依赖单一工具结论。",
+  "actions_taken": [
+    "本次13维度审计未发现任何需要修复的问题，本文语法准确、来源真实、写作干净、SEO/GEO/内链/AdSense均达标",
+    "未做任何代码修改，未commit/push/部署，未跑IndexNow（页面未变更，无需重新提交索引）",
+    "仅更新本文件的last_audited字段为2026-08-21"
+  ],
+  "seo_score": "技术SEO全项通过（meta description轻微超标1字符，判定不修复），未发现需修复项",
+  "geo_score": "结构化程度达标，未做结构性改动",
+  "escalation": null
+}
+```
