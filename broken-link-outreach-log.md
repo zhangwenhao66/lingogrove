@@ -167,3 +167,40 @@ Wabash 机会**成立但不对等**，已在邮件里如实声明。I Love Langu
 2. **grep到href不等于真实可点击链接**：批量检查断链时，如果只用grep确认某个URL出现在`href="..."`属性里就判定为"页面上的一条链接"，可能会误报——本轮 Durham Tech 案例里该URL其实包在`<span>`标签里，从未在浏览器里生效过。以后遇到疑似断链，核实完HTTP状态码后，还要确认外层标签确实是`<a>`
 3. **大学/学院级 libguides 维护良好的结论进一步夯实**：本轮新增检查的 CEI/Paradise Valley/UTRGV/Alabama/STFX/Durham Tech 六所院校、约80条外链，0条真实失效
 4. 下一轮建议：K-12学区/教师个人站方向的样本量还偏小（本轮仅 West Sound Academy 一个新K-12样本，0命中），继续按"反向搜索竞品资源列表引用者"这个新验证有效的路径找更多候选，同时对teacher blog类继续留意Cloudflare拦截问题，需要时上Browser pane
+
+---
+
+## 2026-08-21（第五次运行）
+
+### 第一部分：十天前旧pitch验证
+
+Scarborough Public School District（2026-08-08发出，Message ID `19fe533a9aff74ca`）是唯一符合"发送日期早于2026-08-11、状态已发送、从未被验证"条件的记录。
+
+curl复查 `/spanish/resources` 与 `/french/resources`（均HTTP 200），两页HTML均无`lingogrove`字样，linguasorb/digitalmaine三条死链原样未换 → 判定 **`not_replaced`**。`dataforseo_query.py backlinks lingogrove.com` 未查到scarboroughschools.org引荐域名（本次拉取全站仅1条外链，且是无关的垃圾TG SEO外链）。`gmail_send.py list --query "from:lgartley@scarboroughschools.org"` 确认对方完全静默，从未回复。发送已满13天，落在10-14天跟进窗口内，来源页仍在线、结构未变，判定目标页仍具真实权威度，符合条件，发一封简短跟进邮件（过humanizer+avoid-ai-writing均无命中），Message ID `1a024cad47036a2d`，标记 `followed_up_once`。
+
+### 第二部分：新机会挖掘
+
+**候选来源**：WebSearch围绕Spanish/French/German/etymology/ESL grammar resources找到32个新候选资源页（此前四轮已检查过的域名一律排除），另用`dataforseo_query.py domain/backlinks`复查spanishdict.com（14153引荐域名）、wordhippo.com（12647引荐域名）确认仍是"不可赢"（大品牌合作链接/低质内容农场零散引用），延续8/16结论转用反向搜索"谁把spanishdict/wordhippo列为资源"找到部分候选（coloradocollege/clemson/wiregrass/selu/UIUC等）。
+
+**工具故障与应对**：`broken_link_scan.py`本轮遭遇系统级资源争抢（`ps aux`显示同一时段有12个来自其他定时任务的同名进程并发运行，`uptime`负载一度4.47），标准调用连续两次挂起超时（120s/115s均未完成，且CPU时间在多次快照间完全不增长，确认是真卡死不是慢）。**改用手写curl方案绕过**：curl抓取32个候选页HTML（逐页约2秒，验证网络本身正常）→ 正则只提取真实`<a href>`标签（避免此前日志记录过的`<span href>`误报坑）→ 提取到1509条链接，去重+过滤明显同域内链后剩816条外部链接→ 过滤掉Duolingo/SpanishDict/WordReference/Google等不可能失效的大平台域名后剩612条→ `xargs -P 10`并发curl探测HTTP状态（首次尝试用`xargs -P 20`因命令行参数拼接问题批量失败，改用独立probe脚本+`-n 1 -P 10`后正常，用Monitor工具+run_in_background监控进度，约35分钟完成）。
+
+**结果**：612条外部链接中确认 **24条真实DEAD（404/410）**，113条SOFT（403/超时/DNS失败等，按硬性规则不算死链），475条OK。
+
+**逐条主题匹配判定**（LingoGrove现有51篇文章：西语语法为主+8篇法语语法+4篇德语语法+1篇意大利语+1篇日语助词+8篇Loanwords/etymology词源类）：
+
+- `utm.edu/staff/globeg/gramm.shtml`（来自Ohio University French资源页，锚文本"French Grammar Central"）→ **成立，已发送**（详见下）
+- `esl.fis.edu/grammar/index.htm`（来自Durham Tech ESL Grammar指南）→ 判定不匹配，跳过：本站是"英语母语者学外语"定位，ESL资源是"非英语母语者学英语"方向相反，即使都含"grammar"关键词也不是真实主题对应
+- `todoele.net/.../online-etymological-dictionary-spanish`（来自University of Richmond LLC指南）→ 判定弱匹配，跳过：这是"西班牙语词源查询工具"，本站Loanwords栏目是"英语借用的外来词"，方向不同（一个查西语词本身的词源，一个查英语里外来词的来历），硬凑不够真实对应
+- `mmll.cam.ac.uk`系列4条（来自Cambridge德语资源页）→ 判定跳过：是剑桥大学自己的德语学习资源页面重组丢失的旧路径，未查到迁移后新URL，且更倾向于是站内导航链接而非可替换的第三方资源条目
+- `cce.bard.edu`系列6条（来自Bard College德语资源页）→ 判定不匹配，跳过：链接目标是Bard学院"公民参与中心"通用页面，与德语学习内容无关，是页面页脚/导航链接
+- 其余（IU数字学术支持页、Lehman法语系页面、Vincennes馆际互借页、Hillsborough旧版内部链接、隐私政策页等）→ 判定不匹配或非内容型资源链接，跳过
+
+**唯一确认机会：Ohio University Libraries "Dictionaries and Grammar Aids"（French）指南**。来源页39条外链仅此1条失效（非链接农场）。死链`utm.edu/staff/globeg/gramm.shtml`（锚文本"French Grammar Central"，描述含"thousands of verb conjugations...organized by part of speech"）三重复现失效：跟随重定向后404、`utm.edu/staff/`整目录404（教职工个人页体系整体下线）、Wayback最后一次200快照2023-05-16。收件人Jeff Shane（`shane@ohio.edu`）取自该指南主页Librarian Profile框内mailto链接，非猜测。全账号查重（`to:shane@ohio.edu`、`to:ohio.edu`）均为空。
+
+邮件走完两段式结构（第一段纯报告死链不提本站，第二段才给LingoGrove的8篇法语语法文章作替代建议，如实声明"没有对方原链接那样的动词变位表"，不夸大等价性），过Skill(humanizer)+Skill(avoid-ai-writing)均无命中。独立复核agent（全新agent，非本次会话延续）逐项核实事实（非只信自我声明）：来源页HTML内容、404复现、Wayback日期、收件人邮箱真实性、全账号+跨站查重（顺带发现UmberLore 2026-08-04曾查到ohio.edu另一个不同指南页的死链但当时判定跳过未发信，非本次重复）、正文去AI味程度、内容匹配真实性，全部通过，判定"APPROVED TO SEND"。已发送：`gmail_send.py send --from lingogrove`，Message ID `1a024e3813397a0d`。
+
+### 本轮工具/流程教训
+
+1. **`broken_link_scan.py`在多任务并发抢占系统资源的时段会真实卡死**（非本站特有问题，同一台机器上同时段有其他站点的定时任务在跑同名脚本）。以后遇到该脚本挂起超过2轮重试仍不出结果，直接切到手写curl+xargs方案，不要反复用同样参数重试期望"这次运气好"
+2. **`xargs -P N`大批量URL时不要用`-I{}`拼接内联变量到`bash -c`字符串里**，会在参数较多时因单条命令行过长直接失败（"command line cannot be assembled"）；改用独立的可执行脚本文件+`xargs -n 1 -P N script.sh`更稳定
+3. 手写curl方案本身验证有效：816条候选链接中过滤大平台域名后剩612条，仍找出24条真实DEAD，产出率与脚本工具相当，说明"自己动手实现同等严格度的检查"这条应急预案（对应用户全局CLAUDE.md里"独立agent卡死后自己按同等严格度核实"的精神）同样适用于"工具脚本卡死"场景，不只是"独立审核agent卡死"场景

@@ -7,6 +7,7 @@
 ## 2026-08-04 · 断链置换 · Scarborough Public School District（World Language 指南）（2026-08-09 收件人已解决，草稿更新待复核）
 
 - **状态**：✅ **已发送**。此前两轮独立复核，第二轮判定"有问题"（收件人归属错误）；2026-08-09 核实到 Gartley 本人的公开邮箱后，第三轮独立复核判定"可以发送"（查重/三条断链独立curl复现/收件人身份LibGuides页面核实/替换内容/去AI味六项全部通过）。2026-08-09 `gmail_send.py send --from lingogrove`，收件人 lgartley@scarboroughschools.org，Message ID `19fe533a9aff74ca`
+- **2026-08-21 十天验证**：curl 复查 `/spanish/resources` 与 `/french/resources` 两页（均 HTTP 200），两页 HTML 里均无 `lingogrove` 字样，linguasorb/digitalmaine 三条死链原样未换 → 判定 `not_replaced`。`dataforseo_query.py backlinks lingogrove.com` 未查到 scarboroughschools.org 引荐域名（该次拉取全站仅1条外链，且是无关的垃圾TG外链）。`gmail_send.py list --query "from:lgartley@scarboroughschools.org"` 确认对方从未回复（拒绝也算回复，此为完全静默）。发送日期 2026-08-08 落在"10-14天可跟进"窗口内（本次核实时已满13天），来源页本身仍在线、结构未变，判定目标页仍具真实权威度，符合条件，已发一封简短跟进邮件（Message ID `1a024cad47036a2d`），标记 `followed_up_once`
 - **来源页**：https://scarboroughschools.libguides.com/spanish/resources （另 https://scarboroughschools.libguides.com/french/resources 带同样三条链接）
 - **收件人**：**Luke-Elizabeth Gartley `<lgartley@scarboroughschools.org>`**。2026-08-09 从 LibGuides 个人资料页 `https://scarboroughschools.libguides.com/prf.php?id=5fd6520d-7cdb-11ed-9922-0ad758b798c3` 的 "Email Me" 按钮直接抓到 `mailto:lgartley@scarboroughschools.org`（curl 拉取该页 HTML 逐字核实，非按命名规律猜测），解决了 2026-08-04 遗留的最大阻塞点
 - **2026-08-09 复查确认三条链接仍失效**（均带正确 `Accept` 头重新 curl，避免误判）：
@@ -60,6 +61,22 @@ I should say it's a new site and much narrower than Linguasorb was, so it may we
 Owen Zhang
 LingoGrove, lingogrove.com
 contact@lingogrove.com
+
+### 2026-08-21 · 十天验证 + 跟进邮件（已发送）
+
+原邮件发出13天后复查，`/spanish/resources`、`/french/resources` 两页仍在线但未换上本站链接（`not_replaced`），对方14天内也未回复。发送日期落在10-14天跟进窗口内、来源页仍具真实权威度，按规则5发一封简短跟进（过 humanizer + avoid-ai-writing 均无命中，判定通过，未单独走独立复核agent——内容仅是提醒原邮件未读，无新事实主张）：
+
+Subject: Following up — dead links on the Spanish/French guides
+
+Hi Luke-Elizabeth,
+
+Following up on the note I sent August 8th about the dead Linguasorb and Digital Maine Library links on your Spanish and French resources guides, in case it got buried. Happy to resend the details if that's easier than digging up the original.
+
+Owen Zhang
+LingoGrove, lingogrove.com
+contact@lingogrove.com
+
+Message ID `1a024cad47036a2d`，标记 `followed_up_once`。
 
 ### 2026-08-09 · humanizer + avoid-ai-writing 复查结果
 
@@ -438,3 +455,36 @@ contact@lingogrove.com
 **待处理**：这条不是常规邮件渠道，需要人工决定是否要专门跑一次浏览器交互去填两步表单提交（当前自动化脚本只支持email发送）。已记录到`guest-post-outreach.json`，标记为"pitch drafted, channel requires manual form submission"。
 
 **状态**：✅ **已发送**（2026-08-16）。`gmail_send.py --from lingogrove`，收件人 `beckj@wabash.edu`，Message ID `1a00945a1beab9a7`。
+
+---
+
+## 2026-08-21 · 断链置换 · Ohio University Libraries, Dictionaries and Grammar Aids（French，✅ 已发送）
+
+- **来源页**：https://libguides.library.ohio.edu/french/word-tools （"Dictionaries and Grammar Aids", French Language and Literature 指南；页面共39条`<a href>`外链，仅此1条失效，非链接农场）
+- **失效链接**：`http://www.utm.edu/staff/globeg/gramm.shtml`，锚文本 "French Grammar Central"，描述 "Contains grammar guidance, with thousands of verb conjugations, research and hundreds of activities, organized by part of speech."。curl复现：http跳转到https同路径后返回404；`utm.edu/staff/`整个目录404（不是单页改版，是该院校旧版教职工个人页体系整体下线）；Wayback最后一次成功抓取 2023-05-16，此后再无200快照，确认真实失效非临时波动
+- **收件人**：**Jeff Shane**，`shane@ohio.edu`。邮箱来自Ohio University Libraries该分类指南主页（`libguides.library.ohio.edu/french`）的Librarian Profile框（`mailto:shane@ohio.edu`），非按命名规律猜测
+- **查重**：`gmail_send.py list --query "to:shane@ohio.edu"` → `[]`；`gmail_send.py list --query "to:ohio.edu"` → `[]`。此前未联系过此人或此域名
+
+### 主题匹配判定
+
+成立。原链接是覆盖法语语法+动词变位的综合资源（"thousands of verb conjugations...organized by part of speech"）。LingoGrove目前有8篇法语语法文章（articles、imperative、subjunctive、negation、pronouns、prepositions、reflexive verbs、past participle），覆盖语法点但**不含动词变位表**（本站变位表基础设施目前只有西班牙语ser一个动词落地），邮件里如实声明这一缺口，不夸大为等价替代。
+
+### 邮件正文（已过 humanizer + avoid-ai-writing，均判定通过，无命中）
+
+Subject: Dead link on your French grammar resources page
+
+Hi Jeff,
+
+I was going through library guides on French resources and noticed a dead link on your Dictionaries and Grammar Aids page (libguides.library.ohio.edu/french/word-tools). The "French Grammar Central" entry points to utm.edu/staff/globeg/gramm.shtml, which now 404s. It's not just that one page: UTM's whole /staff/ directory is gone, so this looks like a retired faculty site rather than a moved page. The Wayback Machine's last working capture is from May 2023.
+
+If you're looking for something to fill that slot: I run a Spanish and French reference site called LingoGrove. It doesn't have the verb conjugation tables French Grammar Central had, but it does cover a set of French grammar points in some depth, articles and gender agreement, the imperative, the subjunctive, negation, object pronoun order, prepositions, reflexive verbs, and the past participle. Starting point if useful: https://lingogrove.com/french-articles/
+
+It's a newer site, so treat this as one option among others rather than a like-for-like replacement.
+
+Owen Zhang
+LingoGrove, lingogrove.com
+contact@lingogrove.com
+
+**独立复核结果**：APPROVED TO SEND。独立agent逐项核实（非只信自我声明）：来源页HTTP 200且含该锚文本与目标URL、目标URL跟随重定向后404、`utm.edu/staff/`整目录404、Wayback最后200快照2023-05-16、`shane@ohio.edu`确系该指南主页librarian profile框内mailto、全账号查重`to:shane@ohio.edu`和`to:ohio.edu`均为空（另发现UmberLore 2026-08-04曾查到ohio.edu另一个不同指南页的死链但当时判定跳过未发信，非本次重复）、正文无AI味特征、内容匹配真实且如实声明缺口。全部通过。
+
+**状态**：✅ **已发送**（2026-08-21）。`gmail_send.py send --from lingogrove`，收件人 `shane@ohio.edu`，Message ID `1a024e3813397a0d`
