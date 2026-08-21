@@ -81,10 +81,11 @@
   },
   "https://lingogrove.com/direct-vs-indirect-object-pronouns-spanish/": {
     "submitted_date": "2026-08-04",
-    "verified_status": "pending",
+    "verified_status": "stale_not_indexed",
     "note": "new publish; Bing 200 / Yandex 202.",
-    "last_checked_date": "2026-08-08",
-    "verified_method": "bwt_url_inspection"
+    "last_checked_date": "2026-08-22",
+    "verified_method": "bwt_url_inspection",
+    "verify_note": "discovered 04 Aug, 18天未收录"
   },
   "https://lingogrove.com/por-vs-para/": {
     "submitted_date": "2026-08-03",
@@ -128,24 +129,27 @@
   },
   "https://lingogrove.com/happy-birthday-in-spanish/": {
     "submitted_date": "2026-08-03",
-    "verified_status": "pending",
+    "verified_status": "stale_not_indexed",
     "note": "Discovered but not crawled, discovered 03 Aug 2026, age 13 days as of 08-16 check, approaching stale threshold",
-    "last_checked_date": "2026-08-16",
-    "verified_method": "bwt_url_inspection"
+    "last_checked_date": "2026-08-22",
+    "verified_method": "bwt_url_inspection",
+    "verify_note": "discovered 04 Aug, 18天未收录"
   },
   "https://lingogrove.com/good-night-in-spanish/": {
     "submitted_date": "2026-08-03",
-    "verified_status": "pending",
+    "verified_status": "stale_not_indexed",
     "note": "launch batch, new publish; Bing 202 / Yandex 202.; Discovered but not crawled (Discovered on 03 Aug 2026)",
-    "last_checked_date": "2026-08-11",
-    "verified_method": "bwt_url_inspection"
+    "last_checked_date": "2026-08-22",
+    "verified_method": "bwt_url_inspection",
+    "verify_note": "discovered 04 Aug, 18天未收录"
   },
   "https://lingogrove.com/i-love-you-in-spanish/": {
     "submitted_date": "2026-08-03",
-    "verified_status": "pending",
+    "verified_status": "stale_not_indexed",
     "note": "Discovered but not crawled, discovered 03 Aug 2026, age 13 days as of 08-16 check, approaching stale threshold",
-    "last_checked_date": "2026-08-16",
-    "verified_method": "bwt_url_inspection"
+    "last_checked_date": "2026-08-22",
+    "verified_method": "bwt_url_inspection",
+    "verify_note": "discovered 04 Aug, 18天未收录"
   },
   "https://lingogrove.com/ser-conjugation/": {
     "submitted_date": "2026-08-05",
@@ -154,10 +158,11 @@
   },
   "https://lingogrove.com/saber-vs-conocer/": {
     "submitted_date": "2026-08-04",
-    "verified_status": "pending",
+    "verified_status": "stale_not_indexed",
     "note": "new publish (Grammar tier); Bing 200 / Yandex 202.",
-    "last_checked_date": "2026-08-08",
-    "verified_method": "bwt_url_inspection"
+    "last_checked_date": "2026-08-22",
+    "verified_method": "bwt_url_inspection",
+    "verify_note": "discovered 04 Aug, 18天未收录"
   },
   "https://lingogrove.com/spanish-reflexive-verbs/": {
     "submitted_date": "2026-08-04",
