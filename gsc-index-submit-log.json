@@ -211,5 +211,15 @@
       "https://lingogrove.com/german-cases/"
     ],
     "quota_used": "0 of shared account-wide daily quota"
+  },
+  {
+    "date": "2026-08-21",
+    "action": "skipped_all_indexed",
+    "reason": "今日无新发布。队列头部候选habibi-meaning确认已收录（Overview页面显示该页近期曝光大涨，佐证已收录）。Pages报告Discovered-not-indexed与Crawled-not-indexed均为0，仅剩1个与索引无关的redirect问题。判定本站接近满收录，无未提交过的真实候选，跳过本轮不消耗配额，游标继续前进至WageLark。",
+    "submitted_urls": [],
+    "already_indexed_no_action": [
+      "https://lingogrove.com/habibi-meaning/"
+    ],
+    "quota_used": "0 of shared account-wide daily quota"
   }
 ]
