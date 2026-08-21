@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" font-family="system-ui, -apple-system, sans-serif">
+	<rect width="800" height="460" fill="#f6f4e9"/>
+	<rect x="24" y="24" width="360" height="412" rx="10" fill="#fffefa" stroke="#ddd8c4"/>
+	<rect x="416" y="24" width="360" height="412" rx="10" fill="#fffefa" stroke="#ddd8c4"/>
+
+	<rect x="24" y="24" width="360" height="56" rx="10" fill="#7a2e2e"/>
+	<rect x="24" y="60" width="360" height="20" fill="#7a2e2e"/>
+	<text x="204" y="60" text-anchor="middle" fill="#ffffff" font-size="22" font-weight="700">HOW CIAO GOT HERE</text>
+
+	<rect x="416" y="24" width="360" height="56" rx="10" fill="#2f4f6b"/>
+	<rect x="416" y="60" width="360" height="20" fill="#2f4f6b"/>
+	<text x="596" y="60" text-anchor="middle" fill="#ffffff" font-size="22" font-weight="700">WHAT SURVIVED THE TRIP</text>
+
+	<g fill="#201f1a" font-size="15">
+		<text x="48" y="112" font-weight="700">Medieval Latin sclavus</text>
+		<text x="48" y="132" fill="#5a5648" font-size="13">"slave" (from Late Latin Sclavus, "Slav")</text>
+
+		<text x="48" y="168" font-weight="700">↓ Venetian s-ciao, s-ciavo</text>
+		<text x="48" y="188" fill="#5a5648" font-size="13">"servant, slave"</text>
+
+		<text x="48" y="224" font-weight="700">↓ s-ciao vostro</text>
+		<text x="48" y="244" fill="#5a5648" font-size="13">literally "(I am) your slave" —</text>
+		<text x="48" y="262" fill="#5a5648" font-size="13">a formal declaration of deference</text>
+
+		<text x="48" y="306" font-weight="700" font-size="19">↓ ciao</text>
+		<text x="48" y="328" fill="#5a5648" font-size="13">per Treccani: "forma di saluto</text>
+		<text x="48" y="346" fill="#5a5648" font-size="13">amichevole" — a friendly greeting,</text>
+		<text x="48" y="364" fill="#5a5648" font-size="13">with no deference left in it</text>
+
+		<text x="48" y="406" fill="#5a5648" font-size="12">Doublet of English "Slav" and "slave,"</text>
+		<text x="48" y="422" fill="#5a5648" font-size="12">via the same Late Latin root</text>
+	</g>
+
+	<g fill="#201f1a" font-size="14">
+		<text x="440" y="108" font-weight="700">Italian ciao</text>
+		<text x="440" y="128" fill="#5a5648" font-size="13">hello AND goodbye — one word,</text>
+		<text x="440" y="146" fill="#5a5648" font-size="13">used only with people on "tu" terms</text>
+
+		<text x="440" y="182" font-weight="700">English ciao</text>
+		<text x="440" y="202" fill="#5a5648" font-size="13">kept both senses — Wiktionary lists</text>
+		<text x="440" y="220" fill="#5a5648" font-size="13">it under both "hello" and "goodbye"</text>
+
+		<line x1="440" y1="240" x2="756" y2="240" stroke="#ddd8c4" stroke-width="1"/>
+
+		<text x="440" y="266" font-weight="700" fill="#7a2e2e">Narrowed to goodbye only:</text>
+		<text x="440" y="292" fill="#5a5648" font-size="13">French tchao — per Larousse, "au revoir,"</text>
+		<text x="440" y="310" fill="#5a5648" font-size="13">grouped with adieu, bonsoir</text>
+
+		<text x="440" y="336" fill="#5a5648" font-size="13">Portuguese tchau, chau</text>
+
+		<text x="440" y="362" fill="#5a5648" font-size="13">German tschau (not tschüss, which</text>
+		<text x="440" y="380" fill="#5a5648" font-size="13">traces separately to French adieu)</text>
+
+		<text x="440" y="406" fill="#5a5648" font-size="13">Spanish chao, chau</text>
+	</g>
+
+	<line x1="400" y1="24" x2="400" y2="436" stroke="#ddd8c4" stroke-width="1"/>
+</svg>

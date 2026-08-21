@@ -4395,4 +4395,84 @@ export const guides: Guide[] = [
 			{ label: 'RAE (@RAEinforma) — reply on hubiera/habría/hubiese in the apódosis of past conditionals', url: 'https://x.com/RAEinforma/status/1910661323312030044' },
 		],
 	},
+	{
+		slug: 'ciao-meaning',
+		category: 'Loanwords',
+		title: 'Ciao Meaning: From "I Am Your Slave" to Hello and Goodbye',
+		description: 'Ciao traces back to a Venetian phrase meaning "I am your slave." Its hello-and-goodbye double duty survived into English, but not into French or Portuguese.',
+		published: '2026-08-21',
+		updated: '2026-08-21',
+		coreSummary: 'Ciao descends from Venetian s-ciao/s-ciavo, which Treccani, Italy\'s standard dictionary, glosses at its root as "(sono vostro) schiavo," "(I am your) slave"; Wiktionary\'s Italian entry names the fuller expression behind that gloss, s-ciao vostro, a formal declaration of deference that lost every trace of servility as it contracted into everyday use. Treccani\'s own definition confirms Italian still fires the same word at both the moment of meeting and the moment of parting, but that dual job didn\'t survive the trip everywhere ciao traveled: Larousse\'s entries and Wiktionary\'s record of ciao\'s descendants show French tchao, Portuguese tchau, German tschau, and Spanish chao/chau all kept only the goodbye half, while English, unusually, absorbed both.',
+		language: 'Italian',
+		usageNote: {
+			register: 'informal',
+			regionNote: 'Treccani ties ciao specifically to people addressed with "tu," Italian\'s informal you, not strangers, elders, or professional contacts, who get salve/buongiorno (hello) or arrivederci/arrivederla (goodbye) instead.',
+		},
+		sections: [
+			{
+				heading: 'From "I am your slave" to a friendly hello',
+				body: [
+					'Treccani, the standard reference dictionary for Italian, traces ciao to Venetian s-ciao and s-ciavo, glossing the pair at their root as "(sono vostro) schiavo": "(I am your) slave." Wiktionary\'s Italian entry names the fuller expression that gloss comes from, s-ciao vostro, "in essence meaning \'I am at your service,\' or \'your humble servant.\'" Treccani stops at that Venetian origin; Wiktionary\'s Italian entry traces the word one layer deeper, to Medieval Latin sclavus, "slave." Wiktionary\'s own entry for the English word slave goes a step further still, to Late Latin Sclavus, "Slav," a shift in meaning the dictionary attributes to Slavic peoples having often been forced into slavery in the Middle Ages, and its etymology note calls slave a doublet of ciao and Slav. That makes ciao kin to two English words that look nothing like it: Slav and slave both trace back to the same Late Latin root, alongside Italian\'s own word for "slave," schiavo.',
+					'S-ciao vostro wasn\'t a casual thing to say. It functioned as a formal declaration of subordination, close to the verbal equivalent of a bow: "I am completely at your service." None of that survives in the word today. Treccani\'s current entry calls ciao simply a "forma di saluto amichevole," a friendly greeting, and notes it was especially common in northern Italy before it spread to the rest of the country and, eventually, internationally. The shift is total. A phrase once reserved for addressing a social superior with complete submission is now the word Italians use with whoever they\'re on first-name terms with.',
+				],
+				image: {
+					src: '/images/ciao-meaning-diagram.svg',
+					alt: 'Diagram showing ciao\'s descent from Medieval Latin sclavus through Venetian s-ciao vostro ("I am your slave") to its modern friendly-greeting sense, alongside which languages kept ciao\'s dual hello-and-goodbye function (Italian, English) versus narrowed it to goodbye only (French tchao, Portuguese tchau/chau, German tschau, Spanish chao/chau).',
+				},
+			},
+			{
+				heading: 'One word for hello and goodbye, with real formal alternatives',
+				body: [
+					'Treccani\'s definition spells out something English "hello" and "goodbye" never have to deal with: ciao is used, in the dictionary\'s own wording, "al momento dell\'incontro o della separazione," at the moment of meeting or at the moment of separation. Italian doesn\'t reach for two different casual words the way English does; ciao does both jobs, and only context tells a listener which one is meant. Wiktionary\'s English entry shows that double duty survived the word\'s move into English largely intact: it lists ciao under both "Hello, hi" and "Bye, goodbye," treating it as functionally bilingual even in its borrowed form, not slang for one direction only.',
+					'That freedom comes with a real restriction. Treccani ties ciao specifically to people addressed with tu, Italian\'s informal "you." For anyone else (a stranger, a boss, an older relative met for the first time), Wiktionary\'s Italian entry lists the formal alternatives Italian speakers reach for instead: salve or buongiorno for hello, and arrivederla or arrivederci for goodbye, with ci vediamo ("see you") as a separate colloquial option that isn\'t formal either. Wiktionary\'s usage note on the English entry adds a wrinkle for anyone using the word outside Italy: in the UK and US, some speakers hear ciao as pretentious rather than just casual, an unusually blunt aside for a dictionary to include, and a reminder that a borrowed word can land differently in its adopted language than it does at home. A formal/informal split hard-coded into one greeting isn\'t unique to Italian, either. [Spanish\'s vosotros/ustedes distinction](/spanish-pronouns/) marks the identical kind of register line, just on the pronoun itself instead of on a single word for hello.',
+				],
+			},
+			{
+				heading: 'Where ciao traveled, and what usually got left behind',
+				body: [
+					'Wiktionary\'s descendants list for the Italian word is long: French (ciao, tchao), German (tschau, ciao), Portuguese (tchau, chau, and the Portugal-specific xau), Spanish (chao, chau), Czech (čau), Polish (ciao), Dutch (ciao, tjo), Russian (чао), Serbo-Croatian (ćao), and dozens more across nearly every language family spoken in Europe. Few loanwords spread this far this fast; ciao\'s arc from a Venetian courtesy phrase to a near-universal European greeting happened largely within the last two centuries.',
+					'What most of those borrowings didn\'t keep is the dual function covered above. Larousse defines tchao itself as purely a familiar way to say au revoir, and its separate synonym dictionary entry for tchao lists adieu and bonsoir as the closest matches, with no hello sense in either listing. Wiktionary\'s Portuguese entry for tchau shows the identical restriction. So does German: tschau, per Wiktionary\'s own descendants list, functions as a casual goodbye, distinct from the language\'s other everyday farewell, tschüss, which despite sounding similar has nothing to do with Italian. Wiktionary traces tschüss through Low German tschüß, from an earlier adjüs, from Dutch adjuus, from Spanish adiós or French adieu, an entirely separate chain that happens to have landed on a similar sound. Two centuries of borrowing turned one Italian word that does two jobs into several European words that mostly do just one, goodbye, while ciao\'s fuller sense mostly stayed home. That\'s the usual shape a loanword takes crossing a border. [Mahalo](/mahalo-meaning/) survives its own trip into English tourist use carrying only its "thanks" sense, leaving the dictionary\'s second meaning, admiration, behind. Ciao runs that pattern in reverse: English is the outlier that kept the whole thing intact, as the "Hello, hi" and "Bye, goodbye" listing above shows, while it\'s French, Portuguese, and German that did the usual narrowing instead.',
+				],
+			},
+			{
+				heading: 'Not the only greeting with a servile past, and one false lead',
+				body: [
+					'Ciao isn\'t the only common European greeting built on a word for servitude. Servus, still used as a casual hello and goodbye across Austria, Bavaria, and much of the former Habsburg Empire (Hungary, Croatia, Slovenia, Slovakia, Romania), comes directly from the Latin word for "slave" or "servant," reportedly shortened from a fuller courtly phrase, servus humillimus, domine spectabilis, "your most humble servant, noble lord." It lost that submissive meaning the same way s-ciao vostro did, contracting from a declaration of total deference into an everyday greeting. Two unrelated language families, Romance and Germanic, independently arrived at the same move: take a phrase that means "I am your slave" and strip out the subservience, and what\'s left is a casual hello.',
+					'One connection worth ruling out directly, because the sound makes it an easy trap: Vietnamese chào also means "hello, goodbye," and to an English ear it\'s close enough to ciao that a shared origin seems obvious. Wiktionary\'s entry addresses this head-on, noting in its etymology section that ciao is "not related" to Vietnamese chào. The resemblance is coincidence. Chào comes from an entirely separate linguistic lineage, with no borrowing or shared ancestor connecting it to the Venetian phrase traced above, a reminder that two words sounding alike is never evidence that they\'re related.',
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'Does ciao mean hello or goodbye?',
+				answer: 'Both. Treccani\'s own definition says ciao is used "al momento dell\'incontro o della separazione," at the moment of meeting or at the moment of separation, so context, not the word itself, signals which one is meant. Wiktionary\'s English entry lists it under both "Hello, hi" and "Bye, goodbye" too, showing the double meaning carried over into English use.',
+			},
+			{
+				question: 'Is it OK to say ciao to a stranger or in a formal setting?',
+				answer: 'Not according to Treccani, which ties ciao specifically to people addressed with tu, Italian\'s informal "you." For a stranger, a boss, or a formal setting, Wiktionary\'s Italian entry lists the actual alternatives: salve or buongiorno for hello, arrivederla or arrivederci for goodbye.',
+			},
+			{
+				question: 'Why do French tchao and Portuguese tchau only mean goodbye?',
+				answer: 'Because most languages that borrowed ciao only kept half its job. Larousse, the standard French dictionary, defines tchao purely as a familiar way to say "au revoir," with no hello sense at all, and Wiktionary\'s Portuguese entry for tchau shows the same restriction. English is the exception among ciao\'s borrowers: it kept both the hello and goodbye senses.',
+			},
+			{
+				question: 'Is German tschau the same word as tschüss?',
+				answer: 'No, despite sounding alike and doing the same job. Tschau is Italian ciao borrowed directly, per Wiktionary\'s descendants list for ciao. Tschüss has a separate origin entirely: Wiktionary traces it through Low German tschüß, an earlier adjüs, and Dutch adjuus, back to Spanish adiós or French adieu, with no connection to Italian at all.',
+			},
+			{
+				question: 'Is ciao related to Vietnamese chào?',
+				answer: 'No. Wiktionary\'s etymology entry states directly that ciao is "not related" to Vietnamese chào, despite the two words sounding alike and both meaning "hello, goodbye." They come from entirely separate language families with no shared ancestor or borrowing between them; the resemblance is coincidence.',
+			},
+		],
+		sources: [
+			{ label: 'Treccani — Vocabolario online: "ciao"', url: 'https://www.treccani.it/vocabolario/ciao/' },
+			{ label: 'Wiktionary — "ciao" (English entry: etymology, usage notes, translations)', url: 'https://en.wiktionary.org/wiki/ciao' },
+			{ label: 'Wiktionary — "ciao" (Italian entry: etymology, formal synonyms, descendants)', url: 'https://en.wiktionary.org/wiki/ciao#Italian' },
+			{ label: 'Wiktionary — "slave" (English entry: Late Latin Sclavus, doublet of ciao and Slav)', url: 'https://en.wiktionary.org/wiki/slave#English' },
+			{ label: 'Wiktionary — "tschüss" (German entry: etymology via Low German adjüs, Dutch adjuus, Spanish adiós or French adieu)', url: 'https://en.wiktionary.org/wiki/tsch%C3%BCss#German' },
+			{ label: 'Larousse — Dictionnaire de français: "ciao, tchao"', url: 'https://www.larousse.fr/dictionnaires/francais/ciao/15946' },
+			{ label: 'Larousse — Dictionnaire des synonymes: "tchao !"', url: 'https://www.larousse.fr/dictionnaires/synonymes/tchao/20266' },
+			{ label: 'Wikipedia — "Servus" (Central European greeting, etymology from Latin)', url: 'https://en.wikipedia.org/wiki/Servus' },
+		],
+	},
 ];
