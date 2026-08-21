@@ -4316,4 +4316,83 @@ export const guides: Guide[] = [
 			{ label: 'ResearchGate — "Proposing a tripartite intensifier system: re, muy, and bien in Buenos Aires and Tucumán, Argentina" (2019)', url: 'https://www.researchgate.net/publication/334272425_Proposing_a_tripartite_intensifier_system_re_muy_and_bien_in_Buenos_Aires_and_Tucuman_Argentina' },
 		],
 	},
+	{
+		slug: 'spanish-si-clauses',
+		category: 'Grammar',
+		title: 'Spanish Si Clauses: The Three Types and Their Tense Rules',
+		description: 'Si clauses split into three fixed tense pairings, real, potential, and unreal past, and mixing the pairings produces a specific error the RAE calls out by name.',
+		published: '2026-08-21',
+		updated: '2026-08-21',
+		coreSummary: 'Spanish si clauses pair a prótasis (the si-part) with an apódosis (the result) in one of three fixed combinations: real conditions take present indicative then present, future, or imperative; potential (present-hypothetical) conditions take imperfect subjunctive then conditional; unreal past conditions take pluperfect subjunctive then compound conditional or pluperfect subjunctive. Per the Real Academia Española, si itself rejects the future, the conditional, and both the present and present-perfect subjunctive in the prótasis, which is exactly why "si tendría" and "si tengas" are flagged as errors rather than accepted variants.',
+		language: 'Spanish',
+		sections: [
+			{
+				heading: 'Two clauses, one fixed pairing between them',
+				body: [
+					'The RAE\'s grammatical glossary names the two halves directly: the si-clause is the prótasis, the condition that has to be met, and the result clause is the apódosis, what follows if that condition holds. The two aren\'t chosen independently. Spanish locks each type of condition to one specific tense in the prótasis and one specific tense (or narrow pair of tenses) in the apódosis, and swapping a tense from one pairing into another is what produces the errors native speakers notice immediately.',
+					'English "if" clauses are far more forgiving about tense mixing, which is part of why this structure trips up English-speaking learners. Spanish has exactly three pairings in everyday use, sorted by how real the condition is: something that might actually happen, something that\'s hypothetical right now, and something that didn\'t happen in the past.',
+				],
+				image: {
+					src: '/images/spanish-si-clauses-diagram.svg',
+					alt: 'Diagram of the three Spanish si-clause tense pairings: real (present indicative then present/future/imperative), potential (imperfect subjunctive then conditional), and unreal past (pluperfect subjunctive then compound conditional or pluperfect subjunctive), plus a callout on the "si tendría" error RAE rejects.',
+				},
+			},
+			{
+				heading: 'Real conditions: a possibility, not a guess',
+				body: [
+					'When the condition is genuinely open, something that could well happen, the prótasis takes the present indicative and the apódosis takes present, future, or imperative indicative. *Si llueve, me quedo en casa* ("If it rains, I stay home") states a general pattern; *Si vienes temprano, cenaremos juntos* ("If you come early, we\'ll have dinner together") reports a specific future plan; *Si vieras a Pepe, dile que sí* ("If you see Pepe, tell him yes") gives an instruction. All three keep the same present-indicative prótasis and just vary which indicative tense (or mood, for the command) carries the result.',
+					'Nothing about this pairing signals doubt. The present indicative in the prótasis is doing the same job it does everywhere else in Spanish, reporting something as a straightforward fact, which is exactly why real conditions never take the subjunctive: there\'s no hypothesis to mark.',
+				],
+			},
+			{
+				heading: 'Potential: a hypothesis about right now',
+				body: [
+					'When the condition is contrary to how things actually stand at present, or is being floated as unlikely, the prótasis switches to the imperfect subjunctive and the apódosis takes the simple conditional (or, less often, the imperative). *Si tuviera dinero, viajaría* ("If I had money, I would travel") signals, through tuviera rather than tengo, that the speaker doesn\'t currently have the money. Swap either half out on its own, tengo for tuviera or viajo for viajaría, and the sentence stops being a present-tense hypothesis: it either turns ungrammatical or turns into a different construction with a different meaning. The RAE\'s basic grammar treats the two halves as a single coupled unit for exactly that reason.',
+					'The [conditional tense guide](/spanish-conditional-tense/) covers viajaría and its siblings from the conditional\'s own side; [the subjunctive guide](/subjunctive-spanish/) covers tuviera\'s mood in general, whenever a clause needs to mark something as unverified rather than asserted, here applied specifically to a present-tense hypothesis.',
+				],
+			},
+			{
+				heading: 'Unreal past: what didn\'t happen, and its double negative',
+				body: [
+					'For conditions that are contrary to a past fact, the prótasis moves to the pluperfect subjunctive (hubiera or hubiese + past participle) and the apódosis takes the compound conditional (habría + past participle) or, just as validly, the pluperfect subjunctive again. *Si se lo hubieran explicado, lo habría entendido* and *Si se lo hubieran explicado, lo hubiera entendido* are both correct per the RAE, describing an explanation that never happened and, as a result, an understanding that never followed. Per the RAE\'s own reply on the alternation, habría and hubiera are the two forms actually competing for that apódosis slot; hubiese is grammatical there too, but shows up less often than either of the other two.',
+					'The logic runs backward from what the English glosses suggest at first glance: an affirmative unreal-past condition designates a past situation that did not occur, while a negative one designates a situation that did occur. *Si hubiera estudiado, habría aprobado* means the person didn\'t study and didn\'t pass; *si no hubiera llovido, habríamos salido* means it did rain and they didn\'t go out. Reading the affirmative or negative on the surface without tracking that inversion is a common source of misreading these sentences, not just producing them.',
+				],
+			},
+			{
+				heading: 'Why "si tendría" is a named error, not a regional variant',
+				body: [
+					'The RAE is explicit about what si rejects in the prótasis in current Spanish: the future (*si tendrás dinero), the conditional (*si tendrías dinero), the present subjunctive (*si tengas dinero), and the present-perfect subjunctive (*si hayas tenido dinero). "Si tendría dinero, me compraría un coche" is that second error in the wild, a conditional sitting where the imperfect subjunctive belongs (si tuviera dinero). The same substitution one tense further back, using the compound conditional inside the prótasis itself (si habría tenido, rather than si hubiera tenido) instead of keeping it confined to the apódosis where it belongs, is documented as a feature of speech in some regions of Latin America and in Basque-contact areas of northern Spain, including Navarra, Cantabria, and La Rioja, which is why it\'s worth flagging by name rather than treating as a universal slip.',
+					'One more prótasis form is now effectively extinct outside of one register: the future subjunctive (si tuvieres, si hubieres tenido) was ordinary in medieval and classical Spanish, but per the RAE it is not part of the modern general language and survives almost entirely in legal and administrative wording, the same fossilized-register pattern the [French subjunctive guide](/french-subjunctive/) describes for that language\'s own literary-only past subjunctive tenses. A learner will encounter it in a contract long before hearing it in conversation, if ever.',
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'What are the three types of si clauses in Spanish?',
+				answer: 'Real conditions (si + present indicative, then present/future/imperative: Si llueve, me quedo en casa), potential conditions that are hypothetical about the present (si + imperfect subjunctive, then conditional: Si tuviera dinero, viajaría), and unreal past conditions (si + pluperfect subjunctive, then compound conditional or pluperfect subjunctive: Si lo hubiera sabido, te habría llamado). Each pairing is fixed; the tense in the si-clause determines which tense the result clause is allowed to take.',
+			},
+			{
+				question: 'Why is "si tendría" wrong?',
+				answer: 'The RAE explicitly lists the conditional as one of the forms si rejects in the prótasis, alongside the future, the present subjunctive, and the present-perfect subjunctive. "Si tendría dinero, me compraría un coche" should be "si tuviera dinero" (imperfect subjunctive). Putting the compound conditional into the prótasis (si habría tenido) is the same error one step further back in time, and it\'s documented as a feature of speech in some regions of Latin America and in Basque-contact areas of northern Spain rather than treated as standard.',
+			},
+			{
+				question: 'Is "si hubiera estudiado, habría aprobado" or "hubiera aprobado" correct?',
+				answer: 'Both. The RAE accepts the compound conditional (habría aprobado) and the pluperfect subjunctive (hubiera aprobado) as interchangeable in the apódosis of an unreal past condition. A third option, hubiese aprobado, is grammatical there as well, but per the RAE\'s own reply on the subject, it shows up less often than either habría or hubiera in that slot.',
+			},
+			{
+				question: 'Does si ever take the present subjunctive?',
+				answer: 'No. That\'s one of the four forms the RAE says si rejects outright in current Spanish, along with the future, the conditional, and the present-perfect subjunctive. A clause like "si tengas dinero" is not a stylistic variant; it\'s an ungrammatical mixing of the real-condition prótasis (which wants tienes, present indicative) with the subjunctive.',
+			},
+		],
+		sources: [
+			{ label: 'RAE — Glosario de términos gramaticales: "oración condicional"', url: 'https://www.rae.es/gtg/oraci%C3%B3n-condicional' },
+			{ label: 'RAE — Glosario de términos gramaticales: "prótasis"', url: 'https://www.rae.es/gtg/pr%C3%B3tasis' },
+			{ label: 'RAE — Glosario de términos gramaticales: "apódosis"', url: 'https://www.rae.es/gtg/ap%C3%B3dosis' },
+			{ label: 'RAE — Nueva gramática básica de la lengua española: "29.2.4 Tiempo y modo en los períodos condicionales"', url: 'https://www.rae.es/gram%C3%A1tica-b%C3%A1sica/construcciones-condicionales-y-concesivas/construcciones-condicionales/tiempo-y-modo-en-los-per%C3%ADodos-condicionales' },
+			{ label: 'RAE — Nueva gramática de la lengua española: "Tiempo y modo en las oraciones condicionales"', url: 'https://www.rae.es/gram%C3%A1tica/sintaxis/tiempo-y-modo-en-las-oraciones-condicionales' },
+			{ label: 'RAE — Diccionario panhispánico de dudas: "si"', url: 'https://www.rae.es/dpd/si' },
+			{ label: 'RAE — Glosario de términos gramaticales: "futuro simple de subjuntivo"', url: 'https://www.rae.es/gtg/futuro-simple-de-subjuntivo' },
+			{ label: 'RAE (@RAEinforma) — reply on hubiera/habría/hubiese in the apódosis of past conditionals', url: 'https://x.com/RAEinforma/status/1910661323312030044' },
+		],
+	},
 ];

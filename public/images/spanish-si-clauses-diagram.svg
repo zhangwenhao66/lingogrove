@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" font-family="system-ui, -apple-system, sans-serif">
+	<rect width="800" height="460" fill="#f6f4e9"/>
+
+	<!-- Row 1: Real -->
+	<text x="48" y="42" fill="#201f1a" font-size="18" font-weight="700">Real: si + present indicative, then present/future/imperative</text>
+	<rect x="48" y="58" width="330" height="46" rx="6" fill="#eae5cf" stroke="#ddd8c4"/>
+	<text x="63" y="87" fill="#5a5648" font-size="15">Si llueve,</text>
+	<rect x="400" y="58" width="352" height="46" rx="6" fill="#e4efe6" stroke="#bcd6c2"/>
+	<text x="415" y="87" fill="#204a31" font-size="15" font-weight="600">me quedaré en casa.</text>
+	<text x="600" y="120" text-anchor="middle" fill="#5a5648" font-size="13">(if it rains, a real possibility, I'll stay home)</text>
+
+	<!-- Row 2: Potential -->
+	<text x="48" y="164" fill="#201f1a" font-size="18" font-weight="700">Potential: si + imperfect subjunctive, then conditional</text>
+	<rect x="48" y="180" width="330" height="46" rx="6" fill="#eae5cf" stroke="#ddd8c4"/>
+	<text x="63" y="209" fill="#5a5648" font-size="15">Si tuviera dinero,</text>
+	<rect x="400" y="180" width="352" height="46" rx="6" fill="#e4efe6" stroke="#bcd6c2"/>
+	<text x="415" y="209" fill="#204a31" font-size="15" font-weight="600">viajaría.</text>
+	<text x="600" y="242" text-anchor="middle" fill="#5a5648" font-size="13">(contrary to fact right now: I don't have the money)</text>
+
+	<!-- Row 3: Unreal past -->
+	<text x="48" y="286" fill="#201f1a" font-size="18" font-weight="700">Unreal past: si + pluperfect subjunctive, then compound conditional or pluperfect subjunctive</text>
+	<rect x="48" y="302" width="330" height="46" rx="6" fill="#eae5cf" stroke="#ddd8c4"/>
+	<text x="63" y="331" fill="#5a5648" font-size="15">Si lo hubiera sabido,</text>
+	<rect x="400" y="302" width="352" height="46" rx="6" fill="#e4efe6" stroke="#bcd6c2"/>
+	<text x="415" y="331" fill="#204a31" font-size="15" font-weight="600">te habría llamado.</text>
+	<text x="600" y="364" text-anchor="middle" fill="#5a5648" font-size="13">(contrary to a past fact: I found out too late to call)</text>
+
+	<!-- Row 4: the rejected error -->
+	<rect x="48" y="392" width="704" height="52" rx="6" fill="#f3e3e1" stroke="#e3bdb8"/>
+	<text x="400" y="415" text-anchor="middle" fill="#8a3b34" font-size="15" font-weight="600">RAE marks "si tendría" and "si tengas" as incorrect</text>
+	<text x="400" y="434" text-anchor="middle" fill="#8a3b34" font-size="13">si never takes the future, the conditional, or the present/present-perfect subjunctive</text>
+</svg>
