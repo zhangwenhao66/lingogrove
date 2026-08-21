@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 780" font-family="system-ui, -apple-system, sans-serif">
+	<rect width="800" height="780" fill="#f6f4e9"/>
+	<rect x="24" y="24" width="752" height="732" rx="10" fill="#fffefa" stroke="#ddd8c4"/>
+
+	<rect x="24" y="24" width="752" height="56" rx="10" fill="#2f6b47"/>
+	<rect x="24" y="60" width="752" height="20" fill="#2f6b47"/>
+	<text x="400" y="60" text-anchor="middle" fill="#ffffff" font-size="17" font-weight="700">FRENCH CONDITIONAL: WHY "SI TU VOUDRAIS" IS WRONG</text>
+
+	<!-- row 1: formation -->
+	<rect x="46" y="100" width="708" height="80" rx="8" fill="#eaf1ea" stroke="#2f6b47"/>
+	<text x="400" y="124" text-anchor="middle" fill="#5a5648" font-size="12" font-weight="700">FORMATION: FUTURE'S STEM PLUS IMPERFECT'S ENDINGS</text>
+	<text x="400" y="148" text-anchor="middle" fill="#204a31" font-size="14" font-weight="700">parler &#8594; parler- + -rais, -rais, -rait, -rions, -riez, -raient</text>
+	<text x="400" y="168" text-anchor="middle" fill="#5a5648" font-size="11">irregular stems: aller&#8594;ir- &#183; avoir&#8594;aur- &#183; &#234;tre&#8594;ser- &#183; faire&#8594;fer- &#183; pouvoir&#8594;pourr- &#183; venir&#8594;viendr-</text>
+
+	<!-- row 2: mood/tense classification, genuinely contested -->
+	<rect x="46" y="192" width="708" height="64" rx="8" fill="#fbead0" stroke="#ddd8c4"/>
+	<text x="400" y="216" text-anchor="middle" fill="#5a5648" font-size="12" font-weight="700">MOOD OR TENSE? THE CLASSIFICATION IS GENUINELY CONTESTED</text>
+	<text x="400" y="238" text-anchor="middle" fill="#201f1a" font-size="12" font-style="italic">OQLF: a tense of the indicative. Lawless French and others: still its own mood. Spanish's condicional has the same split.</text>
+
+	<!-- row 3: si-clause chronological chart header -->
+	<text x="400" y="284" text-anchor="middle" fill="#5a5648" font-size="12" font-weight="700">THE SI-CLAUSE RULE: CONDITION NEVER OUTRUNS CONSEQUENCE</text>
+
+	<!-- three pairing rows -->
+	<rect x="46" y="296" width="708" height="52" rx="6" fill="#ffffff" stroke="#2f6b47" stroke-width="1.5"/>
+	<text x="70" y="328" fill="#204a31" font-size="13" font-weight="700">si + PRESENT</text>
+	<text x="330" y="328" fill="#5a5648" font-size="16">&#8594;</text>
+	<text x="360" y="328" fill="#201f1a" font-size="13" font-weight="700">FUTURE</text>
+	<text x="540" y="328" fill="#5a5648" font-size="11" font-style="italic">si tu viens, j&#8217;irai</text>
+
+	<rect x="46" y="354" width="708" height="52" rx="6" fill="#ffffff" stroke="#2f6b47" stroke-width="1.5"/>
+	<text x="70" y="386" fill="#204a31" font-size="13" font-weight="700">si + IMPERFECT</text>
+	<text x="330" y="386" fill="#5a5648" font-size="16">&#8594;</text>
+	<text x="360" y="386" fill="#201f1a" font-size="13" font-weight="700">CONDITIONAL PRESENT</text>
+	<text x="540" y="386" fill="#5a5648" font-size="11" font-style="italic">si tu venais, j&#8217;irais</text>
+
+	<rect x="46" y="412" width="708" height="52" rx="6" fill="#ffffff" stroke="#2f6b47" stroke-width="1.5"/>
+	<text x="70" y="444" fill="#204a31" font-size="13" font-weight="700">si + PLUPERFECT</text>
+	<text x="330" y="444" fill="#5a5648" font-size="16">&#8594;</text>
+	<text x="360" y="444" fill="#201f1a" font-size="12" font-weight="700">COND. PRESENT or PAST</text>
+	<text x="540" y="444" fill="#5a5648" font-size="11" font-style="italic">si tu &#233;tais venu, j&#8217;aurais aim&#233;</text>
+	<text x="400" y="470" text-anchor="middle" fill="#8a8567" font-size="10">all three protases stay in the indicative in French (unlike Spanish, which shifts to the subjunctive here)</text>
+
+	<!-- forbidden row -->
+	<rect x="46" y="484" width="708" height="44" rx="6" fill="#fbe4e0" stroke="#b5453a"/>
+	<text x="400" y="510" text-anchor="middle" fill="#8c332a" font-size="12" font-weight="700">IN A REAL CONDITION: si + FUTURE or si + CONDITIONAL is banned. "si tu voudrais" is always an error.</text>
+
+	<!-- exceptions box -->
+	<rect x="46" y="544" width="708" height="170" rx="8" fill="#eaf1ea" stroke="#2f6b47"/>
+	<text x="400" y="568" text-anchor="middle" fill="#5a5648" font-size="12" font-weight="700">TWO EXCEPTIONS: SI ISN'T ALWAYS SETTING A CONDITION</text>
+	<text x="400" y="592" text-anchor="middle" fill="#204a31" font-size="12" font-weight="700">1. Indirect question: si = "whether"</text>
+	<text x="400" y="610" text-anchor="middle" fill="#201f1a" font-size="11" font-style="italic">e.g. "we'd like to know whether you'd be available", a reported question, not a hypothesis</text>
+	<text x="400" y="632" text-anchor="middle" fill="#204a31" font-size="12" font-weight="700">2. Concessive si: si = "granted that"</text>
+	<text x="400" y="650" text-anchor="middle" fill="#201f1a" font-size="11" font-style="italic">e.g. "granted, no one can say for certain it'll rain, but the sky will be overcast"</text>
+	<text x="400" y="672" text-anchor="middle" fill="#5a5648" font-size="11">Test: swap si for "whether" in English. If it still works, the conditional/future is allowed.</text>
+	<text x="400" y="694" text-anchor="middle" fill="#8a8567" font-size="10">mnemonic: "les si n'aiment pas les rais" (the ifs don't like the -rais endings). Covers the base rule only.</text>
+
+	<text x="400" y="732" text-anchor="middle" fill="#8a8567" font-size="10">Source: Office qu&#233;b&#233;cois de la langue fran&#231;aise, Vitrine linguistique. Le conditionnel</text>
+</svg>

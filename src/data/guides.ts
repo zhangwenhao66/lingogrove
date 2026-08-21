@@ -4475,4 +4475,85 @@ export const guides: Guide[] = [
 			{ label: 'Wikipedia — "Servus" (Central European greeting, etymology from Latin)', url: 'https://en.wikipedia.org/wiki/Servus' },
 		],
 	},
+	{
+		slug: 'french-conditional',
+		category: 'Grammar',
+		title: 'French Conditional: Why "Si Tu Voudrais" Is Always Wrong',
+		description: 'French pairs si with a strict chronological order of tenses, and the conditional itself is barred from the if-clause: a rule nearly every learner breaks at least once.',
+		published: '2026-08-21',
+		updated: '2026-08-21',
+		coreSummary: 'The French conditionnel is built by adding the imperfect\'s endings (-rais, -rais, -rait, -rions, -riez, -raient) onto the same -r- stem the simple future uses, and its classification is genuinely contested: the Office québécois de la langue française treats it as a tense within the indicative because of those shared endings, while other standard references, including Lawless French, still teach it as its own mood built around hypothetical meaning. What almost nobody disputes is the si-clause rule: si pairs with a present or past-tense verb, never with the future or the conditional itself, so je viendrais si tu voudrais is wrong regardless of how natural it sounds, though the conditional does return after si in two narrower cases, when si introduces an indirect question (nous aimerions savoir si vous seriez disposée à entrer en fonction le mois prochain) or a concession.',
+		language: 'French',
+		sections: [
+			{
+				heading: 'Formation: the future\'s stem, the imperfect\'s endings',
+				body: [
+					'Every conditional form starts with the same -r- that marks the simple future, then adds the six endings the imperfect already uses everywhere else: -rais, -rais, -rait, -rions, -riez, -raient. Per the Office québécois de la langue française\'s formation reference, regular -er verbs keep the infinitive as their stem and slot an e in before that ending (nous aimerions, il téléphonerait), and regular -ir verbs do the same with an i (ils finiraient, tu partirais). Most irregular -re verbs skip the extra vowel and attach the ending straight onto the infinitive minus its final e, which is why mettre gives mettrais rather than the metterais a learner might guess by analogy with the -er pattern.',
+					'A set of verbs replace the stem outright instead of just tweaking it, and the OQLF\'s own conjugation table lists thirteen of them together, with no ranking by frequency, just an infinitive-to-stem pairing for each: acquérir becomes acquerr- (j\'acquerrais), aller becomes ir- (j\'irais), avoir becomes aur- (j\'aurais), courir becomes courr- (je courrais), cueillir becomes cueiller- (je cueillerais), être becomes ser- (je serais), faire becomes fer- (je ferais), mourir becomes mourr- (je mourrais), pouvoir becomes pourr- (je pourrais), savoir becomes saur- (je saurais), tenir becomes tiendr- (je tiendrais), venir becomes viendr- (je viendrais), and voir becomes verr- (je verrais).',
+					'Spelling also shifts in predictable ways within the regular pattern: verbs like acheter or peser turn their stem\'s e into è (j\'achèterais, nous pèserions), verbs ending in -oyer or -uyer swap y for i (je nettoierais), and a small set of -eler/-eter verbs (appeler, jeter, and their derivatives) double the final consonant instead (elle appellerait), while the rest of that family follows the è pattern like acheter.',
+				],
+				image: {
+					src: '/images/french-conditional-diagram.svg',
+					alt: 'Diagram of the French conditional: the formation rule (future stem plus imperfect endings), a chronological chart of si-clause tense pairings (si + present → future; si + imperfect → conditional present; si + pluperfect → conditional present or past), and the indirect-question exception where si can be replaced by "whether."',
+				},
+			},
+			{
+				heading: 'Mood or tense? The classification most courses never mention',
+				body: [
+					'French grammar traditionally sorted the conditional in with the true moods, subjonctif and impératif, treating it as a separate way of framing a statement instead of just another point on the timeline. Plenty of standard teaching references still classify it that way: Lawless French, cited elsewhere in this article for its habitual-past distinction, sorts the conditional as its own mood, built around hypothetical meaning rather than a fixed place on the timeline. The Office québécois de la langue française takes the opposite position. Per its own overview page: "longtemps présenté comme un mode, le conditionnel est maintenant considéré par la majorité des linguistes et grammairiens comme un temps du mode indicatif," long presented as a mood, the conditional is now considered by most linguists and grammarians to be a tense within the indicative mood. The argument for that side rests on the endings themselves: the -r- is the same marker the simple future carries, and the six endings that follow are identical to the imperfect\'s, which makes the conditional look, structurally, like a close relative of two indicative tenses instead of an independent grammatical category.',
+					'Neither position erases the conditional\'s hypothetical, modal side, and the OQLF is explicit that the line between mood and tense gets blurry here precisely because several indicative tenses (the future and the imperfect among them) already carry modal shades of their own, without anyone proposing to reclassify those as separate moods. [Spanish\'s condicional simple sits in the same unresolved spot](/spanish-conditional-tense/): the RAE classifies it as an indicative tense, and the same long-running argument over whether it deserves mood status on its own hasn\'t gone away there either. French\'s own subjunctive skips that argument entirely; [it stays sorted with impératif](/french-subjunctive/) as a genuinely separate mode in every reference worth citing, with no comparable tense-reclassification debate attached to it.',
+				],
+			},
+			{
+				heading: 'The si rule: why the if-clause can never take the conditional',
+				body: [
+					'Si clauses in French follow a fixed chronological order rather than a free pairing of tenses, and the OQLF states the underlying logic directly: the condition comes before the consequence, so the condition can only sit in the present or a past tense, never the future or the conditional, while the consequence is the half of the sentence that\'s actually allowed to reach into the future. Si + present pairs with a future-tense consequence (si Mélanie oublie mon anniversaire, je lui pardonnerai). Si + imperfect pairs with a conditional-present consequence describing something that could still happen (si Mélanie oubliait mon anniversaire, je lui pardonnerais, not si Mélanie oublierait). Si + pluperfect pairs with either a conditional present, for a possible outcome, or a conditional past, for something that flatly didn\'t happen (si tu avais été attentif, je n\'aurais pas eu besoin de répéter).',
+					'Putting the conditional directly after si is one of the errors French teachers correct most often in English-speaking learners, because both halves of a hypothetical sentence feel equally uncertain to a speaker in the moment, even though French grammar only lets one half carry that uncertainty grammatically. [Spanish follows the same chronological logic in its own si clauses](/spanish-si-clauses/), but builds the three pairings out of different moods: the imperfect and pluperfect that appear in a French si-clause are both indicative forms, while the equivalent Spanish protases switch into the imperfect or pluperfect subjunctive instead, so the same three-step structure rests on two different grammatical foundations depending on the language.',
+					'The rule has two narrower exceptions, and both hinge on what si is actually doing in the sentence: not every si sets up a condition. The better-known one: when si introduces an indirect question, the conditional is fully correct on either side of it. Nous aimerions savoir si vous seriez disposée à entrer en fonction le mois prochain is a reported version of the direct question seriez-vous disposée...?, not a hypothesis, so the ban doesn\'t apply. The reliable test is substitution: if si can be swapped for "whether" in the English translation without changing the meaning, it\'s the interrogative si and the conditional is fine; if only "if" works, it\'s the conditional si and the future/conditional stays banned. The second, rarer exception is concessive si, where the clause concedes a point without laying down a condition at all: per the OQLF, si l\'on ne saurait affirmer hors de tout doute qu\'il pleuvra, on peut assurément dire que le ciel sera couvert ("granted, no one can say for certain it will rain, but the sky will definitely be overcast") keeps the future after si because si here means something closer to "granted that" than "if." French grammar sites commonly summarize the base rule with the rhyme les si n\'aiment pas les rais, "the ifs don\'t like the -rais endings," a mnemonic that covers only the conditional si and says nothing about either exception.',
+				],
+			},
+			{
+				heading: 'Two more genuine uses, and the "would" trap',
+				body: [
+					'Outside hypotheticals, the conditional carries a real temporal job the OQLF calls the futur du passé, the future of the past: when a past-tense verb is followed by a conditional-tense verb, the conditional marks something that\'s future relative to that past moment, not future relative to now. Sara a appris hier que son frère l\'accompagnerait uses accompagnerait to describe an event that\'s still ahead of the brother\'s plans, even though the whole sentence is grammatically anchored in yesterday. The same substitution shows up in indirect reported speech: if the original statement used the future tense, quoting it indirectly after a past-tense verb converts that future into a conditional. François a affirmé qu\'il ne voterait que selon sa conscience reports what was originally je ne voterai que selon ma conscience, with voterai becoming voterait purely because the reporting verb, a affirmé, sits in the past.',
+					'English "would" is a false-friend guide to when the conditional actually applies, and not a translation rule. "She would visit every summer" describes a repeated past habit, which French renders with the imperfect (elle rendait visite chaque été), not the conditional, despite the English wording looking identical to a hypothetical "would." Only the hypothetical or future-of-the-past sense of "would" maps onto the conditionnel; the habitual-past sense doesn\'t, which is the exact same trap [Spanish\'s own conditional entry describes](/spanish-conditional-tense/) for that language\'s identical false-friend problem with "would."',
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'Is the French conditional a mood or a tense?',
+				answer: 'It depends which reference you\'re reading. The Office québécois de la langue française classifies it as a tense within the indicative mood, based on its endings, which share the future\'s -r- marker and the imperfect\'s -ais/-ait/-ions family, and says most linguists and grammarians now agree. Other standard teaching references, including Lawless French, still classify it as its own mood built around hypothetical meaning. Its hypothetical, modal uses haven\'t gone away under either classification.',
+			},
+			{
+				question: 'Why is "si tu voudrais" wrong?',
+				answer: 'Because si clauses follow a fixed chronological order where the condition can only be in the present or a past tense, never the future or conditional. Si pairs with the present (si tu viens), the imperfect (si tu venais), or the pluperfect (si tu étais venu), never with voudrais or any other conditional form. The consequence clause is the half allowed to use the conditional, not the si-clause itself.',
+			},
+			{
+				question: 'Can the conditional ever follow "si" in French?',
+				answer: 'Yes, in two situations. The main one is when si introduces an indirect question, not a condition, as in nous aimerions savoir si vous seriez disposée à entrer en fonction le mois prochain. The test is substitution: if "whether" works in the English translation, the conditional is fine after si; if only "if" works, it stays banned. A second, rarer case is concessive si ("granted that..."), which also allows the future or conditional. Both exceptions are real but rarely taught alongside the base rule.',
+			},
+			{
+				question: 'What\'s the difference between the conditional present and conditional past after "si"?',
+				answer: 'Both can follow a pluperfect si-clause, but they mark different outcomes. The conditional present (si tu avais su, tu comprendrais) describes something still possible now; the conditional past (si tu avais été attentif, je n\'aurais pas eu besoin de répéter) marks something that flatly didn\'t happen, what French grammar calls the irréel.',
+			},
+			{
+				question: 'Does English "would" always translate to the French conditional?',
+				answer: 'No. "Would" for a hypothetical or a future-of-the-past ("she said she would come") maps to the conditionnel, but "would" for a repeated past habit ("we would go every summer") maps to the imperfect instead (nous allions chaque été). Treating every English "would" as an automatic cue for the conditional produces a real, common error.',
+			},
+			{
+				question: 'Which verbs have an irregular conditional stem?',
+				answer: 'Per the OQLF\'s own conjugation table, thirteen verbs swap the stem itself rather than simply adding a vowel to it: acquérir (acquerr-), aller (ir-), avoir (aur-), courir (courr-), cueillir (cueiller-), être (ser-), faire (fer-), mourir (mourr-), pouvoir (pourr-), savoir (saur-), tenir (tiendr-), venir (viendr-), and voir (verr-). All of them still take the same -rais/-rais/-rait/-rions/-riez/-raient endings as every regular verb.',
+			},
+		],
+		sources: [
+			{ label: 'Office québécois de la langue française — Vitrine linguistique: "Le conditionnel : formes et conjugaison" (formation rules, irregular stems, spelling changes)', url: 'https://vitrinelinguistique.oqlf.gouv.qc.ca/index.php?id=24137' },
+			{ label: 'Office québécois de la langue française — Vitrine linguistique: "Généralités sur le conditionnel" (mood-versus-tense reclassification)', url: 'https://vitrinelinguistique.oqlf.gouv.qc.ca/index.php?id=24136' },
+			{ label: 'Office québécois de la langue française — Vitrine linguistique: "Valeur temporelle du conditionnel" (futur du passé, reported speech)', url: 'https://vitrinelinguistique.oqlf.gouv.qc.ca/index.php?id=24138' },
+			{ label: 'Office québécois de la langue française — Vitrine linguistique: "Conditionnel dans les phrases hypothétiques" (si-clause tense pairings, indirect-question and concessive exceptions)', url: 'https://vitrinelinguistique.oqlf.gouv.qc.ca/index.php?id=24140' },
+			{ label: 'Lawless French — "The Imperfect (l\'imparfait)" (habitual-past "would" versus conditional "would")', url: 'https://www.lawlessfrench.com/grammar/imperfect/' },
+			{ label: 'Lawless French — "French Conditional Mood" (classifies the conditional as its own mood, the position the OQLF argues against)', url: 'https://www.lawlessfrench.com/grammar/conditional-mood/' },
+			{ label: 'Elon.io French Grammar — "Si: condition et interrogation indirecte" (conditional si versus interrogative si, the "whether" substitution test)', url: 'https://elon.io/grammar/french/conjunctions/si-the-conditional-and-question' },
+		],
+	},
 ];
