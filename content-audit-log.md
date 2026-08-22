@@ -907,3 +907,51 @@
   "escalation": null
 }
 ```
+
+## 2026-08-22 完整审计：`saber-vs-conocer`
+
+```json
+{
+  "url_slug": "saber-vs-conocer",
+  "last_audited": "2026-08-22",
+  "published_date": "2026-08-04",
+  "note": "本站第11次由trafficsite-content-quality-audit完整审计。选中原因：content-audit-log.md此前10条记录里从未出现过saber-vs-conocer；guides.ts确认全站53篇里43篇从未被本任务审计过，saber-vs-conocer是这43篇里发布时间最早（2026-08-04，array位置11，仅晚于10篇已审计文章）的一篇，且本文长期被其他审计（por-vs-para/ser-conjugation两篇）反复引用为'本站已确立的em dash标准先例'，但自身从未被真正审计过。",
+  "diagnosed_checkpoints": [
+    "saber/conocer核心分类（facts/skills用saber，people/places/things用conocer）及三条常见错误举例是否与RAE官方规则一致",
+    "preterite词义突变论断（supe=found out非knew，conocí=met非knew）及其所属动词小组（同类还有poder/querer）是否真实，是否与CliffsNotes来源匹配",
+    "\"saber a\"=taste like惯用语、以及\"conocer de carpintería\"受saber影响、\"saber de\"更规范这条使用倾向断言是否有真实依据",
+    "-acer/-ecer/-ocer/-ucir拼写变化动词族（conozco非conoco，parecer→parezco、conducir→conduzco同类）的语言学解释是否准确",
+    "两条RAE来源（dle.rae.es/saber、rae.es/dpd/conocer）URL格式是否为RAE当前实际使用的路径，内容是否真实覆盖被引用的论断（尤其personal a规则）"
+  ],
+  "findings": [
+    { "dimension": "EEAT", "status": "未发现问题", "detail": "3条具体来源（RAE DLE词典'saber'词条、RAE DPD'conocer, conocerse'词条、CliffsNotes preterite meaning-shift专页），每条语法点均配西语真实例句+英文翻译，非泛泛而谈。" },
+    { "dimension": "事实准确性", "status": "未发现问题", "detail": "WebSearch逐条核实：①facts/skills vs people/places/things核心分类与多个独立信源（SpanishDict/Mango Languages等）一致；②preterite词义突变（saber/conocer/poder/querer同属一组）与CliffsNotes原文（'Verbs That Change Meaning in the Preterite'页面明确列出这四个动词）完全匹配；③RAE DPD /dpd/conocer页确认存在且内容覆盖personal a规则（WebSearch摘要核实'conozco a Ana nadie'类personal a用法与文中论断一致）；④'saber de'比'conocer de carpintería'更规范这条使用倾向，WebSearch多方交叉核实（saber指知识/技能领域，conocer指人/地/物，carpintería作为技能领域应配saber）与文中论断一致，非编造；⑤-acer/-ecer/-ocer/-ucir→-zco拼写变化家族（parecer→parezco、conducir→conduzco）经WebSearch核实准确，且文中'conozco是拼写调整非真正不规则'（与saber真正不规则的yo形式sé对比）的区分本身也准确。RAE两条来源curl均403（已知反自动化拦截，非链接失效，本站por-vs-para审计已确立此判断标准），WebSearch交叉核实内容存在且匹配。CliffsNotes链接同样403，但WebSearch搜索结果列表本身命中该URL及标题，确认页面被搜索引擎正常索引，非真实死链。" },
+    { "dimension": "时效性", "status": "不适用", "detail": "语法规则类内容，无过时风险，RAE saber/conocer区分历史上无变动记录；published=2026-08-04已存在，无需回填，本次updated改为2026-08-22。" },
+    { "dimension": "竞品差异化", "status": "未发现问题", "detail": "dataforseo-query实测'saber vs conocer'关键词（9,900/月，KD0）真实SERP：Reddit讨论帖、SpanishDict、YouTube×2、mangolanguages、vamospanish、holaspanish、berlitz，多数为'facts vs people'基础二分法+少量例句的常规讲解页。本文额外提供：rephrasing test式分类法、conocerse反身形式的双重含义拆分（met each other vs know myself）、preterite词义突变纳入poder/querer同组的系统性框架、'saber de'vs'conocer de carpintería'使用倾向辨析、-acer/-ecer/-ocer/-ucir拼写家族的语言学解释，构成真实增量而非同结构模板页。本文当前未进入SERP前10（符合预期，非本次审计范围内的问题）。" },
+    { "dimension": "SEO技术审计", "status": "未发现问题", "detail": "实测live页面：title 67字符含品牌后缀、meta description 134字符（偏短但无截断风险）、单一h1、7个h2层级清晰、canonical自引用正确。schema实测：FAQPage（4条FAQ与正文完全一致）/Article/WebPage/Person/BreadcrumbList（3层）均正确渲染。ads.txt正确指向pub-5245502795720653，robots.txt AI爬虫（GPTBot/ChatGPT-User/ClaudeBot/Claude-Web/PerplexityBot/Google-Extended）Allow规则完整。图片alt文本描述性强（完整概括SVG四类对比信息）。" },
+    { "dimension": "GEO审计", "status": "粗估达标（约82/99），未做侵入性修复", "detail": "按站内已确立11维度99分制手工粗估：权威原文引语~10/16（来源为词典条目本身而非叙事性语法说明页，天然难以逐字引语，与por-vs-para同类局限）、统计数据完整性~11/14（大量具体例句/动词形式但非统计数字）、可引用性~12/13、结构规范性~11/12、表达流畅度~8/10（修复后）、语义密度~7/8、权威信号~6/8、专业术语精度~6/6、鲁棒性~5/5（本次事实核查全部通过）、跨域连接~3/4（2条内链）、易懂表达~3/3。合计约82/99，稳定超过80及格线，未发现需要额外补强的薄弱维度，未做侵入性内容改写。" },
+    { "dimension": "早期内容AI味补漏", "status": "确认发现3处问题，独立复核确认为真，已修复", "detail": "published=2026-08-04早于avoid-ai-writing接入日(2026-08-07)，触发全量检查。①sections[].body/faq[].answer零命中叙事性em dash（仅2处已确立标准允许的FAQ'No — '开头结构化用法，保留不动）；②sources[].label 3条里2条用'信源名 — 说明'格式含em dash，独立agent核实08-22当天per-se-meaning审计已确立新标准（旧'结构化标签例外'已被取代，统一改冒号分隔），判定CONFIRMED；③配图saber-vs-conocer-diagram.svg 2处渲染文本（'sé — genuinely irregular'/'conozco — spelling change only'）含em dash，独立agent核实与本站已记录7次以上的'自制SVG配图'复现模式一致，判定CONFIRMED；④'preterite meaning-shift'段落连续两句'Not X but Y'负排比模板句（讨论supe/conocí两个例词），独立agent核实比preterite-vs-imperfect先例（单次出现即判定需修，commit e851480）更典型（本例为同段落连续两次同模板），判定CONFIRMED。四项共3类问题（em dash归为2类载体+负排比1类）全部修复。" },
+    { "dimension": "外部引用链接腐烂", "status": "未发现问题", "detail": "dle.rae.es/saber、rae.es/dpd/conocer、cliffsnotes.com三条来源curl均返回403，经WebSearch交叉核实：RAE两条为已知反自动化拦截（本站已确立判断标准）；CliffsNotes页面本身出现在WebSearch搜索结果列表中，确认被搜索引擎正常索引访问，403同样判定为反爬虫拦截而非死链，非真实链接失效。" },
+    { "dimension": "内链健康度", "status": "未发现问题", "detail": "Grammar分类40篇，用pickRelatedGuides轮转窗口算法模拟验证：全站53篇覆盖率98.1%（仅ser-conjugation真单例未覆盖，该问题已在其自身审计中通过手写内链解决），saber-vs-conocer确认被至少一篇其他Grammar文章的轮转窗口覆盖，非孤儿页；本文正文自身另有2条手写锚文本出站链接（/preterite-vs-imperfect/、/ser-vs-estar/），经核对目标文章原文内容，两条桥接论断均准确（preterite-vs-imperfect确实以'completed vs ongoing'框架讲preterite/imperfect对比；ser-vs-estar确实以'defining the subject vs reporting its state'框架讲ser/estar对比，与桥接句'ask what kind of claim the sentence is making'表述一致）。" },
+    { "dimension": "Schema数据一致性", "status": "已同步", "detail": "本次编辑涉及sources[].label文字（不影响schema结构，仍正确渲染为citation/引用来源）、正文一处段落改写（不涉及schema字段本身）、updated日期（Article/WebPage的dateModified已同步为2026-08-22，构建后live页面核实一致）。" },
+    { "dimension": "合规/敏感度漂移", "status": "未发现问题", "detail": "纯语法教学内容，无人物/事件/群体相关表述，无俚语粗俗语，无合规风险。" },
+    { "dimension": "配图可用性与版权", "status": "未发现问题", "detail": "public/images/saber-vs-conocer-diagram.svg为站内自制SVG对比图（非第三方图片，无版权问题），文件存在，live页面正常渲染，本次仅改动图内2处标点（em dash改冒号），未改动图形结构或数据。" },
+    { "dimension": "AdSense政策合规", "status": "未发现问题", "detail": "语法教学内容，无敏感类目风险；ads.txt实测正确指向pub-5245502795720653；robots.txt未拦截任何AI爬虫；privacy/about页面均可正常访问（未单独重测，全站基础设施与近期已审计文章一致）。" }
+  ],
+  "independent_verification": "2个独立agent各自复核：①em dash发现（sources[].label 2处+SVG配图2处），独立agent直接读取per-se-meaning同日修复commit与content-audit-log.md确认新标准已取代旧'结构化标签例外'标准，判定两处均CONFIRMED应修复；②负排比发现（preterite段落连续两句'Not X but Y'模板），独立agent对比preterite-vs-imperfect先例（单次出现即判定需修）后判定本例'比先例更典型的复发'，CONFIRMED应重写。两轮复核均在数分钟内正常完成，无agent卡死情况，未触发看门狗降级流程。",
+  "actions_taken": [
+    "sources[].label 2条从'信源名 — 说明'格式改为'信源名: 说明'冒号分隔格式",
+    "配图SVG 2处渲染文本em dash改为冒号（'sé: genuinely irregular'/'conozco: spelling change only'）",
+    "preterite段落连续两句'Not X but Y'负排比模板改写为两种不同句式结构，保留'found out'/'met'两个正确译法原意不变",
+    "updated字段同步改为2026-08-22（published字段本身已存在，无需回填）",
+    "npm test（64/64通过）+ npm run build（63页）通过",
+    "git commit（07f19f1，仅暂存本文相关的guides.ts+SVG两个文件）+ push，Cloudflare Pages自动部署，轮询3次（约60秒）确认https://lingogrove.com/saber-vs-conocer/返回200且改动已生效（负排比已改写、sources标签冒号分隔、schema dateModified已更新）",
+    "node tools/submit-indexnow.mjs /saber-vs-conocer/提交（Bing 200 / Yandex 202）",
+    "内容发布日志.md追加本条审计更新记录",
+    "内容通用教训库.md L-0810-4条目追加第12次复现记录"
+  ],
+  "seo_score": "技术SEO全项通过，未发现需修复项",
+  "geo_score": "粗估约82/99（11维度手工估算），稳定超过80及格线，未做侵入性GEO编辑",
+  "escalation": null
+}
+```
