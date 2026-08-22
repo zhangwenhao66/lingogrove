@@ -4662,4 +4662,95 @@ export const guides: Guide[] = [
 			{ label: 'Spanish Linguist — "The most frequent Spanish verbs are irregular"', url: 'https://spanishlinguist.us/2014/02/the-most-frequent-spanish-verbs-are-irregular/' },
 		],
 	},
+	{
+		slug: 'per-se-meaning',
+		category: 'Loanwords',
+		title: 'Per Se Meaning: "By Itself" to Negligence Per Se and "Ampersand"',
+		description: 'Per se means "by itself" in Latin. The same three words also explain "negligence per se," antitrust\'s illegal per se rule, and the word "ampersand."',
+		published: '2026-08-22',
+		updated: '2026-08-22',
+		coreSummary: '"Per se" is Latin for "by itself," from per ("by," "through") plus sē, the reflexive pronoun "itself." English built three distinct jobs on that literal meaning: an everyday adverb that isolates one claim from a larger context, the archaic "A per se A" letter-naming convention that multiple sources trace directly to the word "ampersand," and two separate legal doctrines, negligence per se and antitrust\'s illegal per se rule, where "by itself" means a fact is presumed true without case-by-case proof.',
+		language: 'Latin',
+		usageNote: {
+			register: 'neutral',
+			regionNote: 'No regional variation: "per se" is a fixed Latin borrowing used the same way everywhere in English. What shifts is register by context, casual in everyday conversation ("not bad, per se"), and a fixed technical term in law, where "negligence per se" and "illegal per se" name specific doctrines rather than just add emphasis.',
+		},
+		sections: [
+			{
+				heading: 'What "per se" literally means, and how English uses it',
+				body: [
+					'Per se is built from two Latin words: per ("by," "through") and sē, the reflexive pronoun for "itself, himself, herself, themselves." Attached to per, sē takes the accusative case, and the pair reads literally as "by itself." That reflexive pronoun has a distant relative already sitting inside English: Etymonline and Wiktionary trace both Latin sē and English self back to the same Proto-Indo-European root, reconstructed as *s(w)e-. The two words didn\'t arrive in Modern English by the same route, though. Self came through Proto-Germanic *selbaz, while Latin sē turned into a prefix, se- or sed-, buried inside a long list of English words borrowed straight from Latin: secede, seclude, secret, separate, sever.',
+					'In practice, per se works as an adverb that isolates one specific claim from a bigger one attached to it. Cambridge Dictionary\'s own example makes the shape clear: "It is not a pretty town per se, but it is where my family comes from, so I like it." The town fails on looks alone; that judgment doesn\'t extend to the rest of the sentence. Swap in a different pairing, "Driving fast isn\'t dangerous per se, but it can become dangerous in certain conditions," and the same move repeats: the claim about speed alone is narrower than the claim about speed under specific conditions.',
+					'The pronunciation trips up as many people as the spelling: sē is said like "say," so per se comes out "per say," and Dictionary.com singles out "per say" as one of the more common Latin-borrowing misspellings in English precisely because the sound and the spelling pull in different directions.',
+				],
+			},
+			{
+				heading: '"A per se A," a Renaissance poem about London, and where "ampersand" comes from',
+				body: [
+					'Before per se meant much of anything in modern conversational English, it did a narrower job: naming a letter of the alphabet that could also stand alone as a whole word. A, I, and O all qualify (a, I, and, historically, the interjection O). When reciting the alphabet aloud, English speakers distinguished the letter from the word by adding per se after it: "A per se A" meant, roughly, "the letter A, by itself, [is the word] A." The University of Michigan\'s Middle English Dictionary records the phrase in use by around 1500, in the form "an a-per-sey."',
+					'That construction produced an unexpected idiom. Wikipedia\'s own biography of William Dunbar records that in 1501 and 1502, the Scottish court poet took part in an embassy to England in the staff of Andrew Forman, Bishop of Moray. Dunbar wrote a poem to mark that London visit, later collected under the title "In Honour of the City of London." Its opening line, preserved in full at Bartleby.com, borrows the letter-naming formula and repurposes it as a compliment: "London, thou art of townes A per se." Stripped of the alphabet context, "a per se" here means something closer to "one of a kind, without equal," a town that stands alone in a class by itself, the same logic as the letter that needs no company to be a word.',
+					'The letter convention had one more stop to make. By the 19th century, British schoolchildren reciting the alphabet had appended a 27th character: the symbol &, tacked on at the end after Z. Since & wasn\'t a letter that could double as a word, it got the same per se treatment on different grounds, distinguishing the symbol itself from its expanded forms like &c. Reciting "X, Y, Z, and per se and" day after day in Victorian classrooms wore the phrase down. Britannica dates the slurred term\'s first appearance in English to 1835; Wikipedia\'s Ampersand article, backed by Dictionary.com\'s telling of the same schoolroom story, puts the word "ampersand" in common English use by 1837, two years later. A 500-year-old grammar-class convention for naming letters is the direct ancestor of the name for the symbol on a modern keyboard.',
+				],
+				image: {
+					src: '/images/per-se-meaning-diagram.svg',
+					alt: 'Diagram showing Latin per se ("by itself") branching into three English uses: the everyday adverb that isolates one claim from a larger one, the historical "A per se A" letter-naming convention that produced the word "ampersand" by 1837, and the legal doctrines negligence per se and illegal per se, where "by itself" means a fact is presumed true without separate proof.',
+				},
+			},
+			{
+				heading: 'Negligence per se and illegal per se: when "by itself" becomes a legal shortcut',
+				body: [
+					'Outside a courtroom, per se just narrows a claim. Inside one, it does something more specific: it marks a fact as already established, without the normal step-by-step proof a case would otherwise require. Negligence per se is the clearest example. An ordinary negligence claim requires showing that a defendant failed to act with reasonable care, a standard juries weigh case by case. Negligence per se skips that weighing for one category of case: if a defendant broke a statute or regulation written to protect a specific class of people from a specific kind of harm, and the plaintiff belongs to that protected class and suffered exactly that kind of harm, courts treat the breach of duty as established by the statutory violation itself, without a separate inquiry into what a "reasonable person" would have done. The plaintiff still has to prove the violation caused the injury and prove damages; only the duty-and-breach half of the case collapses into the fact of breaking the law.',
+					'U.S. antitrust law applies the same shortcut to entirely different subject matter. Most business conduct challenged under the Sherman Act is judged under the "rule of reason," weighing a practice\'s anticompetitive harm against any procompetitive benefit on a case-by-case basis. A small set of practices skip that weighing entirely. In its 1940 decision United States v. Socony-Vacuum Oil Co., the Supreme Court refused to apply the rule of reason to an agreement among competing oil refiners to buy up surplus gasoline, ruling that price-fixing agreements between competitors are illegal per se under the Sherman Act regardless of whether the specific agreement was reasonable. Later cases extended the same conclusive presumption to geographic market division and group boycotts among competitors. A plaintiff bringing a per se antitrust claim doesn\'t have to show actual anticompetitive harm; the law presumes it, the same way negligence per se presumes a breach of duty from the statutory violation alone.',
+					'Both doctrines borrow the same logic as the Latin phrase they\'re named for: something holds true "by itself," independent of the fact-specific proof an ordinary case would demand.',
+				],
+			},
+			{
+				heading: 'Per se vs. ipso facto, and Latin sē\'s other descendants',
+				body: [
+					'Per se gets confused with another common Latin legal borrowing, ipso facto, and the two answer different questions. Per se describes what something is on its own, independent of a larger context: the town isn\'t pretty per se. Ipso facto, literally "by the fact itself," describes what a specific fact or event brings about automatically, as its own direct consequence: a contract clause might terminate an agreement ipso facto the moment a party files for bankruptcy, with no further action needed to trigger the termination. One is a claim about an object\'s own nature; the other is a claim about what a specific event causes by itself happening.',
+					'Per se also differs from loanwords like [déjà vu](/deja-vu-meaning/), which stuck in English mainly because no native word covered the exact same ground. Per se had ordinary English equivalents available the whole time, "in itself," "intrinsically," "as such," and dictionaries define per se using those very equivalents. What kept the Latin version alive instead was its adoption by professional registers, especially law, where per se hardened into the name of specific doctrines rather than staying a general-purpose synonym.',
+					'Latin sē\'s reflexive job, meanwhile, didn\'t stay locked inside Latin borrowings. Historical linguists tracing the development of Spanish clitic pronouns document that [Spanish\'s own reflexive pronoun se](/spanish-pronouns/), the one in verbs like lavarse ("to wash oneself"), descends directly from the same Latin accusative form sē, following the identical sound-change path as ordinary Spanish object pronouns like me (from Latin mē) and te (from Latin tē). The pronoun sitting inside per se and the pronoun Spanish speakers attach to reflexive verbs every day are, historically, the same word.',
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'What does "per se" mean?',
+				answer: 'Literally "by itself" in Latin, from per ("by," "through") plus sē, the reflexive pronoun "itself." In practice it isolates one specific claim from a larger context attached to it, as in Cambridge Dictionary\'s example: "It is not a pretty town per se, but it is where my family comes from, so I like it."',
+			},
+			{
+				question: 'Why is "per se" pronounced "per say," and is "per say" ever correct spelling?',
+				answer: 'Sē is pronounced like the English word "say," which is why the phrase sounds like "per say" out loud. But "per say" is a misspelling, not an accepted variant; Dictionary.com specifically flags it as one of the more common ways people misspell this Latin borrowing.',
+			},
+			{
+				question: 'Is "per se" really connected to the word "ampersand"?',
+				answer: 'Yes. English once distinguished a letter that could also stand alone as a word (A, I, O) by reciting it as "A per se A." Nineteenth-century British schoolchildren applied the same convention to the symbol &, reciting "and per se and" at the end of the alphabet. Per Wikipedia\'s Ampersand article, repeated recitation slurred that phrase into a single word, in common use as "ampersand" by 1837.',
+			},
+			{
+				question: 'What does "negligence per se" mean?',
+				answer: 'A legal doctrine that skips the usual case-by-case proof of carelessness. If a defendant violated a statute written to protect a specific class of people from a specific kind of harm, and the plaintiff is in that class and suffered that harm, courts treat the duty-and-breach elements of negligence as established by the statutory violation itself, without a separate inquiry into what a "reasonable person" would have done.',
+			},
+			{
+				question: 'What\'s the difference between "per se" and "ipso facto"?',
+				answer: 'Per se describes what something is on its own, independent of a larger context (the town isn\'t pretty per se). Ipso facto, "by the fact itself," describes what a specific fact or event brings about automatically as its own direct consequence, not a description of an object in isolation.',
+			},
+		],
+		sources: [
+			{ label: 'Etymonline: "per se" (etymology, per + sē, first recorded English use)', url: 'https://www.etymonline.com/word/per%20se' },
+			{ label: 'Etymonline: "self" (Proto-Germanic *selbaz, shared Proto-Indo-European root *s(w)e- with Latin se-/sed-)', url: 'https://www.etymonline.com/word/self' },
+			{ label: 'Cambridge Dictionary: "per se" (definition and example sentence)', url: 'https://dictionary.cambridge.org/dictionary/english/per-se' },
+			{ label: 'Dictionary.com: "Per Say or Per Se: Which One Is Correct?" (pronunciation and common misspelling)', url: 'https://www.dictionary.com/articles/per-say-or-per-se' },
+			{ label: 'Middle English Dictionary (University of Michigan): "a-per-se, a per se, and aperse" (earliest recorded English citations, c. 1500)', url: 'https://quod.lib.umich.edu/m/middle-english-dictionary/dictionary/MED1825' },
+			{ label: 'Bartleby.com: William Dunbar, "In Honour of the City of London" (poem text, "London, thou art of townes A per se")', url: 'https://www.bartleby.com/101/19.html' },
+			{ label: 'Wikipedia: "William Dunbar" (1501-1502 embassy to England in the staff of Andrew Forman, Bishop of Moray)', url: 'https://en.wikipedia.org/wiki/William_Dunbar' },
+			{ label: 'Wikipedia: "Ampersand" ("and per se and," in common use by 1837)', url: 'https://en.wikipedia.org/wiki/Ampersand' },
+			{ label: 'Britannica: "Ampersand" (letter-naming convention, 1837 date)', url: 'https://www.britannica.com/topic/ampersand' },
+			{ label: 'Dictionary.com: "What Character Was Removed From The Alphabet?" (ampersand as the 27th letter, "and per se and")', url: 'https://www.dictionary.com/articles/ampersand' },
+			{ label: 'Wikipedia: "Negligence per se" (statutory-violation doctrine and its elements)', url: 'https://en.wikipedia.org/wiki/Negligence_per_se' },
+			{ label: 'Wikipedia: "Illegal per se" (antitrust doctrine, contrast with rule of reason)', url: 'https://en.wikipedia.org/wiki/Illegal_per_se' },
+			{ label: 'Wikipedia: "United States antitrust law" (Socony-Vacuum Oil Co., 1940, per se price-fixing rule)', url: 'https://en.wikipedia.org/wiki/United_States_antitrust_law' },
+			{ label: 'Wikipedia: "Ipso facto" (definition and contrast with per se)', url: 'https://en.wikipedia.org/wiki/Ipso_facto' },
+			{ label: 'History of Spanish clitic pronouns (Newcastle University): reflexive se descends from Latin accusative sē', url: 'https://www.staff.ncl.ac.uk/i.e.mackenzie/historyofcliticsrr.htm' },
+		],
+	},
 ];

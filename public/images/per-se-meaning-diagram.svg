@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" font-family="system-ui, -apple-system, sans-serif">
+	<rect width="900" height="560" fill="#f6f4e9"/>
+
+	<rect x="24" y="24" width="852" height="72" rx="10" fill="#3a3a52"/>
+	<text x="450" y="56" text-anchor="middle" fill="#ffffff" font-size="20" font-weight="700">LATIN "PER SE": ONE PHRASE, THREE ENGLISH JOBS</text>
+	<text x="450" y="82" text-anchor="middle" fill="#d8d6e6" font-size="14">per (by, through) + sē (reflexive "itself") = "by itself"</text>
+
+	<!-- Column 1: everyday -->
+	<rect x="24" y="120" width="270" height="410" rx="10" fill="#fffefa" stroke="#ddd8c4"/>
+	<rect x="24" y="120" width="270" height="48" rx="10" fill="#7a2e2e"/>
+	<rect x="24" y="148" width="270" height="20" fill="#7a2e2e"/>
+	<text x="159" y="150" text-anchor="middle" fill="#ffffff" font-size="15" font-weight="700">EVERYDAY USE</text>
+
+	<g fill="#201f1a" font-size="13.5">
+		<text x="46" y="196" font-weight="700">Isolates one thing</text>
+		<text x="46" y="216" fill="#5a5648">from a bigger claim</text>
+
+		<text x="46" y="256" font-weight="700">"Driving fast isn't</text>
+		<text x="46" y="274" font-weight="700">dangerous per se,</text>
+		<text x="46" y="292" fill="#5a5648">but it can become</text>
+		<text x="46" y="310" fill="#5a5648">dangerous depending</text>
+		<text x="46" y="328" fill="#5a5648">on conditions."</text>
+
+		<text x="46" y="368" font-weight="700">Functions as an</text>
+		<text x="46" y="386" fill="#5a5648">adverb: pronounced</text>
+		<text x="46" y="404" fill="#5a5648">"per say," not</text>
+		<text x="46" y="422" fill="#5a5648">"per seh"</text>
+
+		<text x="46" y="466" font-weight="700">First recorded</text>
+		<text x="46" y="484" fill="#5a5648">in English use</text>
+		<text x="46" y="502" fill="#5a5648">in the 1500s</text>
+	</g>
+
+	<!-- Column 2: A per se / ampersand -->
+	<rect x="315" y="120" width="270" height="410" rx="10" fill="#fffefa" stroke="#ddd8c4"/>
+	<rect x="315" y="120" width="270" height="48" rx="10" fill="#2f4f6b"/>
+	<rect x="315" y="148" width="270" height="20" fill="#2f4f6b"/>
+	<text x="450" y="150" text-anchor="middle" fill="#ffffff" font-size="15" font-weight="700">THE LETTER RULE</text>
+
+	<g fill="#201f1a" font-size="13.5">
+		<text x="337" y="196" font-weight="700">"A per se A"</text>
+		<text x="337" y="216" fill="#5a5648">spelling aloud a letter</text>
+		<text x="337" y="234" fill="#5a5648">that is also a word</text>
+		<text x="337" y="252" fill="#5a5648">on its own (A, I, O)</text>
+
+		<text x="337" y="292" font-weight="700">↓ extended to the</text>
+		<text x="337" y="310" font-weight="700">symbol "&amp;"</text>
+		<text x="337" y="328" fill="#5a5648">recited in 19th-century</text>
+		<text x="337" y="346" fill="#5a5648">British classrooms as</text>
+		<text x="337" y="364" fill="#5a5648">"and per se and"</text>
+
+		<text x="337" y="404" font-weight="700" font-size="16">↓ slurred together</text>
+		<text x="337" y="424" font-weight="700" font-size="18">"ampersand"</text>
+		<text x="337" y="446" fill="#5a5648">in common English</text>
+		<text x="337" y="464" fill="#5a5648">use by 1837</text>
+	</g>
+
+	<!-- Column 3: legal doctrine -->
+	<rect x="606" y="120" width="270" height="410" rx="10" fill="#fffefa" stroke="#ddd8c4"/>
+	<rect x="606" y="120" width="270" height="48" rx="10" fill="#4a5a2e"/>
+	<rect x="606" y="148" width="270" height="20" fill="#4a5a2e"/>
+	<text x="741" y="150" text-anchor="middle" fill="#ffffff" font-size="15" font-weight="700">LEGAL DOCTRINE</text>
+
+	<g fill="#201f1a" font-size="13.5">
+		<text x="628" y="196" font-weight="700">Negligence per se</text>
+		<text x="628" y="216" fill="#5a5648">breaking a safety statute</text>
+		<text x="628" y="234" fill="#5a5648">automatically establishes</text>
+		<text x="628" y="252" fill="#5a5648">negligence: no separate</text>
+		<text x="628" y="270" fill="#5a5648">proof of carelessness</text>
+
+		<text x="628" y="310" font-weight="700">Illegal per se</text>
+		<text x="628" y="330" fill="#5a5648">(antitrust): conduct like</text>
+		<text x="628" y="348" fill="#5a5648">price-fixing is presumed</text>
+		<text x="628" y="366" fill="#5a5648">an unreasonable restraint</text>
+		<text x="628" y="384" fill="#5a5648">on trade automatically</text>
+
+		<text x="628" y="424" font-weight="700">Shared logic:</text>
+		<text x="628" y="444" fill="#5a5648">"by itself" = presumed,</text>
+		<text x="628" y="462" fill="#5a5648">not case-by-case proven</text>
+	</g>
+</svg>
