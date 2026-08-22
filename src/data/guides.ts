@@ -4556,4 +4556,110 @@ export const guides: Guide[] = [
 			{ label: 'Elon.io French Grammar — "Si: condition et interrogation indirecte" (conditional si versus interrogative si, the "whether" substitution test)', url: 'https://elon.io/grammar/french/conjunctions/si-the-conditional-and-question' },
 		],
 	},
+	{
+		slug: 'irregular-spanish-verbs',
+		category: 'Grammar',
+		title: 'Irregular Spanish Verbs: The Four Types the RAE Actually Uses',
+		description: 'Most guides sort Spanish irregular verbs by how hard they are to memorize. The RAE sorts them by what actually changes: the vowel, the consonant, both, or the root itself.',
+		published: '2026-08-22',
+		updated: '2026-08-22',
+		coreSummary: 'The Real Academia Española doesn\'t classify Spanish\'s irregular verbs by how common or difficult they are; it classifies them by which part of the stem changes. Vocalic irregularities swap a stem vowel for another vowel or a diphthong (pedir → pido, contar → cuento). Consonantal irregularities change or add a consonant instead (conocer → conozco). Mixed irregularities do both at once, as in decir → digo. A separate suppletive group (ir, ser, estar, dar, haber) fuses more than one historical root into a single modern paradigm, and defective verbs like llover and soler are irregular because they\'re missing entire forms, not because anything in them changes.',
+		language: 'Spanish',
+		sections: [
+			{
+				heading: 'Every irregularity is a change to the stem, not the endings',
+				body: [
+					'Regular Spanish verbs split into three conjugation classes by their infinitive ending, -ar, -er, -ir, and each class has one fixed set of endings for every tense: hablar takes hablo, hablas, habla...; comer takes como, comes, come...; vivir takes vivo, vives, vive... An irregular verb almost never touches those endings. What changes is the stem, the part of the verb that carries the actual meaning, and the RAE\'s own grammar, the *Nueva gramática de la lengua española*, sorts every irregularity by exactly what kind of change happens to that stem, not by how common the verb is or how hard it is to memorize.',
+					'That classification runs to four working categories, plus one further pattern that isn\'t about changing forms at all: vocalic, consonantal, mixed, suppletive, and defective. Most English-language guides to Spanish irregular verbs skip this structure and default to a teaching-oriented split instead, stem-changing, spelling-change, irregular yo form, fully irregular, built around how a verb behaves in the present tense specifically. That split is a genuinely useful study aid, but it\'s a pedagogical shortcut rather than the actual grammatical mechanism, and it tends to fall apart once you follow one verb across more than one tense, which the sections below walk through directly. It\'s also not a coincidence that the verbs covered here skew toward the most frequently used verbs in the language, ir, ser, estar, tener, hacer, decir: high-frequency verbs across many languages resist the regularizing pressure that smooths out rarer ones, simply because they get used too often for a stray form to get corrected toward the pattern.',
+				],
+				image: {
+					src: '/images/irregular-spanish-verbs-diagram.svg',
+					alt: 'Four-quadrant diagram of the RAE\'s irregular verb categories: vocalic (contar→cuento, pedir→pido, adquirir→adquiero, jugar→juego), consonantal (conocer→conozco, producir→produzco, hacer→haga, haber→haya), mixed (decir→digo, both vowel and consonant change together), and suppletive (ir, ser, estar, dar, haber, each built from more than one historical root).',
+				},
+			},
+			{
+				heading: 'Vocalic irregularities: the stem vowel itself moves',
+				body: [
+					'The largest irregular family swaps one stem vowel for another, sometimes for a full diphthong. *E → ie* covers verbs like acertar (acierto), entender (entiendo), and discernir (discierno). *O → ue* covers contar (cuento) and mover (muevo). Two much smaller patterns sit alongside these: *i → ie* applies to exactly two verbs in the entire language, adquirir (adquiero) and inquirir (inquiero), and *u → ue* applies to exactly one, jugar (juego). None of these four patterns touches the nosotros or vosotros forms, because the stem isn\'t stressed there: contamos and contáis keep the plain o, and only cuento, cuentas, cuenta, and cuentan carry the diphthong.',
+					'A related but distinct vocalic pattern swaps one plain vowel for another without ever forming a diphthong: pedir → pido, servir → sirvo, seguir → sigo. The RAE groups this *e → i* alternation under the same vocalic heading as the diphthong verbs above, because both are, mechanically, a vowel replacing a vowel in the stressed stem; the only difference is whether the replacement happens to land on a diphthong or a single vowel.',
+				],
+			},
+			{
+				heading: 'Consonantal irregularities: a sound gets swapped or added',
+				body: [
+					'A second RAE category covers verbs where a consonant, not a vowel, is what changes. The largest group by far is verbs ending in -acer, -ecer, -ocer, and -ucir, whose stem consonant becomes -zc- in the yo form and throughout the present subjunctive: conocer → conozco, aparecer → aparezco, conducir → conduzco, producir → produzco, traducir → traduzco, reducir → reduzco. This isn\'t quite every verb with those endings, though: hacer, decir, and satisfacer end in a vowel plus -cer/-cir like the -zco verbs above, but build their yo form a different way entirely (hago, digo, satisfago), and hacer\'s pattern is covered on its own just below. Mecer and remecer are a further outlier: they take a plain c → z swap (mezo, remezo), not the double -zc- the rest of the group uses. Every other form of the -zco verbs themselves stays completely regular: conoces, conoce, conocemos are untouched.',
+					'A much narrower consonantal pattern involves just two verbs, and only in the subjunctive. Hacer and haber are, per the RAE\'s own description, the only two Spanish verbs whose root consonant itself changes in that mood, giving haga and haya rather than a form built the way -zco verbs are. It\'s a one-off substitution, not a productive rule you can extend to any other verb.',
+				],
+			},
+			{
+				heading: 'Mixed irregularities: vowel and consonant change together',
+				body: [
+					'A smaller group of verbs does both at once. Decir is the clearest example: its yo form, digo, isn\'t built the way a purely consonantal analysis would predict (that would give something closer to "decigo"); instead the verb drops a syllable and carries the same e → i vocalic alternation from the section above through the rest of the present tense too, dices, dice, decimos, decís, dicen. The RAE treats this as its own category, mixta, precisely because neither the vocalic pattern nor the consonantal pattern alone explains digo; only both, acting on the same stem together, do.',
+					'Whatever irregularity shows up in a verb\'s yo form tends to carry into every person of the present subjunctive, not just yo. Decir\'s irregular digo becomes diga, digas, diga, digamos, digáis, digan, the same way conocer\'s conozco becomes conozca, conozcas, and so on: the subjunctive stem is built from the yo form, irregularity and all, across every category on this page, not just the mixed one.',
+				],
+			},
+			{
+				heading: 'Suppletive roots: verbs stitched together from more than one Latin ancestor',
+				body: [
+					'Five common verbs, ir, ser, estar, dar, and haber, get their own category in the RAE\'s grammar because their irregularity isn\'t a vowel or consonant swap within one root; it\'s the survival of two or more genuinely separate historical roots inside a single modern paradigm. Ir keeps its original root in the infinitive, imperative, and gerund (ir, id, yendo), switches to a different root for the present (voy, vas, va), and switches again for the preterite and present subjunctive (fui, vaya). Ser follows the same pattern: soy and es trace back to a different Latin verb than fui and sido do.',
+					'Estar is the mildest case in this group: it conjugates almost entirely by the regular rules for an -ar verb, and its one real irregularity is the "strong" preterite stem estuve, covered along with the rest of Spanish\'s strong preterites in [the irregular preterite verbs guide](/irregular-preterite-verbs-spanish/). Dar is the reverse oddity: it\'s an -ar verb by form, but its preterite (di, dio, dieron) borrows -er/-ir endings instead of the -ar ones the infinitive would suggest. For ser\'s complete paradigm across every mood and tense, see [the full ser conjugation table](/ser-conjugation/).',
+				],
+			},
+			{
+				heading: 'Defective verbs: irregular by missing forms, not by changing them',
+				body: [
+					'The RAE adds a sixth pattern that isn\'t about alternation at all: verbs that simply lack certain forms of their own paradigm. Weather verbs like llover (to rain) and nevar (to snow) exist only in the third-person singular, because there\'s no grammatical subject for "it rains" beyond the impersonal it. Soler ("to usually do something") conjugates only in the present and imperfect indicative; there\'s no future or preterite soler at all, only a different construction used to cover that meaning. A third group, verbs like atañer and concernir ("to concern" or "to be relevant to"), stays restricted to third-person forms for a different reason: they describe situations or facts rather than people, so there\'s no coherent subject for a "yo atango" or "tú atañes" to attach to.',
+				],
+			},
+			{
+				heading: 'The "stem-changing vs. fully irregular" split you\'ll see elsewhere is a study aid, not this classification',
+				body: [
+					'If you\'ve studied Spanish through an English-language textbook or app, the categories above probably don\'t match the ones you learned. Most beginner materials sort irregular verbs into "stem-changing," "spelling-change," "irregular yo form," and "fully irregular," or some near variant, because that grouping maps directly onto which forms a learner needs to drill for the present tense. It\'s a genuinely useful study aid, and it isn\'t wrong exactly, but it\'s organized around memorization difficulty in one tense, not around the underlying mechanism. Tener, for instance, gets called "stem-changing" in most textbooks because of tengo and tiene, but it also shortens its stem in the future (tendré) and takes a u-stem preterite (tuve) that has nothing to do with either of those present-tense patterns; no single textbook label covers all three at once.',
+					'For that reason, this page groups verbs by what the RAE\'s grammar says is actually happening to the stem, rather than by which tense a learner encounters first. If you want the present-tense entry point mapped across specific tenses, [the six-tense overview chart](/spanish-verb-tenses-chart/) walks through where each one sits, and [the u-stem, i-stem, and j-stem families](/irregular-preterite-verbs-spanish/) cover the separate stem groups that only surface in the preterite.',
+				],
+			},
+			{
+				heading: 'Three mix-ups these categories help explain',
+				body: [
+					'*Conosco* is a common misspelling of *conozco*; the -zc- spelling is required in every -acer/-ecer/-ocer/-ucir verb\'s yo form and throughout the present subjunctive, never just -c-.',
+					'Learners sometimes assume hacer\'s subjunctive follows the same -zco pattern as conocer, expecting something built the same way. It doesn\'t: haga is a genuine consonant substitution unique to hacer and haber, not a -zco verb at all, and it\'s one of only two verbs in Spanish built this way.',
+					'Calling tener simply "irregular" without specifying which tense obscures a real distinction: tengo (present, a consonantal yo-form irregularity) and tuve (preterite, part of the u-stem family) come from two separate mechanisms wearing the same infinitive, not one irregularity showing up twice.',
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'What are the four types of irregular verbs in Spanish, according to the RAE?',
+				answer: 'The Real Academia Española\'s Nueva gramática groups irregularities into vocalic (a stem vowel changes, as in contar → cuento or pedir → pido), consonantal (a stem consonant changes or gets added, as in conocer → conozco), mixed (both happen together, as in decir → digo), and suppletive (the paradigm is built from more than one historical root, as in ir, ser, estar, dar, and haber). A separate, non-alternating pattern, defective verbs, covers verbs missing entire forms rather than changing them.',
+			},
+			{
+				question: 'What\'s the difference between vocalic and consonantal irregularity?',
+				answer: 'Vocalic irregularity changes a vowel in the stem, either to another vowel (pedir → pido) or to a diphthong (contar → cuento). Consonantal irregularity changes or adds a consonant instead, as in conocer → conozco, where c becomes zc. A verb like decir, which does both at once (e → i and c → g, giving digo), falls into a third category, mixed, rather than either one alone.',
+			},
+			{
+				question: 'Why is jugar the only verb with a u → ue change?',
+				answer: 'Because jugar\'s stem vowel, u, doesn\'t appear as the stressed stem vowel in any other common Spanish verb; every other diphthongizing verb starts from e or o. The RAE documents u → ue as affecting only jugar\'s stressed-root forms (juego, juegas, juega, juegan), while jugamos and jugáis keep the plain u because the stress falls on the ending, not the stem, in those two forms.',
+			},
+			{
+				question: 'Are ir and ser irregular for the same reason?',
+				answer: 'They\'re both suppletive, but not built identically. Ir preserves its original root only in the infinitive, imperative, gerund, and imperfect, and switches entirely for the present (voy) and preterite/subjunctive (fui, vaya). Ser shows a comparable split between different roots for soy/es and fui/sido. In the preterite specifically, the two verbs converge completely: [ir and ser share one identical paradigm](/irregular-preterite-verbs-spanish/), fui, fuiste, fue, fuimos, fuisteis, fueron.',
+			},
+			{
+				question: 'Is hacer the same kind of irregular verb as conocer?',
+				answer: 'No, even though both look irregular in the yo form. Conocer belongs to the large -zco consonantal group (c → zc before o and a), shared with dozens of other -acer/-ecer/-ocer/-ucir verbs. Hacer\'s subjunctive forms (haga) come from a much narrower, RAE-documented pattern shared with only one other verb, haber (haya): a direct consonant substitution that doesn\'t follow the -zco rule at all.',
+			},
+			{
+				question: 'What does it mean for a verb to be "defective" rather than irregular?',
+				answer: 'A defective verb doesn\'t change its forms unpredictably; it\'s simply missing some of them. Weather verbs like llover and nevar exist only in a third-person-singular form, because "it rains" has no other grammatical subject to conjugate for. Soler exists only in the present and imperfect indicative, with no future, preterite, or conditional forms at all.',
+			},
+		],
+		sources: [
+			{ label: 'Real Academia Española — Nueva gramática básica: "Los verbos irregulares" (overview of the four-category classification plus defective verbs)', url: 'https://www.rae.es/gram%C3%A1tica-b%C3%A1sica/la-flexi%C3%B3n-verbal/los-verbos-irregulares' },
+			{ label: 'Real Academia Española — Nueva gramática: "Los verbos irregulares (I). Verbos vocálicos" (vowel-alternation and diphthongization patterns)', url: 'https://www.rae.es/gram%C3%A1tica/morfolog%C3%ADa/los-verbos-irregulares-i-verbos-voc%C3%A1licos' },
+			{ label: 'Real Academia Española — Nueva gramática básica: "Verbos con irregularidades consonánticas" (the -zco group and the hacer/haber consonant substitution)', url: 'https://www.rae.es/gram%C3%A1tica-b%C3%A1sica/la-flexi%C3%B3n-verbal/los-verbos-irregulares/verbos-con-irregularidades-conson%C3%A1nticas' },
+			{ label: 'Real Academia Española — Nueva gramática: "Verbos irregulares (V). Verbos de conjugación especial: haber, ser, ir, estar, dar. Raíces verbales supletivas"', url: 'https://www.rae.es/gram%C3%A1tica/morfolog%C3%ADa/verbos-irregulares-v-verbos-de-conjugaci%C3%B3n-especial-haber-ser-ir-estar-dar-ra%C3%ADces-verbales-supletivas' },
+			{ label: 'Real Academia Española — Nueva gramática básica: "Verbos defectivos" (weather verbs, soler, third-person-only verbs)', url: 'https://www.rae.es/gram%C3%A1tica-b%C3%A1sica/la-flexi%C3%B3n-verbal/los-verbos-irregulares/verbos-defectivos' },
+			{ label: 'Spanish Linguist — "The most frequent Spanish verbs are irregular"', url: 'https://spanishlinguist.us/2014/02/the-most-frequent-spanish-verbs-are-irregular/' },
+		],
+	},
 ];

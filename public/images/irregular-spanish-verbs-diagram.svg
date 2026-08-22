@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" font-family="system-ui, -apple-system, sans-serif">
+	<rect width="900" height="560" fill="#f6f4e9"/>
+
+	<rect x="24" y="24" width="414" height="240" rx="10" fill="#fffefa" stroke="#ddd8c4"/>
+	<rect x="462" y="24" width="414" height="240" rx="10" fill="#fffefa" stroke="#ddd8c4"/>
+	<rect x="24" y="288" width="414" height="240" rx="10" fill="#fffefa" stroke="#ddd8c4"/>
+	<rect x="462" y="288" width="414" height="240" rx="10" fill="#fffefa" stroke="#ddd8c4"/>
+
+	<rect x="24" y="24" width="414" height="48" rx="10" fill="#2f6b47"/>
+	<rect x="24" y="52" width="414" height="20" fill="#2f6b47"/>
+	<text x="240" y="54" text-anchor="middle" fill="#ffffff" font-size="20" font-weight="700">VOCALIC</text>
+
+	<rect x="462" y="24" width="414" height="48" rx="10" fill="#204a31"/>
+	<rect x="462" y="52" width="414" height="20" fill="#204a31"/>
+	<text x="678" y="54" text-anchor="middle" fill="#ffffff" font-size="20" font-weight="700">CONSONANTAL</text>
+
+	<rect x="24" y="288" width="414" height="48" rx="10" fill="#16321f"/>
+	<rect x="24" y="316" width="414" height="20" fill="#16321f"/>
+	<text x="240" y="318" text-anchor="middle" fill="#ffffff" font-size="20" font-weight="700">MIXED</text>
+
+	<rect x="462" y="288" width="414" height="48" rx="10" fill="#0e2519"/>
+	<rect x="462" y="316" width="414" height="20" fill="#0e2519"/>
+	<text x="678" y="318" text-anchor="middle" fill="#ffffff" font-size="20" font-weight="700">SUPPLETIVE</text>
+
+	<g font-size="14.5">
+		<text x="44" y="100" fill="#5a5648">A stem vowel changes to another</text>
+		<text x="44" y="118" fill="#5a5648">vowel or a diphthong.</text>
+		<text x="44" y="150" fill="#201f1a" font-weight="700">contar → cuento (o→ue)</text>
+		<text x="44" y="172" fill="#201f1a" font-weight="700">pedir → pido (e→i)</text>
+		<text x="44" y="194" fill="#201f1a" font-weight="700">adquirir → adquiero (i→ie)</text>
+		<text x="44" y="216" fill="#a5401f">jugar → juego — the only u→ue verb</text>
+		<text x="44" y="244" fill="#5a5648" font-size="13">RAE: Los verbos irregulares (I)</text>
+	</g>
+
+	<g font-size="14.5">
+		<text x="482" y="100" fill="#5a5648">A stem consonant changes or</text>
+		<text x="482" y="118" fill="#5a5648">gets added.</text>
+		<text x="482" y="150" fill="#201f1a" font-weight="700">conocer → conozco (c→zc)</text>
+		<text x="482" y="172" fill="#201f1a" font-weight="700">producir → produzco</text>
+		<text x="482" y="194" fill="#a5401f">hacer → haga, haber → haya</text>
+		<text x="482" y="212" fill="#5a5648" font-size="13">(only these two swap a root</text>
+		<text x="482" y="230" fill="#5a5648" font-size="13">consonant in the subjunctive)</text>
+		<text x="482" y="252" fill="#5a5648" font-size="13">RAE: Verbos con irregularidades consonánticas</text>
+	</g>
+
+	<g font-size="14.5">
+		<text x="44" y="364" fill="#5a5648">Vowel and consonant change</text>
+		<text x="44" y="382" fill="#5a5648">together, in the same form.</text>
+		<text x="44" y="418" fill="#201f1a" font-weight="700">decir → digo</text>
+		<text x="44" y="440" fill="#5a5648" font-size="13">e→i (vocalic) and c→g</text>
+		<text x="44" y="458" fill="#5a5648" font-size="13">(consonantal), at once —</text>
+		<text x="44" y="476" fill="#5a5648" font-size="13">not decigo or dico</text>
+		<text x="44" y="504" fill="#5a5648" font-size="13">RAE: Verbos irregulares (III)</text>
+	</g>
+
+	<g font-size="14.5">
+		<text x="482" y="364" fill="#5a5648">The paradigm fuses more than</text>
+		<text x="482" y="382" fill="#5a5648">one historical root.</text>
+		<text x="482" y="414" fill="#201f1a" font-weight="700">ir: ir- / voy / fui / vaya</text>
+		<text x="482" y="436" fill="#201f1a" font-weight="700">ser: soy / es / fui / sido</text>
+		<text x="482" y="458" fill="#5a5648" font-size="13">also estar, dar, haber —</text>
+		<text x="482" y="476" fill="#5a5648" font-size="13">five verbs, one RAE category</text>
+		<text x="482" y="504" fill="#5a5648" font-size="13">RAE: Verbos de conjugación especial</text>
+	</g>
+
+	<text x="450" y="546" text-anchor="middle" fill="#5a5648" font-size="13">The RAE's Nueva gramática sorts irregularity by mechanism, not by tense or how common the verb is.</text>
+</svg>
