@@ -25,7 +25,7 @@
 		<text x="48" y="302" fill="#5a5648" font-size="14">Esto sabe a limón. (tastes like)</text>
 
 		<text x="48" y="334" font-weight="700">Yo form</text>
-		<text x="48" y="356" fill="#5a5648" font-size="14">sé — genuinely irregular</text>
+		<text x="48" y="356" fill="#5a5648" font-size="14">sé: genuinely irregular</text>
 	</g>
 
 	<g fill="#201f1a" font-size="16">
@@ -42,7 +42,7 @@
 		<text x="440" y="302" fill="#5a5648" font-size="14">before a person as object</text>
 
 		<text x="440" y="334" font-weight="700">Yo form</text>
-		<text x="440" y="356" fill="#5a5648" font-size="14">conozco — spelling change only</text>
+		<text x="440" y="356" fill="#5a5648" font-size="14">conozco: spelling change only</text>
 	</g>
 
 	<line x1="400" y1="24" x2="400" y2="396" stroke="#ddd8c4" stroke-width="1"/>

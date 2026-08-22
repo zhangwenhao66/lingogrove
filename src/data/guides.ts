@@ -1000,7 +1000,7 @@ export const guides: Guide[] = [
 		title: 'Saber vs. Conocer: Spanish Has Two Verbs for "To Know"',
 		description: 'English "to know" covers facts and people alike. Spanish splits it in two, and the split gets stricter, not looser, in the past tense.',
 		published: '2026-08-04',
-		updated: '2026-08-04',
+		updated: '2026-08-22',
 		coreSummary: 'Saber is for facts, information, and learned skills (sé su número, sé nadar); conocer is for familiarity with people, places, and things (conozco a Ana, conozco Lima). The two verbs are not interchangeable, and the distinction gets sharper rather than fuzzier in the preterite: supe means "I found out," while conocí means "I met," a genuine change in meaning, not just tense.',
 		language: 'Spanish',
 		sections: [
@@ -1038,7 +1038,7 @@ export const guides: Guide[] = [
 				heading: 'Where the split gets sharper: the preterite',
 				body: [
 					'Most saber/conocer explanations stop at "facts vs. people," but the distinction actually tightens rather than loosens once you move into the preterite. In the preterite, *saber* and *conocer* do more than change endings: each one names a different kind of event.',
-					'*Supe que María se casó.* Not "I knew that María got married" but "**I found out** that María got married": the preterite marks the moment the fact entered your head, not an ongoing state of possessing it. *Conocí a Ana en la fiesta.* Not "I knew Ana at the party" but "**I met** Ana at the party": the moment acquaintance began, not a state of already knowing her.',
+					'*Supe que María se casó* means "**I found out** that María got married," not "I knew": the preterite marks the moment the fact entered your head, rather than an ongoing state of possessing it. *Conocí a Ana en la fiesta* works the same way, meaning "**I met** Ana at the party," naming the moment acquaintance began rather than a state of already knowing her.',
 					'This isn\'t a quirk unique to these two verbs. *Saber* and *conocer* belong to a small group of Spanish verbs, alongside *poder* ("was able to" becomes "managed to") and *querer* ("wanted to" becomes "tried to," in the affirmative, or "refused to" in the negative), where the preterite reports the specific instant a state began or resolved rather than simply placing a known state in the past. Learners who\'ve already sorted out the [broader preterite-versus-imperfect split](/preterite-vs-imperfect/) still trip on this group specifically, because the meaning shift is larger than "completed vs. ongoing." It\'s closer to two different English verbs mapping onto the same Spanish root.',
 				],
 			},
@@ -1079,9 +1079,9 @@ export const guides: Guide[] = [
 			},
 		],
 		sources: [
-			{ label: 'Real Academia Española — Diccionario de la lengua española: "saber"', url: 'https://dle.rae.es/saber' },
-			{ label: 'Real Academia Española — Diccionario panhispánico de dudas: "conocer, conocerse"', url: 'https://www.rae.es/dpd/conocer' },
-			{ label: 'CliffsNotes — "Verbs That Change Meaning in the Preterite"', url: 'https://www.cliffsnotes.com/study-guides/spanish/spanish-i/narration-in-the-past/verbs-that-change-meaning-in-the-preterite' },
+			{ label: 'Real Academia Española: Diccionario de la lengua española, "saber"', url: 'https://dle.rae.es/saber' },
+			{ label: 'Real Academia Española: Diccionario panhispánico de dudas, "conocer, conocerse"', url: 'https://www.rae.es/dpd/conocer' },
+			{ label: 'CliffsNotes: "Verbs That Change Meaning in the Preterite"', url: 'https://www.cliffsnotes.com/study-guides/spanish/spanish-i/narration-in-the-past/verbs-that-change-meaning-in-the-preterite' },
 		],
 	},
 	{
