@@ -4990,4 +4990,81 @@ export const guides: Guide[] = [
 			{ label: 'ELUA: Estudios de Lingüística, Universidad de Alicante — "Los valores del pretérito perfecto compuesto y del simple en las áreas geográficas del español: variación diatópica y tratamiento en ELE" (independent academic cross-check of the regional split, incl. the Andean evidential reading)', url: 'https://revistaelua.ua.es/article/view/24276' },
 		],
 	},
+	{
+		slug: 'latin-declensions',
+		category: 'Grammar',
+		title: 'Latin Declensions: The Five Noun Patterns and What Each Ending Marks',
+		description: "Latin doesn't sort nouns by meaning. It sorts them by one ending the nominative never shows you: the genitive singular, the same form every dictionary entry lists right beside it.",
+		published: '2026-08-23',
+		updated: '2026-08-23',
+		coreSummary: 'Latin nouns fall into five declensions, sets of case endings identified not by the nominative singular but by the genitive singular: -ae, -ī, -is, -ūs, and -eī (or -ēī) for the first through fifth declensions in turn. The third declension is by far the largest and least uniform group, spanning masculine, feminine, and neuter nouns with no single shared nominative ending, while the fourth and fifth are small, specialized sets. Once the genitive singular identifies which declension a noun belongs to and its ending is stripped away to expose the oblique stem, the same handful of case suffixes (nominative, genitive, dative, accusative, ablative, and occasionally vocative or locative) attaches predictably across singular and plural.',
+		language: 'Latin',
+		sections: [
+			{
+				heading: "The nominative won't tell you the declension. The genitive will.",
+				body: [
+					'A Latin dictionary entry never lists just one form of a noun. It lists two: the nominative singular, then the genitive singular, as in via, viae ("road") or rēx, rēgis ("king"). That second form isn\'t decoration. Latin grammar sorts nouns into five declensions, or families of case endings, and the nominative singular can\'t reliably tell you which family a noun belongs to, because several declensions share the same nominative ending. Equus ("horse") and manus ("hand") both end in -us, but equus is second declension and manus is fourth; treat them the same way and every other case you build from them comes out wrong. The genitive singular doesn\'t have that overlap problem. Each declension has its own, distinct genitive singular marker: -ae for the first, -ī for the second, -is for the third, -ūs for the fourth, and -eī or -ēī for the fifth. That ending is what actually identifies the declension, which is exactly why it rides along in every dictionary entry instead of getting left out.',
+					'The genitive singular does a second job beyond labeling the declension: strip its ending off and what remains is the noun\'s oblique stem, the base that every case besides the nominative is built from. Via, viae has the stem vi-; add -ā and you get the ablative singular viā, add -ārum and you get the genitive plural viārum. Rēx, rēgis has the stem rēg- (not rēx-, which is a spelling quirk of the nominative alone); add -ī for the dative singular, rēgī, or -ibus for the dative and ablative plural, rēgibus. Once the stem is in hand, the five declensions each apply their own fixed set of endings to it, which is what the rest of this guide walks through.',
+				],
+				image: {
+					src: '/images/latin-declensions-diagram.svg',
+					alt: 'Diagram showing the five Latin declensions identified by their genitive singular ending: via/viae (-ae), equus/equī (-ī), rēx/rēgis (-is), manus/manūs (-ūs), and rēs/reī (-eī/-ēī), each with its typical gender and predominant vowel, plus a note on stripping the genitive ending to find the oblique stem.',
+				},
+			},
+			{
+				heading: 'First and second declension: the two patterns most nouns follow',
+				body: [
+					'The first declension is mostly feminine nouns like via, viae ("road") and aqua, aquae ("water"), with a small class of masculine exceptions for occupations (poēta "poet," nauta "sailor," agricola "farmer"). Its singular runs nominative -a, genitive -ae, dative -ae, accusative -am, ablative -ā; its plural runs nominative -ae, genitive -ārum, dative -īs, accusative -ās, ablative -īs. Note that the genitive singular and the nominative plural share the identical form, -ae, one of several places across the five declensions where two different cases collapse into one spelling and only context sorts out which is meant.',
+					'The second declension splits by gender but shares its genitive singular marker, -ī, across both: masculine nouns like equus, equī ("horse") take nominative -us, genitive -ī, dative -ō, accusative -um, ablative -ō in the singular, and -ī, -ōrum, -īs, -ōs, -īs in the plural. Neuter nouns like bellum, bellī ("war") follow the same pattern except the nominative and accusative always match each other, singular -um/-um and plural -a/-a, a rule that holds for every neuter noun in every declension, not just this one. A subset of second-declension masculine nouns end in -er rather than -us in the nominative (puer, puerī "boy"), but decline identically to -us nouns everywhere else, including the same -ī genitive.',
+				],
+			},
+			{
+				heading: "Third declension: the largest group, and the one with no single rule",
+				body: [
+					'The third declension holds more nouns than any of the other four combined, and it is the one place where "what does the nominative singular look like" stops being a useful question: third-declension nominatives can end in -a, -e, -ī, -ō, -y, -c, -l, -n, -r, -s, -t, or -x, and the group covers masculine, feminine, and neuter nouns alike. What every third-declension noun shares is the genitive singular ending, -is, and from there a consistent stem: rēx, rēgis ("king") has the stem rēg-, pāx, pācis ("peace") has the stem pāc-, and flūmen, flūminis ("river") has the stem flūmin-. Once that stem is exposed, the endings are uniform: genitive -is, dative -ī, accusative -em, ablative -e in the singular, and nominative/accusative -ēs, genitive -um, dative/ablative -ibus in the plural.',
+					'A subset of third-declension nouns, the i-stems, swap in -ium for the plain -um genitive plural, and sometimes -im instead of -em for the accusative singular. Neuter i-stems are the easiest to spot on sight, since they always end in -al, -ar, or -e (animal, animālis "animal"; mare, maris "sea"), while masculine and feminine i-stems are identified either by having the same number of syllables in the nominative and genitive (nāvis, nāvis "ship") or by two consonants sitting right before the genitive\'s -is (pars, partis "part"). Getting the i-stem genitive plural wrong, -um instead of -ium or the reverse, is one of the most common mistakes in third-declension Latin, precisely because the nominative singular gives no warning that a noun belongs to this subgroup at all.',
+				],
+			},
+			{
+				heading: 'Fourth and fifth declensions: small groups, and each has one irregular member worth knowing',
+				body: [
+					'The fourth declension is a comparatively small group, mostly masculine (flūctus, flūctūs "wave"; portus, portūs "port") with a handful of feminine exceptions (manus, manūs "hand"; domus, domūs "house") and a few neuters (genū, genūs "knee"). Its identifying genitive singular ending is -ūs, and the full singular runs -us, -ūs, -uī, -um, -ū, with the plural -ūs, -uum, -ibus, -ūs, -ibus. Domus is worth flagging on its own: it mixes fourth- and second-declension forms in practice, taking a second-declension ablative singular (domō, not domū) and accusative plural (domōs, not domūs) alongside its otherwise regular fourth-declension paradigm, a hybrid that grammarians attribute to domus being frequent enough in everyday speech to resist fully regularizing.',
+					'The fifth declension is the smallest of the five, mostly feminine, built around rēs, reī ("thing, matter") and diēs, diēī ("day," usually masculine but feminine in names of days). Its singular runs -ēs, -eī, -eī, -em, -ē, and its plural runs -ēs, -ērum, -ēbus, -ēs, -ēbus. One detail that trips learners up: the genitive and dative singular ending shows up two ways depending on what precedes it. Nouns ending in -iēs, like diēs, take a long -ēī (diēī); nouns ending in a consonant plus -ēs, like rēs itself, take a shorter -eī (reī). It\'s the same ending in principle, just lengthened after a vowel and shortened after a consonant, not two separate rules to memorize.',
+				],
+			},
+			{
+				heading: "What the cases actually mark, and where the system went",
+				body: [
+					'Underneath all five declensions sit the same handful of grammatical jobs. The nominative marks the subject; the genitive marks possession or "of"; the dative marks the indirect object, roughly "to" or "for"; the accusative marks the direct object; and the ablative is the workhorse case, covering means ("by/with"), separation or origin ("from"), and place or time ("in/at") depending on context and the preposition, if any, governing it. The vocative, used for direct address, is identical to the nominative in every declension except one specific corner of the second: masculine -us nouns swap it for -e in the singular (amīcus, vocative amīce, "friend!"). A seventh case, the locative, survives only in a handful of fossilized place and time expressions, such as domī ("at home") and Rōmae ("at Rome, in Rome"), rather than as a live, productive case for ordinary nouns.',
+					'That case system is also the clearest place where Latin grammar visibly cracked apart on its way to becoming the Romance languages. Vulgar Latin gradually lost most of its case distinctions and leaned on word order and prepositions to do the job instead, which is the same collapse behind the [Spanish future tense](/spanish-future-tense/): what looks like a single fused verb form, cantaré, actually started as the separate words cantar and habeō squeezed together after the case system could no longer carry that kind of grammatical weight on its own. Not every language that descended from or sat near Latin gave up its case system, though. German never did, and still marks a noun\'s role with four cases of its own; the [German Cases guide](/german-cases/) covers how that system distributes the marking mostly onto the article rather than the noun itself, a genuinely different strategy from the stem-plus-ending approach Latin uses. And Spanish\'s own irregular verb ser carries a quieter trace of this history: its [conjugation](/ser-conjugation/) is suppletive, fused from two entirely different Latin verbs, esse and sedere, a merger that happened before the Romance case system had finished falling away.',
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'What is a Latin declension?',
+				answer: 'A declension is a set of case endings a Latin noun (or adjective or pronoun) takes to mark its grammatical role in a sentence. Latin sorts nouns into five declensions, each identified by its own genitive singular ending: -ae (first), -ī (second), -is (third), -ūs (fourth), and -eī/-ēī (fifth).',
+			},
+			{
+				question: 'Why do Latin dictionaries list two forms for every noun, like "via, viae"?',
+				answer: "Because the nominative singular alone can't reliably identify a noun's declension: several declensions share the same nominative ending (equus and manus both end in -us, but belong to different declensions). The genitive singular is unique per declension, so it's listed alongside the nominative specifically to remove that ambiguity, and stripping its ending reveals the oblique stem every other case is built from.",
+			},
+			{
+				question: "What's different about the third declension compared to the other four?",
+				answer: 'The third declension is Latin\'s largest noun group, and unlike the other four, its nominative singular has no single predictable ending: it can end in -a, -e, -ī, -ō, -y, -c, -l, -n, -r, -s, -t, or -x, and covers masculine, feminine, and neuter nouns alike. What unifies it is the genitive singular ending, -is, and a subset called i-stems, which take -ium instead of -um in the genitive plural.',
+			},
+			{
+				question: 'What do the Latin cases actually mean?',
+				answer: 'Nominative marks the subject, genitive marks possession ("of"), dative marks the indirect object ("to/for"), accusative marks the direct object, and ablative covers means, origin, and place or time depending on context ("by/with," "from," "in/at"). The vocative (direct address) matches the nominative except for second-declension -us nouns, which swap it for -e (amīcus → amīce). The locative survives only in a handful of fixed expressions like domī, "at home."',
+			},
+			{
+				question: 'Do any modern languages still use a Latin-style case system?',
+				answer: "Most of Latin's Romance descendants, including Spanish and French, dropped noun-phrase case marking and rely on word order and prepositions instead. German is the clearer example of a related language that kept a real case system, though it distributes most of the marking onto the article rather than the noun itself, a different strategy from Latin's stem-plus-ending approach.",
+			},
+		],
+		sources: [
+			{ label: 'Wikipedia: "Latin declension" (synthesizes Allen and Greenough\'s New Latin Grammar and Gildersleeve and Lodge\'s Latin Grammar; endings, i-stem rules, domus and diēs irregularities cross-checked against this entry)', url: 'https://en.wikipedia.org/wiki/Latin_declension' },
+			{ label: 'Wiktionary: "Appendix:Latin first declension" (independent cross-check of first-declension endings and gender exceptions)', url: 'https://en.wiktionary.org/wiki/Appendix:Latin_first_declension' },
+		],
+	},
 ];

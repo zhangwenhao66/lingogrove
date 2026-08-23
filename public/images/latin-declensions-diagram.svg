@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 620" font-family="system-ui, -apple-system, sans-serif">
+	<rect width="800" height="620" fill="#f6f4e9"/>
+	<rect x="24" y="24" width="752" height="572" rx="10" fill="#fffefa" stroke="#ddd8c4"/>
+
+	<rect x="24" y="24" width="752" height="56" rx="10" fill="#2f6b47"/>
+	<rect x="24" y="60" width="752" height="20" fill="#2f6b47"/>
+	<text x="400" y="60" text-anchor="middle" fill="#ffffff" font-size="18" font-weight="700">FIVE DECLENSIONS, IDENTIFIED BY THE GENITIVE SINGULAR</text>
+
+	<!-- row 1: declensions 1-3 -->
+	<rect x="46" y="102" width="220" height="150" rx="8" fill="#fbead0" stroke="#ddd8c4"/>
+	<rect x="290" y="102" width="220" height="150" rx="8" fill="#fbead0" stroke="#ddd8c4"/>
+	<rect x="534" y="102" width="220" height="150" rx="8" fill="#fbead0" stroke="#ddd8c4"/>
+
+	<text x="156" y="128" text-anchor="middle" fill="#5a5648" font-size="12" font-weight="700">1ST DECLENSION</text>
+	<text x="156" y="154" text-anchor="middle" fill="#2f6b47" font-size="15" font-weight="700">via, viae</text>
+	<text x="156" y="176" text-anchor="middle" fill="#201f1a" font-size="12">gen. sg. &#8211;ae</text>
+	<text x="156" y="196" text-anchor="middle" fill="#5a5648" font-size="11" font-style="italic">mostly feminine</text>
+	<text x="156" y="214" text-anchor="middle" fill="#5a5648" font-size="11" font-style="italic">(&#8220;road&#8221;)</text>
+	<text x="156" y="234" text-anchor="middle" fill="#b5570f" font-size="11">predominant vowel: a</text>
+
+	<text x="400" y="128" text-anchor="middle" fill="#5a5648" font-size="12" font-weight="700">2ND DECLENSION</text>
+	<text x="400" y="154" text-anchor="middle" fill="#2f6b47" font-size="15" font-weight="700">equus, equī</text>
+	<text x="400" y="176" text-anchor="middle" fill="#201f1a" font-size="12">gen. sg. &#8211;ī</text>
+	<text x="400" y="196" text-anchor="middle" fill="#5a5648" font-size="11" font-style="italic">masc. &#8211;us / neut. &#8211;um</text>
+	<text x="400" y="214" text-anchor="middle" fill="#5a5648" font-size="11" font-style="italic">(&#8220;horse&#8221;)</text>
+	<text x="400" y="234" text-anchor="middle" fill="#b5570f" font-size="11">predominant vowel: o</text>
+
+	<text x="644" y="128" text-anchor="middle" fill="#5a5648" font-size="12" font-weight="700">3RD DECLENSION</text>
+	<text x="644" y="154" text-anchor="middle" fill="#2f6b47" font-size="15" font-weight="700">rēx, rēgis</text>
+	<text x="644" y="176" text-anchor="middle" fill="#201f1a" font-size="12">gen. sg. &#8211;is</text>
+	<text x="644" y="196" text-anchor="middle" fill="#5a5648" font-size="11" font-style="italic">m., f., or n. &#8211; largest group</text>
+	<text x="644" y="214" text-anchor="middle" fill="#5a5648" font-size="11" font-style="italic">(&#8220;king&#8221;)</text>
+	<text x="644" y="234" text-anchor="middle" fill="#b5570f" font-size="11">no single nom. sg. ending</text>
+
+	<!-- row 2: declensions 4-5 -->
+	<rect x="168" y="278" width="220" height="150" rx="8" fill="#fbead0" stroke="#ddd8c4"/>
+	<rect x="412" y="278" width="220" height="150" rx="8" fill="#fbead0" stroke="#ddd8c4"/>
+
+	<text x="278" y="304" text-anchor="middle" fill="#5a5648" font-size="12" font-weight="700">4TH DECLENSION</text>
+	<text x="278" y="330" text-anchor="middle" fill="#2f6b47" font-size="15" font-weight="700">manus, manūs</text>
+	<text x="278" y="352" text-anchor="middle" fill="#201f1a" font-size="12">gen. sg. &#8211;ūs</text>
+	<text x="278" y="372" text-anchor="middle" fill="#5a5648" font-size="11" font-style="italic">mostly masc., some fem.</text>
+	<text x="278" y="390" text-anchor="middle" fill="#5a5648" font-size="11" font-style="italic">(&#8220;hand&#8221;)</text>
+	<text x="278" y="410" text-anchor="middle" fill="#b5570f" font-size="11">predominant vowel: u</text>
+
+	<text x="522" y="304" text-anchor="middle" fill="#5a5648" font-size="12" font-weight="700">5TH DECLENSION</text>
+	<text x="522" y="330" text-anchor="middle" fill="#2f6b47" font-size="15" font-weight="700">rēs, reī</text>
+	<text x="522" y="352" text-anchor="middle" fill="#201f1a" font-size="12">gen. sg. &#8211;eī / &#8211;ēī</text>
+	<text x="522" y="372" text-anchor="middle" fill="#5a5648" font-size="11" font-style="italic">smallest group, mostly fem.</text>
+	<text x="522" y="390" text-anchor="middle" fill="#5a5648" font-size="11" font-style="italic">(&#8220;thing, matter&#8221;)</text>
+	<text x="522" y="410" text-anchor="middle" fill="#b5570f" font-size="11">predominant vowel: e</text>
+
+	<!-- explanatory footer -->
+	<rect x="46" y="458" width="708" height="112" rx="8" fill="#eaf1ea" stroke="#2f6b47"/>
+	<text x="400" y="484" text-anchor="middle" fill="#5a5648" font-size="12" font-weight="700">WHY THE GENITIVE, NOT THE NOMINATIVE</text>
+	<text x="400" y="508" text-anchor="middle" fill="#204a31" font-size="12">Several declensions share nominative endings (equus and manus both end in &#8211;us), so dictionaries list</text>
+	<text x="400" y="528" text-anchor="middle" fill="#204a31" font-size="12">both principal parts: nominative singular, then genitive singular. Strip the genitive&#8217;s ending and what&#8217;s</text>
+	<text x="400" y="548" text-anchor="middle" fill="#204a31" font-size="12">left is the oblique stem, the base every other case is built from.</text>
+
+	<text x="400" y="598" text-anchor="middle" fill="#5a5648" font-size="11" font-style="italic">Each declension also has its own dative, accusative, ablative, and plural endings: see the tables below.</text>
+</svg>
