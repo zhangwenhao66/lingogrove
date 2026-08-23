@@ -1,4 +1,9 @@
 {
+  "https://lingogrove.com/latin-declensions/": {
+    "submitted_date": "2026-08-23",
+    "verified_status": "pending",
+    "note": "new publish (Grammar tier: 'latin declensions' — five noun declensions identified by genitive singular marker (-ae/-ī/-is/-ūs/-eī or -ēī), full case-ending paradigms for all five, i-stem -ium genitive plural rule, domus hybrid 2nd/4th-declension irregularity, diēs-vs-rēs long/short genitive-dative distinction, case functions incl. vocative -e exception and fossilized locative; sourced from Wikipedia 'Latin declension' (synthesizing Allen and Greenough / Gildersleeve and Lodge) cross-checked against Wiktionary's first-declension appendix; SERP checked before selection — no same-niche competitor wall (Wikipedia/Superprof/personal blogs, not spanishdict-type sites); internal links to spanish-future-tense (habeo fusion etymology) and ser-conjugation (esse/sedere suppletion) tie the Latin case-collapse narrative to existing site content; passed independent 8-fold audit on first pass except one fix — sources[] labels and two SVG diagram sentences used em dashes instead of the site's colon convention (L-0810-4 recurrence, fixed before publish); Bing 200 / Yandex 200. Live URL confirmed 200 with real article content before submission."
+  },
   "https://lingogrove.com/german-dative-case/": {
     "submitted_date": "2026-08-23",
     "verified_status": "pending",
