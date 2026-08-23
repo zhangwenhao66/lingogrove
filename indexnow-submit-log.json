@@ -163,8 +163,10 @@
   },
   "https://lingogrove.com/ser-conjugation/": {
     "submitted_date": "2026-08-05",
-    "verified_status": "pending",
-    "note": "resubmitted after trafficsite-content-quality-audit fix (removed 6 narrative em-dashes, trimmed meta description 178->151 chars, added ser-vs-estar cross-link); Bing 200 / Yandex 202. Previously resubmitted 2026-08-04 after accuracy fix (table completed to 19 paradigms, re-sourced to RAE), Bing 200 / Yandex 202; originally submitted 2026-08-03 as launch batch, Bing 202 / Yandex 202."
+    "verified_status": "stale_not_indexed",
+    "note": "Discovered but not crawled, discovered 04 Aug 2026, age 19 days as of 08-23 check",
+    "last_checked_date": "2026-08-23",
+    "verified_method": "bwt_url_inspection"
   },
   "https://lingogrove.com/saber-vs-conocer/": {
     "submitted_date": "2026-08-04",
@@ -176,23 +178,31 @@
   },
   "https://lingogrove.com/spanish-reflexive-verbs/": {
     "submitted_date": "2026-08-04",
-    "verified_status": "pending",
-    "note": "new publish (Grammar tier); Bing 200 / Yandex 202."
+    "verified_status": "stale_not_indexed",
+    "note": "Discovered but not crawled, discovered 06 Aug 2026, age 17 days as of 08-23 check",
+    "last_checked_date": "2026-08-23",
+    "verified_method": "bwt_url_inspection"
   },
   "https://lingogrove.com/spanish-future-tense/": {
     "submitted_date": "2026-08-05",
-    "verified_status": "pending",
-    "note": "new publish (Grammar tier); Bing 200 / Yandex 202."
+    "verified_status": "stale_not_indexed",
+    "note": "Discovered but not crawled, discovered 06 Aug 2026, age 17 days as of 08-23 check",
+    "last_checked_date": "2026-08-23",
+    "verified_method": "bwt_url_inspection"
   },
   "https://lingogrove.com/subjunctive-spanish/": {
     "submitted_date": "2026-08-05",
-    "verified_status": "pending",
-    "note": "new publish (Grammar tier); Bing 200 / Yandex 202."
+    "verified_status": "stale_not_indexed",
+    "note": "Discovered but not crawled, discovered 06 Aug 2026, age 17 days as of 08-23 check",
+    "last_checked_date": "2026-08-23",
+    "verified_method": "bwt_url_inspection"
   },
   "https://lingogrove.com/spanish-conditional-tense/": {
     "submitted_date": "2026-08-05",
-    "verified_status": "pending",
-    "note": "new publish (Grammar tier); Bing 200 / Yandex 202."
+    "verified_status": "stale_not_indexed",
+    "note": "Discovered but not crawled, discovered 06 Aug 2026, age 17 days as of 08-23 check",
+    "last_checked_date": "2026-08-23",
+    "verified_method": "bwt_url_inspection"
   },
   "https://lingogrove.com/spanish-accent-marks/": {
     "submitted_date": "2026-08-06",
