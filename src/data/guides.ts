@@ -1091,7 +1091,7 @@ export const guides: Guide[] = [
 		description: 'Lo, la, le, les overlap almost everywhere except the third person. The real rule, the le-to-se swap, and the regional exception fluent speakers still get wrong.',
 		published: '2026-08-04',
 		updated: '2026-08-04',
-		coreSummary: 'Direct object pronouns (lo, la, los, las) stand in for whatever receives a verb\'s action; indirect object pronouns (le, les) stand in for whoever the action is done to or for. Every person except the third singular and plural shares identical forms (me, te, nos, os), so the real confusion concentrates entirely around lo/la versus le/les, plus leísmo, a regional swap of le for a masculine lo that the RAE actually accepts, while the reverse swaps do not.',
+		coreSummary: 'Direct object pronouns (lo, la, los, las) stand in for whatever receives a verb\'s action; indirect object pronouns (le, les) stand in for whoever the action is done to or for. Every person except the third singular and plural shares identical forms (me, te, nos, os), so the real confusion concentrates entirely around lo/la versus le/les, plus leísmo, the regional swap of le for lo that the RAE accepts specifically when the referent is a masculine, singular person, while the reverse swaps are never accepted.',
 		language: 'Spanish',
 		sections: [
 			{
@@ -1136,7 +1136,7 @@ export const guides: Guide[] = [
 			{
 				heading: 'Leísmo, laísmo, and loísmo: the regional variation that actually matters',
 				body: [
-					'One regional swap is common enough that the RAE formally recognizes it as acceptable, not just as an error people happen to make. *Leísmo* is the use of *le* in place of *lo* for a masculine singular direct object that refers to a specific person: *A Juan le vi ayer*, alongside the standard *A Juan lo vi ayer*. Both are considered correct, and *leísmo* of this specific kind (masculine, singular, personal) is especially common in Spain; Latin American Spanish tends to stick with the standard *lo*.',
+					'*Leísmo* is the use of *le* in place of *lo* for a masculine singular direct object that refers to a specific person: *A Juan le vi ayer*, alongside the standard *A Juan lo vi ayer*. Both are considered correct Spanish. This masculine, singular, personal swap is common enough in educated usage that the RAE formally recognizes it as acceptable, especially in Spain; Latin American Spanish tends to stick with the standard *lo*.',
 					'The reverse swaps aren\'t accepted anywhere. *Laísmo*, using *la/las* for an indirect object, produces sentences like *La dije la verdad*, which is simply wrong; the correct form is *Le dije la verdad* (I told her the truth). *Loísmo*, using *lo/los* for an indirect object, produces *Lo compré un regalo*, also wrong; the correct form is *Le compré un regalo* (I bought him a gift). Both are treated as genuine errors by the RAE, regardless of region, unlike the masculine-personal *leísmo* case above.',
 					'This is the same kind of one-English-word-hides-two-Spanish-forms problem that shows up with [por and para](/por-vs-para/): the categories look interchangeable from the English side, and the only way through is to stop translating and ask what job the word is doing in the sentence.',
 				],

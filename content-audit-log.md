@@ -955,3 +955,41 @@
   "escalation": null
 }
 ```
+
+## 2026-08-23 完整审计：`direct-vs-indirect-object-pronouns-spanish`
+
+```json
+{
+  "url_slug": "direct-vs-indirect-object-pronouns-spanish",
+  "last_audited": "2026-08-23",
+  "published_date": "2026-08-04",
+  "findings": [
+    { "dimension": "EEAT", "status": "未发现问题", "detail": "sources[]仅2条但均为RAE一手权威（dpd/leísmo词条 + Libro de estilo leísmo-laísmo-loísmo专章），非泛泛提及；正文对leísmo/laísmo/loísmo的地域倾向表述具体（Spain vs Latin America），非模糊断言。" },
+    { "dimension": "事实准确性", "status": "确认发现1处overclaim+1处否定排比，独立核实为真，已修复；1处线索独立核实后不成立，未改动", "detail": "①coreSummary断言'每个人称除第三人称单复数外形式完全相同（me/te/nos/os）'——独立agent检索voseo（阿根廷/乌拉圭/巴拉圭/中美洲/智利）及学术文献（Ian E. Mackenzie, Newcastle University），确认voseo只改变动词变位/主语代词，宾语代词恒为te，未发现任何变体使第一/二人称宾语代词分裂出直接/间接两套形式，usted/ustedes虽语义第二人称但语法归第三人称、与断言框架一致，NOT-CONFIRMED，未改动。②coreSummary断言'leísmo是RAE接受的阳性lo区域性替换，反向替换不被接受'——独立agent核实RAE dpd/leísmo原文+RAE官方账号@RAEinforma两条推文（均引DPD §2），确认RAE只接受'阳性单数+指人'，阳性复数leísmo被RAE称'desprestigiada'（不认可），指物/指动物leísmo单复数均被DPD'no se admite en ningún caso'明文拒绝；'masculine lo'未点明'单数+指人'两个限定条件，CONFIRMED为压缩摘要丢失限定语的真实overclaim（同时命中L-0804-2与L-0805-1两条教训的失效结构）。正文小节与FAQ对同一规则的表述已含完整'masculine, singular, personal'限定语，经核对准确，未改动。③正文leísmo小节首句'...the RAE formally recognizes it as acceptable, not just as an error people happen to make'，独立agent判定为教科书式'not just X'否定排比句式，CONFIRMED，与本站已记录的否定排比复发模式同源。④le→se换形规则表述及全部西语示例句（Veo el parque→Lo veo、Conozco a tu hermano→Lo conozco、Le doy el regalo a mi madre、Se lo doy等约15处）逐句核对语法准确、地道，未发现问题。" },
+    { "dimension": "时效性", "status": "不适用", "detail": "published=updated=2026-08-04，19天前，语法规则类内容无过时风险；本次编辑内容较小，未额外更新updated字段（限定语补充/否定排比改写不改变文章实质结论，判定不构成需要标注'更新'的实质性修订）。" },
+    { "dimension": "竞品差异化", "status": "未发现问题", "detail": "WebSearch实测真实SERP由SpanishDict/Babbel/Berges Institute Spanish Classes/Migaku/RealFastSpanish/MundoDele等构成，均只泛泛提及le→se换形规则本身，未见任何竞品像本文一样引用RAE官方leísmo/laísmo/loísmo文献、标注具体地域倾向（Spain vs Latin America）并给出laísmo/loísmo的具体错误例句+RAE官方判定，差异化成立（description承诺的'the regional exception fluent speakers still get wrong'确有兑现）。" },
+    { "dimension": "SEO技术审计", "status": "未发现问题", "detail": "实测live页面：status 200、单一h1、canonical自引用正确、meta_robots未设限制。schema实测：Article/FAQPage/BreadcrumbList/WebPage/Person均正确渲染。robots.txt AI爬虫（GPTBot/ChatGPT-User/ClaudeBot/Claude-Web/PerplexityBot/Google-Extended）Allow规则完整。ads.txt正确指向pub-5245502795720653。" },
+    { "dimension": "GEO审计", "status": "定性评估达标，未做侵入性额外修复", "detail": "Skill(ai-seo)定性核对：首段即给出清晰定义、FAQ自包含可独立提取、来源为RAE一手权威、结构化数据齐全、AI爬虫未被拦截、19天内更新、标题/小标题为句子式非关键词堆砌。唯一结构性可改进点：leísmo/laísmo/loísmo对比目前只有SVG图示+行文说明，无独立HTML表格，AI抓取时需从prose中解析而非直接读表格数据，判定为轻量可选优化项，非阻断性问题，本次未改动（不属于本次两条CONFIRMED finding的范围，不做超出范围的额外编辑）。" },
+    { "dimension": "早期内容AI味补漏", "status": "确认发现1处否定排比，已修复；无其他AI写作痕迹", "detail": "published=2026-08-04早于avoid-ai-writing接入日(2026-08-07)，触发全量检查。Skill(humanizer)+Skill(avoid-ai-writing)双重扫描全文（coreSummary+7个section+4条FAQ）：零em dash、零AI高频词表词汇（delve/landscape/robust/pivotal/tapestry等）、标题为句子式非Title Case、无bullet list滥用、无chatbot套话；仅命中1处否定排比句式（见事实准确性③，已一并修复）。" },
+    { "dimension": "外部引用链接腐烂", "status": "未发现问题", "detail": "rae.es/dpd/leísmo与rae.es/libro-estilo两条源均curl返回403，WebSearch交叉核实（site:rae.es dpd leísmo命中该确切URL、且搜索摘要内容与文章引用论断一致）确认为机构站反自动化拦截而非真实死链，与本站已确立的L-0819-7判断标准一致。" },
+    { "dimension": "内链健康度", "status": "未发现问题，非孤儿页", "detail": "grep确认被至少3篇其他Grammar文章手写内链引用（spanish-reflexive-verbs、spanish-personal-a附近段落、spanish-possessive-adjectives/其他讲le→se的文章），锚文本各不相同；Grammar分类42篇，轮转窗口算法下本文也会被纳入部分姊妹文章的related-guides展示。" },
+    { "dimension": "Schema数据一致性", "status": "未发现问题", "detail": "本次编辑仅涉及coreSummary与正文一段文字表述，不涉及schema结构或日期字段，构建后live页面FAQPage/Article/BreadcrumbList三种schema渲染正常。" },
+    { "dimension": "合规/敏感度漂移", "status": "未发现问题", "detail": "纯语法教学内容，无人物/事件/群体相关表述，无合规风险。" },
+    { "dimension": "配图可用性与版权", "status": "未发现问题", "detail": "public/images/direct-vs-indirect-object-pronouns-spanish-diagram.svg为站内自制SVG（非第三方图片，无版权问题）；核对SVG源码：文字内容与正文完全吻合（'Every person matches except the third'与正文表述一致），未见文字溢出色块边界（各人称标签x坐标+估算字符宽度均在列边界284px/530px内），未发现L-0809-5类渲染问题或内容不一致。" },
+    { "dimension": "AdSense政策合规", "status": "未发现问题", "detail": "语法教学内容，无敏感类目风险；ads.txt实测正确指向pub-5245502795720653；robots.txt未拦截任何AI爬虫。" }
+  ],
+  "independent_verification": "3个独立agent各自复核，均在2分钟以内正常完成，无agent卡死情况，未触发看门狗降级流程：①'每个人称除第三人称外形式相同'断言核实——检索voseo方言及学术文献，NOT-CONFIRMED（断言成立）；②coreSummary的leísmo概括句核实——直接引用RAE dpd原文与@RAEinforma官方推文，CONFIRMED（遗漏'单数+指人'限定条件）；③leísmo小节首句否定排比句式核实——结构分析确认为'not just X'教科书式模板，CONFIRMED。",
+  "actions_taken": [
+    "coreSummary的leísmo概括句从'a regional swap of le for a masculine lo that the RAE actually accepts'改为'the regional swap of le for lo that the RAE accepts specifically when the referent is a masculine, singular person'，补回'singular'+'person'两个限定条件",
+    "正文leísmo小节首句从'One regional swap is common enough that the RAE formally recognizes it as acceptable, not just as an error people happen to make. Leísmo is...'重写为完全正面陈述'Leísmo is the use of le in place of lo for a masculine singular direct object that refers to a specific person...Both are considered correct Spanish. This masculine, singular, personal swap is common enough in educated usage that the RAE formally recognizes it as acceptable, especially in Spain...'，消除否定排比句式，同时避免与后文'Both are considered correct'语义重复",
+    "npm test（64/64通过）+ npm run build（65页）通过",
+    "git commit（仅暂存本文相关的guides.ts一处文件）+ push，Cloudflare Pages自动部署",
+    "node tools/submit-indexnow.mjs提交本文URL",
+    "内容发布日志.md追加本条审计更新记录",
+    "内容通用教训库.md L-0804-2条目追加第11次累计复发记录（本站第5次，首次出现在coreSummary字段而非此前的usageNote.regionNote字段）"
+  ],
+  "seo_score": "技术SEO全项通过，未发现需修复项",
+  "geo_score": "定性评估达标（结构/权威/时效/AI可抓取性均满足），未做侵入性GEO编辑；leísmo对比缺独立HTML表格为轻量可选优化项，本次未处理",
+  "escalation": null
+}
+```
