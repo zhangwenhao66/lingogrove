@@ -4753,4 +4753,80 @@ export const guides: Guide[] = [
 			{ label: 'History of Spanish clitic pronouns (Newcastle University): reflexive se descends from Latin accusative sē', url: 'https://www.staff.ncl.ac.uk/i.e.mackenzie/historyofcliticsrr.htm' },
 		],
 	},
+	{
+		slug: 'spanish-present-tense-endings',
+		category: 'Grammar',
+		title: 'Spanish Present Tense Endings: The One Tense With No Time Marker',
+		description: 'Every Spanish tense has its own audible marker, future\'s -ré, imperfect\'s -aba, except the present, which RAE\'s own grammar treats as a genuinely unmarked tense.',
+		published: '2026-08-23',
+		updated: '2026-08-23',
+		coreSummary: 'Spanish present tense endings split by conjugation only in the nosotros and vosotros forms (-ar: -o, -as, -a, -amos, -áis, -an; -er: -o, -es, -e, -emos, -éis, -en; -ir: -o, -es, -e, -imos, -ís, -en), and Real Academia Española\'s own grammatical glossary treats the present as a genuinely unmarked tense, its tense-mood information carried by what RAE calls a morfema cero (zero morpheme), unlike the future\'s audible -ré or the imperfect\'s audible -aba. Most yo-form irregularities that look random reduce to one of two real phonological rules: a /g/ or /ig/ sound inserted before roots ending in -l, -n, -s, -i, or -z (tengo, salgo, oigo, caigo, yazgo), or a spelling swap, g/j or c/z, that exists purely to keep the infinitive\'s consonant sound intact (cojo, venzo).',
+		language: 'Spanish',
+		usageNote: {
+			regionNote: 'Voseo is one of the few places where the present tense really does change. Vos takes stress-final forms with no diphthong at all, hablás, comés, vivís, not tú\'s hablas, comes, vives, which is also why voseo regularizes verbs that are stem-changing under tú: vos querés and vos podés, never vos quieres or vos puedes. Per Real Academia Española\'s own dictionary of doubts, every other tense (preterite, imperfect, future, conditional, subjunctive) uses the identical form for vos and tú; the present indicative and the informal imperative are the only two places voseo has its own distinct paradigm.',
+		},
+		sections: [
+			{
+				heading: 'The endings, worked through in full',
+				body: [
+					'Regular Spanish verbs drop the infinitive ending (-ar, -er, or -ir) and add one of two endings sets in the present tense. -Ar verbs take -o, -as, -a, -amos, -áis, -an: hablo, hablas, habla, hablamos, habláis, hablan. -Er and -ir verbs share the same endings everywhere except two forms: comer gives como, comes, come, comemos, coméis, comen, while vivir gives vivo, vives, vive, vivimos, vivís, viven. The nosotros and vosotros rows are the only place the two conjugations actually diverge, comemos/coméis against vivimos/vivís; every other person is identical between -er and -ir.',
+					'That split point is narrower than it looks in most other Spanish tenses. The [imperfect drops the -er/-ir divide entirely](/spanish-imperfect-endings/) and uses one identical six-form set for both conjugations, no matter the person. The present tense is the one place where -er and -ir verbs stay distinct, and only in two of six forms.',
+				],
+				image: {
+					src: '/images/spanish-present-tense-endings-diagram.svg',
+					alt: 'Diagram of the Spanish present tense endings for -ar verbs (hablo, hablas, habla, hablamos, habláis, hablan) and -er/-ir verbs (como/vivo, comes/vives, come/vive, comemos/vivimos, coméis/vivís, comen/viven, split only in nosotros and vosotros), plus a comparison strip showing hablo (present, no audible time marker) against hablaré (future, marked by -é) and hablaba (imperfect, marked by -aba).',
+				},
+			},
+			{
+				heading: "Why the present doesn't get an audible time marker at all",
+				body: [
+					'Spanish grammar breaks a conjugated verb down into a root, a thematic vowel that marks which conjugation class the verb belongs to, and a desinence that itself carries three further pieces of information: the thematic vowel, a segment coding tense-aspect-mood, and a segment coding person and number. In a tense like the imperfect, that tense-aspect-mood piece is a real, audible chunk of the word: the -aba in hablaba names the imperfect specifically, the same way -é does in the future hablaré. The present tense doesn\'t have an equivalent chunk. Real Academia Española\'s own glossary of grammatical terms states this directly: the present is an unmarked tense, and its tense morpheme is what the glossary calls a morfema cero, a zero morpheme, present in the grammatical analysis but absent as an actual sound.',
+					'That absence is genuinely debated at the edges, not a clean rule RAE hands down without qualification. The academy\'s own reference grammar notes that a form like habla can\'t always be cleanly split into its three theoretical pieces; some analyses treat the ending as one fused chunk carrying all three jobs at once, others posit an unpronounced zero morpheme sitting inside it. What isn\'t in dispute is the practical upshot for a learner: unlike -aba or -é, nothing in a present-tense ending exists purely to announce "this is the present tense." The endings do that job by not adding anything extra at all.',
+				],
+			},
+			{
+				heading: 'The -go verbs: a real sound-preserving rule, not a memorization list',
+				body: [
+					'A long list of common verbs look irregular only in the yo form, and end in -go: tengo, salgo, pongo, vengo, valgo. Per Real Academia Española\'s own reference on consonantal irregularities, this isn\'t a random pattern; it\'s a documented sound insertion, called epenthesis, that shows up in verbs whose root ends in -l (salir → salgo, valer → valgo), -n (poner → pongo, tener → tengo, venir → vengo), -s (asir → asgo, a rare verb), -i (oír → oigo), or -z (yacer, an archaic verb for "to lie [down]," which the RAE itself says admits three accepted yo forms, yazco, yazgo, and yago, with the -go and -zc- patterns competing side by side). Caer and traer, and the rarer raer and roer, take a slightly different version of the same insertion, adding -ig- rather than a plain -g-: caigo, traigo. In every one of these verbs, only the yo form is affected; tú, él, nosotros, and the rest of the paradigm conjugate on the regular stem (sales, pone, viene, cae, trae).',
+					'Six verbs sit outside even this pattern because their yo forms don\'t end in a plain -o at all: soy, estoy, voy, doy end in -oy, sé ends in -é, and he doesn\'t take an -o ending at all. [Those six](/subjunctive-spanish/) are also the ones whose irregularity carries straight through into the subjunctive, since the subjunctive stem is normally built by stripping the -o off the present-tense yo form. A separate, larger family, verbs like conocer and conducir that add a /k/ sound before the yo ending (conozco, conduzco), is covered in full among the [irregular Spanish verbs classified by root type](/irregular-spanish-verbs/), since it belongs to the same consonantal-irregularity category RAE groups the -go verbs under, just a different inserted sound.',
+				],
+			},
+			{
+				heading: "Spelling swaps that protect a sound, and stem changers that don't touch the ending at all",
+				body: [
+					'Two more yo-form changes look like irregular endings but are really just Spanish spelling protecting a consonant sound. Coger keeps the soft "kh" sound of its g by switching to j before the -o ending: cojo, not the misspelled cogo, which would harden the g into a "hard g" sound that isn\'t there in the rest of the verb (coges, coge). Vencer does the same for its soft c, switching to z before -o: venzo, not venco. Neither change touches the ending itself, -o is still -o, it just adjusts one consonant so the verb keeps sounding the same across its whole paradigm.',
+					'Stem-changing verbs, the "boot verbs" like pensar (pienso), poder (puedo), and pedir (pido), take the exact endings covered above with no modification at all; only the stem vowel shifts, and only outside the nosotros and vosotros forms. Pensar\'s full present is pienso, piensas, piensa, pensamos, pensáis, piensan, regular -ar endings throughout, with the diphthong appearing and disappearing depending on where stress falls in the word. That distinction, a changed stem versus a changed ending, is the same one that separates real irregular endings from what only looks like one, and it\'s worth keeping straight before assuming every unfamiliar present-tense form belongs to a different endings set entirely.',
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'What are the regular Spanish present tense endings?',
+				answer: '-Ar verbs take -o, -as, -a, -amos, -áis, -an (hablo, hablas, habla, hablamos, habláis, hablan). -Er and -ir verbs share the same endings except in nosotros and vosotros: -er verbs use -emos, -éis (comemos, coméis), while -ir verbs use -imos, -ís (vivimos, vivís).',
+			},
+			{
+				question: "Why doesn't Spanish present tense have a special ending the way the future or imperfect does?",
+				answer: 'Real Academia Española\'s own grammatical glossary treats the present as an unmarked tense: its tense-mood information is a morfema cero, a zero morpheme, present in the analysis but not as an actual sound. The future\'s -ré and the imperfect\'s -aba are real, audible chunks that exist specifically to mark those tenses; the present ending carries only person and number information, with nothing extra layered on top.',
+			},
+			{
+				question: 'Why do so many common Spanish verbs end in -go in the yo form?',
+				answer: "Per Real Academia Española's reference on consonantal irregularities, it's a documented sound insertion (epenthesis) affecting verbs whose root ends in -l (salir → salgo), -n (poner → pongo, tener → tengo, venir → vengo), -s (asir → asgo), -i (oír → oigo), or -z (yacer, which the RAE says accepts three yo forms: yazco, yazgo, and yago). Caer and traer take a related -ig- insertion instead (caigo, traigo). Only the yo form is affected in every case.",
+			},
+			{
+				question: 'Is "cojo" (from coger) an irregular verb?',
+				answer: 'Not in the sense of taking a different ending. The change from g to j exists purely to preserve coger\'s soft consonant sound before the -o ending; without it, cogo would harden that sound. The ending itself, -o, is completely regular. Vencer\'s c-to-z change in venzo works the same way.',
+			},
+			{
+				question: 'Does vos change the present tense endings?',
+				answer: "Yes, this is one of the few tenses where it does. Vos takes stress-final forms with no diphthong (hablás, comés, vivís), unlike tú's hablas, comes, vives. That also regularizes stem-changing verbs under vos: vos podés and vos querés, never vos puedes or vos quieres. Every other tense uses identical forms for vos and tú.",
+			},
+		],
+		sources: [
+			{ label: 'Real Academia Española — Glosario de términos gramaticales: "morfema cero"', url: 'https://www.rae.es/gtg/morfema-cero' },
+			{ label: 'Real Academia Española — Nueva gramática de la lengua española: "Informaciones morfológicas presentes en las formas verbales (I). Distinciones fundamentales"', url: 'https://www.rae.es/gram%C3%A1tica/morfolog%C3%ADa/informaciones-morfol%C3%B3gicas-presentes-en-las-formas-verbales-i-distinciones-fundamentales' },
+			{ label: 'Real Academia Española — Nueva gramática de la lengua española: "Distribución de los morfemas flexivos (I). La vocal temática"', url: 'https://www.rae.es/gram%C3%A1tica/morfolog%C3%ADa/distribuci%C3%B3n-de-los-morfemas-flexivos-i-la-vocal-tem%C3%A1tica' },
+			{ label: 'Real Academia Española — El buen uso del español: "Verbos con irregularidades consonánticas. Otras irregularidades"', url: 'https://www.rae.es/buen-uso-espa%C3%B1ol/verbos-con-irregularidades-conson%C3%A1nticas-otras-irregularidades' },
+			{ label: 'Real Academia Española — Diccionario panhispánico de dudas: "voseo"', url: 'https://www.rae.es/dpd/voseo' },
+		],
+	},
 ];

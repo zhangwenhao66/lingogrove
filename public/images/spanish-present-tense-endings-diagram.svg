@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 760" font-family="system-ui, -apple-system, sans-serif">
+	<rect width="800" height="760" fill="#f6f4e9"/>
+	<rect x="24" y="24" width="752" height="712" rx="10" fill="#fffefa" stroke="#ddd8c4"/>
+
+	<rect x="24" y="24" width="752" height="56" rx="10" fill="#2f6b47"/>
+	<rect x="24" y="60" width="752" height="20" fill="#2f6b47"/>
+	<text x="400" y="60" text-anchor="middle" fill="#ffffff" font-size="17" font-weight="700">PRESENT TENSE: TWO ENDING SETS, ONE SPLIT POINT</text>
+
+	<!-- -AR column -->
+	<rect x="42" y="98" width="352" height="240" rx="8" fill="#fbead0" stroke="#ddd8c4"/>
+	<text x="218" y="124" text-anchor="middle" fill="#5a5648" font-size="12" font-weight="700">-AR VERBS · hablar</text>
+
+	<text x="62" y="152" fill="#201f1a" font-size="13">yo</text>
+	<text x="330" y="152" text-anchor="end" fill="#201f1a" font-size="14" font-weight="600">habl<tspan fill="#b5570f">o</tspan></text>
+
+	<text x="62" y="178" fill="#201f1a" font-size="13">tú</text>
+	<text x="330" y="178" text-anchor="end" fill="#201f1a" font-size="14" font-weight="600">habl<tspan fill="#b5570f">as</tspan></text>
+
+	<text x="62" y="204" fill="#201f1a" font-size="13">él/ella/usted</text>
+	<text x="330" y="204" text-anchor="end" fill="#201f1a" font-size="14" font-weight="600">habl<tspan fill="#b5570f">a</tspan></text>
+
+	<text x="62" y="230" fill="#201f1a" font-size="13">nosotros</text>
+	<text x="330" y="230" text-anchor="end" fill="#201f1a" font-size="14" font-weight="600">habl<tspan fill="#b5570f">amos</tspan></text>
+
+	<text x="62" y="256" fill="#201f1a" font-size="13">vosotros</text>
+	<text x="330" y="256" text-anchor="end" fill="#201f1a" font-size="14" font-weight="600">habl<tspan fill="#b5570f">áis</tspan></text>
+
+	<text x="62" y="282" fill="#201f1a" font-size="13">ellos/ustedes</text>
+	<text x="330" y="282" text-anchor="end" fill="#201f1a" font-size="14" font-weight="600">habl<tspan fill="#b5570f">an</tspan></text>
+
+	<line x1="62" y1="298" x2="374" y2="298" stroke="#ddd8c4" stroke-width="1"/>
+	<text x="218" y="318" text-anchor="middle" fill="#5a5648" font-size="10.5">one set for every -ar verb</text>
+
+	<!-- -ER/-IR column -->
+	<rect x="406" y="98" width="352" height="240" rx="8" fill="#fbead0" stroke="#ddd8c4"/>
+	<text x="582" y="124" text-anchor="middle" fill="#5a5648" font-size="12" font-weight="700">-ER / -IR VERBS · comer, vivir</text>
+
+	<text x="426" y="152" fill="#201f1a" font-size="13">yo</text>
+	<text x="738" y="152" text-anchor="end" fill="#201f1a" font-size="14" font-weight="600">com<tspan fill="#b5570f">o</tspan> / viv<tspan fill="#b5570f">o</tspan></text>
+
+	<text x="426" y="178" fill="#201f1a" font-size="13">tú</text>
+	<text x="738" y="178" text-anchor="end" fill="#201f1a" font-size="14" font-weight="600">com<tspan fill="#b5570f">es</tspan> / viv<tspan fill="#b5570f">es</tspan></text>
+
+	<text x="426" y="204" fill="#201f1a" font-size="13">él/ella/usted</text>
+	<text x="738" y="204" text-anchor="end" fill="#201f1a" font-size="14" font-weight="600">com<tspan fill="#b5570f">e</tspan> / viv<tspan fill="#b5570f">e</tspan></text>
+
+	<rect x="416" y="216" width="332" height="26" rx="5" fill="#eaf1ea" stroke="#2f6b47"/>
+	<text x="426" y="234" fill="#204a31" font-size="13">nosotros</text>
+	<text x="738" y="234" text-anchor="end" fill="#204a31" font-size="14" font-weight="700">com<tspan fill="#b5570f">emos</tspan> / viv<tspan fill="#b5570f">imos</tspan></text>
+
+	<rect x="416" y="246" width="332" height="26" rx="5" fill="#eaf1ea" stroke="#2f6b47"/>
+	<text x="426" y="264" fill="#204a31" font-size="13">vosotros</text>
+	<text x="738" y="264" text-anchor="end" fill="#204a31" font-size="14" font-weight="700">com<tspan fill="#b5570f">éis</tspan> / viv<tspan fill="#b5570f">ís</tspan></text>
+
+	<text x="426" y="290" fill="#201f1a" font-size="13">ellos/ustedes</text>
+	<text x="738" y="290" text-anchor="end" fill="#201f1a" font-size="14" font-weight="600">com<tspan fill="#b5570f">en</tspan> / viv<tspan fill="#b5570f">en</tspan></text>
+
+	<line x1="426" y1="298" x2="748" y2="298" stroke="#ddd8c4" stroke-width="1"/>
+	<text x="582" y="318" text-anchor="middle" fill="#204a31" font-size="10.5" font-weight="700">-er and -ir only split here</text>
+
+	<!-- TAM comparison strip -->
+	<rect x="42" y="360" width="716" height="330" rx="8" fill="#f0ede0" stroke="#ddd8c4"/>
+	<text x="400" y="388" text-anchor="middle" fill="#5a5648" font-size="12" font-weight="700">SAME ROOT, THREE TENSES — ONLY TWO HAVE AN AUDIBLE TIME MARKER</text>
+
+	<!-- Present row -->
+	<rect x="62" y="410" width="676" height="72" rx="6" fill="#fffefa" stroke="#ddd8c4"/>
+	<text x="82" y="436" fill="#5a5648" font-size="11" font-weight="700">PRESENT</text>
+	<text x="82" y="464" fill="#201f1a" font-size="20" font-weight="700">habl<tspan fill="#b5570f">o</tspan></text>
+	<rect x="220" y="444" width="60" height="26" rx="4" fill="none" stroke="#8a8672" stroke-width="1.5" stroke-dasharray="3,3"/>
+	<text x="250" y="461" text-anchor="middle" fill="#8a8672" font-size="10">(empty)</text>
+	<text x="470" y="452" text-anchor="middle" fill="#5a5648" font-size="12">RAE's own grammar glossary calls this a</text>
+	<text x="470" y="470" text-anchor="middle" fill="#5a5648" font-size="12"><tspan font-style="italic" fill="#b5570f" font-weight="700">morfema cero</tspan> — a zero morpheme</text>
+
+	<!-- Future row -->
+	<rect x="62" y="494" width="676" height="72" rx="6" fill="#fffefa" stroke="#ddd8c4"/>
+	<text x="82" y="520" fill="#5a5648" font-size="11" font-weight="700">FUTURE</text>
+	<text x="82" y="548" fill="#201f1a" font-size="20" font-weight="700">hablar<tspan fill="#204a31">é</tspan></text>
+	<rect x="220" y="528" width="60" height="26" rx="4" fill="#eaf1ea" stroke="#2f6b47" stroke-width="1.5"/>
+	<text x="250" y="545" text-anchor="middle" fill="#204a31" font-size="13" font-weight="700">-é</text>
+	<text x="470" y="536" text-anchor="middle" fill="#5a5648" font-size="12">an audible chunk fossilized from</text>
+	<text x="470" y="554" text-anchor="middle" fill="#5a5648" font-size="12">Latin <tspan font-style="italic">habere</tspan>, "to have"</text>
+
+	<!-- Imperfect row -->
+	<rect x="62" y="578" width="676" height="72" rx="6" fill="#fffefa" stroke="#ddd8c4"/>
+	<text x="82" y="604" fill="#5a5648" font-size="11" font-weight="700">IMPERFECT</text>
+	<text x="82" y="632" fill="#201f1a" font-size="20" font-weight="700">habl<tspan fill="#204a31">aba</tspan></text>
+	<rect x="220" y="612" width="60" height="26" rx="4" fill="#eaf1ea" stroke="#2f6b47" stroke-width="1.5"/>
+	<text x="250" y="629" text-anchor="middle" fill="#204a31" font-size="13" font-weight="700">-aba</text>
+	<text x="470" y="620" text-anchor="middle" fill="#5a5648" font-size="12">its own audible, separately</text>
+	<text x="470" y="638" text-anchor="middle" fill="#5a5648" font-size="12">identifiable syllable</text>
+
+	<text x="400" y="672" text-anchor="middle" fill="#5a5648" font-size="10.5">present's tense-mood information rides silently on the same ending that marks person and number</text>
+</svg>
