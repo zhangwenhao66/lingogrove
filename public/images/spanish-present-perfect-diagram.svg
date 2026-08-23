@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" font-family="system-ui, -apple-system, sans-serif">
+	<rect width="800" height="420" fill="#f6f4e9"/>
+	<rect x="24" y="24" width="752" height="372" rx="10" fill="#fffefa" stroke="#ddd8c4"/>
+
+	<rect x="24" y="24" width="752" height="56" rx="10" fill="#2f6b47"/>
+	<rect x="24" y="60" width="752" height="20" fill="#2f6b47"/>
+	<text x="400" y="60" text-anchor="middle" fill="#ffffff" font-size="18" font-weight="700">"THE TAXI JUST ARRIVED" — SAME MOMENT, DIFFERENT TENSE BY REGION</text>
+
+	<text x="212" y="102" text-anchor="middle" fill="#2f6b47" font-size="13" font-weight="700">MOST OF SPAIN</text>
+	<text x="588" y="102" text-anchor="middle" fill="#b5570f" font-size="13" font-weight="700">MOST OF LATIN AMERICA</text>
+
+	<line x1="24" y1="112" x2="776" y2="112" stroke="#ddd8c4" stroke-width="1"/>
+	<line x1="400" y1="112" x2="400" y2="380" stroke="#ddd8c4" stroke-width="1"/>
+
+	<rect x="24" y="122" width="752" height="90" fill="#fbead0"/>
+
+	<g font-size="18" font-weight="700" fill="#2f6b47" text-anchor="middle">
+		<text x="212" y="160">El taxi ha llegado</text>
+	</g>
+	<g font-size="13" fill="#5a5648" text-anchor="middle">
+		<text x="212" y="184">present perfect (haber + participio)</text>
+		<text x="212" y="202">default for same-day recent events</text>
+	</g>
+
+	<g font-size="18" font-weight="700" fill="#b5570f" text-anchor="middle">
+		<text x="588" y="160">El taxi llegó</text>
+	</g>
+	<g font-size="13" fill="#5a5648" text-anchor="middle">
+		<text x="588" y="184">simple preterite</text>
+		<text x="588" y="202">preferred even "hace un momento"</text>
+	</g>
+
+	<rect x="24" y="222" width="752" height="140" fill="#ffffff"/>
+	<text x="400" y="248" text-anchor="middle" fill="#5a5648" font-size="12" font-weight="700">FURTHER REGIONAL NEUTRALIZATION (RAE, Nueva gramática)</text>
+	<g font-size="13" fill="#5a5648" text-anchor="middle">
+		<text x="212" y="278">Chile, most of Argentina,</text>
+		<text x="212" y="296">NW Spain, Canary Islands:</text>
+		<text x="212" y="318" fill="#b5570f" font-weight="700">simple preterite wins</text>
+		<text x="212" y="336">regardless of recency</text>
+
+		<text x="588" y="278">Coastal Peru,</text>
+		<text x="588" y="296">Andean Bolivia:</text>
+		<text x="588" y="318" fill="#2f6b47" font-weight="700">present perfect wins</text>
+		<text x="588" y="336">regardless of recency</text>
+	</g>
+</svg>

@@ -4915,4 +4915,79 @@ export const guides: Guide[] = [
 			{ label: 'Duden — "unterstützen" (accusative object example: "ich habe ihn mit Geld unterstützt")', url: 'https://www.duden.de/rechtschreibung/unterstuetzen_unterstuetzt' },
 		],
 	},
+	{
+		slug: 'spanish-present-perfect',
+		category: 'Grammar',
+		title: 'Spanish Present Perfect: Haber + Participle, and the Regional Split',
+		description: '"El taxi ha llegado" is standard in Spain and would sound odd across much of Latin America, where "el taxi llegó" covers the exact same moment. The RAE\'s own account of the split, plus every irregular participle.',
+		published: '2026-08-23',
+		updated: '2026-08-23',
+		coreSummary: 'The Spanish present perfect (pretérito perfecto compuesto) combines a conjugated form of haber with a past participle that never changes for gender or number in this construction. The RAE\'s own grammar states plainly that this is the verb form whose uses show the widest geographic variation in Spanish today: most of Spain uses it as the default for recent, even same-day events (El taxi ha llegado hace un momento), while most of Latin America prefers the simple preterite for that same recency (El taxi llegó hace un momento), and Andean Spanish adds a further, unrelated evidential reading that has nothing to do with recency at all.',
+		language: 'Spanish',
+		sections: [
+			{
+				heading: 'Formation: haber, conjugated, plus an unchanging participle',
+				body: [
+					'The present perfect pairs a present-tense form of *haber* (*he, has, ha, hemos, habéis, han*) with the past participle of the main verb. Regular participles swap *-ar* for *-ado* and *-er*/*-ir* for *-ido*: *hablar* → *hablado*, *comer* → *comido*, *vivir* → *vivido*. *He hablado con ella.* (I\'ve spoken with her.) *Hemos comido ya.* (We\'ve already eaten.) Questions and negatives keep the exact same word order as any other Spanish verb: *¿Has comido?* (Have you eaten?), *No he comido* (I haven\'t eaten), with nothing inserted between *haber* and the participle in either case.',
+					'The participle inside this construction is frozen: it never agrees in gender or number with the subject, unlike the same word used as an adjective. *Ella ha escrito la carta* and *Ellos han escrito la carta* both keep *escrito*, never *escrita* or *escritos*, even though the subject changes. That invariance is specific to the compound tense; the moment the same participle stands alone as an adjective (*la carta escrita*), it starts agreeing again, the same way a past participle regains full adjective behavior once it leaves a compound tense in [French](/french-past-participle/).',
+				],
+			},
+			{
+				heading: 'The irregular participles you actually have to memorize',
+				body: [
+					'A closed set of verbs takes a "strong" participle inherited from Latin instead of the regular *-ado*/*-ido* pattern, stressed on the root rather than the ending. The RAE\'s reference on the participle lists: *abierto* (abrir), *cubierto* (cubrir), *dicho* (decir), *escrito* (escribir), *hecho* (hacer), *muerto* (morir), *puesto* (poner), *resuelto* (resolver), *roto* (romper), *satisfecho* (satisfacer), *visto* (ver), and *vuelto* (volver). Derived verbs generally inherit the same irregularity: *descubierto* (descubrir), *devuelto* (devolver), *previsto* (prever).',
+					'One pair breaks the inheritance pattern in a way that trips up even advanced learners: *bendecir* and *maldecir* look like they should follow *decir* → *dicho*, but the Academia\'s own entry gives their true verb participles as the regular *bendecido* and *maldecido* (*Su padre lo había maldecido*). The old strong forms, *bendito* and *maldito*, still exist, but almost exclusively as adjectives (*agua bendita*, *maldito perro*), not as part of a compound verb tense. These irregular forms sit alongside a separate irregularity in the [simple preterite](/spanish-preterite-endings/), where a different closed set of [verbs changes shape](/irregular-preterite-verbs-spanish/) for an unrelated reason.',
+				],
+				image: {
+					src: '/images/spanish-present-perfect-diagram.svg',
+					alt: 'Map of "El taxi ha llegado" (Spain, recent event) versus "el taxi llegó" (Latin America, same event), with regional neutralization zones noted for Chile, Argentina, NW Spain, coastal Peru, and Andean Bolivia.',
+				},
+			},
+			{
+				heading: 'Haber and the participle can\'t be split',
+				body: [
+					'English lets an adverb sit between "have" and the participle: "I have already eaten," "She has never seen it." Spanish doesn\'t allow the equivalent split. *Ya he comido* (not *he ya comido*) and *Nunca lo ha visto* (not *ha nunca visto lo*) both keep *haber* locked directly against the participle, with the adverb pushed to one side of the whole unit instead of wedged inside it.',
+					'The same rule blocks object pronouns from breaking up the pair. *Lo he visto* (I\'ve seen it) attaches the pronoun before *haber*, never between *haber* and the participle, and never after the participle either; there\'s no *He visto lo* or *He lo visto* in standard Spanish. Object pronouns work the same way with every compound tense built from haber, not just this one; the pronoun always lands in front of the whole *haber* + participle unit, whether the tense is present perfect, pluperfect, or future perfect.',
+				],
+			},
+			{
+				heading: 'Present perfect vs. simple preterite: what actually decides it',
+				body: [
+					'Set the regional split aside for a moment, and the core distinction is about whether the past event still bears on the present. *He perdido las llaves* (I\'ve lost my keys) reports a state that\'s still true right now, the keys are still missing. *Perdí las llaves ayer, pero las encontré* (I lost my keys yesterday, but I found them) reports a closed, finished episode with no bearing on the present moment. Swapping the tenses in either sentence would sound off to a fluent ear, independent of any regional preference.',
+					'Certain words tend to pull toward one tense or the other. *Ya* (already), *todavía no* (not yet), *alguna vez* (ever), and *nunca* (never) commonly pair with the present perfect, because they\'re inherently about a span reaching into now: *¿Has estado alguna vez en Perú?* (Have you ever been to Peru?), *Todavía no he terminado* (I still haven\'t finished). A specific, closed past date, *ayer, la semana pasada, en 2020*, pulls toward the simple preterite instead, because it fixes the event in a segment of time that\'s already sealed off: *Fui a Perú en 2020* (I went to Peru in 2020), *La llamé la semana pasada* (I called her last week). These tendencies hold everywhere; what shifts by region, covered next, is how much recency alone can pull an event toward the perfect even without one of these explicit markers.',
+				],
+			},
+			{
+				heading: 'The regional divide that actually matters',
+				body: [
+					'The RAE\'s Nueva gramática de la lengua española states the point directly: "el pretérito perfecto compuesto es la forma verbal cuyos usos muestran mayor variación geográfica en el español de hoy" (the present perfect compound is the verb form whose uses show the greatest geographic variation in Spanish today). That variation centers on recency. In much of European Spanish, the present perfect extends to cover recent, even immediate, situations: *El taxi ha llegado hace un momento* (The taxi arrived just now). Across most of the Americas, that same recency is expressed with the simple preterite instead: *El taxi llegó hace un momento*, the same instant, a different tense choice.',
+					'The Academia\'s own grammar traces the split further than a flat Spain-versus-Latin-America line: in Chile, most of Argentina, and the northwest of Spain including the Canary Islands, the opposition between the two tenses collapses almost entirely toward the simple preterite, no matter how recent the event actually was. Coastal Peru and Andean Bolivia collapse it the opposite way, toward the present perfect. Andean Spanish adds a use that has nothing to do with recency at all: an academic study in the journal ELUA (Universidad de Alicante) on diatopic variation in the perfect describes an evidential reading unique to that region, where *Ha sido caro* doesn\'t mean "it has been expensive" in the usual sense, but "it turns out to be expensive" or "I\'ve just now realized it\'s expensive," marking that the speaker only just found the fact out rather than reporting an ongoing state. For a learner, the practical upshot of all this regional variation is simple: neither tense choice is a mistake on its own, but the "correct" one depends entirely on which country\'s Spanish is the target, which is exactly why native speakers from different regions sometimes correct each other over a sentence that both of them consider standard back home.',
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'How do you form the present perfect in Spanish?',
+				answer: 'Conjugate *haber* in the present tense (*he, has, ha, hemos, habéis, han*) and add the past participle of the main verb: *-ar* verbs take *-ado* (*hablado*), *-er* and *-ir* verbs take *-ido* (*comido, vivido*). The participle never changes for gender or number in this construction; *ha escrito* stays *escrito* whether the subject is masculine or feminine.',
+			},
+			{
+				question: 'What are the irregular Spanish past participles?',
+				answer: 'The core set is *abierto* (abrir), *cubierto* (cubrir), *dicho* (decir), *escrito* (escribir), *hecho* (hacer), *muerto* (morir), *puesto* (poner), *resuelto* (resolver), *roto* (romper), *satisfecho* (satisfacer), *visto* (ver), and *vuelto* (volver), plus derived verbs like *descubierto* and *devuelto*. *Bendecir* and *maldecir* are exceptions to the exception: their real verb participles are the regular *bendecido* and *maldecido*, while *bendito* and *maldito* survive only as adjectives.',
+			},
+			{
+				question: 'Can I put an adverb between "he" and the participle, like English does?',
+				answer: 'No. Spanish keeps *haber* and the participle locked together; the adverb goes on one side of the whole unit instead of between the two pieces. *Ya he comido* and *Nunca lo ha visto* are correct; *he ya comido* is not standard Spanish, even though the equivalent split ("I have already eaten") is completely normal in English.',
+			},
+			{
+				question: 'Is "he hablado" used the same way in Spain and Latin America?',
+				answer: 'Not for recent events. The RAE\'s own grammar identifies this as the Spanish past tense with the widest geographic variation: most of Spain uses the present perfect as the default for recent or same-day events (*El taxi ha llegado hace un momento*), while most of Latin America uses the simple preterite for that same moment (*El taxi llegó hace un momento*). Chile, most of Argentina, and northwest Spain lean further toward the preterite regardless of timing, coastal Peru and Andean Bolivia lean the opposite way, and Andean Spanish also uses the perfect for an unrelated evidential sense, marking a fact the speaker just found out.',
+			},
+		],
+		sources: [
+			{ label: 'Real Academia Española — Nueva gramática de la lengua española: "El pretérito perfecto compuesto (he cantado) (I). Relevancia actual de los hechos pretéritos"', url: 'https://www.rae.es/gram%C3%A1tica/sintaxis/el-pret%C3%A9rito-perfecto-compuesto-he-cantado-i-relevancia-actual-de-los-hechos-pret%C3%A9ritos' },
+			{ label: 'Real Academia Española — Nueva gramática de la lengua española: "El pretérito perfecto compuesto (he cantado) (II). El perfecto de hechos recientes. Otros usos" (regional variation, Chile/Argentina/Peru/Bolivia)', url: 'https://www.rae.es/gram%C3%A1tica/sintaxis/el-pret%C3%A9rito-perfecto-compuesto-he-cantado-ii-el-perfecto-de-hechos-recientes-otros-usos' },
+			{ label: 'Real Academia Española — El buen uso del español: "El participio" (irregular participle list, bendecir/maldecir double participle)', url: 'https://www.rae.es/buen-uso-espa%C3%B1ol/el-participio' },
+			{ label: 'ELUA: Estudios de Lingüística, Universidad de Alicante — "Los valores del pretérito perfecto compuesto y del simple en las áreas geográficas del español: variación diatópica y tratamiento en ELE" (independent academic cross-check of the regional split, incl. the Andean evidential reading)', url: 'https://revistaelua.ua.es/article/view/24276' },
+		],
+	},
 ];
