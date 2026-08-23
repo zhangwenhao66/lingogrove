@@ -4829,4 +4829,90 @@ export const guides: Guide[] = [
 			{ label: 'Real Academia Española — Diccionario panhispánico de dudas: "voseo"', url: 'https://www.rae.es/dpd/voseo' },
 		],
 	},
+	{
+		slug: 'german-dative-case',
+		category: 'Grammar',
+		title: 'German Dative Case: The Verbs, Pronouns, and Word Order It Controls',
+		description: 'A closed set of German verbs takes only a dative object, word order flips between nouns and pronouns, and the Wechselpräpositionen mark more than location.',
+		published: '2026-08-23',
+		updated: '2026-08-23',
+		coreSummary: 'German marks the indirect object with the dative case, but per grammis (the reference maintained by the Leibniz-Institut für Deutsche Sprache), a closed set of verbs, including helfen, danken, gefallen, and gehören, take a dative object with no accusative object anywhere in the sentence. Word order depends on whether the objects are nouns or pronouns: nouns default to dative-before-accusative (gibt der Lehrerin den Aufsatz), while unstressed personal pronouns reverse that to accusative-before-dative (gibt ihn ihr). Seven prepositions (aus, bei, mit, nach, seit, von, zu) always take the dative, and the two-way Wechselpräpositionen (an, auf, in, unter, and others) take it not just for a fixed location but for any movement that stays inside the same bounded space, the reason a fish swimming inside its aquarium still takes the dative.',
+		language: 'German',
+		sections: [
+			{
+				heading: 'A closed set of verbs takes only a dative object, no accusative in sight',
+				body: [
+					"Grammis defines Rektion as the ability of words, chiefly verbs and prepositions, to determine the form (including the case) of the words or phrases that depend on them. Applied to the dative, that means a specific list of German verbs simply requires a dative object as part of what they are, independent of the sentence's meaning. Grammis's own examples make the pattern concrete: \"Die Lehrerin dankt ihren Schülerinnen\" (the teacher thanks her students, danken governing dative) and, from its page on objects, \"Sie hilft ihm\" (she helps him, helfen governing dative). Neither sentence has an accusative object at all; the dative is the only object slot the verb opens.",
+					"Other common verbs that behave the same way include gefallen (to please/appeal to), gehören (to belong to), folgen (to follow), gratulieren (to congratulate), passen (to fit/suit), and schmecken (to taste good to). None of them can be tested with the accusative question words wen/was, because there is no accusative object to find; the only question that gets an answer is wem (to/for whom). Das gehört mir (that belongs to me) and Der Kuchen schmeckt ihr (the cake tastes good to her) both follow this pattern, and neither has a direct object standing anywhere near the dative one.",
+					'Beyond this short list, grammis maintains a searchable Wörterbuch zur Verbvalenz (dictionary of verb valency) covering exactly which case, or combination of cases, any given German verb requires. That resource exists because Rektion is not guessable from meaning alone: helfen and unterstützen both translate as "help" in English, but only helfen takes a dative object. Unterstützen takes the accusative instead, confirmed by Duden\'s own example, "ich habe ihn mit Geld unterstützt" (I supported him with money), with ihn rather than ihm. Two verbs that look interchangeable in translation can quietly govern two different German cases, which is exactly the kind of detail a per-verb dictionary is built to settle.',
+				],
+			},
+			{
+				heading: 'The pronoun paradigm, and what the article already carries for nouns',
+				body: [
+					'The [German Cases guide](/german-cases/) lays out the full definite-article paradigm, where the dative column reads dem (masculine), dem (neuter), der (feminine), and den plus an -n on the noun (plural), for example dem Mann, dem Kind, der Frau, den Kindern. Personal pronouns carry the same case distinction on their own forms: mir, dir, ihm, ihr, uns, euch, ihnen, and the formal Ihnen. Ich helfe ihm (I help him) and Sie dankt mir (she thanks me) put those pronoun forms directly into the dative-only verb pattern from the section above.',
+					'That marking earns its keep because German tolerates a much freer word order than English does, precisely because case tells the listener who is doing what regardless of position in the sentence. Dem Mann hilft die Frau and Die Frau hilft dem Mann describe the same event, the woman helping the man, because dem stays fixed to Mann as its dative marker no matter which word leads the sentence. English has no equivalent safety net: flip "the woman helps the man" to "the man helps the woman" and the meaning reverses outright, since English leans on word order instead of case to show who is acting on whom.',
+					"The dative singular also has a largely archaic noun ending of its own, -(e) as in dem Manne, which the German Cases guide covers in more depth alongside the dative plural -n that grammis calls the one case marking that shows up on the noun almost whenever phonologically possible, den Kindern, not den Kinder. Outside that plural -n, the pronoun and article carry essentially all of the case information; the noun itself stays put.",
+				],
+			},
+			{
+				heading: 'Two objects, two word orders: nouns go dative-first, pronouns flip it',
+				body: [
+					'Verbs like geben, schenken, zeigen, and erklären take both a dative and an accusative object at once, the person receiving something and the thing itself. Grammis\'s page on objects gives two real examples of that pattern: "Sie gibt ihm das Buch" (she gives him the book) and "Die Eltern schenken ihrem Sohn ein Fahrrad" (the parents give their son a bicycle as a gift). In both, the dative object comes first and the accusative object second, which grammis\'s page on complement order in the Mittelfeld (the middle field of a German sentence) confirms is the unmarked order when both objects are full noun phrases: "Der Schüler gibt der Lehrerin den Aufsatz" (the student gives the teacher the essay), dative before accusative.',
+					'That order reverses once both objects become unstressed personal pronouns. The same sentence with pronouns instead of nouns is "Der Schüler gibt ihn ihr" (the student gives it to her), accusative before dative, per grammis. When one object is a pronoun and the other stays a full noun phrase, grammis describes a separate principle: the pronoun moves ahead of the noun phrase regardless of which case it carries, a "light before heavy" ordering, not a case-based one, so a sentence can read Er gibt es der Lehrerin (accusative pronoun before dative noun) just as naturally as the noun-only or pronoun-only versions above.',
+				],
+				image: {
+					src: '/images/german-dative-case-diagram.svg',
+					alt: 'Diagram showing dative-only German verbs (helfen, danken, gefallen, gehören), the full dative pronoun paradigm (mir/dir/ihm/ihr/uns/euch/ihnen), the word order flip between noun objects (dative before accusative) and pronoun objects (accusative before dative), the seven fixed dative prepositions, and the Wechselpräpositionen rule showing a fish swimming inside an aquarium still taking the dative.',
+				},
+			},
+			{
+				heading: "The dative prepositions, and the Wechselpräpositionen rule that isn't really about motion",
+				body: [
+					'Seven prepositions always take the dative regardless of meaning, the same list the [German case overview](/german-cases/) sets out: aus, bei, mit, nach, seit, von, and zu. Each one shows up constantly outside grammar drills: aus Deutschland (from Germany), bei der Arbeit (at work), mit dem Auto (by car), nach der Schule (after school), seit einem Jahr (for a year), von meiner Mutter (from my mother), zu Hause (at home). None of the seven ever switches to accusative, unlike the Wechselpräpositionen covered next.',
+					'A related preposition, gegenüber, also governs the dative but behaves differently structurally: grammis\'s systematic grammar classifies it among the "complex prepositions" built from older spatial adverbs. It commonly appears after its noun as a postposition, as in "Dem Bahnhof gegenüber ist ein großes Einkaufszentrum" (across from the train station is a large shopping center), though the ordinary preposed order, gegenüber dem Bahnhof, is also standard and at least as common in everyday use.',
+					"The two-way Wechselpräpositionen (an, auf, in, neben, über, unter, vor, zwischen) are usually taught as \"dative for location, accusative for movement,\" but grammis's own teaching materials on the topic show that shortcut is incomplete. Its worked example has fish swimming continuously inside an aquarium, Die Fische schwimmen im Aquarium, marked dative even though swimming is clearly movement, because the grammis explanation states the dative marks not just a fixed location but also den Ort einer Bewegung, the place where a movement happens without leaving it. A related pair makes the same point: a boy who jumps while staying on a skateboard (auf dem Skateboard, dative) is described differently from a man who jumps from land into water (ins Wasser, accusative), because only the second movement crosses from one location into a different one. The real dividing line is whether the movement changes location, not whether movement happens at all.",
+					"Case selection with prepositions has its own edge cases even among strictly dative ones: grammis's Grammatik in Fragen und Antworten notes that außer varies between dative and accusative depending on the speaker and context, \"Ich habe niemanden geliebt außer dir\" alongside \"außer dich,\" a genuine point of disagreement among German speakers rather than a single fixed rule the way aus or bei work.",
+				],
+			},
+			{
+				heading: 'English keeps a fossil of the same system, just narrowed down to pronouns',
+				body: [
+					"German's dative can look like an unusually heavy grammatical burden next to English, which dropped almost all noun case marking centuries ago. But English pronouns still preserve a fossil of the same subject/object split German spreads across four full cases: he becomes him, she becomes her, they becomes them, and who becomes whom, the moment the pronoun leaves the subject position. That is structurally the same distinction German marks with nominative er versus accusative/dative ihn/ihm, just narrowed down to pronouns only; English nouns themselves carry no case ending at all (the man helps the man, unchanged either way).",
+					'Whom is the clearest sign that the English system is fading rather than holding steady. Many speakers now default to who in object position where formal grammar still calls for whom, saying "Who did you give it to?" instead of "To whom did you give it?", a shift German\'s dative has not made, in part because the dative survives on far more than one closed word class of pronouns. Seen from that angle, the German dative is not a foreign complication so much as a fuller, more consistently applied version of a distinction English speakers already make on instinct every time they choose him over he.',
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'Which German verbs take only a dative object, with no accusative object at all?',
+				answer: 'A closed set, including helfen (to help), danken (to thank), gefallen (to please/appeal to), gehören (to belong to), folgen (to follow), gratulieren (to congratulate), passen (to fit/suit), and schmecken (to taste good to). Per grammis (IDS Mannheim), this is Rektion, the verb determining the case of its object independent of meaning; none of these verbs can be tested with the accusative question words wen/was, because there is no accusative object anywhere in the sentence.',
+			},
+			{
+				question: 'What are the German dative personal pronouns?',
+				answer: 'Mir, dir, ihm, ihr, uns, euch, ihnen, and the formal Ihnen (to/for me, you, him, her, us, you all, them, you formal). They pair with dative-only verbs directly: Ich helfe ihm, Sie dankt mir.',
+			},
+			{
+				question: 'Does German word order change between dative and accusative objects?',
+				answer: 'Yes, and it depends on whether the objects are nouns or pronouns. Per grammis, the unmarked order with two full noun phrases is dative before accusative ("Der Schüler gibt der Lehrerin den Aufsatz"), but with two unstressed personal pronouns that order reverses to accusative before dative ("Der Schüler gibt ihn ihr"). When one object is a pronoun and the other a noun phrase, the pronoun moves ahead of the noun phrase regardless of its own case.',
+			},
+			{
+				question: 'Why does "in the aquarium" take the dative even though the fish are swimming, which is movement?',
+				answer: 'Grammis\'s own teaching materials use exactly this example to correct a common shortcut. A fish swimming inside an aquarium never leaves it, so the sentence names the place a movement happens in, not a destination it travels toward, the same logic that keeps "auf dem Skateboard" dative for a boy who jumps but stays on the board. Only a movement that actually ends somewhere new, like jumping from land into water, switches the Wechselpräposition over to accusative.',
+			},
+			{
+				question: 'Is gegenüber always dative, and does it come before or after its noun?',
+				answer: "Case-wise yes, dative every time. What's unusual is where it sits: unlike aus, bei, or the other fixed dative prepositions, gegenüber can stand on either side of its noun. Dem Bahnhof gegenüber (noun first) and gegenüber dem Bahnhof (gegenüber first) are both correct, everyday German.",
+			},
+		],
+		sources: [
+			{ label: 'grammis (IDS Mannheim) — "Objekt" (Dativobjekt examples: hilft ihm, gibt ihm das Buch, schenken ihrem Sohn)', url: 'https://grammis.ids-mannheim.de/vggf/2279' },
+			{ label: 'grammis (IDS Mannheim) — "Rektion" (dankt ihren Schülerinnen, and Rektion definition)', url: 'https://grammis.ids-mannheim.de/vggf/2273' },
+			{ label: 'grammis (IDS Mannheim) — "Stellung der Komplemente im Mittelfeld" (noun vs. pronoun word order)', url: 'https://grammis.ids-mannheim.de/progr@mm/5262' },
+			{ label: 'grammis (IDS Mannheim) — "Wechselpräpositionen" (Bausteine zum Selbstlernen; aquarium/skateboard examples)', url: 'https://grammis.ids-mannheim.de/progr@mm/6858' },
+			{ label: 'grammis (IDS Mannheim) — "Präposition" (systematische Grammatik; gegenüber as complex/postposed preposition)', url: 'https://grammis.ids-mannheim.de/systematische-grammatik/210' },
+			{ label: 'grammis (IDS Mannheim) — Wörterbuch zur Verbvalenz, "unterstützen" entry (accusative Rektion)', url: 'https://grammis.ids-mannheim.de/verbs/view/400994/2' },
+			{ label: 'Duden — "unterstützen" (accusative object example: "ich habe ihn mit Geld unterstützt")', url: 'https://www.duden.de/rechtschreibung/unterstuetzen_unterstuetzt' },
+		],
+	},
 ];

@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" font-family="system-ui, -apple-system, sans-serif">
+	<rect width="800" height="1000" fill="#f6f4e9"/>
+	<rect x="24" y="24" width="752" height="952" rx="10" fill="#fffefa" stroke="#ddd8c4"/>
+
+	<rect x="24" y="24" width="752" height="56" rx="10" fill="#2f6b47"/>
+	<rect x="24" y="60" width="752" height="20" fill="#2f6b47"/>
+	<text x="400" y="60" text-anchor="middle" fill="#ffffff" font-size="17" font-weight="700">GERMAN DATIVE: VERBS, PRONOUNS, AND A MOTION RULE THAT ISN'T ABOUT MOTION</text>
+
+	<!-- row 1: dative-only verbs -->
+	<rect x="46" y="100" width="708" height="118" rx="8" fill="#eaf1ea" stroke="#2f6b47"/>
+	<text x="400" y="124" text-anchor="middle" fill="#204a31" font-size="13" font-weight="700">A CLOSED SET OF VERBS TAKES DATIVE ALONE — NO ACCUSATIVE OBJECT AT ALL</text>
+	<text x="400" y="152" text-anchor="middle" fill="#201f1a" font-size="13" font-weight="700">helfen &#183; danken &#183; gefallen &#183; geh&#246;ren &#183; folgen &#183; gratulieren &#183; passen &#183; schmecken</text>
+	<text x="400" y="178" text-anchor="middle" fill="#5a5648" font-size="10.5">"Die Lehrerin dankt ihren Sch&#252;lerinnen." &#183; "Sie hilft ihm." (grammis)</text>
+	<text x="400" y="200" text-anchor="middle" fill="#5a5648" font-size="10.5" font-style="italic">Test with wem (to/for whom), never wen/was — there's no accusative slot to find.</text>
+
+	<!-- row 2: pronoun paradigm -->
+	<rect x="46" y="234" width="708" height="128" rx="8" fill="#fbead0" stroke="#ddd8c4"/>
+	<text x="400" y="258" text-anchor="middle" fill="#5a5648" font-size="13" font-weight="700">DATIVE PERSONAL PRONOUNS</text>
+
+	<text x="105" y="286" text-anchor="middle" fill="#201f1a" font-size="13" font-weight="700">mir</text>
+	<text x="195" y="286" text-anchor="middle" fill="#201f1a" font-size="13" font-weight="700">dir</text>
+	<text x="285" y="286" text-anchor="middle" fill="#201f1a" font-size="13" font-weight="700">ihm</text>
+	<text x="375" y="286" text-anchor="middle" fill="#201f1a" font-size="13" font-weight="700">ihr</text>
+	<text x="465" y="286" text-anchor="middle" fill="#201f1a" font-size="13" font-weight="700">uns</text>
+	<text x="555" y="286" text-anchor="middle" fill="#201f1a" font-size="13" font-weight="700">euch</text>
+	<text x="650" y="286" text-anchor="middle" fill="#201f1a" font-size="13" font-weight="700">ihnen / Ihnen</text>
+
+	<text x="105" y="304" text-anchor="middle" fill="#5a5648" font-size="9.5">me</text>
+	<text x="195" y="304" text-anchor="middle" fill="#5a5648" font-size="9.5">you</text>
+	<text x="285" y="304" text-anchor="middle" fill="#5a5648" font-size="9.5">him</text>
+	<text x="375" y="304" text-anchor="middle" fill="#5a5648" font-size="9.5">her</text>
+	<text x="465" y="304" text-anchor="middle" fill="#5a5648" font-size="9.5">us</text>
+	<text x="555" y="304" text-anchor="middle" fill="#5a5648" font-size="9.5">you all</text>
+	<text x="650" y="304" text-anchor="middle" fill="#5a5648" font-size="9.5">them / you (formal)</text>
+
+	<line x1="70" y1="316" x2="734" y2="316" stroke="#e6dcc2" stroke-width="1"/>
+	<text x="400" y="338" text-anchor="middle" fill="#201f1a" font-size="12">Article recap (see German Cases guide): dem &#183; dem &#183; der &#183; den (+ -n on plural noun)</text>
+	<text x="400" y="356" text-anchor="middle" fill="#5a5648" font-size="10.5" font-style="italic">"Ich helfe ihm." &#183; "Das geh&#246;rt mir."</text>
+
+	<!-- row 3: word order flip -->
+	<rect x="46" y="380" width="708" height="168" rx="8" fill="#eaf1ea" stroke="#2f6b47"/>
+	<text x="400" y="404" text-anchor="middle" fill="#204a31" font-size="13" font-weight="700">TWO OBJECTS, TWO WORD ORDERS</text>
+
+	<rect x="70" y="418" width="660" height="52" rx="6" fill="#fffefa" stroke="#c8dcc9"/>
+	<text x="90" y="438" fill="#201f1a" font-size="11" font-weight="700">Nouns &#8594; dative first:</text>
+	<text x="90" y="458" fill="#201f1a" font-size="12">"Der Sch&#252;ler gibt der Lehrerin den Aufsatz." (dative &#8594; accusative)</text>
+
+	<rect x="70" y="478" width="660" height="52" rx="6" fill="#fffefa" stroke="#c8dcc9"/>
+	<text x="90" y="498" fill="#201f1a" font-size="11" font-weight="700">Pronouns &#8594; flips:</text>
+	<text x="90" y="518" fill="#201f1a" font-size="12">"Der Sch&#252;ler gibt ihn ihr." (accusative &#8594; dative)</text>
+
+	<text x="400" y="542" text-anchor="middle" fill="#5a5648" font-size="10.5" font-style="italic">Mixed noun + pronoun: the pronoun moves first regardless of its own case ("light before heavy").</text>
+
+	<!-- row 4: fixed prepositions + gegenüber -->
+	<rect x="46" y="562" width="708" height="130" rx="8" fill="#fbead0" stroke="#ddd8c4"/>
+	<text x="400" y="586" text-anchor="middle" fill="#5a5648" font-size="13" font-weight="700">SEVEN PREPOSITIONS ALWAYS TAKE THE DATIVE</text>
+	<text x="400" y="610" text-anchor="middle" fill="#201f1a" font-size="14" font-weight="700">aus &#183; bei &#183; mit &#183; nach &#183; seit &#183; von &#183; zu</text>
+	<text x="400" y="636" text-anchor="middle" fill="#201f1a" font-size="11">geg&#101;n&#252;ber also takes dative but often follows its noun:</text>
+	<text x="400" y="658" text-anchor="middle" fill="#5a5648" font-size="10.5" font-style="italic">"Dem Bahnhof gegen&#252;ber ist ein gro&#223;es Einkaufszentrum."</text>
+	<text x="400" y="678" text-anchor="middle" fill="#5a5648" font-size="10">au&#223;er varies dative/accusative by register ("au&#223;er dir" / "au&#223;er dich") &#8212; not a fixed rule.</text>
+
+	<!-- row 5: wechselpräpositionen aquarium rule -->
+	<rect x="46" y="706" width="708" height="242" rx="8" fill="#eaf1ea" stroke="#2f6b47"/>
+	<text x="400" y="730" text-anchor="middle" fill="#204a31" font-size="13" font-weight="700">WECHSELPR&#196;POSITIONEN: THE DATIVE RULE ISN'T "NO MOVEMENT"</text>
+	<text x="400" y="752" text-anchor="middle" fill="#201f1a" font-size="11">an &#183; auf &#183; in &#183; neben &#183; &#252;ber &#183; unter &#183; vor &#183; zwischen &#8212; case depends on the noun phrase</text>
+
+	<rect x="70" y="766" width="320" height="94" rx="6" fill="#fffefa" stroke="#c8dcc9"/>
+	<text x="230" y="788" text-anchor="middle" fill="#201f1a" font-size="11" font-weight="700">Stays in the same space &#8594; DATIVE</text>
+	<text x="230" y="810" text-anchor="middle" fill="#201f1a" font-size="11">"Die Fische schwimmen im Aquarium."</text>
+	<text x="230" y="828" text-anchor="middle" fill="#5a5648" font-size="10">(swimming IS movement, but the</text>
+	<text x="230" y="844" text-anchor="middle" fill="#5a5648" font-size="10">aquarium's boundary never changes)</text>
+
+	<rect x="410" y="766" width="320" height="94" rx="6" fill="#fffefa" stroke="#c8dcc9"/>
+	<text x="570" y="788" text-anchor="middle" fill="#201f1a" font-size="11" font-weight="700">Crosses into a new space &#8594; ACCUSATIVE</text>
+	<text x="570" y="810" text-anchor="middle" fill="#201f1a" font-size="11">"Der Mann springt ins Wasser."</text>
+	<text x="570" y="828" text-anchor="middle" fill="#5a5648" font-size="10">(from land into water — the</text>
+	<text x="570" y="844" text-anchor="middle" fill="#5a5648" font-size="10">location itself changes)</text>
+
+	<text x="400" y="882" text-anchor="middle" fill="#201f1a" font-size="11" font-weight="700">The real test: does the movement change location, not whether movement happens.</text>
+	<text x="400" y="906" text-anchor="middle" fill="#5a5648" font-size="10.5" font-style="italic">A boy who jumps but stays on his skateboard ("auf dem Skateboard") is dative for the same reason.</text>
+	<text x="400" y="930" text-anchor="middle" fill="#5a5648" font-size="9.5">Source: grammis (IDS Mannheim), "Wechselpr&#228;positionen" — Bausteine zum Selbstlernen</text>
+</svg>
