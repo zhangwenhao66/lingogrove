@@ -993,3 +993,56 @@
   "escalation": null
 }
 ```
+
+## 2026-08-24 完整审计：`spanish-reflexive-verbs`
+
+```json
+{
+  "url_slug": "spanish-reflexive-verbs",
+  "last_audited": "2026-08-24",
+  "published_date": "2026-08-04",
+  "note": "本站第13次由trafficsite-content-quality-audit完整审计。选中原因：content-audit-log.md已有13条记录（por-vs-para/ser-conjugation/ser-vs-estar/preterite-vs-imperfect/deja-vu-meaning/schadenfreude-meaning/senpai-meaning/happy-birthday-in-spanish/good-night-in-spanish/i-love-you-in-spanish/spanish-preterite-endings/saber-vs-conocer/direct-vs-indirect-object-pronouns-spanish），guides.ts全站58篇里45篇从未被本任务审计过；spanish-reflexive-verbs是这45篇里published最早的一篇（2026-08-04，array位置13，与saber-vs-conocer/direct-vs-indirect-object-pronouns-spanish同日但排在两者之后已被审计），按'从未审计优先、同等条件下published最早优先'的选取规则确认为本轮目标。",
+  "diagnosed_checkpoints": [
+    "RAE对'reflexivo'（真反身）与'verbo pronominal'（伪反身/泛义代词动词）的术语区分是否真实存在，两条具体RAE例句（Roberto se peinaba con gomina / Me mojé a mí mismo vs Empezó a llover y me mojé）是否为RAE官方原文用例而非编造",
+    "reciprocal se的歧义（se conocen='认识自己'还是'认识彼此'）及el uno al otro消歧法是否有RAE依据",
+    "dormirse/irse/quedarse/comerse四对'看似反身实则非反身'动词的语义偏移是否准确",
+    "反身代词位置规则（前置于变位动词/后缀于不定式-动名词-肯定命令式/否定命令式回到前置）是否与已审计过的direct-vs-indirect-object-pronouns-spanish文章描述一致（桥接句准确性）",
+    "正文是否存在AI写作痕迹（尤其破折号密度），因published=2026-08-04早于avoid-ai-writing接入日(2026-08-07)，触发全量检查"
+  ],
+  "findings": [
+    { "dimension": "事实准确性", "status": "未发现问题", "detail": "WebSearch两次独立交叉核实RAE glosario 'pronombre reflexivo'词条，确认'Roberto se peinaba con gomina'（antecedent of se is Roberto, subject of peinar, both coarguments of that verb）为RAE官方原文例句，与本文引用逐字一致；WebSearch交叉核实RAE glosario 'verbo pronominal'词条，确认'Me mojé a mí mismo'（reflexive, direct object/patient）vs 'Empezó a llover y me mojé'（non-reflexive, non-argumental morpheme）的对比正是RAE官方原文用例，与本文引用一致；reciprocal se的歧义与'el uno al otro'消歧法经WebSearch核实与RAE'Los pronombres recíprocos'页面表述（'Se adoran'可解作reflexive/reciprocal两义，用tonic pronoun duplication消歧）结构一致，本文举例'se conocen'属同类现象，非编造。dormirse（fall asleep的时刻性）/irse（离开焦点转移）/quedarse（留下/停留）/comerse（吃完的完成体）四对动词语义偏移经WebSearch交叉核实（studyspanish.com/realfastspanish.com等独立信源）与本文表述一致。反身代词位置规则（前置变位动词/后缀不定式-动名词-肯定命令式/否定命令式前置）经核对与已审计过的direct-vs-indirect-object-pronouns-spanish文章（1088-1169行）描述的宾语代词位置规则完全一致，桥接句'Placement follows the same rule as...'准确。" },
+    { "dimension": "EEAT", "status": "未发现问题", "detail": "3条RAE一手权威来源（glosario 'verbo pronominal'/'pronombre reflexivo'两词条+Nueva gramática básica'Pronombres reflexivos y recíprocos'专页），每条语法点均配西语真实例句+英文翻译，非泛泛而谈。" },
+    { "dimension": "时效性", "status": "不适用", "detail": "语法规则类内容，RAE reflexivo/pronominal区分历史上无变动记录，无过时风险；published=2026-08-04已存在，无需回填，本次updated改为2026-08-24。" },
+    { "dimension": "竞品差异化", "status": "未发现问题", "detail": "dataforseo-query实测'spanish reflexive verbs'真实SERP：reddit.com讨论帖、studyspanish.com、realfastspanish.com（25 most common reflexive verbs）、YouTube、lingvist.com、letsspeakspanish.com、enforex.com、centromundolengua.com。WebSearch进一步核实studyspanish.com/realfastspanish.com两个头部竞品页面内容：均止步于'反身动词=会变义的动词列表'，把reflexive和pronominal混用为近义词，未见任何一篇像本文一样引用RAE官方术语区分本身（reflexivo仅限严格意义的coargument关系，dormirse等应称verbo pronominal而非reflexivo）并配RAE官方对比例句，构成真实差异化而非同结构模板页。本文当前未进入SERP前10（符合发布20天的预期，非本次审计范围内的问题）。" },
+    { "dimension": "SEO技术审计", "status": "未发现问题（description副产品优化）", "detail": "实测live页面：title 90字符含品牌后缀（与站内saber-vs-conocer/preterite-vs-imperfect等长标题一致，属本站既有风格非新问题）、单一h1、6个h2层级清晰、canonical自引用正确。schema实测（curl静态HTML+python解析）：Article（headline/description/datePublished/dateModified/author/image字段完整且与guides.ts一致）/FAQPage（4条FAQ与正文完全一致）/BreadcrumbList三项JSON-LD均正确渲染。ads.txt正确指向pub-5245502795720653，robots.txt对全部AI爬虫（GPTBot/ChatGPT-User/ClaudeBot/Claude-Web/PerplexityBot/Google-Extended）Allow，privacy/about页面均200。description原163字符（含1处破折号），因em dash修复改写连带压缩至155字符落入理想区间，非独立触发的修复。" },
+    { "dimension": "GEO审计", "status": "定性评估达标，未做侵入性额外修复", "detail": "Skill(ai-seo)定性核对：coreSummary首段即给出清晰定义、FAQ自包含可独立提取（4条）、3条RAE一手权威来源+2条具体RAE原文对比例句作为quotations（Princeton GEO研究显示quotations带来+30%可见度提升）、schema完整、AI爬虫未被拦截、今日更新、标题为陈述句非关键词堆砌。唯一结构性可改进点：verb-alone/verb+se对比目前只有SVG图示，无独立HTML对比表格，AI抓取时需从prose+图片中解析而非直接读表格数据，与此前ser-vs-estar/direct-vs-indirect-object-pronouns-spanish审计发现的同类轻量缺口一致，判定为非阻断性可选优化项，不属于本次两条CONFIRMED finding范围，未做超出范围的额外编辑。" },
+    { "dimension": "早期内容AI味补漏", "status": "确认发现问题，独立复核确认为真，已修复", "detail": "published=2026-08-04早于avoid-ai-writing接入日(2026-08-07)，触发全量检查。正文+description+FAQ+sources[]标签+image.alt合计19处em dash（另加SVG配图1处，共20处），独立agent逐条核对：3处为sources[].label（'RAE — Glosario...'格式）、0处属于FAQ'No —'开头例外（4条FAQ答案均未以此句式开头）、其余16处为叙事性/同位语/列表分隔用法。独立agent同时核实08-22 saber-vs-conocer审计已正式取代'sources[]标签例外'旧标准（现统一改冒号分隔），判定全部19处（含3处sources标签）+SVG 1处共20处均应修复，CONFIRMED。另有3处'genuinely/actually'空洞强调词（Tier 1A AI词表用法，非contrastive意义用法）经复核确认应清理。" },
+    { "dimension": "外部引用链接腐烂", "status": "未发现问题", "detail": "3条rae.es来源curl均返回403（RAE对自动化抓取的常规拦截，本站已确立此判断标准，非链接失效），WebSearch交叉核实3个具体URL均命中且内容与引用论断匹配。" },
+    { "dimension": "内链健康度", "status": "未发现问题，非孤儿页", "detail": "grep确认被5篇其他Grammar文章手写内链引用（spanish-future-tense/double-object-pronouns-spanish/subjunctive-spanish/french-imperative/french-negation），锚文本各不相同（如'a conjugated verb is directly followed by an infinitive'/'same placement pattern as a single object or reflexive pronoun'/'Spanish reflexive verbs'/'reflexive verbs'）；逐一核对5条桥接句对本文内容的描述均准确。本文自身正文有1条出站链接到已审计过的direct-vs-indirect-object-pronouns-spanish，桥接句'Placement follows the same rule as...'经核对与该文实际内容（1088-1169行宾语代词位置规则）完全一致。" },
+    { "dimension": "Schema数据一致性", "status": "已同步", "detail": "本次编辑涉及description（Article schema同步）/正文与FAQ文字/sources[].label文字/updated日期，不涉及faq数组结构（仍是4条FAQ，字段形状未变）；构建后curl+python解析live页面确认Article/FAQPage/BreadcrumbList三项JSON-LD均正确渲染，description字段与guides.ts一致，datePublished保持2026-08-04不变（published字段本身已存在，未触发L-0809-1回退风险），dateModified已更新为2026-08-24。" },
+    { "dimension": "合规/敏感度漂移", "status": "未发现问题", "detail": "纯语法教学内容，无人物/事件/群体相关表述，无俚语粗俗语，无合规风险。" },
+    { "dimension": "配图可用性与版权", "status": "确认发现1处同源问题，已修复", "detail": "public/images/spanish-reflexive-verbs-diagram.svg为站内自制SVG对比图（非第三方图片，无版权问题），文件存在，live页面正常渲染，四对动词标签内容与正文完全吻合，文字坐标未溢出色块边界；图内1处渲染文本（'pronominal, not reflexive — it isn't...'）含叙事性em dash，与正文问题同源，已修复为冒号，未改动图形结构或数据。" },
+    { "dimension": "AdSense政策合规", "status": "未发现问题", "detail": "语法教学内容，无敏感类目风险；ads.txt实测正确指向pub-5245502795720653；robots.txt未拦截任何AI爬虫；privacy/about页面均200可访问。" }
+  ],
+  "independent_verification": "1个独立agent复核em dash发现：独立运行grep命令核实19处（+SVG 1处）em dash分布，独立读取saber-vs-conocer(08-22)/direct-vs-indirect-object-pronouns-spanish(08-23)两条历史审计记录确认站内标准现状，判定全部16处叙事性+3处sources标签共19处（+SVG 1处）均应修复，CONFIRMED，复核在2分钟内正常完成，无agent卡死情况，未触发看门狗降级流程。",
+  "actions_taken": [
+    "description从163字符（含1处破折号）改写压缩到155字符，改用RAE实际术语'pronominal'替代冗余措辞",
+    "改写正文16处+FAQ内含在16处中+image.alt 2处叙事性破折号为句号/冒号/逗号/括号结构（仅改动含破折号的具体句子，保留原意，未改动任何RAE引例、术语区分或语法规则表述）",
+    "sources[]3条标签'信源 — 说明'格式改为'信源: 说明'冒号格式，跟随08-22确立的新约定（取代旧的'结构化标签例外'）",
+    "SVG配图内1处叙事性破折号改为冒号",
+    "清理3处'genuinely/actually'空洞强调词（Tier 1A AI词表），语义不变",
+    "updated字段同步改为2026-08-24（published字段已存在，未触发L-0809-1回填风险）",
+    "Skill(humanizer)+Skill(avoid-ai-writing)复核全文确认无其他AI写作痕迹残留",
+    "npm test（64/64通过）+ npm run build（68页）通过",
+    "git commit（edea097，仅guides.ts+对应SVG两个文件）+ push，Cloudflare Pages自动部署",
+    "轮询5次（约60秒）确认https://lingogrove.com/spanish-reflexive-verbs/返回200且改动已生效（新description已渲染，破折号清零）",
+    "seo_drift.py compare仅命中预期内的schema description/dateModified变化提示（WARNING非CRITICAL），无意外改动",
+    "node tools/submit-indexnow.mjs /spanish-reflexive-verbs/提交（Bing 200 / Yandex 200）",
+    "内容发布日志.md追加本条审计更新记录",
+    "内容通用教训库.md L-0810-4条目追加复现记录（本次同时命中description字段这一此前未单独点名过的字段位置）"
+  ],
+  "seo_score": "技术SEO全项通过，description已连带压缩到理想区间，未发现其他需修复项",
+  "geo_score": "定性评估达标（结构/权威/时效/AI可抓取性均满足，含2条RAE原文对比例句作为quotations），未做侵入性GEO编辑；verb对比缺独立HTML表格为轻量可选优化项，本次未处理",
+  "escalation": null
+}
+```
