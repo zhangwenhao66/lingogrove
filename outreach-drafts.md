@@ -488,3 +488,40 @@ contact@lingogrove.com
 **独立复核结果**：APPROVED TO SEND。独立agent逐项核实（非只信自我声明）：来源页HTTP 200且含该锚文本与目标URL、目标URL跟随重定向后404、`utm.edu/staff/`整目录404、Wayback最后200快照2023-05-16、`shane@ohio.edu`确系该指南主页librarian profile框内mailto、全账号查重`to:shane@ohio.edu`和`to:ohio.edu`均为空（另发现UmberLore 2026-08-04曾查到ohio.edu另一个不同指南页的死链但当时判定跳过未发信，非本次重复）、正文无AI味特征、内容匹配真实且如实声明缺口。全部通过。
 
 **状态**：✅ **已发送**（2026-08-21）。`gmail_send.py send --from lingogrove`，收件人 `shane@ohio.edu`，Message ID `1a024e3813397a0d`
+
+---
+
+## 2026-08-24 · 断链置换 · Towson University Cook Library, German Research Guide（German，✅ 已发送）
+
+- **来源页**：https://towson.libguides.com/GERM （Towson University 的German研究指南；页面约30条外链，仅此1条失效；LibGuides自带的"Last Updated"字段显示2024-11-01，距今约21个月，略超"近12个月有更新迹象"的字面标准，但页面本身仅1/30链接失效、其余链接抽查全部存活，独立复核判定这是"资源本身稳定不需要频繁编辑"而非"僵尸页面"，予以放行，此处如实记录这个判断依据而非隐瞒）
+- **失效链接**：`http://www.uni.edu/becker/German2.html`，锚文本 "Best German Websites"，描述"a collection of links to German websites, including German culture, grammar, music, games, food, and much more"（University of Northern Iowa Becker教授的资源导航页）。curl复现：http跳转到https同路径后返回404；根域`uni.edu`本身200正常，非整站故障；Wayback最后一次200快照2017-02-10，此后未见新快照，确认长期真实失效
+- **收件人**：**Mary Gilbert**，`mgilbert@towson.edu`。邮箱来自该指南页面自带的Librarian Profile框（"Email Me"按钮 mailto链接），非按命名规律猜测；页面另有一个`whelman@towson.edu`是通用"Report a problem"页脚链接，未使用
+- **查重**：`gmail_send.py list --query "to:mgilbert@towson.edu"` → `[]`；`--query "to:towson.edu"` → `[]`；`grep -rli towson 独立站/` 全仓库范围检索，唯一命中是无关的DialWick县级邮编JSON文件和SERP调研日志，未见任何outreach日志/草稿提及towson，确认此前未联系过此人或此域名
+
+### 主题匹配判定
+
+成立但不对等，已在邮件里如实声明。原链接"Best German Websites"是覆盖文化、语法、音乐、游戏、饮食等多方面的综合德语资源导航页。LingoGrove目前德语内容是5篇语法文章（German Cases总览、Adjective Endings、Dative Case、Genitive、Perfect Tense），全部围绕格系统与动词形态，独立复核agent核对站点sitemap确认站内德语内容确实仅此5篇、不含任何文化/音乐/游戏/饮食内容，邮件正文"我不会假装这是完整替代，原页面还覆盖文化、音乐、游戏和饮食，我这边只覆盖语法"的措辞与实际情况完全一致，未夸大。
+
+### 邮件正文（已过 humanizer + avoid-ai-writing，均判定通过，无命中）
+
+Subject: Broken link on your German research guide
+
+Hi Mary,
+
+I was looking through Towson's German research guide (libguides at towson.edu, the GERM page) and noticed the "Best German Websites" link (pointing to uni.edu/becker/German2.html, from the University of Northern Iowa) now returns a 404. The Wayback Machine's last live snapshot of that page is from 2017, so it looks like it's been gone for a while rather than a temporary outage.
+
+Separate from that, I run LingoGrove, a small reference site with German grammar explainers. I won't pretend it's a full replacement for that directory, since the original page also covered culture, music, games, and food, and mine only covers grammar. If the case-system portion is useful on its own, here's what I've got:
+
+- German Cases overview: https://lingogrove.com/german-cases
+- Adjective endings: https://lingogrove.com/german-adjective-endings
+- Dative case: https://lingogrove.com/german-dative-case
+- Genitive case: https://lingogrove.com/german-genitive
+- Perfect tense (Perfekt): https://lingogrove.com/german-perfect-tense
+
+No worries either way, just wanted to flag the dead link since it's easy to miss on a guide with that many entries.
+
+Owen Zhang
+
+**独立复核结果**：APPROVED TO SEND。独立agent逐项核实（非只信自我声明）：来源页200且含该锚文本与目标URL，抽查约15条其他外链均存活；目标URL http跳转https后404、`uni.edu`根域200排除整站故障、Wayback最后200快照2017-02-10；`mgilbert@towson.edu`确系该指南页面Librarian Profile框内mailto；全账号查重`to:mgilbert@towson.edu`和`to:towson.edu`均为空，全仓库grep未见重复；核对LingoGrove站点sitemap确认德语内容确实仅5篇语法文章、不含文化/音乐/游戏内容，邮件披露准确不夸大；语气非模板化，第一段不提LingoGrove；正文无em/en dash、无AI高频词、无弯引号、无收尾套话。全部通过，明确判定"APPROVED TO SEND"。
+
+**状态**：✅ **已发送**（2026-08-24）。`gmail_send.py send --from lingogrove`，收件人 `mgilbert@towson.edu`，Message ID `1a033f1e158e1bbf`
