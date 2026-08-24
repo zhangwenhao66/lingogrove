@@ -244,5 +244,16 @@
     ],
     "already_indexed_no_action": [],
     "quota_used": "1 of shared account-wide daily quota"
+  },
+  {
+    "date": "2026-08-24",
+    "action": "skipped_all_indexed",
+    "reason": "今日无新发布。队列头部habibi-meaning经URL Inspection已收录。Pages报告仅1个Crawled-currently not indexed候选ciao-meaning，URL Inspection核实已转为'URL is on Google'（报告滞后快照，非真实未收录）；Discovered-currently not indexed为0。判定当前无真实未提交候选，跳过本轮不消耗配额，游标继续前进至WageLark。",
+    "submitted_urls": [],
+    "already_indexed_no_action": [
+      "https://lingogrove.com/habibi-meaning/",
+      "https://lingogrove.com/ciao-meaning/"
+    ],
+    "quota_used": "0 (skipped, no unindexed candidate found)"
   }
 ]
