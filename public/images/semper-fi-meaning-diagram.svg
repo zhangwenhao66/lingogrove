@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" font-family="system-ui, -apple-system, sans-serif">
+	<rect width="900" height="620" fill="#f6f4e9"/>
+
+	<rect x="24" y="24" width="852" height="72" rx="10" fill="#3a3a52"/>
+	<text x="450" y="56" text-anchor="middle" fill="#ffffff" font-size="20" font-weight="700">SEMPER FI: "ALWAYS FAITHFUL," ROME TO THE MARINE CORPS</text>
+	<text x="450" y="82" text-anchor="middle" fill="#d8d6e6" font-size="14">semper (always) + fidēlis (faithful) = semper fidēlis</text>
+
+	<!-- Column 1: the words -->
+	<rect x="24" y="120" width="270" height="410" rx="10" fill="#fffefa" stroke="#ddd8c4"/>
+	<rect x="24" y="120" width="270" height="48" rx="10" fill="#7a2e2e"/>
+	<rect x="24" y="148" width="270" height="20" fill="#7a2e2e"/>
+	<text x="159" y="150" text-anchor="middle" fill="#ffffff" font-size="15" font-weight="700">THE TWO WORDS</text>
+
+	<g fill="#201f1a" font-size="13.5">
+		<text x="46" y="196" font-weight="700">semper — adverb</text>
+		<text x="46" y="214" fill="#5a5648">"always." From an</text>
+		<text x="46" y="232" fill="#5a5648">Indo-European root for</text>
+		<text x="46" y="250" fill="#5a5648">"one" + "-per" ("through")</text>
+
+		<text x="46" y="290" font-weight="700">fidēlis — adjective</text>
+		<text x="46" y="308" fill="#5a5648">"faithful." From fidēs</text>
+		<text x="46" y="326" fill="#5a5648">("faith, trust") + -ēlis;</text>
+		<text x="46" y="344" fill="#5a5648">kin to English fidelity,</text>
+		<text x="46" y="362" fill="#5a5648">confide, confidant</text>
+
+		<text x="46" y="402" font-weight="700">Pronunciation</text>
+		<text x="46" y="420" fill="#5a5648">rhymes with</text>
+		<text x="46" y="438" fill="#5a5648">"temper high"</text>
+
+		<text x="46" y="478" font-weight="700">Not USMC-only</text>
+		<text x="46" y="496" fill="#5a5648">Old Latin manuscripts</text>
+		<text x="46" y="514" fill="#5a5648">use it for faithfulness</text>
+		<text x="46" y="532" fill="#5a5648">to God</text>
+	</g>
+
+	<!-- Column 2: before the marines -->
+	<rect x="315" y="120" width="270" height="410" rx="10" fill="#fffefa" stroke="#ddd8c4"/>
+	<rect x="315" y="120" width="270" height="48" rx="10" fill="#2f4f6b"/>
+	<rect x="315" y="148" width="270" height="20" fill="#2f4f6b"/>
+	<text x="450" y="150" text-anchor="middle" fill="#ffffff" font-size="15" font-weight="700">CENTURIES BEFORE THE USMC</text>
+
+	<g fill="#201f1a" font-size="13.5">
+		<text x="337" y="196" font-weight="700">Believed to trace to</text>
+		<text x="337" y="214" fill="#5a5648">Roman senators closing</text>
+		<text x="337" y="232" fill="#5a5648">their speeches with it</text>
+
+		<text x="337" y="272" font-weight="700">1369</text>
+		<text x="337" y="290" fill="#5a5648">Earliest confirmed record:</text>
+		<text x="337" y="308" fill="#5a5648">motto of Abbeville, France</text>
+
+		<text x="337" y="348" font-weight="700">16th–17th c.</text>
+		<text x="337" y="366" fill="#5a5648">Adopted by English, French</text>
+		<text x="337" y="384" fill="#5a5648">and Irish families and towns</text>
+
+		<text x="337" y="424" font-weight="700">1685</text>
+		<text x="337" y="442" fill="#5a5648">Earliest known military use:</text>
+		<text x="337" y="460" fill="#5a5648">Duke of Beaufort's Regiment,</text>
+		<text x="337" y="478" fill="#5a5648">tied to Exeter's own motto</text>
+	</g>
+
+	<!-- Column 3: the marine corps -->
+	<rect x="606" y="120" width="270" height="410" rx="10" fill="#fffefa" stroke="#ddd8c4"/>
+	<rect x="606" y="120" width="270" height="48" rx="10" fill="#4a5a2e"/>
+	<rect x="606" y="148" width="270" height="20" fill="#4a5a2e"/>
+	<text x="741" y="150" text-anchor="middle" fill="#ffffff" font-size="15" font-weight="700">HOW THE MARINES GOT IT</text>
+
+	<g fill="#201f1a" font-size="13.5">
+		<text x="628" y="196" font-weight="700">Earlier mottos</text>
+		<text x="628" y="214" fill="#5a5648">Fortitudine → By Sea and</text>
+		<text x="628" y="232" fill="#5a5648">by Land → To the Shores</text>
+		<text x="628" y="250" fill="#5a5648">of Tripoli (1805)</text>
+
+		<text x="628" y="290" font-weight="700">1848</text>
+		<text x="628" y="308" fill="#5a5648">"From the Halls of</text>
+		<text x="628" y="326" fill="#5a5648">Montezuma..." opens the</text>
+		<text x="628" y="344" fill="#5a5648">Marines' Hymn today</text>
+
+		<text x="628" y="384" font-weight="700" font-size="16">1883</text>
+		<text x="628" y="402" fill="#5a5648">Semper Fidelis becomes</text>
+		<text x="628" y="420" fill="#5a5648">the sole official motto</text>
+
+		<text x="628" y="460" font-weight="700">1888</text>
+		<text x="628" y="478" fill="#5a5648">Sousa's march "Semper</text>
+		<text x="628" y="496" fill="#5a5648">Fidelis" becomes the</text>
+		<text x="628" y="514" fill="#5a5648">Corps' official march</text>
+	</g>
+
+	<!-- Bottom comparison strip -->
+	<rect x="24" y="550" width="852" height="52" rx="10" fill="#e8e3cf" stroke="#ddd8c4"/>
+	<text x="450" y="570" text-anchor="middle" font-size="12.5" font-weight="700" fill="#3a3a52">THREE BRANCHES, THREE LATIN MOTTOS — NOT INTERCHANGEABLE</text>
+	<text x="450" y="590" text-anchor="middle" font-size="12" fill="#5a5648">Marine Corps: Semper Fidelis (official, 1883) · Navy: Semper Fortis (popular, never official) · Coast Guard: Semper Paratus (official, march 1928)</text>
+</svg>

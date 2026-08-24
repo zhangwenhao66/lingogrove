@@ -5140,4 +5140,87 @@ export const guides: Guide[] = [
 			{ label: 'Real Academia Española, Libro de estilo de la Justicia: "Gerundio especificativo" (the "gerundio del BOE," and its lexicalized/informational-noun exceptions)', url: 'https://www.rae.es/libro-estilo-justicia/las-palabras-y-sus-grupos-problemas-y-actuaciones/gerundio/usos-incorrectos/gerundio-especificativo' },
 		],
 	},
+	{
+		slug: 'semper-fi-meaning',
+		category: 'Loanwords',
+		title: 'Semper Fi Meaning: "Always Faithful," From Rome to the Marine Corps',
+		description: 'Semper Fi is short for Latin semper fidelis, "always faithful," a motto the Marine Corps didn\'t adopt until 500 years after it first appeared as a French town\'s motto.',
+		published: '2026-08-24',
+		updated: '2026-08-24',
+		coreSummary: '"Semper Fi" is short for the Latin semper fidēlis, "always faithful," and the phrase predates the U.S. Marine Corps by roughly 500 years: the earliest confirmed record of it as a motto is the French town of Abbeville in 1369, with English, French, and Irish families and military units using it long before the Marine Corps adopted it as its sole official motto in 1883. The other branch mottos it sometimes gets confused with are not the same phrase: the Coast Guard\'s official motto is "Semper Paratus" ("Always Ready"), and the Navy\'s popular "Semper Fortis" has never been made official.',
+		language: 'Latin',
+		usageNote: {
+			register: 'informal',
+			regionNote: 'Formal and ceremonial in official Marine Corps use, boot-camp graduations, retirement ceremonies, the 1883 motto itself, but also an everyday spoken greeting, farewell, or expression of camaraderie among Marines, veterans, and their families. It names the Marine Corps specifically, not the U.S. military generally: the Navy\'s "Semper Fortis" was never made official, and the Coast Guard has its own distinct official motto, "Semper Paratus."',
+		},
+		sections: [
+			{
+				heading: 'What "semper fidelis" literally means, word by word',
+				body: [
+					'Semper is a Latin adverb meaning "always, ever, at all times, on each occasion." Per Wiktionary, it traces back to the Proto-Indo-European root *sḗm, "one," the same root behind the Latin word semel ("once"), combined with -per, "throughout." Read that way, semper is built from pieces meaning something close to "carried through as one," which is how a word for "always" ends up assembled out of "one" rather than out of any word for time itself.',
+					'Fidēlis is the adjective, "faithful, loyal, trustworthy." Wiktionary traces it to fidēs ("faith, trust") plus the suffix -ēlis, and lists it as a third-declension two-termination adjective, meaning it takes one ending for masculine and feminine nouns (fidēlis) and a separate ending for neuter ones (fidēle); the full pattern those endings follow is covered in [Latin declensions](/latin-declensions/). Fidēs and its relatives fīdō ("to trust") and fīdus ("faithful, trustworthy") share a root with several familiar English words: fidelity, confide, and confidant all carry the same core idea of trust and reliability.',
+					'Put the two words together and semper fidelis reads literally as "always faithful." Semper\'s "at all times" sense does real work there: the phrase describes loyalty that holds without exception or interruption. Spoken aloud, the shortened "Semper Fi" rhymes with "temper high," since Latin sē and fī both take a long-vowel "ee" and "eye" sound rather than an English-style short vowel.',
+				],
+				image: {
+					src: '/images/semper-fi-meaning-diagram.svg',
+					alt: 'Diagram showing the Latin words semper (always) and fidelis (faithful) combining into semper fidelis, a timeline of the phrase\'s use from ancient Rome and the French town of Abbeville in 1369 through the Marine Corps\' 1883 adoption and 1888 official march, and a comparison strip contrasting the Marine Corps\' official Semper Fidelis with the Navy\'s unofficial Semper Fortis and the Coast Guard\'s official Semper Paratus.',
+				},
+			},
+			{
+				heading: 'The phrase is centuries older than the Marine Corps',
+				body: [
+					'Semper fidelis did not start out as a military motto at all. Wikipedia\'s entry on the phrase notes it is believed to trace back to Roman senators, who declaimed it at the close of their speeches, though that origin is a matter of tradition rather than a documented first use. The earliest use that is definitively recorded is as the motto of the French town of Abbeville, dating to 1369. From there it spread: European families and towns in England, France, and Ireland adopted it as a motto from at least the 16th century onward, and Bernard Burke\'s 1884 survey of British and Irish coats of arms lists multiple families using it, including Ireland\'s Lynch family, one of the fourteen merchant families known as the Tribes of Galway.',
+					'Its first recorded use by a military unit predates the Marine Corps by nearly two centuries: the Duke of Beaufort\'s Regiment of Foot, raised in south-western England in 1685, apparently borrowed it from the city of Exeter, which was already using the motto by 1660. Military.com adds one more data point that cuts against any idea that Marines coined the phrase: variations of "semper fidelis" turn up in old Latin manuscripts and religious writings, generally describing faithfulness to God, well outside any military or civic context at all.',
+				],
+			},
+			{
+				heading: 'How the Marine Corps got to "Semper Fidelis," and Sousa\'s 1888 march',
+				body: [
+					'The Marine Corps did not start with "Semper Fidelis." Per its own History Division, the earliest known Marine Corps motto, used before the War of 1812, was Fortitudine, Latin for "With Fortitude." The Corps later adopted "By Sea and by Land," a direct translation of the British Royal Marines\' own long-standing motto, "Per Mare, Per Terram," which per Sandboxx appeared on Marine Corps recruitment literature by the mid-1800s. In 1805, after Lieutenant Presley O\'Bannon led Marines in capturing the city of Derna during the First Barbary War, the motto changed again, to "To the Shores of Tripoli." Following the Marine Corps\' role in capturing Mexico City in 1848, that line was expanded to "From the Halls of Montezuma to the Shores of Tripoli," the same line that opens the Marines\' Hymn today.',
+					'"Semper Fidelis" replaced all of those and became the Marine Corps\' sole official motto in 1883. Sources differ on how firmly that choice can be pinned on one person: Sandboxx credits Colonel Charles G. McCawley, the Commandant of the Marine Corps at the time, with choosing it directly, while Military.com, citing the National Museum of the Marine Corps, describes the McCawley attribution as unverified, since McCawley kept little documentation of his decisions. Neither source records why "Semper Fidelis" specifically was chosen over any alternative.',
+					'Five years later, in 1888, John Philip Sousa composed a march titled "Semper Fidelis," one of two pieces he wrote in response to a request from President Chester A. Arthur for music associated with the presidency. Per Wikipedia\'s entry on the march, it went on to become the Marine Corps\' own official march, separate from its adoption as the Corps\' motto five years earlier.',
+				],
+			},
+			{
+				heading: 'An everyday greeting, and why it is not interchangeable with the Navy\'s or Coast Guard\'s mottos',
+				body: [
+					'Beyond its formal role, "Semper Fi" functions as ordinary spoken language among Marines. Military.com describes it as commonly used as a greeting, a farewell, and a general expression of camaraderie, both on active duty and years after service ends; family members and retirees use it too, as a way of signaling their own continued connection to the Corps. Unlike a loanword such as [per se](/per-se-meaning/), which settled into a narrow legal and hedging role in English, "Semper Fi" kept its full ceremonial weight, spoken at boot-camp graduations and retirement ceremonies, while also becoming an informal, conversational phrase, a rarer combination for a borrowed Latin motto to pull off.',
+					'The phrase also shows up well outside ceremonies and everyday greetings. Military.com notes it appears on unit logos, license plates, T-shirts, caps, decals, and tattoos, and that some Marine-owned businesses build it directly into their names, including the veterans\' support organization Semper Fi & America\'s Fund, founded in 2003, and the smaller Semper Fi Heating & Cooling.',
+					'That everyday familiarity leads to a real, checkable mix-up: treating "Semper Fi" as a generic U.S. military phrase rather than one specific to the Marine Corps. The Navy has no single official motto; "Semper Fortis" ("Always Bold" or "Always Strong") is popular through recruiting campaigns and culture, but per the USO\'s own overview of branch mottos, it has never been formally adopted. The Coast Guard, by contrast, does have its own official Latin motto, "Semper Paratus" ("Always Ready"), and Wikipedia\'s entry on that phrase confirms the Coast Guard\'s official march of the same name dates to 1928. Three different Latin mottos, two of them genuinely official and one of them not, cover three different branches; none of them is a stand-in for either of the others.',
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'What does "Semper Fi" mean?',
+				answer: '"Semper Fi" is short for the Latin phrase semper fidelis, "always faithful." Semper means "always," from a Proto-Indo-European root for "one" combined with "-per" ("throughout"); fidelis means "faithful, loyal," from fidēs ("faith, trust").',
+			},
+			{
+				question: 'How do you pronounce "Semper Fi"?',
+				answer: 'It rhymes with "temper high." Latin sē and fī both take a long vowel sound, "ee" and "eye," rather than the short vowels an English reader might guess from the spelling.',
+			},
+			{
+				question: 'Did the Marine Corps invent "Semper Fidelis"?',
+				answer: 'No. The earliest definitively recorded use of the phrase as a motto is the French town of Abbeville, dating to 1369, roughly 500 years before the Marine Corps adopted it as its sole official motto in 1883. English, French, and Irish families and towns used it as a motto well before that, and its first recorded use by a military unit was the Duke of Beaufort\'s Regiment of Foot in 1685.',
+			},
+			{
+				question: 'Why did the Marine Corps choose "Semper Fidelis" as its motto in 1883?',
+				answer: 'Colonel Charles G. McCawley, the Commandant of the Marine Corps at the time, is generally credited with the choice, but sources differ on how certain that attribution is; the National Museum of the Marine Corps notes it isn\'t formally verified, since McCawley kept little documentation. No source records why the phrase itself was chosen over the mottos the Marine Corps had used before it.',
+			},
+			{
+				question: 'Is "Semper Fortis" the Navy\'s official motto, the way "Semper Fidelis" is the Marine Corps\' motto?',
+				answer: 'No. The Navy has no single official motto; "Semper Fortis" is popular through recruiting and culture but has never been formally adopted. The Coast Guard, unlike the Navy, does have its own official Latin motto, "Semper Paratus" ("Always Ready"), distinct from both the Marine Corps\' and the Navy\'s phrases.',
+			},
+		],
+		sources: [
+			{ label: 'Wikipedia: "Semper fidelis" (history, Roman-senate tradition, Abbeville 1369, family and military-unit use)', url: 'https://en.wikipedia.org/wiki/Semper_fidelis' },
+			{ label: 'Wikipedia: "Semper Fidelis (march)" (Sousa, 1888, President Chester A. Arthur commission)', url: 'https://en.wikipedia.org/wiki/Semper_Fidelis_(march)' },
+			{ label: 'Wikipedia: "Semper paratus" (Coast Guard\'s official motto and 1928 march)', url: 'https://en.wikipedia.org/wiki/Semper_paratus' },
+			{ label: 'Military.com: "The Meaning of Semper Fi: The Marine Corps Motto" (pronunciation, prior mottos, McCawley attribution, everyday use)', url: 'https://www.military.com/military-life/semper-fi-marine-corps-motto' },
+			{ label: 'Sandboxx: "Semper Fi — The tale of Marine Corps mottos throughout history" ("By Sea and by Land" as a translation of the Royal Marines\' motto, McCawley attribution)', url: 'https://www.sandboxx.us/news/semper-fi-the-tale-of-marine-corps-mottos-throughout-history/' },
+			{ label: 'USO: "What are the Mottos of the 6 Branches of the U.S. Military?" (Navy\'s "Semper Fortis" as popular but unofficial)', url: 'https://www.uso.org/stories/2990-what-are-the-mottos-of-the-6-branches-of-the-u-s-military' },
+			{ label: 'Wiktionary: "semper" (etymology, Proto-Indo-European *sḗm + -per)', url: 'https://en.wiktionary.org/wiki/semper' },
+			{ label: 'Wiktionary: "fidelis" (etymology from fidēs + -ēlis, third-declension two-termination adjective, related terms)', url: 'https://en.wiktionary.org/wiki/fidelis' },
+		],
+	},
 ];
