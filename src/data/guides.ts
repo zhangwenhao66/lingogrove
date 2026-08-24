@@ -5223,4 +5223,82 @@ export const guides: Guide[] = [
 			{ label: 'Wiktionary: "fidelis" (etymology from fidēs + -ēlis, third-declension two-termination adjective, related terms)', url: 'https://en.wiktionary.org/wiki/fidelis' },
 		],
 	},
+	{
+		slug: 'de-nada-meaning',
+		category: 'Loanwords',
+		title: 'De Nada Meaning: What "You\'re Welcome" Actually Says in Spanish',
+		description: 'De nada literally means "of nothing." It\'s the default reply to gracias across the Spanish-speaking world, though Colombia and Ecuador commonly reach for a different phrase entirely.',
+		published: '2026-08-24',
+		updated: '2026-08-24',
+		coreSummary: 'De nada is built from the preposition de ("of," "from") and nada ("nothing"), so it reads literally as "of nothing" or "it was nothing." Spanish speakers use it as the default reply to gracias ("thank you") in both casual and formal settings, though more formal-sounding alternatives like no hay de qué exist in Mexico and Spain alike, and Colombia and Ecuador commonly answer with a la orden instead.',
+		language: 'Spanish',
+		usageNote: {
+			register: 'neutral',
+			regionNote: 'De nada works everywhere and offends no one. No hay de qué is a slightly more formal-sounding alternative heard in Mexico and Spain alike, not tied to one country, while a la orden ("at your service," originally a military phrase) is the default reply to gracias specifically across Colombia and Ecuador.',
+		},
+		sections: [
+			{
+				heading: 'What "de" and "nada" actually add up to',
+				body: [
+					'*De* is one of Spanish\'s most common prepositions, covering "of," "from," and "about" depending on context (see [Spanish prepositions](/spanish-prepositions/) for the fuller list of what it does elsewhere). *Nada* means "nothing." Put together word for word, *de nada* reads as "of nothing," which native speakers naturally render into English as "it was nothing" or "don\'t mention it" rather than the stiffer literal version.',
+					'*Nada* itself has a stranger history than a plain word for "nothing" usually does. Latin already had a dedicated word for that, *nihil*, but Spanish didn\'t inherit it. Wiktionary\'s etymology entry for the word traces *nada* to the Latin phrase *(nulla) res nata*, literally "(no) thing born," an extension of the older *nemo natus*, "not a soul" (literally "nobody born"). Over centuries, "not a single thing had ever come into being" narrowed down to today\'s plain "nothing," and only the *res nata* portion of that longer phrase survived into modern Spanish as *nada*; Etymonline\'s own entry confirms the same *res nata* chain back through *natus* and the verb *nasci*, "to be born," down to the Proto-Indo-European root *gene-*, "give birth, beget," the same root that also produced English words like "genesis" and "genre."',
+					'The RAE\'s own dictionary entry for the word, at dle.rae.es/nada, gives the core sense as "inexistencia total o carencia absoluta de todo ser": total nonexistence, or the absolute lack of all being. That\'s a considerably heavier definition than the two-syllable reply to *gracias* would suggest, and it\'s worth knowing, because it explains why *de nada* undersells a favor so effectively: it\'s built from a word for total absence.',
+				],
+			},
+			{
+				heading: 'A fixed reply, not a sentence you\'re building word by word',
+				body: [
+					'Because *de nada* is also just an ordinary preposition plus a noun, the same two words can mean something completely different outside the "you\'re welcome" context. *Hablamos de nada* means "we talked about nothing [important]," a plain literal sentence with no idiom involved. What tells a listener which one they\'re hearing is timing and context: *de nada* fired back immediately after someone says *gracias* is unmistakably the fixed reply, while *de nada* sitting inside a longer sentence is just the preposition doing its normal job.',
+					'As a fixed reply, native speakers don\'t consciously parse *de nada* into "of" plus "nothing" any more than English speakers stop to parse "you\'re welcome" into "you are welcome [to it]." It functions as a single social unit, learned and produced as a block, which is also why swapping in a synonym for just one half of it (like *"nada"* on its own) doesn\'t work as a substitute; the whole phrase is the unit that carries the meaning.',
+				],
+			},
+			{
+				heading: 'Formal enough for a boss, casual enough for a friend, with one caveat',
+				body: [
+					'*De nada* works with a close friend, a stranger on the street, a boss, or a customer, without needing to switch to something else first. That\'s different from a word like *[ciao](/ciao-meaning/)*, whose Italian usage is explicitly tied to the informal "tu" and gets swapped out for *salve* or *arrivederla* around strangers and elders. *De nada* carries no such restriction.',
+					'Where it does get displaced is in contexts calling for a slightly more deliberate, rounder-sounding reply, customer service scripts, professional emails, a first meeting with someone senior, where speakers sometimes reach for *no hay de qué* ("there\'s nothing of which [to speak]," a more roundabout, understated way of waving off thanks) or *es un placer* ("it\'s a pleasure"). None of this makes *de nada* wrong in those settings, and *no hay de qué* isn\'t tied to any one country either; it turns up as a slightly more formal-sounding option in Mexico and Spain alike. It just means *de nada* is the reflex, everyday default everywhere, while phrases like these read as a small extra gesture of formality layered on top, wherever the speaker happens to be from.',
+				],
+			},
+			{
+				heading: 'What Colombians and Ecuadorians say instead',
+				body: [
+					'The clearest regional break isn\'t formality, it\'s Colombia and Ecuador, where *a la orden* often edges out *de nada* as the default reply entirely. Literally "at your command" or "at your service," the phrase started out strictly military, where per one account of its use it signals subordination, roughly "mission understood," the way an English-speaking soldier might answer "yes, sir." From there it spread into everyday Colombian commerce and service language far beyond any military context: a shopkeeper uses it to invite a customer to keep browsing, a waiter uses it to confirm an order is coming, and it also works as a direct reply to *gracias*. It\'s a single phrase doing several unrelated conversational jobs depending on when it\'s said, not simply a regional synonym for *de nada*, and one description of the phrase\'s spread even calls it "inescapable" once you\'re in the country, precisely because it covers so much more ground than a single fixed reply normally would.',
+					'Costa Rica leans on *con mucho gusto* ("with much pleasure") as its own regional default, a phrase that leans a bit warmer and more effusive than the flat, self-effacing *de nada*. And *por nada* shows up as a near-interchangeable variant of *de nada* in several countries, essentially the same idiom with *de* swapped for *por*. Some speakers argue *por nada* is the more logical of the two, since *por* is the preposition Spanish typically uses to express cause or reason ("for nothing," as in "no trouble at all"), while *de* is a less obvious fit for that job. That\'s a matter of speaker opinion rather than a distinction the RAE draws formally; both forms are widely understood and used, and neither one will get a learner corrected.',
+				],
+			},
+			{
+				heading: 'Why a word for "nothing" is such a common way to answer thanks',
+				body: [
+					'English does something structurally similar with "no problem" or "it\'s nothing," and that\'s not a coincidence limited to Spanish and English. Downplaying the size of a favor, insisting it cost the speaker no real effort, is one of the most common strategies languages reach for when responding to thanks, precisely because accepting gratitude too readily can come across as claiming credit rather than deflecting it. *De nada*\'s literal "of nothing" fits that pattern exactly: it\'s a small, ready-made way of saying the favor barely registered as a favor at all, which is also why so many of its regional alternatives, *no hay de qué* ("there\'s nothing of which [to speak]"), *por nada* ("for nothing"), lean on the same underlying move rather than inventing a new one.',
+					'That shared logic is also why *de nada* rarely sounds sarcastic or dismissive the way a flat "no problem" occasionally can in English. It\'s so thoroughly conventionalized as a set social formula, produced automatically rather than composed fresh each time, that Spanish speakers don\'t register the "nothing" in it as commentary on how much the favor was actually worth.',
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'Does "de nada" literally translate to "you\'re welcome"?',
+				answer: 'No. Word for word it means "of nothing," built from the preposition de ("of," "from") and nada ("nothing"). Spanish speakers use it idiomatically as the standard reply to gracias, the same way English speakers say "you\'re welcome" without literally parsing "you are welcome [to it]" each time.',
+			},
+			{
+				question: 'Is "de nada" formal or informal?',
+				answer: 'It works in both registers and is safe with a boss, a stranger, or a close friend alike. In settings calling for a bit more deliberate politeness, professional emails, customer service, meeting someone senior for the first time, speakers often reach for no hay de qué or es un placer instead, but de nada itself is never actually wrong in a formal context.',
+			},
+			{
+				question: 'What do people say instead of "de nada" in Colombia?',
+				answer: 'A la orden, literally "at your command" or "at your service." It began as a military phrase and expanded into everyday commerce and service language across Colombia and Ecuador, used to invite a customer to browse, confirm an order, or reply to gracias, depending on when it\'s said.',
+			},
+			{
+				question: 'Can "de nada" mean something other than "you\'re welcome"?',
+				answer: 'Yes. Outside the reply-to-gracias context, de nada is just an ordinary preposition-plus-noun combination. Hablamos de nada means "we talked about nothing [important]," a literal sentence with no idiom involved. Timing tells the two apart: immediately after someone says gracias, de nada is the fixed reply; inside a longer sentence, it\'s just the preposition doing its normal job.',
+			},
+		],
+		sources: [
+			{ label: 'Real Academia Española — Diccionario de la lengua española: "nada"', url: 'https://dle.rae.es/nada' },
+			{ label: 'SpanishDict — Compare Spanish Words: "No hay de qué" vs. "De nada"', url: 'https://www.spanishdict.com/compare/no%20hay%20de%20qu%C3%A9/de%20nada' },
+			{ label: 'Wiktionary — "nada" (etymology: Latin (nulla) res nata, extension of nemo natus)', url: 'https://en.wiktionary.org/wiki/nada' },
+			{ label: 'Etymonline — "nada" (etymology, res nata through natus/nasci to Proto-Indo-European *gene-)', url: 'https://www.etymonline.com/word/nada' },
+			{ label: 'Eyes On Colombia — "\'A la orden\' — It\'s Inescapable" (two meanings, military-parlance origin)', url: 'https://eyesoncolombia.wordpress.com/2009/09/08/a-la-orden-its-inescapable/' },
+			{ label: 'Learn Spanish with Andrew — "Learn Colombian Spanish #3: Everyone Is \'A La Orden\'" (everyday commerce/service usage)', url: 'https://howlearnspanish.com/learn-colombian-spanish-3/' },
+		],
+	},
 ];
