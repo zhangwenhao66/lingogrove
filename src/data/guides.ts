@@ -5067,4 +5067,77 @@ export const guides: Guide[] = [
 			{ label: 'Wiktionary: "Appendix:Latin first declension" (independent cross-check of first-declension endings and gender exceptions)', url: 'https://en.wiktionary.org/wiki/Appendix:Latin_first_declension' },
 		],
 	},
+	{
+		slug: 'spanish-gerund',
+		category: 'Grammar',
+		title: "The Spanish Gerund: Formation, Irregulars, and Why It's Never a Noun",
+		description: "Spanish -ando and -iendo look like English -ing, but the gerund can't be a subject or object in Spanish, and the RAE flags two other common uses as outright wrong.",
+		published: '2026-08-24',
+		updated: '2026-08-24',
+		coreSummary: "Spanish forms the gerund by adding -ando to -ar verbs (hablando) and -iendo to -er/-ir verbs (comiendo, viviendo), with two irregular families: stem-changing -ir verbs shift e→i or o→u (pidiendo, durmiendo), the same stem shift the third-person preterite uses, and verbs whose stem ends in a vowel insert a y instead (leyendo, oyendo, construyendo) so two vowels never collide. Unlike English \"-ing,\" the gerund is purely verbal in Spanish, never a noun: \"swimming is fun\" is nadar es divertido, with the infinitive, not nadando. The Real Academia Española also singles out two specific patterns as incorrect despite their real-world use, the gerundio de posterioridad (stating an unrelated later action) and the gerundio especificativo (using the gerund to modify a noun the way an adjective clause does).",
+		language: 'Spanish',
+		sections: [
+			{
+				heading: "It looks like English -ing. It doesn't act like it.",
+				body: [
+					"Every regular Spanish gerund follows one of two patterns, and the pattern depends only on which conjugation the verb belongs to. First-conjugation verbs (-ar) add -ando: hablar becomes hablando, estudiar becomes estudiando. Second- and third-conjugation verbs (-er and -ir) both add -iendo: comer becomes comiendo, vivir becomes viviendo. Nothing about meaning or usage frequency decides which ending a verb takes, only its infinitive ending does, and that holds for every verb in the language before irregularities get involved.",
+					'What trips up English speakers isn\'t the formation, it\'s the assumption that a Spanish gerund behaves like an English one. The RAE\'s own reference grammar, *El buen uso del español*, is explicit that the gerund "usually functions as a verb and, as such, admits a subject, whether explicit or implicit," and can take direct, indirect, and other verbal complements just like a conjugated verb would (*leyéndolo*, "reading it"; *hablándole*, "speaking to him/her"). English -ing forms slide between verb and noun depending on the sentence: "reading" is a verb in "I am reading" and a noun in "reading is relaxing." Spanish never lets the gerund make that second jump, which is the single most consequential difference covered further down this page.',
+				],
+				image: {
+					src: '/images/spanish-gerund-diagram.svg',
+					alt: 'Three-column diagram of Spanish gerund formation: regular -ar/-er/-ir endings (-ando, -iendo), stem-changing -ir verbs (e→i as in pidiendo, o→u as in durmiendo), and vowel-stem verbs that insert a y (leyendo, oyendo, construyendo, yendo).',
+				},
+			},
+			{
+				heading: 'Two irregular patterns, and why they exist',
+				body: [
+					"The first irregular pattern belongs to stem-changing -ir verbs: pedir becomes pidiendo, sentir becomes sintiendo, decir becomes diciendo, venir becomes viniendo, and the vowel shift is e→i in every case. A second, smaller o→u group covers dormir (durmiendo) and morir (muriendo), plus poder (pudiendo), the one -er verb that borrows this -ir-style shift. That shift traces back to a shared cause: pidió and pidiendo, durmió and durmiendo, [pull from the same altered stem the third-person preterite uses](/irregular-preterite-verbs-spanish/) for these same verbs, so the two forms line up for a structural reason rather than by coincidence.",
+					"The second pattern covers verbs whose stem ends in a vowel: leer (leyendo), oír (oyendo), traer (trayendo), caer (cayendo), construir (construyendo), huir (huyendo), and ir (yendo). Spanish doesn't tolerate two vowels landing side by side where -iendo would otherwise attach directly to a vowel-final stem, le-iendo or ca-iendo, so the unstressed i between two vowels turns into a y instead, giving leyendo and cayendo. The underlying ending stays -iendo the whole time; only the spelling adjusts to keep the sounds distinct.",
+				],
+			},
+			{
+				heading: 'What the gerund is actually for',
+				body: [
+					"The gerund's single most common job is building progressive tenses with estar: estoy comiendo (I am eating), estaba lloviendo (it was raining). [Ser vs. estar](/ser-vs-estar/) covers why estar, never ser, is the verb that pairs with a gerund this way; there are no exceptions to that rule anywhere in standard Spanish. Beyond estar, a handful of other verbs combine with the gerund for related but distinct meanings: seguir and continuar plus a gerund mean \"to keep doing something\" (sigue lloviendo, \"it's still raining\"), llevar plus a time expression and a gerund expresses how long something has been going on (llevo dos años estudiando español, \"I've been studying Spanish for two years\"), and ir plus a gerund can frame an action as gradual or incremental (va mejorando, \"it's gradually improving\").",
+					"Outside those verb-plus-gerund constructions, the gerund also stands alone as an adverbial modifier describing how or under what circumstances something happens: se acercó arrastrándose (he approached, dragging himself along) or salió corriendo (she left running, i.e., she ran out). There's also a perfect gerund, habiendo plus a past participle, for an action completed before another one: habiendo terminado el examen, salió del aula (having finished the exam, she left the classroom). All of these keep the gerund doing verb-like work, describing an action or a manner, never standing in as the name of a thing.",
+				],
+			},
+			{
+				heading: "The mistake: treating it like an English noun",
+				body: [
+					'English lets an -ing form serve as a subject ("swimming is fun"), an object ("I love reading"), or the object of a preposition ("thanks for coming"). Spanish blocks all three. The infinitive fills that role instead, every time: swimming is fun is *nadar es divertido*, not *nadando es divertido*; I love reading is *me encanta leer*, not *me encanta leyendo*. There is no context in standard Spanish where a bare gerund can occupy the subject or object slot of a sentence the way English -ing does. Reaching for the gerund there is one of the most common and most immediately noticeable errors an English speaker makes in Spanish, precisely because the same -ing habit that\'s correct in English gets carried over whole.',
+				],
+			},
+			{
+				heading: "What the RAE flags as wrong, even though people write it anyway",
+				body: [
+					'Two specific gerund patterns get singled out by the RAE\'s stylebooks as incorrect, independent of the noun-versus-verb issue above, because native speakers do produce them, mostly in journalism and legal or administrative writing. The first is the gerundio de posterioridad: using a gerund to describe an action that happens after the main verb, with no real causal or near-simultaneous link between the two. The RAE\'s own guidance states plainly that a gerund shouldn\'t mark a pure temporal succession, giving *Estudió en Madrid, yendo después a Buenos Aires* as an incorrect example; the fix is a separate clause, *estudió en Madrid y fue después a Buenos Aires*. The rule loosens when the gap between the two actions is close to zero (*lo empujó haciéndolo caer*, "he pushed him, making him fall") or when there\'s a real cause-and-effect or concessive relationship, but a gerund used purely to bolt on "and then" is flagged as non-standard.',
+					'The second is the gerundio especificativo: using a gerund the way English uses an adjective clause, to identify or narrow down which noun is being talked about, as in a hypothetical *una caja conteniendo joyas* ("a box containing jewels"). Spanish reserves that job for a relative clause instead, *una caja que contenía joyas*. The RAE\'s stylebook for legal writing calls this pattern the "gerundio del BOE," after how often it turns up in Spain\'s official gazette, and treats it as an error to avoid outside of two narrow exceptions: a small set of gerunds that have fully lexicalized into adjectives (*agua hirviendo*, "boiling water"; *clavo ardiendo*, "burning nail") and gerunds attached specifically to nouns about a piece of information, like *carta* or *mensaje* (*una carta solicitando ayuda*, "a letter requesting help"), where the gerund describes the content of that message rather than picking the noun out of a group.',
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'How do you form the gerund in Spanish?',
+				answer: 'Add -ando to -ar verbs (hablar → hablando) and -iendo to -er and -ir verbs (comer → comiendo, vivir → viviendo). Stem-changing -ir verbs shift the stem vowel first, e→i (pedir → pidiendo) or o→u (dormir → durmiendo), and verbs whose stem ends in a vowel insert a y instead of the plain i (leer → leyendo, oír → oyendo, construir → construyendo) to avoid two vowels colliding.',
+			},
+			{
+				question: 'What are the irregular Spanish gerunds?',
+				answer: 'They fall into two families. Stem-changing -ir verbs (and poder) swap e→i or o→u: pidiendo, sintiendo, diciendo, viniendo, durmiendo, muriendo, pudiendo, the same stem shift the third-person preterite uses for these verbs. Verbs with a vowel-final stem take -yendo instead of -iendo: leyendo, oyendo, trayendo, cayendo, construyendo, huyendo, and the fully irregular yendo (ir).',
+			},
+			{
+				question: 'Can you use the Spanish gerund as a noun, the way English uses "-ing," as in "swimming is fun"?',
+				answer: "No. The Spanish gerund is purely verbal and can't fill a subject, object, or prepositional-object slot the way an English -ing noun can. \"Swimming is fun\" is nadar es divertido, and \"I love reading\" is me encanta leer, both using the infinitive, never a bare gerund standing in as a noun.",
+			},
+			{
+				question: 'What is "gerundio de posterioridad" and why is it considered wrong?',
+				answer: "It's using a gerund to describe an action that happens after the main verb with no close or causal connection between the two, as in the RAE's flagged example Estudió en Madrid, yendo después a Buenos Aires (should be y fue después). The RAE's guidance allows a gerund for near-simultaneous or clearly causal follow-on actions, but treats a gerund used purely to mean \"and then\" as non-standard.",
+			},
+		],
+		sources: [
+			{ label: 'Real Academia Española, El buen uso del español: "El gerundio (I). Propiedades y valores" (formation, verbal vs. nominal character)', url: 'https://www.rae.es/buen-uso-espa%C3%B1ol/el-gerundio-i-propiedades-y-valores' },
+			{ label: 'Real Academia Española, Libro de estilo de la Justicia: "Gerundio de posterioridad"', url: 'https://www.rae.es/libro-estilo-justicia/las-palabras-y-sus-grupos-problemas-y-actuaciones/gerundio/usos-incorrectos/gerundio-de-posterioridad' },
+			{ label: 'Real Academia Española, Libro de estilo de la Justicia: "Gerundio especificativo" (the "gerundio del BOE," and its lexicalized/informational-noun exceptions)', url: 'https://www.rae.es/libro-estilo-justicia/las-palabras-y-sus-grupos-problemas-y-actuaciones/gerundio/usos-incorrectos/gerundio-especificativo' },
+		],
+	},
 ];

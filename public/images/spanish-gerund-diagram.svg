@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" font-family="system-ui, -apple-system, sans-serif">
+	<rect width="800" height="460" fill="#f6f4e9"/>
+
+	<rect x="24" y="24" width="234" height="412" rx="10" fill="#fffefa" stroke="#ddd8c4"/>
+	<rect x="283" y="24" width="234" height="412" rx="10" fill="#fffefa" stroke="#ddd8c4"/>
+	<rect x="542" y="24" width="234" height="412" rx="10" fill="#fffefa" stroke="#ddd8c4"/>
+
+	<rect x="24" y="24" width="234" height="52" rx="10" fill="#2f6b47"/>
+	<rect x="24" y="56" width="234" height="20" fill="#2f6b47"/>
+	<text x="141" y="56" text-anchor="middle" fill="#ffffff" font-size="16" font-weight="700">REGULAR</text>
+
+	<rect x="283" y="24" width="234" height="52" rx="10" fill="#204a31"/>
+	<rect x="283" y="56" width="234" height="20" fill="#204a31"/>
+	<text x="400" y="56" text-anchor="middle" fill="#ffffff" font-size="15" font-weight="700">STEM-CHANGING -IR</text>
+
+	<rect x="542" y="24" width="234" height="52" rx="10" fill="#5a4a1f"/>
+	<rect x="542" y="56" width="234" height="20" fill="#5a4a1f"/>
+	<text x="659" y="56" text-anchor="middle" fill="#ffffff" font-size="16" font-weight="700">VOWEL STEM</text>
+
+	<g fill="#201f1a" font-size="14">
+		<text x="42" y="106" font-weight="700">-ar → -ando</text>
+		<text x="42" y="128" fill="#5a5648">hablar → hablando</text>
+		<text x="42" y="148" fill="#5a5648">estudiar → estudiando</text>
+
+		<text x="42" y="184" font-weight="700">-er / -ir → -iendo</text>
+		<text x="42" y="206" fill="#5a5648">comer → comiendo</text>
+		<text x="42" y="226" fill="#5a5648">vivir → viviendo</text>
+
+		<text x="42" y="270" font-weight="700">No stem change</text>
+		<text x="42" y="292" fill="#5a5648">Same stem as the</text>
+		<text x="42" y="310" fill="#5a5648">infinitive, every time.</text>
+	</g>
+
+	<g fill="#201f1a" font-size="14">
+		<text x="301" y="106" font-weight="700">e → i</text>
+		<text x="301" y="128" fill="#5a5648">pedir → pidiendo</text>
+		<text x="301" y="148" fill="#5a5648">decir → diciendo</text>
+		<text x="301" y="168" fill="#5a5648">sentir → sintiendo</text>
+
+		<text x="301" y="204" font-weight="700">o → u</text>
+		<text x="301" y="226" fill="#5a5648">dormir → durmiendo</text>
+		<text x="301" y="246" fill="#5a5648">morir → muriendo</text>
+		<text x="301" y="266" fill="#5a5648">(also poder → pudiendo)</text>
+
+		<text x="301" y="302" font-weight="700">Same shift as</text>
+		<text x="301" y="322" fill="#5a5648">the 3rd-person preterite:</text>
+		<text x="301" y="342" fill="#5a5648">pidió / pidiendo</text>
+	</g>
+
+	<g fill="#201f1a" font-size="14">
+		<text x="560" y="106" font-weight="700">Stem ends in a vowel</text>
+		<text x="560" y="128" fill="#5a5648">leer → leyendo</text>
+		<text x="560" y="148" fill="#5a5648">oír → oyendo</text>
+		<text x="560" y="168" fill="#5a5648">traer → trayendo</text>
+		<text x="560" y="188" fill="#5a5648">construir → construyendo</text>
+		<text x="560" y="208" fill="#5a5648">ir → yendo</text>
+
+		<text x="560" y="248" font-weight="700">-iendo becomes</text>
+		<text x="560" y="268" fill="#5a5648">-yendo so two vowels</text>
+		<text x="560" y="288" fill="#5a5648">never sit side by side.</text>
+	</g>
+
+	<line x1="24" y1="380" x2="776" y2="380" stroke="#ddd8c4" stroke-width="1"/>
+	<text x="400" y="410" text-anchor="middle" fill="#5a5648" font-size="13" font-style="italic">In every column, only the verb form changes. The endings -ando / -iendo never do.</text>
+</svg>
