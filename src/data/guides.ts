@@ -1327,11 +1327,11 @@ export const guides: Guide[] = [
 			},
 		],
 		sources: [
-			{ label: 'Real Academia Española — Nueva gramática básica: "El futuro simple (cantaré)"', url: 'https://www.rae.es/gram%C3%A1tica-b%C3%A1sica/el-verbo/tiempos-verbales-del-modo-indicativo/el-futuro-simple-cantar%C3%A9' },
-			{ label: 'Real Academia Española — Nueva gramática de la lengua española: "El futuro simple (cantaré). Futuros sintéticos y analíticos"', url: 'https://www.rae.es/gram%C3%A1tica/sintaxis/el-futuro-simple-cantar%C3%A9-futuros-sint%C3%A9ticos-y-anal%C3%ADticos' },
-			{ label: 'Real Academia Española — Nueva gramática de la lengua española: "Perífrasis de infinitivo (III). Perífrasis temporales y aspectuales. El verbo ir"', url: 'https://www.rae.es/gram%C3%A1tica/sintaxis/per%C3%ADfrasis-de-infinitivo-iii-per%C3%ADfrasis-temporales-y-aspectuales-el-verbo-ir' },
-			{ label: 'StudySpanish.com — "Future Tense" (irregular stem list, cross-checked)', url: 'https://studyspanish.com/grammar/lessons/future' },
-			{ label: 'Gramática histórica del castellano — "Futuro simple de indicativo: evolución"', url: 'https://www.delcastellano.com/evolucion-futuro/' },
+			{ label: 'Real Academia Española: Nueva gramática básica: "El futuro simple (cantaré)"', url: 'https://www.rae.es/gram%C3%A1tica-b%C3%A1sica/el-verbo/tiempos-verbales-del-modo-indicativo/el-futuro-simple-cantar%C3%A9' },
+			{ label: 'Real Academia Española: Nueva gramática de la lengua española: "El futuro simple (cantaré). Futuros sintéticos y analíticos"', url: 'https://www.rae.es/gram%C3%A1tica/sintaxis/el-futuro-simple-cantar%C3%A9-futuros-sint%C3%A9ticos-y-anal%C3%ADticos' },
+			{ label: 'Real Academia Española: Nueva gramática de la lengua española: "Perífrasis de infinitivo (III). Perífrasis temporales y aspectuales. El verbo ir"', url: 'https://www.rae.es/gram%C3%A1tica/sintaxis/per%C3%ADfrasis-de-infinitivo-iii-per%C3%ADfrasis-temporales-y-aspectuales-el-verbo-ir' },
+			{ label: 'StudySpanish.com: "Future Tense" (irregular stem list, cross-checked)', url: 'https://studyspanish.com/grammar/lessons/future' },
+			{ label: 'Gramática histórica del castellano: "Futuro simple de indicativo: evolución"', url: 'https://www.delcastellano.com/evolucion-futuro/' },
 		],
 	},
 	{
