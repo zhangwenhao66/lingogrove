@@ -5477,4 +5477,76 @@ export const guides: Guide[] = [
 			{ label: 'Wikipedia — "French conjugation" (three-group classification, closed third group, spelling-change rules for -er verbs)', url: 'https://en.wikipedia.org/wiki/French_conjugation' },
 		],
 	},
+	{
+		slug: 'russian-cases',
+		category: 'Grammar',
+		title: 'Russian Cases: What Each of the Six Actually Marks',
+		description: 'Russian has six cases where German has four, and no articles at all, so every one of them changes the noun itself instead of a helper word standing in front of it.',
+		published: '2026-08-25',
+		updated: '2026-08-25',
+		coreSummary: 'Russian marks a noun\'s grammatical role with six cases, nominative, genitive, dative, accusative, instrumental, and prepositional, and because it has no articles at all, every one of those six changes the noun\'s own ending rather than a helper word standing in front of it. The accusative has no single fixed ending of its own for masculine singular nouns or for any plural noun: it copies the genitive form for animate referents (people and animals, brat/brata, "brother") and the nominative form for inanimate ones (stol/stol, "table"), a split that doesn\'t apply to feminine nouns ending in -a/-ya, which keep one distinct accusative ending regardless of animacy. Beyond the six, a small set of nouns carry extra case forms that descriptive grammars generally treat as incomplete rather than fully separate cases: per Cornell University\'s Russian grammar reference (Leed, Nakhimovsky & Nakhimovsky), some nouns have a locative form used only after v and na, and a partitive form meaning "some" rather than "of," both distinct from the regular genitive/prepositional forms most nouns rely on instead (per Wikipedia\'s account of the same two minor cases, v lesu, "in the forest," rather than the regular prepositional lese, and nalit\' chayu, "to pour some tea," rather than nalit\' chay, "to pour the tea"). A separate colloquial "neo-vocative," formed by dropping a name\'s final vowel (Vanya to Van\'), survives alongside a small set of archaic, mostly religious vocative phrases (Bozhe moy!, "My God!") that predate it and aren\'t related to it.',
+		language: 'Russian',
+		sections: [
+			{
+				heading: 'Six cases, and nowhere for an article to carry them',
+				body: [
+					'Russian marks a noun\'s role in a sentence with six cases: nominative, genitive, dative, accusative, instrumental, and prepositional, across two numbers (singular and plural) and three genders. It groups nouns into three declension patterns rather than one: feminine (and a few masculine) nouns ending in -a/-ya, most masculine and neuter nouns, and feminine nouns ending in a soft sign (mya\'gkiy znak). Every noun in every one of those patterns changes its own ending across the six cases.',
+					'That last point is the real structural difference from a language like German. Russian has no definite or indefinite articles at all, nothing corresponding to "the" or "a." The [German Cases guide](/german-cases/) on this site covers how German case marking lands almost entirely on der/die/das rather than the noun, with the bare noun changing in only a few predictable spots. Russian never developed that helper word, so it never had anywhere else to put the marking. All six cases show up on the noun itself, and on whatever adjective or pronoun modifies it.',
+				],
+				image: {
+					src: '/images/russian-cases-diagram.svg',
+					alt: 'Diagram showing the six Russian cases and what each marks, the accusative animacy split between animate nouns like brat (which copy the genitive) and inanimate nouns like stol (which copy the nominative), and three recognized minor cases: locative, partitive, and the colloquial neo-vocative.',
+				},
+			},
+			{
+				heading: 'What each of the six actually marks',
+				body: [
+					'Nominative names the subject and doubles as the default citation form, the one a dictionary entry or a street sign uses. Accusative marks the direct object, and shows up after prepositions of motion such as v ("into"), na ("onto"), and za ("behind, after") when the phrase describes movement toward something rather than a fixed location. Genitive covers possession ("of"), attaches to numerals and quantifiers, and replaces the accusative on a negated direct object specifically to signal that the object is indefinite or entirely absent: ya ne vizhu knigi ("I don\'t see a book," or "any books at all") versus ya ne vizhu knigu ("I don\'t see the book," a specific one).',
+					'Dative marks the indirect object ("to"), and also drives a set of impersonal constructions English handles with a different subject entirely: mne kholodno, literally "to-me (is) cold," means "I am cold," and mne dvadtsat\' let, literally "to-me twenty years," means "I am 20 years old." Instrumental marks the means or instrument of an action ("by/with"), doubles as the logical subject of a passive clause (pis\'mo napisano Ivanom, "the letter was written by Ivan"), and is required by connective verbs describing what something is or becomes, byt\' ("be"), stat\' ("become"), ostat\'sya ("remain"). Prepositional is the one case whose name states its own restriction: it exists only after a preposition, chiefly v/na for location and o/pri for "about, concerning."',
+					'Almost every Russian preposition locks in exactly one of these cases, the way durch or für always take the accusative in German (per the German Cases guide\'s rundown of that system). Russian pushes the idea further: the same preposition can require a different case depending on what it means. V and na take the accusative when they describe motion toward a destination (v shkolu, "into the school") and the prepositional when they describe a fixed location (v shkole, "in the school"), the exact split German marks with its own separate set of two-way prepositions.',
+				],
+			},
+			{
+				heading: 'The accusative depends on whether the noun is alive',
+				body: [
+					'For masculine singular nouns in the largest declension class, and for every plural noun regardless of gender, Russian doesn\'t have one accusative ending of its own; the accusative borrows a different case\'s form depending on whether the noun refers to something animate. Animate referents, people and animals, take the genitive form in the accusative: brat ("brother," nominative) becomes brata in both the genitive and the accusative, so ya vizhu brata ("I see my brother") uses the genitive-shaped ending, not a distinct accusative one. Inanimate referents keep the nominative form instead: stol ("table") stays stol in the accusative, so ya vizhu stol ("I see the table") is spelled identically to the nominative.',
+					'That split doesn\'t touch feminine nouns ending in -a/-ya, the largest first-declension class, which have their own distinct accusative ending (-u/-yu) regardless of whether the noun is animate: kniga ("book") becomes knigu in the accusative whether the object is a book or, in a different sentence, a person\'s name that happens to take the same declension pattern. The animacy rule is specifically a workaround for the declension classes that would otherwise have no way to distinguish the accusative from another case, not a general feature that touches every noun in the language.',
+				],
+			},
+			{
+				heading: 'Six is the count in a grammar textbook, not the full list',
+				body: [
+					'Some analyses of Russian identify additional case-like forms beyond the six taught to learners, though nearly all of them are described as incomplete, applying to only a handful of nouns, or degenerate, identical in shape to one of the six main cases for most words. The three most commonly cited are locative, partitive, and vocative. Per Cornell University\'s Russian grammar reference (Leed, Nakhimovsky & Nakhimovsky), most Russian nouns have exactly six case forms, but some carry one or two more, a locative meaning "in/at/on" for use only after v/na, and a partitive meaning "some" rather than "of." Wikipedia\'s account of the same two minor cases supplies the specific nouns that show the contrast: the locative, for the nouns that have one, differs from the regular prepositional form and is always stressed on its own ending, so v lesu ("in the forest," from les) is the locative, distinct from the regular prepositional le\'se; and the partitive shows up after verbs like nalit\' ("to pour"), nalit\' chayu, "to pour some tea," not the whole pot, versus nalit\' chay, "to pour the tea."',
+					'Vocative has two unrelated forms in modern Russian. The original Common Slavic vocative case is archaic and now survives only in a small set of fixed, mostly religious phrases: Bozhe moy! ("My God!"), Gospodi! ("Good Lord!"), and the opening line of the Lord\'s Prayer, Otche nash. A separate, much more recent colloquial pattern, sometimes called the neo-vocative, gets used informally for names and close family terms and is made simply by dropping the noun\'s final vowel: Vanya (a nickname) becomes Van\', Masha becomes Mash, mama becomes mam. It shows up in sentences like mam, ty menya slyshish\'? ("mom, can you hear me?"), and it\'s limited to affectionate, informal address, not a revival of the older Slavic form it happens to share a name with.',
+					'Seen next to the [French Articles guide](/french-articles/) on this site, which covers a language that leans on the article and word order instead of case, or the German Cases guide, which keeps four cases but pushes most of the marking onto der/die/das, Russian reads as the language that took the opposite route: no article to lean on, so the case system kept growing outward on the noun itself instead of settling onto one.',
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'How many cases does Russian have?',
+				answer: 'Six main cases: nominative (subject), genitive (possession, "of"), dative (indirect object, "to"), accusative (direct object), instrumental (means, "by/with"), and prepositional (used only after a preposition). Some grammars additionally recognize a handful of minor case forms, locative, partitive, and vocative, that apply to only a small set of nouns.',
+			},
+			{
+				question: 'Does Russian have articles like "the" or "a"?',
+				answer: 'No. Russian has no definite or indefinite articles at all. That\'s a large part of why its six cases mark the noun itself (and any adjective or pronoun modifying it), unlike German, where der/die/das absorbs most of the marking instead of the noun.',
+			},
+			{
+				question: 'Why does "brat" (brother) become "brata" in the accusative?',
+				answer: 'Brat is animate (it refers to a person), and for masculine singular nouns in this declension class, as well as for all plural nouns, the Russian accusative copies the genitive form when the referent is animate. Inanimate nouns in the same declension class instead copy the nominative form in the accusative, so stol ("table") stays stol.',
+			},
+			{
+				question: 'What is the difference between the locative and the prepositional case?',
+				answer: 'Most nouns use the same form after v/na ("in/at/on") as they do after any other preposition, called the prepositional case. A small number of nouns have a separate locative form specifically for use after v/na, always stressed on the ending and sometimes spelled differently: v lesu ("in the forest") is the locative of les, distinct from the regular prepositional form lese.',
+			},
+			{
+				question: 'What is the Russian "neo-vocative," and is it the same as the old vocative case?',
+				answer: 'No, they\'re unrelated forms that happen to share a name. The original Common Slavic vocative case is archaic and survives only in fixed, mostly religious phrases like Bozhe moy! ("My God!"). The modern "neo-vocative" is a colloquial pattern used for names and close family terms, formed by dropping the final vowel (Vanya to Van\', mama to mam), and it\'s limited to informal, affectionate address.',
+			},
+		],
+		sources: [
+			{ label: 'Wikipedia: "Russian grammar" (nominal declension, six main cases, animacy in the accusative, additional cases)', url: 'https://en.wikipedia.org/wiki/Russian_grammar' },
+			{ label: 'Cornell University Russian grammar reference: "The meaning of Partitive and Locative cases" (Leed, Nakhimovsky & Nakhimovsky)', url: 'http://russian.cornell.edu/grammar/html/gr10_b.htm' },
+		],
+	},
 ];

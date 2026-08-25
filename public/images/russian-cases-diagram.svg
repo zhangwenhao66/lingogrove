@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 920" font-family="system-ui, -apple-system, sans-serif">
+	<rect width="800" height="920" fill="#f6f4e9"/>
+	<rect x="24" y="24" width="752" height="872" rx="10" fill="#fffefa" stroke="#ddd8c4"/>
+
+	<rect x="24" y="24" width="752" height="56" rx="10" fill="#2f6b47"/>
+	<rect x="24" y="60" width="752" height="20" fill="#2f6b47"/>
+	<text x="400" y="60" text-anchor="middle" fill="#ffffff" font-size="16" font-weight="700">RUSSIAN CASES: SIX ON THE NOUN, NONE ON AN ARTICLE</text>
+
+	<!-- row 1: six cases -->
+	<rect x="46" y="98" width="708" height="176" rx="8" fill="#eaf1ea" stroke="#2f6b47"/>
+	<text x="400" y="120" text-anchor="middle" fill="#204a31" font-size="12.5" font-weight="700">SIX CASES, EACH MARKED ON THE NOUN ITSELF (Russian has no articles)</text>
+
+	<text x="132" y="146" text-anchor="middle" fill="#201f1a" font-size="12" font-weight="700">Nominative</text>
+	<text x="132" y="163" text-anchor="middle" fill="#5a5648" font-size="10">subject &#183; dictionary form</text>
+	<text x="309" y="146" text-anchor="middle" fill="#201f1a" font-size="12" font-weight="700">Accusative</text>
+	<text x="309" y="163" text-anchor="middle" fill="#5a5648" font-size="10">direct object</text>
+	<text x="486" y="146" text-anchor="middle" fill="#201f1a" font-size="12" font-weight="700">Genitive</text>
+	<text x="486" y="163" text-anchor="middle" fill="#5a5648" font-size="10">possession &#183; "of"</text>
+	<text x="663" y="146" text-anchor="middle" fill="#201f1a" font-size="12" font-weight="700">Dative</text>
+	<text x="663" y="163" text-anchor="middle" fill="#5a5648" font-size="10">indirect object &#183; "to"</text>
+
+	<text x="221" y="204" text-anchor="middle" fill="#201f1a" font-size="12" font-weight="700">Instrumental</text>
+	<text x="221" y="221" text-anchor="middle" fill="#5a5648" font-size="10">means &#183; "by/with" &#183; passive agent</text>
+	<text x="576" y="204" text-anchor="middle" fill="#201f1a" font-size="12" font-weight="700">Prepositional</text>
+	<text x="576" y="221" text-anchor="middle" fill="#5a5648" font-size="10">only ever after a preposition</text>
+
+	<text x="400" y="252" text-anchor="middle" fill="#5a5648" font-size="10.5" font-style="italic">Nearly every preposition locks in one case; a few, like v/na, switch case by meaning.</text>
+
+	<!-- row 2: animacy split -->
+	<rect x="46" y="290" width="708" height="182" rx="8" fill="#fbead0" stroke="#ddd8c4"/>
+	<text x="400" y="314" text-anchor="middle" fill="#5a5648" font-size="12.5" font-weight="700">ACCUSATIVE ANIMACY SPLIT (masc. singular + all plurals)</text>
+
+	<text x="221" y="346" text-anchor="middle" fill="#5a5648" font-size="10.5" font-weight="700">ANIMATE (people, animals)</text>
+	<text x="221" y="368" text-anchor="middle" fill="#201f1a" font-size="13" font-weight="700">brat &#8594; brata</text>
+	<text x="221" y="386" text-anchor="middle" fill="#5a5648" font-size="10">accusative copies the genitive form</text>
+
+	<line x1="400" y1="330" x2="400" y2="450" stroke="#e6d9b8" stroke-width="1"/>
+
+	<text x="576" y="346" text-anchor="middle" fill="#5a5648" font-size="10.5" font-weight="700">INANIMATE (things)</text>
+	<text x="576" y="368" text-anchor="middle" fill="#201f1a" font-size="13" font-weight="700">stol &#8594; stol</text>
+	<text x="576" y="386" text-anchor="middle" fill="#5a5648" font-size="10">accusative copies the nominative form</text>
+
+	<text x="400" y="440" text-anchor="middle" fill="#5a5648" font-size="10.5" font-style="italic">Feminine -a/-ya nouns skip this split; they keep one accusative ending either way.</text>
+
+	<!-- row 3: extra cases -->
+	<rect x="46" y="500" width="708" height="216" rx="8" fill="#eaf1ea" stroke="#2f6b47"/>
+	<text x="400" y="524" text-anchor="middle" fill="#204a31" font-size="12.5" font-weight="700">BEYOND THE SIX: RECOGNIZED BUT INCOMPLETE MINOR CASES</text>
+
+	<text x="132" y="554" text-anchor="middle" fill="#201f1a" font-size="11.5" font-weight="700">Locative</text>
+	<text x="132" y="574" text-anchor="middle" fill="#5a5648" font-size="9.5">v lesu&#769;, "in the forest"</text>
+	<text x="132" y="590" text-anchor="middle" fill="#5a5648" font-size="9.5">differs from prepositional le&#769;se</text>
+
+	<text x="400" y="554" text-anchor="middle" fill="#201f1a" font-size="11.5" font-weight="700">Partitive</text>
+	<text x="400" y="574" text-anchor="middle" fill="#5a5648" font-size="9.5">nali&#769;t&#8217; cha&#769;yu, "pour some tea"</text>
+	<text x="400" y="590" text-anchor="middle" fill="#5a5648" font-size="9.5">means "some," not "of"</text>
+
+	<text x="663" y="554" text-anchor="middle" fill="#201f1a" font-size="11.5" font-weight="700">Vocative</text>
+	<text x="663" y="574" text-anchor="middle" fill="#5a5648" font-size="9.5">Va&#769;nya &#8594; Van&#8217;, "hey Vanya"</text>
+	<text x="663" y="590" text-anchor="middle" fill="#5a5648" font-size="9.5">colloquial neo-vocative only</text>
+
+	<text x="400" y="626" text-anchor="middle" fill="#5a5648" font-size="10.5" font-style="italic">Most nouns lack these; the six main cases handle almost everything.</text>
+
+	<line x1="70" y1="650" x2="734" y2="650" stroke="#e6d9b8" stroke-width="1"/>
+	<text x="400" y="678" text-anchor="middle" fill="#5a5648" font-size="10.5">The archaic Slavic vocative (Bo&#382;e moy!, "My God!") survives only in fixed phrases</text>
+	<text x="400" y="696" text-anchor="middle" fill="#5a5648" font-size="10.5">and is unrelated to the modern neo-vocative shown above.</text>
+
+	<text x="400" y="746" text-anchor="middle" fill="#5a5648" font-size="10.5" font-style="italic">German pushes case marking onto der/die/das; French mostly drops case marking.</text>
+	<text x="400" y="764" text-anchor="middle" fill="#5a5648" font-size="10.5" font-style="italic">Russian, with no article to lean on, keeps building case endings onto the noun.</text>
+</svg>
