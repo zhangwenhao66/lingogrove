@@ -72,7 +72,10 @@
   "https://lingogrove.com/spanish-possessive-adjectives/": {
     "submitted_date": "2026-08-09",
     "verified_status": "pending",
-    "note": "new publish (Grammar tier); Bing 200 / Yandex 202."
+    "note": "new publish (Grammar tier); Bing 200 / Yandex 202.",
+    "last_checked_date": "2026-08-25",
+    "verified_method": "bwt_url_inspection",
+    "verify_note": "哨兵异常(discovered 01 Jan 2006), 无法判定真实账龄"
   },
   "https://lingogrove.com/french-articles/": {
     "submitted_date": "2026-08-09",
@@ -81,13 +84,19 @@
   },
   "https://lingogrove.com/spanish-pronouns/": {
     "submitted_date": "2026-08-06",
-    "verified_status": "pending",
-    "note": "new publish (Grammar tier); Bing 200 / Yandex 202."
+    "verified_status": "stale_not_indexed",
+    "note": "new publish (Grammar tier); Bing 200 / Yandex 202.",
+    "last_checked_date": "2026-08-25",
+    "verified_method": "bwt_url_inspection",
+    "verify_note": "discovered 08 Aug, 账龄17天超过14天阈值, Blocked"
   },
   "https://lingogrove.com/double-object-pronouns-spanish/": {
     "submitted_date": "2026-08-06",
-    "verified_status": "pending",
-    "note": "new publish (Grammar tier); Bing 200 / Yandex 202."
+    "verified_status": "stale_not_indexed",
+    "note": "new publish (Grammar tier); Bing 200 / Yandex 202.",
+    "last_checked_date": "2026-08-25",
+    "verified_method": "bwt_url_inspection",
+    "verify_note": "discovered 08 Aug, 账龄17天超过14天阈值, Blocked"
   },
   "https://lingogrove.com/direct-vs-indirect-object-pronouns-spanish/": {
     "submitted_date": "2026-08-04",
@@ -106,8 +115,11 @@
   },
   "https://lingogrove.com/ser-vs-estar/": {
     "submitted_date": "2026-08-06",
-    "verified_status": "pending",
-    "note": "resubmitted after content-quality-audit fix (removed 14 narrative em-dashes, added rico example, softened regionNote regional-variation claim with sourced dialectal detail, added verbatim RAE quote); Bing 200 / Yandex 202. Originally submitted 2026-08-03 as launch batch, Bing 202 / Yandex 202."
+    "verified_status": "stale_not_indexed",
+    "note": "resubmitted after content-quality-audit fix (removed 14 narrative em-dashes, added rico example, softened regionNote regional-variation claim with sourced dialectal detail, added verbatim RAE quote); Bing 200 / Yandex 202. Originally submitted 2026-08-03 as launch batch, Bing 202 / Yandex 202.",
+    "last_checked_date": "2026-08-25",
+    "verified_method": "bwt_url_inspection",
+    "verify_note": "discovered 04 Aug, 账龄21天超过14天阈值, Blocked"
   },
   "https://lingogrove.com/preterite-vs-imperfect/": {
     "submitted_date": "2026-08-03",
@@ -206,8 +218,11 @@
   },
   "https://lingogrove.com/spanish-accent-marks/": {
     "submitted_date": "2026-08-06",
-    "verified_status": "pending",
-    "note": "daily publish; Bing 200 / Yandex 202."
+    "verified_status": "stale_not_indexed",
+    "note": "daily publish; Bing 200 / Yandex 202.",
+    "last_checked_date": "2026-08-25",
+    "verified_method": "bwt_url_inspection",
+    "verify_note": "discovered 10 Aug, 账龄15天首次超过14天阈值, Blocked"
   },
   "https://lingogrove.com/french-imperative/": {
     "submitted_date": "2026-08-10",
