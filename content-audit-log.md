@@ -1046,3 +1046,101 @@
   "escalation": null
 }
 ```
+
+```json
+{
+  "url_slug": "spanish-future-tense",
+  "last_audited": "2026-08-25",
+  "published_date": "2026-08-05",
+  "note": "跨站排序（最久未审计站优先）本轮命中lingogrove（与dayalmanac同轮）；站内42篇从未审计的文章按published最早取本篇",
+  "diagnosed_checkpoints": [
+    "ir a+infinitive与simple future的对立及RAE关于二者竞争关系（posterioridad/register差异）的表述是否有权威信源支撑",
+    "futuro simple历史演变（cantare habeo→cantar he→cantaré，及中间态cantar lo he插入代词现象）是否是真实的历史语言学事实",
+    "futuro de conjetura(猜测现在)与modal用法(命令/警告/威胁)三个RAE官方例句(Comprarás el más barato/Te caerás/Me las pagarás)是否逐字准确",
+    "十二个不规则未来式词干变化（5个脱尾元音+5个脱尾元音插-d-+2个完全不规则）是否符合标准西语语法",
+    "diagram.svg配图是否存在，内链目标（ser-conjugation/spanish-reflexive-verbs）是否真实存在"
+  ],
+  "findings": [
+    {
+      "dimension": "事实准确性",
+      "status": "未发现问题（WebSearch逐条核实）",
+      "detail": "RAE关于ir a+infinitive表达posterioridad且与简单将来时/条件式竞争、在美洲西语口语中simple future趋于被periphrastic future取代但在futuro de conjetura及正式/文学/法律语域中保留，均与RAE原文一致；futuro simple历史演变（cantare habeo→cantar he→cantaré，含cantar lo he插入代词的中间态）经WebSearch多信源交叉核实（blog.lengua-e.com/RAE语法页/academialatin.com）准确；futuro de conjetura的RAE官方例句'Ahora mismo serán las ocho'及modal用法三例（Comprarás el más barato/Te caerás/Me las pagarás）经WebSearch逐字核对RAE buen-uso-español页面准确；十二个不规则未来式词干变化（caber/haber/poder/querer/saber脱尾元音；poner/salir/tener/valer/venir脱尾元音插-d-；decir/hacer完全不规则）核对准确，为标准西语语法教学内容。"
+    },
+    {
+      "dimension": "EEAT",
+      "status": "未发现问题",
+      "detail": "以RAE官方语法页5条一手信源为主证据，配合StudySpanish.com/delcastellano.com两条交叉核实信源，每个语法点均配西语真实例句+翻译，非泛泛而谈。"
+    },
+    {
+      "dimension": "时效性",
+      "status": "不适用",
+      "detail": "语法规则类内容，RAE官方规则历史上无变动记录，无过时风险。"
+    },
+    {
+      "dimension": "竞品差异化",
+      "status": "未做SERP实测（判断依据同类站内已审计文章的既有结论）",
+      "detail": "本文主题（future tense的两种形式对比+futuro de conjetura陷阱）与本站por-vs-para/preterite-vs-imperfect等已审计文章同属'rephrasing/对比框架+RAE原文深挖+站内交叉引用'的一致模式，历史审计记录显示该模式相对竞品（SpanishDict/Duolingo等'4-5条用法列举'式内容）有真实差异化。"
+    },
+    {
+      "dimension": "SEO技术审计",
+      "status": "未发现问题",
+      "detail": "curl实测线上页面：title/meta description/canonical(自引用)/单一h1均正确；schema实测含Article/FAQPage/BreadcrumbList/Person/WebPage结构化数据正确渲染。"
+    },
+    {
+      "dimension": "GEO审计",
+      "status": "达标，未做结构性改动",
+      "detail": "coreSummary+FAQ schema+具体西语例句+RAE原文引语提供良好可引用性和结构规范性，未发现需强化的薄弱维度，未重新完整打分。"
+    },
+    {
+      "dimension": "早期内容AI味补漏",
+      "status": "发现问题并修复（唯一实质性发现）",
+      "detail": "published=2026-08-05，早于avoid-ai-writing技能强制化时间点（2026-08-07）。机械扫描正文（排除sources[]的label字段）发现18处em-dash分布在description/coreSummary/标题/6个小节正文/FAQ答案；另1处空洞强调词'genuinely uncertain'。sources[]另有5处'信源名 — 说明'格式em-dash，起初按旧例外判断未动，后核对教训库发现已被08-22`per-se-meaning`确立的新约定取代，追加改为冒号分隔。"
+    },
+    {
+      "dimension": "外部引用链接腐烂",
+      "status": "未发现问题（RAE的403为已知bot拦截模式）",
+      "detail": "3条RAE来源curl实测403（与本站por-vs-para等既有审计记录一致，判定为RAE对自动化请求的常规拦截，非真实链接失效）；StudySpanish.com/delcastellano.com均200。"
+    },
+    {
+      "dimension": "内链健康度",
+      "status": "未发现问题",
+      "detail": "grep确认正文引用的ser-conjugation、spanish-reflexive-verbs两个内链目标slug均在guides.ts中真实存在；本文亦被subjunctive-spanish、spanish-conditional-tense两篇后续文章自然锚文本引用（未孤立）。"
+    },
+    {
+      "dimension": "Schema数据一致性",
+      "status": "未发现问题",
+      "detail": "本次编辑仅涉及标点/措辞层面，未改动可见内容的事实性字段，schema与正文保持一致。"
+    },
+    {
+      "dimension": "合规/敏感度漂移",
+      "status": "未发现问题",
+      "detail": "纯语法参考内容，无敏感话题。"
+    },
+    {
+      "dimension": "配图可用性与版权",
+      "status": "未发现问题",
+      "detail": "/images/spanish-future-tense-diagram.svg本地文件确认存在（public/与dist/均有）。"
+    },
+    {
+      "dimension": "AdSense政策风险",
+      "status": "不适用",
+      "detail": "本站不涉及AdSense限制类目内容。"
+    }
+  ],
+  "independent_verification": "spawn一个全新独立agent（未见任何先前分析）复核em-dash发现，独立读取文件计数得16处prose em-dash（口径略有差异但结论一致），判定CONFIRMED：密度过高（description+coreSummary 143词内4处，约每36词一次）、近乎覆盖全部字段、多为'clause — 对比/修正性clause'机械句式，与humanizer/avoid-ai-writing两技能定义的AI写作标记吻合。",
+  "actions_taken": [
+    "18处prose em-dash按语境改写为句号/逗号/冒号/分号/括号",
+    "1处空洞强调词'genuinely uncertain'改为'uncertain'",
+    "sources[]的5处em-dash补充改为冒号分隔（跟随08-22确立的站内新约定）",
+    "updated字段2026-08-05改为2026-08-25（published字段已存在，无需回填）",
+    "npm run build两轮均72页成功生成、0报错",
+    "seo_drift.py baseline先于首次编辑存基线，两轮部署后compare均无CRITICAL",
+    "commit 58c095a（prose em-dash）+ 3627ec6（sources改冒号）+ push；两轮均轮询确认线上生效",
+    "两轮均提交IndexNow /spanish-future-tense/：Bing 200 / Yandex 200",
+    "内容发布日志.md追加审计记录（含两轮修复说明）"
+  ],
+  "seo_score": "技术SEO全项通过，未发现需修复项",
+  "geo_score": "未重新打分（无结构性薄弱维度触发重新评分条件），此前发布时已按≥80门槛通过",
+  "escalation": null
+}
+```
