@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 780" font-family="system-ui, -apple-system, sans-serif">
+	<rect width="800" height="780" fill="#f6f4e9"/>
+	<rect x="24" y="24" width="752" height="732" rx="10" fill="#fffefa" stroke="#ddd8c4"/>
+
+	<rect x="24" y="24" width="752" height="56" rx="10" fill="#2f6b47"/>
+	<rect x="24" y="60" width="752" height="20" fill="#2f6b47"/>
+	<text x="400" y="60" text-anchor="middle" fill="#ffffff" font-size="18" font-weight="700">SPANISH INFINITIVE: ONE FORM, FOUR JOBS</text>
+
+	<!-- row 1: noun slot vs after prepositions -->
+	<rect x="46" y="102" width="345" height="150" rx="8" fill="#fbead0" stroke="#ddd8c4"/>
+	<rect x="409" y="102" width="345" height="150" rx="8" fill="#fbead0" stroke="#ddd8c4"/>
+
+	<text x="218" y="126" text-anchor="middle" fill="#5a5648" font-size="12" font-weight="700">FILLING A NOUN&#8217;S SPOT</text>
+	<text x="218" y="126" dy="14" text-anchor="middle" fill="#5a5648" font-size="11">the gerund is barred from this job</text>
+	<text x="218" y="172" text-anchor="middle" fill="#2f6b47" font-size="17" font-weight="700">Fumar es malo.</text>
+	<text x="218" y="196" text-anchor="middle" fill="#201f1a" font-size="12" font-style="italic">&#8220;Smoking is bad.&#8221;</text>
+	<text x="218" y="220" text-anchor="middle" fill="#5a5648" font-size="11">no gerund-based version exists</text>
+	<text x="218" y="238" text-anchor="middle" fill="#5a5648" font-size="11">to reach for instead</text>
+
+	<text x="581" y="126" text-anchor="middle" fill="#5a5648" font-size="12" font-weight="700">AFTER A PREPOSITION</text>
+	<text x="581" y="126" dy="14" text-anchor="middle" fill="#5a5648" font-size="11">where English switches to &#8220;-ing&#8221;</text>
+	<text x="581" y="172" text-anchor="middle" fill="#2f6b47" font-size="17" font-weight="700">antes de salir</text>
+	<text x="581" y="196" text-anchor="middle" fill="#201f1a" font-size="12" font-style="italic">&#8220;before leaving&#8221;</text>
+	<text x="581" y="220" text-anchor="middle" fill="#5a5648" font-size="11">al + infinitivo: temporal or causal</text>
+	<text x="581" y="238" text-anchor="middle" fill="#5a5648" font-size="11">&#8220;Al vernos, se acerc&#243;.&#8221;</text>
+
+	<!-- row 2: four periphrases -->
+	<rect x="46" y="270" width="708" height="170" rx="8" fill="#eaf1ea" stroke="#2f6b47"/>
+	<text x="400" y="294" text-anchor="middle" fill="#5a5648" font-size="12" font-weight="700">LOCKED INSIDE A VERB PERIPHRASIS (AUXILIARY + INFINITIVE)</text>
+
+	<text x="145" y="330" text-anchor="middle" fill="#204a31" font-size="13" font-weight="700">deber + infinitivo</text>
+	<text x="145" y="350" text-anchor="middle" fill="#5a5648" font-size="11">obligation</text>
+	<text x="145" y="368" text-anchor="middle" fill="#201f1a" font-size="11" font-style="italic">Debes tener cuidado.</text>
+
+	<text x="330" y="330" text-anchor="middle" fill="#204a31" font-size="13" font-weight="700">deber de + infinitivo</text>
+	<text x="330" y="350" text-anchor="middle" fill="#5a5648" font-size="11">conjecture, not obligation</text>
+	<text x="330" y="368" text-anchor="middle" fill="#201f1a" font-size="11" font-style="italic">Deben de ser hermanos.</text>
+
+	<text x="530" y="330" text-anchor="middle" fill="#204a31" font-size="13" font-weight="700">tener que / haber de</text>
+	<text x="530" y="350" text-anchor="middle" fill="#5a5648" font-size="11">obligation, necessity</text>
+	<text x="530" y="368" text-anchor="middle" fill="#201f1a" font-size="11" font-style="italic">Tienes que ayudarlos.</text>
+
+	<text x="700" y="330" text-anchor="middle" fill="#204a31" font-size="13" font-weight="700">ir a + infinitivo</text>
+	<text x="700" y="350" text-anchor="middle" fill="#5a5648" font-size="11">near future, intention</text>
+	<text x="700" y="368" text-anchor="middle" fill="#201f1a" font-size="11" font-style="italic">Voy a esperarla.</text>
+
+	<line x1="70" y1="392" x2="734" y2="392" stroke="#c8dcc9" stroke-width="1"/>
+	<text x="400" y="414" text-anchor="middle" fill="#5a5648" font-size="11" font-style="italic">Negation splits too: &#8220;No debes decírselo&#8221; keeps the obligation; &#8220;No tienes que&#8221; erases it entirely.</text>
+
+	<!-- row 3: standing in for a command, valid vs discouraged -->
+	<rect x="46" y="460" width="345" height="150" rx="8" fill="#eaf1ea" stroke="#2f6b47"/>
+	<rect x="409" y="460" width="345" height="150" rx="8" fill="#fff4f4" stroke="#e0b8b8"/>
+
+	<text x="218" y="484" text-anchor="middle" fill="#204a31" font-size="12" font-weight="700">VALID: A SIGN, NO ONE IN PARTICULAR</text>
+	<text x="218" y="522" text-anchor="middle" fill="#2f6b47" font-size="17" font-weight="700">No fumar.</text>
+	<text x="218" y="546" text-anchor="middle" fill="#201f1a" font-size="12" font-style="italic">&#8220;Se debe no fumar aqu&#237;.&#8221;</text>
+	<text x="218" y="570" text-anchor="middle" fill="#5a5648" font-size="11">impersonal, collective audience</text>
+	<text x="218" y="588" text-anchor="middle" fill="#5a5648" font-size="11">labels, manuals, notices</text>
+
+	<text x="581" y="484" text-anchor="middle" fill="#7a3f3f" font-size="12" font-weight="700">DISCOURAGED: TALKING TO PEOPLE DIRECTLY</text>
+	<text x="581" y="522" text-anchor="middle" fill="#7a3f3f" font-size="17" font-weight="700">&#161;Sentaros!</text>
+	<text x="581" y="546" text-anchor="middle" fill="#201f1a" font-size="12" font-style="italic">should be &#8220;&#161;Sentaos!&#8221;</text>
+	<text x="581" y="570" text-anchor="middle" fill="#5a5648" font-size="11">a real vosotros command exists</text>
+	<text x="581" y="588" text-anchor="middle" fill="#5a5648" font-size="11">and gets swapped out by habit</text>
+
+	<line x1="46" y1="632" x2="754" y2="632" stroke="#ddd8c4" stroke-width="1"/>
+	<text x="400" y="656" text-anchor="middle" fill="#5a5648" font-size="12" font-style="italic">The dividing line isn&#8217;t the infinitive itself &#8212; it&#8217;s whether anyone specific is actually being told to do something.</text>
+
+	<rect x="46" y="676" width="708" height="60" rx="8" fill="#fbead0" stroke="#ddd8c4"/>
+	<text x="400" y="700" text-anchor="middle" fill="#5a5648" font-size="11" font-weight="700">SIMPLE VS. COMPOUND INFINITIVE</text>
+	<text x="400" y="720" text-anchor="middle" fill="#201f1a" font-size="11" font-style="italic">terminar (no completion marked) &#8212; haber terminado (already complete relative to the main verb)</text>
+</svg>

@@ -5301,4 +5301,85 @@ export const guides: Guide[] = [
 			{ label: 'Learn Spanish with Andrew — "Learn Colombian Spanish #3: Everyone Is \'A La Orden\'" (everyday commerce/service usage)', url: 'https://howlearnspanish.com/learn-colombian-spanish-3/' },
 		],
 	},
+	{
+		slug: 'spanish-infinitive',
+		category: 'Grammar',
+		title: 'The Spanish Infinitive: The Non-Finite Form That Also Works as a Noun',
+		description: "Spanish infinitives never inflect for person or tense, and they're the only non-finite verb form that can fill a noun's spot, a job the Spanish gerund is barred from doing.",
+		published: '2026-08-25',
+		updated: '2026-08-25',
+		coreSummary: 'The Spanish infinitive is a non-personal verb form marked only by its -ar/-er/-ir ending, with no inflection for person, tense, or mood. Unlike English, where both the gerund and the to-infinitive can function as a noun, Spanish reserves that job exclusively for the infinitive, because the Spanish gerund is permanently barred from acting as one.',
+		language: 'Spanish',
+		sections: [
+			{
+				heading: 'No person, no tense, no mood: only two shapes total',
+				body: [
+					'The infinitive belongs to a small class Spanish grammar calls the formas no personales del verbo, the non-personal verb forms, a group it shares with the gerund and the participle. Per the RAE\'s Nueva gramática, all three lack inflection for person, tense, and mood, and the infinitive and gerund additionally lack inflection for number, something the participle alone among the three does carry: hablado stays hablado regardless of who\'s talking, while an adjective built from it, like cansado, still has to agree in gender and number. The infinitive\'s own marker is simply the -r that closes every one of the three conjugation classes, hablar, comer, vivir. Nothing about the word itself signals whether it will end up meaning "to speak," "speaking," or something closer to an instruction on a sign; that job falls entirely to whatever surrounds it.',
+					'Spanish gives the infinitive exactly two shapes, not the range of tense-marked forms a finite verb has. The simple infinitive, hablar, comer, vivir, names the action or state with no reference to whether it\'s finished. The compound infinitive pairs haber with a past participle, haber hablado, haber comido, haber vivido, and marks the action as already complete relative to whatever the main clause describes. Después de haber terminado el informe, se fue a casa ("After having finished the report, they left") points at a report that was done before the leaving happened, a distinction the simple infinitive alone doesn\'t make on its own.',
+				],
+			},
+			{
+				heading: 'The one job only the infinitive can do: filling a noun\'s spot',
+				body: [
+					'English speakers learning Spanish tend to reach for "-ing" whenever a verb needs to act like a noun, because English lets both the gerund and the to-infinitive do that job more or less interchangeably: "Smoking is bad for your health" and "To smoke is bad for your health" are both grammatical, and most English speakers would call "smoking" the more natural of the two. Spanish removes that choice entirely. [The Spanish gerund is permanently barred from acting as a noun](/spanish-gerund/): it can\'t be a sentence\'s subject, a verb\'s direct object, or the object of a preposition, which leaves the infinitive as the only non-finite form eligible to fill that slot. Fumar es malo para la salud is the only way to say "smoking is bad for your health" in Spanish; there\'s no gerund-based version to reach for by analogy with English, because Spanish simply doesn\'t allow one.',
+					'The RAE\'s Buen uso del español draws a further line inside the infinitive itself, between verbal and nominal uses, based on what it\'s doing in the sentence rather than on its form. In Rocío deseaba comprar una casa, comprar behaves as a verb: it takes a direct object, una casa, the way any conjugated verb would. In el lento caminar de la gente ("the slow walking of the people"), caminar has shifted into nominal behavior: it takes a determiner (el) and an adjective (lento) instead of an adverb, exactly the way an ordinary noun does, and it\'s followed by de rather than taking a direct object of its own. Same word, same form, two different grammatical jobs, distinguished only by what\'s attached to it.',
+				],
+				image: {
+					src: '/images/spanish-infinitive-diagram.svg',
+					alt: 'Diagram of the Spanish infinitive\'s four jobs: filling a noun\'s spot where the gerund can\'t (Fumar es malo), following a preposition including the temporal or causal al + infinitivo construction, sitting inside verb periphrases like deber, deber de, tener que, and ir a, and standing in for a command, valid on a sign (No fumar) but discouraged when addressing people directly (Sentaros should be Sentaos), plus the simple-versus-compound infinitive distinction.',
+				},
+			},
+			{
+				heading: 'After a preposition, including the compact "al + infinitivo"',
+				body: [
+					'A verb following a Spanish preposition takes the infinitive in the overwhelming majority of cases, one of the more reliable patterns in the language, and it covers exactly the spots where English switches to "-ing": antes de salir ("before leaving"), después de comer ("after eating"), sin decir nada ("without saying anything"), para aprender ("in order to learn"). The one notable exception is según, which can introduce a fully conjugated clause instead, as in según convenga ("as [it] suits") or según le parezca a ella ("according to how it seems to her"); every other preposition on the standard list sticks to the infinitive rule.',
+					'One preposition-plus-infinitive combination is common enough, and flexible enough, to earn its own name: al + infinitivo. Per the RAE\'s Buen uso del español, the pattern carries either a temporal value ("when," "upon") or a causal one ("because"), depending on context, and it functions as a compact stand-in for a full subordinate clause. Al vernos, se acercó ("Upon seeing us, he came over") is temporal; Al perder los documentos, no pudo realizar el trámite bancario ("Because he lost the documents, he couldn\'t complete the bank procedure") is causal, doing the work a porque-clause would otherwise do, in fewer words.',
+					'The infinitive inside one of these constructions can even carry its own subject, separate from whatever the main clause\'s subject is, something a finite subordinate clause does routinely but that feels less expected in a form most learners think of as subjectless by nature. The RAE\'s own chapter on subject correference gives Al oscurecer, refresca un poco el aire ("As it grows dark, the air cools a little") as a case where the infinitive\'s understood subject is the weather itself, entirely independent of anything in the main clause. The same chapter flags a genuinely ambiguous example, La policía nos informó de la gravedad del accidente muy poco antes de llegar al lugar de los hechos, where antes de llegar can be read as either "before we arrived" or "before the police arrived," because Spanish grammar doesn\'t force the infinitive\'s silent subject to match the main clause\'s subject by default.',
+				],
+			},
+			{
+				heading: 'Locked inside a periphrasis: deber, tener que, haber de, ir a',
+				body: [
+					'The infinitive is also the non-finite half of most Spanish verbal periphrases, a conjugated auxiliary paired with an infinitive that together function as a single verb unit expressing obligation, necessity, or futurity the auxiliary alone couldn\'t. Four of the most common: deber + infinitivo for obligation (Debes tener más cuidado, "You should be more careful"), tener que + infinitivo for obligation or necessity (Tienes que ayudar a tus hermanos, "You have to help your siblings"), haber de + infinitivo for a more formal obligation (Hemos de intentarlo una vez más, "We must try it once more"), and ir a + infinitivo for near-future action or intention (Voy a esperarla, "I\'m going to wait for her").',
+					'Deber does double duty depending on whether de follows it. Deber + infinitivo states an obligation directly: Debes tener más cuidado is an instruction. Deber de + infinitivo drops the obligation reading entirely and states a conjecture instead: Deben de ser hermanos means "They must be siblings" in the sense of "that\'s my best guess," not an order aimed at anyone. Negating the two obligation-periphrases doesn\'t work identically either. No debes decírselo a nadie keeps the obligation intact and negates only its content, the obligation not to tell, while No tienes que darme explicaciones negates the obligation\'s existence altogether: there\'s no requirement here at all, not "you\'re required not to explain."',
+				],
+			},
+			{
+				heading: 'Standing in for a command: legitimate on a sign, a mistake face to face',
+				body: [
+					'Spanish signs, product labels, and instruction manuals lean on the bare infinitive constantly: No fumar, Lavar a mano, Depositar la basura en las papeleras, Consumir a temperatura ambiente. The RAE classifies this as a fully valid exhortative use, reserved specifically for indications, warnings, or recommendations aimed at a collective, indeterminate audience, nobody in particular, everybody who happens to read the sign. Grammatically it\'s closer to an impersonal se debe... ("one should...") than to a direct order, which is exactly why it doesn\'t clash with [the vosotros and usted commands](/spanish-commands/) Spanish uses when actually addressing someone.',
+					'What the RAE does flag as a mistake is a related but different move: swapping the infinitive in for the vosotros affirmative command when talking to real people standing in front of you, not posting a sign for no one in particular. ¡Sentaros! for ¡Sentaos!, or ¡Venir a echarme una mano! for ¡Venid a echarme una mano!, both appear among the RAE\'s own examples of the inadvisable version, live, addressed instructions where a genuine command form already exists and gets replaced by the infinitive out of habit, in a register where the RAE recommends avoiding it. The dividing line isn\'t the infinitive itself; it\'s whether anyone specific is actually being told to do something.',
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'Why does "Fumar es malo para la salud" translate as "Smoking is bad for your health" rather than "To smoke is bad for your health"?',
+				answer: 'Both English translations are grammatical, but "smoking" reads more naturally to most English speakers, and either way the underlying Spanish grammar stays the same regardless of which English gloss is picked. Spanish only has one non-finite form eligible to occupy a noun\'s spot, the infinitive, because the gerund can\'t do it. English speakers translating from Spanish don\'t need to worry about which "-ing"-equivalent to reach for; there\'s only ever one option on the Spanish side.',
+			},
+			{
+				question: 'What\'s the difference between "Debe llegar a las nueve" and "Debe de haber llegado ya"?',
+				answer: 'The first uses deber + infinitivo and states an obligation or expectation: he\'s supposed to arrive at nine. The second uses deber de + infinitivo and states a conjecture instead: he has probably already arrived, a guess rather than a requirement. The de is doing real grammatical work here, not decorating the sentence; dropping it changes the meaning from an instruction to an inference.',
+			},
+			{
+				question: 'Is "No fumar" on a sign grammatically the same as telling one specific person not to smoke?',
+				answer: 'No. Per the RAE, the infinitive on a sign like No fumar is an impersonal exhortative form addressed to a collective, indeterminate reader, closer to "smoking is not permitted here" than to a command aimed at any one person. A direct instruction to someone standing in front of you uses an actual negative-command form instead, like No fumes.',
+			},
+			{
+				question: 'Can the infinitive have a subject different from the main clause\'s subject?',
+				answer: 'Yes. The RAE gives Al oscurecer, refresca un poco el aire as an example where the infinitive\'s understood subject, the weather, essentially, has nothing to do with the main clause\'s subject. It can also create genuine ambiguity, as in a sentence like muy poco antes de llegar al lugar de los hechos, which the RAE notes can be read as "before we arrived" or "before the police arrived" depending on which subject the reader assumes the infinitive is silently carrying.',
+			},
+			{
+				question: 'What does the compound infinitive (haber + participle) add that the simple infinitive doesn\'t?',
+				answer: 'It marks the action as already finished relative to whatever the main clause describes. Después de haber terminado el informe, se fue a casa points at a report that was done before the leaving happened; swapping in the simple infinitive, después de terminar el informe, doesn\'t carry that same explicit "already complete" reading on its own.',
+			},
+		],
+		sources: [
+			{ label: 'Real Academia Española: Nueva gramática de la lengua española, "Introducción. Las formas no personales del verbo"', url: 'https://www.rae.es/gram%C3%A1tica/sintaxis/introducci%C3%B3n-las-formas-no-personales-del-verbo' },
+			{ label: 'Real Academia Española: El buen uso del español, "El infinitivo" (verbal vs. nominal infinitive)', url: 'https://www.rae.es/buen-uso-espa%C3%B1ol/el-infinitivo' },
+			{ label: 'Real Academia Española: El buen uso del español, "Las perífrasis verbales (II). Perífrasis de infinitivo" (al + infinitivo, deber/tener que/haber de/ir a)', url: 'https://www.rae.es/buen-uso-espa%C3%B1ol/las-per%C3%ADfrasis-verbales-ii-per%C3%ADfrasis-de-infinitivo' },
+			{ label: 'Real Academia Española: Nueva gramática, "Sujetos expresos y sujetos tácitos (II). Correferencia de sujetos" (infinitive with an independent subject)', url: 'https://www.rae.es/gram%C3%A1tica/sintaxis/sujetos-expresos-y-sujetos-t%C3%A1citos-ii-correferencia-de-sujetos' },
+			{ label: 'Real Academia Española: Español al día, "Infinitivo por imperativo" (valid exhortative use vs. discouraged vosotros substitution)', url: 'https://www.rae.es/espanol-al-dia/infinitivo-por-imperativo' },
+		],
+	},
 ];
