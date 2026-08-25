@@ -5382,4 +5382,99 @@ export const guides: Guide[] = [
 			{ label: 'Real Academia Española: Español al día, "Infinitivo por imperativo" (valid exhortative use vs. discouraged vosotros substitution)', url: 'https://www.rae.es/espanol-al-dia/infinitivo-por-imperativo' },
 		],
 	},
+	{
+		slug: 'french-irregular-verbs',
+		category: 'Grammar',
+		title: 'French Irregular Verbs: Only Four Are Truly Unpredictable',
+		description: 'Most guides to French irregular verbs treat every one as equally random. Only être, avoir, aller, and faire actually are; the rest follow rules shared across whole verb families.',
+		published: '2026-08-25',
+		updated: '2026-08-25',
+		coreSummary: 'French sorts every verb into three conjugations, and only the third (a closed class that also absorbs the -er verb aller) contains real irregularity: among its members, only être, avoir, aller, and faire change stem in ways that do not reduce to a rule shared across a family of verbs. Most other verbs commonly filed as "irregular," including the boot-shaped pouvoir/vouloir/devoir group and the vien-/ven- pattern in venir, tenir, and their compounds, follow a stem-change rule that applies to the whole family at once, and spelling-change -er verbs like appeler or préférer are not third-group irregulars at all.',
+		language: 'French',
+		sections: [
+			{
+				heading: 'Three conjugations, and only one of them is where irregularity lives',
+				body: [
+					'French sorts every verb into one of three conjugations, and the split is not evenly weighted. Wikipedia\'s "French conjugation" entry puts the first group, verbs ending in -er, at around 6,000 members, following the same pattern "largely without exception." The second group, -ir verbs whose present participle ends in -issant (finir → finissant), holds around 300 members and is also close to fully regular. The third group is everything left over: verbs in -re, verbs in -oir, a smaller set of -ir verbs that do not take the -issant pattern, and, despite its spelling, aller. Wikipedia states the exception directly: "aller, though it ends in -er, belongs to the third group."',
+					'The third group differs from the other two in shape, size, and status: per Wikipedia, it is a closed class, meaning no verb newly coined in French is ever assigned to it. Every new verb entering the language today, such as téléviser, atomiser, or googliser, lands in the first group. The second and third groups are fixed lists that stopped growing centuries ago. That framing changes what "irregular verb" means in French: the third group is a fixed, finite set, and much of what looks unpredictable inside it turns out to be grouped rather than scattered.',
+				],
+				image: {
+					src: '/images/french-irregular-verbs-diagram.svg',
+					alt: 'Diagram showing French verbs split into three conjugations (1st: -er, ~6,000 verbs, regular; 2nd: -ir/-issant, ~300 verbs, regular; 3rd: -re/-oir/-ir plus aller, closed class, home to nearly all irregularity), followed by present-tense forms for the four truly unpredictable verbs être/avoir/aller/faire, the boot-pattern and vien-/ven- stem-change families that are rule-governed rather than memorized one by one, and spelling-change -er verbs like appeler and préférer that are not third-group irregulars at all.',
+				},
+			},
+			{
+				heading: 'The only four that do not reduce to a rule: être, avoir, aller, faire',
+				body: [
+					'Être and avoir are the two verbs every French sentence in a compound tense eventually leans on, since they are also the auxiliaries behind passé composé and every other compound form. Per Larousse\'s conjugation tables, être runs je suis, tu es, il/elle est, nous sommes, vous êtes, ils/elles sont: six forms that share almost nothing with each other in sound or spelling, which is exactly what "truly irregular" means here. Avoir runs j\'ai, tu as, il/elle a, nous avons, vous avez, ils/elles ont, a different but equally scattered set of stems.',
+					'Aller and faire round out the four. Aller, confirmed above as a third-group verb despite its -er ending, conjugates je vais, tu vas, il/elle va, nous allons, vous allez, ils/elles vont: none of those six forms share a stem, and none of them resemble a regular -er verb\'s endings either. Faire runs je fais, tu fais, il/elle fait, nous faisons, vous faites, ils/elles font. Vous faites belongs to a small, well-known exception: per Larousse, être (vous êtes) and dire (vous dites) take that same -tes ending instead of the -ez most other verbs use in the vous form. These four verbs are also among the handful that carry an irregular subjunctive stem, a different irregularity covered in full in [the French subjunctive breakdown](/french-subjunctive/), where avoir and être turn out to be the only two verbs in the language that also swap their subjunctive endings, not just their stem.',
+				],
+			},
+			{
+				heading: 'Most other "irregular" verbs are family patterns, not one-offs',
+				body: [
+					'Pouvoir, vouloir, and devoir share a stem-change shape old grammar guides nicknamed the "boot" or "shoe" pattern, because circling the changed forms on a conjugation chart traces that outline. Per Larousse, pouvoir runs je peux, tu peux, il/elle peut, nous pouvons, vous pouvez, ils/elles peuvent; vouloir runs je veux, tu veux, il/elle veut, nous voulons, vous voulez, ils/elles veulent; devoir runs je dois, tu dois, il/elle doit, nous devons, vous devez, ils/elles doivent. In all three, the je/tu/il/ils forms share one stem and nous/vous share a separate, more infinitive-like stem. Learn that split once and it applies to the whole family, not just to whichever one verb happened to come up in a textbook exercise.',
+					'Venir and tenir run a parallel two-stem split of their own. Per Larousse, venir conjugates je viens, tu viens, il/elle vient, nous venons, vous venez, ils/elles viennent: a vien- stem for je/tu/il/ils, a ven- stem for nous/vous. Tenir follows the identical pattern (je tiens, nous tenons), and so does every compound built on either verb: revenir, devenir, tenir\'s own compounds like obtenir and retenir. Learning venir well effectively means learning a dozen other verbs at the same time.',
+					'Prendre works the same way on a third stem shape: je prends, tu prends, il/elle prend, nous prenons, vous prenez, ils/elles prennent, per Larousse, with apprendre, comprendre, and reprendre inheriting the identical prend-/pren-/prenn- split. Across all three families, the useful unit to memorize is the family\'s stem-change rule, not each individual compound verb. A flat alphabetized list of "top 100 irregular verbs" hides that relationship entirely, presenting reprendre and prendre as two unrelated entries to learn from scratch.',
+				],
+			},
+			{
+				heading: 'Verbs people call "irregular" that are actually fully regular',
+				body: [
+					'A separate category gets lumped in with irregular verbs by habit, even though it belongs entirely to the regular first group. Per Wikipedia\'s spelling-rule summary for -er verbs, appeler and similar -eler/-eter verbs double their l or t before an ending that starts with a silent e (appeler → j\'appelle), a purely orthographic fix: French spelling needs a doubled consonant to signal that the preceding e is pronounced as in "elle" rather than swallowed. Préférer and other -é[consonant]er verbs shift é to è under the same silent-ending condition: je préfère, nous préférons. Payer and other -ayer verbs may shift y to i before a silent e (je paie, alongside the still-standard je paye).',
+					'These verbs stay inside the regular -er pattern; a spelling adjustment sits on top of it purely to keep the written form matching the spoken one, and the same adjustment applies identically to every verb in that spelling class. Wikipedia notes one irregularity inside this group that is not just spelling, and it is narrower still: envoyer (and renvoyer) takes an irregular stem specifically in the future and conditional (j\'enverrai, not the expected "envoierai"), a real, isolated exception rather than a spelling rule, and the only place a first-group verb crosses into the kind of irregularity the third group is built from.',
+				],
+			},
+			{
+				heading: 'Where the same irregular stems resurface: participles and the subjunctive',
+				body: [
+					'Irregularity in one tense does not automatically predict irregularity in another, but for these particular verbs it usually travels along. Être, avoir, faire, and aller all take irregular past participles (été, eu, fait, allé), and so do most of the family-pattern verbs from the previous sections: venir gives venu, tenir gives tenu, prendre gives pris (with apprendre and comprendre inheriting appris and compris the same way prend- carried across their present tense). [The full set of irregular past participle families](/french-past-participle/), grouped by ending rather than memorized verb by verb, covers this in more depth than fits here.',
+					'Several of the same high-frequency verbs, être, avoir, aller, and faire among them, also take an irregular stem in the present subjunctive, a distinct irregularity from anything covered above since the subjunctive is a different mood built on its own stem rules entirely. Que je sois, que j\'aie, que j\'aille, and que je fasse do not derive from any of the present-tense forms given earlier; the full account of which verbs break the subjunctive\'s otherwise uniform ending pattern, and which two break the endings themselves, lives in [the site\'s dedicated subjunctive guide](/french-subjunctive/).',
+				],
+			},
+			{
+				heading: 'How to actually learn these verbs',
+				body: [
+					'Start with être and avoir: they are also the auxiliaries every compound tense in French is built on, so getting those two stem sets solid turns half of the compound-tense system into a matter of adding a participle rather than learning a new conjugation. Add aller and faire next; between the four of them, that covers the verbs that show up in nearly every conversation.',
+					'After that, the more efficient move is learning stem-change families rather than individual verbs: once venir is solid, tenir and their combined dozen-plus compounds are most of the way learned already; once pouvoir is solid, vouloir and devoir follow the identical shape. Spend the least effort on spelling-change -er verbs like appeler or préférer: treating them like third-group irregulars wastes effort on something already fully predictable from a spelling rule.',
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'Which French verbs are truly irregular, with no pattern to lean on at all?',
+				answer: 'Just four: être, avoir, aller, and faire. Every other verb usually filed under "irregular" changes stem in a way that follows a rule shared by an entire family: pouvoir/vouloir/devoir, venir/tenir and their compounds, prendre and its compounds, and so on. Those four do not reduce to a family rule; each one has to be learned on its own terms.',
+			},
+			{
+				question: 'Is "aller" really irregular if it ends in -er like a normal verb?',
+				answer: 'Yes. Per the standard classification of French verb groups, aller belongs to the third, irregular group despite its -er spelling; the ending happens to match the first group by coincidence, without putting the verb in it. Je vais, nous allons, and ils vont do not share a stem with each other or with any regular -er verb.',
+			},
+			{
+				question: 'What is the difference between an irregular verb and a spelling-change verb like "appeler"?',
+				answer: 'A spelling-change verb like appeler (j\'appelle) or préférer (je préfère) is a fully regular first-group -er verb; the letter change exists only to keep the pronunciation consistent before a silent ending, and it applies the same way across every verb in that spelling class. An irregular verb like être or faire changes stem for reasons that do not reduce to a spelling rule at all.',
+			},
+			{
+				question: 'Why do pouvoir, vouloir, and devoir all change the same way?',
+				answer: 'They belong to the same "boot" stem-change family: the je/tu/il/ils forms share one stem (peux/veux/dois, extending to peuvent/veulent/doivent) while nous and vous keep a separate, more infinitive-like stem (pouvons/voulons/devons). Learn the pattern once and it carries over to every verb in the family, not just to these three.',
+			},
+			{
+				question: 'How many irregular verbs does French actually have?',
+				answer: 'There is no single agreed number. Counts vary depending on whether compounds like reprendre or devenir are tallied as separate verbs from prendre. What is fixed is that they all belong to a closed class: French does not add new members to the second or third conjugation group, unlike the first group, which keeps absorbing newly coined verbs.',
+			},
+			{
+				question: 'Do these irregular verbs also have irregular past participles?',
+				answer: 'Often, yes, though the two irregularities are separate and do not automatically predict each other. Être, avoir, faire, and aller all take irregular past participles (été, eu, fait, allé), and the family-pattern verbs carry theirs the same way their stems do: venir gives venu, prendre gives pris, with apprendre and comprendre inheriting appris and compris.',
+			},
+		],
+		sources: [
+			{ label: 'Larousse — Conjugaison: être (present tense)', url: 'https://www.larousse.fr/conjugaison/francais/%C3%AAtre/4440' },
+			{ label: 'Larousse — Conjugaison: avoir (present tense)', url: 'https://www.larousse.fr/conjugaison/francais/avoir/749' },
+			{ label: 'Larousse — Conjugaison: aller (present tense)', url: 'https://www.larousse.fr/conjugaison/francais/aller/314' },
+			{ label: 'Larousse — Conjugaison: faire (present tense)', url: 'https://www.larousse.fr/conjugaison/francais/faire/4599' },
+			{ label: 'Larousse — Conjugaison: dire (present tense, vous dites cross-check)', url: 'https://www.larousse.fr/conjugaison/francais/dire/3354' },
+			{ label: 'Larousse — Conjugaison: pouvoir, vouloir, devoir (present tense, boot-pattern cross-check)', url: 'https://www.larousse.fr/conjugaison/francais/pouvoir/6963' },
+			{ label: 'Larousse — Conjugaison: venir, prendre (present tense, family-pattern cross-check)', url: 'https://www.larousse.fr/conjugaison/francais/venir/9299' },
+			{ label: 'Wikipedia — "French conjugation" (three-group classification, closed third group, spelling-change rules for -er verbs)', url: 'https://en.wikipedia.org/wiki/French_conjugation' },
+		],
+	},
 ];

@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 780" font-family="system-ui, -apple-system, sans-serif">
+	<rect width="800" height="780" fill="#f6f4e9"/>
+	<rect x="24" y="24" width="752" height="732" rx="10" fill="#fffefa" stroke="#ddd8c4"/>
+
+	<rect x="24" y="24" width="752" height="56" rx="10" fill="#2f6b47"/>
+	<rect x="24" y="60" width="752" height="20" fill="#2f6b47"/>
+	<text x="400" y="60" text-anchor="middle" fill="#ffffff" font-size="17" font-weight="700">FRENCH VERBS: THREE GROUPS, ONE TRULY IRREGULAR</text>
+
+	<!-- row 1: three conjugation groups -->
+	<rect x="46" y="100" width="228" height="130" rx="8" fill="#eaf1ea" stroke="#2f6b47"/>
+	<text x="160" y="124" text-anchor="middle" fill="#204a31" font-size="13" font-weight="700">1ST GROUP: -ER</text>
+	<text x="160" y="144" text-anchor="middle" fill="#5a5648" font-size="11">~6,000 verbs</text>
+	<text x="160" y="164" text-anchor="middle" fill="#201f1a" font-size="12">parler &#8594; je parle</text>
+	<text x="160" y="184" text-anchor="middle" fill="#5a5648" font-size="11">regular, except spelling</text>
+	<text x="160" y="200" text-anchor="middle" fill="#5a5648" font-size="11">rules and aller (see below)</text>
+
+	<rect x="286" y="100" width="228" height="130" rx="8" fill="#eaf1ea" stroke="#2f6b47"/>
+	<text x="400" y="124" text-anchor="middle" fill="#204a31" font-size="13" font-weight="700">2ND GROUP: -IR/-ISSANT</text>
+	<text x="400" y="144" text-anchor="middle" fill="#5a5648" font-size="11">~300 verbs</text>
+	<text x="400" y="164" text-anchor="middle" fill="#201f1a" font-size="12">finir &#8594; je finis</text>
+	<text x="400" y="184" text-anchor="middle" fill="#5a5648" font-size="11">present participle in</text>
+	<text x="400" y="200" text-anchor="middle" fill="#5a5648" font-size="11">-issant; regular endings</text>
+
+	<rect x="526" y="100" width="228" height="130" rx="8" fill="#fbead0" stroke="#c98a2c"/>
+	<text x="640" y="124" text-anchor="middle" fill="#7a4a12" font-size="13" font-weight="700">3RD GROUP: -RE, -OIR,</text>
+	<text x="640" y="140" text-anchor="middle" fill="#7a4a12" font-size="13" font-weight="700">-IR (2ND TYPE) + ALLER</text>
+	<text x="640" y="162" text-anchor="middle" fill="#5a5648" font-size="11">closed class: no new</text>
+	<text x="640" y="178" text-anchor="middle" fill="#5a5648" font-size="11">verbs are ever added to it</text>
+	<text x="640" y="198" text-anchor="middle" fill="#201f1a" font-size="12" font-weight="700">nearly every irregular</text>
+	<text x="640" y="214" text-anchor="middle" fill="#201f1a" font-size="12" font-weight="700">verb lives here</text>
+
+	<!-- row 2: four core irregulars -->
+	<rect x="46" y="250" width="708" height="150" rx="8" fill="#fbead0" stroke="#ddd8c4"/>
+	<text x="400" y="274" text-anchor="middle" fill="#5a5648" font-size="12" font-weight="700">THE FOUR THAT DON'T REDUCE TO A SHARED RULE (LAROUSSE)</text>
+
+	<text x="118" y="300" text-anchor="middle" fill="#204a31" font-size="13" font-weight="700">&#234;tre</text>
+	<text x="118" y="320" text-anchor="middle" fill="#201f1a" font-size="11">je suis</text>
+	<text x="118" y="336" text-anchor="middle" fill="#201f1a" font-size="11">nous sommes</text>
+	<text x="118" y="352" text-anchor="middle" fill="#201f1a" font-size="11">ils sont</text>
+	<text x="118" y="372" text-anchor="middle" fill="#5a5648" font-size="10">to be</text>
+
+	<text x="292" y="300" text-anchor="middle" fill="#204a31" font-size="13" font-weight="700">avoir</text>
+	<text x="292" y="320" text-anchor="middle" fill="#201f1a" font-size="11">j'ai</text>
+	<text x="292" y="336" text-anchor="middle" fill="#201f1a" font-size="11">nous avons</text>
+	<text x="292" y="352" text-anchor="middle" fill="#201f1a" font-size="11">ils ont</text>
+	<text x="292" y="372" text-anchor="middle" fill="#5a5648" font-size="10">to have</text>
+
+	<text x="490" y="300" text-anchor="middle" fill="#204a31" font-size="13" font-weight="700">aller</text>
+	<text x="490" y="320" text-anchor="middle" fill="#201f1a" font-size="11">je vais</text>
+	<text x="490" y="336" text-anchor="middle" fill="#201f1a" font-size="11">nous allons</text>
+	<text x="490" y="352" text-anchor="middle" fill="#201f1a" font-size="11">ils vont</text>
+	<text x="490" y="372" text-anchor="middle" fill="#5a5648" font-size="10">to go (3rd group despite -er)</text>
+
+	<text x="668" y="300" text-anchor="middle" fill="#204a31" font-size="13" font-weight="700">faire</text>
+	<text x="668" y="320" text-anchor="middle" fill="#201f1a" font-size="11">je fais</text>
+	<text x="668" y="336" text-anchor="middle" fill="#201f1a" font-size="11">nous faisons</text>
+	<text x="668" y="352" text-anchor="middle" fill="#201f1a" font-size="11">ils font</text>
+	<text x="668" y="372" text-anchor="middle" fill="#5a5648" font-size="10">to do/make</text>
+
+	<!-- row 3: rule-governed stem-change families -->
+	<rect x="46" y="418" width="708" height="180" rx="8" fill="#eaf1ea" stroke="#2f6b47"/>
+	<text x="400" y="442" text-anchor="middle" fill="#5a5648" font-size="12" font-weight="700">STEM CHANGES THAT FOLLOW A FAMILY RULE, NOT MEMORIZED ONE BY ONE</text>
+
+	<text x="180" y="468" text-anchor="middle" fill="#204a31" font-size="12" font-weight="700">"BOOT" PATTERN</text>
+	<text x="180" y="486" text-anchor="middle" fill="#201f1a" font-size="11">pouvoir, vouloir, devoir</text>
+	<text x="180" y="504" text-anchor="middle" fill="#201f1a" font-size="11">je peux / nous pouvons</text>
+	<text x="180" y="522" text-anchor="middle" fill="#201f1a" font-size="11">je veux / nous voulons</text>
+	<text x="180" y="540" text-anchor="middle" fill="#5a5648" font-size="10">singular + ils change; nous/vous keep the base stem</text>
+
+	<text x="580" y="468" text-anchor="middle" fill="#204a31" font-size="12" font-weight="700">VIEN-/VEN- PATTERN</text>
+	<text x="580" y="486" text-anchor="middle" fill="#201f1a" font-size="11">venir, tenir, and compounds</text>
+	<text x="580" y="504" text-anchor="middle" fill="#201f1a" font-size="11">je viens / nous venons</text>
+	<text x="580" y="522" text-anchor="middle" fill="#201f1a" font-size="11">ils viennent</text>
+	<text x="580" y="540" text-anchor="middle" fill="#5a5648" font-size="10">same vien-/ven- split across the whole family</text>
+
+	<rect x="46" y="560" width="708" height="30" rx="0" fill="none"/>
+	<text x="400" y="580" text-anchor="middle" fill="#5a5648" font-size="10">prendre family (prend-/pren-/prenn-) follows the same kind of shared family rule</text>
+
+	<!-- row 4: spelling-change verbs, not third-group irregulars -->
+	<rect x="46" y="610" width="708" height="126" rx="8" fill="#fbead0" stroke="#ddd8c4"/>
+	<text x="400" y="634" text-anchor="middle" fill="#5a5648" font-size="12" font-weight="700">NOT THIRD-GROUP IRREGULARS AT ALL: FULLY REGULAR -ER VERBS</text>
+	<text x="400" y="656" text-anchor="middle" fill="#201f1a" font-size="11">with a pronunciation-driven spelling accommodation</text>
+
+	<text x="180" y="682" text-anchor="middle" fill="#201f1a" font-size="12">appeler &#8594; j'appelle</text>
+	<text x="180" y="700" text-anchor="middle" fill="#5a5648" font-size="10">l doubles before a silent ending</text>
+
+	<text x="400" y="682" text-anchor="middle" fill="#201f1a" font-size="12">pr&#233;f&#233;rer &#8594; je pr&#233;f&#232;re</text>
+	<text x="400" y="700" text-anchor="middle" fill="#5a5648" font-size="10">&#233; becomes &#232; before a silent ending</text>
+
+	<text x="620" y="682" text-anchor="middle" fill="#201f1a" font-size="12">payer &#8594; je paie/paye</text>
+	<text x="620" y="700" text-anchor="middle" fill="#5a5648" font-size="10">y may shift to i before a silent e</text>
+
+	<text x="400" y="726" text-anchor="middle" fill="#5a5648" font-size="10" font-style="italic">Source: Larousse conjugation tables; Wikipedia, &#8220;French conjugation&#8221; (spelling-rule and group classification)</text>
+</svg>

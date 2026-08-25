@@ -42,3 +42,14 @@
 - **Deadline**：2026-09-15 17:00（鼠标真实点击日历控件选中）。
 - **发布状态**：✅ 已提交，跳转到 thankyou.asp，提示 "Pending approval..."。提交回执 product id = `319c3efad5cfc91593d07e400e06bb1e`。
 - **上线复核**：⏳ 待下次任务运行时补查。
+
+### 2026-08-25（周二，正常排期）— LingoGrove（lingogrove.com）
+
+- **问题标题**：Hawaiian and Pacific language educators: has a word from your language been flattened to one shallow meaning once tourism or retail picked it up?
+- **角度**：绑定`mahalo-meaning`一文讲的真实词义——权威的Pukui & Elbert夏威夷语词典把mahalo列为两层含义（感谢，以及仰慕/敬重），且它的波利尼西亚语源跟aloha完全不同，但商业场合常把它简化成一个通用的"谢谢"结尾语，还常被误当成aloha的变体。征集夏威夷语/太平洋岛语教育者举出另一个真实案例——某个母语词汇被旅游业/零售业商业化使用后简化丢失了原本的深层含义。与此前问过的外来词语义漂移角度（08-04，senpai）、语法教学突破点角度（08-12，虚拟式）、跨文化称呼语误用角度（08-18，habibi）均不重叠，这次聚焦商业化对词义本身的"扁平化"。
+- **绑定文章**：LingoGrove `mahalo-meaning`（Mahalo Meaning: Thanks, Admiration, and No Relation to Aloha）。
+- **分类标签**：Topics = General + PR, Media & Marketing；Countries = Australia + UK & Republic of Ireland + Canada + United States。
+- **表单设置**：Job title = Content Creator；Organisation = LingoGrove；Contact = Email；Unpaid；Email address 和 Contact email 均填 `contact@lingogrove.com`。
+- **Deadline**：2026-09-24 17:00（鼠标真实点击日历控件选中）。
+- **发布状态**：✅ 已提交，跳转到 thankyou.asp，提示 "Pending approval..."。提交回执 product id = `46fa52a52c0daaa3caa0617247ef054d`。
+- **上线复核**：⏳ 待下次任务运行时补查。
