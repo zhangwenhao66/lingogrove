@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" font-family="system-ui, -apple-system, sans-serif">
+	<rect width="900" height="560" fill="#f6f4e9"/>
+
+	<rect x="24" y="24" width="852" height="72" rx="10" fill="#3a3a52"/>
+	<text x="450" y="56" text-anchor="middle" fill="#ffffff" font-size="20" font-weight="700">ONE SPELLING, THREE UNRELATED WORDS</text>
+	<text x="450" y="82" text-anchor="middle" fill="#d8d6e6" font-size="14">how "voila" collides with "viola" and "wallah" in English</text>
+
+	<!-- Column 1: voila -->
+	<rect x="24" y="120" width="270" height="410" rx="10" fill="#fffefa" stroke="#ddd8c4"/>
+	<rect x="24" y="120" width="270" height="48" rx="10" fill="#7a2e2e"/>
+	<rect x="24" y="148" width="270" height="20" fill="#7a2e2e"/>
+	<text x="159" y="150" text-anchor="middle" fill="#ffffff" font-size="15" font-weight="700">VOILÀ (French)</text>
+
+	<g fill="#201f1a" font-size="13.5">
+		<text x="46" y="196" font-weight="700">vois ("you see") +</text>
+		<text x="46" y="214" font-weight="700">là ("there")</text>
+		<text x="46" y="234" fill="#5a5648">first recorded 1342</text>
+
+		<text x="46" y="274" font-weight="700">English kept only the</text>
+		<text x="46" y="292" fill="#5a5648">dramatic-reveal sense:</text>
+		<text x="46" y="310" fill="#5a5648">"here it is," "ta-da"</text>
+
+		<text x="46" y="350" font-weight="700">Dropped the near/far</text>
+		<text x="46" y="368" fill="#5a5648">contrast with voici,</text>
+		<text x="46" y="386" fill="#5a5648">and the French "it's</text>
+		<text x="46" y="404" fill="#5a5648">been [x time]" sense</text>
+
+		<text x="46" y="444" font-weight="700">Casual pronunciation</text>
+		<text x="46" y="462" fill="#5a5648">drops the "v" sound,</text>
+		<text x="46" y="480" fill="#5a5648">producing spelling</text>
+		<text x="46" y="498" fill="#5a5648">drift toward "wallah"</text>
+	</g>
+
+	<!-- Column 2: viola -->
+	<rect x="315" y="120" width="270" height="410" rx="10" fill="#fffefa" stroke="#ddd8c4"/>
+	<rect x="315" y="120" width="270" height="48" rx="10" fill="#2f4f6b"/>
+	<rect x="315" y="148" width="270" height="20" fill="#2f4f6b"/>
+	<text x="450" y="150" text-anchor="middle" fill="#ffffff" font-size="15" font-weight="700">VIOLA (unrelated)</text>
+
+	<g fill="#201f1a" font-size="13.5">
+		<text x="337" y="196" font-weight="700">A string instrument</text>
+		<text x="337" y="214" fill="#5a5648">between violin and</text>
+		<text x="337" y="232" fill="#5a5648">cello, or a flower</text>
+
+		<text x="337" y="272" font-weight="700">From Italian/Latin,</text>
+		<text x="337" y="290" fill="#5a5648">no connection to</text>
+		<text x="337" y="308" fill="#5a5648">French voir ("to see")</text>
+
+		<text x="337" y="348" font-weight="700">Pronounced vee-OH-luh,</text>
+		<text x="337" y="366" fill="#5a5648">nothing like voilà's</text>
+		<text x="337" y="384" fill="#5a5648">vwah-LAH</text>
+
+		<text x="337" y="424" font-weight="700">Both are correctly</text>
+		<text x="337" y="442" fill="#5a5648">spelled English words,</text>
+		<text x="337" y="460" fill="#5a5648">so spell-check won't</text>
+		<text x="337" y="478" fill="#5a5648">catch the swap</text>
+	</g>
+
+	<!-- Column 3: wallah -->
+	<rect x="606" y="120" width="270" height="410" rx="10" fill="#fffefa" stroke="#ddd8c4"/>
+	<rect x="606" y="120" width="270" height="48" rx="10" fill="#4a5a2e"/>
+	<rect x="606" y="148" width="270" height="20" fill="#4a5a2e"/>
+	<text x="741" y="150" text-anchor="middle" fill="#ffffff" font-size="15" font-weight="700">"WALLAH" (two, real)</text>
+
+	<g fill="#201f1a" font-size="13.5">
+		<text x="628" y="196" font-weight="700">Indo-Aryan -wala/</text>
+		<text x="628" y="214" font-weight="700">-wallah suffix</text>
+		<text x="628" y="232" fill="#5a5648">from Sanskrit pāla + -ka:</text>
+		<text x="628" y="250" fill="#5a5648">chaiwala, dabbawala</text>
+
+		<text x="628" y="290" font-weight="700">Arabic wallah</text>
+		<text x="628" y="308" fill="#5a5648">wa- ("by") + Allah:</text>
+		<text x="628" y="326" fill="#5a5648">an oath, "I swear</text>
+		<text x="628" y="344" fill="#5a5648">to God"</text>
+
+		<text x="628" y="384" font-weight="700">Neither is related to</text>
+		<text x="628" y="402" fill="#5a5648">each other, or to the</text>
+		<text x="628" y="420" fill="#5a5648">misspelled French</text>
+		<text x="628" y="438" fill="#5a5648">"voilà," coincidence,</text>
+		<text x="628" y="456" fill="#5a5648">not a shared root</text>
+	</g>
+</svg>

@@ -5549,4 +5549,85 @@ export const guides: Guide[] = [
 			{ label: 'Cornell University Russian grammar reference: "The meaning of Partitive and Locative cases" (Leed, Nakhimovsky & Nakhimovsky)', url: 'http://russian.cornell.edu/grammar/html/gr10_b.htm' },
 		],
 	},
+	{
+		slug: 'voila-meaning',
+		category: 'Loanwords',
+		title: 'Voila Meaning: French "See There" and Why People Write "Wallah"',
+		description: 'Voila comes from French vois ("you see") and là ("there"). English kept the dramatic reveal but not the near/far distinction, and its dropped "v" sound produced "wallah."',
+		published: '2026-08-26',
+		updated: '2026-08-26',
+		coreSummary: 'Voilà is built from vois, the second-person singular indicative of French voir ("to see"), plus là ("there"); the CNRTL etymological dictionary traces it to 1342, when it was paired with voici to mark something near versus something farther off, a distinction modern French has mostly abandoned in favor of voilà alone. English kept only the word\'s dramatic-reveal sense, never took on French\'s separate use of voilà to mean "it has now been [some length of time]," and a weakened "v" sound in casual pronunciation produced spelling variants including "wallah" and "viola," both of which happen to already be different, unrelated words.',
+		language: 'French',
+		usageNote: {
+			register: 'neutral',
+			regionNote: 'Voilà itself carries no regional split in French; the variation is entirely on the English side, where careful writing keeps the grave accent and the "v" sound (vwah-LAH), while casual speech and writing increasingly drop both, producing spellings like "voila," "wallah," and, mistakenly, "viola."',
+		},
+		sections: [
+			{
+				heading: 'What "voilà" literally means, and its first recorded use in 1342',
+				body: [
+					'Voilà is not one word but a fused command: the CNRTL, France\'s national reference dictionary for etymology, describes it as a compound "de la 2e personne de l\'indicatif de voir et de la particule là," built from the second-person singular indicative of voir ("to see") and the adverb là ("there"). Literally, voilà says "you see [it] there." CNRTL\'s earliest citation for the word dates to 1342, recorded as vela in Guillaume de Machaut\'s poem Le Dit dou Lyon, where it was already being used to point at "une personne ou une chose relativement éloignée," a person or thing at some remove from the speaker. French still writes the word with its grave accent, voilà; English borrowings routinely drop it, leaving voila.',
+					'By the time it reached Merriam-Webster and Dictionary.com as an English entry, voilà had narrowed to a single job: an interjection used to call attention to something, to express satisfaction or approval, or to suggest that something has appeared as if by magic, roughly the effect of saying "here it is," "look at that," or "ta-da" while presenting or revealing something just finished or shown off. Cambridge Dictionary\'s pronunciation guide gives the sound as vwah-LAH, with the same "v" English speakers use in "van," not a silent or softened one, however often that "v" gets lost in practice.',
+				],
+				image: {
+					src: '/images/voila-meaning-diagram.svg',
+					alt: 'Diagram showing French voilà (vois + là, "you see there," first recorded 1342) narrowing in English to a dramatic-reveal interjection, contrasted with the unrelated word viola and the two unrelated real words spelled wallah.',
+				},
+			},
+			{
+				heading: '"Voici" versus "voilà": the distinction English never adopted',
+				body: [
+					'Voilà has a twin built the same way: voici, from vois plus ci ("here"), the same construction CNRTL cross-references directly under its voilà entry. The pairing was originally about distance, not just style, voici for what is near the speaker, voilà for what sits farther off, the same ci/là contrast that shows up elsewhere in French to mark "here" against "there." Recent French-usage guides and grammar blogs describe that spatial distinction as largely eroded in modern spoken French: voilà now covers most everyday presenting and announcing regardless of actual distance, while voici survives mainly in formal introductions and written contexts, such as introducing a guest or a set of results. French also slots object pronouns directly into both words, me voici ("here I am"), nous voilà ("there we are," or "here we are now"), using the same [pronouns](/french-pronouns/) that attach to ordinary French verbs, a construction English "voila" never picked up at all.',
+					'French also gives voilà a job English speakers who use the borrowed word have never heard of: marking elapsed time. CNRTL\'s own citation record traces this sense to a mid-18th-century attestation, glossed as "il y a exactement (tel laps de temps)," "it has been exactly [such a length of time]." The construction pairs voilà with a duration and que: voilà trois mois qu\'il est parti translates as "he\'s now been gone for three months," built with French present tense even though the natural English rendering needs a past tense. Nothing about that sense survived the word\'s trip into English; an English speaker saying "voila" is never talking about how long something has been going on.',
+				],
+			},
+			{
+				heading: 'How English narrowed the word, and the "voila" vs. "viola" mix-up',
+				body: [
+					'What actually crossed into English, per both Merriam-Webster and Dictionary.com, was the presenting-and-revealing sense alone: the reflexive imperative "you see" collapsed into a flourish that announces something is finished, found, or on display, with no requirement that the thing be literally far from the speaker the way fourteenth-century French demanded. That narrowing is exactly what produces the most common English error attached to the word: writing viola instead of voila.',
+					'Viola is a real, correctly spelled English word, a string instrument sized between a violin and a cello, or, separately, a name for a group of flowering plants, and it shares no history at all with the French voir family. Washington State University\'s long-running Common Errors in English Usage site, maintained by linguist Paul Brians, catalogs the mix-up directly under an entry titled "viola/voila," noting that writers reach for the more familiar English word viola when they mean the interjection, producing sentences that read as if a musical instrument had just been presented instead of an idea, a dish, or a finished task. Spell-check software doesn\'t catch the error because both words are legitimate English spellings; only meaning gives away the mistake. The two aren\'t even close in sound once spoken aloud: voila is vwah-LAH, viola is vee-OH-luh, a completely different vowel pattern and stress that has nothing to do with why the written mix-up happens so often.',
+				],
+			},
+			{
+				heading: 'One spelling, three unrelated origins: "voila," "viola," and "wallah"',
+				body: [
+					'The written confusion runs in a second direction too, toward a word that looks even less like French: wallah. Merriam-Webster\'s own entry for voilà notes that the "v" at the start of vwah-LAH is sometimes not clearly heard in casual speech, and that this weakening has produced a family of respelling attempts, including vwa-lah, wa-lah, wa-la, and wallah. The language blog Grammarphobia, run by longtime usage writers Patricia O\'Conner and Stewart Kellerman, devoted an entire post to the drift back in August 2016, tracing how English speakers unfamiliar with the French spelling reconstruct the sound they hear rather than the word they\'d see written down, landing, by coincidence, on a spelling two entirely different words already own.',
+					'The Indo-Aryan suffix -wala (also written -wallah) has nothing to do with French at all. Per Wikipedia\'s entry on the word, it derives from Sanskrit pālá combined with the Middle Indo-Aryan suffix -ka-, and functions in Hindi, Urdu, Bengali, and related languages as an agentive or associative ending: a chaiwala is someone who serves tea, a dabbawala delivers lunchboxes, and British military slang from the early twentieth century borrowed the pattern wholesale for terms like "base wallah." A second, entirely separate wallah sits in Arabic: wallah (والله) is an oath, built from wa- ("by," used in swearing) plus Allah ("God"), and functions as "I swear to God" in everyday speech across the Arabic-speaking world. Neither the Indo-Aryan suffix nor the Arabic oath has any etymological connection to the other, or to the French voir that produced voilà; all three converge on the same handful of letters purely because English speakers, guessing at an unfamiliar French sound, happened to land on spellings that two older, unrelated words had already claimed. Voilà isn\'t the only import that shed most of its original texture on the way into English: [per se](/per-se-meaning/) survived as a narrow legal-and-adverb slice of a much more flexible Latin phrase, the same kind of trim French\'s "see there" underwent once it crossed over.',
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'What does "voila" mean?',
+				answer: 'Voilà is French for "you see there," built from vois ("you see," the indicative form of voir) plus là ("there"), first recorded in 1342. In English, it survives as an interjection used to call attention to something, express satisfaction, or announce something as finished or revealed, roughly equivalent to "here it is" or "ta-da."',
+			},
+			{
+				question: 'Why do people write "wallah" instead of "voila"?',
+				answer: 'Merriam-Webster notes that the "v" sound at the start of voilà\'s pronunciation, vwah-LAH, is sometimes not clearly heard in casual speech, which leads English speakers unfamiliar with the French spelling to reconstruct it as vwa-lah, wa-lah, or wallah. The usage blog Grammarphobia documented this drift as an established phenomenon as far back as 2016.',
+			},
+			{
+				question: 'What\'s the difference between "voila" and "viola"?',
+				answer: 'They are unrelated words that happen to look similar. Voila is the French interjection meaning roughly "here it is." Viola is a string instrument between a violin and a cello in size (or, separately, a flowering plant), from a completely different word history. Washington State University\'s Common Errors in English Usage catalogs writers substituting viola for voila as one of the more common English mix-ups, since both are correctly spelled words and spell-check won\'t flag the swap.',
+			},
+			{
+				question: 'Is "wallah" a real word too?',
+				answer: 'Yes, two unrelated real words share that spelling. One is an Indo-Aryan suffix (Hindi/Urdu -wala, from Sanskrit pālá plus -ka-) meaning roughly "person associated with," as in chaiwala ("tea person"). The other is an Arabic oath, wallah (wa- "by" plus Allah), meaning "I swear to God." Neither is related to the other, or to the French voilà that casual English spelling sometimes drifts toward the same letters.',
+			},
+			{
+				question: 'Does "voila" ever mean "it\'s been [an amount of time]" in French?',
+				answer: 'Yes, in French, not in English. CNRTL\'s citation record traces this sense to a mid-18th-century attestation, in the construction voilà + duration + que, as in voilà trois mois qu\'il est parti ("he\'s now been gone for three months"). That meaning never crossed over when English borrowed the word; English "voila" is only ever the presenting-and-revealing interjection.',
+			},
+		],
+		sources: [
+			{ label: 'CNRTL: "Voilà" (etymology: composé de vois + là, first attestation 1342, Guillaume de Machaut)', url: 'https://www.cnrtl.fr/etymologie/voil%C3%A0' },
+			{ label: 'Merriam-Webster: "Voilà" (definition, pronunciation, and note on the dropped "v" producing spelling variants)', url: 'https://www.merriam-webster.com/dictionary/voil%C3%A0' },
+			{ label: 'Dictionary.com: "Voilà" (definition and usage as an interjection)', url: 'https://www.dictionary.com/browse/voila' },
+			{ label: 'Cambridge Dictionary: pronunciation of "voilà" in English', url: 'https://dictionary.cambridge.org/us/pronunciation/english/voila' },
+			{ label: 'Grammarphobia: "And, voilà, \'wallah\'!" (August 2016, on the sound-driven respelling of voilà)', url: 'https://www.grammarphobia.com/blog/2016/08/wallah.html' },
+			{ label: 'Washington State University, Common Errors in English Usage (Paul Brians): "viola/voila"', url: 'https://brians.wsu.edu/2016/05/19/viola-voila/' },
+			{ label: 'Wikipedia: "Wallah" (Indo-Aryan suffix, from Sanskrit pālá + Middle Indo-Aryan -ka-)', url: 'https://en.wikipedia.org/wiki/Wallah' },
+			{ label: 'Wiktionary: "والله" (Arabic wallah, wa- "by" + Allah, oath usage)', url: 'https://en.wiktionary.org/wiki/%D9%88%D8%A7%D9%84%D9%84%D9%87' },
+			{ label: 'The LEAF Project: French grammar on expressing duration with voilà + time + que', url: 'https://www.leaflanguages.org/french-grammar-telling-how-long-ago-depuis-il-y-a-ca-fait-que-pour-pendant/' },
+		],
+	},
 ];
