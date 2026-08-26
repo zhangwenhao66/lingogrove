@@ -5630,4 +5630,82 @@ export const guides: Guide[] = [
 			{ label: 'The LEAF Project: French grammar on expressing duration with voilà + time + que', url: 'https://www.leaflanguages.org/french-grammar-telling-how-long-ago-depuis-il-y-a-ca-fait-que-pour-pendant/' },
 		],
 	},
+	{
+		slug: 'mamacita-meaning',
+		category: 'Loanwords',
+		title: 'Mamacita Meaning: How "Little Mama" Became English Slang for "Hottie"',
+		description: 'Mamacita literally means "little mama," built from mamá plus the diminutive suffix -cita. Spanish keeps two senses side by side; English borrowed only the sexualized one.',
+		published: '2026-08-26',
+		updated: '2026-08-26',
+		coreSummary: 'Mamacita is built from mamá ("mom") plus -cita, a variant of the Spanish diminutive suffix -ita added to words that already end in a vowel other than -o, so it literally means "little mama." Wiktionary\'s own entry for the word records two distinct senses: a plain, affectionate diminutive of mamá with no region label, and a sense marked specifically "Latin America, slang" meaning "babe" or "hottie," a sexually attractive woman. The Oxford English Dictionary\'s earliest evidence for the word in English dates to 1887, in Overland Monthly, but the English borrowing kept only the second sense, stripped of the first.',
+		language: 'Spanish',
+		usageNote: {
+			register: 'casual',
+			regionNote: 'The affectionate, family sense carries no region label in Wiktionary\'s entry. The "hottie" slang sense is specifically associated with Latin America. Directed at a stranger, especially in public, it functions as a catcall rather than a compliment, the experience journalist Laura Martínez wrote about in a 2014 essay.',
+		},
+		sections: [
+			{
+				heading: 'Mamá plus -cita: the grammar behind "little mama"',
+				body: [
+					'Wiktionary\'s entry for the Spanish suffix -cito describes it as an alternative form of -ito, "added to masculine words and names to denote a diminutive form," used especially "with words ending in a consonant or a vowel other than -o," and, unlike -ito, one that "does not delete the final vowel" of the word it attaches to. The feminine counterpart, -cita, works the same way. Mamá already ends in the vowel -á, not -o, so the regular diminutive path (which would delete a final vowel and add -ita) doesn\'t apply cleanly; -cita attaches instead, giving mamá + -cita = mamacita, "little mama." The masculine parallel is exact: Wiktionary\'s entry for papacito glosses it simply as "diminutive of papá; daddy," built from the identical papá + -cito pattern.',
+					'Spanish also splits the word\'s pronunciation along a line that has nothing to do with mamacita specifically: what happens to the letter c before an i. Wiktionary\'s pronunciation guide gives two IPA forms, /mamaˈθita/ in Spain and Equatorial Guinea, where c before i or e is pronounced like English "th" (a feature called distinción), and /mamaˈsita/ in Latin America and the Philippines, where that same c is pronounced /s/ (seseo). The same split shows up in papacito, following the same rule for the identical -cito/-cita spelling.',
+				],
+				image: {
+					src: '/images/mamacita-meaning-diagram.svg',
+					alt: 'Diagram showing mamá plus the diminutive suffix -cita forming mamacita ("little mama"), with two IPA pronunciations by region, alongside the word\'s two senses in Spanish: a plain affectionate diminutive, and a Latin America-marked slang sense for an attractive woman that English borrowed on its own.',
+				},
+			},
+			{
+				heading: 'Two senses, one word: "mommy" and "hottie" side by side in Spanish',
+				body: [
+					'Wiktionary\'s Spanish-language entry for mamacita doesn\'t treat this as one meaning with a loose figurative extension; it lists two separate senses. The first is simply "diminutive of mamá," unmarked for region or register, the ordinary affectionate word a child might use for their mother. The second is labeled "(Latin America, slang) babe, hottie (sexually attractive woman)," geographically restricted in a way the first sense isn\'t.',
+					'Wiktionary\'s citation for the slang sense is a real, dated example rather than an invented one: a line from "Dura," the 2018 reggaetón single by Daddy Yankee, "\'Tás dura, mamacita, te fuiste de nivel" (roughly, "you\'re fierce, mamacita, you\'ve leveled up"), where mamacita functions exactly as the "hottie" gloss describes, not as anything related to motherhood. That two-sense structure, one word doing both jobs depending on who\'s speaking to whom, is the same shape [habibi](/habibi-meaning/) has in Arabic, where a term built for close relationships also gets used, in a different register, for someone the speaker barely knows.',
+				],
+			},
+			{
+				heading: 'What English kept, and what it dropped',
+				body: [
+					'The Oxford English Dictionary records mamacita as an English word in its own right, with an etymology tracing it to Spanish mamá plus -cita and its earliest documented English use in 1887, in the periodical Overland Monthly. Wiktionary\'s separate entry for the English borrowing defines it with a single line: "(slang) A babe, a hottie (sexually attractive woman)." There is no family or affectionate sense listed on the English side at all. Whatever nuance Spanish preserves by keeping "little mama" and "hottie" as two clearly labeled senses of the same word, English flattened into one, the same narrowing [voilà](/voila-meaning/) underwent when it crossed into English and kept only its dramatic-reveal sense, dropping the French word\'s separate use for marking elapsed time.',
+					'That narrowing has a real consequence: in English, and often in Spanish when the word is directed at someone the speaker doesn\'t know, mamacita carries none of the neutral, mom-adjacent warmth its etymology suggests. Journalist Laura Martínez wrote about this directly for NPR\'s Code Switch in 2014: she grew up around catcalling in Mexico City, mostly with other words like "sabrosa" and "rica," and later, in her own New York City neighborhood, a stranger yelled "Mamacita!" at her outside a fruit stand, not intended, and not received, as a reference to motherhood. Her essay\'s title makes the gap explicit: "Don\'t Call Me \'Mamacita.\' I Am Not Your Mommy."',
+				],
+			},
+			{
+				heading: 'Who says it, and to whom, changes what it means',
+				body: [
+					'None of this makes mamacita an inherently offensive word; it makes it a word whose meaning depends heavily on the relationship between speaker and listener, more than most loanwords English has picked up. Used by a parent to a young daughter, or between partners who already know each other, it lands as the plain affectionate diminutive Wiktionary lists first. Called out by a stranger on a street, it lands as the second sense, unmoored from any family context and, per Martínez\'s account, experienced as harassment rather than a compliment.',
+					'The masculine counterpart, papacito, follows the identical grammar: papá + -cito, which Wiktionary glosses simply as "diminutive of papá; daddy," with synonyms papi, papaíto, and papito. A closely related term, mamita, is listed by Wiktionary as a direct synonym of mamacita, built with the more common -ita suffix straight onto a shortened stem rather than the -cita variant, and used, like mamacita\'s first sense, as an unmarked term of endearment for "mommy." Wiktionary doesn\'t document a second, sexualized sense for either papacito or mamita the way it does for mamacita itself, which is exactly what makes mamacita worth a separate note: how cleanly its two senses split by both region and relationship, and how completely English kept only one of them.',
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'What does "mamacita" mean?',
+				answer: 'Literally, "little mama," built from mamá ("mom") plus -cita, a variant of the Spanish diminutive suffix -ita. Wiktionary\'s Spanish entry lists two senses: a plain, affectionate diminutive of mamá used within families, and a sense marked "Latin America, slang" meaning "babe" or "hottie," used for a sexually attractive woman.',
+			},
+			{
+				question: 'Is "mamacita" an insult or a compliment?',
+				answer: 'It depends entirely on who says it and to whom. Within a family or between people who already know each other, it\'s an affectionate term. Directed at a stranger, particularly in public, it typically functions as a catcall rather than a compliment; Laura Martínez\'s 2014 NPR Code Switch essay describes exactly this happening to her, a stranger calling out "Mamacita!" in her own New York City neighborhood.',
+			},
+			{
+				question: 'Why does "mamacita" sound different in Spain than in Mexico?',
+				answer: 'Spanish splits pronunciation of the letter c before i or e along regional lines. Spain and Equatorial Guinea use distinción, pronouncing that c like English "th" (/mamaˈθita/); Latin America and the Philippines use seseo, pronouncing it as /s/ (/mamaˈsita/). This isn\'t specific to mamacita; the same rule applies to papacito and any other Spanish word where c precedes i or e.',
+			},
+			{
+				question: 'Does English "mamacita" mean the same thing as Spanish "mamacita"?',
+				answer: 'No. The Oxford English Dictionary\'s earliest evidence for the word in English dates to 1887, and Wiktionary\'s entry for the English borrowing defines it with only one sense, "(slang) A babe, a hottie (sexually attractive woman)." Spanish\'s separate, unmarked affectionate sense, "little mama," used within families, has no equivalent on the English side.',
+			},
+			{
+				question: 'What\'s the male equivalent of "mamacita"?',
+				answer: 'Papacito, built the same way from papá ("dad") plus -cito. Wiktionary glosses it simply as "diminutive of papá; daddy," with synonyms papi, papaíto, and papito. Unlike mamacita, Wiktionary\'s entry for papacito doesn\'t document a second, sexualized sense.',
+			},
+		],
+		sources: [
+			{ label: 'Wiktionary: "mamacita" (Spanish entry: etymology mamá + -cita, IPA by region, two senses, Daddy Yankee "Dura" citation; English entry: slang-only sense)', url: 'https://en.wiktionary.org/wiki/mamacita' },
+			{ label: 'Wiktionary: "-cito" (Spanish diminutive suffix, usage notes on when -cito/-cita applies vs. -ito/-ita, papacito example)', url: 'https://en.wiktionary.org/wiki/-cito' },
+			{ label: 'Wiktionary: "papacito" (etymology papá + -cito, "diminutive of papá; daddy," synonyms and regional IPA)', url: 'https://en.wiktionary.org/wiki/papacito' },
+			{ label: 'Wiktionary: "mamita" (listed as a direct synonym of mamacita, etymology mamá + -ita)', url: 'https://en.wiktionary.org/wiki/mamita' },
+			{ label: 'Oxford English Dictionary: "mamacita, n." (etymology and earliest evidence, 1887, Overland Monthly)', url: 'https://www.oed.com/dictionary/mamacita_n' },
+			{ label: 'NPR Code Switch, Laura Martínez: "Don\'t Call Me \'Mamacita.\' I Am Not Your Mommy." (June 2014)', url: 'https://www.npr.org/sections/codeswitch/2014/06/06/319672327/dont-call-me-mamacita-i-am-not-your-mommy' },
+		],
+	},
 ];

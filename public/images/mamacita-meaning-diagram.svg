@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" font-family="system-ui, -apple-system, sans-serif">
+	<rect width="800" height="420" fill="#f6f4e9"/>
+	<rect x="24" y="24" width="360" height="372" rx="10" fill="#fffefa" stroke="#ddd8c4"/>
+	<rect x="416" y="24" width="360" height="372" rx="10" fill="#fffefa" stroke="#ddd8c4"/>
+
+	<rect x="24" y="24" width="360" height="56" rx="10" fill="#8a3b3b"/>
+	<rect x="24" y="60" width="360" height="20" fill="#8a3b3b"/>
+	<text x="204" y="60" text-anchor="middle" fill="#ffffff" font-size="21" font-weight="700">MAMÁ + -CITA</text>
+
+	<rect x="416" y="24" width="360" height="56" rx="10" fill="#5c2a2a"/>
+	<rect x="416" y="60" width="360" height="20" fill="#5c2a2a"/>
+	<text x="596" y="60" text-anchor="middle" fill="#ffffff" font-size="21" font-weight="700">ONE WORD, TWO SENSES</text>
+
+	<g fill="#201f1a" font-size="16">
+		<text x="48" y="118" font-weight="700">mamá</text>
+		<text x="48" y="140" fill="#5a5648" font-size="14">"mom, mother"</text>
+
+		<text x="48" y="176" font-weight="700">+ -cita</text>
+		<text x="48" y="198" fill="#5a5648" font-size="14">variant of -ita, added after a</text>
+		<text x="48" y="216" fill="#5a5648" font-size="14">vowel other than -o (cf. papá + -cito)</text>
+
+		<text x="48" y="256" font-weight="700" font-size="20">= mamacita</text>
+		<text x="48" y="280" fill="#5a5648" font-size="14">literally "little mama"</text>
+
+		<text x="48" y="322" font-weight="700" font-size="14">/mamaˈθita/</text>
+		<text x="48" y="342" fill="#5a5648" font-size="13">Spain, Equatorial Guinea (distinción)</text>
+
+		<text x="48" y="368" font-weight="700" font-size="14">/mamaˈsita/</text>
+		<text x="48" y="388" fill="#5a5648" font-size="13">Latin America, Philippines (seseo)</text>
+	</g>
+
+	<g fill="#201f1a" font-size="16">
+		<text x="440" y="118" font-weight="700">Sense 1: plain diminutive</text>
+		<text x="440" y="140" fill="#5a5648" font-size="14">"mommy": affectionate, family use,</text>
+		<text x="440" y="158" fill="#5a5648" font-size="14">no region label in Wiktionary</text>
+
+		<text x="440" y="198" font-weight="700">Sense 2: Latin America, slang</text>
+		<text x="440" y="220" fill="#5a5648" font-size="14">"babe, hottie": a sexually attractive</text>
+		<text x="440" y="238" fill="#5a5648" font-size="14">woman; can be flirtatious or, directed</text>
+		<text x="440" y="256" fill="#5a5648" font-size="14">at a stranger, a catcall</text>
+
+		<text x="440" y="296" font-weight="700" font-size="15">English kept only Sense 2</text>
+		<text x="440" y="318" fill="#5a5648" font-size="13">OED's earliest evidence: 1887,</text>
+		<text x="440" y="336" fill="#5a5648" font-size="13">Overland Monthly</text>
+	</g>
+
+	<line x1="400" y1="24" x2="400" y2="396" stroke="#ddd8c4" stroke-width="1"/>
+</svg>
