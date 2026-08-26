@@ -255,5 +255,22 @@
       "https://lingogrove.com/ciao-meaning/"
     ],
     "quota_used": "0 (skipped, no unindexed candidate found)"
+  },
+  {
+    "date": "2026-08-26",
+    "action": "submitted",
+    "reason": "今日无新发布。build-index-queue.py队列前6个候选（habibi-meaning/inshallah-meaning/de-nada-meaning/schadenfreude-meaning/per-se-meaning/semper-fi-meaning）URL Inspection逐一核查均已是'URL is on Google'（已收录，不耗配额），第7个候选voila-meaning未收录，REQUEST INDEXING提交成功。",
+    "submitted_urls": [
+      "https://lingogrove.com/voila-meaning/"
+    ],
+    "already_indexed_no_action": [
+      "https://lingogrove.com/habibi-meaning/",
+      "https://lingogrove.com/inshallah-meaning/",
+      "https://lingogrove.com/de-nada-meaning/",
+      "https://lingogrove.com/schadenfreude-meaning/",
+      "https://lingogrove.com/per-se-meaning/",
+      "https://lingogrove.com/semper-fi-meaning/"
+    ],
+    "quota_used": 1
   }
 ]
