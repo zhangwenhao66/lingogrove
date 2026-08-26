@@ -5708,4 +5708,83 @@ export const guides: Guide[] = [
 			{ label: 'NPR Code Switch, Laura Martínez: "Don\'t Call Me \'Mamacita.\' I Am Not Your Mommy." (June 2014)', url: 'https://www.npr.org/sections/codeswitch/2014/06/06/319672327/dont-call-me-mamacita-i-am-not-your-mommy' },
 		],
 	},
+	{
+		slug: 'mijo-meaning',
+		category: 'Loanwords',
+		title: 'Mijo Meaning: Millet, or "My Son"? Two Unrelated Spanish Words',
+		description: 'Mijo has two unrelated histories: a cereal grain from Latin milium, and a contracted form of "mi hijo" (my son), used to address a child or close friend.',
+		published: '2026-08-26',
+		updated: '2026-08-26',
+		coreSummary: 'The RAE dictionary lists mijo first as a cereal grain, millet in English, tracing to Latin milium and further back to a Proto-Indo-European root meaning "to grind." A second, unrelated mijo is a spoken contraction of mi hijo, "my son," used across most of Spanish-speaking Latin America and the Canary Islands as a vocative for a child, younger relative, or close friend; the feminine form mija works the same way from mi hija. The two words share five letters and nothing else, and only the vocative one has a feminine counterpart or a diminutive form.',
+		language: 'Spanish',
+		usageNote: {
+			register: 'casual',
+			regionNote: 'The vocative sense is documented by RAE\'s Diccionario de americanismos (DAMER) as current across most Spanish-speaking Latin American countries and the US, covering address to children, friends, and (in some countries) romantic partners. The Academia Canaria de la Lengua documents the same vocative in the Canary Islands, not as typical of mainland Spain generally.',
+		},
+		sections: [
+			{
+				heading: 'Millet and "my son": completely different words that happen to be spelled the same',
+				body: [
+					'The Real Academia Española\'s dictionary gives mijo a botanical definition first: a plant in the grass family, native to India, with long pointed leaves and flower clusters that curve at the tip, grown for a small, round, shiny, yellowish-white seed. In English, that seed and the plant it comes from are called millet. RAE traces the word back through Latin milium, which in turn descends from a Proto-Indo-European root meaning "to grind" or "crush." That same root family also produced English words like "mill" and "meal." Nothing in that chain touches family, affection, or children.',
+					'The second mijo is built from scratch, out of Spanish itself, by a completely different process. Wiktionary\'s entry treats it as a contraction of mi hijo, "my son," with the feminine mija built the same way from mi hija, "my daughter." The [possessive adjective mi](/spanish-possessive-adjectives/) and the noun run together in fast, informal speech, roughly the way English speakers let "going to" collapse into "gonna." Wiktionary also records an apostrophized spelling, m\'ijo, that marks the elision directly on the page, plus a further-contracted mi\'jo. The Academia Canaria de la Lengua describes the same process from the listening end: in a 2024 consultation answer, it notes that mi hijo and mi hija, used as vocatives, are "sometimes pronounced mijo / mija in spoken speech, pronunciations that can be reproduced in writing when it is intended to represent this informal pronunciation."',
+				],
+				image: {
+					src: '/images/mijo-meaning-diagram.svg',
+					alt: 'Diagram showing two unrelated etymologies converging on the same spelling "mijo": Latin milium (millet, the grain) on one side, and a contraction of "mi hijo" (my son, used as a vocative) on the other, with a note on the vocative sense\'s regional spread across Latin America and the Canary Islands.',
+				},
+			},
+			{
+				heading: 'Who gets called mijo, and where',
+				body: [
+					'RAE\'s Diccionario de americanismos (DAMER) doesn\'t treat the vocative mijo/mija as address to children only. Its entry lists three separate uses, current in Spanish as spoken in the United States and across most of Spanish-speaking Latin America: addressing one\'s own children, addressing a friend or companion, and, in the US, Mexico, Colombia, and Chile specifically, addressing a romantic partner. The Academia Canaria de la Lengua\'s 2024 consultation answer adds a further data point from the Canary Islands: there, the same vocative extends to people outside the family entirely, compared in the answer to the Canarian term mi niño/mi niña, used for someone the speaker has a trusting relationship with regardless of blood ties.',
+					'Mainland Spain sits outside that pattern. The Academia Canaria de la Lengua frames vocative mijo/mija specifically as a feature the Canary Islands share with Spanish America, not as something typical of Peninsular Spanish generally. That leaves mijo/mija mapping onto an ocean-spanning dialect area, the Canary Islands plus most of Latin America, rather than onto Spanish as a whole.',
+				],
+			},
+			{
+				heading: 'A diminutive on top of a contraction, and a version just for friends',
+				body: [
+					'DAMER doesn\'t stop at mijo and mija. It separately documents mijito and mijita, built by adding the ordinary diminutive suffix -ito/-ita onto the already-contracted vocative, with two distinct uses: addressing a friend or companion informally and affectionately, and addressing a child or someone younger than the speaker. That second layer of diminutive marking, stacked on a word that\'s already an affectionate contraction, softens the tone further rather than changing what it refers to.',
+					'DAMER also lists a separate variant, mijijo/mijija, reserved specifically for addressing a friend or companion rather than a literal child or relative. Where mijo\'s core sense stays anchored to parent-child address (or address modeled on it), mijijo/mijija drops that anchor and lives entirely in the peer, friend-to-friend register. Together, the three forms, mijo/mija, mijito/mijita, and mijijo/mijija, sketch a small family of related vocatives that DAMER treats as separate, independently defined entries rather than as one word with loose variants.',
+				],
+			},
+			{
+				heading: 'In English print, but not yet in an English dictionary',
+				body: [
+					'The vocative mijo has no entry of its own in the Oxford English Dictionary or Merriam-Webster, unlike [mamacita](/mamacita-meaning/), which the OED dates to 1887 in English print and defines with a single, narrowed slang sense. But that doesn\'t mean mijo stays entirely inside Spanish. Wiktionary\'s own English-language entry for the word defines it as, in US usage, "a term of endearment for a man or boy; dear, darling, my heart," borrowed directly from Spanish, and backs that definition with citations from English-language publications, including the New York Times and The Athletic.',
+					'That gap, real citations in English print but no entry in either major English dictionary, marks mijo as a word partway through the crossing mamacita finished more than a century ago. Mamacita\'s move into English was clean and narrow: one meaning, no family sense, fully lexicographized by the OED. Mijo\'s English use is documented but not yet formalized. Anyone searching "mijo meaning" today is about as likely to be decoding a Spanish sentence as encountering a word that\'s already functioning, unofficially, as English.',
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'What does "mijo" mean?',
+				answer: 'It depends which mijo. RAE\'s dictionary lists mijo as a cereal grain, millet in English, from Latin milium. Separately and unrelated, mijo is also a spoken contraction of mi hijo, "my son," used as a vocative to address a child or younger relative affectionately; the feminine form is mija, from mi hija.',
+			},
+			{
+				question: 'Is "mijo" a real word, or just a casual contraction?',
+				answer: 'Both, depending on register. RAE\'s Diccionario de americanismos (DAMER) documents the vocative mijo/mija as an established entry, not a typo or slang shorthand. It\'s most often written without an apostrophe, though the spelling m\'ijo, which marks the elision from mi hijo more visibly, is also attested on Wiktionary.',
+			},
+			{
+				question: 'Can you call anyone "mijo," or only your own child?',
+				answer: 'DAMER\'s own entry for mijo/mija lists three uses: addressing one\'s own children, addressing a friend or companion, and, in some countries, addressing a romantic partner. The Academia Canaria de la Lengua adds that in the Canary Islands, the same vocative also extends to people outside the family in a trust-based relationship. DAMER separately lists mijijo/mijija for addressing a friend or companion, a further step from mijo\'s core child-directed use.',
+			},
+			{
+				question: 'Is "mijo" used in Spain?',
+				answer: 'Unevenly. The Academia Canaria de la Lengua treats vocative mijo/mija as a feature the Canary Islands share with Spanish America, not as typical of the Peninsula generally.',
+			},
+			{
+				question: 'Does English have a version of "mijo"?',
+				answer: 'Not in a major dictionary. Neither Merriam-Webster nor the Oxford English Dictionary has an entry for mijo, unlike mamacita, which the OED dates to 1887 in English print. Wiktionary\'s English-language entry documents real use in English text, though, defining mijo as, in US usage, "a term of endearment for a man or boy," with citations from publications including the New York Times and The Athletic. That\'s evidence the word already circulates in English, just not yet in a formal dictionary.',
+			},
+		],
+		sources: [
+			{ label: 'RAE (Real Academia Española): "mijo" (plant/grain definition, Diccionario de la lengua española)', url: 'https://dle.rae.es/mijo' },
+			{ label: 'ASALE, Diccionario de americanismos (DAMER): "mijo, mija" (vocative sense, regional currency across Latin America and the US)', url: 'https://www.asale.org/damer/mijo' },
+			{ label: 'ASALE, Diccionario de americanismos (DAMER): "mijito, mijita" (diminutive forms, two distinct uses)', url: 'https://www.asale.org/damer/mijito' },
+			{ label: 'ASALE, Diccionario de americanismos (DAMER): "mijijo, mijija" (friend-only variant)', url: 'https://www.asale.org/damer/mijijo' },
+			{ label: 'Academia Canaria de la Lengua: consultation on "mijo" as a Canarian usage, shared with Spanish America (February 2024)', url: 'https://www.academiacanarialengua.org/consultas/2024/02/mijo/' },
+			{ label: 'Wiktionary: "mijo" (Spanish entry: two unrelated etymologies, millet from Latin milium and the mi hijo contraction; English entry: US term of endearment, with citations from the New York Times and The Athletic)', url: 'https://en.wiktionary.org/wiki/mijo' },
+			{ label: 'Wiktionary: "m\'ijo" (apostrophized spelling variant of the mi hijo contraction)', url: 'https://en.wiktionary.org/wiki/m%27ijo' },
+		],
+	},
 ];

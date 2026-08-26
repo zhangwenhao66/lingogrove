@@ -1,0 +1,45 @@
+<svg viewBox="0 0 900 480" xmlns="http://www.w3.org/2000/svg" font-family="Georgia, 'Times New Roman', serif">
+  <rect x="0" y="0" width="900" height="480" fill="#faf7f2"/>
+
+  <text x="450" y="42" text-anchor="middle" font-size="22" fill="#2b2420" font-weight="bold">Two unrelated words, one spelling: "mijo"</text>
+
+  <!-- Left branch: millet -->
+  <rect x="40" y="80" width="360" height="60" rx="8" fill="#eef1e8" stroke="#8a9a6b" stroke-width="1.5"/>
+  <text x="220" y="105" text-anchor="middle" font-size="15" fill="#3c4a2c">Latin "milium" (a grain)</text>
+  <text x="220" y="126" text-anchor="middle" font-size="12" fill="#5a6b45">from Proto-Indo-European *melh₂- "to grind"</text>
+
+  <line x1="220" y1="140" x2="220" y2="185" stroke="#8a9a6b" stroke-width="2"/>
+  <polygon points="220,190 214,178 226,178" fill="#8a9a6b"/>
+
+  <rect x="60" y="195" width="320" height="70" rx="8" fill="#e3e9d8" stroke="#6d7f52" stroke-width="1.5"/>
+  <text x="220" y="222" text-anchor="middle" font-size="15" fill="#2f3c22" font-weight="bold">mijo = millet</text>
+  <text x="220" y="243" text-anchor="middle" font-size="12" fill="#4a5a38">the cereal crop, RAE's headword sense</text>
+  <text x="220" y="258" text-anchor="middle" font-size="12" fill="#4a5a38">no relation to family or address</text>
+
+  <!-- Right branch: mi hijo -->
+  <rect x="500" y="80" width="360" height="60" rx="8" fill="#f1e8ee" stroke="#9a6b8a" stroke-width="1.5"/>
+  <text x="680" y="105" text-anchor="middle" font-size="15" fill="#4a2c3c">"mi hijo" / "mi hija"</text>
+  <text x="680" y="126" text-anchor="middle" font-size="12" fill="#6b455a">"my son" / "my daughter," spoken fast</text>
+
+  <line x1="680" y1="140" x2="680" y2="185" stroke="#9a6b8a" stroke-width="2"/>
+  <polygon points="680,190 674,178 686,178" fill="#9a6b8a"/>
+
+  <rect x="520" y="195" width="320" height="70" rx="8" fill="#e9d8e5" stroke="#7f5273" stroke-width="1.5"/>
+  <text x="680" y="222" text-anchor="middle" font-size="15" fill="#3c2233" font-weight="bold">mijo / mija = vocative</text>
+  <text x="680" y="243" text-anchor="middle" font-size="12" fill="#5a3850">"kiddo," addressing a child, relative,</text>
+  <text x="680" y="258" text-anchor="middle" font-size="12" fill="#5a3850">or close friend by relationship, not age</text>
+
+  <!-- Convergence note -->
+  <line x1="220" y1="265" x2="220" y2="295" stroke="#8a9a6b" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <line x1="680" y1="265" x2="680" y2="295" stroke="#9a6b8a" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <line x1="220" y1="295" x2="680" y2="295" stroke="#a08f78" stroke-width="1.5" stroke-dasharray="4 3"/>
+
+  <rect x="260" y="305" width="380" height="46" rx="6" fill="#f4ede0" stroke="#a08f78" stroke-width="1.5"/>
+  <text x="450" y="333" text-anchor="middle" font-size="13" fill="#5c4a30">Same five letters, two unconnected histories</text>
+
+  <!-- Regional footer -->
+  <rect x="40" y="375" width="820" height="85" rx="8" fill="#eee6d8" stroke="#b8a688" stroke-width="1"/>
+  <text x="450" y="400" text-anchor="middle" font-size="13" fill="#4a3d28" font-weight="bold">DAMER: the vocative sense spans most Spanish-speaking Latin American countries</text>
+  <text x="450" y="420" text-anchor="middle" font-size="12" fill="#5c4d35">plus the Canary Islands — mainland Spain leans on cariño / corazón instead</text>
+  <text x="450" y="440" text-anchor="middle" font-size="12" fill="#5c4d35">Diminutive layer: mijito / mijita. Friend-only variant: mijijo / mijija</text>
+</svg>
