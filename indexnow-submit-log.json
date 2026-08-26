@@ -359,5 +359,10 @@
   "https://lingogrove.com/russian-cases/": {
     "submitted_date": "2026-08-25",
     "verified_status": "pending"
+  },
+  "https://lingogrove.com/voila-meaning/": {
+    "submitted_date": "2026-08-26",
+    "verified_status": "pending",
+    "note": "new publish (Loanwords tier: 'voila meaning' -- Tier1 Grammar confirmed exhausted (word file's only remaining vs-pattern candidate, 'imperfect vs preterite practice', previously skipped as SERP-dominated by interactive quiz tools with no static-article fit), so selected first unused Tier2 candidate in priority order; etymology composed of vois (2nd-person indicative of voir, per CNRTL not imperative as some EN secondary sources claim) + la, first attested 1342 in Guillaume de Machaut's Le Dit dou Lyon per CNRTL's own citation history (fetched directly via curl, not WebFetch); voici/voila near-far distinction and its erosion in modern spoken French; French's elapsed-time construction (voila + duration + que) that never crossed into English; the voila/viola misspelling documented by WSU's Common Errors in English Usage (Paul Brians); and the three-way 'wallah' coincidence -- Merriam-Webster + Grammarphobia (Aug 2016) on the dropped-v respelling, contrasted with the two real unrelated words spelled wallah (Indo-Aryan -wala suffix from Sanskrit pala + Wikipedia's Wallah entry, and Arabic wa-+Allah oath per Wiktionary); self-made SVG diagram; internal links to french-pronouns and per-se-meaning; passed independent 8-fold audit except fixes -- a section-heading duplication bug ('voila,' 'wallah,' and 'wallah' instead of 'voila,' 'viola,' and 'wallah'), 11 narrative em dashes + 1 SVG em dash (L-0810-4 recurrence, this time reaching the primary narrative body/coreSummary fields rather than just metadata), and an over-precise single-sourced date/author attribution (1757, R.-L. Argenson) softened to 'mid-18th-century attestation' in both body and FAQ after a second independent re-audit caught the FAQ still citing the specific year; all fixes confirmed by re-audit, npm run build clean, Bing 200 / Yandex 200. Live URL confirmed 200 with real article content before submission."
   }
 }
