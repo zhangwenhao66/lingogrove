@@ -5787,4 +5787,83 @@ export const guides: Guide[] = [
 			{ label: 'Wiktionary: "m\'ijo" (apostrophized spelling variant of the mi hijo contraction)', url: 'https://en.wiktionary.org/wiki/m%27ijo' },
 		],
 	},
+	{
+		slug: 'sayonara-meaning',
+		category: 'Loanwords',
+		title: 'Sayonara Meaning: Why It\'s Not the Everyday Japanese Goodbye',
+		description: 'Sayonara translates as goodbye, but its literal meaning is closer to "if that\'s how it is." In Japanese it signals a long or permanent parting, not an everyday one.',
+		published: '2026-08-27',
+		updated: '2026-08-27',
+		coreSummary: 'Sayonara comes from Japanese sayō naraba, literally "if it be thus" or "if that\'s the way it is," and the Oxford English Dictionary\'s earliest evidence of it in English dates to 1863. In Japanese it still carries that original weight of finality: it implies an indefinite or permanent separation, so native speakers use it sparingly and reach instead for mata ne ("see you again") or ja ne ("well then") for ordinary goodbyes, a nuance the word lost once English adopted it as a generic farewell and, per a separate OED entry with evidence from 1883, even stretched it into an informal verb meaning to get rid of something.',
+		language: 'Japanese',
+		usageNote: {
+			register: 'formal',
+			regionNote: 'In Japanese, sayonara implies a long or possibly permanent parting and is used sparingly; reaching for it in an ordinary, see-you-tomorrow goodbye can sound overly dramatic. English borrowed only the generic "goodbye" sense, and casual use there, including the informal verb "to sayonara something," meaning to get rid of it, carries none of that original weight.',
+		},
+		sections: [
+			{
+				heading: 'The literal breakdown: "if that\'s the way it is"',
+				body: [
+					'Sayonara is an alteration of the Japanese sayō naraba, where sayō means "thus" or "that way" and naraba means "if it be." Put together, the phrase literally says something closer to "if that\'s how it is" or "if it must be so" than to a dedicated word for "goodbye." Etymonline, Dictionary.com, and Wiktionary all converge on this same breakdown, and Wiktionary\'s Japanese entry gives the fuller, more traditional form as さようなら (sayōnara), with さよなら (sayonara) as the shorter, less formal variant that most learners encounter first.',
+					'The word entered English earlier than its current casual reputation suggests. The Oxford English Dictionary dates its earliest recorded English use to 1863, in the writing of the British diplomat Rutherford Alcock, who served as the first foreign consul-general in Japan after the country reopened to the West. That\'s nearly a century before "sayonara" became a fixture of mid-century American pop culture, and it means the word was already circulating in English travel writing and diplomatic accounts well before Hollywood picked it up.',
+				],
+				image: {
+					src: '/images/sayonara-meaning-diagram.svg',
+					alt: 'Diagram showing the etymology of sayonara from sayō ("that way, thus") plus naraba ("if it be"), and contrasting how the word functions in Japanese, implying an indefinite or permanent separation and used sparingly with everyday alternatives mata ne and ja ne, versus English, where it is a generic casual goodbye and OED records a separate verb sense meaning to get rid of something.',
+				},
+			},
+			{
+				heading: 'Why it lands as far more final in Japanese than in English',
+				body: [
+					'Most English-language explanations gloss over the actual gap between how English and Japanese speakers use this word. In Japanese, sayonara isn\'t the all-purpose "bye" that English treats it as; it implies that the separation will last a while, possibly indefinitely, which is exactly what its literal "if that\'s how it is" meaning suggests: an acknowledgment that circumstances are forcing a real parting, not a quick errand-run goodbye. Japanese-language guides aimed at learners, including LiveJapan and Bento Japanese, describe native speakers using it rarely in daily life and specifically warn against using it with close friends or family when a near-term reunion is expected, since it can come across as needlessly final or even cold.',
+					'That doesn\'t mean the word is never used, and one everyday exception surprises a lot of learners: elementary school classrooms. Teacher-facing guides to Japanese classroom language describe children being taught to say sayōnara to their teacher at the end of the school day, with the teacher saying it right back, a routine, daily use that looks at odds with the "rare and dramatic" reputation the word has everywhere else. The word\'s meaning hasn\'t shifted for the classroom; the ritualized, once-a-day goodbye between a class and its teacher happens to be exactly the kind of bounded, formally marked parting sayonara is built for, distinct from the many small, informal comings and goings among friends that mata ne and ja ne cover instead. Outside school and outside genuinely weighty partings, such as moving away permanently, graduating, retiring, or ending a relationship, several Japanese-learning resources note that saying sayonara to someone you expect to see again soon can read as a joke or as unintentionally melodramatic, the opposite of how casually English speakers toss the word around.',
+				],
+			},
+			{
+				heading: 'What Japanese speakers say instead',
+				body: [
+					'For the everyday goodbyes English speakers assume sayonara covers, Japanese has other, far more common options. Mata ne (またね), built on mata ("again"), means roughly "see you again" and is the standard casual goodbye between friends who expect to meet up soon. Ja ne (じゃあね), literally closer to "well then," works the same way, a light, informal sign-off comparable to English "see ya." Neither carries any implication about how long the separation will last, which is exactly why they, not sayonara, are what actually gets said at the end of a normal day. Workplace Japanese adds its own dedicated farewell, otsukaresama deshita, used specifically when leaving a job or meeting, another sign of how much everyday ground sayonara doesn\'t actually cover despite its reputation as "the" Japanese word for goodbye.',
+					'Readers building out more of their Japanese beyond greetings can go a level deeper with the particles that structure sentences in the first place: the [Japanese particles guide](/japanese-particles-wa-ga-wo-ni/) covers wa, ga, wo, and ni, the small words that do the grammatical work English handles with word order instead.',
+				],
+			},
+			{
+				heading: 'How English flattened it into a casual goodbye, and a verb',
+				body: [
+					'Sayonara\'s entrenchment in American English owes a lot to a specific mid-century moment: the 1957 film Sayonara, directed by Joshua Logan and based on James Michener\'s 1954 novel of the same name, starring Marlon Brando as an American Air Force officer who falls for a Japanese dancer during the Korean War. The film was a major awards-season presence, earning ten Academy Award nominations and winning four, including Best Supporting Actress for Miyoshi Umeki, who became the first person of East Asian descent to win an Oscar in an acting category. A film with that title, that cast, and that awards run put the word in front of a mainstream American audience at a scale ordinary borrowing rarely achieves, well after Alcock\'s 1863 usage but decades before the word\'s more recent, throwaway internet-slang phase.',
+					'English didn\'t stop at borrowing the interjection. The OED also lists a separate verb entry for sayonara, with its earliest recorded evidence dating to 1883, and modern usage has run with it: "say sayonara to" something, as in "say sayonara to your old commute," means to get rid of it, dismiss it, or leave it behind for good, a dismissive, often upbeat use with no real Japanese counterpart, since sayonara in Japanese never functions as a verb applied to objects or situations. It\'s a similar pattern to how English handled [senpai](/senpai-meaning/): a Japanese word absorbed into English, then reshaped and extended in ways the original language never intended.',
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'What does "sayonara" literally mean?',
+				answer: 'It\'s an alteration of Japanese sayō naraba, from sayō ("thus, that way") plus naraba ("if it be"), so the literal sense is closer to "if that\'s how it is" than to a dedicated word for "goodbye." The fuller traditional form is さようなら (sayōnara); さよなら (sayonara) is the shorter, less formal variant.',
+			},
+			{
+				question: 'Do Japanese people actually say "sayonara"?',
+				answer: 'Rarely, in everyday situations. Because the word implies an indefinite or permanent separation, native speakers mostly reserve it for genuinely final goodbyes, formal contexts, or dramatic effect, and generally avoid it with friends or family they expect to see again soon, where it can read as needlessly final.',
+			},
+			{
+				question: 'What\'s the difference between sayonara and mata ne?',
+				answer: 'Mata ne ("see you again") is the standard casual goodbye Japanese speakers use with people they expect to meet again soon, with no implication about how long a separation will last. Sayonara carries that implication directly, an indefinite or permanent parting, which is exactly why it isn\'t the everyday equivalent English speakers often assume it is.',
+			},
+			{
+				question: 'Is "sayonara" formal or rude in Japanese?',
+				answer: 'Neither, exactly, it\'s not impolite, but it is weighty. Using it in a casual, near-term goodbye doesn\'t come across as rude so much as overly dramatic or oddly final, since the word\'s core meaning already signals a real, possibly permanent separation.',
+			},
+			{
+				question: 'Is "say sayonara to something" a real English phrase, or just slang?',
+				answer: 'It\'s recognized as a genuine verb usage: the Oxford English Dictionary carries a separate entry for sayonara as a verb, with its earliest recorded evidence from 1883. In modern use, "say sayonara to" something means to get rid of it or leave it behind, a meaning with no equivalent in Japanese, where the word never functions as a verb applied to objects.',
+			},
+		],
+		sources: [
+			{ label: 'Oxford English Dictionary: "sayonara, int., n., & adj." (earliest English evidence: 1863, Rutherford Alcock)', url: 'https://www.oed.com/dictionary/sayonara_int' },
+			{ label: 'Oxford English Dictionary: "sayonara, v." (earliest English evidence: 1883, J. J. Smith)', url: 'https://www.oed.com/dictionary/sayonara_v' },
+			{ label: 'Online Etymology Dictionary: "Sayonara"', url: 'https://www.etymonline.com/word/sayonara' },
+			{ label: 'Wiktionary: "sayonara" (English entry) and "さようなら" (Japanese entry)', url: 'https://en.wiktionary.org/wiki/sayonara' },
+			{ label: 'Jisho.org: Japanese-English dictionary entry for さようなら', url: 'https://jisho.org/word/%E3%81%95%E3%82%88%E3%81%86%E3%81%AA%E3%82%89' },
+			{ label: 'AFI Catalog: "Sayonara" (1957), dir. Joshua Logan', url: 'https://catalog.afi.com/Catalog/MovieDetails/52356' },
+			{ label: 'JapaPhrase: "What Does Sayonara Mean? Understanding Japan\'s Final Goodbye" (classroom, graduation, and moving-away usage contexts)', url: 'https://japaphrase.com/essentials/sayonara-meaning-usage-guide/' },
+		],
+	},
 ];

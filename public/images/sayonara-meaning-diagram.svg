@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" font-family="system-ui, -apple-system, sans-serif">
+	<rect width="800" height="460" fill="#f4f0e8"/>
+
+	<rect x="24" y="24" width="230" height="90" rx="10" fill="#fffefa" stroke="#ddd6c4"/>
+	<text x="139" y="56" text-anchor="middle" font-size="20" font-weight="700" fill="#201f1a">左様 (sayō)</text>
+	<text x="139" y="80" text-anchor="middle" font-size="14" fill="#5a5648">"that way, thus"</text>
+
+	<text x="285" y="76" text-anchor="middle" font-size="24" fill="#8a7a3f">+</text>
+
+	<rect x="316" y="24" width="230" height="90" rx="10" fill="#fffefa" stroke="#ddd6c4"/>
+	<text x="431" y="56" text-anchor="middle" font-size="20" font-weight="700" fill="#201f1a">ならば (naraba)</text>
+	<text x="431" y="80" text-anchor="middle" font-size="14" fill="#5a5648">"if it be"</text>
+
+	<text x="577" y="76" text-anchor="middle" font-size="24" fill="#8a7a3f">=</text>
+
+	<rect x="608" y="24" width="168" height="90" rx="10" fill="#2f4f6b"/>
+	<text x="692" y="56" text-anchor="middle" font-size="18" font-weight="700" fill="#ffffff">sayōnara</text>
+	<text x="692" y="80" text-anchor="middle" font-size="13" fill="#dce6ee">"if that's how it is"</text>
+
+	<line x1="139" y1="114" x2="692" y2="160" stroke="#ddd6c4" stroke-width="1"/>
+	<line x1="692" y1="114" x2="692" y2="160" stroke="#ddd6c4" stroke-width="1"/>
+
+	<rect x="24" y="160" width="360" height="270" rx="10" fill="#fffefa" stroke="#ddd6c4"/>
+	<rect x="24" y="160" width="360" height="44" rx="10" fill="#2f4f6b"/>
+	<rect x="24" y="184" width="360" height="20" fill="#2f4f6b"/>
+	<text x="204" y="188" text-anchor="middle" fill="#ffffff" font-size="16" font-weight="700">In Japanese</text>
+	<g fill="#201f1a" font-size="14">
+		<text x="48" y="238" font-weight="700">Implies indefinite or</text>
+		<text x="48" y="258" font-weight="700">permanent separation</text>
+		<text x="48" y="288" fill="#5a5648">Used sparingly: reaching for</text>
+		<text x="48" y="306" fill="#5a5648">it in an everyday goodbye can</text>
+		<text x="48" y="324" fill="#5a5648">sound overly dramatic</text>
+		<text x="48" y="366" font-weight="700">Everyday alternatives:</text>
+		<text x="48" y="388" fill="#5a5648">mata ne, "see you again"</text>
+		<text x="48" y="408" fill="#5a5648">ja ne, "well then, bye"</text>
+	</g>
+
+	<rect x="416" y="160" width="360" height="270" rx="10" fill="#fffefa" stroke="#ddd6c4"/>
+	<rect x="416" y="160" width="360" height="44" rx="10" fill="#8a7a3f"/>
+	<rect x="416" y="184" width="360" height="20" fill="#8a7a3f"/>
+	<text x="596" y="188" text-anchor="middle" fill="#ffffff" font-size="16" font-weight="700">In English</text>
+	<g fill="#201f1a" font-size="14">
+		<text x="440" y="238" font-weight="700">Generic, casual goodbye</text>
+		<text x="440" y="258" fill="#5a5648">OED's earliest record: 1863</text>
+		<text x="440" y="288" font-weight="700">Extended into a verb</text>
+		<text x="440" y="308" fill="#5a5648">"say sayonara to" something,</text>
+		<text x="440" y="326" fill="#5a5648">meaning to get rid of it</text>
+		<text x="440" y="346" fill="#5a5648">(OED's separate verb entry,</text>
+		<text x="440" y="364" fill="#5a5648">earliest record: 1883)</text>
+		<text x="440" y="404" fill="#5a5648">Neither sense carries the</text>
+		<text x="440" y="420" fill="#5a5648">Japanese weight of finality</text>
+	</g>
+</svg>
