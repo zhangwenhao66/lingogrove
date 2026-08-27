@@ -76,6 +76,7 @@ function md(text: string): string {
 		.replace(/\*(.*?)\*/g, '<em>$1</em>')
 		.replace(/\[([^\]]+)\]\(((?:[^()]|\([^()]*\))*)\)/g, '<a href="$2">$1</a>');
 }
+import { imgDims } from '../data/imageDims';
 ---
 
 <Layout title={guide.title} description={guide.description} ogImage={guide.image ?? '/favicon.svg'} ogType="article">
@@ -89,6 +90,8 @@ function md(text: string): string {
 		authorName={AUTHOR_NAME}
 		authorUrl={`${SITE_ORIGIN}/about/`}
 		image={heroImage}
+		imageWidth={imgDims(heroImage)?.w}
+		imageHeight={imgDims(heroImage)?.h}
 		url={pageUrl}
 	/>
 	<BreadcrumbList slot="head" items={breadcrumbItems} />
@@ -115,7 +118,10 @@ function md(text: string): string {
 	<div class="mx-auto max-w-[680px]">
 		{guide.image && (
 			<figure class="m-0 mt-10">
-				<img src={guide.image} alt={guide.imageAlt ?? guide.title} class="aspect-[16/9] w-full border border-[var(--ink)]/15 object-cover" loading="eager" />
+				<img src={guide.image} alt={guide.imageAlt ?? guide.title} class="aspect-[16/9] w-full border border-[var(--ink)]/15 object-cover" loading="eager"
+						width={imgDims(guide.image)?.w}
+						height={imgDims(guide.image)?.h}
+					/>
 				{guide.imageCredit && <figcaption class="mt-2 text-xs text-[var(--ink)]/45" set:html={md(guide.imageCredit)} />}
 			</figure>
 		)}
@@ -145,7 +151,10 @@ function md(text: string): string {
 					{section.body.map((paragraph) => <p class="mb-3.5 text-[0.9375rem] leading-[1.85] text-[var(--ink)]/70 last:mb-0" set:html={md(paragraph)} />)}
 					{section.image && (
 						<figure class="m-0 mt-5">
-							<img src={section.image.src} alt={section.image.alt} class="mx-auto h-auto max-h-[70vh] w-auto max-w-full" loading="lazy" />
+							<img src={section.image.src} alt={section.image.alt} class="mx-auto h-auto max-h-[70vh] w-auto max-w-full" loading="lazy"
+						width={imgDims(section.image.src)?.w}
+						height={imgDims(section.image.src)?.h}
+					/>
 							{section.image.credit && <figcaption class="mt-2 text-xs text-[var(--ink)]/45" set:html={md(section.image.credit)} />}
 						</figure>
 					)}

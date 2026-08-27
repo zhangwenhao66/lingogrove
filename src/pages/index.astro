@@ -36,6 +36,7 @@ const byPillar = PILLARS.map((p) => ({
 	...p,
 	items: sorted.filter((g) => g.category === p.category).slice(0, 3),
 }));
+import { imgDims } from '../data/imageDims';
 ---
 
 <Layout>
@@ -76,7 +77,9 @@ const byPillar = PILLARS.map((p) => ({
 										alt={g.imageAlt ?? g.title}
 										class="aspect-[3/2] w-full border border-[var(--ink)]/15 object-cover"
 										loading="lazy"
-									/>
+						width={imgDims(g.image)?.w}
+						height={imgDims(g.image)?.h}
+					/>
 								)}
 								<p class="font-display entry-title m-0 mt-3 text-[1.15rem] leading-snug font-bold text-[var(--ink)]">{g.title}</p>
 								<p class="m-0 mt-1.5 text-sm leading-relaxed text-[var(--ink)]/60">{g.description}</p>
