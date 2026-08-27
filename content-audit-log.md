@@ -1144,3 +1144,52 @@
   "escalation": null
 }
 ```
+
+## 2026-08-27 完整审计：`subjunctive-spanish`
+
+```json
+{
+  "url_slug": "subjunctive-spanish",
+  "last_audited": "2026-08-27",
+  "published_date": "2026-08-05",
+  "note": "本站第16次由trafficsite-content-quality-audit完整审计。选中原因：content-audit-log.md已有15条记录，guides.ts里subjunctive-spanish是从未被本任务审计过的文章里published最早（2026-08-05）且数组位置最靠前的一篇。",
+  "diagnosed_checkpoints": [
+    "六个'drop-the-o'规则不适用的完全不规则动词(ser/estar/ir/haber/saber/dar)及其yo形式(soy/estoy/voy/sé/he/doy)的表述是否准确",
+    "quizás/tal vez/a lo mejor的词序影响语气可用性规则(动词前两种语气皆可、动词后仅直陈式)是否有Instituto Cervantes等权威依据",
+    "desde que/cuando从句阻断将来时和条件式、改用虚拟式现在时替代的RAE限制规则是否准确",
+    "futuro simple de subjuntivo(cantare)'几乎只存在于法律/行政文本'的表述是否符合RAE官方说法",
+    "verbo de voluntad/verbo de influencia两类RAE官方例句(Quiero que nieve/Espero que vengas/Deseo que te mejores/Prohibió que fumáramos/Ha permitido que vayan solos/Te aconsejo que lo hagas a mi manera)是否逐字准确、非编造"
+  ],
+  "findings": [
+    { "dimension": "事实准确性", "status": "未发现问题", "detail": "WebSearch逐条核实：RAE glosario'(modo) subjuntivo'词条'no reales, no verificados o no experimentados'定义原文准确；六个完全不规则动词(ser/estar/ir/haber/saber/dar→sea/esté/vaya/haya/sepa/dé)及其yo形式不以plain -o结尾(soy/estoy/voy/doy以-oy结尾、sé以-é结尾、he不以-o结尾)的表述经多方交叉核实准确；RAE官方'desde que {llegue ~ *llegará ~ *llegaría}'限制经RAE语法原文核实准确，cuando同理；quizás/tal vez词序规则('Tal vez viene'动词前两种语气皆可，'Viene tal vez'动词后仅直陈式)经Instituto Cervantes论坛及相关西语教学资源交叉核实与本文表述一致；futuro simple de subjuntivo'reducido casi exclusivamente a los textos jurídicos y administrativos'为RAE官方原文表述，本文'reduced almost exclusively to legal texts'准确概括；verbo de voluntad(Quiero que nieve/Espero que vengas/Deseo que te mejores)与verbo de influencia(Prohibió que fumáramos/Ha permitido que vayan solos/Te aconsejo que lo hagas a mi manera)全部六条例句经WebSearch核实均为RAE Libro de estilo de la lengua española官方原文例句，逐字准确；dormir类-ir词干变化词在nosotros/vosotros出现o→u(而非o→ue)的规则(durmamos/durmáis)经交叉核实准确。" },
+    { "dimension": "EEAT", "status": "未发现问题", "detail": "9条一手权威来源（RAE glosario 5条+RAE Nueva gramática 2条+Instituto Cervantes 1条+StudySpanish交叉核实1条），每个语法点均配真实西语例句+英文翻译，非泛泛而谈。" },
+    { "dimension": "时效性", "status": "不适用，published字段已存在无需回填", "detail": "git log -S确认commit e261285（2026-08-05）为本文首次发布，与guides.ts中published字段完全一致，无需按L-0809-1流程回填；语法规则类内容，RAE官方规则历史上无变动记录，无过时风险。" },
+    { "dimension": "竞品差异化", "status": "未发现问题", "detail": "dataforseo-query实测'spanish subjunctive'真实SERP：reddit.com、spanishdict.com、studyspanish.com、spanishobsessed.com、coffeebreaklanguages.com、enforex.com等，本文尚未进入前10（发布3周新站，符合预期）。WebSearch核实头部竞品内容结构：SpanishDict用WEIRDO(Wishes/Emotions/Impersonal/Recommendations/Doubt-Denial/Ojalá)助记词列举触发词；StudySpanish同样是'先给缩短列表'的简化路径。本文不用助记词，改用RAE官方语法分类(verbo de voluntad/verbo de influencia)+真实RAE例句+quizás/tal vez词序规则+cuando从句阻断将来时的机制性解释+futuro simple de subjuntivo历史fossil，构成真实差异化而非同结构模板页。" },
+    { "dimension": "SEO技术审计", "status": "未发现新问题", "detail": "curl实测线上页面：title(90字符内含品牌后缀)/canonical自引用/单一h1均正确；Article/FAQPage/BreadcrumbList三项schema均正确渲染。Article schema的image字段值为站点全局favicon.svg而非本文专属配图，经核对spanish-future-tense等其他已审计文章同样如此，确认为全站共享schema模板的既有行为，非本文专属缺陷，不属于'修复须针对性'范围内的单篇修复对象。robots.txt对GPTBot/ChatGPT-User/ClaudeBot/Claude-Web/PerplexityBot/Google-Extended均Allow；ads.txt正确指向pub-5245502795720653。" },
+    { "dimension": "GEO审计", "status": "定性评估达标，未做结构性改动", "detail": "coreSummary首段清晰定义mood与tense的区别、FAQ自包含可独立提取(4条)、9条RAE一手权威来源+多条RAE原文对比例句作为quotations(Princeton GEO研究显示quotations带来+30%可见度提升)、schema完整、AI爬虫未被拦截、今日已更新。唯一可选优化点：mood-vs-tense对比或trigger类别目前只有prose+1张SVG图，无独立HTML对比表格，与此前spanish-reflexive-verbs/ser-vs-estar等审计发现的同类轻量缺口一致，判定为非阻断性可选项，未做超出范围的额外编辑。" },
+    { "dimension": "早期内容AI味补漏", "status": "确认发现问题，独立复核确认为真，已修复", "detail": "published=2026-08-05早于avoid-ai-writing技能强制化时间点(2026-08-07)，触发全量检查。Skill(humanizer)+Skill(avoid-ai-writing)扫描发现：description/coreSummary/6个小节heading与body/4条FAQ答案/8条sources[]标签合计29处prose em-dash（密度约每千词14-17处，远超avoid-ai-writing'每千词1处'的硬性上限），另有3处'genuinely'空洞强调词('genuinely different meaning'/'genuinely allow either mood'/'genuinely allow either mood'FAQ复述处)，均可删除不损失信息。" },
+    { "dimension": "外部引用链接腐烂", "status": "未发现问题", "detail": "9条来源逐一curl实测：7条rae.es返回403（RAE对自动化抓取的常规拦截，本站已确立此判断标准，非链接失效）；1条Cervantes PDF返回200；1条studyspanish.com返回403且响应头含cf-mitigated:challenge（Cloudflare对自动化请求的机器人挑战，而非真实失效——已通过dataforseo-query serp查询确认该域名当前仍在'spanish subjunctive'真实SERP中排名，为存活站点）。" },
+    { "dimension": "内链健康度", "status": "未发现问题，非孤儿页", "detail": "grep确认本文被8处其他Grammar/Loanwords文章手写内链引用(spanish-conditional-tense两处/cuando桥接段/法语虚拟式对比/ojalá页/imperative现在虚拟式段/irregular-spanish-verbs段落/古法语futuro subjuntivo对比段)，锚文本各不相同，非重复。逐一核对全部8条桥接句对本文实际内容(mood非tense的核心论点、cuando阻断将来时、futuro simple de subjuntivo法律文本存续、六个不规则动词)的描述均准确，无L-0805-4类失真。" },
+    { "dimension": "Schema数据一致性", "status": "已同步", "detail": "本次编辑涉及description/正文与FAQ文字/sources[].label文字/updated日期，不涉及faq数组结构（仍是4条FAQ，字段形状未变）；构建后curl+python解析线上页面确认Article/FAQPage/BreadcrumbList三项JSON-LD均正确渲染，description字段与guides.ts一致，datePublished保持2026-08-05不变，dateModified已更新为2026-08-27。" },
+    { "dimension": "合规/敏感度漂移", "status": "未发现问题", "detail": "纯语法教学内容，无人物/事件/群体相关表述，无合规风险。" },
+    { "dimension": "配图可用性与版权", "status": "未发现问题", "detail": "public/images/spanish-subjunctive-diagram.svg为站内自制SVG图（非第三方图片，无版权问题），文件存在于public/与dist/，线上页面curl实测200正常渲染，未改动图形内容（图内无文字性AI写作痕迹需修复）。" },
+    { "dimension": "AdSense政策合规", "status": "未发现问题", "detail": "语法教学内容，无敏感类目风险；ads.txt实测正确指向pub-5245502795720653；robots.txt未拦截任何AI爬虫；纯prose内容布局，无诱导误点风险。" }
+  ],
+  "independent_verification": "1个独立agent复核em-dash+genuinely发现：独立读取guides.ts该文章片段(1338-1432行)，独立计数得29处prose em-dash（密度约每千词14-17处，远超1‰阈值）及3处'genuinely'空洞强调词（均可删除不损失信息），判定CONFIRMED，复核在数分钟内正常完成，无agent卡死情况，未触发看门狗降级流程。",
+  "actions_taken": [
+    "29处em-dash（含8处sources[]标签'信源 — 说明'格式）按语境改写为句号/逗号/冒号/分号/括号，未改动任何RAE引例、术语区分或语法规则表述本身",
+    "3处'genuinely'空洞强调词直接删除，语义不变",
+    "updated字段2026-08-05改为2026-08-27（published字段已存在，未触发L-0809-1回填流程）",
+    "Skill(humanizer)+Skill(avoid-ai-writing)复核全文确认零em-dash、零genuinely、无其他AI写作痕迹残留",
+    "npm test（64/64通过）+ npm run build（77页）通过",
+    "git commit（f9aeaef，仅guides.ts）+ push，Cloudflare Pages自动部署",
+    "轮询确认https://lingogrove.com/subjunctive-spanish/返回200且新description已渲染、em-dash计数为0",
+    "seo_drift.py compare仅命中预期内的schema description/dateModified变化提示（WARNING/INFO级），无CRITICAL",
+    "node tools/submit-indexnow.mjs /subjunctive-spanish/提交（Bing 200 / Yandex 200）",
+    "内容发布日志.md追加本条审计更新记录"
+  ],
+  "seo_score": "技术SEO全项通过，未发现需修复项（Article schema image字段为全站共享模板行为，非本文专属问题，未纳入本次修复范围）",
+  "geo_score": "定性评估达标（结构/权威/时效/AI可抓取性均满足，含多条RAE原文对比例句作为quotations），未做侵入性GEO编辑；mood-vs-tense对比缺独立HTML表格为轻量可选优化项，本次未处理",
+  "escalation": null
+}
+```
