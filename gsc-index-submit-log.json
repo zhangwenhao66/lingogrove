@@ -272,5 +272,25 @@
       "https://lingogrove.com/semper-fi-meaning/"
     ],
     "quota_used": 1
+  },
+  {
+    "date": "2026-08-27",
+    "action": "submitted",
+    "reason": "今日无新发布。build-index-queue.py队列前9个候选（habibi-meaning/inshallah-meaning/de-nada-meaning/mashallah-meaning/ciao-meaning/schadenfreude-meaning/per-se-meaning/semper-fi-meaning/voila-meaning）均已是'URL is on Google'（已收录，不耗配额），第10个候选mamacita-meaning未收录，REQUEST INDEXING提交成功。",
+    "submitted_urls": [
+      "https://lingogrove.com/mamacita-meaning/"
+    ],
+    "already_indexed_no_action": [
+      "https://lingogrove.com/habibi-meaning/",
+      "https://lingogrove.com/inshallah-meaning/",
+      "https://lingogrove.com/de-nada-meaning/",
+      "https://lingogrove.com/mashallah-meaning/",
+      "https://lingogrove.com/ciao-meaning/",
+      "https://lingogrove.com/schadenfreude-meaning/",
+      "https://lingogrove.com/per-se-meaning/",
+      "https://lingogrove.com/semper-fi-meaning/",
+      "https://lingogrove.com/voila-meaning/"
+    ],
+    "quota_used": 1
   }
 ]
