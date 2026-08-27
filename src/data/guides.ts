@@ -6025,4 +6025,103 @@ export const guides: Guide[] = [
 			{ label: 'The Daily Beast: "Salesforce Is Ditching Its Awkward Corporate Obsession With Hawaiian Culture" (2018 employee concerns and internal branding changes)', url: 'https://www.thedailybeast.com/salesforce-is-ditching-its-awkward-corporate-obsession-with-hawaiian-culture' },
 		],
 	},
+	{
+		slug: 'french-future-tense',
+		category: 'Grammar',
+		title: 'French Future Tense: Futur Simple vs. Futur Proche',
+		description: 'French also splits the future in two, and the casual "near future vs. far future" explanation is wrong. The real split is about certainty, not distance.',
+		published: '2026-08-27',
+		updated: '2026-08-27',
+		coreSummary: 'French future meaning splits between the futur proche (aller conjugated in the present + infinitive, as in je vais partir) and the futur simple (partirai). Per the Office québécois de la langue française, the real difference isn\'t how soon each event happens: the futur proche, built on the present tense of aller, ties the event to the moment of speaking and reads as more certain, while the futur simple presents it as detached from the present and carries a heavier charge of hypothesis. Historically, the futur simple didn\'t evolve from Latin\'s own synthetic future at all: it grew out of a Vulgar Latin periphrasis, infinitive plus habeo ("to have"), the same mechanism that separately produced the French conditional and Spanish\'s simple future.',
+		language: 'French',
+		sections: [
+			{
+				heading: 'Two future tenses, and the real split isn\'t distance',
+				body: [
+					'Everyday French future meaning splits across two forms: *Je vais partir* ("I\'m going to leave"), the futur proche, built from *aller* conjugated in the present indicative plus an infinitive; and *Je partirai* ("I will leave"), the futur simple, built by adding endings straight onto the infinitive. Plenty of learning material frames the pair as "near future" against "far future," as if the choice were purely about how many days or years stand between now and the event.',
+					'The Office québécois de la langue française\'s own comparison of the two forms says that framing gets the mechanism backward. The futur proche is built on a present-tense auxiliary, so it evokes an event tied to the moment of speaking and gets treated as more certain, regardless of how far off it actually sits in time. The futur simple presents the action as cut loose from the present moment, and that separation is exactly what gives it a heavier charge of hypothesis. The OQLF\'s own contrast makes the point cleanly: a request logged for near-immediate action reads as more certain in the futur proche (*va être ajoutée*) and more hypothetical in the futur simple (*sera ajoutée*), even though both sentences describe essentially the same near-term event. Some contexts genuinely anchored in the present moment (an aside like "I\'m going to take a break, back in a bit") only work in the futur proche. Swapping in the futur simple there sounds subtly wrong to a native speaker, not just more formal.',
+				],
+				image: {
+					src: '/images/french-future-tense-diagram.svg',
+					alt: 'Diagram comparing French future forms: "je vais partir," built on the present tense of aller and anchored close to the moment of speaking as a more certain event, against "je partirai," detached from the present and carrying more hypothesis, plus a marker for "ce sera lui" as a present-tense guess.',
+				},
+			},
+			{
+				heading: 'Building the futur simple: one radical, six shared endings',
+				body: [
+					'Every French verb, regular or not, takes the same six endings in the futur simple: *-rai, -ras, -a, -ons, -ez, -ont*. What changes from verb to verb is only the radical those endings attach to, and for the two regular groups, that radical is simply the infinitive itself. Verbs in *-er* and *-ir* add the endings directly onto the full infinitive, because the infinitive\'s own final vowel supplies exactly the linking sound the ending needs: *chanter* → *chanterai, chanteras, chantera, chanterons, chanterez, chanteront*; *finir* → *finirai, finiras, finira...*.',
+					'Verbs in *-re* work the same way except for one step: the infinitive\'s final *-e* has to be dropped before the ending goes on, since *-re* infinitives already end in a vowel the way *-er* and *-ir* ones do, and keeping it would produce a form nobody says. *Vendre* → *vendrai*, not *vendreai*; *rendre* → *rendrai*. Once that single *-e* is gone, the rest of the conjugation is identical to any other verb\'s: the same six endings, added straight on.',
+				],
+			},
+			{
+				heading: 'Spelling changes that trip people up before the irregulars even show up',
+				body: [
+					'A handful of spelling adjustments apply to otherwise regular *-er* verbs, and the OQLF traces them to pronunciation, not to any irregularity in the verb itself. Verbs whose radical ends, in speech, in a vowel (*crier, louer, marier*) still write the silent *e* the ending needs even though it isn\'t pronounced: *nous crierons* is correct, not *nous crirons*, even though the *e* disappears from the spoken form.',
+					'Verbs ending in *-ecer, -emer, -ener, -eper, -eser, -erer, -ever*, and *-evrer* change the *e* of their last syllable to *è*: *peser* → *je pèserai*; *lever* → *tu lèveras*. Verbs in *-eler* and *-eter* split into two camps. Most, including *acheter* and *geler*, follow the same *è* shift (*j\'achèterai, je gèlerai*); a smaller group, headed by *appeler* and *jeter* and their derivatives, double the final consonant instead (*j\'appellerai, elle jettera*). The 1990 spelling-reform recommendations that the OQLF documents extend the *è* pattern to nearly every *-eler*/*-eter* verb, carving out *interpeler, appeler, jeter*, and their derivatives as the verbs that keep the doubled-consonant spelling either way.',
+					'Verbs in *-oyer* and *-uyer* always change the infinitive\'s *y* to *i* before adding the ending: *nettoyer* → *je nettoierai*; *ennuyer* → *tu ennuieras*. Verbs in *-ayer*, such as *payer* and *essayer*, are the one case where French tolerates either spelling: *ils payeront* and *ils paieront* are both standard.',
+				],
+			},
+			{
+				heading: 'Thirteen irregular stems, and the -re verbs that only look irregular',
+				body: [
+					'Most French verbs that look irregular in the futur simple because their infinitive ends in *-re* actually aren\'t: per the OQLF, the majority of irregular *-re* verbs keep the exact same radical as their infinitive and simply add the ending directly, with no vowel to drop in the first place. *Éteindre* → *ils éteindront*, not *éteinderont*; *apprendre* → *j\'apprendrai*; *cuire* → *elle cuira*. These verbs are irregular only in the sense that a *-re* infinitive\'s ending isn\'t obviously "future-shaped," not because anything about their stem changed.',
+					'A smaller set of verbs is irregular in the way that actually matters: the radical itself changes shape before the endings attach. The OQLF\'s own reference lists this set of examples: *acquérir* → *j\'acquerrai*; *aller* → *j\'irai*; *avoir* → *j\'aurai*; *courir* → *je courrai*; *cueillir* → *je cueillerai*; *être* → *je serai*; *faire* → *je ferai*; *mourir* → *je mourrai*; *pouvoir* → *je pourrai*; *savoir* → *je saurai*; *tenir* → *je tiendrai*; *venir* → *je viendrai*; *voir* → *je verrai*. The OQLF frames this specifically as a representative sample, not a closed list, and recommends checking a dedicated conjugation reference for any verb not covered here. Once the stem is settled, though, every one of these verbs still takes the same six shared endings as *chanter* or *vendre*; nothing about the endings themselves ever changes, in French [any more than it does in Spanish](/spanish-future-tense/).',
+					'*Aller, avoir,* and *être* are also three of the handful of verbs [whose subjunctive stems break the regular pattern](/french-subjunctive/), though the two irregularities aren\'t the same shape: *être*\'s subjunctive stem (*soi-*) and its future stem (*ser-*) come from entirely different places, which the next section explains.',
+				],
+			},
+			{
+				heading: 'The futur simple used to be a periphrasis too',
+				body: [
+					'The reason French future endings look bolted onto the infinitive instead of woven into it is that they once were a separate word. Classical Latin\'s own synthetic future (*cantabo*, "I will sing") was already losing ground to several competing periphrases: *debeo cantare, volo cantare, incipio cantare,* and *habeo cantare* all coexisted as ways of talking about the future. Starting in the third century, the *habeo* + infinitive periphrasis (*habeo*, "I have") generalized ahead of the others, and French Wikipedia\'s account of the tense\'s history places the word order settling into infinitive-then-*habeo* by the end of the fourth century. The construction stayed mostly a spoken-language feature that spread further around the sixth century, while written Late Latin kept using the old synthetic future on the page.',
+					'The fused, single-word result shows up early in the written record. The Serments de Strasbourg (842), one of the first surviving documents in a Romance vernacular, already contains a fused future form: *si salvarai eo cist meon fradre Karlo* ("I will aid this my brother of mine, Charles"). Linguist Peter Nahon has pointed to an even earlier candidate: the form *daras* ("you will give") in a seventh-century Burgundian-origin passage within the Chronique de Frédégaire, which he argues may be the first attestation anywhere of this new Romance synthetic future.',
+					'The same *habere* + infinitive mechanism, at a different tense of *habere*, produced the French conditional (*habebam*, roughly "I had," imperfect + infinitive), and that periphrasis is independently attested even earlier, in third-century Latin, in the writings of Tertullian. The conditional\'s ancestor construction therefore predates the future\'s in the written record, even though today the futur simple feels like the more basic of the two tenses. [Spanish went through the identical process](/spanish-future-tense/): *llamaré* comes from the same *habere* + infinitive fusion as *chanterai*, an independent outcome in each language, not a coincidence between them.',
+					'*Être*\'s stem is a case apart even within this history. Forms descended from classical Latin\'s own future for "to be" survived in French until as late as the twelfth century, per Wikipedia\'s sourcing to Geneviève Joly\'s *Précis d\'ancien français*, before being replaced by new forms built on the infinitive of Vulgar Latin *essere*, which is where today\'s *ser-* stem comes from. The irregular-looking *serai* isn\'t an ancient leftover; it\'s a relatively late replacement for an even older French form.',
+				],
+			},
+			{
+				heading: 'Six jobs the futur simple does that have nothing to do with predicting',
+				body: [
+					'French Wikipedia\'s account of the tense\'s modal uses, itself built on academic grammars of French, describes several jobs for the futur simple that don\'t involve forecasting anything. The mildest is the futur injonctif: a futur simple statement addressed directly to *tu* or *vous* can function as an instruction rather than a prediction, softer than a flat imperative. A teacher telling a class *vous me remettrez vos devoirs mardi* is giving an assignment, not describing what will happen on its own. This is also the register French Bible translations use for the Ten Commandments\' *tu ne tueras point*, "thou shalt not kill," a command phrased as a statement about the future.',
+					'A futur simple statement can also make a promise (*je vous aiderai*, "I will help you," in a well-known exchange from Balzac\'s *Le Père Goriot*) or soften an otherwise blunt statement, the same effect the imperfect achieves elsewhere in French: *je vous prierai de m\'informer* reads less bluntly than the present-tense equivalent, because putting the request one step removed from right now gives the listener the sense that there\'s room to object.',
+					'A fourth use produces a retrospective, summing-up effect, most often with the futur antérieur ([the future built from a past participle](/french-past-participle/)) but occasionally with the futur simple alone, as in closing lines of narrative prose that wrap up a scene instead of predicting what comes next. A fifth, the futur de conjecture, uses the future to guess about the present instead of describing anything upcoming: *ce sera sans doute lui* ("that\'s probably him," about someone knocking on the door right now). This use is genuinely rare in standard French and largely confined to *être* and *avoir*, though it\'s notably more frequent in the regional French spoken in Corsica. A sixth, the futur projectif, appears in sentences built around a hypothesis or an imagined scenario, most commonly the main clause of a conditional *si*-sentence, but also in constructions that invite the listener to imagine a situation before answering it.',
+				],
+			},
+			{
+				heading: 'Picking one in the moment',
+				body: [
+					'For a decision already made, an action about to start, or small talk about what happens next, all of it anchored in the present moment, the futur proche is the default, especially in speech: *je vais faire une pause* fits naturally where *je ferai une pause* would sound oddly detached from the conversation actually happening. Reach for the futur simple instead for predictions and promises separated from right now, for formal or written registers, and for the specific jobs above that have nothing to do with forecasting at all: giving a mild instruction, softening a request, wrapping up a narrative, guessing about the present, or setting up a hypothetical.',
+					'Neither form is "the casual one" or "the correct one" in any absolute sense. They\'re both standard French, chosen for what a given sentence needs to say about certainty and connection to the present, not for how far away the event sits on a calendar.',
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'What is the actual difference between futur proche and futur simple?',
+				answer: 'It isn\'t distance in time. Per the OQLF, the futur proche, built on the present tense of aller, ties an event to the moment of speaking and reads as more certain, while the futur simple presents the same event as detached from the present and more hypothetical. The futur proche does dominate in speech, but a purely casual-versus-formal framing misses why some present-anchored statements only work in the futur proche at all.',
+			},
+			{
+				question: 'Why don\'t -re verbs like vendre need an extra vowel before the future ending?',
+				answer: 'Because they already have one, and it has to be dropped rather than added to. -Er and -ir verbs add the future endings directly onto the infinitive, since the infinitive\'s own final vowel supplies the linking sound the ending needs. -Re infinitives already end in a silent e, so that e is dropped before the ending attaches: vendre becomes vendrai, not vendreai.',
+			},
+			{
+				question: 'Why is être\'s future stem ser- instead of matching its infinitive?',
+				answer: 'Because it isn\'t the original French form. French kept forms descended from classical Latin\'s own future for "to be" until as late as the twelfth century, before they were replaced by new forms built on the Vulgar Latin infinitive *essere*, which is where today\'s ser- stem comes from. The irregular-looking serai is a relatively late replacement, not an unbroken line back to Latin.',
+			},
+			{
+				question: 'Can the futur simple be used to give an order?',
+				answer: 'Yes, this is the futur injonctif. A futur simple statement addressed directly to tu or vous can function as an instruction, milder than a flat imperative, with the order implied by context instead of stated outright. French Bible translations use this same register for the Ten Commandments (tu ne tueras point, "thou shalt not kill").',
+			},
+			{
+				question: 'Is the futur de conjecture (using the future to guess about the present) common in French?',
+				answer: 'No. It\'s genuinely rare in standard French and largely limited to être and avoir, as in ce sera sans doute lui for someone knocking at the door right now. It\'s notably more frequent in the regional French spoken in Corsica than elsewhere in the French-speaking world.',
+			},
+		],
+		sources: [
+			{ label: 'Office québécois de la langue française, Vitrine linguistique: "Le futur simple : formes et conjugaison" (formation, spelling changes, irregular-stem examples)', url: 'https://vitrinelinguistique.oqlf.gouv.qc.ca/index.php?id=24655' },
+			{ label: 'Office québécois de la langue française, Vitrine linguistique: "Futur proche : ce qui le distingue du futur simple"', url: 'https://vitrinelinguistique.oqlf.gouv.qc.ca/24122/la-grammaire/le-verbe/temps-grammaticaux/futur/le-futur-proche' },
+			{ label: 'Wikipédia (français), "bon article" (2026): "Indicatif futur simple en français" (modal uses, Latin periphrasis, Serments de Strasbourg, être\'s stem history)', url: 'https://fr.wikipedia.org/wiki/Indicatif_futur_simple_en_fran%C3%A7ais' },
+			{ label: 'Geneviève Joly, Précis d\'ancien français (Armand Colin, 2014), p. 165, cited by Wikipedia for être\'s twelfth-century stem replacement', url: 'https://fr.wikipedia.org/wiki/Indicatif_futur_simple_en_fran%C3%A7ais' },
+			{ label: 'Bescherelle: conjugation tables for acquérir and mourir (cross-checked against the OQLF\'s irregular-stem examples)', url: 'https://conjugaison.bescherelle.com/verbes/acquerir' },
+		],
+	},
 ];

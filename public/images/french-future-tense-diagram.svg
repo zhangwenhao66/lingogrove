@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 360" font-family="system-ui, -apple-system, sans-serif">
+	<rect width="800" height="360" fill="#f6f4e9"/>
+
+	<!-- Row 1: futur proche, anchored right at "now" -->
+	<text x="48" y="56" fill="#201f1a" font-size="20" font-weight="700">Je vais partir — futur proche</text>
+	<line x1="48" y1="110" x2="752" y2="110" stroke="#ddd8c4" stroke-width="2"/>
+	<circle cx="640" cy="110" r="7" fill="#2f6b47"/>
+	<text x="640" y="140" text-anchor="middle" fill="#204a31" font-size="15" font-weight="600">je vais partir</text>
+	<text x="640" y="160" text-anchor="middle" fill="#5a5648" font-size="13">(built on the present tense of aller — treated as more certain)</text>
+	<line x1="48" y1="90" x2="48" y2="130" stroke="#ddd8c4" stroke-width="1"/>
+	<text x="48" y="80" text-anchor="middle" fill="#8a8674" font-size="12">past</text>
+	<line x1="752" y1="90" x2="752" y2="130" stroke="#ddd8c4" stroke-width="1"/>
+	<text x="752" y="80" text-anchor="middle" fill="#8a8674" font-size="12">now</text>
+
+	<!-- Row 2: futur simple, detached and spread further out -->
+	<text x="48" y="220" fill="#201f1a" font-size="20" font-weight="700">Je partirai — futur simple</text>
+	<line x1="48" y1="274" x2="752" y2="274" stroke="#ddd8c4" stroke-width="2"/>
+	<circle cx="380" cy="274" r="7" fill="#2f6b47"/>
+	<text x="380" y="304" text-anchor="middle" fill="#204a31" font-size="15" font-weight="600">je partirai</text>
+	<text x="380" y="324" text-anchor="middle" fill="#5a5648" font-size="13">(detached from the present — heavier charge of hypothesis)</text>
+	<circle cx="752" cy="274" r="7" fill="#8a3b2e"/>
+	<text x="700" y="304" text-anchor="middle" fill="#8a3b2e" font-size="15" font-weight="600">ce sera lui</text>
+	<text x="700" y="324" text-anchor="middle" fill="#8a3b2e" font-size="13">(conjecture — a guess about right now)</text>
+
+	<text x="48" y="352" fill="#8a8674" font-size="12">Per the OQLF: the difference is anchoring and certainty, not how soon each event happens.</text>
+</svg>
