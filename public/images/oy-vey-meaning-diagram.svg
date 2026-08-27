@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380" font-family="system-ui, -apple-system, sans-serif">
+	<rect width="800" height="380" fill="#f4f0e8"/>
+
+	<text x="400" y="34" text-anchor="middle" font-size="17" font-weight="700" fill="#201f1a">Four related exclamations, not one word said louder</text>
+
+	<rect x="24" y="60" width="172" height="130" rx="10" fill="#fffefa" stroke="#ddd6c4"/>
+	<text x="110" y="90" text-anchor="middle" font-size="19" font-weight="700" fill="#201f1a">Oy</text>
+	<text x="110" y="114" text-anchor="middle" font-size="12" fill="#5a5648">"oh, woe"</text>
+	<text x="110" y="140" text-anchor="middle" font-size="12" fill="#5a5648">Mildest form</text>
+	<text x="110" y="160" text-anchor="middle" font-size="12" fill="#5a5648">general dismay</text>
+	<text x="110" y="178" text-anchor="middle" font-size="12" fill="#5a5648">or surprise</text>
+
+	<rect x="212" y="60" width="172" height="130" rx="10" fill="#2f4f6b"/>
+	<text x="298" y="90" text-anchor="middle" font-size="19" font-weight="700" fill="#ffffff">Oy vey</text>
+	<text x="298" y="114" text-anchor="middle" font-size="12" fill="#dce6ee">"oh, woe"</text>
+	<text x="298" y="140" text-anchor="middle" font-size="12" fill="#dce6ee">Most common</text>
+	<text x="298" y="160" text-anchor="middle" font-size="12" fill="#dce6ee">form in English;</text>
+	<text x="298" y="178" text-anchor="middle" font-size="12" fill="#dce6ee">shortens to "oy"</text>
+
+	<rect x="400" y="60" width="188" height="130" rx="10" fill="#fffefa" stroke="#ddd6c4"/>
+	<text x="494" y="86" text-anchor="middle" font-size="16" font-weight="700" fill="#201f1a">Oy vey iz mir</text>
+	<text x="494" y="110" text-anchor="middle" font-size="12" fill="#5a5648">"oh, woe is me"</text>
+	<text x="494" y="136" text-anchor="middle" font-size="12" fill="#5a5648">Fuller, more</text>
+	<text x="494" y="156" text-anchor="middle" font-size="12" fill="#5a5648">formal lament;</text>
+	<text x="494" y="176" text-anchor="middle" font-size="12" fill="#5a5648">same two roots</text>
+
+	<rect x="604" y="60" width="172" height="130" rx="10" fill="#8a7a3f"/>
+	<text x="690" y="86" text-anchor="middle" font-size="17" font-weight="700" fill="#ffffff">Oy gevalt</text>
+	<text x="690" y="110" text-anchor="middle" font-size="12" fill="#f2ead0">"oh, force!"</text>
+	<text x="690" y="136" text-anchor="middle" font-size="12" fill="#f2ead0">Different word,</text>
+	<text x="690" y="156" text-anchor="middle" font-size="12" fill="#f2ead0">different root; can</text>
+	<text x="690" y="176" text-anchor="middle" font-size="12" fill="#f2ead0">also mean shock, alarm</text>
+
+	<line x1="196" y1="125" x2="212" y2="125" stroke="#8a7a3f" stroke-width="2"/>
+	<line x1="384" y1="125" x2="400" y2="125" stroke="#8a7a3f" stroke-width="2"/>
+	<line x1="588" y1="125" x2="604" y2="125" stroke="#ddd6c4" stroke-width="2" stroke-dasharray="4,4"/>
+
+	<rect x="24" y="216" width="752" height="140" rx="10" fill="#fffefa" stroke="#ddd6c4"/>
+	<text x="48" y="246" font-size="14" font-weight="700" fill="#201f1a">Where "vey" comes from: two competing theories</text>
+	<text x="48" y="274" font-size="12.5" fill="#5a5648">Germanic theory (Douglas Harper): Yiddish vey derives from German Weh, the same root Etymonline's</text>
+	<text x="48" y="294" font-size="12.5" fill="#5a5648">own entry for English "woe" lists as a close relative, alongside Latin væ and Greek oa.</text>
+	<text x="48" y="322" font-size="12.5" fill="#5a5648">Alternate theory (Chabad.org): oy traces to Biblical Hebrew, vey to its Aramaic equivalent, both</text>
+	<text x="48" y="342" font-size="12.5" fill="#5a5648">languages older than Yiddish itself. Sources disagree on which theory is correct.</text>
+</svg>
