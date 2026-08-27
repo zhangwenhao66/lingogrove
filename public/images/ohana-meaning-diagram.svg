@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" font-family="system-ui, -apple-system, sans-serif">
+	<rect width="800" height="500" fill="#f6f4e9"/>
+
+	<rect x="24" y="24" width="360" height="140" rx="10" fill="#fffefa" stroke="#ddd8c4"/>
+	<g fill="#201f1a" font-size="15">
+		<text x="48" y="52" font-weight="700">Account 1: comparative reconstruction</text>
+		<text x="48" y="76" fill="#5a5648" font-size="13">Proto-Polynesian *kofaŋa, "nest"</text>
+		<text x="48" y="96" fill="#5a5648" font-size="13">Cognates: Māori kōhanga, Samoan ōfaga,</text>
+		<text x="48" y="114" fill="#5a5648" font-size="13">Rarotongan koʻanga (all still mean "nest")</text>
+		<text x="48" y="140" fill="#5a5648" font-size="12">Source: Wiktionary, "ʻohana" entry</text>
+	</g>
+
+	<rect x="416" y="24" width="360" height="140" rx="10" fill="#fffefa" stroke="#ddd8c4"/>
+	<g fill="#201f1a" font-size="15">
+		<text x="440" y="52" font-weight="700">Account 2: taro-based (R. K. Johnson)</text>
+		<text x="440" y="76" fill="#5a5648" font-size="13">ʻohā, taro corm shoot, + -ana ("-ing")</text>
+		<text x="440" y="96" fill="#5a5648" font-size="13">New shoots grow their own roots and</text>
+		<text x="440" y="114" fill="#5a5648" font-size="13">leaves while attached to the parent corm</text>
+		<text x="440" y="140" fill="#5a5648" font-size="12">Source: 2001 LINGUIST List exchange</text>
+	</g>
+
+	<text x="400" y="182" text-anchor="middle" fill="#8a7a3f" font-size="13">Neither account is settled; both still circulate</text>
+
+	<line x1="400" y1="192" x2="400" y2="216" stroke="#8a7a3f" stroke-width="2"/>
+	<polygon points="400,224 392,208 408,208" fill="#8a7a3f"/>
+
+	<rect x="24" y="232" width="752" height="70" rx="10" fill="#2f6b47"/>
+	<text x="400" y="262" text-anchor="middle" fill="#ffffff" font-size="20" font-weight="700">ʻohana — family, relative, kin group</text>
+	<text x="400" y="286" text-anchor="middle" fill="#e7f1ea" font-size="13">Pukui &amp; Elbert Hawaiian Dictionary (wehewehe.org)</text>
+
+	<rect x="24" y="326" width="360" height="140" rx="10" fill="#fffefa" stroke="#ddd8c4"/>
+	<g fill="#201f1a" font-size="15">
+		<text x="48" y="356" font-weight="700">Who counts as ʻohana</text>
+		<text x="48" y="382" fill="#5a5648" font-size="13">Parents, grandparents, children</text>
+		<text x="48" y="404" fill="#5a5648" font-size="13">Blood relatives AND non-related persons</text>
+		<text x="48" y="426" fill="#5a5648" font-size="13">ʻAumakua (family guardian spirits)</text>
+		<text x="48" y="450" fill="#5a5648" font-size="12">Source: Polynesian Voyaging Society (Hōkūleʻa)</text>
+	</g>
+
+	<rect x="416" y="326" width="360" height="140" rx="10" fill="#fffefa" stroke="#ddd8c4"/>
+	<g fill="#201f1a" font-size="15">
+		<text x="440" y="356" font-weight="700">The Hāloa story (Kumulipo)</text>
+		<text x="440" y="382" fill="#5a5648" font-size="13">Wākea &amp; Hoʻohōkūkalani's first child</text>
+		<text x="440" y="404" fill="#5a5648" font-size="13">is buried; the first kalo plant grows there.</text>
+		<text x="440" y="426" fill="#5a5648" font-size="13">Their second child, Hāloa, becomes</text>
+		<text x="440" y="450" fill="#5a5648" font-size="13">the first Hawaiian person — taro's younger sibling.</text>
+	</g>
+</svg>

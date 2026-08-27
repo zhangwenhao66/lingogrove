@@ -5945,4 +5945,84 @@ export const guides: Guide[] = [
 			{ label: 'CBS News: "Historic Jewish Cemetery Vandalized With Swastikas and Anti-Semitic Graffiti" (Fall River, Massachusetts, March 2019)', url: 'https://www.cbsnews.com/news/fall-river-massachusetts-historic-jewish-cemetery-vandalized-with-swastikas-and-anti-semitic-graffiti/' },
 		],
 	},
+	{
+		slug: 'ohana-meaning',
+		category: 'Loanwords',
+		title: 'Ohana Meaning: The Taro Root Behind Hawaii\'s Word for Family',
+		description: 'Ohana is Hawaiian for family, but the Pukui & Elbert dictionary\'s entry covers more ground than the English word does, and linguists dispute whether the word itself traces to a taro plant or a Proto-Polynesian word for "nest."',
+		published: '2026-08-27',
+		updated: '2026-08-27',
+		coreSummary: 'ʻOhana is the Hawaiian word for family, and the Pukui & Elbert Hawaiian Dictionary, the field\'s standard reference, defines it simply as "family, relative, kin group; related," a circle Hawaiian tradition already extended to non-blood relatives and ʻaumakua family guardians, according to the Polynesian Voyaging Society\'s own account of Hawaiian custom. Its origin is genuinely disputed: Wiktionary\'s comparative reconstruction traces ʻohana to Proto-Polynesian *kofaŋa, "nest," while a rival account associated with Hawaiian-studies scholar Rubellite Kawena Johnson derives it from ʻohā, a taro plant\'s rooted corm shoots, an image the Kumulipo creation chant deepens further by naming kalo the older sibling of the first Hawaiian person.',
+		language: 'Hawaiian',
+		usageNote: {
+			register: 'neutral',
+			regionNote: 'The precise Hawaiian spelling carries an ʻokina, a glottal-stop letter, at the front: ʻohana. English text commonly drops it and writes plain "ohana," which is the more familiar spelling outside Hawaiʻi but not the linguistically exact one. Within Hawaiʻi the word is ordinary, respectful vocabulary; borrowed into outside branding and marketing, it has drawn documented criticism from Native Hawaiians. Salesforce named its entire workforce and internal culture program "Ohana" going back to the company\'s 1999 founding, and in 2018 employees raised concerns that this and other Hawaiian-themed branding amounted to cultural appropriation, leading the company to convene focus groups with Native Hawaiian staff and scale back some of that terminology.',
+		},
+		sections: [
+			{
+				heading: 'What the dictionary actually says ʻohana means',
+				body: [
+					'Wehewehe.org, which hosts the Pukui & Elbert Hawaiian Dictionary, the same standard reference cited for [mahalo](/mahalo-meaning/), defines ʻohana plainly: "family, relative, kin group; related." The entry also lists two compounds, ʻohana holoʻokoʻa and ʻohana nui, both used for an extended family or clan rather than an immediate household.',
+					'That definition is already broader than most English speakers picture when they hear "family." According to the Polynesian Voyaging Society\'s own account of Hawaiian tradition, published as part of the Hōkūleʻa voyaging canoe program, ʻohana traditionally included parents, grandparents, and children, plus "ties of blood and non-related persons," and even ʻaumakua, family gods or ancestral guardian spirits. English speakers who reach for ʻohana to describe a close, chosen circle of people beyond blood relatives are drawing on a sense the Hawaiian word already carried, arguably a narrower slice of a category built from the start to include people connected by more than birth.',
+				],
+			},
+			{
+				heading: 'Two rival accounts of where the word comes from',
+				body: [
+					'Wiktionary\'s etymology entry gives the comparative-linguistics reconstruction as the primary account: ʻohana traces to Proto-Polynesian *kofaŋa, "nest," built from *kofa plus the nominalizing suffix -ŋa, with cognates surviving elsewhere in the family as words that still mean "nest," including Māori kōhanga, Samoan ōfaga, and Rarotongan koʻanga. Under this account, Hawaiian shifted the old "nest" sense toward "family" on its own, the way a bird\'s nest and the brood raised in it are already conceptually close.',
+					'A second, more culturally specific account gets recorded far more often in general reference material. Hawaiian-studies scholar Rubellite Kawena Johnson, in a theory documented in a 2001 exchange on the LINGUIST List, derived ʻohana instead from ʻohā, the corm, or root shoot, that grows off a taro plant\'s older stock, plus -ana, functioning roughly like the English suffix "-ing," so the word names something growing off a shared root: an offshoot, or offspring. A respondent in that same exchange pointed out that Milner\'s Samoan dictionary lists a second sense for the cognate ōfaga, a pile of taro tops set aside for replanting, which would tie the "nest" and "taro" stories together rather than leaving them as flatly competing theories. Neither side in that discussion settled the question, and Hawaiian dictionaries themselves don\'t adjudicate it either; both derivations still circulate today.',
+					'Whichever account is right, kalo was the staple crop grown for generations in wetland loʻi (irrigated terraces) across the islands, the primary source of poi and daily sustenance long before Western contact, which is why the taro-based story resonates even where the comparative reconstruction points elsewhere.',
+				],
+				image: {
+					src: '/images/ohana-meaning-diagram.svg',
+					alt: 'Diagram comparing two rival etymologies for ʻohana: Proto-Polynesian *kofaŋa, "nest" (cognate with Māori kōhanga and Samoan ōfaga), versus ʻohā, a taro corm shoot, plus the suffix -na, the account associated with scholar Rubellite Kawena Johnson, alongside two side panels: who traditionally counted as ʻohana (blood relatives, non-related persons, and ʻaumakua family guardian spirits) and the Kumulipo\'s Hāloa story, where taro grows from a buried, stillborn first child and the second child, Hāloa, becomes the first Hawaiian person.',
+				},
+			},
+			{
+				heading: 'The Hāloa story: why kalo counts as an elder sibling',
+				body: [
+					'The Kumulipo, the Hawaiian creation chant first recorded in written form in the 18th century, gives kalo a specific origin story within Hawaiian genealogy. Wākea, the sky father, and Hoʻohōkūkalani had a first child born stillborn and shapeless, named Hāloanakalaukapalili; he was buried beside their home, and from that spot grew the first kalo plant. Their second child was named Hāloa, in honor of his older sibling, and became the first Hawaiian person. Per the Polynesian Voyaging Society\'s account, Hāloa\'s own name means "long stem," a direct reference to the plant\'s tall leaf stalk.',
+					'That lineage is why Hawaiian tradition treats kalo as a literal elder sibling of the Hawaiian people, woven into genealogy rather than assigned family status after the fact. It gives the Johnson-derived, taro-based reading of ʻohana a cultural depth the comparative "nest" reconstruction doesn\'t carry on its own, even if it can\'t settle which reconstruction linguists should treat as historically prior.',
+				],
+			},
+			{
+				heading: 'From a Disney line to a corporate slogan, and the pushback that followed',
+				body: [
+					'Most English speakers outside Hawaiʻi encountered ʻohana through a single line of dialogue: "Ohana means family. Family means nobody gets left behind or forgotten," spoken repeatedly in Disney\'s 2002 animated film Lilo & Stitch. Directors Chris Sanders and Dean DeBlois chose the Hawaiian word deliberately, using its extended, chosen-family sense to underline the film\'s core theme that a family doesn\'t have to be the one someone was born into.',
+					'Businesses picked up the word too, sometimes with less care about where it came from. Salesforce named its entire workforce and internal community program "Ohana," a practice tracing back to the company\'s 1999 founding alongside other Hawaiian-themed branding and imagery. In 2018, employees raised concerns that this amounted to cultural appropriation; one employee, quoted by The Daily Beast, wrote that Hawaiian-culture references at the company had amounted to "appropriation, misappropriation, or misrepresentation." The company convened focus groups with Native Hawaiian employees in response and scaled back some of the Hawaiian terminology in its internal branding. It\'s a useful case for anyone reaching for ʻohana in a business context: the word carries a specific creation story and a living culture behind it, and treating it as a free-floating synonym for "team" has already generated real, documented friction. Much like how [habibi](/habibi-meaning/) gets borrowed into English for a warmth the language otherwise splits across several separate words, ʻohana crosses into English carrying its home culture\'s full weight, and marketers reaching for it usually pick up only the sentiment, not the history.',
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'What does ohana mean in Hawaiian?',
+				answer: 'Per the Pukui & Elbert Hawaiian Dictionary, ʻohana means "family, relative, kin group; related." Traditionally the circle it covers is wider than the English word "family" usually implies, including blood relatives, adopted or unrelated family, and even ʻaumakua, family guardian spirits, according to the Polynesian Voyaging Society\'s account of Hawaiian tradition.',
+			},
+			{
+				question: 'Does ohana only refer to family by blood?',
+				answer: 'No. The Polynesian Voyaging Society\'s account of traditional Hawaiian ʻohana already included "ties of blood and non-related persons." The popular English idea of ʻohana as "the family you choose" reflects that original Hawaiian scope rather than stretching the word beyond it.',
+			},
+			{
+				question: 'Where does the word ohana come from?',
+				answer: 'Linguists dispute this. Wiktionary\'s comparative reconstruction derives ʻohana from Proto-Polynesian *kofaŋa, "nest," cognate with Māori kōhanga and Samoan ōfaga. A rival account associated with Hawaiian-studies scholar Rubellite Kawena Johnson instead derives it from ʻohā, the corm shoot of a kalo (taro) plant, plus the suffix -ana. Both derivations still circulate, and a 2001 scholarly exchange on the question didn\'t settle it.',
+			},
+			{
+				question: 'Is "ohana means family, family means nobody gets left behind" a traditional Hawaiian saying?',
+				answer: 'Ohana means family in Hawaiian, but that exact line is written dialogue from Disney\'s 2002 film Lilo & Stitch, repeated at several points in the movie. The line originates with the film rather than an older Hawaiian proverb.',
+			},
+			{
+				question: 'Is it spelled "ohana" or "ʻohana"?',
+				answer: 'The linguistically precise Hawaiian spelling includes the ʻokina, a glottal-stop letter, at the start: ʻohana. English-language text commonly drops it and writes "ohana" instead, which is the more familiar spelling outside Hawaiʻi but not the exact one.',
+			},
+		],
+		sources: [
+			{ label: 'Pukui & Elbert Hawaiian Dictionary (1986), via Wehewehe Wikiwiki / Ulukau — "ʻohana"', url: 'https://wehewehe.org/gsdl2.85/cgi-bin/hdict?e=q-11000-00---off-0hdict--00-1----0-10-0---0---0direct-10-ED--4-------0-1lpm--11-haw-Zz-1---Zz-1-home-ohana--00-3-1-00-0--4----0-0-11-00-0utfZz-8-00&a=d&d=D14905' },
+			{ label: 'Pukui & Elbert Hawaiian Dictionary (1986), via Wehewehe Wikiwiki / Ulukau — "taro" (ʻohā, the corm shoot)', url: 'https://wehewehe.org/gsdl2.85/cgi-bin/hdict?e=q-11000-00---off-0hdict--00-1----0-10-0---0---0direct-10-ED--4--textpukuielbert,textmamaka-----0-1l--11-en-Zz-1---Zz-1-home-taro--00-3-1-00-0--4----0-0-11-00-0utfZz-8-00&a=d&d=D32284' },
+			{ label: 'Polynesian Voyaging Society (Hōkūleʻa): "ʻOhana — Hawaiian Voyaging Traditions"', url: 'https://archive.hokulea.com/ike/moolelo/ohana.html' },
+			{ label: 'Wiktionary: "ʻohana" (Proto-Polynesian *kofaŋa, "nest," reconstruction and cognates)', url: 'https://en.wiktionary.org/wiki/%CA%BBohana' },
+			{ label: 'LINGUIST List (An-Lang mailing list), September 2001: "etymology of Hawaiian \'ohana" (Rubellite Kawena Johnson\'s taro-based derivation vs. the Polynesian "nest" cognates)', url: 'https://listserv.linguistlist.org/pipermail/an-lang/2001-September/000679.html' },
+			{ label: 'Wikipedia: "Hāloa"', url: 'https://en.wikipedia.org/wiki/H%C4%81loa' },
+			{ label: 'The Daily Beast: "Salesforce Is Ditching Its Awkward Corporate Obsession With Hawaiian Culture" (2018 employee concerns and internal branding changes)', url: 'https://www.thedailybeast.com/salesforce-is-ditching-its-awkward-corporate-obsession-with-hawaiian-culture' },
+		],
+	},
 ];
