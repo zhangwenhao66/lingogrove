@@ -1,388 +1,393 @@
 {
-	"https://lingogrove.com/latin-declensions/": {
-		"submitted_date": "2026-08-23",
-		"verified_status": "pending",
-		"note": "new publish (Grammar tier: 'latin declensions' — five noun declensions identified by genitive singular marker (-ae/-ī/-is/-ūs/-eī or -ēī), full case-ending paradigms for all five, i-stem -ium genitive plural rule, domus hybrid 2nd/4th-declension irregularity, diēs-vs-rēs long/short genitive-dative distinction, case functions incl. vocative -e exception and fossilized locative; sourced from Wikipedia 'Latin declension' (synthesizing Allen and Greenough / Gildersleeve and Lodge) cross-checked against Wiktionary's first-declension appendix; SERP checked before selection — no same-niche competitor wall (Wikipedia/Superprof/personal blogs, not spanishdict-type sites); internal links to spanish-future-tense (habeo fusion etymology) and ser-conjugation (esse/sedere suppletion) tie the Latin case-collapse narrative to existing site content; passed independent 8-fold audit on first pass except one fix — sources[] labels and two SVG diagram sentences used em dashes instead of the site's colon convention (L-0810-4 recurrence, fixed before publish); Bing 200 / Yandex 200. Live URL confirmed 200 with real article content before submission."
-	},
-	"https://lingogrove.com/german-dative-case/": {
-		"submitted_date": "2026-08-23",
-		"verified_status": "pending",
-		"note": "new publish (Grammar tier: 'german dative case' — dative-only Rektion verbs helfen/danken/gefallen/gehören/folgen/gratulieren/passen/schmecken, full dative pronoun paradigm, noun-vs-pronoun word-order flip in the Mittelfeld, seven fixed dative prepositions, gegenüber as postposition, Wechselpräpositionen 'movement within a bounded space still takes dative' nuance (aquarium/skateboard examples) vs. the generic 'motion=accusative' shortcut most competitor blogs teach; sourced from grammis (IDS Mannheim) across 5 distinct pages + Duden for the helfen-vs-unterstützen case contrast; passed independent 8-fold audit + two re-audit rounds after fixes — first round found FAQ answers near-duplicating body phrasing, one repeated internal-link anchor text, body prose thin at 895 words vs. 1300-1400-word siblings (german-cases/german-genitive), an overstated gegenüber postposition-frequency claim, and 'rather than' overuse; fixed by expanding body to 1380 words with a new closing section comparing to English's fossilized he/him-who/whom pronoun case system plus a verb-valency-dictionary paragraph, varying anchor text, softening the gegenüber claim, and trimming 'rather than' from 6 to 3; second re-audit found FAQ5 (gegenüber) was only lightly reshuffled not genuinely rewritten, fixed with a third pass verified by a final read-only check); Bing 200 / Yandex 200. Live URL confirmed 200 with real article content before submission."
-	},
-	"https://lingogrove.com/spanish-conjunctions/": {
-		"submitted_date": "2026-08-19",
-		"verified_status": "pending",
-		"note": "new publish (Grammar tier, 10th run of day: RAE y→e/o→u phonetic swap rule with aspirated-h/diphthong exceptions, pero-vs-sino restrict-vs-replace distinction, sino que trigger, sino/si no spelling trap, ni comma rule; sourced from RAE Español al día, El buen uso del español, Glosario, DPD, Libro de estilo + Fundéu Guzmán Ariza; two higher-priority unused Grammar candidates — 'spanish subjunctive' and 'spanish subjunctive endings' — found fully covered by existing subjunctive-spanish article and marked merged/skipped instead of opened as duplicates; passed independent 8-fold audit + re-audit after 3 fixes — trimmed a 190-char outlier description, removed a duplicated 'it's not X — it's Y' rhetorical device between body and FAQ, added a second internal link to spanish-prepositions; two new generalizable lessons logged to 内容通用教训库.md: L-0819-8 repeated source-attribution phrasing as a word-list-blind AI tell, L-0819-9 avoid-ai-writing device caps must be checked across body+FAQ combined); Bing 200 / Yandex 200. Live URL confirmed 200 with real article content before submission."
-	},
-	"https://lingogrove.com/spanish-preterite-endings/": {
-		"submitted_date": "2026-08-19",
-		"verified_status": "pending",
-		"note": "new publish (Grammar tier, companion to spanish-imperfect-endings; two regular preterite endings sets, RAE aguda accent rule vs. imperfect's hiato rule, -ar/-ir nosotros overlap with present tense, hablastes/voseo analogical -s cross-connection; sourced from RAE, SpanishDict, El Castellano; passed independent audit + re-audit after 3 fixes — cut an avoid-ai-writing intensifier, shortened an outlier description field, corrected a false hablasteis stress-pattern claim); Bing 200 / Yandex 200. Live URL confirmed 200 with real article content before submission."
-	},
-	"https://lingogrove.com/german-cases/": {
-		"submitted_date": "2026-08-18",
-		"verified_status": "pending",
-		"note": "new publish (Grammar tier, four-case overview differentiated by where the noun itself changes vs. the article: weak/n-declension nouns, dative plural -n, genitive singular -(e)s; sourced from grammis IDS Mannheim + PONS); Bing 200 / Yandex 200. Live URL confirmed 200 with real article content before submission."
-	},
-	"https://lingogrove.com/german-genitive/": {
-		"submitted_date": "2026-08-18",
-		"verified_status": "pending",
-		"note": "new publish (Grammar tier, Duden's Genitivregel 3-part rule + -s/-es formation + 7 -ns weak nouns + Herz exception + wegen-dative shift/Bastian Sick book); Bing 200 / Yandex 200."
-	},
-	"https://lingogrove.com/mahalo-meaning/": {
-		"submitted_date": "2026-08-18",
-		"verified_status": "pending",
-		"note": "new publish (Loanwords tier, Hawaiian mahalo two-sense etymology via Pukui & Elbert + POLLEX, contrast with aloha's separate root); Bing 200 / Yandex 202."
-	},
-	"https://lingogrove.com/french-pronouns/": {
-		"submitted_date": "2026-08-17",
-		"verified_status": "pending",
-		"note": "new publish (Grammar tier, French pronoun system reference: 5 families + à-verb exception list + stacking order); Bing 200 / Yandex 200."
-	},
-	"https://lingogrove.com/spanish-imperfect-endings/": {
-		"submitted_date": "2026-08-16",
-		"verified_status": "pending",
-		"note": "new publish (Grammar tier, imperfect endings + accent rules + ir/ser/ver irregulars); Bing 200 / Yandex 200."
-	},
-	"https://lingogrove.com/spanish-verb-tenses-chart/": {
-		"submitted_date": "2026-08-13",
-		"verified_status": "pending",
-		"note": "new publish (Grammar tier, hub page linking to 5 existing tense guides); Bing 200 / Yandex 200."
-	},
-	"https://lingogrove.com/habibi-meaning/": {
-		"submitted_date": "2026-08-12",
-		"verified_status": "pending",
-		"note": "new publish (Loanwords tier, first Arabic-language article); Bing 200 / Yandex 200."
-	},
-	"https://lingogrove.com/german-adjective-endings/": {
-		"submitted_date": "2026-08-11",
-		"verified_status": "pending",
-		"note": "new publish (Grammar tier, first German grammar article); Bing 200 / Yandex 202."
-	},
-	"https://lingogrove.com/japanese-particles-wa-ga-wo-ni/": {
-		"submitted_date": "2026-08-10",
-		"verified_status": "pending",
-		"note": "new publish (Grammar tier, first Japanese-language grammar article); Bing 200 / Yandex 202."
-	},
-	"https://lingogrove.com/spanish-demonstrative-adjectives/": {
-		"submitted_date": "2026-08-10",
-		"verified_status": "pending",
-		"note": "new publish (Grammar tier); Bing 200 / Yandex 202."
-	},
-	"https://lingogrove.com/spanish-possessive-adjectives/": {
-		"submitted_date": "2026-08-09",
-		"verified_status": "pending",
-		"note": "new publish (Grammar tier); Bing 200 / Yandex 202.",
-		"last_checked_date": "2026-08-25",
-		"verified_method": "bwt_url_inspection",
-		"verify_note": "哨兵异常(discovered 01 Jan 2006), 无法判定真实账龄"
-	},
-	"https://lingogrove.com/french-articles/": {
-		"submitted_date": "2026-08-09",
-		"verified_status": "pending",
-		"note": "new publish (Grammar tier); Bing 200 / Yandex 202."
-	},
-	"https://lingogrove.com/spanish-pronouns/": {
-		"submitted_date": "2026-08-06",
-		"verified_status": "stale_not_indexed",
-		"note": "new publish (Grammar tier); Bing 200 / Yandex 202.",
-		"last_checked_date": "2026-08-25",
-		"verified_method": "bwt_url_inspection",
-		"verify_note": "discovered 08 Aug, 账龄17天超过14天阈值, Blocked"
-	},
-	"https://lingogrove.com/double-object-pronouns-spanish/": {
-		"submitted_date": "2026-08-06",
-		"verified_status": "stale_not_indexed",
-		"note": "new publish (Grammar tier); Bing 200 / Yandex 202.",
-		"last_checked_date": "2026-08-25",
-		"verified_method": "bwt_url_inspection",
-		"verify_note": "discovered 08 Aug, 账龄17天超过14天阈值, Blocked"
-	},
-	"https://lingogrove.com/direct-vs-indirect-object-pronouns-spanish/": {
-		"submitted_date": "2026-08-04",
-		"verified_status": "stale_not_indexed",
-		"note": "new publish; Bing 200 / Yandex 202.",
-		"last_checked_date": "2026-08-22",
-		"verified_method": "bwt_url_inspection",
-		"verify_note": "discovered 04 Aug, 18天未收录"
-	},
-	"https://lingogrove.com/por-vs-para/": {
-		"submitted_date": "2026-08-03",
-		"verified_status": "stale_not_indexed",
-		"note": "discovered 04 Aug 2026, 账龄15天, 超14天阈值(此前08-17标注恰好14天逼近阈值,本次确认转stale)",
-		"last_checked_date": "2026-08-19",
-		"verified_method": "bwt_url_inspection"
-	},
-	"https://lingogrove.com/ser-vs-estar/": {
-		"submitted_date": "2026-08-06",
-		"verified_status": "stale_not_indexed",
-		"note": "resubmitted after content-quality-audit fix (removed 14 narrative em-dashes, added rico example, softened regionNote regional-variation claim with sourced dialectal detail, added verbatim RAE quote); Bing 200 / Yandex 202. Originally submitted 2026-08-03 as launch batch, Bing 202 / Yandex 202.",
-		"last_checked_date": "2026-08-25",
-		"verified_method": "bwt_url_inspection",
-		"verify_note": "discovered 04 Aug, 账龄21天超过14天阈值, Blocked"
-	},
-	"https://lingogrove.com/preterite-vs-imperfect/": {
-		"submitted_date": "2026-08-03",
-		"verified_status": "stale_not_indexed",
-		"note": "discovered 04 Aug 2026, 账龄15天, 超14天阈值(此前08-17标注恰好14天逼近阈值,本次确认转stale)",
-		"last_checked_date": "2026-08-19",
-		"verified_method": "bwt_url_inspection"
-	},
-	"https://lingogrove.com/deja-vu-meaning/": {
-		"submitted_date": "2026-08-03",
-		"verified_status": "stale_not_indexed",
-		"note": "discovered 04 Aug 2026, 账龄15天, 超14天阈值(此前08-17标注恰好14天逼近阈值,本次确认转stale)",
-		"last_checked_date": "2026-08-19",
-		"verified_method": "bwt_url_inspection"
-	},
-	"https://lingogrove.com/schadenfreude-meaning/": {
-		"submitted_date": "2026-08-03",
-		"verified_status": "stale_not_indexed",
-		"note": "discovered 04 Aug 2026, 账龄15天, 超14天阈值(此前08-17标注恰好14天逼近阈值,本次确认转stale)",
-		"last_checked_date": "2026-08-19",
-		"verified_method": "bwt_url_inspection"
-	},
-	"https://lingogrove.com/senpai-meaning/": {
-		"submitted_date": "2026-08-03",
-		"verified_status": "stale_not_indexed",
-		"note": "discovered 04 Aug 2026, 账龄15天, 超14天阈值(此前08-17标注恰好14天逼近阈值,本次确认转stale)",
-		"last_checked_date": "2026-08-19",
-		"verified_method": "bwt_url_inspection"
-	},
-	"https://lingogrove.com/happy-birthday-in-spanish/": {
-		"submitted_date": "2026-08-03",
-		"verified_status": "stale_not_indexed",
-		"note": "Discovered but not crawled, discovered 03 Aug 2026, age 13 days as of 08-16 check, approaching stale threshold",
-		"last_checked_date": "2026-08-22",
-		"verified_method": "bwt_url_inspection",
-		"verify_note": "discovered 04 Aug, 18天未收录"
-	},
-	"https://lingogrove.com/good-night-in-spanish/": {
-		"submitted_date": "2026-08-03",
-		"verified_status": "stale_not_indexed",
-		"note": "launch batch, new publish; Bing 202 / Yandex 202.; Discovered but not crawled (Discovered on 03 Aug 2026)",
-		"last_checked_date": "2026-08-22",
-		"verified_method": "bwt_url_inspection",
-		"verify_note": "discovered 04 Aug, 18天未收录"
-	},
-	"https://lingogrove.com/i-love-you-in-spanish/": {
-		"submitted_date": "2026-08-03",
-		"verified_status": "stale_not_indexed",
-		"note": "Discovered but not crawled, discovered 03 Aug 2026, age 13 days as of 08-16 check, approaching stale threshold",
-		"last_checked_date": "2026-08-22",
-		"verified_method": "bwt_url_inspection",
-		"verify_note": "discovered 04 Aug, 18天未收录"
-	},
-	"https://lingogrove.com/ser-conjugation/": {
-		"submitted_date": "2026-08-05",
-		"verified_status": "stale_not_indexed",
-		"note": "Discovered but not crawled, discovered 04 Aug 2026, age 19 days as of 08-23 check",
-		"last_checked_date": "2026-08-23",
-		"verified_method": "bwt_url_inspection"
-	},
-	"https://lingogrove.com/saber-vs-conocer/": {
-		"submitted_date": "2026-08-04",
-		"verified_status": "stale_not_indexed",
-		"note": "new publish (Grammar tier); Bing 200 / Yandex 202.",
-		"last_checked_date": "2026-08-22",
-		"verified_method": "bwt_url_inspection",
-		"verify_note": "discovered 04 Aug, 18天未收录"
-	},
-	"https://lingogrove.com/spanish-reflexive-verbs/": {
-		"submitted_date": "2026-08-04",
-		"verified_status": "stale_not_indexed",
-		"note": "Discovered but not crawled, discovered 06 Aug 2026, age 17 days as of 08-23 check",
-		"last_checked_date": "2026-08-23",
-		"verified_method": "bwt_url_inspection"
-	},
-	"https://lingogrove.com/spanish-future-tense/": {
-		"submitted_date": "2026-08-05",
-		"verified_status": "stale_not_indexed",
-		"note": "Discovered but not crawled, discovered 06 Aug 2026, age 17 days as of 08-23 check",
-		"last_checked_date": "2026-08-23",
-		"verified_method": "bwt_url_inspection"
-	},
-	"https://lingogrove.com/subjunctive-spanish/": {
-		"submitted_date": "2026-08-05",
-		"verified_status": "stale_not_indexed",
-		"note": "Discovered but not crawled, discovered 06 Aug 2026, age 17 days as of 08-23 check",
-		"last_checked_date": "2026-08-23",
-		"verified_method": "bwt_url_inspection"
-	},
-	"https://lingogrove.com/spanish-conditional-tense/": {
-		"submitted_date": "2026-08-05",
-		"verified_status": "stale_not_indexed",
-		"note": "Discovered but not crawled, discovered 06 Aug 2026, age 17 days as of 08-23 check",
-		"last_checked_date": "2026-08-23",
-		"verified_method": "bwt_url_inspection"
-	},
-	"https://lingogrove.com/spanish-accent-marks/": {
-		"submitted_date": "2026-08-06",
-		"verified_status": "stale_not_indexed",
-		"note": "daily publish; Bing 200 / Yandex 202.",
-		"last_checked_date": "2026-08-25",
-		"verified_method": "bwt_url_inspection",
-		"verify_note": "discovered 10 Aug, 账龄15天首次超过14天阈值, Blocked"
-	},
-	"https://lingogrove.com/french-imperative/": {
-		"submitted_date": "2026-08-10",
-		"verified_status": "pending",
-		"note": "new publish (Grammar tier); Bing 200 / Yandex 202."
-	},
-	"https://lingogrove.com/french-subjunctive/": {
-		"submitted_date": "2026-08-10",
-		"verified_status": "pending",
-		"note": "new publish (Grammar tier, today's fourth article); Bing 200 / Yandex 202."
-	},
-	"https://lingogrove.com/spanish-commands/": {
-		"submitted_date": "2026-08-11",
-		"verified_status": "pending"
-	},
-	"https://lingogrove.com/french-negation/": {
-		"submitted_date": "2026-08-11",
-		"verified_status": "pending",
-		"note": "new publish (Grammar tier); Bing 200 / Yandex 202."
-	},
-	"https://lingogrove.com/spanish-prepositions/": {
-		"submitted_date": "2026-08-12",
-		"verified_status": "pending",
-		"note": "new publish; Bing 200 / Yandex 202."
-	},
-	"https://lingogrove.com/german-perfect-tense/": {
-		"submitted_date": "2026-08-12",
-		"verified_status": "pending",
-		"note": "new publish; Bing 200 / Yandex 202."
-	},
-	"https://lingogrove.com/inshallah-meaning/": {
-		"submitted_date": "2026-08-13",
-		"verified_status": "pending",
-		"note": "new publish (Loanwords tier); Bing 200 / Yandex 200."
-	},
-	"https://lingogrove.com/irregular-preterite-verbs-spanish/": {
-		"submitted_date": "2026-08-16",
-		"verified_status": "pending",
-		"note": "new publish (Grammar tier); Bing 200 / Yandex 202."
-	},
-	"https://lingogrove.com/mashallah-meaning/": {
-		"submitted_date": "2026-08-17",
-		"verified_status": "pending",
-		"note": "new publish (Loanwords tier); Bing 200 / Yandex 200. Live-URL poll could not be verified this run: curl/node fetch/Browser pane all failed to reach lingogrove.com from this session (proxy TLS handshake failure / navigation denied), while other domains (example.com, indexnow endpoints) worked fine -- appears to be a session-level access restriction on this owned domain, not a deploy failure. Local build (npm run build) confirmed correct dist/mashallah-meaning/index.html output before push."
-	},
-	"https://lingogrove.com/spanish-question-words/": {
-		"submitted_date": "2026-08-17",
-		"verified_status": "pending",
-		"note": "new publish (Grammar tier, spanish question words: qué vs cuál identity-question trap + por qué/porque/porqué/para qué cluster + cuánto gender agreement + dónde vs adónde); Bing 200 / Yandex 200."
-	},
-	"https://lingogrove.com/italian-future-tense/": {
-		"submitted_date": "2026-08-17",
-		"verified_status": "pending",
-		"note": "new publish (Grammar tier, first Italian-language entry on the site: futuro semplice regular/irregular formation + habeo+infinitive etymology + futuro epistemico/iussivo/attenuativo non-predictive uses + futuro anteriore); Bing 200 / Yandex 200. Live URL confirmed 200 with real article content before submission."
-	},
-	"https://lingogrove.com/french-prepositions/": {
-		"submitted_date": "2026-08-19",
-		"verified_status": "pending",
-		"note": "new publish (Grammar tier: à/en/dans spatial split, chez reserved for people, en/au/aux country-preposition gender rule + 5 masculine -e exceptions, en-vs-dans time duration, depuis/pendant/pour tense pairing); Bing 200 / Yandex 200. Live URL confirmed 200 with real article content before submission."
-	},
-	"https://lingogrove.com/french-reflexive-verbs/": {
-		"submitted_date": "2026-08-20",
-		"verified_status": "pending"
-	},
-	"https://lingogrove.com/french-past-participle/": {
-		"submitted_date": "2026-08-20",
-		"verified_status": "pending",
-		"note": "new publish (Grammar tier, 12th run of day: OQLF's two-ending regular/irregular classification (-er and -issant -ir only; every -re/-oir verb technically irregular, contradicting the common three-group textbook model), devoir/pouvoir/savoir/vouloir irregular set, avoir agreement's direct-object-must-precede rule with OQLF's own worked examples, être agreement split between plain subject-matching (motion verbs, passive voice) and the pronominal exception that borrows avoir's rule instead (cross-referenced to french-reflexive-verbs to avoid duplicating that mechanism), and why du/due keep the circumflex only in the masculine singular per the Academie francaise 1990 rectifications; sourced from 4 OQLF Vitrine linguistique pages + Academie francaise dictionnaire-academie.fr, all fetched and verified verbatim; passed independent 8-fold audit (zero blocking findings) plus a second humanizer/avoid-ai-writing pass this run caught and fixed on its own (8 prose em dashes cut to match site convention, one negation-stack sentence, one filler phrase); also backfilled two stale keyword-file entries missing [已用] tags from the prior run's french-reflexive-verbs publish); Bing 200 / Yandex 202. Live URL confirmed 200 with real article content before submission."
-	},
-	"https://lingogrove.com/spanish-superlatives/": {
-		"submitted_date": "2026-08-20",
-		"verified_status": "pending",
-		"note": "new publish (Tier 1 Grammar: relative vs. absolute superlative split per RAE glossary/Nueva gramatica basica (first term/quantificative group/optional de-coda), irregular relative superlatives bueno/malo/grande/pequeno -> mejor/peor/mayor/menor with the age-vs-size mayor/mas grande nuance, -isimo spelling-change rules including the less-common -or/-n -c- interfix (mayorcisimo/jovencisimo) and the unstressed diphthong -io/-ia vs stressed hiato -io/-ia vowel-drop distinction, Latin-inherited -errimo forms (paupérrimo/celebérrimo/acérrimo) with enemigo acerrimo as the surviving frozen collocation, and RAE own prefix-based superlative category (re-/super-/hiper-) with a 2019 academic source on re- productivity in Rioplatense Spanish for the regional angle; passed independent 8-point audit which caught 19 prose em dashes against house style + a missing sources[] citation for the grado-superlativo glossary page + one unverified competitor-coverage claim, all three fixed and confirmed clean by a second independent verification pass before publish); Bing 200 / Yandex 200. Live URL confirmed 200 with real article content before submission."
-	},
-	"https://lingogrove.com/spanish-si-clauses/": {
-		"submitted_date": "2026-08-21",
-		"verified_status": "pending"
-	},
-	"https://lingogrove.com/ciao-meaning/": {
-		"submitted_date": "2026-08-21",
-		"verified_status": "pending",
-		"note": "new publish (Loanwords tier, Tier 1 Grammar exhausted for unused vs-pattern candidates so moved to Tier 2; Treccani Venetian s-ciao/s-ciavo etymology, Wiktionary's fuller s-ciao vostro expression and Medieval/Late Latin Sclavus chain via the separate slave entry, hello-and-goodbye dual function per Treccani's own definition and Wiktionary's English listing, the goodbye-only narrowing in French tchao/Portuguese tchau/German tschau/Spanish chao-chau per Larousse and Wiktionary descendants, tschau-vs-tschuss disambiguation, servus parallel, Vietnamese chao false-cognate debunk; passed independent 8-fold audit + two re-audits after fixes -- first round found a misattributed Treccani quote (s-ciao vostro actually comes from Wiktionary, not Treccani), an under-cited Larousse synonym claim (verified real but sourced from the wrong Larousse URL, fixed by adding the synonym-dictionary page), and a dropped etymology hedge (tschuss chain missing the Dutch adjuus step and Spanish adios alternative); second re-audit caught a further Treccani misattribution self-identified during the fix pass (the Late Latin Sclavus/Slav-slave doublet chain was wrongly credited to both Treccani and Wiktionary when Treccani never reaches Latin at all) and confirmed the fix via a third independent gate-check; also cut em dash density from 1-per-62-words to zero in prose per Skill(humanizer)); Bing 200 / Yandex 200. Live URL confirmed 200 with real article content before submission."
-	},
-	"https://lingogrove.com/french-conditional/": {
-		"submitted_date": "2026-08-21",
-		"verified_status": "pending",
-		"note": "new publish (Grammar tier 1); OQLF-sourced formation (future stem + imperfect endings, 13 irregular stems), genuinely contested mood-vs-tense classification (OQLF treats as indicative tense, Lawless French and other standard references still teach as its own mood), si-clause chronological pairing rule with both real exceptions (indirect question, concessive si), habitual-past would false-friend trap paralleling spanish-conditional-tense; passed independent 8-fold audit + two re-audits after fixes -- first round found an internal self-contradiction on si-clause pairing count vs Spanish, a source-documented concessive-si exception dropped in compression, a false highest-frequency attribution to OQLF (list was an unranked 8-of-13 subset), a single-sourced mood-to-tense consensus overclaim, narrative em dashes, rather-than density, and a wrong mnemonic spelling (rait vs rais); second re-audit caught a mangled SVG quote and a new instead-of repetition pattern introduced while fixing round one, and an inconsistent shortened quote in coreSummary/SVG vs the full accurate quote in body/FAQ; third re-audit confirmed clean. Bing 200 / Yandex 200. Live URL confirmed 200 with real article content before submission."
-	},
-	"https://lingogrove.com/irregular-spanish-verbs/": {
-		"submitted_date": "2026-08-22",
-		"verified_status": "pending",
-		"note": "new publish (Grammar tier, highest-priority unused Grammar candidate after all vs.-pattern candidates were already published or explicitly skipped as duplicates; organizes by the RAE's own Nueva gramática classification (vocalic/consonantal/mixed/suppletive/defective) instead of the popular stem-changing/spelling-change/fully-irregular split every competitor site uses; sourced from RAE gramatica-basica and gramatica pages on los verbos irregulares (vocalicos, consonanticos, conjugacion especial/suppletive roots, defectivos) plus Spanish Linguist; passed independent 8-fold audit + re-audit after 2 fixes -- varied a duplicated internal-link anchor text, and qualified an overgeneralized -zco rule with its real named exceptions (hacer/decir/satisfacer, mecer/remecer) after cross-checking against Wikipedia's Spanish irregular verbs summary); Bing 200 / Yandex 200. Live URL confirmed 200 with real article content before submission."
-	},
-	"https://lingogrove.com/per-se-meaning/": {
-		"submitted_date": "2026-08-22",
-		"verified_status": "pending",
-		"note": "new publish (Loanwords tier 2, top unused vol-sorted candidate after all Grammar tier 'vs' candidates were already published or explicitly skipped; Latin per + se etymology with PIE *s(w)e- link to English self, the historical 'A per se A' letter-naming convention traced through Dunbar's 1501 London poem to the word 'ampersand' (1837), negligence per se and illegal per se (antitrust, Socony-Vacuum 1940) legal doctrines, contrast with ipso facto, and the Spanish reflexive pronoun se link; passed independent 8-fold audit + two re-audits after fixes -- first round found 12 em dashes in sources labels plus 3 in the self-made SVG diagram, an uncited corroborated-by-Britannica-and-Dictionary.com claim, and a Dunbar citation pointing to an unrelated Wikipedia page about a 1937 cantata; second re-audit caught that the replacement Wikipedia:William_Dunbar citation didn't actually support an added marriage-negotiations clause and that Britannica's own date (1835, first appearance) differs from Wikipedia's (1837, common use) so wording was corrected to attribute each date to its real source rather than imply agreement; third check confirmed clean. Bing 200 / Yandex 200. Live URL confirmed 200 with real article content before submission."
-	},
-	"https://lingogrove.com/spanish-present-tense-endings/": {
-		"submitted_date": "2026-08-23",
-		"verified_status": "pending",
-		"note": "new publish (19th run, Tier 1 Grammar; 'spanish present tense endings' -- top unused priority-file candidate after real Grammar-tier 'vs'/'difference between' patterns were exhausted, so search broadened to the site's established 'X endings' precedent (spanish-preterite-endings, spanish-imperfect-endings, german-adjective-endings); adjacent 'spanish future tense endings' candidate skipped as already covered by a dedicated section+FAQ in spanish-future-tense. Central differentiation angle: RAE's own morphological framework treating present tense as an unmarked morfema-cero (zero morpheme) vs. future's audible -re/imperfect's -aba, plus RAE-sourced /g//ig/ consonantal epenthesis rule for -go verbs and g/j, c/z spelling-preservation swaps. Passed independent 8-fold audit + one re-audit after fix -- first round found the -go epenthesis root-ending list (-l/-n/-s/-i) omitted a real -z counterexample (yacer: yazco/yazgo/yago, RAE-confirmed via @RAEinforma), flagged as 4th+ recurrence of the absolutized-list pattern; fix added -z/yacer to all three occurrences (coreSummary, section body, FAQ); second re-audit confirmed fix accurate and consistent across all three. Bing 200 / Yandex 200. Live URL confirmed 200 with real article content (morfema cero text present) before submission."
-	},
-	"https://lingogrove.com/spanish-present-perfect/": {
-		"submitted_date": "2026-08-23",
-		"verified_status": "pending",
-		"note": "new publish (20th run, Tier 1 Grammar; 'present perfect spanish' -- selected after two prior candidates ('spanish direct object pronouns' #510, 'spanish adverbs' #866) turned out to already be checked-and-skipped in the priority file (direct object pronouns: substantially covered by existing direct-vs-indirect-object-pronouns-spanish; spanish adverbs: explicitly skipped 2026-08-19 for zero-generic-source SERP dominance) -- an earlier filter pass mistakenly excluded only '已用' not '跳过' entries, corrected before publishing either. Central differentiation angle: haber+participle formation, the 12-verb irregular participle list plus the bendecir/maldecir -> bendecido/maldecido (real verb form) vs. bendito/maldito (adjective-only survival) distinction, the haber-participle inseparability rule, a present-perfect-vs-simple-preterite recency contrast, and the RAE's own account (Nueva gramática) of this being the Spanish past tense with the widest regional variation -- Spain defaults to present perfect for recent/same-day events, most of Latin America uses simple preterite for the same recency, with further neutralization in Chile/most of Argentina/NW Spain/Canary Islands toward preterite and coastal Peru/Andean Bolivia toward present perfect, plus an Andean evidential reading ('Ha sido caro' = 'turns out to be expensive') cross-sourced to an ELUA (Universidad de Alicante) academic journal article. Passed independent 8-fold audit + one re-audit after fixes -- first round found body under the 1000-word floor (585-968 words depending on measurement), 3 narrative em dashes, GEO score ~76/99 (below the 80 floor -- thin on verbatim quotes and cross-domain links), repeated 'Per the RAE' attribution phrasing, an inaccurate bridging claim overclaiming what spanish-verb-tenses-chart actually covers, and an oversized paragraph-length image alt text; fixed by expanding body to 1045 words (new present-perfect-vs-preterite section, Andean evidential fact, question/negation examples), removing all narrative em dashes, adding a verbatim RAE quote + the ELUA source, varying attribution phrasing, dropping the inaccurate verb-tenses-chart bridging link entirely, shortening alt text to one sentence, and replacing an unverified 'Mexico'-specific claim in the description with the RAE-matched 'much of Latin America'; second re-audit confirmed all fixes, noting only cosmetic non-blocking residue (3 internal links instead of originally-planned 4; 'RAE's own grammar' still appears twice). Bing 200 / Yandex 200. Live URL confirmed 200 with real article content before submission."
-	},
-	"https://lingogrove.com/spanish-gerund/": {
-		"submitted_date": "2026-08-24",
-		"verified_status": "pending",
-		"note": "new publish (Grammar tier, per 2026-08-24 publish-queue A/B/C real-SERP check: 8 organic slots in top 10 for 'spanish infinitive' put it at 3 authority sites -> B-tier, not selected; 'spanish gerund' scored 7 natural organic / 2 authority sites (reddit.com, study.com) -> A-tier, selected instead: -ando/-iendo formation, the e-i and o-u irregular stem families (pedir/decir/sentir/venir -> pidiendo etc.; dormir/morir/poder -> durmiendo etc.) tied explicitly to the shared third-person preterite stem, the vowel-stem -yendo insertion rule (leer/oir/traer/caer/construir/huir/ir), why the Spanish gerund can't be a noun subject/object unlike English -ing (nadar es divertido, not nadando), and two RAE prescriptive rules most competitor pages skip: gerundio de posterioridad and gerundio especificativo (the 'gerundio del BOE', with its hirviendo/ardiendo and carta-solicitando exceptions); sourced from 3 RAE pages (El buen uso del espanol + Libro de estilo de la Justicia x2), all URLs confirmed to appear verbatim in WebSearch results per the site's RAE-403-workaround rule; internal links to irregular-preterite-verbs-spanish (shared stem) and ser-vs-estar (estar+gerundio progressive); passed independent 8-fold audit on first pass except two fixes -- 'isn't X, it's Y' negative-parallelism used twice instead of the site's max-once rule, and em dashes in sources[] labels (L-0810-4 recurrence: dash zero-tolerance scan missing metadata fields) -- both fixed and verified clean by a second independent re-audit pass; npm test 64/64 and npm run build both clean; Bing 200 / Yandex 200. Live URL confirmed 200 with real article content before submission."
-	},
-	"https://lingogrove.com/semper-fi-meaning/": {
-		"submitted_date": "2026-08-24",
-		"verified_status": "pending",
-		"note": "new publish (Loanwords tier: 'semper fi meaning' — A-tier SERP per publish_queue_20260823, real DataForSEO SERP recheck confirmed no same-niche language-learning-site wall, just general authorities (Wikipedia, Dictionary.com) plus military-specific sources; etymology of semper (PIE *sḗm + -per) and fidelis (fidēs + -ēlis, 3rd-decl. two-termination adjective) via Wiktionary; pre-USMC history (Roman senate tradition, Abbeville 1369 earliest recorded motto use, Duke of Beaufort's Regiment 1685) and USMC adoption (1883, contested McCawley attribution, Sousa's 1888 march) cross-checked across Wikipedia/Military.com/Sandboxx/Task and Purpose/National Museum of the Marine Corps; branch-motto differentiation (Navy's unofficial Semper Fortis vs Coast Guard's official Semper Paratus) sourced to USO; internal links to per-se-meaning and latin-declensions; self-made SVG diagram; passed independent audit after 2 rounds of fixes (description length outlier tightened twice, one negative-parallelism sentence and one editorializing closing sentence rewritten, word count topped up to 1032); Bing 200 / Yandex 200. Live URL confirmed 200 with real article content before submission."
-	},
-	"https://lingogrove.com/de-nada-meaning/": {
-		"submitted_date": "2026-08-24",
-		"verified_status": "pending",
-		"note": "new publish (Loanwords tier: 'de nada meaning' -- de-preposition + nada-'nothing' composition, RAE dle.rae.es/nada definition quoted verbatim after independent-agent audit caught a misquote (comma+'falta' vs actual 'carencia', no comma), etymology of nada from Latin (nulla) res nata / nemo natus (not from nihil) sourced to Wiktionary+Etymonline, formal-register alternative no hay de que (Mexico and Spain alike, not Spain-exclusive), Colombia/Ecuador default a la orden (military-parlance origin, everyday commerce usage), Costa Rica con mucho gusto, por nada variant; internal links to spanish-prepositions and ciao-meaning; Tier1 (Grammar, vs-pattern) confirmed exhausted before selecting this Tier2 (Loanwords) candidate, A-grade in 2026-08-23 SERP publish-queue snapshot; passed independent 8-fold audit + one re-audit round after fixes -- first round found misquoted RAE definition, one dead source URL (greenmochila.com 404, replaced with eyesoncolombia.wordpress.com + howlearnspanish.com), an etymology detail attributed to the wrong source, an under-supported 'Spain leans on no hay de que' regional claim, and body word count short of 1000; second re-audit found coreSummary/description/usageNote.regionNote still contradicted the corrected body paragraph on the Spain claim, fixed by aligning all fields); Bing 200 / Yandex 202. Live URL confirmed 200 with real article content before submission."
-	},
-	"https://lingogrove.com/spanish-infinitive/": {
-		"submitted_date": "2026-08-25",
-		"verified_status": "pending",
-		"note": "new publish (Grammar tier: 'spanish infinitive' — non-personal verb form (no person/tense/mood, simple vs. compound haber+participle), infinitive as the only non-finite form that can fill a noun's spot since the Spanish gerund is barred from that role (cross-linked to spanish-gerund), verbal vs. nominal infinitive distinction, al + infinitivo temporal/causal construction, infinitive carrying an independent subject (Al oscurecer example + genuinely ambiguous antes de llegar example), deber vs. deber de (obligation vs. conjecture) and negation-scope contrast between deber/tener que, and the RAE's valid-exhortative-sign vs. discouraged-vosotros-substitution distinction for infinitive-as-imperative; sourced entirely from RAE (Nueva gramática, El buen uso del español, Español al día); passed independent 8-fold audit except two fixes — an overclaimed 'every preposition, no exceptions' rule (según is a documented RAE exception, already covered on-site in spanish-prepositions) and 6 em dashes (1 heading, 5 sources[] labels) reverted to the site's colon convention, both fixed before publish); Bing 200 / Yandex 200. Live URL confirmed 200 with real article content before submission."
-	},
-	"https://lingogrove.com/french-irregular-verbs/": {
-		"submitted_date": "2026-08-25",
-		"verified_status": "pending",
-		"note": "new publish (Grammar tier: 'french irregular verbs' — French's three-conjugation classification (1st -er ~6,000 verbs, 2nd -ir/-issant ~300 verbs, 3rd closed class holding nearly all irregularity incl. aller despite its -er spelling), the four verbs (être/avoir/aller/faire) whose present-tense stems don't reduce to any shared family rule, the rule-governed 'boot' stem-change family (pouvoir/vouloir/devoir), the vien-/ven- family (venir/tenir + compounds), the prend-/pren-/prenn- family (prendre + apprendre/comprendre/reprendre), spelling-change -er verbs (appeler/préférer/payer/envoyer) that are fully regular and not third-group irregulars at all, and the être/faire/dire -tes exception to the vous -ez pattern; present-tense forms for être/avoir/aller/faire/pouvoir/vouloir/devoir/venir/prendre/dire cross-checked directly against Larousse's conjugation tables, group classification and spelling rules sourced from Wikipedia's 'French conjugation' entry; SERP checked before selection (7/10 organic in top 10, 0 authority-site domination, only one same-niche competitor among top 8); self-made SVG diagram; passed independent 8-fold audit except fixes — 25 narrative em dashes reverted to the site's colon/comma convention (L-0810-4 recurrence), a repeated 'flat list' rhetorical hook and negative-parallelism pattern (4-5 recurrences) trimmed to isolated instances, an unverified 'dire/lire/écrire share a rule' claim removed from the SVG diagram, two hollow-intensifier 'genuine/genuinely' instances cut, and a factual claim about vous-form endings corrected + expanded (dire's vous dites added alongside être/faire, sourced and cross-checked) after re-review of an intermediate edit; passed a second independent re-audit confirming all fixes and verifying the new être/faire/dire claim via live Larousse fetch; Bing 200 / Yandex 200. Live URL confirmed 200 with real article content, including the vous dites detail, before submission."
-	},
-	"https://lingogrove.com/russian-cases/": {
-		"submitted_date": "2026-08-25",
-		"verified_status": "pending"
-	},
-	"https://lingogrove.com/voila-meaning/": {
-		"submitted_date": "2026-08-26",
-		"verified_status": "pending",
-		"note": "new publish (Loanwords tier: 'voila meaning' -- Tier1 Grammar confirmed exhausted (word file's only remaining vs-pattern candidate, 'imperfect vs preterite practice', previously skipped as SERP-dominated by interactive quiz tools with no static-article fit), so selected first unused Tier2 candidate in priority order; etymology composed of vois (2nd-person indicative of voir, per CNRTL not imperative as some EN secondary sources claim) + la, first attested 1342 in Guillaume de Machaut's Le Dit dou Lyon per CNRTL's own citation history (fetched directly via curl, not WebFetch); voici/voila near-far distinction and its erosion in modern spoken French; French's elapsed-time construction (voila + duration + que) that never crossed into English; the voila/viola misspelling documented by WSU's Common Errors in English Usage (Paul Brians); and the three-way 'wallah' coincidence -- Merriam-Webster + Grammarphobia (Aug 2016) on the dropped-v respelling, contrasted with the two real unrelated words spelled wallah (Indo-Aryan -wala suffix from Sanskrit pala + Wikipedia's Wallah entry, and Arabic wa-+Allah oath per Wiktionary); self-made SVG diagram; internal links to french-pronouns and per-se-meaning; passed independent 8-fold audit except fixes -- a section-heading duplication bug ('voila,' 'wallah,' and 'wallah' instead of 'voila,' 'viola,' and 'wallah'), 11 narrative em dashes + 1 SVG em dash (L-0810-4 recurrence, this time reaching the primary narrative body/coreSummary fields rather than just metadata), and an over-precise single-sourced date/author attribution (1757, R.-L. Argenson) softened to 'mid-18th-century attestation' in both body and FAQ after a second independent re-audit caught the FAQ still citing the specific year; all fixes confirmed by re-audit, npm run build clean, Bing 200 / Yandex 200. Live URL confirmed 200 with real article content before submission."
-	},
-	"https://lingogrove.com/mamacita-meaning/": {
-		"submitted_date": "2026-08-26",
-		"verified_status": "pending",
-		"note": "new publish (Loanwords tier: 'mamacita meaning' -- A-grade in the 2026-08-23 SERP snapshot, real SERP re-checked via WebSearch, not dominated by same-niche dictionary competitors; Tier1 Grammar candidates exhausted for the day, selected next unused Tier2 candidate in priority order after voila-meaning; etymology mama + -cita diminutive suffix per Wiktionary's -cito usage note (variant of -ito/-ita added after a vowel other than -o, does not delete the final vowel), papacito given as the parallel masculine example; Wiktionary's own Spanish entry splits mamacita into two senses -- unmarked affectionate diminutive of mama, and a sense labeled (Latin America, slang) babe/hottie, cited with a real 2018 Daddy Yankee 'Dura' lyric; OED's earliest English evidence dated 1887 in Overland Monthly, English borrowing keeping only the slang sense per Wiktionary's separate English entry; distincion/seseo regional pronunciation split; self-made SVG diagram; internal links to habibi-meaning and voila-meaning; sensitive-content handling per usageNote (register: casual, regionNote covers the affectionate-vs-catcall split) since the slang sense functions as a catcall in the sources; three independent audit rounds -- round 1 found and fixed 2 SVG em dashes (L-0810-4 recurrence), an NPR/Laura Martinez essay overclaim (essay only documents a personal 'Mamacita!' catcall in her New York neighborhood, not Mexico City, where she describes being catcalled with different words), an unqualified 'across the Spanish-speaking world' universality claim in 3 fields (L-0804-2 recurrence pattern) softened to \"no region label in Wiktionary's entry\", and a vague-attribution 'several Spanish speakers' overclaim reduced to the single named source; round 2 caught a fresh issue introduced by the round-1 fix (an unsourced 'Spain favors mami' clause traced to a low-quality site not in sources[]) plus a fabricated papacito/mamita 'flirtatious or catcalling' parallel not supported by their Wiktionary entries (both verified single-sense only) and an unverifiable Collins Dictionary citation (Cloudflare-blocked, removed rather than left unconfirmed); round 3 confirmed all fixes against fresh live Wiktionary fetches, npm test 64/64, npm run build clean. Live URL confirmed 200 with real article content before submission."
-	},
-	"https://lingogrove.com/mijo-meaning/": {
-		"submitted_date": "2026-08-26",
-		"verified_status": "pending",
-		"note": "new publish (Loanwords tier: 'mijo meaning' — A-grade in the 2026-08-23 SERP snapshot, first unused Tier2 candidate after Tier1 Grammar (pure 'X vs Y' pattern) confirmed exhausted in the priority file; two unrelated etymologies — millet from Latin milium (RAE, ultimately PIE *melh₂- 'to grind') vs. the vocative contraction of mi hijo/mi hija ('my son'/'my daughter', Wiktionary + Academia Canaria de la Lengua's 2024 note on the spoken-to-written mijo/mija spelling); DAMER's own entry for mijo/mija documents three senses (children, friend/companion, and in US/Mexico/Colombia/Chile a romantic partner), plus separate entries for mijito/mijita (diminutive) and mijijo/mijija (friend-only variant); Canary Islands vs. mainland Spain regional contrast per Academia Canaria; self-made SVG diagram; internal links to spanish-possessive-adjectives and mamacita-meaning; two independent audit rounds — round 1 found a misattribution (the 'extends beyond children' nuance credited to Academia Canaria when DAMER's own entry already documents it), an unsupported 'mainland Spain uses cariño/corazón' claim not actually present in the cited Academia Canaria source, and the most significant issue: the article claimed mijo 'never made it into English dictionaries' when Wiktionary's own cited page has a full English section (US 'term of endearment', cited from the New York Times and The Athletic) — narrower correct claim (no OED/Merriam-Webster entry, unlike mamacita's 1887 OED date) kept, false broader claim rewritten to 'in English print, but not yet in an English dictionary'; round 2 independently re-verified all three fixes via direct DAMER/Wiktionary/Academia Canaria fetches (confirmed accurate) and caught two small mechanical slips from the round-1 edit — a relocated em dash in a FAQ answer (L-0810-4 recurrence) and a 'four forms' count error (only three slash-pairs listed) — both fixed and reconfirmed; npm run build clean. Bing 200 / Yandex 200. Live URL confirmed 200 with real article content before submission."
-	},
-	"https://lingogrove.com/sayonara-meaning/": {
-		"submitted_date": "2026-08-27",
-		"verified_status": "pending",
-		"note": "new publish (Loanwords tier: 'sayonara meaning' — A-grade per live SERP check (organic_top10=8, authority=0), Tier1 Grammar confirmed fully exhausted this run (every remaining candidate either published or already evaluated-and-rejected as duplicate/high-competition), moved to Tier2. Etymology sayō naraba ('if it be thus') cross-confirmed via Etymonline/Wiktionary/Dictionary.com; OED earliest citations for the interjection (1863, Rutherford Alcock) and separate verb sense (1883, J.J. Smith) both verified; register/usage nuance (rarely used daily, implies indefinite/permanent separation, mata ne/ja ne as everyday alternatives) cross-confirmed across 4+ independent Japanese-learning sources; 1957 film Sayonara facts (Joshua Logan dir., 1954 Michener novel, Brando, 4 Oscar wins incl. Umeki as first East Asian-descent acting-category winner) verified. Self-made SVG etymology/register-contrast diagram; internal links to senpai-meaning and japanese-particles-wa-ga-wo-ni. Two independent audit rounds — round 1 (full 13-point audit) found sources[].label em-dash formatting (L-0810-4 recurrence, should be colon per post-08-22 site convention), 3 em dashes in the self-authored SVG (same L-0810-4 sub-pattern), a comparative-arithmetic overstatement ('a full century' for a 94-year gap, corrected to 'nearly a century'), a usageNote.register value mismatch ('neutral' didn't fit the article's own weighty/formal framing, changed to 'formal', confirmed supported+rendered), a minor cross-article rhetorical-skeleton echo, and thin body word count (784 words, below site norm) — fixed via colon reformatting, SVG dash removal, arithmetic correction, register field change, reworded sentence, and one new well-sourced paragraph (elementary-school classroom sayonara-to-teacher ritual as a genuine daily-use exception, independently corroborated by Coto Academy/MATCHA/LiveJapan/Bento Japanese beyond the single new citation); round 2 (targeted re-check) independently re-verified all fixes correct and the new classroom claim accurate, but caught one new 'isn't X; it's Y' antithesis construction introduced by the round-1 edit (AI-tell pattern) — reworded directly, no further audit needed for that mechanical fix. npm run build clean (77 pages). Bing 200 / Yandex 202. Live URL confirmed 200 with real article content before submission."
-	},
-	"https://lingogrove.com/oy-vey-meaning/": {
-		"submitted_date": "2026-08-27",
-		"verified_status": "pending",
-		"note": "new publish (Loanwords tier: 'oy vey meaning' — A-grade per 2026-08-23 SERP snapshot (organic_top10=7, authority=2), Tier1 Grammar and prior Tier2 pick sayonara-meaning already used this run's earlier slot; 'vato meaning' was next by priority but is B-grade (authority=3) so skipped per A/B/C queue rule, moved to next unused A-grade Loanwords candidate. Two-round independent audit: round 1 caught a fabricated etymology claim ('OED records the phrase entering English in the 19th century, spelled oi') that did not exist in any accessible primary source — traced to the same AI-search-synthesis-artifact failure mode already logged as L-0804-1 (the WarCrumbs Supreme Court '6-3' case), where identical wording surfaced verbatim across differently-phrased WebSearch queries; direct API fetches of Wikipedia's actual 'Oy vey' article and Etymonline's actual page confirmed no such claim exists anywhere in either source. Rewrote the entire etymology/dating section using only directly-fetched primary text: Etymonline dates 'oy' to 1892 and extended 'oy vey' to 1959, Merriam-Webster separately gives 1914 as first known use for the two-word form — presented as an acknowledged, unresolved cross-dictionary discrepancy rather than a false reconciliation. Also independently discovered and added a previously-missing, directly relevant fact from the article's own Wikipedia source: 'oy vey' has documented use as an antisemitic dog whistle, including a real March 2019 hate-crime incident (Fall River, MA Jewish cemetery, 59 headstones defaced with swastikas and the phrase 'Oy vey! This is MAGA country') — cross-verified against 9 independent news outlets (CBS News, Boston Globe, Boston Magazine, Daily Beast, WBUR, Fox News, Times of Israel, Religion News, America Magazine) before inclusion, added as one sourced, proportionate sentence in usageNote.regionNote alongside the phrase's far more common mainstream/non-mockery use. Gevalt etymology chain (Middle High German gewalt/Old High German giwalt/cognate with Yiddish gevald, meaning force/violence) verified via direct Wiktionary API fetch. Round 2 (fresh independent re-audit, no knowledge of round 1's process) re-verified every factual claim against primary sources independently and found the fabricated claim fully removed with no new problems introduced; verdict 'ready to publish.' Self-made SVG (etymology-theories + oy/oy vey/oy vey iz mir/oy gevalt family diagram, rewritten alongside the text fix to remove an unverified etymology chain and one em dash); internal links to schadenfreude-meaning and voila-meaning. npm test 64/64, npm run build clean (78 pages), check_seo_field_stats.py title/description both in normal range, zero em/en dashes or curly quotes. Bing 200 / Yandex 200. Live URL confirmed 200 with real article content and working SVG before submission."
-	}
+    "https://lingogrove.com/latin-declensions/": {
+        "submitted_date": "2026-08-23",
+        "verified_status": "pending",
+        "note": "new publish (Grammar tier: 'latin declensions' — five noun declensions identified by genitive singular marker (-ae/-ī/-is/-ūs/-eī or -ēī), full case-ending paradigms for all five, i-stem -ium genitive plural rule, domus hybrid 2nd/4th-declension irregularity, diēs-vs-rēs long/short genitive-dative distinction, case functions incl. vocative -e exception and fossilized locative; sourced from Wikipedia 'Latin declension' (synthesizing Allen and Greenough / Gildersleeve and Lodge) cross-checked against Wiktionary's first-declension appendix; SERP checked before selection — no same-niche competitor wall (Wikipedia/Superprof/personal blogs, not spanishdict-type sites); internal links to spanish-future-tense (habeo fusion etymology) and ser-conjugation (esse/sedere suppletion) tie the Latin case-collapse narrative to existing site content; passed independent 8-fold audit on first pass except one fix — sources[] labels and two SVG diagram sentences used em dashes instead of the site's colon convention (L-0810-4 recurrence, fixed before publish); Bing 200 / Yandex 200. Live URL confirmed 200 with real article content before submission."
+    },
+    "https://lingogrove.com/german-dative-case/": {
+        "submitted_date": "2026-08-23",
+        "verified_status": "pending",
+        "note": "new publish (Grammar tier: 'german dative case' — dative-only Rektion verbs helfen/danken/gefallen/gehören/folgen/gratulieren/passen/schmecken, full dative pronoun paradigm, noun-vs-pronoun word-order flip in the Mittelfeld, seven fixed dative prepositions, gegenüber as postposition, Wechselpräpositionen 'movement within a bounded space still takes dative' nuance (aquarium/skateboard examples) vs. the generic 'motion=accusative' shortcut most competitor blogs teach; sourced from grammis (IDS Mannheim) across 5 distinct pages + Duden for the helfen-vs-unterstützen case contrast; passed independent 8-fold audit + two re-audit rounds after fixes — first round found FAQ answers near-duplicating body phrasing, one repeated internal-link anchor text, body prose thin at 895 words vs. 1300-1400-word siblings (german-cases/german-genitive), an overstated gegenüber postposition-frequency claim, and 'rather than' overuse; fixed by expanding body to 1380 words with a new closing section comparing to English's fossilized he/him-who/whom pronoun case system plus a verb-valency-dictionary paragraph, varying anchor text, softening the gegenüber claim, and trimming 'rather than' from 6 to 3; second re-audit found FAQ5 (gegenüber) was only lightly reshuffled not genuinely rewritten, fixed with a third pass verified by a final read-only check); Bing 200 / Yandex 200. Live URL confirmed 200 with real article content before submission."
+    },
+    "https://lingogrove.com/spanish-conjunctions/": {
+        "submitted_date": "2026-08-19",
+        "verified_status": "pending",
+        "note": "new publish (Grammar tier, 10th run of day: RAE y→e/o→u phonetic swap rule with aspirated-h/diphthong exceptions, pero-vs-sino restrict-vs-replace distinction, sino que trigger, sino/si no spelling trap, ni comma rule; sourced from RAE Español al día, El buen uso del español, Glosario, DPD, Libro de estilo + Fundéu Guzmán Ariza; two higher-priority unused Grammar candidates — 'spanish subjunctive' and 'spanish subjunctive endings' — found fully covered by existing subjunctive-spanish article and marked merged/skipped instead of opened as duplicates; passed independent 8-fold audit + re-audit after 3 fixes — trimmed a 190-char outlier description, removed a duplicated 'it's not X — it's Y' rhetorical device between body and FAQ, added a second internal link to spanish-prepositions; two new generalizable lessons logged to 内容通用教训库.md: L-0819-8 repeated source-attribution phrasing as a word-list-blind AI tell, L-0819-9 avoid-ai-writing device caps must be checked across body+FAQ combined); Bing 200 / Yandex 200. Live URL confirmed 200 with real article content before submission."
+    },
+    "https://lingogrove.com/spanish-preterite-endings/": {
+        "submitted_date": "2026-08-19",
+        "verified_status": "pending",
+        "note": "new publish (Grammar tier, companion to spanish-imperfect-endings; two regular preterite endings sets, RAE aguda accent rule vs. imperfect's hiato rule, -ar/-ir nosotros overlap with present tense, hablastes/voseo analogical -s cross-connection; sourced from RAE, SpanishDict, El Castellano; passed independent audit + re-audit after 3 fixes — cut an avoid-ai-writing intensifier, shortened an outlier description field, corrected a false hablasteis stress-pattern claim); Bing 200 / Yandex 200. Live URL confirmed 200 with real article content before submission."
+    },
+    "https://lingogrove.com/german-cases/": {
+        "submitted_date": "2026-08-18",
+        "verified_status": "pending",
+        "note": "new publish (Grammar tier, four-case overview differentiated by where the noun itself changes vs. the article: weak/n-declension nouns, dative plural -n, genitive singular -(e)s; sourced from grammis IDS Mannheim + PONS); Bing 200 / Yandex 200. Live URL confirmed 200 with real article content before submission."
+    },
+    "https://lingogrove.com/german-genitive/": {
+        "submitted_date": "2026-08-18",
+        "verified_status": "pending",
+        "note": "new publish (Grammar tier, Duden's Genitivregel 3-part rule + -s/-es formation + 7 -ns weak nouns + Herz exception + wegen-dative shift/Bastian Sick book); Bing 200 / Yandex 200."
+    },
+    "https://lingogrove.com/mahalo-meaning/": {
+        "submitted_date": "2026-08-18",
+        "verified_status": "pending",
+        "note": "new publish (Loanwords tier, Hawaiian mahalo two-sense etymology via Pukui & Elbert + POLLEX, contrast with aloha's separate root); Bing 200 / Yandex 202."
+    },
+    "https://lingogrove.com/french-pronouns/": {
+        "submitted_date": "2026-08-17",
+        "verified_status": "pending",
+        "note": "new publish (Grammar tier, French pronoun system reference: 5 families + à-verb exception list + stacking order); Bing 200 / Yandex 200."
+    },
+    "https://lingogrove.com/spanish-imperfect-endings/": {
+        "submitted_date": "2026-08-16",
+        "verified_status": "pending",
+        "note": "new publish (Grammar tier, imperfect endings + accent rules + ir/ser/ver irregulars); Bing 200 / Yandex 200."
+    },
+    "https://lingogrove.com/spanish-verb-tenses-chart/": {
+        "submitted_date": "2026-08-13",
+        "verified_status": "pending",
+        "note": "new publish (Grammar tier, hub page linking to 5 existing tense guides); Bing 200 / Yandex 200."
+    },
+    "https://lingogrove.com/habibi-meaning/": {
+        "submitted_date": "2026-08-12",
+        "verified_status": "pending",
+        "note": "new publish (Loanwords tier, first Arabic-language article); Bing 200 / Yandex 200."
+    },
+    "https://lingogrove.com/german-adjective-endings/": {
+        "submitted_date": "2026-08-11",
+        "verified_status": "pending",
+        "note": "new publish (Grammar tier, first German grammar article); Bing 200 / Yandex 202."
+    },
+    "https://lingogrove.com/japanese-particles-wa-ga-wo-ni/": {
+        "submitted_date": "2026-08-10",
+        "verified_status": "pending",
+        "note": "new publish (Grammar tier, first Japanese-language grammar article); Bing 200 / Yandex 202."
+    },
+    "https://lingogrove.com/spanish-demonstrative-adjectives/": {
+        "submitted_date": "2026-08-10",
+        "verified_status": "pending",
+        "note": "new publish (Grammar tier); Bing 200 / Yandex 202."
+    },
+    "https://lingogrove.com/spanish-possessive-adjectives/": {
+        "submitted_date": "2026-08-09",
+        "verified_status": "pending",
+        "note": "new publish (Grammar tier); Bing 200 / Yandex 202.",
+        "last_checked_date": "2026-08-25",
+        "verified_method": "bwt_url_inspection",
+        "verify_note": "哨兵异常(discovered 01 Jan 2006), 无法判定真实账龄"
+    },
+    "https://lingogrove.com/french-articles/": {
+        "submitted_date": "2026-08-09",
+        "verified_status": "pending",
+        "note": "new publish (Grammar tier); Bing 200 / Yandex 202."
+    },
+    "https://lingogrove.com/spanish-pronouns/": {
+        "submitted_date": "2026-08-06",
+        "verified_status": "stale_not_indexed",
+        "note": "new publish (Grammar tier); Bing 200 / Yandex 202.",
+        "last_checked_date": "2026-08-25",
+        "verified_method": "bwt_url_inspection",
+        "verify_note": "discovered 08 Aug, 账龄17天超过14天阈值, Blocked"
+    },
+    "https://lingogrove.com/double-object-pronouns-spanish/": {
+        "submitted_date": "2026-08-06",
+        "verified_status": "stale_not_indexed",
+        "note": "new publish (Grammar tier); Bing 200 / Yandex 202.",
+        "last_checked_date": "2026-08-25",
+        "verified_method": "bwt_url_inspection",
+        "verify_note": "discovered 08 Aug, 账龄17天超过14天阈值, Blocked"
+    },
+    "https://lingogrove.com/direct-vs-indirect-object-pronouns-spanish/": {
+        "submitted_date": "2026-08-04",
+        "verified_status": "stale_not_indexed",
+        "note": "new publish; Bing 200 / Yandex 202.",
+        "last_checked_date": "2026-08-22",
+        "verified_method": "bwt_url_inspection",
+        "verify_note": "discovered 04 Aug, 18天未收录"
+    },
+    "https://lingogrove.com/por-vs-para/": {
+        "submitted_date": "2026-08-03",
+        "verified_status": "stale_not_indexed",
+        "note": "discovered 04 Aug 2026, 账龄15天, 超14天阈值(此前08-17标注恰好14天逼近阈值,本次确认转stale)",
+        "last_checked_date": "2026-08-19",
+        "verified_method": "bwt_url_inspection"
+    },
+    "https://lingogrove.com/ser-vs-estar/": {
+        "submitted_date": "2026-08-06",
+        "verified_status": "stale_not_indexed",
+        "note": "resubmitted after content-quality-audit fix (removed 14 narrative em-dashes, added rico example, softened regionNote regional-variation claim with sourced dialectal detail, added verbatim RAE quote); Bing 200 / Yandex 202. Originally submitted 2026-08-03 as launch batch, Bing 202 / Yandex 202.",
+        "last_checked_date": "2026-08-25",
+        "verified_method": "bwt_url_inspection",
+        "verify_note": "discovered 04 Aug, 账龄21天超过14天阈值, Blocked"
+    },
+    "https://lingogrove.com/preterite-vs-imperfect/": {
+        "submitted_date": "2026-08-03",
+        "verified_status": "stale_not_indexed",
+        "note": "discovered 04 Aug 2026, 账龄15天, 超14天阈值(此前08-17标注恰好14天逼近阈值,本次确认转stale)",
+        "last_checked_date": "2026-08-19",
+        "verified_method": "bwt_url_inspection"
+    },
+    "https://lingogrove.com/deja-vu-meaning/": {
+        "submitted_date": "2026-08-03",
+        "verified_status": "stale_not_indexed",
+        "note": "discovered 04 Aug 2026, 账龄15天, 超14天阈值(此前08-17标注恰好14天逼近阈值,本次确认转stale)",
+        "last_checked_date": "2026-08-19",
+        "verified_method": "bwt_url_inspection"
+    },
+    "https://lingogrove.com/schadenfreude-meaning/": {
+        "submitted_date": "2026-08-03",
+        "verified_status": "stale_not_indexed",
+        "note": "discovered 04 Aug 2026, 账龄15天, 超14天阈值(此前08-17标注恰好14天逼近阈值,本次确认转stale)",
+        "last_checked_date": "2026-08-19",
+        "verified_method": "bwt_url_inspection"
+    },
+    "https://lingogrove.com/senpai-meaning/": {
+        "submitted_date": "2026-08-03",
+        "verified_status": "stale_not_indexed",
+        "note": "discovered 04 Aug 2026, 账龄15天, 超14天阈值(此前08-17标注恰好14天逼近阈值,本次确认转stale)",
+        "last_checked_date": "2026-08-19",
+        "verified_method": "bwt_url_inspection"
+    },
+    "https://lingogrove.com/happy-birthday-in-spanish/": {
+        "submitted_date": "2026-08-03",
+        "verified_status": "stale_not_indexed",
+        "note": "Discovered but not crawled, discovered 03 Aug 2026, age 13 days as of 08-16 check, approaching stale threshold",
+        "last_checked_date": "2026-08-22",
+        "verified_method": "bwt_url_inspection",
+        "verify_note": "discovered 04 Aug, 18天未收录"
+    },
+    "https://lingogrove.com/good-night-in-spanish/": {
+        "submitted_date": "2026-08-03",
+        "verified_status": "stale_not_indexed",
+        "note": "launch batch, new publish; Bing 202 / Yandex 202.; Discovered but not crawled (Discovered on 03 Aug 2026)",
+        "last_checked_date": "2026-08-22",
+        "verified_method": "bwt_url_inspection",
+        "verify_note": "discovered 04 Aug, 18天未收录"
+    },
+    "https://lingogrove.com/i-love-you-in-spanish/": {
+        "submitted_date": "2026-08-03",
+        "verified_status": "stale_not_indexed",
+        "note": "Discovered but not crawled, discovered 03 Aug 2026, age 13 days as of 08-16 check, approaching stale threshold",
+        "last_checked_date": "2026-08-22",
+        "verified_method": "bwt_url_inspection",
+        "verify_note": "discovered 04 Aug, 18天未收录"
+    },
+    "https://lingogrove.com/ser-conjugation/": {
+        "submitted_date": "2026-08-05",
+        "verified_status": "stale_not_indexed",
+        "note": "Discovered but not crawled, discovered 04 Aug 2026, age 19 days as of 08-23 check",
+        "last_checked_date": "2026-08-23",
+        "verified_method": "bwt_url_inspection"
+    },
+    "https://lingogrove.com/saber-vs-conocer/": {
+        "submitted_date": "2026-08-04",
+        "verified_status": "stale_not_indexed",
+        "note": "new publish (Grammar tier); Bing 200 / Yandex 202.",
+        "last_checked_date": "2026-08-22",
+        "verified_method": "bwt_url_inspection",
+        "verify_note": "discovered 04 Aug, 18天未收录"
+    },
+    "https://lingogrove.com/spanish-reflexive-verbs/": {
+        "submitted_date": "2026-08-04",
+        "verified_status": "stale_not_indexed",
+        "note": "Discovered but not crawled, discovered 06 Aug 2026, age 17 days as of 08-23 check",
+        "last_checked_date": "2026-08-23",
+        "verified_method": "bwt_url_inspection"
+    },
+    "https://lingogrove.com/spanish-future-tense/": {
+        "submitted_date": "2026-08-05",
+        "verified_status": "stale_not_indexed",
+        "note": "Discovered but not crawled, discovered 06 Aug 2026, age 17 days as of 08-23 check",
+        "last_checked_date": "2026-08-23",
+        "verified_method": "bwt_url_inspection"
+    },
+    "https://lingogrove.com/subjunctive-spanish/": {
+        "submitted_date": "2026-08-05",
+        "verified_status": "stale_not_indexed",
+        "note": "Discovered but not crawled, discovered 06 Aug 2026, age 17 days as of 08-23 check",
+        "last_checked_date": "2026-08-23",
+        "verified_method": "bwt_url_inspection"
+    },
+    "https://lingogrove.com/spanish-conditional-tense/": {
+        "submitted_date": "2026-08-05",
+        "verified_status": "stale_not_indexed",
+        "note": "Discovered but not crawled, discovered 06 Aug 2026, age 17 days as of 08-23 check",
+        "last_checked_date": "2026-08-23",
+        "verified_method": "bwt_url_inspection"
+    },
+    "https://lingogrove.com/spanish-accent-marks/": {
+        "submitted_date": "2026-08-06",
+        "verified_status": "stale_not_indexed",
+        "note": "daily publish; Bing 200 / Yandex 202.",
+        "last_checked_date": "2026-08-25",
+        "verified_method": "bwt_url_inspection",
+        "verify_note": "discovered 10 Aug, 账龄15天首次超过14天阈值, Blocked"
+    },
+    "https://lingogrove.com/french-imperative/": {
+        "submitted_date": "2026-08-10",
+        "verified_status": "pending",
+        "note": "new publish (Grammar tier); Bing 200 / Yandex 202."
+    },
+    "https://lingogrove.com/french-subjunctive/": {
+        "submitted_date": "2026-08-10",
+        "verified_status": "pending",
+        "note": "new publish (Grammar tier, today's fourth article); Bing 200 / Yandex 202."
+    },
+    "https://lingogrove.com/spanish-commands/": {
+        "submitted_date": "2026-08-11",
+        "verified_status": "pending"
+    },
+    "https://lingogrove.com/french-negation/": {
+        "submitted_date": "2026-08-11",
+        "verified_status": "pending",
+        "note": "new publish (Grammar tier); Bing 200 / Yandex 202."
+    },
+    "https://lingogrove.com/spanish-prepositions/": {
+        "submitted_date": "2026-08-12",
+        "verified_status": "pending",
+        "note": "new publish; Bing 200 / Yandex 202."
+    },
+    "https://lingogrove.com/german-perfect-tense/": {
+        "submitted_date": "2026-08-12",
+        "verified_status": "pending",
+        "note": "new publish; Bing 200 / Yandex 202."
+    },
+    "https://lingogrove.com/inshallah-meaning/": {
+        "submitted_date": "2026-08-13",
+        "verified_status": "pending",
+        "note": "new publish (Loanwords tier); Bing 200 / Yandex 200."
+    },
+    "https://lingogrove.com/irregular-preterite-verbs-spanish/": {
+        "submitted_date": "2026-08-16",
+        "verified_status": "pending",
+        "note": "new publish (Grammar tier); Bing 200 / Yandex 202."
+    },
+    "https://lingogrove.com/mashallah-meaning/": {
+        "submitted_date": "2026-08-17",
+        "verified_status": "pending",
+        "note": "new publish (Loanwords tier); Bing 200 / Yandex 200. Live-URL poll could not be verified this run: curl/node fetch/Browser pane all failed to reach lingogrove.com from this session (proxy TLS handshake failure / navigation denied), while other domains (example.com, indexnow endpoints) worked fine -- appears to be a session-level access restriction on this owned domain, not a deploy failure. Local build (npm run build) confirmed correct dist/mashallah-meaning/index.html output before push."
+    },
+    "https://lingogrove.com/spanish-question-words/": {
+        "submitted_date": "2026-08-17",
+        "verified_status": "pending",
+        "note": "new publish (Grammar tier, spanish question words: qué vs cuál identity-question trap + por qué/porque/porqué/para qué cluster + cuánto gender agreement + dónde vs adónde); Bing 200 / Yandex 200."
+    },
+    "https://lingogrove.com/italian-future-tense/": {
+        "submitted_date": "2026-08-17",
+        "verified_status": "pending",
+        "note": "new publish (Grammar tier, first Italian-language entry on the site: futuro semplice regular/irregular formation + habeo+infinitive etymology + futuro epistemico/iussivo/attenuativo non-predictive uses + futuro anteriore); Bing 200 / Yandex 200. Live URL confirmed 200 with real article content before submission."
+    },
+    "https://lingogrove.com/french-prepositions/": {
+        "submitted_date": "2026-08-19",
+        "verified_status": "pending",
+        "note": "new publish (Grammar tier: à/en/dans spatial split, chez reserved for people, en/au/aux country-preposition gender rule + 5 masculine -e exceptions, en-vs-dans time duration, depuis/pendant/pour tense pairing); Bing 200 / Yandex 200. Live URL confirmed 200 with real article content before submission."
+    },
+    "https://lingogrove.com/french-reflexive-verbs/": {
+        "submitted_date": "2026-08-20",
+        "verified_status": "pending"
+    },
+    "https://lingogrove.com/french-past-participle/": {
+        "submitted_date": "2026-08-20",
+        "verified_status": "pending",
+        "note": "new publish (Grammar tier, 12th run of day: OQLF's two-ending regular/irregular classification (-er and -issant -ir only; every -re/-oir verb technically irregular, contradicting the common three-group textbook model), devoir/pouvoir/savoir/vouloir irregular set, avoir agreement's direct-object-must-precede rule with OQLF's own worked examples, être agreement split between plain subject-matching (motion verbs, passive voice) and the pronominal exception that borrows avoir's rule instead (cross-referenced to french-reflexive-verbs to avoid duplicating that mechanism), and why du/due keep the circumflex only in the masculine singular per the Academie francaise 1990 rectifications; sourced from 4 OQLF Vitrine linguistique pages + Academie francaise dictionnaire-academie.fr, all fetched and verified verbatim; passed independent 8-fold audit (zero blocking findings) plus a second humanizer/avoid-ai-writing pass this run caught and fixed on its own (8 prose em dashes cut to match site convention, one negation-stack sentence, one filler phrase); also backfilled two stale keyword-file entries missing [已用] tags from the prior run's french-reflexive-verbs publish); Bing 200 / Yandex 202. Live URL confirmed 200 with real article content before submission."
+    },
+    "https://lingogrove.com/spanish-superlatives/": {
+        "submitted_date": "2026-08-20",
+        "verified_status": "pending",
+        "note": "new publish (Tier 1 Grammar: relative vs. absolute superlative split per RAE glossary/Nueva gramatica basica (first term/quantificative group/optional de-coda), irregular relative superlatives bueno/malo/grande/pequeno -> mejor/peor/mayor/menor with the age-vs-size mayor/mas grande nuance, -isimo spelling-change rules including the less-common -or/-n -c- interfix (mayorcisimo/jovencisimo) and the unstressed diphthong -io/-ia vs stressed hiato -io/-ia vowel-drop distinction, Latin-inherited -errimo forms (paupérrimo/celebérrimo/acérrimo) with enemigo acerrimo as the surviving frozen collocation, and RAE own prefix-based superlative category (re-/super-/hiper-) with a 2019 academic source on re- productivity in Rioplatense Spanish for the regional angle; passed independent 8-point audit which caught 19 prose em dashes against house style + a missing sources[] citation for the grado-superlativo glossary page + one unverified competitor-coverage claim, all three fixed and confirmed clean by a second independent verification pass before publish); Bing 200 / Yandex 200. Live URL confirmed 200 with real article content before submission."
+    },
+    "https://lingogrove.com/spanish-si-clauses/": {
+        "submitted_date": "2026-08-21",
+        "verified_status": "pending"
+    },
+    "https://lingogrove.com/ciao-meaning/": {
+        "submitted_date": "2026-08-21",
+        "verified_status": "pending",
+        "note": "new publish (Loanwords tier, Tier 1 Grammar exhausted for unused vs-pattern candidates so moved to Tier 2; Treccani Venetian s-ciao/s-ciavo etymology, Wiktionary's fuller s-ciao vostro expression and Medieval/Late Latin Sclavus chain via the separate slave entry, hello-and-goodbye dual function per Treccani's own definition and Wiktionary's English listing, the goodbye-only narrowing in French tchao/Portuguese tchau/German tschau/Spanish chao-chau per Larousse and Wiktionary descendants, tschau-vs-tschuss disambiguation, servus parallel, Vietnamese chao false-cognate debunk; passed independent 8-fold audit + two re-audits after fixes -- first round found a misattributed Treccani quote (s-ciao vostro actually comes from Wiktionary, not Treccani), an under-cited Larousse synonym claim (verified real but sourced from the wrong Larousse URL, fixed by adding the synonym-dictionary page), and a dropped etymology hedge (tschuss chain missing the Dutch adjuus step and Spanish adios alternative); second re-audit caught a further Treccani misattribution self-identified during the fix pass (the Late Latin Sclavus/Slav-slave doublet chain was wrongly credited to both Treccani and Wiktionary when Treccani never reaches Latin at all) and confirmed the fix via a third independent gate-check; also cut em dash density from 1-per-62-words to zero in prose per Skill(humanizer)); Bing 200 / Yandex 200. Live URL confirmed 200 with real article content before submission."
+    },
+    "https://lingogrove.com/french-conditional/": {
+        "submitted_date": "2026-08-21",
+        "verified_status": "pending",
+        "note": "new publish (Grammar tier 1); OQLF-sourced formation (future stem + imperfect endings, 13 irregular stems), genuinely contested mood-vs-tense classification (OQLF treats as indicative tense, Lawless French and other standard references still teach as its own mood), si-clause chronological pairing rule with both real exceptions (indirect question, concessive si), habitual-past would false-friend trap paralleling spanish-conditional-tense; passed independent 8-fold audit + two re-audits after fixes -- first round found an internal self-contradiction on si-clause pairing count vs Spanish, a source-documented concessive-si exception dropped in compression, a false highest-frequency attribution to OQLF (list was an unranked 8-of-13 subset), a single-sourced mood-to-tense consensus overclaim, narrative em dashes, rather-than density, and a wrong mnemonic spelling (rait vs rais); second re-audit caught a mangled SVG quote and a new instead-of repetition pattern introduced while fixing round one, and an inconsistent shortened quote in coreSummary/SVG vs the full accurate quote in body/FAQ; third re-audit confirmed clean. Bing 200 / Yandex 200. Live URL confirmed 200 with real article content before submission."
+    },
+    "https://lingogrove.com/irregular-spanish-verbs/": {
+        "submitted_date": "2026-08-22",
+        "verified_status": "pending",
+        "note": "new publish (Grammar tier, highest-priority unused Grammar candidate after all vs.-pattern candidates were already published or explicitly skipped as duplicates; organizes by the RAE's own Nueva gramática classification (vocalic/consonantal/mixed/suppletive/defective) instead of the popular stem-changing/spelling-change/fully-irregular split every competitor site uses; sourced from RAE gramatica-basica and gramatica pages on los verbos irregulares (vocalicos, consonanticos, conjugacion especial/suppletive roots, defectivos) plus Spanish Linguist; passed independent 8-fold audit + re-audit after 2 fixes -- varied a duplicated internal-link anchor text, and qualified an overgeneralized -zco rule with its real named exceptions (hacer/decir/satisfacer, mecer/remecer) after cross-checking against Wikipedia's Spanish irregular verbs summary); Bing 200 / Yandex 200. Live URL confirmed 200 with real article content before submission."
+    },
+    "https://lingogrove.com/per-se-meaning/": {
+        "submitted_date": "2026-08-22",
+        "verified_status": "pending",
+        "note": "new publish (Loanwords tier 2, top unused vol-sorted candidate after all Grammar tier 'vs' candidates were already published or explicitly skipped; Latin per + se etymology with PIE *s(w)e- link to English self, the historical 'A per se A' letter-naming convention traced through Dunbar's 1501 London poem to the word 'ampersand' (1837), negligence per se and illegal per se (antitrust, Socony-Vacuum 1940) legal doctrines, contrast with ipso facto, and the Spanish reflexive pronoun se link; passed independent 8-fold audit + two re-audits after fixes -- first round found 12 em dashes in sources labels plus 3 in the self-made SVG diagram, an uncited corroborated-by-Britannica-and-Dictionary.com claim, and a Dunbar citation pointing to an unrelated Wikipedia page about a 1937 cantata; second re-audit caught that the replacement Wikipedia:William_Dunbar citation didn't actually support an added marriage-negotiations clause and that Britannica's own date (1835, first appearance) differs from Wikipedia's (1837, common use) so wording was corrected to attribute each date to its real source rather than imply agreement; third check confirmed clean. Bing 200 / Yandex 200. Live URL confirmed 200 with real article content before submission."
+    },
+    "https://lingogrove.com/spanish-present-tense-endings/": {
+        "submitted_date": "2026-08-23",
+        "verified_status": "pending",
+        "note": "new publish (19th run, Tier 1 Grammar; 'spanish present tense endings' -- top unused priority-file candidate after real Grammar-tier 'vs'/'difference between' patterns were exhausted, so search broadened to the site's established 'X endings' precedent (spanish-preterite-endings, spanish-imperfect-endings, german-adjective-endings); adjacent 'spanish future tense endings' candidate skipped as already covered by a dedicated section+FAQ in spanish-future-tense. Central differentiation angle: RAE's own morphological framework treating present tense as an unmarked morfema-cero (zero morpheme) vs. future's audible -re/imperfect's -aba, plus RAE-sourced /g//ig/ consonantal epenthesis rule for -go verbs and g/j, c/z spelling-preservation swaps. Passed independent 8-fold audit + one re-audit after fix -- first round found the -go epenthesis root-ending list (-l/-n/-s/-i) omitted a real -z counterexample (yacer: yazco/yazgo/yago, RAE-confirmed via @RAEinforma), flagged as 4th+ recurrence of the absolutized-list pattern; fix added -z/yacer to all three occurrences (coreSummary, section body, FAQ); second re-audit confirmed fix accurate and consistent across all three. Bing 200 / Yandex 200. Live URL confirmed 200 with real article content (morfema cero text present) before submission."
+    },
+    "https://lingogrove.com/spanish-present-perfect/": {
+        "submitted_date": "2026-08-23",
+        "verified_status": "pending",
+        "note": "new publish (20th run, Tier 1 Grammar; 'present perfect spanish' -- selected after two prior candidates ('spanish direct object pronouns' #510, 'spanish adverbs' #866) turned out to already be checked-and-skipped in the priority file (direct object pronouns: substantially covered by existing direct-vs-indirect-object-pronouns-spanish; spanish adverbs: explicitly skipped 2026-08-19 for zero-generic-source SERP dominance) -- an earlier filter pass mistakenly excluded only '已用' not '跳过' entries, corrected before publishing either. Central differentiation angle: haber+participle formation, the 12-verb irregular participle list plus the bendecir/maldecir -> bendecido/maldecido (real verb form) vs. bendito/maldito (adjective-only survival) distinction, the haber-participle inseparability rule, a present-perfect-vs-simple-preterite recency contrast, and the RAE's own account (Nueva gramática) of this being the Spanish past tense with the widest regional variation -- Spain defaults to present perfect for recent/same-day events, most of Latin America uses simple preterite for the same recency, with further neutralization in Chile/most of Argentina/NW Spain/Canary Islands toward preterite and coastal Peru/Andean Bolivia toward present perfect, plus an Andean evidential reading ('Ha sido caro' = 'turns out to be expensive') cross-sourced to an ELUA (Universidad de Alicante) academic journal article. Passed independent 8-fold audit + one re-audit after fixes -- first round found body under the 1000-word floor (585-968 words depending on measurement), 3 narrative em dashes, GEO score ~76/99 (below the 80 floor -- thin on verbatim quotes and cross-domain links), repeated 'Per the RAE' attribution phrasing, an inaccurate bridging claim overclaiming what spanish-verb-tenses-chart actually covers, and an oversized paragraph-length image alt text; fixed by expanding body to 1045 words (new present-perfect-vs-preterite section, Andean evidential fact, question/negation examples), removing all narrative em dashes, adding a verbatim RAE quote + the ELUA source, varying attribution phrasing, dropping the inaccurate verb-tenses-chart bridging link entirely, shortening alt text to one sentence, and replacing an unverified 'Mexico'-specific claim in the description with the RAE-matched 'much of Latin America'; second re-audit confirmed all fixes, noting only cosmetic non-blocking residue (3 internal links instead of originally-planned 4; 'RAE's own grammar' still appears twice). Bing 200 / Yandex 200. Live URL confirmed 200 with real article content before submission."
+    },
+    "https://lingogrove.com/spanish-gerund/": {
+        "submitted_date": "2026-08-24",
+        "verified_status": "pending",
+        "note": "new publish (Grammar tier, per 2026-08-24 publish-queue A/B/C real-SERP check: 8 organic slots in top 10 for 'spanish infinitive' put it at 3 authority sites -> B-tier, not selected; 'spanish gerund' scored 7 natural organic / 2 authority sites (reddit.com, study.com) -> A-tier, selected instead: -ando/-iendo formation, the e-i and o-u irregular stem families (pedir/decir/sentir/venir -> pidiendo etc.; dormir/morir/poder -> durmiendo etc.) tied explicitly to the shared third-person preterite stem, the vowel-stem -yendo insertion rule (leer/oir/traer/caer/construir/huir/ir), why the Spanish gerund can't be a noun subject/object unlike English -ing (nadar es divertido, not nadando), and two RAE prescriptive rules most competitor pages skip: gerundio de posterioridad and gerundio especificativo (the 'gerundio del BOE', with its hirviendo/ardiendo and carta-solicitando exceptions); sourced from 3 RAE pages (El buen uso del espanol + Libro de estilo de la Justicia x2), all URLs confirmed to appear verbatim in WebSearch results per the site's RAE-403-workaround rule; internal links to irregular-preterite-verbs-spanish (shared stem) and ser-vs-estar (estar+gerundio progressive); passed independent 8-fold audit on first pass except two fixes -- 'isn't X, it's Y' negative-parallelism used twice instead of the site's max-once rule, and em dashes in sources[] labels (L-0810-4 recurrence: dash zero-tolerance scan missing metadata fields) -- both fixed and verified clean by a second independent re-audit pass; npm test 64/64 and npm run build both clean; Bing 200 / Yandex 200. Live URL confirmed 200 with real article content before submission."
+    },
+    "https://lingogrove.com/semper-fi-meaning/": {
+        "submitted_date": "2026-08-24",
+        "verified_status": "pending",
+        "note": "new publish (Loanwords tier: 'semper fi meaning' — A-tier SERP per publish_queue_20260823, real DataForSEO SERP recheck confirmed no same-niche language-learning-site wall, just general authorities (Wikipedia, Dictionary.com) plus military-specific sources; etymology of semper (PIE *sḗm + -per) and fidelis (fidēs + -ēlis, 3rd-decl. two-termination adjective) via Wiktionary; pre-USMC history (Roman senate tradition, Abbeville 1369 earliest recorded motto use, Duke of Beaufort's Regiment 1685) and USMC adoption (1883, contested McCawley attribution, Sousa's 1888 march) cross-checked across Wikipedia/Military.com/Sandboxx/Task and Purpose/National Museum of the Marine Corps; branch-motto differentiation (Navy's unofficial Semper Fortis vs Coast Guard's official Semper Paratus) sourced to USO; internal links to per-se-meaning and latin-declensions; self-made SVG diagram; passed independent audit after 2 rounds of fixes (description length outlier tightened twice, one negative-parallelism sentence and one editorializing closing sentence rewritten, word count topped up to 1032); Bing 200 / Yandex 200. Live URL confirmed 200 with real article content before submission."
+    },
+    "https://lingogrove.com/de-nada-meaning/": {
+        "submitted_date": "2026-08-24",
+        "verified_status": "pending",
+        "note": "new publish (Loanwords tier: 'de nada meaning' -- de-preposition + nada-'nothing' composition, RAE dle.rae.es/nada definition quoted verbatim after independent-agent audit caught a misquote (comma+'falta' vs actual 'carencia', no comma), etymology of nada from Latin (nulla) res nata / nemo natus (not from nihil) sourced to Wiktionary+Etymonline, formal-register alternative no hay de que (Mexico and Spain alike, not Spain-exclusive), Colombia/Ecuador default a la orden (military-parlance origin, everyday commerce usage), Costa Rica con mucho gusto, por nada variant; internal links to spanish-prepositions and ciao-meaning; Tier1 (Grammar, vs-pattern) confirmed exhausted before selecting this Tier2 (Loanwords) candidate, A-grade in 2026-08-23 SERP publish-queue snapshot; passed independent 8-fold audit + one re-audit round after fixes -- first round found misquoted RAE definition, one dead source URL (greenmochila.com 404, replaced with eyesoncolombia.wordpress.com + howlearnspanish.com), an etymology detail attributed to the wrong source, an under-supported 'Spain leans on no hay de que' regional claim, and body word count short of 1000; second re-audit found coreSummary/description/usageNote.regionNote still contradicted the corrected body paragraph on the Spain claim, fixed by aligning all fields); Bing 200 / Yandex 202. Live URL confirmed 200 with real article content before submission."
+    },
+    "https://lingogrove.com/spanish-infinitive/": {
+        "submitted_date": "2026-08-25",
+        "verified_status": "pending",
+        "note": "new publish (Grammar tier: 'spanish infinitive' — non-personal verb form (no person/tense/mood, simple vs. compound haber+participle), infinitive as the only non-finite form that can fill a noun's spot since the Spanish gerund is barred from that role (cross-linked to spanish-gerund), verbal vs. nominal infinitive distinction, al + infinitivo temporal/causal construction, infinitive carrying an independent subject (Al oscurecer example + genuinely ambiguous antes de llegar example), deber vs. deber de (obligation vs. conjecture) and negation-scope contrast between deber/tener que, and the RAE's valid-exhortative-sign vs. discouraged-vosotros-substitution distinction for infinitive-as-imperative; sourced entirely from RAE (Nueva gramática, El buen uso del español, Español al día); passed independent 8-fold audit except two fixes — an overclaimed 'every preposition, no exceptions' rule (según is a documented RAE exception, already covered on-site in spanish-prepositions) and 6 em dashes (1 heading, 5 sources[] labels) reverted to the site's colon convention, both fixed before publish); Bing 200 / Yandex 200. Live URL confirmed 200 with real article content before submission."
+    },
+    "https://lingogrove.com/french-irregular-verbs/": {
+        "submitted_date": "2026-08-25",
+        "verified_status": "pending",
+        "note": "new publish (Grammar tier: 'french irregular verbs' — French's three-conjugation classification (1st -er ~6,000 verbs, 2nd -ir/-issant ~300 verbs, 3rd closed class holding nearly all irregularity incl. aller despite its -er spelling), the four verbs (être/avoir/aller/faire) whose present-tense stems don't reduce to any shared family rule, the rule-governed 'boot' stem-change family (pouvoir/vouloir/devoir), the vien-/ven- family (venir/tenir + compounds), the prend-/pren-/prenn- family (prendre + apprendre/comprendre/reprendre), spelling-change -er verbs (appeler/préférer/payer/envoyer) that are fully regular and not third-group irregulars at all, and the être/faire/dire -tes exception to the vous -ez pattern; present-tense forms for être/avoir/aller/faire/pouvoir/vouloir/devoir/venir/prendre/dire cross-checked directly against Larousse's conjugation tables, group classification and spelling rules sourced from Wikipedia's 'French conjugation' entry; SERP checked before selection (7/10 organic in top 10, 0 authority-site domination, only one same-niche competitor among top 8); self-made SVG diagram; passed independent 8-fold audit except fixes — 25 narrative em dashes reverted to the site's colon/comma convention (L-0810-4 recurrence), a repeated 'flat list' rhetorical hook and negative-parallelism pattern (4-5 recurrences) trimmed to isolated instances, an unverified 'dire/lire/écrire share a rule' claim removed from the SVG diagram, two hollow-intensifier 'genuine/genuinely' instances cut, and a factual claim about vous-form endings corrected + expanded (dire's vous dites added alongside être/faire, sourced and cross-checked) after re-review of an intermediate edit; passed a second independent re-audit confirming all fixes and verifying the new être/faire/dire claim via live Larousse fetch; Bing 200 / Yandex 200. Live URL confirmed 200 with real article content, including the vous dites detail, before submission."
+    },
+    "https://lingogrove.com/russian-cases/": {
+        "submitted_date": "2026-08-25",
+        "verified_status": "pending"
+    },
+    "https://lingogrove.com/voila-meaning/": {
+        "submitted_date": "2026-08-26",
+        "verified_status": "pending",
+        "note": "new publish (Loanwords tier: 'voila meaning' -- Tier1 Grammar confirmed exhausted (word file's only remaining vs-pattern candidate, 'imperfect vs preterite practice', previously skipped as SERP-dominated by interactive quiz tools with no static-article fit), so selected first unused Tier2 candidate in priority order; etymology composed of vois (2nd-person indicative of voir, per CNRTL not imperative as some EN secondary sources claim) + la, first attested 1342 in Guillaume de Machaut's Le Dit dou Lyon per CNRTL's own citation history (fetched directly via curl, not WebFetch); voici/voila near-far distinction and its erosion in modern spoken French; French's elapsed-time construction (voila + duration + que) that never crossed into English; the voila/viola misspelling documented by WSU's Common Errors in English Usage (Paul Brians); and the three-way 'wallah' coincidence -- Merriam-Webster + Grammarphobia (Aug 2016) on the dropped-v respelling, contrasted with the two real unrelated words spelled wallah (Indo-Aryan -wala suffix from Sanskrit pala + Wikipedia's Wallah entry, and Arabic wa-+Allah oath per Wiktionary); self-made SVG diagram; internal links to french-pronouns and per-se-meaning; passed independent 8-fold audit except fixes -- a section-heading duplication bug ('voila,' 'wallah,' and 'wallah' instead of 'voila,' 'viola,' and 'wallah'), 11 narrative em dashes + 1 SVG em dash (L-0810-4 recurrence, this time reaching the primary narrative body/coreSummary fields rather than just metadata), and an over-precise single-sourced date/author attribution (1757, R.-L. Argenson) softened to 'mid-18th-century attestation' in both body and FAQ after a second independent re-audit caught the FAQ still citing the specific year; all fixes confirmed by re-audit, npm run build clean, Bing 200 / Yandex 200. Live URL confirmed 200 with real article content before submission."
+    },
+    "https://lingogrove.com/mamacita-meaning/": {
+        "submitted_date": "2026-08-26",
+        "verified_status": "pending",
+        "note": "new publish (Loanwords tier: 'mamacita meaning' -- A-grade in the 2026-08-23 SERP snapshot, real SERP re-checked via WebSearch, not dominated by same-niche dictionary competitors; Tier1 Grammar candidates exhausted for the day, selected next unused Tier2 candidate in priority order after voila-meaning; etymology mama + -cita diminutive suffix per Wiktionary's -cito usage note (variant of -ito/-ita added after a vowel other than -o, does not delete the final vowel), papacito given as the parallel masculine example; Wiktionary's own Spanish entry splits mamacita into two senses -- unmarked affectionate diminutive of mama, and a sense labeled (Latin America, slang) babe/hottie, cited with a real 2018 Daddy Yankee 'Dura' lyric; OED's earliest English evidence dated 1887 in Overland Monthly, English borrowing keeping only the slang sense per Wiktionary's separate English entry; distincion/seseo regional pronunciation split; self-made SVG diagram; internal links to habibi-meaning and voila-meaning; sensitive-content handling per usageNote (register: casual, regionNote covers the affectionate-vs-catcall split) since the slang sense functions as a catcall in the sources; three independent audit rounds -- round 1 found and fixed 2 SVG em dashes (L-0810-4 recurrence), an NPR/Laura Martinez essay overclaim (essay only documents a personal 'Mamacita!' catcall in her New York neighborhood, not Mexico City, where she describes being catcalled with different words), an unqualified 'across the Spanish-speaking world' universality claim in 3 fields (L-0804-2 recurrence pattern) softened to \"no region label in Wiktionary's entry\", and a vague-attribution 'several Spanish speakers' overclaim reduced to the single named source; round 2 caught a fresh issue introduced by the round-1 fix (an unsourced 'Spain favors mami' clause traced to a low-quality site not in sources[]) plus a fabricated papacito/mamita 'flirtatious or catcalling' parallel not supported by their Wiktionary entries (both verified single-sense only) and an unverifiable Collins Dictionary citation (Cloudflare-blocked, removed rather than left unconfirmed); round 3 confirmed all fixes against fresh live Wiktionary fetches, npm test 64/64, npm run build clean. Live URL confirmed 200 with real article content before submission."
+    },
+    "https://lingogrove.com/mijo-meaning/": {
+        "submitted_date": "2026-08-26",
+        "verified_status": "pending",
+        "note": "new publish (Loanwords tier: 'mijo meaning' — A-grade in the 2026-08-23 SERP snapshot, first unused Tier2 candidate after Tier1 Grammar (pure 'X vs Y' pattern) confirmed exhausted in the priority file; two unrelated etymologies — millet from Latin milium (RAE, ultimately PIE *melh₂- 'to grind') vs. the vocative contraction of mi hijo/mi hija ('my son'/'my daughter', Wiktionary + Academia Canaria de la Lengua's 2024 note on the spoken-to-written mijo/mija spelling); DAMER's own entry for mijo/mija documents three senses (children, friend/companion, and in US/Mexico/Colombia/Chile a romantic partner), plus separate entries for mijito/mijita (diminutive) and mijijo/mijija (friend-only variant); Canary Islands vs. mainland Spain regional contrast per Academia Canaria; self-made SVG diagram; internal links to spanish-possessive-adjectives and mamacita-meaning; two independent audit rounds — round 1 found a misattribution (the 'extends beyond children' nuance credited to Academia Canaria when DAMER's own entry already documents it), an unsupported 'mainland Spain uses cariño/corazón' claim not actually present in the cited Academia Canaria source, and the most significant issue: the article claimed mijo 'never made it into English dictionaries' when Wiktionary's own cited page has a full English section (US 'term of endearment', cited from the New York Times and The Athletic) — narrower correct claim (no OED/Merriam-Webster entry, unlike mamacita's 1887 OED date) kept, false broader claim rewritten to 'in English print, but not yet in an English dictionary'; round 2 independently re-verified all three fixes via direct DAMER/Wiktionary/Academia Canaria fetches (confirmed accurate) and caught two small mechanical slips from the round-1 edit — a relocated em dash in a FAQ answer (L-0810-4 recurrence) and a 'four forms' count error (only three slash-pairs listed) — both fixed and reconfirmed; npm run build clean. Bing 200 / Yandex 200. Live URL confirmed 200 with real article content before submission."
+    },
+    "https://lingogrove.com/sayonara-meaning/": {
+        "submitted_date": "2026-08-27",
+        "verified_status": "pending",
+        "note": "new publish (Loanwords tier: 'sayonara meaning' — A-grade per live SERP check (organic_top10=8, authority=0), Tier1 Grammar confirmed fully exhausted this run (every remaining candidate either published or already evaluated-and-rejected as duplicate/high-competition), moved to Tier2. Etymology sayō naraba ('if it be thus') cross-confirmed via Etymonline/Wiktionary/Dictionary.com; OED earliest citations for the interjection (1863, Rutherford Alcock) and separate verb sense (1883, J.J. Smith) both verified; register/usage nuance (rarely used daily, implies indefinite/permanent separation, mata ne/ja ne as everyday alternatives) cross-confirmed across 4+ independent Japanese-learning sources; 1957 film Sayonara facts (Joshua Logan dir., 1954 Michener novel, Brando, 4 Oscar wins incl. Umeki as first East Asian-descent acting-category winner) verified. Self-made SVG etymology/register-contrast diagram; internal links to senpai-meaning and japanese-particles-wa-ga-wo-ni. Two independent audit rounds — round 1 (full 13-point audit) found sources[].label em-dash formatting (L-0810-4 recurrence, should be colon per post-08-22 site convention), 3 em dashes in the self-authored SVG (same L-0810-4 sub-pattern), a comparative-arithmetic overstatement ('a full century' for a 94-year gap, corrected to 'nearly a century'), a usageNote.register value mismatch ('neutral' didn't fit the article's own weighty/formal framing, changed to 'formal', confirmed supported+rendered), a minor cross-article rhetorical-skeleton echo, and thin body word count (784 words, below site norm) — fixed via colon reformatting, SVG dash removal, arithmetic correction, register field change, reworded sentence, and one new well-sourced paragraph (elementary-school classroom sayonara-to-teacher ritual as a genuine daily-use exception, independently corroborated by Coto Academy/MATCHA/LiveJapan/Bento Japanese beyond the single new citation); round 2 (targeted re-check) independently re-verified all fixes correct and the new classroom claim accurate, but caught one new 'isn't X; it's Y' antithesis construction introduced by the round-1 edit (AI-tell pattern) — reworded directly, no further audit needed for that mechanical fix. npm run build clean (77 pages). Bing 200 / Yandex 202. Live URL confirmed 200 with real article content before submission."
+    },
+    "https://lingogrove.com/oy-vey-meaning/": {
+        "submitted_date": "2026-08-27",
+        "verified_status": "pending",
+        "note": "new publish (Loanwords tier: 'oy vey meaning' — A-grade per 2026-08-23 SERP snapshot (organic_top10=7, authority=2), Tier1 Grammar and prior Tier2 pick sayonara-meaning already used this run's earlier slot; 'vato meaning' was next by priority but is B-grade (authority=3) so skipped per A/B/C queue rule, moved to next unused A-grade Loanwords candidate. Two-round independent audit: round 1 caught a fabricated etymology claim ('OED records the phrase entering English in the 19th century, spelled oi') that did not exist in any accessible primary source — traced to the same AI-search-synthesis-artifact failure mode already logged as L-0804-1 (the WarCrumbs Supreme Court '6-3' case), where identical wording surfaced verbatim across differently-phrased WebSearch queries; direct API fetches of Wikipedia's actual 'Oy vey' article and Etymonline's actual page confirmed no such claim exists anywhere in either source. Rewrote the entire etymology/dating section using only directly-fetched primary text: Etymonline dates 'oy' to 1892 and extended 'oy vey' to 1959, Merriam-Webster separately gives 1914 as first known use for the two-word form — presented as an acknowledged, unresolved cross-dictionary discrepancy rather than a false reconciliation. Also independently discovered and added a previously-missing, directly relevant fact from the article's own Wikipedia source: 'oy vey' has documented use as an antisemitic dog whistle, including a real March 2019 hate-crime incident (Fall River, MA Jewish cemetery, 59 headstones defaced with swastikas and the phrase 'Oy vey! This is MAGA country') — cross-verified against 9 independent news outlets (CBS News, Boston Globe, Boston Magazine, Daily Beast, WBUR, Fox News, Times of Israel, Religion News, America Magazine) before inclusion, added as one sourced, proportionate sentence in usageNote.regionNote alongside the phrase's far more common mainstream/non-mockery use. Gevalt etymology chain (Middle High German gewalt/Old High German giwalt/cognate with Yiddish gevald, meaning force/violence) verified via direct Wiktionary API fetch. Round 2 (fresh independent re-audit, no knowledge of round 1's process) re-verified every factual claim against primary sources independently and found the fabricated claim fully removed with no new problems introduced; verdict 'ready to publish.' Self-made SVG (etymology-theories + oy/oy vey/oy vey iz mir/oy gevalt family diagram, rewritten alongside the text fix to remove an unverified etymology chain and one em dash); internal links to schadenfreude-meaning and voila-meaning. npm test 64/64, npm run build clean (78 pages), check_seo_field_stats.py title/description both in normal range, zero em/en dashes or curly quotes. Bing 200 / Yandex 200. Live URL confirmed 200 with real article content and working SVG before submission."
+    },
+    "https://lingogrove.com/ohana-meaning/": {
+        "submitted_date": "2026-08-27",
+        "verified_status": "pending",
+        "note": "new publish (Loanwords tier: 'ohana meaning' — A-grade in the 2026-08-23 SERP snapshot (organic_top10=7, authority=1), Tier1 Grammar confirmed fully exhausted this run (no unused 'X vs Y' candidates remain in the priority file), next unused A-grade Loanwords candidate after two B-grade skips (vato meaning, mazel tov meaning, both authority=3). Two-round independent audit. Round 1 found the article stated the ʻohā (taro corm shoot) + -na etymology as flat unqualified fact, when Wiktionary's actual etymology entry gives Proto-Polynesian *kofaŋa ('nest', cognate with Māori kōhanga, Samoan ōfaga, Rarotongan koʻanga) as the primary comparative-linguistics reconstruction and the taro-corm account only as a secondary 'surface analysis' associated with scholar Rubellite Kawena Johnson, documented as a genuine unresolved scholarly disagreement in a 2001 LINGUIST List (An-Lang) exchange — fixed by presenting both derivations as competing, unresolved accounts in coreSummary, the etymology section body, the FAQ, and the SVG diagram (added Wiktionary + LINGUIST List to sources[]). Round 1 also flagged the repeated 'X isn't/wasn't ___, it's/it was ___' negation-correction rhetorical pattern (6+ instances including 2 of 4 section headings, matching library entries L-0820-2 and the same-day L-0827-1) — rewritten to 0 instances — and cut a filler 'genuinely' in one FAQ answer. New generalizable lesson appended to 内容通用教训库.md as L-0827-5 (folk/surface etymology presented as settled fact without checking Wiktionary's/POLLEX-style comparative reconstruction). Round 2 (fresh independent re-check) confirmed all three fixes correctly applied, zero remaining negation-correction instances, lessons-library entry correctly appended, no new syntax/escaping issues; verdict 'ready to publish.' Kumulipo/Hāloa creation-story material (Wākea/Hoʻohōkūkalani, Hāloanakalaukapalili, kalo as elder sibling) and the Lilo & Stitch (2002) / Salesforce 2018 cultural-appropriation branding-controversy angle (Daily Beast) both independently verified via WebSearch against primary/named sources. Self-made SVG diagram (two-etymology comparison + who-counts-as-ʻohana + Hāloa story panels); internal links to mahalo-meaning and habibi-meaning. npm run build clean (79 pages). Bing 200 / Yandex 200. Live URL confirmed 200 with real article content and working SVG before submission."
+    }
 }
