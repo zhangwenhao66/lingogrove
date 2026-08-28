@@ -1193,3 +1193,50 @@
   "escalation": null
 }
 ```
+
+## 2026-08-28 完整审计：`spanish-conditional-tense`
+
+```json
+{
+  "url_slug": "spanish-conditional-tense",
+  "last_audited": "2026-08-28",
+  "published_date": "2026-08-05",
+  "note": "本站第17次由trafficsite-content-quality-audit完整审计。选中原因：content-audit-log.md已有16条记录，guides.ts里spanish-conditional-tense是从未被本任务审计过的文章里数组位置最靠前的一篇（前15篇已审计文章之后紧接的第一个未审计条目）。LingoGrove自2026-08-24起处于Google August 2026 spam update算法性整站压制中（独立站/流量站矩阵风险应对追踪.md已记录），本次审计仅做针对性质量修复，不涉及删除/noindex/批量重写。",
+  "diagnosed_checkpoints": [
+    "RAE'条件式是时态还是语气'的归类争议及其判定理由（同一句法环境indicative选、subjunctive拒）是否有RAE原文依据",
+    "RAE三条具体例句（Anunció que se jubilaría al año siguiente / Si me tocara/tocase la lotería, me compraría un coche / Si yo fuera tú, hablaría directamente con ella）是否逐字真实存在于RAE官方语法资料",
+    "condicional de cortesía的'quería/querría'礼貌梯度断言（querría比quería更委婉）是否有RAE原文依据而非编造",
+    "十二个不规则词干列表是否与站内姊妹文章spanish-future-tense的对应列表完全一致（内部一致性核查，非事实核查）",
+    "是否存在早期内容遗留的AI写作痕迹（本站2026-08-05发布，早于avoid-ai-writing 2026-08-07接入）"
+  ],
+  "findings": [
+    { "dimension": "事实准确性", "status": "未发现问题", "detail": "WebSearch逐条核实：RAE基础语法'15.4.6 el condicional simple'明确将条件式归为直陈式(indicativo)一个时态；RAE关于归类理由的原文（'El condicional aparece en entornos sintácticos en los que se selecciona el modo indicativo...y se rechaza en los que seleccionan el subjuntivo'）与本文'shows up in the same syntactic environments the indicative selects and is excluded from environments that select the subjunctive'表述一致；'Anunció que se jubilaría al año siguiente'经WebSearch确认为RAE基础语法原文例句，用于说明条件式表达'相对过去某点的将来'；'Si me tocara/tocase la lotería, me compraría un coche'经WebSearch交叉核实（含RAE Diccionario panhispánico de dudas'si'词条）为标准形式的RAE例句；'Si yo fuera tú, hablaría directamente con ella'经WebSearch确认为RAE'oraciones condicionales'语法页收录的反事实条件句例句；'¿Podría ponerme agua?'/'Querría hablar con el director'为RAE官方X账号(@RAEinforma)原话；'quería/querría'礼貌梯度断言（RAE官方X账号原话：'El uso del condicional de cortesía supone un mayor grado de atenuación que el imperfecto, y este a su vez mayor que el uso del presente: querría/quería/quiero'）经WebSearch两次独立检索交叉核实为RAE原文表述，非编造。十二个不规则词干列表逐一比对与站内姊妹文章spanish-future-tense完全一致（同一套caber/haber/poder/querer/saber、poner/salir/tener/valer/venir、decir/hacer）。" },
+    { "dimension": "EEAT", "status": "未发现问题", "detail": "6条一手权威来源（RAE基础语法1条+RAE完整语法2条+RAE术语词典2条+Lawless Spanish交叉核实1条），每个语法点均配真实西语例句+英文翻译+RAE逐字引语，非泛泛而谈。" },
+    { "dimension": "时效性", "status": "不适用，published字段已存在无需回填", "detail": "语法规则类内容，RAE官方规则历史上无变动记录，无过时风险；published字段已存在（2026-08-05），本次修复updated字段无需按L-0809-1流程回填。" },
+    { "dimension": "竞品差异化", "status": "未发现问题", "detail": "内链核对确认本文与站内spanish-verb-tenses-chart/spanish-si-clauses/french-conditional三篇文章均有真实手写桥接，且french-conditional的桥接句准确复述本文'RAE分类为indicative时态、争议未消失'的核心论点，非泛泛提及。WebSearch确认RAE'时态vs语气'争议本身是本文差异化角度，多数竞品页（SpanishDict/StudySpanish等）只讲用法不讲分类争议。" },
+    { "dimension": "SEO技术审计", "status": "未发现问题", "detail": "python解码实测live页面description为156字符（真实字节长度，落入理想区间；此前curl+grep初步抓取因HTML实体&#34;编码显示164字符属解析误差，非真实超长，已用python正确解码复核排除）；title/canonical/单一h1均正确；Article/FAQPage/BreadcrumbList三项schema均正确渲染；ads.txt正确指向pub-5245502795720653；robots.txt对GPTBot/ChatGPT-User/ClaudeBot/PerplexityBot/Google-Extended均Allow；privacy页面200。" },
+    { "dimension": "GEO审计", "status": "定性评估达标，未做结构性改动", "detail": "coreSummary清晰定义条件式三大用法、FAQ自包含可独立提取(5条)、6条RAE一手权威来源+多条RAE原文逐字引语（'Anunció que se jubilaría'/'Si me tocara...me compraría'/'Si yo fuera tú, hablaría'/'¿Podría ponerme agua?'/'Querría hablar con el director'均为verbatim quotation，非仅链接），schema完整，AI爬虫未被拦截，今日已更新。权威原文引语维度在本站历史审计中常是最弱项，本文反而是站内已审计文章中逐字引语密度较高的一篇，未发现需强化的具体薄弱点。" },
+    { "dimension": "早期内容AI味补漏", "status": "确认发现问题，两轮修复后清零", "detail": "published=2026-08-05早于avoid-ai-writing技能强制化时间点(2026-08-07)，触发全量检查。第一轮：正文/coreSummary/description/FAQ合计21处em-dash，独立复核agent逐条核对后确认20处属narrative/appositive用法需改写、1处（FAQ'No — this is the single most common error'开头）当时误判为本站允许例外（该判断依据的是por-vs-para/ser-conjugation/ser-vs-estar/preterite-vs-imperfect/deja-vu-meaning等5篇较早期审计建立的'sources标签+FAQ No—开头两类例外'旧标准），diagram.svg同源4处标签一并修复；第一轮修复+部署+日志后，编排层复核发现遗漏——本站最新一篇姊妹文章`subjunctive-spanish`（2026-08-27审计）已将标准收紧为**零容忍**（含sources[]标签'Publisher — Title'改为'Publisher: Title'、FAQ'No.'不再用em-dash开头），我方独立复核agent当时未被告知这一最新标准变化，判断依据过时。第二轮：核实subjunctive-spanish线上页面与guides.ts源码确认零em-dash后，把本文剩余7处（FAQ'No —'改写为'No.'+6条sources[]标签'—'改为':'）一并修复，全文降至0处。" },
+    { "dimension": "外部引用链接腐烂", "status": "未发现问题", "detail": "5条rae.es来源经curl实测均触发Cloudflare人机挑战（非403而是challenge页面，本次首次观察到该子类型），经WebSearch交叉核实全部5个页面标题与内容仍真实存在（本站历次审计已确立rae.es自动化拦截≠链接失效的判断标准，本次挑战页表现与既往403判断同一性质，非新增风险）；1条lawlessspanish.com来源200正常。" },
+    { "dimension": "内链健康度", "status": "未发现问题，非孤儿页", "detail": "grep确认本文被3处其他Grammar文章手写内链引用（spanish-verb-tenses-chart/spanish-si-clauses/french-conditional），锚文本各不相同。逐一核对3条桥接句对本文实际内容的描述均准确：spanish-verb-tenses-chart准确概述'礼貌请求用法及其他角度'；spanish-si-clauses准确描述本文'从条件式自身角度覆盖viajaría及其同类'；french-conditional准确复述本文'RAE归类为indicative时态、争议未消失'的核心论点，无L-0805-4类失真。本文正文自身也有4条出站内链（preterite-vs-imperfect/spanish-future-tense/ser-conjugation/subjunctive-spanish），互链健康。" },
+    { "dimension": "Schema数据一致性", "status": "已同步", "detail": "本次编辑涉及description/正文与FAQ文字/sources[].label文字/updated日期，不涉及faq/sources数组结构（字段形状未变）；构建后curl+python解析线上页面确认Article/FAQPage/BreadcrumbList三项JSON-LD均正确渲染，description字段与guides.ts一致，datePublished保持2026-08-05不变，dateModified已更新为2026-08-28。" },
+    { "dimension": "合规/敏感度漂移", "status": "未发现问题", "detail": "纯语法教学内容，无人物/事件/群体相关表述，无合规风险。" },
+    { "dimension": "配图可用性与版权", "status": "确认发现同源问题，已修复", "detail": "public/images/spanish-conditional-tense-diagram.svg为站内自制SVG图（非第三方图片，无版权问题），文件存在于public/与dist/，线上页面curl实测200正常渲染；图内4处文字标签与正文同源含em-dash问题，已一并修复（详见早期内容AI味补漏维度）。" },
+    { "dimension": "AdSense政策合规", "status": "未发现问题", "detail": "语法教学内容，无敏感类目风险；ads.txt实测正确指向pub-5245502795720653；robots.txt未拦截任何AI爬虫；纯prose内容布局，无诱导误点风险；privacy页面200可访问。" }
+  ],
+  "independent_verification": "1个独立agent复核em-dash发现：独立给定全部15行含em-dash的原文（21处个体em-dash）与'仅sources标签+FAQ'No —'开头两类允许例外'的旧标准，逐条判定后确认20处属narrative/appositive用法需改写、1处属该旧标准下的例外。**该复核本身依据过时标准，非独立复核agent的错误**——问题在于给它的输入材料（我方对本站现行标准的概括）本身已经过时，未反映08-27最新姊妹文章审计已收紧为零容忍。教训：往后引用'本站已确立的标准'类断言前，应先核对最新一篇同类审计的实际产出（不能只读文字性conventions总结，要读最新文章的live页面/源码验证当前真实基线），已记入本次actions_taken。",
+  "actions_taken": [
+    "第一轮：guides.ts正文/coreSummary/description/FAQ 20处叙述性em-dash改写为句号/冒号/逗号/括号结构；diagram.svg内4处同源标签文字修复（3处小标题冒号化+1处括注逗号化）；commit 5e0a2a9",
+    "第二轮（编排层复核后补齐）：核实subjunctive-spanish（本站上一篇审计对象）线上页面+源码确认站内标准已是零容忍后，FAQ'No —'改为'No.'、6条sources[]标签'Publisher — Title'格式改为'Publisher: Title'；commit ead2a92；全文em-dash计数验证为0",
+    "updated字段2026-08-05改为2026-08-28（published字段已存在，未触发L-0809-1回填流程）",
+    "npm test（64/64通过）+ npm run build（80页）通过（两轮修复后均重跑）",
+    "两次git push；Cloudflare Pages自动部署；curl绕缓存轮询确认https://lingogrove.com/spanish-conditional-tense/两轮改动均已生效（含'No.'开头与冒号化sources标签）",
+    "seo_drift.py compare仅命中预期内的description/schema内容变化提示（WARNING级），无CRITICAL",
+    "node tools/submit-indexnow.mjs /spanish-conditional-tense/提交（Bing 200 / Yandex 200）；indexnow-submit-log.json未新增字段属该脚本explicit-URL模式的既有行为（核对subjunctive-spanish等历次审计条目均无last_submitted_date字段更新，非本次遗漏）",
+    "内容发布日志.md追加本条审计更新记录"
+  ],
+  "seo_score": "技术SEO全项通过，未发现需修复项（description此前curl初测164字符系HTML实体解码误差，python复核真实156字符属正常区间）",
+  "geo_score": "定性评估达标（结构/权威/时效/AI可抓取性均满足，逐字RAE引语密度高于本站历史平均），未做侵入性GEO编辑",
+  "escalation": null
+}
+```
