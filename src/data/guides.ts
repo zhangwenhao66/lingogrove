@@ -1494,7 +1494,7 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'Does English "would" always translate to the Spanish conditional?',
-				answer: 'No — this is the single most common error. Habitual "would" ("she would visit every summer," meaning "used to visit") takes the Spanish imperfect (visitaba), not the conditional. Only "would" in a genuinely hypothetical or contingent sense ("she would visit if she had time") takes the conditional (visitaría). Using the conditional for a habitual past action wrongly implies the action depends on some unstated condition.',
+				answer: 'No. This is the single most common error. Habitual "would" ("she would visit every summer," meaning "used to visit") takes the Spanish imperfect (visitaba), not the conditional. Only "would" in a genuinely hypothetical or contingent sense ("she would visit if she had time") takes the conditional (visitaría). Using the conditional for a habitual past action wrongly implies the action depends on some unstated condition.',
 			},
 			{
 				question: 'Why do conditional endings look like imperfect endings?',
@@ -1510,12 +1510,12 @@ export const guides: Guide[] = [
 			},
 		],
 		sources: [
-			{ label: 'Real Academia Española — Nueva gramática básica: "El condicional simple (cantaría)"', url: 'https://www.rae.es/gram%C3%A1tica-b%C3%A1sica/el-verbo/tiempos-verbales-del-modo-indicativo/el-condicional-simple-cantar%C3%ADa' },
-			{ label: 'Real Academia Española — Nueva gramática de la lengua española: "El condicional simple (cantaría)"', url: 'https://www.rae.es/gram%C3%A1tica/sintaxis/el-condicional-simple-cantar%C3%ADa' },
-			{ label: 'Real Academia Española — Nueva gramática de la lengua española: "Tiempo y modo en las oraciones condicionales"', url: 'https://www.rae.es/gram%C3%A1tica/sintaxis/tiempo-y-modo-en-las-oraciones-condicionales' },
-			{ label: 'Real Academia Española — Glosario de términos gramaticales: "condicional de cortesía"', url: 'https://www.rae.es/gtg/condicional-de-cortes%C3%ADa' },
-			{ label: 'Real Academia Española — Glosario de términos gramaticales: "condicional simple"', url: 'https://www.rae.es/gtg/condicional-simple' },
-			{ label: 'Lawless Spanish — "Conditional Conjugations" (irregular stem list, cross-checked)', url: 'https://www.lawlessspanish.com/grammar/verbs/conditional-conjugations/' },
+			{ label: 'Real Academia Española: Nueva gramática básica, "El condicional simple (cantaría)"', url: 'https://www.rae.es/gram%C3%A1tica-b%C3%A1sica/el-verbo/tiempos-verbales-del-modo-indicativo/el-condicional-simple-cantar%C3%ADa' },
+			{ label: 'Real Academia Española: Nueva gramática de la lengua española, "El condicional simple (cantaría)"', url: 'https://www.rae.es/gram%C3%A1tica/sintaxis/el-condicional-simple-cantar%C3%ADa' },
+			{ label: 'Real Academia Española: Nueva gramática de la lengua española, "Tiempo y modo en las oraciones condicionales"', url: 'https://www.rae.es/gram%C3%A1tica/sintaxis/tiempo-y-modo-en-las-oraciones-condicionales' },
+			{ label: 'Real Academia Española: Glosario de términos gramaticales, "condicional de cortesía"', url: 'https://www.rae.es/gtg/condicional-de-cortes%C3%ADa' },
+			{ label: 'Real Academia Española: Glosario de términos gramaticales, "condicional simple"', url: 'https://www.rae.es/gtg/condicional-simple' },
+			{ label: 'Lawless Spanish: "Conditional Conjugations" (irregular stem list, cross-checked)', url: 'https://www.lawlessspanish.com/grammar/verbs/conditional-conjugations/' },
 		],
 	},
 	{
