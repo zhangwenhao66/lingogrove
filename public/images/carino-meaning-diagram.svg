@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" font-family="system-ui, -apple-system, sans-serif">
+	<rect width="800" height="460" fill="#f6f4e9"/>
+	<rect x="24" y="24" width="360" height="412" rx="10" fill="#fffefa" stroke="#ddd8c4"/>
+	<rect x="416" y="24" width="360" height="412" rx="10" fill="#fffefa" stroke="#ddd8c4"/>
+
+	<rect x="24" y="24" width="360" height="52" rx="10" fill="#8a3b3b"/>
+	<rect x="24" y="56" width="360" height="20" fill="#8a3b3b"/>
+	<text x="204" y="57" text-anchor="middle" fill="#ffffff" font-size="19" font-weight="700">RAE: FIVE SENSES OF CARIÑO</text>
+
+	<rect x="416" y="24" width="360" height="52" rx="10" fill="#5c2a2a"/>
+	<rect x="416" y="56" width="360" height="20" fill="#5c2a2a"/>
+	<text x="596" y="57" text-anchor="middle" fill="#ffffff" font-size="19" font-weight="700">A DISPUTED ORIGIN</text>
+
+	<g fill="#201f1a" font-size="14.5">
+		<text x="48" y="112" font-weight="700">1. Affection</text>
+		<text x="48" y="132" fill="#5a5648" font-size="13">love or good feeling toward someone/something</text>
+
+		<text x="48" y="164" font-weight="700">2. Cariños (usually plural)</text>
+		<text x="48" y="184" fill="#5a5648" font-size="13">a hug, caress, or affectionate gesture</text>
+
+		<text x="48" y="216" font-weight="700">3. Añoranza, nostalgia</text>
+		<text x="48" y="236" fill="#5a5648" font-size="13">longing for something absent</text>
+
+		<text x="48" y="268" font-weight="700">4. Esmero</text>
+		<text x="48" y="288" fill="#5a5648" font-size="13">the care taken over a task</text>
+
+		<text x="48" y="320" font-weight="700">5. Regalo, obsequio</text>
+		<text x="48" y="340" fill="#5a5648" font-size="13">a gift (see DAMER, section 2 below)</text>
+	</g>
+
+	<line x1="48" y1="360" x2="360" y2="360" stroke="#ddd8c4"/>
+	<text x="48" y="388" fill="#5a5648" font-size="12.5">Only sense 1 covers "darling" as a</text>
+	<text x="48" y="405" fill="#5a5648" font-size="12.5">term of address. RAE, dle.rae.es</text>
+
+	<g fill="#201f1a" font-size="14.5">
+		<text x="440" y="112" font-weight="700">RAE: "Etim. disc."</text>
+		<text x="440" y="132" fill="#5a5648" font-size="13">(etymology disputed)</text>
+
+		<text x="440" y="168" font-weight="700">cf. Latin carēre</text>
+		<text x="440" y="188" fill="#5a5648" font-size="13">"to lack"</text>
+
+		<text x="440" y="222" font-weight="700">cf. Aragonese cariño</text>
+		<text x="440" y="242" fill="#5a5648" font-size="13">"nostalgia" — matches sense 3</text>
+
+		<text x="440" y="284" font-weight="700" fill="#8a3b3b">Not: Latin carus ("dear")</text>
+		<text x="440" y="304" fill="#5a5648" font-size="13">the story several learning sites</text>
+		<text x="440" y="322" fill="#5a5648" font-size="13">tell, but not what RAE's own</text>
+		<text x="440" y="340" fill="#5a5648" font-size="13">entry for cariño states</text>
+	</g>
+
+	<line x1="440" y1="360" x2="752" y2="360" stroke="#ddd8c4"/>
+	<text x="440" y="388" fill="#5a5648" font-size="12.5">Wiktionary independently calls it</text>
+	<text x="440" y="405" fill="#5a5648" font-size="12.5">"uncertain, possibly via Aragonese"</text>
+</svg>

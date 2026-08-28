@@ -6124,4 +6124,81 @@ export const guides: Guide[] = [
 			{ label: 'Bescherelle: conjugation tables for acquérir and mourir (cross-checked against the OQLF\'s irregular-stem examples)', url: 'https://conjugaison.bescherelle.com/verbes/acquerir' },
 		],
 	},
+	{
+		slug: 'carino-meaning',
+		category: 'Loanwords',
+		title: 'Cariño Meaning: Darling Is Only One of RAE\'s Five Definitions',
+		description: 'RAE\'s dictionary gives cariño five senses, affection, a gesture, nostalgia, careful effort, and a gift, and calls its origin disputed instead of tracing it to Latin "dear."',
+		published: '2026-08-28',
+		updated: '2026-08-28',
+		coreSummary: 'The RAE dictionary lists five distinct senses under cariño: affection felt toward someone or something, a physical manifestation of that affection (usually plural, cariños), nostalgia or longing, the care taken over a task, and a gift. RAE marks the word\'s origin as disputed, comparing it to Latin carēre ("to lack") and an Aragonese word cariño meaning specifically "nostalgia," rather than tracing it to Latin carus ("dear") the way several language-learning sites describe it. ASALE\'s Diccionario de americanismos (DAMER) documents the gift sense as current in Nicaragua, the Dominican Republic, Colombia\'s Cauca department, Peru, Bolivia, and northwestern Argentina, and records a Chilean phrase, cariño malo, that names the opposite of affection: ingratitude toward someone who loves you.',
+		language: 'Spanish',
+		usageNote: {
+			register: 'casual',
+			regionNote: 'DAMER documents cariño as a literal gift (not just a feeling) in Nicaragua, the Dominican Republic, Colombia\'s Cauca department, Peru, Bolivia, and northwestern Argentina. The same dictionary marks cariño malo as specifically Chilean, and a satirical sense of cariñito, "an illegal charge for something," as specifically Honduran, without listing either sense for any other country DAMER covers.',
+		},
+		sections: [
+			{
+				heading: 'RAE lists five senses, and "darling" covers only part of one',
+				body: [
+					'The Real Academia Española\'s dictionary doesn\'t define cariño as a single feeling with a term of address attached. It lists five separate numbered senses: (1) an inclination of love or good affection felt toward someone or something, with odio ("hate") and desprecio ("contempt") given as its antonyms; (2) a manifestation of that affection, a word RAE notes is more often used in the plural, cariños, covering hugs, caresses, and other affectionate gestures distinct from the feeling itself; (3) añoranza, nostalgia, longing for something absent; (4) the care or diligence with which a task is done or a thing is treated; and (5) regalo, obsequio, a gift or present. Calling someone cariño as a term of address draws only on the first of these five.',
+					'RAE\'s entry also marks the word\'s origin as disputed rather than settled, offering two comparison points instead of a confirmed derivation: Latin carēre, "to lack," and an Aragonese word cariño that means specifically "nostalgia." Wiktionary\'s entry reaches a similar conclusion, calling the etymology "uncertain, but possibly via Aragonese carinyo" — though Wiktionary\'s own further-reading list points back to this same RAE entry, so the two aren\'t fully separate confirmations of each other. Several language-learning sites describe cariño as coming straight from Latin carus, "dear," the same root behind Spanish caro and English "charity"; RAE\'s own entry doesn\'t make that claim, and its listed comparison point for sense three, nostalgia, lines up with the Aragonese cognate\'s meaning, not with carus\'s sense of "dear."',
+				],
+				image: {
+					src: '/images/carino-meaning-diagram.svg',
+					alt: 'Diagram showing RAE\'s five numbered senses of cariño (affection, an affectionate gesture, nostalgia, careful effort, a gift), with a note that RAE marks the word\'s origin as disputed rather than deriving it from Latin carus.',
+				},
+			},
+			{
+				heading: 'Where cariño literally means a gift, not a feeling',
+				body: [
+					'RAE\'s fifth sense, regalo, obsequio, isn\'t a loose figurative stretch from "affection" to "something given out of affection." ASALE\'s Diccionario de americanismos (DAMER) treats it as its own dictionary entry, defining cariño as "a gift given to someone as a sign of affection" and marking that sense as current in Nicaragua, the Dominican Republic, Colombia\'s Cauca department, Peru, Bolivia, and northwestern Argentina. In those places, "te traje un cariño" describes handing someone an actual object, not just a warm feeling.',
+					'DAMER records a related formula specific to Peru: no hay cariño en esta casa, literally "there\'s no cariño in this house." DAMER glosses it as an indirect way for a guest to hint that they\'d like to be offered something to eat or drink while visiting someone else\'s home, playing on the gift sense of the word instead of the affection sense: the house isn\'t short on warmth, it\'s short on what\'s being handed over. That kind of dictionary entry hiding a second, unrelated meaning under a familiar spelling isn\'t unique to cariño; [mijo](/mijo-meaning/) carries an entirely separate botanical sense (millet) alongside its use as a vocative for "my son."',
+				],
+			},
+			{
+				heading: 'When cariño turns into its own opposite, or into a bribe',
+				body: [
+					'DAMER records a Chilean phrase, cariño malo, literally "bad cariño," that names the opposite of affection rather than a lesser version of it: "the feeling of not loving back, or of ingratitude, that a person has toward someone who loves them." A second, related sense in the same entry lets cariño malo describe the person who does the not-loving-back, not just the feeling itself. Either way, the phrase isn\'t hedging toward "less affectionate"; it\'s naming the specific experience of being loved and not returning it.',
+					'The regular diminutive, cariñito, keeps cariño\'s ordinary affectionate meaning across Nicaragua, Costa Rica, Panama, the Dominican Republic, Colombia, Ecuador, Bolivia, and Chile, where DAMER lists it as an informal synonym of cariño itself. Honduras is the outlier: DAMER records a second, unrelated sense of cariñito there, used satirically for an illegal charge for something, closer to what English speakers might call a kickback or an under-the-table fee than anything related to affection. Same diminutive suffix, same spelling, and in one country, an entirely different transaction.',
+				],
+			},
+			{
+				heading: 'A word for saying goodbye, and one that never takes a feminine form',
+				body: [
+					'DAMER lists a separate headword, ¡cariños!, used as an interjection in Puerto Rico, Bolivia, Chile, Paraguay, Argentina, and Uruguay: it expresses affection toward a person, or toward that person\'s family, at the moment of saying goodbye to them, functioning something like English speakers saying "give my love to the family" on the way out the door. It\'s a distinct headword from cariño itself, built on the same plural cariños that RAE\'s second sense already covers (the manifestations of affection: hugs, caresses, gestures), but repurposed specifically as a farewell.',
+					'One more detail sets cariño apart from a word like querido/querida when it\'s used to address someone directly: Wiktionary\'s entry notes that as a vocative, cariño has no separate feminine form. Addressing a woman as cariño doesn\'t change the word at all, unlike querida, which agrees with the person being addressed. The same entry lists caress and a plain "gift" sense (dádiva, regalo, obsequio) as additional English glosses for the noun, alongside affection and the vocative "dear, darling, honey, love," echoing RAE\'s five-sense structure in its own separate entry. It sits in the same family of Spanish endearment vocabulary as [mamacita](/mamacita-meaning/), another word a dictionary entry splits into senses most casual translations flatten into one.',
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'What does "cariño" mean?',
+				answer: 'RAE\'s dictionary lists five separate senses: affection or fondness felt toward someone or something; a physical manifestation of that affection, usually used in the plural (cariños, meaning hugs, caresses, or affectionate gestures); nostalgia or longing; the care taken over a task or how something is treated; and a gift. As a term of address, "cariño" ("dear," "honey," "love") draws only on the first of these.',
+			},
+			{
+				question: 'Does "cariño" always mean "darling"?',
+				answer: 'No. That\'s the vocative use, drawing on only one of RAE\'s five listed senses. The word also names a gift (documented by DAMER as current in Nicaragua, the Dominican Republic, Colombia\'s Cauca department, Peru, Bolivia, and northwestern Argentina), nostalgia, and the care put into a task, none of which involve addressing a person.',
+			},
+			{
+				question: 'Does "cariño" come from Latin "carus" ("dear")?',
+				answer: 'RAE doesn\'t say so. Its entry marks the word\'s origin as disputed and offers two comparison points instead of a confirmed derivation, Latin carēre ("to lack") and an Aragonese word cariño meaning specifically "nostalgia," which matches one of RAE\'s own five senses for the word. Wiktionary separately calls the etymology "uncertain, but possibly via Aragonese carinyo." The "from Latin carus" story, repeated on several language-learning sites, isn\'t what either dictionary\'s entry for cariño itself states.',
+			},
+			{
+				question: 'Why does "cariño malo" mean the opposite of affection?',
+				answer: 'DAMER records cariño malo as a set Chilean phrase for "the feeling of not loving back, or of ingratitude, that a person has toward someone who loves them," and, in a second sense, for a person who behaves that way. It isn\'t a weaker version of cariño; it specifically names failing to return someone else\'s affection.',
+			},
+			{
+				question: 'What does "¡cariños!" mean at the end of a message or when leaving?',
+				answer: 'DAMER lists it as a separate interjection, used in Puerto Rico, Bolivia, Chile, Paraguay, Argentina, and Uruguay to express affection toward a person or their family specifically when saying goodbye to them, similar to how an English speaker might say "give my love to the family" on the way out.',
+			},
+		],
+		sources: [
+			{ label: 'RAE (Real Academia Española), Diccionario de la lengua española: "cariño" (five numbered senses, disputed etymology comparing Latin carēre and Aragonese cariño "nostalgia")', url: 'https://dle.rae.es/cari%C3%B1o' },
+			{ label: 'ASALE, Diccionario de americanismos (DAMER): "cariño" (gift sense and its regional currency; the Peruvian formula "no hay cariño en esta casa")', url: 'https://www.asale.org/damer/cari%C3%B1o' },
+			{ label: 'ASALE, Diccionario de americanismos (DAMER): "cariñito" (ordinary diminutive across eight countries; the unrelated Honduran sense, "an illegal charge for something")', url: 'https://www.asale.org/damer/cari%C3%B1ito' },
+			{ label: 'ASALE, Diccionario de americanismos (DAMER): "¡cariños!" (farewell interjection, Puerto Rico/Bolivia/Chile/Paraguay/Argentina/Uruguay)', url: 'https://www.asale.org/damer/%C2%A1cari%C3%B1os!' },
+			{ label: 'Wiktionary: "cariño" (five glossed senses including caress and gift; etymology "uncertain, but possibly via Aragonese carinyo"; usage note on the invariable vocative form)', url: 'https://en.wiktionary.org/wiki/cari%C3%B1o' },
+		],
+	},
 ];
