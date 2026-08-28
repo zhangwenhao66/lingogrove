@@ -1,35 +1,53 @@
 {
   "quora": [
     {
+      "date": "2026-08-04",
+      "site": null,
       "target_page": "ser-conjugation",
       "question_url": "https://www.quora.com/What-is-the-reason-behind-the-irregularity-of-the-Spanish-verb-ser",
+      "question_title": null,
       "answer_url": "https://www.quora.com/What-is-the-reason-behind-the-irregularity-of-the-Spanish-verb-ser/answer/Owen-Zhang-161",
-      "date": "2026-08-04"
+      "status": null,
+      "notes": null
     },
     {
+      "date": "2026-08-09",
+      "site": null,
       "target_page": "spanish-possessive-adjectives",
       "question_url": "https://www.quora.com/Why-do-Spaniards-use-vosotros-while-most-Latin-American-countries-dont-and-what-impact-does-it-have-on-learning-Spanish",
+      "question_title": null,
       "answer_url": "https://www.quora.com/Why-do-Spaniards-use-vosotros-while-most-Latin-American-countries-dont-and-what-impact-does-it-have-on-learning-Spanish/answer/Owen-Zhang-161",
-      "date": "2026-08-09"
+      "status": null,
+      "notes": null
     },
     {
+      "date": "2026-08-16",
+      "site": null,
       "target_page": "irregular-preterite-verbs-spanish",
       "question_url": "https://www.quora.com/What-are-some-irregular-preterite-verbs-in-Spanish",
+      "question_title": null,
       "answer_url": "https://www.quora.com/What-are-some-irregular-preterite-verbs-in-Spanish/answer/Owen-Zhang-161",
-      "date": "2026-08-16"
+      "status": null,
+      "notes": null
     },
     {
+      "date": "2026-08-18",
+      "site": null,
       "target_page": "mahalo-meaning",
       "question_url": "https://www.quora.com/I-know-aloha-means-something-about-the-breath-of-life-HA-what-does-alo-mean",
+      "question_title": null,
       "answer_url": "https://www.quora.com/I-know-aloha-means-something-about-the-breath-of-life-HA-what-does-alo-mean/answer/Owen-Zhang-161",
-      "date": "2026-08-18",
+      "status": null,
       "notes": "发布时该问题已有2个真实答案，一条正确指出mahalo/aloha不同源但只说'我认为'无引证，另一条引用Google的alo=front/face+ha=breath民间词源。以站内mahalo-meaning文章骨架撰写（Polynesian Lexicon Project将mahalo构拟为Proto-Nuclear-Polynesian *masalo，aloha构拟为不同词根Proto-Polynesian *ʻalofa；Pukui & Elbert词典对aloha的释义不含alo+ha拆分；mahalo在词典同一词条下有thanks/admiration两个相关义项，英语拆成两个词而夏威夷语合一）。过humanizer+avoid-ai-writing双重检查。用Add Link功能插入真实超链接，发布前/后均用javascript_tool核实DOM为真实<a href>。"
     },
     {
       "date": "2026-08-21",
+      "site": "lingogrove.com",
       "target_page": "https://lingogrove.com/i-love-you-in-spanish/",
-      "question_url": "https://www.quora.com/Does-Te-amo-always-have-a-romantic-conotation-in-Spain-akin-to-Im-in-love-with-you-or-is-it-also-used-between-close-family-members-such-as-from-a-parent-to-their-child/answer/Owen-Zhang-161",
+      "question_url": "https://www.quora.com/Does-Te-amo-always-have-a-romantic-conotation-in-Spain-akin-to-Im-in-love-with-you-or-is-it-also-used-between-close-family-members-such-as-from-a-parent-to-their-child",
       "question_title": "Does \"Te amo\" always have a romantic conotation in Spain, akin to \"I'm in love with you\", or is it also used between close family members, such as from a parent to their child?",
+      "answer_url": "https://www.quora.com/Does-Te-amo-always-have-a-romantic-conotation-in-Spain-akin-to-Im-in-love-with-you-or-is-it-also-used-between-close-family-members-such-as-from-a-parent-to-their-child/answer/Owen-Zhang-161",
+      "status": null,
       "notes": "发布时该问题有8个真实答案(接近SKILL.md放宽标准的10个上限)，多数聚焦te amo/te quiero的家庭用法差异，但没有一条清楚点出站内文章核心的西班牙地域反直觉现象——西班牙情侣之间日常反而更常用te quiero而非te amo(te amo在那里显得过于文绉绉/正式)，判定为真实内容空白值得补充，按SKILL.md放宽标准使用，回答中先直接回应问题(不总是浪漫)再引入这个地域反差点。以站内文章骨架撰写(西班牙情侣日常用te quiero、te amo显得过于文学化正式；te amo在墨西哥、阿根廷等拉美地区常见于父母子女之间；te amo的共同点不是浪漫本身而是情感深度；me caes muy bien作为不触碰love动词的清晰非浪漫表达)。已过humanizer+avoid-ai-writing双重检查(无破折号、无AI高频词、无vague endorsement)。用Quora Add Link功能(Cmd+K)插入真实超链接,锚文本here,指向i-love-you-in-spanish页面,全程只填URL字段。已直接发布成功(非Space类问题),发布前用javascript_tool核实编辑器DOM中该span确实是class=\"span link\"(非link_pending),发布后再次核实渲染页面DOM中确实是<a href>真实超链接指向https://lingogrove.com/i-love-you-in-spanish/,锚文本为here。"
     }
   ],
