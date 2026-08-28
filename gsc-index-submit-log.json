@@ -292,5 +292,20 @@
       "https://lingogrove.com/voila-meaning/"
     ],
     "quota_used": 1
+  },
+  {
+    "date": "2026-08-28",
+    "action": "submitted",
+    "reason": "今日新发布carino-meaning：URL Inspection确认未收录，REQUEST INDEXING提交成功。spanish-conditional-tense（今日审计更新）、inshallah-meaning、de-nada-meaning均已收录未提交。第二轮遍历队列候选schadenfreude-meaning显示Crawled-currently not indexed，REQUEST INDEXING提交成功。",
+    "submitted_urls": [
+      "https://lingogrove.com/carino-meaning/",
+      "https://lingogrove.com/schadenfreude-meaning/"
+    ],
+    "already_indexed_no_action": [
+      "https://lingogrove.com/spanish-conditional-tense/",
+      "https://lingogrove.com/inshallah-meaning/",
+      "https://lingogrove.com/de-nada-meaning/"
+    ],
+    "quota_used": "2 of shared account-wide daily quota"
   }
 ]
