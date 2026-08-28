@@ -16,6 +16,7 @@
  */
 :root {
 	--ink: #201f1a;
+	--ink-soft: #5f5c50; /* secondary text that still clears 4.5:1 on paper/leaf */
 	--paper: #f6f4e9;
 	--rule: #ddd8c4;
 	--flag: #2f6b47;
@@ -23,6 +24,7 @@
 	--leaf: #fffefa;
 	--bedrock: #17241b;
 	--bedrock-text: #d7ddce;
+	--margin-red: #b0483a; /* the notebook's left margin line (decorative only) */
 }
 
 body {
@@ -43,6 +45,99 @@ body {
 .panel {
 	background: var(--leaf);
 	border: 1px solid var(--rule);
+}
+
+/*
+ * The open notebook page: faint horizontal rules plus a red left margin line.
+ * Line colors are deliberately very light (decorative texture, not text) so body
+ * copy printed over them keeps full contrast.
+ */
+.ruled-paper {
+	--nb-line: 2rem;
+	--nb-margin: 3.5rem;
+	background-color: var(--leaf);
+	background-image:
+		linear-gradient(
+			to right,
+			transparent calc(var(--nb-margin) - 1px),
+			rgba(176, 72, 58, 0.38) calc(var(--nb-margin) - 1px),
+			rgba(176, 72, 58, 0.38) var(--nb-margin),
+			transparent var(--nb-margin)
+		),
+		repeating-linear-gradient(
+			to bottom,
+			transparent 0,
+			transparent calc(var(--nb-line) - 1px),
+			rgba(47, 107, 71, 0.12) calc(var(--nb-line) - 1px),
+			rgba(47, 107, 71, 0.12) var(--nb-line)
+		);
+	border: 1px solid var(--rule);
+}
+@media (max-width: 640px) {
+	.ruled-paper {
+		--nb-margin: 2.5rem;
+	}
+}
+
+/* Softer variant for in-article blocks (conjugation tables): rules only, no margin line. */
+.ruled-soft {
+	background-color: var(--leaf);
+	background-image: repeating-linear-gradient(
+		to bottom,
+		transparent 0,
+		transparent calc(2rem - 1px),
+		rgba(47, 107, 71, 0.09) calc(2rem - 1px),
+		rgba(47, 107, 71, 0.09) 2rem
+	);
+	border: 1px solid var(--rule);
+}
+
+/* Notebook tab ears: sit on top of a .ruled-paper page, active tab merges into it. */
+.nb-tabs {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.3rem;
+	padding: 0 0.6rem;
+	margin-bottom: -1px;
+	position: relative;
+	z-index: 1;
+}
+.nb-tab {
+	border: 1px solid var(--rule);
+	border-bottom: none;
+	border-radius: 7px 7px 0 0;
+	background: #edead9;
+	padding: 0.4rem 0.8rem 0.5rem;
+	font-size: 0.78rem;
+	font-weight: 600;
+	letter-spacing: 0.05em;
+	color: var(--ink-soft);
+	text-decoration: none;
+}
+.nb-tab:hover {
+	background: var(--leaf);
+	color: var(--ink);
+}
+.nb-tab[aria-current='page'] {
+	background: var(--leaf);
+	color: var(--flag-dark);
+	box-shadow: 0 1px 0 var(--leaf); /* covers the page's top border under the active tab */
+}
+
+/* Handwritten-feeling index number in the notebook margin: Lora italic, grove green. */
+.nb-num {
+	font-family: 'Lora Variable', 'Noto Serif SC', Georgia, serif;
+	font-style: italic;
+	font-weight: 600;
+	color: var(--flag);
+}
+
+/* Marginalia lead-in ("field note:") on article pages. */
+.marginalia-lead {
+	font-family: 'Lora Variable', 'Noto Serif SC', Georgia, serif;
+	font-style: italic;
+	font-weight: 600;
+	color: var(--flag-dark);
 }
 
 /* Category / eyebrow label in small caps, set in grove green. */

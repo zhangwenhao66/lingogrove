@@ -1,0 +1,22 @@
+---
+// Notebook tab ears shared by the homepage and the four section index pages.
+// Pure CSS (see .nb-tabs / .nb-tab in global.css) — the active tab merges into
+// the ruled page below it.
+interface Props {
+	active?: string;
+}
+const { active = 'all' } = Astro.props;
+const tabs = [
+	{ label: 'All notes', href: '/', key: 'all' },
+	{ label: 'Grammar', href: '/grammar/', key: 'Grammar' },
+	{ label: 'Loanwords', href: '/loanwords/', key: 'Loanwords' },
+	{ label: 'Phrases', href: '/phrases/', key: 'Phrases' },
+	{ label: 'Conjugations', href: '/conjugations/', key: 'Conjugations' },
+];
+---
+
+<nav class="nb-tabs" aria-label="Notebook sections">
+	{tabs.map((t) => (
+		<a href={t.href} class="nb-tab" aria-current={t.key === active ? 'page' : undefined}>{t.label}</a>
+	))}
+</nav>

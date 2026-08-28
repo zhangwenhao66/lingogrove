@@ -1,5 +1,6 @@
 ---
 import Layout from '../../layouts/Layout.astro';
+import NotebookTabs from '../../components/NotebookTabs.astro';
 import { guides } from '../../data/guides';
 
 const categoryGuides = guides.filter((g) => g.category === 'Phrases');
@@ -9,28 +10,71 @@ const categoryGuides = guides.filter((g) => g.category === 'Phrases');
 	title="Phrases"
 	description="How to say common words, greetings, and phrases in other languages, with pronunciation notes and the regional differences that a straight translation misses."
 >
-	<p class="m-0 text-[0.7rem] font-semibold uppercase tracking-[0.12em] text-[var(--flag-dark)]">Section</p>
-	<h1 class="font-display mt-2 text-3xl font-bold text-[var(--ink)] md:text-4xl">Phrases</h1>
-	<p class="mt-3 max-w-2xl text-lg text-[var(--ink)]/60">
-		"How do you say X in Spanish" answers, done properly: the phrase, how to say it, and the
-		regional or formality differences that a single-line translation glosses over.
-	</p>
+	<div class="pt-2 md:pt-4">
+		<NotebookTabs active="Phrases" />
 
-	{categoryGuides.length === 0 ? (
-		<p class="mt-10 text-sm text-[var(--ink)]/40">Entries in this section are coming soon.</p>
-	) : (
-		<div class="mt-10 flex flex-col">
-			{categoryGuides.map((g) => (
-				<a href={`/${g.slug}/`} class="item border-b border-[var(--rule)] py-5 no-underline first:pt-0">
-					<p class="m-0 text-lg font-bold leading-snug text-[var(--ink)] hover:underline">{g.title}</p>
-					<p class="m-0 mt-1.5 text-sm text-[var(--ink)]/55">{g.description}</p>
-				</a>
-			))}
+		<div class="ruled-paper notebook-page">
+			<header class="page-head">
+				<p class="m-0 text-[0.7rem] font-semibold uppercase tracking-[0.12em] text-[var(--flag-dark)]">Section</p>
+				<h1 class="font-display mt-2 text-3xl font-bold text-[var(--ink)] md:text-4xl">Phrases</h1>
+				<p class="mt-3 mb-0 max-w-2xl text-lg text-[var(--ink-soft)]">
+					"How do you say X in Spanish" answers, done properly: the phrase, how to say it, and the
+					regional or formality differences that a single-line translation glosses over.
+				</p>
+			</header>
+
+			{categoryGuides.length === 0 ? (
+				<p class="page-head mt-10 text-sm text-[var(--ink-soft)]">Entries in this section are coming soon.</p>
+			) : (
+				<ol class="entry-list m-0 list-none p-0">
+					{categoryGuides.map((g, i) => (
+						<li>
+							<a href={`/${g.slug}/`} class="entry-row no-underline">
+								<span class="nb-num entry-num" aria-hidden="true">{i + 1}.</span>
+								<span class="entry-body">
+									<span class="font-display entry-title block text-[1.1rem] leading-snug font-bold text-[var(--ink)]">{g.title}</span>
+									<span class="mt-0.5 block text-sm leading-relaxed text-[var(--ink-soft)]">{g.description}</span>
+								</span>
+							</a>
+						</li>
+					))}
+				</ol>
+			)}
 		</div>
-	)}
+	</div>
 </Layout>
 
 <style>
-	.item { display: block; transition: padding-left 0.15s ease; }
-	.item:hover { padding-left: 0.5rem; }
+	.notebook-page {
+		padding: 2rem 1.25rem 2.5rem 0;
+	}
+	.page-head {
+		padding-left: calc(var(--nb-margin) + 1rem);
+	}
+	.entry-list {
+		margin-top: 2rem;
+	}
+	.entry-row {
+		display: grid;
+		grid-template-columns: var(--nb-margin) 1fr;
+		padding: 0.9rem 0;
+		border-bottom: 1px solid var(--rule);
+	}
+	.entry-list li:last-child .entry-row {
+		border-bottom: 0;
+	}
+	.entry-num {
+		text-align: right;
+		padding-right: 0.9rem;
+		font-size: 1.05rem;
+		line-height: 1.4;
+	}
+	.entry-body {
+		padding-left: 1rem;
+		padding-right: 0.25rem;
+	}
+	.entry-row:hover .entry-title {
+		text-decoration: underline;
+		text-underline-offset: 3px;
+	}
 </style>

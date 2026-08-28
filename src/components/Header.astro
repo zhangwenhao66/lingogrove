@@ -2,7 +2,7 @@
 import { SITE_TITLE } from '../consts';
 ---
 
-<header class="border-b border-[var(--rule)] bg-[var(--paper)]">
+<header class="site-header border-b border-[var(--rule)] bg-[var(--paper)]">
 	<nav class="mx-auto flex h-16 max-w-5xl items-center justify-between gap-2 px-4">
 		<a href="/" class="flex shrink-0 items-center gap-2 no-underline" aria-label={`${SITE_TITLE} home`}>
 			<!-- A small grove: three simple round canopies over one trunk line. -->
@@ -57,21 +57,25 @@ import { SITE_TITLE } from '../consts';
 </script>
 
 <style>
+	/* Double hairline under the header: the notebook cover's stitched edge. */
+	.site-header {
+		box-shadow: 0 2px 0 rgba(47, 107, 71, 0.22);
+	}
 	.nav-link {
 		position: relative;
 	}
+	/* Hover cue: a thin green pen underline, in keeping with the ruled-paper motif. */
 	.nav-link::after {
 		content: '';
 		position: absolute;
 		left: 0;
 		right: 0;
-		bottom: -3px;
-		height: 6px;
+		bottom: -4px;
+		height: 2px;
 		background: var(--flag);
 		transform: scaleX(0);
 		transform-origin: left;
 		transition: transform 0.18s ease;
-		z-index: -1;
 	}
 	.nav-link:hover {
 		color: var(--ink);

@@ -100,7 +100,7 @@ import { imgDims } from '../data/imageDims';
 	<div class="stratum -mt-10 bg-[var(--bedrock)]">
 		<div class="stratum-inner py-10 md:py-12">
 			<div class="mx-auto max-w-[680px]">
-				<nav class="mb-6 flex flex-wrap items-center gap-1.5 text-sm text-[var(--bedrock-text)]/55">
+				<nav class="mb-6 flex flex-wrap items-center gap-1.5 text-sm text-[var(--bedrock-text)]/65">
 					<a href="/" class="no-underline hover:text-white hover:underline">Home</a>
 					<span>/</span>
 					<a href={catPath} class="no-underline hover:text-white hover:underline">{guide.category}</a>
@@ -110,7 +110,7 @@ import { imgDims } from '../data/imageDims';
 				</p>
 				<h1 class="font-display mt-3 text-3xl leading-[1.15] font-bold text-white md:text-4xl">{guide.title}</h1>
 				<p class="mt-4 text-lg leading-relaxed text-[var(--bedrock-text)]/85">{guide.description}</p>
-				<p class="mt-4 mb-0 text-xs text-[var(--bedrock-text)]/50">Last updated {guide.updated}</p>
+				<p class="mt-4 mb-0 text-xs text-[var(--bedrock-text)]/65">Last updated {guide.updated}</p>
 			</div>
 		</div>
 	</div>
@@ -122,13 +122,14 @@ import { imgDims } from '../data/imageDims';
 						width={imgDims(guide.image)?.w}
 						height={imgDims(guide.image)?.h}
 					/>
-				{guide.imageCredit && <figcaption class="mt-2 text-xs text-[var(--ink)]/45" set:html={md(guide.imageCredit)} />}
+				{guide.imageCredit && <figcaption class="mt-2 text-xs text-[var(--ink-soft)]" set:html={md(guide.imageCredit)} />}
 			</figure>
 		)}
 
+		<!-- Marginalia-style summary: green margin line + italic lead-in, like a note
+		     jotted beside the entry. Same content, same first-screen position. -->
 		<div class="callout mt-9 pl-5">
-			<p class="m-0 text-[0.7rem] font-semibold uppercase tracking-[0.1em] text-[var(--ink)]/45">Core summary</p>
-			<p class="mt-2 mb-0 text-[1.05rem] leading-relaxed text-[var(--ink)]">{guide.coreSummary}</p>
+			<p class="mt-0 mb-0 text-[1.05rem] leading-relaxed text-[var(--ink)]"><span class="marginalia-lead">field note:</span> {guide.coreSummary}</p>
 		</div>
 
 		{guide.usageNote && (guide.usageNote.register || guide.usageNote.regionNote) && (
@@ -155,7 +156,7 @@ import { imgDims } from '../data/imageDims';
 						width={imgDims(section.image.src)?.w}
 						height={imgDims(section.image.src)?.h}
 					/>
-							{section.image.credit && <figcaption class="mt-2 text-xs text-[var(--ink)]/45" set:html={md(section.image.credit)} />}
+							{section.image.credit && <figcaption class="mt-2 text-xs text-[var(--ink-soft)]" set:html={md(section.image.credit)} />}
 						</figure>
 					)}
 				</section>
@@ -164,8 +165,10 @@ import { imgDims } from '../data/imageDims';
 
 		{guide.conjugation && (
 			<div class="mt-9 border-t border-[var(--rule)] pt-8">
-				<h2 class="font-display mb-2 text-xl font-bold text-[var(--ink)]">Full conjugation table</h2>
-				<ConjugationTableView table={guide.conjugation} />
+				<h2 class="font-display mb-3 text-xl font-bold text-[var(--ink)]">Full conjugation table</h2>
+				<div class="ruled-soft px-4 py-3 md:px-5">
+					<ConjugationTableView table={guide.conjugation} />
+				</div>
 			</div>
 		)}
 
@@ -175,8 +178,8 @@ import { imgDims } from '../data/imageDims';
 				<div class="flex flex-col">
 					{guide.faq.map((item) => (
 						<div class="border-b border-[var(--rule)] py-4 first:pt-0 last:border-b-0">
-							<p class="m-0 font-semibold text-[var(--ink)]">{item.question}</p>
-							<p class="mt-2 mb-0 text-sm leading-relaxed text-[var(--ink)]/65" set:html={md(item.answer)} />
+							<p class="font-display m-0 font-semibold italic text-[var(--flag-dark)]">{item.question}</p>
+							<p class="mt-2 mb-0 text-sm leading-relaxed text-[var(--ink)]/70" set:html={md(item.answer)} />
 						</div>
 					))}
 				</div>
@@ -185,8 +188,8 @@ import { imgDims } from '../data/imageDims';
 
 		{guide.sources && guide.sources.length > 0 && (
 			<div class="mt-9 border-t border-[var(--ink)] pt-4">
-				<p class="m-0 text-[0.7rem] font-semibold uppercase tracking-[0.1em] text-[var(--ink)]/45">Sources</p>
-				<ul class="mt-2 mb-0 list-none pl-0 text-sm text-[var(--ink)]/65">
+				<p class="m-0 text-[0.7rem] font-semibold uppercase tracking-[0.1em] text-[var(--ink-soft)]">Sources</p>
+				<ul class="mt-2 mb-0 list-none pl-0 text-sm">
 					{guide.sources.map((s) => (
 						<li class="py-1"><a href={s.url} target="_blank" rel="noopener noreferrer" class="text-[var(--ink)]/70 no-underline hover:text-[var(--ink)] hover:underline">{s.label}</a></li>
 					))}
@@ -196,18 +199,19 @@ import { imgDims } from '../data/imageDims';
 
 		{relatedFinal.length > 0 && (
 			<div class="mt-10">
-				<h3 class="mb-3.5 text-xs font-semibold uppercase tracking-[0.1em] text-[var(--ink)]/45">{relatedHeading}</h3>
+				<h3 class="mb-1 text-xs font-semibold uppercase tracking-[0.1em] text-[var(--ink-soft)]">{relatedHeading}</h3>
+				<p class="marginalia-lead m-0 mb-3 text-[0.95rem]">turn to these pages —</p>
 				<div class="flex flex-col">
 					{relatedFinal.map((g) => (
 						<a href={`/${g.slug}/`} class="item border-b border-[var(--rule)] py-3 no-underline first:pt-0 last:border-b-0">
-							<p class="m-0 text-[0.9375rem] font-semibold leading-snug text-[var(--ink)] hover:underline">{g.title}</p>
+							<p class="m-0 text-[0.9375rem] font-semibold leading-snug text-[var(--ink)] hover:underline"><span class="nb-num mr-2" aria-hidden="true">&rarr;</span>{g.title}</p>
 						</a>
 					))}
 				</div>
 			</div>
 		)}
 
-		<div class="mt-10 border-t border-[var(--rule)] pt-6 text-sm text-[var(--ink)]/55">
+		<div class="mt-10 border-t border-[var(--rule)] pt-6 text-sm text-[var(--ink-soft)]">
 			<p class="m-0">Written and edited by <a href="/about/" class="text-[var(--ink)]/70 no-underline hover:text-[var(--ink)] hover:underline">{AUTHOR_NAME}</a></p>
 		</div>
 	</div>
