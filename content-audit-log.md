@@ -1240,3 +1240,48 @@
   "escalation": null
 }
 ```
+
+---
+
+## 2026-08-28 完整审计：`double-object-pronouns-spanish`
+
+```json
+{
+  "url_slug": "double-object-pronouns-spanish",
+  "last_audited": "2026-08-28",
+  "published_date": "2026-08-06",
+  "note": "选中原因：content-audit-log.md现有17条记录里最早的never-audited文章（guides.ts共71篇，54篇从未被本任务审计过），按published日期排序double-object-pronouns-spanish/spanish-pronouns/spanish-accent-marks三篇并列最早(2026-08-06)，取guides.ts数组中排序最靠前者。",
+  "article_specific_checklist": [
+    "RAE双宾语代词排序三层hierarchy(se优先/第二人称>第一人称>第三人称/dative在accusative之前)是否有真实RAE语法源支撑，非编造",
+    "le/les在lo/la/los/las前必须替换为se的规则表述是否准确，'le lo'这个序列是否真的不存在于西班牙语中",
+    "两处标注为RAE原文逐字引语的具体例句(\"Se lo daré; Traigo esto para dárselo; Dáselo; No se lo des.\"与\"Te lo enviaron.\")是否真实存在于RAE官方语法页，而非编造的'听起来像'引语",
+    "dámelo/dénmelas/pedírsela因融合双宾语代词变为esdrújula需要重音符号的正字法规则是否准确",
+    "SERP上'double object pronouns'赛道头部竞品(spanish.academy等)是否已提供同等深度的RAE规则溯源，本文是否有真实差异化"
+  ],
+  "findings": [
+    { "dimension": "事实准确性", "status": "未发现问题", "detail": "WebSearch独立核实全部5条专属核查点：(1)排序hierarchy——搜索结果直接命中RAE官方页面标题'10.4.2 grupos de pronombres átonos'，摘要确认'se始终第一/2nd>1st>3rd/dative在accusative前'与正文完全一致；(2)le/les→se替换规则——搜索确认RAE页面'secuencias de pronombres átonos'指出历史上'le lo'序列从未存在，illi illud演变为se lo而非*le lo，与正文一致；(3)两处RAE原文逐字引语——'Se lo daré; Traigo esto para dárselo; Dáselo; No se lo des.'与'Te lo enviaron.'均在WebSearch结果中被直接引用并标注来源为RAE官方语法页，非编造；(4)esdrújula重音规则——搜索确认RAE'tilde en las formas verbales con pronombres átonos'页面明确给出dámelo/pedírsela作为esdrújula需要重音符号的例子，与正文一致。全部5条专属核查点均通过独立信源交叉验证，未发现编造或失真。" },
+    { "dimension": "EEAT", "status": "未发现问题", "detail": "三条sources均为RAE官方语法/正字法页面（Nueva gramática básica/Nueva gramática de la lengua española/Ortografía básica），非泛泛引用——每条来源对应文中具体的规则模块（排序hierarchy/序列规则/重音正字法），且文中两处直接逐字引用RAE原文例句，具体到句子级别，非泛化转述。" },
+    { "dimension": "时效性", "status": "不适用", "detail": "西班牙语语法规则类内容，RAE官方语法规则历史上无变动记录，published=updated=2026-08-06，无过时风险，本次审计未发现需要更新的内容，updated字段未改动。" },
+    { "dimension": "竞品差异化", "status": "未发现问题", "detail": "dataforseo-query实测'spanish double object pronouns'关键词真实SERP（真实花费$0.0020）：头部竞品为spanish.academy/reddit/study.com/psu.pb.unizin.org/commongroundinternational/tellmeinspanish/quizlet。curl抓取排名第2的spanish.academy终极指南页（The Ultimate Guide to Using Double Object Pronouns），文本抽取确认其结构为'formula+练习+答案key'模式，全文0次提及RAE或Real Academia，'se lo'仅出现5次（多为练习题面）。本文额外提供RAE三层排序hierarchy的规则溯源、le/les→se替换的历史/结构原因、两处RAE原文逐字引语、esdrújula重音正字法解释，构成真实增量而非同结构内容。本文发布仅22天，尚未进入前10排名，符合新页面预期。" },
+    { "dimension": "SEO技术审计", "status": "未发现问题", "detail": "curl实测live页面：title 77字符(含' | LingoGrove'品牌后缀，去除后为64字符，在理想区间内，即使SERP截断品牌后缀也不影响核心信息)、meta description 145字符(在150-160理想区间内略短但非错误)、canonical自引用正确、单一h1、6个h2层级清晰。JSON-LD解析确认Article(headline/description/datePublished/dateModified/author/image字段完整)/FAQPage(4条FAQ与正文完全一致)/BreadcrumbList三项schema均正确渲染。robots.txt明确Allow全部AI爬虫(GPTBot/ChatGPT-User/ClaudeBot/Claude-Web/PerplexityBot/Google-Extended)。sitemap-0.xml包含本页URL。图片alt文本描述性强(完整描述三层排序规则+worked example)。未发现noindex/meta robots异常。" },
+    { "dimension": "GEO审计", "status": "达标(按11维度99分制粗估约84/99)，未发现需要修复的薄弱维度", "detail": "权威原文引语~14/16(两处RAE原文逐字引语，经WebSearch确认真实非编造，含'Se lo daré; Traigo esto para dárselo; Dáselo; No se lo des.'完整例句串)；统计数据完整性~10/14(枚举完整代词集合+三层hierarchy，但本身是规则类内容非数据密集型)；可引用性~11/13(coreSummary+4条FAQ均为自包含可提取段落)；结构规范性~11/12(H1+5个H2+FAQ+三项schema)；表达流畅度~9/10(无AI写作痕迹，见下条)；语义密度~7/8(esdrújula/proclitic等术语精准无冗余)；权威信号~7/8(RAE官方语法页为西语语言学最高权威)；专业术语精度~5/6；鲁棒性~5/5(全部核心论断经交叉验证通过)；跨域连接~3/4(2条出站内链+3条inbound内链)；易懂表达~3/3。合计约84/99，超过80及格线，未发现需要针对性修补的薄弱项，未做侵入性GEO编辑。" },
+    { "dimension": "早期内容AI味补漏", "status": "未发现问题", "detail": "published 2026-08-06早于avoid-ai-writing 2026-08-07接入一天，属应补查范围。全字段扫描：Unicode em dash(—)3处，全部位于sources[].label引用标签('机构名 — 出版物名'格式，本站既有结构性用法惯例)，正文/FAQ 0处叙事性em dash；ASCII双连字符(' -- ')0处(按L-0821-4教训补查ASCII变体)；AI高频词汇表(crucial/delve/emphasiz/testament/underscore/tapestry/landscape/pivotal/showcase/boasts/nestled等约25个词)全文0次命中；curly quotes 0处；boldface(**)0处；hyphenated word pair(third-party/data-driven等)0处。'not only'出现1次，核对上下文为'follow the identical pattern across every person, not only the third'，非'not only X but also Y'的AI式排比结构，属正常英语表达。全文未发现任何AI写作特征聚集，判定为干净内容，未做改写。" },
+    { "dimension": "外部引用链接腐烂", "status": "未发现问题", "detail": "3条RAE sources链接curl实测均403（RAE对自动化抓取的常规反爬拦截，本站por-vs-para/ser-conjugation审计已确立此为非链接失效的判断标准），WebSearch交叉核实3条链接对应的RAE页面标题与文中标注的label完全一致且内容真实支撑被引用的具体论断（非仅'标题貌似相关'，已核对到逐字引语层面，符合L-0820-4教训'URL存活不等于内容匹配'的检查要求）。" },
+    { "dimension": "内链健康度", "status": "未发现问题", "detail": "grep确认本文有2条出站手写内链(/direct-vs-indirect-object-pronouns-spanish/、/spanish-reflexive-verbs/)；同时被3篇其他文章手写锚文本回链(spanish-pronouns第1628行、spanish-commands第2417行、french-pronouns第3352行)，非孤儿页。Grammar分类文章数量充足，非单例分类，无需跨分类兜底。" },
+    { "dimension": "Schema数据一致性", "status": "已确认一致", "detail": "curl+JSON解析确认Article schema的headline/description与页面title(去品牌后缀)/meta description逐字一致；datePublished/dateModified均为2026-08-06T00:00:00+00:00，与guides.ts的published/updated字段一致；FAQPage的4条question与正文faq数组逐字一致。本次审计未改动任何内容，无需同步。" },
+    { "dimension": "合规/敏感度漂移", "status": "未发现问题", "detail": "纯西班牙语语法规则教学内容(双宾语代词排序)，无人物/地区/文化群体相关表述，无俚语/粗俗语，无合规风险，现实近期无相关争议。" },
+    { "dimension": "配图可用性与版权", "status": "未发现问题", "detail": "public/images/double-object-pronouns-spanish-diagram.svg为站内自制SVG图（非第三方图片，无版权问题），curl实测200正常渲染，alt文本描述性强且准确对应图示内容(三层排序规则+worked example)。" },
+    { "dimension": "AdSense政策合规风险", "status": "未发现问题", "detail": "纯语法教学内容，无粗俗俚语/暴力/赌博等限制类目；标题准确描述内容(Se Lo, Me Lo, and the Order Rule)，无标题党/诱导误点；curl实测ads.txt正确指向pub-5245502795720653；privacy(200)/about(200)页面均可访问；robots.txt未拦截任何AI爬虫。" }
+  ],
+  "independent_verification": "十三维度逐项深挖后均未发现真实问题（事实准确性/引语真实性经WebSearch多方交叉验证、AI写作痕迹经Unicode+ASCII双重扫描+AI高频词表扫描均为0命中、内链/schema/配图/合规/AdSense均实测通过），无具体发现需要独立agent复核确认——按任务说明'只处理复核确认为真的问题'，本次无问题需要处理，因此未spawn独立复核agent。",
+  "actions_taken": [
+    "未对guides.ts做任何修改（十三维度均未发现真实问题，无需修复）",
+    "content-audit-log.md追加本条审计记录，last_audited更新为2026-08-28",
+    "未触发build/部署/IndexNow/内容发布日志更新（无内容变更，站点无实际改动）"
+  ],
+  "seo_score": "技术SEO全项通过，未发现需修复项（title/meta description/canonical/h1/h2/schema/robots.txt/sitemap/ads.txt/privacy/about均正常）",
+  "geo_score": "按11维度99分制粗估约84/99，超过80及格线，未发现需要修复的薄弱维度，未做侵入性GEO编辑",
+  "escalation": null,
+  "pending_for_owen": null
+}
+```
