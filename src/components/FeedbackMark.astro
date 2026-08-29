@@ -1,0 +1,120 @@
+---
+// Reader margin-note feedback -- display-layer only. No external requests;
+// fires one GA4 event through the gtag already loaded in Layout.astro
+// (silently no-ops if gtag is absent). Styled as a marginalia note on ruled
+// notebook paper to match the field-notebook design language.
+---
+
+<div class="lg-fb mt-10 pl-5">
+	<p class="lg-fb-lead marginalia-lead m-0">leave a mark:</p>
+	<p class="lg-fb-q">Did this note help?</p>
+	<div class="lg-fb-actions">
+		<button type="button" class="lg-fb-btn" data-lg-verdict="helpful">It helped</button>
+		<button type="button" class="lg-fb-btn" data-lg-verdict="not_helpful">Not really</button>
+	</div>
+	<p class="lg-fb-note" data-lg-note aria-live="polite"></p>
+</div>
+
+<script>
+	const mark = document.querySelector('.lg-fb');
+	if (mark) {
+		const note = mark.querySelector('[data-lg-note]');
+		const buttons = Array.from(mark.querySelectorAll('button[data-lg-verdict]'));
+		buttons.forEach((btn) => {
+			btn.addEventListener('click', () => {
+				const verdict = btn.getAttribute('data-lg-verdict');
+				const w = window as typeof window & { gtag?: (...args: unknown[]) => void };
+				if (w.gtag) w.gtag('event', 'page_feedback', { verdict });
+				buttons.forEach((b) => {
+					(b as HTMLButtonElement).disabled = true;
+				});
+				btn.classList.add('lg-fb-chosen');
+				if (!note) return;
+				if (verdict === 'not_helpful') {
+					const mailto =
+						'mailto:contact@lingogrove.com?subject=' +
+						encodeURIComponent('Page feedback: ' + location.pathname);
+					note.innerHTML =
+						'Noted in the margin, thank you. Tell us what’s missing: <a href="' +
+						mailto +
+						'">contact@lingogrove.com</a>';
+				} else {
+					note.textContent = 'Noted in the margin, thank you.';
+				}
+			});
+		});
+	}
+</script>
+
+<style>
+	/* Green margin line, like the callout and usage-note marginalia. */
+	.lg-fb {
+		position: relative;
+	}
+	.lg-fb::before {
+		content: '';
+		position: absolute;
+		left: 0;
+		top: 0.2em;
+		bottom: 0.2em;
+		width: 5px;
+		background: var(--flag);
+	}
+	.lg-fb-q {
+		margin: 0.35rem 0 0;
+		font-family: 'Lora Variable', 'Noto Serif SC', Georgia, serif;
+		font-size: 1.05rem;
+		font-weight: 600;
+		color: var(--ink);
+	}
+	.lg-fb-actions {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.6rem;
+		margin-top: 0.8rem;
+	}
+	.lg-fb-btn {
+		cursor: pointer;
+		font-family: 'Lora Variable', 'Noto Serif SC', Georgia, serif;
+		font-style: italic;
+		font-size: 0.9rem;
+		font-weight: 600;
+		color: var(--flag-dark);
+		background: transparent;
+		border: 1.5px solid var(--flag-dark);
+		border-radius: 999px;
+		padding: 0.4rem 1.15rem;
+	}
+	.lg-fb-btn:hover:not(:disabled) {
+		background: var(--flag-dark);
+		color: #fff;
+	}
+	.lg-fb-btn:focus-visible {
+		outline: 2px solid var(--flag-dark);
+		outline-offset: 2px;
+	}
+	.lg-fb-btn:disabled {
+		cursor: default;
+		border-color: var(--rule);
+		color: var(--ink-soft);
+	}
+	.lg-fb-btn:disabled.lg-fb-chosen {
+		border-color: var(--flag-dark);
+		background: var(--flag-dark);
+		color: #fff;
+	}
+	.lg-fb-note {
+		margin: 0.7rem 0 0;
+		min-height: 2.6em;
+		font-size: 0.875rem;
+		line-height: 1.35;
+		color: var(--ink-soft);
+	}
+	.lg-fb-note :global(a) {
+		color: var(--flag-dark);
+		text-decoration: none;
+	}
+	.lg-fb-note :global(a:hover) {
+		text-decoration: underline;
+	}
+</style>
