@@ -323,5 +323,17 @@
       "https://lingogrove.com/semper-fi-meaning/"
     ],
     "quota_used": "1 of shared account-wide daily quota"
+  },
+  {
+    "date": "2026-08-30",
+    "action": "submitted",
+    "reason": "今日两条记录：spanish-pronouns为content-quality-audit审计更新（非新发布），URL Inspection确认已实测收录，跳过不耗配额；verbs-like-gustar为14:40定时发布的新文章，URL Inspection确认URL is not on Google/unknown to Google，REQUEST INDEXING提交成功确认Indexing requested。",
+    "submitted_urls": [
+      "https://lingogrove.com/verbs-like-gustar/"
+    ],
+    "already_indexed_no_action": [
+      "https://lingogrove.com/spanish-pronouns/"
+    ],
+    "quota_used": "1 of shared account-wide daily quota"
   }
 ]
