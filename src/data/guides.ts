@@ -6201,4 +6201,87 @@ export const guides: Guide[] = [
 			{ label: 'Wiktionary: "cariño" (five glossed senses including caress and gift; etymology "uncertain, but possibly via Aragonese carinyo"; usage note on the invariable vocative form)', url: 'https://en.wiktionary.org/wiki/cari%C3%B1o' },
 		],
 	},
+	{
+		slug: 'verbs-like-gustar',
+		category: 'Grammar',
+		title: 'Verbs Like Gustar: Why "The Book" Is the Subject, Not "I"',
+		description: 'Gustar gets glossed as "to like," which hides the actual grammar: the thing being liked is the subject, and the person doing the liking is only an indirect object.',
+		published: '2026-08-30',
+		updated: '2026-08-30',
+		coreSummary: 'Per the Real Academia Española\'s Diccionario panhispánico de dudas, gustar\'s normal construction puts the cause of the pleasure as the grammatical subject and the person who feels it as an indirect object, the reverse of English "I like the book," where "I" is the subject. A defined class RAE calls verbos de afección psíquica, including encantar, doler, interesar, and molestar, follows the identical pattern, and a wider set of everyday verbs (faltar, importar, quedar) shares the same indirect-object-first word order even though grammars classify them separately.',
+		language: 'Spanish',
+		sections: [
+			{
+				heading: 'The verb doesn\'t mean "to like" the way its translation suggests',
+				body: [
+					'Every Spanish course translates *gustar* as "to like," and that gloss is close enough for everyday use, but it hides how differently the sentence is built underneath. In "I like the book," English makes the liker the subject and the thing liked the object. Spanish does the opposite. The Real Academia Española\'s Diccionario panhispánico de dudas describes the normal construction directly: the subject is the thing causing the pleasure or attraction, and the person who feels it is expressed through an indirect object. *Me gusta el libro* is closer, mechanically, to "the book pleases me" than to "I like the book," even though the second is how anyone would translate it.',
+					'The RAE\'s own dictionary entry for the verb illustrates this with real examples: *"Vos me gustás mucho"* and *"Le gustaban la buena música y los buenos libros."* In both, the liked thing (*vos*, understood; *la buena música y los buenos libros*) is what the verb agrees with, and the person doing the liking shows up only as *me* or *le*, an indirect object pronoun, never as the subject of the sentence.',
+					'That reversal is a common source of errors for English speakers, who instinctively want to make "I" the subject and conjugate the verb to match it, producing the ungrammatical *"yo gusto"* instead of the correct *me gusta*.',
+				],
+				image: {
+					src: '/images/verbs-like-gustar-diagram.svg',
+					alt: 'Diagram comparing "I like the book" (English: "I" is subject, "the book" is object) with "Me gusta el libro" (Spanish: "el libro" is the subject the verb agrees with, "me" is only the indirect object), with a note listing other verbs that follow the same pattern.',
+				},
+			},
+			{
+				heading: 'The mechanics: indirect object pronoun + gustar (matching the subject) + the subject',
+				body: [
+					'The formula is fixed: [an indirect object pronoun](/direct-vs-indirect-object-pronouns-spanish/) (*me, te, le, nos, os, les*) comes first, then a form of *gustar*, then the thing being liked, which is the grammatical subject and the thing the verb has to agree with in number. *Me gusta el café* uses *gusta* because *el café* is singular. *Me gustan los perros* switches to *gustan* because *los perros* is plural, not because more than one person is doing the liking.',
+					'This is where the reversal trips up learners in a second, more mechanical way, on top of the conceptual one: because the person (*me*, "I") comes first in the sentence and feels like the subject, it\'s easy to leave *gustar* singular even when the thing liked is plural, producing the common error *"me gusta los perros"* instead of the correct *me gustan los perros*. The check is always the same: find the noun after the verb, and make *gustar* agree with that, never with the pronoun in front of it.',
+					'When the thing liked is a verb rather than a noun, such as an infinitive or a string of infinitives, *gustar* stays singular regardless of how many infinitives there are: *Me gusta leer y viajar* ("I like to read and to travel") keeps *gusta*, because the RAE treats the infinitive clause as a single, singular notional subject.',
+				],
+			},
+			{
+				heading: 'Gustar belongs to a defined class of verbs: verbos de afección psíquica',
+				body: [
+					'*Gustar* is not a grammatical oddball; it\'s the best-known member of a class the RAE\'s Glosario de términos gramaticales labels verbo psicológico, and which the Academia\'s grammar elsewhere calls verbos de afección psíquica ("verbs of psychological affection"): verbs that describe a sensation, impression, feeling, or state a person experiences, where the cause of that state is the grammatical subject and the person experiencing it is an indirect object. RAE materials list this group as including *aburrir, agradar, alegrar, asombrar, asustar, disgustar, divertir, doler, encantar, entristecer, entusiasmar, impresionar, interesar, irritar, molestar, preocupar,* and *sorprender*, alongside *gustar* itself.',
+					'Every one of those follows the identical indirect-object-first pattern: *Me aburre esta película* (This movie bores me), *Nos encanta la playa* (We love the beach), *Le duele la cabeza* (Her head hurts / She has a headache), *Te interesan los idiomas* (Languages interest you), *Les molesta el ruido* (Noise bothers them). Learn the *gustar* pattern once and every verb in this list works the same way, with the same agreement rule: the verb matches the thing causing the feeling, not the person feeling it.',
+					'A separate, wider set of everyday verbs, *faltar* (to be lacking), *quedar* (to have left), and *importar* (to matter), shares the identical word order and agreement rule even though Spanish grammars classify them differently from the affection-verb group above (they describe possession, sufficiency, or relevance rather than a psychological reaction). *Me falta dinero* (I\'m short on money), *Nos quedan dos días* (We have two days left), and *No me importa* (It doesn\'t matter to me) all put the thing that matters, is lacking, or remains as the grammatical subject the verb agrees with, exactly like *gustar* does.',
+				],
+			},
+			{
+				heading: 'Clarifying and emphasizing who: a mí, a Juan, a ella',
+				body: [
+					'*Le* and *les* are genuinely ambiguous on their own: *le gusta* could mean "he likes it," "she likes it," or "you (formal) like it," since [Spanish\'s pronoun system](/spanish-pronouns/) reuses the same third-person indirect object pronoun for all three. Spanish resolves that ambiguity, and adds emphasis when needed, by adding a prepositional phrase with *a* alongside the pronoun rather than instead of it: *A ella le gusta el fútbol* (She likes soccer) keeps *le* and adds *a ella* to specify who. The same construction works for names and nouns: *A Juan le gusta el fútbol*, and for contrast: *A mí me gusta el café, pero a ella no le gusta* (I like coffee, but she doesn\'t).',
+					'That doubling, the indirect object pronoun and its clarifying *a*-phrase both present in the same clause, is a normal, required feature of how Spanish\'s indirect object works with this class of verbs, not redundancy to be trimmed. Dropping *le* and keeping only *a ella*, or the reverse when the reference is genuinely ambiguous, are the two most common ways learners accidentally garble who the sentence is actually about.',
+				],
+			},
+			{
+				heading: 'Two constructions most learners never see: transitive gustar and gustar de',
+				body: [
+					'Outside the pattern above, the RAE\'s dictionary of doubts records two narrower uses of *gustar* worth knowing so they don\'t look like exceptions to everything just explained. First, an alternative construction, documented mainly in written and more formal registers, flips the roles: the person who feels the pleasure becomes the subject, and what causes it is expressed with a prepositional phrase using *de*: *Gustaba de reunirse con amigos en su casa* (He liked to get together with friends at his house). The RAE specifically flags that *de* as required, not optional, when the following complement is an infinitive, since dropping it is a documented, frequent error.',
+					'Second, *gustar* also has a rare transitive use meaning "to want" or "to wish," essentially unrelated to the "to like" sense, and it survives today almost exclusively in set courtesy formulas: *¿Gusta usted una cerveza?* ("Would you like/care for a beer?"). Outside that kind of fixed, formal offer, this transitive sense doesn\'t show up in ordinary speech.',
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'Why is it "me gusta" and not "yo gusto"?',
+				answer: 'Because the person who likes something is grammatically the indirect object with gustar, not the subject. Per the RAE\'s Diccionario panhispánico de dudas, the normal construction makes the thing causing the pleasure the subject, and the person feeling it is expressed with an indirect object pronoun (me, te, le, nos, os, les). "Yo gusto" would wrongly make "I" the subject, which is not how this verb works.',
+			},
+			{
+				question: 'Why does gustar sometimes change to gustan?',
+				answer: 'Gustar agrees with the thing being liked, which is the grammatical subject, not with the person doing the liking. "Me gusta el libro" uses the singular form because "el libro" is singular; "Me gustan los libros" switches to the plural form because "los libros" is plural. The pronoun in front (me, te, le...) never affects this agreement.',
+			},
+			{
+				question: 'What other verbs work exactly like gustar?',
+				answer: 'RAE grammar sources group gustar with a defined class of verbos de afección psíquica that includes aburrir, agradar, alegrar, disgustar, divertir, doler, encantar, entristecer, impresionar, interesar, molestar, preocupar, and sorprender, all built the same way: indirect object pronoun, then the verb agreeing with whatever is causing the feeling. A separate group of common verbs, including faltar, quedar, and importar, follows the identical word order and agreement pattern even though they describe possession or relevance rather than a feeling.',
+			},
+			{
+				question: 'If "le" already means "to him/her/you," why add "a él" or "a ella" too?',
+				answer: 'Because le and les are ambiguous on their own; they don\'t distinguish "he," "she," or formal "you." Spanish resolves that, and adds emphasis or contrast, by keeping the pronoun and adding a clarifying a-phrase alongside it, not instead of it: "A ella le gusta el fútbol" keeps both le and a ella. Dropping the pronoun and keeping only the a-phrase is a common learner error, not an accepted shortcut.',
+			},
+			{
+				question: 'Does "¿Gusta usted una cerveza?" use the same grammar as "me gusta el café"?',
+				answer: 'No. That\'s a separate, narrower use of gustar as a transitive verb meaning "to want" or "to wish," which the RAE notes survives almost exclusively in set courtesy formulas like offering something. It doesn\'t follow the indirect-object-plus-subject pattern the rest of this article covers, and it isn\'t how gustar is used to say someone likes something.',
+			},
+		],
+		sources: [
+			{ label: 'Real Academia Española, Diccionario panhispánico de dudas: "gustar" (normal construction, subject/indirect-object roles, illustrative corpus examples, transitive sense, gustar de + infinitive)', url: 'https://www.rae.es/dpd/gustar' },
+			{ label: 'Real Academia Española, Glosario de términos gramaticales: "verbo psicológico"', url: 'https://www.rae.es/gtg/verbo-psicol%C3%B3gico' },
+			{ label: 'Real Academia Española, Glosario de términos gramaticales: "complemento indirecto"', url: 'https://www.rae.es/gtg/complemento-indirecto' },
+			{ label: 'Real Academia Española, Nueva gramática de la lengua española: "Complementos indirectos seleccionados o argumentales (I). Destinatarios y experimentadores"', url: 'https://www.rae.es/gram%C3%A1tica/sintaxis/complementos-indirectos-seleccionados-o-argumentales-i-destinatarios-y-experimentadores' },
+			{ label: 'Real Academia Española, Nueva gramática de la lengua española: "Alternancias del complemento indirecto con el sujeto y el complemento directo"', url: 'https://www.rae.es/gram%C3%A1tica/sintaxis/alternancias-del-complemento-indirecto-con-el-sujeto-y-el-complemento-directo' },
+		],
+	},
 ];

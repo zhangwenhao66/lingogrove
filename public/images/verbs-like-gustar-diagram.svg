@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" font-family="system-ui, -apple-system, sans-serif">
+	<rect width="800" height="460" fill="#f6f4e9"/>
+
+	<text x="400" y="38" text-anchor="middle" fill="#201f1a" font-size="20" font-weight="700">The sentence runs backward from English</text>
+
+	<rect x="24" y="64" width="752" height="140" rx="10" fill="#fffefa" stroke="#ddd8c4"/>
+	<text x="48" y="94" fill="#5a5648" font-size="14" font-weight="700">ENGLISH</text>
+	<text x="48" y="140" fill="#201f1a" font-size="22" font-weight="700">I</text>
+	<text x="48" y="162" fill="#5a5648" font-size="13">subject</text>
+	<text x="120" y="140" fill="#201f1a" font-size="22">like</text>
+	<text x="120" y="162" fill="#5a5648" font-size="13">verb agrees with "I"</text>
+	<text x="220" y="140" fill="#201f1a" font-size="22" font-weight="700">the book.</text>
+	<text x="220" y="162" fill="#5a5648" font-size="13">direct object</text>
+
+	<rect x="24" y="228" width="752" height="140" rx="10" fill="#fffefa" stroke="#ddd8c4"/>
+	<text x="48" y="258" fill="#5a5648" font-size="14" font-weight="700">SPANISH</text>
+	<text x="48" y="304" fill="#201f1a" font-size="22" font-weight="700">Me</text>
+	<text x="48" y="326" fill="#5a5648" font-size="13">indirect object</text>
+	<text x="130" y="304" fill="#201f1a" font-size="22">gusta</text>
+	<text x="130" y="326" fill="#5a5648" font-size="13">verb agrees with "el libro"</text>
+	<text x="260" y="304" fill="#201f1a" font-size="22" font-weight="700">el libro.</text>
+	<text x="260" y="326" fill="#5a5648" font-size="13">subject</text>
+
+	<path d="M 260 216 L 260 226" stroke="#2f6b47" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+	<path d="M 60 216 Q 60 216 60 226" stroke="#2f6b47" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+	<defs>
+		<marker id="arrow" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+			<path d="M0,0 L8,4 L0,8 z" fill="#2f6b47"/>
+		</marker>
+	</defs>
+
+	<text x="400" y="216" text-anchor="middle" fill="#2f6b47" font-size="13" font-weight="700">"the book" (object) becomes the Spanish SUBJECT — "I" (subject) becomes the indirect object "me"</text>
+
+	<rect x="24" y="392" width="752" height="52" rx="10" fill="#eef0e4" stroke="#ddd8c4"/>
+	<text x="400" y="422" text-anchor="middle" fill="#201f1a" font-size="14">Same pattern: encantar, doler, interesar, molestar, faltar, quedar, importar</text>
+</svg>
