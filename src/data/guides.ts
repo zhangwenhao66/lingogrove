@@ -1598,7 +1598,7 @@ export const guides: Guide[] = [
 		title: 'Spanish Pronouns: All Six Families in One Place',
 		description: 'Six pronoun families (subject, object, reflexive, prepositional, possessive, demonstrative) share most forms; they diverge mainly by person and region.',
 		published: '2026-08-06',
-		updated: '2026-08-10',
+		updated: '2026-08-30',
 		coreSummary: 'Spanish organizes pronouns into six families (subject, object, reflexive, prepositional, possessive, and demonstrative) that reuse the same core forms (me, te, nos, os) across almost every role, so the real learning curve concentrates in the third person and in regional splits like vosotros versus ustedes and the voseo pronoun vos. Object pronouns carry enough internal complexity, including the lo/la versus le/les split and how the two fuse into pairs like se lo, to need their own two dedicated guides rather than a summary here.',
 		language: 'Spanish',
 		sections: [
@@ -1653,7 +1653,7 @@ export const guides: Guide[] = [
 			{
 				heading: 'Demonstrative pronouns: distance, and a neutral set with nothing to agree with',
 				body: [
-					'The demonstrative pronouns track distance in three steps: *este/esta/estos/estas* (this, near the speaker), *ese/esa/esos/esas* (that, near the listener), and *aquel/aquella/aquellos/aquellas* (that, far from both) — though the RAE\'s own grammar treats *ese* as the unmarked term of the three rather than a fixed midpoint, so it doesn\'t carry a set distance value the way *este* and *aquel* do. [The full three-way system, its regional variants, and the exceptions that trip learners up are covered in depth separately](/spanish-demonstrative-adjectives/). *Este libro es interesante* ("This book is interesting") sits differently on that scale than *Aquella montaña es alta* ("That mountain over there is tall").',
+					'The demonstrative pronouns track distance in three steps: *este/esta/estos/estas* (this, near the speaker), *ese/esa/esos/esas* (that, near the listener), and *aquel/aquella/aquellos/aquellas* (that, far from both). The RAE\'s own grammar treats *ese* as the unmarked term of the three rather than a fixed midpoint, so it doesn\'t carry a set distance value the way *este* and *aquel* do. [The full three-way system, its regional variants, and the exceptions that trip learners up are covered in depth separately](/spanish-demonstrative-adjectives/). *Este libro es interesante* ("This book is interesting") sits differently on that scale than *Aquella montaña es alta* ("That mountain over there is tall").',
 					'Alongside those gendered forms, Spanish keeps a separate neutral set (*esto, eso, aquello*) that never takes a gender or a plural, because they don\'t stand in for any specific noun at all. They point at an idea, a situation, or something unnamed or unidentified: *No entiendo esto* ("I don\'t understand this," referring to a whole situation, not one object) and *Eso no es verdad* ("That\'s not true," referring to a claim someone just made). Confusing the neutral *eso* with the masculine *ese* is a real error, since *ese* has to agree with a specific noun it\'s replacing, and the neutral forms exist precisely because sometimes there isn\'t one.',
 				],
 			},
@@ -1681,13 +1681,13 @@ export const guides: Guide[] = [
 			},
 		],
 		sources: [
-			{ label: 'Real Academia Española — El buen uso del español: "Los pronombres personales. Formas y características"', url: 'https://www.rae.es/buen-uso-espa%C3%B1ol/los-pronombres-personales-formas-y-caracter%C3%ADsticas' },
-			{ label: 'Real Academia Española — Diccionario panhispánico de dudas: "voseo"', url: 'https://www.rae.es/dpd/voseo' },
-			{ label: 'Real Academia Española — Diccionario panhispánico de dudas: "pronombres personales tónicos"', url: 'https://www.rae.es/dpd/pronombres%20personales%20t%C3%B3nicos' },
-			{ label: 'Real Academia Española — Nueva gramática de la lengua española: "Conjunciones que denotan excepción"', url: 'https://www.rae.es/gram%C3%A1tica/sintaxis/conjunciones-que-denotan-excepci%C3%B3n' },
-			{ label: 'Real Academia Española — El buen uso del español: "Los posesivos. Caracterización y formas"', url: 'https://www.rae.es/buen-uso-espa%C3%B1ol/los-posesivos-caracterizaci%C3%B3n-y-formas' },
-			{ label: 'Real Academia Española — Nueva gramática de la lengua española: "Los demostrativos neutros"', url: 'https://www.rae.es/gram%C3%A1tica/sintaxis/los-demostrativos-neutros' },
-			{ label: 'Real Academia Española — El buen uso del español: "Los demostrativos"', url: 'https://www.rae.es/buen-uso-espa%C3%B1ol/los-demostrativos' },
+			{ label: 'Real Academia Española: El buen uso del español, "Los pronombres personales. Formas y características"', url: 'https://www.rae.es/buen-uso-espa%C3%B1ol/los-pronombres-personales-formas-y-caracter%C3%ADsticas' },
+			{ label: 'Real Academia Española: Diccionario panhispánico de dudas, "voseo"', url: 'https://www.rae.es/dpd/voseo' },
+			{ label: 'Real Academia Española: Diccionario panhispánico de dudas, "pronombres personales tónicos"', url: 'https://www.rae.es/dpd/pronombres%20personales%20t%C3%B3nicos' },
+			{ label: 'Real Academia Española: Nueva gramática de la lengua española, "Conjunciones que denotan excepción"', url: 'https://www.rae.es/gram%C3%A1tica/sintaxis/conjunciones-que-denotan-excepci%C3%B3n' },
+			{ label: 'Real Academia Española: El buen uso del español, "Los posesivos. Caracterización y formas"', url: 'https://www.rae.es/buen-uso-espa%C3%B1ol/los-posesivos-caracterizaci%C3%B3n-y-formas' },
+			{ label: 'Real Academia Española: Nueva gramática de la lengua española, "Los demostrativos neutros"', url: 'https://www.rae.es/gram%C3%A1tica/sintaxis/los-demostrativos-neutros' },
+			{ label: 'Real Academia Española: El buen uso del español, "Los demostrativos"', url: 'https://www.rae.es/buen-uso-espa%C3%B1ol/los-demostrativos' },
 		],
 	},
 	{
