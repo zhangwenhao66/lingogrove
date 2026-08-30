@@ -61,29 +61,31 @@
   },
   "https://lingogrove.com/japanese-particles-wa-ga-wo-ni/": {
     "submitted_date": "2026-08-10",
-    "verified_status": "pending",
-    "note": "new publish (Grammar tier, first Japanese-language grammar article); Bing 200 / Yandex 202.",
-    "last_checked_date": "2026-08-28",
+    "verified_status": "stale_not_indexed",
+    "note": "Discovered date shows sentinel '01 Jan 2006' anomaly; submitted 08-10, 20 days, exceeds 14-day threshold",
+    "last_checked_date": "2026-08-30",
     "verified_method": "bwt_url_inspection"
   },
   "https://lingogrove.com/spanish-demonstrative-adjectives/": {
     "submitted_date": "2026-08-10",
-    "verified_status": "pending",
-    "note": "new publish (Grammar tier); Bing 200 / Yandex 202."
+    "verified_status": "stale_not_indexed",
+    "note": "Discovered date shows sentinel '01 Jan 2006' anomaly; submitted 08-10, 20 days, exceeds 14-day threshold; ALL 5 lingogrove URLs sampled this run showed the same sentinel anomaly (5/5)",
+    "last_checked_date": "2026-08-30",
+    "verified_method": "bwt_url_inspection"
   },
   "https://lingogrove.com/spanish-possessive-adjectives/": {
     "submitted_date": "2026-08-09",
-    "verified_status": "pending",
-    "note": "new publish (Grammar tier); Bing 200 / Yandex 202.",
-    "last_checked_date": "2026-08-25",
+    "verified_status": "stale_not_indexed",
+    "note": "Discovered date shows sentinel '01 Jan 2006' anomaly; submitted 08-09, 21 days, exceeds 14-day threshold",
+    "last_checked_date": "2026-08-30",
     "verified_method": "bwt_url_inspection",
     "verify_note": "哨兵异常(discovered 01 Jan 2006), 无法判定真实账龄"
   },
   "https://lingogrove.com/french-articles/": {
     "submitted_date": "2026-08-09",
-    "verified_status": "pending",
-    "note": "new publish (Grammar tier); Bing 200 / Yandex 202.",
-    "last_checked_date": "2026-08-28",
+    "verified_status": "stale_not_indexed",
+    "note": "Discovered date shows sentinel '01 Jan 2006' anomaly; submitted 08-09, 21 days, exceeds 14-day threshold",
+    "last_checked_date": "2026-08-30",
     "verified_method": "bwt_url_inspection"
   },
   "https://lingogrove.com/spanish-pronouns/": {
@@ -237,9 +239,9 @@
   },
   "https://lingogrove.com/french-subjunctive/": {
     "submitted_date": "2026-08-10",
-    "verified_status": "pending",
-    "note": "new publish (Grammar tier, today's fourth article); Bing 200 / Yandex 202.",
-    "last_checked_date": "2026-08-28",
+    "verified_status": "stale_not_indexed",
+    "note": "Discovered date shows sentinel '01 Jan 2006' anomaly; submitted 08-10, 20 days, exceeds 14-day threshold",
+    "last_checked_date": "2026-08-30",
     "verified_method": "bwt_url_inspection"
   },
   "https://lingogrove.com/spanish-commands/": {
