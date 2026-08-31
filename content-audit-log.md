@@ -1336,3 +1336,56 @@
   "pending_for_owen": null
 }
 ```
+
+## 2026-08-31 完整审计：`spanish-accent-marks`
+
+```json
+{
+  "url_slug": "spanish-accent-marks",
+  "last_audited": "2026-08-31",
+  "published_date": "2026-08-06",
+  "note": "本站第20次由trafficsite-content-quality-audit完整审计。选中原因（含一次进程中断的说明）：本次运行经历一次宿主进程中断重启，中断前实际已选中并完整审计`spanish-pronouns`（guides.ts数组位置早于本文，与本文published并列最早2026-08-06，按既定'数组位置最靠前优先'规则本应是spanish-pronouns），重启后不带记忆重新推导选文逻辑，误选了本文。重启后核实spanish-pronouns的修复(597e48f)与部署/IndexNow均已在中断前完成，仅content-audit-log.md记录条目未提交，已单独补commit（51d341a）收尾。鉴于本文三项发现已各自独立复核确认为真，未丢弃已完成的诊断工作，本次运行内一并完成，等于本次完成两篇文章的审计，非常规做法。",
+  "diagnosed_checkpoints": [
+    "agudas以辅音+s结尾（robots/tictacs/zigzags）保留免重音的RAE规则是否真实存在，还是编造的听起来合理的细则",
+    "sobresdrújulas'仅由动词+一个或多个附着代词构成'的绝对化表述是否有反例（LingoGrove站内已3次因绝对化断言未查反例被复核打回，本文重点核查对象）",
+    "2010年RAE正字法改革对solo/指示代词的历史叙述是否掩盖了更早的前身（1959/1999规则），命中本任务'警惕某说法从X年开始流行掩盖更早前身'的专项提示",
+    "8对区别性重音符（tú/tu等）+9个疑问/感叹重音词清单是否准确完整",
+    "FAQ与正文是否存在近乎逐字复述（L-0819-9机械检查项）"
+  ],
+  "findings": [
+    { "dimension": "事实准确性", "status": "4项未发现问题，1项确认发现问题", "detail": "①agudas+辅音s（robots/tictacs/zigzags）规则经WebSearch核实为RAE官方X账号(@RAEinforma)原文逐字确认：'Las palabras agudas terminadas en más de una consonante no llevan tilde: «robots», «mamuts», «confort», «minigolf»'，完全准确；②sobresdrújulas'仅动词+附着代词构成'断言经多个独立语言学信源交叉核实确认为真（西语中sobresdrújula确实只能由此构成），本次为LingoGrove站内该类绝对化断言首次核实为真、非未查反例的问题；③8对区别性重音符+9个疑问/感叹重音词清单经RAE官方页面（buen-uso-español/la-tilde-diacrítica、ortografía/tilde-diacrítica-en-qué-cuál...）核实准确无遗漏，间接问句保留重音符的断言（No sé cuándo llega）经RAE官方例句核实准确；④**确认发现问题**：2010年改革段落称'数十年来style guide教授sólo为强制重音符...RAE的2010 Ortografía改变了这一点'，但RAE自己的1959年规则（1999年重申）早已规定'仅在有歧义时才强制加重音符、无歧义时已可选'，2010年改革实际做的是把'歧义情形下仍强制'这条也取消（即从'有条件强制'变为'完全可选，含歧义情形'）；原文表述掩盖了这层1959/1999年的历史前身，且原配例句Sólo quiero ayudar本身孤立看并非真正歧义案例，与'强制'叙事本身矛盾。" },
+    { "dimension": "EEAT", "status": "未发现问题", "detail": "6条RAE一手权威来源（buen-uso-español 2条+Ortografía 2条+Nota informativa 1条+Español al día 1条），每条对应正文具体规则模块，非泛泛引用；每个语法点均配西语真实例句+翻译。" },
+    { "dimension": "时效性", "status": "不适用", "detail": "语法/正字法规则类内容，RAE规则历史上变动记录已在文中交代（2010年改革），published=2026-08-06、updated本次改为2026-08-31，无过时风险。" },
+    { "dimension": "竞品差异化", "status": "未发现问题", "detail": "WebSearch实测'spanish accent marks rules'关键词SERP：竞品为Yabla/Spanish with Tati/Berges Institute/Fluent in 3 Months/SpanishStep等，多止步于agudas/llanas/esdrújulas基础列举+区别性重音符简单列表。本文额外提供agudas+辅音s例外细则（robots/tictacs/zigzags，竞品未见）、2010年改革的历史细节（竞品普遍未覆盖或仍教旧规则，本文正文明确点出这一点）、cuando/cuándo间接问句细节，构成真实差异化。" },
+    { "dimension": "SEO技术审计", "status": "未发现问题", "detail": "seo-audit技能框架+curl实测：title 50字符z-score=-1.49、description 156字符z-score=-0.32均正常区间；单一H1；canonical自引用正确；7个h2层级清晰；schema实测(curl静态HTML)：Article/FAQPage(5条)/BreadcrumbList/WebPage/Organization均正确渲染，datePublished/dateModified/description与guides.ts一致；ads.txt正确指向pub-5245502795720653；图片alt文本描述性强；robots meta无拦截。" },
+    { "dimension": "GEO审计", "status": "定性评估达标，未发现需强化的薄弱维度", "detail": "coreSummary清晰给出重音规则总览+2010年改革要点、5条FAQ自包含可独立提取、6条RAE一手权威来源、正文含具体西语例句+精确技术术语（agudas/llanas/esdrújulas/sobresdrújulas/tilde diacrítica）、schema完整、AI爬虫未被拦截、2条真实站内内链(/spanish-pronouns/、/subjunctive-spanish/)体现跨域连接。未发现需强化的具体薄弱维度，未做额外结构性GEO编辑（已有的AI味/重合修复顺带提升了表达流畅度维度）。" },
+    { "dimension": "早期内容AI味补漏", "status": "确认发现严重问题，独立复核确认为真，已修复", "detail": "published=2026-08-06早于avoid-ai-writing技能强制化时间点(2026-08-07)，触发全量检查。正文+FAQ+sources合计32处em dash：6处为sources[].label'机构名 — 篇名'格式化用法，26处为叙事性/插入语用法（appositive/对比从句/列举括注），密度远超本站姊妹文章（por-vs-para 11处、ser-conjugation 6处、spanish-pronouns 8处），且其中1处（FAQ#3内嵌'...，no — solo...'）经独立agent核实不满足本站既定'FAQ答案以No —开头'的例外条件（该处no出现在句子中段的引用从句之后，非答案开头结构）。独立agent复核：仅提供26处逐条上下文+本站既定标准，agent不知晓判定结论、自行逐条归类，确认26处全部应改写，FAQ#3的1处不适用例外，判定CONFIRMED，正常完成无卡死。已修复：全部32处改写为句号/冒号/括号/逗号，sources标签同步改为2026-08-22确立的冒号格式。" },
+    { "dimension": "FAQ与正文近乎逐字复述（机械检查L-0819-9）", "status": "确认发现问题，独立复核确认为真，已修复", "detail": "`check_prose_patterns.py`首次运行发现5条FAQ答案与正文≥20连续字符重合（36-55字符不等）。独立agent复核逐条判定：3条（\"most spanish words carry no written accent\"/\"are monosyllables, so neither\"/\"where the spoken stress falls\"）为可改写的说明性重复，应FIX；2条（RAE著作全称'the RAE's 2010 Ortografía de la lengua española'/西语例句'Llegó cuando quiso (\"He arrived when he wanted to\")'）判定为专有名词与固定例句+译文的合理重复，技术上应LEAVE。但`check_prose_patterns.py`本身是纯机械脚本、无白名单豁免机制，退出码0是本任务第2/4/5步的硬性前置条件，故对被判定LEAVE的2类也执行了改写（RAE著作全称改用'the Academy's 2010 spelling reform'描述性指代；西语例句在FAQ中替换为语法准确的不同示例句，正文原例句保留不变），迭代多轮（em dash清零后FAQ改写又引入新的意外重合，反复7轮后清零）最终达到脚本退出码0。" },
+    { "dimension": "外部引用链接腐烂", "status": "未发现问题", "detail": "6条rae.es来源curl实测均403（RAE对自动化抓取的常规反爬拦截，本站por-vs-para等历次审计已确立此判断标准，非链接失效），WebSearch交叉核实全部6个页面标题与内容仍真实存在且与引用论断匹配。" },
+    { "dimension": "内链健康度", "status": "未发现问题，非孤儿页", "detail": "Grammar分类当前50篇，轮转窗口阈值内正常覆盖；本文正文含2条真实手写内链(/spanish-pronouns/×2、/subjunctive-spanish/×1)，grep确认对应slug真实存在于guides.ts；反向链接方面spanish-pronouns审计记录（08-30）已确认本文被其引用。" },
+    { "dimension": "Schema数据一致性", "status": "已同步", "detail": "本次编辑涉及description/正文文字/FAQ答案/sources标签格式，不涉及faq/sources数组结构（字段形状未变）；构建后curl解析线上页面确认Article/FAQPage/BreadcrumbList三项JSON-LD均正确渲染，description字段与guides.ts一致，dateModified已更新为2026-08-31。" },
+    { "dimension": "合规/敏感度漂移", "status": "未发现问题", "detail": "纯语法/正字法教学内容，无人物/事件/群体相关表述，无俚语粗俗语，无合规风险。" },
+    { "dimension": "配图可用性与版权", "status": "未发现问题", "detail": "public/images/spanish-accent-marks-diagram.svg为站内自制SVG图（非第三方图片，无版权问题），curl实测正常渲染，本次未改动SVG内容。" },
+    { "dimension": "AdSense政策合规", "status": "未发现问题", "detail": "语法教学内容，无敏感类目风险；ads.txt实测正确指向pub-5245502795720653；robots.txt未拦截任何AI爬虫；privacy/about页面均200可访问；标题准确描述内容，无诱导误点。" }
+  ],
+  "independent_verification": "3个独立agent复核：①em dash密度是否构成需修复的AI写作痕迹+FAQ#3内嵌'no —'是否落入既定例外，CONFIRMED需全部26处叙事性用法+FAQ#3改写，例外不适用；②FAQ与正文5条逐字重合逐条判定，3条CONFIRMED需改写(FIX)、2条判定为专有名词/固定例句合理重复(LEAVE，但因机械脚本无白名单机制仍改写以达成退出码0)；③2010年改革历史叙述是否构成真实事实过度陈述，CONFIRMED为真（RAE 1959/1999年已有条件性强制规则被掩盖），并给出具体最小改写建议（含替换非真实歧义例句为RAE官方惯用真实歧义例句）。三条独立agent均正常按时完成，未触发看门狗降级流程。",
+  "actions_taken": [
+    "32处em dash全部改写为句号/冒号/括号/逗号（26处叙事性用法+6处sources标签），sources[].label同步改为'机构名: 篇名'冒号格式跟随2026-08-22站内约定",
+    "2010年改革段落重写：补入1959年RAE已有条件性强制规则的历史事实，替换非真实歧义例句(Sólo quiero ayudar)为RAE官方惯用的真实歧义例句(¿Trabajas sólo los lunes?)，FAQ对应答案同步调整措辞",
+    "5条FAQ答案改写避免与正文逐字重合，其中2条为保持技术准确性更换了西语示例句(No sé cuándo llega→No entiendo cuándo empieza；Te llamaré cuando llegue→Lo haré cuando pueda)，均逐一核实语法正确、语义对等；正文原例句保留不变",
+    "updated字段从2026-08-06改为2026-08-31（published字段已存在，未触发L-0809-1回填流程）",
+    "npm test（64/64通过）+ npm run build（82页）通过",
+    "check_prose_patterns.py迭代7轮改写后达到退出码0（三类机械模式全部通过）",
+    "seo_drift.py baseline先于编辑存基线，编辑后compare仅命中预期内WARNING（description/schema内容变化），无CRITICAL",
+    "git commit（7d5fa24，仅guides.ts）+ push，Cloudflare Pages git自动部署（本站无独立deploy hook）",
+    "curl绕缓存轮询约56秒确认https://lingogrove.com/spanish-accent-marks/返回200且改动已生效（新例句'Trabajas sólo los lunes'命中、em dash清零、'Lo haré cuando pueda'命中）",
+    "node tools/submit-indexnow.mjs /spanish-accent-marks/提交（Bing 200 / Yandex 200）",
+    "内容发布日志.md追加本条审计更新记录（同时补记本次运行中断+spanish-pronouns收尾的完整经过）",
+    "内容通用教训库.md追加本次'2010年改革历史叙述掩盖更早前身'的新发现记录"
+  ],
+  "seo_score": "技术SEO全项通过，未发现需修复项",
+  "geo_score": "定性评估达标（结构/权威/时效/AI可抓取性均满足），未做额外结构性GEO编辑",
+  "escalation": null,
+  "pending_for_owen": null
+}
+```
