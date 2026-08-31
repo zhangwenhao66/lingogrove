@@ -1285,3 +1285,54 @@
   "pending_for_owen": null
 }
 ```
+
+## 2026-08-30 完整审计：`spanish-pronouns`
+
+```json
+{
+  "url_slug": "spanish-pronouns",
+  "last_audited": "2026-08-30",
+  "published_date": "2026-08-06",
+  "note": "本站第19次由trafficsite-content-quality-audit完整审计。选中原因：content-audit-log.md已有18条记录（含2026-08-28的double-object-pronouns-spanish），guides.ts里spanish-pronouns/spanish-accent-marks二者published并列最早（2026-08-06）的从未审计文章中，spanish-pronouns数组位置更靠前，按'从未审计优先、同等条件下数组位置最靠前优先'的既定选取规则确认为本轮目标。本文是六大代词家族的枢纽概览页，正文明确不重复展开已有专属深度文章（direct-vs-indirect-object-pronouns-spanish/double-object-pronouns-spanish/spanish-reflexive-verbs/spanish-possessive-adjectives/spanish-demonstrative-adjectives）的规则细节。",
+  "diagnosed_checkpoints": [
+    "voseo地域分布声明（阿根廷/乌拉圭/巴拉圭全面替代tú，哥斯达黎加/尼加拉瓜/萨尔瓦多局部、哥伦比亚Paisa/Medellín地区）是否准确",
+    "RAE'entre tú y yo'/'según tú'例句是否为RAE原文真实用例而非编造",
+    "'con mí'语法上不成立、必须融合为conmigo/contigo/consigo的断言是否准确",
+    "RAE语法对demostrativo'ese'作为三者中'无标记项'而非固定中点的论断是否有RAE原文依据",
+    "正文/sources是否存在AI写作痕迹（发布于2026-08-06，早于avoid-ai-writing 2026-08-07接入，触发强制回溯检查）"
+  ],
+  "findings": [
+    { "dimension": "事实准确性", "status": "未发现问题", "detail": "WebSearch独立信源逐条核实：voseo地域分布（Argentina/Uruguay全面替代、Paraguay日常形式、Costa Rica/Nicaragua/El Salvador局部、Colombia Paisa/Medellín地区）与latinamericanspanish.com/dialectologia.raco.cat等多方交叉印证一致；'Lo que hablemos será entre tú y yo'/'Según tú, somos el enemigo'经WebSearch核实为RAE官方语法'Otras distinciones morfológicas en los pronombres personales'页面真实原文例句，entre/según选择主格代词形式(tú/yo)而非介词后代词形式(mí/ti)的规则准确，excepto/salvo/menos因已被同化为连词同样取主格形式的表述准确；'con mí'必须融合为conmigo的断言属标准西语语法事实；RAE'Los demostrativos neutros'/'Clases de demostrativos'语法页确认'ese'在RAE框架中确有'无标记项'(unmarked term)这一特殊定位，与正文'ese不像este/aquel那样有固定距离值'的表述一致。" },
+    { "dimension": "EEAT", "status": "未发现问题", "detail": "7条RAE一手权威来源（buen-uso-español 3条+DPD 2条+Nueva gramática 2条），每条对应正文具体规则模块，非泛泛引用。" },
+    { "dimension": "时效性", "status": "不适用，published字段已存在无需回填", "detail": "git log确认commit 49c608726dc52782300ee340316db5a190f5006f（2026-08-06）为本文首次发布，与guides.ts published字段一致；语法规则类内容，RAE规则历史上无变动记录，无过时风险。" },
+    { "dimension": "竞品差异化", "status": "未发现问题", "detail": "dataforseo-query实测'spanish pronouns'真实SERP：头部竞品lingvist.com/en.wikipedia.org/tandem.net/preply.com/www.enforex.com/www.berlitz.com/studyspanish.com，本文未进前10（枢纽概览页，符合预期）。WebSearch核实竞品内容结构（tandem.net'A Complete Guide to All Spanish Pronouns'等）多为'6-9种代词类型列举'，未见任何一家引用RAE官方entre/según/excepto/salvo/menos例外规则、DPD对voseo的正式认可地位、或'ese'作为无标记项的RAE语法框架，构成真实差异化。" },
+    { "dimension": "SEO技术审计", "status": "未发现问题", "detail": "curl实测live页面：title 'Spanish Pronouns: All Six Families in One Place | LingoGrove'、meta description 145字符区间内、canonical自引用正确、单一h1、8个h2层级清晰。schema实测：Article/FAQPage(4条)/BreadcrumbList/WebPage/Organization均正确渲染。ads.txt正确指向pub-5245502795720653；robots.txt对全部AI爬虫(GPTBot/ChatGPT-User/ClaudeBot/Claude-Web/PerplexityBot/Google-Extended)Allow；privacy/about页面均200。" },
+    { "dimension": "GEO审计", "status": "定性评估达标，未做结构性改动", "detail": "coreSummary清晰给出六大家族总览+跨代词共享形式的核心结论、FAQ自包含可独立提取(4条)、7条RAE一手权威来源、正文含2条RAE原文逐字引语('Lo que hablemos será entre tú y yo'/'Según tú, somos el enemigo, ¿no?')、schema完整、AI爬虫未被拦截、6条真实inbound手写内链体现良好跨域连接。未发现需强化的具体薄弱维度，未做侵入性GEO编辑。" },
+    { "dimension": "早期内容AI味补漏", "status": "确认发现问题，独立复核确认为真，已修复", "detail": "published=2026-08-06早于avoid-ai-writing技能强制化时间点(2026-08-07)，触发全量检查。guides.ts该条目正文+sources[].label合计8处em-dash：1处为demonstrative pronouns小节叙事性插入语('...far from both) — though the RAE's own grammar treats *ese* as the unmarked term...')，其余7处为sources[].label'Real Academia Española — 篇名'格式。按本站2026-08-27(subjunctive-spanish)/2026-08-28(spanish-conditional-tense)两次审计确立的零容忍标准（sources标签'结构化引用例外'已被取消，统一改冒号分隔），全部8处均应修复。独立agent复核：仅告知本finding+对应行号+两篇最新审计记录的位置，agent自行独立读取源文件与审计日志原文验证（未被告知具体判定结论），独立确认8处（1叙事+7标签）计数与判断一致，结论CONFIRMED，2分钟内正常完成，无agent卡死情况。" },
+    { "dimension": "外部引用链接腐烂", "status": "未发现问题", "detail": "7条rae.es来源curl实测均403（RAE对自动化抓取的常规反爬拦截，本站por-vs-para等历次审计已确立此判断标准，非链接失效），WebSearch交叉核实全部7个页面标题与内容仍真实存在且与引用论断匹配。" },
+    { "dimension": "内链健康度", "status": "未发现问题，非孤儿页", "detail": "grep确认本文被6处其他文章手写内链引用（spanish-accent-marks/french-articles/spanish-possessive-adjectives×2/ciao-meaning/per-se-meaning），锚文本各不相同，逐一核对桥接句对本文实际内容的描述均准确。本文自身正文也有5条出站内链（direct-vs-indirect-object-pronouns-spanish/double-object-pronouns-spanish/spanish-reflexive-verbs/spanish-possessive-adjectives/spanish-demonstrative-adjectives），grep确认全部slug真实存在于guides.ts。" },
+    { "dimension": "Schema数据一致性", "status": "已同步", "detail": "本次编辑涉及正文一句改写、7条sources[].label标点格式、updated日期，不涉及faq/sources数组结构（字段形状未变）；构建后curl解析线上页面确认Article/FAQPage/BreadcrumbList三项JSON-LD均正确渲染，dateModified已更新为2026-08-30T00:00:00+00:00。" },
+    { "dimension": "合规/敏感度漂移", "status": "未发现问题", "detail": "纯语法教学内容，无人物/事件/群体相关表述，无俚语粗俗语，无合规风险。" },
+    { "dimension": "配图可用性与版权", "status": "未发现问题", "detail": "public/images/spanish-pronouns-diagram.svg为站内自制SVG图（非第三方图片，无版权问题），public/与dist/均存在，线上curl实测正常渲染，本次未改动SVG内容（图内未检出em-dash等问题）。" },
+    { "dimension": "AdSense政策合规", "status": "未发现问题", "detail": "语法教学内容，无敏感类目风险；ads.txt实测正确指向pub-5245502795720653；robots.txt未拦截任何AI爬虫；privacy/about页面均200可访问；标题准确描述内容，无诱导误点。" }
+  ],
+  "independent_verification": "1个独立agent复核em-dash发现：仅提供finding描述+行号+本站08-27/08-28两篇最新审计记录位置，未告知具体判定结论，agent自行读取guides.ts源文件与content-audit-log.md原文独立验证，确认8处（1处demonstrative小节叙事性插入语+7处sources[].label）均应按当前零容忍标准修复，判定CONFIRMED，2分钟内正常完成，无agent卡死情况，未触发看门狗降级流程。",
+  "actions_taken": [
+    "demonstrative pronouns小节1处叙事性em-dash改写为两句独立陈述（保留原意）",
+    "7条sources[].label从'Real Academia Española — 篇名'改为'Real Academia Española: 篇名'冒号格式，跟随08-22确立的站内新约定",
+    "updated字段从2026-08-10改为2026-08-30（published字段已存在，未触发L-0809-1回填流程）",
+    "顺带发现src/pages/[slug].astro第204行共享模板'turn to these pages —'含1处em-dash（渲染于全站每篇文章页，非本文专属内容），超出单篇审计范围，已spawn_task另行开独立任务处理（task_fea11c8c），未在本次提交中一并修改",
+    "npm test（64/64通过）+ npm run build（81页）通过",
+    "seo_drift.py baseline先于编辑存基线，编辑后compare仅命中预期内WARNING（schema内容变化），无CRITICAL",
+    "git commit（597e48f，仅guides.ts）+ push，Cloudflare Pages git自动部署（本站无独立deploy hook）",
+    "curl绕缓存轮询约100秒确认https://lingogrove.com/spanish-pronouns/返回200且改动已生效（sources标签冒号化、demonstrative小节em-dash清零、dateModified已更新；页面剩余1处em-dash为已知共享模板行，非本文内容）",
+    "node tools/submit-indexnow.mjs /spanish-pronouns/提交（Bing 200 / Yandex 202）",
+    "内容发布日志.md追加本条审计更新记录",
+    "内容通用教训库.md L-0810-4条目追加本次复发记录"
+  ],
+  "seo_score": "技术SEO全项通过，未发现需修复项",
+  "geo_score": "定性评估达标（结构/权威/时效/AI可抓取性均满足，含2条RAE原文逐字引语），未做侵入性GEO编辑",
+  "escalation": null,
+  "pending_for_owen": null
+}
+```
