@@ -6284,4 +6284,88 @@ export const guides: Guide[] = [
 			{ label: 'Real Academia Española, Nueva gramática de la lengua española: "Alternancias del complemento indirecto con el sujeto y el complemento directo"', url: 'https://www.rae.es/gram%C3%A1tica/sintaxis/alternancias-del-complemento-indirecto-con-el-sujeto-y-el-complemento-directo' },
 		],
 	},
+	{
+		slug: 'arigato-meaning',
+		category: 'Loanwords',
+		title: 'Arigato Meaning: The Real Origin Isn\'t the Portuguese Obrigado',
+		description: 'Arigato and the Portuguese obrigado sound alike by coincidence. The word\'s real root is a Japanese adjective for "rare," documented since 759 CE.',
+		published: '2026-08-31',
+		updated: '2026-08-31',
+		coreSummary: 'Arigatō traces back to the Japanese adjective arigatai, built from ari (a form of aru, "to exist") and gatai (a voiced form of katai, "difficult"), so its literal sense is closer to "hard to come by" or "rare" than to a direct word for gratitude. The Man\'yōshū, Japan\'s oldest poetry anthology, records an early form of the word in its poem 4011, compiled around 759 CE, centuries before Portuguese ships ever reached Japan, which makes the word\'s resemblance to Portuguese obrigado (from Latin obligātus, first attested meaning "thank you" a century after that contact) a coincidence rather than a borrowing.',
+		language: 'Japanese',
+		usageNote: {
+			register: 'casual',
+			regionNote: 'No regional split across Japan the way some loanwords have; the variable that matters here is formality, not geography. Plain arigatō works with friends, family, and people of equal or lower status, but can land as abrupt with strangers, elders, or in professional settings, where arigatō gozaimasu is the expected default.',
+		},
+		sections: [
+			{
+				heading: 'What the word is actually built from',
+				body: [
+					'Arigatō comes from an older adjective, arigatai, and the two pieces are traceable: ari is a conjugated form of aru, the verb meaning "to exist" or "there is," and gatai is katai, "difficult," voiced (k to g) the way Japanese compounds regularly shift a following consonant. Put together, arigatai means something close to "difficult to exist," and by extension, something uncommon, hard to come by, precious. That\'s a step removed from "thank you": the word started out describing the rarity of a thing, and only later came to express gratitude for it.',
+					'A few language-learning sites simplify the breakdown to "ari, to have" plus "gato, difficult," which blurs two things worth keeping separate. Aru can function like "to have" in Japanese sentence structure (Japanese expresses possession as "X exists for me" rather than with a dedicated verb), but the dictionary sense of aru itself is existence, not possession, and gato isn\'t a standalone morpheme at all; it\'s katai after the sound shift that Japanese compounding produces. The looser gloss isn\'t wrong about the general shape of the word, just imprecise about the two pieces doing the work.',
+					'This kind of gap between a word\'s literal pieces and its everyday translation shows up elsewhere in borrowed Japanese vocabulary too: [senpai](/senpai-meaning/) is another case where the component parts describe something more structured than the one-word gloss English speakers usually reach for.',
+				],
+				image: {
+					src: '/images/arigato-meaning-diagram.svg',
+					alt: 'Diagram showing arigatai built from ari ("to exist") plus gatai ("difficult") to mean "rare, precious," alongside a debunked claim that the word borrows from Portuguese obrigado, which instead derives from Latin obligātus.',
+				},
+			},
+			{
+				heading: 'A word with a paper trail going back to 759 CE',
+				body: [
+					'The Man\'yōshū, a Nara-period anthology compiled around 759 CE and the oldest surviving collection of Japanese poetry, contains an early form of this word in its poem 4011. From there, the pronunciation shifted gradually across the following centuries: arigatashi to arigataku to arigatau, settling into the modern arigatō. The word also shows up in Heian-era prose, including the Tale of Genji and Sei Shōnagon\'s Pillow Book, works written roughly a thousand years ago, which shows the term stayed in continuous use through the transition from its older "rare, hard to come by" sense toward the gratitude sense modern speakers know.',
+					'That long, documented history matters for what comes next: any claim about where arigatō came from has to reckon with a word already on the page long before Portuguese traders ever set foot in Japan.',
+				],
+			},
+			{
+				heading: 'Why it isn\'t borrowed from the Portuguese obrigado',
+				body: [
+					'The resemblance between arigatō and Portuguese obrigado, both meaning "thank you," is one of the more famous coincidences in language trivia, and it\'s repeated often enough online that it reads as settled fact to a lot of people who\'ve never checked it. It doesn\'t hold up against the timeline. Arigatai was already in written use by 759 CE; the Portuguese didn\'t reach Japan until the 1540s, roughly eight centuries later. A word can\'t borrow from a language it hasn\'t met yet.',
+					'The Portuguese side of the comparison undercuts the myth just as much. Obrigado descends from Latin obligātus ("obligated"), and its use to mean "thank you" isn\'t even attested until about a century after Portuguese ships arrived in Japan; the word Portuguese speakers used for thanks earlier than that was graças. So the two words that sound alike each have a fully independent paper trail, in two unrelated language families, and neither timeline leaves room for one to have produced the other. What\'s left is a genuine phonetic accident, the kind linguists call a false cognate: two words that happen to sound similar and mean the same thing without any historical connection at all.',
+				],
+			},
+			{
+				heading: 'The formality ladder: when plain arigatō works, and when it doesn\'t',
+				body: [
+					'Arigatō by itself is casual. It\'s the right register with friends, family, classmates, or anyone of equal or lower social standing, and in relaxed everyday exchanges. Add gozaimasu and it becomes arigatō gozaimasu, the polite default for talking to someone older, a stranger, a coworker, or anyone in a professional context; it\'s the safer choice any time the relationship isn\'t already familiar. Doumo intensifies either version without changing its formality: doumo arigatō stays casual, doumo arigatō gozaimasu stays polite, and both roughly mean "thanks a lot" or "thank you very much."',
+					'The rule of thumb Japanese teachers give beginners holds up: the longer the phrase, the more formal it reads. Dropping gozaimasu with a stranger or a boss doesn\'t make you sound young so much as abrupt, since it skips a politeness marker the situation calls for. When in doubt, arigatō gozaimasu covers nearly every situation a traveler or learner is likely to run into.',
+					'That kind of register judgment runs through a lot of Japanese social vocabulary, not just this word: [sayonara](/sayonara-meaning/) carries a formality of its own, one tied to finality rather than politeness, and misjudging either word\'s weight reads as off in a similar way.',
+				],
+			},
+			{
+				heading: 'Why the spelling shows up two different ways',
+				body: [
+					'The Japanese word ends in a lengthened o sound, written ありがとう and typically romanized arigatou or arigatō (with a macron marking the long vowel). "Arigato," without the extra u or the macron, is a common English shorthand that drops that length distinction; it\'s how the word usually shows up in casual writing, song titles, and search queries, even though it\'s not the standard romanization. The shortened spelling doesn\'t change how the word is pronounced by anyone who already knows it should end in a held-out o; it\'s a simplification for readers who don\'t track Japanese vowel length, not a separate or more casual form of the word itself.',
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'What does "arigato" mean?',
+				answer: 'It\'s Japanese for "thank you," used in casual, everyday situations. The word\'s roots trace to an adjective describing something as scarce or hard to obtain, so the underlying image is closer to "this is a rare thing you\'ve given me" than to a stock phrase for gratitude.',
+			},
+			{
+				question: 'Does "arigato" come from the Portuguese "obrigado"?',
+				answer: 'No. The two "thank you" words being nearly interchangeable in sound is pure luck: Japan\'s written record shows this word\'s ancestor generations before any Portuguese ship reached its shores, and its European counterpart traces to an unrelated Latin root, only picking up its thanks-giving sense afterward.',
+			},
+			{
+				question: 'Is it rude to just say "arigato" without "gozaimasu"?',
+				answer: 'Between people who already know each other well, no; that\'s the ordinary way to say it. Say it plain to someone you don\'t know, someone older, or in a work setting, and it can read as clipped or overly familiar, so reaching for the longer, more polite version there is the better bet.',
+			},
+			{
+				question: 'What\'s the difference between "arigato" and "arigatou gozaimasu"?',
+				answer: 'Just how polite the moment calls for. Tacking on gozaimasu turns a casual thanks into one suited for someone you\'d address respectfully, and doumo can be layered onto either version to add emphasis without shifting how formal it sounds.',
+			},
+			{
+				question: 'Why is it sometimes spelled "arigato" and sometimes "arigatou"?',
+				answer: 'The final vowel in Japanese is held slightly longer than a single "o," a distinction romanization usually preserves by writing "arigatou" or adding a macron. Dropping that extra letter, as "arigato" does, is just an English convenience that most learners never notice is missing anything.',
+			},
+		],
+		sources: [
+			{ label: 'Self Taught Japanese: "The real origin of arigatou (ありがとう), Japanese for Thank You" (etymology from aru + katai, Man\'yōshū poem 4011, Genji and Pillow Book attestations, sound-shift chain arigatashi to arigatō)', url: 'https://selftaughtjapanese.com/2015/11/02/the-real-origin-of-arigatou-%E3%81%82%E3%82%8A%E3%81%8C%E3%81%A8%E3%81%86-japanese-for-thank-you/' },
+			{ label: 'sci.lang.japan FAQ: "Is arigatō related to Portuguese obrigado?" (timeline debunking the borrowing claim, obrigado from Latin obligātus, first Portuguese-Japanese contact in the 1540s)', url: 'https://www.sljfaq.org/afaq/arigatou.html' },
+			{ label: 'Wiktionary: "arigato" and "ありがとう" (romanization variants, etymology, usage)', url: 'https://en.wiktionary.org/wiki/arigato' },
+			{ label: 'Coto Academy: "19 Ways to Say Thank You in Japanese" (formality levels for arigatō, arigatō gozaimasu, and doumo)', url: 'https://cotoacademy.com/thank-you-in-japanese-arigato/' },
+		],
+	},
 ];

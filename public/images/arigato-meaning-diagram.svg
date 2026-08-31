@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" font-family="system-ui, -apple-system, sans-serif">
+	<rect width="800" height="460" fill="#f4f0e8"/>
+
+	<rect x="24" y="24" width="230" height="90" rx="10" fill="#fffefa" stroke="#ddd6c4"/>
+	<text x="139" y="56" text-anchor="middle" font-size="20" font-weight="700" fill="#201f1a">ari (aru)</text>
+	<text x="139" y="80" text-anchor="middle" font-size="14" fill="#5a5648">"to exist"</text>
+
+	<text x="285" y="76" text-anchor="middle" font-size="24" fill="#8a7a3f">+</text>
+
+	<rect x="316" y="24" width="230" height="90" rx="10" fill="#fffefa" stroke="#ddd6c4"/>
+	<text x="431" y="56" text-anchor="middle" font-size="20" font-weight="700" fill="#201f1a">gatai (katai)</text>
+	<text x="431" y="80" text-anchor="middle" font-size="14" fill="#5a5648">"difficult"</text>
+
+	<text x="577" y="76" text-anchor="middle" font-size="24" fill="#8a7a3f">=</text>
+
+	<rect x="608" y="24" width="168" height="90" rx="10" fill="#2f4f6b"/>
+	<text x="692" y="50" text-anchor="middle" font-size="16" font-weight="700" fill="#ffffff">arigatai</text>
+	<text x="692" y="72" text-anchor="middle" font-size="12" fill="#dce6ee">"rare, hard to</text>
+	<text x="692" y="88" text-anchor="middle" font-size="12" fill="#dce6ee">come by, precious"</text>
+
+	<line x1="139" y1="114" x2="139" y2="160" stroke="#ddd6c4" stroke-width="1"/>
+	<line x1="139" y1="160" x2="692" y2="160" stroke="#ddd6c4" stroke-width="1"/>
+	<line x1="692" y1="114" x2="692" y2="160" stroke="#ddd6c4" stroke-width="1"/>
+
+	<rect x="24" y="160" width="360" height="270" rx="10" fill="#fffefa" stroke="#ddd6c4"/>
+	<rect x="24" y="160" width="360" height="44" rx="10" fill="#2f4f6b"/>
+	<rect x="24" y="184" width="360" height="20" fill="#2f4f6b"/>
+	<text x="204" y="188" text-anchor="middle" fill="#ffffff" font-size="16" font-weight="700">The real history</text>
+	<g fill="#201f1a" font-size="14">
+		<text x="48" y="232" font-weight="700">Man'yōshū poem 4011</text>
+		<text x="48" y="252" fill="#5a5648">Japan's oldest poetry anthology,</text>
+		<text x="48" y="270" fill="#5a5648">compiled circa 759 CE</text>
+		<text x="48" y="308" font-weight="700">Sound shift over centuries</text>
+		<text x="48" y="328" fill="#5a5648">arigatashi → arigataku →</text>
+		<text x="48" y="346" fill="#5a5648">arigatau → arigatō</text>
+		<text x="48" y="384" fill="#5a5648">Centuries before any Japanese</text>
+		<text x="48" y="402" fill="#5a5648">contact with the Portuguese</text>
+	</g>
+
+	<rect x="416" y="160" width="360" height="270" rx="10" fill="#fffefa" stroke="#ddd6c4"/>
+	<rect x="416" y="160" width="360" height="44" rx="10" fill="#8a7a3f"/>
+	<rect x="416" y="184" width="360" height="20" fill="#8a7a3f"/>
+	<text x="596" y="188" text-anchor="middle" fill="#ffffff" font-size="16" font-weight="700">The Portuguese myth</text>
+	<g fill="#201f1a" font-size="14">
+		<text x="440" y="232" font-weight="700">Sounds like "obrigado"</text>
+		<text x="440" y="252" fill="#5a5648">A famous coincidence, not</text>
+		<text x="440" y="270" fill="#5a5648">a shared origin</text>
+		<text x="440" y="308" font-weight="700">Obrigado's real root</text>
+		<text x="440" y="328" fill="#5a5648">Latin obligātus; its "thank you"</text>
+		<text x="440" y="346" fill="#5a5648">sense is first recorded a century</text>
+		<text x="440" y="364" fill="#5a5648">after Portuguese ships reached Japan</text>
+		<text x="440" y="402" fill="#5a5648">Two unrelated words, one accident</text>
+	</g>
+</svg>

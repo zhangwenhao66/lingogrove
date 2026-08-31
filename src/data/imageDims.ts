@@ -7,6 +7,10 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 24,
   "w": 24
  },
+ "/images/arigato-meaning-diagram.svg": {
+  "h": 460,
+  "w": 800
+ },
  "/images/carino-meaning-diagram.svg": {
   "h": 460,
   "w": 800
@@ -253,6 +257,10 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
  },
  "/images/spanish-verb-tenses-chart-diagram.svg": {
   "h": 420,
+  "w": 800
+ },
+ "/images/verbs-like-gustar-diagram.svg": {
+  "h": 460,
   "w": 800
  },
  "/images/voila-meaning-diagram.svg": {
