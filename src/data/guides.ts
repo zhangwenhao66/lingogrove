@@ -1835,19 +1835,19 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'When do à and de contract with the definite article, and when don\'t they?',
-				answer: 'Yes, with le and les: à + le → au, à + les → aux, de + le → du, de + les → des, and there\'s no way around it in standard French. La and l\' sit outside that rule entirely, no matter what comes before them: à la stays à la, à l\' stays à l\', de la stays de la, and de l\' stays de l\'.',
+				answer: 'With le and les, always: à + le → au, à + les → aux, de + le → du, de + les → des, and there\'s no way around it in standard French. La and l\' sit outside that rule entirely, no matter what comes before them: à la stays à la, à l\' stays à l\', de la stays de la, and de l\' stays de l\'.',
 			},
 			{
 				question: 'Why does "un" or "du" change to "de" after a negative verb?',
 				answer: 'A negated verb pulls both the indefinite (un/une/des) and the partitive (du/de la/de l\') forms down to a bare de or d\', because what\'s being denied is a quantity, not an identity: Elle n\'a pas de sœur, never Elle n\'a pas une sœur. Le, la, and les hold steady under negation; nothing about them ever pointed at a quantity to begin with.',
 			},
 			{
-				question: 'Why doesn\'t "Ce n\'est pas un problème" become "Ce n\'est pas de problème"?',
-				answer: 'Because être functioning as a linking verb is an exception to the negation-to-de rule, per the Office québécois de la langue française\'s grammar reference. Ce n\'est pas un problème is asserting or denying an identity ("this thing isn\'t a problem"), not counting or measuring a quantity of problems, so the article stays in its original form. The same exception applies whenever the negated noun is being contrasted with a different one, as in "pas du vin, mais de la bière."',
+				question: 'Why doesn\'t "Ce n\'est pas une erreur" become "Ce n\'est pas d\'erreur"?',
+				answer: 'Because here être is just linking the subject to a description of what it is, not counting anything, confirmed by the same Quebec-government grammar authority cited above. Ce n\'est pas une erreur is asserting an identity ("this thing isn\'t a mistake"), not tallying up a number of mistakes, so the article stays in its original form. The same exception applies whenever the sentence sets up a contrast, denying one thing to affirm another, as in "pas du vin, mais de la bière."',
 			},
 			{
 				question: 'Is "des" always the plural of "un" or "une"?',
-				answer: 'No. Des does three unrelated jobs that happen to share one spelling: it\'s the plural of the indefinite un/une, the plural of the partitive du/de la (French has no separate plural partitive form), and, unrelated to either, the mandatory contraction of de + les, as in le prix des billets ("the price of the tickets"). Only the surrounding sentence tells you which one you\'re looking at.',
+				answer: 'No. Des covers three separate roles that just happen to look identical on the page: it stands in for un/une once you go plural, it also stands in for du and de la in the plural (French never developed its own plural shape for the partitive), and, unrelated to either role, it\'s the fused form of de + les, as in la couleur des murs ("the color of the walls"). Only the surrounding sentence tells you which one you\'re looking at.',
 			},
 		],
 		sources: [
