@@ -51,13 +51,17 @@
   },
   "https://lingogrove.com/habibi-meaning/": {
     "submitted_date": "2026-08-12",
-    "verified_status": "pending",
-    "note": "new publish (Loanwords tier, first Arabic-language article); Bing 200 / Yandex 200."
+    "verified_status": "stale_not_indexed",
+    "note": "new publish (Loanwords tier, first Arabic-language article); Bing 200 / Yandex 200.",
+    "last_checked_date": "2026-09-01",
+    "verified_method": "bwt_url_inspection"
   },
   "https://lingogrove.com/german-adjective-endings/": {
     "submitted_date": "2026-08-11",
-    "verified_status": "pending",
-    "note": "new publish (Grammar tier, first German grammar article); Bing 200 / Yandex 202."
+    "verified_status": "verified_indexed",
+    "note": "new publish (Grammar tier, first German grammar article); Bing 200 / Yandex 202.",
+    "last_checked_date": "2026-09-01",
+    "verified_method": "bwt_url_inspection"
   },
   "https://lingogrove.com/japanese-particles-wa-ga-wo-ni/": {
     "submitted_date": "2026-08-10",
@@ -246,17 +250,23 @@
   },
   "https://lingogrove.com/spanish-commands/": {
     "submitted_date": "2026-08-11",
-    "verified_status": "pending"
+    "verified_status": "stale_not_indexed",
+    "last_checked_date": "2026-09-01",
+    "verified_method": "bwt_url_inspection"
   },
   "https://lingogrove.com/french-negation/": {
     "submitted_date": "2026-08-11",
-    "verified_status": "pending",
-    "note": "new publish (Grammar tier); Bing 200 / Yandex 202."
+    "verified_status": "stale_not_indexed",
+    "note": "new publish (Grammar tier); Bing 200 / Yandex 202.",
+    "last_checked_date": "2026-09-01",
+    "verified_method": "bwt_url_inspection"
   },
   "https://lingogrove.com/spanish-prepositions/": {
     "submitted_date": "2026-08-12",
-    "verified_status": "pending",
-    "note": "new publish; Bing 200 / Yandex 202."
+    "verified_status": "stale_not_indexed",
+    "note": "new publish; Bing 200 / Yandex 202.",
+    "last_checked_date": "2026-09-01",
+    "verified_method": "bwt_url_inspection"
   },
   "https://lingogrove.com/german-perfect-tense/": {
     "submitted_date": "2026-08-12",
