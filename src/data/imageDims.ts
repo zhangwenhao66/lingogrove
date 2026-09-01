@@ -155,6 +155,10 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 340,
   "w": 800
  },
+ "/images/que-sera-sera-meaning-diagram.svg": {
+  "h": 600,
+  "w": 900
+ },
  "/images/russian-cases-diagram.svg": {
   "h": 920,
   "w": 800
