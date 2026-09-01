@@ -1784,8 +1784,8 @@ export const guides: Guide[] = [
 		title: 'French Articles: Le, La, Les, Un, Une, Du, and the Rules That Change Them',
 		description: 'French splits "a noun" into three degrees of definiteness, not two like English, and two grammatical rules reshape them: contraction and negation.',
 		published: '2026-08-09',
-		updated: '2026-08-09',
-		coreSummary: 'French sorts nouns into three degrees of definiteness where English mostly manages with two: definite articles (le, la, l\', les) for a specific or generic noun, indefinite articles (un, une, des) for an unspecified countable item, and partitive articles (du, de la, de l\', des) for an unspecified portion of something treated as a mass. Two rules reliably reshape all three: à and de fuse with le and les into au, aux, du, and des whenever a definite article follows them (never with la or l\'), and negation collapses un, une, des, du, de la, and de l\' down to de or d\', with two exceptions: être asserting identity rather than quantity, and a sentence that sets up an implicit contrast.',
+		updated: '2026-09-01',
+		coreSummary: 'French sorts nouns into three degrees of definiteness where English mostly manages with two: definite articles (le, la, l\', les) for a specific or generic noun, indefinite articles (un, une, des) for an unspecified countable item, and partitive articles (du, de la, de l\', des) for an unspecified portion of something treated as a mass. Two rules reliably reshape all three: à and de fuse with le and les into au, aux, du, and des whenever a definite article follows them (never with la or l\'), and negation collapses un, une, des, du, de la, and de l\' down to de or d\', with three exceptions: être asserting identity rather than quantity, a sentence that sets up an implicit contrast, and the restrictive ne...que construction, which isn\'t true negation at all.',
 		language: 'French',
 		sections: [
 			{
@@ -1814,10 +1814,10 @@ export const guides: Guide[] = [
 				],
 			},
 			{
-				heading: 'Negation flips the article to de, with two real exceptions',
+				heading: 'Negation flips the article to de, with three real exceptions',
 				body: [
 					'After a negated verb, French routinely reduces the indefinite and partitive articles down to a single de (or d\' before a vowel sound), regardless of the gender or number the article started with. J\'ai un chat becomes Je n\'ai pas de chat; Elle boit du café becomes Elle ne boit pas de café. The definite article le/la/les doesn\'t follow this rule at all: Je n\'aime pas le café keeps le, because negating "I like coffee" denies a relationship to an already-definite category, not a quantity of coffee.',
-					'Two situations keep the original article instead of collapsing it to de, according to the Office québécois de la langue française\'s grammar reference. The first is the verb être functioning as a linking verb: Ce n\'est pas un problème ("That\'s not a problem") keeps un rather than shifting to de problème, because être here is asserting or denying an identity, not counting or measuring a quantity of something. The second is a sentence built around an implicit contrast, where the negated noun is being weighed against a different one rather than denied outright: Nous n\'avons pas des reproches à te faire, mais des éloges ("We don\'t have criticisms for you, but praise") and Nicole ne boira pas du vin ce soir, mais de la bière ("Nicole won\'t drink wine tonight, but beer") both keep the original article on the negated side, because the sentence is substituting one thing for another rather than claiming zero quantity.',
+					'Three situations keep the original article instead of collapsing it to de, according to the Office québécois de la langue française\'s grammar reference. The first is the verb être functioning as a linking verb: Ce n\'est pas un problème ("That\'s not a problem") keeps un rather than shifting to de problème, because être here is asserting or denying an identity, not counting or measuring a quantity of something. The second is a sentence built around an implicit contrast, where the negated noun is being weighed against a different one rather than denied outright: Nous n\'avons pas des reproches à te faire, mais des éloges ("We don\'t have criticisms for you, but praise") and Nicole ne boira pas du vin ce soir, mais de la bière ("Nicole won\'t drink wine tonight, but beer") both keep the original article on the negated side, because the sentence is substituting one thing for another rather than claiming zero quantity. The third isn\'t really negation at all: ne...que restricts a quantity to "only" without denying it, and it generally keeps the article unchanged too, per the same OQLF reference. Nous n\'avons que des compliments à te faire ("We only have compliments for you") keeps des without reducing to de, because nothing is actually being denied.',
 				],
 			},
 			{
@@ -1831,15 +1831,15 @@ export const guides: Guide[] = [
 		faq: [
 			{
 				question: 'How many types of articles does French have?',
-				answer: 'Three: definite (le, la, l\', les) for a specific or generic noun, indefinite (un, une, des) for an unspecified countable item, and partitive (du, de la, de l\') for an unspecified portion of a mass noun. English collapses roughly the same ground into "the" and "a/an," which is why the three-way French split feels unfamiliar at first. Spanish organizes its own function words on a different axis entirely, by grammatical role rather than degree of specificity; see the [Spanish pronouns overview](/spanish-pronouns/) for how that separate framework is built.',
+				answer: 'Three: a definite set (le/la/l\'/les) points at something identifiable, or at a whole class of things; an indefinite set (un/une/des) points at one unnamed countable thing; and a partitive set (du/de la/de l\') points at some undetermined amount of an uncountable substance. English manages with just "the" and "a/an," so a learner\'s first instinct is to collapse all three into two. Spanish sorts its own function words along a completely different axis, by grammatical role, not specificity; see the [Spanish pronouns overview](/spanish-pronouns/) for how that separate framework works.',
 			},
 			{
 				question: 'When do à and de contract with the definite article, and when don\'t they?',
-				answer: 'À and de always fuse with le and les: à + le → au, à + les → aux, de + le → du, de + les → des. That fusion is mandatory, not a style choice. La and l\' never contract with anything, no matter which preposition precedes them, so à la, à l\', de la, and de l\' always stay as two separate words.',
+				answer: 'Yes, with le and les: à + le → au, à + les → aux, de + le → du, de + les → des, and there\'s no way around it in standard French. La and l\' sit outside that rule entirely, no matter what comes before them: à la stays à la, à l\' stays à l\', de la stays de la, and de l\' stays de l\'.',
 			},
 			{
 				question: 'Why does "un" or "du" change to "de" after a negative verb?',
-				answer: 'French reduces the indefinite article (un, une, des) and the partitive article (du, de la, de l\') to a plain de or d\' after a negated verb, because the negation is denying a quantity rather than an identity: Je n\'ai pas de chat, not Je n\'ai pas un chat. The definite article (le, la, les) doesn\'t change under negation, since it isn\'t marking a quantity to begin with.',
+				answer: 'A negated verb pulls both the indefinite (un/une/des) and the partitive (du/de la/de l\') forms down to a bare de or d\', because what\'s being denied is a quantity, not an identity: Elle n\'a pas de sœur, never Elle n\'a pas une sœur. Le, la, and les hold steady under negation; nothing about them ever pointed at a quantity to begin with.',
 			},
 			{
 				question: 'Why doesn\'t "Ce n\'est pas un problème" become "Ce n\'est pas de problème"?',
@@ -2460,7 +2460,7 @@ export const guides: Guide[] = [
 		title: 'French Negation: Why Personne, Aucun, and Nulle Part Break the Pas Pattern',
 		description: 'Personne, aucun, and nulle part are the exceptions: everywhere else, French negation slots neatly between the auxiliary and the past participle, exactly where pas sits.',
 		published: '2026-08-11',
-		updated: '2026-08-11',
+		updated: '2026-09-01',
 		coreSummary: 'French negation is built from two parts, ne plus a second negative word (pas, jamais, plus, rien, personne, aucun, nulle part, ni), that sandwich the conjugated verb: Je ne sais pas. In compound tenses and before infinitives, most of those second words keep hugging the auxiliary or infinitive the same way pas does, but per the Office québécois de la langue française, personne, nulle part, and aucun break that pattern and fall behind the past participle or infinitive instead, every time. Ne...que is a separate structure entirely, a restriction meaning "only" rather than a true negation, and its que half moves to sit directly in front of whatever it restricts rather than staying fixed after the verb.',
 		language: 'French',
 		sections: [
@@ -2506,7 +2506,7 @@ export const guides: Guide[] = [
 			{
 				heading: 'One more thing negation changes: the article on the noun that follows',
 				body: [
-					'Negating a verb doesn\'t just add ne and a second word, it can reach into the noun phrase that follows and change the article, too. J\'ai un chat becomes Je n\'ai pas de chat, with the indefinite article un collapsing down to a bare de. That reduction, including its two real exceptions (a linking être and an implicit contrast), is covered in full in [the French articles guide](/french-articles/); it\'s the same negation system this article covers, just reaching one step further into the sentence.',
+					'Negating a verb doesn\'t just add ne and a second word, it can reach into the noun phrase that follows and change the article, too. J\'ai un chat becomes Je n\'ai pas de chat, with the indefinite article un collapsing down to a bare de. That reduction, including its three real exceptions (a linking être, an implicit contrast, and the restrictive ne...que construction covered above, which keeps the article unchanged because nothing is actually being denied), is covered in full in [the French articles guide](/french-articles/); it\'s the same negation system this article covers, just reaching one step further into the sentence.',
 					'Aucun works differently from that de-reduction, even though the two land on similar-sounding English translations. Je n\'ai pas de sœur strips the article down to bare de, but Je n\'ai aucune sœur keeps aucune standing directly in the article\'s own slot, agreeing in gender with sœur the way an article would, rather than reducing to an invariant particle. Aucun also stays grammatically singular no matter what it\'s negating, even for nouns that are normally plural-only (aucunes vacances doesn\'t exist; aucune vacance does), because it\'s asserting a count of zero, and zero is inherently singular. Commands built on any of this negation machinery, and the pronoun-order reversal that comes with a negative command specifically, are covered separately in [the French imperative guide](/french-imperative/), including why dis-le-moi flips to ne me le dis pas the moment the command turns negative.',
 				],
 			},
