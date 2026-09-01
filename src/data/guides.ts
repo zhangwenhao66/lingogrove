@@ -6368,4 +6368,81 @@ export const guides: Guide[] = [
 			{ label: 'Coto Academy: "19 Ways to Say Thank You in Japanese" (formality levels for arigatō, arigatō gozaimasu, and doumo)', url: 'https://cotoacademy.com/thank-you-in-japanese-arigato/' },
 		],
 	},
+	{
+		slug: 'que-sera-sera-meaning',
+		category: 'Loanwords',
+		title: 'Que Sera Sera Meaning: A Phrase That Isn\'t Correct Spanish or Italian',
+		description: 'Que sera sera means "whatever will be, will be," but standard Spanish and Italian both reject its grammar. The real story predates the 1956 Doris Day song by centuries.',
+		published: '2026-09-01',
+		updated: '2026-09-01',
+		coreSummary: 'Qué será, será ("whatever will be, will be") is not correct in standard Spanish or Italian: both languages require an article in front of the relative pronoun, giving lo que será, será in Spanish and quel che sarà, sarà in Italian, because que and che alone can\'t carry the "that which" sense English "what" handles on its own. The Spanish-spelled version is documented as an English heraldic motto on a brass plaque dated 1559, and the Italian form turns up in Christopher Marlowe\'s Doctor Faustus around 1590, both roughly four centuries before songwriters Jay Livingston and Ray Evans wrote it as a 1955 song title later sung by Doris Day in Alfred Hitchcock\'s 1956 film The Man Who Knew Too Much.',
+		language: 'Spanish',
+		usageNote: {
+			register: 'neutral',
+			regionNote: 'Used in English-speaking contexts as a set phrase, not as a functional sentence a Spanish or Italian speaker would produce. Spanish speakers who recognize it usually read it as a foreign quotation from the song rather than as their own language, the same way English speakers don\'t parse "que sera sera" the way they\'d parse an ordinary English sentence.',
+		},
+		sections: [
+			{
+				heading: 'What the phrase means, and the grammar problem hiding in it',
+				body: [
+					'Qué será, será translates as "what will be, will be," and it\'s used the way English speakers use that translation: as a shrug at an uncertain future, an announcement that whatever happens is out of your hands and there\'s no point fighting it. That sense of cheerful fatalism is the entire reason the phrase caught on, and it\'s not in dispute.',
+					'The grammar underneath it is a different matter. English "what" does two jobs at once: it\'s the word you use to ask a question ("What will happen?") and, separately, a free relative pronoun standing in for "that which" ("I don\'t know what will happen" means "I don\'t know that which will happen"). Spanish and Italian split those two jobs between different words. Qué and che handle the question; neither one, on its own, can stand in for "that which." To say "that which will be, will be" the way a native speaker actually would, Spanish needs lo que será, será and Italian needs quel che sarà, sarà, with lo or quel doing the job qué and che can\'t do alone.',
+					'That\'s the whole story behind why language teachers and native speakers sometimes wince at the phrase: it\'s not gibberish, and everyone understands it, but it\'s a direct, word-for-word carryover of an English grammatical pattern into two languages that don\'t build sentences that way. It\'s the kind of gap that shows up whenever a phrase gets borrowed for its sound rather than checked against a grammar book, similar in spirit to how English adopted French [voilà](/voila-meaning/) for its dramatic-reveal flourish while dropping the distinction voilà originally drew against its counterpart voici.',
+				],
+				image: {
+					src: '/images/que-sera-sera-meaning-diagram.svg',
+					alt: 'Diagram comparing the popular phrase "Que será, será" and "Che sarà, sarà" against the grammatically correct "Lo que será, será" (Spanish) and "Quel che sarà, sarà" (Italian), with a timeline from a 1559 English heraldic motto through Christopher Marlowe\'s 1590 Doctor Faustus to the 1956 Doris Day song.',
+				},
+			},
+			{
+				heading: 'A four-century paper trail, long before the song existed',
+				body: [
+					'Both spellings of the phrase are documented in English use well over 350 years before Jay Livingston ever wrote a note of music. Per Wikipedia\'s sourced account, the Spanish spelling "qué será, será" appears on a brass plaque inside the Church of St Nicholas in Thames Ditton, Surrey, dated 1559. Separately, the Italian form "che sarà sarà" was adopted as a family motto by either John Russell, 1st Earl of Bedford, or his son Francis Russell, 2nd Earl of Bedford, with the tradition tying its adoption to the elder Russell\'s experience at the Battle of Pavia in 1525 and its appearance on his 1555 tomb; a manuscript from 1582 records the 2nd Earl using it as well, and later generations of the Bedford family kept using it as a heraldic motto for years afterward.',
+					'The phrase then made a documented leap from heraldry into English literature. Christopher Marlowe\'s play Doctor Faustus, written around 1590, has the title character invoke it directly. Wikiquote\'s entry for the play records the line: "What doctrine call you this, Che serà, serà: What will be, shall be" (Act I, scene i), with Marlowe quoting the biblical line "if we say that we have no sin, we deceive ourselves" immediately before it. By the 17th century the saying was showing up regularly in English fiction as shorthand for a fatalistic outlook, and the English-only version, "what will be, will be," appears in Charles Dickens\'s Hard Times in 1854, a century before anyone associated it with a movie or a pop song.',
+					'That history matters because it reframes what the phrase actually is. It didn\'t start as an attempt at authentic Spanish or Italian at all; it started as an English motto borrowing the sound of Romance-language grammar without fully importing its rules, the same way [semper fi](/semper-fi-meaning/) started as a Latin motto centuries before the Marine Corps made it their own in 1883.',
+				],
+			},
+			{
+				heading: 'How a movie prop turned into a Doris Day classic',
+				body: [
+					'The direct route to the modern song runs through a different film first. Songwriter Jay Livingston has said he saw the 1954 film The Barefoot Contessa, in which a fictional Italian family has the motto "Che sarà sarà" carved into stone at their ancestral home. He wrote it down as a possible song title on the spot. He and his songwriting partner Ray Evans then gave it a Spanish spelling for the song they were about to write, reportedly because, in Evans\'s account, there are far more Spanish speakers in the world than Italian speakers.',
+					'The song itself, "Que Sera, Sera (Whatever Will Be, Will Be)," was written in 1955 and introduced the following year in Alfred Hitchcock\'s thriller The Man Who Knew Too Much. In the film, Doris Day\'s character plays it at a piano and sings it loudly at a foreign embassy, using the familiar tune as a covert signal to her kidnapped son, who whistles back and is rescued as a result. According to accounts of the recording session, Day herself wasn\'t impressed at the time, reportedly predicting after recording it in a single take that audiences would never hear it again. She was wrong: the song reached number two on the Billboard Top 100, hit number one in the UK, and won the 1956 Academy Award for Best Original Song. It went on to become Day\'s signature song and, from 1968 to 1973, the theme for her television sitcom The Doris Day Show.',
+				],
+			},
+			{
+				heading: 'Saying it the way a native speaker actually would',
+				body: [
+					'If the goal is standard, grammatically complete Spanish, the phrase is lo que será, será, adding lo before que to carry the "that which" sense the bare qué can\'t. In Italian, the equivalent is quel che sarà, sarà, with quel doing the same job in front of che. In both cases, the fix is a single small word in front of the relative pronoun; nothing else about the phrase needs to change.',
+					'The doubled verb, será followed by será again, isn\'t the part that\'s broken. Repeating a future-tense verb for emphasis is a normal construction in both languages and matches exactly what the English "will be, will be" is doing. Some casual sources online treat the whole phrase as a compact, unexplained idiom and leave it at that; the fuller picture is that one specific piece, the missing lo or quel, is what separates the famous version from a sentence a Spanish or Italian speaker would actually write. A shorter variant, "que sera" without the second será, shows up on its own in some casual English usage too, carrying the same fatalistic shrug in fewer words, though it\'s a distinct enough phrase from the doubled version to warrant its own look at how it\'s actually used.',
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'What does "que sera sera" mean?',
+				answer: 'It carries the sense of "no matter what happens, it happens." People reach for the line when they want to signal that fretting over an unknown outcome won\'t do anything to change it.',
+			},
+			{
+				question: 'Is "que sera sera" grammatically correct Spanish?',
+				answer: 'Not as a fluent speaker would put it. A complete sentence needs the article lo attached in front, because on its own qué only works as a question word and doesn\'t double for "that which" the way the phrase requires.',
+			},
+			{
+				question: 'Is "que sera sera" actually Italian, then?',
+				answer: 'The version most people know traces back to an Italian family motto, but the Italian original has the same gap: it needs quel tacked onto the front of che to be complete. Neither spelling, exactly as it\'s popularly written, matches what someone raised speaking either language would say on their own.',
+			},
+			{
+				question: 'Did the Doris Day song or the 1956 movie invent the phrase?',
+				answer: 'No, it\'s far older than either. An engraved marker inside an English parish church already spelled it out in Spanish by 1559, and an Elizabethan playwright put the Italian version into a play his audiences watched around 1590, centuries before Hollywood existed as a film industry at all.',
+			},
+			{
+				question: 'Why does the popular version use Spanish spelling instead of Italian?',
+				answer: 'The man who wrote the tune first spotted the line as a carved family motto while watching a movie set in Italy, but once he and his lyricist sat down to build their own composition, they swapped the spelling to Spanish, reasoning that a global Spanish-speaking audience dwarfed an Italian-speaking one.',
+			},
+		],
+		sources: [
+			{ label: 'Wikipedia: "Que Sera, Sera (Whatever Will Be, Will Be)" (1559 Thames Ditton plaque, Bedford family motto history, Marlowe reference, Barefoot Contessa origin, Livingston and Evans\'s Spanish-spelling choice, 1955 composition and 1956 film introduction, chart and award history)', url: 'https://en.wikipedia.org/wiki/Que_Sera,_Sera_(Whatever_Will_Be,_Will_Be)' },
+			{ label: 'Wiktionary: "que sera sera" (etymology as an ungrammatical hispanicization of the Italian phrase, correct Italian quel che sarà sarà, correct sense of "that which")', url: 'https://en.wiktionary.org/wiki/que_sera_sera' },
+			{ label: 'Wikiquote: "Doctor Faustus" (direct quotation of the line "What doctrine call you this, Che serà, serà: What will be, shall be," Act I, scene i)', url: 'https://en.wikiquote.org/wiki/Doctor_Faustus' },
+		],
+	},
 ];

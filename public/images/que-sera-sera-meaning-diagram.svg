@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" font-family="system-ui, -apple-system, sans-serif">
+	<rect width="900" height="600" fill="#f6f4e9"/>
+
+	<rect x="24" y="24" width="852" height="72" rx="10" fill="#3a3a52"/>
+	<text x="450" y="56" text-anchor="middle" fill="#ffffff" font-size="19" font-weight="700">"QUE SERA SERA": NOT CORRECT SPANISH OR ITALIAN, AS WRITTEN</text>
+	<text x="450" y="82" text-anchor="middle" fill="#d8d6e6" font-size="13.5">que/che alone can't carry "that which" the way English "what" does</text>
+
+	<!-- Column 1: the grammar fix -->
+	<rect x="24" y="120" width="270" height="390" rx="10" fill="#fffefa" stroke="#ddd8c4"/>
+	<rect x="24" y="120" width="270" height="48" rx="10" fill="#7a2e2e"/>
+	<rect x="24" y="148" width="270" height="20" fill="#7a2e2e"/>
+	<text x="159" y="150" text-anchor="middle" fill="#ffffff" font-size="14.5" font-weight="700">WHAT'S ACTUALLY MISSING</text>
+
+	<g font-size="13.5">
+		<text x="46" y="196" fill="#5a5648">Popularly written:</text>
+		<text x="46" y="216" font-weight="700" fill="#201f1a">Que será, será</text>
+		<text x="46" y="234" fill="#5a5648">Que serà, serà</text>
+
+		<text x="46" y="272" fill="#5a5648">Standard Spanish:</text>
+		<text x="46" y="292" font-weight="700" fill="#201f1a">Lo que será, será</text>
+
+		<text x="46" y="326" fill="#5a5648">Standard Italian:</text>
+		<text x="46" y="346" font-weight="700" fill="#201f1a">Quel che sarà, sarà</text>
+
+		<text x="46" y="386" font-weight="700" fill="#201f1a">Why "que"/"che" fails</text>
+		<text x="46" y="404" fill="#5a5648">English "what" doubles as</text>
+		<text x="46" y="420" fill="#5a5648">question word and "that</text>
+		<text x="46" y="436" fill="#5a5648">which." Que/che only do</text>
+		<text x="46" y="452" fill="#5a5648">the question-word job;</text>
+		<text x="46" y="468" fill="#5a5648">lo/quel supply the rest.</text>
+	</g>
+
+	<!-- Column 2: before the song -->
+	<rect x="315" y="120" width="270" height="390" rx="10" fill="#fffefa" stroke="#ddd8c4"/>
+	<rect x="315" y="120" width="270" height="48" rx="10" fill="#2f4f6b"/>
+	<rect x="315" y="148" width="270" height="20" fill="#2f4f6b"/>
+	<text x="450" y="150" text-anchor="middle" fill="#ffffff" font-size="14.5" font-weight="700">CENTURIES BEFORE THE SONG</text>
+
+	<g font-size="13.5">
+		<text x="337" y="196" font-weight="700" fill="#201f1a">1525 / 1555</text>
+		<text x="337" y="214" fill="#5a5648">Italian form tied to the</text>
+		<text x="337" y="230" fill="#5a5648">Earls of Bedford, engraved</text>
+		<text x="337" y="246" fill="#5a5648">on a 1555 tomb</text>
+
+		<text x="337" y="282" font-weight="700" fill="#201f1a">1559</text>
+		<text x="337" y="300" fill="#5a5648">Spanish spelling on a brass</text>
+		<text x="337" y="316" fill="#5a5648">plaque, Church of St Nicholas,</text>
+		<text x="337" y="332" fill="#5a5648">Thames Ditton, Surrey</text>
+
+		<text x="337" y="368" font-weight="700" fill="#201f1a">c. 1590</text>
+		<text x="337" y="386" fill="#5a5648">Marlowe's Doctor Faustus:</text>
+		<text x="337" y="402" fill="#5a5648">"Che serà, serà: What will</text>
+		<text x="337" y="418" fill="#5a5648">be, shall be"</text>
+
+		<text x="337" y="454" font-weight="700" fill="#201f1a">1854</text>
+		<text x="337" y="472" fill="#5a5648">Dickens's Hard Times uses</text>
+		<text x="337" y="488" fill="#5a5648">the English-only version</text>
+	</g>
+
+	<!-- Column 3: the song -->
+	<rect x="606" y="120" width="270" height="390" rx="10" fill="#fffefa" stroke="#ddd8c4"/>
+	<rect x="606" y="120" width="270" height="48" rx="10" fill="#4a5a2e"/>
+	<rect x="606" y="148" width="270" height="20" fill="#4a5a2e"/>
+	<text x="741" y="150" text-anchor="middle" fill="#ffffff" font-size="14.5" font-weight="700">HOW A MOVIE PROP BECAME A HIT</text>
+
+	<g font-size="13.5">
+		<text x="628" y="196" font-weight="700" fill="#201f1a">1954</text>
+		<text x="628" y="214" fill="#5a5648">The Barefoot Contessa: a</text>
+		<text x="628" y="230" fill="#5a5648">film family's Italian motto</text>
+		<text x="628" y="246" fill="#5a5648">carved in stone</text>
+
+		<text x="628" y="282" font-weight="700" fill="#201f1a">1955</text>
+		<text x="628" y="300" fill="#5a5648">Livingston &amp; Evans write the</text>
+		<text x="628" y="316" fill="#5a5648">song, respelled Spanish</text>
+
+		<text x="628" y="352" font-weight="700" fill="#201f1a">1956</text>
+		<text x="628" y="370" fill="#5a5648">Doris Day sings it in</text>
+		<text x="628" y="386" fill="#5a5648">Hitchcock's The Man Who</text>
+		<text x="628" y="402" fill="#5a5648">Knew Too Much</text>
+
+		<text x="628" y="438" font-weight="700" fill="#201f1a">Result</text>
+		<text x="628" y="456" fill="#5a5648">#2 Billboard, #1 UK,</text>
+		<text x="628" y="472" fill="#5a5648">1956 Best Original Song</text>
+	</g>
+
+	<!-- Bottom strip -->
+	<rect x="24" y="530" width="852" height="46" rx="10" fill="#e8e3cf" stroke="#ddd8c4"/>
+	<text x="450" y="549" text-anchor="middle" font-size="12" font-weight="700" fill="#3a3a52">A 16TH-CENTURY MOTTO, NOT A 1950S INVENTION</text>
+	<text x="450" y="567" text-anchor="middle" font-size="11.5" fill="#5a5648">The song popularized the phrase; it didn't create it, and neither spelling was ever standard grammar to begin with</text>
+</svg>
