@@ -82,3 +82,15 @@
 **本轮结论：不撰稿、不发送**。未进入 humanizer/avoid-ai-writing 检查、outreach-drafts.md 追加、独立复核、gmail_send.py 发送等后续步骤，因为没有候选通过前置门槛。
 
 **待Owen处理事项**：无。本轮是纯粹的赛道供给不足（活跃播客的嘉宾门槛集体偏学术/出版履历），不是任何身份验证/人机验证/人脉渠道类问题，不需要 Owen 介入，未写入 `独立站/待Owen处理事项.md`。
+
+---
+
+## 2026-09-01（第三次运行——回访验证 + 无新发送）
+
+### 回访验证：Words for Granted（wordsforgranted@gmail.com，2026-08-04发送，28天后）
+
+WebSearch核实该播客近期节目——查到的最新一期是2026-06-22《The Proto-Indo-European Puzzle: Interview with Laura Spinney》，距今约2个多月未见更新，未看到任何提及LingoGrove/ser变位角度的内容。`dataforseo_query.py backlinks lingogrove.com`外链明细共6条，全部来自points3d.com/realrenovations.sarahalee.com/bluetempus.com等一批标注"TG @SEO_LINKK_ORDER"的nofollow外链农场式域名（明显是SEO外链黑产批量铺链，非真实引用），跟wordsforgranted.libsyn.com无关。判定：`still_pending`。
+
+### 本次调研（🎯外链产能集中规则：LingoGrove不在本次前3名内，未分配新研究产能；且LingoGrove为压制中站，即使有产能本轮也不投放）
+
+不在本次11-30位曝光排名前3（WageLark/UmberLore/MythCairn），且LingoGrove目前处于August 2026 spam update算法压制期（8/24起，详见`独立站/流量站矩阵风险应对追踪.md`），本轮不做新的播客调研，仅完成上述回访验证。
