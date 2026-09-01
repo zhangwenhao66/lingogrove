@@ -1389,3 +1389,59 @@
   "pending_for_owen": null
 }
 ```
+
+## 2026-09-01 完整审计：`french-articles`
+
+```json
+{
+  "url_slug": "french-articles",
+  "last_audited": "2026-09-01",
+  "published_date": "2026-08-09",
+  "note": "本站第21次由trafficsite-content-quality-audit完整审计。选中原因：content-audit-log.md此前仅覆盖20个slug，`french-articles`在guides.ts数组顺序中是排在最后一次已审计条目`spanish-accent-marks`（08-31）之后的第一个从未被此任务审计过的slug，按既定'从未审计=最旧'规则+数组位置tiebreak选定。",
+  "checklist_this_article": [
+    "à/de与le/les的强制融合规则（au/aux/du/des）+与la/l'完全不融合的不对称性是否真实、有无例外（重点核查Le Havre/Le Caire一类以Le开头的地名是否是反例）",
+    "négation把un/une/des/du/de la/de l'收缩为de/d'的规则，文章自称'两个例外'（être linking verb + implicit contrast）是否真的穷尽——文章自己引用的OQLF来源全文是否还有第三种情况",
+    "'des'身兼三职（indefinite plural/partitive plural/de+les缩合）这一框架本身的完整性，以及FAQ/正文是否有未经sources[]支持的具体断言",
+    "6条sources（5条Larousse+2条OQLF）是否均可达、内容是否真的支持紧邻它们的具体论断（非仅'链接存在且主题相关'）",
+    "FAQ与正文/coreSummary是否存在近乎逐字复述（L-0819-9机械检查项，本站近期审计高发）"
+  ],
+  "findings": [
+    { "dimension": "事实准确性", "status": "确认发现问题，独立复核确认为真，已修复", "detail": "coreSummary+正文'Negation flips the article to de'小节+FAQ均断言négation-to-de规则只有'两个例外'（être linking verb、implicit contrast），但文章自己`sources[]`列出的OQLF原始页面（de-dans-une-phrase-negative）直接curl抓取确认全文分三段并列：①opposition/contrast②être后的attribut③'par ailleurs，avec ne...que，qui exprime une restriction et non une négation，l'article indéfini et l'article partitif sont généralement maintenus'（原文举例Nous n'avons que des compliments à te faire）。文章只覆盖了①②，完全遗漏③，且③就在文章自己引用的同一个来源页面里，未被读到——命中教训库L-0804-4'只读了来源一部分就下全称判断'同类失效模式。独立agent直接抓取该OQLF页面原文确认三段并存、且核实ne...que是主流教科书级别的常见语法点（非冷门/边缘规则），判定CONFIRMED。顺带发现姊妹文章`french-negation`（本身设有专门小节讲解ne...que不是真否定）在复述同一条négation-to-de规则时同样只写'两个例外'，同一遗漏在两篇文章各出现一次。" },
+    { "dimension": "à/de融合规则完整性", "status": "未发现问题", "detail": "WebSearch专门核实Le Havre/Le Caire等以Le开头的地名是否是融合规则的反例——确认两者均正常融合（au Havre/au Caire，非à Le Havre/à Le Caire），文章'à and de fuse with le and les whenever a definite article follows them, never with la or l''这一表述对本文覆盖的场景（普通名词+地名）准确无例外，未发现L-0804-2式的绝对化断言反例。" },
+    { "dimension": "EEAT", "status": "未发现问题", "detail": "6条来源（5条Larousse词典具体词条+2条OQLF语法参考页）均对应正文具体规则模块，非泛泛引用；每条规则均配真实法语例句+翻译。" },
+    { "dimension": "时效性", "status": "不适用", "detail": "语法参考内容，Larousse/OQLF均为持续更新的在线权威源（非版本化印刷出版物），无'更新版权威来源'概念，published/updated分别为2026-08-09/2026-09-01，无过时风险。" },
+    { "dimension": "竞品差异化", "status": "未发现问题", "detail": "`dataforseo_query.py serp \"french articles le la les\"`实测：本文未进入前12（lawlessfrench.com/busuu.com/mylinguistics.com/preply.com/lingoculture.com等占据前排，多为基础列举型页面）。核对竞品标题判断本文的négation-to-de规则深度讲解+现已补全的三例外+'des'三重身份拆解，构成竞品同类页面通常未覆盖的真实增量，非冗余内容。" },
+    { "dimension": "SEO技术审计", "status": "未发现问题", "detail": "`Skill(seo-audit)`+curl实测：单一H1、canonical自引用、robots meta无拦截、图片alt文本描述性强（自制SVG）；`check_seo_field_stats.py`——title 73字符z=1.32、description 146字符z=-0.95，前者越过z>=1阈值触发额外核查，独立agent核实73字符标题因大量窄字符(l/i/逗号)实际像素宽度远低于Google截断阈值，且被截断部分不含核心关键词，判定非真实问题。" },
+    { "dimension": "GEO审计", "status": "未发现需强化的薄弱维度", "detail": "`Skill(ai-seo)`可提取性清单核对：定义段清晰在前、FAQ均为自包含短答、schema三项(Article/FAQPage/BreadcrumbList)完整、6条引用来源可核实、robots.txt对全部主流AI爬虫(GPTBot/ChatGPT-User/ClaudeBot/PerplexityBot/Google-Extended)显式Allow、ads.txt正确、schema author/dateModified/datePublished与guides.ts一致。未发现<80分维度，未做额外结构性GEO编辑。" },
+    { "dimension": "早期内容AI味回补", "status": "不适用", "detail": "published=2026-08-09晚于avoid-ai-writing强制化生效日(2026-08-07)，不触发本条硬检查；本次新增/改写内容单独过了humanizer+avoid-ai-writing人工复核。" },
+    { "dimension": "外部引用链接腐烂", "status": "未发现问题", "detail": "curl实测6条sources全部200（5条Larousse+2条OQLF），非403反爬拦截也非死链，内容与被引用论断匹配。" },
+    { "dimension": "内链健康度", "status": "未发现问题，非孤儿页", "detail": "grep确认被french-imperative/german-adjective-endings/french-negation/german-genitive或german-cases/russian-cases等5篇以上姊妹文章手写锚文本引用，锚文本各不相同、桥接句描述准确；本文自身正文含1条出站内链(/deja-vu-meaning/)，grep确认slug真实存在。" },
+    { "dimension": "Schema数据一致性", "status": "已同步", "detail": "本次编辑涉及coreSummary/正文小节/FAQ文字与updated日期，不涉及faq/sources数组结构（字段形状未变）；构建后curl解析线上页面确认Article/FAQPage/BreadcrumbList三项JSON-LD均正确渲染，dateModified/datePublished与guides.ts一致（updated已改为2026-09-01，published保留原值2026-08-09未回填）。" },
+    { "dimension": "合规/敏感度漂移", "status": "不适用", "detail": "纯语法参考内容，无俚语/粗俗语/敏感群体表述，无合规风险。" },
+    { "dimension": "配图可用性与版权", "status": "未发现问题", "detail": "public/images/french-articles-diagram.svg为站内自制SVG（非第三方图片，无版权问题），curl实测200正常渲染，本次未改动SVG内容。" },
+    { "dimension": "AdSense政策合规", "status": "未发现问题", "detail": "语法教学内容，无敏感类目风险；ads.txt实测正确指向pub-5245502795720653；robots.txt未拦截任何AI爬虫；privacy/about页面均200可访问。" },
+    { "dimension": "机械检查：'rather than/instead of'密度（L-0820-2）", "status": "确认为脚本对本体裁的假阳性，独立复核后未改写", "detail": "`check_prose_patterns.py`报警11次/1430词（阈值总数>4或密度>1/200词）。独立agent逐句核对全部11处，确认均为精确表达对立语法范畴（quantity vs identity、count vs mass、indefinite vs definite等）所必需的语言，本文体裁本身就是一系列语法A-vs-B对比，非填充式重复。判定'insufficient evidence / not a problem'，本次未强行改写（与下一条FAQ重合的处理原则不同：FAQ重合可以在不损失准确性的前提下换用不同措辞化解，但去掉这11处'rather than'很可能需要牺牲语法表达的精确度，风险收益不对等，且该发现未被CONFIRMED，按'只对CONFIRMED发现采取行动'的规则不应强改）。" },
+    { "dimension": "机械检查：FAQ与正文近乎逐字复述（L-0819-9）", "status": "确认发现问题，独立复核确认为真，已修复", "detail": "首次运行命中5条FAQ答案与正文/coreSummary≥20字符逐字重合。独立agent综合判定：FAQ#1-3为可独立改写的规则复述型laziness，CONFIRMED需FIX；FAQ#4（重合片段为OQLF机构全称）、FAQ#5（重合片段为已用例句'le prix des billets'及翻译）技术上属于'专有名词/固定例句复用'合理重复，本可LEAVE。比照本站`spanish-accent-marks`（08-31）审计先例——该次同样遇到判定LEAVE的2类重合，仍因'脚本无白名单机制、退出码0是硬性前置条件'全部改写——本次同样追加5轮迭代改写（机构全称改用描述性回指、例句换用新例句'la couleur des murs'及其他重合片段逐一化解），最终`check_prose_patterns.py`该项达到退出码0。改写过程中人工复核发现FAQ#2问答语气一度不匹配（问句是'when...when'开放式，答案误写成'Yes,'开头），已同步修正。" }
+  ],
+  "independent_verification": "本轮Step3共4次独立agent调用，全部正常完成、无卡死、无需看门狗降级：①négation-to-de'两个例外'是否遗漏第三种——直接抓取文章自引的OQLF原始页面确认三段并存，CONFIRMED；②标题长度z=1.32是否构成真实截断风险——核实73字符标题因窄字符实际像素宽度远低于阈值，insufficient evidence；③'rather than/instead of'密度11次/1430词是否为AI填充式重复——核实为本体裁固有的精确对比语言，insufficient evidence；④FAQ与正文5处逐字重合逐条判定——FAQ#1-3 CONFIRMED需FIX，FAQ#4/#5判定为专有名词/固定例句合理重复本可LEAVE（后比照站内既有先例仍改写以达成退出码0，非独立agent要求）。",
+  "actions_taken": [
+    "coreSummary + 正文'Negation flips the article to de'小节heading与body均从'两个例外'改为'三个例外'，补充ne...que限制结构及OQLF原文举例(Nous n'avons que des compliments à te faire)",
+    "姊妹文章`french-negation`同款'两个例外'断言同步修复为'三个例外'并补充ne...que说明（该文章本身尚未被此任务完整审计，仅修复此处顺带发现的同款遗漏，不视为其正式审计）",
+    "FAQ#1-3改写为独立措辞，不再与coreSummary/正文逐字重合；FAQ#4改用'the same Quebec-government grammar authority cited above'描述性回指替代机构全称重复，配套问题/例句改为Ce n'est pas une erreur以避免与正文示例重复；FAQ#5例句由已用的'le prix des billets'换成'la couleur des murs'，并改写'unrelated jobs'等重合措辞；FAQ#2问答语气不匹配（'when...when'问句配'Yes,'答案）同步修正为'With le and les, always:'",
+    "updated字段从2026-08-09改为2026-09-01（两篇均已存在published字段，未触发L-0809-1回填流程，french-articles published=2026-08-09、french-negation published=2026-08-11均保留原值）",
+    "Skill(humanizer)+Skill(avoid-ai-writing)人工复核全部新增/改写段落，无AI味残留",
+    "npm run build 84页全部通过（本次未涉及tools/conjugate.mjs，npm test跳过）",
+    "check_prose_patterns.py迭代约10轮改写后，FAQ重合/'s own'归因/连字符三项达到退出码0；'rather than/instead of'密度项因独立验证判定非真实问题，刻意保留未改写（脚本整体退出码仍为1，原因已在findings中明确说明，非放弃机械检查）",
+    "seo_drift.py baseline先于编辑存基线，两轮编辑后compare均仅命中预期内WARNING（schema内容变化=dateModified/FAQ文本编辑），无CRITICAL",
+    "git commit（f8879e2负例外补全、222b9d2 FAQ重合最终改写、7e5937a发布日志）+ push，Cloudflare Pages git自动部署（本站无独立deploy hook）",
+    "curl绕缓存轮询确认https://lingogrove.com/french-articles/与https://lingogrove.com/french-negation/均返回200且改动已生效（'three real exceptions'/'la couleur des murs'均命中）",
+    "node tools/submit-indexnow.mjs对两个slug分别提交，/french-articles/因追加修复共提交2次（均Bing 200 / Yandex 200）",
+    "内容发布日志.md追加本条审计更新记录"
+  ],
+  "seo_score": "技术SEO全项通过（标题长度z=1.32经独立验证判定非真实截断风险），未发现需修复项",
+  "geo_score": "定性评估达标，未发现<80分维度，未做额外结构性GEO编辑，无before/after对比",
+  "escalation": null,
+  "pending_for_owen": null,
+  "lessons_library_note": "命中L-0804-4'只读了来源一部分就下全称判断'同类失效模式，已在独立站/内容通用教训库.md该条目下追加复发记录；未发现新的跨站可泛化问题需新增词条。check_prose_patterns.py对'专有名词/固定例句复用'类FAQ重合无法区分真假阳性这一脚本局限性，已在本条note中记录，未改脚本本身（超出本次审计范围）。"
+}
+```
