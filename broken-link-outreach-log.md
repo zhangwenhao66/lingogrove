@@ -251,3 +251,16 @@ curl复查 `/spanish/resources` 与 `/french/resources`（均HTTP 200），两�
 2. **意大利语/日语的匹配瓶颈是站内内容深度，不是死链数量**：本轮11条真实404里，意大利语和日语相关的死链其实数量不少（Ohio Italian、Bodleian Italian、Mt Holyoke Italian x2、Wellesley Italian x2、Rockhurst Japanese），但LingoGrove这两个语种各自只有1-2篇文章，导致内容匹配这一关几乎全部卡死。**这是内容生产缺口，不是外链挖掘方法的问题**——除非LingoGrove的意大利语/日语内容库先扩充，否则这两个方向的断链置换产出率会持续偏低，建议下次linkable-asset-planning任务参考本发现
 3. **图书馆自建检索系统需要作为一类整体过滤，不能逐条判断**：本轮Edinburgh一个页面就贡献了365条`library.ed.ac.uk`内部检索结果链接，如果不整体过滤会严重拖慢候选池筛选效率且这类链接从不构成真正的"第三方资源"机会，本轮补充的过滤规则（library./libraries./primo.exlibrisgroup.com/proxy/idm.oclc.org等）值得固化进以后的手写curl方案模板
 4. **同一域名重复失效可跨页面互证**：ilovelanguages.com在Wabash（Spanish）和本轮Ohio（Italian）两个不同来源页上都失效，coerll.utexas.edu/ra/index.php在CSUB和Wellesley两个来源页上都失效，说明这类"死链域名"一旦确认，可以用来快速排查其他资源页而不必逐个重新验证目标域名本身是否可达
+
+---
+
+## 2026-09-02（第0步续：核实旧pitch）
+
+核对全文历史"已发送"记录，找出**08-23或更早、从未验证过**的最早一条：`beckj@wabash.edu`（Wabash College Lilly Library Spanish资源指南，2026-08-16发送，Message ID `1a00945a1beab9a7`）。
+
+- `curl --compressed -A "Mozilla/5.0..." -L https://library.wabash.edu/spanish/web`：HTTP 200，页面仍含1处`ilovelanguages`死链原样未换，全文无`lingogrove`字样。
+- `python3 dataforseo_query.py backlinks lingogrove.com --limit 100`：外链明细共6条，全部是2026-08-21至08-31新出现的垃圾TG SEO外链（points3d.com/bluetempus.com等，均指向`/ser-vs-estar/`且标注同一Telegram推广来源"@SEO_LINKK_ORDER"，与本次核实的pitch无关），未查到wabash.edu引荐域名。
+- **判定：`not_replaced`。**
+- 发出已17天，`gmail_send.py list --query "from:beckj@wabash.edu"`返回空确认对方从未回复，Wabash College图书馆是真实高校机构资源指南，具备真实权威度，符合跟进条件。撰写1-2句简短跟进邮件（过Skill(humanizer)+Skill(avoid-ai-writing)人工核对，无破折号/AI高频词），`gmail_send.py send --from lingogrove --reply-to 1a00945a1beab9a7`，Message ID `1a062428ae10247a`。**标记 `followed_up_once`。**
+
+**累计口径**：LingoGrove断链置换战术累计已发送6封pitch（含本轮1封跟进）；已验证`not_replaced` 2条、`verified_live_backlink_confirmed` 0条，转化率仍为0。
