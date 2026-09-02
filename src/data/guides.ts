@@ -6445,4 +6445,93 @@ export const guides: Guide[] = [
 			{ label: 'Wikiquote: "Doctor Faustus" (direct quotation of the line "What doctrine call you this, Che serà, serà: What will be, shall be," Act I, scene i)', url: 'https://en.wikiquote.org/wiki/Doctor_Faustus' },
 		],
 	},
+	{
+		slug: 'cabron-meaning',
+		category: 'Loanwords',
+		title: 'Cabrón Meaning: RAE Ranks "Male Goat" Sixth Out of Nine Definitions',
+		description: 'Cabrón literally means a male goat, cabra plus the augmentative suffix -ón. RAE ranks that literal sense sixth out of nine, behind five vulgar or colloquial meanings.',
+		published: '2026-09-02',
+		updated: '2026-09-02',
+		coreSummary: 'Cabrón is built from cabra ("goat," from Latin capra) plus -ón, the Spanish augmentative suffix, so it literally names a large male goat. RAE\'s dictionary entry lists nine numbered senses for the word, and the literal goat ranks sixth, behind five colloquial or vulgar meanings that range from "bothersome" to a Mexico-specific "bad character." ASALE\'s Diccionario de americanismos (DAMER) separately documents the word as an "inseparable friend" in Mexico, Guatemala, El Salvador, and Nicaragua, and, under a related sense, as a term tied to profiting from prostitution in Bolivia, Chile, Ecuador, and Venezuela plus, rarely, Peru, a list that mostly overlaps the four countries RAE\'s own dictionary lists for its closely related pimp sense, so which sense lands depends entirely on the country, the relationship, and the tone.',
+		language: 'Spanish',
+		usageNote: {
+			register: 'vulgar',
+			regionNote: 'RAE and DAMER both record a Cuba-linked "experienced and astute" sense; RAE extends it to México as well, while DAMER keeps it Cuba-only. The two dictionaries also independently document a closely related sense, tied to profiting from prostitution: RAE lists it for Bolivia, Chile, Ecuador, and Venezuela; DAMER\'s version covers those same four countries plus a fifth, Peru, tagged as rarely used there. Under a separate, gendered "cabrón, -na" entry, DAMER documents its own additional set of senses: "bad character" for Mexico, Honduras, El Salvador, Argentina, and Uruguay; "irritated, annoyed" for El Salvador and Cuba; "an inseparable friend" (vulgar, affectionate) for only Mexico, Guatemala, El Salvador, and Nicaragua; and a broader, Bolivia-only sense for someone who facilitates other people\'s sexual relations for profit. Directed at a stranger, in Spain or Latin America alike, cabrón functions as a straightforward insult; among people who already trust each other, especially in Mexico, the same word can flip into a term of respect instead.',
+		},
+		sections: [
+			{
+				heading: 'Cabra plus -ón: how a she-goat\'s name became a man\'s insult',
+				body: [
+					'Spanish cabra, "goat," descends from Latin capra, which named specifically the female goat; the male in Latin was caper. Spanish does have a word built directly on that masculine root: cabro, which Wiktionary\'s etymology tree traces through Proto-Italic *kapros back to Proto-Indo-European *kápros. Wiktionary glosses cabro\'s main sense simply as "male goat," unmarked for region; a separate, unrelated sense of that same word, "kid" or "boy," carries its own regional tag for Chile, Paraguay, and Puerto Rico. Cabrón took a different path from the same starting point. Wiktionary\'s own entry for the word derives it as "augmentative of cabra": built from the feminine noun plus -ón, the suffix Spanish uses to form "large" or "male" versions of several animal names, not inherited from a separate masculine root at all. The two words end up listed as synonyms of each other on Wiktionary, two different routes converging on nearly the same meaning; Wiktionary\'s own related-terms list for cabrón adds a third, cabronazo, an intensified variant built on the same root.',
+					'The pattern isn\'t unique to Spanish. Wiktionary\'s entry lists related forms across the Romance languages built the same way, off the same Latin root: Portuguese cabrão, Italian caprone, Venetan cavron, and Catalan cabró. What is unusual about the Spanish word is how far its figurative sense strayed from the animal. RAE\'s own entry ranks the literal goat sixth out of nine numbered senses, meaning a reader working through the dictionary in order meets five separate vulgar or colloquial meanings before ever reaching the barnyard.',
+				],
+				image: {
+					src: '/images/cabron-meaning-diagram.svg',
+					alt: 'Diagram showing cabra plus the augmentative suffix -ón forming cabrón, RAE\'s nine numbered senses with the literal "male goat" ranked sixth behind five vulgar or colloquial meanings, and three real-world reactions to the word: an insult directed at a stranger, a term of respect among friends in Mexico and Central America, and an adjective meaning "tough" or "impressive."',
+				},
+			},
+			{
+				heading: 'RAE\'s nine senses, and where "goat" actually ranks',
+				body: [
+					'RAE\'s entry for cabrón, cabrona lists the senses in this order: (1) said of a person, animal, or thing that plays dirty tricks or is a nuisance; (2) said of a man who suffers his wife\'s infidelity, especially if he tolerates it; (3), specific to Cuba and Mexico, an experienced and astute person; (4), specific to Cuba, someone irritated or in a bad mood; (5), specific to Mexico, a person of bad character; (6) the literal male goat; (7) diablo, "the devil," used with the definite article as el cabrón; (8) a man who cowardly puts up with insults directed at him; and (9), specific to Bolivia, Chile, Ecuador, and Venezuela, a pimp who traffics in prostitutes. Senses 1 through 5 all carry RAE\'s malson (vulgar) or coloq (colloquial) labels; only the literal goat and the devil sense sit outside that warning.',
+					'Gustavo Arellano, who writes the syndicated column "Ask a Mexican," made the identical point to a reader in 2017, independently matching RAE\'s own numbering: "There is a literal definition to cabrón—\'male goat.\' But even the Real Academia Española doesn\'t care much for that that meaning [sic], relegating the ruminant to the sixth slot in the word\'s dictionary listing." His column answered a reader who worked at a Mexican restaurant and kept hearing the word without ever getting a straight answer about what it meant, which is close to the situation this section is written to fix.',
+				],
+			},
+			{
+				heading: 'Same word, opposite reactions: stranger versus friend',
+				body: [
+					'Arellano\'s column spells out the split directly: "You don\'t want to call a stranger in Mexico a cabrón, because it means \'asshole\' in that context. But among friends, cabrón is used as a form of respect (\'Él es cabrón\'—he\'s a badass) and as a meme." Nothing about the word itself changes between those two uses; what changes is who\'s speaking, who\'s listening, and how much trust already exists between them.',
+					'Cabrón also works as an adjective describing a situation, not a person, and that use shows up constantly in everyday Mexican Spanish. Learn Mexican Slang\'s guide to the word gives a real example sentence for a complaint: "Ese examen estuvo bien cabrón" ("That exam was seriously hard"). The identical construction also carries admiration: "Ese portero es un cabrón, paró todos los penales" ("That goalkeeper is a beast, he saved every penalty"). The same source notes a small grammatical wrinkle: when the adjective describes a feminine noun, like la economía or la situación, it agrees in gender and becomes cabrona, as in "La economía está cabrona ahorita" ("The economy is really rough right now"), independent of anything to do with a person named cabrona.',
+					'Among close male friends specifically, cabrón also functions as a greeting on its own, the way "dude" or "man" can open a sentence in English: "¿Qué onda, cabrón?" ("What\'s up, man?"). Used that way it isn\'t an insult in even a joking sense; it\'s closer to a marker of familiarity, one more sign that this word\'s meaning lives almost entirely in context, with no single definition covering all of it.',
+				],
+			},
+			{
+				heading: 'Cabrón across the Spanish-speaking world',
+				body: [
+					'DAMER\'s gendered "cabrón, -na" entry shows the word splitting along real regional lines, not shading gradually from "mild" to "severe," and the boundaries rarely match each other the way a first glance suggests. Its "bad character" sense covers Mexico, Honduras, El Salvador, Argentina, and Uruguay; its "inseparable friend" sense, the affectionate one, covers a narrower, different list: Mexico, Guatemala, El Salvador, and Nicaragua. The two overlap only in Mexico and El Salvador, so a Honduran or Argentine speaker who knows the insult sense isn\'t necessarily working from the same regional vocabulary as a Guatemalan or Nicaraguan speaker who knows the friendly one. El Salvador and Cuba separately share a sense for someone irritated or annoyed, unrelated to either list. DAMER also carries a second, ungendered "cabrón" headword with its own regional map: an experienced-and-astute sense confined to Cuba alone (RAE\'s version of the same sense stretches to México too), and a sense tied to profiting from prostitution, naming Bolivia, Chile, Ecuador, and Venezuela just as RAE\'s own separate pimp sense does, plus a fifth jurisdiction, Peru, that DAMER tags as a rarely used extension RAE doesn\'t carry at all.',
+					'Spain sits closer to the plain-insult end of that range than Mexico does. RAE\'s own entry, written from Spain, lists the affectionate-friend sense nowhere in its nine numbered definitions; that sense is DAMER\'s addition, and DAMER is specifically a dictionary of Americanisms, words and senses documented in the Americas, not on the Peninsula. That doesn\'t prove the friendly use never happens in Spain, only that no academy dictionary has codified it there the way DAMER has for Mexico and Central America. The plain-insult sense stays the safer default assumption there, while in Mexico cabrón can open a friendly sentence the way "dude" does in English, with no equivalent codified habit on the Peninsula.',
+				],
+			},
+			{
+				heading: 'Cabrón versus cabrona: why the feminine form doesn\'t inherit everything',
+				body: [
+					'RAE labels its nine senses by grammatical type, and the split matters for how cabrona works. Senses 1 through 5 are adjectives, meaning they agree with whatever noun they describe and apply equally to a man or a woman: cabrón in the masculine, cabrona in the feminine. Senses 6 through 9, the literal goat, the devil, the man who tolerates insults aimed at him, and the pimp, are all listed as m., masculine nouns describing a male referent specifically. RAE\'s own entry doesn\'t define a feminine-noun counterpart for any of those four senses.',
+					'The gender split runs in the opposite direction from [mamacita](/mamacita-meaning/), where Wiktionary documents an extra, region-marked slang sense attached specifically to the feminine form, with no equivalent listed for the masculine papacito. Cabrón\'s extra weight sits entirely on the masculine noun senses instead; cabrona doesn\'t inherit the goat, the devil, the tolerant husband, or the pimp, because none of those senses describes a woman in the first place. Where cabrona does carry its own charge is in the adjective range DAMER and everyday usage both document: Learn Mexican Slang\'s guide describes calling a woman cabrona as landing either as a compliment, "tough, brave, takes no nonsense," most often when women use it with each other, or as a severe insult when a man directs it at a woman aggressively, the same context-over-content pattern that runs through every other sense of this word.',
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'What does "cabrón" literally mean?',
+				answer: 'A male goat. Cabra is the Spanish word for "goat," tracing back to a Latin term that originally referred only to females, and -ón is the suffix that builds bigger, male-specific forms of a number of animal words. Every figurative meaning a modern speaker reaches for, whether it lands as an insult or as praise, grew on top of that barnyard root.',
+			},
+			{
+				question: 'Is "cabrón" always an insult?',
+				answer: 'No, and calling a stranger that carries far more risk than using it with a friend. DAMER records the same word describing someone practically like family across Mexico and neighboring Central American countries, and it can open a casual greeting or express admiration instead of insulting anyone.',
+			},
+			{
+				question: 'What does "está cabrón" mean?',
+				answer: 'Used as an adjective, cabrón describes how hard or how impressive something is, not a person\'s character. A tough test, a rough economy, or a jaw-dropping goalkeeper save can all get labeled cabrón (or cabrona, if the noun it agrees with is feminine) in ordinary conversation.',
+			},
+			{
+				question: 'Is "cabrón" used the same way in Spain as in Mexico?',
+				answer: 'Not entirely. An affectionate "friend" sense for the word comes from DAMER, ASALE\'s separate reference for Americanisms, and it\'s documented only for a specific handful of Central American countries, not the language as a whole. The word can still land warmly between close friends in Spain, but the plain-insult reading stays its more consistent default there.',
+			},
+			{
+				question: 'Does "cabrona" carry the same range of meanings as "cabrón"?',
+				answer: 'Partly. RAE lists cabrón/cabrona\'s adjective senses (bothersome, experienced, irritated, bad-tempered) as applying grammatically to either gender. But four of its senses are grammatically masculine, written around a man as the subject, and RAE gives none of them a listed feminine counterpart, so cabrona doesn\'t automatically inherit them. Directed at a woman, the word typically lands either as praise for being tough and outspoken, or as something much harsher, depending heavily on who\'s speaking.',
+			},
+			{
+				question: 'Where does the "cuckold" sense of "cabrón" come from?',
+				answer: 'RAE\'s entry only states that the word describes a husband whose wife has been unfaithful, particularly one who puts up with it, without explaining why a goat\'s name attached to that meaning. The connection is commonly traced to European folklore linking horns, real or symbolic, to a betrayed husband, the same imagery behind English "to cuckold" and comparable horn-based idioms in French and Italian, though no source cited here confirms that mechanism as this specific word\'s actual origin.',
+			},
+		],
+		sources: [
+			{ label: 'Real Academia Española (RAE): "cabrón, cabrona" (all nine numbered senses, grammatical labels, malson/coloq markings)', url: 'https://dle.rae.es/cabr%C3%B3n' },
+			{ label: 'ASALE, Diccionario de americanismos (DAMER): "cabrón, cabrona" (country-by-country regional senses: friend, bad character, pimp, and more)', url: 'https://www.asale.org/damer/cabr%C3%B3n' },
+			{ label: 'Wiktionary: "cabrón" (etymology from cabra + -ón, literal "billy goat" sense, Romance-language cognates)', url: 'https://en.wiktionary.org/wiki/cabr%C3%B3n' },
+			{ label: 'Coachella Valley Independent, Gustavo Arellano, "Ask a Mexican: What Does It Mean When My Co-Workers Call Me \'Cabron\'?" (March 1, 2017)', url: 'https://cvindependent.com/2017/03/ask-a-mexican-what-does-it-mean-when-my-co-workers-call-me-cabron/' },
+			{ label: 'Learn Mexican Slang: "How to Use \'Cabrón\' Like a Native Mexican Speaker" (example sentences, cabrón/cabrona adjective use, greeting use)', url: 'https://learnmexicanslang.com/blog/how-to-use-cabron-like-a-native-mexican-speaker' },
+		],
+	},
 ];

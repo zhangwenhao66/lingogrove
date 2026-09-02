@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 480" font-family="Georgia, 'Times New Roman', serif">
+	<rect width="900" height="480" fill="#f5f1e6"/>
+
+	<text x="450" y="38" text-anchor="middle" font-size="21" fill="#2b2420" font-weight="bold">Cabra + -ón: "big goat" becomes nine different things</text>
+
+	<rect x="30" y="60" width="400" height="390" rx="10" fill="#fffdf8" stroke="#c9bfa0"/>
+	<rect x="470" y="60" width="400" height="390" rx="10" fill="#fffdf8" stroke="#c9bfa0"/>
+
+	<rect x="30" y="60" width="400" height="46" rx="10" fill="#5c3a2a"/>
+	<rect x="30" y="88" width="400" height="18" fill="#5c3a2a"/>
+	<text x="230" y="90" text-anchor="middle" fill="#ffffff" font-size="16.5" font-weight="700">RAE'S 9 SENSES: "GOAT" RANKS 6TH</text>
+
+	<rect x="470" y="60" width="400" height="46" rx="10" fill="#3a4a2a"/>
+	<rect x="470" y="88" width="400" height="18" fill="#3a4a2a"/>
+	<text x="670" y="90" text-anchor="middle" fill="#ffffff" font-size="16.5" font-weight="700">SAME WORD, OPPOSITE REACTIONS</text>
+
+	<g fill="#201f1a" font-size="12.5">
+		<text x="50" y="130">1. malas pasadas — bothersome (person/animal/thing)</text>
+		<text x="50" y="152">2. hombre — tolerates wife's infidelity</text>
+		<text x="50" y="174">3. Cuba/Méx. — experienced, astute</text>
+		<text x="50" y="196">4. Cuba — irritated, in a bad mood</text>
+		<text x="50" y="218">5. Méx. — bad character</text>
+	</g>
+
+	<rect x="42" y="230" width="376" height="34" rx="6" fill="#e9dcc4"/>
+	<text x="230" y="252" text-anchor="middle" font-size="13.5" fill="#5c3a1a" font-weight="700">6. macho de la cabra — literal "male goat"</text>
+
+	<g fill="#201f1a" font-size="12.5">
+		<text x="50" y="288">7. diablo — "el cabrón," the devil</text>
+		<text x="50" y="310">8. m. — cowardly tolerates insults aimed at him</text>
+		<text x="50" y="332">9. Bol., Chile, Ec., Ven. — pimp</text>
+	</g>
+
+	<line x1="50" y1="356" x2="410" y2="356" stroke="#c9bfa0"/>
+	<text x="50" y="378" fill="#5a5240" font-size="12">Five vulgar/colloquial senses outrank the</text>
+	<text x="50" y="396" fill="#5a5240" font-size="12">literal goat before RAE ever reaches it.</text>
+	<text x="50" y="418" fill="#5a5240" font-size="11.5" font-style="italic">RAE, dle.rae.es</text>
+
+	<rect x="490" y="120" width="360" height="70" rx="8" fill="#f3e2df" stroke="#a85c52" stroke-width="1.5"/>
+	<text x="670" y="145" text-anchor="middle" font-size="14" fill="#7a2a20" font-weight="700">To a stranger</text>
+	<text x="670" y="166" text-anchor="middle" font-size="12.5" fill="#6b3128">functions as "asshole" — a real insult</text>
+	<text x="670" y="182" text-anchor="middle" font-size="12.5" fill="#6b3128">DAMER + RAE senses 1, 4, 5, 8</text>
+
+	<rect x="490" y="204" width="360" height="80" rx="8" fill="#e2ecdb" stroke="#5c7a4a" stroke-width="1.5"/>
+	<text x="670" y="229" text-anchor="middle" font-size="14" fill="#2f4a22" font-weight="700">Among friends (Mex., Guat., El Salv., Nic.)</text>
+	<text x="670" y="250" text-anchor="middle" font-size="12.5" fill="#3c5a2c">"inseparable friend" per DAMER — vulgar, affectionate</text>
+	<text x="670" y="266" text-anchor="middle" font-size="12.5" fill="#3c5a2c">"Él es cabrón" = he's a badass — a form of respect</text>
+
+	<rect x="490" y="296" width="360" height="66" rx="8" fill="#e6e2f0" stroke="#6b5c9a" stroke-width="1.5"/>
+	<text x="670" y="320" text-anchor="middle" font-size="14" fill="#3a2f5c" font-weight="700">As an adjective</text>
+	<text x="670" y="341" text-anchor="middle" font-size="12.5" fill="#443a5c">"está cabrón" = tough, hard, impressive</text>
+	<text x="670" y="357" text-anchor="middle" font-size="12.5" fill="#443a5c">e.g. "el examen estuvo muy cabrón"</text>
+
+	<line x1="490" y1="378" x2="850" y2="378" stroke="#c9bfa0"/>
+	<text x="490" y="400" fill="#5a5240" font-size="12">Same speaker, same word — tone and</text>
+	<text x="490" y="418" fill="#5a5240" font-size="12">relationship decide which reaction lands.</text>
+</svg>
