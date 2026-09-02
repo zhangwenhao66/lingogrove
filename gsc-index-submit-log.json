@@ -355,5 +355,20 @@
     ],
     "already_indexed_no_action": [],
     "quota_used": "1 of shared account-wide daily quota"
+  },
+  {
+    "date": "2026-09-02",
+    "action": "submitted",
+    "reason": "trafficsite-gsc-index-requests例行运行，游标停留位DayAlmanac，LingoGrove排第3位，今日无新发布。检查habibi-meaning/de-nada-meaning/inshallah-meaning均已收录，改用Page indexing报告Discovered-not-indexed列表找到french-past-participle提交成功。第二轮french-reflexive-verbs（同报告列表）提交成功。",
+    "submitted_urls": [
+      "https://lingogrove.com/french-past-participle/",
+      "https://lingogrove.com/french-reflexive-verbs/"
+    ],
+    "already_indexed_no_action": [
+      "https://lingogrove.com/habibi-meaning/",
+      "https://lingogrove.com/de-nada-meaning/",
+      "https://lingogrove.com/inshallah-meaning/"
+    ],
+    "quota_used": "2 of shared account-wide daily quota"
   }
 ]
