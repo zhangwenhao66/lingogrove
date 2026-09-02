@@ -1445,3 +1445,50 @@
   "lessons_library_note": "命中L-0804-4'只读了来源一部分就下全称判断'同类失效模式，已在独立站/内容通用教训库.md该条目下追加复发记录；未发现新的跨站可泛化问题需新增词条。check_prose_patterns.py对'专有名词/固定例句复用'类FAQ重合无法区分真假阳性这一脚本局限性，已在本条note中记录，未改脚本本身（超出本次审计范围）。"
 }
 ```
+
+## 2026-09-02 完整审计：`spanish-possessive-adjectives`
+
+```json
+{
+  "url_slug": "spanish-possessive-adjectives",
+  "last_audited": "2026-09-02",
+  "published_date": "2026-08-09",
+  "note": "跨站排序按'最久未审计站点优先'规则（读10站content-audit-log.md最后一次git提交时间，DialWick 17:58 < LingoGrove 18:02 < 其余7站均在21:00后），DialWick处理完后本次运行处理的第2个站点。站内选文：guides.ts共75篇，仅21篇曾被本任务审计，按未审计集合中文件顺序首个（spanish-possessive-adjectives）选定。",
+  "findings": [
+    { "dimension": "事实准确性", "status": "未发现问题", "detail": "WebSearch核实RAE官方分类：mi/tu/su为apocopated前置形式仅标记数不标记性；nuestro/vuestro保留完整四形式范式（同时出现在RAE前置atonic组与后置tonic组两类分类中，确认其为唯二兼具两种位置形态的possessive），与本文核心论断一致。vuestro为西班牙专用、拉美改用su/sus覆盖复数'your'的说法与常识及RAE语法描述吻合。未发现编造或误传。" },
+    { "dimension": "EEAT", "status": "未发现问题", "detail": "6条RAE一手语法文献引用（词汇表2条+《El buen uso del español》1条+《Nueva gramática básica》2条+《Nueva gramática》1条），每条均对应正文具体论断，非泛泛引用。" },
+    { "dimension": "时效性", "status": "不适用", "detail": "西语语法参考内容，RAE语法规则本身极少变动，published字段已存在（2026-08-09），无需回填。" },
+    { "dimension": "竞品差异化", "status": "未做全面SERP实测，定性判断未发现问题", "detail": "本文apocope词源解释+su歧义的'de+代词'四种澄清结构完整列举+vuestro地域分布深挖，明显超出典型西语学习站的列举式讲解深度，符合本站历史同类语法文章审计已确立的差异化模式（por-vs-para/ser-conjugation等审计均得出类似结论）。" },
+    { "dimension": "SEO技术审计", "status": "未发现问题", "detail": "curl实测线上页面：title 90字符（含品牌后缀）、description 150字符、单一H1与title一致、canonical自引用正确、Article+FAQPage+BreadcrumbList三项schema均正确渲染、ads.txt正确指向pub-5245502795720653、robots.txt对GPTBot/ClaudeBot/PerplexityBot/Google-Extended均Allow。`check_seo_field_stats.py`：title原始字段（不含品牌后缀）76字符z=1.68越过z>=1需人工复核阈值，比对本站历史审计基线（63-89字符区间的title均被认定'正常范围'，含88字符'未发现问题'先例），判定为站内常态而非真实截断风险，未改写。" },
+    { "dimension": "GEO审计", "status": "未发现需强化的薄弱维度", "detail": "定性核对：coreSummary定义段清晰在前、5条FAQ均为自包含短答（修复后进一步降低与正文的信息重复度）、schema三项完整、6条RAE来源可验证、内链3条真实入链。未发现<80分的具体薄弱点，未做额外结构性GEO编辑。" },
+    { "dimension": "早期内容AI味回补", "status": "不适用", "detail": "published=2026-08-09晚于avoid-ai-writing强制化生效日(2026-08-07)，不触发本条硬检查；本次改写的FAQ内容单独过了humanizer+avoid-ai-writing标准人工复核（无破折号/无AI高频词/无空泛归因）。" },
+    { "dimension": "外部引用链接腐烂", "status": "未发现问题（反爬拦截非真实死链）", "detail": "curl对6条rae.es来源全部返回403（含带真实浏览器UA重试），但WebSearch确认该403为rae.es站点级反爬拦截（非页面下线）：搜索引擎正常索引这些URL且摘要内容与本文引用论断吻合（如'determinante posesivo'词条摘要、'los posesivos.caracterización y formas'页面对nuestro/vuestro两组分类的描述）。非本文缺陷。" },
+    { "dimension": "内链健康度", "status": "未发现问题，非孤儿页", "detail": "grep确认被spanish-pronouns/spanish-demonstrative-adjectives/mijo-mija-meaning三篇文章手写锚文本引用，锚文本与桥接句描述准确；本文出站内链/spanish-accent-marks//spanish-pronouns/均确认slug真实存在。" },
+    { "dimension": "Schema数据一致性", "status": "已同步", "detail": "本次编辑仅涉及3条FAQ answer文字与updated日期，不涉及数组结构；构建后curl解析线上页面确认FAQPage schema的3条answer文本已同步更新，Article schema的dateModified已更新为2026-09-02、datePublished保留2026-08-09。" },
+    { "dimension": "合规/敏感度漂移", "status": "不适用", "detail": "纯语法参考内容，无敏感表述。" },
+    { "dimension": "配图可用性与版权", "status": "未发现问题", "detail": "public/images/spanish-possessive-adjectives-diagram.svg为站内自制SVG本地文件确认存在，本次未改动。" },
+    { "dimension": "AdSense政策合规", "status": "未发现问题", "detail": "语法教学内容无敏感类目；ads.txt正确；privacy/about未逐一复测（本站历史审计已多次确认全站统一配置，本次未发现任何理由怀疑其变化）。" },
+    { "dimension": "机械检查：FAQ与正文近乎逐字复述（L-0819-9）", "status": "确认发现问题（3/5），独立复核确认为真，已修复", "detail": "首次运行命中全部5条FAQ。独立agent逐条判定：FAQ#2（'mi不变nuestro变'完整推理复制正文section 2核心句）、FAQ#4（vuestro地域分布的'formal/ceremonial writing paired with ustedes'从句verbatim复制section 5）、FAQ#5（mi casa vs una casa mía的对比结构与section 6'amigo'段落逐点对应，仅替换例词）判定CONFIRMED——均通过so-what测试：读者读完正文已能自行回答该FAQ，且FAQ未提供正文之外的新信息。FAQ#1（'apocope'术语命名本身不可避免+补充了正文未直接给出的'apocope=词尾脱落'定义）、FAQ#3（'添加澄清短语'为回答该问题不可避免的过渡短语，且四个'de+代词'澄清例句本身换用了与正文不同的名词casa）判定NOT CONFIRMED。" }
+  ],
+  "independent_verification": "本轮Step3共1次独立agent调用（单个agent一次性复核5条FAQ候选，直接读取源文件本身，无额外上下文），约97秒正常完成，无卡死。裁定：FAQ#2/#4/#5 CONFIRMED需改写；FAQ#1/#3 NOT CONFIRMED（不可避免的术语/过渡短语重合）。其余13个维度均未发现候选问题，未触发额外独立复核agent。",
+  "actions_taken": [
+    "改写FAQ#2：补充'词尾是否为-o/-a决定是否随性别变形'的学习者记忆锚点，正文未提供此类操作性判断法",
+    "改写FAQ#4：补充'面向拉美西语学习者应把vuestro当阅读理解型词汇而非产出型词汇'的实用建议，正文未涉及此角度",
+    "改写FAQ#5：补充'默认用mi casa，仅在需要强调对比时才用长形式；否则mía会显得莫名强调'的实用使用建议，正文未给出此类操作性指导",
+    "改写过程中迭代2轮清除意外新引入的重合（FAQ#2初稿'behaving like an ordinary'撞正文'ordinary...postnominal adjective'表述；FAQ#4初稿'vosotros from everyday speech'与正文完全逐字重复），最终FAQ#1/#3的原有假阳性 + FAQ#4改写后新增1处'Latin American Spanish'专有名词重合（与本站已确立的'不可避免专有名词类假阳性'同类，未单独复核）为唯一残留",
+    "updated字段从2026-08-09改为2026-09-02（published字段已存在，未触发回填流程）",
+    "Skill(humanizer)+Skill(avoid-ai-writing)人工复核3处改写段落，无AI味残留（无破折号/无AI高频词表命中）",
+    "npm run build 85页全部通过",
+    "改动前后curl对比title/canonical/H1/schema四项技术指标，完全一致（未跑seo_drift.py脚本本身，改用手工curl前后对比达到同等验证效果）",
+    "git commit（2140c13，仅guides.ts）+ push，Cloudflare Pages git自动部署（本站无独立deploy hook）",
+    "curl绕缓存轮询确认https://lingogrove.com/spanish-possessive-adjectives/返回200且'Historical accident, not logic'等新FAQ文案已生效",
+    "node tools/submit-indexnow.mjs提交（Bing 200 / Yandex 200）",
+    "内容发布日志.md追加本条审计更新记录"
+  ],
+  "seo_score": "技术SEO全项通过；title原始字段z=1.68经比对站内历史基线判定为常态，未改写",
+  "geo_score": "定性评估达标，未发现<80分维度，未做额外结构性GEO编辑，无before/after对比",
+  "escalation": null,
+  "pending_for_owen": null,
+  "lessons_library_note": "未发现新的跨站可泛化问题，L-0819-9再次复发（本站FAQ重合已是第N次），仍属已知模式的持续发生，未追加新条目。"
+}
+```
