@@ -1866,7 +1866,7 @@ export const guides: Guide[] = [
 		title: 'Spanish Possessive Adjectives: Mi, Tu, Su, and Why Only Some Agree in Gender',
 		description: 'Only two of Spanish\'s seven possessives change for gender. Mi, tu, and su mark number alone, su covers four owners, and vuestro exists only in Spain.',
 		published: '2026-08-09',
-		updated: '2026-08-09',
+		updated: '2026-09-02',
 		coreSummary: 'Spanish has seven possessive-adjective forms, but they don\'t all follow the same agreement rule: mi, tu, and su are apocopated forms that mark number only, never gender, while nuestro and vuestro carry full gender and number agreement, per the RAE\'s Nueva gramática básica de la lengua española. Su alone stands for four different owners (his, her, your-formal, their), which is why Spanish speakers routinely add a clarifying phrase like de él or de ella, and vuestro is a Spain-only form, since Latin American Spanish reuses su/sus for plural "your" the same way it already does for the subject pronoun ustedes.',
 		language: 'Spanish',
 		sections: [
@@ -1925,7 +1925,7 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'Why doesn\'t "mi" change for gender, but "nuestro" does?',
-				answer: 'Mi, tu, and su are apocopated (shortened) forms of the longer possessives mío, tuyo, and suyo, and that shortened form never picked up gender marking. Nuestro and vuestro were never shortened the same way, so they kept the full four-form paradigm (nuestro/nuestra/nuestros/nuestras) that ordinary Spanish adjectives carry, switching the final vowel to match the gender of the noun they modify.',
+				answer: 'Historical accident, not logic: mi/tu/su are compressed versions of mío/tuyo/suyo, and the compression itself is what stripped out their gender ending. Nuestro/vuestro skipped that compression step entirely, so their final vowel still flexes for gender, just as it would on any regular -o/-a adjective such as alto/alta. A learner memory hook: if a possessive still ends in -o or -a, change the ending like you would on any other adjective; if it doesn\'t end that way, it simply can\'t change.',
 			},
 			{
 				question: 'What does "su" mean: his, her, your, or their?',
@@ -1933,11 +1933,11 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'Is "vuestro" used in Latin America?',
-				answer: 'Rarely in everyday speech. Vuestro pairs with the subject pronoun vosotros, which Spain uses for informal plural "you" but which Latin American Spanish drops from ordinary conversation in favor of ustedes for both formal and informal plural address. Vuestro can still turn up in formal or ceremonial Latin American writing paired with ustedes, but su/sus is what covers plural "your" in daily speech across the region.',
+				answer: 'Almost never in conversation, but you\'ll still run into it in print. Latin American speech has no everyday partner pronoun left for vuestro to pair with, since vosotros isn\'t part of ordinary regional usage, and su/sus fills the gap instead. Learners aiming at Latin American Spanish can treat vuestro as a reading form rather than a producing one: expect to meet it in older books, formal ceremony, or a film set in Spain, without ever needing to say it back yourself.',
 			},
 			{
 				question: 'What\'s the difference between "mi casa" and "una casa mía"?',
-				answer: 'Both are correct, but they carry different emphasis. Mi casa places the possessive in front of the noun as a determinante posesivo, doing the same job an article does, and reads as neutral. Una casa mía moves the long form mía after the noun, where it behaves like an ordinary adjective, and typically signals contrast or singles the possession out among several, closer to "a house of mine" than the plain "my house."',
+				answer: 'Default to mi casa. It\'s the unmarked, everyday way to say "my house," and it\'s very rarely the wrong choice. Save una casa mía for when you actually need the contrast it signals, the way English stresses "a house of mine" rather than just "my house." Used without that contrast in mind, mía after the noun can come across as oddly emphatic, so it isn\'t simply a fancier synonym for mi.',
 			},
 		],
 		sources: [
