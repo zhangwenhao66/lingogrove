@@ -11,6 +11,10 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 460,
   "w": 800
  },
+ "/images/cabron-meaning-diagram.svg": {
+  "h": 480,
+  "w": 900
+ },
  "/images/carino-meaning-diagram.svg": {
   "h": 460,
   "w": 800
