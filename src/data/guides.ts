@@ -178,7 +178,7 @@ export const guides: Guide[] = [
 		title: 'Ser vs. Estar: How to Actually Tell Them Apart',
 		description: 'Both mean "to be," which is why English speakers struggle with them. The real distinction is defining a trait versus describing a state.',
 		published: '2026-08-03',
-		updated: '2026-08-06',
+		updated: '2026-09-03',
 		coreSummary: 'Ser identifies and defines: identity, origin, inherent characteristics, time, and material. Estar locates and describes a state: location, condition, and the result of a change. The common shorthand "ser is permanent, estar is temporary" breaks down often enough (someone can be permanently dead and use estar, or be only briefly a student and use ser) that it\'s more reliable to ask whether the sentence is defining the subject or reporting its current condition.',
 		language: 'Spanish',
 		usageNote: {
@@ -226,6 +226,10 @@ export const guides: Guide[] = [
 			{
 				question: 'Is "ser is permanent, estar is temporary" actually correct?',
 				answer: 'It\'s a useful starting shorthand but not a reliable rule. *Está muerto* ("he\'s dead") is estar describing something permanent, and *fue estudiante* ("he was a student") is ser describing something temporary. The more accurate distinction is whether the sentence defines the subject (ser) or reports its current state or condition (estar).',
+			},
+			{
+				question: 'What\'s the difference between soy and estoy?',
+				answer: '*Soy* is the *yo* (I) form of ser; *estoy* is the *yo* form of estar. So the choice between them is the same identity-versus-state question this whole comparison covers, just narrowed to the first person. Use *soy* to state who or what you are: *soy profesor, soy de México, soy alto*. Use *estoy* to report where you are, how you feel right now, or an action in progress: *estoy en casa, estoy cansado, estoy comiendo*. That progressive pattern only builds with *estoy*: Spanish has no version with *soy*, so *soy comiendo* isn\'t a real sentence.',
 			},
 			{
 				question: 'Why does "la fiesta es aquí" use ser when it\'s about location?',
