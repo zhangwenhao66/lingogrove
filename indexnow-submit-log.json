@@ -129,12 +129,12 @@
     "verified_method": "bwt_url_inspection"
   },
   "https://lingogrove.com/ser-vs-estar/": {
-    "submitted_date": "2026-08-06",
-    "verified_status": "stale_not_indexed",
-    "note": "resubmitted after content-quality-audit fix (removed 14 narrative em-dashes, added rico example, softened regionNote regional-variation claim with sourced dialectal detail, added verbatim RAE quote); Bing 200 / Yandex 202. Originally submitted 2026-08-03 as launch batch, Bing 202 / Yandex 202.",
+    "submitted_date": "2026-09-03",
+    "verified_status": "pending",
+    "note": "resubmitted after adding a 'soy vs estoy' FAQ entry (纪律一merge-before-fork: 2,400vol/KD0 candidate was only touched in passing by existing body examples, no dedicated FAQ addressed the conjugated yo-form query directly; enriched instead of forking a near-duplicate page); Bing 200 / Yandex 200. Prior history: originally submitted 2026-08-03 as launch batch (Bing 202/Yandex 202), resubmitted 2026-08-06 after content-quality-audit fix (Bing 200/Yandex 202), last checked 2026-08-25 as stale_not_indexed/Blocked (账龄21天超过14天阈值).",
     "last_checked_date": "2026-08-25",
     "verified_method": "bwt_url_inspection",
-    "verify_note": "discovered 04 Aug, 账龄21天超过14天阈值, Blocked"
+    "verify_note": "discovered 04 Aug, 账龄21天超过14天阈值, Blocked (pre-resubmission status; needs recheck after 2026-09-03 resubmission)"
   },
   "https://lingogrove.com/preterite-vs-imperfect/": {
     "submitted_date": "2026-08-03",
