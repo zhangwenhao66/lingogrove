@@ -370,5 +370,18 @@
       "https://lingogrove.com/inshallah-meaning/"
     ],
     "quota_used": "2 of shared account-wide daily quota"
+  },
+  {
+    "date": "2026-09-03",
+    "action": "submitted",
+    "reason": "今日为轻量丰富现有文章ser-vs-estar（非新发布），URL Inspection确认已收录。改用Discovered-currently-not-indexed报告（5条）：french-past-participle/french-reflexive-verbs昨日已提交跳过，spanish-gerund确认未收录提交成功。第二轮遍历时额外提交spanish-present-perfect（同一报告，确认未收录）。",
+    "submitted_urls": [
+      "https://lingogrove.com/spanish-gerund/",
+      "https://lingogrove.com/spanish-present-perfect/"
+    ],
+    "already_indexed_no_action": [
+      "https://lingogrove.com/ser-vs-estar/"
+    ],
+    "quota_used": "2 of shared account-wide daily quota"
   }
 ]
