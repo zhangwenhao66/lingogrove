@@ -6538,4 +6538,84 @@ export const guides: Guide[] = [
 			{ label: 'Learn Mexican Slang: "How to Use \'Cabrón\' Like a Native Mexican Speaker" (example sentences, cabrón/cabrona adjective use, greeting use)', url: 'https://learnmexicanslang.com/blog/how-to-use-cabron-like-a-native-mexican-speaker' },
 		],
 	},
+	{
+		slug: 'maknae-meaning',
+		category: 'Loanwords',
+		title: 'Maknae Meaning: A Korean Word Now in the OED',
+		description: 'Maknae names the youngest member of a family or group, a Korean word centuries older than K-pop. The OED added it as a headword in December 2024.',
+		published: '2026-09-04',
+		updated: '2026-09-04',
+		coreSummary: 'Maknae is Korean for the youngest person in a family, friend group, or team, not a word K-pop fandom invented; Wiktionary and linguist Victor Mair both trace it to an 18th-century contraction, 막나이 (mangnai), built from a root meaning "end" plus a verb meaning "to bear" plus an agent suffix. The Oxford English Dictionary added maknae as a headword in its December 2024 update, defining it as "the youngest person in a family or group; the youngest member of a K-pop group," with earliest documented English use traced to 1998, a year ahead of senpai, the Japanese status term it gets compared to most, which the OED did not add until December 2025.',
+		language: 'Korean',
+		usageNote: {
+			register: 'neutral',
+			regionNote: 'Maknae is an ordinary, affectionate word in Korean, used for the youngest sibling in a family, the newest or youngest hire at a workplace, and the youngest member of a friend group, long before it named a K-pop idol. English fandom use narrows it to the youngest member of an idol group, but that narrowing is a shift in which sense gets used most, not a different word.',
+		},
+		sections: [
+			{
+				heading: 'A Korean family word, centuries older than K-pop',
+				body: [
+					'Maknae, 막내 in Hangul, names the youngest person in a defined group: the last-born child in a family, the newest and youngest member of a team, or, in the sense that reached English fandom, the youngest member of a K-pop idol group. Wiktionary\'s Korean entry traces it to an 18th-century form, 막나이 (mangnai), built from three pieces: 막 (mak, "end"), the same root that shows up in majimak ("the last one") and makbaji ("the tail end of something"); 낳- (nat-, "to bear, to bring forth"); and -이 (-i), an agent suffix. Put together, the word originally described something closer to "the child born at the end," and centuries of everyday use wore that phrase down into a single noun.',
+					'Linguist Victor Mair cross-checked that same derivation on Language Log after the Oxford English Dictionary\'s December 2024 update, singling maknae out because it is a native Korean coinage rather than one of the many Korean words built from borrowed Chinese characters. Korean has a direct antonym for it, too: 맏이 (maji), "the eldest," which Wiktionary lists as maknae\'s coordinate opposite. Before any of it touched K-pop, the word already had a formal opposite number and a documented history stretching back roughly three centuries.',
+				],
+				image: {
+					src: '/images/maknae-meaning-diagram.svg',
+					alt: 'Diagram tracing maknae from the 18th-century Korean contraction 막나이 (mangnai, "end" plus "to bear" plus an agent suffix) to the modern word 막내, which splits into two English spellings: "maknae," which follows the Hangul letters, and the Revised Romanization "mangnae," which follows the nasalized pronunciation. A footer notes the antonym 맏이 (maji), "the eldest."',
+				},
+			},
+			{
+				heading: 'Two spellings, one nasalized sound',
+				body: [
+					'People who\'ve seen both "maknae" and "mangnae" online sometimes assume one of them is a misspelling. Neither is. Wiktionary\'s pronunciation guide gives 막내 the IPA transcription [ma̠ŋnɛ], and the Korean Wiki Project explains why the written form doesn\'t match: Korean has a regular phonological rule that turns a syllable-final ㄱ into ㅇ whenever the next syllable starts with ㄴ or ㅁ. 막(mak) plus 내(nae) is written mak-nae, but the ㄱ at the end of 막 shifts to ㅇ before the ㄴ that opens 내, so the word is actually spoken mang-nae.',
+					'That single rule explains both spellings at once. The form "maknae," the one English fandom sites and dictionaries mostly use, copies the Hangul letters in order and ignores the sound shift. The Revised Romanization of Korean, South Korea\'s official transliteration system, does the opposite: it romanizes words by their actual pronunciation, which is why South Korea\'s own government-standard spelling is "mangnae," not "maknae." Both spellings point at the identical word; they just transcribe two different layers of it, the letters on one hand and the sound on the other.',
+				],
+			},
+			{
+				heading: 'Already a dictionary word, a year ahead of senpai',
+				body: [
+					'Maknae isn\'t waiting for formal recognition the way some fandom borrowings are. The Oxford English Dictionary added it as a headword in its December 2024 update, one of seven Korean words in that batch alongside dalgona, hyung, noraebang, jjigae, tteokbokki, and pansori, the first new Korean words the dictionary had added since September 2021. Language Log quotes the OED\'s own definition directly: maknae is "the youngest person in a family or group; the youngest member of a K-pop group." Secondary reporting on the update traces the OED\'s earliest documented English use of the word to 1998, in writing by J. Y. Kim, predating most of the K-pop groups people now associate it with.',
+					'The word it gets compared to constantly, [senpai](/senpai-meaning/), the Japanese term for a senior member of a group, didn\'t reach the OED until the December 2025 update, a full year behind that timeline. The Korean word closest in function to senpai, sunbae, was added in that same December 2025 batch rather than alongside maknae. Dictionary recognition doesn\'t always track how visible a word feels online; maknae had a formal entry while sunbae, its own language\'s answer to senpai, was still waiting.',
+					'Not every loanword gets there this fast, or at all. [Mamacita](/mamacita-meaning/) needed no such wait, its earliest OED evidence dates back to 1887, but plenty of other loanwords covered on this site, mijo among them, are documented in English print without yet having a dictionary entry of their own. Maknae\'s path ran through K-pop fandom and took a little over a century less than mamacita\'s, but it still arrived.',
+				],
+			},
+			{
+				heading: 'The maknae line, and what a maknae calls everyone else',
+				body: [
+					'Larger K-pop groups rarely have just one member who counts as young. Wiktionary\'s entry for the derived term "maknae line" defines it as the younger members of a group taken collectively, typically the two to four youngest rather than only the single official maknae, formed by blending English "line" with a Korean sense of rain (라인) meaning "members who share a characteristic." Fan communities pair it with matching terms for the other end of the group: a hyung line or unnie line for the older members, depending on whether the group is being discussed in terms male or female members would use for each other.',
+					'The honorifics a maknae actually uses come from the same pairing. Korean\'s Wiktionary entry lists 형 (hyeong) and 언니 (eonni) as maknae\'s coordinate terms, the words a male speaker uses for an older brother or senior male, and a female speaker uses for an older sister or senior female. A maknae doesn\'t just get called maknae; they\'re also the one using hyung or eonni to address everyone senior to them, the two ends of the same relationship.',
+					'The word has traveled well past Korean and English, too. Wiktionary\'s descendants list for 막내 records borrowings into Japanese, as マンネ (manne) and マッネ (ma\'ne), into Mandarin, as 忙內/忙内 (mángnèi), and into Russian, as макнэ́ (maknɛ́), a spread that roughly tracks where K-pop fandom itself has grown largest.',
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'What does "maknae" mean?',
+				answer: 'It marks whoever joined last: a household\'s last-born child, a fresh hire still finding their footing, or an idol group\'s most junior member. One label covers a lot of different "youngest" situations, not just the K-pop one most English speakers meet it through first.',
+			},
+			{
+				question: 'Is "maknae" or "mangnae" the correct spelling?',
+				answer: 'Neither spelling is wrong; they\'re reading the same Hangul, 막내, two different ways. Writing "maknae" copies the letters as they\'re printed. Writing "mangnae," the spelling South Korea picked for its government transliteration standard, copies how a speaker\'s mouth actually shifts a hidden consonant when saying the word aloud.',
+			},
+			{
+				question: 'Is "maknae" only a K-pop term?',
+				answer: 'Not originally, and not even mostly. Families, offices, and friend groups all used the word long before any idol group existed, back to a documented 18th-century root. It even has a formal opposite, maji, "eldest," a pairing that casual internet slang almost never bothers building.',
+			},
+			{
+				question: 'What is a "maknae line"?',
+				answer: 'A cluster, not a single person: fans lump a group\'s two to four most junior members together under this label, distinct from whichever one person holds the official youngest title. The senior half of the same group gets its own paired label too, split by gender.',
+			},
+			{
+				question: 'Is "maknae" in the dictionary?',
+				answer: 'It has been since a specific point: Oxford added it, alongside six other Korean entries, in a single batch that landed in late 2024. English-language evidence for the word goes back further still, to 1998.',
+			},
+		],
+		sources: [
+			{ label: 'Wiktionary: "maknae" (English entry: etymology from Korean 막내, South Korean idol fandom sense, coordinate terms hyung/unnie, IPA pronunciation)', url: 'https://en.wiktionary.org/wiki/maknae' },
+			{ label: 'Wiktionary: "막내" (Korean entry: 18th-century etymology 막나이 from 막 + 낳- + -이, antonym 맏이, descendants into Japanese/Mandarin/Russian)', url: 'https://en.wiktionary.org/wiki/%EB%A7%89%EB%82%B4' },
+			{ label: 'Wiktionary: "maknae line" (etymology from Korean 막내 라인, definition as the younger members of a group collectively)', url: 'https://en.wiktionary.org/wiki/maknae_line' },
+			{ label: 'Language Log (Victor Mair), "New Korean words in the OED" (January 12, 2025): quotes OED\'s definition of maknae, cross-checks its Wiktionary etymology, and identifies it as a native Korean coinage', url: 'https://languagelog.ldc.upenn.edu/nll/?p=67954' },
+			{ label: 'Oxford English Dictionary: "maknae, n." (headword entry, added December 2024)', url: 'https://www.oed.com/dictionary/maknae_n' },
+			{ label: 'Korean Wiki Project: "Nasalization" (explains the ㄱ+ㄴ/ㅁ → ㅇ+ㄴ/ㅁ rule that governs 막내\'s pronunciation)', url: 'https://www.koreanwikiproject.com/wiki/Nasalization' },
+		],
+	},
 ];

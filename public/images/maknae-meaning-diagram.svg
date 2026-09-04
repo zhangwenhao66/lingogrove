@@ -1,0 +1,38 @@
+<svg viewBox="0 0 900 480" xmlns="http://www.w3.org/2000/svg" font-family="Georgia, 'Times New Roman', serif">
+  <rect x="0" y="0" width="900" height="480" fill="#f7f5fa"/>
+
+  <text x="450" y="42" text-anchor="middle" font-size="22" fill="#241f33" font-weight="bold">One word, spelled two ways</text>
+
+  <!-- Root etymology box -->
+  <rect x="230" y="70" width="440" height="66" rx="8" fill="#e7e2f0" stroke="#7a6ba0" stroke-width="1.5"/>
+  <text x="450" y="96" text-anchor="middle" font-size="15" fill="#2e2547" font-weight="bold">18th-century 막나이 (mangnai)</text>
+  <text x="450" y="118" text-anchor="middle" font-size="12" fill="#4a3d6b">막 (mak, "end") + 낳- (nat-, "to bear") + -이 (agent suffix)</text>
+
+  <line x1="450" y1="136" x2="450" y2="172" stroke="#7a6ba0" stroke-width="2"/>
+  <polygon points="450,177 444,165 456,165" fill="#7a6ba0"/>
+
+  <!-- Modern word box -->
+  <rect x="260" y="186" width="380" height="56" rx="8" fill="#ded5ee" stroke="#6a5990" stroke-width="1.5"/>
+  <text x="450" y="210" text-anchor="middle" font-size="15" fill="#241f33" font-weight="bold">막내, written maknae</text>
+  <text x="450" y="230" text-anchor="middle" font-size="12" fill="#3b3159">pronounced [maŋnɛ], "mahng-neh"</text>
+
+  <line x1="380" y1="242" x2="280" y2="285" stroke="#6a5990" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <line x1="520" y1="242" x2="620" y2="285" stroke="#6a5990" stroke-width="1.5" stroke-dasharray="4 3"/>
+
+  <!-- Left: English borrowing -->
+  <rect x="70" y="290" width="360" height="80" rx="8" fill="#eef1e8" stroke="#8a9a6b" stroke-width="1.5"/>
+  <text x="250" y="316" text-anchor="middle" font-size="15" fill="#2f3c22" font-weight="bold">English: "maknae"</text>
+  <text x="250" y="337" text-anchor="middle" font-size="12" fill="#4a5a38">Follows the Hangul spelling 막내</text>
+  <text x="250" y="354" text-anchor="middle" font-size="12" fill="#4a5a38">letter for letter, not the sound</text>
+
+  <!-- Right: Revised Romanization -->
+  <rect x="470" y="290" width="360" height="80" rx="8" fill="#f1e8ee" stroke="#9a6b8a" stroke-width="1.5"/>
+  <text x="650" y="316" text-anchor="middle" font-size="15" fill="#4a2c3c" font-weight="bold">Revised Romanization: "mangnae"</text>
+  <text x="650" y="337" text-anchor="middle" font-size="12" fill="#6b455a">Follows the nasalized sound instead,</text>
+  <text x="650" y="354" text-anchor="middle" font-size="12" fill="#6b455a">the ㄱ+ㄴ → ㅇ+ㄴ shift</text>
+
+  <!-- Footer: antonym -->
+  <rect x="40" y="395" width="820" height="65" rx="8" fill="#eee6d8" stroke="#b8a688" stroke-width="1"/>
+  <text x="450" y="420" text-anchor="middle" font-size="13" fill="#4a3d28" font-weight="bold">Antonym: 맏이 (maji), "the eldest"</text>
+  <text x="450" y="440" text-anchor="middle" font-size="12" fill="#5c4d35">Both spellings name the same person; only the pronunciation ever changed</text>
+</svg>
