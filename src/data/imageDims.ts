@@ -127,6 +127,10 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 500,
   "w": 800
  },
+ "/images/maknae-meaning-diagram.svg": {
+  "h": 480,
+  "w": 900
+ },
  "/images/mamacita-meaning-diagram.svg": {
   "h": 420,
   "w": 800
