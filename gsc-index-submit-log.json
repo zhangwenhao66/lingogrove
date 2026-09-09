@@ -393,5 +393,16 @@
     ],
     "already_indexed_no_action": [],
     "quota_used": "1 of shared account-wide daily quota"
+  },
+  {
+    "date": "2026-09-09",
+    "action": "submitted",
+    "reason": "今日无新发布。Discovered-currently-not-indexed报告(5条，压制期真实积压)：cabron-meaning与french-future-tense确认未收录，均提交成功(第一轮1条+第二轮补提交1条)。",
+    "submitted_urls": [
+      "https://lingogrove.com/cabron-meaning/",
+      "https://lingogrove.com/french-future-tense/"
+    ],
+    "already_indexed_no_action": [],
+    "quota_used": "2 of shared account-wide daily quota"
   }
 ]
