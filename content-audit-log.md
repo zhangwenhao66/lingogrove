@@ -1492,3 +1492,57 @@
   "lessons_library_note": "未发现新的跨站可泛化问题，L-0819-9再次复发（本站FAQ重合已是第N次），仍属已知模式的持续发生，未追加新条目。"
 }
 ```
+
+## 2026-09-06 完整审计：`spanish-demonstrative-adjectives`
+
+```json
+{
+  "url_slug": "spanish-demonstrative-adjectives",
+  "last_audited": "2026-09-06",
+  "published_date": "2026-08-10",
+  "site_selection_note": "跨站排序按'最久未审计站点优先'规则，LingoGrove（09-02 21:46最后审计）为全矩阵第2久未审计站，DialWick处理完后本次运行的第2个站点。站内选文：guides.ts共76篇，54篇从未被本任务审计过，按文件顺序首个（spanish-demonstrative-adjectives）选定。",
+  "unique_checklist": [
+    "RAE对este/ese/aquel'二元对立、ese为无标记项'这条较新分析是否真实存在于官方语法",
+    "este/aquel回指用法的方向（哪个对应'former'哪个对应'latter'）是否与RAE示例一致",
+    "'esta águila'而非'este águila'这条例外的解释（el的语音触发不适用于指示词）是否准确",
+    "esto/eso指人是否真的构成冒犯、ser构式例外的具体措辞是否真实存在"
+  ],
+  "findings": [
+    { "dimension": "1. EEAT", "status": "pass", "detail": "6条RAE一手语法文献引用，每条对应正文具体论断，非泛泛引用；深度明显超过典型西语学习站。" },
+    { "dimension": "2. 事实准确性", "status": "未发现问题", "detail": "WebSearch逐条核实：①RAE二元对立分析（este对aquel，ese为无标记项）与《Nueva gramática》'Clases de demostrativos'词条一致；②回指用法方向核实无误（este对应更晚提及/更'近'的先行词，aquel对应更早提及/更'远'的先行词，与文章'este=Pedro latter，aquel=Juan former'的映射一致）；③'esta águila'例外核实准确（多个独立信源确认RAE推荐esta agua/esa hacha/aquella águila，指示词不共享el的语音触发条件）；④esto/eso指人冒犯规则+ser构式例外均见于RAE《Nueva gramática》'Los demostrativos neutros'原文措辞。未发现编造或误传，是一篇质量扎实的文章。" },
+    { "dimension": "3. 时效性", "status": "pass, updated已更新", "detail": "published字段已存在（2026-08-10），无回填风险。" },
+    { "dimension": "4. 竞品差异化", "status": "pass", "detail": "SERP实测（WebSearch）显示头部结果（SpanishDict/Lawless/Kwiziq/Migaku/Collins等）全部停留在简化的near/medium/far三级模型，均未覆盖RAE二元对立分析、回指用法反转、esta águila例外、拉美二元系统collapse这几层本文独有的深度，差异化成立。" },
+    { "dimension": "5. SEO技术审计", "status": "确认1处问题，记录但未处理（留给专项任务）", "detail": "check_seo_field_stats.py：title 89字符z=3.24（站内正常范围外），description z=1.17正常。title_lint.py判定FAIL。核查gsc_query.py近28天曝光=114，不满足本任务'曝光<50可顺手按CTR方法论改标题'的例外门槛，未擅自改标题，按SKILL规定留给site-search-opportunity-refresh按受控协议（快照/对照/14天复核）处理。其余技术项（canonical/H1/schema/ads.txt/robots.txt）均通过。" },
+    { "dimension": "6. GEO审计", "status": "pass，定性评估", "detail": "coreSummary定义段、FAQ+schema、6条来源、内链、H2结构完整；FAQ改写补充新信息略微提升信息密度，未做完整ai-seo重跑。" },
+    { "dimension": "7. 早期AI味回补", "status": "不适用", "detail": "published 2026-08-10晚于avoid-ai-writing强制化生效日(2026-08-07)。" },
+    { "dimension": "8. 外部引用链接腐烂", "status": "pass（反爬非真实死链）", "detail": "curl对6条rae.es来源全部403，WebSearch确认页面均真实存在且被搜索引擎索引，内容与本文引用论断吻合，与本站历史审计已确立的rae.es反爬拦截模式一致。" },
+    { "dimension": "9. 内链健康度", "status": "pass，非孤儿页", "detail": "2篇姊妹文章（spanish-possessive-adjectives、绝对最高级相关文章）真实手写锚文本入链；出站2条内链(spanish-possessive-adjectives/spanish-accent-marks)均确认slug真实存在。" },
+    { "dimension": "10. Schema数据一致性", "status": "已同步", "detail": "seo_drift.py compare部署后仅WARNING（FAQPage schema内容变化，预期内的FAQ文本改写）。" },
+    { "dimension": "11-13. 合规/AdSense", "status": "pass", "detail": "纯语法教学内容，无敏感/限制类目；ads.txt正确指向pub-5245502795720653；robots.txt对GPTBot/ClaudeBot/PerplexityBot/Google-Extended均Allow。" },
+    { "dimension": "12. 配图可用性", "status": "pass", "detail": "public/images/spanish-demonstrative-adjectives-diagram.svg为站内自制SVG，本次未改动，无需版权核实。" },
+    { "dimension": "14. 机械检查（check_prose_patterns.py）", "status": "确认问题→部分修复，4条FAQ短重合接受为不可避免残留", "detail": "初次运行：对比框架7次超阈值（改写3处降至4次，通过）；FAQ重合5条全部触发（32-71字符）。独立agent逐条复核：FAQ#1 NOT CONFIRMED（正当整合两小节信息成一句直接答案）；FAQ#2/#3/#4/#5共4条CONFIRMED（纯复述单一正文段落，无新信息）。改写这4条FAQ均补充WebSearch核实过的真实新信息（见actions_taken）。改写后迭代3轮清除新引入的重合，最终收窄到FAQ#1（未改动，21-32字符，NOT CONFIRMED原判定维持）+ FAQ#3/4/5改写后各残留21-25字符（引用同一西语例句片段/RAE术语，判定为不可避免），按本站既有先例接受，脚本仍exit 1收尾，原因已如实记录。" }
+  ],
+  "independent_confirmations": [
+    "1个后台general-purpose agent，仅给原始候选证据（不含本次分析结论），独立复核5条FAQ重合。约106秒正常完成，无卡死。裁定：FAQ#2/3/4/5共4条CONFIRMED需改写；FAQ#1 NOT CONFIRMED（合理FAQ综合，非填充）。"
+  ],
+  "actions_taken": [
+    "改写3处'rather than'表述（narrows it down by position/emotionally distant/reads as offensive）降低对比框架总数从7到4，不影响准确性。",
+    "改写FAQ#2：补充RAE官方@RAEinforma账号明确表态——建议永远不加重音符，真正的歧义案例罕见且可通过改写/标点/语序解决，而非依赖变音符号（WebSearch核实原始RAE推文与rae.es duda-linguistica页面）。",
+    "改写FAQ#3：补充后置ese表达轻蔑/疏远的'el hombre ese'构式（与前置ese表意完全不同），源自RAE《Nueva gramática》'Los demostrativos pospuestos'词条（WebSearch核实原文'Las máquinas esas no sirven para nada'等例句）。",
+    "改写FAQ#4：补充'el hambre'作为同一语音规则（避免重读a音相撞）的第4个真实例词，与文章已用的águila/agua/hacha并列（WebSearch多方独立信源核实）。",
+    "改写FAQ#5：补充'en aquel entonces'（\"那时候\"）作为aquel在包括二元系统地区在内的西语世界仍然常见的具体日常反例（WebSearch核实该短语确为跨地区通用日常表达）。",
+    "追加3条新sources：RAE 'duda-linguistica'重音页、RAE 'Los demostrativos pospuestos'页。",
+    "确认title 89字符z=3.24离群值+title_lint.py FAIL，但gsc_query.py核实近28天曝光114（≥50不满足本任务CTR改写例外条件），未改标题，记录留给site-search-opportunity-refresh专项处理。",
+    "updated字段2026-08-10→2026-09-06（published字段已存在，未触发回填流程）。",
+    "npm run build（86页）通过。",
+    "seo_drift.py baseline（编辑前）+ compare（部署后）：仅1条WARNING（FAQPage schema内容变化，预期内），无CRITICAL、无INFO。",
+    "git commit（4bca330）+push，LingoGrove走git连接Cloudflare Pages自动部署，轮询线上URL（绕缓存）约20秒后确认新FAQ文案生效。",
+    "node tools/submit-indexnow.mjs提交（Bing 200/Yandex 200）。",
+    "内容发布日志.md追加本条审计更新记录。",
+    "审计前查过独立站/内容通用教训库.md教训条目；本次未发现新的跨站可泛化问题，也未命中已有条目的复发（十四维度中唯一的'问题'——title过长——是站点已知的CTR改写协议范畴，非教训库覆盖的写作/审查动作类问题）。"
+  ],
+  "seo_score": "1项待处理但非本任务权限范围内（title过长，曝光≥50不满足例外，留给site-search-opportunity-refresh）；description正常范围",
+  "geo_score": "定性评估达标，未发现<80分维度，FAQ改写提升信息密度但未做before/after完整重跑",
+  "escalation": null
+}
+```
