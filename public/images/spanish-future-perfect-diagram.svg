@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 340" font-family="system-ui, -apple-system, sans-serif">
+	<rect width="800" height="340" fill="#f6f4e9"/>
+
+	<!-- Row 1: anteriority — one future event finishes before a later reference point -->
+	<text x="48" y="56" fill="#201f1a" font-size="20" font-weight="700">Habré terminado — anteriority (both points are ahead of now)</text>
+	<line x1="48" y1="110" x2="752" y2="110" stroke="#ddd8c4" stroke-width="2"/>
+	<line x1="48" y1="90" x2="48" y2="130" stroke="#ddd8c4" stroke-width="1"/>
+	<text x="48" y="80" text-anchor="middle" fill="#8a8674" font-size="12">now</text>
+	<circle cx="380" cy="110" r="7" fill="#2f6b47"/>
+	<text x="380" y="140" text-anchor="middle" fill="#204a31" font-size="15" font-weight="600">habré terminado</text>
+	<text x="380" y="160" text-anchor="middle" fill="#5a5648" font-size="13">(the cooking is done)</text>
+	<circle cx="700" cy="110" r="7" fill="#5a5648"/>
+	<text x="700" y="140" text-anchor="middle" fill="#3a3830" font-size="15" font-weight="600">cuando llegues</text>
+	<text x="700" y="160" text-anchor="middle" fill="#5a5648" font-size="13">(the reference point, still later)</text>
+	<line x1="390" y1="110" x2="690" y2="110" stroke="#2f6b47" stroke-width="3" stroke-dasharray="2 6"/>
+
+	<!-- Row 2: conjecture — guessing about something already finished, before "now" -->
+	<text x="48" y="220" fill="#201f1a" font-size="20" font-weight="700">Habrá salido — conjecture (points backward, not forward)</text>
+	<line x1="48" y1="274" x2="752" y2="274" stroke="#ddd8c4" stroke-width="2"/>
+	<circle cx="600" cy="274" r="7" fill="#8a3b2e"/>
+	<text x="600" y="304" text-anchor="middle" fill="#8a3b2e" font-size="15" font-weight="600">now</text>
+	<text x="600" y="324" text-anchor="middle" fill="#8a3b2e" font-size="13">(phone rings, nobody answers)</text>
+	<circle cx="330" cy="274" r="7" fill="#8a3b2e"/>
+	<text x="330" y="304" text-anchor="middle" fill="#8a3b2e" font-size="15" font-weight="600">habrá salido?</text>
+	<text x="330" y="324" text-anchor="middle" fill="#8a3b2e" font-size="13">("must have left" — a guess about the past)</text>
+	<line x1="590" y1="274" x2="340" y2="274" stroke="#8a3b2e" stroke-width="3" marker-end="url(#arrow)"/>
+	<defs>
+		<marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+			<path d="M0,0 L8,3 L0,6 Z" fill="#8a3b2e"/>
+		</marker>
+	</defs>
+</svg>

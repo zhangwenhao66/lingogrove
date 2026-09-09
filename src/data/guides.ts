@@ -6620,4 +6620,91 @@ export const guides: Guide[] = [
 			{ label: 'Korean Wiki Project: "Nasalization" (explains the ㄱ+ㄴ/ㅁ → ㅇ+ㄴ/ㅁ rule that governs 막내\'s pronunciation)', url: 'https://www.koreanwikiproject.com/wiki/Nasalization' },
 		],
 	},
+	{
+		slug: 'spanish-future-perfect',
+		category: 'Grammar',
+		title: 'Spanish Compound Future: A Guess, Not a Prediction',
+		description: 'The Spanish future perfect, habré hablado, looks like a plain prediction. Its most common real job is guessing about something that has probably already happened.',
+		published: '2026-09-09',
+		updated: '2026-09-09',
+		coreSummary: 'The Spanish future perfect (futuro compuesto) combines the future tense of haber with an unchanging past participle: habré hablado, habrás comido, habrá vivido. Per the Real Academia Española, it marks anteriority, one future action finishing before a later reference point, but its far more common everyday role is a hedge about the past: guessing that something has probably already happened, roughly equivalent to English "must have."',
+		language: 'Spanish',
+		sections: [
+			{
+				heading: '"Habrá salido" doesn\'t mean "she will have left"',
+				body: [
+					'Translated word for word, the Spanish future perfect looks like a strictly future-facing tense: *habré terminado* becomes "I will have finished," a form English reserves for one job, marking that something is done before a later point. Spanish keeps that job too, further down. But open a real conversation and the far more common use of the tense is a guess about something that has probably already happened. The phone rings, nobody picks up, and a Spanish speaker says *"Habrá salido ya"*: not "she will have left," but "she\'s probably left already."',
+					'The Real Academia Española\'s own grammar gives essentially the same example with a different verb: *"Me habré confundido al anotar el número"*, which it glosses as roughly "I must have gotten the number wrong when I wrote it down," not any statement about a future mistake. That gap between the literal English translation and the actual meaning is the single biggest trap in this tense, and it mirrors a trap Spanish\'s [simple future tense sets for the exact same reason](/spanish-future-tense/): both tenses can drop their future meaning entirely and turn into a guess instead.',
+				],
+				image: {
+					src: '/images/spanish-future-perfect-diagram.svg',
+					alt: 'Two timelines contrasting the Spanish future perfect\'s two uses: one showing "habré terminado" finishing before a later future reference point "cuando llegues," the other showing "habrá salido" pointing backward from now toward an already-finished event it is only guessing about.',
+				},
+			},
+			{
+				heading: 'Building it: haber\'s own future, plus a participle that never changes',
+				body: [
+					'The formation is two pieces. First, conjugate *haber* in the simple future: *habré, habrás, habrá, habremos, habréis, habrán*. That stem, *habr-*, is one of the twelve irregular future stems that swap in for the full infinitive before Spanish verbs add these endings, the same stem-dropping pattern that turns *tener* into *tendré* or *poder* into *podré*. Second, add the main verb\'s past participle, and leave it alone: *habré hablado, habrás comido, habrá vivido*. The participle never changes for gender or number here, no matter who the subject is or what the main verb\'s participle would do as a plain adjective; *habrá terminado* is exactly the same whether the subject is *él* or *ella*.',
+					'Regular participles follow one of two patterns: *-ar* verbs take *-ado* (*hablado, terminado*), *-er* and *-ir* verbs take *-ido* (*comido, vivido*). Everything below is about the verbs that don\'t follow either pattern.',
+				],
+			},
+			{
+				heading: 'Fourteen verbs whose participle isn\'t just -ado or -ido',
+				body: [
+					'A closed set of Spanish participles, the ones the Real Academia Española calls *participios fuertes* or *irregulares*, replace the expected *-ado*/*-ido* ending with a stressed-root form instead: *abierto* (abrir), *absuelto* (absolver), *cubierto* (cubrir), *dicho* (decir), *disuelto* (disolver), *escrito* (escribir), *hecho* (hacer), *muerto* (morir), *puesto* (poner), *resuelto* (resolver), *roto* (romper), *satisfecho* (satisfacer), *visto* (ver), and *vuelto* (volver). Every one of these plugs straight into the future perfect the same way a regular participle would: *habrá dicho, habremos hecho, habrán vuelto*.',
+					'A smaller handful of verbs have two competing participles that both stay in real use, one regular and one irregular: *imprimir* gives both *imprimido* and *impreso*, *freír* gives both *freído* and *frito*, and *proveer* gives both *proveído* and *provisto*. Per RAE, either form works in a compound tense (*hemos imprimido veinte ejemplares*, *habían impreso las copias* are both attested), but the split isn\'t random: the regular form shows up more in present- and future-facing compounds, while the irregular form is more common looking backward, in a pluperfect like *había impreso*. Reached for as a plain adjective instead of part of a verb phrase, only the irregular form is standard: *libros impresos*, *huevos fritos*, never *imprimidos* or *freídos*.',
+				],
+			},
+			{
+				heading: 'The genuinely future use: marking which of two future events finishes first',
+				body: [
+					'The straightforward, future-facing use of this tense is anteriority: one action will be complete before a second, later point that is itself still ahead of now. *"Para cuando llegues a casa, ya habré terminado de cocinar la cena"* ("By the time you get home, I\'ll have already finished cooking dinner") sets up two future moments, your arrival and the finished dinner, and places the second one before the first. *"Habré leído todo el libro para el lunes"* ("I\'ll have read the whole book by Monday") makes the same point with a deadline in place of an event.',
+					'This use shows up mostly in planning, writing, and formal or careful speech, the kind of sentence built around a *para cuando*, *cuando*, or *antes de que* clause that fixes the later reference point. It\'s a real, standard part of the tense, and worth recognizing, but it turns up in ordinary conversation far less often than the conjecture use covered next.',
+				],
+			},
+			{
+				heading: 'The conjecture use: guessing about the past, not the future',
+				body: [
+					'The use that actually dominates spoken Spanish points backward. RAE describes the compound future of conjecture as roughly equivalent to a present perfect plus a modal marker of probability: *"Habrá estado enfermo"* works out to about *"Probablemente ha estado enfermo"* ("He\'s probably been sick"). The tense itself carries the hedge; no separate word for "probably" is required, though Spanish speakers can and do add one anyway for emphasis.',
+					'More examples read naturally in everyday contexts: *"No contesta el teléfono. Habrá salido ya"* ("He\'s not picking up. He must have already left"), or *"Habrán llegado tarde por el tráfico"* ("They probably arrived late because of the traffic"). This is the exact same modal trick Spanish\'s [simple future tense uses to guess about right now](/spanish-future-tense/), just aimed one step further back: it targets something already finished, not something unfolding this very moment. *Serán las tres* guesses about the present; *habrán llegado* guesses about the past.',
+				],
+			},
+			{
+				heading: 'Habrá llegado vs. ha llegado vs. probablemente ha llegado',
+				body: [
+					'Three ways of saying roughly the same thing carry different weights of certainty. *Ha llegado* ("she\'s arrived") states it as settled fact. *Habrá llegado* ("she\'s probably arrived") carries the uncertainty inside the verb form itself, no extra word needed. *Probablemente ha llegado* says the identical thing by bolting an adverb onto the plain present perfect, with no tense change at all. All three are grammatical, but only the middle one lets the tense itself do the hedging, which is why it\'s worth learning as its own form, not just as a stylistic variant of the present perfect.',
+					'This compound-tense structure, an auxiliary\'s own tense plus an unchanging participle, isn\'t unique to Spanish. [German\'s Perfekt builds the same way](/german-perfect-tense/), a present-tense haben or sein plus an unchanging Partizip II, though the two languages\' compound tenses don\'t line up use-for-use beyond that shared architecture. Spanish\'s own six-tense everyday core, including where this compound future sits relative to the simple forms, is [laid out in full on the site\'s tense overview](/spanish-verb-tenses-chart/).',
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'Does "habré hablado" always mean "I will have spoken"?',
+				answer: 'No. That literal translation only covers one of its two real uses, the anteriority use, where one future action wraps up ahead of some other, still-later moment, as in para el viernes ya habré entregado el informe (by Friday, the report will be turned in). More often, Spanish reaches for this tense as a futuro de conjetura, floating a likely explanation for whatever\'s evidently over and done with: "Habrá salido" means she has most likely gone already; it isn\'t predicting anything that hasn\'t happened yet.',
+			},
+			{
+				question: 'How do you form the Spanish future perfect?',
+				answer: 'Take all six persons of haber conjugated in the future, and tack on whatever participle the verb you\'re conjugating produces, left untouched: habré leído, te habrás ido, habrán vuelto. Whatever gender or number the subject carries has zero effect on that word in this construction.',
+			},
+			{
+				question: 'Which participles are irregular in the Spanish future perfect?',
+				answer: 'The same set that\'s irregular in every haber-based compound tense: abierto (abrir), dicho (decir), escrito (escribir), hecho (hacer), muerto (morir), puesto (poner), roto (romper), visto (ver), vuelto (volver), plus absuelto, cubierto, disuelto, resuelto, and satisfecho. A few verbs, like imprimir and freír, keep two coexisting participles (imprimido/impreso, freído/frito); RAE treats both as valid ways to build a compound form, with the regular one turning up more when the sentence points ahead and the irregular one turning up more when it points back, as in a pluperfect.',
+			},
+			{
+				question: 'What\'s the difference between "habrá llegado" and "llegará"?',
+				answer: 'Llegará is the plain simple future: "she will arrive," a straightforward prediction about something not yet complete. Habrá llegado belongs to the other tense this article covers, and in its most common use it isn\'t predicting arrival at all; it\'s floating a guess that the arrival is already behind us: "she has probably arrived." One form points forward at what hasn\'t happened yet; the other points backward at what likely already has.',
+			},
+			{
+				question: 'Is the future perfect common in everyday spoken Spanish?',
+				answer: 'Its conjecture use is genuinely common, reached for constantly to float a likely explanation for whatever\'s evidently over with already. Its literal future use, marking that one future event finishes before another, is real but leans toward written and formal contexts rather than casual talk, similar to how the simple future itself gets crowded out by ir a + infinitive in everyday conversation.',
+			},
+		],
+		sources: [
+			{ label: 'Real Academia Española: Glosario de términos gramaticales, "futuro compuesto de indicativo"', url: 'https://www.rae.es/gtg/futuro-compuesto-de-indicativo' },
+			{ label: 'Real Academia Española: Nueva gramática de la lengua española, "Tiempos compuestos no orientados directamente desde el momento del habla: el pretérito pluscuamperfecto, el pretérito anterior, el futuro compuesto, el condicional compuesto"', url: 'https://www.rae.es/gram%C3%A1tica/sintaxis/tiempos-compuestos-no-orientados-directamente-desde--el-momento-del-habla-el-pret%C3%A9rito-pluscuamperfecto-hab%C3%ADa-cantado-el-pret%C3%A9rito-anterior-hube-cantado-el-futuro-compuesto-habr%C3%A9-cantado-el-condicional-compuesto-habr%C3%ADa-cantado' },
+			{ label: 'Real Academia Española: Nueva gramática básica de la lengua española, "Pretéritos fuertes y participios irregulares"', url: 'https://www.rae.es/gram%C3%A1tica-b%C3%A1sica/la-flexi%C3%B3n-verbal/los-verbos-irregulares/pret%C3%A9ritos-fuertes-y-participios-irregulares' },
+			{ label: 'Real Academia Española: Nueva gramática de la lengua española, "Verbos irregulares (IV). Pretéritos fuertes y participios irregulares"', url: 'https://www.rae.es/gram%C3%A1tica/morfolog%C3%ADa/verbos-irregulares-iv-pret%C3%A9ritos-fuertes-y-participios-irregulares' },
+			{ label: 'Real Academia Española: Glosario de términos gramaticales, "participio"', url: 'https://www.rae.es/gtg/participio' },
+		],
+	},
 ];
