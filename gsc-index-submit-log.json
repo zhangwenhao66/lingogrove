@@ -404,5 +404,16 @@
     ],
     "already_indexed_no_action": [],
     "quota_used": "2 of shared account-wide daily quota"
+  },
+  {
+    "date": "2026-09-10",
+    "action": "submitted",
+    "reason": "今日随机休息未发布新文(R=14)。Discovered-currently-not-indexed报告(5条)：cabron-meaning/french-future-tense已于09-09提交过（本次未重复），french-irregular-verbs确认未收录提交成功(第一轮)。第二轮补提交russian-cases(同报告候选，确认未收录)。",
+    "submitted_urls": [
+      "https://lingogrove.com/french-irregular-verbs/",
+      "https://lingogrove.com/russian-cases/"
+    ],
+    "already_indexed_no_action": [],
+    "quota_used": "2 of shared account-wide daily quota"
   }
 ]
