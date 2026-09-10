@@ -26,8 +26,10 @@
   },
   "https://lingogrove.com/german-cases/": {
     "submitted_date": "2026-08-18",
-    "verified_status": "pending",
-    "note": "new publish (Grammar tier, four-case overview differentiated by where the noun itself changes vs. the article: weak/n-declension nouns, dative plural -n, genitive singular -(e)s; sourced from grammis IDS Mannheim + PONS); Bing 200 / Yandex 200. Live URL confirmed 200 with real article content before submission."
+    "verified_status": "stale_not_indexed",
+    "note": "new publish (Grammar tier, four-case overview differentiated by where the noun itself changes vs. the article: weak/n-declension nouns, dative plural -n, genitive singular -(e)s; sourced from grammis IDS Mannheim + PONS); Bing 200 / Yandex 200. Live URL confirmed 200 with real article content before submission.",
+    "last_checked_date": "2026-09-10",
+    "verified_method": "bwt_url_inspection"
   },
   "https://lingogrove.com/german-genitive/": {
     "submitted_date": "2026-08-18",
@@ -41,8 +43,10 @@
   },
   "https://lingogrove.com/french-pronouns/": {
     "submitted_date": "2026-08-17",
-    "verified_status": "pending",
-    "note": "new publish (Grammar tier, French pronoun system reference: 5 families + à-verb exception list + stacking order); Bing 200 / Yandex 200."
+    "verified_status": "stale_not_indexed",
+    "note": "new publish (Grammar tier, French pronoun system reference: 5 families + à-verb exception list + stacking order); Bing 200 / Yandex 200.",
+    "last_checked_date": "2026-09-10",
+    "verified_method": "bwt_url_inspection"
   },
   "https://lingogrove.com/spanish-imperfect-endings/": {
     "submitted_date": "2026-08-16",
@@ -300,18 +304,24 @@
   },
   "https://lingogrove.com/mashallah-meaning/": {
     "submitted_date": "2026-08-17",
-    "verified_status": "pending",
-    "note": "new publish (Loanwords tier); Bing 200 / Yandex 200. Live-URL poll could not be verified this run: curl/node fetch/Browser pane all failed to reach lingogrove.com from this session (proxy TLS handshake failure / navigation denied), while other domains (example.com, indexnow endpoints) worked fine -- appears to be a session-level access restriction on this owned domain, not a deploy failure. Local build (npm run build) confirmed correct dist/mashallah-meaning/index.html output before push."
+    "verified_status": "verified_indexed",
+    "note": "new publish (Loanwords tier); Bing 200 / Yandex 200. Live-URL poll could not be verified this run: curl/node fetch/Browser pane all failed to reach lingogrove.com from this session (proxy TLS handshake failure / navigation denied), while other domains (example.com, indexnow endpoints) worked fine -- appears to be a session-level access restriction on this owned domain, not a deploy failure. Local build (npm run build) confirmed correct dist/mashallah-meaning/index.html output before push.",
+    "last_checked_date": "2026-09-10",
+    "verified_method": "bwt_url_inspection"
   },
   "https://lingogrove.com/spanish-question-words/": {
     "submitted_date": "2026-08-17",
-    "verified_status": "pending",
-    "note": "new publish (Grammar tier, spanish question words: qué vs cuál identity-question trap + por qué/porque/porqué/para qué cluster + cuánto gender agreement + dónde vs adónde); Bing 200 / Yandex 200."
+    "verified_status": "stale_not_indexed",
+    "note": "new publish (Grammar tier, spanish question words: qué vs cuál identity-question trap + por qué/porque/porqué/para qué cluster + cuánto gender agreement + dónde vs adónde); Bing 200 / Yandex 200.",
+    "last_checked_date": "2026-09-10",
+    "verified_method": "bwt_url_inspection"
   },
   "https://lingogrove.com/italian-future-tense/": {
     "submitted_date": "2026-08-17",
-    "verified_status": "pending",
-    "note": "new publish (Grammar tier, first Italian-language entry on the site: futuro semplice regular/irregular formation + habeo+infinitive etymology + futuro epistemico/iussivo/attenuativo non-predictive uses + futuro anteriore); Bing 200 / Yandex 200. Live URL confirmed 200 with real article content before submission."
+    "verified_status": "verified_indexed",
+    "note": "new publish (Grammar tier, first Italian-language entry on the site: futuro semplice regular/irregular formation + habeo+infinitive etymology + futuro epistemico/iussivo/attenuativo non-predictive uses + futuro anteriore); Bing 200 / Yandex 200. Live URL confirmed 200 with real article content before submission.",
+    "last_checked_date": "2026-09-10",
+    "verified_method": "bwt_url_inspection"
   },
   "https://lingogrove.com/french-prepositions/": {
     "submitted_date": "2026-08-19",
