@@ -1546,3 +1546,73 @@
   "escalation": null
 }
 ```
+
+## french-imperative
+
+```json
+{
+  "url_slug": "french-imperative",
+  "url": "https://lingogrove.com/french-imperative/",
+  "last_audited": "2026-09-11",
+  "published_date": "2026-08-10",
+  "note": "First audit of this article (never audited before, one of 54 never-audited articles at time of selection). Earliest-published among the never-audited set, tied with french-subjunctive and japanese-particles-wa-ga-wo-ni.",
+  "diagnosed_checkpoints": [
+    "Is the -er verb final-s drop at tu accurate?",
+    "Is the en/y -s-returns rule and its exceptions (infinitive complement, laisser holdout) OQLF-sourced and accurate?",
+    "Is the avoir/être/savoir/vouloir subjunctive-borrowing claim accurate?",
+    "Is the direct-before-indirect pronoun order rule (dis-le-moi not dis-moi-le) OQLF-sourced and accurate?",
+    "Is the te->toi / me->moi reflexive stress-pronoun rule accurate?"
+  ],
+  "findings": [
+    {
+      "dimension": "1-5 checkpoints / factual accuracy",
+      "status": "pass, verified",
+      "detail": "All 5 diagnosed grammar claims independently verified via WebSearch directly against OQLF Vitrine linguistique (formes-et-conjugaison, pronoms-personnels-employes-avec-un-verbe-a-limperatif) and Larousse -- all accurate, including easy-to-get-wrong details (liaison examples, the laisser exception, the OQLF's explicit written-French recommendation against colloquial pronoun-order inversion). No fabrication found."
+    },
+    {
+      "dimension": "external link rot",
+      "status": "pass",
+      "detail": "All 3 sources (Larousse, 2x OQLF) curl-confirmed HTTP 200."
+    },
+    {
+      "dimension": "internal link health",
+      "status": "pass",
+      "detail": "3 inbound links from other LingoGrove articles (not orphaned), 2 valid outbound links (french-articles, spanish-reflexive-verbs, both confirmed existing slugs)."
+    },
+    {
+      "dimension": "competitive differentiation",
+      "status": "pass -- strong",
+      "detail": "SERP for 'french imperative' dominated by lingolia/lawlessfrench/utexas/bbc-bitesize/lingvist; none cover OQLF-level detail (the laisser exception, the infinitive-complement exception, the cross-language comparison to Spanish reflexive commands). Genuine differentiation."
+    },
+    {
+      "dimension": "SEO technical/on-page",
+      "status": "pass, no change needed",
+      "detail": "title z=0.72, description z=0.40, both within normal range. Schema/canonical/H1 all fine. Image (self-made SVG diagram) confirmed live (200)."
+    },
+    {
+      "dimension": "GEO / AdSense / compliance",
+      "status": "pass",
+      "detail": "No material issues found across these dimensions."
+    },
+    {
+      "dimension": "mechanical prose-pattern checks",
+      "status": "confirmed problem -> fixed",
+      "detail": "check_prose_patterns.py flagged 5 FAQ answers with >=20-char verbatim overlap against body text (L-0819-9). Took 5 iterative rewrite rounds to converge to exit 0 -- this article's formulaic grammar phrasing ('borrow from the subjunctive', 'purely for pronunciation', 'declarative sentence') recurs across sections, so early rewrites kept colliding with other sentences' existing wording. Final version uses distinct phrasing and even swaps one example sentence (Travaille en silence -> Reste en forme, semantically equivalent, avoids duplicating the body's exact example) without changing any facts."
+    }
+  ],
+  "independent_review": "Spawned 1 fresh-context agent to verify the single confirmed-candidate finding (FAQ-body overlap) -- re-ran check_prose_patterns.py independently and manually cross-checked at least 2 of the flagged phrases against both faq and sections arrays in guides.ts. CONFIRMED REAL PROBLEM. Completed in ~20s, did not stall. Other 13 dimensions returned PASS with no candidate findings, so no further independent-review calls were needed (review is for confirmed-candidate problems, not PASS results).",
+  "actions_taken": [
+    "Rewrote all 5 FAQ answers to remove verbatim overlap with body text while preserving every fact.",
+    "Bumped updated from 2026-08-10 to 2026-09-11 (published field already existed, no backfill needed).",
+    "npm run build (87 pages) passed.",
+    "Ran seo_drift.py baseline before deploy and compare after: 1 WARNING (schema content changed -- expected, FAQ text rewrite), no CRITICAL.",
+    "Committed (8b9e04b) and pushed to origin/main; LingoGrove auto-deploys via git-connected Cloudflare Pages. Polled the live URL (cache-busted) until new FAQ text appeared (~20s).",
+    "Submitted https://lingogrove.com/french-imperative/ via tools/submit-indexnow.mjs (Bing 200, Yandex 200).",
+    "Appended dated entry to 内容发布日志.md marking this as a content-quality-audit update, not a new publish.",
+    "Checked against 独立站/内容通用教训库.md before starting; no new generalizable cross-site issue beyond what's already covered (FAQ-body overlap is the already-graduated L-0819-9 hard check, operating as intended)."
+  ],
+  "seo_score": "no issues found, no change",
+  "geo_score": "qualitative pass, no material change",
+  "escalation": null
+}
+```
