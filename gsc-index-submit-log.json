@@ -415,5 +415,22 @@
     ],
     "already_indexed_no_action": [],
     "quota_used": "2 of shared account-wide daily quota"
+  },
+  {
+    "date": "2026-09-11",
+    "action": "submitted",
+    "reason": "今日主力分区闸门跳过发布（无✅主力分区）；审计更新french-imperative（非新发布），URL Inspection确认已收录，跳过。Page indexing报告Discovered-not-indexed 5条+Crawled-not-indexed 9条。Discovered候选cabron-meaning/french-future-tense/french-irregular-verbs均已收录（此前提交生效）。改查Crawled报告：spanish-superlatives/french-pronouns已收录，spanish-present-tense-endings确认Crawled-currently-not-indexed未提交过，提交成功。",
+    "submitted_urls": [
+      "https://lingogrove.com/spanish-present-tense-endings/"
+    ],
+    "already_indexed_no_action": [
+      "https://lingogrove.com/french-imperative/",
+      "https://lingogrove.com/cabron-meaning/",
+      "https://lingogrove.com/french-future-tense/",
+      "https://lingogrove.com/french-irregular-verbs/",
+      "https://lingogrove.com/spanish-superlatives/",
+      "https://lingogrove.com/french-pronouns/"
+    ],
+    "quota_used": "1 of shared account-wide daily quota"
   }
 ]
