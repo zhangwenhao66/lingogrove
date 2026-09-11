@@ -2130,7 +2130,7 @@ export const guides: Guide[] = [
 		title: 'French Imperative: Chante, Sois, and the Pronoun Order That Reverses',
 		description: 'French commands drop the subject pronoun, and most -er verbs also drop the final -s, until en or y shows up and the -s comes back. Four verbs skip the system entirely.',
 		published: '2026-08-10',
-		updated: '2026-08-10',
+		updated: '2026-09-11',
 		coreSummary: 'The French imperative exists only in the tu, nous, and vous forms, drops the subject pronoun, and mostly reuses the present indicative, except that -er verbs drop the final -s at tu (chante, not chantes) unless the pronoun en or y follows, when the -s returns for pronunciation (vas-y). Four verbs, avoir, être, savoir, and vouloir, ignore that whole system and borrow their forms from the subjunctive instead (aie, sois, sache, veuille), and object pronouns reverse their order depending on the command: direct object first in an affirmative command (dis-le-moi), back to ordinary word order in a negative one (ne me le dis pas).',
 		language: 'French',
 		sections: [
@@ -2186,23 +2186,23 @@ export const guides: Guide[] = [
 		faq: [
 			{
 				question: 'Why does "tu chantes" become "chante" as a command, not "chantes"?',
-				answer: 'At the imperative, -er verbs (and aller) drop the final -s that the present indicative keeps at tu. Tu chantes becomes Chante; tu vas becomes Va. This is the one systematic difference between the imperative and indicative forms at tu for regular -er verbs; the nous and vous forms don\'t drop anything and match the indicative directly.',
+				answer: 'Regular -er verbs, plus aller, lose that trailing -s once they move into the command form at tu: chante, not chantes; va, not vas. That\'s the one exception worth memorizing first, and it only touches the tu person — nous and vous carry the indicative endings over unchanged.',
 			},
 			{
 				question: 'When does the dropped -s come back on an imperative verb?',
-				answer: 'When the pronoun en or y immediately follows, purely for pronunciation: manges-en, vas-y, parles-en. Per the OQLF, that -s doesn\'t return if en or y is instead the complement of a following infinitive rather than a pronoun attached to the imperative itself (va en acheter, va y mettre), or if en isn\'t a pronoun at all (Travaille en silence). One verb, laisser, keeps the -s even in that exception case.',
+				answer: 'Right before en or y, to keep two vowel sounds from colliding: manges-en, vas-y, parles-en. Swap in an infinitive that en or y actually belongs to instead (va en acheter, va y mettre) and the -s stays gone — same story when en is simply functioning as the word for "in," with no pronoun involved at all (Reste en forme). Laisser alone keeps its -s no matter what.',
 			},
 			{
 				question: 'Why is the command form of "être" sois instead of es?',
-				answer: 'Avoir, être, savoir, and vouloir don\'t form their imperative from the present indicative at all. Per the OQLF, their tu-form imperative borrows from the present subjunctive or an older version of it: aie, sois, sache, veuille. At nous/vous, avoir and être keep tracking the subjunctive (ayons/ayez, soyons/soyez), while savoir and vouloir use their own dedicated forms, sachons/sachez and veuillons/veuillez.',
+				answer: 'Because être belongs to a small club of four verbs that skip the indicative pattern entirely — the other three are vouloir, savoir, and avoir — each pulling its tu command from an older subjunctive form (aie, sache, veuille, alongside sois). The plurals diverge further: avoir and être still track the subjunctive (ayons/ayez, soyons/soyez), while savoir and vouloir land on dedicated forms of their own, sachons/sachez and veuillons/veuillez.',
 			},
 			{
 				question: 'Why is it "dis-le-moi" and not "dis-moi-le"?',
-				answer: 'In an affirmative command with two object pronouns, French places the direct object immediately after the verb and the indirect object second: dis-le-moi, rendez-le-nous. That\'s the reverse of ordinary declarative word order, where a 1st- or 2nd-person indirect pronoun normally comes first (il me le dit). The OQLF explicitly recommends against the colloquial dis-moi-le in written French, even though the inverted order is sometimes heard in speech.',
+				answer: 'French flips the usual word order for a two-pronoun command: the thing being given or told comes right after the verb, and who it\'s given or told to comes second, so dis-le-moi and rendez-le-nous rather than the reverse. An ordinary statement would put those two pronouns in the opposite sequence (il me le dit). Spoken French sometimes swaps them back, but written French sticks with the le-then-moi order.',
 			},
 			{
 				question: 'Why does "te" become "toi" in "lève-toi" but not in "ne te lève pas"?',
-				answer: 'An affirmative command moves the pronoun after the verb and swaps it for its stressed form, te to toi, me to moi: lève-toi. A negative command moves the pronoun back in front of the verb and reverts it to the plain form: ne te lève pas. The OQLF confirms the same substitution happens before en and y, where me and te elide to m\' and t\' rather than staying as moi and toi outright: donnez-m\'en, not donnez-moi-z-en.',
+				answer: 'Saying yes to a command pulls the pronoun behind the verb and upgrades it to its stressed form at the same time, so te turns into toi and me into moi: lève-toi. Saying no undoes both moves at once, pronoun back in front, plain form restored: ne te lève pas. Before en or y specifically, moi and toi contract to m\' and t\' instead of staying spelled out — donnez-m\'en is correct, and the version some speakers insert an extra z-sound into isn\'t.',
 			},
 		],
 		sources: [
