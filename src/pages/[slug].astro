@@ -7,6 +7,7 @@ import { pickRelatedGuides } from '../../vendor/site-toolkit/packages/related-gu
 import ConjugationTableView from '../components/ConjugationTableView.astro';
 import ConjugationDrill from '../components/ConjugationDrill.astro';
 import FeedbackMark from '../components/FeedbackMark.astro';
+import TutorPick from '../components/TutorPick.astro';
 import { guides, type Guide } from '../data/guides';
 import { AUTHOR_NAME, SITE_ORIGIN } from '../consts';
 
@@ -196,6 +197,8 @@ import { imgDims } from '../data/imageDims';
 				</section>
 			))}
 		</article>
+
+		<TutorPick guide={guide} />
 
 		{guide.conjugation && (
 			<div class="mt-9 border-t border-[var(--rule)] pt-8">

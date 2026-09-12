@@ -1,10 +1,14 @@
 ---
 import { SITE_TITLE } from '../consts';
+import { ITALKI_DISCLOSURE } from '../lib/affiliate';
 const year = new Date().getFullYear();
 ---
 
 <footer class="border-t-[3px] border-[var(--flag)] bg-[var(--bedrock)]">
-	<div class="mx-auto flex max-w-5xl flex-col gap-4 px-4 py-9 text-sm text-[var(--bedrock-text)]/75 md:flex-row md:items-center md:justify-between">
+	<div class="mx-auto max-w-5xl px-4 pt-7">
+		<p class="m-0 text-xs leading-relaxed text-[var(--bedrock-text)]/60">Some grammar and phrase pages link to italki, a marketplace for one-on-one language lessons. {ITALKI_DISCLOSURE}</p>
+	</div>
+	<div class="mx-auto flex max-w-5xl flex-col gap-4 px-4 pb-9 pt-4 text-sm text-[var(--bedrock-text)]/75 md:flex-row md:items-center md:justify-between">
 		<p class="font-display m-0 text-[0.95rem] text-[var(--bedrock-text)]">&copy; {year} {SITE_TITLE}</p>
 		<nav class="flex flex-wrap gap-5">
 			<a href="/grammar/" class="text-[var(--bedrock-text)]/75 no-underline hover:text-white hover:underline">Grammar</a>
