@@ -1,0 +1,238 @@
+---
+// Practice island rendered under the static ConjugationTableView on any guide that has a
+// `conjugation` table -- same "pure logic in src/lib + thin vanilla <script> wrapper"
+// split as WordQuiz.astro, no framework.
+//
+// Why it exists: an AI answer box can print the table above just as well as we can. It
+// cannot make you *produce* "fuéramos" from "ser, imperfect subjunctive, nosotros" and
+// tell you whether you got the accent right. The deck is derived from the guide's own
+// table at build time (buildDeck), so the drill can never disagree with what's printed
+// above it and never contains a form that isn't already in guides.ts.
+import type { ConjugationTable } from '../data/guides';
+import { buildDeck } from '../lib/conjugationDrill';
+
+interface Props {
+	table: ConjugationTable;
+	/** Questions per round; the whole deck is used when it is smaller than this. */
+	count?: number;
+}
+
+const { table, count = 10 } = Astro.props;
+const deck = buildDeck(table);
+const deckJson = JSON.stringify(deck);
+const roundSize = Math.min(count, deck.length);
+
+// BCP-47 tag for the answer field so spellcheck/screen readers treat it as the target
+// language rather than English. Unknown languages just inherit the page's lang.
+const langTag: Record<string, string> = { Spanish: 'es', French: 'fr', German: 'de', Italian: 'it', Portuguese: 'pt' };
+const inputLang = langTag[table.language];
+---
+
+{deck.length > 0 && (
+	<div class="conj-drill mt-6" data-deck={deckJson} data-count={count} data-verb={table.verb}>
+		<div class="mb-3 flex items-center justify-between text-xs font-semibold uppercase tracking-[0.12em] text-[var(--ink)]/50">
+			<span class="conj-drill-position">Question 1 of {roundSize}</span>
+			<span class="conj-drill-score">Score: 0</span>
+		</div>
+
+		<form class="conj-drill-card panel px-5 py-5 md:px-6" novalidate>
+			<p class="rubric m-0">Practise it</p>
+			<p class="m-0 mt-2 text-sm text-[var(--ink)]/60">
+				Type the form of <strong class="font-display font-semibold text-[var(--flag-dark)]">{table.verb}</strong> for the tense and person shown. Accents count.
+			</p>
+
+			<p class="conj-drill-prompt font-display m-0 mt-4 text-xl font-semibold leading-snug text-[var(--ink)]" aria-live="polite">
+				<span class="conj-drill-verb text-[var(--flag-dark)]">{table.verb}</span>
+				<span class="conj-drill-sep text-[var(--ink)]/35" aria-hidden="true">&middot;</span>
+				<span class="conj-drill-tense">&nbsp;</span>
+				<span class="conj-drill-sep text-[var(--ink)]/35" aria-hidden="true">&middot;</span>
+				<span class="conj-drill-pronoun italic">&nbsp;</span>
+			</p>
+
+			<div class="mt-4 flex flex-col gap-3 sm:flex-row sm:items-end">
+				<label class="flex flex-1 flex-col">
+					<span class="text-[0.7rem] font-semibold uppercase tracking-[0.1em] text-[var(--ink)]/55">Your answer</span>
+					<input
+						type="text"
+						class="conj-drill-input font-display mt-1 w-full border-0 border-b-2 border-[var(--ink)] bg-transparent px-0 py-1.5 text-lg text-[var(--ink)] outline-none focus:border-[var(--flag)]"
+						autocomplete="off"
+						autocapitalize="off"
+						autocorrect="off"
+						spellcheck="false"
+						lang={inputLang}
+						aria-describedby="conj-drill-feedback"
+					/>
+				</label>
+				<button type="submit" class="conj-drill-check rounded-[6px] border border-[var(--ink)] bg-[var(--ink)] px-4 py-2 text-xs font-semibold uppercase tracking-wide text-[var(--leaf)] hover:bg-[var(--flag-dark)] hover:border-[var(--flag-dark)]">
+					Check
+				</button>
+			</div>
+
+			<div id="conj-drill-feedback" class="conj-drill-feedback mt-4" role="status" aria-live="polite" hidden>
+				<p class="conj-drill-verdict font-display m-0 text-base font-bold"></p>
+				<p class="conj-drill-detail mt-1.5 mb-0 text-sm leading-relaxed text-[var(--ink)]/75"></p>
+				<div class="mt-4">
+					<button type="button" class="conj-drill-next rounded-[6px] border border-[var(--rule)] px-4 py-2 text-xs font-semibold uppercase tracking-wide text-[var(--ink)]/70 hover:border-[var(--flag)] hover:text-[var(--flag-dark)]">
+						Next question &rarr;
+					</button>
+				</div>
+			</div>
+		</form>
+
+		<div class="conj-drill-done panel mt-4 rounded-[10px] px-6 py-6 text-center" hidden>
+			<p class="rubric m-0">Round complete</p>
+			<p class="conj-drill-final font-display m-0 mt-2 text-2xl font-bold text-[var(--ink)]"></p>
+			<p class="conj-drill-final-note mt-1 mb-0 text-sm text-[var(--ink)]/60"></p>
+			<button type="button" class="conj-drill-restart mt-4 rounded-[6px] border border-[var(--rule)] px-4 py-2 text-xs font-semibold uppercase tracking-wide text-[var(--ink)]/70 hover:border-[var(--flag)] hover:text-[var(--flag-dark)]">
+				Practise again &rarr;
+			</button>
+		</div>
+	</div>
+)}
+
+<script>
+	import { checkAnswer, expandAlternatives, pickDrillSet, type DrillQuestion } from '../lib/conjugationDrill';
+
+	document.querySelectorAll<HTMLElement>('.conj-drill').forEach((root) => {
+		const deckRaw = root.dataset.deck;
+		if (!deckRaw) return;
+		const deck: DrillQuestion[] = JSON.parse(deckRaw);
+		const count = Number(root.dataset.count) || 10;
+
+		const positionEl = root.querySelector<HTMLElement>('.conj-drill-position');
+		const scoreEl = root.querySelector<HTMLElement>('.conj-drill-score');
+		const formEl = root.querySelector<HTMLFormElement>('.conj-drill-card');
+		const tenseEl = root.querySelector<HTMLElement>('.conj-drill-tense');
+		const pronounEl = root.querySelector<HTMLElement>('.conj-drill-pronoun');
+		const inputEl = root.querySelector<HTMLInputElement>('.conj-drill-input');
+		const checkBtn = root.querySelector<HTMLButtonElement>('.conj-drill-check');
+		const feedbackEl = root.querySelector<HTMLElement>('.conj-drill-feedback');
+		const verdictEl = root.querySelector<HTMLElement>('.conj-drill-verdict');
+		const detailEl = root.querySelector<HTMLElement>('.conj-drill-detail');
+		const nextBtn = root.querySelector<HTMLButtonElement>('.conj-drill-next');
+		const doneEl = root.querySelector<HTMLElement>('.conj-drill-done');
+		const finalEl = root.querySelector<HTMLElement>('.conj-drill-final');
+		const finalNoteEl = root.querySelector<HTMLElement>('.conj-drill-final-note');
+		const restartBtn = root.querySelector<HTMLButtonElement>('.conj-drill-restart');
+
+		if (
+			!positionEl || !scoreEl || !formEl || !tenseEl || !pronounEl || !inputEl || !checkBtn ||
+			!feedbackEl || !verdictEl || !detailEl || !nextBtn || !doneEl || !finalEl || !finalNoteEl || !restartBtn
+		) {
+			return;
+		}
+
+		let set: DrillQuestion[] = [];
+		let index = 0;
+		let score = 0;
+		let accentSlips = 0;
+		let answered = false;
+
+		function startRound(focus: boolean) {
+			set = pickDrillSet(deck, count);
+			index = 0;
+			score = 0;
+			accentSlips = 0;
+			doneEl!.hidden = true;
+			formEl!.hidden = false;
+			showQuestion(focus);
+		}
+
+		function showQuestion(focus: boolean) {
+			const q = set[index];
+			answered = false;
+			positionEl!.textContent = `Question ${index + 1} of ${set.length}`;
+			scoreEl!.textContent = `Score: ${score}`;
+			tenseEl!.textContent = q.tense;
+			pronounEl!.textContent = q.pronoun;
+			inputEl!.value = '';
+			inputEl!.disabled = false;
+			inputEl!.classList.remove('conj-drill-input-correct', 'conj-drill-input-accents', 'conj-drill-input-wrong');
+			checkBtn!.disabled = false;
+			feedbackEl!.hidden = true;
+			if (focus) inputEl!.focus();
+		}
+
+		function handleCheck() {
+			if (answered) return;
+			const q = set[index];
+			const verdict = checkAnswer(inputEl!.value, q.form);
+			answered = true;
+
+			const answerText = expandAlternatives(q.form).join(' or ');
+			if (verdict === 'correct') {
+				score += 1;
+				verdictEl!.textContent = 'Correct!';
+				verdictEl!.style.color = 'var(--flag-dark)';
+				detailEl!.textContent = `${q.pronoun} — ${answerText}`;
+				inputEl!.classList.add('conj-drill-input-correct');
+			} else if (verdict === 'accents') {
+				accentSlips += 1;
+				verdictEl!.textContent = 'Close — check your accents.';
+				verdictEl!.style.color = 'var(--margin-red)';
+				detailEl!.textContent = `The right letters, but the accent is off. It's ${answerText}.`;
+				inputEl!.classList.add('conj-drill-input-accents');
+			} else {
+				verdictEl!.textContent = inputEl!.value.trim() ? 'Not quite.' : 'No answer given.';
+				verdictEl!.style.color = 'var(--ink)';
+				detailEl!.textContent = `${q.tense}, ${q.pronoun}: ${answerText}.`;
+				inputEl!.classList.add('conj-drill-input-wrong');
+			}
+
+			inputEl!.disabled = true;
+			checkBtn!.disabled = true;
+			scoreEl!.textContent = `Score: ${score}`;
+			feedbackEl!.hidden = false;
+			nextBtn!.focus();
+		}
+
+		function nextQuestion() {
+			index += 1;
+			if (index >= set.length) {
+				formEl!.hidden = true;
+				doneEl!.hidden = false;
+				finalEl!.textContent = `${score} / ${set.length} correct`;
+				finalNoteEl!.textContent =
+					accentSlips > 0
+						? `${accentSlips} ${accentSlips === 1 ? 'answer was' : 'answers were'} right except for the accents.`
+						: '';
+				restartBtn!.focus();
+				return;
+			}
+			showQuestion(true);
+		}
+
+		// Enter in the input submits the form: before answering that checks, after answering
+		// it advances -- so a keyboard-only learner never has to leave the field.
+		formEl!.addEventListener('submit', (event) => {
+			event.preventDefault();
+			if (answered) nextQuestion();
+			else handleCheck();
+		});
+		nextBtn!.addEventListener('click', nextQuestion);
+		restartBtn!.addEventListener('click', () => startRound(true));
+
+		// Don't steal focus on page load; the table above is what most visitors came for.
+		startRound(false);
+	});
+</script>
+
+<style>
+	.conj-drill-input-correct {
+		border-color: var(--flag) !important;
+		color: var(--flag-dark) !important;
+	}
+	.conj-drill-input-accents {
+		border-color: var(--margin-red) !important;
+		text-decoration: underline wavy var(--margin-red);
+		text-underline-offset: 0.2em;
+	}
+	.conj-drill-input-wrong {
+		border-color: var(--ink) !important;
+		text-decoration: line-through;
+		opacity: 0.6;
+	}
+	.conj-drill-input:disabled {
+		cursor: default;
+	}
+</style>
