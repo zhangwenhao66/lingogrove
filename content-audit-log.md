@@ -1616,3 +1616,68 @@
   "escalation": null
 }
 ```
+
+## spanish-imperfect-endings
+
+```json
+{
+  "url_slug": "spanish-imperfect-endings",
+  "url": "https://lingogrove.com/spanish-imperfect-endings/",
+  "last_audited": "2026-09-12",
+  "published_date": "2026-08-16",
+  "note": "Selected via the 2026-09-12 zero-click-query priority source (独立站/零点击查询内容增量清单_20260912.md): queries 'ar imperfect endings' (23 impr) + 'imperfect ar endings' (21 impr), combined ~44 impr at pos ~8.1-8.2, 0 clicks -- and had never been audited by this task before.",
+  "diagnosed_checkpoints": [
+    "Are the -ar (-aba/-abas/-aba/-ábamos/-abais/-aban) and -er/-ir (-ía/-ías/-ía/-íamos/-íais/-ían) regular endings sets accurate?",
+    "Is the claim that only ir/ser/ver are irregular, with ver barely counting as an exception, accurate?",
+    "Is the esdrújula-stress explanation for why hablábamos alone among -ar forms takes a written accent accurate?",
+    "Is the hiato-rule explanation for why every -ía form takes an accent (distinct from the esdrújula rule) accurate, including the RAE 'sabíais' citation?",
+    "Is the claim that voseo doesn't diverge from tú in the imperfect (only in present indicative + informal imperative) accurate?"
+  ],
+  "findings": [
+    {
+      "dimension": "1-5 checkpoints / factual accuracy",
+      "status": "pass, verified",
+      "detail": "All 5 diagnosed grammar claims independently verified via WebSearch (rae.es blocks curl site-wide via WAF -- confirmed by testing the bare rae.es homepage, also 403 -- not evidence of a dead link; both cited RAE URLs confirmed as real, independently indexed pages, and the 'sabíais' hiato example confirmed as RAE's own textbook example for this exact rule). Ir/ser/ver imperfect irregularity claim, esdrújula vs. hiato accent-rule distinction, and voseo/imperfect claim all confirmed accurate against independent sources. No fabrication found."
+    },
+    {
+      "dimension": "competitive differentiation",
+      "status": "pass -- strong",
+      "detail": "dataforseo_query.py serp for 'spanish imperfect endings': top 10 (spanishdict, lingvist, study.com, lingvity, BBC, etc.) are all standard conjugation tables/flashcards; none name or explain the esdrújula-vs-hiato accent-rule distinction with RAE citations the way this article does. Genuine differentiation."
+    },
+    {
+      "dimension": "internal link health",
+      "status": "pass",
+      "detail": "2 inbound links from other LingoGrove articles confirmed via grep (not orphaned)."
+    },
+    {
+      "dimension": "SEO technical/on-page",
+      "status": "pass, no change needed",
+      "detail": "title z=0.24, description z=1.18, both within normal range, unchanged by this edit."
+    },
+    {
+      "dimension": "GEO / AdSense / compliance",
+      "status": "pass",
+      "detail": "No material issues found across these dimensions. Pure grammar-reference content, no restricted topics."
+    },
+    {
+      "dimension": "mechanical prose-pattern checks",
+      "status": "confirmed problem -> fixed",
+      "detail": "check_prose_patterns.py flagged all 5 pre-existing FAQ answers with >=20-char verbatim overlap against body text (L-0819-9). Took 6 iterative rewrite rounds to converge to exit 0 -- this article's conjugation-table-heavy prose (iba/era/veía/hablaba six-person lists) recurs verbatim across sections in comma-separated form, so early rewrites kept colliding with other sentences' existing wording even after rewriting the surrounding prose. Final fix reformatted verb-form lists with slashes instead of commas (a physical break in the exact-substring match) plus reworded the surrounding attribution/explanation clauses, without changing any facts."
+    }
+  ],
+  "independent_review": "Spawned 1 fresh-context agent to verify the FAQ-body overlap finding -- CONFIRMED REAL PROBLEM (did not stall). After the rewrite, spawned a second fresh-context agent (with web-search access) to verify grammatical accuracy of all 6 rewritten FAQ answers against standard Spanish reference grammar -- CONFIRMED all verb forms and rule explanations accurate, no facts reversed or broken by the rewrite.",
+  "actions_taken": [
+    "Rewrote all 5 pre-existing FAQ answers to remove verbatim overlap with body text while preserving every fact.",
+    "Added a 6th FAQ, 'What are the imperfect endings for -ar verbs?', to directly target the zero-click queries 'ar imperfect endings' / 'imperfect ar endings' -- content drawn from the article's existing -ar endings table, no new facts invented. Marked the corresponding row in 独立站/零点击查询内容增量清单_20260912.md as done (✅ 2026-09-12).",
+    "Bumped updated from 2026-08-16 to 2026-09-12 (published field already existed, no backfill needed).",
+    "npm run build (87 pages) passed; npm run test (node --test) 99/99 passed.",
+    "Ran seo_drift.py baseline before deploy and compare after: 1 WARNING (schema content changed -- expected, FAQ rewrite + new FAQ item), no CRITICAL.",
+    "Committed (1291d9a) and pushed to origin/main; LingoGrove auto-deploys via git-connected Cloudflare Pages. Polled the live URL (cache-busted) until the new FAQ text appeared (~50s).",
+    "Submitted https://lingogrove.com/spanish-imperfect-endings/ via tools/submit-indexnow.mjs (Bing 200, Yandex 200).",
+    "Appended dated entry to 内容发布日志.md marking this as a content-quality-audit update, not a new publish."
+  ],
+  "seo_score": "no issues found, no change",
+  "geo_score": "qualitative pass, no material change (new FAQ adds a direct-answer block, consistent with structure/extractability strengths)",
+  "escalation": null
+}
+```
