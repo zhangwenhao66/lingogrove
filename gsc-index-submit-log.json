@@ -432,5 +432,20 @@
       "https://lingogrove.com/french-pronouns/"
     ],
     "quota_used": "1 of shared account-wide daily quota"
+  },
+  {
+    "date": "2026-09-12",
+    "action": "submitted",
+    "reason": "今日无新发布（仅有一次轻量丰富，非新页，不触发GSC优先提交）。队列候选habibi-meaning/spanish-superlatives/ohana-meaning及Discovered候选russian-cases均已收录（此前提交生效）。改查Discovered报告候选spanish-infinitive，确认Discovered-currently-not-indexed未提交过，提交成功。",
+    "submitted_urls": [
+      "https://lingogrove.com/spanish-infinitive/"
+    ],
+    "already_indexed_no_action": [
+      "https://lingogrove.com/habibi-meaning/",
+      "https://lingogrove.com/spanish-superlatives/",
+      "https://lingogrove.com/ohana-meaning/",
+      "https://lingogrove.com/russian-cases/"
+    ],
+    "quota_used": "1 of shared account-wide daily quota"
   }
 ]
