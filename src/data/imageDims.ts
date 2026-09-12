@@ -207,6 +207,10 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 520,
   "w": 800
  },
+ "/images/spanish-future-perfect-diagram.svg": {
+  "h": 340,
+  "w": 800
+ },
  "/images/spanish-future-tense-diagram.svg": {
   "h": 340,
   "w": 800
@@ -278,6 +282,10 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
  "/images/voila-meaning-diagram.svg": {
   "h": 560,
   "w": 900
+ },
+ "/logo-512.png": {
+  "h": 512,
+  "w": 512
  }
 };
 

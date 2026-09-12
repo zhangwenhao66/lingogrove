@@ -2812,7 +2812,7 @@ export const guides: Guide[] = [
 		title: 'Spanish Verb Tenses Chart: The 6 Tenses You Actually Need',
 		description: 'A full Spanish paradigm runs to nearly twenty tenses across three moods. This chart covers the six that carry everyday conversation, with hablar conjugated across each.',
 		published: '2026-08-13',
-		updated: '2026-08-13',
+		updated: '2026-09-12',
 		coreSummary: 'Spanish verbs fall under three moods (indicative, subjunctive, and imperative), but day-to-day conversation runs on five indicative tenses (present, preterite, imperfect, future, conditional), the present subjunctive, and the imperative. This chart conjugates the regular verb hablar across the first six side by side, then walks through what each one is actually for, with links to a full breakdown of the trickier pairs like preterite versus imperfect.',
 		language: 'Spanish',
 		sections: [
@@ -2874,11 +2874,16 @@ export const guides: Guide[] = [
 				question: 'Why doesn\'t the imperative show up in the chart with the other tenses?',
 				answer: 'Because it isn\'t built the same way. RAE\'s own grammar describes the imperative as sitting outside the normal tense system: it has no past, no future, and no compound forms, just a single present-tense set of command forms. That\'s also why negative commands switch to the present subjunctive instead of using the imperative at all (*no hables*, not a negated *habla*).',
 			},
+			{
+				question: 'How do you conjugate ser, and does it follow the pattern above?',
+				answer: 'No, ser ignores the hablar pattern almost entirely. It\'s a suppletive verb, meaning its paradigm was assembled from two separate Latin verbs rather than descending from one, so its endings don\'t follow any regular -ar/-er/-ir template. The present runs soy, eres, es, somos, sois, son, and the preterite (fui, fuiste, fue, fuimos, fuisteis, fueron) happens to be identical to the preterite of ir, with only context telling the two verbs apart. The ser conjugation page tabulates all nineteen paradigm blocks, counting the eight haber compounds and the voseo form vos sos, transcribed from the RAE conjugation table.',
+			},
 		],
 		sources: [
 			{ label: 'Real Academia Española — "Los tiempos verbales" (El buen uso del español)', url: 'https://www.rae.es/buen-uso-espa%C3%B1ol/los-tiempos-verbales' },
 			{ label: 'Real Academia Española — "(modo) subjuntivo" (Glosario de términos gramaticales)', url: 'https://www.rae.es/gtg/modo-subjuntivo' },
 			{ label: 'Wiktionary — Spanish conjugation of "hablar"', url: 'https://en.wiktionary.org/wiki/hablar' },
+			{ label: 'Real Academia Española — "ser" in the Diccionario de la lengua española (conjugation table)', url: 'https://dle.rae.es/ser' },
 		],
 		conjugation: {
 			verb: 'hablar',
