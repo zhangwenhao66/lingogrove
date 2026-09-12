@@ -3238,7 +3238,7 @@ export const guides: Guide[] = [
 		title: 'Spanish Imperfect Endings: The Two Patterns and Three Exceptions',
 		description: 'Every regular Spanish verb takes one of only two endings sets in the imperfect. The accent marks aren\'t random either: two separate spelling rules decide exactly where they land.',
 		published: '2026-08-16',
-		updated: '2026-08-16',
+		updated: '2026-09-12',
 		coreSummary: 'Regular Spanish verbs take one of only two endings sets in the imperfect: -ar verbs use -aba, -abas, -aba, -ábamos, -abais, -aban, while -er and -ir verbs share a single set, -ía, -ías, -ía, -íamos, -íais, -ían, with no split between the two conjugations at all. Only three verbs break from these patterns: ir (iba...) and ser (era...) are fully irregular, while ver (veía...) barely counts as an exception, since it keeps the regular -ía endings and only trims its own stem.',
 		language: 'Spanish',
 		usageNote: {
@@ -3281,23 +3281,27 @@ export const guides: Guide[] = [
 		faq: [
 			{
 				question: 'How many irregular verbs does the Spanish imperfect have?',
-				answer: 'Three: ir (iba, ibas, iba, íbamos, ibais, iban), ser (era, eras, era, éramos, erais, eran), and ver (veía, veías, veía, veíamos, veíais, veían). Ir and ser are fully irregular, with no connection to their infinitive stem. Ver only keeps a stem letter that a strictly regular -er verb would drop; its endings are the ordinary -ía set.',
+				answer: 'Three: ir, ser, and ver. Ir (iba/ibas/iba/íbamos/ibais/iban) and ser (era/eras/era/éramos/erais/eran) don\'t reduce to any predictable stem-plus-ending pattern, so both just have to be learned as their own six forms, not built from a stem. Ver (veía/veías/veía/veíamos/veíais/veían) keeps one letter of its stem that a fully regular -er verb would drop, and otherwise runs on the standard -ía set, so it barely counts as irregular at all.',
 			},
 			{
 				question: 'Do -er and -ir verbs take different endings in the imperfect?',
-				answer: 'No. Unlike the present tense, where -er and -ir verbs match everywhere except the nosotros and vosotros forms (comemos/coméis versus vivimos/vivís), the imperfect uses one identical endings set, -ía, -ías, -ía, -íamos, -íais, -ían, for every -er and -ir verb with no exceptions.',
+				answer: 'No. The present tense splits -er and -ir apart only in the vosotros and nosotros pair (comemos/coméis vs. vivimos/vivís). The imperfect skips that split altogether: both conjugations share one set, -ía/-ías/-ía/-íamos/-íais/-ían, no matter the person.',
 			},
 			{
 				question: 'Why does "hablábamos" have an accent but "hablaba" doesn\'t?',
-				answer: '"Hablábamos" is stressed on its third-to-last syllable (ha-BLÁ-ba-mos), which is the one stress pattern in Spanish that always takes a written accent, no exceptions. "Hablaba" is stressed on its second-to-last syllable and ends in a vowel, which is the pattern that normally takes no accent at all. Among the six -ar imperfect forms, only the nosotros form happens to land on that third-to-last-syllable stress pattern.',
+				answer: '"Hablábamos" puts its stress on "blá," three syllables from the end of the word, the one position in Spanish that gets a tilde no matter what. "Hablaba" stresses one syllable closer to the end and finishes on a vowel, exactly the shape that Spanish leaves bare. Among the six -ar imperfect forms, only the nosotros form happens to land on that far-back stress.',
 			},
 			{
 				question: 'Why does every form of "comía" have an accent, but only one form of "hablaba" does?',
-				answer: 'They\'re governed by two different accent rules. "Hablábamos" gets its accent from the general rule that words stressed on the third-to-last syllable always carry one. "Comía" and the rest of the -ía set get theirs from a separate rule: a stressed í next to an a forms what Spanish calls a hiato, and Real Academia Española\'s orthography guide says that combination always takes a written accent regardless of where the stress falls. Every form built on -ía has that same í-next-to-a shape, so the accent shows up in all six persons instead of just one.',
+				answer: 'They\'re governed by two different accent rules, one for hablábamos and one for the whole -ía set. Hablábamos falls under Spanish\'s esdrújula rule, the one requiring a tilde whenever a word\'s stress lands three syllables back from its end, no exceptions. Comía and the rest of the -ía set get theirs from an unrelated rule: a stressed í next to an a forms what Spanish calls a hiato, a combination the RAE\'s own accentuation guidance pulls out of that stress-based system and tildes regardless of where the stress actually falls. This í-beside-a pairing shows up in every one of the six persons, which is why comía\'s whole paradigm carries the tilde while hablaba\'s mostly doesn\'t.',
 			},
 			{
 				question: 'Does vos change the imperfect endings?',
-				answer: 'No. Voseo only creates its own distinct verb forms in the present indicative and the informal imperative. In the imperfect, as in the preterite, future, conditional, and subjunctive, vos simply takes the same forms as tú: vos hablabas, vos comías, vos vivías.',
+				answer: 'No. Voseo has its own conjugation in only two slots, the present tense and the informal command form. Everywhere else, imperfect included, vos simply borrows tú\'s forms: vos jugabas, vos leías, vos vivías.',
+			},
+			{
+				question: 'What are the imperfect endings for -ar verbs?',
+				answer: 'Six forms: -aba/-abas/-aba/-ábamos/-abais/-aban, added straight to the verb stem once the -ar is dropped. On hablar, that\'s hablaba/hablabas/hablaba/hablábamos/hablabais/hablaban. Only the nosotros form, hablábamos, carries a tilde.',
 			},
 		],
 		sources: [
