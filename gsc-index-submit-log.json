@@ -1,451 +1,461 @@
 [
-  {
-    "date": "2026-08-04",
-    "action": "submitted",
-    "reason": "trafficsite-gsc-index-requests例行运行，跨天连续游标机制首次运行（本站首次出现在本任务日志）。今日新发布2篇（saber-vs-conocer/direct-vs-indirect-object-pronouns-spanish，por-vs-para为审计更新非新发布不计入），取direct-vs-indirect-object-pronouns-spanish（URL is not on Google）提交成功。第二轮取saber-vs-conocer（同样未收录）提交成功。",
-    "submitted_urls": [
-      "https://lingogrove.com/direct-vs-indirect-object-pronouns-spanish/",
-      "https://lingogrove.com/saber-vs-conocer/"
-    ],
-    "quota_used": "2 of shared account-wide daily quota (9th and 18th requests this run)"
-  },
-  {
-    "date": "2026-08-05",
-    "action": "submitted",
-    "reason": "trafficsite-gsc-index-requests例行运行。今日新发布2篇（spanish-future-tense/subjunctive-spanish）。第一轮取spanish-future-tense（URL is not on Google）提交成功。第二轮误读日志标题'Spanish Subjunctive'为slug尝试'spanish-subjunctive'返回404（Indexing request rejected），核实guides.ts+内容发布日志.md后确认真实slug为subjunctive-spanish（curl 200），改提交正确URL（URL is not on Google）成功。",
-    "submitted_urls": [
-      "https://lingogrove.com/spanish-future-tense/",
-      "https://lingogrove.com/subjunctive-spanish/"
-    ],
-    "quota_used": "2 requests this run (round 1 and round 2; one wasted 404 attempt on wrong slug guess, not GSC quota since 404 rejection happens before consuming a real submission slot)"
-  },
-  {
-    "date": "2026-08-06",
-    "action": "submitted",
-    "reason": "trafficsite-gsc-index-requests例行运行。今日新发布2篇（double-object-pronouns-spanish/spanish-pronouns，见内容发布日志.md）。第一轮取double-object-pronouns-spanish（URL is not on Google）提交成功。第二轮因Chrome扩展断连未能到达本站，spanish-pronouns及队列后续候选本次未检查。",
-    "submitted_urls": [
-      "https://lingogrove.com/double-object-pronouns-spanish/"
-    ],
-    "already_indexed_no_action": [],
-    "quota_used": "1 request this run (round 1 only; round 2 not reached due to Chrome extension disconnect)"
-  },
-  {
-    "date": "2026-08-06",
-    "action": "submitted",
-    "reason": "第二轮（Chrome扩展重连后继续）：取今日新发布第二篇spanish-pronouns（URL is not on Google）提交成功。",
-    "submitted_urls": [
-      "https://lingogrove.com/spanish-pronouns/"
-    ],
-    "already_indexed_no_action": [],
-    "quota_used": "1 request (round 2, continuation after Chrome extension reconnect)"
-  },
-  {
-    "date": "2026-08-07",
-    "action": "submitted",
-    "reason": "trafficsite-gsc-index-requests例行运行（跨天连续游标轮换，两轮）。按收入代理排序队列逐个URL Inspection检查：已收录（URL is on Google）的候选跳过不消耗配额，共3个；找到未收录候选后提交REQUEST INDEXING，两轮各提交1个，共2个。",
-    "submitted_urls": [
-      "https://lingogrove.com/good-night-in-spanish/",
-      "https://lingogrove.com/ser-vs-estar/"
-    ],
-    "already_indexed_no_action": [
-      "https://lingogrove.com/i-love-you-in-spanish/",
-      "https://lingogrove.com/happy-birthday-in-spanish/",
-      "https://lingogrove.com/schadenfreude-meaning/"
-    ],
-    "quota_used": "2 requests (2轮各1次)"
-  },
-  {
-    "date": "2026-08-08",
-    "action": "submitted_then_uncertain",
-    "reason": "trafficsite-gsc-index-requests例行运行（两轮遍历）。第一轮：已收录候选跳过4个，找到未收录候选ser-conjugation提交REQUEST INDEXING并收到'Indexing requested'确认。第二轮：候选spanish-conditional-tense已收录跳过；下一候选por-vs-para（Discovered - currently not indexed）连续5次点击REQUEST INDEXING均未出现'Indexing requested'确认横幅（3次显示'Testing if live URL can be indexed'进度条后无果而终，2次点击无任何视觉反馈），怀疑当日账号级GSC提交配额已耗尽（跨14站共用同一配额池），但未见明确的'Quota Exceeded'错误提示文案，判定为不确定状态，按看门狗规则立即停止本轮继续遍历。",
-    "submitted_urls": [
-      "https://lingogrove.com/ser-conjugation/"
-    ],
-    "already_indexed_no_action": [
-      "https://lingogrove.com/i-love-you-in-spanish/",
-      "https://lingogrove.com/happy-birthday-in-spanish/",
-      "https://lingogrove.com/schadenfreude-meaning/",
-      "https://lingogrove.com/spanish-conditional-tense/"
-    ],
-    "uncertain_submission": [
-      "https://lingogrove.com/por-vs-para/ — 5次REQUEST INDEXING点击尝试均未获得UI确认，可能未真正提交，下次运行应重新核实此URL的索引请求状态"
-    ],
-    "quota_used": "1 request confirmed (ser-conjugation) + 1 uncertain attempt (por-vs-para，未确认是否计入配额)"
-  },
-  {
-    "date": "2026-08-09",
-    "action": "submitted",
-    "reason": "trafficsite-gsc-index-requests例行运行，本次游标起点站。今日有两篇新发布（spanish-possessive-adjectives、french-articles），均处理：两者URL Inspection均确认'URL is not on Google'，REQUEST INDEXING后均确认'Indexing requested'。上次运行(8/8)卡住的por-vs-para本次未重新核实，留待下次运行。",
-    "submitted_urls": [
-      "https://lingogrove.com/spanish-possessive-adjectives/",
-      "https://lingogrove.com/french-articles/"
-    ],
-    "already_indexed_no_action": [],
-    "quota_used": "2 requests"
-  },
-  {
-    "date": "2026-08-10",
-    "action": "submitted",
-    "reason": "trafficsite-gsc-index-requests例行运行，本次游标起点站。今日审计更新页preterite-vs-imperfect（未收录）REQUEST INDEXING后确认'Indexing requested'。今日新发布spanish-demonstrative-adjectives查到已自然收录，未提交。上次运行(8/9)遗留的por-vs-para（此前8/8曾卡在'Testing if live URL can be indexed'无结果）本次重新核实仍未收录，REQUEST INDEXING后确认'Indexing requested'，遗留问题已解决。",
-    "submitted_urls": [
-      "https://lingogrove.com/preterite-vs-imperfect/",
-      "https://lingogrove.com/por-vs-para/"
-    ],
-    "already_indexed_no_action": [
-      "https://lingogrove.com/spanish-demonstrative-adjectives/"
-    ],
-    "quota_used": "2 requests"
-  },
-  {
-    "date": "2026-08-10",
-    "action": "submitted",
-    "reason": "trafficsite-gsc-index-requests例行运行，游标起点站。检查queue前5个已匹配候选（schadenfreude-meaning/french-imperative/deja-vu-meaning/french-subjunctive均已收录）；german-adjective-endings（proxy第2）URL Inspection显示Live Test 404——核实为并发运行中的content-publishing任务尚未commit/deploy的在制品（guides.ts有uncommitted diff、public/images对应SVG未跟踪），非本任务范围内的真实站点故障，跳过不处理。选中未匹配候选senpai-meaning（Discovered-currently not indexed），REQUEST INDEXING后确认'Indexing requested'。游标完成一圈后二次回访本站，happy-birthday-in-spanish/i-love-you-in-spanish/spanish-reflexive-verbs/spanish-conditional-tense均已收录，未再提交。",
-    "submitted_urls": [
-      "https://lingogrove.com/senpai-meaning/"
-    ],
-    "already_indexed_no_action": [
-      "https://lingogrove.com/schadenfreude-meaning/",
-      "https://lingogrove.com/french-imperative/",
-      "https://lingogrove.com/deja-vu-meaning/",
-      "https://lingogrove.com/french-subjunctive/",
-      "https://lingogrove.com/happy-birthday-in-spanish/",
-      "https://lingogrove.com/i-love-you-in-spanish/",
-      "https://lingogrove.com/spanish-reflexive-verbs/",
-      "https://lingogrove.com/spanish-conditional-tense/"
-    ],
-    "skipped_not_deployed": [
-      "https://lingogrove.com/german-adjective-endings/"
-    ],
-    "quota_used": "1 request"
-  },
-  {
-    "date": "2026-08-12",
-    "action": "submitted",
-    "reason": "游标第10站，完成本轮完整一圈（游标起点WageLark→终点LingoGrove）。今日新发布spanish-prepositions（personal a+固定动词介词搭配+al/del缩合+墨西哥hasta反转四点整合角度）URL Inspection显示未收录（URL is unknown to Google），REQUEST INDEXING后确认'Indexing requested'。整轮10站全部成功提交，未遇到Quota Exceeded。",
-    "submitted_urls": [
-      "https://lingogrove.com/spanish-prepositions/"
-    ],
-    "already_indexed_no_action": [],
-    "quota_used": "1 request"
-  },
-  {
-    "date": "2026-08-13",
-    "action": "submitted",
-    "reason": "trafficsite-gsc-index-requests例行运行，游标本轮最后一站，完整走完一圈全部10站。今日新发布Spanish Verb Tenses Chart（spanish-verb-tenses-chart）。URL Inspection确认'URL is not on Google'，REQUEST INDEXING提交成功，等待约20秒确认'Indexing requested'。",
-    "submitted_urls": [
-      "https://lingogrove.com/spanish-verb-tenses-chart/"
-    ],
-    "quota_used": "1 of shared account-wide daily quota (10th request this run)"
-  },
-  {
-    "date": "2026-08-16",
-    "action": "skipped_all_indexed",
-    "reason": "按队列脚本代理排序检查候选：inshallah-meaning（08-13新发布）、por-vs-para、preterite-vs-imperfect、senpai-meaning、spanish-reflexive-verbs均已收录。改查Page indexing报告的'Crawled - currently not indexed'分类，命中ser-conjugation，复查时也已变为收录状态。6个候选全部已收录，跳过不消耗配额。",
-    "submitted_urls": [],
-    "already_indexed_no_action": [
-      "https://lingogrove.com/inshallah-meaning/",
-      "https://lingogrove.com/por-vs-para/",
-      "https://lingogrove.com/preterite-vs-imperfect/",
-      "https://lingogrove.com/senpai-meaning/",
-      "https://lingogrove.com/spanish-reflexive-verbs/",
-      "https://lingogrove.com/ser-conjugation/"
-    ],
-    "quota_used": "0 (skipped, no unindexed candidate found)"
-  },
-  {
-    "date": "2026-08-16",
-    "action": "submitted",
-    "reason": "同日第二次运行（首次运行结尾因Claude in Chrome工具故障卡在Hollowvane，等待网络恢复后重试成功续跑）。GSC'Discovered - currently not indexed'分类候选（por-vs-para等4个）均为报告延迟的已提交项。改查build-index-queue.py队列高代理候选：habibi-meaning/schadenfreude-meaning均已收录（本站索引速度很快），spanish-imperfect-endings确认'URL is not on Google'（URL unknown to Google），REQUEST INDEXING提交成功确认'Indexing requested'。",
-    "submitted_urls": [
-      "https://lingogrove.com/spanish-imperfect-endings/"
-    ],
-    "already_indexed_no_action": [
-      "https://lingogrove.com/habibi-meaning/",
-      "https://lingogrove.com/schadenfreude-meaning/"
-    ],
-    "quota_used": "1 of shared account-wide daily quota"
-  },
-  {
-    "date": "2026-08-17",
-    "action": "submitted",
-    "reason": "今日新发布French Pronouns: All Five Families and the Stacking Order（Grammar/Tier 1），URL Inspection确认'URL is not on Google'，REQUEST INDEXING提交成功确认'Indexing requested'。",
-    "submitted_urls": [
-      "https://lingogrove.com/french-pronouns/"
-    ],
-    "already_indexed_no_action": [],
-    "quota_used": "1 of shared account-wide daily quota"
-  },
-  {
-    "date": "2026-08-18",
-    "action": "submitted",
-    "reason": "无今日新发布。build-index-queue.py队列头部候选habibi-meaning/inshallah-meaning经URL Inspection核实均已'URL is on Google'。查到mashallah-meaning确认'URL is not on Google'，REQUEST INDEXING提交成功确认'Indexing requested'。",
-    "submitted_urls": [
-      "https://lingogrove.com/mashallah-meaning/"
-    ],
-    "already_indexed_no_action": [
-      "https://lingogrove.com/habibi-meaning/",
-      "https://lingogrove.com/inshallah-meaning/"
-    ],
-    "quota_used": "1 of shared account-wide daily quota"
-  },
-  {
-    "date": "2026-08-19",
-    "action": "submitted",
-    "reason": "今日新发布spanish-preterite-endings（Tier 1 Grammar），URL Inspection确认'URL is not on Google'（unknown to Google），REQUEST INDEXING提交成功确认'Indexing requested'。",
-    "submitted_urls": [
-      "https://lingogrove.com/spanish-preterite-endings/"
-    ],
-    "already_indexed_no_action": [],
-    "quota_used": "1 of shared account-wide daily quota"
-  },
-  {
-    "date": "2026-08-20",
-    "action": "skipped_no_quota_used",
-    "reason": "无今日新发布。优先级队列前5候选habibi-meaning/inshallah-meaning/schadenfreude-meaning/german-genitive/german-cases经URL Inspection逐一核实均已收录（URL is on Google）。改查Pages报告确认discovered-currently-not-indexed=0、crawled-currently-not-indexed=0（仅1个网站自身redirect问题，非索引问题）。判定该站接近满收录，无未提交过的真实候选，跳过本轮不消耗配额，游标继续前进至WageLark。",
-    "submitted_urls": [],
-    "already_indexed_no_action": [
-      "https://lingogrove.com/habibi-meaning/",
-      "https://lingogrove.com/inshallah-meaning/",
-      "https://lingogrove.com/schadenfreude-meaning/",
-      "https://lingogrove.com/german-genitive/",
-      "https://lingogrove.com/german-cases/"
-    ],
-    "quota_used": "0 of shared account-wide daily quota"
-  },
-  {
-    "date": "2026-08-21",
-    "action": "skipped_all_indexed",
-    "reason": "今日无新发布。队列头部候选habibi-meaning确认已收录（Overview页面显示该页近期曝光大涨，佐证已收录）。Pages报告Discovered-not-indexed与Crawled-not-indexed均为0，仅剩1个与索引无关的redirect问题。判定本站接近满收录，无未提交过的真实候选，跳过本轮不消耗配额，游标继续前进至WageLark。",
-    "submitted_urls": [],
-    "already_indexed_no_action": [
-      "https://lingogrove.com/habibi-meaning/"
-    ],
-    "quota_used": "0 of shared account-wide daily quota"
-  },
-  {
-    "date": "2026-08-22",
-    "action": "submitted",
-    "reason": "今日无新发布。队列头部habibi-meaning/inshallah-meaning均已收录，改查下一候选ciao-meaning，确认URL is not on Google/unknown to Google，REQUEST INDEXING提交成功确认Indexing requested。",
-    "submitted_urls": [
-      "https://lingogrove.com/ciao-meaning/"
-    ],
-    "already_indexed_no_action": [
-      "https://lingogrove.com/habibi-meaning/",
-      "https://lingogrove.com/inshallah-meaning/"
-    ],
-    "quota_used": "1 of shared account-wide daily quota"
-  },
-  {
-    "date": "2026-08-23",
-    "action": "submitted",
-    "reason": "今日新发布spanish-present-tense-endings（第19次运行，lingogrove-content-publishing任务）。URL Inspection确认URL is not on Google/unknown to Google，REQUEST INDEXING提交成功确认Indexing requested。",
-    "submitted_urls": [
-      "https://lingogrove.com/spanish-present-tense-endings/"
-    ],
-    "already_indexed_no_action": [],
-    "quota_used": "1 of shared account-wide daily quota"
-  },
-  {
-    "date": "2026-08-24",
-    "action": "skipped_all_indexed",
-    "reason": "今日无新发布。队列头部habibi-meaning经URL Inspection已收录。Pages报告仅1个Crawled-currently not indexed候选ciao-meaning，URL Inspection核实已转为'URL is on Google'（报告滞后快照，非真实未收录）；Discovered-currently not indexed为0。判定当前无真实未提交候选，跳过本轮不消耗配额，游标继续前进至WageLark。",
-    "submitted_urls": [],
-    "already_indexed_no_action": [
-      "https://lingogrove.com/habibi-meaning/",
-      "https://lingogrove.com/ciao-meaning/"
-    ],
-    "quota_used": "0 (skipped, no unindexed candidate found)"
-  },
-  {
-    "date": "2026-08-26",
-    "action": "submitted",
-    "reason": "今日无新发布。build-index-queue.py队列前6个候选（habibi-meaning/inshallah-meaning/de-nada-meaning/schadenfreude-meaning/per-se-meaning/semper-fi-meaning）URL Inspection逐一核查均已是'URL is on Google'（已收录，不耗配额），第7个候选voila-meaning未收录，REQUEST INDEXING提交成功。",
-    "submitted_urls": [
-      "https://lingogrove.com/voila-meaning/"
-    ],
-    "already_indexed_no_action": [
-      "https://lingogrove.com/habibi-meaning/",
-      "https://lingogrove.com/inshallah-meaning/",
-      "https://lingogrove.com/de-nada-meaning/",
-      "https://lingogrove.com/schadenfreude-meaning/",
-      "https://lingogrove.com/per-se-meaning/",
-      "https://lingogrove.com/semper-fi-meaning/"
-    ],
-    "quota_used": 1
-  },
-  {
-    "date": "2026-08-27",
-    "action": "submitted",
-    "reason": "今日无新发布。build-index-queue.py队列前9个候选（habibi-meaning/inshallah-meaning/de-nada-meaning/mashallah-meaning/ciao-meaning/schadenfreude-meaning/per-se-meaning/semper-fi-meaning/voila-meaning）均已是'URL is on Google'（已收录，不耗配额），第10个候选mamacita-meaning未收录，REQUEST INDEXING提交成功。",
-    "submitted_urls": [
-      "https://lingogrove.com/mamacita-meaning/"
-    ],
-    "already_indexed_no_action": [
-      "https://lingogrove.com/habibi-meaning/",
-      "https://lingogrove.com/inshallah-meaning/",
-      "https://lingogrove.com/de-nada-meaning/",
-      "https://lingogrove.com/mashallah-meaning/",
-      "https://lingogrove.com/ciao-meaning/",
-      "https://lingogrove.com/schadenfreude-meaning/",
-      "https://lingogrove.com/per-se-meaning/",
-      "https://lingogrove.com/semper-fi-meaning/",
-      "https://lingogrove.com/voila-meaning/"
-    ],
-    "quota_used": 1
-  },
-  {
-    "date": "2026-08-28",
-    "action": "submitted",
-    "reason": "今日新发布carino-meaning：URL Inspection确认未收录，REQUEST INDEXING提交成功。spanish-conditional-tense（今日审计更新）、inshallah-meaning、de-nada-meaning均已收录未提交。第二轮遍历队列候选schadenfreude-meaning显示Crawled-currently not indexed，REQUEST INDEXING提交成功。",
-    "submitted_urls": [
-      "https://lingogrove.com/carino-meaning/",
-      "https://lingogrove.com/schadenfreude-meaning/"
-    ],
-    "already_indexed_no_action": [
-      "https://lingogrove.com/spanish-conditional-tense/",
-      "https://lingogrove.com/inshallah-meaning/",
-      "https://lingogrove.com/de-nada-meaning/"
-    ],
-    "quota_used": "2 of shared account-wide daily quota"
-  },
-  {
-    "date": "2026-08-29",
-    "action": "submitted",
-    "reason": "今日随机休息未发布新页。用build-index-queue.py队列遍历：habibi-meaning/inshallah-meaning/de-nada-meaning/per-se-meaning/semper-fi-meaning均已收录，oy-vey-meaning显示URL unknown to Google，REQUEST INDEXING提交成功确认Indexing requested。",
-    "submitted_urls": [
-      "https://lingogrove.com/oy-vey-meaning/"
-    ],
-    "already_indexed_no_action": [
-      "https://lingogrove.com/habibi-meaning/",
-      "https://lingogrove.com/inshallah-meaning/",
-      "https://lingogrove.com/de-nada-meaning/",
-      "https://lingogrove.com/per-se-meaning/",
-      "https://lingogrove.com/semper-fi-meaning/"
-    ],
-    "quota_used": "1 of shared account-wide daily quota"
-  },
-  {
-    "date": "2026-08-30",
-    "action": "submitted",
-    "reason": "今日两条记录：spanish-pronouns为content-quality-audit审计更新（非新发布），URL Inspection确认已实测收录，跳过不耗配额；verbs-like-gustar为14:40定时发布的新文章，URL Inspection确认URL is not on Google/unknown to Google，REQUEST INDEXING提交成功确认Indexing requested。",
-    "submitted_urls": [
-      "https://lingogrove.com/verbs-like-gustar/"
-    ],
-    "already_indexed_no_action": [
-      "https://lingogrove.com/spanish-pronouns/"
-    ],
-    "quota_used": "1 of shared account-wide daily quota"
-  },
-  {
-    "date": "2026-08-31",
-    "action": "submitted",
-    "reason": "今日新发布arigato-meaning（Loanwords）：URL Inspection确认URL is not on Google，REQUEST INDEXING提交成功确认Indexing requested。今日另有审计更新spanish-accent-marks未再核查（非新发布，优先级低于新发布）。",
-    "submitted_urls": [
-      "https://lingogrove.com/arigato-meaning/"
-    ],
-    "already_indexed_no_action": [],
-    "quota_used": "1 of shared account-wide daily quota"
-  },
-  {
-    "date": "2026-09-01",
-    "action": "submitted",
-    "reason": "今日新发布que-sera-sera-meaning，URL Inspection确认URL is not on Google，提交成功。",
-    "submitted_urls": [
-      "https://lingogrove.com/que-sera-sera-meaning/"
-    ],
-    "already_indexed_no_action": [],
-    "quota_used": "1 of shared account-wide daily quota"
-  },
-  {
-    "date": "2026-09-02",
-    "action": "submitted",
-    "reason": "trafficsite-gsc-index-requests例行运行，游标停留位DayAlmanac，LingoGrove排第3位，今日无新发布。检查habibi-meaning/de-nada-meaning/inshallah-meaning均已收录，改用Page indexing报告Discovered-not-indexed列表找到french-past-participle提交成功。第二轮french-reflexive-verbs（同报告列表）提交成功。",
-    "submitted_urls": [
-      "https://lingogrove.com/french-past-participle/",
-      "https://lingogrove.com/french-reflexive-verbs/"
-    ],
-    "already_indexed_no_action": [
-      "https://lingogrove.com/habibi-meaning/",
-      "https://lingogrove.com/de-nada-meaning/",
-      "https://lingogrove.com/inshallah-meaning/"
-    ],
-    "quota_used": "2 of shared account-wide daily quota"
-  },
-  {
-    "date": "2026-09-03",
-    "action": "submitted",
-    "reason": "今日为轻量丰富现有文章ser-vs-estar（非新发布），URL Inspection确认已收录。改用Discovered-currently-not-indexed报告（5条）：french-past-participle/french-reflexive-verbs昨日已提交跳过，spanish-gerund确认未收录提交成功。第二轮遍历时额外提交spanish-present-perfect（同一报告，确认未收录）。",
-    "submitted_urls": [
-      "https://lingogrove.com/spanish-gerund/",
-      "https://lingogrove.com/spanish-present-perfect/"
-    ],
-    "already_indexed_no_action": [
-      "https://lingogrove.com/ser-vs-estar/"
-    ],
-    "quota_used": "2 of shared account-wide daily quota"
-  },
-  {
-    "date": "2026-09-04",
-    "action": "submitted",
-    "reason": "今日新发布maknae-meaning(首篇韩语条目)，URL Inspection确认URL is not on Google，提交成功。",
-    "submitted_urls": [
-      "https://lingogrove.com/maknae-meaning/"
-    ],
-    "already_indexed_no_action": [],
-    "quota_used": "1 of shared account-wide daily quota"
-  },
-  {
-    "date": "2026-09-09",
-    "action": "submitted",
-    "reason": "今日无新发布。Discovered-currently-not-indexed报告(5条，压制期真实积压)：cabron-meaning与french-future-tense确认未收录，均提交成功(第一轮1条+第二轮补提交1条)。",
-    "submitted_urls": [
-      "https://lingogrove.com/cabron-meaning/",
-      "https://lingogrove.com/french-future-tense/"
-    ],
-    "already_indexed_no_action": [],
-    "quota_used": "2 of shared account-wide daily quota"
-  },
-  {
-    "date": "2026-09-10",
-    "action": "submitted",
-    "reason": "今日随机休息未发布新文(R=14)。Discovered-currently-not-indexed报告(5条)：cabron-meaning/french-future-tense已于09-09提交过（本次未重复），french-irregular-verbs确认未收录提交成功(第一轮)。第二轮补提交russian-cases(同报告候选，确认未收录)。",
-    "submitted_urls": [
-      "https://lingogrove.com/french-irregular-verbs/",
-      "https://lingogrove.com/russian-cases/"
-    ],
-    "already_indexed_no_action": [],
-    "quota_used": "2 of shared account-wide daily quota"
-  },
-  {
-    "date": "2026-09-11",
-    "action": "submitted",
-    "reason": "今日主力分区闸门跳过发布（无✅主力分区）；审计更新french-imperative（非新发布），URL Inspection确认已收录，跳过。Page indexing报告Discovered-not-indexed 5条+Crawled-not-indexed 9条。Discovered候选cabron-meaning/french-future-tense/french-irregular-verbs均已收录（此前提交生效）。改查Crawled报告：spanish-superlatives/french-pronouns已收录，spanish-present-tense-endings确认Crawled-currently-not-indexed未提交过，提交成功。",
-    "submitted_urls": [
-      "https://lingogrove.com/spanish-present-tense-endings/"
-    ],
-    "already_indexed_no_action": [
-      "https://lingogrove.com/french-imperative/",
-      "https://lingogrove.com/cabron-meaning/",
-      "https://lingogrove.com/french-future-tense/",
-      "https://lingogrove.com/french-irregular-verbs/",
-      "https://lingogrove.com/spanish-superlatives/",
-      "https://lingogrove.com/french-pronouns/"
-    ],
-    "quota_used": "1 of shared account-wide daily quota"
-  },
-  {
-    "date": "2026-09-12",
-    "action": "submitted",
-    "reason": "今日无新发布（仅有一次轻量丰富，非新页，不触发GSC优先提交）。队列候选habibi-meaning/spanish-superlatives/ohana-meaning及Discovered候选russian-cases均已收录（此前提交生效）。改查Discovered报告候选spanish-infinitive，确认Discovered-currently-not-indexed未提交过，提交成功。",
-    "submitted_urls": [
-      "https://lingogrove.com/spanish-infinitive/"
-    ],
-    "already_indexed_no_action": [
-      "https://lingogrove.com/habibi-meaning/",
-      "https://lingogrove.com/spanish-superlatives/",
-      "https://lingogrove.com/ohana-meaning/",
-      "https://lingogrove.com/russian-cases/"
-    ],
-    "quota_used": "1 of shared account-wide daily quota"
-  }
+    {
+        "date": "2026-08-04",
+        "action": "submitted",
+        "reason": "trafficsite-gsc-index-requests例行运行，跨天连续游标机制首次运行（本站首次出现在本任务日志）。今日新发布2篇（saber-vs-conocer/direct-vs-indirect-object-pronouns-spanish，por-vs-para为审计更新非新发布不计入），取direct-vs-indirect-object-pronouns-spanish（URL is not on Google）提交成功。第二轮取saber-vs-conocer（同样未收录）提交成功。",
+        "submitted_urls": [
+            "https://lingogrove.com/direct-vs-indirect-object-pronouns-spanish/",
+            "https://lingogrove.com/saber-vs-conocer/"
+        ],
+        "quota_used": "2 of shared account-wide daily quota (9th and 18th requests this run)"
+    },
+    {
+        "date": "2026-08-05",
+        "action": "submitted",
+        "reason": "trafficsite-gsc-index-requests例行运行。今日新发布2篇（spanish-future-tense/subjunctive-spanish）。第一轮取spanish-future-tense（URL is not on Google）提交成功。第二轮误读日志标题'Spanish Subjunctive'为slug尝试'spanish-subjunctive'返回404（Indexing request rejected），核实guides.ts+内容发布日志.md后确认真实slug为subjunctive-spanish（curl 200），改提交正确URL（URL is not on Google）成功。",
+        "submitted_urls": [
+            "https://lingogrove.com/spanish-future-tense/",
+            "https://lingogrove.com/subjunctive-spanish/"
+        ],
+        "quota_used": "2 requests this run (round 1 and round 2; one wasted 404 attempt on wrong slug guess, not GSC quota since 404 rejection happens before consuming a real submission slot)"
+    },
+    {
+        "date": "2026-08-06",
+        "action": "submitted",
+        "reason": "trafficsite-gsc-index-requests例行运行。今日新发布2篇（double-object-pronouns-spanish/spanish-pronouns，见内容发布日志.md）。第一轮取double-object-pronouns-spanish（URL is not on Google）提交成功。第二轮因Chrome扩展断连未能到达本站，spanish-pronouns及队列后续候选本次未检查。",
+        "submitted_urls": [
+            "https://lingogrove.com/double-object-pronouns-spanish/"
+        ],
+        "already_indexed_no_action": [],
+        "quota_used": "1 request this run (round 1 only; round 2 not reached due to Chrome extension disconnect)"
+    },
+    {
+        "date": "2026-08-06",
+        "action": "submitted",
+        "reason": "第二轮（Chrome扩展重连后继续）：取今日新发布第二篇spanish-pronouns（URL is not on Google）提交成功。",
+        "submitted_urls": [
+            "https://lingogrove.com/spanish-pronouns/"
+        ],
+        "already_indexed_no_action": [],
+        "quota_used": "1 request (round 2, continuation after Chrome extension reconnect)"
+    },
+    {
+        "date": "2026-08-07",
+        "action": "submitted",
+        "reason": "trafficsite-gsc-index-requests例行运行（跨天连续游标轮换，两轮）。按收入代理排序队列逐个URL Inspection检查：已收录（URL is on Google）的候选跳过不消耗配额，共3个；找到未收录候选后提交REQUEST INDEXING，两轮各提交1个，共2个。",
+        "submitted_urls": [
+            "https://lingogrove.com/good-night-in-spanish/",
+            "https://lingogrove.com/ser-vs-estar/"
+        ],
+        "already_indexed_no_action": [
+            "https://lingogrove.com/i-love-you-in-spanish/",
+            "https://lingogrove.com/happy-birthday-in-spanish/",
+            "https://lingogrove.com/schadenfreude-meaning/"
+        ],
+        "quota_used": "2 requests (2轮各1次)"
+    },
+    {
+        "date": "2026-08-08",
+        "action": "submitted_then_uncertain",
+        "reason": "trafficsite-gsc-index-requests例行运行（两轮遍历）。第一轮：已收录候选跳过4个，找到未收录候选ser-conjugation提交REQUEST INDEXING并收到'Indexing requested'确认。第二轮：候选spanish-conditional-tense已收录跳过；下一候选por-vs-para（Discovered - currently not indexed）连续5次点击REQUEST INDEXING均未出现'Indexing requested'确认横幅（3次显示'Testing if live URL can be indexed'进度条后无果而终，2次点击无任何视觉反馈），怀疑当日账号级GSC提交配额已耗尽（跨14站共用同一配额池），但未见明确的'Quota Exceeded'错误提示文案，判定为不确定状态，按看门狗规则立即停止本轮继续遍历。",
+        "submitted_urls": [
+            "https://lingogrove.com/ser-conjugation/"
+        ],
+        "already_indexed_no_action": [
+            "https://lingogrove.com/i-love-you-in-spanish/",
+            "https://lingogrove.com/happy-birthday-in-spanish/",
+            "https://lingogrove.com/schadenfreude-meaning/",
+            "https://lingogrove.com/spanish-conditional-tense/"
+        ],
+        "uncertain_submission": [
+            "https://lingogrove.com/por-vs-para/ — 5次REQUEST INDEXING点击尝试均未获得UI确认，可能未真正提交，下次运行应重新核实此URL的索引请求状态"
+        ],
+        "quota_used": "1 request confirmed (ser-conjugation) + 1 uncertain attempt (por-vs-para，未确认是否计入配额)"
+    },
+    {
+        "date": "2026-08-09",
+        "action": "submitted",
+        "reason": "trafficsite-gsc-index-requests例行运行，本次游标起点站。今日有两篇新发布（spanish-possessive-adjectives、french-articles），均处理：两者URL Inspection均确认'URL is not on Google'，REQUEST INDEXING后均确认'Indexing requested'。上次运行(8/8)卡住的por-vs-para本次未重新核实，留待下次运行。",
+        "submitted_urls": [
+            "https://lingogrove.com/spanish-possessive-adjectives/",
+            "https://lingogrove.com/french-articles/"
+        ],
+        "already_indexed_no_action": [],
+        "quota_used": "2 requests"
+    },
+    {
+        "date": "2026-08-10",
+        "action": "submitted",
+        "reason": "trafficsite-gsc-index-requests例行运行，本次游标起点站。今日审计更新页preterite-vs-imperfect（未收录）REQUEST INDEXING后确认'Indexing requested'。今日新发布spanish-demonstrative-adjectives查到已自然收录，未提交。上次运行(8/9)遗留的por-vs-para（此前8/8曾卡在'Testing if live URL can be indexed'无结果）本次重新核实仍未收录，REQUEST INDEXING后确认'Indexing requested'，遗留问题已解决。",
+        "submitted_urls": [
+            "https://lingogrove.com/preterite-vs-imperfect/",
+            "https://lingogrove.com/por-vs-para/"
+        ],
+        "already_indexed_no_action": [
+            "https://lingogrove.com/spanish-demonstrative-adjectives/"
+        ],
+        "quota_used": "2 requests"
+    },
+    {
+        "date": "2026-08-10",
+        "action": "submitted",
+        "reason": "trafficsite-gsc-index-requests例行运行，游标起点站。检查queue前5个已匹配候选（schadenfreude-meaning/french-imperative/deja-vu-meaning/french-subjunctive均已收录）；german-adjective-endings（proxy第2）URL Inspection显示Live Test 404——核实为并发运行中的content-publishing任务尚未commit/deploy的在制品（guides.ts有uncommitted diff、public/images对应SVG未跟踪），非本任务范围内的真实站点故障，跳过不处理。选中未匹配候选senpai-meaning（Discovered-currently not indexed），REQUEST INDEXING后确认'Indexing requested'。游标完成一圈后二次回访本站，happy-birthday-in-spanish/i-love-you-in-spanish/spanish-reflexive-verbs/spanish-conditional-tense均已收录，未再提交。",
+        "submitted_urls": [
+            "https://lingogrove.com/senpai-meaning/"
+        ],
+        "already_indexed_no_action": [
+            "https://lingogrove.com/schadenfreude-meaning/",
+            "https://lingogrove.com/french-imperative/",
+            "https://lingogrove.com/deja-vu-meaning/",
+            "https://lingogrove.com/french-subjunctive/",
+            "https://lingogrove.com/happy-birthday-in-spanish/",
+            "https://lingogrove.com/i-love-you-in-spanish/",
+            "https://lingogrove.com/spanish-reflexive-verbs/",
+            "https://lingogrove.com/spanish-conditional-tense/"
+        ],
+        "skipped_not_deployed": [
+            "https://lingogrove.com/german-adjective-endings/"
+        ],
+        "quota_used": "1 request"
+    },
+    {
+        "date": "2026-08-12",
+        "action": "submitted",
+        "reason": "游标第10站，完成本轮完整一圈（游标起点WageLark→终点LingoGrove）。今日新发布spanish-prepositions（personal a+固定动词介词搭配+al/del缩合+墨西哥hasta反转四点整合角度）URL Inspection显示未收录（URL is unknown to Google），REQUEST INDEXING后确认'Indexing requested'。整轮10站全部成功提交，未遇到Quota Exceeded。",
+        "submitted_urls": [
+            "https://lingogrove.com/spanish-prepositions/"
+        ],
+        "already_indexed_no_action": [],
+        "quota_used": "1 request"
+    },
+    {
+        "date": "2026-08-13",
+        "action": "submitted",
+        "reason": "trafficsite-gsc-index-requests例行运行，游标本轮最后一站，完整走完一圈全部10站。今日新发布Spanish Verb Tenses Chart（spanish-verb-tenses-chart）。URL Inspection确认'URL is not on Google'，REQUEST INDEXING提交成功，等待约20秒确认'Indexing requested'。",
+        "submitted_urls": [
+            "https://lingogrove.com/spanish-verb-tenses-chart/"
+        ],
+        "quota_used": "1 of shared account-wide daily quota (10th request this run)"
+    },
+    {
+        "date": "2026-08-16",
+        "action": "skipped_all_indexed",
+        "reason": "按队列脚本代理排序检查候选：inshallah-meaning（08-13新发布）、por-vs-para、preterite-vs-imperfect、senpai-meaning、spanish-reflexive-verbs均已收录。改查Page indexing报告的'Crawled - currently not indexed'分类，命中ser-conjugation，复查时也已变为收录状态。6个候选全部已收录，跳过不消耗配额。",
+        "submitted_urls": [],
+        "already_indexed_no_action": [
+            "https://lingogrove.com/inshallah-meaning/",
+            "https://lingogrove.com/por-vs-para/",
+            "https://lingogrove.com/preterite-vs-imperfect/",
+            "https://lingogrove.com/senpai-meaning/",
+            "https://lingogrove.com/spanish-reflexive-verbs/",
+            "https://lingogrove.com/ser-conjugation/"
+        ],
+        "quota_used": "0 (skipped, no unindexed candidate found)"
+    },
+    {
+        "date": "2026-08-16",
+        "action": "submitted",
+        "reason": "同日第二次运行（首次运行结尾因Claude in Chrome工具故障卡在Hollowvane，等待网络恢复后重试成功续跑）。GSC'Discovered - currently not indexed'分类候选（por-vs-para等4个）均为报告延迟的已提交项。改查build-index-queue.py队列高代理候选：habibi-meaning/schadenfreude-meaning均已收录（本站索引速度很快），spanish-imperfect-endings确认'URL is not on Google'（URL unknown to Google），REQUEST INDEXING提交成功确认'Indexing requested'。",
+        "submitted_urls": [
+            "https://lingogrove.com/spanish-imperfect-endings/"
+        ],
+        "already_indexed_no_action": [
+            "https://lingogrove.com/habibi-meaning/",
+            "https://lingogrove.com/schadenfreude-meaning/"
+        ],
+        "quota_used": "1 of shared account-wide daily quota"
+    },
+    {
+        "date": "2026-08-17",
+        "action": "submitted",
+        "reason": "今日新发布French Pronouns: All Five Families and the Stacking Order（Grammar/Tier 1），URL Inspection确认'URL is not on Google'，REQUEST INDEXING提交成功确认'Indexing requested'。",
+        "submitted_urls": [
+            "https://lingogrove.com/french-pronouns/"
+        ],
+        "already_indexed_no_action": [],
+        "quota_used": "1 of shared account-wide daily quota"
+    },
+    {
+        "date": "2026-08-18",
+        "action": "submitted",
+        "reason": "无今日新发布。build-index-queue.py队列头部候选habibi-meaning/inshallah-meaning经URL Inspection核实均已'URL is on Google'。查到mashallah-meaning确认'URL is not on Google'，REQUEST INDEXING提交成功确认'Indexing requested'。",
+        "submitted_urls": [
+            "https://lingogrove.com/mashallah-meaning/"
+        ],
+        "already_indexed_no_action": [
+            "https://lingogrove.com/habibi-meaning/",
+            "https://lingogrove.com/inshallah-meaning/"
+        ],
+        "quota_used": "1 of shared account-wide daily quota"
+    },
+    {
+        "date": "2026-08-19",
+        "action": "submitted",
+        "reason": "今日新发布spanish-preterite-endings（Tier 1 Grammar），URL Inspection确认'URL is not on Google'（unknown to Google），REQUEST INDEXING提交成功确认'Indexing requested'。",
+        "submitted_urls": [
+            "https://lingogrove.com/spanish-preterite-endings/"
+        ],
+        "already_indexed_no_action": [],
+        "quota_used": "1 of shared account-wide daily quota"
+    },
+    {
+        "date": "2026-08-20",
+        "action": "skipped_no_quota_used",
+        "reason": "无今日新发布。优先级队列前5候选habibi-meaning/inshallah-meaning/schadenfreude-meaning/german-genitive/german-cases经URL Inspection逐一核实均已收录（URL is on Google）。改查Pages报告确认discovered-currently-not-indexed=0、crawled-currently-not-indexed=0（仅1个网站自身redirect问题，非索引问题）。判定该站接近满收录，无未提交过的真实候选，跳过本轮不消耗配额，游标继续前进至WageLark。",
+        "submitted_urls": [],
+        "already_indexed_no_action": [
+            "https://lingogrove.com/habibi-meaning/",
+            "https://lingogrove.com/inshallah-meaning/",
+            "https://lingogrove.com/schadenfreude-meaning/",
+            "https://lingogrove.com/german-genitive/",
+            "https://lingogrove.com/german-cases/"
+        ],
+        "quota_used": "0 of shared account-wide daily quota"
+    },
+    {
+        "date": "2026-08-21",
+        "action": "skipped_all_indexed",
+        "reason": "今日无新发布。队列头部候选habibi-meaning确认已收录（Overview页面显示该页近期曝光大涨，佐证已收录）。Pages报告Discovered-not-indexed与Crawled-not-indexed均为0，仅剩1个与索引无关的redirect问题。判定本站接近满收录，无未提交过的真实候选，跳过本轮不消耗配额，游标继续前进至WageLark。",
+        "submitted_urls": [],
+        "already_indexed_no_action": [
+            "https://lingogrove.com/habibi-meaning/"
+        ],
+        "quota_used": "0 of shared account-wide daily quota"
+    },
+    {
+        "date": "2026-08-22",
+        "action": "submitted",
+        "reason": "今日无新发布。队列头部habibi-meaning/inshallah-meaning均已收录，改查下一候选ciao-meaning，确认URL is not on Google/unknown to Google，REQUEST INDEXING提交成功确认Indexing requested。",
+        "submitted_urls": [
+            "https://lingogrove.com/ciao-meaning/"
+        ],
+        "already_indexed_no_action": [
+            "https://lingogrove.com/habibi-meaning/",
+            "https://lingogrove.com/inshallah-meaning/"
+        ],
+        "quota_used": "1 of shared account-wide daily quota"
+    },
+    {
+        "date": "2026-08-23",
+        "action": "submitted",
+        "reason": "今日新发布spanish-present-tense-endings（第19次运行，lingogrove-content-publishing任务）。URL Inspection确认URL is not on Google/unknown to Google，REQUEST INDEXING提交成功确认Indexing requested。",
+        "submitted_urls": [
+            "https://lingogrove.com/spanish-present-tense-endings/"
+        ],
+        "already_indexed_no_action": [],
+        "quota_used": "1 of shared account-wide daily quota"
+    },
+    {
+        "date": "2026-08-24",
+        "action": "skipped_all_indexed",
+        "reason": "今日无新发布。队列头部habibi-meaning经URL Inspection已收录。Pages报告仅1个Crawled-currently not indexed候选ciao-meaning，URL Inspection核实已转为'URL is on Google'（报告滞后快照，非真实未收录）；Discovered-currently not indexed为0。判定当前无真实未提交候选，跳过本轮不消耗配额，游标继续前进至WageLark。",
+        "submitted_urls": [],
+        "already_indexed_no_action": [
+            "https://lingogrove.com/habibi-meaning/",
+            "https://lingogrove.com/ciao-meaning/"
+        ],
+        "quota_used": "0 (skipped, no unindexed candidate found)"
+    },
+    {
+        "date": "2026-08-26",
+        "action": "submitted",
+        "reason": "今日无新发布。build-index-queue.py队列前6个候选（habibi-meaning/inshallah-meaning/de-nada-meaning/schadenfreude-meaning/per-se-meaning/semper-fi-meaning）URL Inspection逐一核查均已是'URL is on Google'（已收录，不耗配额），第7个候选voila-meaning未收录，REQUEST INDEXING提交成功。",
+        "submitted_urls": [
+            "https://lingogrove.com/voila-meaning/"
+        ],
+        "already_indexed_no_action": [
+            "https://lingogrove.com/habibi-meaning/",
+            "https://lingogrove.com/inshallah-meaning/",
+            "https://lingogrove.com/de-nada-meaning/",
+            "https://lingogrove.com/schadenfreude-meaning/",
+            "https://lingogrove.com/per-se-meaning/",
+            "https://lingogrove.com/semper-fi-meaning/"
+        ],
+        "quota_used": 1
+    },
+    {
+        "date": "2026-08-27",
+        "action": "submitted",
+        "reason": "今日无新发布。build-index-queue.py队列前9个候选（habibi-meaning/inshallah-meaning/de-nada-meaning/mashallah-meaning/ciao-meaning/schadenfreude-meaning/per-se-meaning/semper-fi-meaning/voila-meaning）均已是'URL is on Google'（已收录，不耗配额），第10个候选mamacita-meaning未收录，REQUEST INDEXING提交成功。",
+        "submitted_urls": [
+            "https://lingogrove.com/mamacita-meaning/"
+        ],
+        "already_indexed_no_action": [
+            "https://lingogrove.com/habibi-meaning/",
+            "https://lingogrove.com/inshallah-meaning/",
+            "https://lingogrove.com/de-nada-meaning/",
+            "https://lingogrove.com/mashallah-meaning/",
+            "https://lingogrove.com/ciao-meaning/",
+            "https://lingogrove.com/schadenfreude-meaning/",
+            "https://lingogrove.com/per-se-meaning/",
+            "https://lingogrove.com/semper-fi-meaning/",
+            "https://lingogrove.com/voila-meaning/"
+        ],
+        "quota_used": 1
+    },
+    {
+        "date": "2026-08-28",
+        "action": "submitted",
+        "reason": "今日新发布carino-meaning：URL Inspection确认未收录，REQUEST INDEXING提交成功。spanish-conditional-tense（今日审计更新）、inshallah-meaning、de-nada-meaning均已收录未提交。第二轮遍历队列候选schadenfreude-meaning显示Crawled-currently not indexed，REQUEST INDEXING提交成功。",
+        "submitted_urls": [
+            "https://lingogrove.com/carino-meaning/",
+            "https://lingogrove.com/schadenfreude-meaning/"
+        ],
+        "already_indexed_no_action": [
+            "https://lingogrove.com/spanish-conditional-tense/",
+            "https://lingogrove.com/inshallah-meaning/",
+            "https://lingogrove.com/de-nada-meaning/"
+        ],
+        "quota_used": "2 of shared account-wide daily quota"
+    },
+    {
+        "date": "2026-08-29",
+        "action": "submitted",
+        "reason": "今日随机休息未发布新页。用build-index-queue.py队列遍历：habibi-meaning/inshallah-meaning/de-nada-meaning/per-se-meaning/semper-fi-meaning均已收录，oy-vey-meaning显示URL unknown to Google，REQUEST INDEXING提交成功确认Indexing requested。",
+        "submitted_urls": [
+            "https://lingogrove.com/oy-vey-meaning/"
+        ],
+        "already_indexed_no_action": [
+            "https://lingogrove.com/habibi-meaning/",
+            "https://lingogrove.com/inshallah-meaning/",
+            "https://lingogrove.com/de-nada-meaning/",
+            "https://lingogrove.com/per-se-meaning/",
+            "https://lingogrove.com/semper-fi-meaning/"
+        ],
+        "quota_used": "1 of shared account-wide daily quota"
+    },
+    {
+        "date": "2026-08-30",
+        "action": "submitted",
+        "reason": "今日两条记录：spanish-pronouns为content-quality-audit审计更新（非新发布），URL Inspection确认已实测收录，跳过不耗配额；verbs-like-gustar为14:40定时发布的新文章，URL Inspection确认URL is not on Google/unknown to Google，REQUEST INDEXING提交成功确认Indexing requested。",
+        "submitted_urls": [
+            "https://lingogrove.com/verbs-like-gustar/"
+        ],
+        "already_indexed_no_action": [
+            "https://lingogrove.com/spanish-pronouns/"
+        ],
+        "quota_used": "1 of shared account-wide daily quota"
+    },
+    {
+        "date": "2026-08-31",
+        "action": "submitted",
+        "reason": "今日新发布arigato-meaning（Loanwords）：URL Inspection确认URL is not on Google，REQUEST INDEXING提交成功确认Indexing requested。今日另有审计更新spanish-accent-marks未再核查（非新发布，优先级低于新发布）。",
+        "submitted_urls": [
+            "https://lingogrove.com/arigato-meaning/"
+        ],
+        "already_indexed_no_action": [],
+        "quota_used": "1 of shared account-wide daily quota"
+    },
+    {
+        "date": "2026-09-01",
+        "action": "submitted",
+        "reason": "今日新发布que-sera-sera-meaning，URL Inspection确认URL is not on Google，提交成功。",
+        "submitted_urls": [
+            "https://lingogrove.com/que-sera-sera-meaning/"
+        ],
+        "already_indexed_no_action": [],
+        "quota_used": "1 of shared account-wide daily quota"
+    },
+    {
+        "date": "2026-09-02",
+        "action": "submitted",
+        "reason": "trafficsite-gsc-index-requests例行运行，游标停留位DayAlmanac，LingoGrove排第3位，今日无新发布。检查habibi-meaning/de-nada-meaning/inshallah-meaning均已收录，改用Page indexing报告Discovered-not-indexed列表找到french-past-participle提交成功。第二轮french-reflexive-verbs（同报告列表）提交成功。",
+        "submitted_urls": [
+            "https://lingogrove.com/french-past-participle/",
+            "https://lingogrove.com/french-reflexive-verbs/"
+        ],
+        "already_indexed_no_action": [
+            "https://lingogrove.com/habibi-meaning/",
+            "https://lingogrove.com/de-nada-meaning/",
+            "https://lingogrove.com/inshallah-meaning/"
+        ],
+        "quota_used": "2 of shared account-wide daily quota"
+    },
+    {
+        "date": "2026-09-03",
+        "action": "submitted",
+        "reason": "今日为轻量丰富现有文章ser-vs-estar（非新发布），URL Inspection确认已收录。改用Discovered-currently-not-indexed报告（5条）：french-past-participle/french-reflexive-verbs昨日已提交跳过，spanish-gerund确认未收录提交成功。第二轮遍历时额外提交spanish-present-perfect（同一报告，确认未收录）。",
+        "submitted_urls": [
+            "https://lingogrove.com/spanish-gerund/",
+            "https://lingogrove.com/spanish-present-perfect/"
+        ],
+        "already_indexed_no_action": [
+            "https://lingogrove.com/ser-vs-estar/"
+        ],
+        "quota_used": "2 of shared account-wide daily quota"
+    },
+    {
+        "date": "2026-09-04",
+        "action": "submitted",
+        "reason": "今日新发布maknae-meaning(首篇韩语条目)，URL Inspection确认URL is not on Google，提交成功。",
+        "submitted_urls": [
+            "https://lingogrove.com/maknae-meaning/"
+        ],
+        "already_indexed_no_action": [],
+        "quota_used": "1 of shared account-wide daily quota"
+    },
+    {
+        "date": "2026-09-09",
+        "action": "submitted",
+        "reason": "今日无新发布。Discovered-currently-not-indexed报告(5条，压制期真实积压)：cabron-meaning与french-future-tense确认未收录，均提交成功(第一轮1条+第二轮补提交1条)。",
+        "submitted_urls": [
+            "https://lingogrove.com/cabron-meaning/",
+            "https://lingogrove.com/french-future-tense/"
+        ],
+        "already_indexed_no_action": [],
+        "quota_used": "2 of shared account-wide daily quota"
+    },
+    {
+        "date": "2026-09-10",
+        "action": "submitted",
+        "reason": "今日随机休息未发布新文(R=14)。Discovered-currently-not-indexed报告(5条)：cabron-meaning/french-future-tense已于09-09提交过（本次未重复），french-irregular-verbs确认未收录提交成功(第一轮)。第二轮补提交russian-cases(同报告候选，确认未收录)。",
+        "submitted_urls": [
+            "https://lingogrove.com/french-irregular-verbs/",
+            "https://lingogrove.com/russian-cases/"
+        ],
+        "already_indexed_no_action": [],
+        "quota_used": "2 of shared account-wide daily quota"
+    },
+    {
+        "date": "2026-09-11",
+        "action": "submitted",
+        "reason": "今日主力分区闸门跳过发布（无✅主力分区）；审计更新french-imperative（非新发布），URL Inspection确认已收录，跳过。Page indexing报告Discovered-not-indexed 5条+Crawled-not-indexed 9条。Discovered候选cabron-meaning/french-future-tense/french-irregular-verbs均已收录（此前提交生效）。改查Crawled报告：spanish-superlatives/french-pronouns已收录，spanish-present-tense-endings确认Crawled-currently-not-indexed未提交过，提交成功。",
+        "submitted_urls": [
+            "https://lingogrove.com/spanish-present-tense-endings/"
+        ],
+        "already_indexed_no_action": [
+            "https://lingogrove.com/french-imperative/",
+            "https://lingogrove.com/cabron-meaning/",
+            "https://lingogrove.com/french-future-tense/",
+            "https://lingogrove.com/french-irregular-verbs/",
+            "https://lingogrove.com/spanish-superlatives/",
+            "https://lingogrove.com/french-pronouns/"
+        ],
+        "quota_used": "1 of shared account-wide daily quota"
+    },
+    {
+        "date": "2026-09-12",
+        "action": "submitted",
+        "reason": "今日无新发布（仅有一次轻量丰富，非新页，不触发GSC优先提交）。队列候选habibi-meaning/spanish-superlatives/ohana-meaning及Discovered候选russian-cases均已收录（此前提交生效）。改查Discovered报告候选spanish-infinitive，确认Discovered-currently-not-indexed未提交过，提交成功。",
+        "submitted_urls": [
+            "https://lingogrove.com/spanish-infinitive/"
+        ],
+        "already_indexed_no_action": [
+            "https://lingogrove.com/habibi-meaning/",
+            "https://lingogrove.com/spanish-superlatives/",
+            "https://lingogrove.com/ohana-meaning/",
+            "https://lingogrove.com/russian-cases/"
+        ],
+        "quota_used": "1 of shared account-wide daily quota"
+    },
+    {
+        "date": "2026-09-13",
+        "action": "submitted",
+        "reason": "今日仅有轻量丰富(irregular-preterite-verbs-spanish)非新发布，改用老页未收录巡检候选spanish-future-perfect（URL unknown to Google），提交成功。",
+        "submitted_urls": [
+            "https://lingogrove.com/spanish-future-perfect/"
+        ],
+        "already_indexed_no_action": [],
+        "quota_used": "1 of shared account-wide daily quota"
+    }
 ]
