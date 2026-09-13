@@ -74,3 +74,7 @@
 - **制作复杂度**：中——词对整理本身工作量不小（需要词源学/语义学核实避免出错），搜索量数据部分需要用现有的 DataForSEO 直连查询工具逐词核实，不能编造搜索量。
 - **备注**：排序数据必须真实查证，如果查不到某些长尾词的搜索量，允许该词对不参与排序只作清单收录，不要编造数字。
 
+
+## 已否决 / 暂缓
+
+**2026-09-13 统计数据枢纽页筛查记录**（第四类资产，避免下次planning任务重复评估）——候选头词 **language learning statistics 2026**。`Skill(keyword-screening)` v2分档：**B**（真实SERP开放位6个 `europa.eu`/`tutorbase.com`/`businessofapps.com`/`multimedia-english.com`/`simonandsimon.co.uk`/`pewresearch.org`，最年轻开放域名businessofapps.com注册158个月，无年轻站证据）。已确认原始数据源：①Duolingo年度Language Report（覆盖100+国家×语言排名，体量大）②British Council《Future of English》报告 ③Ethnologue（SIL International，7,170种在用语言的权威计数）④Pew Research Center语言学习调查 ⑤欧盟统计局（ec.europa.eu）外语学习统计。**分档和原始源均过线**，但LingoGrove自8/24起算法整站压制中（矩阵第3个被打站），本任务硬性要求"压制中三站只做筛查记录，不进backlog待制作"，本条**不登记为待制作**，留档供压制解除后直接复用。
