@@ -3132,7 +3132,7 @@ export const guides: Guide[] = [
 		title: 'Irregular Preterite Verbs in Spanish: The Patterns Behind the Chaos',
 		description: 'Spanish\'s irregular preterite verbs look like they need pure memorization. Most of the common ones don\'t; they sort into a handful of predictable stem families.',
 		published: '2026-08-16',
-		updated: '2026-08-16',
+		updated: '2026-09-13',
 		coreSummary: 'Spanish does have irregular preterite verbs, but most of the frequent ones cluster into three families that share endings once you know the new stem: a u-stem group (estar → estuve, tener → tuve, poder → pude), an i-stem group (hacer → hice, querer → quise, venir → vine), and a j-stem group (decir → dije, traer → traje) that drops the i before -eron, so dijeron, not dijieron. Dar, ver, ir, and ser sit outside all three families with their own forms, and a separate group of -ir verbs (pedir, dormir) only shifts in the third person, which is a different phenomenon from true stem irregularity.',
 		language: 'Spanish',
 		sections: [
@@ -3160,7 +3160,7 @@ export const guides: Guide[] = [
 				body: [
 					'Three verbs form an i-stem group with the same six endings as the u-stem family: hacer → hic- (hice, hiciste, hizo, hicimos, hicisteis, hicieron), querer → quis- (quise, quisiste, quiso...), venir → vin- (vine, viniste, vino...). The one spelling wrinkle is hacer\'s third-person singular: it\'s written hizo, not hico, because Spanish spelling always writes the "s" sound before o with z rather than c in this position. The sound is completely regular; only the letter changes.',
 					'A separate j-stem group covers decir → dij-, traer → traj-, and every verb ending in -ducir (conducir → conduj-, traducir → traduj-, producir → produj-, reducir → reduj-). These take the same endings as the u-stem and i-stem groups, with one exception: the ellos/ellas/ustedes form drops the i before -eron. So it\'s dijeron, trajeron, condujeron, never dijieron, trajieron, condujieron. *Le dije la verdad* ("I told him the truth"). *Trajeron comida para todos* ("They brought food for everyone"). *El gobierno redujo los impuestos* ("The government reduced taxes").',
-					'All three families (u-stem, i-stem, j-stem) exist for the same underlying reason: these verbs descend from Latin forms that already had irregular perfect-tense stems, so the irregularity isn\'t a modern quirk, it\'s inherited. That\'s also why the pattern is stable across the whole family rather than verb-by-verb: once a verb belongs to one of these stem classes, every person of the preterite follows the same rule.',
+					'All three families (u-stem, i-stem, j-stem) exist for the same underlying reason: these verbs descend from Latin forms that already had irregular perfect-tense stems, so the irregularity isn\'t a modern quirk, it\'s inherited. That\'s also why the pattern holds across the whole family, not verb-by-verb: once a verb belongs to one of these stem classes, every person of the preterite follows the same rule.',
 				],
 			},
 			{
@@ -3181,7 +3181,7 @@ export const guides: Guide[] = [
 			{
 				heading: 'Spelling changes aren\'t the same thing as true irregularity',
 				body: [
-					'A large group of preterite forms that get labeled "irregular" are actually just regular verbs with a spelling adjustment to preserve pronunciation, not a different underlying stem. Verbs ending in -car, -gar, and -zar change their spelling only in the yo form: buscar → busqué (not buscé, which would sound like "boo-SEH" instead of "boo-SKEH"), llegar → llegué (not llegé), empezar → empecé (not empezé). Every other person of these verbs is completely regular: buscaste, buscó, buscamos are unaffected.',
+					'A large group of preterite forms that get labeled "irregular" are actually just regular verbs with a spelling adjustment to preserve pronunciation, not a different underlying stem. Verbs ending in -car, -gar, and -zar change their spelling only in the yo form: buscar → busqué (not buscé, which would sound like "boo-SEH," not "boo-SKEH"), llegar → llegué (not llegé), empezar → empecé (not empezé). Every other person of these verbs is completely regular: buscaste, buscó, buscamos are unaffected.',
 					'A second spelling-only group covers -eer, -oír, and -uir verbs, where an unstressed i between two vowels becomes y in the third-person forms, and the surviving í in the other forms picks up a written accent it wouldn\'t otherwise need: leer → leí, leíste, leyó, leímos, leísteis, leyeron; oír → oí, oíste, oyó, oímos, oísteis, oyeron; construir → construí, construiste, construyó, construimos, construisteis, construyeron. This is the same underlying spelling rule in both directions (i between vowels becomes y; a stressed i next to another vowel gets an accent), and neither the stem nor the meaning is doing anything irregular.',
 					'The distinction matters for a practical reason: the u-stem, i-stem, and j-stem verbs above have to be memorized verb by verb, because the stem itself changed. The -car/-gar/-zar and -eer/-oír/-uir groups don\'t; once you know the one spelling rule, it applies automatically to every verb in that class, including ones you\'ve never seen conjugated before.',
 				],
@@ -3206,23 +3206,27 @@ export const guides: Guide[] = [
 		faq: [
 			{
 				question: 'What\'s the difference between u-stem, i-stem, and j-stem preterite verbs?',
-				answer: 'All three groups swap the infinitive stem for a new one and take nearly identical endings (-e, -iste, -o, -imos, -isteis, -ieron). The only structural difference is the vowel or consonant in the new stem: u-stem verbs like estar and tener get a stem containing u (estuv-, tuv-); i-stem verbs like hacer and querer get one containing i (hic-, quis-); j-stem verbs like decir and traer get one containing j (dij-, traj-), and that group alone drops the i before -eron in the ellos form.',
+				answer: 'All three groups swap the dictionary-form stem for a new one, then take the same six person-endings across yo through ellos. The only structural difference is the vowel or consonant in the new stem: u-stem verbs like estar and tener get a stem containing u (estuv-, tuv-); i-stem verbs like hacer and querer get one containing i (hic-, quis-); j-stem verbs like decir and traer get one containing j (dij-, traj-), and that group alone loses a vowel in the ellos ending.',
 			},
 			{
 				question: 'Why is "dijeron" correct instead of "dijieron"?',
-				answer: 'Decir belongs to the j-stem family (along with traer and every -ducir verb), and j-stem verbs are the one exception to the shared -ieron ending: they take -eron instead, dropping the i. So it\'s dijeron, trajeron, condujeron, not dijieron, trajieron, condujieron.',
+				answer: 'Decir belongs to the j-stem family (along with traer and every -ducir verb); that group alone breaks the shared -ieron ending, taking -eron instead and dropping the i. That gives decir a third-person plural of dijeron, traer a matching trajeron, and conducir a matching condujeron, each missing the i that a regular -ieron would supply.',
 			},
 			{
 				question: 'Do -ar and -er stem-changing verbs also change in the preterite?',
-				answer: 'No. Stem changes on -ar and -er verbs (pensar, volver, entender) are a present-tense-only phenomenon; those verbs conjugate completely regularly in the preterite. Only stem-changing -ir verbs (pedir, dormir, sentir) carry a change into the preterite, and even then only in the third-person singular and plural.',
+				answer: 'No. A verb like pensar or volver only shifts its stem when it\'s conjugated in the present; every one of its preterite forms follows the plain -ar/-er pattern with no exceptions. Only -ir verbs with a stem change (pedir, dormir, sentir) bring that shift into the preterite too, and even then only in the singular él/ella/usted form and the plural ellos, ellas, and ustedes form, leaving nosotros, vosotros, tú, and yo untouched.',
 			},
 			{
 				question: 'Are dar and ver irregular in the preterite?',
-				answer: 'Yes, but for a different reason than the stem-family verbs. Dar (an -ar verb) borrows the -er/-ir ending set without accents: di, diste, dio, dimos, disteis, dieron. Ver keeps regular -er endings but drops the accent marks because its stem is a single vowel: vi, viste, vio, vimos, visteis, vieron. Neither one involves a changed stem the way estar → estuve or hacer → hice does.',
+				answer: 'Yes, though not for the same reason as the stem-family verbs above. Dar, technically an -ar verb, takes the same six person-endings as an -er/-ir verb but drops every accent, giving di for yo and dio for él/ella. Ver\'s forms carry no accent either, but for another reason entirely: its stem is a single letter, so there\'s no vowel cluster left to mark, producing vi for yo and vio for él/ella. Neither verb involves a changed stem the way estar → estuve or hacer → hice does.',
 			},
 			{
 				question: 'How do you tell "fui" the ir-verb from "fui" the ser-verb apart?',
-				answer: 'You can\'t from the word alone; ir and ser share an identical preterite paradigm (fui, fuiste, fue, fuimos, fuisteis, fueron). The rest of the sentence disambiguates it: a destination or place ("fui a la tienda") means ir, while a noun, adjective, or description ("fui estudiante") means ser.',
+				answer: 'You can\'t from the word alone; ir and ser use the exact same preterite form in every person: fui for yo, fuiste for tú, fue for él/ella, fuimos for nosotros, fuisteis for vosotros, and fueron for ellos. The rest of the sentence disambiguates it: a destination or place ("fui a la tienda") means ir, while a noun, adjective, or description ("fui estudiante") means ser.',
+			},
+			{
+				question: 'How many irregular preterite verbs are there in Spanish?',
+				answer: 'There\'s no single agreed-on number, because sources draw the line in different places. Grammar references that count only verbs whose preterite stem is truly its own, the 8 u-stem verbs, the 3 i-stem verbs, decir and traer plus the open-ended -ducir family, plus the standalone pair ir/ser and the standalone pair dar/ver, land somewhere in the high teens; some study sites cite 17 on that basis. Vocabulary lists that also count the -car, -gar, -zar spelling changes, the -eer/-oír/-uir y-changes, and pedir/dormir-type verbs that only shift in él/ella and ellos forms as "irregular" push published totals past 50. This page keeps those last two groups apart from the stem-family verbs above because each follows one predictable spelling or third-person rule, not a memorized new stem, which is the more useful distinction for actually learning them, even though it makes any single headline number a matter of definition rather than fact.',
 			},
 		],
 		sources: [
@@ -3230,6 +3234,8 @@ export const guides: Guide[] = [
 			{ label: 'StudySpanish.com — "Preterite Stem Changing Verbs"', url: 'https://studyspanish.com/verbs/lessons/pretstem' },
 			{ label: 'SpanishDict — "Irregular, Spelling Changes, and Stem-Changing Preterite"', url: 'https://www.spanishdict.com/guide/spanish-preterite-stem-changes' },
 			{ label: 'Real Academia Española — Ortografía: "La acentuación gráfica de las palabras monosílabas"', url: 'https://www.rae.es/ortograf%C3%ADa/la-acentuaci%C3%B3n-gr%C3%A1fica-de-las-palabras-monos%C3%ADlabas' },
+			{ label: 'Spanish School Nicaragua — "Preterite: 17 Irregular Verbs in Preterite tense"', url: 'https://spanishschoolnicaragua.com/preterite/' },
+			{ label: 'Spanish Academy — "50 Irregular Preterite Spanish Verbs You Want to Use Often"', url: 'https://www.spanish.academy/blog/50-irregular-preterite-spanish-verbs-you-want-to-use-often/' },
 		],
 	},
 	{
