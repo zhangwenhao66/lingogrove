@@ -363,19 +363,19 @@ export const guides: Guide[] = [
 		faq: [
 			{
 				question: 'Who coined the term "déjà vu"?',
-				answer: 'The French philosopher Émile Boirac first used it in 1876, in an open letter to the journal Revue Philosophique describing "le sentiment du déjà vu" as a type of memory illusion (not, as sometimes reported, in one of his later books).',
+				answer: 'Credit goes to a 19th-century French philosopher, Émile Boirac, and the source is a specific 1876 letter to Revue Philosophique, not the psychical-research book he\'s sometimes wrongly cited for.',
 			},
 			{
 				question: 'Does "déjà-vu" mean something different in French than it does in English?',
-				answer: 'English uses it only for the memory-illusion sense. French dictionaries like Larousse also record a second, everyday sense: something unoriginal or predictable, as in "c\'est du déjà-vu" ("seen it all before"). English never adopted that second meaning.',
+				answer: 'In English the phrase covers just the memory-illusion sense. Standard references on the French side, Larousse among them, also record a second, everyday sense, banal or recycled, no genuine novelty left in it, as in "c\'est du déjà-vu." English never adopted that second meaning.',
 			},
 			{
 				question: 'Is déjà vu a sign that something is wrong with your brain?',
-				answer: 'An occasional déjà vu experience is common and not a cause for concern on its own. It\'s a well-studied, mainstream topic in memory research. Frequent or prolonged episodes are a different matter and worth discussing with a doctor, but that\'s a distinct question from the everyday version most people experience now and then.',
+				answer: 'No, a passing episode now and then is ordinary and nothing to worry about. Memory researchers treat it as a normal quirk of how the brain works, not a warning sign. Bring it up with a doctor only if the episodes turn frequent or drag on, a different question entirely from the everyday version most people run into occasionally.',
 			},
 			{
 				question: 'What\'s the opposite of déjà vu called?',
-				answer: '"Jamais vu" means literally "never seen." It\'s the feeling that something genuinely familiar suddenly seems strange or unrecognizable, such as staring at a common word until it stops looking like a real word.',
+				answer: '"Jamais vu," translating word for word as "never seen," is the flip side of déjà vu: a familiar thing abruptly reading as foreign, as if you were encountering it for the first time, the sensation behind staring at an everyday word so long that its spelling starts to look made up.',
 			},
 		],
 		sources: [
@@ -4486,23 +4486,23 @@ export const guides: Guide[] = [
 		faq: [
 			{
 				question: 'Does ciao mean hello or goodbye?',
-				answer: 'Both. Treccani\'s own definition says ciao is used "al momento dell\'incontro o della separazione," at the moment of meeting or at the moment of separation, so context, not the word itself, signals which one is meant. Wiktionary\'s English entry lists it under both "Hello, hi" and "Bye, goodbye" too, showing the double meaning carried over into English use.',
+				answer: 'Both. Treccani\'s own dictionary entry says the word covers the instant two people meet just as much as the instant they part, so only surrounding context reveals which sense the speaker had in mind. The reference entry covering its use in English files it under greetings and farewells alike, showing the double duty carried over into English use.',
 			},
 			{
 				question: 'Is it OK to say ciao to a stranger or in a formal setting?',
-				answer: 'Not according to Treccani, which ties ciao specifically to people addressed with tu, Italian\'s informal "you." For a stranger, a boss, or a formal setting, Wiktionary\'s Italian entry lists the actual alternatives: salve or buongiorno for hello, arrivederla or arrivederci for goodbye.',
+				answer: 'Not according to Treccani, which reserves the word for people already on tu terms, the informal footing Italian marks with a distinct pronoun. In a more formal exchange, say with someone the speaker doesn\'t know well, Italian greets with salve, or with buongiorno, on arrival, and sees the person off with arrivederci or the more formal arrivederla.',
 			},
 			{
 				question: 'Why do French tchao and Portuguese tchau only mean goodbye?',
-				answer: 'Because most languages that borrowed ciao only kept half its job. Larousse, the standard French dictionary, defines tchao purely as a familiar way to say "au revoir," with no hello sense at all, and Wiktionary\'s Portuguese entry for tchau shows the same restriction. English is the exception among ciao\'s borrowers: it kept both the hello and goodbye senses.',
+				answer: 'Because most languages that borrowed ciao only kept half its job. Larousse, the standard French dictionary, defines tchao as nothing more than a casual "au revoir," never a greeting, and the equivalent Portuguese entry carries the identical one-way restriction. English is the exception among ciao\'s borrowers: it kept both the hello and goodbye senses.',
 			},
 			{
 				question: 'Is German tschau the same word as tschüss?',
-				answer: 'No, despite sounding alike and doing the same job. Tschau is Italian ciao borrowed directly, per Wiktionary\'s descendants list for ciao. Tschüss has a separate origin entirely: Wiktionary traces it through Low German tschüß, an earlier adjüs, and Dutch adjuus, back to Spanish adiós or French adieu, with no connection to Italian at all.',
+				answer: 'No, despite sounding alike and doing the same job. Tschau is a direct German borrowing of Italian ciao, one of the dozens of forms the word spread into across Europe. Tschüss has a separate origin entirely: Wiktionary traces it back through an older Low German form and a Dutch intermediary, landing on the same root behind French adieu and Spanish adiós, with no connection to Italian at all.',
 			},
 			{
 				question: 'Is ciao related to Vietnamese chào?',
-				answer: 'No. Wiktionary\'s etymology entry states directly that ciao is "not related" to Vietnamese chào, despite the two words sounding alike and both meaning "hello, goodbye." They come from entirely separate language families with no shared ancestor or borrowing between them; the resemblance is coincidence.',
+				answer: 'No. The Wiktionary entry directly rules out any connection between the two, even though they share a similar sound and the same "hello, goodbye" meaning. Each traces back through its own distinct family tree, with no shared ancestor or borrowing linking them; it\'s pure coincidence.',
 			},
 		],
 		sources: [
@@ -5281,7 +5281,7 @@ export const guides: Guide[] = [
 			{
 				heading: 'What "de" and "nada" actually add up to',
 				body: [
-					'*De* is one of Spanish\'s most common prepositions, covering "of," "from," and "about" depending on context (see [Spanish prepositions](/spanish-prepositions/) for the fuller list of what it does elsewhere). *Nada* means "nothing." Put together word for word, *de nada* reads as "of nothing," which native speakers naturally render into English as "it was nothing" or "don\'t mention it" rather than the stiffer literal version.',
+					'*De* is one of Spanish\'s most common prepositions, covering "of," "from," and "about" depending on context (see [Spanish prepositions](/spanish-prepositions/) for the fuller list of what it does elsewhere). *Nada* means "nothing." Put together word for word, *de nada* reads as "of nothing," which native speakers naturally render into English as "it was nothing" or "don\'t mention it," softer than the stiffer literal version.',
 					'*Nada* itself has a stranger history than a plain word for "nothing" usually does. Latin already had a dedicated word for that, *nihil*, but Spanish didn\'t inherit it. Wiktionary\'s etymology entry for the word traces *nada* to the Latin phrase *(nulla) res nata*, literally "(no) thing born," an extension of the older *nemo natus*, "not a soul" (literally "nobody born"). Over centuries, "not a single thing had ever come into being" narrowed down to today\'s plain "nothing," and only the *res nata* portion of that longer phrase survived into modern Spanish as *nada*; Etymonline\'s own entry confirms the same *res nata* chain back through *natus* and the verb *nasci*, "to be born," down to the Proto-Indo-European root *gene-*, "give birth, beget," the same root that also produced English words like "genesis" and "genre."',
 					'The RAE\'s own dictionary entry for the word, at dle.rae.es/nada, gives the core sense as "inexistencia total o carencia absoluta de todo ser": total nonexistence, or the absolute lack of all being. That\'s a considerably heavier definition than the two-syllable reply to *gracias* would suggest, and it\'s worth knowing, because it explains why *de nada* undersells a favor so effectively: it\'s built from a word for total absence. Not every Spanish-sounding set phrase holds up to that kind of word-by-word scrutiny, though: [que sera sera](/que-sera-sera-meaning/), despite its Spanish spelling, isn\'t actually grammatical Spanish at all, missing the lo that real Spanish requires in front of que to carry the "that which" sense the phrase is going for.',
 				],
@@ -5318,19 +5318,19 @@ export const guides: Guide[] = [
 		faq: [
 			{
 				question: 'Does "de nada" literally translate to "you\'re welcome"?',
-				answer: 'No. Word for word it means "of nothing," built from the preposition de ("of," "from") and nada ("nothing"). Spanish speakers use it idiomatically as the standard reply to gracias, the same way English speakers say "you\'re welcome" without literally parsing "you are welcome [to it]" each time.',
+				answer: 'No. Word for word it means "of nothing," a preposition and a noun stuck together, not a phrase built to mean "you\'re welcome." It works purely as a set idiom, one Spanish speakers reach for automatically after gracias, the same way English speakers say "you\'re welcome" without stopping to unpack what each piece of that phrase is doing.',
 			},
 			{
 				question: 'Is "de nada" formal or informal?',
-				answer: 'It works in both registers and is safe with a boss, a stranger, or a close friend alike. In settings calling for a bit more deliberate politeness, professional emails, customer service, meeting someone senior for the first time, speakers often reach for no hay de qué or es un placer instead, but de nada itself is never actually wrong in a formal context.',
+				answer: 'It works in both registers and is safe with a boss, a stranger, or a close friend alike. In settings calling for a bit more deliberate politeness, a business email, a service counter, meeting someone senior for the first time, speakers often reach for no hay de qué or es un placer instead, but de nada itself is never actually wrong in a formal context.',
 			},
 			{
 				question: 'What do people say instead of "de nada" in Colombia?',
-				answer: 'A la orden, literally "at your command" or "at your service." It began as a military phrase and expanded into everyday commerce and service language across Colombia and Ecuador, used to invite a customer to browse, confirm an order, or reply to gracias, depending on when it\'s said.',
+				answer: 'A la orden, a phrase that puts the speaker at the other person\'s disposal. It began as a military phrase and expanded into ordinary Colombian shop and service settings, where the same words do several different jobs, welcoming a shopper, confirming an order, or standing in for "you\'re welcome," and only context sorts out which.',
 			},
 			{
 				question: 'Can "de nada" mean something other than "you\'re welcome"?',
-				answer: 'Yes. Outside the reply-to-gracias context, de nada is just an ordinary preposition-plus-noun combination. Hablamos de nada means "we talked about nothing [important]," a literal sentence with no idiom involved. Timing tells the two apart: immediately after someone says gracias, de nada is the fixed reply; inside a longer sentence, it\'s just the preposition doing its normal job.',
+				answer: 'Yes. Outside the reply-to-gracias context, the two words snap right back into their literal grammatical roles. Hablamos de nada, for instance, describes a conversation that covered nothing of substance, straightforward grammar with no fixed-phrase meaning attached. Timing tells the two apart: as a direct response to gracias, de nada is the fixed reply; folded into a longer sentence, it reverts to plain grammar with no idiom attached.',
 			},
 		],
 		sources: [
@@ -6169,7 +6169,7 @@ export const guides: Guide[] = [
 		slug: 'carino-meaning',
 		category: 'Loanwords',
 		title: 'Cariño Meaning: Darling Is Only One of RAE\'s Five Definitions',
-		description: 'RAE\'s dictionary gives cariño five senses, affection, a gesture, nostalgia, careful effort, and a gift, and calls its origin disputed instead of tracing it to Latin "dear."',
+		description: 'RAE\'s dictionary gives cariño five senses, affection, a gesture, nostalgia, careful effort, and a gift, and marks its origin as disputed, without tracing it to Latin "dear."',
 		published: '2026-08-28',
 		updated: '2026-08-28',
 		coreSummary: 'The RAE dictionary lists five distinct senses under cariño: affection felt toward someone or something, a physical manifestation of that affection (usually plural, cariños), nostalgia or longing, the care taken over a task, and a gift. RAE marks the word\'s origin as disputed, comparing it to Latin carēre ("to lack") and an Aragonese word cariño meaning specifically "nostalgia," rather than tracing it to Latin carus ("dear") the way several language-learning sites describe it. ASALE\'s Diccionario de americanismos (DAMER) documents the gift sense as current in Nicaragua, the Dominican Republic, Colombia\'s Cauca department, Peru, Bolivia, and northwestern Argentina, and records a Chilean phrase, cariño malo, that names the opposite of affection: ingratitude toward someone who loves you.',
@@ -6183,11 +6183,11 @@ export const guides: Guide[] = [
 				heading: 'RAE lists five senses, and "darling" covers only part of one',
 				body: [
 					'The Real Academia Española\'s dictionary doesn\'t define cariño as a single feeling with a term of address attached. It lists five separate numbered senses: (1) an inclination of love or good affection felt toward someone or something, with odio ("hate") and desprecio ("contempt") given as its antonyms; (2) a manifestation of that affection, a word RAE notes is more often used in the plural, cariños, covering hugs, caresses, and other affectionate gestures distinct from the feeling itself; (3) añoranza, nostalgia, longing for something absent; (4) the care or diligence with which a task is done or a thing is treated; and (5) regalo, obsequio, a gift or present. Calling someone cariño as a term of address draws only on the first of these five.',
-					'RAE\'s entry also marks the word\'s origin as disputed rather than settled, offering two comparison points instead of a confirmed derivation: Latin carēre, "to lack," and an Aragonese word cariño that means specifically "nostalgia." Wiktionary\'s entry reaches a similar conclusion, calling the etymology "uncertain, but possibly via Aragonese carinyo" — though Wiktionary\'s own further-reading list points back to this same RAE entry, so the two aren\'t fully separate confirmations of each other. Several language-learning sites describe cariño as coming straight from Latin carus, "dear," the same root behind Spanish caro and English "charity"; RAE\'s own entry doesn\'t make that claim, and its listed comparison point for sense three, nostalgia, lines up with the Aragonese cognate\'s meaning, not with carus\'s sense of "dear."',
+					'RAE\'s entry also marks the word\'s origin as unsettled, offering two comparison points instead of a confirmed derivation: Latin carēre, "to lack," and an Aragonese word cariño that means specifically "nostalgia." Wiktionary\'s entry reaches a similar conclusion, calling the etymology "uncertain, but possibly via Aragonese carinyo" — though Wiktionary\'s own further-reading list points back to this same RAE entry, so the two aren\'t fully separate confirmations of each other. Several language-learning sites describe cariño as coming straight from Latin carus, "dear," the same root behind Spanish caro and English "charity"; RAE\'s own entry doesn\'t make that claim, and its listed comparison point for sense three, nostalgia, lines up with the Aragonese cognate\'s meaning, not with carus\'s sense of "dear."',
 				],
 				image: {
 					src: '/images/carino-meaning-diagram.svg',
-					alt: 'Diagram showing RAE\'s five numbered senses of cariño (affection, an affectionate gesture, nostalgia, careful effort, a gift), with a note that RAE marks the word\'s origin as disputed rather than deriving it from Latin carus.',
+					alt: 'Diagram showing RAE\'s five numbered senses of cariño (affection, an affectionate gesture, nostalgia, careful effort, a gift), with a note that RAE marks the word\'s origin as disputed, without deriving it from Latin carus.',
 				},
 			},
 			{
@@ -6215,23 +6215,23 @@ export const guides: Guide[] = [
 		faq: [
 			{
 				question: 'What does "cariño" mean?',
-				answer: 'RAE\'s dictionary lists five separate senses: affection or fondness felt toward someone or something; a physical manifestation of that affection, usually used in the plural (cariños, meaning hugs, caresses, or affectionate gestures); nostalgia or longing; the care taken over a task or how something is treated; and a gift. As a term of address, "cariño" ("dear," "honey," "love") draws only on the first of these.',
+				answer: 'RAE\'s entry breaks the word into five separate senses: warmth or fondness directed at a person or thing; the plural cariños for hugs, caresses, or other gestures that show that fondness; wistfulness for a person or place no longer around; the diligence someone puts into a task or how carefully a thing is handled; and a gift. Used directly to someone, "cariño" ("dear," "honey," "love") comes only from that first sense.',
 			},
 			{
 				question: 'Does "cariño" always mean "darling"?',
-				answer: 'No. That\'s the vocative use, drawing on only one of RAE\'s five listed senses. The word also names a gift (documented by DAMER as current in Nicaragua, the Dominican Republic, Colombia\'s Cauca department, Peru, Bolivia, and northwestern Argentina), nostalgia, and the care put into a task, none of which involve addressing a person.',
+				answer: 'No. That\'s the vocative use, one sense out of five that RAE\'s dictionary lists for the word. DAMER treats the same word as a physical object handed over in several South and Central American countries, and RAE separately lists nostalgia and the care put into a task as senses of the same word, none of which involve addressing a person.',
 			},
 			{
 				question: 'Does "cariño" come from Latin "carus" ("dear")?',
-				answer: 'RAE doesn\'t say so. Its entry marks the word\'s origin as disputed and offers two comparison points instead of a confirmed derivation, Latin carēre ("to lack") and an Aragonese word cariño meaning specifically "nostalgia," which matches one of RAE\'s own five senses for the word. Wiktionary separately calls the etymology "uncertain, but possibly via Aragonese carinyo." The "from Latin carus" story, repeated on several language-learning sites, isn\'t what either dictionary\'s entry for cariño itself states.',
+				answer: 'RAE doesn\'t say so. Its entry treats the derivation as unresolved and points instead to two comparison words, "to lack" in Latin and an Aragonese term for nostalgia, one of which lines up with a sense RAE already lists for the word itself. A separate Wiktionary entry lands in the same uncertain place without pinning down a source either. The "from Latin carus" story, repeated on quite a few language-teaching blogs, isn\'t what either dictionary\'s entry for cariño itself states.',
 			},
 			{
 				question: 'Why does "cariño malo" mean the opposite of affection?',
-				answer: 'DAMER records cariño malo as a set Chilean phrase for "the feeling of not loving back, or of ingratitude, that a person has toward someone who loves them," and, in a second sense, for a person who behaves that way. It isn\'t a weaker version of cariño; it specifically names failing to return someone else\'s affection.',
+				answer: 'DAMER records cariño malo as a set Chilean phrase naming outright ingratitude, not loving back a person who loves you, and, in a second listed sense, the person who behaves that way. It isn\'t a weaker version of cariño; it names failing to return someone\'s love altogether.',
 			},
 			{
 				question: 'What does "¡cariños!" mean at the end of a message or when leaving?',
-				answer: 'DAMER lists it as a separate interjection, used in Puerto Rico, Bolivia, Chile, Paraguay, Argentina, and Uruguay to express affection toward a person or their family specifically when saying goodbye to them, similar to how an English speaker might say "give my love to the family" on the way out.',
+				answer: 'DAMER catalogs it under its own entry, separate from the main cariño headword, current across six South American countries: an interjection for sending affection to someone (or their family) at the exact moment of parting, close to how an English speaker might send regards to a friend\'s household right before leaving.',
 			},
 		],
 		sources: [
