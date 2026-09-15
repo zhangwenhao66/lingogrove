@@ -1,4 +1,9 @@
 {
+  "https://lingogrove.com/spanish-pronouns/": {
+    "submitted_date": "2026-09-15",
+    "verified_status": "pending",
+    "note": "lightweight enrichment, not new publish (主力分区规则期间Grammar为⚖️选择性，本次不开新页): added new 'A seventh, different job: relative pronouns' section (que/quien-quienes/el cual family/cuyo) + 2 new FAQ entries to existing spanish-pronouns article, merging keyword 'relative pronouns spanish' (1,300/mo, v2=B) which was a genuine content gap (article's six pronoun families never covered relative pronouns). RAE-sourced: Nueva gramática 'Los relativos quien, que y cual', DPD 'quien' (quienes required for plural antecedent), 'El relativo posesivo cuyo' (agrees with possessed noun not antecedent), Libro de estilo de la Justicia caution against el cual overuse. check_prose_patterns.py and check_bridge_sentences.py both converged to exit 0 after several rounds of FAQ/body de-duplication rewrites; humanizer/avoid-ai-writing self-audit (fixed one em dash); google-spam-compliance self-check PASS across all 11 categories. Bing 200 / Yandex 200. Live URL confirmed 200 with new section present before submission."
+  },
   "https://lingogrove.com/cabron-meaning/": {
     "submitted_date": "2026-09-02",
     "verified_status": "pending",
