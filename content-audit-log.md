@@ -1681,3 +1681,78 @@
   "escalation": null
 }
 ```
+
+## 2026-09-15 full audit: `happy-birthday-in-spanish`
+
+```json
+{
+  "url_slug": "happy-birthday-in-spanish",
+  "last_audited": "2026-09-15",
+  "published_date": "2026-08-03",
+  "note": "Site tied for least-recently-audited across the matrix (factcrumbs/lingogrove/mythcairn/umberlore all stalled at 2026-09-12). Article selected from 独立站/零点击查询内容增量清单_20260912.md, which flags this page's zero-click query 'feliz cumple crack meaning' (32 impressions/pos 4.0), per that list's stated priority over the plain last-audited-date rotation.",
+  "diagnosed_checkpoints": [
+    "Does the page directly address the slang term 'crack' in birthday greetings, given the zero-click query targets it specifically?",
+    "Is the RAE cumpleaños etymology (cumplir + años) still accurate and correctly cited?",
+    "Is the Las Mañanitas corrido-not-ranchera correction from the 2026-08-17 audit still intact?",
+    "Does the article still meet the site's current em-dash standard, given it predates the 2026-08-27 zero-tolerance tightening?"
+  ],
+  "findings": [
+    {
+      "dimension": "competitive differentiation / zero-click query gap (primary action this round)",
+      "status": "confirmed real gap -> fixed",
+      "detail": "The query 'feliz cumple crack meaning' (Spanish slang 'crack' used as a birthday compliment) had no coverage anywhere on the page. WebSearch + direct fetch of Spain's RAE dictionary background via a secondary source (dle.rae.es itself returns 403 to automated fetches, a known site-wide Cloudflare block, not evidence the definition doesn't exist) confirmed: RAE added a sense of 'crack' meaning a person who excels remarkably at something, on top of an older sense limited to standout racehorses/athletes; The Conversation (academic-linguistics outlet) traces the semantic broadening and cites the Spanish reference corpus (CREA) dating the first sports usage to a May 1982 ABC newspaper piece about Diego Maradona. Added a new FAQ with this etymology and a new source citation."
+    },
+    {
+      "dimension": "early AI-writing cleanup (re-check revealed the site standard has tightened since last audit)",
+      "status": "confirmed real gap -> fixed",
+      "detail": "published 2026-08-03 predates avoid-ai-writing's adoption (2026-08-07), triggering mandatory re-check. The 2026-08-17 audit of this same article kept 2 categories as 'allowed exceptions' at the time (FAQ answers opening with 'No --'/'Yes --', and sources[] labels formatted 'Publisher -- Title'), totaling 5 em dashes. Multiple sibling articles audited since (negation-to-de, subjunctive-spanish, 2026-08-27 onward) have since retroactively established a zero-tolerance standard, eliminating both exception categories. This article had not yet been brought up to that standard. Fixed: both FAQ openers rewritten as plain sentences ('No.'/'Yes.'), all 3 sources[] labels changed from em-dash to colon separators. Em dash count now 0."
+    },
+    {
+      "dimension": "mechanical prose-pattern checks",
+      "status": "confirmed problem -> fixed",
+      "detail": "check_prose_patterns.py initial run: rather-than/instead-of density 4/590 words (density 1/147, over the 1/200 threshold despite total count of 4 not exceeding the >4 total-count trigger) -- fixed by rewording 2 instances, bringing it to 2/589 (comfortably under threshold). Also flagged 5 of the then-existing FAQ answers (plus the new crack FAQ once added) with >=20-char verbatim overlap against body/coreSummary text -- resolved via ~4 rewrite iterations without altering any factual content, converging to exit 0."
+    },
+    {
+      "dimension": "factual accuracy (re-verification of prior findings)",
+      "status": "pass, no new issues",
+      "detail": "RAE cumpleaños etymology (cumplir + años) and the Las Mañanitas corrido-vs-ranchera correction from the 2026-08-17 audit both re-verified via WebSearch as still accurate; no drift or new counter-evidence found."
+    },
+    {
+      "dimension": "external link rot",
+      "status": "pass",
+      "detail": "dle.rae.es returns 403 (known site-wide Cloudflare anti-bot block established in prior audits, not a dead link -- content independently re-verified via WebSearch). Mexperience, Infobae, and the newly added The Conversation source all return 200."
+    },
+    {
+      "dimension": "internal link health",
+      "status": "pass",
+      "detail": "2 inbound contextual links confirmed via grep from good-night-in-spanish and i-love-you-in-spanish FAQ answers; not an orphan page."
+    },
+    {
+      "dimension": "SEO technical/on-page",
+      "status": "pass, known pre-existing outlier not new",
+      "detail": "title z=1.92 (outlier) is the same pre-existing, previously-documented issue from the 2026-08-17 audit (long raw title shared with several sibling articles, escalated for a pipeline-level fix rather than per-article edits); not treated as a new finding. description z=-0.63, normal range, unchanged."
+    },
+    {
+      "dimension": "GEO / AdSense / Google spam compliance",
+      "status": "pass",
+      "detail": "Skill(google-spam-compliance): PASS across all 11 categories -- effort/originality/added-value all present (unique RAE-sourced etymology content, not template-swap content). Pure language-reference content, no restricted AdSense topics. GEO qualitative check: new FAQ adds a self-contained, sourced direct-answer block consistent with the article's existing extractability strengths."
+    }
+  ],
+  "independent_review": "None of this round's findings required agent-based fact verification beyond direct WebSearch/source confirmation (the crack etymology traces to RAE's own dictionary entry plus a named academic-linguistics article with a specific dated citation, and the em-dash standard drift was verified by reading the site's own prior audit log entries, not by interpretive judgment). Mechanical checks (prose density, FAQ overlap) are deterministic script output.",
+  "actions_taken": [
+    "Added new FAQ 'What does \"feliz cumple, crack\" mean?' with RAE + The Conversation sourcing; added 1 new source citation.",
+    "Rewrote 2 FAQ answers ('No --'/'Yes --') as plain sentences and converted 3 sources[] labels from em-dash to colon format, bringing the article to the site's current zero-em-dash standard.",
+    "Fixed rather-than/instead-of density (4/590 words -> 2/589 words) and all FAQ/body verbatim overlaps (script converged to exit 0).",
+    "Bumped updated from 2026-08-17 to 2026-09-15 (published field already existed, no backfill needed).",
+    "npm run build (87 pages) passed.",
+    "Ran seo_drift.py baseline before deploy and compare after: 1 WARNING (schema content changed -- expected, new FAQ item), no CRITICAL.",
+    "Committed (5765bd2) and pushed to origin/main; LingoGrove auto-deploys via git-connected Cloudflare Pages. Polled the live URL (cache-busted) until the new FAQ text appeared (~60s).",
+    "Submitted https://lingogrove.com/happy-birthday-in-spanish/ via tools/submit-indexnow.mjs (Bing 200, Yandex 202).",
+    "Marked the corresponding row in 独立站/零点击查询内容增量清单_20260912.md as done (✅ 2026-09-15).",
+    "Appended dated entry to 内容发布日志.md marking this as a content-quality-audit update, not a new publish."
+  ],
+  "seo_score": "title z=1.92 known pre-existing outlier (no change), description z=-0.63 normal, unchanged",
+  "geo_score": "qualitative pass, improved (new FAQ adds a sourced direct-answer block for a previously uncovered query)",
+  "escalation": null
+}
+```
