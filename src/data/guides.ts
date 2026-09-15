@@ -526,7 +526,7 @@ export const guides: Guide[] = [
 		title: 'How to Say Happy Birthday in Spanish (Plus the Song Most People Actually Sing)',
 		description: '"Feliz cumpleaños" is the same across the Spanish-speaking world, but in Mexico, the song sung at the party usually isn\'t the English tune translated.',
 		published: '2026-08-03',
-		updated: '2026-08-17',
+		updated: '2026-09-15',
 		coreSummary: '"Happy birthday" in Spanish is Feliz cumpleaños, used identically across every Spanish-speaking country with no regional variant in the phrase itself. Cumpleaños literally means "years completed" (from cumplir, "to complete/fulfill," plus años, "years"). In Mexico and increasingly beyond it, the song actually sung at birthdays is often not a translation of the English tune at all, but Las Mañanitas, a traditional song with its own separate origins.',
 		language: 'Spanish',
 		sections: [
@@ -534,7 +534,7 @@ export const guides: Guide[] = [
 				heading: 'The phrase itself, and what it literally means',
 				body: [
 					'*Feliz cumpleaños* (*feliz* "happy" plus *cumpleaños* "birthday") is the standard phrase everywhere Spanish is spoken, with no meaningful regional split the way some other phrases on this site have. *Cumpleaños* is itself a compressed piece of grammar: it comes from *cumple* (a form of *cumplir*, "to complete" or "to fulfill") plus *años* ("years"), so the word literally means "[one] completes years." The Real Academia Española defines it simply as "aniversario del nacimiento de una persona," the anniversary of a person\'s birth, and notes that as a noun it\'s written as one word (*su cumpleaños*), while the underlying verb phrase stays two words (*mamá cumple años hoy*, "mom has a birthday today," literally "turns years today").',
-					'A shortened, casual version is common in speech and texting: *¡Feliz cumple!* drops the second half of *cumpleaños* the way English speakers might say "happy birthday" instead of spelling out a longer phrase.',
+					'A shortened, casual version is common in speech and texting: *¡Feliz cumple!* drops the second half of *cumpleaños* much the way an English speaker might text "HBD" and skip typing the whole phrase.',
 					'The greeting is also commonly followed by a second line rather than left standing alone: *¡Feliz cumpleaños! Que cumplas muchos más*, literally "may you complete many more," closer in spirit to the English "many happy returns" than to a literal translation. It\'s a warm, standard add-on across the Spanish-speaking world, not a regional variant of the greeting itself.',
 				],
 			},
@@ -542,7 +542,7 @@ export const guides: Guide[] = [
 				heading: 'Las Mañanitas: the song most Mexican households actually sing',
 				body: [
 					'English speakers often assume the Spanish birthday song is just a translation of "Happy Birthday to You," and a direct Spanish adaptation of that tune does circulate informally in several countries, usually opening with the line *cumpleaños feliz*. But in Mexico, and in many households with Mexican roots elsewhere, the song that actually gets sung is a different piece entirely: *Las Mañanitas* ("The Little Mornings"), traditionally performed at the crack of dawn, with family gathering outside the birthday person\'s door, or a hired mariachi band, to wake them up with it.',
-					'Las Mañanitas didn\'t start life as a birthday song, and its roots reach back further than Mexico itself: the melody traces to the *romanza*, a serenade tradition from Sephardic communities in medieval Spain that colonizers carried to Mexico, where it was later reshaped, after independence, into the style historians classify as a *corrido* rather than a ranchera. Only gradually did it settle into today\'s familiar role. It\'s also sung on Mother\'s Day and for saints\' days in Mexico, not exclusively at birthdays. Its lyrics compare the beauty of the dawn to the person being celebrated, rather than simply wishing them a happy day the way the English song does.',
+					'Las Mañanitas didn\'t start life as a birthday song, and its roots reach back further than Mexico itself: the melody traces to the *romanza*, a serenade tradition from Sephardic communities in medieval Spain that colonizers carried to Mexico, where it was later reshaped, after independence, into the style historians classify as a *corrido*, not a ranchera. Only gradually did it settle into today\'s familiar role. It\'s also sung on Mother\'s Day and for saints\' days in Mexico, not exclusively at birthdays. Its lyrics compare the beauty of the dawn to the person being celebrated, rather than simply wishing them a happy day the way the English song does.',
 					'Once the celebration is over, the two other everyday phrases worth having on hand are [good night in Spanish](/good-night-in-spanish/) and the different registers behind [saying "I love you" in Spanish](/i-love-you-in-spanish/), both of which come with the same kind of nuance that a direct translation misses.',
 				],
 			},
@@ -550,25 +550,30 @@ export const guides: Guide[] = [
 		faq: [
 			{
 				question: 'Does "feliz cumpleaños" change between Spain and Latin America?',
-				answer: 'No — the phrase itself is identical across every Spanish-speaking country. What varies is the surrounding birthday tradition (like Mexico\'s Las Mañanitas), not the greeting.',
+				answer: 'No. Every country that speaks Spanish uses the same words for the greeting. What varies is the surrounding birthday tradition, like Mexico\'s Las Mañanitas, not the greeting.',
 			},
 			{
 				question: 'What does "cumpleaños" literally mean?',
-				answer: '"Years completed" or "fulfills years": it comes from cumplir ("to complete, to fulfill") plus años ("years"). The Real Academia Española defines the noun form as the anniversary of a person\'s birth.',
+				answer: '"Years completed" or "fulfills years": it comes from cumplir ("to complete, to fulfill") plus años ("years"). Spain\'s official dictionary marks the date a person was born, counted year by year.',
 			},
 			{
 				question: 'Is there a casual, shortened way to say it?',
-				answer: 'Yes — "¡Feliz cumple!" drops the second half of cumpleaños, similar to how English speakers might shorten a greeting in casual speech or texting.',
+				answer: 'Yes. "¡Feliz cumple!" trims the word down, similar to how English speakers might shorten a greeting in casual speech or texting.',
 			},
 			{
 				question: 'Is Las Mañanitas the same song as the Spanish "Happy Birthday to You"?',
-				answer: 'No, they\'re different songs. A direct Spanish-language adaptation of the English "Happy Birthday to You" tune does exist and gets sung informally in various countries. Las Mañanitas is a separate, older song rooted in Spain\'s medieval serenade tradition and later reshaped into Mexico\'s corrido style; it\'s the one most closely associated with Mexican birthday celebrations specifically.',
+				answer: 'No, they\'re different songs. A Spanish version of the well-known English birthday tune does exist, sung casually in a handful of countries. Las Mañanitas is older and unrelated in origin, tracing back to a Sephardic serenade style that later became Mexico\'s corrido tradition, and it\'s the one Mexican families actually sing.',
+			},
+			{
+				question: 'What does "feliz cumple, crack" mean?',
+				answer: 'It means something like "happy birthday, champ" or "happy birthday, legend." Crack has nothing to do with breaking or drugs here: Spain\'s national dictionary added a separate entry for it as a borrowed English word meaning a person who stands out remarkably at something, on top of an older sense limited to standout racehorses and athletes. Linguists writing for The Conversation trace the broadening from horses that won races, to star athletes (the Argentine press was already calling Diego Maradona a crack by 1982), to anyone excellent at anything. Tacking it onto a birthday message turns an ordinary greeting into a compliment, not an insult.',
 			},
 		],
 		sources: [
-			{ label: 'Real Academia Española — Diccionario de la lengua española: "cumpleaños"', url: 'https://dle.rae.es/cumplea%C3%B1os' },
-			{ label: 'Mexperience — "Las Mañanitas: Mexico\'s Gift to Birthdays"', url: 'https://www.mexperience.com/mexicos-gift-to-birthdays/' },
-			{ label: 'Infobae — "Este es el origen de la popular canción de cumpleaños \'Las mañanitas\'"', url: 'https://www.infobae.com/mexico/2024/04/21/este-es-el-origen-de-la-polular-cancion-de-cumpleanos-las-mananitas/' },
+			{ label: 'Real Academia Española: Diccionario de la lengua española, "cumpleaños"', url: 'https://dle.rae.es/cumplea%C3%B1os' },
+			{ label: 'Mexperience: "Las Mañanitas: Mexico\'s Gift to Birthdays"', url: 'https://www.mexperience.com/mexicos-gift-to-birthdays/' },
+			{ label: 'Infobae: "Este es el origen de la popular canción de cumpleaños \'Las mañanitas\'"', url: 'https://www.infobae.com/mexico/2024/04/21/este-es-el-origen-de-la-polular-cancion-de-cumpleanos-las-mananitas/' },
+			{ label: 'The Conversation: "Los \'cracks\' del diccionario: historia y uso de una palabra contradictoria"', url: 'https://theconversation.com/los-cracks-del-diccionario-historia-y-uso-de-una-palabra-contradictoria-219146' },
 		],
 	},
 	{
