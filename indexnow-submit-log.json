@@ -1,8 +1,11 @@
 {
   "https://lingogrove.com/spanish-pronouns/": {
-    "submitted_date": "2026-09-15",
-    "verified_status": "pending",
-    "note": "lightweight enrichment, not new publish (主力分区规则期间Grammar为⚖️选择性，本次不开新页): added new 'A seventh, different job: relative pronouns' section (que/quien-quienes/el cual family/cuyo) + 2 new FAQ entries to existing spanish-pronouns article, merging keyword 'relative pronouns spanish' (1,300/mo, v2=B) which was a genuine content gap (article's six pronoun families never covered relative pronouns). RAE-sourced: Nueva gramática 'Los relativos quien, que y cual', DPD 'quien' (quienes required for plural antecedent), 'El relativo posesivo cuyo' (agrees with possessed noun not antecedent), Libro de estilo de la Justicia caution against el cual overuse. check_prose_patterns.py and check_bridge_sentences.py both converged to exit 0 after several rounds of FAQ/body de-duplication rewrites; humanizer/avoid-ai-writing self-audit (fixed one em dash); google-spam-compliance self-check PASS across all 11 categories. Bing 200 / Yandex 200. Live URL confirmed 200 with new section present before submission."
+    "submitted_date": "2026-08-06",
+    "verified_status": "stale_not_indexed",
+    "note": "new publish (Grammar tier); Bing 200 / Yandex 202.",
+    "last_checked_date": "2026-08-25",
+    "verified_method": "bwt_url_inspection",
+    "verify_note": "discovered 08 Aug, 账龄17天超过14天阈值, Blocked"
   },
   "https://lingogrove.com/cabron-meaning/": {
     "submitted_date": "2026-09-02",
@@ -117,14 +120,6 @@
     "note": "Discovered date shows sentinel '01 Jan 2006' anomaly; submitted 08-09, 21 days, exceeds 14-day threshold",
     "last_checked_date": "2026-08-30",
     "verified_method": "bwt_url_inspection"
-  },
-  "https://lingogrove.com/spanish-pronouns/": {
-    "submitted_date": "2026-08-06",
-    "verified_status": "stale_not_indexed",
-    "note": "new publish (Grammar tier); Bing 200 / Yandex 202.",
-    "last_checked_date": "2026-08-25",
-    "verified_method": "bwt_url_inspection",
-    "verify_note": "discovered 08 Aug, 账龄17天超过14天阈值, Blocked"
   },
   "https://lingogrove.com/double-object-pronouns-spanish/": {
     "submitted_date": "2026-08-06",
@@ -343,17 +338,23 @@
   },
   "https://lingogrove.com/french-reflexive-verbs/": {
     "submitted_date": "2026-08-20",
-    "verified_status": "pending"
+    "verified_status": "stale_not_indexed",
+    "last_checked_date": "2026-09-15",
+    "verified_method": "bing_url_inspection"
   },
   "https://lingogrove.com/french-past-participle/": {
     "submitted_date": "2026-08-20",
-    "verified_status": "pending",
-    "note": "new publish (Grammar tier, 12th run of day: OQLF's two-ending regular/irregular classification (-er and -issant -ir only; every -re/-oir verb technically irregular, contradicting the common three-group textbook model), devoir/pouvoir/savoir/vouloir irregular set, avoir agreement's direct-object-must-precede rule with OQLF's own worked examples, être agreement split between plain subject-matching (motion verbs, passive voice) and the pronominal exception that borrows avoir's rule instead (cross-referenced to french-reflexive-verbs to avoid duplicating that mechanism), and why du/due keep the circumflex only in the masculine singular per the Academie francaise 1990 rectifications; sourced from 4 OQLF Vitrine linguistique pages + Academie francaise dictionnaire-academie.fr, all fetched and verified verbatim; passed independent 8-fold audit (zero blocking findings) plus a second humanizer/avoid-ai-writing pass this run caught and fixed on its own (8 prose em dashes cut to match site convention, one negation-stack sentence, one filler phrase); also backfilled two stale keyword-file entries missing [已用] tags from the prior run's french-reflexive-verbs publish); Bing 200 / Yandex 202. Live URL confirmed 200 with real article content before submission."
+    "verified_status": "stale_not_indexed",
+    "note": "new publish (Grammar tier, 12th run of day: OQLF's two-ending regular/irregular classification (-er and -issant -ir only; every -re/-oir verb technically irregular, contradicting the common three-group textbook model), devoir/pouvoir/savoir/vouloir irregular set, avoir agreement's direct-object-must-precede rule with OQLF's own worked examples, être agreement split between plain subject-matching (motion verbs, passive voice) and the pronominal exception that borrows avoir's rule instead (cross-referenced to french-reflexive-verbs to avoid duplicating that mechanism), and why du/due keep the circumflex only in the masculine singular per the Academie francaise 1990 rectifications; sourced from 4 OQLF Vitrine linguistique pages + Academie francaise dictionnaire-academie.fr, all fetched and verified verbatim; passed independent 8-fold audit (zero blocking findings) plus a second humanizer/avoid-ai-writing pass this run caught and fixed on its own (8 prose em dashes cut to match site convention, one negation-stack sentence, one filler phrase); also backfilled two stale keyword-file entries missing [已用] tags from the prior run's french-reflexive-verbs publish); Bing 200 / Yandex 202. Live URL confirmed 200 with real article content before submission.",
+    "last_checked_date": "2026-09-15",
+    "verified_method": "bing_url_inspection"
   },
   "https://lingogrove.com/spanish-superlatives/": {
     "submitted_date": "2026-08-20",
-    "verified_status": "pending",
-    "note": "new publish (Tier 1 Grammar: relative vs. absolute superlative split per RAE glossary/Nueva gramatica basica (first term/quantificative group/optional de-coda), irregular relative superlatives bueno/malo/grande/pequeno -> mejor/peor/mayor/menor with the age-vs-size mayor/mas grande nuance, -isimo spelling-change rules including the less-common -or/-n -c- interfix (mayorcisimo/jovencisimo) and the unstressed diphthong -io/-ia vs stressed hiato -io/-ia vowel-drop distinction, Latin-inherited -errimo forms (paupérrimo/celebérrimo/acérrimo) with enemigo acerrimo as the surviving frozen collocation, and RAE own prefix-based superlative category (re-/super-/hiper-) with a 2019 academic source on re- productivity in Rioplatense Spanish for the regional angle; passed independent 8-point audit which caught 19 prose em dashes against house style + a missing sources[] citation for the grado-superlativo glossary page + one unverified competitor-coverage claim, all three fixed and confirmed clean by a second independent verification pass before publish); Bing 200 / Yandex 200. Live URL confirmed 200 with real article content before submission."
+    "verified_status": "stale_not_indexed",
+    "note": "new publish (Tier 1 Grammar: relative vs. absolute superlative split per RAE glossary/Nueva gramatica basica (first term/quantificative group/optional de-coda), irregular relative superlatives bueno/malo/grande/pequeno -> mejor/peor/mayor/menor with the age-vs-size mayor/mas grande nuance, -isimo spelling-change rules including the less-common -or/-n -c- interfix (mayorcisimo/jovencisimo) and the unstressed diphthong -io/-ia vs stressed hiato -io/-ia vowel-drop distinction, Latin-inherited -errimo forms (paupérrimo/celebérrimo/acérrimo) with enemigo acerrimo as the surviving frozen collocation, and RAE own prefix-based superlative category (re-/super-/hiper-) with a 2019 academic source on re- productivity in Rioplatense Spanish for the regional angle; passed independent 8-point audit which caught 19 prose em dashes against house style + a missing sources[] citation for the grado-superlativo glossary page + one unverified competitor-coverage claim, all three fixed and confirmed clean by a second independent verification pass before publish); Bing 200 / Yandex 200. Live URL confirmed 200 with real article content before submission.",
+    "last_checked_date": "2026-09-15",
+    "verified_method": "bing_url_inspection"
   },
   "https://lingogrove.com/spanish-si-clauses/": {
     "submitted_date": "2026-08-21",
