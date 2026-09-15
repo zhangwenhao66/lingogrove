@@ -53,3 +53,14 @@
 - **Deadline**：2026-09-24 17:00（鼠标真实点击日历控件选中）。
 - **发布状态**：✅ 已提交，跳转到 thankyou.asp，提示 "Pending approval..."。提交回执 product id = `46fa52a52c0daaa3caa0617247ef054d`。
 - **上线复核**：⏳ 待下次任务运行时补查。
+
+### 2026-09-15（周二，正常排期，SourceBottle任务恢复"最久未发布优先"遍历，本站排入本轮六站之一）
+
+- **问题标题**：Spanish teachers, translators, interpreters: has mixing up por and para caused a real misunderstanding outside the classroom?
+- **角度**：绑定`por-vs-para`一文讲的真实语法难点——por和para在英语里都翻译成"for"，这正是英语母语学习者混淆两者的根源，但西班牙语里这不是文体选择而是真正的语法错误，母语者会立刻察觉。征集西班牙语教师/笔译/口译举出真实案例——por/para混用（或类似的一对易混淆词）在课堂之外的真实场景（商务、医疗、法律、职场）造成了实际的误解，而不只是课堂纠错。与此前问过的外来词语义漂移角度（08-04）、虚拟式教学突破点角度（08-12）、跨文化称呼语误用角度（08-18）、词义商业化扁平角度（08-25）均不重叠——这次首次聚焦"语法混淆点在课堂外造成真实后果"而非词汇/教学法层面。
+- **绑定文章**：LingoGrove `por-vs-para`（Por vs. Para: The Actual Difference (With Real Examples)）。
+- **分类标签**：Topics = General + Professional Services（新组合，考虑到征集对象含商务/医疗/法律场景的口译员）；Countries = Australia + UK & Republic of Ireland + Canada + United States。
+- **表单设置**：Job title = Content Creator；Organisation = LingoGrove；Contact = Email；Unpaid；Email address 和 Contact email 均填 `contact@lingogrove.com`。
+- **Deadline**：2026-09-29 17:00（鼠标真实点击日历控件选中29日，未直接写文本框，符合SKILL.md第0条硬规则）。
+- **发布状态**：✅ 已提交，跳转到 thankyou.asp，提示 "Pending approval..."。提交回执 product id = `c0b685df67b20fd3e8e8a53db433c121`。
+- **上线复核**：⏳ 待下次任务运行时补查。本次运行未做历史pending条目复核（时间所限），下次运行时应补做，包括08-25条目`46fa52a52c0daaa3caa0617247ef054d`。
