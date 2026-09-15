@@ -1607,8 +1607,8 @@ export const guides: Guide[] = [
 		title: 'Spanish Pronouns: All Six Families in One Place',
 		description: 'Six pronoun families (subject, object, reflexive, prepositional, possessive, demonstrative) share most forms; they diverge mainly by person and region.',
 		published: '2026-08-06',
-		updated: '2026-08-30',
-		coreSummary: 'Spanish organizes pronouns into six families (subject, object, reflexive, prepositional, possessive, and demonstrative) that reuse the same core forms (me, te, nos, os) across almost every role, so the real learning curve concentrates in the third person and in regional splits like vosotros versus ustedes and the voseo pronoun vos. Object pronouns carry enough internal complexity, including the lo/la versus le/les split and how the two fuse into pairs like se lo, to need their own two dedicated guides rather than a summary here.',
+		updated: '2026-09-15',
+		coreSummary: 'Spanish organizes pronouns into six families (subject, object, reflexive, prepositional, possessive, and demonstrative) that reuse the same core forms (me, te, nos, os) across almost every role, so the real learning curve concentrates in the third person and in regional splits like vosotros versus ustedes and the voseo pronoun vos. Object pronouns carry enough internal complexity, including the lo/la versus le/les split and how the two fuse into pairs like se lo, to need their own two dedicated guides, not just a short summary here.',
 		language: 'Spanish',
 		sections: [
 			{
@@ -1626,8 +1626,8 @@ export const guides: Guide[] = [
 				heading: 'Subject pronouns: often dropped, and split by region',
 				body: [
 					'The subject pronouns are *yo* (I), *tú* or *vos* (you, informal singular), *usted* (you, formal singular), *él/ella* (he/she), *nosotros/nosotras* (we), *vosotros/vosotras* (you all, Spain informal), *ustedes* (you all), and *ellos/ellas* (they). Spanish conjugates its verbs to mark person and number, so the subject pronoun is frequently dropped entirely: *Hablo español* ("I speak Spanish") already tells you who\'s speaking through the verb ending, and adding *yo* only makes sense for emphasis or contrast.',
-					'Two splits are worth knowing before they cause confusion. First, the plural "you": Spain distinguishes informal *vosotros/vosotras* from formal *ustedes*, while Latin American Spanish drops *vosotros* entirely and uses *ustedes* for both registers, addressing close friends and strangers with the same pronoun. *Vosotros sois de España* only makes sense in Spain; *Ustedes son de España* works everywhere and is the only option outside Spain.',
-					'Second, *vos* replaces *tú* as the informal "you" across a wide stretch of the Spanish-speaking world, a usage the RAE\'s Diccionario panhispánico de dudas formally recognizes as part of the language rather than treating it as substandard. It fully displaces *tú* in Argentina and Uruguay, is Paraguay\'s everyday informal form, and shows up regionally in Costa Rica, Nicaragua, parts of El Salvador, and Colombia\'s Paisa region around Medellín. It also carries its own present-tense verb endings, stressed on the last syllable rather than following the *tú* pattern: *vos sos* (not *tú eres*), *vos tenés* (not *tú tienes*), *vos hablás* (not *tú hablas*). Textbooks built around Spain or Mexico often skip *vos* entirely, which is why it surprises learners the first time they hear Argentine Spanish.',
+					'Two splits are worth knowing before they cause confusion. First, the plural "you": Spain distinguishes informal *vosotros/vosotras* from formal *ustedes*, while Latin American Spanish drops *vosotros* entirely and uses *ustedes* for both registers, whether the person on the other end is a lifelong friend or someone just met. *Vosotros sois de España* only makes sense in Spain; *Ustedes son de España* works everywhere and is the only option outside Spain.',
+					'Second, *vos* replaces *tú* as the informal "you" across a wide stretch of the Spanish-speaking world, a usage the RAE\'s Diccionario panhispánico de dudas now formally accepts as standard, not substandard, Spanish. It fully displaces *tú* in Argentina and Uruguay, is Paraguay\'s everyday informal form, and shows up regionally in Costa Rica, Nicaragua, parts of El Salvador, and Colombia\'s Paisa region around Medellín. It also carries its own present-tense verb endings, stressed on the last syllable rather than following the *tú* pattern: *vos sos* (not *tú eres*), *vos tenés* (not *tú tienes*), *vos hablás* (not *tú hablas*). Textbooks built around Spain or Mexico often skip *vos* entirely, which is why it surprises learners the first time they hear Argentine Spanish.',
 				],
 			},
 			{
@@ -1649,7 +1649,7 @@ export const guides: Guide[] = [
 				body: [
 					'After a preposition, Spanish switches to a distinct set of tonic (stressed) pronouns: *mí, ti, sí* for first, second, and reflexive third person singular, plus the same subject-pronoun forms (*él, ella, usted, nosotros, vosotros, ellos, ustedes*) for everything else. *Este regalo es para mí* ("This gift is for me") uses *mí*, not *yo*, because it follows the preposition *para*.',
 					'One preposition forces a written fusion: when *con* ("with") precedes *mí, ti,* or *sí*, Spanish doesn\'t say them as two separate words. It merges them into *conmigo, contigo, consigo*. Saying *con mí* is simply not correct Spanish; the fused form is mandatory. *¿Vienes conmigo?* ("Are you coming with me?"), never *¿Vienes con mí?*.',
-					'A handful of prepositions and conjunction-like particles break the pattern entirely and take ordinary subject-pronoun forms instead of the tonic prepositional set: *entre* ("between"), *según* ("according to"), and the exceptive words *excepto, salvo,* and *menos* (all roughly "except"). The RAE\'s own examples show *tú* and *yo* surviving unchanged after *entre*, as in *Lo que hablemos será entre tú y yo* ("What we talk about will stay between you and me"), where a learner might expect *entre mí y ti* by analogy with every other preposition. *Según tú, somos el enemigo* ("According to you, we\'re the enemy") and *Todos llegaron, menos él* ("Everyone arrived, except him") follow the same exception.',
+					'A handful of prepositions and conjunction-like particles break the pattern entirely and take ordinary subject-pronoun forms in place of the tonic prepositional set: *entre* ("between"), *según* ("according to"), and the exceptive words *excepto, salvo,* and *menos* (all roughly "except"). The RAE\'s own examples show *tú* and *yo* surviving unchanged after *entre*, as in *Lo que hablemos será entre tú y yo* ("What we talk about will stay between you and me"), where a learner might expect *entre mí y ti* by analogy with every other preposition. *Según tú, somos el enemigo* ("According to you, we\'re the enemy") and *Todos llegaron, menos él* ("Everyone arrived, except him") follow the same exception.',
 				],
 			},
 			{
@@ -1666,27 +1666,38 @@ export const guides: Guide[] = [
 					'Alongside those gendered forms, Spanish keeps a separate neutral set (*esto, eso, aquello*) that never takes a gender or a plural, because they don\'t stand in for any specific noun at all. They point at an idea, a situation, or something unnamed or unidentified: *No entiendo esto* ("I don\'t understand this," referring to a whole situation, not one object) and *Eso no es verdad* ("That\'s not true," referring to a claim someone just made). Confusing the neutral *eso* with the masculine *ese* is a real error, since *ese* has to agree with a specific noun it\'s replacing, and the neutral forms exist precisely because sometimes there isn\'t one.',
 				],
 			},
+			{
+				heading: 'A seventh, different job: relative pronouns',
+				body: [
+					'None of the six families above link two clauses together by referring back to something already named. That\'s a separate job Spanish assigns to relative pronouns: *que* (invariable, and by far the most common, covering "that," "which," "who," and "whom" for both people and things), *quien/quienes* (people only, and required, not optional, after a preposition), *el cual/la cual/los cuales/las cuales* (agrees in gender and number with its antecedent, and favored in formal or written registers), and *cuyo/cuya/cuyos/cuyas* ("whose"). The [same unaccented spelling that separates *cuándo* the question word from *cuando* the connector](/spanish-accent-marks/) applies here too: *que* and *cual* only carry a written accent when they\'re asking or exclaiming something, never when they\'re doing this relative-clause job.',
+					'*Quien(es)* has one rule that trips up even confident speakers: when it stands in for a plural antecedent, it has to become *quienes*, not stay *quien*. Per the RAE\'s Diccionario panhispánico de dudas, a sentence like *las personas con quien hablé* is now considered incorrect; it has to be *las personas con quienes hablé*. *El cual* and its forms carry their own restriction in the other direction: without a preposition, per the RAE\'s own style guide for legal writing, *el cual* can only open a nonrestrictive clause set off by commas, and even there the Academia\'s advice is to reach for a demonstrative and split the sentence instead, precisely because Spanish legal and bureaucratic writing overuses it. *Cuyo* is the one true outlier: despite meaning "whose," it agrees with the noun that follows it, the thing possessed, not with the antecedent that owns it. *La autora cuyo libro leímos* keeps *cuyo* masculine because *libro* is masculine, even though *autora* is feminine.',
+				],
+			},
 		],
 		faq: [
 			{
 				question: 'How many types of pronouns does Spanish have?',
-				answer: 'Six main families: subject (yo, tú/vos, usted...), object (me, te, lo/la, le...), reflexive (me, te, se...), prepositional (mí, ti, conmigo...), possessive (mi/mío, tu/tuyo...), and demonstrative (este/esto, ese/eso, aquel/aquello). Most share the same forms for first and second person (me, te, nos, os); the real differences concentrate in the third person and in a few regional splits.',
+				answer: 'Seven groups, end to end: subject (yo, tú/vos, usted...), object (me, te, lo/la, le...), reflexive (me, te, se...), prepositional (mí, ti, conmigo...), possessive (mi/mío, tu/tuyo...), demonstrative (este/esto, ese/eso, aquel/aquello), and relative (que, quien, el cual, cuyo), which links two clauses instead of standing in for a single person or thing on its own. The first six reuse me, te, nos, and os for first and second person almost everywhere; the third person, plus a handful of country-by-country splits, is what actually separates them.',
+			},
+			{
+				question: 'Do you always need a preposition before "quien" in Spanish?',
+				answer: 'Not always: que handles plenty of relative clauses on its own. But add a preposition to the mix ("to whom," "with whom") and quien(es) takes over from que: "la persona a quien llamé" ("the person I called," literally "to whom I called") or "el amigo con quien viajé" ("the friend I traveled with"). Left bare, quien is limited to adding extra, parenthetical information; identifying exactly which person is meant is que\'s job.',
 			},
 			{
 				question: 'What\'s the difference between vosotros and ustedes?',
-				answer: 'In Spain, vosotros/vosotras is the informal plural "you" and ustedes is the formal plural "you," a real register distinction. Latin American Spanish doesn\'t use vosotros at all; ustedes covers both formal and informal plural "you" everywhere outside Spain, so a phrase like ustedes son works for close friends and strangers alike.',
+				answer: 'In Spain, vosotros/vosotras is the informal plural "you" and ustedes is the formal plural "you," a real register distinction. Outside Spain, vosotros disappears from everyday use; ustedes takes over both roles, so a phrase like ustedes son works whether you\'re talking to close friends or to strangers.',
 			},
 			{
 				question: 'What is vos, and is it the same as tú?',
-				answer: 'Vos replaces tú as the informal "you" in Argentina, Uruguay, and Paraguay, plus parts of Central America and Colombia, and the RAE\'s Diccionario panhispánico de dudas formally recognizes it as standard rather than substandard usage. It comes with its own present-tense verb forms, stressed on the last syllable: vos sos (not tú eres), vos tenés (not tú tienes), vos hablás (not tú hablas).',
+				answer: 'Vos takes over from tú for informal "you" in Argentina, Uruguay, and Paraguay, plus parts of Central America and Colombia, and the Academia\'s own dictionary of usage treats it as standard rather than substandard. Its conjugated forms break from the tú pattern and put the stress on the final syllable instead: vos sos (not tú eres), vos tenés (not tú tienes), vos hablás (not tú hablas).',
 			},
 			{
 				question: 'Why is "con mí" wrong?',
-				answer: 'Because Spanish requires con to fuse with mí, ti, and sí into single words (conmigo, contigo, consigo) rather than standing next to them as separate words. Con mí, con ti, and con sí simply aren\'t forms Spanish uses; the fused forms are mandatory. A handful of other prepositions and particles, including entre, según, excepto, salvo, and menos, take ordinary subject-pronoun forms instead, as in entre tú y yo, not entre mí y ti.',
+				answer: 'Because Spanish requires con to fuse with mí, ti, and sí into single words, conmigo, contigo and consigo, rather than standing next to them as separate words. Con mí, con ti, and con sí simply aren\'t forms Spanish uses; the fused forms are mandatory. A handful of other prepositions and particles, including entre, según, excepto, salvo, and menos, keep the plain subject pronouns instead, as in entre tú y yo, not entre mí y ti.',
 			},
 			{
 				question: 'Do Spanish possessive pronouns agree with the owner or the thing owned?',
-				answer: 'The thing owned, always. Suyo, for example, covers "his," "her," "your (formal)," and "their" without changing form, because it agrees with the possessed noun\'s gender and number, not with who owns it. That\'s also why suyo alone is often ambiguous, and why Spanish speakers add de él, de ella, or de usted when the context doesn\'t already make the owner clear.',
+				answer: 'The thing owned, always. Suyo, for example, does the work of his, her, your (formal), and their all with one unvarying shape, since it tracks the possessed noun\'s gender and number rather than who owns it. That flattening is exactly what makes suyo alone so easy to misread, so speakers routinely tack on de él, de ella, or de usted to pin down whose it actually is.',
 			},
 		],
 		sources: [
@@ -1696,6 +1707,10 @@ export const guides: Guide[] = [
 			{ label: 'Real Academia Española: Nueva gramática de la lengua española, "Conjunciones que denotan excepción"', url: 'https://www.rae.es/gram%C3%A1tica/sintaxis/conjunciones-que-denotan-excepci%C3%B3n' },
 			{ label: 'Real Academia Española: El buen uso del español, "Los posesivos. Caracterización y formas"', url: 'https://www.rae.es/buen-uso-espa%C3%B1ol/los-posesivos-caracterizaci%C3%B3n-y-formas' },
 			{ label: 'Real Academia Española: Nueva gramática de la lengua española, "Los demostrativos neutros"', url: 'https://www.rae.es/gram%C3%A1tica/sintaxis/los-demostrativos-neutros' },
+			{ label: 'Real Academia Española: Nueva gramática de la lengua española, "Los relativos quien, que y cual"', url: 'https://www.rae.es/gram%C3%A1tica/sintaxis/los-relativos-quien-que-y-cual' },
+			{ label: 'Real Academia Española: Diccionario panhispánico de dudas, "quien"', url: 'https://www.rae.es/dpd/quien' },
+			{ label: 'Real Academia Española: Nueva gramática de la lengua española, "El relativo posesivo cuyo"', url: 'https://www.rae.es/gram%C3%A1tica/sintaxis/el-relativo-posesivo-cuyo' },
+			{ label: 'Real Academia Española: Libro de estilo de la Justicia, "Uso excesivo del relativo el cual"', url: 'https://www.rae.es/libro-estilo-justicia/la-oraci%C3%B3n-problemas-y-propuestas-de-soluci%C3%B3n/oraciones-subordinadas/subordinadas-de-relativo/uso-excesivo-del-relativo-el-cual' },
 			{ label: 'Real Academia Española: El buen uso del español, "Los demostrativos"', url: 'https://www.rae.es/buen-uso-espa%C3%B1ol/los-demostrativos' },
 		],
 	},
