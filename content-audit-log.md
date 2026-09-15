@@ -1756,3 +1756,22 @@
   "escalation": null
 }
 ```
+
+```json
+{
+  "tool_slug": "机械检查回溯_20260916",
+  "audited": "2026-09-16",
+  "source": "owen-opc-kit/docs/机械检查回溯发现_20260916.md",
+  "findings_fixed": [
+    {
+      "issue": "check_svg_label_overlap.py --dir public/images 报5个CRITICAL：cabron-meaning-diagram.svg(1处)/french-prepositions-diagram.svg(2处)/french-reflexive-verbs-diagram.svg(2处)，均判定为白色标题文字与浅色背景矩形同色、渲染不可见",
+      "investigation": "逐个核对SVG源码，5处全部是同一根因：浅色面板/整页背景矩形先画，深色标题横幅矩形（如#5c3a2a、#2f6b47）后画、完整覆盖同一区域，白色文字实际叠加渲染在深色横幅上（对比度充足），从未真的不可见。检查脚本原版按'任意几何重叠矩形同色即报警'，不考虑SVG文档顺序即渲染层叠顺序，误把已被横幅盖住的浅色背景矩形当作'实际生效背景'来比色；另外这批SVG的<svg>根标签只写viewBox不写width/height属性，脚本原本排除'整页背景矩形'的逻辑完全失效，放大了假阳性范围（2处命中直接是对整页背景矩形的误判）",
+      "fix": "这是检查脚本本身的bug，不是LingoGrove站内容问题——本站SVG文件未做任何改动。已修复check_svg_label_overlap.py：①比色对象改为文档顺序上最后绘制、真正压在最上面的重叠矩形，而不是任意重叠矩形；②补充viewBox兜底解析画布尺寸。修复后重跑LingoGrove全站69个SVG，CRITICAL从5降到0；新增1组self-test复现该z-order场景防止回归",
+      "commit": "无（LingoGrove仓库无改动），脚本修复见owen-opc-kit commit dbd4d2c"
+    }
+  ],
+  "unconfirmed_candidates": "剩余7处'数字词候选不一致'（②类检查，横幅数字与脚注数字不一致）不在本次确认修复清单内，抽查后判断至少2处是'共享大话题词但数的是不同东西'的已知假阳性（如future-tense话题下1个form/3个job/6个ending三者本不矛盾），未处理，留待人工逐条核实",
+  "verify": "check_svg_label_overlap.py --dir public/images 复验CRITICAL=0；未涉及build（无内容改动）",
+  "escalation": null
+}
+```
