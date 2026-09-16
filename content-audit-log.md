@@ -1775,3 +1775,120 @@
   "escalation": null
 }
 ```
+
+## 2026-09-16 full audit: `habibi-meaning`
+
+```json
+{
+  "url_slug": "habibi-meaning",
+  "url": "https://lingogrove.com/habibi-meaning/",
+  "last_audited": "2026-09-16",
+  "published_date": "2026-08-12",
+  "note": "First audit of this article. Selected via the PAA gap list (独立站/PAA缺口清单_20260913.md): highest 28-day exposure among lingogrove's never-audited articles (513 impressions) with 4 unanswered PAA questions. Also cross-checked the zero-click-query list (mashallah-meaning/mamacita-meaning rows) but habibi-meaning's exposure and PAA-gap profile made it the stronger candidate. Ran the mandatory mechanical prose check (dimension 14) as required for a PAA-sourced pick.",
+  "diagnosed_checkpoints": [
+    "Is the root ح-ب-ب -> habib -> habibi etymology and the Hebrew/Classical Syriac cognate claim accurate per Wiktionary, not invented?",
+    "Is the tāʾ marbūṭa pronunciation-with-possessive-suffix rule (habiba+i -> habibti) accurate per the cited OER textbook?",
+    "Is the Fairuz 1970 single and the Collins New Word Proposal / senpai-OED comparison factually real (both sources return Cloudflare 403 to automated fetches)?",
+    "Is the register/regional-variation claim (habibi used stranger-to-stranger in parts of the Arab world, no sharp regional split) accurate and not overgeneralized?",
+    "Does the article cover the live PAA set, and is there a genuine content gap (yalla habibi, a related phrase never covered on the page)?"
+  ],
+  "findings": [
+    {
+      "dimension": "factual accuracy",
+      "status": "pass, verified",
+      "detail": "Wiktionary API direct-fetched (not memory) for حبيب/حبيبي/حبيبة: etymology, cognates (Hebrew ḥāḇīḇ, Classical Syriac ḥabbīḇā), and glosses all match the article's claims. OER textbook (Arabic Level One, ASCCC OERI) curl-confirmed verbatim: 'pronounced like the letter \"Taa\"... when followed by a possessive suffix or in the construct state' matches the article's quote exactly. Fairuz 1970 single, Collins submission 1088160/habibi, and senpai's Dec 2025 OED addition all confirmed via WebSearch (Discogs/Collins pages themselves 403 to curl -- known Cloudflare anti-bot block, not evidence of a fabricated or dead source, per this site's established por-vs-para/ser-conjugation precedent). No fabrication found anywhere in the article."
+    },
+    {
+      "dimension": "EEAT",
+      "status": "pass",
+      "detail": "9 sources (post-edit), all real dictionary/textbook/discography/journalism sources, not vague generalities."
+    },
+    {
+      "dimension": "timeliness",
+      "status": "n/a",
+      "detail": "Etymology/grammar content, no drift risk."
+    },
+    {
+      "dimension": "competitive differentiation / PAA gap",
+      "status": "confirmed real gap -> fixed",
+      "detail": "dataforseo_query.py serp 'habibi meaning': competitors (hob-learning.com, amazingtalker, dictionary.com, cleolingo, ancestry, playaling) are shallow single-sense glosses; this article's etymology depth, gender-distinction mechanics, and cross-references to inshallah/mashallah/senpai/i-love-you-in-spanish are genuine differentiation, not template content. Live PAA set includes 'What does yalla yalla habibi mean?' -- uncovered on the page. WebSearch + Wiktionary API confirmed yalla is a separate word (colloquial contraction of يا الله, 'oh God', now a plain 'come on / let's go' interjection). Added a new sourced FAQ closing this gap. Considered but skipped the PAA 'Why do Muslims say habibi?' -- the premise is misleading (habibi is not specifically religious) and no clean sourced answer exists without overreach; left uncovered rather than force a shaky claim."
+    },
+    {
+      "dimension": "SEO technical",
+      "status": "flagged, not actioned (by design)",
+      "detail": "check_seo_field_stats.py: title z=1.68 (outlier, 76 chars), description z=-0.89 (normal). Per this task's explicit rule (title changes only for factual errors, never CTR) and the happy-birthday-in-spanish 09-15 precedent for the same situation, the title outlier is not a factual error and was left unchanged."
+    },
+    {
+      "dimension": "GEO",
+      "status": "qualitative pass, ~83 -> ~86/99 estimated",
+      "detail": "Definition-first coreSummary, self-contained FAQ blocks, real dictionary/textbook citations, cross-domain links to sibling loanword articles. Improved by: FAQ/body de-duplication (each FAQ answer now adds distinct information instead of restating body text) and one new sourced FAQ block. robots.txt confirmed allowing GPTBot/ClaudeBot/PerplexityBot/Google-Extended; ads.txt intact."
+    },
+    {
+      "dimension": "early AI-writing residue",
+      "status": "n/a",
+      "detail": "published 2026-08-12, after avoid-ai-writing's 2026-08-07 adoption -- re-check not triggered by that rule. Manually ran humanizer + avoid-ai-writing pattern checks on all 6 rewritten FAQ answers anyway (since they were newly touched): no em dashes, no AI-vocabulary tier-1 words, no chatbot artifacts, no rule-of-three padding. Clean."
+    },
+    {
+      "dimension": "em-dash zero-tolerance standard drift",
+      "status": "confirmed real gap -> fixed",
+      "detail": "Article predates the 2026-08-27 site-wide zero-em-dash standard (established retroactively per multiple sibling audits, most recently documented in the 09-15 happy-birthday-in-spanish entry). All 9 sources[] labels used 'Publisher — Title' em-dash format; converted to colons. No em dashes remained in body/FAQ prose (0 found pre-edit)."
+    },
+    {
+      "dimension": "external link rot",
+      "status": "pass",
+      "detail": "Wiktionary x3 + new yalla entry (200 via API), Wikipedia Ta' marbuta (200), Arab America x2 (200). Discogs and Collins both return 403 (Cloudflare bot-block, confirmed real and unchanged via WebSearch), not dead links."
+    },
+    {
+      "dimension": "internal link health",
+      "status": "pass",
+      "detail": "internal_link_audit.py --site lingogrove: 0 pages with 0 in-body links, 0 striking-distance pages with <=1. habibi-meaning has 5 real inbound contextual links (from inshallah-meaning, mashallah-meaning, mahalo-meaning, mamacita-meaning, ohana-meaning). Not an orphan."
+    },
+    {
+      "dimension": "schema consistency",
+      "status": "confirmed synced",
+      "detail": "FAQPage JSON-LD in the built HTML regenerated correctly with the new 6th FAQ and all rewritten answers after npm run build; verified via grep on dist/habibi-meaning/index.html."
+    },
+    {
+      "dimension": "compliance/sensitivity drift",
+      "status": "pass",
+      "detail": "Register ('casual') and regional-variation claims (no sharp regional split, gender determines the word not geography) verified against multiple independent sources, not overgeneralized. No YMYL content."
+    },
+    {
+      "dimension": "image validity & copyright",
+      "status": "pass",
+      "detail": "habibi-meaning-diagram.svg is a self-made SVG (no third-party copyright exposure), file exists, live URL returns 200. check_svg_label_overlap.py --dir public/images: CRITICAL=0 site-wide (confirms the 09-16 z-order false-positive fix, documented earlier in this log, still holds -- no habibi-specific SVG issue)."
+    },
+    {
+      "dimension": "AdSense policy risk",
+      "status": "pass",
+      "detail": "ads.txt correctly points to pub-5245502795720653. No restricted-category content. No misleading layout."
+    },
+    {
+      "dimension": "mechanical prose checks",
+      "status": "confirmed problems -> fixed, exit 0",
+      "detail": "check_prose_patterns.py: (1) rather-than/instead-of density 6/1148 words (over the >4-total threshold) -- reworded 2 instances to 4/1147 words. (2) 5 FAQ answers with >=20-char verbatim overlap against body text -- took ~4 iterative rewrite rounds (each round surfaced a new shorter overlap after the previous fix) to converge; final run: exit 0, all 3 pattern categories PASS. IMPORTANT correction to this task's briefed 'known false-positive trap': the actual 09-16 z-order false positive documented earlier in this log was in check_svg_label_overlap.py (SVG rendering order), not check_prose_patterns.py as this task's brief stated -- verified by re-reading the git history entry directly. The prose-pattern findings in this audit were all genuine (manually confirmed each flagged span existed verbatim in guides.ts before fixing), not script artifacts."
+    },
+    {
+      "dimension": "Google spam-policy compliance",
+      "status": "pass",
+      "detail": "Three-factor test: effort (deep etymology synthesis from multiple primary sources) present, originality (etymology depth + gender mechanics + cross-references not found in competitor pages) present, added value present -- no high-risk signal. All 11 spam-policy categories PASS: no scaled-content-abuse pattern (each loanword-meaning sibling page has genuinely distinct etymology/sourcing, not template-swap), no hidden text, no keyword stuffing, no link spam (internal links contextual, external sources legitimate references), no scraping (primary-source synthesis, not aggregation), no cloaking/doorway, no misleading functionality (n/a, not a tool page), no malicious practices. AI-content check: non-commoditized (unique etymology breakdown, not genutrable by a generic prompt), PASS."
+    }
+  ],
+  "actions_taken": [
+    "Reworded 2 rather-than/instead-of instances (Section 1 root-etymology sentence, Section 4 Spanish-comparison sentence) to bring prose-pattern density from 6/1148 to 4/1147 words.",
+    "Rewrote all 5 pre-existing FAQ answers across ~4 iterative rounds to eliminate verbatim overlap with body/coreSummary/regionNote text while preserving every fact; check_prose_patterns.py now exits 0.",
+    "Converted 9 sources[] em-dash separators ('Publisher — Title') to colons ('Publisher: Title'), bringing the article to the site's post-08-27 zero-em-dash standard.",
+    "Added a new 6th FAQ, 'What does \"yalla habibi\" mean?', sourced to Wiktionary's يلا (yalla) entry (WebSearch + direct API fetch verified), plus 1 new source citation, closing a real, currently-live PAA gap.",
+    "Bumped updated from 2026-08-12 to 2026-09-16 (published field already existed, no backfill needed).",
+    "npm run build (87 pages) passed.",
+    "Ran seo_drift.py baseline before deploy and compare after: 1 WARNING (schema content changed -- expected, FAQ rewrite + new FAQ item), no CRITICAL.",
+    "Committed (6e15f41) and pushed to origin/main; LingoGrove auto-deploys via git-connected Cloudflare Pages (no separate deploy hook for this site). Polled the live URL (cache-busted) until the new FAQ text appeared (~40-60s, 3 polling attempts at 20s intervals).",
+    "Submitted https://lingogrove.com/habibi-meaning/ via tools/submit-indexnow.mjs (Bing 200, Yandex 200).",
+    "Appended dated entry to 内容发布日志.md marking this as a content-quality-audit update, not a new publish.",
+    "Checked 独立站/内容通用教训库.md before starting for relevant lessons; will append one new transferable lesson (task-brief inaccuracy about which script had the documented false-positive -- see below)."
+  ],
+  "seo_score": "title z=1.68 outlier (pre-existing, not a factual error, left unchanged per task rule), description z=-0.89 normal, unchanged",
+  "geo_score": "qualitative estimate ~83 -> ~86/99 (FAQ/body dedup + 1 new sourced FAQ block improve extractability)",
+  "escalation": null
+}
+```
