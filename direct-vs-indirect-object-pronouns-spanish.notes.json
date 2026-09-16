@@ -1,0 +1,17 @@
+[
+  {
+    "index": 1,
+    "verdict": "CONFIRMED",
+    "note": "断言称saber/conocer是同一种'英语合并、西语拆分'模式，目标文章原文明确支持：'English \"to know\" stretches to cover two very different mental acts... Spanish keeps those apart with two separate verbs, *saber* and *conocer*'，与桥接句描述一致。"
+  },
+  {
+    "index": 2,
+    "verdict": "CONFIRMED",
+    "note": "断言称疑问词qué/cuál是同一种'一词多义、西语区分'模式，目标文章原文明确支持：'English collapses two different questions into one word, \"what,\" and Spanish keeps them apart. Qué asks for a definition... Cuál asks... picking a single item out of a set'，与桥接句描述一致。"
+  },
+  {
+    "index": 3,
+    "verdict": "CONFIRMED",
+    "note": "断言称por/para是同一种'一个英语单词掩盖两种西语形式'的问题，目标文章原文明确支持：'Por and para both translate as \"for,\" which is exactly why English speakers mix them up... The fix is to stop translating and start asking what role the phrase is playing'，与桥接句'stop translating and ask what job the word is doing'的表述一致。"
+  }
+]

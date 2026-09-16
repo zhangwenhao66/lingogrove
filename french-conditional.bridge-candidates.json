@@ -1,0 +1,30 @@
+[
+  {
+    "index": 1,
+    "source": "正文",
+    "sentence": "[Spanish\\'s condicional simple sits in the same unresolved spot](/spanish-conditional-tense/): the RAE classifies it as an indicative tense, and the same long-running argument over whether it deserves mood status on its own hasn\\'t gone away there either.",
+    "target_slug": "spanish-conditional-tense",
+    "target_found": true
+  },
+  {
+    "index": 2,
+    "source": "正文",
+    "sentence": "French\\'s own subjunctive skips that argument entirely; [it stays sorted with impératif](/french-subjunctive/) as a genuinely separate mode in every reference worth citing, with no comparable tense-reclassification debate attached to it.",
+    "target_slug": "french-subjunctive",
+    "target_found": true
+  },
+  {
+    "index": 3,
+    "source": "正文",
+    "sentence": "[Spanish follows the same chronological logic in its own si clauses](/spanish-si-clauses/), but builds the three pairings out of different moods: the imperfect and pluperfect that appear in a French si-clause are both indicative forms, while the equivalent Spanish protases switch into the imperfect or pluperfect subjunctive instead, so the same three-step structure rests on two different grammatical foundations depending on the language.",
+    "target_slug": "spanish-si-clauses",
+    "target_found": true
+  },
+  {
+    "index": 4,
+    "source": "正文",
+    "sentence": "\"She would visit every summer\" describes a repeated past habit, which French renders with the imperfect (elle rendait visite chaque été), not the conditional, despite the English wording looking identical to a hypothetical \"would.\" Only the hypothetical or future-of-the-past sense of \"would\" maps onto the conditionnel; the habitual-past sense doesn\\'t, which is the exact same trap [Spanish\\'s own conditional entry describes](/spanish-conditional-tense/) for that language\\'s identical false-friend problem with \"would.\"",
+    "target_slug": "spanish-conditional-tense",
+    "target_found": true
+  }
+]

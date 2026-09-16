@@ -1,0 +1,23 @@
+[
+  {
+    "index": 1,
+    "source": "正文",
+    "sentence": "It\\'s the same underlying pattern as [saber and conocer](/saber-vs-conocer/): English collapses a distinction into one word or one form, Spanish keeps it split, and the split is what actually has to be learned.",
+    "target_slug": "saber-vs-conocer",
+    "target_found": true
+  },
+  {
+    "index": 2,
+    "source": "正文",
+    "sentence": "A similar one-word-covers-several-jobs pattern shows up in [Spanish question words](/spanish-question-words/), where English \"what\" maps onto two different words, qué and cuál, and picking the wrong one is exactly the kind of error a lo/la versus le/les mistake also is: not a vocabulary gap, but a distinction English simply never forces a speaker to make.",
+    "target_slug": "spanish-question-words",
+    "target_found": true
+  },
+  {
+    "index": 3,
+    "source": "正文",
+    "sentence": "This is the same kind of one-English-word-hides-two-Spanish-forms problem that shows up with [por and para](/por-vs-para/): the categories look interchangeable from the English side, and the only way through is to stop translating and ask what job the word is doing in the sentence.",
+    "target_slug": "por-vs-para",
+    "target_found": true
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "index": 1,
+    "verdict": "CONFIRMED",
+    "note": "断言称西班牙语condicional simple同样处于'尚未解决'的地位归属争议中，目标文章spanish-conditional-tense原文明确支持：'classified by the Real Academia Española as a tense within the indicative mood, despite a long-standing debate over whether it belongs there or counts as a mood of its own'，与桥接句'the RAE classifies it as an indicative tense, and the same long-running argument...hasn't gone away'完全一致。"
+  },
+  {
+    "index": 2,
+    "verdict": "CONFIRMED",
+    "note": "断言称法语虚拟式(subjonctif)被明确归为独立语气、与命令式(impératif)同类，不存在时态/语气归属争议，目标文章french-subjunctive原文明确支持：'The French subjunctive (le subjonctif) is a mood, not a tense'及'French verbs split across three moods — indicatif, subjonctif, impératif'，全文未出现任何关于虚拟式该归为时态还是语气的争议描述，与桥接句'stays sorted with impératif as a genuinely separate mode...no comparable tense-reclassification debate'一致。"
+  },
+  {
+    "index": 3,
+    "verdict": "CONFIRMED",
+    "note": "断言称西班牙语si从句遵循相同的时序逻辑，但用虚拟式(subjunctive)构建三种搭配，而法语用陈述式构建，目标文章spanish-si-clauses原文直接明示这一对比：'French's own conditional mood follows a parallel chronological logic in its si clauses...though French builds its three pairings out of indicative forms throughout, where Spanish switches into the subjunctive for exactly the two less-than-certain pairings above'，与桥接句描述逐点吻合。"
+  },
+  {
+    "index": 4,
+    "verdict": "CONFIRMED",
+    "note": "断言称'she would visit every summer'这类习惯性过去时'would'是西班牙语条件式词条描述的相同陷阱，目标文章spanish-conditional-tense原文明确支持：'English \"would\" is a false-friend guide here: its habitual-past sense (\"she would visit every summer\") maps to the Spanish imperfect, never the conditional'，与桥接句所述法语'would'习惯性过去时陷阱完全对应（两篇文章描述的是同一个'would'歧义现象在各自语言中的镜像表现）。"
+  }
+]
