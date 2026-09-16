@@ -467,5 +467,14 @@
    "https://lingogrove.com/happy-birthday-in-spanish/"
   ],
   "quota_used": "0 of shared account-wide daily quota"
+ },
+ {
+  "date": "2026-09-16",
+  "action": "no_candidate_skipped",
+  "reason": "今日两条记录均为既有页轻量更新/审计（habibi-meaning审计、spanish-imperfect-endings轻量丰富），均非新页。老页未收录巡检显示本站sitemap 77页、零曝光8页、未收录0——全部零曝光页实为已收录仅未获曝光。本站无可提交候选，跳过，不消耗配额。",
+  "submitted_urls": [],
+  "already_indexed_no_action": [],
+  "quota_exceeded_attempted": [],
+  "quota_used": "0（无候选可提交）"
  }
 ]
