@@ -12,7 +12,7 @@ const picked = CATEGORIES.flatMap((c) => sorted.filter((g) => g.category === c).
 const entries = [...picked].sort((a, b) => b.updated.localeCompare(a.updated));
 ---
 
-<Layout>
+<Layout title="Translations, Loanwords, Verb Conjugations & Grammar">
 	<div class="pt-2 md:pt-4">
 		<NotebookTabs active="all" />
 
