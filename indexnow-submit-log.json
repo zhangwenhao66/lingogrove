@@ -65,11 +65,9 @@
     "verified_method": "bwt_url_inspection"
   },
   "https://lingogrove.com/spanish-imperfect-endings/": {
-    "submitted_date": "2026-08-16",
-    "verified_status": "stale_not_indexed",
-    "note": "new publish (Grammar tier, imperfect endings + accent rules + ir/ser/ver irregulars); Bing 200 / Yandex 200.",
-    "last_checked_date": "2026-09-03",
-    "verified_method": "bwt_url_inspection"
+    "submitted_date": "2026-09-16",
+    "verified_status": "pending",
+    "note": "light enrichment resubmit: added reverse-lookup FAQ for -ar imperfect ending queries (aba/abas/aba/abamos/abais/aban); Bing 200 / Yandex 200."
   },
   "https://lingogrove.com/spanish-verb-tenses-chart/": {
     "submitted_date": "2026-08-13",
