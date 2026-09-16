@@ -3269,7 +3269,7 @@ export const guides: Guide[] = [
 		title: 'Spanish Imperfect Endings: The Two Patterns and Three Exceptions',
 		description: 'Every regular Spanish verb takes one of only two endings sets in the imperfect. The accent marks aren\'t random either: two separate spelling rules decide exactly where they land.',
 		published: '2026-08-16',
-		updated: '2026-09-12',
+		updated: '2026-09-16',
 		coreSummary: 'Regular Spanish verbs take one of only two endings sets in the imperfect: -ar verbs use -aba, -abas, -aba, -ábamos, -abais, -aban, while -er and -ir verbs share a single set, -ía, -ías, -ía, -íamos, -íais, -ían, with no split between the two conjugations at all. Only three verbs break from these patterns: ir (iba...) and ser (era...) are fully irregular, while ver (veía...) barely counts as an exception, since it keeps the regular -ía endings and only trims its own stem.',
 		language: 'Spanish',
 		usageNote: {
@@ -3333,6 +3333,10 @@ export const guides: Guide[] = [
 			{
 				question: 'What are the imperfect endings for -ar verbs?',
 				answer: 'Six forms: -aba/-abas/-aba/-ábamos/-abais/-aban, added straight to the verb stem once the -ar is dropped. On hablar, that\'s hablaba/hablabas/hablaba/hablábamos/hablabais/hablaban. Only the nosotros form, hablábamos, carries a tilde.',
+			},
+			{
+				question: 'What does "aba, abas, aba, abamos, abais, aban" mean?',
+				answer: 'That string, minus its one missing accent mark, is the complete set of imperfect endings for a regular -ar verb in Spanish: -aba (yo), -abas (tú), -aba (él/ella/usted), -ábamos (nosotros), -abais (vosotros), -aban (ellos/ellas/ustedes). Written correctly, the nosotros form needs a tilde, -ábamos, not -abamos; it\'s the lone form of the six that takes a tilde at all. Drop the -ar off trabajar and stack these on: trabajaba, trabajabas, trabajaba, trabajábamos, trabajabais, trabajaban.',
 			},
 		],
 		sources: [
