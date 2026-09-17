@@ -1715,6 +1715,7 @@ export const guides: Guide[] = [
 			{ label: 'Real Academia Española: Diccionario panhispánico de dudas, "quien"', url: 'https://www.rae.es/dpd/quien' },
 			{ label: 'Real Academia Española: Nueva gramática de la lengua española, "El relativo posesivo cuyo"', url: 'https://www.rae.es/gram%C3%A1tica/sintaxis/el-relativo-posesivo-cuyo' },
 			{ label: 'Real Academia Española: Libro de estilo de la Justicia, "Uso excesivo del relativo el cual"', url: 'https://www.rae.es/libro-estilo-justicia/la-oraci%C3%B3n-problemas-y-propuestas-de-soluci%C3%B3n/oraciones-subordinadas/subordinadas-de-relativo/uso-excesivo-del-relativo-el-cual' },
+			{ label: 'Real Academia Española: Nueva gramática básica de la lengua española, "Persona"', url: 'https://www.rae.es/gram%C3%A1tica-b%C3%A1sica/el-pronombre-personal/valores-gramaticales-de-los-pronombres-personales/persona' },
 			{ label: 'Real Academia Española: El buen uso del español, "Los demostrativos"', url: 'https://www.rae.es/buen-uso-espa%C3%B1ol/los-demostrativos' },
 		],
 	},
