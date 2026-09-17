@@ -1607,7 +1607,7 @@ export const guides: Guide[] = [
 		title: 'Spanish Pronouns: All Six Families in One Place',
 		description: 'Six pronoun families (subject, object, reflexive, prepositional, possessive, demonstrative) share most forms; they diverge mainly by person and region.',
 		published: '2026-08-06',
-		updated: '2026-09-15',
+		updated: '2026-09-17',
 		coreSummary: 'Spanish organizes pronouns into six families (subject, object, reflexive, prepositional, possessive, and demonstrative) that reuse the same core forms (me, te, nos, os) across almost every role, so the real learning curve concentrates in the third person and in regional splits like vosotros versus ustedes and the voseo pronoun vos. Object pronouns carry enough internal complexity, including the lo/la versus le/les split and how the two fuse into pairs like se lo, to need their own two dedicated guides, not just a short summary here.',
 		language: 'Spanish',
 		sections: [
@@ -1690,6 +1690,10 @@ export const guides: Guide[] = [
 			{
 				question: 'What is vos, and is it the same as tú?',
 				answer: 'Vos takes over from tú for informal "you" in Argentina, Uruguay, and Paraguay, plus parts of Central America and Colombia, and the Academia\'s own dictionary of usage treats it as standard rather than substandard. Its conjugated forms break from the tú pattern and put the stress on the final syllable instead: vos sos (not tú eres), vos tenés (not tú tienes), vos hablás (not tú hablas).',
+			},
+			{
+				question: 'How many subject pronouns does Spanish have?',
+				answer: 'It depends on what\'s being counted, which is why sources give both 6 and 12 as the answer. Spanish grammar organizes itself around three grammatical persons (first, second, third) crossed with two numbers (singular, plural), giving six person-number slots; that\'s exactly why every conjugation table, including the ones on this site, has six rows. Vocabulary lists that instead count each individual gendered word separately, yo, tú, usted, él, ella, nosotros, nosotras, vosotros, vosotras, ustedes, ellos, ellas, arrive at 12, because the third-person-singular and both plural slots each split into a masculine and a feminine form. Neither count is wrong; they\'re answering different questions. Regions where vos replaces tú effectively add a 13th word without adding a new grammatical slot, since vos still fills the same informal-singular position tú does elsewhere.',
 			},
 			{
 				question: 'Why is "con mí" wrong?',
