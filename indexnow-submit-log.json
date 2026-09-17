@@ -1,11 +1,8 @@
 {
   "https://lingogrove.com/spanish-pronouns/": {
-    "submitted_date": "2026-08-06",
-    "verified_status": "stale_not_indexed",
-    "note": "new publish (Grammar tier); Bing 200 / Yandex 202.",
-    "last_checked_date": "2026-08-25",
-    "verified_method": "bwt_url_inspection",
-    "verify_note": "discovered 08 Aug, 账龄17天超过14天阈值, Blocked"
+    "submitted_date": "2026-09-17",
+    "verified_status": "pending",
+    "note": "content enrichment (capacity-gate light enrichment, not a new publish): added FAQ 'How many subject pronouns does Spanish have?' answering PAA 6-vs-12 count discrepancy; Bing 200 / Yandex 202. Previous entry: submitted 2026-08-06 as new publish, last checked 2026-08-25 stale_not_indexed (账龄17天超过14天阈值, Blocked)."
   },
   "https://lingogrove.com/cabron-meaning/": {
     "submitted_date": "2026-09-02",
