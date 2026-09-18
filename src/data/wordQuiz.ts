@@ -12,14 +12,16 @@ export interface WordQuizItem {
 	sourceTitle: string;
 }
 
-// Curated from src/data/guides.ts example sentences in the four "confusable pair"
-// Grammar articles (por-vs-para, ser-vs-estar, preterite-vs-imperfect, saber-vs-conocer)
-// -- see 填空判断题-实施方案_20260806.md. Every Spanish sentence, its translation, and its
-// explanation are taken directly from that article's own body/FAQ text; only the blank
-// itself (replacing the target word) is a mechanical edit, not new content. Two of the
-// four articles (ser-vs-estar, preterite-vs-imperfect) intentionally include a same-verb
-// contrast pair (es/está simpática, es/está aquí) because the article itself uses that
-// contrast to teach the distinction.
+// Curated from src/data/guides.ts example sentences in five "confusable pair"
+// Grammar articles (por-vs-para, ser-vs-estar, preterite-vs-imperfect, saber-vs-conocer,
+// direct-vs-indirect-object-pronouns-spanish) -- see 填空判断题-实施方案_20260806.md for the
+// original four-article scope; the fifth (lo/la vs. le/les) was added 2026-09-18. Every
+// Spanish sentence, its translation, and its explanation are taken directly from that
+// article's own body/FAQ text; only the blank itself (replacing the target word) is a
+// mechanical edit, not new content. Two of the original four articles (ser-vs-estar,
+// preterite-vs-imperfect) intentionally include a same-verb contrast pair (es/está
+// simpática, es/está aquí) because the article itself uses that contrast to teach the
+// distinction.
 export const wordQuizItems: WordQuizItem[] = [
 	{
 		sentence: 'Salimos ___ Madrid mañana.',
@@ -246,5 +248,61 @@ export const wordQuizItems: WordQuizItem[] = [
 			'In the preterite, conocer shifts meaning too: conocí marks the moment acquaintance began — "I met" — not a state of already knowing her.',
 		sourceSlug: 'saber-vs-conocer',
 		sourceTitle: 'Saber vs. Conocer: Spanish Has Two Verbs for "To Know"',
+	},
+	// Added 2026-09-18 (LingoGrove COO session, following the same sourcing rule as the
+	// four sets above): sentences, translations, and explanations are taken directly from
+	// direct-vs-indirect-object-pronouns-spanish's own body/FAQ text; only the blank itself
+	// is a mechanical edit. This fifth article was published 2026-08-04, after the original
+	// four-article scope was fixed in 填空判断题-实施方案_20260806.md, and fits the same
+	// "confusable word pair" format (lo/la vs. le/les) that the quiz was built for.
+	{
+		sentence: '___ veo.',
+		translation: 'I see it. (the park)',
+		choices: ['Lo', 'Le'],
+		correctIndex: 0,
+		explanation:
+			'Lo replaces el parque, the exact thing the verb targets, so the pronoun has to be a direct object form.',
+		sourceSlug: 'direct-vs-indirect-object-pronouns-spanish',
+		sourceTitle: 'Direct vs. Indirect Object Pronouns: Lo/La vs. Le/Les',
+	},
+	{
+		sentence: '___ conozco.',
+		translation: 'I know him. (my brother)',
+		choices: ['Lo', 'Le'],
+		correctIndex: 0,
+		explanation:
+			'Tu hermano is what the verb conozco acts on directly, so it takes a direct object pronoun, lo, not le.',
+		sourceSlug: 'direct-vs-indirect-object-pronouns-spanish',
+		sourceTitle: 'Direct vs. Indirect Object Pronouns: Lo/La vs. Le/Les',
+	},
+	{
+		sentence: '___ escribo una carta.',
+		translation: 'I write him a letter. (my brother)',
+		choices: ['Lo', 'Le'],
+		correctIndex: 1,
+		explanation:
+			'The letter is the direct object here; mi hermano is only the recipient, so he needs the indirect object pronoun, le.',
+		sourceSlug: 'direct-vs-indirect-object-pronouns-spanish',
+		sourceTitle: 'Direct vs. Indirect Object Pronouns: Lo/La vs. Le/Les',
+	},
+	{
+		sentence: '___ dije la verdad.',
+		translation: 'I told her the truth.',
+		choices: ['Le', 'La'],
+		correctIndex: 0,
+		explanation:
+			'La dije la verdad is laísmo, using la for an indirect object, and the RAE treats it as a genuine error in every region. Le dije la verdad is the correct form.',
+		sourceSlug: 'direct-vs-indirect-object-pronouns-spanish',
+		sourceTitle: 'Direct vs. Indirect Object Pronouns: Lo/La vs. Le/Les',
+	},
+	{
+		sentence: '___ compré un regalo.',
+		translation: 'I bought him a gift.',
+		choices: ['Le', 'Lo'],
+		correctIndex: 0,
+		explanation:
+			'Lo compré un regalo is loísmo, using lo for an indirect object, and the RAE treats it as a genuine error in every region. Le compré un regalo is the correct form.',
+		sourceSlug: 'direct-vs-indirect-object-pronouns-spanish',
+		sourceTitle: 'Direct vs. Indirect Object Pronouns: Lo/La vs. Le/Les',
 	},
 ];
