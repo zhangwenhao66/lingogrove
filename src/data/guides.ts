@@ -218,7 +218,7 @@ export const guides: Guide[] = [
 				heading: 'The adjectives that flip meaning depending on which verb you use',
 				body: [
 					'A small set of adjectives change what they mean depending on which verb pairs with them, and these are the clearest proof that "permanent vs. temporary" isn\'t quite the right lens. *Ser aburrido* means "to be boring" (a trait); *estar aburrido* means "to be bored" (a state). *Ser listo* means "to be clever"; *estar listo* means "to be ready." *Ser malo* means "to be bad" (as a person); *estar malo* means "to be sick" or "to taste bad" (a condition). *Ser rico* means "to be wealthy"; *estar rico* means "to taste good" (or, describing a person, "to be attractive"). In each pair, ser names what something is and estar names what state it\'s currently in. The adjective\'s dictionary meaning barely changes, but the claim being made about the subject does.',
-					'Ser also happens to be one of Spanish\'s most irregular verbs in its own right: its [full conjugation table](/ser-conjugation/) is worth a look if soy, era, and fui don\'t look to you like forms of the same word. And if por vs. para is next on your list of mixed-up pairs, [that one works on a similar logic](/por-vs-para/): stop translating "for" and ask what job the word is doing.',
+					'Ser also happens to be one of Spanish\'s most irregular verbs in its own right: its [full conjugation table](/ser-conjugation/) is worth a look if soy, era, and fui don\'t look to you like forms of the same word. And if por vs. para is next on your list of mixed-up pairs, [that one works on a similar logic](/por-vs-para/): stop translating "for" and ask what job the word is doing. The rest of LingoGrove\'s [Grammar hub](/grammar/) covers other verb-choice traps, including the Spanish subjunctive and direct object pronouns.',
 				],
 			},
 		],
@@ -426,7 +426,7 @@ export const guides: Guide[] = [
 				heading: '"Schadenfreude" isn\'t quite the same thing as "gloating"',
 				body: [
 					'English does have words that sit near schadenfreude, and it\'s worth being precise about how they differ. "Gloating" describes openly, visibly expressing triumph over someone else\'s failure, often when you had some hand in causing it or in besting them directly. It\'s an action, not just a feeling, and it usually shows. Schadenfreude is the private feeling itself, whether or not you ever act on it or had anything to do with causing the misfortune in the first place: you can feel schadenfreude silently, watching the news, about a stranger\'s bad luck you had zero part in.',
-					'That\'s the gap German filled and English didn\'t, in ordinary usage: English has words for showing triumph (gloating, crowing) but no word in common use for the quieter, purely internal version of the same reaction, which is exactly the gap Schadenfreude was borrowed to fill.',
+					'That\'s the gap German filled and English didn\'t, in ordinary usage: English has words for showing triumph (gloating, crowing) but no word in common use for the quieter, purely internal version of the same reaction, which is exactly the gap Schadenfreude was borrowed to fill. The rest of LingoGrove\'s [Loanwords hub](/loanwords/) covers other borrowed words, including senpai and mahalo.',
 				],
 			},
 		],
@@ -543,7 +543,7 @@ export const guides: Guide[] = [
 				body: [
 					'English speakers often assume the Spanish birthday song is just a translation of "Happy Birthday to You," and a direct Spanish adaptation of that tune does circulate informally in several countries, usually opening with the line *cumpleaños feliz*. But in Mexico, and in many households with Mexican roots elsewhere, the song that actually gets sung is a different piece entirely: *Las Mañanitas* ("The Little Mornings"), traditionally performed at the crack of dawn, with family gathering outside the birthday person\'s door, or a hired mariachi band, to wake them up with it.',
 					'Las Mañanitas didn\'t start life as a birthday song, and its roots reach back further than Mexico itself: the melody traces to the *romanza*, a serenade tradition from Sephardic communities in medieval Spain that colonizers carried to Mexico, where it was later reshaped, after independence, into the style historians classify as a *corrido*, not a ranchera. Only gradually did it settle into today\'s familiar role. It\'s also sung on Mother\'s Day and for saints\' days in Mexico, not exclusively at birthdays. Its lyrics compare the beauty of the dawn to the person being celebrated, rather than simply wishing them a happy day the way the English song does.',
-					'Once the celebration is over, the two other everyday phrases worth having on hand are [good night in Spanish](/good-night-in-spanish/) and the different registers behind [saying "I love you" in Spanish](/i-love-you-in-spanish/), both of which come with the same kind of nuance that a direct translation misses.',
+					'Once the celebration is over, the two other everyday phrases worth having on hand are [good night in Spanish](/good-night-in-spanish/) and the different registers behind [saying "I love you" in Spanish](/i-love-you-in-spanish/), both of which come with the same kind of nuance that a direct translation misses. Both of those live in LingoGrove\'s [Phrases hub](/phrases/) alongside this one.',
 				],
 			},
 		],
