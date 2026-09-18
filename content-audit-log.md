@@ -1892,3 +1892,24 @@
   "escalation": null
 }
 ```
+
+## 2026-09-18 — 补充分区枢纽内链（矩阵级结构性缺口，压制期低风险动作，Owen批准纳入）
+
+```json
+{
+  "trigger": "矩阵级分析（涨页特征对照_20260913.md）发现14站正文0%链接回自己的分区/hub页；本任务是低优先级卫生工作，不是增长杠杆，加内链不改变文章排名/CTR。LingoGrove当前处于8月垃圾更新算法压制期，Owen在本轮工作中明确确认压制中站点也一并处理，本次只做3篇文章各加1句内链，不涉及新页面/标题/结构改动，符合压制期playbook（已发布页面不删不noindex不批量改写）",
+  "actions": [
+    {
+      "type": "分区枢纽内链",
+      "pages": [
+        {"slug": "ser-vs-estar", "category": "Grammar", "hub": "/grammar/"},
+        {"slug": "schadenfreude-meaning", "category": "Loanwords", "hub": "/loanwords/"},
+        {"slug": "happy-birthday-in-spanish", "category": "Phrases", "hub": "/phrases/"}
+      ],
+      "detail": "每篇在最后一个正文小节末尾自然位置加一句指向该文分类hub页的句子，措辞逐篇手写各不相同。句子过Skill(humanizer)后插入，跑check_bridge_sentences.py确认新句均未产生新候选（各篇仍各自命中若干与本次改动无关的旧候选：ser-conjugation/por-vs-para/deja-vu-meaning/senpai-meaning/good-night-in-spanish/i-love-you-in-spanish，属存量债务不在本次处理）；check_prose_patterns.py对ser-vs-estar/schadenfreude-meaning均报FAQ与正文逐字重合告警（L-0819-9，均为本次编辑前就存在的旧内容重合，与新增句子无关），happy-birthday-in-spanish退出码0。npm run build 0报错，commit b9cfcb4。"
+    }
+  ],
+  "verification": "绕缓存curl三篇线上均已生效(Grammar/Loanwords/Phrases hub均命中)；IndexNow已提交3个URL(Bing 200/Yandex 200，控制台确认)——⚠️本站tools/submit-indexnow.mjs是早期精简版本，不含indexnow-submit-log.json写入逻辑（其他站的版本已加了这个功能），本次提交确实成功发送到Bing/Yandex但无法在本地日志留痕，属已知工具版本差异，未修复脚本（超出本次任务范围，留作后续统一升级各站脚本时一并处理）",
+  "escalation": null
+}
+```
