@@ -145,7 +145,8 @@
     "note": "resubmitted after adding a 'soy vs estoy' FAQ entry (纪律一merge-before-fork: 2,400vol/KD0 candidate was only touched in passing by existing body examples, no dedicated FAQ addressed the conjugated yo-form query directly; enriched instead of forking a near-duplicate page); Bing 200 / Yandex 200. Prior history: originally submitted 2026-08-03 as launch batch (Bing 202/Yandex 202), resubmitted 2026-08-06 after content-quality-audit fix (Bing 200/Yandex 202), last checked 2026-08-25 as stale_not_indexed/Blocked (账龄21天超过14天阈值).",
     "last_checked_date": "2026-08-25",
     "verified_method": "bwt_url_inspection",
-    "verify_note": "discovered 04 Aug, 账龄21天超过14天阈值, Blocked (pre-resubmission status; needs recheck after 2026-09-03 resubmission)"
+    "verify_note": "discovered 04 Aug, 账龄21天超过14天阈值, Blocked (pre-resubmission status; needs recheck after 2026-09-03 resubmission)",
+    "last_submitted_date": "2026-09-18"
   },
   "https://lingogrove.com/preterite-vs-imperfect/": {
     "submitted_date": "2026-08-03",
@@ -166,7 +167,8 @@
     "verified_status": "stale_not_indexed",
     "note": "discovered 04 Aug 2026, 账龄15天, 超14天阈值(此前08-17标注恰好14天逼近阈值,本次确认转stale)",
     "last_checked_date": "2026-08-19",
-    "verified_method": "bwt_url_inspection"
+    "verified_method": "bwt_url_inspection",
+    "last_submitted_date": "2026-09-18"
   },
   "https://lingogrove.com/senpai-meaning/": {
     "submitted_date": "2026-08-03",
@@ -181,7 +183,8 @@
     "note": "Discovered but not crawled, discovered 03 Aug 2026, age 13 days as of 08-16 check, approaching stale threshold",
     "last_checked_date": "2026-08-22",
     "verified_method": "bwt_url_inspection",
-    "verify_note": "discovered 04 Aug, 18天未收录"
+    "verify_note": "discovered 04 Aug, 18天未收录",
+    "last_submitted_date": "2026-09-18"
   },
   "https://lingogrove.com/good-night-in-spanish/": {
     "submitted_date": "2026-08-03",
