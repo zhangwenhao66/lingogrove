@@ -1,0 +1,12 @@
+[
+  {
+    "index": 1,
+    "verdict": "CONFIRMED",
+    "note": "Claim: avoir and être are the only two verbs that also swap their subjunctive endings, not just their stem, and all four verbs (être, avoir, aller, faire) are among the handful of French verbs with an irregular subjunctive stem. Target french-subjunctive confirms verbatim: 'Avoir and être are the only two that also replace the endings, not just the stem — the one exception the OQLF's formation page calls out by name,' and lists a 10-verb irregular-subjunctive-stem set that includes aller, avoir, être, and faire."
+  },
+  {
+    "index": 2,
+    "verdict": "CONFIRMED",
+    "note": "Claim: être is the auxiliary a closed list of French reflexive verbs always takes instead of avoir, and the real complication is past-participle agreement rather than auxiliary choice. Target french-reflexive-verbs confirms: 'Per the OQLF, every one of these takes être, never avoir, in compound tenses. Past participle agreement isn't automatic, though' — matching both the always-être claim and the framing that agreement, not auxiliary choice, is the hard part."
+  }
+]

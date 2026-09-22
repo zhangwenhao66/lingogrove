@@ -2492,7 +2492,7 @@ export const guides: Guide[] = [
 		description: 'Personne, aucun, and nulle part are the exceptions: everywhere else, French negation slots neatly between the auxiliary and the past participle, exactly where pas sits.',
 		published: '2026-08-11',
 		updated: '2026-09-01',
-		coreSummary: 'French negation is built from two parts, ne plus a second negative word (pas, jamais, plus, rien, personne, aucun, nulle part, ni), that sandwich the conjugated verb: Je ne sais pas. In compound tenses and before infinitives, most of those second words keep hugging the auxiliary or infinitive the same way pas does, but per the Office québécois de la langue française, personne, nulle part, and aucun break that pattern and fall behind the past participle or infinitive instead, every time. Ne...que is a separate structure entirely, a restriction meaning "only" rather than a true negation, and its que half moves to sit directly in front of whatever it restricts rather than staying fixed after the verb.',
+		coreSummary: 'French negation is built from two parts, ne plus a second negative word (pas, jamais, plus, rien, personne, aucun, nulle part, ni), that sandwich the conjugated verb: Je ne sais pas. In compound tenses and before infinitives, most of those second words keep hugging the auxiliary or infinitive the same way pas does, but per the Office québécois de la langue française, personne, nulle part, and aucun break that pattern and fall behind the past participle or infinitive instead, every time. Ne...que is a separate structure entirely, a restriction meaning "only" rather than a true negation, and its que half moves to sit directly in front of whatever it restricts, not staying fixed after the verb.',
 		language: 'French',
 		sections: [
 			{
@@ -2517,14 +2517,14 @@ export const guides: Guide[] = [
 				heading: 'The same three words fall behind an infinitive, too',
 				body: [
 					'Negating an infinitive, after il faut, pour, afin de, avant de, or décider de, keeps both halves of the negation together as a single block sitting in front of the infinitive, in the order ne + [negative word] + infinitive: Il a décidé de ne pas venir ("He decided not to come"), J\'essaie de ne jamais mentir ("I try never to lie"), Elle préfère ne rien dire ("She prefers to say nothing"). Pas, jamais, and rien front-load the infinitive the same way they front-load an auxiliary.',
-					'Personne and nulle part break from the group again, and in the same direction as before: both trail behind the infinitive instead of standing in front of it. Préférer ne voir personne ("to prefer to see nobody") puts personne after voir, not before it, mirroring exactly how it falls after a past participle rather than in front of one. The two contexts, compound tenses and infinitives, are really the same underlying rule showing up twice: whatever construction has a second verb form for the negative word to attach around, personne and nulle part attach to the far side of it rather than the near side.',
+					'Personne and nulle part break from the group again, and in the same direction as before: both trail behind the infinitive instead of standing in front of it. Préférer ne voir personne ("to prefer to see nobody") puts personne after voir, not before it, mirroring exactly how it falls after a past participle, not in front of one. The two contexts, compound tenses and infinitives, are really the same underlying rule showing up twice: whatever construction has a second verb form for the negative word to attach around, personne and nulle part attach to the far side of it, not the near side.',
 				],
 			},
 			{
 				heading: 'Ne...que isn\'t negation at all, and que refuses to sit still',
 				body: [
-					'Ne...que looks like it belongs on the same list as ne...pas or ne...rien, but it functions as a restriction meaning "only" rather than a true negation: Je n\'ai que deux frères doesn\'t deny having brothers, it limits the count to exactly two, functionally equivalent to Je n\'ai seulement deux frères. Because it restricts rather than negates, ne...que can\'t be combined with pas, plus, rien, personne, jamais, or ni...ni to build one coherent sentence; que has to work alone against ne, the way any single true negative word does.',
-					'Que also refuses to sit in the fixed slot pas, jamais, plus, and rien all share. It\'s mobile, moving to sit directly in front of whichever element of the sentence it\'s actually restricting, rather than staying anchored right after the verb: Il n\'a mangé que la moitié du gâteau (restricting the quantity eaten) reads differently from Il n\'a mangé que le matin (restricting when the eating happened), with que sliding to whichever phrase carries the restriction. In compound tenses, que still can\'t move in front of the auxiliary the way ne does; ne stays anchored before avoir or être, and que floats somewhere after the past participle, wherever the restricted element sits.',
+					'Ne...que looks like it belongs on the same list as ne...pas or ne...rien, but it functions as a restriction meaning "only," not a true negation: Je n\'ai que deux frères doesn\'t deny having brothers, it limits the count to exactly two, functionally equivalent to Je n\'ai seulement deux frères. It restricts, not negates, so ne...que can\'t be combined with pas, plus, rien, personne, jamais, or ni...ni to build one coherent sentence; que has to work alone against ne, the way any single true negative word does.',
+					'Que also refuses to sit in the fixed slot pas, jamais, plus, and rien all share. It\'s mobile, moving to sit directly in front of whichever element of the sentence it\'s actually restricting, not staying anchored right after the verb: Il n\'a mangé que la moitié du gâteau (restricting the quantity eaten) reads differently from Il n\'a mangé que le matin (restricting when the eating happened), with que sliding to whichever phrase carries the restriction. In compound tenses, que still can\'t move in front of the auxiliary the way ne does; ne stays anchored before avoir or être, and que floats somewhere after the past participle, wherever the restricted element sits.',
 				],
 			},
 			{
@@ -2538,34 +2538,34 @@ export const guides: Guide[] = [
 				heading: 'One more thing negation changes: the article on the noun that follows',
 				body: [
 					'Negating a verb doesn\'t just add ne and a second word, it can reach into the noun phrase that follows and change the article, too. J\'ai un chat becomes Je n\'ai pas de chat, with the indefinite article un collapsing down to a bare de. That reduction, including its three real exceptions (a linking être, an implicit contrast, and the restrictive ne...que construction covered above, which keeps the article unchanged because nothing is actually being denied), is covered in full in [the French articles guide](/french-articles/); it\'s the same negation system this article covers, just reaching one step further into the sentence.',
-					'Aucun works differently from that de-reduction, even though the two land on similar-sounding English translations. Je n\'ai pas de sœur strips the article down to bare de, but Je n\'ai aucune sœur keeps aucune standing directly in the article\'s own slot, agreeing in gender with sœur the way an article would, rather than reducing to an invariant particle. Aucun also stays grammatically singular no matter what it\'s negating, even for nouns that are normally plural-only (aucunes vacances doesn\'t exist; aucune vacance does), because it\'s asserting a count of zero, and zero is inherently singular. Commands built on any of this negation machinery, and the pronoun-order reversal that comes with a negative command specifically, are covered separately in [the French imperative guide](/french-imperative/), including why dis-le-moi flips to ne me le dis pas the moment the command turns negative.',
+					'Aucun works differently from that de-reduction, even though the two land on similar-sounding English translations. Je n\'ai pas de sœur strips the article down to bare de, but Je n\'ai aucune sœur keeps aucune standing directly in the article\'s own slot, agreeing in gender with sœur the way an article would; it never reduces to an invariant particle the way pas de does. Aucun also stays grammatically singular no matter what it\'s negating, even for nouns that are normally plural-only (aucunes vacances doesn\'t exist; aucune vacance does), because it\'s asserting a count of zero, and zero is inherently singular. Commands built on any of this negation machinery, and the pronoun-order reversal that comes with a negative command specifically, are covered separately in [the French imperative guide](/french-imperative/), including why dis-le-moi flips to ne me le dis pas the moment the command turns negative.',
 				],
 			},
 		],
 		faq: [
 			{
 				question: 'Why does "personne" go after the past participle instead of between the auxiliary and the participle like "pas"?',
-				answer: 'Personne, along with nulle part and aucun, is one of a small set of French negative words that consistently fall behind the second verb form (a past participle in a compound tense, an infinitive elsewhere) rather than wedging into the same slot pas, jamais, plus, and rien use. Per the OQLF\'s own reference on personne as an indefinite pronoun, Je n\'ai vu personne is correct; the pas-style Je n\'ai personne vu is not.',
+				answer: 'Personne, along with nulle part and aucun, is one of a small set of French negative words that consistently fall behind the second verb form (a compound-tense past participle, or an infinitive elsewhere) rather than squeezing into the spot reserved for rien, plus, jamais, and pas. The Quebec-government grammar authority\'s own syntax page for personne backs this up directly. Tu n\'as vu personne is correct; putting personne where pas would go, Tu n\'as personne vu, is not.',
 			},
 			{
 				question: 'Is "ne...que" a true negation?',
-				answer: 'No. It expresses a restriction meaning "only," not a denial: Je n\'ai que deux frères limits a count to two rather than denying having brothers. Because it restricts instead of negating, it can\'t combine with pas, plus, rien, personne, jamais, or ni...ni in the same clause, and its que half is mobile, moving to sit in front of whatever element it\'s restricting rather than staying fixed right after the verb.',
+				answer: 'No. It limits a quantity to a maximum, closer to "only" than to a flat denial: Elle n\'a que deux enfants caps the count at two rather than denying she has children. A restriction can\'t share a clause with any of French\'s true negative words, jamais and rien and personne and ni...ni and pas and plus among them, and its que half floats to sit beside whatever it\'s limiting instead of parking in one set spot near the verb.',
 			},
 			{
 				question: 'Is it correct to say "ne...jamais rien" and "ne...jamais personne" together?',
-				answer: 'Yes, stacking negatives is standard French and doesn\'t cancel out the meaning the way a double negative would in standard English. Ils ne vont jamais rien perdre is correct. The order between them is fixed: jamais comes before rien, personne, and nulle part whenever they combine, so jamais rien and jamais personne are the accepted orders, not the reverse.',
+				answer: 'Yes, stacking negatives is standard French, and the two words reinforce each other instead of canceling out the way piling on negatives would in English. Elle ne voit jamais personne ("She never sees anyone") keeps the sentence fully negative rather than flipping positive. Their sequence is locked in place: jamais always leads, and whichever of the other three pronouns joins it trails behind, so jamais rien and jamais personne are the accepted orders, not the reverse.',
 			},
 			{
 				question: 'Is it okay to drop "ne" when speaking French?',
-				answer: 'In casual spoken French, yes, and it happens constantly: j\'irai pas instead of je n\'irai pas. Per Larousse\'s own dictionary entry on ne, this dropping is a normal feature of relaxed spoken registers, while careful expression, especially in writing, is expected to keep both halves of the negation. It isn\'t an error in speech, but it isn\'t appropriate in formal writing either.',
+				answer: 'In relaxed, spoken registers, yes, and it happens constantly: a native speaker will say j\'irai pas where written French keeps je n\'irai pas. Larousse\'s dictionary treats this dropping as a normal feature of relaxed spoken registers, while careful expression, especially in writing, is expected to keep ne alongside whichever negative word pairs with it. It isn\'t an error in speech, but it isn\'t appropriate in formal writing either.',
 			},
 			{
 				question: 'What\'s the difference between "je n\'ai pas de sœur" and "je n\'ai aucune sœur"?',
-				answer: 'Both deny having a sister, but through different mechanisms. Pas de reduces the indefinite article down to a bare, invariant de. Aucune instead stands directly in the article\'s own position and agrees in gender with the noun (aucun for a masculine noun, aucune for a feminine one), while pas de doesn\'t change form for gender at all. Aucun/aucune is also more emphatic, closer to "not a single sister" than the more neutral pas de sœur.',
+				answer: 'Both deny having a sister, but through different mechanisms. Pas de collapses un/une down to a bare, invariant de. Aucune instead occupies that same slot in the noun phrase and matches the noun\'s gender (aucun with a masculine noun, aucune with a feminine one), while pas de doesn\'t change form for gender at all. Aucun/aucune is also more emphatic, closer to "not a single sister" than the more neutral pas de sœur.',
 			},
 			{
 				question: 'Which order is correct: "plus jamais" or "jamais plus"?',
-				answer: 'Both are accepted with no difference in meaning: Je ne ferai plus jamais ça and Je ne ferai jamais plus ça both mean "I will never do that again." Plus is the one negative word flexible enough to go on either side of jamais. Combined with rien, personne, or nulle part instead, plus always takes the first position (plus rien, plus personne), never the reverse.',
+				answer: 'Both are accepted with no difference in meaning: swapping plus and jamais around each other, as in je ne mangerai plus jamais de ça versus je ne mangerai jamais plus de ça, still says "I will never eat that again" either way. Plus is the one negative word flexible enough to go on either side of jamais. Pair it with any of the other three negative pronouns instead, and plus has to go first, as in plus rien or plus nulle part; that order never flips.',
 			},
 		],
 		sources: [
@@ -4256,23 +4256,23 @@ export const guides: Guide[] = [
 		faq: [
 			{
 				question: 'Why does "dû" have an accent but "due" doesn\'t?',
-				answer: 'The circumflex on dû exists only to keep the masculine-singular past participle/adjective of devoir visually distinct from du, the unrelated determiner (the partitive article, or de + le contracted). Per the OQLF, that collision risk disappears the moment the word takes on a different gender or number, so due, dus, and dues never carry the accent at all: only dû does.',
+				answer: 'The circumflex on dû exists only to keep one specific form of devoir (as a past participle or as an adjective, when it\'s neither feminine nor plural) visually distinct from du, the unrelated determiner (the partitive article, or de + le contracted). Per the OQLF, that collision risk disappears the moment the word takes on a different gender or number, so every other form (feminine, plural, or both) drops the accent entirely: only the one unmarked form keeps it.',
 			},
 			{
 				question: 'Do all French -re verbs form their past participle with -u?',
-				answer: 'No, and the OQLF doesn\'t even classify -re verbs as regular in the first place: "tous les verbes qui ne sont pas des verbes réguliers en -er ou en -ir sont irréguliers" includes every -re verb without exception. Many do follow a consistent -u pattern (vendre → vendu, perdre → perdu, répondre → répondu), but plenty of others don\'t (prendre → pris, écrire → écrit, boire → bu), so -u is a common shape among -re verbs, not a rule you can apply blindly.',
+				answer: 'No, and the OQLF doesn\'t even classify -re verbs as regular in the first place: its definition of "regular" only covers -er verbs and the -ir verbs that take -issant, so every single -re verb falls on the irregular side by default. Many do follow a consistent -u pattern (entendre → entendu, descendre → descendu, attendre → attendu), but plenty of others don\'t (craindre → craint, atteindre → atteint, boire → bu), so -u is a common shape among -re verbs, not a rule you can apply blindly.',
 			},
 			{
 				question: 'When does a past participle used with avoir agree with the subject?',
-				answer: 'It never agrees with the subject. A participle used with avoir agrees with the direct object, and only when that direct object is placed before the verb, most often because it\'s a pronoun like le, la, les, or the relative que. If there\'s no direct object, or if it follows the verb as usual, the participle stays invariable no matter what the subject is.',
+				answer: 'The subject never decides it. When avoir is the auxiliary, whatever the verb\'s direct object is decides the ending, and it only shifts if that object has already moved ahead of the verb, most often because it\'s a pronoun such as le, la, or les, or the relative word que. Lacking a fronted direct object, or with it sitting after the verb in the normal way, the ending simply doesn\'t change, regardless of what the subject is.',
 			},
 			{
 				question: 'Is "allé" a regular participle since "aller" ends in -er?',
-				answer: 'Its shape looks regular (aller → allé, following the -er-to-é pattern), but aller itself is one of French\'s most irregular verbs, mixing several different stems across its conjugation: va- for most of the present indicative (je vais, tu vas, il va, ils vont), ir- in the future and conditional (elle ira, nous irions), and all- for the rest, including nous allons/vous allez in the present and the participle allé. The participle happening to land on the regular -é ending is closer to a coincidence than a sign the verb behaves predictably elsewhere.',
+				answer: 'Its shape looks regular (aller → allé, following the -er-to-é pattern), but aller itself is one of French\'s most irregular verbs, mixing several different stems across its conjugation: va- for most of the present indicative (je vais, tu vas, il va, ils vont), ir- in the future and conditional (elle ira, nous irions), and all- for the rest, including nous allons and vous allez in the present, plus allé itself. That regular-looking -é ending is closer to a coincidence than a sign the verb behaves predictably elsewhere.',
 			},
 			{
 				question: 'How is agreement with être different for reflexive verbs than for verbs like "arriver"?',
-				answer: 'Verbs like arriver, sortir, and venir that simply take être as their fixed auxiliary follow the plain rule: the participle agrees with the subject, full stop. Reflexive (pronominal) verbs also take être, but their agreement runs on avoir\'s direct-object test instead, applied to the reflexive pronoun, which is why a pronominal participle can end up not agreeing with the subject at all, unlike arriver or sortir. The full mechanics are in the French reflexive verbs guide.',
+				answer: 'Verbs like arriver, sortir, and venir that simply take être as their fixed auxiliary follow the plain rule: whoever the subject is, the participle ending changes to match, full stop. Reflexive (pronominal) verbs also take être, yet what decides their ending borrows the avoir mechanism wholesale, with se or its counterpart standing in as the candidate object, which is why a pronominal participle can end up not agreeing with the subject at all, unlike arriver or sortir. How that works step by step is laid out in the site\'s dedicated guide to reflexive verbs in French.',
 			},
 		],
 		sources: [
@@ -5457,11 +5457,11 @@ export const guides: Guide[] = [
 				heading: 'Three conjugations, and only one of them is where irregularity lives',
 				body: [
 					'French sorts every verb into one of three conjugations, and the split is not evenly weighted. Wikipedia\'s "French conjugation" entry puts the first group, verbs ending in -er, at around 6,000 members, following the same pattern "largely without exception." The second group, -ir verbs whose present participle ends in -issant (finir → finissant), holds around 300 members and is also close to fully regular. The third group is everything left over: verbs in -re, verbs in -oir, a smaller set of -ir verbs that do not take the -issant pattern, and, despite its spelling, aller. Wikipedia states the exception directly: "aller, though it ends in -er, belongs to the third group."',
-					'The third group differs from the other two in shape, size, and status: per Wikipedia, it is a closed class, meaning no verb newly coined in French is ever assigned to it. Every new verb entering the language today, such as téléviser, atomiser, or googliser, lands in the first group. The second and third groups are fixed lists that stopped growing centuries ago. That framing changes what "irregular verb" means in French: the third group is a fixed, finite set, and much of what looks unpredictable inside it turns out to be grouped rather than scattered. Spanish sorts its own irregular verbs by a different organizing principle entirely: rather than a closed grammatical class, [the RAE groups Spanish irregular verbs](/irregular-spanish-verbs/) by exactly what part of the stem changes, vowel, consonant, both, or the root itself, a classification that cuts across frequency and conjugation class rather than isolating one fixed list the way French\'s third group does.',
+					'The third group differs from the other two in shape, size, and status: per Wikipedia, it is a closed class, meaning no verb newly coined in French is ever assigned to it. Every new verb entering the language today, such as téléviser, atomiser, or googliser, lands in the first group. The second and third groups are fixed lists that stopped growing centuries ago. That framing changes what "irregular verb" means in French: the third group is a fixed, finite set, and much of what looks unpredictable inside it turns out to cluster into families, not sit scattered at random. Spanish sorts its own irregular verbs by a different organizing principle entirely: [the RAE groups Spanish irregular verbs](/irregular-spanish-verbs/) by exactly what part of the stem changes, vowel, consonant, both, or the root itself, not by membership in some closed grammatical class. That classification cuts across frequency and conjugation class, unlike French\'s third group, which isolates one fixed list.',
 				],
 				image: {
 					src: '/images/french-irregular-verbs-diagram.svg',
-					alt: 'Diagram showing French verbs split into three conjugations (1st: -er, ~6,000 verbs, regular; 2nd: -ir/-issant, ~300 verbs, regular; 3rd: -re/-oir/-ir plus aller, closed class, home to nearly all irregularity), followed by present-tense forms for the four truly unpredictable verbs être/avoir/aller/faire, the boot-pattern and vien-/ven- stem-change families that are rule-governed rather than memorized one by one, and spelling-change -er verbs like appeler and préférer that are not third-group irregulars at all.',
+					alt: 'Diagram showing French verbs split into three conjugations (1st: -er, ~6,000 verbs, regular; 2nd: -ir/-issant, ~300 verbs, regular; 3rd: -re/-oir/-ir plus aller, closed class, home to nearly all irregularity), followed by present-tense forms for the four truly unpredictable verbs être/avoir/aller/faire, the boot-pattern and vien-/ven- stem-change families governed by a shared rule, with no verb-by-verb memorization required, and spelling-change -er verbs like appeler and préférer that are not third-group irregulars at all.',
 				},
 			},
 			{
@@ -5482,14 +5482,14 @@ export const guides: Guide[] = [
 			{
 				heading: 'Verbs people call "irregular" that are actually fully regular',
 				body: [
-					'A separate category gets lumped in with irregular verbs by habit, even though it belongs entirely to the regular first group. Per Wikipedia\'s spelling-rule summary for -er verbs, appeler and similar -eler/-eter verbs double their l or t before an ending that starts with a silent e (appeler → j\'appelle), a purely orthographic fix: French spelling needs a doubled consonant to signal that the preceding e is pronounced as in "elle" rather than swallowed. Préférer and other -é[consonant]er verbs shift é to è under the same silent-ending condition: je préfère, nous préférons. Payer and other -ayer verbs may shift y to i before a silent e (je paie, alongside the still-standard je paye).',
-					'These verbs stay inside the regular -er pattern; a spelling adjustment sits on top of it purely to keep the written form matching the spoken one, and the same adjustment applies identically to every verb in that spelling class. Wikipedia notes one irregularity inside this group that is not just spelling, and it is narrower still: envoyer (and renvoyer) takes an irregular stem specifically in the future and conditional (j\'enverrai, not the expected "envoierai"), a real, isolated exception rather than a spelling rule, and the only place a first-group verb crosses into the kind of irregularity the third group is built from.',
+					'A separate category gets lumped in with irregular verbs by habit, even though it belongs entirely to the regular first group. Per Wikipedia\'s spelling-rule summary for -er verbs, appeler and similar -eler/-eter verbs double their l or t before an ending that starts with a silent e (appeler → j\'appelle), a purely orthographic fix: French spelling needs a doubled consonant to signal that the preceding e is pronounced as in "elle," not swallowed the way it otherwise would be. Préférer and other -é[consonant]er verbs shift é to è under the same silent-ending condition: je préfère, nous préférons. Payer and other -ayer verbs may shift y to i before a silent e (je paie, alongside the still-standard je paye).',
+					'These verbs stay inside the regular -er pattern; a spelling adjustment sits on top of it purely to keep the written form matching the spoken one, and the same adjustment applies identically to every verb in that spelling class. Wikipedia notes one irregularity inside this group that is not just spelling, and it is narrower still: envoyer (and renvoyer) takes an irregular stem specifically in the future and conditional (j\'enverrai, not the expected "envoierai"), a real, isolated exception, not a spelling rule, and the only place a first-group verb crosses into the kind of irregularity the third group is built from.',
 				],
 			},
 			{
 				heading: 'Where the same irregular stems resurface: participles and the subjunctive',
 				body: [
-					'Irregularity in one tense does not automatically predict irregularity in another, but for these particular verbs it usually travels along. Être, avoir, faire, and aller all take irregular past participles (été, eu, fait, allé), and so do most of the family-pattern verbs from the previous sections: venir gives venu, tenir gives tenu, prendre gives pris (with apprendre and comprendre inheriting appris and compris the same way prend- carried across their present tense). [The full set of irregular past participle families](/french-past-participle/), grouped by ending rather than memorized verb by verb, covers this in more depth than fits here.',
+					'Irregularity in one tense does not automatically predict irregularity in another, but for these particular verbs it usually travels along. Être, avoir, faire, and aller all take irregular past participles (été, eu, fait, allé), and so do most of the family-pattern verbs from the previous sections: venir gives venu, tenir gives tenu, prendre gives pris (with apprendre and comprendre inheriting appris and compris the same way prend- carried across their present tense). [The full set of irregular past participle families](/french-past-participle/), sorted by ending group and not memorized verb by verb, covers this in more depth than fits here.',
 					'Several of the same high-frequency verbs, être, avoir, aller, and faire among them, also take an irregular stem in the present subjunctive, a distinct irregularity from anything covered above since the subjunctive is a different mood built on its own stem rules entirely. Que je sois, que j\'aie, que j\'aille, and que je fasse do not derive from any of the present-tense forms given earlier; the full account of which verbs break the subjunctive\'s otherwise uniform ending pattern, and which two break the endings themselves, lives in [the site\'s dedicated subjunctive guide](/french-subjunctive/).',
 				],
 			},
@@ -5504,19 +5504,19 @@ export const guides: Guide[] = [
 		faq: [
 			{
 				question: 'Which French verbs are truly irregular, with no pattern to lean on at all?',
-				answer: 'Just four: être, avoir, aller, and faire. Every other verb usually filed under "irregular" changes stem in a way that follows a rule shared by an entire family: pouvoir/vouloir/devoir, venir/tenir and their compounds, prendre and its compounds, and so on. Those four do not reduce to a family rule; each one has to be learned on its own terms.',
+				answer: 'Just four: avoir, être, faire, and aller. Every other verb usually filed under "irregular" changes stem in a way that follows a rule shared by an entire family: the boot-pattern trio built on peux/veux/dois, venir and tenir with their compounds, prendre with its compounds, and so on. No family pattern covers those four; each one has to be learned on its own terms.',
 			},
 			{
 				question: 'Is "aller" really irregular if it ends in -er like a normal verb?',
-				answer: 'Yes. Per the standard classification of French verb groups, aller belongs to the third, irregular group despite its -er spelling; the ending happens to match the first group by coincidence, without putting the verb in it. Je vais, nous allons, and ils vont do not share a stem with each other or with any regular -er verb.',
+				answer: 'Yes. The standard classification of French verb groups sorts aller into the irregular third group despite its -er spelling; the ending happens to match the first group by coincidence, without putting the verb in it. Je vais, nous allons, and ils vont do not share a stem with each other or with any regular -er verb.',
 			},
 			{
 				question: 'What is the difference between an irregular verb and a spelling-change verb like "appeler"?',
-				answer: 'A spelling-change verb like appeler (j\'appelle) or préférer (je préfère) is a fully regular first-group -er verb; the letter change exists only to keep the pronunciation consistent before a silent ending, and it applies the same way across every verb in that spelling class. An irregular verb like être or faire changes stem for reasons that do not reduce to a spelling rule at all.',
+				answer: 'A spelling-change verb like appeler (j\'appelle) or préférer (je préfère) is a fully regular first-group -er verb; the letter change exists only to keep the pronunciation consistent before a silent ending, and the same fix carries over to any other verb built the same way. An irregular verb like être or faire changes stem for reasons no spelling rule can explain.',
 			},
 			{
 				question: 'Why do pouvoir, vouloir, and devoir all change the same way?',
-				answer: 'They belong to the same "boot" stem-change family: the je/tu/il/ils forms share one stem (peux/veux/dois, extending to peuvent/veulent/doivent) while nous and vous keep a separate, more infinitive-like stem (pouvons/voulons/devons). Learn the pattern once and it carries over to every verb in the family, not just to these three.',
+				answer: 'They belong to the same "boot" stem-change family: je, tu, il, and ils all draw on one stem (peux/veux/dois, extending to peuvent/veulent/doivent) while nous and vous switch to a second stem closer to the infinitive (pouvons/voulons/devons). Learn the pattern once and every verb sharing that stem shape falls into place, well beyond these three.',
 			},
 			{
 				question: 'How many irregular verbs does French actually have?',
@@ -5524,7 +5524,7 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'Do these irregular verbs also have irregular past participles?',
-				answer: 'Often, yes, though the two irregularities are separate and do not automatically predict each other. Être, avoir, faire, and aller all take irregular past participles (été, eu, fait, allé), and the family-pattern verbs carry theirs the same way their stems do: venir gives venu, prendre gives pris, with apprendre and comprendre inheriting appris and compris.',
+				answer: 'Often, yes, though the two irregularities are separate, so one doesn\'t guarantee the other. The same four verbs carry irregular participles too: avoir gives eu, être gives été, faire gives fait, and aller gives allé. The verbs grouped into those stem-shifting families pass theirs down the same way their stems travel: venir turns into venu, prendre becomes pris, and their own compounds follow the exact same shift (appris from apprendre, compris from comprendre).',
 			},
 		],
 		sources: [
@@ -6158,23 +6158,23 @@ export const guides: Guide[] = [
 		faq: [
 			{
 				question: 'What is the actual difference between futur proche and futur simple?',
-				answer: 'It isn\'t distance in time. Per the OQLF, the futur proche, built on the present tense of aller, ties an event to the moment of speaking and reads as more certain, while the futur simple presents the same event as detached from the present and more hypothetical. The futur proche does dominate in speech, but a purely casual-versus-formal framing misses why some present-anchored statements only work in the futur proche at all.',
+				answer: 'It isn\'t distance in time. Per the OQLF, aller keeps the futur proche pinned to wherever things stand right now, which is what makes it land as certain, whereas the futur simple cuts the action loose from that anchor and carries more of a hypothetical weight. Speech does lean on the near form far more, but a purely casual-versus-formal framing misses why some present-anchored asides can\'t be swapped into the futur simple at all.',
 			},
 			{
 				question: 'Why don\'t -re verbs like vendre need an extra vowel before the future ending?',
-				answer: 'Because they already have one, and it has to be dropped rather than added to. -Er and -ir verbs add the future endings directly onto the infinitive, since the infinitive\'s own final vowel supplies the linking sound the ending needs. -Re infinitives already end in a silent e, so that e is dropped before the ending attaches: vendre becomes vendrai, not vendreai.',
+				answer: 'Because they already have one, and it has to be dropped rather than added to. For -er and -ir verbs, the infinitive already ends in the right vowel to carry the new ending, so nothing extra is needed. -Re infinitives close with a silent e that would clash with the ending, so that e drops first: vendre turns into vendrai, not vendreai.',
 			},
 			{
 				question: 'Why is être\'s future stem ser- instead of matching its infinitive?',
-				answer: 'Because it isn\'t the original French form. French kept forms descended from classical Latin\'s own future for "to be" until as late as the twelfth century, before they were replaced by new forms built on the Vulgar Latin infinitive *essere*, which is where today\'s ser- stem comes from. The irregular-looking serai is a relatively late replacement, not an unbroken line back to Latin.',
+				answer: 'Because it isn\'t the original French form. Wikipedia cites linguist Geneviève Joly for the claim that the old Latin-rooted future of "to be" hung on in French only into the 1100s, before the language rebuilt the form from the Vulgar Latin infinitive *essere*, which explains why the modern stem starts with ser-. That particular quirk is a fairly recent substitution, not a straight descendant from Latin.',
 			},
 			{
 				question: 'Can the futur simple be used to give an order?',
-				answer: 'Yes, this is the futur injonctif. A futur simple statement addressed directly to tu or vous can function as an instruction, milder than a flat imperative, with the order implied by context instead of stated outright. French Bible translations use this same register for the Ten Commandments (tu ne tueras point, "thou shalt not kill").',
+				answer: 'Yes, grammars label this use futur injonctif. Put a French verb in this tense and aim it straight at tu or vous, and it reads as a directive rather than a forecast, with less bite than an outright command, and with the order coming through context rather than being spelled out. French translations of scripture reach for this same register in the commandment against killing (tu ne tueras point), phrasing the order as though it were simply describing what happens next.',
 			},
 			{
 				question: 'Is the futur de conjecture (using the future to guess about the present) common in French?',
-				answer: 'No. It\'s genuinely rare in standard French and largely limited to être and avoir, as in ce sera sans doute lui for someone knocking at the door right now. It\'s notably more frequent in the regional French spoken in Corsica than elsewhere in the French-speaking world.',
+				answer: 'No. Outside of être and avoir, this guess-about-the-present use is uncommon in everyday French; the classic example is a guess at who just rang the bell. Corsican French leans on it considerably more than the rest of the French-speaking world does.',
 			},
 		],
 		sources: [

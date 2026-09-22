@@ -1,0 +1,22 @@
+[
+  {
+    "index": 1,
+    "verdict": "CONFIRMED",
+    "note": "Claim: French future endings never change once the stem is settled, 'any more than it does in Spanish.' Target spanish-future-tense states directly: 'Once the stem is settled, the endings are identical to any regular verb's: tener becomes tendré, tendrás, tendrá, tendremos, tendréis, tendrán' — confirming Spanish also keeps the same six endings regardless of stem irregularity."
+  },
+  {
+    "index": 2,
+    "verdict": "CONFIRMED",
+    "note": "Claim: aller, avoir, and être are three of the handful of verbs whose subjunctive stems break the regular pattern, and être's subjunctive stem (soi-) differs from its future stem (ser-). Target french-subjunctive confirms all three verbs are among its 10 listed subjunctive irregulars, and specifically that avoir/être 'also replace the endings, not just the stem' while aller splits into two stems (aille/allions) — a different irregularity shape than être's ser- future stem discussed in the source article."
+  },
+  {
+    "index": 3,
+    "verdict": "CONFIRMED",
+    "note": "Claim: Spanish went through the identical process, with llamaré coming from the same habere + infinitive fusion as chanterai. Target spanish-future-tense confirms: 'Vulgar Latin rebuilt one by fusing the infinitive with the present tense of habere (\"to have\"): cantare habeo ... became cantar he ... cantaré' — the same habere+infinitive mechanism described for French's chanterai."
+  },
+  {
+    "index": 4,
+    "verdict": "CONFIRMED",
+    "note": "Claim: the Italian future tense carries the same conjectural use, where sarà often isn't about the future at all. Target italian-future-tense confirms directly: its title is 'When \"Sarà\" Isn't About the Future At All,' and the body describes 'sarà a casa' as an epistemic guess about the present ('uso epistemico'), not a future-tense claim."
+  }
+]

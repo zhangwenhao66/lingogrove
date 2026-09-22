@@ -1,0 +1,12 @@
+[
+  {
+    "index": 1,
+    "verdict": "CONFIRMED",
+    "note": "Claim: French confines its structural unpredictability to closed sets, the same logic that keeps French's genuinely irregular verbs down to just four members that don't reduce to a shared family rule. Target french-irregular-verbs confirms exactly this in its own FAQ1: 'Just four: avoir, être, faire, and aller... No family pattern covers those four; each one has to be learned on its own terms.'"
+  },
+  {
+    "index": 2,
+    "verdict": "CONFIRMED",
+    "note": "Claim: the French articles guide covers the article-reduction rule's three real exceptions (a linking être, an implicit contrast, and the restrictive ne...que construction, which keeps the article unchanged because nothing is actually being denied). Target french-articles confirms all three verbatim: 'The first is the verb être functioning as a linking verb... The second is a sentence built around an implicit contrast... The third isn't really negation at all: ne...que restricts a quantity to \"only\" without denying it, and it generally keeps the article unchanged too... because nothing is actually being denied.'"
+  }
+]

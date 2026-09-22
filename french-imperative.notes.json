@@ -1,0 +1,12 @@
+[
+  {
+    "index": 1,
+    "verdict": "CONFIRMED",
+    "note": "Claim: the imperative mood doesn't change French's definite-article rules, so Ouvre la porte keeps the same article system as any other sentence. Target french-articles describes the full article system (three-way definite/indefinite/partitive split, contraction with à/de, reduction under negation) with no mood-dependent exception anywhere in the text, and nothing in that article ties article choice to indicative vs. imperative mood, so the claim that imperative sentences use the same article rules holds up against the source."
+  },
+  {
+    "index": 2,
+    "verdict": "CONFIRMED",
+    "note": "Claim: Spanish reflexive pronouns attach after an affirmative command and move back in front for a negative one, e.g. ¡Levántate! vs. No te levantes, never No levántate. Target spanish-reflexive-verbs confirms this with the identical examples verbatim: 'attaches to the end of ... an affirmative command (¡Levántate!) ... Negative commands put it back in front: No te levantes, never No levántate.'"
+  }
+]
