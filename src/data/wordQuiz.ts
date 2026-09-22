@@ -12,16 +12,21 @@ export interface WordQuizItem {
 	sourceTitle: string;
 }
 
-// Curated from src/data/guides.ts example sentences in five "confusable pair"
-// Grammar articles (por-vs-para, ser-vs-estar, preterite-vs-imperfect, saber-vs-conocer,
-// direct-vs-indirect-object-pronouns-spanish) -- see 填空判断题-实施方案_20260806.md for the
-// original four-article scope; the fifth (lo/la vs. le/les) was added 2026-09-18. Every
-// Spanish sentence, its translation, and its explanation are taken directly from that
-// article's own body/FAQ text; only the blank itself (replacing the target word) is a
-// mechanical edit, not new content. Two of the original four articles (ser-vs-estar,
-// preterite-vs-imperfect) intentionally include a same-verb contrast pair (es/está
-// simpática, es/está aquí) because the article itself uses that contrast to teach the
-// distinction.
+// Curated from src/data/guides.ts example sentences in seven "confusable pair" Grammar
+// articles (por-vs-para, ser-vs-estar, preterite-vs-imperfect, saber-vs-conocer,
+// direct-vs-indirect-object-pronouns-spanish, spanish-pronouns, japanese-particles-wa-ga-wo-ni)
+// -- see 填空判断题-实施方案_20260806.md for the original four-article scope; the fifth
+// (lo/la vs. le/les) was added 2026-09-18, the sixth and seventh (spanish-pronouns'
+// conmigo/tú/quienes/esto contrasts and japanese-particles' wa/ga/ni/de contrasts) were
+// added 2026-09-22. Neither of the last two is itself framed as a two-word "confusable
+// pair" article the way the first five are, but each sets up multiple explicit
+// right-form-vs-wrong-form or right-particle-vs-wrong-particle contrasts in its own body
+// text, which is what the quiz format actually needs. Every sentence, its translation, and
+// its explanation are taken directly from that article's own body/FAQ text; only the blank
+// itself (replacing the target word) is a mechanical edit, not new content. Two of the
+// original four articles (ser-vs-estar, preterite-vs-imperfect) intentionally include a
+// same-verb contrast pair (es/está simpática, es/está aquí) because the article itself uses
+// that contrast to teach the distinction.
 export const wordQuizItems: WordQuizItem[] = [
 	{
 		sentence: 'Salimos ___ Madrid mañana.',
@@ -304,5 +309,115 @@ export const wordQuizItems: WordQuizItem[] = [
 			'Lo compré un regalo is loísmo, using lo for an indirect object, and the RAE treats it as a genuine error in every region. Le compré un regalo is the correct form.',
 		sourceSlug: 'direct-vs-indirect-object-pronouns-spanish',
 		sourceTitle: 'Direct vs. Indirect Object Pronouns: Lo/La vs. Le/Les',
+	},
+	// Added 2026-09-22 (LingoGrove COO session): spanish-pronouns doesn't set up a two-way
+	// "right form vs. wrong form" contrast the way the six sets above do, but its own body
+	// text names five explicit contrast pairs (conmigo vs. con mí, tú vs. ti after entre,
+	// quienes vs. quien for a plural antecedent, esto vs. este for the neutral demonstrative).
+	// Sentences, translations, and explanations are taken directly from that article's own
+	// body/FAQ text; only the blank itself is a mechanical edit.
+	{
+		sentence: '¿Vienes ___?',
+		translation: 'Are you coming with me?',
+		choices: ['conmigo', 'con mí'],
+		correctIndex: 0,
+		explanation:
+			'Con forces a written fusion with mí, ti, and sí, producing conmigo, contigo, and consigo. Con mí is simply not a form Spanish uses; the fused word is mandatory.',
+		sourceSlug: 'spanish-pronouns',
+		sourceTitle: 'Spanish Pronouns: All Six Families in One Place',
+	},
+	{
+		sentence: 'Lo que hablemos será entre ___ y yo.',
+		translation: 'What we talk about will stay between you and me.',
+		choices: ['tú', 'ti'],
+		correctIndex: 0,
+		explanation:
+			'Entre is one of a handful of prepositions, along with según, excepto, salvo, and menos, that keep the plain subject-pronoun forms instead of switching to the tonic prepositional set, so it takes tú rather than the ti a learner might expect by analogy with every other preposition.',
+		sourceSlug: 'spanish-pronouns',
+		sourceTitle: 'Spanish Pronouns: All Six Families in One Place',
+	},
+	{
+		sentence: 'Según ___, somos el enemigo.',
+		translation: 'According to you, we\'re the enemy.',
+		choices: ['tú', 'ti'],
+		correctIndex: 0,
+		explanation:
+			'Según belongs to the same small group as entre: it takes the ordinary subject-pronoun form tú, not the tonic prepositional form ti that follows most other prepositions.',
+		sourceSlug: 'spanish-pronouns',
+		sourceTitle: 'Spanish Pronouns: All Six Families in One Place',
+	},
+	{
+		sentence: 'Las personas con ___ hablé.',
+		translation: 'The people I spoke with.',
+		choices: ['quienes', 'quien'],
+		correctIndex: 0,
+		explanation:
+			'Per the RAE\'s Diccionario panhispánico de dudas, quien has to become quienes when it stands in for a plural antecedent; las personas con quien hablé is now considered incorrect.',
+		sourceSlug: 'spanish-pronouns',
+		sourceTitle: 'Spanish Pronouns: All Six Families in One Place',
+	},
+	{
+		sentence: 'No entiendo ___.',
+		translation: 'I don\'t understand this. (referring to a whole situation, not one object)',
+		choices: ['esto', 'este'],
+		correctIndex: 0,
+		explanation:
+			'Esto is one of the neutral demonstratives (esto, eso, aquello), which never take a gender or a plural because they aren\'t standing in for any specific noun. Confusing neutral esto with masculine este is a real error, since este has to agree with a specific noun it replaces.',
+		sourceSlug: 'spanish-pronouns',
+		sourceTitle: 'Spanish Pronouns: All Six Families in One Place',
+	},
+	// Added 2026-09-22 (LingoGrove COO session): japanese-particles-wa-ga-wo-ni sets up two
+	// explicit contrast pairs in its own body text (wa vs. ga for topic/subject, ni vs. de
+	// for state/action at a location). Sentences, translations, and explanations are taken
+	// directly from that article's own body text; only the blank itself is a mechanical edit.
+	{
+		sentence: 'Neko ___ imasu.',
+		translation: 'There\'s a cat. (introducing the cat\'s existence as new information)',
+		choices: ['ga', 'wa'],
+		correctIndex: 0,
+		explanation:
+			'Ga is the default particle with imasu and arimasu, the existence verbs, when the sentence is introducing something as new information rather than picking it out as an already-established topic. Swapping in wa shifts the sentence toward a contrast with some other implied animal or person.',
+		sourceSlug: 'japanese-particles-wa-ga-wo-ni',
+		sourceTitle: 'Japanese Particles: Wa, Ga, Wo, and Ni (The Difference English Doesn\'t Mark)',
+	},
+	{
+		sentence: 'Dare ___ kimasu ka?',
+		translation: 'Who is coming?',
+		choices: ['ga', 'wa'],
+		correctIndex: 0,
+		explanation:
+			'A question asking exactly which specific person almost always takes ga, not wa, because naming exactly which thing is doing something is ga\'s job, not the sentence\'s topic.',
+		sourceSlug: 'japanese-particles-wa-ga-wo-ni',
+		sourceTitle: 'Japanese Particles: Wa, Ga, Wo, and Ni (The Difference English Doesn\'t Mark)',
+	},
+	{
+		sentence: 'Watashi ___ gakusei desu.',
+		translation: 'As for me, I\'m a student.',
+		choices: ['wa', 'ga'],
+		correctIndex: 0,
+		explanation:
+			'Wa sets up "me" as the topic, the thing the rest of the sentence is going to say something about, which is exactly the reading a general statement like this calls for.',
+		sourceSlug: 'japanese-particles-wa-ga-wo-ni',
+		sourceTitle: 'Japanese Particles: Wa, Ga, Wo, and Ni (The Difference English Doesn\'t Mark)',
+	},
+	{
+		sentence: 'Toshokan ___ hon ga aru.',
+		translation: 'There\'s a book in the library. (a state, not an action)',
+		choices: ['ni', 'de'],
+		correctIndex: 0,
+		explanation:
+			'Ni pins down where someone or something is. The book existing in the library is a state, not an action, so the sentence takes ni rather than de.',
+		sourceSlug: 'japanese-particles-wa-ga-wo-ni',
+		sourceTitle: 'Japanese Particles: Wa, Ga, Wo, and Ni (The Difference English Doesn\'t Mark)',
+	},
+	{
+		sentence: 'Toshokan ___ hon wo yomu.',
+		translation: 'Read a book in the library. (something actively happening at that location)',
+		choices: ['de', 'ni'],
+		correctIndex: 0,
+		explanation:
+			'De marks where an action takes place. Reading is something actively happening at that location, so the same physical place that took ni for a state of existence switches to de once it\'s about doing something there.',
+		sourceSlug: 'japanese-particles-wa-ga-wo-ni',
+		sourceTitle: 'Japanese Particles: Wa, Ga, Wo, and Ni (The Difference English Doesn\'t Mark)',
 	},
 ];
