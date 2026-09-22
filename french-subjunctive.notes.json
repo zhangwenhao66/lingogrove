@@ -1,0 +1,17 @@
+[
+  {
+    "index": 1,
+    "verdict": "CONFIRMED",
+    "note": "Claims Spanish's subjunctive shows the same asserted-versus-wanted contrast under its own set of triggering verbs. Verified by subjunctive-spanish body: 'it appears in subordinate clauses after verbs of desire, influence, doubt, and emotion' and 'it doesn’t mark when something happens, only whether the speaker presents it as fact versus wanted, doubted, ordered, or felt.'"
+  },
+  {
+    "index": 2,
+    "verdict": "CONFIRMED",
+    "note": "Claims the French imperative of avoir, être, savoir, and vouloir borrows directly from the subjunctive stems (aie, sois, sache, veuille) rather than the present indicative. Verified by french-imperative body: 'Four verbs, avoir, être, savoir, and vouloir, ignore that whole system and borrow their forms from the subjunctive instead (aie, sois, sache, veuille)' and 'Per the OQLF, their tu-form imperative is borrowed from the present subjunctive or from one of its older forms: aie (not \"as\"), sois (not \"es\"), sache (not \"sais\"), veuille (not \"veux\").'"
+  },
+  {
+    "index": 3,
+    "verdict": "CONFIRMED",
+    "note": "Claims the French/Spanish subjunctive-fossil parallel is exact in shape but differs in which register kept it alive (French: literary prose; Spanish: legal texts). Verified by subjunctive-spanish body: 'Per the RAE, their use today is reduced almost exclusively to legal texts, one of the few corners of the language where a form everyday speech abandoned centuries ago is still technically alive' — matching the body's own parallel claim that French's imperfect/pluperfect subjunctive survives almost exclusively in literary prose."
+  }
+]
