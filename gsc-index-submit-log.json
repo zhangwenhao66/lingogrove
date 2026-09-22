@@ -476,5 +476,14 @@
   "already_indexed_no_action": [],
   "quota_exceeded_attempted": [],
   "quota_used": "0（无候选可提交）"
+ },
+ {
+  "date": "2026-09-22",
+  "action": "no_candidate_skipped",
+  "reason": "今日跳过发布（Grammar分区无A档候选，B档解锁条件未满足），无新页。老页未收录巡检首次因sitemap拉取瞬时失败标记'未检查'，单独重跑python3 research-db/unindexed_pages.py lingogrove成功：sitemap 77页、零曝光0页、未收录0。本站无可提交候选，跳过，不消耗配额。",
+  "submitted_urls": [],
+  "already_indexed_no_action": [],
+  "quota_exceeded_attempted": [],
+  "quota_used": "0（无候选可提交）"
  }
 ]
