@@ -2249,9 +2249,9 @@ export const guides: Guide[] = [
 			{
 				heading: 'A mood, not a tense — "il faut que" shows the whole logic in three words',
 				body: [
-					'French verbs split across three moods — indicatif, subjonctif, impératif — and the subjonctif is the one built to mark stance rather than time. Grammar references built on Larousse\'s definitions call it the "mode de l\'irréel": its job is to mark that a clause\'s content isn\'t settled fact, in contrast with the indicative\'s job of reporting what\'s confirmed.',
+					'French verbs split across three moods (indicatif, subjonctif, impératif), and the subjonctif is the one built to mark stance, not time. Grammar references built on Larousse\'s definitions call it the "mode de l\'irréel": its job is to mark that a clause\'s content isn\'t settled fact, in contrast with the indicative\'s job of reporting what\'s confirmed.',
 					'Il faut qu\'elle vienne makes the point in three words. Faut carries the necessity, vienne is what\'s still pending — the sentence doesn\'t claim she has arrived, only that her arrival is required. Set that against Je crois qu\'elle vient, where the identical event (her coming) takes the indicative instead, because now it\'s being asserted as the speaker\'s belief rather than framed as a requirement. Both sentences point at the same near-future arrival; only the verb\'s mood shifts, tracking how confirmed or how merely required that arrival is.',
-					'That split — mood tracking stance rather than tense — runs through the subjunctive of other Romance languages too, including [Spanish](/subjunctive-spanish/), where the same asserted-versus-wanted contrast shows up under its own set of triggering verbs. In French specifically, the subjunctive is common rather than a bookish leftover: il faut que, je veux que, and c\'est dommage que put it into completely ordinary conversation, sometimes more than once in the same exchange. The mood/tense line the subjunctive draws so clearly has a genuine blur spot elsewhere in French verb grammar: [the French future](/french-future-tense/) splits into two competing forms, futur simple and futur proche, and the common "near future vs. far future" explanation for the split is wrong, the real difference is about certainty, not how soon something happens.',
+					'That split, mood tracking stance and not tense, runs through the subjunctive of other Romance languages too, including [Spanish](/subjunctive-spanish/), where the same asserted-versus-wanted contrast shows up under its own set of triggering verbs. In French specifically, the subjunctive is common, not a bookish leftover: il faut que, je veux que, and c\'est dommage que put it into completely ordinary conversation, sometimes more than once in the same exchange. The mood/tense line the subjunctive draws so clearly has a genuine blur spot elsewhere in French verb grammar: [the French future](/french-future-tense/) splits into two competing forms, futur simple and futur proche, and the common "near future vs. far future" explanation for the split is wrong, the real difference is about certainty, not how soon something happens.',
 				],
 				image: {
 					src: '/images/french-subjunctive-diagram.svg',
@@ -2262,7 +2262,7 @@ export const guides: Guide[] = [
 				heading: 'Building the regular forms: one stem, one set of endings, for every verb group',
 				body: [
 					'The regular formation rule is mechanical: take the ils/elles form of the present indicative, drop the final -ent, and add the subjunctive endings -e, -es, -e, -ions, -iez, -ent. Parler → ils parlent → parl- → que je parle, que tu parles, qu\'il parle, que nous parlions, que vous parliez, qu\'ils parlent. Finir → ils finissent → finiss- → que je finisse. Vendre → ils vendent → vend- → que je vende. The distinctive part, confirmed directly on the Office québécois de la langue française\'s own reference page for subjunctive formation, is that these same six endings apply across all three verb groups — a genuine simplification compared to the present indicative, where -er, -ir, and -re verbs each carry their own separate ending sets.',
-					'A subset of verbs splits into two stems rather than one, and the split follows a rule rather than being random per verb. For nous and vous, the stem comes from the nous form of the present indicative instead of the ils form; every other person keeps using the ils-derived stem. Boire → ils boivent gives boiv- for je/tu/il/ils (que je boive), but nous buvons gives buv- for nous/vous (que nous buvions). Venir → ils viennent gives vienn- (que tu viennes), but nous venons gives ven- (que nous venions). The same alternation between a "boot" stem and a plural stem that shows up in the present indicative for these verbs carries straight into the subjunctive.',
+					'A subset of verbs splits into two stems, not one, and the split follows a rule; it isn\'t random from verb to verb. For nous and vous, the stem comes from the nous form of the present indicative instead of the ils form; every other person keeps using the ils-derived stem. Boire → ils boivent gives boiv- for je/tu/il/ils (que je boive), but nous buvons gives buv- for nous/vous (que nous buvions). Venir → ils viennent gives vienn- (que tu viennes), but nous venons gives ven- (que nous venions). The same alternation between a "boot" stem and a plural stem that shows up in the present indicative for these verbs carries straight into the subjunctive.',
 				],
 			},
 			{
@@ -2294,27 +2294,27 @@ export const guides: Guide[] = [
 		faq: [
 			{
 				question: 'Is the French subjunctive a tense or a mood?',
-				answer: 'A mood, not a tense. French recognizes several moods (indicatif, subjonctif, impératif, and others), and the subjunctive mood has its own tenses within it (mainly present, with imperfect and pluperfect now largely confined to literary French). The question it answers isn\'t when something happens — it\'s whether the speaker presents it as fact versus wanted, doubted, necessary, or judged.',
+				answer: 'A mood, not a tense. French recognizes several grammatical moods, and subjonctif names one of them, with its own set of tenses within it (mainly present, since its older past forms are now largely confined to literary French). The question it answers isn\'t when something happens; the mood tracks how confirmed, versus merely wanted, doubted, required, or open to judgment, that thing is.',
 			},
 			{
 				question: 'Why is "il faut que" always followed by the subjunctive?',
-				answer: 'Il faut que is an impersonal expression of necessity, one of the core trigger categories alongside verbs of volition, emotion, and doubt. Necessity presents the following clause as required rather than confirmed fact, which is exactly the fact-versus-not-yet-real distinction the subjunctive mood marks.',
+				answer: 'Il faut que expresses necessity impersonally, joining the same family of triggers built from wanting, feeling, and doubting something. Necessity presents the following clause as required rather than confirmed fact, which is exactly the fact-versus-not-yet-real distinction the subjunctive mood marks.',
 			},
 			{
 				question: 'Why do avoir and être use ayons/ayez and soyons/soyez instead of the usual -ions/-iez endings?',
-				answer: 'Every French verb takes the same subjunctive endings — -e, -es, -e, -ions, -iez, -ent — except avoir and être, per the Office québécois de la langue française\'s formation reference. Those two verbs are the sole exception to the shared-endings rule, not just to the shared-stem rule; their nous/vous forms take -ons/-ez instead.',
+				answer: 'Formation is identical for almost every French verb; the sole exceptions are avoir and être, confirmed on the OQLF\'s own conjugation page. Those two verbs are the only ones that break the shared-endings rule, not just to the shared-stem rule; their nous/vous forms take -ons/-ez instead of the usual pattern.',
 			},
 			{
 				question: 'Why does "le seul qui" trigger the subjunctive in a relative clause?',
-				answer: 'Per the OQLF, a relative clause takes the subjunctive when its antecedent carries a relative superlative (le plus, le meilleur) or an adjective with superlative force (seul, premier, dernier, unique) — c\'est le seul qui ait accepté. The same rule applies when the main clause is negative, interrogative, or hypothetical. This trigger is real and commonly tested but rarely covered outside grammar-reference material.',
+				answer: 'Per the OQLF, that mood is required whenever the noun a relative clause modifies carries a built-in superlative like le plus or le meilleur, or sits behind a superlative-strength adjective such as unique, seul, dernier, or premier, as in c\'est la seule qui ait réussi. The same subjunctive trigger also kicks in if the sentence\'s main clause denies, questions, or merely supposes something. This trigger is real and commonly tested but rarely covered outside grammar-reference material.',
 			},
 			{
 				question: 'Can I still use the imperfect subjunctive in spoken French?',
-				answer: 'Not really. Its decline began in the mid-19th century and sharpened through the 20th; by now it\'s essentially absent from spoken French and rare even in writing, surviving mainly in third-person-singular literary prose reaching for an older register. Contemporary French uses the present subjunctive in its place regardless of the surrounding tense.',
+				answer: 'Not really. Its decline set in around 1850 and sharpened through the 1900s; by now it\'s essentially absent from spoken French and rare even in writing; what\'s left shows up mostly in old-fashioned, third-person-singular literary writing. Contemporary French simply reaches for the present-tense form of the subjunctive regardless of what tense surrounds it.',
 			},
 			{
 				question: 'Why does "vouloir" have two different stems in one conjugation (veuille vs. voulions)?',
-				answer: 'Vouloir follows the same two-stem pattern as verbs like boire or venir: nous and vous take their stem from the nous form of the present indicative (voulons → voulions), while every other person takes it from the ils form (veulent → veuille). Aller and valoir split the same way (aille/allions, vaille/valions).',
+				answer: 'Vouloir follows the same two-stem pattern as verbs like boire or venir: nous and vous borrow their stem from the present-tense nous form (voulons → voulions), while everyone else in the paradigm takes it from the ils form (veulent → veuille). Aller and valoir split the same way (aille/allions, vaille/valions).',
 			},
 		],
 		sources: [
@@ -2379,23 +2379,23 @@ export const guides: Guide[] = [
 		faq: [
 			{
 				question: 'How do I know whether to use weak, strong, or mixed endings on a German adjective?',
-				answer: 'Check what comes immediately before the adjective. A definite article, or a similar word like dieser or jener, signals weak endings (-e or -en only). No article at all signals strong endings, where the adjective borrows the definite article\'s own forms. An indefinite article or possessive (ein, kein, mein, dein, sein, ihr, unser, euer) signals mixed endings: strong only in the three spots where that article itself has no ending (masculine nominative singular, neuter nominative singular, neuter accusative singular), weak everywhere else.',
+				answer: 'Check what comes immediately before the adjective. A definite article, or a related word such as dieser or jener, signals weak endings (-e or -en only). No article at all signals strong endings, where the adjective borrows forms that der, die, or das would otherwise carry. Seeing ein, kein, or one of the possessives (ihr, mein, euer, dein, unser, sein) in front signals mixed endings: it borrows the strong form only in the article\'s blank spots, three narrow slots in the singular (masculine/nominative, neuter/nominative, and neuter/accusative), and stays weak everywhere else.',
 			},
 			{
 				question: 'Why is it "der kalte Kaffee" but "kalter Kaffee" without "der"?',
-				answer: '"Der" already shows masculine, nominative, and singular on its own, so the weak adjective ending after it only needs to be the plain -e. Drop "der," and nothing else in the phrase marks that information, so "kalt" has to do it itself, taking -er, the same ending "der" carries in that position.',
+				answer: '"Der" already marks the noun as masculine, singular, and in the nominative, all by itself, so the weak adjective ending after it only needs to be the plain -e. Drop "der," and nothing else in the phrase marks that information, so "kalt" has to mark it alone, picking up -er, the very ending "der" carries in that position.',
 			},
 			{
 				question: 'Why does "ein kalter Kaffee" change to "einen kalten Kaffee" in the accusative?',
-				answer: '"Ein" has no ending in the masculine nominative singular, so "kalt" takes the strong -er to mark that slot itself: "ein kalter Kaffee." In the accusative, "ein" becomes "einen," which does carry an ending, so the adjective switches to the weak -en instead: "einen kalten Kaffee." The article and the adjective never both mark the same information at once; whichever one has an ending in a given case, gender, and number combination is the one that carries it.',
+				answer: '"Ein" carries no ending when the noun is masculine, singular, and in the nominative, so "kalt" has to show it on its own, picking up the strong ending -er: "ein kalter Kaffee." Once the phrase turns accusative, "ein" becomes "einen," which does carry an ending, so the adjective switches to the weak -en instead: "einen kalten Kaffee." The article and the adjective never both mark the same information at once; whichever one carries an ending for that particular case-gender-number slot is the one that does the marking.',
 			},
 			{
 				question: 'Why is the genitive singular "kalten Kaffees" and not "kaltes Kaffees"?',
-				answer: 'Strong declension otherwise mirrors the definite article\'s own endings almost exactly, but the genitive singular masculine and neuter are the one place it does not: the adjective takes -en instead of the expected -es. Wikipedia\'s "Deutsche Deklination" entry, citing Duden-Redaktion\'s Die Grammatik (8th edition, 2009, p. 363), records this as the standing exception to the pattern. The likely reason is that the noun already shows the genitive with its own -s ending (Kaffees, Wassers), so marking it a second time on the adjective would be redundant.',
+				answer: 'Strong declension otherwise mirrors der, die, and das closely, endings and all, but neuter and masculine nouns break that pattern in one narrow spot, the singular genitive, where -en shows up instead of the expected -es. This exception is documented directly in the German Wikipedia entry cited above. The likely explanation: the noun itself already signals the genitive via its own -s ending, as in Kaffees or Wassers, so showing it again on kalten would just say what that -s has already covered.',
 			},
 			{
 				question: 'Does "Der Kaffee ist kalt" use any of these endings?',
-				answer: 'No. Weak, strong, and mixed endings only apply to an adjective placed directly in front of the noun it modifies, called attributive use. Used after a linking verb like "sein" (predicative use) or modifying a verb instead of a noun (adverbial use), German adjectives take no ending at all, in any case, gender, or number. "Der Wahn ist kurz, die Reu ist lang," from Schiller\'s Das Lied von der Glocke, leaves "kurz" and "lang" completely unmarked even though "Wahn" is masculine and "Reu" is feminine.',
+				answer: 'No. These three endings only apply when the adjective sits right before its noun, what grammarians call attributive use. When the adjective instead follows a verb such as "sein" (predicative use), or describes an action rather than a noun (adverbial use), none of them apply at all, full stop. The Schiller line covered above, with "kurz" and "lang" left bare despite "Wahn" being masculine and "Reu" being feminine, is exactly this pattern in action.',
 			},
 		],
 		sources: [
@@ -3362,12 +3362,12 @@ export const guides: Guide[] = [
 			{
 				heading: 'Five families, and three of them share their forms',
 				body: [
-					'French splits pronouns into five separate jobs rather than one all-purpose list, and per the Office québécois de la langue française\'s own reference on personal pronouns, several of the forms do double duty across those jobs instead of each family getting its own unique set of words. Subject pronouns (je, tu, il/elle/on, nous, vous, ils/elles) trigger the verb\'s conjugation and never do anything else. Direct object pronouns (me, te, le/la, nous, vous, les) stand in for whatever the verb acts on with no preposition in between: Je vois Marc becomes Je le vois. Indirect object pronouns (me, te, lui, nous, vous, leur) take over the same slot when the noun is attached to the verb by à: Je parle à Marc becomes Je lui parle.',
+					'French splits pronouns into five separate jobs rather than one all-purpose list, and per the Office québécois de la langue française\'s own reference on personal pronouns, several of the forms do double duty across those jobs, without each family getting its own unique set of words. Subject pronouns (je, tu, il/elle/on, nous, vous, ils/elles) trigger the verb\'s conjugation and never do anything else. Direct object pronouns (me, te, le/la, nous, vous, les) stand in for whatever the verb acts on with no preposition in between: Je vois Marc becomes Je le vois. Indirect object pronouns (me, te, lui, nous, vous, leur) take over the same slot when the noun is attached to the verb by à: Je parle à Marc becomes Je lui parle.',
 					'Line those two object rows up and the overlap is obvious: me, te, nous, and vous are identical whether the object is direct or indirect. Only the third person actually splits, le/la against lui, and les against leur, which means most of the real learning curve in this system sits in one grammatical person, not across all six. Which pronoun family a verb takes in the first place comes down to its preposition, and [French prepositions](/french-prepositions/) don\'t map onto English ones any more predictably than these pronoun families do: à, en, and dans can all translate as English "in," which is exactly the kind of mismatch that makes memorizing a verb\'s preposition, not its English translation, the only reliable way to pick the right pronoun family too.',
 				],
 				image: {
 					src: '/images/french-pronouns-diagram.svg',
-					alt: 'Decision-tree diagram for choosing a French object pronoun: no preposition leads to a direct object pronoun, verb + à + person leads to lui/leur, verb + à + thing or place leads to y, verb + de + thing or quantity leads to en, and a short list of exception verbs (penser à, tenir à, croire à, and others) routes a person back to a disjunctive pronoun instead of lui/leur.',
+					alt: 'Decision-tree diagram for choosing a French object pronoun: no preposition leads to a direct object pronoun, verb + à + person leads to lui/leur, verb + à + thing or place leads to y, verb + de + thing or quantity leads to en, and a short list of exception verbs (penser à, tenir à, croire à, and others) routes a person back to a disjunctive pronoun, not lui/leur.',
 				},
 			},
 			{
@@ -3396,7 +3396,7 @@ export const guides: Guide[] = [
 			{
 				heading: 'Disjunctive pronouns: after prepositions, for emphasis, and standing alone',
 				body: [
-					'Disjunctive pronouns, moi, toi, lui, elle, soi, nous, vous, eux, elles, are the pronouns French reaches for whenever a personal pronoun has to stand on its own rather than attach directly to a conjugated verb. Per the OQLF\'s reference on the disjunctive pronoun, that covers several distinct situations: after any preposition other than the à that routes to lui, leur, or y (avec moi, chez eux, pour toi), for emphasis or contrast (Moi, je pense que...), inside a compound subject or object (Toi et moi, nous sommes de bons amis), standing completely alone or right after c\'est (C\'est moi), and the exception-verb pattern from the previous section (penser à elle).',
+					'Disjunctive pronouns, moi, toi, lui, elle, soi, nous, vous, eux, elles, are the pronouns French reaches for whenever a personal pronoun has to stand on its own, not attach directly to a conjugated verb. Per the OQLF\'s reference on the disjunctive pronoun, that covers several distinct situations: after any preposition other than the à that routes to lui, leur, or y (avec moi, chez eux, pour toi), for emphasis or contrast (Moi, je pense que...), inside a compound subject or object (Toi et moi, nous sommes de bons amis), standing completely alone or right after c\'est (C\'est moi), and the exception-verb pattern from the previous section (penser à elle).',
 					'Soi is the odd one out on that list: it pairs with an indefinite or generic subject rather than a specific person, as in chacun pour soi or on doit avoir confiance en soi, and it never substitutes for a named il or elle the way the other eight forms do.',
 				],
 			},
@@ -3411,23 +3411,23 @@ export const guides: Guide[] = [
 		faq: [
 			{
 				question: 'Why is "je pense à elle" correct but "je lui pense" is wrong?',
-				answer: 'Penser à is one of a short, fixed list of verbs, including songer à, croire à, tenir à, renoncer à, recourir à, être à, faire attention à, and rêver à, that route a personal object to à plus a disjunctive pronoun (moi, toi, lui, elle, nous, vous, eux, elles) instead of the ordinary lui/leur pattern most à-verbs use. This is a fixed exception tied to the specific verb, not a general rule; téléphoner à, right next to it in form, does take lui (je lui téléphone).',
+				answer: 'Penser à belongs to a small, closed set of verbs, among them croire à and rêver à, whose person-referring à-object shifts to disjunctive form, the same stressed set that follows most other prepositions, rather than the ordinary lui/leur pattern most à-verbs use. This is a fixed exception tied to the specific verb, not a general rule; téléphoner à, right next to it in form, does take lui (je lui téléphone).',
 			},
 			{
 				question: 'How do I know whether "à + noun" needs "lui/leur" or "y"?',
-				answer: 'It depends on whether the noun after à is a person or a thing/place, not on the verb itself. Most verbs send a personal à-object to lui or leur (je lui téléphone) and a thing- or place-based à-object to y (j\'y réponds, j\'y vais). Y never stands for a person.',
+				answer: 'It depends on whether the noun after à names a human being or a thing/place, not on the verb itself. Most verbs send a personal à-object to lui or leur (je lui téléphone) and a thing- or place-based à-object to y (j\'y réponds, j\'y vais). You won\'t see y used for a person.',
 			},
 			{
 				question: 'Can "en" ever refer to a person?',
-				answer: 'Yes. Per the OQLF, en most often stands for a thing or an animal but is explicitly accepted for a person too, and not only in counting expressions like J\'ai deux frères becomes J\'en ai deux; Mes deux enfants, j\'en suis très fier ("My two children, I\'m very proud of them") replaces a personal complement without counting anything. For a single, specific person named as the sentence\'s sole focus, French still tends to reach for the disjunctive pronoun instead, je parle de lui rather than j\'en parle.',
+				answer: 'Yes. Per the OQLF, en usually points to a thing or a creature, but French also lets it fill in for a person, and not just when counting, as in J\'ai trois sœurs becomes J\'en ai trois; Sa fille aînée, il en est très fier ("His eldest daughter, he\'s very proud of her") replaces a personal complement without counting anything. When the sentence is about one particular person and nothing else, French tends to name that person with lui or elle rather than en, saying je parle de lui instead of j\'en parle.',
 			},
 			{
 				question: 'What order do two object pronouns go in in a normal French sentence?',
-				answer: 'Me/te/se/nous/vous, then le/la/les, then lui/leur, then y, then en, in that fixed sequence: il me le donne, il le lui donne, il y en a. That order is specific to declarative and negative sentences; it flips for an affirmative command, where the direct object pronoun moves ahead of the indirect one instead (donne-le-moi).',
+				answer: 'French fixes the order for a pair of object pronouns, and it always runs the same way: starting with me/te/se/nous/vous and moving through le/la/les, lui/leur, y, and finally en. That gives forms like il me le donne, il le lui donne, il y en a. The order holds for statements and negatives only; giving a command flips it, so donne-le-moi puts le before moi rather than the usual moi before le.',
 			},
 			{
 				question: 'Is "lui" always an indirect object pronoun?',
-				answer: 'No, lui does two separate jobs that happen to share a spelling. As an indirect object pronoun it attaches to the verb (je lui parle). As a disjunctive pronoun it stands alone or after a preposition (avec lui, c\'est lui, je pense à lui with the penser-à exception verbs). The two uses are grammatically distinct even though the word is identical.',
+				answer: 'No, lui does two separate jobs that happen to share a spelling. Used to replace an à-linked object, it attaches to the verb (je lui parle). In its disjunctive role, it stands alone or follows a preposition (avec lui, c\'est lui, je pense à lui with the penser-à exception verbs). The two uses are grammatically distinct even though the word is identical.',
 			},
 			{
 				question: 'Why do "me," "te," "nous," and "vous" look the same as both direct and indirect object pronouns?',
@@ -3939,7 +3939,7 @@ export const guides: Guide[] = [
 		description: 'À, en, and dans can all translate as "in," chez only ever precedes a person, and countries split three separate ways. The structural rules behind each one.',
 		published: '2026-08-19',
 		updated: '2026-08-19',
-		coreSummary: 'French prepositions don\'t map onto English one-to-one: à, en, and dans can each translate as "in" depending on what follows, chez only ever precedes a person or profession and never a place, and country names split into en (feminine), au (masculine), and aux (plural) rather than taking one fixed word. Time works on a separate axis: depuis marks a duration still in progress, pendant marks one that\'s already finished, and pour marks one still to come.',
+		coreSummary: 'French prepositions don\'t map onto English one-to-one: à, en, and dans can each translate as "in" depending on what follows, chez only ever precedes a person or profession and never a place, and country names split three ways by gender: en (feminine), au (masculine), and aux (plural), with no single word covering every country. Time works on a separate axis: depuis marks a duration still in progress, pendant marks one that\'s already finished, and pour marks one still to come.',
 		language: 'French',
 		sections: [
 			{
@@ -3952,28 +3952,28 @@ export const guides: Guide[] = [
 			{
 				heading: 'À: a point on a map, and a mandatory fusion with le and les',
 				body: [
-					'À marks a location treated as a single point rather than a container: a city (à Paris, à Tokyo), a specific address or spot (à la gare, à l\'école, au marché), or a moment in time treated as a fixed point (à midi, à trois heures). It doesn\'t carry any sense of physically being enclosed by something; it just marks where or when.',
+					'À marks a location treated as a single point, not a container: a city (à Paris, à Tokyo), a specific address or spot (à la gare, à l\'école, au marché), or a moment in time treated as a fixed point (à midi, à trois heures). It doesn\'t carry any sense of physically being enclosed by something; it just marks where or when.',
 					'The same fusion covered in [French articles](/french-articles/) applies here without exception: à never sits directly next to le or les. À + le becomes au (au marché, never à le marché), and à + les becomes aux (aux Pays-Bas, never à les Pays-Bas). À la and à l\' don\'t contract with anything and stay as two separate words.',
 				],
 			},
 			{
 				heading: 'Dans and en: a container versus a category, and two different "in ten minutes"',
 				body: [
-					'Dans marks literal physical enclosure: dans le tiroir (in the drawer), dans la voiture (in the car), dans la boîte (in the box). Something is dans another thing when it\'s spatially inside it.',
-					'En marks membership in a category or a mode, not physical containment: en France treats the country as a category the speaker is part of, not a container holding them, and en voiture (by car) or en général (in general) work the same way, describing a mode or manner rather than an enclosure.',
+					'Dans points to physical enclosure in the literal sense: dans le tiroir (in the drawer), dans la voiture (in the car), dans la boîte (in the box). Something is dans another thing when it\'s spatially inside it.',
+					'En marks membership in a category or a mode, not physical containment: en France treats the country as a category the speaker is part of, not a container holding them, and en voiture (by car) or en général (in general) work the same way: they describe a mode or manner, not an enclosure.',
 					'The same split carries over into time, and it\'s one of the more common mix-ups for English speakers, since "in ten minutes" covers both cases in English. En + a time span states how long an action takes to complete: Je peux me préparer en dix minutes ("I can get ready within ten minutes") is about the duration of the getting-ready itself. Dans + a time span marks a future point measured from now: Nous partons dans dix minutes ("we\'re leaving ten minutes from now") is about when departure happens, not how long it takes. Swapping the two changes whether the sentence is describing a duration or a deadline.',
 				],
 				image: {
 					src: '/images/french-prepositions-diagram.svg',
-					alt: 'Diagram contrasting à (a point), dans (a container), and en (a category) with example sentences, chez as the preposition reserved for people rather than places, the three-way en/au/aux split for country names with the five masculine exceptions ending in -e, en versus dans with time spans, and depuis/pendant/pour as three unrelated ways to translate "for."',
+					alt: 'Diagram contrasting à (a point), dans (a container), and en (a category) with example sentences, chez as the preposition reserved only for people, never places, the three-way en/au/aux split for country names with the five masculine exceptions ending in -e, en versus dans with time spans, and depuis/pendant/pour as three unrelated ways to translate "for."',
 				},
 			},
 			{
 				heading: 'Chez: the preposition reserved only for people',
 				body: [
-					'Per Larousse\'s entry on chez, the word refers to "la demeure ou le local professionnel de quelqu\'un," someone\'s home or professional premises, with the dictionary\'s own example Aller chez le médecin ("go to the doctor\'s"). Chez always attaches to a person, or to a profession or role standing in for a person; it never attaches to a place name directly the way à does.',
+					'Per Larousse\'s entry on chez, the word refers to "la demeure ou le local professionnel de quelqu\'un," someone\'s home or professional premises, with the dictionary\'s own example Aller chez le médecin ("go to the doctor\'s"). Chez only ever precedes a person, or a profession or role filling in for one; a place name never follows it directly the way it does with à.',
 					'That distinction stays visible even when two phrases point at the same physical spot. À la boulangerie names the place itself, the shop as a location. Chez le boulanger names the person who runs it, and going chez le boulanger lands you in the same building, but grammatically one phrase is a location and the other is a person whose workplace happens to be implied.',
-					'Chez also takes the disjunctive pronouns covered in [French pronouns](/french-pronouns/) rather than subject pronouns: chez moi, chez toi, chez eux, never chez je or chez ils. That\'s the same rule that puts a disjunctive pronoun after any other preposition, from avec moi to pour toi.',
+					'Chez also takes the disjunctive pronouns covered in [French pronouns](/french-pronouns/), not subject pronouns: chez moi, chez toi, chez eux, never chez je or chez ils. That\'s the same rule that puts a disjunctive pronoun after any other preposition, from avec moi to pour toi.',
 				],
 			},
 			{
@@ -3996,23 +3996,23 @@ export const guides: Guide[] = [
 		faq: [
 			{
 				question: 'Why does "in France" use en but "in Japan" use au?',
-				answer: 'French picks the country preposition by grammatical gender and number, not by geography. France is feminine, so it takes en; Japan (le Japon) is masculine, so it takes au. Plural-name countries like the United States take aux (aux États-Unis). A handful of countries, including le Mexique and le Cambodge, end in -e but are masculine anyway and take au despite the usual "-e means feminine" pattern.',
+				answer: 'French picks the country preposition by whether the country name is grammatically masculine, feminine, or plural, not by geography. France is feminine, so it takes en; Japan (le Japon) is masculine, so it takes au. Plural-name countries like the United States take aux (aux États-Unis). A handful of countries, including le Mexique and le Cambodge, end in -e but are masculine anyway and take au despite the usual expectation that an -e ending signals a feminine noun.',
 			},
 			{
 				question: 'What\'s the real difference between à and dans?',
-				answer: 'À treats a location as a single point, used for cities, addresses, and moments in time (à Paris, à midi). Dans marks literal physical enclosure, something spatially inside something else (dans le tiroir, dans la voiture). They aren\'t interchangeable: à Paris means "in/at Paris" as a city, while dans Paris would describe something physically within the city\'s boundaries, a much narrower and less common usage.',
+				answer: 'À treats a location as one fixed point, used for cities, addresses, and moments in time (à Paris, à midi). Dans marks literal physical enclosure, something spatially inside something else (dans le tiroir, dans la voiture). You can\'t swap one for the other: à Paris means "in/at Paris" as a city, while dans Paris would describe something physically within the city\'s boundaries, a much narrower and less common usage.',
 			},
 			{
 				question: 'Can chez ever refer to a place instead of a person?',
-				answer: 'No. Chez always attaches to a person, or to a profession or role standing in for one, per Larousse\'s own definition ("la demeure ou le local professionnel de quelqu\'un," someone\'s home or professional premises). À la boulangerie names the bakery as a place; chez le boulanger names the baker and implies going to wherever that person works. The two phrases can point at the same physical spot, but grammatically one names a location and the other names a person.',
+				answer: 'No. Chez always attaches to a person, or to a job title standing in for one. Larousse\'s definition centers on where someone lives or works, never on a building\'s name by itself. À la boulangerie simply labels the shop itself; chez le boulanger, in contrast, points to the baker and implies going wherever that person happens to work. The two phrases can point at the exact same address, yet only one of them names a place, and the other names a person.',
 			},
 			{
 				question: 'What\'s the difference between en dix minutes and dans dix minutes?',
-				answer: 'En dix minutes states how long an action takes to complete: Je peux me préparer en dix minutes means the getting-ready itself takes ten minutes. Dans dix minutes marks a future point measured from now: Nous partons dans dix minutes means departure happens ten minutes from now. One describes a duration, the other a deadline.',
+				answer: 'En dix minutes tells you how long the action itself takes: Elle finit ses devoirs en dix minutes ("she finishes her homework in ten minutes") means the finishing itself takes ten minutes. Dans dix minutes points ten minutes ahead on the clock: Le film commence dans dix minutes means the movie begins ten minutes later, not that it\'s already running. One describes a duration, the other a deadline.',
 			},
 			{
 				question: 'Why does depuis pair with the present tense when English uses "have been"?',
-				answer: 'Depuis marks the starting point of a state or action that\'s still continuing at the moment of speaking, and French treats that as a present-tense fact rather than a completed past event. J\'habite ici depuis dix ans uses habite (present) because the living arrangement is still true right now. English "I have lived here for ten years" uses a perfect construction to do the same job, but French doesn\'t need one, since the present tense already implies the action is ongoing.',
+				answer: 'Depuis anchors the moment something began and treats it as still true right now, so French uses a present-tense fact rather than a completed past event. Il travaille ici depuis cinq ans ("he\'s worked here for five years") puts travaille in the present tense since the job hasn\'t ended. He\'s still there as the sentence is spoken. English "he has worked here for five years" uses a perfect construction to do the same job, but French doesn\'t need one, since the present tense already implies the action is ongoing.',
 			},
 		],
 		sources: [
@@ -4176,23 +4176,23 @@ export const guides: Guide[] = [
 		faq: [
 			{
 				question: 'Why does "elle s\'est lavée" have an -e but "elle s\'est lavé les mains" doesn\'t?',
-				answer: 'The participle agrees with the direct object, and only when that direct object comes before the verb. In elle s\'est lavée, se is itself the direct object (she washed who? herself) and it sits before the verb, so the participle agrees. In elle s\'est lavé les mains, the direct object is les mains (she washed what? her hands), which follows the verb instead of se, so the participle stays invariable. The OQLF documents this as the same rule that governs any participle used with avoir; the pronominal form doesn\'t get a separate rule.',
+				answer: 'The participle tracks a preceding direct object; se only qualifies as one in the first sentence. In elle s\'est lavée, se plays the direct-object role itself (she washed who? herself), and crucially it comes ahead of the verb, so the participle agrees. Add les mains as the object instead (she washed her hands, not herself), and the noun that now counts as the object is that phrase, sitting after the verb rather than before it, so the participle stays invariable. The OQLF treats this the same way ordinary verbs get checked for agreement when paired with avoir, not as a special pronominal-only rule.',
 			},
 			{
 				question: 'What makes a verb "essentiellement pronominal" in French?',
-				answer: 'A verb where the bare, non-pronominal form doesn\'t exist as a word at all. Per the OQLF, méfier, enquérir, souvenir, and enfuir aren\'t French verbs on their own; only se méfier, s\'enquérir, se souvenir, and s\'enfuir exist. Because the pronoun in these verbs doesn\'t represent the subject, an object, or anyone else, it has no direct- or indirect-object role to analyze, and the past participle simply agrees with the subject every time, with no exceptions.',
+				answer: 'A verb that has no life at all without se attached. Per the OQLF, méfier, enquérir, souvenir, and enfuir aren\'t French verbs on their own; only se méfier, s\'enquérir, se souvenir, and s\'enfuir exist. Because the pronoun in these verbs doesn\'t stand for anything else in the sentence, not the subject, not an object, it has no direct- or indirect-object role to analyze, so its participle simply matches the subject\'s gender and number, full stop.',
 			},
 			{
 				question: 'Do all French pronominal verbs use être in the passé composé?',
-				answer: 'Yes, without exception, across all four types Larousse identifies. Per the OQLF, "le verbe pronominal conjugué à un temps composé se construit toujours avec l\'auxiliaire être." That holds for réfléchi verbs (je me suis réjoui), réciproque verbs (ils se seraient mariés), essentiellement pronominal verbs (elles se seront enfuies), and sens passif verbs alike. Ordinary French verbs mostly default to avoir, with être reserved for a short memorized list of motion and state verbs, but the pronominal form itself overrides that default entirely.',
+				answer: 'Yes, without exception, across all four types Larousse identifies. Per the OQLF, être is mandatory the moment a pronominal verb hits a compound tense, no matter which of the four categories it falls into. That holds whether the verb is réfléchi (je me suis réjoui), réciproque (ils se seraient mariés), one with no non-reflexive form at all (ils se seront évanouis), or sens passif. Ordinary French verbs mostly default to avoir, with être kept for a short list of movement and existence verbs, but being pronominal at all overrides that default, regardless of what the verb would otherwise take.',
 			},
 			{
 				question: 'How do you tell a reflexive verb from a reciprocal one when the subject is plural?',
-				answer: 'A plural subject alone doesn\'t decide it. Per the OQLF, mes deux frères ne se rasent jamais la fin de semaine is réfléchi even with a plural subject, because each brother shaves himself rather than the other; Paul et France s\'observent is réciproque, because each one is acting on the other. When a sentence could go either way, French can spell out the mutual reading with mutuellement, réciproquement, or l\'un l\'autre, the way English might add "each other" for the same reason.',
+				answer: 'A plural subject alone doesn\'t decide it. Reflexive readings are just as available with a plural subject as a singular one: mes sœurs se coiffent chaque matin is réfléchi because each sister does her own hair, not each other\'s; Léo et Sami se disputent souvent is réciproque, because each one is arguing with the other. When a sentence could go either way, French has a way to make the mutual sense explicit: tack on mutuellement, réciproquement, or l\'un l\'autre, the way English might add "each other" for the same reason.',
 			},
 			{
 				question: 'Does negating a French pronominal verb work any differently?',
-				answer: 'No. The reflexive pronoun stays attached to the conjugated verb the same way any object pronoun does, and ne...pas simply sandwiches the pair, following the same [word order rules](/french-negation/) that apply to every other negated verb: elle ne se lave pas, ils ne se sont pas téléphoné. The pronoun never moves outside the ne...pas frame the way it would for an affirmative command.',
+				answer: 'No. The se pronoun stays attached to the conjugated verb the same way any object pronoun does, and ne...pas simply sandwiches the pair, following the same [word order rules](/french-negation/) that apply to every other negated verb: elle ne se lave pas, ils ne se sont pas téléphoné. The pronoun never moves outside the ne...pas frame the way it would for an affirmative command.',
 			},
 		],
 		sources: [

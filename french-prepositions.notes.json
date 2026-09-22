@@ -1,0 +1,7 @@
+[
+  {
+    "index": 1,
+    "verdict": "CONFIRMED",
+    "note": "Claims the à+le/à+les fusion rule from french-articles applies without exception. Verified by french-articles body: 'à and de fuse with le and les into au, aux, du, and des whenever a definite article follows them (never with la or l’)', and its FAQ#2: 'With le and les, always: à + le → au, à + les → aux, ... there’s no way around it in standard French.'"
+  }
+]

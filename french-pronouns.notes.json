@@ -1,0 +1,7 @@
+[
+  {
+    "index": 1,
+    "verdict": "CONFIRMED",
+    "note": "Claims Spanish blocks le/les directly before lo/la/los/las and substitutes se instead (se lo doy, never le lo doy). Verified by double-object-pronouns-spanish body: 'The one pairing Spanish blocks outright is le or les sitting directly in front of lo, la, los, or las; that specific sequence doesn’t exist as a spoken form. Whenever it would occur, le/les is replaced by se... Le doy el libro a María becomes, once el libro is also pronominalized, Se lo doy, never Le lo doy.'"
+  }
+]

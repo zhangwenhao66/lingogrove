@@ -1,0 +1,7 @@
+[
+  {
+    "index": 1,
+    "verdict": "CONFIRMED",
+    "note": "Claims pronominal-verb negation (elle ne se lave pas, ils ne se sont pas téléphoné) follows the same ne...pas word-order rules as any other negated verb. Verified against french-negation body: 'In a simple tense, the sandwich just wraps the one verb' (matches elle ne se lave pas) and for compound tenses 'most negative words squeeze into the gap between them, exactly where pas sits' between the auxiliary and past participle (matches ils ne se sont pas téléphoné, where pas sits between sont and téléphoné). Nothing in the target article carves out an exception for pronominal/reflexive verbs."
+  }
+]
