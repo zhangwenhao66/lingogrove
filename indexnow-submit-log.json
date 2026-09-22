@@ -137,7 +137,8 @@
     "verified_status": "stale_not_indexed",
     "note": "discovered 04 Aug 2026, 账龄15天, 超14天阈值(此前08-17标注恰好14天逼近阈值,本次确认转stale)",
     "last_checked_date": "2026-08-19",
-    "verified_method": "bwt_url_inspection"
+    "verified_method": "bwt_url_inspection",
+    "last_submitted_date": "2026-09-22"
   },
   "https://lingogrove.com/ser-vs-estar/": {
     "submitted_date": "2026-09-03",

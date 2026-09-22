@@ -1913,3 +1913,36 @@
   "escalation": null
 }
 ```
+
+```json
+{
+  "url_slug": "por-vs-para",
+  "last_audited": "2026-09-22",
+  "published_date": "2026-08-03",
+  "findings": [
+    {
+      "dimension": "语法准确性/EEAT",
+      "status": "未发现问题",
+      "detail": "WebSearch核对RAE《El buen uso del español》'Las preposiciones por y para'原文：para表移动终点(destino)/por表移动轨迹(trayectoria del movimiento)，与本文destination/motion-through分类一致；RAE明确'por tres meses'一类时长用法虽曾被质疑为英语借用结构但实为西语固有正当用法，与本文duration类别举例逻辑吻合。RAE与Spanish Academy两条来源链接curl均403，Spanish Academy换浏览器UA后200确认反爬网关非死链，RAE用WebSearch直接核实到原文内容确认真实有效。"
+    },
+    {
+      "dimension": "机械散文检查（第14项）",
+      "status": "发现真实问题并修复",
+      "detail": "本文2026-08-03发布，早于2026-08-30上线的check_prose_patterns.py，此前从未被检查过。首次运行报警：FAQ#2（\"由于Try substituting...rather than derived from the rule\"）与正文\"A test that actually works\"小节末句重合35字符；FAQ#3（\"por el parque\"例句）与正文\"Motion through a place\"小节例句重合20字符。迭代3轮改写为同义转述（保留全部西语例句与语法要点不变），确认退出码0。"
+    },
+    {
+      "dimension": "技术SEO/schema/内链",
+      "status": "未发现问题",
+      "detail": "title 54字符、meta description 146字符、canonical自指、单一H1、schema含Article+FAQPage(4条)+BreadcrumbList；正文含2条站内链接（spanish-conjunctions/ser-vs-estar），非孤儿页；本站Grammar类文章无hero图片字段属站点设计选择（内嵌SVG对比图代替），非缺陷。"
+    }
+  ],
+  "actions_taken": [
+    "改写FAQ#2、FAQ#3为同义转述，消除与正文的≥20字符逐字重合，事实/例句不变",
+    "updated字段从2026-08-04改为2026-09-22（published字段本已存在，无需回填）"
+  ],
+  "seo_score": "未发现问题，无需改动",
+  "geo_score": "未发现问题",
+  "verification": "check_prose_patterns.py四项全过；check_bridge_opener_reuse.py未命中；npm run build 87页0 error；seo_drift.py compare仅WARNING(FAQ schema变化，预期)无CRITICAL；绕缓存curl确认200且新FAQ措辞已生效；node tools/submit-indexnow.mjs提交成功(Bing 200/Yandex 202)",
+  "escalation": null
+}
+```
