@@ -97,7 +97,7 @@ export const guides: Guide[] = [
 		title: 'Por vs. Para: The Actual Difference (With Real Examples)',
 		description: 'Por and para both translate as "for," which is exactly why English speakers mix them up. The real rule has nothing to do with translation.',
 		published: '2026-08-03',
-		updated: '2026-08-04',
+		updated: '2026-09-22',
 		coreSummary: 'Para marks purpose, destination, deadline, or recipient: the thing an action is aimed at. Por marks cause, means, duration, exchange, or motion through a place: the thing an action moves through or comes from. Both can translate as English "for," which is exactly why the English translation is the wrong tool for choosing between them.',
 		language: 'Spanish',
 		sections: [
@@ -156,11 +156,11 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'Is there a quick test for choosing por or para?',
-				answer: 'Try substituting the English phrase. If "in order to" or "by [a deadline]" fits, use *para*. If "because of," "through," "by means of," or "in exchange for" fits, use *por*. It fails on a small set of fixed idioms (like *para siempre*, "forever"), which are worth memorizing as exceptions rather than derived from the rule.',
+				answer: 'Try substituting the English phrase. Words like "in order to" or a stated deadline point to *para*; a cause, a method, or a trade being made points to *por*. A small set of fixed idioms, like *para siempre* ("forever"), do not follow either test and are simply worth memorizing on their own.',
 			},
 			{
 				question: 'Why does "por el parque" mean something different from "para el parque"?',
-				answer: '*Caminamos por el parque* means walking through the park: the park is the path, not the goal. *Caminamos para el parque* means walking toward the park as a destination. Same verb, same object, opposite relationship between the walker and the place.',
+				answer: 'With *por*, the park is only the route, someplace you cross on the way to wherever you are actually going. Switch to *para* and the park itself becomes the goal, the place you are headed. Same verb, same object, opposite relationship between the walker and the place.',
 			},
 			{
 				question: 'Does the por/para distinction disappear in casual speech?',
