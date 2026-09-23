@@ -1206,7 +1206,7 @@ export const guides: Guide[] = [
 				],
 				image: {
 					src: '/images/spanish-reflexive-verbs-diagram.svg',
-					alt: 'Comparison of four Spanish verb pairs (ir/irse, dormir/dormirse, quedar/quedarse, comer/comerse) showing how adding "se" shifts each verb\'s meaning rather than making it reflexive.',
+					alt: 'Comparison of four Spanish verb pairs (ir/irse, dormir/dormirse, quedar/quedarse, comer/comerse) showing how adding "se" shifts each verb\'s meaning without turning it reflexive.',
 				},
 			},
 			{
@@ -1228,19 +1228,19 @@ export const guides: Guide[] = [
 		faq: [
 			{
 				question: 'What\'s the real difference between a reflexive verb and a pronominal verb in Spanish?',
-				answer: 'A true reflexive verb uses "se" (or me/te/nos/os) to refer back to the same person performing the action, so the subject and object are the same entity: *me lavo* really does mean "I wash myself." A pronominal verb uses the identical pronouns, but the "se" doesn\'t stand for a person at all: it shifts the verb\'s meaning instead, as in *dormirse* (to fall asleep) or *irse* (to leave). The RAE recommends the broader term "pronominal" precisely because "reflexive" only accurately describes the first kind.',
+				answer: 'A textbook reflexive verb uses "se" (or me/te/nos/os) so the pronoun points to the very person carrying out the action, meaning whoever performs the action and whoever receives it turn out to be one and the same person: *me lavo* really does mean "I wash myself." A pronominal verb uses the identical pronouns, but the "se" doesn\'t stand for a person at all: it shifts the verb\'s meaning instead, as in *dormirse* (to fall asleep) or *irse* (to leave). The RAE recommends the broader term "pronominal" precisely because "reflexive" only accurately describes the first kind.',
 			},
 			{
 				question: 'How do you know if "se conocen" means "they know each other" or "they know themselves"?',
-				answer: 'Context almost always settles it, and "they know each other" (reciprocal) is by far the more common reading in real usage. "They know themselves," where each person individually knows who they are, is an unusual thing to say. When the sentence is ambiguous or a speaker wants to remove any doubt, Spanish adds *el uno al otro* (matched in gender/number to the subject): *Se conocen el uno al otro*.',
+				answer: 'Context almost always settles it: in everyday use, people overwhelmingly take *se conocen* to mean they know one another, the reciprocal sense, rather than each person merely being self-aware. Taking it the other way, as each person simply being aware of their own identity, would be an odd thing to actually say. When the sentence is ambiguous, or a speaker just wants zero doubt, tacking on *el uno al otro* (matched in gender and number to the subject) settles it and makes the reciprocal sense unmistakable, ruling out the unlikely self-aware reading entirely.',
 			},
 			{
 				question: 'Why does "me dormí" mean something different from "dormí"?',
-				answer: '*Dormí* (I slept) describes the state of being asleep, its duration and quality. *Me dormí* (I fell asleep) marks the moment the state began. Neither use of "me" here means "myself" (nobody sleeps themselves), which is exactly why the RAE classifies *dormirse* as a pronominal verb rather than a reflexive one, alongside *irse*, *quedarse*, and *comerse*.',
+				answer: '*Dormí* (I slept) describes the state of being asleep, its duration and quality. *Me dormí* (I fell asleep) marks the moment the state began. Neither use of "me" here means "myself" (nobody sleeps themselves), and that\'s precisely why the RAE puts *dormirse* in the pronominal category instead of the reflexive one, in the same company as its cousins *irse* (to leave), *quedarse* (to stay), and *comerse* (to eat up).',
 			},
 			{
 				question: 'Do reflexive pronouns follow the same position rules as object pronouns?',
-				answer: 'Yes. Reflexive pronouns go immediately before a conjugated verb (*Me levanto*), attach to the end of an infinitive, gerund, or affirmative command (*Levántate*, *Estoy levantándome*), and move back in front of the verb for negative commands (*No te levantes*). They\'re drawn from the same atonic clitic set as direct and indirect object pronouns, with the simplification that the third-person reflexive is always "se," regardless of gender or number.',
+				answer: 'Yes. Word order follows the same pattern as object pronouns: right ahead of a conjugated verb, as in *Me levanto*; joins onto commands, infinitives, and gerunds instead, as in *Levántate* or *duchándome*; and shifts back in front of the verb for negative commands, as in *No te levantes*. This pronoun set overlaps with object pronouns almost everywhere, with a single exception: its third-person form never changes for gender or number and stays "se" no matter what, unlike the lo/la versus le split that object pronouns make.',
 			},
 		],
 		sources: [
@@ -1693,7 +1693,7 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'How many subject pronouns does Spanish have?',
-				answer: 'It depends on what\'s being counted, which is why sources give both 6 and 12 as the answer. Spanish grammar organizes itself around three grammatical persons (first, second, third) crossed with two numbers (singular, plural), giving six person-number slots; that\'s exactly why every conjugation table, including the ones on this site, has six rows. Vocabulary lists that instead count each individual gendered word separately, yo, tú, usted, él, ella, nosotros, nosotras, vosotros, vosotras, ustedes, ellos, ellas, arrive at 12, because the third-person-singular and both plural slots each split into a masculine and a feminine form. Neither count is wrong; they\'re answering different questions. Regions where vos replaces tú effectively add a 13th word without adding a new grammatical slot, since vos still fills the same informal-singular position tú does elsewhere.',
+				answer: 'It depends on what\'s being counted, which is why sources give both 6 and 12 as the answer. Spanish grammar organizes itself around three grammatical persons (first, second, third) crossed with two numbers (singular, plural), giving six person-number slots, and that\'s the reason every conjugation table, including the ones on this site, comes out to six rows. Vocabulary lists that instead count each individual gendered word separately, yo, tú, usted, él, ella, nosotros, nosotras, vosotros, vosotras, ustedes, ellos, ellas, arrive at 12, because the third-person-singular and both plural slots each split into a masculine and a feminine form. Neither count is wrong; they\'re answering different questions. Regions where vos replaces tú effectively add a 13th word without adding a new grammatical slot, since vos still fills the same informal-singular position tú does elsewhere.',
 			},
 			{
 				question: 'Why is "con mí" wrong?',
@@ -2638,23 +2638,23 @@ export const guides: Guide[] = [
 		faq: [
 			{
 				question: 'Do you need personal a before every person in Spanish?',
-				answer: 'Only before a direct object that refers to a specific, identifiable person, not an indefinite one. Busco un buen fontanero (looking for any plumber) skips a; Busco a mi hermano (looking for one specific, known person) requires it. A possession like Tengo un gato also skips a, because the direct object isn\'t a person being singled out.',
+				answer: 'Only when the direct object names one particular person you already have in mind, not just anyone who fits the description. Busco un buen fontanero (looking for any plumber) skips a; Busco a mi hermano (one known, singled-out person) requires it. A possession like Tengo un gato also skips a, since a cat isn\'t a person being picked out.',
 			},
 			{
 				question: 'What\'s the difference between pensar en and pensar de?',
-				answer: 'Pensar en means "to think about" and is used for whatever\'s occupying someone\'s thoughts: Pienso en las vacaciones. Pensar de asks for an opinion: ¿Qué piensas de esta película? The two prepositions aren\'t interchangeable; swapping them changes what\'s actually being asked.',
+				answer: 'Pensar en points at whatever topic currently occupies someone\'s mind, the kind of sentence you\'d use to say you\'re thinking about an upcoming trip. Pensar de instead asks someone to give an opinion on something, the way you\'d ask what they thought of a film. Swap the two and the question actually being asked changes, not just the wording.',
 			},
 			{
 				question: 'Why does "al" exist but "de la" doesn\'t contract to anything?',
-				answer: 'Spanish only contracts a preposition with the masculine singular article el: a + el becomes al, and de + el becomes del. La, los, and las never contract with a preposition, and neither does the pronoun él, so a él (to him) always stays two words even though it looks similar to a el.',
+				answer: 'Spanish only fuses a preposition with one specific article: el, masculine and singular. A plus el becomes al, and de plus el becomes del. La, los, and las never contract with a preposition, and neither does the pronoun él, so a él (to him) always stays two words even though it looks similar to a el.',
 			},
 			{
 				question: 'Does hasta always mean "until" in Spanish?',
-				answer: 'In Spain, Argentina, and most of South America, yes. In Mexico and parts of Central America, per Mexican Spanish linguistics scholarship on the construction (Lope Blanch, Miyoshi), hasta can reverse in meaning when it pairs with a telic verb, one with a built-in endpoint, like abrir: Abren hasta las diez means they don\'t open until ten in that usage, rather than the standard "open until ten" reading. With an ongoing-state verb like cerrar (in the "stays open until closing" sense), hasta keeps its ordinary meaning everywhere.',
+				answer: 'Across Argentina, Spain, and most of the rest of South America, yes, no matter what verb it pairs with. In Mexico and parts of Central America, Lope Blanch and Miyoshi\'s studies of this specific regional pattern show the word flips to the opposite meaning when it pairs with a telic verb, one whose action has a natural finish line, such as a shop opening for the day: said that way, the sentence signals the shop stays closed before the stated hour, rather than the more literal "open until" reading. With a verb that just describes a continuing state, such as cerrar used to talk about a shop remaining open, the word keeps its plain, expected sense across every dialect.',
 			},
 			{
 				question: 'Is there a shortcut for knowing which preposition follows a Spanish verb?',
-				answer: 'No reliable one. The preposition a verb takes (soñar con, depender de, consistir en, tratar de) is fixed to that specific verb and doesn\'t follow from the English translation or from any general rule about the preposition\'s usual meaning. The only way through is learning each verb-preposition pair as a single unit.',
+				answer: 'No reliable one. Each verb locks onto its own preposition in a way that looks arbitrary from an English speaker\'s point of view: depender takes de, tratar takes de as well but for a different reason, consistir takes en, and soñar takes con rather than de. Neither a literal translation nor a general rule about what the word usually means predicts any of it, so each pair has to be memorized on its own.',
 			},
 		],
 		sources: [
@@ -3454,7 +3454,7 @@ export const guides: Guide[] = [
 			{
 				heading: 'The list, and the accent rule that never comes off',
 				body: [
-					'Spanish has nine core interrogative words: qué ("what"), quién/quiénes ("who"), cuál/cuáles ("which/what," see below), cómo ("how"), cuándo ("when"), dónde ("where"), adónde ("where to"), cuán ("how," an intensifier mostly used in exclamations rather than questions), and cuánto/cuánta/cuántos/cuántas ("how much/how many"). Por qué ("why") is this same qué preceded by the preposition por, not a separate word.',
+					'Spanish has nine core interrogative words: qué ("what"), quién/quiénes ("who"), cuál/cuáles ("which/what," see below), cómo ("how"), cuándo ("when"), dónde ("where"), adónde ("where to"), cuán ("how," an intensifier mostly used in exclamations, not questions), and cuánto/cuánta/cuántos/cuántas ("how much/how many"). Por qué ("why") is this same qué preceded by the preposition por, not a separate word.',
 					'Every one of these carries a written accent, and per the [RAE\'s own entry on the diacritical tilde](https://www.rae.es/buen-uso-espa%C3%B1ol/qu%C3%A9-cu%C3%A1l-qui%C3%A9n-c%C3%B3mo-cu%C3%A1n-cu%C3%A1nto-cu%C3%A1ndo-d%C3%B3nde-y-ad%C3%B3nde-con-tilde), that accent stays in place regardless of punctuation: a direct question, an indirect one folded into a longer sentence, or an exclamation all keep it. The [accent-marks guide](/spanish-accent-marks/) covers the mechanism behind that rule in full, including why an indirect question doesn\'t drop the tilde; this list is the complete set it applies to.',
 				],
 				image: {
@@ -3486,26 +3486,26 @@ export const guides: Guide[] = [
 			{
 				heading: 'Dónde vs. adónde: location versus destination',
 				body: [
-					'Dónde asks about a fixed location: ¿Dónde vives? ("Where do you live?") wants a place, full stop. Adónde adds the sense of movement toward a destination, and per the [RAE\'s guidance on the pair](https://www.rae.es/dpd/d%C3%B3nde), it\'s used specifically with verbs that imply motion: ¿Adónde vas? ("Where are you going [to]?") is built on ir, a movement verb, and pairs naturally with adónde, though dónde alone (¿Dónde vas?) is also accepted with a motion verb; the RAE treats both as correct there without ranking one over the other. What the RAE flags as the real error is running adónde the other way, using it for a verb that describes a static location rather than movement. ¿Adónde vives? doesn\'t work, because vivir doesn\'t involve going anywhere.',
+					'Dónde asks about a fixed location: ¿Dónde vives? ("Where do you live?") wants a place, full stop. Adónde adds the sense of movement toward a destination, and per the [RAE\'s guidance on the pair](https://www.rae.es/dpd/d%C3%B3nde), it\'s used specifically with verbs that imply motion: ¿Adónde vas? ("Where are you going [to]?") is built on ir, a movement verb, and pairs naturally with adónde, though dónde alone (¿Dónde vas?) is also accepted with a motion verb; the RAE treats both as correct there without ranking one over the other. What the RAE flags as the real error is running adónde the other way, using it for a verb that describes a static location, with no movement involved. ¿Adónde vives? doesn\'t work, because vivir doesn\'t involve going anywhere.',
 				],
 			},
 		],
 		faq: [
 			{
 				question: 'Why is "¿cuál es tu nombre?" correct instead of "¿qué es tu nombre?"',
-				answer: 'Names, phone numbers, and email addresses are treated in Spanish as one item picked from an open set, everyone has their own, and that kind of question takes cuál, not qué. ¿Qué es tu nombre? reads to a native speaker as asking for a definition of the word "name," which is the job qué actually does, not as asking what someone is called.',
+				answer: 'An email address, a phone number, a person\'s name: Spanish groups all of these under the same logic, one option selected out of a wide-open set where everyone\'s answer differs, and that kind of question takes cuál, not qué. Swap in qué instead and, to a native ear, the sentence sounds like a request to define the word "name" itself, the job qué is actually built for, rather than a question about somebody\'s identity.',
 			},
 			{
 				question: 'Does "qué" ever take "cuál" instead when it comes before a noun?',
-				answer: 'No. Qué directly in front of a noun stays qué regardless of how many options are on the table: ¿qué libro quieres? is correct even choosing from a full shelf. Cuál almost never sits immediately before a noun; it\'s followed by de (¿cuál de los libros?) or stands alone with a verb (¿cuál quieres?).',
+				answer: 'No. Right before a noun, qué stays qué no matter how large the set of options is: someone can ask ¿qué película quieres ver? even with an entire streaming catalog to choose among. Cuál essentially never precedes a noun that way in standard Spanish; it either stands alone next to a verb, as in ¿cuál quieres?, or combines with de to name the group it\'s drawn from, as in ¿cuál de esos dos?',
 			},
 			{
 				question: 'What\'s the actual difference between "por qué" and "porque"?',
-				answer: 'Por qué (two words, tilde on qué) is the interrogative that opens a question asking for a reason, in both direct questions (¿Por qué llegaste tarde?) and indirect ones (no entiendo por qué se fue). Porque (one word, no accent) is the causal conjunction that answers that kind of question: llegué tarde porque perdí el autobús.',
+				answer: 'Por qué (two words, with the accent on qué) is the version you reach for when asking why something happened, whether that\'s a plain question such as ¿Por qué te fuiste tan temprano? or one wrapped inside a bigger sentence like nadie entendía por qué se había ido. Porque (one word, unaccented) is what actually supplies the reason itself, the causal link doing the explaining: no fue al trabajo porque se sintió enferma ("she didn\'t go to work because she felt sick").',
 			},
 			{
 				question: 'Is "porqué," written as one word with an accent, ever correct?',
-				answer: 'Yes, but only as a noun meaning "the reason" or "the motive," and it takes a determiner the way any noun does: no entiendo el porqué de su decisión ("I don\'t understand the reason for his decision"). It\'s a distinct word from the interrogative por qué and the conjunction porque, not a spelling variant of either.',
+				answer: 'Yes, but only when it functions as a noun standing for the reason behind something, its motive, and it pairs with a determiner just like any ordinary noun, as in a sentence explaining that nobody quite grasped the motive behind a particular decision. It\'s a distinct word from the interrogative por qué and the conjunction porque, not a spelling variant of either.',
 			},
 			{
 				question: 'Do Spanish question words keep their accent inside a sentence that isn\'t a direct question?',
@@ -3513,7 +3513,7 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'Does "cuánto" change form depending on what\'s being asked about?',
-				answer: 'Yes, and it\'s the only one that agrees in gender as well as number: cuánto dinero (masculine singular), cuánta agua (feminine singular), cuántos hermanos (masculine plural), cuántas personas (feminine plural). Quién and cuál also have plural forms (quiénes, cuáles), but that\'s number only, never gender, and neither attaches directly to a following noun the way cuánto does.',
+				answer: 'Yes. Unlike the rest of the list, cuánto also tracks the noun\'s gender, not just its number, so the word itself changes shape: dinero takes cuánto, agua takes cuánta, hermanos takes cuántos, and personas takes cuántas. Quién and cuál pluralize too, shifting to quiénes for who and cuáles for which, yet that change is strictly about number; gender never enters the picture for those two, and cuánto remains the only one of the three able to sit right next to a noun the way an adjective would.',
 			},
 		],
 		sources: [
@@ -3865,7 +3865,7 @@ export const guides: Guide[] = [
 		description: 'Every regular Spanish verb takes one of two preterite endings sets, with accents that follow a real rule, not habit, and one common mistake shared by tú and vos.',
 		published: '2026-08-19',
 		updated: '2026-08-19',
-		coreSummary: 'Regular Spanish verbs take one of two endings sets in the preterite: -ar verbs use -é, -aste, -ó, -amos, -asteis, -aron, while -er and -ir verbs share -í, -iste, -ió, -imos, -isteis, -ieron. Three of those six forms in each set carry a written accent (yo and él/ella/usted), because Spanish requires a tilde on any word stressed on its final syllable that ends in a vowel. The nosotros form is identical to the present tense for -ar and -ir verbs (hablamos, vivimos mean both "we speak/spoke" and "we live/lived"), but not for -er verbs, where comemos (present) and comimos (preterite) differ. A widespread nonstandard habit, adding an extra -s to the tú form (hablastes instead of hablaste), comes from analogy with every other tú conjugation, which does end in -s.',
+		coreSummary: 'Regular Spanish verbs take one of two endings sets in the preterite: -ar verbs use -é, -aste, -ó, -amos, -asteis, -aron, while -er and -ir verbs share -í, -iste, -ió, -imos, -isteis, -ieron. Three of those six forms in each set carry a written accent (yo and él/ella/usted), because Spanish requires a tilde on any word stressed on its final syllable that ends in a vowel. The nosotros form is identical to the present tense for -ar and -ir verbs (hablamos, vivimos mean both "we speak/spoke" and "we live/lived"), but not for -er verbs, where comemos (present) and comimos (preterite) differ. A widespread nonstandard habit tacks an extra -s onto the tú form, turning hablaste into hablastes, and comes from analogy with every other tú conjugation, which does end in -s.',
 		language: 'Spanish',
 		usageNote: {
 			regionNote: 'Voseo regions use the same standard preterite forms as tú (vos hablaste, vos comiste), since voseo only creates distinct verb forms in the present indicative and the informal imperative. In casual Rioplatense speech an extra -s sometimes gets added to that shared tú/vos form (vos hablastes), which is the same nonstandard habit covered below for tú, not a separate voseo-specific ending.',
@@ -3899,31 +3899,31 @@ export const guides: Guide[] = [
 			{
 				heading: '"Hablastes" is wrong, and the reason it keeps happening is the same for tú and vos',
 				body: [
-					'A widespread nonstandard habit adds an extra -s to the tú preterite form: hablastes instead of hablaste, comistes instead of comiste, dijistes instead of dijiste. Every other tú conjugation in Spanish ends in -s (hablas, hablarás, hablabas, hablarías, hablaras), which makes the preterite the one tense where tú breaks that pattern with a bare -e or -iste ending. The extra -s is an analogy correcting for that irregularity, not a random typo, which is also why it shows up reliably across very different Spanish-speaking regions rather than clustering in one place.',
-					'The same habit surfaces under vos, since voseo uses the identical standard preterite forms as tú (vos hablaste, vos comiste, vos viniste) rather than its own distinct set. In casual Rioplatense speech, vos hablastes turns up for the same analogical reason as tú hablastes; it\'s treated as informal and corrected in writing in both cases, not a recognized separate voseo ending. Voseo does have its own distinct forms elsewhere, in the present tense and the informal imperative, but the preterite isn\'t one of them.',
+					'A widespread nonstandard habit adds an extra -s to the tú preterite form: hablaste wrongly picks up an -s to become hablastes, comiste becomes comistes, and dijiste becomes dijistes. Every other tú conjugation in Spanish ends in -s (hablas, hablarás, hablabas, hablarías, hablaras), which makes the preterite the one tense where tú breaks that pattern with a bare -e or -iste ending. The extra -s is an analogy correcting for that irregularity, not a random typo, which is also why it shows up reliably across very different Spanish-speaking regions, not clustered in any single one.',
+					'The same habit surfaces under vos, since voseo uses the identical standard preterite forms as tú (vos hablaste, vos comiste, vos viniste), not a distinct set of its own. In casual Rioplatense speech, vos hablastes turns up for the same analogical reason as tú hablastes; it\'s treated as informal and corrected in writing in both cases, not a recognized separate voseo ending. Voseo does have its own distinct forms elsewhere, in the present tense and the informal imperative, but the preterite isn\'t one of them.',
 				],
 			},
 		],
 		faq: [
 			{
 				question: 'What are the regular Spanish preterite endings?',
-				answer: '-Ar verbs take -é, -aste, -ó, -amos, -asteis, -aron (hablé, hablaste, habló, hablamos, hablasteis, hablaron). -Er and -ir verbs share one set, -í, -iste, -ió, -imos, -isteis, -ieron (comí/viví, comiste/viviste, comió/vivió, comimos/vivimos, comisteis/vivisteis, comieron/vivieron).',
+				answer: 'For -ar verbs, the six endings run -é (yo), -aste (tú), -ó (él/ella), -amos (nosotros), -asteis (vosotros), and -aron (ellos), giving forms like hablé and hablamos. -Er and -ir verbs, by contrast, use one shared set: -í for yo, -iste for tú, -ió for él/ella, -imos for nosotros, -isteis for vosotros, -ieron for ellos (comí/viví, comiste/viviste, comió/vivió, comimos/vivimos, comisteis/vivisteis, comieron/vivieron).',
 			},
 			{
 				question: 'Why do "hablé" and "habló" have accents but "hablaste" doesn\'t?',
-				answer: 'Hablé and habló are stressed on their final syllable and end in a vowel, which is exactly the pattern Spanish always marks with a written accent. Hablaste is stressed on an earlier syllable, so the same rule doesn\'t apply and it takes no accent.',
+				answer: 'Spanish writes a tilde whenever a word\'s stress lands on its very last syllable and that syllable ends in a vowel, and hablé and habló both fit that description exactly. Hablaste puts its stress one syllable earlier, so the rule simply doesn\'t apply and no accent gets written.',
 			},
 			{
 				question: 'Is the nosotros form of the preterite the same as the present tense?',
-				answer: 'For -ar and -ir verbs, yes: hablamos and vivimos are spelled identically in both tenses, and only the surrounding sentence (a time word like hoy or ayer, or nearby verbs) signals which one is meant. For -er verbs it\'s not the same: the preterite takes comimos while the present takes comemos.',
+				answer: 'It matches when the verb ends in -ar or -ir: hablamos and vivimos take the exact same shape whether they mean present or past, and only context, a date reference or whatever else is going on in the sentence, signals which one is meant. For -er verbs it\'s not the same: the preterite takes comimos while the present takes comemos.',
 			},
 			{
 				question: 'Is "hablastes" ever correct?',
-				answer: 'No. The standard tú preterite form is hablaste, with no final -s. Hablastes is a widespread nonstandard form that comes from analogy with every other tú conjugation, which does end in -s (hablas, hablabas, hablarás), but grammar references treat it as an error rather than an accepted regional variant.',
+				answer: 'No. The standard tú preterite form is hablaste, with no final -s. Hablastes shows up constantly in casual speech, and the reason people reach for it is that virtually every other tú form does carry a final -s (hablas, hablabas, hablarás), but grammar references still treat it as an error rather than an accepted regional variant.',
 			},
 			{
 				question: 'Does vos change the preterite endings?',
-				answer: 'No. Voseo creates its own distinct forms only in the present indicative and the informal imperative. In the preterite, vos uses the same standard forms as tú (vos hablaste, vos comiste), including the same nonstandard -s habit (vos hablastes) that also turns up under tú.',
+				answer: 'No. There are only two spots where voseo really breaks from tú: how it conjugates in the present, and its own version of a casual command. Everywhere else, including the preterite, vos borrows the exact same conjugations tú uses, vos hablaste and vos comiste among them, right down to sharing that same wrongly-added -s (vos hablastes) that also turns up under tú.',
 			},
 		],
 		sources: [
@@ -4863,23 +4863,23 @@ export const guides: Guide[] = [
 		faq: [
 			{
 				question: 'What are the regular Spanish present tense endings?',
-				answer: '-Ar verbs take -o, -as, -a, -amos, -áis, -an (hablo, hablas, habla, hablamos, habláis, hablan). -Er and -ir verbs share the same endings except in nosotros and vosotros: -er verbs use -emos, -éis (comemos, coméis), while -ir verbs use -imos, -ís (vivimos, vivís).',
+				answer: '-Ar verbs use -o for yo, -as for tú, -a for él/ella, -amos for nosotros, -áis for vosotros, and -an for ellos, giving forms like hablo and habláis. That same set covers -er and -ir verbs too, apart from two spots: -er verbs use -emos, -éis (comemos, coméis), while -ir verbs use -imos, -ís (vivimos, vivís).',
 			},
 			{
 				question: "Why doesn't Spanish present tense have a special ending the way the future or imperfect does?",
-				answer: 'Real Academia Española\'s own grammatical glossary treats the present as an unmarked tense: its tense-mood information is a morfema cero, a zero morpheme, present in the analysis but not as an actual sound. The future\'s -ré and the imperfect\'s -aba are real, audible chunks that exist specifically to mark those tenses; the present ending carries only person and number information, with nothing extra layered on top.',
+				answer: 'The Academia\'s glossary classifies it as an unmarked tense: the piece that would normally flag tense and mood counts as what grammarians term a zero morpheme, sound-free by definition, assumed by the analysis but never actually pronounced. The future\'s -ré and the imperfect\'s -aba are genuine, audible pieces built specifically to flag those two tenses; here, that ending only tells you who\'s doing the action and how many of them there are, nothing more.',
 			},
 			{
 				question: 'Why do so many common Spanish verbs end in -go in the yo form?',
-				answer: "Per Real Academia Española's reference on consonantal irregularities, it's a documented sound insertion (epenthesis) affecting verbs whose root ends in -l (salir → salgo), -n (poner → pongo, tener → tengo, venir → vengo), -s (asir → asgo), -i (oír → oigo), or -z (yacer, which the RAE says accepts three yo forms: yazco, yazgo, and yago). Caer and traer take a related -ig- insertion instead (caigo, traigo). Only the yo form is affected in every case.",
+				answer: "Linguists call the pattern epenthesis, and it's tied to the sound at the end of the root rather than being a random list to memorize. A root ending in -l picks it up (salir turns into salgo), and so does a root ending in -n (poner → pongo and tener → tengo among them), the rare -s verb asir (→ asgo), a root ending in -i such as oír (→ oigo), and -z (yacer, where the RAE recognizes three coexisting yo forms: yago, yazgo, and yazco). Caer and traer take a related -ig- insertion instead (caigo, traigo). None of these changes ever spread past that one yo slot.",
 			},
 			{
 				question: 'Is "cojo" (from coger) an irregular verb?',
-				answer: 'Not in the sense of taking a different ending. The change from g to j exists purely to preserve coger\'s soft consonant sound before the -o ending; without it, cogo would harden that sound. The ending itself, -o, is completely regular. Vencer\'s c-to-z change in venzo works the same way.',
+				answer: 'Not in the sense of taking a different ending. The change from g to j exists purely to preserve coger\'s soft consonant sound in front of the vowel that follows; without it, cogo would harden that sound. The ending stays perfectly regular. Vencer\'s c-to-z change in venzo works the same way.',
 			},
 			{
 				question: 'Does vos change the present tense endings?',
-				answer: "Yes, this is one of the few tenses where it does. Vos takes stress-final forms with no diphthong (hablás, comés, vivís), unlike tú's hablas, comes, vives. That also regularizes stem-changing verbs under vos: vos podés and vos querés, never vos puedes or vos quieres. Every other tense uses identical forms for vos and tú.",
+				answer: "Yes, this is one of the few tenses where it does. Vos puts the stress on the final syllable and drops the diphthong entirely, so pensás, tenés, and venís replace tú's piensas, tienes, and vienes. That's also why verbs that normally shift their stem vowel get regularized under vos: vos podés and vos querés, never vos puedes or vos quieres. Every other tense uses identical forms for vos and tú.",
 			},
 		],
 		sources: [
@@ -5029,19 +5029,19 @@ export const guides: Guide[] = [
 		faq: [
 			{
 				question: 'How do you form the present perfect in Spanish?',
-				answer: 'Conjugate *haber* in the present tense (*he, has, ha, hemos, habéis, han*) and add the past participle of the main verb: *-ar* verbs take *-ado* (*hablado*), *-er* and *-ir* verbs take *-ido* (*comido, vivido*). The participle never changes for gender or number in this construction; *ha escrito* stays *escrito* whether the subject is masculine or feminine.',
+				answer: 'Conjugate *haber* to match the subject — *yo he, tú has, él/ella ha, nosotros hemos, vosotros habéis, ellos han* — and add the participle of whichever verb is doing the work: *-ar* verbs take *-ado* (*hablado*), *-er* and *-ir* verbs take *-ido* (*comido, vivido*). The participle stays frozen here — it doesn\'t pick up a different ending for a masculine, feminine, singular, or plural subject, so *ha escrito* is *escrito* no matter who did the writing.',
 			},
 			{
 				question: 'What are the irregular Spanish past participles?',
-				answer: 'The core set is *abierto* (abrir), *cubierto* (cubrir), *dicho* (decir), *escrito* (escribir), *hecho* (hacer), *muerto* (morir), *puesto* (poner), *resuelto* (resolver), *roto* (romper), *satisfecho* (satisfacer), *visto* (ver), and *vuelto* (volver), plus derived verbs like *descubierto* and *devuelto*. *Bendecir* and *maldecir* are exceptions to the exception: their real verb participles are the regular *bendecido* and *maldecido*, while *bendito* and *maldito* survive only as adjectives.',
+				answer: 'A dozen common verbs take a "strong" form instead: *vuelto* from *volver*, *visto* from *ver*, *satisfecho* from *satisfacer*, *resuelto* from *resolver*, *roto* from *romper*, *puesto* from *poner*, *muerto* from *morir*, *hecho* from *hacer*, *escrito* from *escribir*, *dicho* from *decir*, *cubierto* from *cubrir*, and *abierto* from *abrir* — plus verbs built on top of these, like *descubierto* and *devuelto*. Two verbs, *bendecir* along with *maldecir*, break that inherited pattern: their true participles are the everyday, regular-looking *bendecido*/*maldecido*, while *maldito* and *bendito* survive only as adjectives.',
 			},
 			{
 				question: 'Can I put an adverb between "he" and the participle, like English does?',
-				answer: 'No. Spanish keeps *haber* and the participle locked together; the adverb goes on one side of the whole unit instead of between the two pieces. *Ya he comido* and *Nunca lo ha visto* are correct; *he ya comido* is not standard Spanish, even though the equivalent split ("I have already eaten") is completely normal in English.',
+				answer: 'No. Spanish treats the whole haber-plus-participle pair as one locked unit; an adverb has to sit outside it entirely rather than slot in between the two pieces. *Ya he comido* and *Siempre lo he creído* are correct; *he ya comido* is not standard Spanish, even though that same kind of split ("I\'ve already eaten," with the adverb wedged in) is completely normal in English.',
 			},
 			{
 				question: 'Is "he hablado" used the same way in Spain and Latin America?',
-				answer: 'Not for recent events. The RAE\'s own grammar identifies this as the Spanish past tense with the widest geographic variation: most of Spain uses the present perfect as the default for recent or same-day events (*El taxi ha llegado hace un momento*), while most of Latin America uses the simple preterite for that same moment (*El taxi llegó hace un momento*). Chile, most of Argentina, and northwest Spain lean further toward the preterite regardless of timing, coastal Peru and Andean Bolivia lean the opposite way, and Andean Spanish also uses the perfect for an unrelated evidential sense, marking a fact the speaker just found out.',
+				answer: 'Not for recent events. Spanish\'s national academy singles this tense out as the one whose usage differs most from one country to the next: most of Spain reaches for haber plus participle to report something that just happened, even minutes ago, whereas the simple past is what most speakers across Latin America use to describe that exact same moment — a taxi\'s arrival reported the instant it pulls up gets ha llegado on one side of the Atlantic and llegó on the other. Chile, the bulk of Argentina, and northwest Spain lean further toward the preterite regardless of timing, while Andean Bolivia and the Peruvian coast lean the opposite way. On top of that, Andean Spanish reaches for the compound form in a completely different job: signaling that a piece of news has just landed on the speaker, with no connection to recency at all.',
 			},
 		],
 		sources: [
