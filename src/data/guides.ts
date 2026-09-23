@@ -225,7 +225,7 @@ export const guides: Guide[] = [
 		faq: [
 			{
 				question: 'Is "ser is permanent, estar is temporary" actually correct?',
-				answer: 'It\'s a useful starting shorthand but not a reliable rule. *Está muerto* ("he\'s dead") is estar describing something permanent, and *fue estudiante* ("he was a student") is ser describing something temporary. The more accurate distinction is whether the sentence defines the subject (ser) or reports its current state or condition (estar).',
+				answer: 'It\'s a useful starting shorthand but not a reliable rule. *Está muerto* ("he\'s dead") is estar describing something permanent, and *fue estudiante* ("he was a student") is ser describing something temporary. What actually decides it: does the sentence pin down who or what the subject is (ser), or does it report a current condition (estar)?',
 			},
 			{
 				question: 'What\'s the difference between soy and estoy?',
@@ -233,15 +233,15 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'Why does "la fiesta es aquí" use ser when it\'s about location?',
-				answer: 'Because the sentence is really saying where an event takes place, not where a physical object sits. Spanish treats the location of events (parties, meetings, concerts) as something ser defines, while the location of people and objects (*el libro está aquí*) uses estar. It looks like the same "location" category in English, but Spanish splits it in two.',
+				answer: 'Because the sentence is really saying where an event takes place, not where a physical object sits. Spanish treats where an event happens (a party, a meeting, a concert) as something ser pins down, while where people and objects physically sit (*el libro está aquí*) falls to estar. It looks like the same "location" category in English, but Spanish splits it in two.',
 			},
 			{
 				question: 'What\'s the difference between "es aburrido" and "está aburrido"?',
-				answer: '*Es aburrido* means the person or thing is boring, a characteristic. *Está aburrido* means the person is bored right now, a state. A handful of common adjectives (aburrido, listo, malo, rico, among others) shift meaning this way depending on which verb they\'re paired with.',
+				answer: '*Es aburrido* means the person or thing is boring, a characteristic. *Está aburrido* means the person is bored right now, a state. A handful of common adjectives (aburrido, listo, malo, rico, among others) shift their sense this way based on whether ser or estar introduces them.',
 			},
 			{
 				question: 'Do all Spanish-speaking countries use ser and estar the same way?',
-				answer: 'The core identity-vs-state logic is consistent everywhere Spanish is spoken. What varies by region is how far estar\'s territory stretches in everyday speech: language-contact varieties like Basque Country Spanish push estar into more contexts, and Caribbean Spanish tends to stay closer to the traditional pattern than Mexican, Central American, or Andean Spanish. None of that changes which verb a given sentence calls for by the rule itself, only how often speakers stretch the edge cases.',
+				answer: 'The core identity-vs-state logic holds across every Spanish-speaking country. What shifts from place to place is how much ground estar covers in everyday conversation: a contact variety like the Spanish spoken in the Basque Country lets it creep into slots ser would fill elsewhere. Caribbean speech, meanwhile, hews closer to the older pattern than Mexico, Central America, or the Andes do; those latter regions let estar creep into adjective slots that would default to ser elsewhere. That regional shift leaves the underlying rule untouched; it only changes how frequently people stretch the edge cases.',
 			},
 		],
 		sources: [
@@ -499,19 +499,19 @@ export const guides: Guide[] = [
 		faq: [
 			{
 				question: 'Is a senpai always older than their kōhai?',
-				answer: 'Not necessarily. The relationship is based on who joined a school, club, or company first, not on age. A younger person who started earlier is still senior to an older person who started later.',
+				answer: 'Not always. Tenure decides the pecking order, not birth year, so whoever joined a school, club, or company first holds the senpai role — a 22-year-old who started six months earlier can outrank a 35-year-old newcomer.',
 			},
 			{
 				question: 'Can you call yourself "senpai"?',
-				answer: 'No — in Japanese, senpai is a status granted by others based on the relationship, not a label you apply to yourself. Introducing yourself as someone\'s senpai would sound odd in Japanese, even where the relationship genuinely applies.',
+				answer: 'No. Japanese speakers treat the title as something others grant you, never something you can award to yourself, so introducing yourself with "I\'m your senpai" would sound off even when your tenure genuinely supports it.',
 			},
 			{
 				question: 'What\'s the difference between the Japanese meaning of senpai and the internet meme?',
-				answer: 'In Japanese, senpai describes a specific, reciprocal mentorship relationship at school, work, or in a club. The English internet usage (as in "notice me, senpai") strips that down to just "someone whose attention you want," a much narrower and more casual sense that spread through anime fandom starting around 2012.',
+				answer: 'The Japanese term covers a two-way mentorship duty at school, work, or in a club: guidance from the senior, deference from the junior. Online, the word got flattened down to a crush-adjacent shorthand for a person you want noticing you, a shift that traces back to Tumblr-era fan culture in the early 2010s.',
 			},
 			{
 				question: 'Is "senpai" an official English word now?',
-				answer: 'It\'s recognized by at least one major dictionary: the Oxford English Dictionary added "senpai" in its December 2025 update, alongside a batch of other Japanese and Korean loanwords.',
+				answer: 'Yes, by at least one major dictionary\'s standard: Oxford\'s December 2025 refresh recognized the word as part of a wider set of recent Korean and Japanese loanwords entering the dictionary.',
 			},
 		],
 		sources: [
@@ -753,7 +753,7 @@ export const guides: Guide[] = [
 		faq: [
 			{
 				question: 'Why don\'t "soy" and "sería" look like forms of the same verb?',
-				answer: 'Because historically they aren\'t, quite. Ser is a suppletive verb: its present-tense forms (soy, eres, es...) descend from the Latin verb esse ("to be"), while most of its other forms, including the infinitive ser itself, descend from a different Latin verb, sedere ("to sit"). Two verbs merged into one paradigm over the course of Spanish\'s history.',
+				answer: 'In effect, for a long stretch of the language\'s development they weren\'t the same verb. Ser grew out of a merger between a pair of unrelated Latin verbs: the present tense (soy, eres, es...) comes from esse, the Latin verb meaning "to be," whereas almost all the remaining forms, including the infinitive ser itself, come from sedere, meaning "to sit," instead.',
 			},
 			{
 				question: 'Is the preterite of "ser" the same as the preterite of "ir"?',
@@ -761,19 +761,19 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'Why does "ser" have only 5 imperative forms instead of 6?',
-				answer: 'Like every Spanish verb, ser has no "yo" (I) form in the imperative, because commands are given to someone else, not to yourself. That leaves five slots: tú, usted, nosotros, vosotros, and ustedes. Worth knowing that RAE\'s own imperative table prints only four of them, leaving out nosotros, because the "let\'s be" command seamos is really the present subjunctive doing imperative work rather than a distinct imperative form. This page keeps the nosotros row, since that is the form you actually need when you want to say ¡Seamos claros! (Let\'s be clear!).',
+				answer: 'Like every Spanish verb, ser has no "yo" (I) form in the imperative, since orders target someone else, never yourself. That leaves five slots: tú, usted, nosotros, vosotros, and ustedes. Worth knowing that RAE\'s own imperative table prints only four of them, leaving out nosotros, because the "let\'s be" command seamos actually borrows its shape from the subjunctive mood rather than counting as a distinct imperative form. This page keeps the nosotros row, since that is the form you actually need when you want to say ¡Seamos claros! (Let\'s be clear!).',
 			},
 			{
 				question: 'Is it "fuera" or "fuese"? Which one is correct?',
-				answer: 'Both are correct and mean the same thing. They are two complete sets of endings for the same tense, the imperfect subjunctive, and Spanish speakers can swap one for the other without changing the meaning: si yo fuera rico and si yo fuese rico are both "if I were rich." The -ra forms dominate in speech everywhere, and the -se forms are more common in writing and in Spain. RAE lists them together as one tense, which is why the table on this page shows them on a single row.',
+				answer: 'Both are correct and mean the same thing. Spanish simply spells the subjunctive\'s imperfect form two different ways, and speakers can swap one for the other without changing the meaning: si yo fuera rico carries the identical sense as si yo fuese rico, both translating to "if I were rich." Speech leans hard toward the -ra set pretty much everywhere Spanish is spoken, while the -se set holds on mainly in written Spanish and among speakers in Spain itself. RAE\'s own reference treats them as one grouped tense, and that\'s the reason this page keeps them together on a single row.',
 			},
 			{
 				question: 'Does "ser" really have 19 different tenses?',
-				answer: 'Nineteen blocks in the table above: five simple indicative tenses, five compound indicative tenses, three subjunctives with three matching compounds, affirmative and negative commands, and the non-finite forms (ser, siendo, sido). Eighteen of those are exactly what RAE prints for ser. The nineteenth, the negative command row, is split out here for convenience, because RAE treats negative commands as the present subjunctive rather than as a separate paradigm. A learner meets maybe eight of the nineteen in practice; the rest are either compounds built mechanically from haber plus sido, or the future subjunctive forms fuere and hubiere sido, which have effectively disappeared outside legal Spanish.',
+				answer: 'Yes, if you count blocks rather than individual endings: five tenses under the indicative mood in plain form, five more built by adding haber, three subjunctive tenses plus three haber compounds layered on those, an affirmative and a negative command row, and one further block covering the non-finite shapes: the infinitive ser, the gerund siendo, and the participle sido. That adds up to nineteen. Eighteen of those are exactly what RAE prints for ser. The nineteenth, the negative command row, is split out here for convenience, because RAE treats negative commands as an application of the subjunctive mood, not a paradigm of their own. A learner runs into roughly eight of those nineteen slots in ordinary usage; the rest are either compounds built mechanically from haber plus sido, or the future subjunctive forms fuere and hubiere sido, which have effectively disappeared outside legal Spanish.',
 			},
 			{
 				question: 'Where do the forms in this table come from?',
-				answer: 'Every form was transcribed on 2026-08-04 from the Real Academia Española and ASALE conjugation table published with the Diccionario de la lengua española, which is the standard authority for Spanish verb morphology. Two independent re-checks were run against Wiktionary the same day: its Spanish conjugation of ser for the simple tenses and both imperatives, and its conjugation of haber for the compound tenses, since Spanish compounds are haber plus the participle sido. Nothing here was typed from memory. The data table, the generator that builds the page from it, and the unit tests asserting every form are open in the site\'s repository for anyone who wants to check the work.',
+				answer: 'Every form was pulled on 2026-08-04 directly from RAE and ASALE\'s published conjugation table for ser in the Diccionario de la lengua española, the standard authority for Spanish verb morphology. Two independent re-checks against Wiktionary confirmed that data the same day: its ser entry validated every plain-tense row along with both command forms, and its haber entry validated the eight rows built by adding an auxiliary, since every compound tense in Spanish pairs a conjugated haber with one fixed participle. Nothing here was typed from memory. The data table, the generator that builds the page from it, and the unit tests asserting every form are open in the site\'s repository for anyone who wants to check the work.',
 			},
 		],
 		sources: [
@@ -1499,23 +1499,23 @@ export const guides: Guide[] = [
 		faq: [
 			{
 				question: 'Is the Spanish conditional a mood or a tense?',
-				answer: 'A tense within the indicative mood, per the Real Academia Española, though the question has traditionally been debated. RAE settles it because the conditional appears in the same contexts the indicative selects and is excluded from contexts that require the subjunctive, even though "conditional" sounds mood-like and one of its main jobs is marking hypotheticals.',
+				answer: 'RAE files it under the indicative, as a tense rather than a standalone mood, even though the classification has been argued over for a long time. RAE settles the matter by pointing to distribution: the conditional turns up wherever the indicative can go and stays out of slots reserved for the subjunctive, even though "conditional" sounds mood-like and part of what it does is flag things that haven\'t happened.',
 			},
 			{
 				question: 'Does English "would" always translate to the Spanish conditional?',
-				answer: 'No. This is the single most common error. Habitual "would" ("she would visit every summer," meaning "used to visit") takes the Spanish imperfect (visitaba), not the conditional. Only "would" in a genuinely hypothetical or contingent sense ("she would visit if she had time") takes the conditional (visitaría). Using the conditional for a habitual past action wrongly implies the action depends on some unstated condition.',
+				answer: 'No. This is the single most common error. Habitual "would," describing something that used to happen regularly, calls for Spanish\'s imperfect tense (visitaba) rather than the conditional. Only "would" tied to a real hypothesis, something that depends on a condition that isn\'t met, is what pulls in the conditional (visitaría). Applying that hypothetical form to a habit that actually happened makes it sound like the habit depended on some condition it never had.',
 			},
 			{
 				question: 'Why do conditional endings look like imperfect endings?',
-				answer: 'Because they\'re the identical six endings -ía, -ías, -ía, -íamos, -íais, -ían that -er and -ir verbs already use in the imperfect. The difference is what they attach to: imperfect endings attach to a shortened stem (tener → ten- → tenía), while conditional endings attach to the full infinitive or to the future-tense irregular stem (tener → tendr- → tendría). Same ending, different base, genuinely different meaning.',
+				answer: 'Because -er and -ir verbs already use this identical set of six in the imperfect, running from -ía for yo through -ían for the ellos/ellas form. What differs is the base each set attaches to: the imperfect grabs a trimmed-down stem (tener → ten- → tenía), while the conditional grabs the whole infinitive itself, or that same altered future-tense stem (tener → tendr- → tendría). Same ending, different base, and the meaning really does shift.',
 			},
 			{
 				question: 'What are the conditional\'s irregular stems?',
-				answer: 'The exact same twelve verbs and three stem patterns as the simple future tense: caber, haber, poder, querer, saber drop the infinitive\'s final vowel (querr-, sabr-...); poner, salir, tener, valer, venir drop the vowel and insert -d- (tendr-, saldr-...); decir and hacer are irregular outright (dir-, har-). Anyone who already knows the future tense\'s irregular stems already knows the conditional\'s.',
+				answer: 'It leans on the identical twelve verbs, grouped into three stem-change patterns, the very ones the simple future already uses: caber, haber, poder, querer, saber lose that last infinitive vowel outright (querr-, sabr-...); poner, salir, tener, valer, venir lose that vowel too but plug in a -d- instead (tendr-, saldr-...); decir and hacer are irregular outright (dir-, har-). Anyone who\'s already memorized the future tense\'s irregular stems has, without extra work, learned these too.',
 			},
 			{
 				question: 'How does the conditional work in "si tuviera... viajaría" sentences?',
-				answer: 'It\'s a fixed pairing for hypotheses contrary to present fact: the si-clause takes the imperfect subjunctive (si tuviera), and the main clause takes the conditional simple (viajaría); RAE\'s own examples include "Si me tocara la lotería, me compraría un coche." Neither clause can swap in the present subjunctive, conditional, or future indicative instead; the pairing is specific to this construction.',
+				answer: 'It\'s a fixed pairing built for situations where present reality doesn\'t match the hypothesis: the si-clause runs on that same past-tense subjunctive form (si tuviera), while the main clause runs in that same conditional form (viajaría). RAE\'s own material walks through this exact construction with a lottery-and-car-buying scenario, and with a speaker imagining standing in someone else\'s shoes. Neither half of the sentence can swap in a different mood or tense there, not a plain subjunctive, not a bare conditional, not the future indicative; the pairing is specific to this construction.',
 			},
 		],
 		sources: [
@@ -2459,23 +2459,23 @@ export const guides: Guide[] = [
 		faq: [
 			{
 				question: 'Why does "no hables" look completely different from "habla"?',
-				answer: 'Because they belong to two separate systems. Habla is one of the imperative mood\'s own exclusive forms, reserved for affirmative tú and vosotros commands and used nowhere else in the verb. Hables, in no hables, is a present-subjunctive form: per the RAE, Spanish has no negative imperative at all, so every negative command in every person borrows the subjunctive instead.',
+				answer: 'Because two unrelated systems are producing these forms. Habla sits in the imperative\'s dedicated set, reserved for tú and vosotros when they\'re being told to do something, and it doesn\'t exist anywhere else in the conjugation. Hables, in no hables, is drawn instead from the present tense of the subjunctive mood; per the RAE, Spanish\'s imperative simply has no negative branch, so any command turned negative, no matter who it\'s aimed at, takes its shape from subjunctive forms rather than imperative ones.',
 			},
 			{
 				question: 'What are the eight irregular tú commands in Spanish?',
-				answer: 'Decir → di, hacer → haz, ir → ve, poner → pon, salir → sal, ser → sé, tener → ten, and venir → ven. None of these matches the regular pattern, where the affirmative tú command equals the third-person singular present indicative (tener\'s regular pattern would predict tiene, not ten), so there\'s no shortcut to deriving them; they get learned as a set.',
+				answer: 'Decir → di, hacer → haz, ir → ve, poner → pon, salir → sal, ser → sé, tener → ten, and venir → ven. None of these follows the regular pattern: the affirmative tú command normally equals the verb\'s él/ella form in the present tense (regular rules would generate tiene from tener, not ten), so there\'s no shortcut to deriving them; they get learned as a set.',
 			},
 			{
 				question: 'Is "vamos" or "vayamos" correct for "let\'s go" in Spanish?',
-				answer: 'Both exist, split by polarity. Vamos is what speakers actually use for affirmative "let\'s go," even though vayamos is the mathematically expected present-subjunctive form that every other nosotros command follows. Vayamos is still the correct form for the negative, no vayamos ("let\'s not go"), and inside subordinate clauses like quiero que vayamos.',
+				answer: 'Both exist, split by polarity. Vamos is what native speakers reach for when they mean "let\'s go" in the affirmative, even though vayamos is what the subjunctive pattern would mathematically hand you, the shape every other nosotros command follows. Vayamos is still the correct form for the negative, no vayamos ("let\'s not go"), and for clauses that call for the subjunctive elsewhere, such as quiero que vayamos.',
 			},
 			{
 				question: 'Is "idos" or "iros" the correct vosotros command for irse?',
-				answer: 'Both are accepted today. Idos is the traditional, formally recommended form, kept from an older stage of the language rather than dropping to the regularly-expected íos. Iros, formed by shifting that same sound to an -r instead, is now the dominant form in everyday speech, and the RAE recognized it as valid alongside idos in 2017.',
+				answer: 'Both are accepted today. Idos is the traditional, formally recommended form, kept from an older stage of the language rather than dropping to the regularly-expected íos. Iros, made by swapping that same final consonant for an -r instead, is now what most speakers actually say day to day, and the Academy added it to its list of accepted forms next to idos back in 2017.',
 			},
 			{
 				question: 'Do usted commands use different forms for affirmative and negative?',
-				answer: 'No, and that\'s a structural difference from tú, not just a stylistic one. Usted and ustedes commands never have a dedicated imperative form at all; hable and hablen are both the affirmative and the negative command, with only the word no separating hable from no hable. Tú, by contrast, switches between two different forms: habla (affirmative) and hables (negative).',
+				answer: 'No, and the gap between tú and usted here is structural, not just stylistic. Usted and ustedes never get an imperative form of their own in either polarity; hable and hablen cover both jobs, and the only thing distinguishing the two is whether no comes before the verb. Tú, by contrast, splits into a genuinely separate pair: habla for affirmative, hables for negative.',
 			},
 		],
 		sources: [
@@ -4081,23 +4081,23 @@ export const guides: Guide[] = [
 		faq: [
 			{
 				question: 'Why does "y" sometimes become "e" in Spanish?',
-				answer: 'Per the RAE, the copulative conjunction y changes to e whenever the following word starts with the sound /i/ — including when that sound is spelled with a silent h, as in aguja e hilo. It\'s a purely phonetic rule to avoid two identical vowel sounds colliding, not a change in meaning. It doesn\'t fire before a diphthong (madera y hierro) or an aspirated h (Franco y Hitler).',
+				answer: 'The RAE documents this as a sound-driven swap: the copulative y turns into e right in front of a word that opens with that /i/ sound — including when a silent h sits right in front of that sound, as in aguja e hilo. The goal is keeping two matching vowel sounds from running together, not any change in meaning. It doesn\'t fire before a diphthong (madera y hierro) or an aspirated h (Franco y Hitler).',
 			},
 			{
 				question: 'What\'s the actual difference between pero and sino?',
-				answer: 'Pero contrasts two ideas without denying the first one — Está muy débil, pero puede salir keeps "she\'s very weak" true while adding a restricting fact. Sino requires an explicit negation in the first clause and swaps in a full replacement for it: No es alto, sino bajo names bajo as the corrected description itself, not an added detail tacked onto "not tall." Pero restricts; sino replaces.',
+				answer: 'Pero contrasts two ideas without denying the first one — the weak-but-can-go-outside example keeps "she\'s very weak" standing while pero tacks on a restricting fact. Sino only works after a negative first clause, and it swaps in a full replacement for what got denied: pairing "not tall" with "short" names the second word as the corrected description itself, not an added detail. Pero restricts; sino replaces.',
 			},
 			{
 				question: 'When do I need "sino que" instead of just "sino"?',
-				answer: 'Whenever the clause after sino has its own conjugated verb rather than just a noun or infinitive: No lo dijo, sino que lo gritó needs que because lo gritó is a second finite clause. No le gusta leer, sino tocar la guitarra stays as plain sino because tocar is an infinitive, not a conjugated verb.',
+				answer: 'Whenever what follows sino is its own complete clause, subject and conjugated verb together, not just a noun or bare infinitive: pairing "he didn\'t say it" with "he shouted it" needs que because both halves are built around a fully conjugated verb, not a bare form. The reading-versus-guitar contrast keeps plain sino instead, because playing guitar there is just a bare infinitive with no personal ending at all.',
 			},
 			{
 				question: 'Is "sino" the same word as "si no"?',
-				answer: 'No — they\'re unrelated and the RAE warns against confusing them. Sino (one word) is the adversative conjunction covered above. Si no (two words) is just si ("if") plus the negating adverb no ("not"), used in ordinary conditional clauses: Si no vienes, avísame ("If you don\'t come, let me know").',
+				answer: 'No — they\'re two different things entirely, and it\'s an easy mix-up to make. Sino, written as one solid word, names the same contrast word covered above. Si no stays two separate words: si meaning "if," paired with no meaning "not" — the ordinary conditional pairing behind a heads-up telling someone to call ahead in case they can\'t make it.',
 			},
 			{
 				question: 'Do you ever put a comma before "ni"?',
-				answer: 'Almost never in ordinary use. Per the RAE\'s Ortografía, a comma is incompatible with y, e, ni, o, and u when they join elements of a series or equivalent syntactic members, so ni…ni linking two verb phrases takes no comma. The narrow exceptions are rhetorical repetition of the conjunction for emphasis, or when the coordinated sequence reads as a parenthetical aside rather than a flat list.',
+				answer: 'Almost never in ordinary use. Per the RAE\'s Ortografía, none of Spanish\'s coordinating conjunctions (y, e, ni, o, u) take a comma right before them whenever they connect items in a list or comparable grammatical units, so a ni…ni pair coordinating two verbs skips the comma too. The narrow exceptions are rhetorical repetition of the conjunction for emphasis, or when the linked items function more like an aside than a plain list.',
 			},
 		],
 		sources: [
