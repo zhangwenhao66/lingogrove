@@ -1316,23 +1316,23 @@ export const guides: Guide[] = [
 		faq: [
 			{
 				question: 'Is "voy a hablar" just a casual version of "hablaré"?',
-				answer: 'Not exactly. They overlap heavily in meaning, and ir a + infinitive is far more common in speech, especially in Latin America, but the simple future carries two jobs the periphrasis doesn\'t: the futuro de conjetura (guessing about the present, as in "Serán las tres," "it\'s probably three") and modal uses like orders, warnings, and threats ("Te caerás," "you\'ll fall"). Calling one "casual" and the other "formal" misses those uses entirely.',
+				answer: 'Not really — think of them as two tools with different jobs rather than two registers of the same one. Both frame something still ahead of you, and ir a + infinitive dominates ordinary talk by a wide margin. But the conjugated form covers ground the periphrasis leaves untouched: floating a hunch about what\'s going on this instant (Serán las tres, roughly "it must be three right now"), and turning a plain statement into a command, a caution, or a threat instead of a forecast. Neither of those maps onto "future" in English, so "casual vs. formal" undersells the real gap.',
 			},
 			{
 				question: 'Why do Spanish future-tense endings look the same for -ar, -er, and -ir verbs?',
-				answer: 'Because they aren\'t really conjugation-class endings at all. They\'re what\'s left of the present tense of haber ("to have"), fused onto the infinitive. Vulgar Latin built the future by combining an infinitive with habere, so cantare habeo became cantar he and eventually cantaré. Since the ending is a fossilized auxiliary verb rather than a tense marker specific to each conjugation, it stayed the same regardless of whether the main verb ends in -ar, -er, or -ir.',
+				answer: 'Because they aren\'t really conjugation-class endings at all. They\'re a shrunk-down, conjugated form of haber ("to have") that Vulgar Latin stuck on after the infinitive: combining infinitive plus habere turned cantare habeo into cantar he and eventually cantaré. Since the ending is a fossilized auxiliary verb rather than a tense marker specific to each conjugation, it stayed the same regardless of whether the main verb ends in -ar, -er, or -ir.',
 			},
 			{
 				question: 'Why do verbs like tener and poner change their stem in the future tense?',
-				answer: 'Twelve verbs shorten or alter the infinitive before adding the future endings. Five drop the final vowel (poder → podr-, saber → sabr-, caber → cabr-, querer → querr-, haber → habr-), five drop the vowel and add a -d- (tener → tendr-, poner → pondr-, salir → saldr-, valer → valdr-, venir → vendr-), and two are irregular outright (decir → dir-, hacer → har-). The endings attached to those stems are the same six regular endings every other verb uses.',
+				answer: 'Twelve verbs shorten or alter the infinitive before adding the future endings. Five drop the final vowel (poder → podr-, saber → sabr-, caber → cabr-, querer → querr-, haber → habr-), five keep dropping that vowel but slot in a -d- (tener → tendr-, poner → pondr-, salir → saldr-, valer → valdr-, venir → vendr-), and two are irregular outright (decir → dir-, hacer → har-). The endings attached to those stems are the same six regular endings every other verb uses.',
 			},
 			{
 				question: 'Does "estará" always mean "will be"?',
-				answer: 'No, this is the biggest trap in the tense. Spanish uses the future to express conjecture about the present, not just predictions about later. "¿Dónde está Juan?" "Estará en casa" doesn\'t mean "He will be at home"; it means "He\'s probably at home right now." The clue is usually context: no future time marker, and a question that\'s asking about the present.',
+				answer: 'No, and this is the biggest trap in the whole tense. Spanish also reaches for the future to float a guess about right now, not only to predict later. "¿Dónde está Juan?" "Estará en casa" doesn\'t translate as a prediction at all; it\'s a hunch that Juan is home this minute, offered without any actual knowledge of where he is. The tell is usually context: nothing marking a later time, and a question that\'s really about the current moment.',
 			},
 			{
 				question: 'Is the simple future disappearing from spoken Spanish?',
-				answer: 'It\'s fading from everyday conversational use in favor of ir a + infinitive, particularly in American Spanish, according to the RAE\'s own grammar. It hasn\'t disappeared, though. It remains the normal choice for conjecture about the present, for formal predictions and promises, and for literary, judicial, and administrative registers, where the periphrastic future can read as too informal.',
+				answer: 'Day-to-day speech leans harder on ir a + infinitive now, especially outside Spain, per the Academia\'s own grammar. It hasn\'t disappeared, though. Speakers still reach for it to size up what\'s probably happening this second, to deliver a promise or a formal forecast, and in the kind of legal, academic, and literary writing where the periphrasis would sound out of place.',
 			},
 		],
 		sources: [
@@ -1950,7 +1950,7 @@ export const guides: Guide[] = [
 		faq: [
 			{
 				question: 'Why are mi, tu, and su called "apocopated" forms?',
-				answer: 'Apocope means a word gets shortened by dropping its ending. Mi, tu, and su are the apocopated versions of the longer possessives mío, tuyo, and suyo, used specifically when the possessive sits in front of a noun. That shortening is also why mi, tu, and su never picked up gender marking: the fuller forms they were cut from carry it (mío/mía), but the cut-down prenominal forms don\'t.',
+				answer: 'Apocope means a word gets shortened by dropping its ending. This trio, mi, tu, su, is the trimmed-down version of the longer set, mío, tuyo, suyo, reserved specifically for the position right before a noun. That trimming is also why mi, tu, and su never picked up gender marking: the fuller forms they were cut from carry it (mío/mía), but the cut-down prenominal forms don\'t.',
 			},
 			{
 				question: 'Why doesn\'t "mi" change for gender, but "nuestro" does?',
@@ -1958,11 +1958,11 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'What does "su" mean: his, her, your, or their?',
-				answer: 'All four, and the word itself doesn\'t say which. Su casa is ambiguous without context. When it matters, Spanish speakers add a clarifying phrase instead: la casa de él (his), la casa de ella (her), la casa de usted (your, formal), or la casa de ellos/de ellas/de ustedes (their/your, plural).',
+				answer: 'All four, and the word itself doesn\'t say which. Su casa is ambiguous without context. When it matters, Spanish speakers spell out the owner instead: la casa de él (his), la casa de ella (her), la casa de usted (your, formal), or la casa de ellos/de ellas/de ustedes (their/your, plural).',
 			},
 			{
 				question: 'Is "vuestro" used in Latin America?',
-				answer: 'Almost never in conversation, but you\'ll still run into it in print. Latin American speech has no everyday partner pronoun left for vuestro to pair with, since vosotros isn\'t part of ordinary regional usage, and su/sus fills the gap instead. Learners aiming at Latin American Spanish can treat vuestro as a reading form rather than a producing one: expect to meet it in older books, formal ceremony, or a film set in Spain, without ever needing to say it back yourself.',
+				answer: 'Almost never in conversation, but you\'ll still run into it in print. Everyday speech across the region has no partner pronoun left for vuestro to pair with, since vosotros isn\'t part of ordinary regional usage, and su/sus fills the gap instead. Learners can treat vuestro as a reading form rather than a producing one: expect to meet it in older books, formal ceremony, or a film set in Spain, without ever needing to say it back yourself.',
 			},
 			{
 				question: 'What\'s the difference between "mi casa" and "una casa mía"?',
@@ -2038,7 +2038,7 @@ export const guides: Guide[] = [
 		faq: [
 			{
 				question: 'What\'s the real difference between ese and aquel if they both mean "that"?',
-				answer: 'Aquel marks distance from both the speaker and the listener; ese is the unmarked term and doesn\'t carry a fixed distance value of its own, per the RAE\'s Nueva gramática. In practice, ese covers most everyday "that," while aquel is reserved for something conspicuously farther off, or, in much of Latin America, mostly for literary and evocative use rather than everyday spatial reference.',
+				answer: 'Per the Academia\'s own grammar reference, aquel signals that something is far from both the speaker and the listener, while ese carries no such commitment and doesn\'t lock in to a set point on the line between them. In practice, ese covers most everyday "that," while aquel is kept for whatever gets pushed noticeably farther away, or, across a lot of Latin American usage, mainly for a literary, look-back-in-time flavor instead of a spatial one.',
 			},
 			{
 				question: 'Do demonstrative adjectives like este still need an accent mark?',
@@ -2046,15 +2046,15 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'Can esto, eso, or aquello refer to a person?',
-				answer: 'Only in one specific construction. Identifying a person with esto or eso (Esto parece un espantapájaros) reads as offensive, per the RAE, since RAE reserves esto/eso/aquello for things, not people. The exception is a sentence of the pattern esto/eso + ser + noun used to single someone out approvingly, where the same construction flips from insult to compliment. A separate, unrelated construction can also sound dismissive toward a person: putting ese after the noun instead of before it, as in el hombre ese instead of ese hombre, which the RAE\'s own grammar notes carries contempt or distance rather than plain identification.',
+				answer: 'Only in one specific construction. Pointing at a person with esto or eso, in place of a real name or a pronoun like él or ella, comes across as an insult, according to the Academia (its example imagines calling someone a scarecrow), because these neuter forms are reserved for things. The exception is a sentence of the pattern esto/eso + ser + noun used to single someone out approvingly, where the same construction flips from insult to compliment. A separate, unrelated construction can also sound dismissive toward a person: putting ese after the noun instead of before it, as in el hombre ese instead of ese hombre, which the RAE\'s own grammar notes carries contempt or distance rather than plain identification.',
 			},
 			{
 				question: 'Why is it "esta águila" and not "este águila," if águila takes "el" as its article?',
-				answer: 'The masculine-looking el before águila, agua, and similar feminine nouns (the same pattern shows up with hambre, so it\'s el hambre despite mucha hambre staying feminine) exists purely to avoid two stressed a-sounds colliding, and it\'s specific to the article. Demonstratives don\'t share that phonological trigger, so the Academy\'s advice runs the other way: keep esta or aquella, not este or aquel, even though este águila and ese agua have become common through analogy with the article rule.',
+				answer: 'El appearing before águila, agua, and similar feminine nouns (the same pattern shows up with hambre, so it\'s el hambre despite mucha hambre staying feminine) fixes an awkward run of two adjacent stressed a\'s, and that fix is specific to the article. Demonstratives don\'t share that phonological trigger, so the Academy\'s advice runs the other way: keep esta or aquella, not este or aquel, even though este águila and ese agua have become common through analogy with the article rule.',
 			},
 			{
 				question: 'Is aquel still used in everyday Latin American Spanish?',
-				answer: 'Less than the peninsular three-way system suggests, but it hasn\'t disappeared: en aquel entonces ("back then") is a genuinely everyday phrase in every Spanish-speaking region, binary-system ones included, and it survives precisely because it\'s doing the evocative, look-back-in-time job this article\'s main grammar source describes for aquel, not the spatial job este/acá and ese/allá took over.',
+				answer: 'Less than the peninsular three-way system suggests, but it hasn\'t disappeared: en aquel entonces ("back then") is a genuinely everyday phrase in every Spanish-speaking region, binary-system ones included, and it holds on for exactly the reason this article\'s main grammar source gives for aquel: an evocative, look-back-in-time role, not the spatial job este/acá and ese/allá took over.',
 			},
 		],
 		sources: [
@@ -5180,19 +5180,19 @@ export const guides: Guide[] = [
 		faq: [
 			{
 				question: 'How do you form the gerund in Spanish?',
-				answer: 'Add -ando to -ar verbs (hablar → hablando) and -iendo to -er and -ir verbs (comer → comiendo, vivir → viviendo). Stem-changing -ir verbs shift the stem vowel first, e→i (pedir → pidiendo) or o→u (dormir → durmiendo), and verbs whose stem ends in a vowel insert a y instead of the plain i (leer → leyendo, oír → oyendo, construir → construyendo) to avoid two vowels colliding.',
+				answer: 'It comes down to which conjugation a verb belongs to: -ar verbs pick up -ando (cantar turns into cantando), while both -er and -ir verbs take -iendo instead (beber turns into bebiendo, escribir into escribiendo). -Ir verbs that change their stem swap the vowel first, e→i (pedir → pidiendo) or o→u (dormir → durmiendo), and verbs with a vowel right before that ending swap in a y for the plain i (leer → leyendo, oír → oyendo, construir → construyendo) so the spelling never stacks two vowels together.',
 			},
 			{
 				question: 'What are the irregular Spanish gerunds?',
-				answer: 'They fall into two families. Stem-changing -ir verbs (and poder) swap e→i or o→u: pidiendo, sintiendo, diciendo, viniendo, durmiendo, muriendo, pudiendo, the same stem shift the third-person preterite uses for these verbs. Verbs with a vowel-final stem take -yendo instead of -iendo: leyendo, oyendo, trayendo, cayendo, construyendo, huyendo, and the fully irregular yendo (ir).',
+				answer: 'They fall into two families. -Ir verbs with a stem change (plus poder) swap e→i or o→u: pidiendo, sintiendo, diciendo, viniendo, durmiendo, muriendo, pudiendo — the identical vowel change [these same verbs make in the preterite when he/she/they is doing the action](/irregular-preterite-verbs-spanish/). Verbs with a vowel-final stem take -yendo instead of -iendo: construyendo, cayendo, trayendo, oyendo, leyendo, huyendo, and yendo (ir), which is fully irregular.',
 			},
 			{
 				question: 'Can you use the Spanish gerund as a noun, the way English uses "-ing," as in "swimming is fun"?',
-				answer: "No. The Spanish gerund is purely verbal and can't fill a subject, object, or prepositional-object slot the way an English -ing noun can. \"Swimming is fun\" is nadar es divertido, and \"I love reading\" is me encanta leer, both using the infinitive, never a bare gerund standing in as a noun.",
+				answer: "No. The Spanish gerund stays locked into verb duty and can't fill a subject, object, or prepositional-object slot the way an English -ing noun can. Spanish reaches for the infinitive in those spots instead: nadar es divertido for \"swimming is fun,\" me encanta leer for \"I love reading,\" never a bare gerund standing in as a noun.",
 			},
 			{
 				question: 'What is "gerundio de posterioridad" and why is it considered wrong?',
-				answer: "It's using a gerund to describe an action that happens after the main verb with no close or causal connection between the two, as in the RAE's flagged example Estudió en Madrid, yendo después a Buenos Aires (should be y fue después). The RAE's guidance allows a gerund for near-simultaneous or clearly causal follow-on actions, but treats a gerund used purely to mean \"and then\" as non-standard.",
+				answer: "It's a gerund standing in for a separate, later event that has no real overlap or cause-and-effect tie to the main verb. The RAE flags a textbook trip-narration sentence this way, a stay in Madrid followed by a gerund naming a later departure for Buenos Aires, where a plain y fue (\"and then went\") is the standard fix. The Academy allows a gerund when the two actions basically overlap in time or one clearly causes the other, but treats one whose only job is signaling \"and then\" as non-standard.",
 			},
 		],
 		sources: [
@@ -5416,23 +5416,23 @@ export const guides: Guide[] = [
 		faq: [
 			{
 				question: 'Why does "Fumar es malo para la salud" translate as "Smoking is bad for your health" rather than "To smoke is bad for your health"?',
-				answer: 'Both English translations are grammatical, but "smoking" reads more naturally to most English speakers, and either way the underlying Spanish grammar stays the same regardless of which English gloss is picked. Spanish only has one non-finite form eligible to occupy a noun\'s spot, the infinitive, because the gerund can\'t do it. English speakers translating from Spanish don\'t need to worry about which "-ing"-equivalent to reach for; there\'s only ever one option on the Spanish side.',
+				answer: 'Both English translations are grammatical, but native English ears tend to favor "smoking," and either way the underlying Spanish grammar stays the same regardless of which English gloss is picked. Spanish hands the noun-like spot to the infinitive alone, since the gerund is shut out of that job entirely. English speakers translating from Spanish don\'t need to worry about which "-ing"-equivalent to reach for; there\'s only ever one option on the Spanish side.',
 			},
 			{
 				question: 'What\'s the difference between "Debe llegar a las nueve" and "Debe de haber llegado ya"?',
-				answer: 'The first uses deber + infinitivo and states an obligation or expectation: he\'s supposed to arrive at nine. The second uses deber de + infinitivo and states a conjecture instead: he has probably already arrived, a guess rather than a requirement. The de is doing real grammatical work here, not decorating the sentence; dropping it changes the meaning from an instruction to an inference.',
+				answer: 'The first puts deber straight in front of an infinitive and reads as an instruction or expectation: he\'s supposed to arrive at nine. Slot de in between and the meaning swaps to a guess instead: he has probably already arrived, not a requirement at all. The de is doing real grammatical work here, not decorating the sentence; dropping it changes the meaning from an instruction to an inference.',
 			},
 			{
 				question: 'Is "No fumar" on a sign grammatically the same as telling one specific person not to smoke?',
-				answer: 'No. Per the RAE, the infinitive on a sign like No fumar is an impersonal exhortative form addressed to a collective, indeterminate reader, closer to "smoking is not permitted here" than to a command aimed at any one person. A direct instruction to someone standing in front of you uses an actual negative-command form instead, like No fumes.',
+				answer: 'No. Per the RAE, the infinitive on a sign like No fumar is an impersonal exhortative form aimed at any reader who happens by, closer to "smoking is not permitted here" than to a command aimed at any one person. Say the same thing to someone\'s face and Spanish reaches for an actual negative-command form instead, like No fumes.',
 			},
 			{
 				question: 'Can the infinitive have a subject different from the main clause\'s subject?',
-				answer: 'Yes. The RAE gives Al oscurecer, refresca un poco el aire as an example where the infinitive\'s understood subject, the weather, essentially, has nothing to do with the main clause\'s subject. It can also create genuine ambiguity, as in a sentence like muy poco antes de llegar al lugar de los hechos, which the RAE notes can be read as "before we arrived" or "before the police arrived" depending on which subject the reader assumes the infinitive is silently carrying.',
+				answer: 'Yes. The Academy\'s own illustration is the darkness-and-cooling-air sentence covered above: the subject it silently carries there, the weather essentially, has nothing to do with who or what the rest of the sentence is about. It can also create genuine ambiguity: the Academy points to a real sentence about police arriving at the scene of an accident shortly after officers or witnesses got there, where the sentence never pins down whether the person who arrived first was the reader or the police.',
 			},
 			{
 				question: 'What does the compound infinitive (haber + participle) add that the simple infinitive doesn\'t?',
-				answer: 'It marks the action as already finished relative to whatever the main clause describes. Después de haber terminado el informe, se fue a casa points at a report that was done before the leaving happened; swapping in the simple infinitive, después de terminar el informe, doesn\'t carry that same explicit "already complete" reading on its own.',
+				answer: 'It signals that the action wrapped up before the sentence\'s other event gets underway — the finished-report-then-left example covered above only carries that explicit "already done" sense with the compound form; drop back to the plain después de terminar el informe and the sense of a completed prior step disappears on its own.',
 			},
 		],
 		sources: [
