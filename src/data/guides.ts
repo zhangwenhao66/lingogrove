@@ -2123,23 +2123,23 @@ export const guides: Guide[] = [
 		faq: [
 			{
 				question: 'What\'s the real difference between wa and ga?',
-				answer: 'は (wa) marks the topic, the thing the rest of the sentence is going to say something about. が (ga) marks the specific grammatical subject, whichever noun is actually doing or being the thing described. English collapses both into a single subject slot, which is why 象は鼻が長い ("as for elephants, the nose is long") reads as having two subjects to an English speaker. Linguist Mikami Akira devoted his 1960 book 象は鼻が長い to arguing that Japanese doesn\'t need a single subject at all, only a topic and, separately, whatever が marks within it.',
+				answer: 'は (wa) sets up whatever the sentence is framed around, its topic. が (ga) picks out exactly which noun is carrying out or standing in for that action. English squeezes both jobs into one subject slot, which is why the classic teaching sentence 象は鼻が長い looks, translated word for word, like it hands one sentence two subjects to an English speaker. Mikami Akira, the linguist behind the example, wrote an entire book on it in 1960, 象は鼻が長い, arguing that Japanese gets by without one lone subject, relying instead on a topic plus whatever が picks out inside it.',
 			},
 			{
 				question: 'Is を pronounced "wo" or "o"?',
-				answer: '"O," in virtually all everyday modern speech. を is written with a character historically read "wo," but Japanese pronunciation shifted centuries ago while the spelling of certain particles, including は, を, and へ, stayed frozen in what\'s called historical kana usage. The older "wo" sound mostly survives today in singing or for deliberate emphasis, not ordinary conversation.',
+				answer: '"O," in virtually all everyday modern speech. を is written using hiragana whose old reading was "wo," but Japanese pronunciation shifted centuries ago while the spelling of certain particles, including は, を, and へ, stayed frozen in what linguists call 歴史的仮名遣い, historical kana spelling. The older "wo" sound mostly survives today in singing or for deliberate emphasis, not ordinary conversation.',
 			},
 			{
 				question: 'Can wa, wo, and ga be dropped in casual Japanese?',
-				answer: 'Often, yes, but only in speech, never in writing. は, を, and が are the particles casual spoken Japanese most commonly drops, per Coto Academy\'s breakdown of particle omission, while particles carrying more specific information, like に, で, and へ, tend to stay. What keeps the sentence understandable without them is Japanese\'s fixed subject-object-verb word order, which still signals each noun\'s role even when the particle marking it isn\'t said out loud.',
+				answer: 'Often, yes, in conversation, though never when it\'s written down. Casual speakers most often drop は, を, and が, per Coto Academy, while narrower-purpose markers like に, で, and へ usually stick around. Even without the dropped ones, a listener can still work out who\'s acting on whom, because Japanese keeps subject, object, and verb in the same fixed sequence, and that sequence alone tags each noun\'s job.',
 			},
 			{
 				question: 'Why does に have so many different meanings?',
-				answer: 'One particle covers four related jobs, sharing a spelling because the jobs are related, not by coincidence: the location of something\'s existence (koko ni imasu, "it\'s here"), a point in time (shichiji ni, "at 7"), a destination with a motion verb (gakkou ni iku, "go to school"), and the recipient of a giving or receiving verb (tomodachi ni ageru, "give to a friend"). What ties them together is that all four mark a fixed point, in space, time, or in a two-person exchange, rather than an action happening across an area, which is で\'s job instead.',
+				answer: 'One particle covers four related jobs, sharing a spelling because the jobs are related, not by coincidence: pinning down where a thing exists (koko ni imasu, "it\'s here"), a point in time (shichiji ni, "at 7"), a destination with a motion verb (gakkou ni iku, "go to school"), plus whoever ends up on the receiving side of a give-or-receive verb (tomodachi ni ageru, "give to a friend"). What ties them together is that all four mark a fixed point, in space, time, or in a two-person exchange, rather than an action happening across an area, which is で\'s job instead.',
 			},
 			{
 				question: 'Is ga the same as ni for marking "where something is"?',
-				answer: 'No, they mark different pieces of the same existence sentence. が marks the thing that exists (neko ga imasu, "there\'s a cat"), while に marks where it exists (koko ni imasu, "it\'s here"). Combined, neko ga koko ni imasu means "the cat is here," with が on the subject and に on the location, each doing a separate job in the same sentence.',
+				answer: 'No, they tag two different parts of the same existence sentence, not the same job. が marks the thing that exists (neko ga imasu, "there\'s a cat"), while に marks where it exists (koko ni imasu, "it\'s here"). Put both in one sentence, subject marked by が and location marked by に, and the reading comes out as "the cat is here," each particle covering a separate piece of the meaning.',
 			},
 		],
 		sources: [
@@ -3031,7 +3031,7 @@ export const guides: Guide[] = [
 				heading: 'Used by Muslims, Christians, and Jews alike',
 				body: [
 					'Despite its Qur\'anic origin, inshallah isn\'t exclusive to Muslims. Per Wikipedia\'s entry on the phrase, it "is more generally and commonly used by Muslims, Arab Christians, and Arabic speakers of other religions to refer to events that one hopes will happen in the future, having the same meaning as the English word \'hopefully.\'" The word Allah itself is simply the Arabic word for God, not a name specific to Islam, which is part of why the expression crossed religious lines within Arabic-speaking communities long before it crossed into English.',
-					'It isn\'t the only Arabic-origin phrase to make that leap into everyday English use. [Habibi](/habibi-meaning/), the Arabic term of endearment, followed a similar path out of a specific religious and cultural context and into casual, sometimes ironic use online, though the two phrases moved for different reasons: habibi through social media informality, inshallah through its specific religious weight making it a recognizable phrase even to people who don\'t speak Arabic.',
+					'It isn\'t the only Arabic-origin phrase to make that leap into everyday English use. [Habibi](/habibi-meaning/), the Arabic term of endearment, followed a similar path out of its own everyday cultural context and into casual, sometimes ironic use online, though the two phrases moved for different reasons: habibi through social media informality, inshallah through its specific religious weight making it a recognizable phrase even to people who don\'t speak Arabic.',
 				],
 			},
 			{
@@ -3052,23 +3052,23 @@ export const guides: Guide[] = [
 		faq: [
 			{
 				question: 'What does inshallah literally mean?',
-				answer: 'It breaks down into three Arabic words: in ("if"), shāʾa ("willed," a past-tense verb), and Allah ("God"). Put together, in shāʾa Allāh literally means "if God has willed [it]," which is usually rendered in English as "God willing" or "if God wills."',
+				answer: 'It splits into three words of Arabic: in works as a conditional, roughly "if"; shāʾa, a past-tense verb for "willed"; and Allah, simply "God." Read straight through, the phrase says something close to "should God will it so." English speakers usually shorten that to a quick "God willing."',
 			},
 			{
 				question: 'Is inshallah used only by Muslims?',
-				answer: 'No. While the phrase comes directly from the Qur\'an, it\'s used across the Arabic-speaking world by Muslims, Arab Christians, and Arabic-speaking Jews alike, in roughly the same sense as the English word "hopefully." Allah is simply the Arabic word for God, not a term exclusive to Islam.',
+				answer: 'No. Even though its origin traces straight back to the Qur\'an, people across several religious communities in the Arabic-speaking world reach for it, meaning roughly what "hopefully" does in English, not just practicing Muslims. Allah itself just names God in Arabic and carries no claim of belonging to one faith.',
 			},
 			{
 				question: 'What\'s the correct spelling: inshallah, insha\'Allah, or in sha Allah?',
-				answer: 'All of these are accepted English transliterations of the same Arabic original, إن شاء الله. Religious and academic writing tends to prefer the three-word spelling, in shāʾa Allāh or in sha Allah, since it preserves the phrase\'s three separate words; casual English writing most often uses the single run-together form, inshallah.',
+				answer: 'All of them spell out the same underlying Arabic, إن شاء الله, just transliterated differently into English. Formal and scholarly writing tends to keep the phrase broken into its three original words (in shāʾa Allāh, or in sha Allah), since that preserves the underlying grammar; everyday writing usually collapses it into one fused word, inshallah.',
 			},
 			{
 				question: 'Why do people sometimes use inshallah to avoid committing to something?',
-				answer: 'The same phrase changes weight with context. Used sincerely or formally, it expresses genuine hope in an outcome still subject to God\'s will. In casual conversation, it\'s frequently used to signal uncertainty or an open-ended response to a request, closer to "maybe, we\'ll see" than a firm promise, which can read as evasive to someone unfamiliar with that everyday usage.',
+				answer: 'The same phrase changes weight with context. Used sincerely or formally, it expresses genuine hope in an outcome still subject to God\'s will. Day to day, though, people reach for it to leave a request hanging without a firm yes or no, closer to "maybe, we\'ll see" than a firm promise, which can read as evasive to someone unfamiliar with that everyday usage.',
 			},
 			{
 				question: 'Is inshallah related to the Spanish word ojalá?',
-				answer: 'They\'re closely related but not identical. Ojalá (and Portuguese oxalá) descend from a related Andalusi Arabic phrase, law shāʾa llāh or wa shāʾa llāh ("if/and God would will it"), built from the same verb and the same word for God as inshallah, rather than being a direct transliteration of in shāʾa Allāh itself. Both trace to the same underlying idea of leaving an outcome up to God\'s will.',
+				answer: 'They\'re closely related but not identical. Spanish ojalá, along with its Portuguese cousin oxalá, descends from a related Andalusi Arabic phrase, law shāʾa llāh (or its variant wa shāʾa llāh), carrying roughly the sense "should God so will it," drawing on the same root verb and the same word for God as inshallah, rather than being a direct transliteration of in shāʾa Allāh itself. Both trace to the same underlying idea of leaving an outcome up to God\'s will.',
 			},
 		],
 		sources: [
@@ -3178,7 +3178,7 @@ export const guides: Guide[] = [
 				body: [
 					'Eight common verbs replace their stem with one containing -u- in the preterite, then all take the same endings: -e, -iste, -o, -imos, -isteis, -ieron, with no written accents anywhere in the paradigm. The verbs: andar → anduv-, estar → estuv-, poder → pud-, poner → pus-, saber → sup-, tener → tuv-, haber → hub-, caber → cup-.',
 					'Take estar as the model: estuve, estuviste, estuvo, estuvimos, estuvisteis, estuvieron. Swap in any of the other seven stems and the endings don\'t change at all. *Estuve en Madrid la semana pasada* ("I was in Madrid last week"). *Tuve que salir temprano* ("I had to leave early"). *No pudimos terminar a tiempo* ("We couldn\'t finish on time").',
-					'Notice there\'s no accent on estuve or estuvo, unlike a regular -ar preterite like hablé or habló. That\'s consistent across every irregular preterite stem covered on this page: the accent marks that distinguish regular yo/él forms (hablé vs. hable, the present subjunctive) simply don\'t apply once the stem itself is irregular, because there\'s no longer a regular form to distinguish from. The endings themselves, for every one of these irregular stems, are still the same six-form set that [regular preterite verbs](/spanish-preterite-endings/) use; what makes a verb irregular here is only ever the stem, never a different ending list.',
+					'Notice there\'s no accent on estuve or estuvo, unlike a regular -ar preterite like hablé or habló. That\'s consistent across every irregular preterite stem covered on this page: the accent marks that distinguish regular yo/él forms (hablé vs. hable, the present subjunctive) simply don\'t apply once the stem itself is irregular, because there\'s no longer a regular form to distinguish from. The endings themselves, for every one of these irregular stems, still closely echo the [regular -er/-ir preterite set](/spanish-preterite-endings/), just with a bare -e and -o standing in for the accented -í and -ió in the yo and él forms; what makes a verb irregular here is only ever the stem, never an unrelated ending list.',
 				],
 				image: {
 					src: '/images/irregular-preterite-verbs-spanish-diagram.svg',
@@ -3540,7 +3540,7 @@ export const guides: Guide[] = [
 				],
 				image: {
 					src: '/images/italian-future-tense-diagram.svg',
-					alt: 'Three rows showing the same Italian future-tense endings doing three different jobs: "Domani pioverà" as a genuine prediction (futuro temporale), "Sarà a casa" as a guess about the present (futuro epistemico), and "Pagherai una multa" as a rule stated as fact rather than a forecast (futuro iussivo).',
+					alt: 'Three rows showing the same Italian future-tense endings doing three different jobs: "Domani pioverà" as a genuine prediction (futuro temporale), "Sarà a casa" as a guess about the present (futuro epistemico), and "Pagherai una multa" as a rule stated as fact, not a forecast (futuro iussivo).',
 				},
 			},
 			{
@@ -3552,11 +3552,11 @@ export const guides: Guide[] = [
 				],
 			},
 			{
-				heading: 'Sixteen verbs that shorten instead of just adding endings',
+				heading: 'Sixteen verbs that shorten the stem before adding endings',
 				body: [
-					'Sixteen common verbs keep the same six endings but attach them to a shortened stem instead of the full infinitive: *andare* → *andr-*, *avere* → *avr-*, *bere* → *berr-*, *dare* → *dar-*, *dire* → *dir-*, *dovere* → *dovr-*, *essere* → *sar-*, *fare* → *far-*, *potere* → *potr-*, *rimanere* → *rimarr-*, *sapere* → *sapr-*, *stare* → *star-*, *vedere* → *vedr-*, *venire* → *verr-*, *vivere* → *vivr-*, *volere* → *vorr-*. Once the stem is settled, the endings attached to it are the same regular six every other verb uses: *avere* becomes *avrò, avrai, avrà, avremo, avrete, avranno*.',
+					'Sixteen common verbs keep the same six endings but attach them to a shortened stem, not the full infinitive: *andare* → *andr-*, *avere* → *avr-*, *bere* → *berr-*, *dare* → *dar-*, *dire* → *dir-*, *dovere* → *dovr-*, *essere* → *sar-*, *fare* → *far-*, *potere* → *potr-*, *rimanere* → *rimarr-*, *sapere* → *sapr-*, *stare* → *star-*, *vedere* → *vedr-*, *venire* → *verr-*, *vivere* → *vivr-*, *volere* → *vorr-*. Once the stem is settled, the endings attached to it are the same regular six every other verb uses: *avere* becomes *avrò, avrai, avrà, avremo, avrete, avranno*.',
 					'Most of these come from the same mechanism: an unstressed vowel dropping out of the stem, sometimes followed by the resulting consonant cluster smoothing into a doubled *r*. Treccani traces two specific cases directly: *vedere* loses its unstressed *e* (*vederò* becomes *vedrò*), while *venire* both loses the vowel and then has its *n* assimilate into the following *r* (*venirò* becomes *∗venrò*, which becomes *verrò*). *Bere*, *rimanere*, and *volere* end up with the same *-rr-* shape through the same kind of vowel loss and assimilation.',
-					'Two of the sixteen break that pattern in the opposite direction: *dare* and *stare* keep their *-a-* instead of losing it, giving *darò* and *starò* rather than a shortened stem. Treccani offers this as the likely explanation rather than a settled one: the *-a-* probably survives here by analogy with those two verbs\' own present-tense forms, *do* and *sto*.',
+					'Two of the sixteen break that pattern in the opposite direction: *dare* and *stare* keep their *-a-*, skipping the vowel loss the other fourteen go through, so *darò* and *starò* come out with the stem intact. Treccani frames this as the likely explanation, not a settled one: the *-a-* probably survives here by analogy with those two verbs\' own present-tense forms, *do* and *sto*.',
 				],
 			},
 			{
@@ -3569,7 +3569,7 @@ export const guides: Guide[] = [
 			{
 				heading: '"Sarà" doesn\'t always mean "will be": the epistemic guess',
 				body: [
-					'One of the future tense\'s most common real-world jobs has nothing to do with time at all. Treccani calls this the *uso epistemico*: using the future to express an inference or a guess about something happening right now, rather than a claim about what happens later. The literal translation of *Non vedo Marco da un\'ora: sarà uscito a fare una passeggiata* would be "I haven\'t seen Marco in an hour: he will have gone out for a walk," a future-tense claim. What the sentence actually communicates is a present-tense guess, "he\'s probably gone out for a walk."',
+					'One of the future tense\'s most common real-world jobs has nothing to do with time at all. Treccani calls this the *uso epistemico*: using the future to express an inference or a guess about something happening right now, not a claim about what happens later. The literal translation of *Non vedo Marco da un\'ora: sarà uscito a fare una passeggiata* would be "I haven\'t seen Marco in an hour: he will have gone out for a walk," a future-tense claim. What the sentence actually communicates is a present-tense guess, "he\'s probably gone out for a walk."',
 					'The tell is almost always context, not grammar: there\'s no future time marker in the sentence, and the situation being described is something the speaker is uncertain about right now, not later. Asked what time it is with no clock visible, *Saranno le tre* means "It\'s probably three," not any statement about a future three o\'clock.',
 				],
 			},
@@ -3598,23 +3598,23 @@ export const guides: Guide[] = [
 		faq: [
 			{
 				question: 'Does "sarà" always mean "will be"?',
-				answer: 'No. Alongside genuine predictions, Italian uses the future tense as a guess about the present, a function Treccani calls the futuro epistemico. "Dov\'è Luca?" "Sarà in ufficio" doesn\'t mean "He will be in the office"; it means "He\'s probably in the office right now." The clue is usually context: no future time marker, and a question about the present rather than later.',
+				answer: 'No. On top of its job predicting what\'s ahead, Italian also leans on that same tense to voice a hunch about how things stand right now, a function Treccani calls the futuro epistemico. "Dov\'è Luca?" "Sarà in ufficio" doesn\'t mean "He will be in the office"; the real sense is "He\'s probably in the office right now." The tip-off is context rather than anything in the grammar itself: nothing in the sentence points forward in time, and the question is about how things stand right now.',
 			},
 			{
 				question: 'Why do verbs like "giocare" add an h in the future tense?',
-				answer: '"-care" and "-gare" verbs insert an h before the future endings to keep their hard c/g sound: giocare becomes giocherò, not giocerò, which would soften the c into the "ch" sound in "cheese." It\'s a spelling fix, not an irregularity in the verb itself; the same h shows up anywhere else an -e or -i would otherwise soften the consonant.',
+				answer: '"-care" and "-gare" verbs insert an h before the future endings to keep their hard c/g sound: giocare becomes giocherò, not giocerò, since dropping that h would turn the hard c into the "ch" sound heard in "cheese." It\'s a spelling fix, not an irregularity in the verb itself; the same h shows up anywhere else an -e or -i would otherwise soften the consonant.',
 			},
 			{
 				question: 'Why do verbs like "avere" and "vedere" lose a vowel in the future stem?',
-				answer: 'Historically, an unstressed vowel dropped out of the verb stem, a process called syncope. Vedere\'s expected form "vederò" lost its e to become vedrò; venire went a step further, losing its vowel and then having the resulting n assimilate into the following r ("venirò" → "*venrò" → "verrò"). Bere, rimanere, and volere pick up the same doubled-r shape through the same kind of vowel loss and assimilation.',
+				answer: 'Historically, a vowel that carried no stress simply fell out of the stem, a process linguists call syncope. Vedere\'s expected form "vederò" lost its e to become vedrò; venire goes a step further: it loses the vowel too, and the n left dangling then merges into the r that comes right after it ("venirò" → "*venrò" → "verrò"). Bere, rimanere, and volere all land on that same doubled-r shape, having gone through the identical two-step process, a dropped vowel followed by the leftover consonant folding into the r.',
 			},
 			{
 				question: 'What\'s the difference between futuro semplice and futuro anteriore?',
-				answer: 'Futuro semplice (parlerò) is the simple future built from one word. Futuro anteriore (avrò parlato) is a compound tense: the future of avere or essere plus a past participle, used mainly to show that one future event finishes before another one. It also has its own past-facing guessing use: "avrà avuto le sue ragioni" means "he probably had his reasons," not any statement about the future.',
+				answer: 'Futuro semplice (parlerò) is the simple future built from one word. Futuro anteriore (avrò parlato) stacks two pieces, avere or essere in the future plus a past participle, and its main job is showing that one future event wraps up before another one starts. It also has its own past-facing guessing use: "avrà avuto le sue ragioni" reads as "he probably had his reasons," floating a hunch about an event that\'s already wrapped up, with nothing forward-looking left in it.',
 			},
 			{
 				question: 'Do Italians actually use the future tense for near-term plans?',
-				answer: 'Less and less in casual speech. For a plan that\'s already decided, everyday spoken Italian increasingly reaches for the plain present tense instead: "Domani parto" ("I\'m leaving tomorrow") rather than "Domani partirò." The futuro semplice stays the default for genuine predictions, formal or written statements, and its distinctly modal jobs: guessing about the present, softening a claim, or stating a rule.',
+				answer: 'Less and less in casual speech. For a plan that\'s already decided, everyday spoken Italian leans harder every year on the simple present to say it: "Domani parto," literally "tomorrow I leave," has become the more natural everyday choice over "Domani partirò." This future form still holds ground the present tense simply can\'t take over: real predictions, formal or written registers, and its handful of modal roles, floating a guess, taking the edge off a claim, or laying down a rule as if it were fact.',
 			},
 		],
 		sources: [
@@ -3650,7 +3650,7 @@ export const guides: Guide[] = [
 				heading: 'The root means "admire," not "thank"',
 				body: [
 					'POLLEX-Online, the Polynesian Lexicon Project run out of the University of Auckland and the Max Planck Institute for Evolutionary Anthropology, traces Hawaiian mahalo to a reconstructed ancestor at the Nuclear Polynesian level, *masalo, glossed simply "be astonished at, admire." The "thanks" sense that dominates mahalo\'s modern use isn\'t in that root gloss at all; it\'s a meaning the Hawaiian reflex picked up on its own, with the admiration sense as the closer match to the ancestral form. The same root shows up, more faintly, in a couple of other Polynesian languages: New Zealand Māori has mīharo and the related maaharo, both meaning "to wonder at, be amazed, admire." Tahitian has a possible cognate, maharo, glossed as an emotion (anger, desire) subsiding rather than as admiration, but POLLEX itself flags the connection between the Tahitian form and the rest of the group as an uncertain semantic match, not a confirmed one.',
-					'There is a second, separate Polynesian root that happens to look almost identical: *masalo at the older Central Pacific level, glossed "think about, consider, suspect." POLLEX records this one in East Futuna (masalo, "think, be of the opinion that") and East Uvea, whose reflex is spelled mahalo, identical to the Hawaiian word, but glossed "to think, presume, suspect, conjecture." That East Uvea mahalo and the Hawaiian mahalo this article is about are not the same word reaching two islands; they\'re two different Proto-Polynesian roots that happened to converge on the same modern spelling, one meaning "admire" and the other "suspect." English kept only the "thanks" half of mahalo\'s own sense once it borrowed the word into tourist-facing use, the same kind of narrowing that happened when English adopted [schadenfreude](/schadenfreude-meaning/) rather than translate it: the loanword survives, but usually carrying less of its home meaning than it started with. Hawaiian\'s other widely borrowed word follows a similar pattern of the English version covering less ground than the original: [ohana](/ohana-meaning/) means family in everyday English use, but the Pukui & Elbert dictionary\'s actual entry stretches further than that single gloss, and linguists still dispute whether the word traces to a taro plant or an older Proto-Polynesian word for "nest."',
+					'There is a second, separate Polynesian root that happens to look almost identical: *masalo at the older Central Pacific level, glossed "think about, consider, suspect." POLLEX records this one in East Futuna (masalo, "think, be of the opinion that") and East Uvea, whose reflex is spelled mahalo, identical to the Hawaiian word, but glossed "to think, presume, suspect, conjecture." That East Uvea mahalo and the Hawaiian mahalo this article is about are not the same word reaching two islands; they\'re two different Proto-Polynesian roots that happened to converge on the same modern spelling, one meaning "admire" and the other "suspect." English kept only the "thanks" half of mahalo\'s own sense once it borrowed the word into tourist-facing use, a narrowing that runs the opposite way from how English handled [schadenfreude](/schadenfreude-meaning/): that word came over whole, imported wholesale precisely because no English word already covered the feeling it names. Mahalo had it easier and worse at once, since English already had "thanks" to lean on and simply left the rest of the word\'s range behind. Hawaiian\'s other widely borrowed word follows a similar pattern of the English version covering less ground than the original: [ohana](/ohana-meaning/) means family in everyday English use, but the Pukui & Elbert dictionary\'s actual entry stretches further than that single gloss, and linguists still dispute whether the word traces to a taro plant or an older Proto-Polynesian word for "nest."',
 				],
 			},
 			{
@@ -3671,23 +3671,23 @@ export const guides: Guide[] = [
 		faq: [
 			{
 				question: 'What\'s the Pukui & Elbert dictionary\'s actual definition of mahalo?',
-				answer: 'Two senses under one entry: thanks or gratitude (to thank), and admiration, praise, or esteem (to admire, praise, appreciate). Both trace to the same Proto-Nuclear-Polynesian root, reconstructed as *masalo and glossed "be astonished at, admire," which is closer to the second sense than the "thank you" meaning most English speakers know it for.',
+				answer: 'A single headword covering gratitude, the sense of saying thanks, plus a related sense of admiration, esteem, and praise (to admire, praise, appreciate). Both trace back to one shared ancestral form, *masalo, reconstructed one tier up the Polynesian family tree with a meaning closer to wonder or astonishment than to gratitude, which lines up nearer to the second sense than the "thank you" meaning most English speakers know it for.',
 			},
 			{
 				question: 'Are mahalo and aloha related words?',
-				answer: 'No. They\'re the two best-known Hawaiian words outside Hawaiʻi and share a similar three-syllable, a-o vowel shape, but the Pukui & Elbert dictionary traces them to two separate Proto-Polynesian roots: mahalo to *masalo ("admire"), aloha to *ʻalofa ("love, affection"). Despite the resemblance, one isn\'t a variant of the other.',
+				answer: 'No. They\'re the two best-known Hawaiian words outside Hawaiʻi and share a similar three-syllable, a-o vowel shape, but their ancestries split apart at the Proto-Polynesian level: mahalo comes down from *masalo ("admire"), while aloha traces instead to *ʻalofa, an unrelated root meaning love or affection. Despite the resemblance, one isn\'t a variant of the other.',
 			},
 			{
 				question: 'What\'s the difference between mahalo and mahalo nui loa?',
-				answer: 'Mahalo nui loa means "thank you very much," an intensified form of plain mahalo. Hawaiian doesn\'t mark a separate formal register with a different word the way some languages do; instead, adding nui loa ("very much" / "very great") to mahalo does the same job English does by adding "so much" or "very" to "thanks."',
+				answer: 'Mahalo nui loa is simply an intensified form of plain mahalo, closer to "thanks so much" than a plain "thanks." Rather than swap in a whole different, more formal word, Hawaiian tacks nui loa ("very much" / "very great") onto the base word to raise the volume on the same feeling.',
 			},
 			{
 				question: 'Does mahalo have more than one meaning?',
-				answer: 'Yes, though the two are related rather than unconnected. Beyond thanks or gratitude, the same dictionary entry covers admiration, praise, esteem, and respect, illustrated with phrases like ʻo wau nō me ka mahalo ("I am, yours respectfully") that have nothing to do with saying thank you.',
+				answer: 'Yes, and the two senses share one root instead of being lookalike homonyms with separate histories. Alongside gratitude, the entry lists a second gloss touching on esteem and regard, illustrated with the closing line ʻo wau nō, me ka mahalo, a respectful "I am, [yours]" sign-off that isn\'t about saying thanks at all.',
 			},
 			{
 				question: 'Why does mahalo appear on trash cans in Hawaii?',
-				answer: 'The word on the bin is short for a thank-you message, something like "mahalo for keeping this area clean," not a label meaning "trash." Visitors who see "MAHALO" stenciled on Waikiki trash bins sometimes assume it\'s the Hawaiian word for garbage, prompting a well-known local joke about the mix-up; the actual word for trash is ʻōpala.',
+				answer: 'The word on the bin is short for a thank-you message, something like "mahalo for keeping this area clean," not a label meaning "trash." Out-of-town visitors who spot it painted across a bin lid sometimes assume it must be Hawaiian for garbage, a mix-up locals have joked about for years; the actual word for trash is ʻōpala.',
 			},
 		],
 		sources: [
@@ -4631,7 +4631,7 @@ export const guides: Guide[] = [
 				heading: 'Every irregularity is a change to the stem, not the endings',
 				body: [
 					'Regular Spanish verbs split into three conjugation classes by their infinitive ending, -ar, -er, -ir, and each class has one fixed set of endings for every tense: hablar takes hablo, hablas, habla...; comer takes como, comes, come...; vivir takes vivo, vives, vive... An irregular verb almost never touches those endings. What changes is the stem, the part of the verb that carries the actual meaning, and the RAE\'s own grammar, the *Nueva gramática de la lengua española*, sorts every irregularity by exactly what kind of change happens to that stem, not by how common the verb is or how hard it is to memorize.',
-					'That classification runs to four working categories, plus one further pattern that isn\'t about changing forms at all: vocalic, consonantal, mixed, suppletive, and defective. Most English-language guides to Spanish irregular verbs skip this structure and default to a teaching-oriented split instead, stem-changing, spelling-change, irregular yo form, fully irregular, built around how a verb behaves in the present tense specifically. That split is a genuinely useful study aid, but it\'s a pedagogical shortcut rather than the actual grammatical mechanism, and it tends to fall apart once you follow one verb across more than one tense, which the sections below walk through directly. It\'s also not a coincidence that the verbs covered here skew toward the most frequently used verbs in the language, ir, ser, estar, tener, hacer, decir: high-frequency verbs across many languages resist the regularizing pressure that smooths out rarer ones, simply because they get used too often for a stray form to get corrected toward the pattern. The RAE draws a comparably underdocumented distinction elsewhere in Spanish morphology: [Spanish superlatives](/spanish-superlatives/) covers a rare, Latin-inherited -ísimo variant and an RAE-recognized prefix strategy that most textbook treatments of "the superlative" skip entirely, the same gap between the RAE\'s actual classification and the simplified version most learners get that runs through the irregular-verb categories above.',
+					'That classification runs to four working categories, plus one further pattern that isn\'t about changing forms at all: vocalic, consonantal, mixed, suppletive, and defective. Most English-language guides to Spanish irregular verbs skip this structure and default to a teaching-oriented split instead, stem-changing, spelling-change, irregular yo form, fully irregular, built around how a verb behaves in the present tense specifically. That split is a genuinely useful study aid, but it\'s a pedagogical shortcut rather than the actual grammatical mechanism, and it tends to fall apart once you follow one verb across more than one tense, which the sections below walk through directly. It\'s also not a coincidence that the verbs covered here skew toward the most frequently used verbs in the language, ir, ser, estar, tener, hacer, decir: high-frequency verbs across many languages resist the regularizing pressure that smooths out rarer ones, simply because they get used too often for a stray form to get corrected toward the pattern. The RAE draws a comparably underdocumented distinction elsewhere in Spanish morphology: [Spanish superlatives](/spanish-superlatives/) covers a rare, Latin-inherited -érrimo variant and an RAE-recognized prefix strategy that most textbook treatments of "the superlative" skip entirely, the same gap between the RAE\'s actual classification and the simplified version most learners get that runs through the irregular-verb categories above.',
 				],
 				image: {
 					src: '/images/irregular-spanish-verbs-diagram.svg',
@@ -4663,7 +4663,7 @@ export const guides: Guide[] = [
 				heading: 'Suppletive roots: verbs stitched together from more than one Latin ancestor',
 				body: [
 					'Five common verbs, ir, ser, estar, dar, and haber, get their own category in the RAE\'s grammar because their irregularity isn\'t a vowel or consonant swap within one root; it\'s the survival of two or more genuinely separate historical roots inside a single modern paradigm. Ir keeps its original root in the infinitive, imperative, and gerund (ir, id, yendo), switches to a different root for the present (voy, vas, va), and switches again for the preterite and present subjunctive (fui, vaya). Ser follows the same pattern: soy and es trace back to a different Latin verb than fui and sido do.',
-					'Estar is the mildest case in this group: it conjugates almost entirely by the regular rules for an -ar verb, and its one real irregularity is the "strong" preterite stem estuve, covered along with the rest of Spanish\'s strong preterites in [the irregular preterite verbs guide](/irregular-preterite-verbs-spanish/). Dar is the reverse oddity: it\'s an -ar verb by form, but its preterite (di, dio, dieron) borrows -er/-ir endings instead of the -ar ones the infinitive would suggest. For ser\'s complete paradigm across every mood and tense, see [the full ser conjugation table](/ser-conjugation/).',
+					'Estar is the mildest case in this group: it conjugates almost entirely by the regular rules for an -ar verb, and its one real irregularity is the "strong" preterite stem estuve, covered along with the rest of Spanish\'s strong preterites in [the irregular preterite verbs guide](/irregular-preterite-verbs-spanish/). Dar is the reverse oddity: it\'s an -ar verb by form, but its preterite (di, dio, dieron) borrows -er/-ir endings even though the infinitive would suggest -ar ones. For ser\'s complete paradigm across every mood and tense, see [the full ser conjugation table](/ser-conjugation/).',
 				],
 			},
 			{
@@ -4691,11 +4691,11 @@ export const guides: Guide[] = [
 		faq: [
 			{
 				question: 'What are the four types of irregular verbs in Spanish, according to the RAE?',
-				answer: 'The Real Academia Española\'s Nueva gramática groups irregularities into vocalic (a stem vowel changes, as in contar → cuento or pedir → pido), consonantal (a stem consonant changes or gets added, as in conocer → conozco), mixed (both happen together, as in decir → digo), and suppletive (the paradigm is built from more than one historical root, as in ir, ser, estar, dar, and haber). A separate, non-alternating pattern, defective verbs, covers verbs missing entire forms rather than changing them.',
+				answer: 'The RAE\'s Nueva gramática groups irregularities into vocalic (a stem vowel changes, as in contar → cuento or pedir → pido), consonantal (a stem consonant changes or gets added, as in conocer → conozco), mixed (both happen at once, decir turning into digo being the textbook case), and suppletive (one modern paradigm actually descends from two or three separate Latin ancestors fused into a single verb, true of exactly five: haber, ser, ir, dar, estar). A separate, non-alternating pattern, defective verbs, covers verbs that are flat-out missing whole forms, none of it a matter of anything changing.',
 			},
 			{
 				question: 'What\'s the difference between vocalic and consonantal irregularity?',
-				answer: 'Vocalic irregularity changes a vowel in the stem, either to another vowel (pedir → pido) or to a diphthong (contar → cuento). Consonantal irregularity changes or adds a consonant instead, as in conocer → conozco, where c becomes zc. A verb like decir, which does both at once (e → i and c → g, giving digo), falls into a third category, mixed, rather than either one alone.',
+				answer: 'Vocalic irregularity swaps out a stem vowel, landing on either another plain vowel (pedir → pido) or a diphthong (contar → cuento) and nothing else about the stem moves. A separate category targets the consonant instead of the vowel, adding or changing one; conocer picks up a whole new zc sound before o and a, turning into conozco. A verb like decir, which does both at once (e → i and c → g, giving digo), falls into a third category, mixed, rather than either one alone.',
 			},
 			{
 				question: 'Why is jugar the only verb with a u → ue change?',
@@ -4703,15 +4703,15 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'Are ir and ser irregular for the same reason?',
-				answer: 'They\'re both suppletive, but not built identically. Ir preserves its original root only in the infinitive, imperative, gerund, and imperfect, and switches entirely for the present (voy) and preterite/subjunctive (fui, vaya). Ser shows a comparable split between different roots for soy/es and fui/sido. In the preterite specifically, the two verbs converge completely: [ir and ser share one identical paradigm](/irregular-preterite-verbs-spanish/), fui, fuiste, fue, fuimos, fuisteis, fueron.',
+				answer: 'They\'re both suppletive, but not built identically. Ir hangs onto its old root across four forms (imperfect, gerund, imperative, infinitive), then it changes again for present-tense forms like voy, and changes once more by the time you reach fui or vaya. Ser splits the same way, one root behind soy/es, a different one behind fui/sido. In the preterite specifically, the two verbs converge completely: [ir and ser share one identical paradigm](/irregular-preterite-verbs-spanish/), fui, fuiste, fue, fuimos, fuisteis, fueron.',
 			},
 			{
 				question: 'Is hacer the same kind of irregular verb as conocer?',
-				answer: 'No, even though both look irregular in the yo form. Conocer belongs to the large -zco consonantal group (c → zc before o and a), shared with dozens of other -acer/-ecer/-ocer/-ucir verbs. Hacer\'s subjunctive forms (haga) come from a much narrower, RAE-documented pattern shared with only one other verb, haber (haya): a direct consonant substitution that doesn\'t follow the -zco rule at all.',
+				answer: 'No, even though both look irregular in the yo form. Conocer belongs to the large -zco consonantal group (c → zc before o and a), the same family that covers dozens of other verbs whose infinitive closes in -acer or -ecer or -ocer or -ucir. Haga, the form hacer takes in the subjunctive, comes from a much narrower, RAE-documented pattern it shares with just one other verb, haber\'s haya: a straight consonant swap that skips the -zco rule entirely.',
 			},
 			{
 				question: 'What does it mean for a verb to be "defective" rather than irregular?',
-				answer: 'A defective verb doesn\'t change its forms unpredictably; it\'s simply missing some of them. Weather verbs like llover and nevar exist only in a third-person-singular form, because "it rains" has no other grammatical subject to conjugate for. Soler exists only in the present and imperfect indicative, with no future, preterite, or conditional forms at all.',
+				answer: 'A defective verb doesn\'t change its forms unpredictably; it\'s simply missing some of them. Take llover and nevar: both weather verbs, and both stuck with only a third-person form to their name, since nothing besides an impersonal "it" is available in "it rains" for the verb to agree with. Soler only shows up in two indicative tenses, the present and the imperfect, with nothing at all in the future, preterite, or conditional.',
 			},
 		],
 		sources: [
@@ -5064,7 +5064,7 @@ export const guides: Guide[] = [
 			{
 				heading: "The nominative won't tell you the declension. The genitive will.",
 				body: [
-					'A Latin dictionary entry never lists just one form of a noun. It lists two: the nominative singular, then the genitive singular, as in via, viae ("road") or rēx, rēgis ("king"). That second form isn\'t decoration. Latin grammar sorts nouns into five declensions, or families of case endings, and the nominative singular can\'t reliably tell you which family a noun belongs to, because several declensions share the same nominative ending. Equus ("horse") and manus ("hand") both end in -us, but equus is second declension and manus is fourth; treat them the same way and every other case you build from them comes out wrong. The genitive singular doesn\'t have that overlap problem. Each declension has its own, distinct genitive singular marker: -ae for the first, -ī for the second, -is for the third, -ūs for the fourth, and -eī or -ēī for the fifth. That ending is what actually identifies the declension, which is exactly why it rides along in every dictionary entry instead of getting left out.',
+					'A Latin dictionary entry never lists just one form of a noun. It lists two: the nominative singular, then the genitive singular, as in via, viae ("road") or rēx, rēgis ("king"). That second form isn\'t decoration. Latin grammar sorts nouns into five declensions, or families of case endings, and the nominative singular can\'t reliably tell you which family a noun belongs to, because several declensions share the same nominative ending. Equus ("horse") and manus ("hand") both end in -us, but equus is second declension and manus is fourth; treat them the same way and every other case you build from them comes out wrong. The genitive singular doesn\'t have that overlap problem. Each declension has its own, distinct genitive singular marker: -ae for the first, -ī for the second, -is for the third, -ūs for the fourth, and -eī or -ēī for the fifth. That ending is what actually identifies the declension, which is exactly why every dictionary entry lists it, not just the bare nominative.',
 					'The genitive singular does a second job beyond labeling the declension: strip its ending off and what remains is the noun\'s oblique stem, the base that every case besides the nominative is built from. Via, viae has the stem vi-; add -ā and you get the ablative singular viā, add -ārum and you get the genitive plural viārum. Rēx, rēgis has the stem rēg- (not rēx-, which is a spelling quirk of the nominative alone); add -ī for the dative singular, rēgī, or -ibus for the dative and ablative plural, rēgibus. Once the stem is in hand, the five declensions each apply their own fixed set of endings to it, which is what the rest of this guide walks through.',
 				],
 				image: {
@@ -5083,7 +5083,7 @@ export const guides: Guide[] = [
 				heading: "Third declension: the largest group, and the one with no single rule",
 				body: [
 					'The third declension holds more nouns than any of the other four combined, and it is the one place where "what does the nominative singular look like" stops being a useful question: third-declension nominatives can end in -a, -e, -ī, -ō, -y, -c, -l, -n, -r, -s, -t, or -x, and the group covers masculine, feminine, and neuter nouns alike. What every third-declension noun shares is the genitive singular ending, -is, and from there a consistent stem: rēx, rēgis ("king") has the stem rēg-, pāx, pācis ("peace") has the stem pāc-, and flūmen, flūminis ("river") has the stem flūmin-. Once that stem is exposed, the endings are uniform: genitive -is, dative -ī, accusative -em, ablative -e in the singular, and nominative/accusative -ēs, genitive -um, dative/ablative -ibus in the plural.',
-					'A subset of third-declension nouns, the i-stems, swap in -ium for the plain -um genitive plural, and sometimes -im instead of -em for the accusative singular. Neuter i-stems are the easiest to spot on sight, since they always end in -al, -ar, or -e (animal, animālis "animal"; mare, maris "sea"), while masculine and feminine i-stems are identified either by having the same number of syllables in the nominative and genitive (nāvis, nāvis "ship") or by two consonants sitting right before the genitive\'s -is (pars, partis "part"). Getting the i-stem genitive plural wrong, -um instead of -ium or the reverse, is one of the most common mistakes in third-declension Latin, precisely because the nominative singular gives no warning that a noun belongs to this subgroup at all.',
+					'A subset of third-declension nouns, the i-stems, swap in -ium for the plain -um genitive plural, and sometimes take -im for the accusative singular where the regular pattern would call for -em. Neuter i-stems are the easiest to spot on sight, since they always end in -al, -ar, or -e (animal, animālis "animal"; mare, maris "sea"), while masculine and feminine i-stems are identified either by having the same number of syllables in the nominative and genitive (nāvis, nāvis "ship") or by two consonants sitting right before the genitive\'s -is (pars, partis "part"). Getting the i-stem genitive plural wrong, -um instead of -ium or the reverse, is one of the most common mistakes in third-declension Latin, precisely because the nominative singular gives no warning that a noun belongs to this subgroup at all.',
 				],
 			},
 			{
@@ -5104,23 +5104,23 @@ export const guides: Guide[] = [
 		faq: [
 			{
 				question: 'What is a Latin declension?',
-				answer: 'A declension is a set of case endings a Latin noun (or adjective or pronoun) takes to mark its grammatical role in a sentence. Latin sorts nouns into five declensions, each identified by its own genitive singular ending: -ae (first), -ī (second), -is (third), -ūs (fourth), and -eī/-ēī (fifth).',
+				answer: 'A declension is a set of case endings a Latin noun (or adjective or pronoun) takes to mark its grammatical role in a sentence. Latin nouns split across five of these families, and which one a given noun lands in comes down to a single tell, its genitive form: -ae (first), -ī (second), -is (third), -ūs (fourth), and -eī/-ēī (fifth).',
 			},
 			{
 				question: 'Why do Latin dictionaries list two forms for every noun, like "via, viae"?',
-				answer: "Because the nominative singular alone can't reliably identify a noun's declension: several declensions share the same nominative ending (equus and manus both end in -us, but belong to different declensions). The genitive singular is unique per declension, so it's listed alongside the nominative specifically to remove that ambiguity, and stripping its ending reveals the oblique stem every other case is built from.",
+				answer: "Because that first, bare form can't reliably identify a noun's declension on its own: more than one declension can land on the identical ending (equus and manus collide on the same surface -us, yet sit in different declensions). The genitive is unique per declension, so it's printed right alongside the dictionary headword specifically to remove that ambiguity, and stripping its ending reveals the oblique stem every other case is built from.",
 			},
 			{
 				question: "What's different about the third declension compared to the other four?",
-				answer: 'The third declension is Latin\'s largest noun group, and unlike the other four, its nominative singular has no single predictable ending: it can end in -a, -e, -ī, -ō, -y, -c, -l, -n, -r, -s, -t, or -x, and covers masculine, feminine, and neuter nouns alike. What unifies it is the genitive singular ending, -is, and a subset called i-stems, which take -ium instead of -um in the genitive plural.',
+				answer: 'It\'s the biggest of the five by a wide margin, and unlike the other four, its bare nominative form has no single predictable ending: -x, -t, -s, -r, -n, -l, -c, -y, -ō, -ī, -e, and -a are all fair game, spread across every gender. The one thing every member of this group shares is a genitive in -is, plus a subset called i-stems, which swap the usual -um for -ium when that same case shows up in the plural.',
 			},
 			{
 				question: 'What do the Latin cases actually mean?',
-				answer: 'Nominative marks the subject, genitive marks possession ("of"), dative marks the indirect object ("to/for"), accusative marks the direct object, and ablative covers means, origin, and place or time depending on context ("by/with," "from," "in/at"). The vocative (direct address) matches the nominative except for second-declension -us nouns, which swap it for -e (amīcus → amīce). The locative survives only in a handful of fixed expressions like domī, "at home."',
+				answer: 'The subject sits in the nominative; possession ("of") is the genitive\'s job, dative flags the "to" or "for" party on the receiving end of an action, accusative flags whatever the verb\'s action is being done to, and ablative covers means, origin, and place or time, whichever the sentence calls for ("by/with," "from," "in/at"). The vocative (direct address) matches the nominative except for second-declension -us nouns, which swap it for -e (amīcus → amīce). The locative clings on in just a few frozen phrases like domī, "at home."',
 			},
 			{
 				question: 'Do any modern languages still use a Latin-style case system?',
-				answer: "Most of Latin's Romance descendants, including Spanish and French, dropped noun-phrase case marking and rely on word order and prepositions instead. German is the clearer example of a related language that kept a real case system, though it distributes most of the marking onto the article rather than the noun itself, a different strategy from Latin's stem-plus-ending approach.",
+				answer: "Most of Latin's Romance descendants, including Spanish and French, dropped noun-phrase case marking and lean on sentence position plus small linking words to do that job now. German is the clearer example of a related language that kept a real case system intact, only it puts most of that marking on the article standing in front of the noun, not on the noun's own stem the way Latin builds it.",
 			},
 		],
 		sources: [
