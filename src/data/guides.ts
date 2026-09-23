@@ -2074,7 +2074,7 @@ export const guides: Guide[] = [
 		title: 'Japanese Particles: Wa, Ga, Wo, and Ni (The Difference English Doesn\'t Mark)',
 		description: 'English marks a subject with word order alone. Japanese splits the job across four particles: wa (topic), ga (subject), wo (object), and ni (time, place, destination).',
 		published: '2026-08-10',
-		updated: '2026-08-10',
+		updated: '2026-09-23',
 		coreSummary: 'Japanese splits the job English gives to word order and a single subject across four particles: は (wa) marks the topic under discussion, が (ga) marks the specific grammatical subject, を (wo, pronounced "o" in modern speech) marks the direct object, and に (ni) covers time, the location of existence, destination with motion verbs, and the recipient of giving and receiving verbs, switching to で only when an action rather than a state happens at that spot. The wa/ga distinction has no single-word English equivalent, which is why linguist Mikami Akira devoted an entire 1960 book, 象は鼻が長い (Zō wa Hana ga Nagai, "the elephant\'s nose is long"), to explaining it, and wa, wo, and ga can all drop out of casual speech, since Japanese\'s fixed subject-object-verb order still signals their role without them.',
 		language: 'Japanese',
 		sections: [
@@ -2117,6 +2117,7 @@ export const guides: Guide[] = [
 					'に (ni) is the particle that does the most different things on this list, which is exactly why it\'s the hardest of the four to summarize in one sentence. With います and あります, the existence verbs from the section above, に marks where that existence takes place: neko ga koko ni imasu ("the cat is here") pins down a location the same way "at" or "in" would in English. With a verb of motion like 行く (iku, "go") or 帰る (kaeru, "return"), に marks the destination: gakkou ni iku ("go to school"). With a time expression, に marks when something happens: shichiji ni okiru ("wake up at 7"). And with a giving or receiving verb, に marks the person on the other end of the exchange: tomodachi ni purezento wo ageru ("give a present to a friend").',
 					'Where に gets contrasted directly with another particle is で (de), which also marks a location, but a different kind. Per Tofugu\'s comparison of the two, に pins down where someone or something is, while で marks where an action takes place. Toshokan ni hon ga aru ("there\'s a book in the library") uses に because the book existing in the library is a state, not an action. Toshokan de hon wo yomu ("read a book in the library") switches to で because reading is something actively happening at that location. The same physical place, the library, takes a different particle depending on whether the sentence describes something being there or something being done there.',
 					'Spanish runs into its own version of one job split across two words: [ser and estar](/ser-vs-estar/) both translate as "to be" in English, but split on whether a sentence is defining the subject or reporting its current condition, a different axis from に/で\'s existence-versus-action split, though the same basic shape of problem for an English speaker used to one word covering both.',
+					'Particles aren\'t the only layer sitting underneath a Japanese sentence\'s surface grammar. A separate system of [honorific suffixes and verb forms](/japanese-honorifics/) tracks social rank on top of whatever wa, ga, wo, or ni is doing in that same sentence, and the two systems operate independently of each other.',
 				],
 			},
 		],
@@ -6760,6 +6761,95 @@ export const guides: Guide[] = [
 			{ label: 'Real Academia Española: Nueva gramática básica de la lengua española, "Pretéritos fuertes y participios irregulares"', url: 'https://www.rae.es/gram%C3%A1tica-b%C3%A1sica/la-flexi%C3%B3n-verbal/los-verbos-irregulares/pret%C3%A9ritos-fuertes-y-participios-irregulares' },
 			{ label: 'Real Academia Española: Nueva gramática de la lengua española, "Verbos irregulares (IV). Pretéritos fuertes y participios irregulares"', url: 'https://www.rae.es/gram%C3%A1tica/morfolog%C3%ADa/verbos-irregulares-iv-pret%C3%A9ritos-fuertes-y-participios-irregulares' },
 			{ label: 'Real Academia Española: Glosario de términos gramaticales, "participio"', url: 'https://www.rae.es/gtg/participio' },
+		],
+	},
+	{
+		slug: 'japanese-honorifics',
+		category: 'Grammar',
+		title: 'Japanese Honorifics: San, Sama, and Verb Changes',
+		description: 'San, sama, and kun track rank and distance, not gender. A separate verb system, sonkeigo and kenjougo, moves in opposite directions: mixing them up is the single most common keigo mistake.',
+		published: '2026-09-23',
+		updated: '2026-09-23',
+		coreSummary: 'Japanese honorific speech splits into two independent systems: name suffixes like san, sama, and kun that track social distance and relative rank, not gender, and a three-register verb system (teineigo, sonkeigo, kenjougo) in which sonkeigo elevates someone else\'s action and kenjougo lowers your own. The single most common mistake non-native speakers make is applying sonkeigo to their own action, which reverses the direction the whole system is meant to move in; the correct move is kenjougo.',
+		language: 'Japanese',
+		sections: [
+			{
+				heading: 'Keigo has three registers, and they move in different directions',
+				body: [
+					'Japanese politeness runs on two systems that get taught as one, and conflating them causes a lot of the confusion. One is the suffix attached to a name: san, sama, kun, chan. It marks social distance and doesn\'t touch the sentence\'s grammar at all. The other is keigo (敬語), a set of verb forms that changes depending on whose action is being described. A sentence can pair a plain, suffix-free name with full keigo, or an honorific suffix with completely plain verbs. The two systems layer independently, and native speakers mix them in combinations a suffix-only summary misses entirely.',
+					'Keigo itself splits into three registers, and only one behaves the way English politeness does. Teineigo (丁寧語), the baseline -masu/-desu ending most learners meet first, marks a sentence as polite without caring who\'s doing the action: the same ending applies whether the sentence describes your own trip to the store or your boss\'s trip to Tokyo. Sonkeigo (尊敬語), respectful language, and kenjougo (謙譲語), humble language, both change the verb itself, but they point in opposite directions. Sonkeigo elevates whatever the other person is doing; kenjougo lowers whatever you yourself are doing. Neither gets used the other way around: praising your own action with sonkeigo, or describing someone else\'s action with kenjougo, sounds off for a specific reason. It inverts who the sentence is supposed to be showing respect to.',
+				],
+				image: {
+					src: '/images/japanese-honorifics-diagram.svg',
+					alt: 'Diagram showing the plain verb iku (go) branching into two honorific forms: sonkeigo irassharu, which elevates someone else\'s action, and kenjougo mairu, which humbles what you yourself are doing, with a note that using sonkeigo for yourself is the most common keigo mistake.',
+				},
+			},
+			{
+				heading: 'The suffixes: san is the safe default, kun tracks rank, not gender',
+				body: [
+					'-San is the default, and by far the safest choice when in doubt. It\'s gender-neutral, works across any age or relationship, and attaches to nearly anyone: a coworker, a stranger, a company name, even a job title. The one place it never goes is your own name. Attaching -san to yourself reads as awkwardly self-important, the way a stranger introducing himself as "Mr. Smith" would in English. -Sama pushes the same idea further up, reserved for customers, deities, and the recipient line of a formal letter (Yamada-sama), where -san would read as too casual for the relationship being marked.',
+					'-Kun looks, from a beginner\'s textbook, like the suffix for boys, and -chan like the one for girls and small children, but that\'s a side effect of how the suffix actually works, not the rule itself. -Kun marks the person being addressed as junior, or as someone being addressed "downward" in status, regardless of gender. Per a 2025 analysis of the pattern\'s postwar workplace history, boys ended up with -kun and girls with -san mainly because that was the prevailing gender convention when the habit spread from schools into offices, not because the suffix itself is gender-specific. A senior manager occasionally addressing a young female employee as -kun in a formal workplace is a real, documented use of the same underlying rule: it marks her as junior, nothing more unusual than that. -Chan, by contrast, is about affection and smallness, not rank. Children, pets, close friends, and cute nicknames all take it regardless of gender, and it can attach to a shortened version of a name much like an English nickname would.',
+					'-Sensei (先生) tracks expertise, not a job title. Teachers get it, but so do doctors, martial arts instructors, and published authors, because the suffix really marks "someone whose skill puts them in a position to teach me," not "person who works at a school." [Senpai](/senpai-meaning/), the suffix that\'s now also an English loanword for someone further along the same path, an upperclassman or a more senior coworker, runs on the same seniority logic as -kun, just aimed up the ladder rather than down it. Two more suffixes exist almost entirely outside spoken conversation, and the last section below covers what they\'re for.',
+				],
+			},
+			{
+				heading: 'Nine verbs, three forms each: three of them share one sonkeigo form',
+				body: [
+					'The suffix a name carries and the verb form a sentence uses sit on completely separate scales, and the verb scale is where sonkeigo and kenjougo actually live. Most sonkeigo and kenjougo forms just add a prefix or swap an ending, but a short list of common verbs skips that pattern entirely: they replace the whole word with something that shares no root with the plain form at all. This list covers most of what comes up in ordinary polite conversation.',
+					'**Iku** (行く, go), **kuru** (来る, come), and **iru** (いる, to be present, for people) collapse into a single sonkeigo form, irassharu (いらっしゃる): three different plain verbs, one honorific verb, told apart only by context. Their kenjougo counterparts split differently. Iku and kuru both become mairu (参る), but iru\'s humble form is oru (おる), not mairu. **Suru** (する, do) becomes nasaru (なさる) in sonkeigo and itasu (致す) in kenjougo; go-renraku itashimasu ("I will contact you," humbly) is built on this pair. **Iu** (言う, say) becomes ossharu (おっしゃる) and mousu (申す). The common self-introduction 田中と申します (Tanaka to moushimasu, "my name is Tanaka") is the humble form doing exactly the self-lowering job kenjougo exists for.',
+					'**Taberu** (食べる, eat) and **nomu** (飲む, drink) share one sonkeigo form, meshiagaru (召し上がる), and one kenjougo form, itadaku (いただく), the same itadaku that opens every meal in itadakimasu. **Miru** (見る, see) becomes goran ni naru (ご覧になる) in sonkeigo and haiken suru (拝見する) in kenjougo. **Kiku** (聞く, hear or ask) has no irregular sonkeigo form; it just takes the regular o-kiki ni naru pattern below, but it does have an irregular kenjougo one, ukagau (伺う), which doubles as the humble form of "visit" as well as "ask." **Shiru** (知る, know) is one of the few verbs where the sonkeigo form, gozonji (ご存じ), isn\'t built like a verb at all: it pairs with da or desu and never conjugates on its own, while its kenjougo counterpart, zonjiru (存じる), conjugates normally.',
+					'Every other verb that doesn\'t make this list still gets a sonkeigo or kenjougo form, just built from a predictable pattern, not a separate word. The sonkeigo pattern wraps the verb stem as o-[stem]-ni naru (o-kaeri ni naru, "to go home," respectfully), and the kenjougo pattern wraps it as o-[stem]-suru or o-[stem]-itasu (o-okuri suru, "to send," humbly). The irregular verbs above are irregular precisely because they\'re common enough that Japanese kept a separate historical word for the honorific version and never let the regular pattern take over, the same reason English still says "went" and not a regularized "goed."',
+				],
+			},
+			{
+				heading: 'The single most common mistake, and why it survives past the beginner stage',
+				body: [
+					'Survey any list of keigo mistakes non-native speakers make and one error dominates: using sonkeigo to describe your own action when kenjougo is what\'s called for. Watashi ga irasshaimasu, built on the sonkeigo form of "go/come," sounds to a Japanese listener like the speaker is respectfully elevating themselves. The direction runs backward. The correct humble form is watashi ga mairimasu. The fix isn\'t really about memorizing which of the two lists a verb belongs to; it\'s about checking, before the sentence leaves your mouth, whose action the verb is describing. Your own action never takes sonkeigo, no matter how polite the situation is.',
+					'A second, more subtle error is stacking two honorific layers onto one verb. The regular sonkeigo pattern already marks respect by wrapping the verb as o-[stem]-ni naru. Adding the separate honorific ending -reru/-rareru on top of that, as in o-yomi ni nararemasu, doubles a marker that only needs to appear once. The fix is to pick one mechanism, either the o-...-ni naru wrapper or the -(ra)reru ending, never both on the same verb.',
+					'The direction rule gets genuinely harder to apply once a third party enters the conversation, because who counts as "your side" shifts with the audience. Describing your own boss\'s actions to your team calls for sonkeigo, since your boss outranks you. Describing that same boss\'s actions to an outside client calls for kenjougo, because relative to an outsider, your boss is now part of your in-group (uchi), and your in-group gets humbled in front of anyone outside it (soto), regardless of the internal hierarchy. The verb changes because the audience changed, not because your boss\'s rank did.',
+				],
+			},
+			{
+				heading: 'Dono and shi: honorifics you\'ll read but rarely hear',
+				body: [
+					'Two more honorific suffixes exist mostly on paper. -Dono (殿) once marked a feudal lord\'s title in the Heian period, then drifted down through the ranks until, by the Kamakura period, -sama had taken over its top-tier role. What survives today is a narrow, formal written use. -Dono shows up in official documents, certificates, and internal memos addressed from a company or institution down to the people below it, and the direction matters, since attaching it to someone equal or senior to the writer reads as backward, the same status-mismatch problem -kun causes when misapplied. It\'s close to never spoken aloud.',
+					'-Shi (氏) is the other written-only suffix, and it solves a different problem: how to refer formally to someone the writer has never actually met. News reports, legal documents, and academic papers reach for -shi when naming a person known only through their public role or publications, and once a full name has been introduced with -shi once, later references can drop to just "shi" alone, functioning almost like a pronoun, as long as only one such person is being discussed. Neither -dono nor -shi is something a learner needs for ordinary conversation, but recognizing them in a document or news broadcast is the difference between reading a sentence correctly and mistaking a formal reference for an unfamiliar name.',
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'Can you use -san with a girl or a woman?',
+				answer: 'Yes. Unlike English titles such as Mr., Mrs., or Ms., -san carries no gender information at all, and it applies the same way no matter the person\'s age or marital status. When you\'re unsure which honorific fits a situation, -san is the safe fallback, for anyone except yourself.',
+			},
+			{
+				question: 'Why do people say -kun after a name?',
+				answer: 'It signals that the listener is being addressed from a position of seniority looking down, toward someone junior in age, rank, or experience. That pattern has traditionally landed on boys and young men more often than on women, but the underlying mechanic tracks status, not sex: an older manager can and occasionally does call a junior female employee -kun for exactly the same reason.',
+			},
+			{
+				question: 'What\'s the real difference between sonkeigo and kenjougo?',
+				answer: 'One raises the status of somebody else\'s action; the other lowers the status of your own. Sonkeigo does the raising, always describing what another person, never you, is doing. Kenjougo does the lowering, always describing something you did or are doing, never anyone else\'s move. Teineigo, the plain -masu/-desu politeness, sits underneath both and doesn\'t move in either direction.',
+			},
+			{
+				question: 'What\'s the most common keigo mistake non-native speakers make?',
+				answer: 'It\'s applying the respectful, other-elevating verb form to something they themselves did or are doing, typically saying a sonkeigo verb like irasshaimasu where the humble mairimasu belongs. That single swap ends up honoring the wrong party, the speaker instead of the listener, the opposite of the intended effect.',
+			},
+			{
+				question: 'What are -dono and -shi, and why don\'t people say them out loud?',
+				answer: 'Both belong to formal written Japanese and almost never come up in speech. -Dono traces back to a feudal-era title and now mostly appears in official paperwork and internal notices sent down a hierarchy, from an institution to the people under it. -Shi is the one journalists and legal writers reach for to name someone they know only by reputation or publication, and after the first mention, a document can refer back to that person as simply "shi" on its own.',
+			},
+			{
+				question: 'Is keigo required in every Japanese conversation?',
+				answer: 'No. Plain -masu/-desu politeness, teineigo, handles nearly all everyday exchanges with people you don\'t know well. The two directional forms come out specifically for interactions with a real status gap: customers, clients, workplace superiors, or formal writing. Between close friends and family, Japanese speakers often skip even the baseline polite form and speak in the plain, dictionary-form style.',
+			},
+		],
+		sources: [
+			{ label: 'Wikipedia, "Honorific speech in Japanese" (teineigo, sonkeigo, kenjougo definitions)', url: 'https://en.wikipedia.org/wiki/Honorific_speech_in_Japanese' },
+			{ label: 'Wikipedia, "Japanese honorifics" (san, sama, kun, chan, sensei, shi usage)', url: 'https://en.wikipedia.org/wiki/Japanese_honorifics' },
+			{ label: 'Wikipedia, "Dono" (historical rank, decline relative to sama)', url: 'https://en.wikipedia.org/wiki/Dono' },
+			{ label: 'Migaku, "Sonkeigo vs Kenjougo: Japanese Respectful vs Humble Language" (irregular verb pairs)', url: 'https://migaku.com/blog/japanese/sonkeigo-vs-kenjougo' },
+			{ label: 'Real-World Japanese, "8 Keigo Mistakes Non-Natives Make — and Which to Fix First" (sonkeigo-for-self error, double honorifics, uchi/soto switching)', url: 'https://realworldjapanese.com/en/guides/keigo-mistakes/' },
+			{ label: 'iXam, "Time to Stop Calling Male Subordinates \'-kun\'" (postwar workplace history of the kun/san gender split)', url: 'https://www.ixam.net/en/blog/2025/09/stop-kun-culture/' },
 		],
 	},
 ];

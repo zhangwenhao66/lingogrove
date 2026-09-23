@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" font-family="system-ui, -apple-system, sans-serif">
+	<rect width="800" height="400" fill="#f6f4e9"/>
+
+	<text x="400" y="46" text-anchor="middle" fill="#201f1a" font-size="21" font-weight="700">Two directions, one verb: iku (go)</text>
+	<text x="400" y="70" text-anchor="middle" fill="#5a5648" font-size="13">Teineigo (baseline politeness) doesn't change with who's acting. Sonkeigo and kenjougo do — in opposite directions.</text>
+
+	<!-- Center verb -->
+	<rect x="330" y="104" width="140" height="52" rx="8" fill="#e7e2cf" stroke="#8a8674" stroke-width="1.5"/>
+	<text x="400" y="126" text-anchor="middle" fill="#201f1a" font-size="16" font-weight="700">行く (iku)</text>
+	<text x="400" y="145" text-anchor="middle" fill="#5a5648" font-size="12">plain form, "go"</text>
+
+	<!-- Left: sonkeigo -->
+	<line x1="360" y1="156" x2="200" y2="210" stroke="#2f6b47" stroke-width="2"/>
+	<rect x="90" y="212" width="220" height="92" rx="8" fill="#e4ede6" stroke="#2f6b47" stroke-width="1.5"/>
+	<text x="200" y="238" text-anchor="middle" fill="#204a31" font-size="15" font-weight="700">SONKEIGO 尊敬語</text>
+	<text x="200" y="260" text-anchor="middle" fill="#204a31" font-size="16" font-weight="700">いらっしゃる (irassharu)</text>
+	<text x="200" y="280" text-anchor="middle" fill="#3d5c47" font-size="12">elevates THEIR action</text>
+	<text x="200" y="297" text-anchor="middle" fill="#3d5c47" font-size="12">never used for yourself</text>
+
+	<!-- Right: kenjougo -->
+	<line x1="440" y1="156" x2="600" y2="210" stroke="#8a3b2e" stroke-width="2"/>
+	<rect x="490" y="212" width="220" height="92" rx="8" fill="#f1e4e0" stroke="#8a3b2e" stroke-width="1.5"/>
+	<text x="600" y="238" text-anchor="middle" fill="#7a3226" font-size="15" font-weight="700">KENJOUGO 謙譲語</text>
+	<text x="600" y="260" text-anchor="middle" fill="#7a3226" font-size="16" font-weight="700">参る (mairu)</text>
+	<text x="600" y="280" text-anchor="middle" fill="#6b3229" font-size="12">lowers YOUR OWN action</text>
+	<text x="600" y="297" text-anchor="middle" fill="#6b3229" font-size="12">never used for someone else</text>
+
+	<!-- Bottom note -->
+	<line x1="60" y1="336" x2="740" y2="336" stroke="#ddd8c4" stroke-width="1"/>
+	<text x="400" y="362" text-anchor="middle" fill="#201f1a" font-size="13" font-weight="600">Using sonkeigo for your own action (watashi ga irasshaimasu) is the single most common keigo mistake.</text>
+	<text x="400" y="382" text-anchor="middle" fill="#8a8674" font-size="12">Suffixes (-san, -sama, -kun, -chan) are a separate system layered on top of whichever verb form is used.</text>
+</svg>
