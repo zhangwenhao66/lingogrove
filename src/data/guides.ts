@@ -611,7 +611,7 @@ export const guides: Guide[] = [
 		faq: [
 			{
 				question: 'Can you use "buenas noches" to say hello?',
-				answer: 'Yes — after dark, it\'s commonly used as a greeting when arriving somewhere, the way English speakers use "good evening." This is actually its primary use, not a secondary one.',
+				answer: 'Yes, and after dark that\'s actually its main job: Spanish speakers say it walking in the door, not just walking out of it. Treating it as a farewell only is the more secondary, occasional use.',
 			},
 			{
 				question: 'How do you know if someone means hello or goodbye when they say "buenas noches"?',
@@ -619,11 +619,11 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'Is there a shortened, casual version?',
-				answer: 'Yes — "¡Buenas!" is a casual shortening that can cover any of the three time-of-day greetings (buenos días, buenas tardes, buenas noches), similar to an English speaker just saying "morning" or "evening." The Real Academia Española notes it\'s specifically a colloquial form of Spain, the Río de la Plata area, and parts of the Andean and Central American regions, not something used everywhere. For other everyday phrases with the same kind of hidden nuance, see how to say [happy birthday](/happy-birthday-in-spanish/) and ["I love you"](/i-love-you-in-spanish/) in Spanish.',
+				answer: 'Yes: "¡Buenas!" is a casual shortening that can stand in for any of Spanish\'s daily greetings (buenos días, buenas tardes, buenas noches), the way "morning!" or "evening!" can stand in for the fuller English greeting. Per Spain\'s national language academy (the RAE), the usage stays regional rather than becoming a nationwide default: it turns up in Central America, the Andes, Argentina and Uruguay\'s Río de la Plata corridor, and Spain itself, not universally across the Spanish-speaking world. For other everyday phrases with the same kind of hidden nuance, see how to say [happy birthday](/happy-birthday-in-spanish/) and ["I love you"](/i-love-you-in-spanish/) in Spanish.',
 			},
 			{
 				question: 'When does "buenas noches" become the right greeting instead of "buenas tardes"?',
-				answer: 'Roughly the same threshold as English "good evening" versus "good afternoon": once it\'s dark or evening has clearly set in. There\'s no fixed clock time; it follows the same fuzzy, context-based sense of "evening" that English speakers already use for the tardes-to-noches switch.',
+				answer: 'Roughly the same threshold English speakers use switching from "good afternoon" to "good evening": once it\'s dark or evening has clearly set in. There\'s no fixed clock time; it follows the same fuzzy, context-based sense of dusk that guides the tardes-to-noches switch.',
 			},
 		],
 		sources: [
@@ -685,11 +685,11 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'Is "te amo" too intense for a new relationship?',
-				answer: 'By convention, generally yes. Te amo is typically reserved for serious, established romantic love, and using it very early in a relationship can come across as more intense than intended.',
+				answer: "By convention, generally yes. This is the phrase most native speakers hold in reserve for a relationship that's already proven itself, so pulling it out early can come across as bigger than what you intended.",
 			},
 			{
 				question: 'Do Spain and Latin America use these phrases differently?',
-				answer: 'The underlying intensity difference is consistent everywhere, but usage habits vary: Spain tends to favor te quiero even for long-term partners, while Latin American Spanish uses both, generally keeping te amo for more serious declarations. Treat this as a regional tendency rather than a strict rule.',
+				answer: 'Yes, though the split shows up in daily habits more than in the core meaning: couples in Spain often stay with te quiero for years into a relationship, while people across Latin America move freely between both, generally saving te amo for the biggest declarations. Treat this as a regional tendency rather than a strict rule.',
 			},
 			{
 				question: 'Is there a way to express fondness for a friend without using "love" at all?',
@@ -2723,23 +2723,23 @@ export const guides: Guide[] = [
 		faq: [
 			{
 				question: 'Is the German Perfekt the same as the English present perfect?',
-				answer: 'Only in form, not in how it\'s actually used. English present perfect blocks specific past-time markers ("I have eaten yesterday" is ungrammatical), while German Perfekt allows them freely (ich habe gestern gegessen is standard). In spoken German, Perfekt functions much closer to English simple past, reporting anything that happened earlier, regardless of its connection to the present moment.',
+				answer: 'Only in form, not in how it\'s actually used: English blocks specific past-time markers with this tense ("I have seen him yesterday" is ungrammatical), while German Perfekt allows them freely (ich habe gestern gegessen is standard). Spoken German treats Perfekt much like English simple past: it covers events from before now whether or not they still connect to the present moment.',
 			},
 			{
 				question: 'How do I know whether to use haben or sein in the Perfekt?',
-				answer: 'Haben is the default and covers most verbs, including every transitive verb. Sein applies to sein, bleiben, and werden themselves; to motion verbs with a stated direction or destination; to verbs describing a change of state; and to a fixed exception list (passieren, geschehen, gelingen, misslingen, begegnen). A few motion verbs, like schwimmen, switch between haben and sein depending on whether the sentence names a destination.',
+				answer: 'For most verbs, haben is the safe default, covering everything that can take an object being acted on. Sein covers three groups instead: the verbs werden, bleiben, and sein used on their own; motion verbs with a stated direction or destination; plus verbs whose subject undergoes a shift in condition, plus a fixed exception list (begegnen, misslingen, gelingen, geschehen, passieren). A few motion verbs, like schwimmen, switch between haben and sein based on one thing only: does a destination get named at all.',
 			},
 			{
 				question: 'Why don\'t "studiert" and "besucht" start with ge-?',
-				answer: 'Two categories of verbs drop the ge- prefix entirely: verbs ending in -ieren (studieren → studiert, telefonieren → telefoniert) and verbs carrying one of the eight inseparable prefixes be-, emp-, ent-, er-, ge-, miss-, ver-, and zer- (besuchen → besucht). Separable-prefix verbs are different again: they keep the ge-, but it moves between the prefix and the stem, as in aufstehen → aufgestanden.',
+				answer: 'The ge- prefix disappears for two groups of verbs: verbs ending in -ieren (studieren → studiert, telefonieren → telefoniert) and verbs built on one of eight prefixes that never separate from the verb, be-, emp-, ent-, er-, ge-, miss-, ver-, and zer- (besuchen → besucht). Verbs with separable prefixes work differently again: they keep the ge-, but it shifts to sit right before the stem, after the prefix, as in aufstehen → aufgestanden.',
 			},
 			{
 				question: 'Is "ich bin gesessen" wrong?',
-				answer: 'Not within its region. Standard German (and northern German usage specifically) forms the perfect of sitzen, stehen, and liegen with haben (ich habe gesessen), since these verbs describe rest rather than motion or state change. Southern Germany, Austria, and Switzerland use sein instead (ich bin gesessen) as their regional standard. Per Duden and the Leibniz-Institut\'s Grammis, both forms are correct within their respective regions.',
+				answer: 'Not within its region. Standard German (and northern German usage specifically) forms the perfect of sitzen, stehen, and liegen with haben (ich habe gesessen), since these verbs describe rest rather than motion or state change. In the south, in Austria, and in Switzerland, sein replaces it instead (ich bin gesessen) as the regional standard. Both regional forms are recognized as correct by Duden and by Grammis, the IDS Mannheim\'s own reference.',
 			},
 			{
 				question: 'Should I use Perfekt or Präteritum when speaking German?',
-				answer: 'Perfekt, for nearly every verb. Präteritum sounds overly formal or regionally unusual in casual spoken German and is mainly reserved for written narrative. The one major exception is sein, haben, and the modal verbs (wollen, müssen, können, dürfen, sollen, mögen), which German speakers use in Präteritum (war, hatte, wollte, musste...) even in ordinary conversation, because the Perfekt equivalents (ist gewesen, hat gehabt) sound stilted.',
+				answer: 'Perfekt, for almost every verb you\'ll reach for. Präteritum can come across as stiff or out of place in day-to-day spoken German and stays mostly a written-language habit instead. The one major exception is a tight cluster of very common verbs, sein and haben along with the modal verbs (wollen, müssen, können, dürfen, sollen, mögen), which German speakers keep in Präteritum (war, hatte, wollte, musste...) even in casual, everyday speech, because saying ist gewesen or hat gehabt instead would sound stilted.',
 			},
 		],
 		sources: [
@@ -3792,7 +3792,7 @@ export const guides: Guide[] = [
 		description: 'German marks a noun\'s role with four cases, but most of that marking lands on the article. The noun itself changes in only a few predictable spots.',
 		published: '2026-08-18',
 		updated: '2026-08-18',
-		coreSummary: 'German uses four cases, nominative, accusative, dative, and genitive, to mark whether a noun is the subject, the direct object, the indirect object, or a possessor. Per the Leibniz-Institut für Deutsche Sprache\'s grammis reference, case is a grammatical category of nouns, adjectives, articles, and pronouns that marks syntactic relations in a sentence, and it is usually governed by the surrounding verb or preposition rather than chosen freely. Most of that marking lands on the article rather than the noun: nominative nouns take no case marker at all, and the noun itself changes only in a few predictable spots, chiefly the weak ("n-declension") masculine nouns across three cases, the near-universal dative plural -n, and the genitive singular -(e)s on strong masculine and neuter nouns.',
+		coreSummary: 'German uses four cases, nominative, accusative, dative, and genitive, to mark whether a noun is the subject, the direct object, the indirect object, or a possessor. Per the Leibniz-Institut für Deutsche Sprache\'s grammis reference, case is a grammatical category of nouns, adjectives, articles, and pronouns that marks syntactic relations in a sentence, and it is usually governed by the surrounding verb or preposition, not chosen freely. Most of that marking lands on the article, not the noun: nominative nouns take no case marker at all, and the noun itself changes only in a few predictable spots, chiefly the weak ("n-declension") masculine nouns across three cases, the near-universal dative plural -n, and the genitive singular -(e)s on strong masculine and neuter nouns.',
 		language: 'German',
 		sections: [
 			{
@@ -3832,23 +3832,23 @@ export const guides: Guide[] = [
 		faq: [
 			{
 				question: 'How many cases does German have, and what does each one mark?',
-				answer: 'Four: nominative (the subject), accusative (the direct object), dative (the indirect object), and genitive (possession or "of"). Per grammis (IDS Mannheim), case is a grammatical category of nouns, adjectives, articles, and pronouns that marks syntactic relations in a sentence, and it is normally assigned by the governing verb or preposition rather than chosen for meaning.',
+				answer: 'Four: nominative for the subject, accusative for the thing being acted on, dative for the receiver of an action, and genitive for the possessor (roughly "of"). Grammis (IDS Mannheim) defines Kasus as the marking system that shows how a pronoun, noun, adjective, or article functions inside a clause; a clause\'s verb, or the preposition attached to a noun, typically decides which case applies, so the choice tracks grammar rather than anything about what is being said.',
 			},
 			{
 				question: 'What is the fastest way to identify which case a German sentence needs?',
-				answer: 'Ask the matching question word: wer/was for nominative, wen/was for accusative, wem for dative, wessen for genitive. That works because each question word tracks the same syntactic role (subject, direct object, indirect object, possessor) that determines the case in the first place, not because the cases carry inherent meaning.',
+				answer: 'Ask the matching question word: wer/was for nominative, wen/was for accusative, wem for dative, wessen for genitive. Each question word tracks the same grammatical role (subject, direct object, indirect object, possessor) that decides the case in the first place, so the test works even though the case itself carries no meaning on its own.',
 			},
 			{
 				question: 'Do German nouns actually change with case, or is it just the articles?',
-				answer: 'Mostly just the articles. Per grammis\' page on noun case inflection, a bare German noun usually carries no case marker of its own at all; the nominative never gets one. The noun itself changes in only a few predictable spots: weak masculine nouns take -(e)n across the accusative, dative, and genitive singular; the dative plural is marked with -n on the noun almost whenever phonologically possible; and strong masculine/neuter nouns take -(e)s in the genitive singular.',
+				answer: 'Mostly just the articles. Per grammis\' entry on how German nouns inflect for case, a bare German noun typically stays unmarked for case, and the nominative never takes an ending. That change happens in only three narrow places: weak masculine nouns keep one identical -(e)n ending no matter which of the three non-nominative roles the sentence needs; the dative plural adds -n on the noun almost anywhere the sound system allows it; while strong masculine/neuter nouns pick up a plain -(e)s ending on their own to mark possession.',
 			},
 			{
 				question: 'Why does "der Bär" become "den Bären" in the accusative?',
-				answer: 'Bär belongs to the weak nouns (the "n-declension"), a class of mostly masculine nouns that mark the accusative, dative, and genitive singular alike with a plain -(e)n, unlike strong masculine nouns, which keep the same form in the nominative and accusative and only change in the genitive. Grammis illustrates this exact word with a real citation: "da lockten sie den Bären mit Honig."',
+				answer: 'Bär belongs to the weak nouns (the "n-declension"), a class of mostly masculine nouns that share one identical -(e)n ending across the accusative, genitive, and dative alike, unlike strong masculine nouns, which keep one shared form for the subject and the direct object and only pick up a distinct ending to mark possession. Grammis anchors the pattern in an authentic quotation about hunters luring a bear with honey, showing den Bären at work in real prose.',
 			},
 			{
 				question: 'Which German prepositions take which case?',
-				answer: 'Durch, für, gegen, ohne, and um always take the accusative. Aus, bei, mit, nach, seit, von, and zu always take the dative. Während, trotz, wegen, and (an)statt are the genitive prepositions taught earliest, though wegen is increasingly heard with the dative in casual speech. A separate group, the two-way prepositions (an, auf, hinter, in, neben, über, unter, vor, zwischen), takes accusative or dative depending on whether the phrase describes movement or a fixed location.',
+				answer: 'Three closed sets. The accusative-only group splits into durch, für, and gegen on one side, ohne and um on the other. The dative-only group covers aus and bei, plus mit and nach, plus seit, von, and zu. Während and trotz sit alongside wegen and (an)statt as the genitive group, though everyday speech increasingly substitutes the dative after wegen. On top of those fixed sets sit the prepositions that swing both ways depending on context: zwischen, vor, and unter cover three of them; über, neben, in, hinter, auf, and an round out the rest. All nine pick accusative for motion toward a place and dative for staying put at one.',
 			},
 		],
 		sources: [
@@ -4903,7 +4903,7 @@ export const guides: Guide[] = [
 			{
 				heading: 'A closed set of verbs takes only a dative object, no accusative in sight',
 				body: [
-					"Grammis defines Rektion as the ability of words, chiefly verbs and prepositions, to determine the form (including the case) of the words or phrases that depend on them. Applied to the dative, that means a specific list of German verbs simply requires a dative object as part of what they are, independent of the sentence's meaning. Grammis's own examples make the pattern concrete: \"Die Lehrerin dankt ihren Schülerinnen\" (the teacher thanks her students, danken governing dative) and, from its page on objects, \"Sie hilft ihm\" (she helps him, helfen governing dative). Neither sentence has an accusative object at all; the dative is the only object slot the verb opens.",
+					"Grammis defines Rektion as the ability of words, chiefly verbs and prepositions, to determine the form (including the case) of the words or phrases that depend on them. Applied to the dative, that means a specific list of German verbs simply requires a dative object as part of what they are, independent of the sentence's meaning. Grammis illustrates the pattern with two concrete examples: \"Die Lehrerin dankt ihren Schülerinnen\" (the teacher thanks her students, danken governing dative) and, from its page on objects, \"Sie hilft ihm\" (she helps him, helfen governing dative). Neither sentence has an accusative object at all; the dative is the only object slot the verb opens.",
 					"Other common verbs that behave the same way include gefallen (to please/appeal to), gehören (to belong to), folgen (to follow), gratulieren (to congratulate), passen (to fit/suit), and schmecken (to taste good to). None of them can be tested with the accusative question words wen/was, because there is no accusative object to find; the only question that gets an answer is wem (to/for whom). Das gehört mir (that belongs to me) and Der Kuchen schmeckt ihr (the cake tastes good to her) both follow this pattern, and neither has a direct object standing anywhere near the dative one.",
 					'Beyond this short list, grammis maintains a searchable Wörterbuch zur Verbvalenz (dictionary of verb valency) covering exactly which case, or combination of cases, any given German verb requires. That resource exists because Rektion is not guessable from meaning alone: helfen and unterstützen both translate as "help" in English, but only helfen takes a dative object. Unterstützen takes the accusative instead, confirmed by Duden\'s own example, "ich habe ihn mit Geld unterstützt" (I supported him with money), with ihn rather than ihm. Two verbs that look interchangeable in translation can quietly govern two different German cases, which is exactly the kind of detail a per-verb dictionary is built to settle.',
 				],
@@ -4912,7 +4912,7 @@ export const guides: Guide[] = [
 				heading: 'The pronoun paradigm, and what the article already carries for nouns',
 				body: [
 					'The [German Cases guide](/german-cases/) lays out the full definite-article paradigm, where the dative column reads dem (masculine), dem (neuter), der (feminine), and den plus an -n on the noun (plural), for example dem Mann, dem Kind, der Frau, den Kindern. Personal pronouns carry the same case distinction on their own forms: mir, dir, ihm, ihr, uns, euch, ihnen, and the formal Ihnen. Ich helfe ihm (I help him) and Sie dankt mir (she thanks me) put those pronoun forms directly into the dative-only verb pattern from the section above.',
-					'That marking earns its keep because German tolerates a much freer word order than English does, precisely because case tells the listener who is doing what regardless of position in the sentence. Dem Mann hilft die Frau and Die Frau hilft dem Mann describe the same event, the woman helping the man, because dem stays fixed to Mann as its dative marker no matter which word leads the sentence. English has no equivalent safety net: flip "the woman helps the man" to "the man helps the woman" and the meaning reverses outright, since English leans on word order instead of case to show who is acting on whom.',
+					'That marking earns its keep because German tolerates a much freer word order than English does, precisely because case tells the listener who is doing what regardless of position in the sentence. Dem Mann hilft die Frau and Die Frau hilft dem Mann describe the same event, the woman helping the man, because dem stays fixed to Mann as its dative marker no matter which word leads the sentence. English has no equivalent safety net: flip "the woman helps the man" to "the man helps the woman" and the meaning reverses outright, since English relies on word order, not case, to show who is acting on whom.',
 					"The dative singular also has a largely archaic noun ending of its own, -(e) as in dem Manne, which the German Cases guide covers in more depth alongside the dative plural -n that grammis calls the one case marking that shows up on the noun almost whenever phonologically possible, den Kindern, not den Kinder. Outside that plural -n, the pronoun and article carry essentially all of the case information; the noun itself stays put. Latin took a very different route to the same job: it never developed articles at all, so its five declensions mark case directly on the noun's own ending, identified not by the nominative but by the genitive singular, the system the [Latin Declensions guide](/latin-declensions/) walks through in full.",
 				],
 			},
@@ -4940,30 +4940,30 @@ export const guides: Guide[] = [
 				heading: 'English keeps a fossil of the same system, just narrowed down to pronouns',
 				body: [
 					"German's dative can look like an unusually heavy grammatical burden next to English, which dropped almost all noun case marking centuries ago. But English pronouns still preserve a fossil of the same subject/object split German spreads across four full cases: he becomes him, she becomes her, they becomes them, and who becomes whom, the moment the pronoun leaves the subject position. That is structurally the same distinction German marks with nominative er versus accusative/dative ihn/ihm, just narrowed down to pronouns only; English nouns themselves carry no case ending at all (the man helps the man, unchanged either way).",
-					'Whom is the clearest sign that the English system is fading rather than holding steady. Many speakers now default to who in object position where formal grammar still calls for whom, saying "Who did you give it to?" instead of "To whom did you give it?", a shift German\'s dative has not made, in part because the dative survives on far more than one closed word class of pronouns. Seen from that angle, the German dative is not a foreign complication so much as a fuller, more consistently applied version of a distinction English speakers already make on instinct every time they choose him over he.',
+					'Whom is the clearest sign that the English system is fading, not holding steady. Many speakers now default to who in object position where formal grammar still calls for whom, saying "Who did you give it to?" instead of "To whom did you give it?", a shift German\'s dative has not made, in part because the dative survives on far more than one closed word class of pronouns. Seen from that angle, the German dative is not a foreign complication so much as a fuller, more consistently applied version of a distinction English speakers already make on instinct every time they choose him over he.',
 				],
 			},
 		],
 		faq: [
 			{
 				question: 'Which German verbs take only a dative object, with no accusative object at all?',
-				answer: 'A closed set, including helfen (to help), danken (to thank), gefallen (to please/appeal to), gehören (to belong to), folgen (to follow), gratulieren (to congratulate), passen (to fit/suit), and schmecken (to taste good to). Per grammis (IDS Mannheim), this is Rektion, the verb determining the case of its object independent of meaning; none of these verbs can be tested with the accusative question words wen/was, because there is no accusative object anywhere in the sentence.',
+				answer: 'A closed set: helfen (to help) and danken (to thank) are the two everyday examples, joined by schmecken, passen, gratulieren, folgen, gehören, and gefallen (tasting good, fitting, congratulating, following, belonging, and appealing, respectively). None of the eight opens an accusative slot. Per grammis (IDS Mannheim), this is Rektion, the verb determining the case of its object independent of meaning; none of these verbs accepts the accusative test words wen/was, since they simply don\'t open an accusative slot for one to ask about.',
 			},
 			{
 				question: 'What are the German dative personal pronouns?',
-				answer: 'Mir, dir, ihm, ihr, uns, euch, ihnen, and the formal Ihnen (to/for me, you, him, her, us, you all, them, you formal). They pair with dative-only verbs directly: Ich helfe ihm, Sie dankt mir.',
+				answer: 'Dir, mir, and ihm mark "you," "me," and "him"; euch, uns, and ihnen mark "you all," "us," and "them"; ihr and Ihnen (the polite form) mark "her" and the formal "you." They pair with dative-only verbs directly: Ich helfe ihm, Sie dankt mir.',
 			},
 			{
 				question: 'Does German word order change between dative and accusative objects?',
-				answer: 'Yes, and it depends on whether the objects are nouns or pronouns. Per grammis, the unmarked order with two full noun phrases is dative before accusative ("Der Schüler gibt der Lehrerin den Aufsatz"), but with two unstressed personal pronouns that order reverses to accusative before dative ("Der Schüler gibt ihn ihr"). When one object is a pronoun and the other a noun phrase, the pronoun moves ahead of the noun phrase regardless of its own case.',
+				answer: 'Yes. Whether the order runs dative-first or accusative-first comes down to whether both objects are spelled out as nouns or shrunk to pronouns. Per grammis, the default order with two full noun phrases puts the dative first, the pattern behind sentences like a student handing a teacher an essay; swap in two bare pronouns for those same two nouns and the order flips so the accusative leads instead, the pattern behind handing it to her. With one pronoun and one noun phrase, the pronoun jumps to the front regardless of its own case, a word-order habit about length, not about grammatical role.',
 			},
 			{
 				question: 'Why does "in the aquarium" take the dative even though the fish are swimming, which is movement?',
-				answer: 'Grammis\'s own teaching materials use exactly this example to correct a common shortcut. A fish swimming inside an aquarium never leaves it, so the sentence names the place a movement happens in, not a destination it travels toward, the same logic that keeps "auf dem Skateboard" dative for a boy who jumps but stays on the board. Only a movement that actually ends somewhere new, like jumping from land into water, switches the Wechselpräposition over to accusative.',
+				answer: 'Grammis addresses exactly this shortcut with a worked example. Because the fish never leaves the tank while it swims within it, the sentence marks where the action unfolds, not a destination it travels toward, the same logic that keeps "auf dem Skateboard" dative for a boy who jumps but stays on the board. Only a movement that actually crosses from one place into a genuinely different one flips that preposition over to the accusative.',
 			},
 			{
 				question: 'Is gegenüber always dative, and does it come before or after its noun?',
-				answer: "Case-wise yes, dative every time. What's unusual is where it sits: unlike aus, bei, or the other fixed dative prepositions, gegenüber can stand on either side of its noun. Dem Bahnhof gegenüber (noun first) and gegenüber dem Bahnhof (gegenüber first) are both correct, everyday German.",
+				answer: "Case-wise yes, dative every time. What's unusual is where it sits: unlike aus, bei, or the rest of the seven that never switch away from it, gegenüber can stand on either side of its noun. Der Schule gegenüber (noun first) and gegenüber der Schule (gegenüber first) are both correct, everyday German for \"across from the school.\"",
 			},
 		],
 		sources: [
