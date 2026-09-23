@@ -1378,7 +1378,7 @@ export const guides: Guide[] = [
 				heading: 'Six verbs where the drop-the-o trick has nothing to grab onto',
 				body: [
 					'*Ser, estar, ir, haber, saber,* and *dar* don\'t build a subjunctive stem from their *yo* form at all: *sea, esté, vaya, haya, sepa,* and *dé*. The reason the mechanical rule breaks down here is specific, not just "these verbs are weird": the strip-the-*o* trick needs a *yo* form that\'s a plain stem plus *-o*. None of these six qualifies. *Soy, estoy, voy,* and *doy* end in *-oy*, not *-o*; *sé* ends in *-é*; *he* doesn\'t end in *-o* at all. With no plain *-o* ending to strip, there\'s no regular stem to derive an ending from, so these six are memorized outright rather than built from a rule.',
-					'The same six verbs are the ones that already break nearly every other regular pattern Spanish has: [*ser* and *estar* fail the normal present-tense rules too](/ser-vs-estar/), and [*saber*](/saber-vs-conocer/) is one of the handful of verbs whose *yo* form (*sé*) doesn\'t even end in *-o* in the present indicative, which is exactly why its subjunctive can\'t be derived the ordinary way either.',
+					'The same six verbs are the ones that already break nearly every other regular pattern Spanish has: [*ser*, one of Spanish\'s most irregular verbs, gets a full comparison against *estar*](/ser-vs-estar/), and [*saber*](/saber-vs-conocer/) is one of the handful of verbs whose *yo* form (*sé*) doesn\'t even end in *-o* in the present indicative, which is exactly why its subjunctive can\'t be derived the ordinary way either.',
 				],
 			},
 			{
@@ -1408,23 +1408,23 @@ export const guides: Guide[] = [
 		faq: [
 			{
 				question: 'Is the Spanish subjunctive a separate tense from the present or past?',
-				answer: 'No. It\'s a mood, not a tense. Spanish recognizes three moods (indicativo, subjuntivo, imperativo), and the subjunctive mood has its own set of tenses within it (present, imperfect, and the nearly obsolete future). The distinction that matters isn\'t when the action happens; it\'s whether the speaker presents it as fact versus wanted, doubted, ordered, or felt.',
+				answer: 'No, mood and tense are two different things in Spanish grammar. Spanish recognizes three moods (indicativo, subjuntivo, imperativo), and within the subjunctive there\'s still a set of tenses of its own (present, imperfect, and the nearly obsolete future). Timing isn\'t the question a mood answers; the real question is whether the sentence treats its content as settled fact or as something merely hoped for, questioned, commanded, or emotionally colored.',
 			},
 			{
 				question: 'Why does "quiero que" trigger the subjunctive but "quiero salir" doesn\'t?',
-				answer: 'The subjunctive que-clause only appears when the subordinate clause has a different subject from the main clause. "Quiero salir" (I want to leave) shares one subject, so Spanish uses an infinitive. "Quiero que salgas" (I want you to leave) splits into two subjects: the wanting is mine, the leaving is yours, which is exactly when que + subjunctive shows up.',
+				answer: 'The subjunctive que-clause only shows up when whoever is doing the leaving isn\'t whoever is doing the wanting. "Quiero salir" (I want to leave) shares one subject, so Spanish uses an infinitive. "Quiero que salgas" (I want you to go) splits into two subjects: the wanting is mine, the leaving is yours, and that split is precisely the trigger for que + subjunctive.',
 			},
 			{
 				question: 'Can I just use the indicative instead of the subjunctive and still be understood?',
-				answer: 'Not always safely. With verbs like decir, the mood itself carries the meaning: "Me dijo que volviera" (subjunctive) means he told me to come back, an indirect command, while "Me dijo que volvía" (indicative) means he told me he was coming back, a reported fact. Swapping the mood there doesn\'t just sound off; it reports a different thing entirely.',
+				answer: 'Not always safely. With verbs like decir, the mood itself carries the meaning: swap the ending to volviera and the sentence becomes an indirect order to return, while volvía simply reports that the returning was already underway. Get the mood wrong there and the listener hears a different claim altogether, not merely an odd-sounding sentence.',
 			},
 			{
 				question: 'Why do "quizás" and "tal vez" sometimes take the indicative and sometimes the subjunctive?',
-				answer: 'They\'re adverbs of doubt that allow either mood: subjunctive signals stronger doubt and weaker likelihood, indicative reads as more assertive. Word order also matters: when the adverb comes before the verb, both moods are grammatical; after the verb, only the indicative is. "A lo mejor" is the exception in this group and always takes the indicative.',
+				answer: 'They\'re adverbs of doubt that allow either mood: subjunctive signals stronger doubt and weaker likelihood, while the indicative sounds far more confident. Word order also matters: placing the adverb ahead of the verb keeps both moods grammatical; put it after the verb and the subjunctive option disappears. "A lo mejor" is the exception in this group; it stays indicative no matter where it sits in the sentence.',
 			},
 			{
 				question: 'What are the six fully irregular present-subjunctive verbs?',
-				answer: 'Ser, estar, ir, haber, saber, and dar: sea, esté, vaya, haya, sepa, and dé. They\'re irregular because none of their yo forms in the present indicative is a plain stem plus -o (soy, estoy, voy, and doy end in -oy; sé ends in -é; he doesn\'t end in -o at all), so there\'s no -o to strip and no regular stem to build the subjunctive from.',
+				answer: 'Dar, ir, saber, estar, haber, and ser: dé, vaya, sepa, esté, haya, and sea. Their yo forms simply aren\'t a plain stem plus -o (soy, estoy, voy, and doy end in -oy; sé ends in -é; he doesn\'t end in -o at all), so the whole formation rule has nothing to work with for these six.',
 			},
 		],
 		sources: [
@@ -2886,27 +2886,27 @@ export const guides: Guide[] = [
 		faq: [
 			{
 				question: 'How many verb tenses does Spanish actually have?',
-				answer: 'More than the six on this chart. Once every mood\'s simple and compound tenses are counted, a full paradigm runs close to twenty entries per verb, as the [complete ser conjugation](/ser-conjugation/) lays out form by form. In practice, a fluent speaker uses maybe eight of those regularly; the rest are either mechanical compounds built from haber, or forms like the future subjunctive that have mostly disappeared outside legal Spanish.',
+				answer: 'More than the six on this chart. Once every mood\'s simple and compound tenses are counted, a full paradigm runs close to twenty entries per verb, as the [complete ser conjugation](/ser-conjugation/) lays out form by form. In practice, a fluent speaker uses maybe eight of those regularly; the rest are either mechanical compounds built from haber, or forms such as hablare, now confined to legal paperwork almost exclusively.',
 			},
 			{
 				question: 'Do I need to memorize every tense to speak Spanish well?',
-				answer: 'No. The five indicative tenses plus the present subjunctive and the imperative, the six shown in the chart above, cover the overwhelming majority of everyday conversation. The compound tenses (*he hablado*, *había hablado*) are built mechanically from haber once that verb is learned, and the imperfect and future subjunctive are worth recognizing more than producing on the fly.',
+				answer: 'No. The six shown in the chart above (five indicative forms plus the present-tense subjunctive and the command forms) already cover nearly everything a normal spoken exchange requires. The compound tenses (*he hablado*, *había hablado*) are built mechanically from haber once that verb is learned, and the rarer imperfect and future-subjunctive forms are worth recognizing more than producing on the fly.',
 			},
 			{
 				question: 'What\'s the real difference between the preterite and the imperfect?',
-				answer: 'The preterite reports a past action as a finished whole; the imperfect describes it from the inside, as ongoing or habitual, without marking when it started or stopped. *Hablé con ella* ("I talked to her") is a completed event; *hablaba con ella* ("I used to talk to her" or "I was talking to her") is a repeated or in-progress one. The [full preterite-versus-imperfect comparison](/preterite-vs-imperfect/) works through more pairs where the same verb changes meaning depending on which one is used.',
+				answer: 'The preterite reports a past action as a finished whole; the imperfect describes it from the inside, as continuing or repeated, without marking when it started or stopped. *Hablé con ella* ("I spoke with her") closes the action off as done; *hablaba con ella* ("I would talk with her" or "I was talking with her") leaves it open, mid-stream or repeating. [This site\'s dedicated comparison of the two](/preterite-vs-imperfect/) covers additional pairs where the same verb changes meaning depending on which one is used.',
 			},
 			{
 				question: 'Is the future subjunctive (hablare) something I need to learn?',
-				answer: 'Not for everyday speech. The Real Academia Española notes that its use has narrowed almost entirely to legal and administrative writing today. It survives in a handful of fixed expressions, but a learner is far more likely to need the other subjunctive forms first.',
+				answer: 'Not for everyday speech. RAE treats it as a form that\'s retreated to legal and administrative documents almost exclusively at this point. It survives in a handful of fixed expressions, but a learner is far more likely to need the other subjunctive forms first.',
 			},
 			{
 				question: 'Why doesn\'t the imperative show up in the chart with the other tenses?',
-				answer: 'Because it isn\'t built the same way. RAE\'s own grammar describes the imperative as sitting outside the normal tense system: it has no past, no future, and no compound forms, just a single present-tense set of command forms. That\'s also why negative commands switch to the present subjunctive instead of using the imperative at all (*no hables*, not a negated *habla*).',
+				answer: 'Because it isn\'t built the same way. Per RAE\'s own grammar, the imperative stands apart from the whole tense framework the other five follow: it has no past, no future, and no compound forms, just a single present-tense set of command forms. That\'s also why a negative command reaches for present-subjunctive forms instead: no hables, never a negated habla.',
 			},
 			{
 				question: 'How do you conjugate ser, and does it follow the pattern above?',
-				answer: 'No, ser ignores the hablar pattern almost entirely. It\'s a suppletive verb, meaning its paradigm was assembled from two separate Latin verbs rather than descending from one, so its endings don\'t follow any regular -ar/-er/-ir template. The present runs soy, eres, es, somos, sois, son, and the preterite (fui, fuiste, fue, fuimos, fuisteis, fueron) happens to be identical to the preterite of ir, with only context telling the two verbs apart. The ser conjugation page tabulates all nineteen paradigm blocks, counting the eight haber compounds and the voseo form vos sos, transcribed from the RAE conjugation table.',
+				answer: 'No, ser ignores the hablar pattern almost entirely. It\'s a suppletive verb, meaning its paradigm was assembled from two separate Latin verbs rather than descending from one, so none of its forms come from removing a normal verb ending off one infinitive. The present runs soy, eres, es, somos, sois, son, and the preterite (fui, fuiste, fue, fuimos, fuisteis, fueron) happens to be identical to the preterite of ir, with only context telling the two verbs apart. The ser conjugation page tabulates all nineteen paradigm blocks, counting the eight haber compounds and the voseo form vos sos, transcribed from the RAE conjugation table.',
 			},
 		],
 		sources: [
@@ -4290,7 +4290,7 @@ export const guides: Guide[] = [
 		description: 'Spanish has two unrelated things called "superlative," plus a rare Latin-inherited suffix and an RAE-recognized prefix strategy most learners never hear about.',
 		published: '2026-08-20',
 		updated: '2026-08-20',
-		coreSummary: 'Spanish keeps two grammatically separate constructions under the label "superlative": the relative superlative (el/la más + adjective + an optional de group) ranks one member against others, while the absolute superlative (usually the suffix -ísimo, occasionally the Latin-inherited -érrimo, or informally a prefix like re- or súper-) marks an extreme degree with no comparison group at all. Per the RAE, four adjectives (bueno, malo, grande, pequeño) build their relative superlative irregularly as mejor, peor, mayor, and menor rather than with más, and a small set of adjectives, mostly frozen in set phrases like enemigo acérrimo, still take the archaic -érrimo suffix inherited straight from Latin instead of the regular -ísimo.',
+		coreSummary: 'Spanish keeps two grammatically separate constructions under the label "superlative": the relative superlative (el/la más + adjective + an optional de group) ranks one member against others, while the absolute superlative (usually the suffix -ísimo, occasionally the Latin-inherited -érrimo, or informally a prefix like re- or súper-) marks an extreme degree with no comparison group at all. Per the RAE, four adjectives (bueno, malo, grande, pequeño) build their relative superlative irregularly as mejor, peor, mayor, and menor, not with más, and a small set of adjectives, mostly frozen in set phrases like enemigo acérrimo, still take the archaic -érrimo suffix inherited straight from Latin instead of the regular -ísimo.',
 		language: 'Spanish',
 		sections: [
 			{
@@ -4329,7 +4329,7 @@ export const guides: Guide[] = [
 			{
 				heading: 'The Latin fossils: -érrimo, and why "acérrimo" doesn\'t mean "acre" anymore',
 				body: [
-					'A small closed set of adjectives keeps a superlative suffix inherited directly from Latin, -érrimo/-érrima, instead of the regular -ísimo. The RAE\'s Nueva gramática lists it alongside -ísimo as one of the two suffixes that mark "grado extremo," but the list of words that still use it is short and mostly frozen: pobre → paupérrimo, célebre → celebérrimo, íntegro → integérrimo, áspero → aspérrimo, and acre → acérrimo.',
+					'A small closed set of adjectives keeps a superlative suffix inherited directly from Latin, -érrimo/-érrima, not the regular -ísimo. The RAE\'s Nueva gramática lists it alongside -ísimo as one of the two suffixes that mark "grado extremo," but the list of words that still use it is short and mostly frozen: pobre → paupérrimo, célebre → celebérrimo, íntegro → integérrimo, áspero → aspérrimo, and acre → acérrimo.',
 					'That last one survives almost entirely inside one fixed phrase: enemigo acérrimo, "bitter" or "sworn enemy." Acre on its own means acrid or bitter-tasting, but most speakers who say enemigo acérrimo aren\'t thinking about taste at all. The word has drifted into functioning as a pure intensifier bolted onto enemigo, detached from the adjective it technically superlatives. Spanish speakers use it fluently without necessarily being able to name the base adjective it comes from, which is a different kind of irregularity than mejor/peor: those are irregular but transparent, while -érrimo forms are irregular and largely opaque outside the handful of phrases that kept them alive.',
 				],
 			},
@@ -4344,27 +4344,27 @@ export const guides: Guide[] = [
 		faq: [
 			{
 				question: 'What\'s the actual difference between "la más alta" and "altísima"?',
-				answer: 'La más alta is a relative superlative: it ranks one person or thing against a group, stated or implied (la más alta de la clase, "the tallest in the class"). Altísima is an absolute superlative: it states an extreme degree of height with no group being compared at all. A sentence can use either, but they answer different questions: relative answers "highest compared to what," absolute answers "how extreme."',
+				answer: 'La más alta ranks one person or thing against a group, stated or implied, as in la más alta del grupo, meaning she ranks above everyone else in that group; that\'s the relative-type reading. Altísima just claims Ana is extraordinarily tall, full stop, with no group being compared at all; that\'s the absolute-type reading. A sentence can use either, but they answer different questions: one answers "highest compared to what," the other answers "how extreme."',
 			},
 			{
 				question: 'Why can\'t I say "más bueno" or "más malo"?',
-				answer: 'Bueno and malo don\'t form their comparative or relative superlative with más at all: they have dedicated irregular forms, mejor and peor, the same way English uses "better/best" instead of "more good." Más bueno and más malo are understood but read as a clear non-native error, not a stylistic choice.',
+				answer: 'Bueno and malo don\'t use más to build their comparative or ranking-type superlative at all: they have dedicated irregular forms, mejor and peor, the same way English uses "better/best" instead of "more good." A native speaker hears "más bueno" or "más malo" as an unmistakable non-native slip, not a stylistic choice.',
 			},
 			{
 				question: 'Is "mayor" just a fancier way to say "más grande"?',
-				answer: 'They overlap grammatically but not in everyday use. Mayor is the irregular relative superlative/comparative of grande and is grammatically valid for physical size, but in practice it\'s used mainly for age: mi hermano mayor, "my older brother." For physical size, Spanish speakers default to más grande far more often than mayor, even though the "no más with irregular forms" rule would predict otherwise.',
+				answer: 'They overlap grammatically but not in everyday use. Mayor is the irregular form grande switches to instead of más grande, valid for physical size as much as for age, but in practice it\'s used mainly for age: mi hermano mayor, "my older brother." For physical size, Spanish speakers reach for más grande far more often, leaving mayor to carry the age sense in everyday conversation.',
 			},
 			{
 				question: 'What does "enemigo acérrimo" mean, and why doesn\'t it use "-ísimo"?',
-				answer: 'Acérrimo is the Latin-inherited superlative of acre ("acrid" or "bitter"), formed with the archaic suffix -érrimo instead of the regular -ísimo. It survives almost entirely in the fixed phrase enemigo acérrimo, "bitter enemy" or "sworn enemy," where most speakers use it as a pure intensifier without consciously connecting it back to acre at all.',
+				answer: 'Acérrimo is a Latin fossil, the superlative of acre ("acrid" or "bitter"), built with the archaic suffix -érrimo in place of -ísimo, the ending most adjectives take. Outside the one set phrase it forms, a sworn or bitter rival called an enemigo acérrimo, it barely gets used, and the people who do say it usually can\'t trace it back to acre; it just reads as extra emphasis stacked onto enemigo.',
 			},
 			{
 				question: 'Is "recontra-" a real intensifier, or just slang?',
-				answer: 'It\'s real, spoken, informal Spanish, not a written-register form. Re- itself is one of the prefixes the RAE\'s own glossary lists as a legitimate way to build an absolute superlative (alongside super- and hiper-), and it\'s especially productive in Rioplatense Spanish (Argentina and Uruguay), where recontra- and requete- function as stacked, more intense versions of the same re- prefix in casual conversation.',
+				answer: 'It\'s real, spoken, informal Spanish, not a written-register form. RAE names re- directly as one legitimate route to that extreme-degree reading, alongside super- and hiper-, and it carries extra weight south of the River Plate, where speakers even stack an extra layer onto it (recontra-, requete-) for casual conversation that needs even more punch.',
 			},
 			{
 				question: 'Do you always need "de" after "el más + adjective"?',
-				answer: 'No. Per the RAE\'s own grammar, the de-phrase naming the comparison group (de la clase, de mis amigos) is a restrictive complement that\'s explicitly optional: la más alta is a complete relative superlative on its own when the group is already clear from context.',
+				answer: 'No. RAE grammar treats the de-phrase spelling out who else is in the running (de todos, de su generación) as something you can leave unstated. Drop it and la más alta still stands on its own as a complete ranking, as long as context already makes clear which group sets the bar.',
 			},
 		],
 		sources: [
@@ -4384,7 +4384,7 @@ export const guides: Guide[] = [
 		description: 'Si clauses split into three fixed tense pairings, real, potential, and unreal past, and mixing the pairings produces a specific error the RAE calls out by name.',
 		published: '2026-08-21',
 		updated: '2026-08-21',
-		coreSummary: 'Spanish si clauses pair a prótasis (the si-part) with an apódosis (the result) in one of three fixed combinations: real conditions take present indicative then present, future, or imperative; potential (present-hypothetical) conditions take imperfect subjunctive then conditional; unreal past conditions take pluperfect subjunctive then compound conditional or pluperfect subjunctive. Per the Real Academia Española, si itself rejects the future, the conditional, and both the present and present-perfect subjunctive in the prótasis, which is exactly why "si tendría" and "si tengas" are flagged as errors rather than accepted variants.',
+		coreSummary: 'Spanish si clauses pair a prótasis (the si-part) with an apódosis (the result) in one of three fixed combinations: real conditions take present indicative then present, future, or imperative; potential (present-hypothetical) conditions take imperfect subjunctive then conditional; unreal past conditions take pluperfect subjunctive then compound conditional or pluperfect subjunctive. Per the Real Academia Española, si itself rejects the future, the conditional, and both the present and present-perfect subjunctive in the prótasis, which is exactly why "si tendría" and "si tengas" are flagged as errors, not accepted variants.',
 		language: 'Spanish',
 		sections: [
 			{
@@ -4409,7 +4409,7 @@ export const guides: Guide[] = [
 				heading: 'Potential: a hypothesis about right now',
 				body: [
 					'When the condition is contrary to how things actually stand at present, or is being floated as unlikely, the prótasis switches to the imperfect subjunctive and the apódosis takes the simple conditional (or, less often, the imperative). *Si tuviera dinero, viajaría* ("If I had money, I would travel") signals, through tuviera rather than tengo, that the speaker doesn\'t currently have the money. Swap either half out on its own, tengo for tuviera or viajo for viajaría, and the sentence stops being a present-tense hypothesis: it either turns ungrammatical or turns into a different construction with a different meaning. The RAE\'s basic grammar treats the two halves as a single coupled unit for exactly that reason.',
-					'The [conditional tense guide](/spanish-conditional-tense/) covers viajaría and its siblings from the conditional\'s own side; [the subjunctive guide](/subjunctive-spanish/) covers tuviera\'s mood in general, whenever a clause needs to mark something as unverified rather than asserted, here applied specifically to a present-tense hypothesis.',
+					'The [conditional tense guide](/spanish-conditional-tense/) covers viajaría and its siblings from the conditional\'s own side; [the subjunctive guide](/subjunctive-spanish/) covers tuviera\'s mood in general, whenever a clause needs to mark something as unverified instead of asserted as fact, here applied specifically to a present-tense hypothesis.',
 				],
 			},
 			{
@@ -4422,7 +4422,7 @@ export const guides: Guide[] = [
 			{
 				heading: 'Why "si tendría" is a named error, not a regional variant',
 				body: [
-					'The RAE is explicit about what si rejects in the prótasis in current Spanish: the future (*si tendrás dinero), the conditional (*si tendrías dinero), the present subjunctive (*si tengas dinero), and the present-perfect subjunctive (*si hayas tenido dinero). "Si tendría dinero, me compraría un coche" is that second error in the wild, a conditional sitting where the imperfect subjunctive belongs (si tuviera dinero). The same substitution one tense further back, using the compound conditional inside the prótasis itself (si habría tenido, rather than si hubiera tenido) instead of keeping it confined to the apódosis where it belongs, is documented as a feature of speech in some regions of Latin America and in Basque-contact areas of northern Spain, including Navarra, Cantabria, and La Rioja, which is why it\'s worth flagging by name rather than treating as a universal slip.',
+					'The RAE is explicit about what si rejects in the prótasis in current Spanish: the future (*si tendrás dinero), the conditional (*si tendrías dinero), the present subjunctive (*si tengas dinero), and the present-perfect subjunctive (*si hayas tenido dinero). "Si tendría dinero, me compraría un coche" is that second error in the wild, a conditional sitting where the imperfect subjunctive belongs (si tuviera dinero). The same substitution one tense further back, using the compound conditional inside the prótasis itself (si habría tenido, rather than si hubiera tenido) instead of keeping it confined to the apódosis where it belongs, is documented as a feature of speech in some regions of Latin America and in Basque-contact areas of northern Spain, including Navarra, Cantabria, and La Rioja, which is why it\'s worth flagging by name and not treating as a universal slip.',
 					'One more prótasis form is now effectively extinct outside of one register: the future subjunctive (si tuvieres, si hubieres tenido) was ordinary in medieval and classical Spanish, but per the RAE it is not part of the modern general language and survives almost entirely in legal and administrative wording, the same fossilized-register pattern the [French subjunctive guide](/french-subjunctive/) describes for that language\'s own literary-only past subjunctive tenses. A learner will encounter it in a contract long before hearing it in conversation, if ever.',
 				],
 			},
@@ -4430,19 +4430,19 @@ export const guides: Guide[] = [
 		faq: [
 			{
 				question: 'What are the three types of si clauses in Spanish?',
-				answer: 'Real conditions (si + present indicative, then present/future/imperative: Si llueve, me quedo en casa), potential conditions that are hypothetical about the present (si + imperfect subjunctive, then conditional: Si tuviera dinero, viajaría), and unreal past conditions (si + pluperfect subjunctive, then compound conditional or pluperfect subjunctive: Si lo hubiera sabido, te habría llamado). Each pairing is fixed; the tense in the si-clause determines which tense the result clause is allowed to take.',
+				answer: 'Spanish ties si to one of three set patterns. A condition that could genuinely happen pairs a tienes-style present tense in the si-clause with a result that lands on the present, the future, or a direct command (Si estudias, aprobarás, "if you study, you\'ll pass"). A guess about how things stand right now pairs tuviera-style forms in the si-clause with a conditional result (Si fuera rico, viajaría más, "if I were rich, I\'d travel more"). And a condition already closed off because its moment has passed pairs hubiera-style forms in the si-clause with a result that either repeats that same form or shifts to habría (Si lo hubiera sabido, te habría llamado). None of the three tenses can be swapped between patterns.',
 			},
 			{
 				question: 'Why is "si tendría" wrong?',
-				answer: 'The RAE explicitly lists the conditional as one of the forms si rejects in the prótasis, alongside the future, the present subjunctive, and the present-perfect subjunctive. "Si tendría dinero, me compraría un coche" should be "si tuviera dinero" (imperfect subjunctive). Putting the compound conditional into the prótasis (si habría tenido) is the same error one step further back in time, and it\'s documented as a feature of speech in some regions of Latin America and in Basque-contact areas of northern Spain rather than treated as standard.',
+				answer: 'RAE grammar explicitly bars four forms from the prótasis after si: the conditional, the future, the tengas-type subjunctive, and a further subjunctive form built on the present perfect. The classic slip, si tendría dinero, drops that barred conditional in where the tuviera-form belongs. An earlier link in that same substitution chain, habría tenido standing in for hubiera tenido, is heard in spoken Spanish in several Latin American countries and near the Basque Country in northern Spain, though it still isn\'t treated as standard usage.',
 			},
 			{
 				question: 'Is "si hubiera estudiado, habría aprobado" or "hubiera aprobado" correct?',
-				answer: 'Both. The RAE accepts the compound conditional (habría aprobado) and the pluperfect subjunctive (hubiera aprobado) as interchangeable in the apódosis of an unreal past condition. A third option, hubiese aprobado, is grammatical there as well, but per the RAE\'s own reply on the subject, it shows up less often than either habría or hubiera in that slot.',
+				answer: 'Both. Per the RAE, habría aprobado and its subjunctive counterpart hubiera aprobado are interchangeable as the result clause for a condition that never came true. A third option, hubiese aprobado, is also grammatical; per that same RAE note on the matter, it just appears less frequently than the other two forms in that position.',
 			},
 			{
 				question: 'Does si ever take the present subjunctive?',
-				answer: 'No. That\'s one of the four forms the RAE says si rejects outright in current Spanish, along with the future, the conditional, and the present-perfect subjunctive. A clause like "si tengas dinero" is not a stylistic variant; it\'s an ungrammatical mixing of the real-condition prótasis (which wants tienes, present indicative) with the subjunctive.',
+				answer: 'No. That\'s one of the four forms the RAE says si rejects outright in current Spanish, alongside the conditional, the future tense, and one further subjunctive form built off the present perfect. A clause like "si tengas dinero" is not a stylistic variant; it\'s an ungrammatical mixing of the real-condition prótasis (which wants tienes, present indicative) with the subjunctive.',
 			},
 		],
 		sources: [
@@ -5660,23 +5660,23 @@ export const guides: Guide[] = [
 		faq: [
 			{
 				question: 'What does "voila" mean?',
-				answer: 'Voilà is French for "you see there," built from vois ("you see," the indicative form of voir) plus là ("there"), first recorded in 1342. In English, it survives as an interjection used to call attention to something, express satisfaction, or announce something as finished or revealed, roughly equivalent to "here it is" or "ta-da."',
+				answer: 'Voilà is French for "you see there," built from vois ("you see," the indicative form of voir) plus là ("there"), first recorded in 1342. In English, it survives only as an exclamation for drawing eyes toward something, showing you\'re pleased with it, or announcing that it\'s finished or revealed, roughly equivalent to "here it is" or "ta-da."',
 			},
 			{
 				question: 'Why do people write "wallah" instead of "voila"?',
-				answer: 'Merriam-Webster notes that the "v" sound at the start of voilà\'s pronunciation, vwah-LAH, is sometimes not clearly heard in casual speech, which leads English speakers unfamiliar with the French spelling to reconstruct it as vwa-lah, wa-lah, or wallah. The usage blog Grammarphobia documented this drift as an established phenomenon as far back as 2016.',
+				answer: 'The pronunciation vwah-LAH loses its opening consonant fairly often once people say it casually, and Merriam-Webster flags exactly that slippage. Someone who has only ever heard the word, never read voilà on a page, ends up guessing at a spelling that fits what reached their ear, landing on vwa-lah, wa-lah, or wallah. Grammarphobia, a usage blog, wrote up this drift as a long-running pattern back in 2016.',
 			},
 			{
 				question: 'What\'s the difference between "voila" and "viola"?',
-				answer: 'They are unrelated words that happen to look similar. Voila is the French interjection meaning roughly "here it is." Viola is a string instrument between a violin and a cello in size (or, separately, a flowering plant), from a completely different word history. Washington State University\'s Common Errors in English Usage catalogs writers substituting viola for voila as one of the more common English mix-ups, since both are correctly spelled words and spell-check won\'t flag the swap.',
+				answer: 'They look alike but share nothing else. Voila is the French exclamation for "here it is." Viola names two unrelated things instead: a bowed orchestral instrument pitched lower than the violin, and a genus that covers pansies and violets, neither one connected to French voir. WSU\'s long-running usage site tracks the viola-for-voila swap as a frequent English slip, since both spellings pass a dictionary and a spell-checker without complaint.',
 			},
 			{
 				question: 'Is "wallah" a real word too?',
-				answer: 'Yes, two unrelated real words share that spelling. One is an Indo-Aryan suffix (Hindi/Urdu -wala, from Sanskrit pālá plus -ka-) meaning roughly "person associated with," as in chaiwala ("tea person"). The other is an Arabic oath, wallah (wa- "by" plus Allah), meaning "I swear to God." Neither is related to the other, or to the French voilà that casual English spelling sometimes drifts toward the same letters.',
+				answer: 'Yes, but as two separate, unconnected words that just happen to share a spelling. In Hindi and Urdu, the suffix -wala (traced to Sanskrit pālá) attaches to a noun to mean roughly "person associated with," the way chaiwala names a tea seller. Separately, Arabic wallah joins wa- ("by") with Allah to form a common oath, "I swear to God." Those two share no history with each other, and their overlap with French voilà is pure coincidence of English spelling.',
 			},
 			{
 				question: 'Does "voila" ever mean "it\'s been [an amount of time]" in French?',
-				answer: 'Yes, in French, not in English. CNRTL\'s citation record traces this sense to a mid-18th-century attestation, in the construction voilà + duration + que, as in voilà trois mois qu\'il est parti ("he\'s now been gone for three months"). That meaning never crossed over when English borrowed the word; English "voila" is only ever the presenting-and-revealing interjection.',
+				answer: 'Yes, in French, not in English. CNRTL dates that use back to the mid-1700s: paired with a stretch of time plus que, voilà can mark elapsed duration, roughly "it\'s now been [that long] since..." English never picked up that sense; "voila" borrowed only the presenting flourish, not the time-marking one.',
 			},
 		],
 		sources: [
@@ -6303,7 +6303,7 @@ export const guides: Guide[] = [
 			{
 				heading: 'Clarifying and emphasizing who: a mí, a Juan, a ella',
 				body: [
-					'*Le* and *les* are genuinely ambiguous on their own: *le gusta* could mean "he likes it," "she likes it," or "you (formal) like it," since [Spanish\'s pronoun system](/spanish-pronouns/) reuses the same third-person indirect object pronoun for all three. Spanish resolves that ambiguity, and adds emphasis when needed, by adding a prepositional phrase with *a* alongside the pronoun rather than instead of it: *A ella le gusta el fútbol* (She likes soccer) keeps *le* and adds *a ella* to specify who. The same construction works for names and nouns: *A Juan le gusta el fútbol*, and for contrast: *A mí me gusta el café, pero a ella no le gusta* (I like coffee, but she doesn\'t).',
+					'*Le* and *les* are genuinely ambiguous on their own: *le gusta* could mean "he likes it," "she likes it," or "you (formal) like it," since [Spanish\'s pronoun system](/spanish-pronouns/) reuses the same third-person indirect object pronoun for all three. Spanish resolves that ambiguity, and adds emphasis when needed, by adding a prepositional phrase with *a* alongside the pronoun, not in its place: *A ella le gusta el fútbol* (She likes soccer) keeps *le* and adds *a ella* to specify who. The same construction works for names and nouns: *A Juan le gusta el fútbol*, and for contrast: *A mí me gusta el café, pero a ella no le gusta* (I like coffee, but she doesn\'t).',
 					'That doubling, the indirect object pronoun and its clarifying *a*-phrase both present in the same clause, is a normal, required feature of how Spanish\'s indirect object works with this class of verbs, not redundancy to be trimmed. Dropping *le* and keeping only *a ella*, or the reverse when the reference is genuinely ambiguous, are the two most common ways learners accidentally garble who the sentence is actually about.',
 				],
 			},
@@ -6318,23 +6318,23 @@ export const guides: Guide[] = [
 		faq: [
 			{
 				question: 'Why is it "me gusta" and not "yo gusto"?',
-				answer: 'Because the person who likes something is grammatically the indirect object with gustar, not the subject. Per the RAE\'s Diccionario panhispánico de dudas, the normal construction makes the thing causing the pleasure the subject, and the person feeling it is expressed with an indirect object pronoun (me, te, le, nos, os, les). "Yo gusto" would wrongly make "I" the subject, which is not how this verb works.',
+				answer: 'Because with gustar, whoever likes something only ever plays an indirect-object role; it never becomes the sentence\'s subject. Per the RAE, gustar puts what causes the pleasure in the subject slot and routes whoever experiences that pleasure into a pronoun such as te, nos, me, les, os, or le. "Yo gusto" tries to put "I" in that slot, and Spanish simply doesn\'t build the verb that way.',
 			},
 			{
 				question: 'Why does gustar sometimes change to gustan?',
-				answer: 'Gustar agrees with the thing being liked, which is the grammatical subject, not with the person doing the liking. "Me gusta el libro" uses the singular form because "el libro" is singular; "Me gustan los libros" switches to the plural form because "los libros" is plural. The pronoun in front (me, te, le...) never affects this agreement.',
+				answer: 'Gustar agrees with whatever is being liked, not with whoever likes it. Take "me gusta el helado": gusta stays singular because el helado is one thing. Switch to a plural noun, like "me gustan los deportes," and the verb becomes gustan instead. Whatever pronoun sits ahead of the verb never controls this agreement.',
 			},
 			{
 				question: 'What other verbs work exactly like gustar?',
-				answer: 'RAE grammar sources group gustar with a defined class of verbos de afección psíquica that includes aburrir, agradar, alegrar, disgustar, divertir, doler, encantar, entristecer, impresionar, interesar, molestar, preocupar, and sorprender, all built the same way: indirect object pronoun, then the verb agreeing with whatever is causing the feeling. A separate group of common verbs, including faltar, quedar, and importar, follows the identical word order and agreement pattern even though they describe possession or relevance rather than a feeling.',
+				answer: 'RAE grammar sources group gustar with other verbs describing a feeling or sensation the speaker experiences, among them interesar, doler, agradar, sorprender, asombrar, molestar, and entusiasmar. Each one puts the pronoun first and makes the verb match whatever triggers that feeling, exactly as gustar does. A separate everyday set, faltar, quedar, and importar, shares that same pronoun-first structure, although grammar books file them under a different heading, since what they name is a lack, a leftover amount, or relevance to someone, not a psychological state.',
 			},
 			{
 				question: 'If "le" already means "to him/her/you," why add "a él" or "a ella" too?',
-				answer: 'Because le and les are ambiguous on their own; they don\'t distinguish "he," "she," or formal "you." Spanish resolves that, and adds emphasis or contrast, by keeping the pronoun and adding a clarifying a-phrase alongside it, not instead of it: "A ella le gusta el fútbol" keeps both le and a ella. Dropping the pronoun and keeping only the a-phrase is a common learner error, not an accepted shortcut.',
+				answer: 'Le and les alone leave real ambiguity, since the same form covers "he," "she," and formal "you." To clear that up or add stress, Spanish keeps the pronoun and tacks on an a-plus-name phrase beside it, rather than dropping the pronoun. "A Carlos le gusta el fútbol" is one way this shows up: both le and a Carlos stay in the sentence. Leaving out le and using only the a-phrase is a mistake learners make, not a valid shortcut.',
 			},
 			{
 				question: 'Does "¿Gusta usted una cerveza?" use the same grammar as "me gusta el café"?',
-				answer: 'No. That\'s a separate, narrower use of gustar as a transitive verb meaning "to want" or "to wish," which the RAE notes survives almost exclusively in set courtesy formulas like offering something. It doesn\'t follow the indirect-object-plus-subject pattern the rest of this article covers, and it isn\'t how gustar is used to say someone likes something.',
+				answer: 'No. That\'s a separate, narrower transitive use of gustar closer to wanting or wishing for something, which the RAE says is now confined almost entirely to fixed, polite offers. It doesn\'t follow the indirect-object-plus-subject pattern the rest of this article covers, and it isn\'t how gustar is used to say someone likes something.',
 			},
 		],
 		sources: [
