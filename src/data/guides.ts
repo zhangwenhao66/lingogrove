@@ -3084,14 +3084,14 @@ export const guides: Guide[] = [
 		slug: 'mashallah-meaning',
 		category: 'Loanwords',
 		title: 'Mashallah Meaning: "God Has Willed It," Not "God Willing"',
-		description: 'Mashallah literally means "what God has willed." It is the past-tense counterpart to inshallah, marking something already true rather than something hoped for.',
+		description: 'Mashallah literally means "what God has willed." It is the past-tense counterpart to inshallah: one marks something already true, the other something merely hoped for.',
 		published: '2026-08-17',
 		updated: '2026-08-17',
 		coreSummary: 'Mashallah (ما شاء الله, more precisely transliterated mā shāʾa -llāh) breaks down to three Arabic words: mā ("what"), shāʾa ("willed," a past-tense verb from the root ش-ي-ء, sh-y-ʾ), and Allah ("God"). Put together it literally means "what God has willed [has happened]." The phrase appears in the Qur\'an, Surah Al-Kahf 18:39, inside a parable about a wealthy man who fails to say it while boasting about his garden. Because shāʾa is past tense, mashallah is said about something that already exists or has already happened, the opposite direction in time from inshallah, which looks forward to something hoped for.',
 		language: 'Arabic',
 		usageNote: {
 			register: 'neutral',
-			regionNote: 'The Arabic phrase itself doesn\'t change across the Muslim world, but its Latin-alphabet spelling drifts with the language writing it down. Turkish and Azerbaijani render it Maşaallah, Malay and Indonesian write Masya Allah, and Bosnian uses Mašala, each following that language\'s own spelling conventions rather than a shared Arabic-to-English standard. Urdu and Persian speakers mostly sidestep the question by writing the phrase in Arabic script directly (ماشاءاللہ), since both languages already use a version of that alphabet.',
+			regionNote: 'The Arabic phrase itself doesn\'t change across the Muslim world, but its Latin-alphabet spelling drifts with the language writing it down. Turkish and Azerbaijani render it Maşaallah, Malay and Indonesian write Masya Allah, and Bosnian uses Mašala, each following that language\'s own spelling conventions, not a shared Arabic-to-English standard. Urdu and Persian speakers mostly sidestep the question by writing the phrase in Arabic script directly (ماشاءاللہ), since both languages already use a version of that alphabet.',
 		},
 		sections: [
 			{
@@ -3109,7 +3109,7 @@ export const guides: Guide[] = [
 				heading: 'The phrase comes from one specific Qur\'anic parable about boasting',
 				body: [
 					'Surah Al-Kahf, verse 39, is the specific point in the Qur\'an where mashallah comes from. The verse sits inside a parable about two men: one wealthy, with a lush garden, who boasts to his poorer companion about his wealth and the size of his household, and one who warns him against the arrogance of the boast. The Sahih International translation renders the verse: "And why did you, when you entered your garden, not say, \'What Allah willed [has occurred]; there is no power except in Allah\'?" The implication is that the wealthy man should have credited his garden to God\'s will instead of his own accomplishment, and the parable goes on to describe the garden\'s destruction shortly after.',
-					'Because the verse frames mā shāʾa -llāh as what a person ought to say while looking at their own good fortune, rather than something to recite for other reasons, later tradition reads it as a way of acknowledging that a blessing comes from God rather than from the speaker\'s own doing. That same framing is behind the phrase\'s association with warding off the evil eye: a hadith attributed to the Prophet Muhammad and recorded in the major hadith collections holds that "the evil eye is real," and saying mashallah while admiring something acknowledges the blessing without the boastful tone that tradition connects to inviting envy.',
+					'Because the verse frames mā shāʾa -llāh as what a person ought to say while looking at their own good fortune, rather than something to recite for other reasons, later tradition reads it as a way of acknowledging that a blessing comes from God, not from the speaker\'s own doing. That same framing is behind the phrase\'s association with warding off the evil eye: a hadith attributed to the Prophet Muhammad and recorded in the major hadith collections holds that "the evil eye is real," and saying mashallah while admiring something acknowledges the blessing without the boastful tone that tradition connects to inviting envy.',
 				],
 			},
 			{
@@ -3122,7 +3122,7 @@ export const guides: Guide[] = [
 			{
 				heading: 'From devotional acknowledgment to everyday compliment',
 				body: [
-					'Mashallah\'s use has broadened well beyond the specific religious context of the verse it comes from. Across the Arabic-speaking world it functions as a general expression of admiration for something observable, a new baby or good exam results as much as a lush garden. In South Asia, particularly among Urdu- and Hindi-speaking Muslim communities in Pakistan and India, the phrase carries the same warding-off-envy logic but leans even further toward an everyday compliment, closer to "well done" than to a formal religious utterance, and it turns up painted on vehicles or stitched onto children\'s clothing for the same protective reason. Along with [habibi](/habibi-meaning/) and inshallah, it\'s one of a handful of short Arabic phrases that a lot of non-Arabic speakers pick up through overheard conversation, film, and music rather than formal study, which is part of why the exact grammar behind it stays fuzzy even for people who use it often.',
+					'Mashallah\'s use has broadened well beyond the specific religious context of the verse it comes from. Across the Arabic-speaking world it functions as a general expression of admiration for something observable, a new baby or good exam results as much as a lush garden. In South Asia, particularly among Urdu- and Hindi-speaking Muslim communities in Pakistan and India, the phrase carries the same warding-off-envy logic but leans even further toward an everyday compliment, closer to "well done" than to a formal religious utterance, and it turns up painted on vehicles or stitched onto children\'s clothing for the same protective reason. Along with [habibi](/habibi-meaning/) and inshallah, it\'s one of a handful of short Arabic phrases that a lot of non-Arabic speakers pick up through overheard conversation, film, and music more than through formal study, which is part of why the exact grammar behind it stays fuzzy even for people who use it often.',
 					'That crossover into casual admiration is visible even outside Arabic-speaking countries: the 2012 Bollywood film Ek Tha Tiger has a song titled "Mashallah," mixing Hindi and Arabic lyrics, that repeats the phrase as a straightforward expression of being impressed by someone. The same short exclamation, stripped of any expectation that the speaker is consciously reciting a Qur\'anic verse, turns up constantly in social-media comments and reaction videos, functioning much like "amazing" or "incredible" would in English, with the evil-eye logic still underneath it for anyone who knows where the phrase comes from.',
 				],
 			},
@@ -3130,23 +3130,23 @@ export const guides: Guide[] = [
 		faq: [
 			{
 				question: 'What does mashallah literally mean?',
-				answer: 'It breaks down into three Arabic words: mā ("what"), shāʾa ("willed," a past-tense verb), and Allah ("God"). Put together, mā shāʾa -llāh literally means "what God has willed [has happened]," commonly glossed in English as "God has willed it."',
+				answer: 'Mashallah is three Arabic pieces fused together: mā means "what," shāʾa serves as its past-tense verb, meaning "willed," and Allah is simply "God." Strung together, mā shāʾa -llāh states plainly that something has occurred by God\'s will, expressed in English as "God has willed it."',
 			},
 			{
 				question: 'What\'s the difference between mashallah and inshallah?',
-				answer: 'Both use the same verb, shāʾa ("willed"), but in different grammatical forms. Mashallah\'s mā shāʾa is past tense, said about something that already exists or has already happened. Inshallah\'s in shāʾa is conditional, built on "if," and looks forward to something hoped for but not yet certain. The difference is tense, not a difference in how devout either phrase is.',
+				answer: 'Both draw on the identical root verb, shāʾa ("willed"), just in different grammatical forms. In mashallah, mā shāʾa carries past tense: it points at something that has already come to pass. Inshallah, by contrast, uses the conditional in shāʾa, hinging on "if" and looking ahead toward something not yet decided. The difference is tense, not a difference in how devout either phrase is.',
 			},
 			{
 				question: 'Why do people say mashallah after a compliment?',
-				answer: 'The phrase\'s Qur\'anic origin, Surah Al-Kahf 18:39, frames it as what a person should say when looking at their own good fortune, rather than boasting about it. Later tradition connects that framing to warding off the evil eye: saying mashallah while admiring something acknowledges the blessing as coming from God, without the boastful tone associated with inviting envy.',
+				answer: 'The phrase traces to the Qur\'anic parable in Surah Al-Kahf, its 39th verse, where it\'s framed as what a person should say while taking in their own success, not something to boast about instead. Later tradition links that framing to protection from the evil eye: the phrase, spoken in the moment of admiration, credits the blessing to God and skips the boastful tone associated with inviting envy.',
 			},
 			{
 				question: 'Is mashallah only used by Muslims?',
-				answer: 'Its origin is Qur\'anic and its core religious use is within Muslim communities, but like other short Arabic phrases invoking God, it circulates more broadly among Arabic speakers of other faiths and, especially in South Asia, has broadened into something closer to a general compliment or "well done," used somewhat independently of how religiously observant the speaker is.',
+				answer: 'Its origin is Qur\'anic and its core religious use is within Muslim communities, but like other everyday invocations of God common across Arabic, it circulates more broadly among Arabic speakers of other faiths and, especially in South Asia, has broadened into something closer to a general compliment or "well done," used somewhat independently of how religiously observant the speaker is.',
 			},
 			{
 				question: 'What\'s the correct spelling: mashallah, masha\'Allah, or ma sha Allah?',
-				answer: 'None of them is wrong. Arabic doesn\'t map onto the Latin alphabet in one fixed way, so mashallah, masha\'Allah, and ma sha Allah are all legitimate transliterations of the same original, ما شاء الله, and the same variation shows up across languages that adopted the phrase: Turkish Maşaallah, Malay/Indonesian Masya Allah, and Bosnian Mašala. If you\'re writing for a general audience, mashallah is the spelling readers will recognize fastest.',
+				answer: 'None of them is wrong. Arabic doesn\'t map onto the Latin alphabet in one fixed way, so the run-together mashallah, the apostrophed masha\'Allah, and the fully spaced ma sha Allah are all legitimate transliterations of the same Arabic source, ما شاء الله, with no single spelling outranking the rest. The same variation shows up across languages that adopted the phrase: Bosnian settles on Mašala, Turkish writes Maşaallah, and Malay/Indonesian renders it Masya Allah. If you\'re writing for a general audience, mashallah is the spelling readers will recognize fastest.',
 			},
 		],
 		sources: [
@@ -4777,23 +4777,23 @@ export const guides: Guide[] = [
 		faq: [
 			{
 				question: 'What does "per se" mean?',
-				answer: 'Literally "by itself" in Latin, from per ("by," "through") plus sē, the reflexive pronoun "itself." In practice it isolates one specific claim from a larger context attached to it, as in Cambridge Dictionary\'s example: "It is not a pretty town per se, but it is where my family comes from, so I like it."',
+				answer: 'In Latin, the phrase breaks down to "by itself": per carries the sense of "by" or "through," while sē supplies the "itself" part, grammatically a reflexive form. In practice, it carves out a single claim and sets it apart from everything else attached to it, much like the sample sentence a well-known learner\'s dictionary uses to separate a hometown\'s looks from the speaker\'s attachment to the place.',
 			},
 			{
 				question: 'Why is "per se" pronounced "per say," and is "per say" ever correct spelling?',
-				answer: 'Sē is pronounced like the English word "say," which is why the phrase sounds like "per say" out loud. But "per say" is a misspelling, not an accepted variant; Dictionary.com specifically flags it as one of the more common ways people misspell this Latin borrowing.',
+				answer: 'Sē is pronounced like the English word "say," which is why the phrase sounds like "per say" out loud. But "per say" is a misspelling, not an accepted variant; Dictionary.com specifically calls out "per say" among the most frequent missteps with this particular Latin borrowing.',
 			},
 			{
 				question: 'Is "per se" really connected to the word "ampersand"?',
-				answer: 'Yes. English once distinguished a letter that could also stand alone as a word (A, I, O) by reciting it as "A per se A." Nineteenth-century British schoolchildren applied the same convention to the symbol &, reciting "and per se and" at the end of the alphabet. Per Wikipedia\'s Ampersand article, repeated recitation slurred that phrase into a single word, in common use as "ampersand" by 1837.',
+				answer: 'Yes. English once distinguished a letter that also worked as a whole word (A, I, O) by reciting it as "A per se A." Nineteenth-century pupils across Britain applied the same convention to the symbol &, reciting "and per se and" at the end of the alphabet. Wikipedia\'s entry on the symbol notes that saying the phrase aloud so often wore it down into one word, which had become standard by 1837.',
 			},
 			{
 				question: 'What does "negligence per se" mean?',
-				answer: 'A legal doctrine that skips the usual case-by-case proof of carelessness. If a defendant violated a statute written to protect a specific class of people from a specific kind of harm, and the plaintiff is in that class and suffered that harm, courts treat the duty-and-breach elements of negligence as established by the statutory violation itself, without a separate inquiry into what a "reasonable person" would have done.',
+				answer: 'A legal doctrine that skips the usual case-by-case proof of carelessness. It applies when someone being sued broke a law meant to shield a particular group from a particular type of injury, and the person suing belongs to that group and suffered that exact injury; on those facts, the law simply presumes the defendant owed and broke a duty of care, with no separate look at what a careful person would have done instead.',
 			},
 			{
 				question: 'What\'s the difference between "per se" and "ipso facto"?',
-				answer: 'Per se describes what something is on its own, independent of a larger context (the town isn\'t pretty per se). Ipso facto, "by the fact itself," describes what a specific fact or event brings about automatically as its own direct consequence, not a description of an object in isolation.',
+				answer: 'Per se points to a quality something has purely on its own, apart from any bigger picture around it, the way calling a town "not pretty per se" says nothing about why someone still loves living there. Ipso facto works differently: it names something a fact or event triggers automatically, just by happening, rather than describing a trait an object holds in isolation.',
 			},
 		],
 		sources: [
@@ -5720,7 +5720,7 @@ export const guides: Guide[] = [
 				heading: 'Two senses, one word: "mommy" and "hottie" side by side in Spanish',
 				body: [
 					'Wiktionary\'s Spanish-language entry for mamacita doesn\'t treat this as one meaning with a loose figurative extension; it lists two separate senses. The first is simply "diminutive of mamá," unmarked for region or register, the ordinary affectionate word a child might use for their mother. The second is labeled "(Latin America, slang) babe, hottie (sexually attractive woman)," geographically restricted in a way the first sense isn\'t.',
-					'Wiktionary\'s citation for the slang sense is a real, dated example rather than an invented one: a line from "Dura," the 2018 reggaetón single by Daddy Yankee, "\'Tás dura, mamacita, te fuiste de nivel" (roughly, "you\'re fierce, mamacita, you\'ve leveled up"), where mamacita functions exactly as the "hottie" gloss describes, not as anything related to motherhood. That two-sense structure, one word doing both jobs depending on who\'s speaking to whom, is the same shape [habibi](/habibi-meaning/) has in Arabic, where a term built for close relationships also gets used, in a different register, for someone the speaker barely knows.',
+					'Wiktionary backs the slang sense with a real, dated citation, not a made-up example: a line from "Dura," the 2018 reggaetón single by Daddy Yankee, "\'Tás dura, mamacita, te fuiste de nivel" (roughly, "you\'re fierce, mamacita, you\'ve leveled up"), where mamacita functions exactly as the "hottie" gloss describes, not as anything related to motherhood. That two-sense structure, one word doing both jobs depending on who\'s speaking to whom, is the same shape [habibi](/habibi-meaning/) has in Arabic, where a term built for close relationships also gets used, in a different register, for someone the speaker barely knows.',
 				],
 			},
 			{
@@ -5741,23 +5741,23 @@ export const guides: Guide[] = [
 		faq: [
 			{
 				question: 'What does "mamacita" mean?',
-				answer: 'Literally, "little mama," built from mamá ("mom") plus -cita, a variant of the Spanish diminutive suffix -ita. Wiktionary\'s Spanish entry lists two senses: a plain, affectionate diminutive of mamá used within families, and a sense marked "Latin America, slang" meaning "babe" or "hottie," used for a sexually attractive woman.',
+				answer: 'Literally "little mama." Mamá means "mom," and Spanish tacks on -cita, a diminutive ending that attaches to words not ending in -o. In Spanish, the word covers two uses: the plain, everyday diminutive families use, and a slang sense unique to Latin America, roughly "babe" or "hottie."',
 			},
 			{
 				question: 'Is "mamacita" an insult or a compliment?',
-				answer: 'It depends entirely on who says it and to whom. Within a family or between people who already know each other, it\'s an affectionate term. Directed at a stranger, particularly in public, it typically functions as a catcall rather than a compliment; Laura Martínez\'s 2014 NPR Code Switch essay describes exactly this happening to her, a stranger calling out "Mamacita!" in her own New York City neighborhood.',
+				answer: 'Context decides it. Said among family, or between a couple, it lands as an endearment. Shouted at a stranger in public, it plays more like a catcall than praise; Laura Martínez\'s 2014 NPR Code Switch essay recounts exactly that, a passerby calling out "Mamacita!" near a fruit stand after she\'d moved to New York City.',
 			},
 			{
 				question: 'Why does "mamacita" sound different in Spain than in Mexico?',
-				answer: 'Spanish splits pronunciation of the letter c before i or e along regional lines. Spain and Equatorial Guinea use distinción, pronouncing that c like English "th" (/mamaˈθita/); Latin America and the Philippines use seseo, pronouncing it as /s/ (/mamaˈsita/). This isn\'t specific to mamacita; the same rule applies to papacito and any other Spanish word where c precedes i or e.',
+				answer: 'Spanish pronunciation of c splits by region whenever it comes before i or e. Equatorial Guinea and Spain use distinción, giving it a sound close to English "th" (/mamaˈθita/); in the Philippines and most of Latin America, that same c comes out as /s/, a pattern called seseo (/mamaˈsita/). This isn\'t specific to mamacita; the same rule applies to papacito and any other Spanish word with that letter combination.',
 			},
 			{
 				question: 'Does English "mamacita" mean the same thing as Spanish "mamacita"?',
-				answer: 'No. The Oxford English Dictionary\'s earliest evidence for the word in English dates to 1887, and Wiktionary\'s entry for the English borrowing defines it with only one sense, "(slang) A babe, a hottie (sexually attractive woman)." Spanish\'s separate, unmarked affectionate sense, "little mama," used within families, has no equivalent on the English side.',
+				answer: 'No. The OED\'s earliest citation for the English word dates to 1887, and Wiktionary\'s English-language listing keeps only the slang meaning, roughly "hottie," with nothing about the family-oriented "little mama" sense. That warmer meaning stays on the Spanish side only.',
 			},
 			{
 				question: 'What\'s the male equivalent of "mamacita"?',
-				answer: 'Papacito, built the same way from papá ("dad") plus -cito. Wiktionary glosses it simply as "diminutive of papá; daddy," with synonyms papi, papaíto, and papito. Unlike mamacita, Wiktionary\'s entry for papacito doesn\'t document a second, sexualized sense.',
+				answer: 'Papacito, built the same way from papá ("dad") plus -cito. Wiktionary\'s gloss for it stays at a plain "daddy," and unlike mamacita\'s entry, never adds a slang or sexualized sense.',
 			},
 		],
 		sources: [
@@ -5819,23 +5819,23 @@ export const guides: Guide[] = [
 		faq: [
 			{
 				question: 'What does "mijo" mean?',
-				answer: 'It depends which mijo. RAE\'s dictionary lists mijo as a cereal grain, millet in English, from Latin milium. Separately and unrelated, mijo is also a spoken contraction of mi hijo, "my son," used as a vocative to address a child or younger relative affectionately; the feminine form is mija, from mi hija.',
+				answer: 'It depends which mijo. RAE\'s dictionary defines mijo first as a grain crop, known in English as millet, going back to Latin milium. Completely unrelated, mijo doubles as an everyday squeeze-together of mi hijo (literally "my son"), an affectionate way to speak to a young child or younger relative; the feminine version, mija, mirrors that pattern, starting from mi hija.',
 			},
 			{
 				question: 'Is "mijo" a real word, or just a casual contraction?',
-				answer: 'Both, depending on register. RAE\'s Diccionario de americanismos (DAMER) documents the vocative mijo/mija as an established entry, not a typo or slang shorthand. It\'s most often written without an apostrophe, though the spelling m\'ijo, which marks the elision from mi hijo more visibly, is also attested on Wiktionary.',
+				answer: 'Both, depending on register. RAE\'s regional-Spanish reference work gives mijo/mija a full, established headword, not a typo or slang shorthand. It\'s most often written without an apostrophe, though the spelling m\'ijo, which marks the elision from mi hijo more visibly, is also attested on Wiktionary.',
 			},
 			{
 				question: 'Can you call anyone "mijo," or only your own child?',
-				answer: 'DAMER\'s own entry for mijo/mija lists three uses: addressing one\'s own children, addressing a friend or companion, and, in some countries, addressing a romantic partner. The Academia Canaria de la Lengua adds that in the Canary Islands, the same vocative also extends to people outside the family in a trust-based relationship. DAMER separately lists mijijo/mijija for addressing a friend or companion, a further step from mijo\'s core child-directed use.',
+				answer: 'DAMER\'s entry spans three groups of listeners: parents talking to their own kids, friends addressing each other, and, in a handful of countries, people in a romantic relationship. The region\'s own language academy notes that on the archipelago, the word reaches even further, covering non-relatives the speaker trusts. DAMER also separately lists mijijo/mijija, kept strictly for friend-to-friend use rather than mijo\'s core child-directed sense.',
 			},
 			{
 				question: 'Is "mijo" used in Spain?',
-				answer: 'Unevenly. The Academia Canaria de la Lengua treats vocative mijo/mija as a feature the Canary Islands share with Spanish America, not as typical of the Peninsula generally.',
+				answer: 'Unevenly. Per the Canary Islands\' language academy, the mijo/mija vocative belongs to the archipelago and to the wider Spanish-speaking Americas, a trait mainland Peninsular speech doesn\'t generally share.',
 			},
 			{
 				question: 'Does English have a version of "mijo"?',
-				answer: 'Not in a major dictionary. Neither Merriam-Webster nor the Oxford English Dictionary has an entry for mijo, unlike mamacita, which the OED dates to 1887 in English print. Wiktionary\'s English-language entry documents real use in English text, though, defining mijo as, in US usage, "a term of endearment for a man or boy," with citations from publications including the New York Times and The Athletic. That\'s evidence the word already circulates in English, just not yet in a formal dictionary.',
+				answer: 'Not in a major dictionary. Neither Merriam-Webster nor the OED carries mijo as an entry, unlike mamacita, whose slang sense the OED traces back to 1887. That said, per Wiktionary, the word does show up in English text: it glosses mijo, US usage, as a warm way to address a man or boy, backed by citations from The Athletic and the New York Times. That\'s evidence the word already circulates in English, just not yet in a formal dictionary.',
 			},
 		],
 		sources: [
@@ -5970,30 +5970,30 @@ export const guides: Guide[] = [
 				heading: 'From a Yiddish sigh to a phrase most English speakers just know',
 				body: [
 					'Oy vey now appears in general-purpose English dictionaries and gets used by plenty of people who have never spoken a word of Yiddish and may not know the phrase started there. Linguist Sarah Bunin Benor, who directs the Jewish Language Project at Hebrew Union College, has studied exactly this pattern in a chapter titled "Pastrami, Verklempt, and Tshootspa: Non-Jews\' Use of Jewish Language in the United States," published in the American Jewish Year Book 2020. Her research traces how Yiddish expressions moved into the general American vocabulary largely through Jewish comedians, writers, and entertainers, from the Borscht Belt resorts of the mid-20th century through Hollywood figures like Mel Brooks and, later, sitcoms such as Jerry Seinfeld\'s.',
-					'A study in the Journal of Jewish Languages, titled "Oy with the Poodles Already!": Yiddishisms and Non-Jewish Characters on American Sitcoms, examined how far that spread has gone: it found Yiddish borrowings, oy vey included, used by non-Jewish characters across American television comedy, not just Jewish ones. That reach helps explain why the phrase can feel like ordinary English to a lot of speakers today, even though its two syllables trace back to a specific religious and linguistic community. Voila made a comparable journey out of French, though [voila\'s](/voila-meaning/) path ran through general fashionable usage rather than one community\'s comedians and writers, a reminder that "borrowed exclamation" covers more than one kind of route into everyday English.',
+					'A study in the Journal of Jewish Languages, titled "Oy with the Poodles Already!": Yiddishisms and Non-Jewish Characters on American Sitcoms, examined how far that spread has gone: it found Yiddish borrowings, oy vey included, used by non-Jewish characters across American television comedy, not just Jewish ones. That reach helps explain why the phrase can feel like ordinary English to a lot of speakers today, even though its two syllables trace back to a specific religious and linguistic community. Voila made a comparable journey into everyday English out of French, though [voila\'s](/voila-meaning/) route ran through ordinary dictionary adoption rather than one community\'s comedians and writers, a reminder that "borrowed exclamation" covers more than one kind of route into everyday English.',
 				],
 			},
 		],
 		faq: [
 			{
 				question: 'What does "oy vey" literally mean?',
-				answer: 'It combines oy, an interjection of surprise or dismay, with vey, an interjection of distress or grief, and translates literally as "oh, woe." One etymology traces vey to German Weh, the same root Etymonline\'s own entry for the English word "woe" lists as a close relative.',
+				answer: 'Oy is a short cry of shock or dismay, and vey layers on grief or distress; paired together, they read literally as "oh, woe." A Germanic-origin theory connects vey with the German word Weh, which Etymonline treats as a near cousin of the English "woe."',
 			},
 			{
 				question: 'Is "oy vey" Hebrew or Yiddish?',
-				answer: 'Yiddish is where the two-word phrase as English speakers know it comes from. A competing theory, reported by Chabad.org, pushes the origin further back, tracing oy to Biblical Hebrew and vey to its Aramaic equivalent, both predating Yiddish, but the sources reporting this don\'t settle which theory, the Hebrew/Aramaic one or the alternative Germanic derivation from German Weh, is correct.',
+				answer: 'Yiddish is where English speakers picked up this two-word expression. A rival explanation, laid out on Chabad.org, pushes the origin further back: it points oy toward Biblical Hebrew roots, while pairing vey with an equivalent term in Aramaic, noting that Yiddish itself emerged centuries after both of those source languages, but the sources reporting this don\'t settle which theory, the Hebrew/Aramaic one or the alternative Germanic derivation from German Weh, is correct.',
 			},
 			{
 				question: 'What\'s the difference between "oy," "oy vey," and "oy gevalt"?',
-				answer: 'Oy is the mildest, most general form. Oy vey is the fuller, most commonly used version in English and can shorten back to plain "oy." Oy gevalt uses a different second word entirely, gevalt, meaning "force" or "violence," and can carry a similar meaning to oy vey or shift toward shock and alarm instead.',
+				answer: 'Oy is the mildest, most general form. Oy vey is the fuller form most people actually reach for; it can contract right back down to a solo "oy" without losing its sense. Oy gevalt swaps in an entirely separate second word, gevalt, which conveys real force in Yiddish rather than a gentle sigh. Depending on tone, it either lines up with oy vey\'s sense or tilts instead toward alarm and shock.',
 			},
 			{
 				question: 'What does "oy vey iz mir" mean?',
-				answer: 'It\'s the fuller form of the phrase, literally "oh, woe is me." It uses the same two roots as "oy vey" but extends the lament, and is sometimes spelled with the more Germanic-looking "oy vey ist mir."',
+				answer: 'It\'s the fuller form of the phrase, a complete lament that comes out, roughly, as "oh, I am full of woe." It uses the same two roots as "oy vey" but extends the lament, and is occasionally spelled oy vey ist mir, a form that leans closer to the German original.',
 			},
 			{
 				question: 'When did "oy vey" enter English?',
-				answer: 'Dictionaries don\'t fully agree. Merriam-Webster lists a first known use of 1914 for the two-word phrase. The Online Etymology Dictionary dates the standalone "oy" to 1892 in American English but doesn\'t record the extended "oy vey" until 1959.',
+				answer: 'Dictionaries don\'t fully agree. Merriam-Webster puts its earliest recorded citation for the full expression at 1914. Etymonline separately records solo "oy" beginning in 1892 stateside, with the fuller two-word version not entering its files until 1959.',
 			},
 		],
 		sources: [
@@ -6057,15 +6057,15 @@ export const guides: Guide[] = [
 		faq: [
 			{
 				question: 'What does ohana mean in Hawaiian?',
-				answer: 'Per the Pukui & Elbert Hawaiian Dictionary, ʻohana means "family, relative, kin group; related." Traditionally the circle it covers is wider than the English word "family" usually implies, including blood relatives, adopted or unrelated family, and even ʻaumakua, family guardian spirits, according to the Polynesian Voyaging Society\'s account of Hawaiian tradition.',
+				answer: 'Per Pukui & Elbert\'s dictionary, ʻohana covers family members and relatives, the wider kin group as a whole. That circle is traditionally broader than what English speakers usually mean by "family," including blood relatives, adopted or unrelated family, plus ʻaumakua, guardian spirits of the family line, per Hawaiian oral tradition.',
 			},
 			{
 				question: 'Does ohana only refer to family by blood?',
-				answer: 'No. The Polynesian Voyaging Society\'s account of traditional Hawaiian ʻohana already included "ties of blood and non-related persons." The popular English idea of ʻohana as "the family you choose" reflects that original Hawaiian scope rather than stretching the word beyond it.',
+				answer: 'No. As the Hōkūleʻa canoe program\'s own account tells it, the older Hawaiian custom already stretched past blood ties to take in people connected without any blood relation. The popular English idea of ʻohana as "the family you choose" reflects that original Hawaiian scope rather than stretching the word beyond it.',
 			},
 			{
 				question: 'Where does the word ohana come from?',
-				answer: 'Linguists dispute this. Wiktionary\'s comparative reconstruction derives ʻohana from Proto-Polynesian *kofaŋa, "nest," cognate with Māori kōhanga and Samoan ōfaga. A rival account associated with Hawaiian-studies scholar Rubellite Kawena Johnson instead derives it from ʻohā, the corm shoot of a kalo (taro) plant, plus the suffix -ana. Both derivations still circulate, and a 2001 scholarly exchange on the question didn\'t settle it.',
+				answer: 'Linguists dispute this. One camp, following comparative linguistics on Wiktionary, traces ʻohana to a reconstructed Proto-Polynesian root, *kofaŋa ("nest"), cognate with words that keep the "nest" sense today in Māori (kōhanga) and Samoan (ōfaga). A second, competing theory credited to scholar Rubellite Johnson traces ʻohana instead to ʻohā, the shoot that sprouts off an older taro corm, combined with the suffix -ana. Neither explanation has won out, and a 2001 scholarly back-and-forth left the question open.',
 			},
 			{
 				question: 'Is "ohana means family, family means nobody gets left behind" a traditional Hawaiian saying?',
@@ -6073,7 +6073,7 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'Is it spelled "ohana" or "ʻohana"?',
-				answer: 'The linguistically precise Hawaiian spelling includes the ʻokina, a glottal-stop letter, at the start: ʻohana. English-language text commonly drops it and writes "ohana" instead, which is the more familiar spelling outside Hawaiʻi but not the exact one.',
+				answer: 'Hawaiian orthography puts the ʻokina, a glottal stop mark, right before the rest of the word: ʻohana. In everyday English writing, that mark usually disappears, leaving plain "ohana," familiar to readers outside the islands though not the linguist\'s precise version.',
 			},
 		],
 		sources: [
