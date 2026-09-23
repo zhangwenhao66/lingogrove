@@ -297,19 +297,19 @@ export const guides: Guide[] = [
 		faq: [
 			{
 				question: 'Is the difference between preterite and imperfect about how long ago something happened?',
-				answer: 'No, that\'s a common misconception. Both tenses can describe events from any point in the past. The real distinction is aspect: preterite presents an action as a completed whole, imperfect presents it as ongoing or habitual, without marking its start or end. A preterite action can span a decade; an imperfect one can span a single moment.',
+				answer: 'No, that\'s a common misconception. Both tenses can describe events from any point in the past. What actually decides the choice is aspect, not distance in time: preterite frames an event as closed and finished; imperfect frames it as unfolding or habitual, with neither edge pinned down. A preterite verb can cover a decade in one closed sweep, while an imperfective one might cover no more than a single instant.',
 			},
 			{
 				question: 'Why do "vivió" and "vivía" both mean "lived," and how do I know which to use?',
-				answer: '*Vivió en México diez años* frames those ten years as a completed, closed chapter, as if answering "what did she do?" *Vivía en México cuando pasó el terremoto* frames the living-there as an ongoing backdrop that a specific event (the earthquake, in preterite) interrupted, closer to "what was going on when something else happened?"',
+				answer: '*Vivió en México diez años* treats those ten years as one finished chapter, roughly answering "what did she do?" *Vivía en México cuando ocurrió el terremoto* treats the years of living there as background that a single event, the earthquake, cut into, closer to "what was happening when something else happened?"',
 			},
 			{
 				question: 'Which tense do you use to describe the weather or a scene in the past?',
-				answer: 'Imperfect, almost always: *llovía*, *hacía calor*, *el cielo estaba gris*. Background conditions are being described from the inside, with no stated beginning or end, which is exactly what the imperfect is for. A specific weather event that started and finished, such as *nevó por dos horas* ("it snowed for two hours"), can take the preterite instead.',
+				answer: 'Imperfect, almost always: *llovía*, *hacía calor*, *el cielo estaba gris*. Weather-as-backdrop gets described from within its own span, with neither edge marked, and that is exactly the imperfect\'s job. A specific weather event with a clear start and finish, such as *nevó por dos horas* ("it snowed for two hours"), switches to the preterite instead.',
 			},
 			{
 				question: 'Can the exact same habitual action be described in either tense?',
-				answer: 'Yes, depending on whether the routine is bounded. *Jugaba en el parque todos los días* ("I used to play in the park every day") uses imperfect for an open-ended pattern with no stated start or end. *Jugué en el parque todos los días durante dos años* ("I played in the park every day for two years") uses preterite for the identical routine, but now framed as one completed, bounded chapter: the "for two years" is what closes it off and licenses the switch.',
+				answer: 'Yes, depending on whether the routine gets a boundary. *Caminaba al parque cada tarde* ("I would walk to the park each afternoon") takes the imperfect, an open pattern with neither edge fixed. *Caminé al parque cada tarde durante dos años* ("I walked to the park each afternoon for two years") takes the preterite for that same routine, now closed off into one finished stretch: it\'s the "for two years" that seals the edge and triggers the switch.',
 			},
 		],
 		sources: [
@@ -417,9 +417,9 @@ export const guides: Guide[] = [
 			{
 				heading: 'How to actually use it in an English sentence',
 				body: [
-					'In English, Schadenfreude functions as an uncountable noun, almost always used on its own rather than pluralized or modified heavily: *"There was more than a little schadenfreude in the office when the loudest critic\'s project got cancelled."* It keeps its German capitalization in careful writing (German capitalizes all nouns), though English style guides vary and lowercase *schadenfreude* is common and accepted.',
+					'In English, Schadenfreude functions as an uncountable noun, almost always used on its own, not pluralized or modified heavily: *"There was more than a little schadenfreude in the office when the loudest critic\'s project got cancelled."* It keeps its German capitalization in careful writing (German capitalizes all nouns), though English style guides vary and lowercase *schadenfreude* is common and accepted.',
 					'Pronunciation is the other thing that trips up new users: it\'s roughly *SHAH-dən-froy-də*, with the "sch" as an English "sh" sound and the final "e" pronounced as a short, weak vowel rather than silent.',
-					'It sits in the same category as words like [déjà vu](/deja-vu-meaning/) and [senpai](/senpai-meaning/), a foreign phrase English adopted wholesale rather than translate, because nothing native said quite the same thing.',
+					'It sits in the same category as words like [déjà vu](/deja-vu-meaning/) and [senpai](/senpai-meaning/), a foreign phrase English adopted wholesale, not translated, because nothing native said quite the same thing.',
 				],
 			},
 			{
@@ -433,19 +433,19 @@ export const guides: Guide[] = [
 		faq: [
 			{
 				question: 'What does "schadenfreude" literally mean, word for word?',
-				answer: 'It\'s a compound of two German nouns: Schaden ("harm" or "damage") and Freude ("joy"). Duden defines the whole word as "boshafte Freude über das Missgeschick, Unglück eines andern" (malicious joy at another\'s mishap or misfortune), though the dictionary DWDS phrases the same meaning without the "malicious" qualifier.',
+				answer: 'It\'s a compound of two German nouns: Schaden ("harm" or "damage") and Freude ("joy"). Duden defines the word using the phrase "boshafte Freude," meaning malicious pleasure at someone\'s bad luck, while DWDS drops the "malicious" framing and just calls it pleasure at a mishap.',
 			},
 			{
 				question: 'Is schadenfreude the same thing as being cruel or mean-spirited?',
-				answer: 'Not exactly. It describes a specific, common emotional reaction (enjoying someone else\'s bad luck, often in a minor or karmic-feeling situation) rather than actively wishing harm on someone. The word names the feeling; it doesn\'t pass judgment on whether feeling it makes someone a bad person.',
+				answer: 'Not exactly. It describes a specific, common emotional reaction, taking pleasure in a stranger or rival\'s bad luck, often in a minor or karmic-feeling situation, rather than actively wishing harm on someone. The word names the feeling; it doesn\'t pass judgment on whether feeling it makes someone a bad person.',
 			},
 			{
 				question: 'How do you pronounce schadenfreude?',
-				answer: 'Roughly SHAH-dən-froy-də: the "sch" is pronounced like English "sh," and the final "e" is a short, weak vowel sound rather than silent, as German does not silence word-final "e" the way English typically does.',
+				answer: 'Roughly SHAH-dən-froy-də: the "sch" is pronounced like English "sh," and the final "e" carries a light, breathy vowel sound rather than staying silent, as German does not silence word-final "e" the way English typically does.',
 			},
 			{
 				question: 'Is schadenfreude a rude or vulgar word in German?',
-				answer: 'No — it\'s a completely ordinary, everyday noun in German, with no vulgar or offensive connotation. In English, it tends to sound a bit more formal or literary simply because it\'s a borrowed word rather than because of anything impolite about it.',
+				answer: 'No — Duden and DWDS both treat it as a plain, unremarkable noun in German, carrying no vulgar or offensive charge. In English, it tends to sound a bit more formal or literary simply because it\'s a borrowed word rather than because of anything impolite about it.',
 			},
 			{
 				question: 'Does English have a native word for this at all?',
@@ -1026,7 +1026,7 @@ export const guides: Guide[] = [
 					'**Facts and information.** *Sé que el tren sale a las ocho.* (I know the train leaves at eight.) *No sé su número.* (I don\'t know his number.) *Saber* takes a fact, a piece of data, or a *que*-clause as its object, something you could, in principle, write down.',
 					'**Skills, with an infinitive.** *Sé nadar. Sé tocar el piano. Sé hablar español.* (I know how to swim. I know how to play piano. I know how to speak Spanish.) This is the construction English speakers most often get wrong by reaching for *conocer* instead, because "I know how to" sounds closer to "familiarity" in English than it does in Spanish grammar.',
 					'*Saber* and *poder* both get translated as "can" in English, and that overlap causes a second, separate mix-up. *Sé nadar* claims a skill: you learned to swim at some point and haven\'t forgotten how. *Puedo nadar* claims present ability, for reasons that have nothing to do with skill: the pool is open, nobody\'s stopping you, your arm isn\'t in a cast. A strong swimmer with a broken arm can honestly say *sé nadar, pero no puedo nadar ahora* ("I know how to swim, but I can\'t swim right now") without any contradiction.',
-					'*Saber* is also one of the genuinely irregular verbs in Spanish rather than just an orthographic one: the *yo* form is *sé* (not *sabo*), the preterite stem is *sup-* (*supe, supiste, supo...*), and the future is built on *sabr-* (*sabré*) rather than the infinitive stem. None of those follow a predictable spelling rule the way *conocer*\'s does. They have to be learned as their own forms.',
+					'*Saber* is also one of the genuinely irregular verbs in Spanish, not just an orthographic one: the *yo* form is *sé* (not *sabo*), the preterite stem is *sup-* (*supe, supiste, supo...*), and the future is built on *sabr-* (*sabré*), not the infinitive stem. None of those follow a predictable spelling rule the way *conocer*\'s does. They have to be learned as their own forms.',
 				],
 			},
 			{
@@ -1034,8 +1034,8 @@ export const guides: Guide[] = [
 				body: [
 					'**People.** *Conozco a Ana desde hace diez años.* (I\'ve known Ana for ten years.) Note the *a*: when the direct object of *conocer* is a specific person, Spanish requires the "personal a" before it, so it\'s *conozco a Ana*, never *conozco Ana*. Leaving it out is one of the most common non-native errors with this verb, distinct from the saber/conocer choice itself.',
 					'**Places.** *Conozco Lima, pero nunca he estado en Cusco.* (I know Lima, but I\'ve never been to Cusco.) Here *conocer* means "have been to / am familiar with," which is why it doesn\'t take the personal *a*: a city isn\'t a person.',
-					'**Things: books, films, ideas.** *Conozco esa novela; la leí el año pasado.* (I know that novel; I read it last year.) You aren\'t reciting facts about the novel here, you\'re claiming acquaintance with it as a whole, and that\'s what puts it on *conocer*\'s side rather than *saber*\'s.',
-					'*Conocer* also has a common reflexive form, *conocerse*, and it splits into two different meanings depending on who\'s doing the knowing. *Nos conocimos en la universidad* means "We met each other in college," the moment a mutual acquaintance began. *Me conozco bien* means "I know myself well," turning the same reflexive back on the speaker rather than between two people. Only the context (a plural subject meeting someone else, versus a subject examining themselves) tells you which reading applies.',
+					'**Things: books, films, ideas.** *Conozco esa novela; la leí el año pasado.* (I know that novel; I read it last year.) You aren\'t reciting facts about the novel here, you\'re claiming acquaintance with it as a whole, and that\'s what puts it on *conocer*\'s side, not *saber*\'s.',
+					'*Conocer* also has a common reflexive form, *conocerse*, and it splits into two different meanings depending on who\'s doing the knowing. *Nos conocimos en la universidad* means "We met each other in college," the moment a mutual acquaintance began. *Me conozco bien* means "I know myself well," turning the same reflexive back on the speaker alone, with no second party involved. Only the context (a plural subject meeting someone else, versus a subject examining themselves) tells you which reading applies.',
 					'*Conocer*\'s *yo* form is *conozco*, not *conoco*, but that\'s a spelling adjustment shared by a whole family of Spanish verbs ending in *-acer*, *-ecer*, *-ocer*, and *-ucir* (*parecer* → *parezco*, *conducir* → *conduzco*), not an irregularity unique to this verb the way *saber*\'s forms are.',
 				],
 				image: {
@@ -1047,14 +1047,14 @@ export const guides: Guide[] = [
 				heading: 'Where the split gets sharper: the preterite',
 				body: [
 					'Most saber/conocer explanations stop at "facts vs. people," but the distinction actually tightens rather than loosens once you move into the preterite. In the preterite, *saber* and *conocer* do more than change endings: each one names a different kind of event.',
-					'*Supe que María se casó* means "**I found out** that María got married," not "I knew": the preterite marks the moment the fact entered your head, rather than an ongoing state of possessing it. *Conocí a Ana en la fiesta* works the same way, meaning "**I met** Ana at the party," naming the moment acquaintance began rather than a state of already knowing her.',
+					'*Supe que María se casó* means "**I found out** that María got married," not "I knew": the preterite marks the moment the fact entered your head; it isn\'t describing an ongoing state of possessing it. *Conocí a Ana en la fiesta* works the same way, meaning "**I met** Ana at the party," naming the moment acquaintance began rather than a state of already knowing her.',
 					'This isn\'t a quirk unique to these two verbs. *Saber* and *conocer* belong to a small group of Spanish verbs, alongside *poder* ("was able to" becomes "managed to") and *querer* ("wanted to" becomes "tried to," in the affirmative, or "refused to" in the negative), where the preterite reports the specific instant a state began or resolved rather than simply placing a known state in the past. Learners who\'ve already sorted out the [broader preterite-versus-imperfect split](/preterite-vs-imperfect/) still trip on this group specifically, because the meaning shift is larger than "completed vs. ongoing." It\'s closer to two different English verbs mapping onto the same Spanish root.',
 				],
 			},
 			{
 				heading: 'Two more places they aren\'t quite parallel',
 				body: [
-					'**"Saber a" means "to taste like," not "to know."** *Esto sabe a limón.* (This tastes like lemon.) It\'s an idiomatic extension of *saber*\'s "have knowledge of" sense (you could think of it as the dish "knowing of" lemon), but it has to be memorized as its own construction rather than derived from the facts-vs-people rule.',
+					'**"Saber a" means "to taste like," not "to know."** *Esto sabe a limón.* (This tastes like lemon.) It\'s an idiomatic extension of *saber*\'s "have knowledge of" sense (you could think of it as the dish "knowing of" lemon), but it has to be memorized as its own construction, not derived from the facts-vs-people rule.',
 					'**"Conocer de" exists, but "saber de" is usually the better choice.** Spanish speakers sometimes say *conoce de carpintería* under the influence of *saber*, but the more standard and preferred phrasing is *sabe de carpintería* ("he knows about carpentry") or, for a specific instance, *sabía de casos así* ("I knew of cases like that") over *conocía de casos así*. If you\'re choosing between the two for a "know about X" construction, *saber de* is the safer default.',
 					'One more contrast worth having next to this one: [ser and estar](/ser-vs-estar/) split English "to be" the way saber/conocer splits "to know," and the underlying move for both pairs is the same: stop translating the English word, and ask what kind of claim the sentence is actually making.',
 				],
@@ -1076,15 +1076,15 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'Why does "conocí a Ana" mean "I met Ana" instead of "I knew Ana"?',
-				answer: 'In the preterite, *conocer* reports the moment acquaintance began rather than an ongoing state of familiarity, so *conocí a Ana en la fiesta* means "I met Ana at the party." To describe an ongoing state of already knowing her in the past, Spanish switches to the imperfect: *conocía a Ana desde la universidad* ("I knew/had known Ana since college").',
+				answer: 'In the preterite, *conocer* marks the instant acquaintance started, not a stretch of already being familiar, so *conocí a Ana* means "I met Ana." For an earlier period of being on familiar terms with her, Spanish switches to the imperfect instead: *conocía a Ana desde la universidad* ("I knew/had known Ana since college").',
 			},
 			{
 				question: 'Do you need the personal "a" with both saber and conocer?',
-				answer: 'No — only *conocer* triggers it, and only when the direct object is a specific person: *conozco a Ana*. *Saber* never takes the personal *a*, because its object is a fact, a skill, or a *que*-clause, never a person: *sé que Ana llegó*, not *sé a que Ana llegó*.',
+				answer: 'No — only *conocer* triggers it, and only in front of a specific person: *conozco a Ana*. *Saber* never takes the personal *a*, because its object is a fact, a skill, or a *que*-clause, never a person: *sé que Ana llegó*, not *sé a que Ana llegó*.',
 			},
 			{
 				question: 'Is "saber a" ever used the way English uses "to know"?',
-				answer: 'No — *saber a* is an idiom that means "to taste like" (*esto sabe a canela*, "this tastes like cinnamon"), unrelated to the facts-vs-familiarity distinction covered above. It has to be learned as its own fixed expression rather than derived from either of saber\'s main uses.',
+				answer: 'No — *saber a* is an idiom that works like "tastes of" in English (*esto sabe a canela*, "this tastes like cinnamon"), unrelated to the facts-vs-familiarity distinction covered above. It has to be learned as its own fixed expression, unconnected to either of saber\'s main uses.',
 			},
 		],
 		sources: [
@@ -5254,23 +5254,23 @@ export const guides: Guide[] = [
 		faq: [
 			{
 				question: 'What does "Semper Fi" mean?',
-				answer: '"Semper Fi" is short for the Latin phrase semper fidelis, "always faithful." Semper means "always," from a Proto-Indo-European root for "one" combined with "-per" ("throughout"); fidelis means "faithful, loyal," from fidēs ("faith, trust").',
+				answer: 'It\'s a shortened form of the Latin phrase built from semper ("always") and fidelis ("faithful"): put together, the two words mean "faithful at all times." Semper descends from an ancient word for "one" plus a piece meaning "throughout," and fidelis grows out of the noun for "faith" or "trust," matching its sense of loyalty.',
 			},
 			{
 				question: 'How do you pronounce "Semper Fi"?',
-				answer: 'It rhymes with "temper high." Latin sē and fī both take a long vowel sound, "ee" and "eye," rather than the short vowels an English reader might guess from the spelling.',
+				answer: 'Say it like "temper high," not "temper fee." Both key syllables carry long vowels in the original Latin, so sē sounds like "ee" and fī sounds like "eye," rather than the shorter, flatter vowels the English spelling might suggest.',
 			},
 			{
 				question: 'Did the Marine Corps invent "Semper Fidelis"?',
-				answer: 'No. The earliest definitively recorded use of the phrase as a motto is the French town of Abbeville, dating to 1369, roughly 500 years before the Marine Corps adopted it as its sole official motto in 1883. English, French, and Irish families and towns used it as a motto well before that, and its first recorded use by a military unit was the Duke of Beaufort\'s Regiment of Foot in 1685.',
+				answer: 'No. A town in France, Abbeville, was the first place confirmed to have used the phrase as its own motto, in 1369, roughly five centuries before the Corps settled on it as their one official motto. Households and towns elsewhere in Europe put it on their own coats of arms well before that point too, and it showed up in military use even earlier than the Marines: an English regiment raised in 1685 adopted it first.',
 			},
 			{
 				question: 'Why did the Marine Corps choose "Semper Fidelis" as its motto in 1883?',
-				answer: 'Colonel Charles G. McCawley, the Commandant of the Marine Corps at the time, is generally credited with the choice, but sources differ on how certain that attribution is; the National Museum of the Marine Corps notes it isn\'t formally verified, since McCawley kept little documentation. No source records why the phrase itself was chosen over the mottos the Marine Corps had used before it.',
+				answer: 'Charles G. McCawley usually gets the credit: he headed the Corps as its Commandant at the time of the switch. Sources disagree on how solid that attribution really is, though; a museum dedicated to Marine Corps history calls it unconfirmed, pointing out that he left behind almost no paper trail explaining his choices. Nobody has documented why this particular phrase won out over the mottos that came before it.',
 			},
 			{
 				question: 'Is "Semper Fortis" the Navy\'s official motto, the way "Semper Fidelis" is the Marine Corps\' motto?',
-				answer: 'No. The Navy has no single official motto; "Semper Fortis" is popular through recruiting and culture but has never been formally adopted. The Coast Guard, unlike the Navy, does have its own official Latin motto, "Semper Paratus" ("Always Ready"), distinct from both the Marine Corps\' and the Navy\'s phrases.',
+				answer: 'No, it isn\'t official at all. "Semper Fortis" shows up constantly in Navy recruiting and culture, but the branch has never formally adopted any single motto. The Coast Guard is different: its own Latin phrase, translating to "Always Ready," genuinely is the formally adopted motto, separate from what either the Marine Corps or the Navy uses.',
 			},
 		],
 		sources: [
@@ -5542,16 +5542,16 @@ export const guides: Guide[] = [
 		slug: 'russian-cases',
 		category: 'Grammar',
 		title: 'Russian Cases: What Each of the Six Actually Marks',
-		description: 'Russian has six cases where German has four, and no articles at all, so every one of them changes the noun itself instead of a helper word standing in front of it.',
+		description: 'Russian has six cases where German has four, and no articles at all, so every one of them changes the noun itself; there is no helper word out front to carry the change.',
 		published: '2026-08-25',
 		updated: '2026-08-25',
-		coreSummary: 'Russian marks a noun\'s grammatical role with six cases, nominative, genitive, dative, accusative, instrumental, and prepositional, and because it has no articles at all, every one of those six changes the noun\'s own ending rather than a helper word standing in front of it. The accusative has no single fixed ending of its own for masculine singular nouns or for any plural noun: it copies the genitive form for animate referents (people and animals, brat/brata, "brother") and the nominative form for inanimate ones (stol/stol, "table"), a split that doesn\'t apply to feminine nouns ending in -a/-ya, which keep one distinct accusative ending regardless of animacy. Beyond the six, a small set of nouns carry extra case forms that descriptive grammars generally treat as incomplete rather than fully separate cases: per Cornell University\'s Russian grammar reference (Leed, Nakhimovsky & Nakhimovsky), some nouns have a locative form used only after v and na, and a partitive form meaning "some" rather than "of," both distinct from the regular genitive/prepositional forms most nouns rely on instead (per Wikipedia\'s account of the same two minor cases, v lesu, "in the forest," rather than the regular prepositional lese, and nalit\' chayu, "to pour some tea," rather than nalit\' chay, "to pour the tea"). A separate colloquial "neo-vocative," formed by dropping a name\'s final vowel (Vanya to Van\'), survives alongside a small set of archaic, mostly religious vocative phrases (Bozhe moy!, "My God!") that predate it and aren\'t related to it.',
+		coreSummary: 'Russian marks a noun\'s grammatical role with six cases, nominative, genitive, dative, accusative, instrumental, and prepositional, and because it has no articles at all, every one of those six changes the noun\'s own ending; there is no helper word out front to absorb it instead. The accusative has no single fixed ending of its own for masculine singular nouns or for any plural noun: it copies the genitive form for animate referents (people and animals, brat/brata, "brother") and the nominative form for inanimate ones (stol/stol, "table"), a split that doesn\'t apply to feminine nouns ending in -a/-ya, which keep one distinct accusative ending regardless of animacy. Beyond the six, a small set of nouns carry extra case forms that descriptive grammars generally treat as incomplete, not fully separate cases: per Cornell University\'s Russian grammar reference (Leed, Nakhimovsky & Nakhimovsky), some nouns have a locative form used only after v and na, and a partitive form meaning "some," not "of," both distinct from the regular genitive/prepositional forms most nouns rely on (per Wikipedia\'s account of the same two minor cases, v lesu, "in the forest," distinct from the regular prepositional lese, and nalit\' chayu, "to pour some tea," not nalit\' chay, "to pour the tea"). A separate colloquial "neo-vocative," formed by dropping a name\'s final vowel (Vanya to Van\'), survives alongside a small set of archaic, mostly religious vocative phrases (Bozhe moy!, "My God!") that predate it and aren\'t related to it.',
 		language: 'Russian',
 		sections: [
 			{
 				heading: 'Six cases, and nowhere for an article to carry them',
 				body: [
-					'Russian marks a noun\'s role in a sentence with six cases: nominative, genitive, dative, accusative, instrumental, and prepositional, across two numbers (singular and plural) and three genders. It groups nouns into three declension patterns rather than one: feminine (and a few masculine) nouns ending in -a/-ya, most masculine and neuter nouns, and feminine nouns ending in a soft sign (mya\'gkiy znak). Every noun in every one of those patterns changes its own ending across the six cases.',
+					'Russian marks a noun\'s role in a sentence with six cases: nominative, genitive, dative, accusative, instrumental, and prepositional, across two numbers (singular and plural) and three genders. It groups nouns into three declension patterns, not one: feminine (and a few masculine) nouns ending in -a/-ya, most masculine and neuter nouns, and feminine nouns ending in a soft sign (mya\'gkiy znak). Every noun in every one of those patterns changes its own ending across the six cases.',
 					'That last point is the real structural difference from a language like German. Russian has no definite or indefinite articles at all, nothing corresponding to "the" or "a." The [German Cases guide](/german-cases/) on this site covers how German case marking lands almost entirely on der/die/das rather than the noun, with the bare noun changing in only a few predictable spots. Russian never developed that helper word, so it never had anywhere else to put the marking. All six cases show up on the noun itself, and on whatever adjective or pronoun modifies it.',
 				],
 				image: {
@@ -5577,32 +5577,32 @@ export const guides: Guide[] = [
 			{
 				heading: 'Six is the count in a grammar textbook, not the full list',
 				body: [
-					'Some analyses of Russian identify additional case-like forms beyond the six taught to learners, though nearly all of them are described as incomplete, applying to only a handful of nouns, or degenerate, identical in shape to one of the six main cases for most words. The three most commonly cited are locative, partitive, and vocative. Per Cornell University\'s Russian grammar reference (Leed, Nakhimovsky & Nakhimovsky), most Russian nouns have exactly six case forms, but some carry one or two more, a locative meaning "in/at/on" for use only after v/na, and a partitive meaning "some" rather than "of." Wikipedia\'s account of the same two minor cases supplies the specific nouns that show the contrast: the locative, for the nouns that have one, differs from the regular prepositional form and is always stressed on its own ending, so v lesu ("in the forest," from les) is the locative, distinct from the regular prepositional le\'se; and the partitive shows up after verbs like nalit\' ("to pour"), nalit\' chayu, "to pour some tea," not the whole pot, versus nalit\' chay, "to pour the tea."',
+					'Some analyses of Russian identify additional case-like forms beyond the six taught to learners, though nearly all of them are described as incomplete, applying to only a handful of nouns, or degenerate, identical in shape to one of the six main cases for most words. The three most commonly cited are locative, partitive, and vocative. Per Cornell University\'s Russian grammar reference (Leed, Nakhimovsky & Nakhimovsky), most Russian nouns have exactly six case forms, but some carry one or two more, a locative meaning "in/at/on" for use only after v/na, and a partitive meaning "some," not "of." Wikipedia\'s account of the same two minor cases supplies the specific nouns that show the contrast: the locative, for the nouns that have one, differs from the regular prepositional form and is always stressed on its own ending, so v lesu ("in the forest," from les) is the locative, distinct from the regular prepositional le\'se; and the partitive shows up after verbs like nalit\' ("to pour"), nalit\' chayu, "to pour some tea," not the whole pot, versus nalit\' chay, "to pour the tea."',
 					'Vocative has two unrelated forms in modern Russian. The original Common Slavic vocative case is archaic and now survives only in a small set of fixed, mostly religious phrases: Bozhe moy! ("My God!"), Gospodi! ("Good Lord!"), and the opening line of the Lord\'s Prayer, Otche nash. A separate, much more recent colloquial pattern, sometimes called the neo-vocative, gets used informally for names and close family terms and is made simply by dropping the noun\'s final vowel: Vanya (a nickname) becomes Van\', Masha becomes Mash, mama becomes mam. It shows up in sentences like mam, ty menya slyshish\'? ("mom, can you hear me?"), and it\'s limited to affectionate, informal address, not a revival of the older Slavic form it happens to share a name with.',
-					'Seen next to the [French Articles guide](/french-articles/) on this site, which covers a language that leans on the article and word order instead of case, or the German Cases guide, which keeps four cases but pushes most of the marking onto der/die/das, Russian reads as the language that took the opposite route: no article to lean on, so the case system kept growing outward on the noun itself instead of settling onto one.',
+					'Seen next to the [French Articles guide](/french-articles/) on this site, which covers a language that leans on the article and word order instead of case, or the German Cases guide, which keeps four cases but pushes most of the marking onto der/die/das, Russian reads as the language that took the opposite route: no article to lean on, so the case system kept growing outward on the noun itself, never settling onto one.',
 				],
 			},
 		],
 		faq: [
 			{
 				question: 'How many cases does Russian have?',
-				answer: 'Six main cases: nominative (subject), genitive (possession, "of"), dative (indirect object, "to"), accusative (direct object), instrumental (means, "by/with"), and prepositional (used only after a preposition). Some grammars additionally recognize a handful of minor case forms, locative, partitive, and vocative, that apply to only a small set of nouns.',
+				answer: 'Six main cases: nominative (subject), genitive (possession, "of"), dative (indirect object, "to"), accusative (direct object), instrumental (means, "by/with"), and prepositional (shows up solely following a preposition). Some grammars additionally recognize a handful of minor forms (vocative, locative, and partitive among them) that apply to just a handful of nouns.',
 			},
 			{
 				question: 'Does Russian have articles like "the" or "a"?',
-				answer: 'No. Russian has no definite or indefinite articles at all. That\'s a large part of why its six cases mark the noun itself (and any adjective or pronoun modifying it), unlike German, where der/die/das absorbs most of the marking instead of the noun.',
+				answer: 'No — Russian has nothing that plays the role of "the" or "a." That absence is a large part of why its six cases mark the noun itself (and on whatever else agrees with it, adjectives and pronouns included), unlike German, where der/die/das takes on the bulk of that job instead of the noun.',
 			},
 			{
 				question: 'Why does "brat" (brother) become "brata" in the accusative?',
-				answer: 'Brat is animate (it refers to a person), and for masculine singular nouns in this declension class, as well as for all plural nouns, the Russian accusative copies the genitive form when the referent is animate. Inanimate nouns in the same declension class instead copy the nominative form in the accusative, so stol ("table") stays stol.',
+				answer: 'Brat names a person, and this declension pattern, covering singular masculine nouns plus every noun once it turns plural, gives animate referents an accusative that borrows the genitive form. Inanimate nouns in the same pattern instead keep their dictionary-citation shape, so a word like stol ("table") goes untouched even in the accusative.',
 			},
 			{
 				question: 'What is the difference between the locative and the prepositional case?',
-				answer: 'Most nouns use the same form after v/na ("in/at/on") as they do after any other preposition, called the prepositional case. A small number of nouns have a separate locative form specifically for use after v/na, always stressed on the ending and sometimes spelled differently: v lesu ("in the forest") is the locative of les, distinct from the regular prepositional form lese.',
+				answer: 'Most nouns take the same form after any preposition, v/na included, and that shared form is what grammars label the prepositional case. A small number of nouns have a separate locative form limited to use after v/na, consistently stressed on that ending and sometimes spelled differently: v lesu ("inside the forest") is the locative of les, a separate form from its ordinary prepositional lese.',
 			},
 			{
 				question: 'What is the Russian "neo-vocative," and is it the same as the old vocative case?',
-				answer: 'No, they\'re unrelated forms that happen to share a name. The original Common Slavic vocative case is archaic and survives only in fixed, mostly religious phrases like Bozhe moy! ("My God!"). The modern "neo-vocative" is a colloquial pattern used for names and close family terms, formed by dropping the final vowel (Vanya to Van\', mama to mam), and it\'s limited to informal, affectionate address.',
+				answer: 'No, they\'re unrelated forms that happen to share a name. The older vocative inherited from Common Slavic fell out of everyday use and now shows up only in a scattering of set religious expressions such as Otche nash, the words that open the Our Father in Russian. The modern "neo-vocative" is a colloquial pattern applied to first names and terms for close relatives, made simply by trimming the final vowel, so Vanya turns into Van\' and mama turns into mam; it stays confined to warm, casual address.',
 			},
 		],
 		sources: [
@@ -5898,23 +5898,23 @@ export const guides: Guide[] = [
 		faq: [
 			{
 				question: 'What does "sayonara" literally mean?',
-				answer: 'It\'s an alteration of Japanese sayō naraba, from sayō ("thus, that way") plus naraba ("if it be"), so the literal sense is closer to "if that\'s how it is" than to a dedicated word for "goodbye." The fuller traditional form is さようなら (sayōnara); さよなら (sayonara) is the shorter, less formal variant.',
+				answer: 'It\'s an alteration of sayō naraba: sayō carries the sense of "so" or "in that way," and naraba works out to "if it be." Strung together, the literal meaning amounts to something like "well, if that\'s how things stand," not a fixed term for parting ways. The fuller traditional form is さようなら (sayōnara); さよなら (sayonara) is the briefer, casual version most people learn first.',
 			},
 			{
 				question: 'Do Japanese people actually say "sayonara"?',
-				answer: 'Rarely, in everyday situations. Because the word implies an indefinite or permanent separation, native speakers mostly reserve it for genuinely final goodbyes, formal contexts, or dramatic effect, and generally avoid it with friends or family they expect to see again soon, where it can read as needlessly final.',
+				answer: 'Rarely, in everyday situations. The word signals that a separation may stretch on for good; people mostly reserve it for genuinely final goodbyes, formal contexts, or dramatic effect, and generally avoid it with friends or family they\'ll likely see again before long, where it can land as oddly dramatic.',
 			},
 			{
 				question: 'What\'s the difference between sayonara and mata ne?',
-				answer: 'Mata ne ("see you again") is the standard casual goodbye Japanese speakers use with people they expect to meet again soon, with no implication about how long a separation will last. Sayonara carries that implication directly, an indefinite or permanent parting, which is exactly why it isn\'t the everyday equivalent English speakers often assume it is.',
+				answer: 'Mata ne, from mata, meaning "again," and glossed loosely as "catch you soon," is the everyday, casual pick Japanese speakers reach for with people they expect to meet again before long, and it says nothing about how long any gap will run. Sayonara carries that implication directly, a parting that could go on indefinitely or for good; that difference is why it isn\'t the everyday equivalent English speakers often assume it is.',
 			},
 			{
 				question: 'Is "sayonara" formal or rude in Japanese?',
-				answer: 'Neither, exactly, it\'s not impolite, but it is weighty. Using it in a casual, near-term goodbye doesn\'t come across as rude so much as overly dramatic or oddly final, since the word\'s core meaning already signals a real, possibly permanent separation.',
+				answer: 'Neither, exactly, it\'s not impolite, but it carries real weight. Using it in a casual, near-term goodbye doesn\'t come across as rude so much as overly dramatic or oddly final, since the word already points at a parting that might never be undone.',
 			},
 			{
 				question: 'Is "say sayonara to something" a real English phrase, or just slang?',
-				answer: 'It\'s recognized as a genuine verb usage: the Oxford English Dictionary carries a separate entry for sayonara as a verb, with its earliest recorded evidence from 1883. In modern use, "say sayonara to" something means to get rid of it or leave it behind, a meaning with no equivalent in Japanese, where the word never functions as a verb applied to objects.',
+				answer: 'It\'s recognized as a genuine verb usage: the OED carries a separate entry for sayonara as a verb, first recorded in 1883. In modern use, someone might say they\'re ready to sayonara an old habit or a bad job, in the sense of dropping it for good, a usage Japanese has no version of, since there the word stays an interjection and is never pressed into service as a verb.',
 			},
 		],
 		sources: [
