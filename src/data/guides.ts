@@ -513,6 +513,10 @@ export const guides: Guide[] = [
 				question: 'Is "senpai" an official English word now?',
 				answer: 'Yes, by at least one major dictionary\'s standard: Oxford\'s December 2025 refresh recognized the word as part of a wider set of recent Korean and Japanese loanwords entering the dictionary.',
 			},
+			{
+				question: 'Is senpai a romantic term?',
+				answer: 'Not in Japanese. In everyday use it is a plain, respectful word for someone senior, and it attaches to a name the way -san, -chan, or -kun does. The romantic reading comes from English-language internet culture and anime memes, where a fan catchphrase turned it into shorthand for wanting a senior person\'s attention. Coto Academy states that the term is not inherently romantic.',
+			},
 		],
 		sources: [
 			{ label: 'Jisho.org, Japanese-English dictionary entry for 先輩', url: 'https://jisho.org/word/%E5%85%88%E8%BC%A9' },
@@ -5273,6 +5277,14 @@ export const guides: Guide[] = [
 				question: 'Is "Semper Fortis" the Navy\'s official motto, the way "Semper Fidelis" is the Marine Corps\' motto?',
 				answer: 'No, it isn\'t official at all. "Semper Fortis" shows up constantly in Navy recruiting and culture, but the branch has never formally adopted any single motto. The Coast Guard is different: its own Latin phrase, translating to "Always Ready," genuinely is the formally adopted motto, separate from what either the Marine Corps or the Navy uses.',
 			},
+			{
+				question: 'Is it okay to say Semper Fi if you\'re not a Marine?',
+				answer: 'Yes, with some care. Military.com says the phrase carries deep meaning for Marines, so it works best when you say it to a Marine to show respect, such as when thanking them for their service, or when you quote or discuss Marine culture. Using it casually, as a personal motto, or as a joke can come across as inappropriate or disrespectful. If you\'re unsure, "thank you for your service" is the safer choice.',
+			},
+			{
+				question: 'How do Marines say hello?',
+				answer: 'Often with "Semper Fi" itself. Military.com says Marines use it to open or close a conversation, or as a quick sign of solidarity, whether the speaker is still serving or long retired.',
+			},
 		],
 		sources: [
 			{ label: 'Wikipedia: "Semper fidelis" (history, Roman-senate tradition, Abbeville 1369, family and military-unit use)', url: 'https://en.wikipedia.org/wiki/Semper_fidelis' },
@@ -6421,6 +6433,10 @@ export const guides: Guide[] = [
 			{
 				question: 'Why is it sometimes spelled "arigato" and sometimes "arigatou"?',
 				answer: 'The final vowel in Japanese is held slightly longer than a single "o," a distinction romanization usually preserves by writing "arigatou" or adding a macron. Dropping that extra letter, as "arigato" does, is just an English convenience that most learners never notice is missing anything.',
+			},
+			{
+				question: 'How do you reply to arigato?',
+				answer: 'The standard reply is どういたしまして (dōitashimashite). Wiktionary glosses it as "you\'re welcome," "my pleasure," or "no problem."',
 			},
 		],
 		sources: [
