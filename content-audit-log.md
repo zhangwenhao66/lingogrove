@@ -1946,3 +1946,12 @@
   "escalation": null
 }
 ```
+
+## PAA-FAQ批强(daily-task, 2026-09-24, 压制期放开)
+- 范围：Owen 2026-09-24 批准压制期小批量FAQ补强，≤8页、只新增FAQ。读8页，处理3页，新增4条FAQ，跳过18条问题（已逐条 --reject 登记）。
+- 新增：arigato-meaning +1（How do you reply to arigato?，来源Wiktionary どういたしまして）；senpai-meaning +1（Is senpai a romantic term?，来源Coto Academy，页面已列）；semper-fi-meaning +2（非Marine能否说、Marines怎么打招呼，来源Military.com，页面已列）。
+- 跳过：happy-birthday-in-spanish、ser-conjugation、spanish-preterite-endings、mamacita-meaning、i-love-you-in-spanish 五页全跳（重复/语言错配/主题错配/无可靠来源）；各页另有个别跳过见登记。
+- 去AI味：Skill(humanizer)→Skill(avoid-ai-writing) 已真实调用，数字/专名/日文原文核对无误。
+- 机械检查：check_prose_patterns.py 三页首轮各有FAQ逐字复述正文警报（触发点为本次新增），已改写至退出码0；npm run build 通过。
+- 提交：1b8cb65 已push，线上绕缓存curl 3页均已出现新FAQ。
+- 备注：imageDims.ts 等既有未提交改动与本次无关，未触碰。
