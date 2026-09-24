@@ -3091,7 +3091,7 @@ export const guides: Guide[] = [
 		title: 'Mashallah Meaning: "God Has Willed It," Not "God Willing"',
 		description: 'Mashallah literally means "what God has willed." It is the past-tense counterpart to inshallah: one marks something already true, the other something merely hoped for.',
 		published: '2026-08-17',
-		updated: '2026-08-17',
+		updated: '2026-09-24',
 		coreSummary: 'Mashallah (ما شاء الله, more precisely transliterated mā shāʾa -llāh) breaks down to three Arabic words: mā ("what"), shāʾa ("willed," a past-tense verb from the root ش-ي-ء, sh-y-ʾ), and Allah ("God"). Put together it literally means "what God has willed [has happened]." The phrase appears in the Qur\'an, Surah Al-Kahf 18:39, inside a parable about a wealthy man who fails to say it while boasting about his garden. Because shāʾa is past tense, mashallah is said about something that already exists or has already happened, the opposite direction in time from inshallah, which looks forward to something hoped for.',
 		language: 'Arabic',
 		usageNote: {
@@ -3144,6 +3144,10 @@ export const guides: Guide[] = [
 			{
 				question: 'Why do people say mashallah after a compliment?',
 				answer: 'The phrase traces to the Qur\'anic parable in Surah Al-Kahf, its 39th verse, where it\'s framed as what a person should say while taking in their own success, not something to boast about instead. Later tradition links that framing to protection from the evil eye: the phrase, spoken in the moment of admiration, credits the blessing to God and skips the boastful tone associated with inviting envy.',
+			},
+			{
+				question: 'What does mashallah mean in Urdu?',
+				answer: 'Urdu borrows the Arabic phrase unchanged and writes it ماشاءاللہ. Dictionaries render it as "as God wished," and Urdu speakers reach for it to praise something good, such as a healthy child or a fine result, while crediting God for it. Wikipedia\'s list of languages that use the phrase colloquially includes Pakistanis and Indian Muslims.',
 			},
 			{
 				question: 'Is mashallah only used by Muslims?',
