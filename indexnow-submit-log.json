@@ -343,7 +343,7 @@
     "note": "new publish (Loanwords tier); Bing 200 / Yandex 200. Live-URL poll could not be verified this run: curl/node fetch/Browser pane all failed to reach lingogrove.com from this session (proxy TLS handshake failure / navigation denied), while other domains (example.com, indexnow endpoints) worked fine -- appears to be a session-level access restriction on this owned domain, not a deploy failure. Local build (npm run build) confirmed correct dist/mashallah-meaning/index.html output before push.",
     "last_checked_date": "2026-09-10",
     "verified_method": "bwt_url_inspection",
-    "last_submitted_date": "2026-09-23"
+    "last_submitted_date": "2026-09-24"
   },
   "https://lingogrove.com/spanish-question-words/": {
     "submitted_date": "2026-08-17",

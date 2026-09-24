@@ -1955,3 +1955,8 @@
 - 机械检查：check_prose_patterns.py 三页首轮各有FAQ逐字复述正文警报（触发点为本次新增），已改写至退出码0；npm run build 通过。
 - 提交：1b8cb65 已push，线上绕缓存curl 3页均已出现新FAQ。
 - 备注：imageDims.ts 等既有未提交改动与本次无关，未触碰。
+
+## content-quality-audit 2026-09-24 mashallah-meaning（trafficsite-content-quality-audit）
+```json
+{"url_slug":"mashallah-meaning","last_audited":"2026-09-24","published_date":"2026-08-17","findings":["选文来源：零点击清单待处理项（god has willed it meaning in urdu，排8.4，曝光16，0点击）；本篇从未审计。","专属核查：Qur'an 18:39 引文、mā shāʾa 词源、Ek Tha Tiger 2012 歌曲、各语言拼写——与已列 sources 一致，未发现事实错误。","页面未解释 Urdu 用法（有 Urdu 书写但无正面回答）：增量缺口，属实。","机械散文四项：首轮 FAQ#4 与正文逐字重合两次报警，改写后退出码0。","published 字段已存在，可改 updated。"],"actions_taken":["enhancement/零点击增量：新增 FAQ「What does mashallah mean in Urdu?」，来源 Wikipedia 与 Wiktionary（均已在 sources 内）","updated: 2026-08-17 → 2026-09-24"],"seo_score":"未跑完整 seo-audit（本次聚焦零点击增量+机械检查）","geo_score":"未重打分","verification":"build 89页通过；线上绕缓存已出现新 FAQ；seo_drift 仅 WARNING（schema 变化，预期）；IndexNow 已提交；Skill(humanizer)+Skill(avoid-ai-writing) 已真实调用","扩散判定":"单站（一次零点击问法补 FAQ）/ 无需全矩阵扫描","escalation":null}
+```
