@@ -3533,7 +3533,7 @@ export const guides: Guide[] = [
 		title: 'Italian Future Tense: When "Sarà" Isn\'t About the Future At All',
 		description: 'Italian\'s future tense uses one regular set of endings, but native speakers also reach for it to guess, soften a claim, or state a rule, not just to predict what\'s next.',
 		published: '2026-08-17',
-		updated: '2026-08-17',
+		updated: '2026-09-24',
 		coreSummary: 'Italian\'s futuro semplice takes one set of endings for every verb, regardless of conjugation class, a legacy of its origin as a separate word: the infinitive fused with the present tense of avere ("to have"). Per Treccani\'s Enciclopedia dell\'Italiano, that same form does far more than point forward in time. Alongside genuine predictions (domani pioverà, "it will rain tomorrow"), it expresses epistemic guesses about the present (sarà a casa, "he\'s probably home"), softened claims, and outright rules or orders, uses a literal "will" translation misses completely.',
 		language: 'Italian',
 		sections: [
@@ -3596,7 +3596,7 @@ export const guides: Guide[] = [
 				heading: 'Where this future tense is losing ground',
 				body: [
 					'Italian isn\'t alone in watching its inherited future tense get squeezed by something newer. [Spanish](/spanish-future-tense/) faces a comparable shift, with the periphrasis *ir a* + infinitive edging into territory its own future tense once held largely to itself. Italian\'s version of that pressure shows up in a different construction: for a plan someone has already settled on, everyday speech increasingly reaches for the plain present tense instead of the futuro semplice. *Domani parto* and *Domani partirò* both mean "I\'m leaving tomorrow," and the present-tense version is now the more common choice in casual conversation.',
-					'What the futuro semplice keeps for itself, per Treccani, are the jobs a present tense genuinely can\'t do: real uncertainty about later, formal and written statements, and the modal functions covered above, guessing about right now, softening a claim, or stating a rule as though it were simply a fact.',
+					'What the futuro semplice keeps for itself, per Treccani, are the jobs a present tense genuinely can\'t do: real uncertainty about later, formal and written statements, and the modal functions covered above, guessing about right now, softening a claim, or stating a rule as though it were simply a fact. The future also shares a slot with the subjunctive. Europass Italian teaches that after *penso che*, both *parta* and *partirà* work for something that happens later, and the [Italian congiuntivo](/italian-congiuntivo/) guide covers the rest of that mood.',
 				],
 			},
 		],
@@ -3628,6 +3628,7 @@ export const guides: Guide[] = [
 			{ label: 'Treccani, La grammatica italiana (2012): "Futuro anteriore, indicativo"', url: 'https://www.treccani.it/enciclopedia/indicativo-futuro-anteriore_(La-grammatica-italiana)/' },
 			{ label: 'One World Italiano, "Futuro semplice" (regular endings, cross-checked)', url: 'https://oneworlditaliano.com/grammatica-italiana/riferimento-grammaticale/futuro-semplice/' },
 			{ label: 'Scudit, "I primi 111 verbi italiani: gli irregolari al futuro" (irregular stem list, cross-checked)', url: 'https://www.scudit.net/md111verbi_5.htm' },
+			{ label: 'Europass Italian, "Italian Subjunctive (Congiuntivo)" (present subjunctive or future after penso che)', url: 'https://www.europassitalian.com/learn/grammar/verbal-moods-and-tenses/subjunctive/' },
 		],
 	},
 	{
@@ -6866,6 +6867,96 @@ export const guides: Guide[] = [
 			{ label: 'Migaku, "Sonkeigo vs Kenjougo: Japanese Respectful vs Humble Language" (irregular verb pairs)', url: 'https://migaku.com/blog/japanese/sonkeigo-vs-kenjougo' },
 			{ label: 'Real-World Japanese, "8 Keigo Mistakes Non-Natives Make — and Which to Fix First" (sonkeigo-for-self error, double honorifics, uchi/soto switching)', url: 'https://realworldjapanese.com/en/guides/keigo-mistakes/' },
 			{ label: 'iXam, "Time to Stop Calling Male Subordinates \'-kun\'" (postwar workplace history of the kun/san gender split)', url: 'https://www.ixam.net/en/blog/2025/09/stop-kun-culture/' },
+		],
+	},
+	{
+		slug: 'italian-congiuntivo',
+		category: 'Grammar',
+		title: 'Italian Congiuntivo: When to Use It, Which Tense',
+		description: 'The Italian congiuntivo has four tenses and one quick test: after che, does the speaker state a fact or voice a stance? Forms, triggers, tense matching.',
+		published: '2026-09-24',
+		updated: '2026-09-24',
+		coreSummary: 'The Italian congiuntivo is a mood with four tenses (presente, imperfetto, passato, trapassato). Per Treccani, it mostly appears in subordinate clauses, where it marks a wish, a doubt, or an opinion instead of a stated fact: *penso che sia a casa* against *so che è a casa*. The present tense has only four distinct forms for six persons, and the tense you pick depends on whether the main verb is in the present or a past tense, and on whether the action comes before or after it.',
+		language: 'Italian',
+		sections: [
+			{
+				heading: 'The congiuntivo marks a stance, not a time',
+				body: [
+					'Treccani defines the congiuntivo as a finite mood with four tenses: presente, imperfetto, passato, and trapassato. The name means "that joins", because most of the time it links a subordinate clause to a main one. In many of those clauses it competes with the indicative, and the choice signals a shade of wish, possibility, or doubt. Compare *So che Marco è a casa* with *Penso che Marco sia a casa*. Both are about the same fact. The first states it, and the second presents it as the speaker\'s opinion.',
+					'A quick sorting test works for most sentences. Look at the verb before *che*. Verbs of certainty and reporting, such as *sapere*, *dire*, *scrivere*, and phrases like *è vero che* or *è chiaro che*, keep the indicative. Verbs and phrases of emotion, desire, opinion, and doubt, such as *sperare*, *volere*, *pensare*, *dubitare*, or *è importante che*, call for the congiuntivo. One more filter comes first: if both clauses share a subject, Italian uses an infinitive, not *che*. *Voglio uscire* is "I want to go out", while *Voglio che tu esca* is "I want you to go out". The [Spanish subjunctive](/subjunctive-spanish/) page describes the same subject-change trigger.',
+				],
+				image: {
+					src: '/images/italian-congiuntivo-diagram.svg',
+					alt: 'Chart of the four Italian congiuntivo tenses arranged in a grid: presente and passato after a present-tense main verb, imperfetto and trapassato after a past-tense or conditional main verb, with same-time-or-later actions in the top row and earlier actions in the bottom row, each with an example sentence.',
+				},
+			},
+			{
+				heading: 'Present forms: six persons, four written forms',
+				body: [
+					'For *-are* verbs the present takes *-i, -i, -i, -iamo, -iate, -ino*, so *parlare* gives *parli, parli, parli, parliamo, parliate, parlino*. For *-ere* and *-ire* verbs the endings start with *a*: *metta, metta, metta, mettiamo, mettiate, mettano* and *dorma, dorma, dorma, dormiamo, dormiate, dormano*. The vowels feel backwards to many learners, since *-are* verbs get *i* and the other two classes get *a*. Verbs that insert *-isc-* in the indicative keep it here for the singular and the *loro* form (*capisca, capiscano*) but not for *noi* and *voi* (*capiamo, capiate*).',
+					'Counting the written forms shows the practical problem. Six person slots collapse into four distinct forms, because *io*, *tu*, and *lui/lei* are spelled identically. That is why Italians usually say the pronoun after *che*: *Credo che tu parli bene*, not just *Credo che parli bene*, which leaves the speaker unclear. The *noi* form also matches the present indicative (*parliamo*), so the trigger before *che* is the only clue to the mood there. Spelling holds steady too: *-care* and *-gare* verbs keep their hard sound with an *h*, giving *cerchi* and *paghi*, the same adjustment you see in the [Italian future tense](/italian-future-tense/).',
+					'Many irregular present forms echo the verb\'s own irregular indicative. Common *io* forms are *vada* (andare), *abbia* (avere), *dia* (dare), *dica* (dire), *debba* (dovere), *sia* (essere), *faccia* (fare), *possa* (potere), *rimanga* (rimanere), *sappia* (sapere), *stia* (stare), *tenga* (tenere), *esca* (uscire), *venga* (venire), and *voglia* (volere).',
+				],
+			},
+			{
+				heading: 'Imperfect, passato, trapassato: built from what you already know',
+				body: [
+					'The imperfetto uses one ending family per class: *parlassi, parlassi, parlasse, parlassimo, parlaste, parlassero*, then *mettessi...* and *dormissi...*, with *capissi...* for *-isc-* verbs. That is five distinct forms for six persons, since only *io* and *tu* coincide. Most of the irregulars are verbs that are already irregular in the indicative imperfect: *fossi* (essere), *facessi* (fare), *bevessi* (bere), *dicessi* (dire). *Stare*, which is regular there, also has its own imperfetto stem (*stessero*). Once you know *fossi* and *avessi*, you can build the last two tenses.',
+					'The passato takes *avere* or *essere* in the present congiuntivo plus the past participle: *abbia ricevuto*, *sia andato*, *siate partiti*. The trapassato takes the imperfect congiuntivo of the same auxiliary plus the participle: *avessi ascoltato*, *fossi arrivato*, *fossimo usciti*. Participle agreement and the choice of *avere* or *essere* follow the passato prossimo rules unchanged.',
+				],
+			},
+			{
+				heading: 'Choosing the tense: a two-question grid',
+				body: [
+					'The tense follows two questions. Is the main verb in the present or future, or in a past tense or the conditional? And did the action in the *che* clause happen at the same time as or after the main verb, or before it? The four answers give four tenses. Present or future main verb, same time or later: presente (*Credo che Anna lavori stasera*). Present main verb, earlier action: passato (*Credo che Anna sia già uscita*). Past or conditional main verb, same time or later: imperfetto (*Credevo che Anna lavorasse fino a tardi*). Past main verb, earlier action: trapassato (*Credevo che Anna fosse già uscita*). This grid is a summary of the sequencing rule (the *consecutio temporum*) that university grammars such as UNC\'s describe.',
+					'Two wrinkles to know. After a present-tense main verb, the present congiuntivo is not the only way to look ahead: *Penso che Marco parta domani* and *Penso che Marco partirà domani* are both taught as correct. And the imperfetto can follow a present-tense main verb when the action was habitual or ongoing in the past, as in *È un peccato che piovesse ogni volta che uscivamo*.',
+				],
+			},
+			{
+				heading: 'Triggers beyond che-clauses, and the conjunctions that demand it',
+				body: [
+					'Some conjunctions require the congiuntivo on their own: *benché* and *sebbene* (although), *affinché* (so that), *prima che* (before), *senza che* (without), *a meno che* (unless), and *purché* (provided that). Verbs in the negative, such as *non credo*, *non penso*, and *non so*, trigger it as well: *Non credo che Luisa abbia ragione*. Treccani adds that in some subordinate clauses the congiuntivo is preferred to the indicative for reasons of register, meaning a higher register, and that a few clause types allow it as the only explicit mood.',
+					'Relative clauses pull it in too. UNC lists three cases, and the examples here are my own: after a superlative (*È il film più lungo che io abbia visto*), after a negative (*Non c\'è nessuno che sappia la risposta*), and after an indefinite (*Cerco qualcuno che parli russo*). Watch *perché* too. With the sense "so that" it triggers the mood, and with the sense "because" it does not.',
+					'The congiuntivo also stands alone. Treccani sorts these uses into four types: the exhortative (*Nessuno si muova!*), the dubitative (*Che sia già partito?*), the desiderative (*Potessi dormire un\'ora in più!*), and the exclamative (*Magari fosse domenica!*). For wishes, the imperfetto points at the present or future, while the trapassato points at the past: *Fossi stata più attenta!*',
+					'The same two tenses also power the hypothetical *se* clause. Treccani says the imperfetto or trapassato appears in the protasis of second- and third-type hypothetical sentences, for a situation that is possible but unlikely, or impossible. *Se avessi più tempo, imparerei il russo* pairs the imperfetto with a present conditional. *Se avessi preso il treno delle otto, ora sarei già a casa* uses the trapassato for a condition that is now past.',
+				],
+			},
+			{
+				heading: 'What counts as an error, per Treccani',
+				body: [
+					'Treccani lists a few forms that sound natural and are still marked wrong. The pull of the *-are* class is strong enough that *venghi* and *venghino* turn up, and Treccani calls them incorrect today, though sometimes used ironically. The old singular forms *sii, abbi, sappi, vogli* are no longer correct as congiuntivo forms and now serve as imperatives. Another one is the imperfetto standing in for an exhortative present, as in *Stesse attento*. Treccani flags it as incorrect, even though it is increasingly common in speech and informal writing, and it originally belonged to central-southern speech. This section rests on Treccani alone, without a second normative source.',
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'Is the Italian congiuntivo the same as the English subjunctive?',
+				answer: 'They share a name and a general job, marking a clause as wished, doubted, or judged instead of stated. But Italian applies it in ordinary everyday sentences where English uses plain verbs. "I think he is home" needs *Credo che sia a casa*, with the congiuntivo. Italian also has four tenses of it, where English has little visible morphology beyond forms like "were".',
+			},
+			{
+				question: 'Which verbs are irregular in the present congiuntivo?',
+				answer: 'Fifteen common ones appear in the UNC grammar (a starting list, not a complete one): andare (vada), avere (abbia), dare (dia), dire (dica), dovere (debba), essere (sia), fare (faccia), potere (possa), rimanere (rimanga), sapere (sappia), stare (stia), tenere (tenga), uscire (esca), venire (venga), and volere (voglia). Many mirror an irregularity you already know from the indicative, such as the *g* in *venire*, so the *io* form is the place to start. In most cases the other singular forms and *loro* follow from it, but *noi* and *voi* often keep their own stems (*andiamo*, *andiate*).',
+			},
+			{
+				question: 'Why do Italians add tu or io after che?',
+				answer: 'Because in the present, the three singular persons share a single spelling. *Che parli* could be I, you, or she. Adding the pronoun fixes the subject: *Credo che lei parli bene*. The plural forms don\'t need this, since each is distinct except that *noi* also matches the indicative.',
+			},
+			{
+				question: 'Do I use the congiuntivo after "penso che" and "so che" alike?',
+				answer: 'No. *Pensare* voices an opinion and takes the congiuntivo, while *sapere* states a certainty, so it stays in the indicative. The same split shows up in impersonal phrases: *è importante che* and *è possibile che* take the congiuntivo, while *è vero che* and *è chiaro che* stay in the indicative.',
+			},
+			{
+				question: 'Which congiuntivo tense follows a past-tense main verb?',
+				answer: 'The imperfetto, if the *che* clause action is simultaneous or later (*Speravo che arrivasse in orario*), and the trapassato if it came earlier (*Speravo che fosse arrivato in orario*). A main verb in the conditional behaves like a past tense here. A main clause built on a present or future verb takes the presente or passato.',
+			},
+		],
+		sources: [
+			{ label: 'Treccani, La grammatica italiana (2012): "Congiuntivo"', url: 'https://www.treccani.it/enciclopedia/congiuntivo_(La-grammatica-italiana)/' },
+			{ label: 'Treccani, La grammatica italiana (2012): "Presente, congiuntivo"', url: 'https://www.treccani.it/enciclopedia/congiuntivo-presente_(La-grammatica-italiana)/' },
+			{ label: 'Treccani, La grammatica italiana (2012): "Imperfetto, congiuntivo"', url: 'https://www.treccani.it/enciclopedia/congiuntivo-imperfetto_(La-grammatica-italiana)/' },
+			{ label: 'Treccani, Enciclopedia on line: "Congiuntivo"', url: 'https://www.treccani.it/enciclopedia/congiuntivo/' },
+			{ label: 'University of North Carolina at Chapel Hill, Learn Italian: "Subjunctive" (forms, tenses, conjunctions, cross-checked)', url: 'https://learnitalian.web.unc.edu/home/verbs/subjunctive/' },
+			{ label: 'Europass Italian, "Italian Subjunctive (Congiuntivo)" (present forms, spelling changes, and consecutio, cross-checked)', url: 'https://www.europassitalian.com/learn/grammar/verbal-moods-and-tenses/subjunctive/' },
 		],
 	},
 ];

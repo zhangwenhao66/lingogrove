@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" font-family="system-ui, -apple-system, sans-serif">
+	<rect width="800" height="420" fill="#f6f4e9"/>
+
+	<text x="400" y="42" text-anchor="middle" fill="#201f1a" font-size="20" font-weight="700">Which congiuntivo tense? Ask two questions</text>
+
+	<text x="290" y="82" text-anchor="middle" fill="#5a5648" font-size="14" font-weight="600">Main verb: present or future</text>
+	<text x="530" y="82" text-anchor="middle" fill="#5a5648" font-size="14" font-weight="600">Main verb: past or conditional</text>
+
+	<text x="48" y="150" fill="#5a5648" font-size="14" font-weight="600">Same time</text>
+	<text x="48" y="170" fill="#5a5648" font-size="14" font-weight="600">or later</text>
+	<text x="48" y="286" fill="#5a5648" font-size="14" font-weight="600">Earlier</text>
+
+	<rect x="180" y="96" width="220" height="112" rx="8" fill="#eceadb" stroke="#ddd8c4" stroke-width="1"/>
+	<text x="290" y="128" text-anchor="middle" fill="#2f6b47" font-size="14" font-weight="600">presente</text>
+	<text x="290" y="158" text-anchor="middle" fill="#204a31" font-size="15" font-weight="700">Credo che Anna</text>
+	<text x="290" y="180" text-anchor="middle" fill="#204a31" font-size="15" font-weight="700">lavori stasera.</text>
+
+	<rect x="420" y="96" width="220" height="112" rx="8" fill="#eceadb" stroke="#ddd8c4" stroke-width="1"/>
+	<text x="530" y="128" text-anchor="middle" fill="#8a3b2e" font-size="14" font-weight="600">imperfetto</text>
+	<text x="530" y="158" text-anchor="middle" fill="#204a31" font-size="15" font-weight="700">Credevo che Anna</text>
+	<text x="530" y="180" text-anchor="middle" fill="#204a31" font-size="15" font-weight="700">lavorasse fino a tardi.</text>
+
+	<rect x="180" y="224" width="220" height="112" rx="8" fill="#eceadb" stroke="#ddd8c4" stroke-width="1"/>
+	<text x="290" y="256" text-anchor="middle" fill="#6a4e9c" font-size="14" font-weight="600">passato</text>
+	<text x="290" y="286" text-anchor="middle" fill="#204a31" font-size="15" font-weight="700">Credo che Anna</text>
+	<text x="290" y="308" text-anchor="middle" fill="#204a31" font-size="15" font-weight="700">sia già uscita.</text>
+
+	<rect x="420" y="224" width="220" height="112" rx="8" fill="#eceadb" stroke="#ddd8c4" stroke-width="1"/>
+	<text x="530" y="256" text-anchor="middle" fill="#2a5d8a" font-size="14" font-weight="600">trapassato</text>
+	<text x="530" y="286" text-anchor="middle" fill="#204a31" font-size="15" font-weight="700">Credevo che Anna</text>
+	<text x="530" y="308" text-anchor="middle" fill="#204a31" font-size="15" font-weight="700">fosse già uscita.</text>
+
+	<text x="400" y="380" text-anchor="middle" fill="#8a8674" font-size="13">Top row: the che-clause action is simultaneous or later. Bottom row: it happened earlier.</text>
+</svg>
