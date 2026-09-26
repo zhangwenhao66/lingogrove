@@ -2060,6 +2060,10 @@ export const guides: Guide[] = [
 				question: 'Is aquel still used in everyday Latin American Spanish?',
 				answer: 'Less than the peninsular three-way system suggests, but it hasn\'t disappeared: en aquel entonces ("back then") is a genuinely everyday phrase in every Spanish-speaking region, binary-system ones included, and it holds on for exactly the reason this article\'s main grammar source gives for aquel: an evocative, look-back-in-time role, not the spatial job este/acá and ese/allá took over.',
 			},
+			{
+				question: 'How many demonstrative adjectives does Spanish have?',
+				answer: 'Twelve. Each of the three distance levels (este, ese, aquel) has four forms, one for masculine singular, feminine singular, masculine plural, and feminine plural. The neuter forms (esto, eso, aquello) aren\'t part of the twelve, since they only work as pronouns.',
+			},
 		],
 		sources: [
 			{ label: 'Real Academia Española, Nueva gramática de la lengua española: "Clases de demostrativos"', url: 'https://www.rae.es/gram%C3%A1tica/sintaxis/clases-de-demostrativos' },
@@ -6013,6 +6017,10 @@ export const guides: Guide[] = [
 				question: 'When did "oy vey" enter English?',
 				answer: 'Dictionaries don\'t fully agree. Merriam-Webster puts its earliest recorded citation for the full expression at 1914. Etymonline separately records solo "oy" beginning in 1892 stateside, with the fuller two-word version not entering its files until 1959.',
 			},
+			{
+				question: 'How do you use "oy vey" in a sentence?',
+				answer: 'Use it as an exclamation on its own or at the start of a sentence when something goes wrong or wears you out: "Oy vey, the flight got cancelled again." Merriam-Webster defines it as an expression of dismay, frustration, or grief. In everyday English it is often half joking, which suits small annoyances better than serious loss.',
+			},
 		],
 		sources: [
 			{ label: 'Wikipedia: "Oy vey"', url: 'https://en.wikipedia.org/wiki/Oy_vey' },
@@ -6193,6 +6201,10 @@ export const guides: Guide[] = [
 			{
 				question: 'Is the futur de conjecture (using the future to guess about the present) common in French?',
 				answer: 'No. Outside of être and avoir, this guess-about-the-present use is uncommon in everyday French; the classic example is a guess at who just rang the bell. Corsican French leans on it considerably more than the rest of the French-speaking world does.',
+			},
+			{
+				question: 'Is it "le futur" or "la futur"?',
+				answer: 'Le futur. As a noun, futur is masculine, so the tense is le futur, or le futur simple in full. The feminine future appears only when the word is an adjective describing a feminine noun, as in une future maman.',
 			},
 		],
 		sources: [
@@ -6686,6 +6698,10 @@ export const guides: Guide[] = [
 			{
 				question: 'Is "maknae" in the dictionary?',
 				answer: 'It has been since a specific point: Oxford added it, alongside six other Korean entries, in a single batch that landed in late 2024. English-language evidence for the word goes back further still, to 1998.',
+			},
+			{
+				question: 'Why is Jungkook called the "Golden Maknae"?',
+				answer: 'Jungkook is the youngest in BTS, which makes him the group\'s maknae, and he debuted with them in 2013 at age 15. Fans added "golden" because he is strong at nearly everything the group does: singing, dancing, rapping, and sports. The label only fits a youngest member who is also that well-rounded.',
 			},
 		],
 		sources: [
