@@ -2260,7 +2260,7 @@ export const guides: Guide[] = [
 				body: [
 					'French verbs split across three moods (indicatif, subjonctif, impératif), and the subjonctif is the one built to mark stance, not time. Grammar references built on Larousse\'s definitions call it the "mode de l\'irréel": its job is to mark that a clause\'s content isn\'t settled fact, in contrast with the indicative\'s job of reporting what\'s confirmed.',
 					'Il faut qu\'elle vienne makes the point in three words. Faut carries the necessity, vienne is what\'s still pending — the sentence doesn\'t claim she has arrived, only that her arrival is required. Set that against Je crois qu\'elle vient, where the identical event (her coming) takes the indicative instead, because now it\'s being asserted as the speaker\'s belief rather than framed as a requirement. Both sentences point at the same near-future arrival; only the verb\'s mood shifts, tracking how confirmed or how merely required that arrival is.',
-					'That split, mood tracking stance and not tense, runs through the subjunctive of other Romance languages too, including [Spanish](/subjunctive-spanish/), where the same asserted-versus-wanted contrast shows up under its own set of triggering verbs. In French specifically, the subjunctive is common, not a bookish leftover: il faut que, je veux que, and c\'est dommage que put it into completely ordinary conversation, sometimes more than once in the same exchange. The mood/tense line the subjunctive draws so clearly has a genuine blur spot elsewhere in French verb grammar: [the French future](/french-future-tense/) splits into two competing forms, futur simple and futur proche, and the common "near future vs. far future" explanation for the split is wrong, the real difference is about certainty, not how soon something happens.',
+					'That split, mood tracking stance and not tense, runs through the subjunctive of other Romance languages too, including [Spanish](/subjunctive-spanish/), where the same asserted-versus-wanted contrast shows up under its own set of triggering verbs. In French specifically, the subjunctive is common, not a bookish leftover: il faut que, je veux que, and c\'est dommage que put it into completely ordinary conversation, sometimes more than once in the same exchange. The mood/tense line the subjunctive draws so clearly has a genuine blur spot elsewhere in French verb grammar: [the French future](/french-future-tense/) splits into two competing forms, futur simple and futur proche, and the common "near future vs. far future" explanation for the split is wrong, the real difference is about certainty, not how soon something happens. [The conditional](/french-conditional/) is the other one, sorted as a mood by some courses and as an indicative tense by the Quebec language office.',
 				],
 				image: {
 					src: '/images/french-subjunctive-diagram.svg',
@@ -4556,7 +4556,7 @@ export const guides: Guide[] = [
 		title: 'French Conditional: Why "Si Tu Voudrais" Is Always Wrong',
 		description: 'French pairs si with a strict chronological order of tenses, and the conditional itself is barred from the if-clause: a rule nearly every learner breaks at least once.',
 		published: '2026-08-21',
-		updated: '2026-08-21',
+		updated: '2026-09-29',
 		coreSummary: 'The French conditionnel is built by adding the imperfect\'s endings (-rais, -rais, -rait, -rions, -riez, -raient) onto the same -r- stem the simple future uses, and its classification is genuinely contested: the Office québécois de la langue française treats it as a tense within the indicative because of those shared endings, while other standard references, including Lawless French, still teach it as its own mood built around hypothetical meaning. What almost nobody disputes is the si-clause rule: si pairs with a present or past-tense verb, never with the future or the conditional itself, so je viendrais si tu voudrais is wrong regardless of how natural it sounds, though the conditional does return after si in two narrower cases, when si introduces an indirect question (nous aimerions savoir si vous seriez disposée à entrer en fonction le mois prochain) or a concession.',
 		language: 'French',
 		sections: [
@@ -4598,7 +4598,7 @@ export const guides: Guide[] = [
 		faq: [
 			{
 				question: 'Is the French conditional a mood or a tense?',
-				answer: 'It depends which reference you\'re reading. OQLF, Quebec\'s official language authority, counts the conditionnel among the indicative\'s tenses, pointing to its endings, which share the future\'s -r- marker and the imperfect\'s -ais/-ait/-ions family, and says that\'s where the scholarly consensus has landed. Plenty of grammar courses take the other side (Lawless French among them) and still keep it filed under the moods, on the grounds that what it does, sketching a hypothesis, matters more than which endings it borrows. Whichever label wins, its job of sketching hypotheticals and possibilities stays exactly the same.',
+				answer: 'It depends which reference you\'re reading. OQLF, Quebec\'s official language authority, counts the conditionnel among the indicative\'s tenses, pointing to its endings, which share the future\'s -r- marker and the imperfect\'s -ais/-ait/-ions family, and reports that most specialists now file it there. Plenty of grammar courses take the other side (Lawless French among them) and still keep it filed under the moods, on the grounds that what it does, sketching a hypothesis, matters more than which endings it borrows. Whichever label wins, its job of sketching hypotheticals and possibilities stays exactly the same.',
 			},
 			{
 				question: 'Why is "si tu voudrais" wrong?',
@@ -4618,7 +4618,7 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'Which verbs have an irregular conditional stem?',
-				answer: 'A specific set of thirteen, documented in the OQLF\'s reference grammar, swap the stem itself rather than simply adding a vowel to it: acquérir (acquerr-), aller (ir-), avoir (aur-), courir (courr-), cueillir (cueiller-), être (ser-), faire (fer-), mourir (mourr-), pouvoir (pourr-), savoir (saur-), tenir (tiendr-), venir (viendr-), and voir (verr-). All of them still take the same -rais/-rais/-rait/-rions/-riez/-raient endings as every regular verb.',
+				answer: 'The OQLF\'s reference table shows thirteen examples of verbs that swap the stem itself rather than simply adding a vowel to it (it introduces them as "quelques-uns de ces verbes," some of them, so the list is illustrative, not complete; vouloir, devoir and envoyer, for instance, also change stem, giving voudrais, devrais and enverrais): acquérir (acquerr-), aller (ir-), avoir (aur-), courir (courr-), cueillir (cueiller-), être (ser-), faire (fer-), mourir (mourr-), pouvoir (pourr-), savoir (saur-), tenir (tiendr-), venir (viendr-), and voir (verr-). All of them still take the same -rais/-rais/-rait/-rions/-riez/-raient endings as every regular verb.',
 			},
 		],
 		sources: [
