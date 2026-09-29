@@ -64,3 +64,14 @@
 - **Deadline**：2026-09-29 17:00（鼠标真实点击日历控件选中29日，未直接写文本框，符合SKILL.md第0条硬规则）。
 - **发布状态**：✅ 已提交，跳转到 thankyou.asp，提示 "Pending approval..."。提交回执 product id = `c0b685df67b20fd3e8e8a53db433c121`。
 - **上线复核**：⏳ 待下次任务运行时补查。本次运行未做历史pending条目复核（时间所限），下次运行时应补做，包括08-25条目`46fa52a52c0daaa3caa0617247ef054d`。
+
+### 2026-09-29（周二，正常排期）
+
+- **问题标题**：Attorneys and paralegals: has confusing per se with ipso facto, or misapplying negligence per se, caused a problem?
+- **角度**：绑定`per-se-meaning`一文讲的真实语言/法律分层——拉丁语per se（字面意思"就其本身"）在英语里承担了三种完全不同的工作：日常口语里缩窄某个论断范围的副词、以及法律上两个独立的原则negligence per se（违反保护特定群体的法规即视为已确立过失责任，无需逐案证明"合理人"标准）和illegal per se（反垄断法里价格操纵等行为被推定违法无需证明实际损害）；per se还常被跟ipso facto（"因该事实本身"，描述某个事件自动导致的后果）搞混，两者回答的是不同的问题。征集律师/律师助理举出真实案例——per se跟ipso facto的混淆，或者一次negligence per se/illegal per se的论证被误用，在案件或文件里造成了真实的问题。与此前问过的外来词语义漂移角度（08-04）、虚拟式教学突破点角度（08-12）、跨文化称呼语误用角度（08-18）、词义商业化扁平角度（08-25）、语法混淆课堂外后果角度（09-15）均不重叠——这次首次切入法律拉丁术语误用这个专业场景。
+- **绑定文章**：LingoGrove `per-se-meaning`（Per Se Meaning: "By Itself" to Negligence Per Se and "Ampersand"）。
+- **分类标签**：Topics = General + Professional Services；Countries = Australia + UK & Republic of Ireland + Canada + United States。
+- **表单设置**：Job title = Content Creator；Organisation = LingoGrove；Contact = Email；Unpaid；Email address 和 Contact email 均填 `contact@lingogrove.com`。
+- **Deadline**：2026-10-13 17:00（鼠标真实点击日历控件切换到10月并选中13日，未直接写文本框，符合SKILL.md第0条硬规则）。
+- **发布状态**：✅ 已提交，跳转到 thankyou.asp，提示 "Pending approval..."。提交回执 product id = `d2e599d7b5fe0932ff140eb675ac4521`。
+- **上线复核**：本次运行前已在四站侧顺带核对09-22三站流量站条目均已上线，但本站及其余09-15五站的历史pending条目本次仍未逐一复核（时间所限），下次运行时应补做，包括08-25条目`46fa52a52c0daaa3caa0617247ef054d`和09-15本条`c0b685df67b20fd3e8e8a53db433c121`。
