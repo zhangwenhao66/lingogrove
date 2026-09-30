@@ -460,8 +460,10 @@
   },
   "https://lingogrove.com/de-nada-meaning/": {
     "submitted_date": "2026-08-24",
-    "verified_status": "pending",
-    "note": "new publish (Loanwords tier: 'de nada meaning' -- de-preposition + nada-'nothing' composition, RAE dle.rae.es/nada definition quoted verbatim after independent-agent audit caught a misquote (comma+'falta' vs actual 'carencia', no comma), etymology of nada from Latin (nulla) res nata / nemo natus (not from nihil) sourced to Wiktionary+Etymonline, formal-register alternative no hay de que (Mexico and Spain alike, not Spain-exclusive), Colombia/Ecuador default a la orden (military-parlance origin, everyday commerce usage), Costa Rica con mucho gusto, por nada variant; internal links to spanish-prepositions and ciao-meaning; Tier1 (Grammar, vs-pattern) confirmed exhausted before selecting this Tier2 (Loanwords) candidate, A-grade in 2026-08-23 SERP publish-queue snapshot; passed independent 8-fold audit + one re-audit round after fixes -- first round found misquoted RAE definition, one dead source URL (greenmochila.com 404, replaced with eyesoncolombia.wordpress.com + howlearnspanish.com), an etymology detail attributed to the wrong source, an under-supported 'Spain leans on no hay de que' regional claim, and body word count short of 1000; second re-audit found coreSummary/description/usageNote.regionNote still contradicted the corrected body paragraph on the Spain claim, fixed by aligning all fields); Bing 200 / Yandex 202. Live URL confirmed 200 with real article content before submission."
+    "verified_status": "verified_indexed",
+    "note": "Indexed successfully",
+    "last_checked_date": "2026-09-30",
+    "verified_method": "bwt_url_inspection"
   },
   "https://lingogrove.com/spanish-infinitive/": {
     "submitted_date": "2026-08-25",
