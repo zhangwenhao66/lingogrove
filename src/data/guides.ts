@@ -1729,7 +1729,7 @@ export const guides: Guide[] = [
 		title: 'Spanish Accent Marks: The Rules Behind Every Tilde',
 		description: 'Spanish writes an accent only when a word breaks its default stress pattern, or when two identical words need telling apart, not on every stressed syllable.',
 		published: '2026-08-06',
-		updated: '2026-08-31',
+		updated: '2026-09-30',
 		coreSummary: 'Spanish does not mark every stressed syllable with a written accent; it marks only the ones that break a predictable default (agudas ending in a vowel, or in n or s not preceded by another consonant; llanas ending in any other consonant; esdrújulas and sobresdrújulas always) per the RAE\'s Ortografía de la lengua española, plus a separate, closed list of diacritical tildes (tú/tu, él/el, sí/si, dé/de, sé/se, té/te, mí/mi, más/mas, and the interrogative set qué/que, cuál/cual, quién/quien, cómo/como, cuándo/cuando, dónde/donde) that exist purely to distinguish two identically spelled words with unrelated grammatical jobs. A 2010 RAE reform also removed the accent requirement from the adverb solo and the demonstrative pronouns este/ese/aquel, a change many English-language guides still haven\'t caught up with.',
 		language: 'Spanish',
 		sections: [
@@ -1773,6 +1773,15 @@ export const guides: Guide[] = [
 				],
 			},
 			{
+				heading: 'Checking one word at a time: estoy, cereal, sandía and the rest',
+				body: [
+					"Learners usually ask about accents one word at a time. Does estoy take one? Does cereal? Does sandía? The same short check settles all of them: find the stressed syllable, look at what the word ends in, then see whether the stress lands on an i or u sitting next to a, e or o.",
+					"Estoy stresses its last syllable, and a final y counts as a consonant for this purpose. The Academy's examples are virrey, an aguda with no tilde, and yóquey, a llana that does need one. Estoy behaves like virrey, so it has no accent (the verb itself is covered on the [ser vs estar](/ser-vs-estar/) page). Cereal is an aguda ending in l, so no tilde. Quince is a llana ending in a vowel, no tilde. Talvez is an aguda ending in z, no tilde. Eres is stressed on its first syllable and ends in s, so it is an ordinary llana, no tilde. Química and ácido are esdrújulas, and those always carry one.",
+					"Sandía is the odd one. It is a llana ending in a vowel, which by the default pattern should need nothing, yet it has a tilde. The reason is the hiatus rule: when a stressed i or u sits next to an open vowel and the two are pronounced as separate syllables (san-dí-a), the tilde goes on the closed vowel every time, whatever the word ends in. The Academy lists serías, mío and oído under the same rule.",
+					"Two smaller points. Capital letters keep their accents (Ángel, or a sign reading PROHIBIDO PISAR EL CÉSPED), because the Academy applies the same rules to capitals as to lowercase. And the wavy line on ñ belongs to a different system from the stress accent. The Academy also calls that stroke a tilde (or virgulilla), but it is part of the letter eñe, which has its own place in the alphabet. That is why español carries no written accent: it is an aguda ending in l. The stress accent itself can sit on any vowel, whichever one carries the stress: cantó, colibrí and está use three different ones.",
+				],
+			},
+			{
 				heading: 'Applying it without re-deriving the rules every time',
 				body: [
 					"In practice, fluent Spanish writers aren't running the agudas/llanas calculation on every word; they've simply memorized where the tildes go, the same way English speakers don't consciously apply spelling rules to write \"receive\" correctly. For a learner, the fastest path to the same fluency is counting backward from the end of an unfamiliar word: is the stress on the last syllable, the second-to-last, or further back? Check that against what the ending would predict by default. If the two disagree, the word needs a tilde.",
@@ -1801,6 +1810,18 @@ export const guides: Guide[] = [
 				question: 'Do Spanish accent marks change pronunciation, or just spelling?',
 				answer: "Mostly pronunciation. Across the four stress classes covered above, the tilde is simply marking which syllable gets the emphasis when the word is spoken, a fact about the word that holds true regardless of whether the spelling ends up needing a written mark for it. Pairs like tú/tu or sí/si break that pattern: both words in each pair carry identical spoken emphasis, so there the accent exists purely to separate their meanings in writing, not to record anything about how they sound.",
 			},
+			{
+				question: 'Does estoy have an accent mark?',
+				answer: "No. Estoy puts the stress on toy, and the Academy sorts a word-final y with the consonants when assigning accents. That makes it an aguda like virrey, and agudas of that kind are written bare.",
+			},
+			{
+				question: 'Does sandía need an accent mark?',
+				answer: "Yes. The stress falls on the í, and the a that follows it is a separate syllable (san-dí-a). Under the Academy's hiatus rule that combination always gets the tilde, and the ending of the word does not change that. Día is another everyday case.",
+			},
+			{
+				question: 'Do capital letters take accent marks in Spanish?',
+				answer: "Yes. Writing in capitals does not excuse a word from the tilde, so Ángel is correct and Angel is not. The ñ is a separate matter: it counts as its own letter, so español is not n plus a mark.",
+			},
 		],
 		sources: [
 			{ label: 'Real Academia Española: El buen uso del español, "Las reglas de acentuación gráfica"', url: 'https://www.rae.es/buen-uso-espa%C3%B1ol/las-reglas-de-acentuaci%C3%B3n-gr%C3%A1fica' },
@@ -1809,6 +1830,9 @@ export const guides: Guide[] = [
 			{ label: 'Real Academia Española: Ortografía de la lengua española, "Tilde diacrítica en qué, cuál, quién, cómo, cuán, cuánto, cuándo, dónde y adónde"', url: 'https://www.rae.es/ortograf%C3%ADa/tilde-diacr%C3%ADtica-en-qu%C3%A9-cu%C3%A1l-qui%C3%A9n-c%C3%B3mo-cu%C3%A1n-cu%C3%A1nto-cu%C3%A1ndo-d%C3%B3nde-y-ad%C3%B3nde' },
 			{ label: 'Real Academia Española: Nota informativa, "Sobre la tilde en solo"', url: 'https://www.rae.es/noticia/nota-informativa-sobre-la-tilde-en-solo' },
 			{ label: 'Real Academia Española: Español al día, "El adverbio solo y los pronombres demostrativos, sin tilde"', url: 'https://www.rae.es/espanol-al-dia/el-adverbio-solo-y-los-pronombres-demostrativos-sin-tilde' },
+			{ label: 'Real Academia Española: Ortografía de la lengua española, "Palabras con hiato"', url: 'https://www.rae.es/ortograf%C3%ADa/palabras-con-hiato' },
+			{ label: 'Real Academia Española: Español al día, "Tilde en las mayúsculas"', url: 'https://www.rae.es/espanol-al-dia/tilde-en-las-mayusculas' },
+			{ label: 'Real Academia Española: Noticia, "¿Cómo se llama la rayita de la «ñ»?"', url: 'https://www.rae.es/noticia/como-se-llama-la-rayita-de-la-n' },
 		],
 	},
 	{
