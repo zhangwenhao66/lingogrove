@@ -507,5 +507,15 @@
   "already_indexed_no_action": [],
   "quota_exceeded_attempted": [],
   "quota_used": "1 of shared account-wide daily quota"
+ },
+ {
+  "date": "2026-10-08",
+  "note": "unindexed_pages.py 老页未收录巡检结果优先；URL Inspection后请求索引，成功",
+  "submitted_urls": [
+   "https://lingogrove.com/double-object-pronouns-spanish/"
+  ],
+  "status_before": "Discovered - currently not indexed",
+  "quota_exceeded_attempted": [],
+  "quota_used": "1"
  }
 ]
