@@ -256,7 +256,7 @@ export const guides: Guide[] = [
 		title: 'Preterite vs. Imperfect: How Spanish Splits the Simple Past',
 		description: 'English has one simple past tense; Spanish has two. The difference is whether the sentence treats the action as finished or as unfolding.',
 		published: '2026-08-03',
-		updated: '2026-08-10',
+		updated: '2026-10-08',
 		coreSummary: 'The preterite (canté) presents a past action as a completed whole, with a clear edge. The imperfect (cantaba) presents a past action or state in progress, without marking where it started or ended. How long something took doesn\'t decide the choice: a preterite action can span years and an imperfect one can span seconds. What decides it is the angle the speaker takes on the action.',
 		language: 'Spanish',
 		sections: [
@@ -293,6 +293,15 @@ export const guides: Guide[] = [
 					'One irregular verb worth knowing both forms of by heart is *ser*: its preterite (*fui, fue...*) and imperfect (*era, eras...*) are both common and completely different-looking from each other, which makes it a good verb to drill this distinction on. See the [full ser conjugation table](/ser-conjugation/) for every form.',
 				],
 			},
+			{
+				heading: 'The endings side by side, for regular verbs',
+				body: [
+					'Regular verbs build both tenses by swapping the infinitive ending. For -ar verbs the preterite endings are *-é, -aste, -ó, -amos, -asteis, -aron* (*hablé, hablaste, habló, hablamos, hablasteis, hablaron*) and the imperfect endings are *-aba, -abas, -aba, -ábamos, -abais, -aban* (*hablaba, hablabas, hablaba, hablábamos, hablabais, hablaban*).',
+					'-er and -ir verbs share one set of endings in each tense. The preterite takes *-í, -iste, -ió, -imos, -isteis, -ieron* (*comí, comiste, comió, comimos, comisteis, comieron*; *viví, viviste, vivió, vivimos, vivisteis, vivieron*). The imperfect takes *-ía, -ías, -ía, -íamos, -íais, -ían* (*comía, comías, comía, comíamos, comíais, comían*; *vivía, vivías, vivía, vivíamos, vivíais, vivían*).',
+					'The *yo* and *él/ella/usted* preterite forms carry a written accent in all three classes (*hablé, habló, comí, comió*), and that accent separates *habló* (spoke) from *hablo* (I speak). In the imperfect, the *yo* and *él/ella/usted* forms are identical (*hablaba*, *comía*), so the subject has to come from context or a pronoun.',
+					'Irregularity is lopsided. Many verbs are irregular in the preterite (*ser* and *ir* share *fui, fue...*; *hacer* gives *hice*; *tener* gives *tuve*), while only three verbs are irregular in the imperfect: *ser* (*era*), *ir* (*iba*) and *ver* (*veía*). Every other verb, including ones that are irregular in the preterite, takes the regular imperfect endings, so *tuve* in the preterite still pairs with *tenía* in the imperfect.',
+				],
+			},
 		],
 		faq: [
 			{
@@ -311,10 +320,20 @@ export const guides: Guide[] = [
 				question: 'Can the exact same habitual action be described in either tense?',
 				answer: 'Yes, depending on whether the routine gets a boundary. *Caminaba al parque cada tarde* ("I would walk to the park each afternoon") takes the imperfect, an open pattern with neither edge fixed. *Caminé al parque cada tarde durante dos años* ("I walked to the park each afternoon for two years") takes the preterite for that same routine, now closed off into one finished stretch: it\'s the "for two years" that seals the edge and triggers the switch.',
 			},
+			{
+				question: 'How are the preterite and imperfect conjugated for regular verbs?',
+				answer: 'Remove -ar, -er or -ir from the infinitive and attach the tense ending. *Hablar* becomes *hablé* in the preterite and *hablaba* in the imperfect, *comer* becomes *comí* and *comía*, and *vivir* becomes *viví* and *vivía*. In each tense, -er and -ir verbs use one common set and -ar verbs get another. The full endings for all six persons are listed in the section above.',
+			},
+			{
+				question: 'Which verbs are irregular in the imperfect?',
+				answer: 'Three: *ser* (*era, eras, era, éramos, erais, eran*), *ir* (*iba, ibas, iba, íbamos, ibais, iban*) and *ver* (*veía, veías, veía, veíamos, veíais, veían*). All remaining verbs take the regular endings, including *tener*, whose odd preterite *tuve* sits beside a perfectly ordinary *tenía*.',
+			},
 		],
 		sources: [
 			{ label: 'Real Academia Española, Nueva gramática de la lengua española: "El pretérito perfecto simple (canté)"', url: 'https://www.rae.es/gram%C3%A1tica/sintaxis/el-pret%C3%A9rito-perfecto-simple-cant%C3%A9' },
 			{ label: 'Real Academia Española, Nueva gramática de la lengua española: "El pretérito imperfecto (cantaba)"', url: 'https://www.rae.es/gram%C3%A1tica/sintaxis/el-pret%C3%A9rito-imperfecto-cantaba-i-informaci%C3%B3n-de%C3%ADctica-e-informaci%C3%B3n-aspectual' },
+			{ label: 'Wiktionary, "ver": Spanish conjugation table (imperfect veía)', url: 'https://en.wiktionary.org/wiki/ver' },
+			{ label: 'Wiktionary, "ser": Spanish conjugation table (preterite fui; imperfect era)', url: 'https://en.wiktionary.org/wiki/ser' },
 		],
 	},
 	{
