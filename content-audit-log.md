@@ -1968,3 +1968,28 @@
 ```json
 {"url_slug":"french-conditional","last_audited":"2026-09-29","published_date":"2026-08-21","selection":"站点最久未审(09-24)；站内选文=正文入链≤1的临门页(15曝光@10.3)，此前从未整篇审计","focus":["FAQ '13个不规则词干'是否被写成穷尽清单","OQLF 'consensus' 归因","Lawless French mood 归类","标题'Always Wrong'与正文例外是否自洽"],"findings":[{"dimension":"事实准确性","status":"发现问题","detail":"FAQ 'Which verbs have an irregular conditional stem?' 写 'A specific set of thirteen, documented in the OQLF reference grammar'，暗示13个即全集。OQLF 原页表格引言为 'Quelques-uns de ces verbes figurent dans le tableau'（仅列举）；vouloir(voudrais，即标题词)、devoir、envoyer 均不在表中。已改为'13个示例、非穷尽'并补三例。","独立复核":"见下方 review 行"},{"dimension":"事实准确性","status":"发现问题(轻)","detail":"FAQ 称 OQLF 'says that's where the scholarly consensus has landed'，原文为 'la majorité des linguistes et grammairiens'，改为 'most specialists'。正文里的法语引语经逐字核对为真。"},{"dimension":"外部引用","status":"OQLF 4 页 200 可达；Lawless 2 页 curl 被 Cloudflare 403，经 WebSearch 确认页面存在且称其为 conditional mood"},{"dimension":"内链健康度","status":"入链仅1→补1条","detail":"french-subjunctive 的 mood/tense 段末加一句指向本文（只复述本文已断言内容）；其余候选来源页正文出链已近上限或主题相关性一般，未再加"},{"dimension":"竞品差异化/标题","status":"未动","detail":"标题 56 字符(title_lint WARN)，曝光≥50? 否(15)，但改标题非事实错误：'Always Wrong' 与正文'两个例外'略有张力，交 site-search-opportunity-refresh 评估，不在本任务改"},{"dimension":"机械散文检查","status":"通过","detail":"check_prose_patterns 本篇与 french-subjunctive 均退出码0（首次改写触发FAQ复述重合已改清零）"},{"dimension":"AdSense/垃圾政策/GEO/AI味","status":"未发现问题；GEO 未重打分(改动为事实级)；Skill(humanizer)+Skill(avoid-ai-writing) 已真实调用，三句改动无标记"}],"actions_taken":["FAQ 不规则词干答案改为示例性表述并补 vouloir/devoir/envoyer","'scholarly consensus'→'most specialists'","french-subjunctive 加内链","updated: 2026-08-21→2026-09-29（published 已存在）"],"seo_score":"未跑完整 seo-audit","geo_score":"未重打分","扩散判定":"单站 / 同类'把某官方表格当穷尽清单'风险已记教训候选：若复发再入库","escalation":null}
 ```
+
+
+```json
+{
+  "type": "PAA-FAQ批强(daily-task, 2026-10-09)",
+  "site": "lingogrove",
+  "slugs_processed": [
+    "saber-vs-conocer"
+  ],
+  "faq_added": 1,
+  "sources": [
+    "https://www.rae.es/buen-uso-espa%C3%B1ol/conjugaci%C3%B3n-espa%C3%B1ola"
+  ],
+  "source_verification": "RAE model 58 Saber, live web open/find 2026-10-09 lines 2636-2695: present sé/sabes/sabés/sabe/sabemos/sabéis/saben; preterite supe.",
+  "check_prose_patterns": "Baseline rc0; each addition rc0; precommit rc0",
+  "quality_chain": {
+    "humanizer": "Original /Users/zhangwh/.claude/skills/humanizer/SKILL.md read and applied: neutral reference voice, simple clauses, no invented first-person or promotional frame; draft retained after audit.",
+    "avoid-ai-writing": "Original /Users/zhangwh/.claude/skills/avoid-ai-writing/SKILL.md read and applied after humanizer: no Tier1 filler, rhetorical reveal, manufactured personality, or dash; second-pass fact qualifiers preserved.",
+    "fidelity": "Every specific location, tense form, practice and employment requirement checked against the listed live official source; no salary or numeric work-hour estimates introduced."
+  },
+  "scope": "Only new FAQ entries; original prose/title/description/sources/dates/FAQ preserved. Partial exposure-priority batch; remaining pages not reached.",
+  "suppression_exception": "2026-09-24 authorized limited batch <=8 pages, only FAQ",
+  "independent_review": "Root independently opened all four official sources and checked all five FAQ drafts before publication, 2026-10-09; supported. Worker subsequently removed redundant Louvre gallery name for overlap gate, preserving meaning."
+}
+```

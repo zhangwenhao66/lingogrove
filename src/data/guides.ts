@@ -1109,6 +1109,10 @@ export const guides: Guide[] = [
 				question: 'Is "saber a" ever used the way English uses "to know"?',
 				answer: 'No — *saber a* is an idiom that works like "tastes of" in English (*esto sabe a canela*, "this tastes like cinnamon"), unrelated to the facts-vs-familiarity distinction covered above. It has to be learned as its own fixed expression, unconnected to either of saber\'s main uses.',
 			},
+			{
+				question: 'How do you conjugate saber?',
+				answer: 'In the present indicative, the forms are *yo sé*, *tú sabes*, *él/ella/usted sabe*, *nosotros sabemos*, *vosotros sabéis* and *ellos/ellas/ustedes saben*. The RAE also lists *vos sabés* for voseo. Other tenses have different forms; the preterite begins *yo supe*.',
+			},
 		],
 		sources: [
 			{ label: 'Real Academia Española: Diccionario de la lengua española, "saber"', url: 'https://dle.rae.es/saber' },
