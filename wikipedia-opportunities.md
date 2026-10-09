@@ -56,3 +56,13 @@
 ## 2026-09-03 复查：词典类内容结构未变，跳过理由维持
 
 本站仍是翻译词/词义/变位表类词典型参考内容，维基百科对此类内容的姊妹项目偏好（Wiktionary优先于Wikipedia外链）是结构性的，不随内容量或站龄改变。本次未发现新增的叙述型/百科类文章板块，跳过理由维持。
+
+
+<!-- run:20261009T141607+0800 -->
+## 2026-10-09 近期样本实查
+
+当前核查以词条修订和本站实际内容为准，历史站龄门槛、缺作者页或计算器一律禁止的推断不沿用。本轮是近期样本筛查，非全站穷尽审计；不推进最后有效提交日期。
+
+- LingoGrove：本站 `preterite-vs-imperfect`；维基条目 [Spanish verbs](https://en.wikipedia.org/w/index.php?oldid=1378490367)，修订 1378490367。结论：CN为儿童未来时习得，非preterite/imperfect；原稿RAE语法来源优先。合格引用建议0、Talk留言0、新提交0、公开上线0。
+
+参考来源资格与外部资源价值分别判断；本站来源更详尽本身不构成可靠来源资格。独立审查已完成，无对外草稿，英文写作链不适用。未编辑维基正文、未新增机会键或虚构回执。证据：`/Users/zhangwh/.codex/automation-runtime/runs/trafficsite-wikipedia-outreach/20261009T141607+0800/screening-results.json`、`/Users/zhangwh/.codex/automation-runtime/runs/trafficsite-wikipedia-outreach/20261009T141607+0800/wiki-current.json`、`/Users/zhangwh/.codex/automation-runtime/runs/trafficsite-wikipedia-outreach/20261009T141607+0800/followup-20261009T1515-receipt.json`。
