@@ -2729,7 +2729,7 @@ export const guides: Guide[] = [
 		title: 'German Perfect Tense (Perfekt): Haben, Sein, and the Partizip II',
 		description: 'German Perfekt looks like English present perfect but works like spoken simple past: haben vs. sein, the participle, and when Präteritum takes over.',
 		published: '2026-08-12',
-		updated: '2026-08-12',
+		updated: '2026-10-09',
 		coreSummary: 'The German Perfekt combines a present-tense form of haben or sein with a Partizip II placed at the very end of the clause. Most verbs take haben; sein is reserved for sein, bleiben, and werden themselves, for verbs of directed motion, for verbs of state change, and for a fixed set of exceptions including passieren, geschehen, and gelingen, while a handful of verbs like schwimmen switch between the two depending on whether the sentence states a destination. Unlike English, which pairs present perfect with a distinct simple past, spoken German uses Perfekt for nearly every verb in ordinary conversation and saves Präteritum mainly for written narrative, except for sein, haben, and the modal verbs, which stay in Präteritum even when spoken aloud.',
 		language: 'German',
 		sections: [
@@ -2778,6 +2778,10 @@ export const guides: Guide[] = [
 		],
 		faq: [
 			{
+				question: 'Why does holen use haben even though fetching involves movement?',
+				answer: 'Holen forms its perfect with haben: ich habe geholt. Fetching may involve a trip, but holen describes bringing someone or something, with an accusative object. A destination does not switch this construction to sein: Grammis documents it with haben and a destination. Duden lists hat geholt.',
+			},
+			{
 				question: 'Is the German Perfekt the same as the English present perfect?',
 				answer: 'Only in form, not in how it\'s actually used: English blocks specific past-time markers with this tense ("I have seen him yesterday" is ungrammatical), while German Perfekt allows them freely (ich habe gestern gegessen is standard). Spoken German treats Perfekt much like English simple past: it covers events from before now whether or not they still connect to the present moment.',
 			},
@@ -2799,6 +2803,8 @@ export const guides: Guide[] = [
 			},
 		],
 		sources: [
+			{ label: 'Duden: holen', url: 'https://www.duden.de/rechtschreibung/holen' },
+			{ label: 'IDS Grammis: holen, sense 3', url: 'https://grammis.ids-mannheim.de/verbs/view/400673/3' },
 			{ label: 'Duden, Sprachwissen: "Perfekt vs. Präteritum"', url: 'https://www.duden.de/sprachwissen/sprachratgeber/Perfekt-vs-Pr%C3%A4teritum' },
 			{ label: 'Duden, Sprachwissen: "Perfektbildung mit „haben" oder „sein""', url: 'https://www.duden.de/sprachwissen/sprachratgeber/Perfektbildung-mit-haben-oder-sein' },
 			{ label: 'Leibniz-Institut für Deutsche Sprache (IDS Mannheim), Grammis: "Ich bin gesessen/gestanden oder ich habe gesessen/gestanden? — Regionale Varianten beim Perfekt mit sein oder haben"', url: 'https://grammis.ids-mannheim.de/fragen/87' },
