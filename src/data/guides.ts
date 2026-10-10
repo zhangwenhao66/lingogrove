@@ -1113,6 +1113,10 @@ export const guides: Guide[] = [
 				question: 'How do you conjugate saber?',
 				answer: 'In the present indicative, the forms are *yo sé*, *tú sabes*, *él/ella/usted sabe*, *nosotros sabemos*, *vosotros sabéis* and *ellos/ellas/ustedes saben*. The RAE also lists *vos sabés* for voseo. Other tenses have different forms; the preterite begins *yo supe*.',
 			},
+			{
+				question: 'Is knowing a location saber or conocer?',
+				answer: '*Conozco Sevilla* expresses acquaintance with Seville. If the point is its position on a map, *Sé dónde está Sevilla* says "I know where Seville is." Here *conocer* describes a familiar place, while *saber* introduces the location information.',
+			},
 		],
 		sources: [
 			{ label: 'Real Academia Española: Diccionario de la lengua española, "saber"', url: 'https://dle.rae.es/saber' },

@@ -1993,3 +1993,42 @@
   "independent_review": "Root independently opened all four official sources and checked all five FAQ drafts before publication, 2026-10-09; supported. Worker subsequently removed redundant Louvre gallery name for overlap gate, preserving meaning."
 }
 ```
+
+```json
+{
+  "type": "PAA-FAQ批强(daily-task, 2026-10-10)",
+  "site": "lingogrove",
+  "run_id": "20261010T1100",
+  "scope": "压制期放开，仅新增FAQ，每站最多8页",
+  "slugs_reviewed": [
+    "saber-vs-conocer"
+  ],
+  "faq_added": 1,
+  "slugs_modified": [
+    "saber-vs-conocer"
+  ],
+  "rejections": [
+    {
+      "slug": "saber-vs-conocer",
+      "question": "How to remember saber vs. conocer?",
+      "reason": "既有FAQ与正文已解释事实/技能与熟悉区分，新增记忆口令没有独立信息增益"
+    },
+    {
+      "slug": "saber-vs-conocer",
+      "question": "What is the yo version of saber?",
+      "reason": "既有How do you conjugate saber明确列出yo sé，实质重复"
+    }
+  ],
+  "mechanical": "每条新增后与commit前check_prose_patterns.py；baseline0/after0，证据运行目录",
+  "writing_chain": "kit唯一源humanizer→avoid-ai-writing按参考口径两轮执行；数字/语言例子/链接保真",
+  "sources": [
+    "https://www.spanishdict.com/guide/saber-vs-conocer",
+    "https://www.spanishdict.com/compare/conocer/saber",
+    "https://dle.rae.es/d%C3%B3nde"
+  ],
+  "review": "独立父agent审查通过；回执traffic-b-review.json",
+  "not_reached": "其余页面未轮到，20分钟本轮有界收口",
+  "fairness": "无新增不推进最后实际处理日期；既有日志日期保留",
+  "evidence": "/Users/zhangwh/.codex/automation-runtime/runs/paa-faq-gap-fill/20261010T1100/traffic-b-final.json"
+}
+```
