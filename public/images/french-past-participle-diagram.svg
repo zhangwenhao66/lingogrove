@@ -26,12 +26,12 @@
 	<text x="581" y="240" text-anchor="middle" fill="#2f6b47" font-size="13" font-weight="700">Usually agrees with subject</text>
 	<text x="581" y="262" text-anchor="middle" fill="#201f1a" font-size="11">Rachel est sortie.</text>
 	<text x="581" y="280" text-anchor="middle" fill="#201f1a" font-size="11">Les étudiants ont été accusés.</text>
-	<text x="581" y="300" text-anchor="middle" fill="#5a5648" font-size="11" font-style="italic">but not the pronominal case &#8594;</text>
+	<text x="581" y="300" text-anchor="middle" fill="#5a5648" font-size="11" font-style="italic">pronominal agreement varies &#8594;</text>
 
 	<!-- row 3: the etre exception -->
 	<rect x="46" y="336" width="708" height="86" rx="8" fill="#eaf1ea" stroke="#2f6b47"/>
-	<text x="400" y="358" text-anchor="middle" fill="#5a5648" font-size="12" font-weight="700">ONE ÊTRE CASE BORROWS AVOIR&#8217;S RULE INSTEAD</text>
-	<text x="400" y="382" text-anchor="middle" fill="#2f6b47" font-size="14" font-weight="700">Pronominal verbs (se laver, se parler...) still use être, but agree by the same COD test</text>
+	<text x="400" y="358" text-anchor="middle" fill="#5a5648" font-size="12" font-weight="700">PRONOMINAL AGREEMENT DEPENDS ON VERB TYPE</text>
+	<text x="400" y="382" text-anchor="middle" fill="#2f6b47" font-size="14" font-weight="700">Occasional pronominal uses apply the COD test; se souvenir agrees with its subject</text>
 	<text x="400" y="404" text-anchor="middle" fill="#201f1a" font-size="11">elle s&#8217;est lavée agrees; elle s&#8217;est lavé les mains does not — se vs. les mains as the direct object</text>
 
 	<!-- row 4: du vs du -->
@@ -46,6 +46,6 @@
 	<text x="400" y="624" text-anchor="middle" fill="#5a5648" font-size="12" font-style="italic">vendu and perdu follow a predictable pattern; pris and bu don&#8217;t.</text>
 
 	<rect x="46" y="646" width="708" height="70" rx="8" fill="#f6f4e9" stroke="#ddd8c4"/>
-	<text x="400" y="670" text-anchor="middle" fill="#5a5648" font-size="12" font-weight="700">AND ALLER, DESPITE BEING GRAMMATICALLY IRREGULAR EVERYWHERE ELSE</text>
+	<text x="400" y="670" text-anchor="middle" fill="#5a5648" font-size="12" font-weight="700">ALLER HAS IRREGULAR FORMS IN OTHER TENSES</text>
 	<text x="400" y="694" text-anchor="middle" fill="#201f1a" font-size="12">still forms its participle on the regular &#8722;é pattern: aller &#8594; allé</text>
 </svg>

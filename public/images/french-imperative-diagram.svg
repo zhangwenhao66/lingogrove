@@ -60,6 +60,6 @@
 	<text x="581" y="520" text-anchor="middle" fill="#5a5648" font-size="11">toi &#8594; te, moi &#8594; me</text>
 
 	<line x1="46" y1="562" x2="754" y2="562" stroke="#ddd8c4" stroke-width="1"/>
-	<text x="400" y="588" text-anchor="middle" fill="#5a5648" font-size="12" font-style="italic">En and y always take the second slot with another pronoun, hyphenated only in the affirmative:</text>
+	<text x="400" y="588" text-anchor="middle" fill="#5a5648" font-size="12" font-style="italic">En/y follow a personal object pronoun; affirmative commands use hyphens:</text>
 	<text x="400" y="608" text-anchor="middle" fill="#5a5648" font-size="12" font-style="italic">&#8220;Offrez-leur-en&#8221; &#8596; &#8220;Ne leur en donnez plus.&#8221;</text>
 </svg>

@@ -23,15 +23,15 @@
 	<text x="400" y="204" text-anchor="middle" fill="#5a5648" font-size="11" font-style="italic">enclosure</text>
 
 	<rect x="526" y="102" width="228" height="150" rx="8" fill="#eaf1ea" stroke="#2f6b47"/>
-	<text x="640" y="126" text-anchor="middle" fill="#2f6b47" font-size="13" font-weight="700">EN — a category</text>
+	<text x="640" y="126" text-anchor="middle" fill="#2f6b47" font-size="13" font-weight="700">EN — country / mode</text>
 	<text x="640" y="148" text-anchor="middle" fill="#201f1a" font-size="13">en France</text>
 	<text x="640" y="166" text-anchor="middle" fill="#201f1a" font-size="13">en voiture</text>
-	<text x="640" y="188" text-anchor="middle" fill="#5a5648" font-size="11" font-style="italic">membership or mode,</text>
-	<text x="640" y="204" text-anchor="middle" fill="#5a5648" font-size="11" font-style="italic">not literal enclosure</text>
+	<text x="640" y="188" text-anchor="middle" fill="#5a5648" font-size="11" font-style="italic">country name or transport,</text>
+	<text x="640" y="204" text-anchor="middle" fill="#5a5648" font-size="11" font-style="italic">depending on the expression</text>
 
 	<!-- row 2: chez -->
 	<rect x="46" y="268" width="708" height="110" rx="8" fill="#fdf3e3" stroke="#5a4a2f"/>
-	<text x="400" y="292" text-anchor="middle" fill="#5a4a2f" font-size="13" font-weight="700">CHEZ — reserved for people, never for a place name</text>
+	<text x="400" y="292" text-anchor="middle" fill="#5a4a2f" font-size="13" font-weight="700">CHEZ — persons and some personified commercial names</text>
 	<text x="400" y="316" text-anchor="middle" fill="#201f1a" font-size="13">à la boulangerie (the place itself) &#160;vs.&#160; chez le boulanger (the baker, implying his shop)</text>
 	<text x="400" y="338" text-anchor="middle" fill="#5a5648" font-size="12">chez moi &#183; chez toi &#183; chez eux &#8212; takes disjunctive pronouns, never subject pronouns</text>
 	<text x="400" y="360" text-anchor="middle" fill="#8a8570" font-size="11" font-style="italic">Larousse: &#8220;le logement ou le lieu professionnel de quelqu&#8217;un&#8221;</text>
@@ -39,9 +39,9 @@
 	<!-- row 3: countries -->
 	<rect x="46" y="396" width="708" height="150" rx="8" fill="#eaf1ea" stroke="#2f6b47"/>
 	<text x="400" y="420" text-anchor="middle" fill="#2f6b47" font-size="13" font-weight="700">COUNTRIES SPLIT THREE WAYS, NOT ONE</text>
-	<text x="164" y="446" text-anchor="middle" fill="#201f1a" font-size="12" font-weight="700">EN + feminine</text>
+	<text x="164" y="446" text-anchor="middle" fill="#201f1a" font-size="12" font-weight="700">EN + feminine / vowel / silent h</text>
 	<text x="164" y="466" text-anchor="middle" fill="#5a5648" font-size="12">en France, en Chine</text>
-	<text x="400" y="446" text-anchor="middle" fill="#201f1a" font-size="12" font-weight="700">AU + masculine</text>
+	<text x="400" y="446" text-anchor="middle" fill="#201f1a" font-size="12" font-weight="700">AU + masculine consonant</text>
 	<text x="400" y="466" text-anchor="middle" fill="#5a5648" font-size="12">au Japon, au Canada</text>
 	<text x="636" y="446" text-anchor="middle" fill="#201f1a" font-size="12" font-weight="700">AUX + plural</text>
 	<text x="636" y="466" text-anchor="middle" fill="#5a5648" font-size="12">aux &#201;tats-Unis</text>
@@ -61,8 +61,8 @@
 	<text x="583" y="588" text-anchor="middle" fill="#2f6b47" font-size="13" font-weight="700">DEPUIS, PENDANT, POUR</text>
 	<text x="583" y="612" text-anchor="middle" fill="#201f1a" font-size="12" font-weight="700">depuis: still ongoing</text>
 	<text x="583" y="630" text-anchor="middle" fill="#5a5648" font-size="11">J&#8217;habite ici depuis dix ans.</text>
-	<text x="583" y="654" text-anchor="middle" fill="#201f1a" font-size="12" font-weight="700">pendant: already finished</text>
+	<text x="583" y="654" text-anchor="middle" fill="#201f1a" font-size="12" font-weight="700">pendant: bounded duration</text>
 	<text x="583" y="672" text-anchor="middle" fill="#5a5648" font-size="11">J&#8217;ai travaill&#233; pendant deux heures.</text>
-	<text x="583" y="696" text-anchor="middle" fill="#201f1a" font-size="12" font-weight="700">pour: a planned future span</text>
+	<text x="583" y="696" text-anchor="middle" fill="#201f1a" font-size="12" font-weight="700">pour: intended duration</text>
 	<text x="583" y="714" text-anchor="middle" fill="#5a5648" font-size="11">Je pars pour deux semaines.</text>
 </svg>

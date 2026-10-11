@@ -4,7 +4,7 @@
 
 	<rect x="24" y="24" width="752" height="56" rx="10" fill="#2f6b47"/>
 	<rect x="24" y="60" width="752" height="20" fill="#2f6b47"/>
-	<text x="400" y="60" text-anchor="middle" fill="#ffffff" font-size="18" font-weight="700">FRENCH NEGATION: THE SANDWICH, AND THE THREE WORDS THAT BREAK IT</text>
+	<text x="400" y="60" text-anchor="middle" fill="#ffffff" font-size="18" font-weight="700">FRENCH NEGATION: WORD POSITION DEPENDS ON GRAMMATICAL ROLE</text>
 
 	<!-- row 1: basic sandwich -->
 	<rect x="46" y="102" width="708" height="80" rx="8" fill="#eaf1ea" stroke="#2f6b47"/>
@@ -27,22 +27,22 @@
 	<text x="581" y="248" text-anchor="middle" fill="#2f6b47" font-size="14" font-weight="700">Je n&#8217;ai vu personne.</text>
 	<text x="581" y="268" text-anchor="middle" fill="#2f6b47" font-size="14" font-weight="700">Il n&#8217;est allé nulle part.</text>
 	<text x="581" y="292" text-anchor="middle" fill="#201f1a" font-size="11">personne · aucun(e) · nulle part</text>
-	<text x="581" y="312" text-anchor="middle" fill="#5a5648" font-size="11">land after the past participle,</text>
-	<text x="581" y="330" text-anchor="middle" fill="#5a5648" font-size="11">the same rule before an infinitive</text>
+	<text x="581" y="312" text-anchor="middle" fill="#5a5648" font-size="11">as complements follow the participle,</text>
+	<text x="581" y="330" text-anchor="middle" fill="#5a5648" font-size="11">subjects precede the conjugated verb</text>
 
 	<!-- row 3: ne que -->
 	<rect x="46" y="366" width="708" height="106" rx="8" fill="#eaf1ea" stroke="#2f6b47"/>
 	<text x="400" y="390" text-anchor="middle" fill="#5a5648" font-size="12" font-weight="700">NE...QUE IS A RESTRICTION, NOT A NEGATION</text>
 	<text x="400" y="416" text-anchor="middle" fill="#2f6b47" font-size="15" font-weight="700">Je n&#8217;ai que deux frères. — &#8220;only two,&#8221; not &#8220;no brothers&#8221;</text>
 	<text x="400" y="440" text-anchor="middle" fill="#201f1a" font-size="11">que is mobile: it moves to sit in front of whatever it restricts</text>
-	<text x="400" y="458" text-anchor="middle" fill="#5a5648" font-size="11">can&#8217;t combine with pas, plus, rien, personne, jamais, or ni...ni</text>
+	<text x="400" y="458" text-anchor="middle" fill="#5a5648" font-size="11">ne...pas...que can deny that restriction: “not only”</text>
 
 	<!-- row 4: stacking order -->
 	<rect x="46" y="490" width="708" height="106" rx="8" fill="#fbead0" stroke="#ddd8c4"/>
 	<text x="400" y="514" text-anchor="middle" fill="#5a5648" font-size="12" font-weight="700">STACKING NEGATIVES: A FIXED ORDER, EXCEPT FOR PLUS</text>
-	<text x="400" y="540" text-anchor="middle" fill="#2f6b47" font-size="15" font-weight="700">jamais rien &#183; jamais personne — never rien jamais</text>
+	<text x="400" y="540" text-anchor="middle" fill="#2f6b47" font-size="15" font-weight="700">jamais rien · jamais personne — for postverbal complements</text>
 	<text x="400" y="564" text-anchor="middle" fill="#201f1a" font-size="11">plus rien &#183; plus personne (fixed) — but plus jamais / jamais plus (either order)</text>
-	<text x="400" y="582" text-anchor="middle" fill="#5a5648" font-size="11">pas, guère, and point never stack with rien, jamais, personne, or nulle part</text>
+	<text x="400" y="582" text-anchor="middle" fill="#5a5648" font-size="11">The ordering shown concerns complements, not negative subjects.</text>
 
 	<line x1="46" y1="618" x2="754" y2="618" stroke="#ddd8c4" stroke-width="1"/>
 	<text x="400" y="644" text-anchor="middle" fill="#5a5648" font-size="12" font-style="italic">Negation also reaches the noun that follows: &#8220;un chat&#8221; &#8594; &#8220;pas de chat,&#8221;</text>
