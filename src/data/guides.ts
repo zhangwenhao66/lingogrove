@@ -420,7 +420,7 @@ export const guides: Guide[] = [
 		},
 		sections: [
 			{
-				heading: 'A compound word English never got around to building',
+				heading: 'A German compound borrowed into English',
 				body: [
 					'German builds new words by fusing existing ones together, and *Schadenfreude* is one of the clearest examples: *Schaden* means "harm" or "damage," *Freude* means "joy," and stacking them gives you, transparently, "harm-joy." Duden, the standard reference dictionary for German, defines it as "boshafte Freude über das Missgeschick, Unglück eines andern": malicious joy at another person\'s mishap or misfortune.',
 					'English could also describe the feeling with a phrase. The rare English word epicaricacy has been used for it too. The presence of a German borrowing and a rare alternative does not establish that English lacked any way to name the feeling, or why the borrowing spread.',
@@ -436,7 +436,7 @@ export const guides: Guide[] = [
 			{
 				heading: 'How to actually use it in an English sentence',
 				body: [
-					'In English, Schadenfreude functions as an uncountable noun, almost always used on its own, not pluralized or modified heavily: *"There was more than a little schadenfreude in the office when the loudest critic\'s project got cancelled."* It keeps its German capitalization in careful writing (German capitalizes all nouns), though English style guides vary and lowercase *schadenfreude* is common and accepted.',
+					'In English, Schadenfreude functions as an uncountable noun, almost always used on its own, not pluralized or modified heavily: *"There was more than a little schadenfreude in the office when the loudest critic\'s project got cancelled."* German capitalizes this noun. Merriam-Webster lists lowercase *schadenfreude* in English and also records the capitalized variant.',
 					'Pronunciation is the other thing that trips up new users: it\'s roughly *SHAH-dən-froy-də*, with the "sch" as an English "sh" sound and the final "e" pronounced as a short, weak vowel rather than silent.',
 					'It sits in the same category as words like [déjà vu](/deja-vu-meaning/) and [senpai](/senpai-meaning/), borrowed expressions English uses in their original form. Their English uses can differ from those in the source language.',
 				],
@@ -481,10 +481,10 @@ export const guides: Guide[] = [
 		slug: 'senpai-meaning',
 		category: 'Loanwords',
 		title: 'Senpai Meaning: What It Actually Means in Japanese (Not Just Anime)',
-		description: 'Before it was an internet meme, senpai named a real, structured relationship in Japanese schools and workplaces: not just "someone senior."',
+		description: 'Senpai can name someone senior in age, standing or experience, or someone who entered a school or workplace earlier. Its institutional use often involves mentoring.',
 		published: '2026-08-03',
 		updated: '2026-10-12',
-		coreSummary: 'Senpai (先輩) literally combines 先 ("ahead, before") with 輩 ("fellow, companion, generation") to mean a senior member of the same school, company, or group: someone who joined or started before you and, by the norms of the relationship, is expected to mentor the people who came after. The junior counterpart is kōhai (後輩). English uses include a senior member or mentor in Japanese arts as well as fandom slang; the Oxford English Dictionary added "senpai" to its December 2025 update alongside a batch of other Japanese and Korean loanwords.',
+		coreSummary: 'Senpai (先輩) literally combines 先 ("ahead, before") with 輩 ("fellow, companion, generation") to name a senior. Daijisen distinguishes someone above you in age, standing, experience or skill from someone who entered the same school or workplace earlier. In an institutional senpai-kōhai relationship, the senior is often expected to mentor those who came after. The junior counterpart is kōhai (後輩). English uses include a senior member or mentor in Japanese arts as well as fandom slang; the Oxford English Dictionary added "senpai" to its December 2025 update alongside a batch of other Japanese and Korean loanwords.',
 		language: 'Japanese',
 		usageNote: {
 			register: 'neutral',
@@ -494,14 +494,14 @@ export const guides: Guide[] = [
 			{
 				heading: 'What the kanji actually says',
 				body: [
-					'先輩 is written with two characters. 先 (*sen*) means "before, ahead, previous." It\'s the same character used in words like *saki* (先, "ahead" or "the future," depending on context). 輩 (*hai*, here read *pai*) means "fellow, companion, people of the same group." It shows up in words for peer groups and generations. Put together, senpai means something close to "one of us who came before" rather than simply "someone older" or "someone in charge." The Japanese-English dictionary Jisho glosses it as "senior (at school, work, etc.); superior; elder; older person; predecessor."',
+					'先輩 is written with two characters. 先 (*sen*) means "before, ahead, previous." It\'s the same character used in words like *saki* (先, "ahead" or "the future," depending on context). 輩 (*hai*, here read *pai*) means "fellow, companion, people of the same group." It shows up in words for peer groups and generations. The institutional sense is close to "one of us who came before." Daijisen also includes seniority in age, standing, experience or skill; the word is not limited to membership in the same group. The Japanese-English dictionary Jisho glosses it as "senior (at school, work, etc.); superior; elder; older person; predecessor."',
 					'The junior counterpart, kōhai (後輩), swaps 先 for 後 (*go/kō*, "after, behind"), giving the mirror-image "one of us who came after."',
 				],
 			},
 			{
 				heading: 'A real relationship, not just a rank',
 				body: [
-					'Senpai-kōhai is a structured, reciprocal relationship built into Japanese schools, sports clubs, and workplaces, not just a label for "older person." Someone becomes your senpai by having joined the same school, club, team, or company before you did: age isn\'t the deciding factor, tenure is. A 22-year-old who joined a company a year before a 30-year-old new hire is still that new hire\'s senpai.',
+					'Senpai-kōhai is a structured, reciprocal relationship built into Japanese schools, sports clubs, and workplaces, not just a label for "older person." In this institutional use, someone who joined the same school, club, team, or company earlier can be your senpai even if younger than you. A 22-year-old who joined a company a year before a 30-year-old new hire is still that new hire\'s senpai.',
 					'The relationship carries obligations in both directions: a senpai is expected to look out for and mentor their kōhai, showing them the ropes and taking some responsibility for how they\'re doing, while a kōhai is expected to show a degree of deference and respect in return. It\'s closer to a built-in mentorship system than a simple hierarchy, and it\'s one reason the concept doesn\'t map cleanly onto a single English word: "senior" captures the rank but misses the mentoring expectation.',
 					'As an honorific attached to a name, senpai normally addresses or refers to another person. The noun can also describe a relationship, so saying that one is another person\'s senior is not grammatically forbidden. Courtesy and setting determine whether describing yourself that way sounds appropriate.',
 					'Senpai also functions as an honorific suffix, the same way *-san*, *-kun*, and *-chan* do: attached directly to a name, as in *Tanaka-senpai*, it\'s a standard, polite way to address someone senior, whether by surname or first name, and it\'s gender-neutral. Coto Academy describes the relationship as being at its strictest inside school club activities (*bukatsu*), sports clubs like baseball, kendo, or soccer, where the senpai-kōhai structure governs everything from how practice is run to how new members are expected to speak to senior ones.',
@@ -518,7 +518,7 @@ export const guides: Guide[] = [
 		faq: [
 			{
 				question: 'Is a senpai always older than their kōhai?',
-				answer: 'Not always. Tenure decides the pecking order, not birth year, so whoever joined a school, club, or company first holds the senpai role — a 22-year-old who started six months earlier can outrank a 35-year-old newcomer.',
+				answer: 'Not necessarily. Earlier entry into the same institution can establish this relationship even when the newcomer is older: a 22-year-old employee could be senior in tenure to a 35-year-old recruit. Its broader dictionary meanings encompass greater expertise, higher standing or more years of life. The term itself does not give someone authority as a manager.',
 			},
 			{
 				question: 'Can you call yourself "senpai"?',
@@ -538,6 +538,7 @@ export const guides: Guide[] = [
 			},
 		],
 		sources: [
+			{ label: "Shogakukan Digital Daijisen: two senses of senpai", url: "https://kotobank.jp/word/%E5%85%88%E8%BC%A9-551038" },
 			{ label: 'Jisho.org, Japanese-English dictionary entry for 先輩', url: 'https://jisho.org/word/%E5%85%88%E8%BC%A9' },
 			{ label: 'South China Morning Post, "Senpai, bingsu, ramyeon: new Korean and Japanese words in the Oxford English Dictionary"', url: 'https://www.scmp.com/lifestyle/entertainment/article/3340137/senpai-bingsu-ramyeon-new-korean-and-japanese-words-oxford-english-dictionary' },
 			{ label: 'Coto Academy, "What is Senpai (先輩) in Japanese?"', url: 'https://cotoacademy.com/learn-japanese-blog-senpai-meaning/' },
@@ -2025,8 +2026,8 @@ export const guides: Guide[] = [
 			{
 				heading: 'Vuestro is common with vosotros; Latin American conversation generally uses su',
 				body: [
-					'Vuestro exists because Spain keeps a real register split in the plural "you": informal vosotros/vosotras against formal ustedes, [covered in full for the subject-pronoun side of this same split](/spanish-pronouns/). The possessive follows that exact line. Vuestro coche is a usual informal plural form where vosotros is used. As noted below, vuestro can also occur with ustedes in formal or ceremonial writing.',
-					'Latin American Spanish drops vosotros from everyday speech and uses ustedes for both informal and formal plural "you," collapsing a distinction Spain keeps. Because there\'s no vosotros in ordinary use to pair a possessive with, there\'s little everyday occasion for vuestro either: su coche covers "your car" (plural, any register) across the region instead, the same su that already covers "his," "her," and "their." A Latin American speaker will recognize vuestro instantly from a book or a Spanish film, and it can still surface in formal or ceremonial writing paired with ustedes, but it isn\'t a form most speakers produce in daily conversation.',
+					'Where informal vosotros/vosotras is used alongside formal ustedes, vuestro usually accompanies the informal plural, [covered in full for the subject-pronoun side of this same split](/spanish-pronouns/). This describes ordinary usage, rather than the historical origin of the possessive. Vuestro coche is a usual informal plural form where vosotros is used. As noted below, vuestro can also occur with ustedes in formal or ceremonial writing.',
+					'Latin American conversation generally uses ustedes for both informal and formal plural "you," with su/sus as the usual possessives: su coche covers "your car" (plural, any register) across the region instead, the same su that already covers "his," "her," and "their." A Latin American speaker will recognize vuestro instantly from a book or a Spanish film, and it can still surface in formal or ceremonial writing paired with ustedes, but it isn\'t a form most speakers produce in daily conversation.',
 				],
 			},
 			{
@@ -5457,7 +5458,7 @@ export const guides: Guide[] = [
 		language: 'Spanish',
 		usageNote: {
 			register: 'neutral',
-			regionNote: 'De nada is a conventional reply to thanks; tone and context can still affect how it is received. No hay de qué is a slightly more formal-sounding alternative heard in Mexico and Spain alike, not tied to one country, while a la orden ("at your service," originally a military phrase) is also used to answer thanks in Colombia and Ecuador.',
+			regionNote: 'De nada is a conventional reply to thanks; tone and context can still affect how it is received. No hay de qué is a slightly more formal-sounding alternative heard in Mexico and Spain alike, not tied to one country, while a la orden ("at your service," also documented in military use) is also used to answer thanks in Colombia and Ecuador.',
 		},
 		sections: [
 			{
@@ -5472,7 +5473,7 @@ export const guides: Guide[] = [
 				heading: 'A fixed reply, not a sentence you\'re building word by word',
 				body: [
 					'Because *de nada* is also just an ordinary preposition followed by the pronoun nada, the same two words can mean something completely different outside the "you\'re welcome" context. *Hablamos de nada* means "we talked about nothing [important]," a plain literal sentence with no idiom involved. What tells a listener which one they\'re hearing is timing and context: *de nada* fired back immediately after someone says *gracias* is unmistakably the fixed reply, while *de nada* sitting inside a longer sentence is just the preposition doing its normal job.',
-					'As a fixed reply, Speakers can use the fixed reply without consciously analyzing it as "of" plus "nothing" any more than English speakers stop to parse "you\'re welcome" into "you are welcome [to it]." It functions as a single social unit, learned and produced as a block, which is also why swapping in a synonym for just one half of it (like *"nada"* on its own) doesn\'t work as a substitute; the whole phrase is the unit that carries the meaning. Spanish colloquial vocabulary keeps some much rougher fixed units too: the RAE\'s own dictionary entry for [cabrón](/cabron-meaning/) lists its animal sense, "male goat," alongside vulgar or colloquial meanings that carry a completely different register than a polite reply to gracias.',
+					'Speakers can use de nada as a fixed reply without consciously analyzing it as "of" plus "nothing" any more than English speakers stop to parse "you\'re welcome" into "you are welcome [to it]." It functions as a single social unit, learned and produced as a block, which is also why swapping in a synonym for just one half of it (like *"nada"* on its own) doesn\'t work as a substitute; the whole phrase is the unit that carries the meaning. Spanish colloquial vocabulary keeps some much rougher fixed units too: the RAE\'s own dictionary entry for [cabrón](/cabron-meaning/) lists its animal sense, "male goat," alongside vulgar or colloquial meanings that carry a completely different register than a polite reply to gracias.',
 				],
 			},
 			{
@@ -6490,7 +6491,7 @@ export const guides: Guide[] = [
 				heading: 'Gustar belongs to a defined class of verbs: verbos de afección psíquica',
 				body: [
 					'The RAE glossary groups gustar with psychological verbs: verbs expressing sensations, feelings, or the actions causing them. The class includes several constructions. In amar and temer the experiencer is the subject; in Me gusta el chocolate the experiencer is an indirect object. Molestar can alternate: A ella le molesta el ruido uses an indirect object, while La molestaba continuamente con sus llamadas uses a direct object.',
-					'These examples use the indirect-object construction: *Me aburre esta película* (This movie bores me), *Nos encanta la playa* (We love the beach), *Le duele la cabeza* (Her head hurts / She has a headache), *Te interesan los idiomas* (Languages interest you), *Les molesta el ruido* (Noise bothers them). In these particular sentences, the verb matches the thing causing the feeling, not the person feeling it.',
+					'These examples illustrate agreement with the stimulus; the object construction depends on the verb and context: *Me aburre esta película* (This movie bores me), *Nos encanta la playa* (We love the beach), *Le duele la cabeza* (Her head hurts / She has a headache), *Te interesan los idiomas* (Languages interest you), *Les molesta el ruido* (Noise bothers them). In these sentences, the verb matches the thing causing the feeling, not the person feeling it.',
 					'A separate, wider set of everyday verbs, *faltar* (to be lacking), *quedar* (to have left), and *importar* (to matter), shares the identical word order and agreement rule even though Spanish grammars classify them differently from the affection-verb group above (they describe possession, sufficiency, or relevance rather than a psychological reaction). *Me falta dinero* (I\'m short on money), *Nos quedan dos días* (We have two days left), and *No me importa* (It doesn\'t matter to me) all put the thing that matters, is lacking, or remains as the grammatical subject the verb agrees with, exactly like *gustar* does.',
 				],
 			},
@@ -6524,7 +6525,7 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'If "le" already means "to him/her/you," why add "a él" or "a ella" too?',
-				answer: 'Le and les alone leave real ambiguity, since the same form covers "he," "she," and formal "you." To clear that up or add stress, Spanish keeps the pronoun and tacks on an a-plus-name phrase beside it, rather than dropping the pronoun. "A Carlos le gusta el fútbol" is one way this shows up: both le and a Carlos stay in the sentence. Leaving out le and using only the a-phrase is a mistake learners make, not a valid shortcut.',
+				answer: 'An added phrase can identify the person meant by le: a Carlos, for example. With a stressed pronoun such as a él, the corresponding clitic must stay. For gustar, duplication is generally required, although the RAE gives exceptions with quantifiers such as todo el mundo or nadie. When context identifies the person, no additional phrase naming them is needed.',
 			},
 			{
 				question: 'Does "¿Gusta usted una cerveza?" use the same grammar as "me gusta el café"?',
@@ -6532,6 +6533,7 @@ export const guides: Guide[] = [
 			},
 		],
 		sources: [
+			{ label: "RAE DPD: clitic duplication, sections 5.1–5.2", url: "https://www.rae.es/dpd/pronombres%20personales%20%C3%A1tonos" },
 			{ label: 'Real Academia Española, Diccionario panhispánico de dudas: "gustar" (normal construction, subject/indirect-object roles, illustrative corpus examples, transitive sense, gustar de + infinitive)', url: 'https://www.rae.es/dpd/gustar' },
 			{ label: 'Real Academia Española, Glosario de términos gramaticales: "verbo psicológico"', url: 'https://www.rae.es/gtg/verbo-psicol%C3%B3gico' },
 			{ label: 'Real Academia Española, Glosario de términos gramaticales: "complemento indirecto"', url: 'https://www.rae.es/gtg/complemento-indirecto' },
@@ -6823,7 +6825,7 @@ export const guides: Guide[] = [
 				heading: 'Two spellings, one nasalized sound',
 				body: [
 					'People who\'ve seen both "maknae" and "mangnae" online sometimes assume one of them is a misspelling. Neither is. Wiktionary\'s pronunciation guide gives 막내 the IPA transcription [ma̠ŋnɛ], and the Korean Wiki Project explains why the written form doesn\'t match: Korean has a regular phonological rule that turns a syllable-final ㄱ into ㅇ whenever the next syllable starts with ㄴ or ㅁ. 막(mak) plus 내(nae) is written mak-nae, but the ㄱ at the end of 막 shifts to ㅇ before the ㄴ that opens 내, so the word is actually spoken mang-nae.',
-					'That single rule explains both spellings at once. The form "maknae," the one English fandom sites and dictionaries mostly use, copies the Hangul letters in order and ignores the sound shift. The Revised Romanization of Korean, South Korea\'s official transliteration system, does the opposite: it romanizes words by their actual pronunciation, which is why South Korea\'s own government-standard spelling is "mangnae," not "maknae." Both spellings point at the identical word; they just transcribe two different layers of it, the letters on one hand and the sound on the other.',
+					'That single rule explains both spellings at once. The form "maknae," the one English fandom sites and dictionaries mostly use, copies the Hangul letters in order and ignores the sound shift. For this word, Revised Romanization, South Korea\'s official system, represents the nasalized pronunciation, which is why South Korea\'s own government-standard spelling is "mangnae," not "maknae." Both spellings point at the identical word; they just transcribe two different layers of it, the letters on one hand and the sound on the other.',
 				],
 			},
 			{
@@ -6838,7 +6840,7 @@ export const guides: Guide[] = [
 				heading: 'The maknae line, and what a maknae calls everyone else',
 				body: [
 					'Larger K-pop groups rarely have just one member who counts as young. Wiktionary\'s entry for the derived term "maknae line" defines it as the younger members of a group taken collectively, typically the two to four youngest rather than only the single official maknae, formed by blending English "line" with a Korean sense of rain (라인) meaning "members who share a characteristic." Fan communities pair it with matching terms for the other end of the group: a hyung line or unnie line for the older members, depending on whether the group is being discussed in terms male or female members would use for each other.',
-					'The honorifics a maknae actually uses come from the same pairing. Korean\'s Wiktionary entry lists 형 (hyeong) and 언니 (eonni) as maknae\'s coordinate terms, the words a male speaker uses for an older brother or senior male, and a female speaker uses for an older sister or senior female. A maknae doesn\'t just get called maknae; they\'re also the one using hyung or eonni to address everyone senior to them, the two ends of the same relationship.',
+					'The honorifics a maknae actually uses come from the same pairing. Korean\'s Wiktionary entry lists 형 (hyeong) and 언니 (eonni) as maknae\'s coordinate terms, the words a male speaker uses for an older brother or senior male, and a female speaker uses for an older sister or senior female. A maknae doesn\'t just get called maknae; a male speaker may use hyung for an older male, and a female speaker may use eonni for an older female. These examples do not cover every older person a maknae might address.',
 					'The word has traveled well past Korean and English, too. Wiktionary\'s descendants list for 막내 records borrowings into Japanese, as マンネ (manne) and マッネ (ma\'ne), into Mandarin, as 忙內/忙内 (mángnèi), and into Russian, as макнэ́ (maknɛ́), examples of borrowings rather than a ranking of the size of K-pop fandoms.',
 				],
 			},
@@ -6866,7 +6868,7 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'Why is Jungkook called the "Golden Maknae"?',
-				answer: 'Jungkook is the youngest in BTS, which makes him the group\'s maknae, and he debuted with them in 2013 at age 15. Fans added "golden" because he is strong at nearly everything the group does: singing, dancing, rapping, and sports. The label only fits a youngest member who is also that well-rounded.',
+				answer: 'Jungkook is BTS’s youngest member and debuted in 2013 when he was 15. Fans call him the "golden maknae" in recognition of his abilities in singing, dance, rap and sports. This nickname describes that combination of youngest-member status and versatility.',
 			},
 		],
 		sources: [
@@ -6885,7 +6887,7 @@ export const guides: Guide[] = [
 		description: 'The Spanish future perfect, habré hablado, looks like a plain prediction. It can also express a guess about something that has already happened.',
 		published: '2026-09-09',
 		updated: '2026-10-12',
-		coreSummary: 'The Spanish future perfect (futuro compuesto) combines the future tense of haber with an unchanging past participle: habré hablado, habrás comido, habrá vivido. Per the Real Academia Española, it marks anteriority, one future action finishing before a later reference point, it also has a modal use that hedges about the past: guessing that something has probably already happened, roughly equivalent to English "must have."',
+		coreSummary: 'The Spanish future perfect (futuro compuesto) combines the future tense of haber with an unchanging past participle: habré hablado, habrás comido, habrá vivido. Per the Real Academia Española, it marks anteriority, one future action finishing before a later reference point. It also has a modal use that hedges about the past: guessing that something has probably already happened, roughly equivalent to English "must have."',
 		language: 'Spanish',
 		sections: [
 			{

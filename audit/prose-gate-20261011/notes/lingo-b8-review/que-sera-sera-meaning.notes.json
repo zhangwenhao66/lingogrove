@@ -1,0 +1,12 @@
+[
+  {
+    "index": 1,
+    "verdict": "CONFIRMED",
+    "sentence": "[Voilà](/voila-meaning/) supplies another example of an English interjection from French, but its dictionary uses do not establish the same borrowing process or show why que sera sera became popular.",
+    "target_slug": "voila-meaning",
+    "note": "Independent full source/body/allFAQ and original target/body/allFAQ read. Limited bridge claim supported by exact target quotation: Merriam-Webster lists the English interjection for drawing attention, expressing approval or suggesting a magical appearance.",
+    "source_article_sha256": "fd62f75eb20e69b18aad620493684981ba84f37d2332b186aff7bc0d3d727a7b",
+    "target_article_sha256": "26880508fdb7d5ef057ea5cc736bea00808c31cc20af982f3e79662845dba6ea",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-lingo-b7-review/src/data/guides.ts"
+  }
+]

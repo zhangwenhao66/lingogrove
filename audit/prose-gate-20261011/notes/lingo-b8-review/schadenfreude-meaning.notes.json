@@ -1,0 +1,22 @@
+[
+  {
+    "index": 1,
+    "verdict": "CONFIRMED",
+    "sentence": "It sits in the same category as words like [déjà vu](/deja-vu-meaning/) and [senpai](/senpai-meaning/), borrowed expressions English uses in their original form.",
+    "target_slug": "deja-vu-meaning",
+    "note": "Independent full source/body/allFAQ and original target/body/allFAQ read. Limited bridge claim supported by exact target quotation: Déjà vu literally means \"already seen\" in French.",
+    "source_article_sha256": "93a98041f01322a9f1f04cd7b381526d002ac2f1d44b9ec174ed9cc9645bd2b7",
+    "target_article_sha256": "697fd7b8c00f719efa13737f13538d36f0799723c306bbb6eceaa6b6a978a17e",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-lingo-b8-review/src/data/guides.ts"
+  },
+  {
+    "index": 2,
+    "verdict": "CONFIRMED",
+    "sentence": "It sits in the same category as words like [déjà vu](/deja-vu-meaning/) and [senpai](/senpai-meaning/), borrowed expressions English uses in their original form.",
+    "target_slug": "senpai-meaning",
+    "note": "Independent full source/body/allFAQ and original target/body/allFAQ read. Limited bridge claim supported by exact target quotation: English uses include a senior member or mentor in Japanese arts as well as fandom slang",
+    "source_article_sha256": "93a98041f01322a9f1f04cd7b381526d002ac2f1d44b9ec174ed9cc9645bd2b7",
+    "target_article_sha256": "be4c6144453fe3728062d5e99319080c2131387166764bcffdff3486279d0450",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-lingo-b8-review/src/data/guides.ts"
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "index": 1,
+    "verdict": "CONFIRMED",
+    "sentence": "*Le* and *les* are genuinely ambiguous on their own: *le gusta* could mean \"he likes it,\" \"she likes it,\" or \"you (formal) like it,\" since [Spanish\\'s pronoun system](/spanish-pronouns/) reuses the same third-person indirect object pronoun for all three.",
+    "target_slug": "spanish-pronouns",
+    "note": "Independent full source/body/allFAQ and original target/body/allFAQ read. Limited bridge claim supported by exact target quotation: indirect object pronouns (*me, te, le, nos, os, les*)",
+    "source_article_sha256": "c9844c83483db90418fe542f3d3a12c0d92dd5248b6c9efd030d12e92e790092",
+    "target_article_sha256": "59df45acabe3433632268ba4b811f4d3cedcdf62e5b0241a32a81af38f746359",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-lingo-b8-review/src/data/guides.ts"
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "index": 1,
+    "verdict": "CONFIRMED",
+    "sentence": "The [Spanish present-tense guide](/spanish-present-tense-endings/) discusses a separate concept, a zero tense morpheme; it is not the same distinction as mi versus mí.",
+    "target_slug": "spanish-present-tense-endings",
+    "note": "Independent full source/body/allFAQ and original target/body/allFAQ read. Limited bridge claim supported by exact target quotation: morfema cero (zero morpheme)",
+    "source_article_sha256": "c31b820a0b1201cb90904c7ee76ffbea39fb7898f06680ba0bc32e97aab5decc",
+    "target_article_sha256": "fc530fdcd190fb2654d52c689094a82b821620bd8be96c88abe5b32c62913151",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-lingo-b8-review/src/data/guides.ts"
+  },
+  {
+    "index": 2,
+    "verdict": "CONFIRMED",
+    "sentence": "Where informal vosotros/vosotras is used alongside formal ustedes, vuestro usually accompanies the informal plural, [covered in full for the subject-pronoun side of this same split](/spanish-pronouns/).",
+    "target_slug": "spanish-pronouns",
+    "note": "Independent full source/body/allFAQ and original target/body/allFAQ read. Limited bridge claim supported by exact target quotation: Spain distinguishes informal *vosotros/vosotras* from formal *ustedes*",
+    "source_article_sha256": "c31b820a0b1201cb90904c7ee76ffbea39fb7898f06680ba0bc32e97aab5decc",
+    "target_article_sha256": "59df45acabe3433632268ba4b811f4d3cedcdf62e5b0241a32a81af38f746359",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-lingo-b8-review/src/data/guides.ts"
+  }
+]

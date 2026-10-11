@@ -1,0 +1,224 @@
+[
+  {
+    "slug": "verbs-like-gustar",
+    "original_candidates": [
+      {
+        "source": "body",
+        "sentence": "*Le* and *les* are genuinely ambiguous on their own: *le gusta* could mean \"he likes it,\" \"she likes it,\" or \"you (formal) like it,\" since [Spanish\\'s pronoun system](/spanish-pronouns/) reuses the same third-person indirect object pronoun for all three.",
+        "anchor": "Spanish\\'s pronoun system",
+        "target_slug": "spanish-pronouns",
+        "independent_reason": "The bridge concerns third-person indirect-object ambiguity, not regional subject forms. The target lists le/les for indirect objects; source examples explain formal usted and sex ambiguity.",
+        "target_quote": "indirect object pronouns (*me, te, le, nos, os, les*)",
+        "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-lingo-b8-review/src/data/guides.ts",
+        "target_sha256": "59df45acabe3433632268ba4b811f4d3cedcdf62e5b0241a32a81af38f746359"
+      }
+    ],
+    "current_candidates": [
+      {
+        "source": "body",
+        "sentence": "*Le* and *les* are genuinely ambiguous on their own: *le gusta* could mean \"he likes it,\" \"she likes it,\" or \"you (formal) like it,\" since [Spanish\\'s pronoun system](/spanish-pronouns/) reuses the same third-person indirect object pronoun for all three.",
+        "anchor": "Spanish\\'s pronoun system",
+        "target_slug": "spanish-pronouns"
+      }
+    ],
+    "full_source_body_allFAQ_read": true,
+    "all_original_targets_body_allFAQ_read": true
+  },
+  {
+    "slug": "que-sera-sera-meaning",
+    "original_candidates": [
+      {
+        "source": "body",
+        "sentence": "Italian has its own well-documented loanword that, unlike this one, really is standard Italian: [ciao](/ciao-meaning/) traces to a genuine Venetian phrase, s-ciao vostro, and English absorbed both its hello and goodbye senses intact, a much cleaner borrowing than the invented-sounding grammar behind que sera sera.",
+        "anchor": "ciao",
+        "target_slug": "ciao-meaning",
+        "independent_reason": "The revised ciao sentence identifies a separate Italian greeting/farewell borrowing. It removes the unsupported cleaner-borrowing judgment and does not use ciao history to prove the motto’s grammar.",
+        "target_quote": "Ciao Meaning: From \"I Am Your Slave\" to Hello and Goodbye",
+        "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-lingo-b8-review/src/data/guides.ts",
+        "target_sha256": "308132a66d091d41db015f29267c2eadbed28d2f614d5073d07610c2ba33ebd0"
+      },
+      {
+        "source": "body",
+        "sentence": "It\\'s the kind of gap that shows up whenever a phrase gets borrowed for its sound rather than checked against a grammar book, similar in spirit to how English adopted French [voilà](/voila-meaning/) for its dramatic-reveal flourish while dropping the distinction voilà originally drew against its counterpart voici.",
+        "anchor": "voilà",
+        "target_slug": "voila-meaning",
+        "independent_reason": "Voilà is only a separate English interjection from French. The revised sentence expressly refuses to infer identical borrowing processes or popularity causes. Target dictionary description supports this limited identity.",
+        "target_quote": "Merriam-Webster lists the English interjection for drawing attention, expressing approval or suggesting a magical appearance.",
+        "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-lingo-b7-review/src/data/guides.ts",
+        "target_sha256": "26880508fdb7d5ef057ea5cc736bea00808c31cc20af982f3e79662845dba6ea"
+      },
+      {
+        "source": "body",
+        "sentence": "It didn\\'t start as an attempt at authentic Spanish or Italian at all; it started as an English motto borrowing the sound of Romance-language grammar without fully importing its rules, the same way [semper fi](/semper-fi-meaning/) started as a Latin motto centuries before the Marine Corps made it their own in 1883.",
+        "anchor": "semper fi",
+        "target_slug": "semper-fi-meaning",
+        "independent_reason": "The target records the Marine Corps 1883 adoption. Revised source separates Semper fidelis history from intentions behind the English heraldic motto; neither establishes the other’s first adopter’s motives.",
+        "target_quote": "sole official motto in 1883",
+        "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-lingo-b8-review/src/data/guides.ts",
+        "target_sha256": "e83d0a34c8009be88c7dcdd87bc14e117d7dccd2f700997ed07fc61dee32406b"
+      }
+    ],
+    "current_candidates": [
+      {
+        "source": "body",
+        "sentence": "[Voilà](/voila-meaning/) supplies another example of an English interjection from French, but its dictionary uses do not establish the same borrowing process or show why que sera sera became popular.",
+        "anchor": "Voilà",
+        "target_slug": "voila-meaning"
+      }
+    ],
+    "full_source_body_allFAQ_read": true,
+    "all_original_targets_body_allFAQ_read": true
+  },
+  {
+    "slug": "spanish-future-perfect",
+    "original_candidates": [
+      {
+        "source": "body",
+        "sentence": "That gap between the literal English translation and the actual meaning is the single biggest trap in this tense, and it mirrors a trap Spanish\\'s [simple future tense sets for the exact same reason](/spanish-future-tense/): both tenses can drop their future meaning entirely and turn into a guess instead.",
+        "anchor": "simple future tense sets for the exact same reason",
+        "target_slug": "spanish-future-tense",
+        "independent_reason": "Target explains conjectural simple-future readings. Source retains the shared modal use, removing the unsupported biggest-trap and frequency ranking.",
+        "target_quote": "using the future tense to guess about something happening right now",
+        "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-lingo-b8-review/src/data/guides.ts",
+        "target_sha256": "7862a82541c35fa74184d8d9fe6e096a3c176492b23a351738f9863229acb644"
+      },
+      {
+        "source": "body",
+        "sentence": "This is the exact same modal trick Spanish\\'s [simple future tense uses to guess about right now](/spanish-future-tense/), just aimed one step further back: it targets something already finished, not something unfolding this very moment. *Serán las tres* guesses about the present; *habrán llegado* guesses about the past.",
+        "anchor": "simple future tense uses to guess about right now",
+        "target_slug": "spanish-future-tense",
+        "independent_reason": "The present conjecture Serán las tres is a limited parallel to completed-event habrán llegado. Target’s present uncertainty supports this distinction; it is not a claim of identical temporal semantics.",
+        "target_quote": "using the future tense to guess about something happening right now",
+        "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-lingo-b8-review/src/data/guides.ts",
+        "target_sha256": "7862a82541c35fa74184d8d9fe6e096a3c176492b23a351738f9863229acb644"
+      },
+      {
+        "source": "body",
+        "sentence": "[German\\'s Perfekt builds the same way](/german-perfect-tense/), a present-tense haben or sein plus an unchanging Partizip II, though the two languages\\' compound tenses don\\'t line up use-for-use beyond that shared architecture.",
+        "anchor": "German\\'s Perfekt builds the same way",
+        "target_slug": "german-perfect-tense",
+        "independent_reason": "Target describes present haben/sein and Partizip II. Source confines similarity to auxiliary-plus-participle formation and explicitly disclaims use-for-use equivalence.",
+        "target_quote": "The German Perfekt combines a present-tense form of haben or sein with a Partizip II",
+        "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-lingo-b8-review/src/data/guides.ts",
+        "target_sha256": "ece3327e8da565ac55f7abc97f038b7d9d674c828affe4604d4e806118148dac"
+      }
+    ],
+    "current_candidates": [],
+    "full_source_body_allFAQ_read": true,
+    "all_original_targets_body_allFAQ_read": true
+  },
+  {
+    "slug": "senpai-meaning",
+    "original_candidates": [
+      {
+        "source": "body",
+        "sentence": "That\\'s a fairly rare trajectory for a meme-driven usage: most internet slang never reaches a major dictionary at all, unlike older borrowings such as [schadenfreude](/schadenfreude-meaning/), which entered English decades ago through ordinary usage rather than a meme.",
+        "anchor": "schadenfreude",
+        "target_slug": "schadenfreude-meaning",
+        "independent_reason": "Schadenfreude denotes enjoyment of another’s misfortune and is a German borrowing. Source removes alleged rare meme-to-dictionary trajectory and uses a different-history identity link only.",
+        "target_quote": "English uses the German borrowing.",
+        "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-lingo-b8-review/src/data/guides.ts",
+        "target_sha256": "93a98041f01322a9f1f04cd7b381526d002ac2f1d44b9ec174ed9cc9645bd2b7"
+      }
+    ],
+    "current_candidates": [],
+    "full_source_body_allFAQ_read": true,
+    "all_original_targets_body_allFAQ_read": true
+  },
+  {
+    "slug": "schadenfreude-meaning",
+    "original_candidates": [
+      {
+        "source": "body",
+        "sentence": "It sits in the same category as words like [déjà vu](/deja-vu-meaning/) and [senpai](/senpai-meaning/), borrowed expressions English uses in their original form.",
+        "anchor": "déjà vu",
+        "target_slug": "deja-vu-meaning",
+        "independent_reason": "Déjà vu is documented as a French borrowing in English. The bridge concerns retained word form; it does not endorse target’s neurological mechanisms or claim all French meanings survived.",
+        "target_quote": "Déjà vu literally means \"already seen\" in French.",
+        "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-lingo-b8-review/src/data/guides.ts",
+        "target_sha256": "697fd7b8c00f719efa13737f13538d36f0799723c306bbb6eceaa6b6a978a17e"
+      },
+      {
+        "source": "body",
+        "sentence": "It sits in the same category as words like [déjà vu](/deja-vu-meaning/) and [senpai](/senpai-meaning/), borrowed expressions English uses in their original form.",
+        "anchor": "senpai",
+        "target_slug": "senpai-meaning",
+        "independent_reason": "Target documents English senpai including an older Japanese-arts sense and fandom use. Shared original word form does not mean unchanged meaning. Daijisen broader Japanese meanings now prevent tenancy-only generalization.",
+        "target_quote": "English uses include a senior member or mentor in Japanese arts as well as fandom slang",
+        "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-lingo-b8-review/src/data/guides.ts",
+        "target_sha256": "be4c6144453fe3728062d5e99319080c2131387166764bcffdff3486279d0450"
+      }
+    ],
+    "current_candidates": [
+      {
+        "source": "body",
+        "sentence": "It sits in the same category as words like [déjà vu](/deja-vu-meaning/) and [senpai](/senpai-meaning/), borrowed expressions English uses in their original form.",
+        "anchor": "déjà vu",
+        "target_slug": "deja-vu-meaning"
+      },
+      {
+        "source": "body",
+        "sentence": "It sits in the same category as words like [déjà vu](/deja-vu-meaning/) and [senpai](/senpai-meaning/), borrowed expressions English uses in their original form.",
+        "anchor": "senpai",
+        "target_slug": "senpai-meaning"
+      }
+    ],
+    "full_source_body_allFAQ_read": true,
+    "all_original_targets_body_allFAQ_read": true
+  },
+  {
+    "slug": "de-nada-meaning",
+    "original_candidates": [],
+    "current_candidates": [],
+    "full_source_body_allFAQ_read": true,
+    "all_original_targets_body_allFAQ_read": true
+  },
+  {
+    "slug": "spanish-possessive-adjectives",
+    "original_candidates": [
+      {
+        "source": "body",
+        "sentence": "That kind of near-invisible marking has a parallel one tense over: [the Spanish present tense](/spanish-present-tense-endings/) is the one tense RAE\\'s own grammar treats as carrying no audible time marker at all, unlike the accent-bearing possessive pair above, where a single written stroke is the entire difference between two words.",
+        "anchor": "the Spanish present tense",
+        "target_slug": "spanish-present-tense-endings",
+        "independent_reason": "Target discusses present zero tense morphology. Source treats that as a separate concept from mi/mí orthographic and stress distinction, removing supposed identical marking mechanism.",
+        "target_quote": "morfema cero (zero morpheme)",
+        "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-lingo-b8-review/src/data/guides.ts",
+        "target_sha256": "fc530fdcd190fb2654d52c689094a82b821620bd8be96c88abe5b32c62913151"
+      },
+      {
+        "source": "body",
+        "sentence": "Vuestro exists because Spain keeps a real register split in the plural \"you\": informal vosotros/vosotras against formal ustedes, [covered in full for the subject-pronoun side of this same split](/spanish-pronouns/).",
+        "anchor": "covered in full for the subject-pronoun side of this same split",
+        "target_slug": "spanish-pronouns",
+        "independent_reason": "Target expressly gives vosotros versus ustedes contrast. Source now scopes to varieties actually using that contrast and removes exists-because historical causation. Notes quote this subject section, never le/les.",
+        "target_quote": "Spain distinguishes informal *vosotros/vosotras* from formal *ustedes*",
+        "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-lingo-b8-review/src/data/guides.ts",
+        "target_sha256": "59df45acabe3433632268ba4b811f4d3cedcdf62e5b0241a32a81af38f746359"
+      }
+    ],
+    "current_candidates": [
+      {
+        "source": "body",
+        "sentence": "The [Spanish present-tense guide](/spanish-present-tense-endings/) discusses a separate concept, a zero tense morpheme; it is not the same distinction as mi versus mí.",
+        "anchor": "Spanish present-tense guide",
+        "target_slug": "spanish-present-tense-endings"
+      },
+      {
+        "source": "body",
+        "sentence": "Where informal vosotros/vosotras is used alongside formal ustedes, vuestro usually accompanies the informal plural, [covered in full for the subject-pronoun side of this same split](/spanish-pronouns/).",
+        "anchor": "covered in full for the subject-pronoun side of this same split",
+        "target_slug": "spanish-pronouns"
+      }
+    ],
+    "full_source_body_allFAQ_read": true,
+    "all_original_targets_body_allFAQ_read": true
+  },
+  {
+    "slug": "maknae-meaning",
+    "original_candidates": [],
+    "current_candidates": [],
+    "full_source_body_allFAQ_read": true,
+    "all_original_targets_body_allFAQ_read": true
+  }
+]

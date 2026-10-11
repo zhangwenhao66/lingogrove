@@ -1,0 +1,188 @@
+{
+  "status": "PASS_after_followup_pending_parent_diff_review",
+  "base_commit": "de937f1",
+  "original_source_count": 8,
+  "original_candidates_actual": 12,
+  "original_targets": 10,
+  "full_source_body_allFAQ": true,
+  "full_original_target_body_allFAQ": true,
+  "original_diff_read": "all1–680 (actualfile endsbefore680; alloutputread)",
+  "source_read_map": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/lingo-b8-review/read-map.json",
+  "target_map": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/lingo-b8-review/target-map.json",
+  "svg_complete_XML_and_actual_PNG_viewed": [
+    "verbs-like-gustar",
+    "que-sera-sera-meaning",
+    "spanish-possessive-adjectives",
+    "maknae-meaning"
+  ],
+  "svg_changed": 0,
+  "changed_sources": [
+    "verbs-like-gustar",
+    "spanish-future-perfect",
+    "senpai-meaning",
+    "schadenfreude-meaning",
+    "de-nada-meaning",
+    "spanish-possessive-adjectives",
+    "maknae-meaning"
+  ],
+  "checks": {
+    "verbs-like-gustar": {
+      "prose": 0,
+      "bridge": 0,
+      "build": 0
+    },
+    "spanish-future-perfect": {
+      "prose": 0,
+      "bridge": 0,
+      "build": 0
+    },
+    "senpai-meaning": {
+      "prose": 0,
+      "bridge": 0,
+      "build": 0
+    },
+    "schadenfreude-meaning": {
+      "prose": 0,
+      "bridge": 0,
+      "build": 0
+    },
+    "de-nada-meaning": {
+      "prose": 0,
+      "bridge": 0,
+      "build": 0
+    },
+    "spanish-possessive-adjectives": {
+      "prose": 0,
+      "bridge": 0,
+      "build": 0
+    },
+    "maknae-meaning": {
+      "prose": 0,
+      "bridge": 0,
+      "build": 0
+    }
+  },
+  "unchanged_que_sera_checks": {
+    "prose": 0,
+    "bridge": 0
+  },
+  "FAQ_questions_counts_whole_internal_URL_sequence_preserved": {
+    "verbs-like-gustar": {
+      "FAQ_count_unchanged": true,
+      "FAQ_questions_unchanged": true,
+      "whole_block_internal_URL_sequence_unchanged": true,
+      "source_sha256": "c9844c83483db90418fe542f3d3a12c0d92dd5248b6c9efd030d12e92e790092"
+    },
+    "que-sera-sera-meaning": {
+      "FAQ_count_unchanged": true,
+      "FAQ_questions_unchanged": true,
+      "whole_block_internal_URL_sequence_unchanged": true,
+      "source_sha256": "fd62f75eb20e69b18aad620493684981ba84f37d2332b186aff7bc0d3d727a7b"
+    },
+    "spanish-future-perfect": {
+      "FAQ_count_unchanged": true,
+      "FAQ_questions_unchanged": true,
+      "whole_block_internal_URL_sequence_unchanged": true,
+      "source_sha256": "75443040d2c0fe344b12787cf3cc33ee4d4a1b95da1ca551423be7edfe87e0ee"
+    },
+    "senpai-meaning": {
+      "FAQ_count_unchanged": true,
+      "FAQ_questions_unchanged": true,
+      "whole_block_internal_URL_sequence_unchanged": true,
+      "source_sha256": "be4c6144453fe3728062d5e99319080c2131387166764bcffdff3486279d0450"
+    },
+    "schadenfreude-meaning": {
+      "FAQ_count_unchanged": true,
+      "FAQ_questions_unchanged": true,
+      "whole_block_internal_URL_sequence_unchanged": true,
+      "source_sha256": "93a98041f01322a9f1f04cd7b381526d002ac2f1d44b9ec174ed9cc9645bd2b7"
+    },
+    "de-nada-meaning": {
+      "FAQ_count_unchanged": true,
+      "FAQ_questions_unchanged": true,
+      "whole_block_internal_URL_sequence_unchanged": true,
+      "source_sha256": "46a71cac6baef95a85d38cbed998597a598d14a2e092e728cfa91a7a4071f91a"
+    },
+    "spanish-possessive-adjectives": {
+      "FAQ_count_unchanged": true,
+      "FAQ_questions_unchanged": true,
+      "whole_block_internal_URL_sequence_unchanged": true,
+      "source_sha256": "c31b820a0b1201cb90904c7ee76ffbea39fb7898f06680ba0bc32e97aab5decc"
+    },
+    "maknae-meaning": {
+      "FAQ_count_unchanged": true,
+      "FAQ_questions_unchanged": true,
+      "whole_block_internal_URL_sequence_unchanged": true,
+      "source_sha256": "240c10919152bea10818510fa725d86fbaae494187fd6ed7c5e4b68128cc958c"
+    }
+  },
+  "new_notes": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/lingo-b8-review/notes",
+  "manual_original_candidate_checks": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/lingo-b8-review/manual-bridges.json",
+  "primary": [
+    {
+      "url": "https://kotobank.jp/word/%E5%85%88%E8%BC%A9-551038",
+      "coverage": "Whole Daijisen headword definition 16–23; Nikkoku definitions/citations 27–39; Jitsu 40–48 actually read web",
+      "finding": "Broader seniority in age/standing/experience/learning/skill plus earlier same-school/workplace entry. No universal same-group or tenure-only definition."
+    },
+    {
+      "url": "https://www.rae.es/dpd/pronombres%20personales%20%C3%A1tonos",
+      "coverage": "Body sections 1–7 lines8–102 web read; relevant duplication5.1/5.2a58–68",
+      "finding": "Stressed personal-object pronoun requires clitic; gustar usually doubles but universal quantifiers todo/nadie allow omission. America/Canaries/partsAndalusia ustedes bothregisters."
+    },
+    {
+      "url": "https://www.rae.es/gtg/verbo-psicol%C3%B3gico",
+      "coverage": "Whole headword6–20 web",
+      "finding": "Experiencer as subject with amar/temer; indirect object gustar; some ACC/DAT alternation."
+    },
+    {
+      "url": "https://www.merriam-webster.com/dictionary/schadenfreude",
+      "coverage": "Headword31–48/history56–68 web",
+      "finding": "Lowercase entry plus often capitalized variant; careful English writing not exclusively German noun capitalization."
+    },
+    {
+      "url": "https://www.merriam-webster.com/dictionary/gloat",
+      "coverage": "Verb definition31–58; noun60–65 and examples66–78 web",
+      "finding": "Think/observe with satisfaction; need not display or cause misfortune."
+    },
+    {
+      "url": "https://www.rae.es/dpd/fre%C3%ADr",
+      "coverage": "Whole lexicalentry7–14 web",
+      "finding": "Both participles compounds/passive; irregular generally common, adjective almostexclusive frito; no future/past choice rule."
+    },
+    {
+      "url": "https://www.rae.es/dpd/imprimir",
+      "coverage": "Whole lexicalentry7–10 web",
+      "finding": "Both participles compounds/passive, preferimpreso especiallyAmerica andadjective; no timeassignment."
+    },
+    {
+      "url": "https://www.rae.es/gtg/futuro-compuesto-de-indicativo",
+      "coverage": "Whole lexicalheadword6–20 web",
+      "finding": "Future anteriority and frequent supposition; no frequency comparison table."
+    },
+    {
+      "url": "https://www.rae.es/gram%C3%A1tica/sintaxis/propiedades-fundamentales-de-los-posesivos",
+      "coverage": "Full18.2a–ñ11–75 web",
+      "finding": "Regional indefinite article+possessive18.2m valid."
+    },
+    {
+      "url": "https://www.rae.es/buen-uso-espa%C3%B1ol/los-posesivos-caracterizaci%C3%B3n-y-formas",
+      "coverage": "Completechapter4–54 web",
+      "finding": "Formsagreementandambiguity confirmed."
+    },
+    {
+      "path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/lingo-b8-primary/senpai.txt",
+      "coverage": "lines1–145 English entry meanings and three citations; subsequent translation list not needed/not claimed read",
+      "finding": "1974 citation and mentor + fandom senses not firstEnglish1999 nor solelymeme"
+    },
+    {
+      "path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/lingo-b8-primary/maknae.txt",
+      "coverage": "lines1–180 whole article through Selected readings; comments not claimedread",
+      "finding": "Mair discussion quotes OED hyung masculine speaker/oldermale; maknae youngest ratherthan newest, contrasts indigenous/SinoKorean."
+    }
+  ],
+  "english_chain": {
+    "receipt": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/skill-receipt.json",
+    "execution": "humanizer then avoid-ai-writing applied to seven narrow rewritten texts; final facts, names, numbers, quotes, links checked against sources; no invented first-hand claims"
+  },
+  "spread": "Language lexeme/grammar scoped primarily Lingo; parent handling 5 historical targets in B9. Reported new same-word claims and clitic exceptions to root for final integration checks. Original dirty checkout and root WTs untouched; no push."
+}

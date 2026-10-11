@@ -1,0 +1,62 @@
+[
+  {
+    "url": "https://kotobank.jp/word/%E5%85%88%E8%BC%A9-551038",
+    "coverage": "Whole Daijisen headword definition 16–23; Nikkoku definitions/citations 27–39; Jitsu 40–48 actually read web",
+    "finding": "Broader seniority in age/standing/experience/learning/skill plus earlier same-school/workplace entry. No universal same-group or tenure-only definition."
+  },
+  {
+    "url": "https://www.rae.es/dpd/pronombres%20personales%20%C3%A1tonos",
+    "coverage": "Body sections 1–7 lines8–102 web read; relevant duplication5.1/5.2a58–68",
+    "finding": "Stressed personal-object pronoun requires clitic; gustar usually doubles but universal quantifiers todo/nadie allow omission. America/Canaries/partsAndalusia ustedes bothregisters."
+  },
+  {
+    "url": "https://www.rae.es/gtg/verbo-psicol%C3%B3gico",
+    "coverage": "Whole headword6–20 web",
+    "finding": "Experiencer as subject with amar/temer; indirect object gustar; some ACC/DAT alternation."
+  },
+  {
+    "url": "https://www.merriam-webster.com/dictionary/schadenfreude",
+    "coverage": "Headword31–48/history56–68 web",
+    "finding": "Lowercase entry plus often capitalized variant; careful English writing not exclusively German noun capitalization."
+  },
+  {
+    "url": "https://www.merriam-webster.com/dictionary/gloat",
+    "coverage": "Verb definition31–58; noun60–65 and examples66–78 web",
+    "finding": "Think/observe with satisfaction; need not display or cause misfortune."
+  },
+  {
+    "url": "https://www.rae.es/dpd/fre%C3%ADr",
+    "coverage": "Whole lexicalentry7–14 web",
+    "finding": "Both participles compounds/passive; irregular generally common, adjective almostexclusive frito; no future/past choice rule."
+  },
+  {
+    "url": "https://www.rae.es/dpd/imprimir",
+    "coverage": "Whole lexicalentry7–10 web",
+    "finding": "Both participles compounds/passive, preferimpreso especiallyAmerica andadjective; no timeassignment."
+  },
+  {
+    "url": "https://www.rae.es/gtg/futuro-compuesto-de-indicativo",
+    "coverage": "Whole lexicalheadword6–20 web",
+    "finding": "Future anteriority and frequent supposition; no frequency comparison table."
+  },
+  {
+    "url": "https://www.rae.es/gram%C3%A1tica/sintaxis/propiedades-fundamentales-de-los-posesivos",
+    "coverage": "Full18.2a–ñ11–75 web",
+    "finding": "Regional indefinite article+possessive18.2m valid."
+  },
+  {
+    "url": "https://www.rae.es/buen-uso-espa%C3%B1ol/los-posesivos-caracterizaci%C3%B3n-y-formas",
+    "coverage": "Completechapter4–54 web",
+    "finding": "Formsagreementandambiguity confirmed."
+  },
+  {
+    "path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/lingo-b8-primary/senpai.txt",
+    "coverage": "lines1–145 English entry meanings and three citations; subsequent translation list not needed/not claimed read",
+    "finding": "1974 citation and mentor + fandom senses not firstEnglish1999 nor solelymeme"
+  },
+  {
+    "path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/lingo-b8-primary/maknae.txt",
+    "coverage": "lines1–180 whole article through Selected readings; comments not claimedread",
+    "finding": "Mair discussion quotes OED hyung masculine speaker/oldermale; maknae youngest ratherthan newest, contrasts indigenous/SinoKorean."
+  }
+]
