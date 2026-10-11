@@ -60,7 +60,7 @@
 
 	<!-- TAM comparison strip -->
 	<rect x="42" y="360" width="716" height="330" rx="8" fill="#f0ede0" stroke="#ddd8c4"/>
-	<text x="400" y="388" text-anchor="middle" fill="#5a5648" font-size="12" font-weight="700">SAME ROOT, THREE TENSES — ONLY TWO HAVE AN AUDIBLE TIME MARKER</text>
+	<text x="400" y="388" text-anchor="middle" fill="#5a5648" font-size="12" font-weight="700">ONE ANALYSIS OF TENSE MARKING IN THREE FORMS</text>
 
 	<!-- Present row -->
 	<rect x="62" y="410" width="676" height="72" rx="6" fill="#fffefa" stroke="#ddd8c4"/>
@@ -68,17 +68,17 @@
 	<text x="82" y="464" fill="#201f1a" font-size="20" font-weight="700">habl<tspan fill="#b5570f">o</tspan></text>
 	<rect x="220" y="444" width="60" height="26" rx="4" fill="none" stroke="#8a8672" stroke-width="1.5" stroke-dasharray="3,3"/>
 	<text x="250" y="461" text-anchor="middle" fill="#8a8672" font-size="10">(empty)</text>
-	<text x="470" y="452" text-anchor="middle" fill="#5a5648" font-size="12">RAE's own grammar glossary calls this a</text>
+	<text x="470" y="452" text-anchor="middle" fill="#5a5648" font-size="12">The RAE glossary describes this analysis:</text>
 	<text x="470" y="470" text-anchor="middle" fill="#5a5648" font-size="12"><tspan font-style="italic" fill="#b5570f" font-weight="700">morfema cero</tspan> — a zero morpheme</text>
 
 	<!-- Future row -->
 	<rect x="62" y="494" width="676" height="72" rx="6" fill="#fffefa" stroke="#ddd8c4"/>
 	<text x="82" y="520" fill="#5a5648" font-size="11" font-weight="700">FUTURE</text>
-	<text x="82" y="548" fill="#201f1a" font-size="20" font-weight="700">hablar<tspan fill="#204a31">é</tspan></text>
+	<text x="82" y="548" fill="#201f1a" font-size="20" font-weight="700">habla<tspan fill="#204a31">ré</tspan></text>
 	<rect x="220" y="528" width="60" height="26" rx="4" fill="#eaf1ea" stroke="#2f6b47" stroke-width="1.5"/>
-	<text x="250" y="545" text-anchor="middle" fill="#204a31" font-size="13" font-weight="700">-é</text>
-	<text x="470" y="536" text-anchor="middle" fill="#5a5648" font-size="12">an audible chunk fossilized from</text>
-	<text x="470" y="554" text-anchor="middle" fill="#5a5648" font-size="12">Latin <tspan font-style="italic">habere</tspan>, "to have"</text>
+	<text x="250" y="545" text-anchor="middle" fill="#204a31" font-size="13" font-weight="700">-ré</text>
+	<text x="470" y="536" text-anchor="middle" fill="#5a5648" font-size="12">an overt future tense segment</text>
+	<text x="470" y="554" text-anchor="middle" fill="#5a5648" font-size="12">in this grammatical analysis</text>
 
 	<!-- Imperfect row -->
 	<rect x="62" y="578" width="676" height="72" rx="6" fill="#fffefa" stroke="#ddd8c4"/>

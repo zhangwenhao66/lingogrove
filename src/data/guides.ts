@@ -342,7 +342,7 @@ export const guides: Guide[] = [
 		title: 'Déjà Vu Meaning: What It Actually Means (And Where the Phrase Comes From)',
 		description: 'Déjà vu literally means "already seen" in French. French dictionaries also record an everyday sense of unoriginality; English dictionaries include a familiar or unwelcome repetition as well.',
 		published: '2026-08-03',
-		updated: '2026-10-11',
+		updated: '2026-10-12',
 		coreSummary: 'In English, "déjà vu" can name the eerie feeling of having already experienced a new situation. Merriam-Webster also records an overly or unpleasantly familiar repetition. French dictionaries cover the memory illusion and an everyday criticism of something banal or unoriginal.',
 		language: 'French',
 		usageNote: {
@@ -367,8 +367,8 @@ export const guides: Guide[] = [
 			{
 				heading: 'What\'s actually happening when you get it',
 				body: [
-					'Déjà vu is a studied, mainstream topic in memory research, not a fringe idea. One line of explanation treats it as a momentary miscommunication between the brain\'s temporal lobe, where memories are stored, and the hippocampus, which handles short-term memory: essentially a signal-timing glitch that makes a brand-new scene register briefly as familiar. Other explanations point to inattentiveness during a similar past experience, a partially forgotten memory being triggered by a few matching details, or a minor processing error rather than any dramatic mix-up.',
-					'What research does not support is the idea that déjà vu means something is wrong with you: on its own, an occasional déjà vu experience is common and unremarkable. Frequent or prolonged episodes are sometimes discussed alongside certain neurological conditions in clinical literature, which is a separate topic from the ordinary, occasional version almost everyone experiences. It\'s worth raising with a doctor if it becomes frequent, not something to self-diagnose from a word-meaning page.',
+					"Déjà vu is studied in memory research. Proposed explanations include a mismatch between familiarity and recollection, or partial resemblance to an earlier experience. The hippocampus is part of the medial temporal lobe and participates in memory; separating it from a supposed temporal-lobe memory store does not accurately describe that anatomy. A 2018 imaging study examined hippocampal subfields, but found no statistically significant volume difference between its healthy groups with and without déjà vu. It did not establish a timing glitch as the cause of an ordinary episode.",
+					"An isolated feeling of familiarity need not imply a neurological disorder. Clinical advice nevertheless depends on the pattern and accompanying symptoms. Repeated or unusually long experiences, or an episode accompanied by impaired awareness or other neurological symptoms, warrant a discussion with a clinician. A definition of the phrase cannot determine the cause of an individual episode.",
 				],
 			},
 			{
@@ -390,7 +390,7 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'Is déjà vu a sign that something is wrong with your brain?',
-				answer: 'No, a passing episode now and then is ordinary and nothing to worry about. Memory researchers treat it as a normal quirk of how the brain works, not a warning sign. Bring it up with a doctor only if the episodes turn frequent or drag on, a different question entirely from the everyday version most people run into occasionally.',
+				answer: "An occasional brief episode is common and is not necessarily a sign of illness. Cleveland Clinic advises discussing episodes that happen repeatedly or last longer with a healthcare provider. Other symptoms matter too: a confused state, headaches, weakness, awareness lapses or signs resembling a seizure should also be assessed, even if the déjà vu is not frequent.",
 			},
 			{
 				question: 'What\'s the opposite of déjà vu called?',
@@ -398,6 +398,7 @@ export const guides: Guide[] = [
 			},
 		],
 		sources: [
+			{ label: "Cleveland Clinic, Déjà Vu: What It Is and When It May Be Cause for Concern", url: "https://health.clevelandclinic.org/deja-vu-what-it-is-and-when-it-may-be-cause-for-concern" },
 			{ label: 'Larousse, Définitions: "déjà-vu"', url: 'https://www.larousse.fr/dictionnaires/francais/d%C3%A9j%C3%A0-vu/22991' },
 			{ label: 'Merriam-Webster, "deja vu"', url: 'https://www.merriam-webster.com/dictionary/deja%20vu' },
 			{ label: 'Cleveland Clinic, "What Is Jamais Vu?"', url: 'https://health.clevelandclinic.org/jamais-vu' },
@@ -1293,10 +1294,10 @@ export const guides: Guide[] = [
 		slug: 'spanish-future-tense',
 		category: 'Grammar',
 		title: 'Spanish Future Tense: Ir a + Infinitive vs. the Simple Future',
-		description: 'Spanish has two ways to talk about the future, and picking the "wrong" one isn\'t just a style slip. One of them barely means future at all in half its real uses.',
+		description: "Spanish uses ir a + infinitive and the simple future for later events. The simple future can also express a guess about the present, depending on context.",
 		published: '2026-08-05',
-		updated: '2026-10-11',
-		coreSummary: 'Spanish uses two distinct constructions for the future: the periphrasis ir a + infinitive (voy a llamar), which now dominates everyday speech, and the simple future tense (llamaré), built by adding one set of endings, historically fused from the present tense of haber, directly onto the infinitive. Per the Real Academia Española, the simple future is increasingly replaced by ir a + infinitive in spoken American Spanish, but it survives specifically for the futuro de conjetura (guessing about the present, as in Serán las tres, "it\'s probably three") and for formal, literary, and legal registers: a modal use that has no future-tense meaning in English at all.',
+		updated: '2026-10-12',
+		coreSummary: "Spanish uses two distinct constructions for the future: the periphrasis ir a + infinitive (voy a llamar), which is common in speech, and the simple future tense (llamaré), built by adding one set of endings, historically fused from the present tense of haber, directly onto the infinitive. Per the Real Academia Española, the simple future is increasingly replaced by ir a + infinitive in spoken American Spanish, and it also expresses the futuro de conjetura (guessing about the present, as in Serán las tres, \"it's probably three\") while remaining in formal, literary and legal registers. The conjecture use concerns present uncertainty rather than later time. English will can also have modal uses, though translations depend on context.",
 		language: 'Spanish',
 		sections: [
 			{
@@ -1334,7 +1335,7 @@ export const guides: Guide[] = [
 			{
 				heading: 'The simple future used to be a periphrasis too',
 				body: [
-					'The reason future endings look bolted onto the infinitive rather than woven into it is that, historically, they were a separate word. Latin had lost its own synthetic future forms, and Vulgar Latin rebuilt one by fusing the infinitive with the present tense of *habere* ("to have"): *cantare habeo*, literally "I have to sing," gradually lost its sense of obligation and became a plain future, "I will sing." As the construction fused into a single word, *cantar he* became *cantaré*. Before the fusion was complete, Spanish speakers could still insert a pronoun between the two pieces, as in *cantar lo he* ("I will sing it"), a possibility that disappeared once *cantar he* solidified into one word.',
+					"The reason future endings look bolted onto the infinitive rather than woven into it is that, historically, they were a separate word. The construction developed by combining the infinitive with the present tense of *habere* (\"to have\"): *cantare habeo*, literally \"I have to sing,\" gradually lost its sense of obligation and became a plain future, \"I will sing.\" As the construction fused into a single word, *cantar he* became *cantaré*. Before the fusion was complete, Spanish speakers could still insert a pronoun between the two pieces, as in *cantar lo he* (\"I will sing it\"), a possibility that disappeared once *cantar he* solidified into one word.",
 					'The same process is playing out again, in real time, with *ir a* + infinitive. Spanish built its current simple future by grammaticalizing a periphrasis centuries ago, and today\'s periphrastic future is doing the equivalent job while it slowly displaces the simple future in everyday speech, a cycle documented in RAE\'s own account of *futuros sintéticos y analíticos*.',
 				],
 			},
@@ -1342,21 +1343,21 @@ export const guides: Guide[] = [
 				heading: 'The real trap: future tense that isn\'t about the future',
 				body: [
 					'The simple future has two uses that have nothing to do with predicting what happens later, and both trip up learners because a literal translation misses them entirely. The first is the *futuro de conjetura*: using the future tense to guess about something happening right now. Asked *"¿Dónde está Juan?"*, a Spanish speaker might answer *"Estará en casa"*: not "He will be at home," but "He\'s probably at home." Asked the time with no clock in sight, *"Serán las tres"* means "It\'s probably three," not any statement about a future three o\'clock. RAE gives its own example of the same value: *"Ahora mismo serán las ocho"* ("It\'s probably eight right now"). Italian\'s future has the same job, which is why [sarà often isn\'t about the future at all](/italian-future-tense/).',
-					'The second is modal: a future-tense statement addressed to someone else can function as an order, a warning, or a threat rather than a prediction. RAE\'s own examples cover all three: *"Comprarás el más barato"* ("You will buy the cheapest one," functioning as an instruction), *"Te caerás"* ("You\'ll fall," functioning as a warning), and *"Me las pagarás"* ("You\'ll pay for this," functioning as a threat). None of these are claims about the future; the future tense is doing the work English would hand to a modal verb or a different sentence altogether.',
+					"The second is modal: a future-tense statement addressed to someone else can function as an order, a warning, or a threat as well as referring to a later event. RAE's own examples cover all three: *\"Comprarás el más barato\"* (\"You will buy the cheapest one,\" functioning as an instruction), *\"Te caerás\"* (\"You'll fall,\" functioning as a warning), and *\"Me las pagarás\"* (\"You'll pay for this,\" functioning as a threat). These are pragmatic uses of a future form, and their content can still concern a later event. English \"You will buy the cheapest one\" and \"You'll fall\" can likewise convey an instruction or warning.",
 				],
 			},
 			{
 				heading: 'So which one do you actually reach for?',
 				body: [
-					'For a plan someone has already decided on and is about to act on, *ir a* + infinitive is the default in spoken Spanish, especially across Latin America. RAE notes that the synthetic (simple) future tends to be replaced by the periphrastic future in American Spanish, while remaining common with the conjecture value and in formal registers such as literary, judicial, and administrative Spanish. *Voy a estudiar medicina* reads as a plan already in motion; *Estudiaré medicina* reads more like a vow or a prediction, and turns up more often in writing, formal speech, or Spain than in casual conversation elsewhere.',
-					'Reach for the simple future specifically when the sentence is a promise, a prediction about something uncertain, a formal or written statement, or a guess about what\'s true right now. Everywhere else, *ir a* + infinitive is the safer, more natural default, and it\'s the one native speakers reach for first.',
+					"For a plan someone has already decided on and is about to act on, *ir a* + infinitive is common in spoken Spanish. RAE notes that the synthetic (simple) future tends to be replaced by the periphrastic future in American Spanish, while remaining common with the conjecture value and in formal registers such as literary, judicial, and administrative Spanish. *Voy a estudiar medicina* can describe a plan; *Estudiaré medicina* can express a plan, promise or prediction; the context and variety of Spanish affect the choice.",
+					"The simple future can express a promise, prediction, formal statement or conjecture about the present. Ir a + infinitive also expresses future events and is common in conversation. Choose between them by considering the intended meaning and local usage, rather than treating one as the correct form for every plan.",
 				],
 			},
 		],
 		faq: [
 			{
 				question: 'Is "voy a hablar" just a casual version of "hablaré"?',
-				answer: 'Not really — think of them as two tools with different jobs rather than two registers of the same one. Both frame something still ahead of you, and ir a + infinitive dominates ordinary talk by a wide margin. But the conjugated form covers ground the periphrasis leaves untouched: floating a hunch about what\'s going on this instant (Serán las tres, roughly "it must be three right now"), and turning a plain statement into a command, a caution, or a threat instead of a forecast. Neither of those maps onto "future" in English, so "casual vs. formal" undersells the real gap.',
+				answer: "No. Formality matters, but meaning matters too. Hablaré may predict later speech; Estará trabajando can instead suggest that he is probably working now. Context decides the reading. Orders and warnings are further possibilities, without removing every reference to a later action. English will has uses beyond prediction as well.",
 			},
 			{
 				question: 'Why do Spanish future-tense endings look the same for -ar, -er, and -ir verbs?',
@@ -1364,7 +1365,7 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'Why do verbs like tener and poner change their stem in the future tense?',
-				answer: 'Twelve verbs shorten or alter the infinitive before adding the future endings. Five drop the final vowel (poder → podr-, saber → sabr-, caber → cabr-, querer → querr-, haber → habr-), five keep dropping that vowel but slot in a -d- (tener → tendr-, poner → pondr-, salir → saldr-, valer → valdr-, venir → vendr-), and two are irregular outright (decir → dir-, hacer → har-). The endings attached to those stems are the same six regular endings every other verb uses.',
+				answer: "The following dozen familiar verbs shorten or alter the infinitive before adding the future endings. Five drop the final vowel (poder → podr-, saber → sabr-, caber → cabr-, querer → querr-, haber → habr-), five keep dropping that vowel but slot in a -d- (tener → tendr-, poner → pondr-, salir → saldr-, valer → valdr-, venir → vendr-), and two are irregular outright (decir → dir-, hacer → har-). The endings attached to those stems are the same six regular endings every other verb uses.",
 			},
 			{
 				question: 'Does "estará" always mean "will be"?',
@@ -1662,7 +1663,7 @@ export const guides: Guide[] = [
 			{
 				heading: 'One search term, seven different grammatical jobs',
 				body: [
-					'"Spanish pronouns" isn\'t one grammar topic. The first six families have different jobs; relative pronouns add a seventh, linking clauses. A subject pronoun (*yo*, *tú*) tells you who\'s performing the verb. An object pronoun (*lo*, *le*) tells you who or what is receiving the action. A reflexive pronoun (*se*) tells you the subject and the object are the same entity. A prepositional pronoun (*mí*, *conmigo*) only ever follows a preposition. A possessive pronoun (*mío*, *suyo*) stands in for "my [noun]" or "his [noun]" without naming the noun. A demonstrative pronoun (*esto*, *aquello*) points at something without naming it at all.',
+					"\"Spanish pronouns\" isn't one grammar topic. The first six families have different jobs; relative pronouns add a seventh, linking clauses. A subject pronoun (*yo*, *tú*) tells you who's performing the verb. An object pronoun (*lo*, *le*) tells you who or what is receiving the action. A reflexive pronoun (*se*) tells you the subject and the object are the same entity. A prepositional pronoun (*mí*, *conmigo*) is used with prepositions; conmigo already contains con. A possessive pronoun (*mío*, *suyo*) stands in for \"my [noun]\" or \"his [noun]\" without naming the noun. A demonstrative pronoun (*esto*, *aquello*) points at something without naming it at all.",
 					'Some forms recur in more than one family: *me*, *te*, *nos*, and *os* serve as object and reflexive pronouns. Prepositional forms include mí and ti instead. Third-person object choices and regional subject forms are two areas that need separate attention.',
 				],
 				image: {
@@ -1673,9 +1674,9 @@ export const guides: Guide[] = [
 			{
 				heading: 'Subject pronouns: often dropped, and split by region',
 				body: [
-					'The subject pronouns are *yo* (I), *tú* or *vos* (you, informal singular), *usted* (you, formal singular), *él/ella* (he/she), *nosotros/nosotras* (we), *vosotros/vosotras* (you all, Spain informal), *ustedes* (you all), and *ellos/ellas* (they). Spanish conjugates its verbs to mark person and number, so the subject pronoun is frequently dropped entirely: *Hablo español* ("I speak Spanish") already tells you who\'s speaking through the verb ending, and adding *yo* only makes sense for emphasis or contrast.',
-					'Two splits are worth knowing before they cause confusion. First, the plural "you": Spain distinguishes informal *vosotros/vosotras* from formal *ustedes*, while Latin American Spanish drops *vosotros* entirely and uses *ustedes* for both registers, whether the person on the other end is a lifelong friend or someone just met. *Vosotros sois de España* only makes sense in Spain; *Ustedes son de España* works everywhere and is the only option outside Spain.',
-					'Second, *vos* replaces *tú* as the informal "you" across a wide stretch of the Spanish-speaking world, a usage the RAE\'s Diccionario panhispánico de dudas now formally accepts as standard, not substandard, Spanish. It fully displaces *tú* in Argentina and Uruguay, is Paraguay\'s everyday informal form, and shows up regionally in Costa Rica, Nicaragua, parts of El Salvador, and Colombia\'s Paisa region around Medellín. It also carries its own present-tense verb endings, stressed on the last syllable rather than following the *tú* pattern: *vos sos* (not *tú eres*), *vos tenés* (not *tú tienes*), *vos hablás* (not *tú hablas*). Textbooks built around Spain or Mexico often skip *vos* entirely, which is why it surprises learners the first time they hear Argentine Spanish.',
+					"The subject pronouns are *yo* (I), *tú* or *vos* (you, informal singular), *usted* (you, formal singular), *él/ella* (he/she), *nosotros/nosotras* (we), *vosotros/vosotras* (you all, Spain informal), *ustedes* (you all), and *ellos/ellas* (they). Spanish conjugates its verbs to mark person and number, so the subject pronoun is frequently dropped entirely: *Hablo español* (\"I speak Spanish\") already tells you who's speaking through the verb ending, and adding *yo* can emphasize or contrast the speaker, or clarify reference.",
+					"Two splits are worth knowing. First, the plural \"you\": much of Spain distinguishes informal vosotros/vosotras from formal ustedes. The Canary Islands and parts of Andalusia also use ustedes informally. Most of Spanish America uses ustedes for both registers. Vosotros sois de España can address people from Spain wherever they happen to be; its use depends on the speaker and variety of Spanish, not the location of the conversation.",
+					"Second, *vos* replaces *tú* as the informal \"you\" across a wide stretch of the Spanish-speaking world, a usage the RAE's Diccionario panhispánico de dudas now formally accepts as standard, not substandard, Spanish. It predominates in Argentina and Paraguay, coexists with tú in Uruguay, and shows up regionally in Costa Rica, Nicaragua, parts of El Salvador, and Colombia's Paisa region around Medellín. Common River Plate present-tense forms differ from tú: *vos sos* (compared with *tú eres*), *vos tenés* (compared with *tú tienes*), *vos hablás* (compared with *tú hablas*). Textbooks built around Spain or Mexico often skip *vos* entirely, which is why it surprises learners the first time they hear Argentine Spanish.",
 				],
 			},
 			{
@@ -1704,7 +1705,7 @@ export const guides: Guide[] = [
 				heading: 'Possessive pronouns: the same word, two different shapes',
 				body: [
 					'Spanish possessives come in two forms that trade off stress and position. The short, unstressed forms (*mi, tu, su, nuestro, vuestro*, and their plurals) sit before the noun: *Mi casa es grande* ("My house is big"). The long, stressed forms (*mío, tuyo, suyo, nuestro, vuestro*, with full gender and number agreement) come after the noun, or stand entirely on their own with *ser*: *un amigo mío* ("a friend of mine"), *Esta casa es mía* ("This house is mine").',
-					'Both forms agree in gender and number with the thing owned, never with the owner. *Suyo* covers "his," "her," "your (formal)," and "their" without changing shape, because Spanish possessives track only the object, not who possesses it. That\'s exactly why *suyo* on its own is often ambiguous, and why Spanish speakers add a clarifying phrase (*de él, de ella, de usted*) when context doesn\'t settle it. The short prenominal forms get a full breakdown, including why only *nuestro* and *vuestro* mark gender, in [Spanish possessive adjectives](/spanish-possessive-adjectives/).',
+					"Long forms such as mío and suyo agree in gender and number with the thing owned. Short mi, tu and su mark number only; nuestro and vuestro also mark gender. Suyo can refer to \"his,\" \"her,\" \"your (formal),\" or \"their,\" while taking the forms suyo, suya, suyos or suyas to match the possessed noun. That's exactly why *suyo* on its own is often ambiguous, and why Spanish speakers add a clarifying phrase (*de él, de ella, de usted*) when context doesn't settle it. The short prenominal forms get a full breakdown, including why only *nuestro* and *vuestro* mark gender, in [Spanish possessive adjectives](/spanish-possessive-adjectives/).",
 				],
 			},
 			{
@@ -1717,7 +1718,7 @@ export const guides: Guide[] = [
 			{
 				heading: 'A seventh, different job: relative pronouns',
 				body: [
-					'None of the six families above link two clauses together by referring back to something already named. That\'s a separate job Spanish assigns to relative pronouns: *que* (invariable, and by far the most common, covering "that," "which," "who," and "whom" for both people and things), *quien/quienes* (people only, and required, not optional, after a preposition), *el cual/la cual/los cuales/las cuales* (agrees in gender and number with its antecedent, and favored in formal or written registers), and *cuyo/cuya/cuyos/cuyas* ("whose"). The [same unaccented spelling that separates *cuándo* the question word from *cuando* the connector](/spanish-accent-marks/) applies here too: *que* and *cual* only carry a written accent when they\'re asking or exclaiming something, never when they\'re doing this relative-clause job.',
+					"None of the six families above link two clauses together by referring back to something already named. That's a separate job Spanish assigns to relative pronouns: *que* (invariable, and by far the most common, covering \"that,\" \"which,\" \"who,\" and \"whom\" for both people and things), *quien/quienes* (people, used after a preposition or in other constructions, including free relatives), *el cual/la cual/los cuales/las cuales* (agrees in gender and number with its antecedent, and favored in formal or written registers), and *cuyo/cuya/cuyos/cuyas* (\"whose\"). The [same unaccented spelling that separates *cuándo* the question word from *cuando* the connector](/spanish-accent-marks/) applies here too: *que* and *cual* only carry a written accent when they're asking or exclaiming something, never when they're doing this relative-clause job.",
 					'*Quien(es)* has one rule that trips up even confident speakers: when it stands in for a plural antecedent, it has to become *quienes*, not stay *quien*. Per the RAE\'s Diccionario panhispánico de dudas, a sentence like *las personas con quien hablé* is now considered incorrect; it has to be *las personas con quienes hablé*. *El cual* and its forms carry their own restriction in the other direction: without a preposition, per the RAE\'s own style guide for legal writing, *el cual* can only open a nonrestrictive clause set off by commas, and even there the Academia\'s advice is to reach for a demonstrative and split the sentence instead, precisely because Spanish legal and bureaucratic writing overuses it. *Cuyo* is the one true outlier: despite meaning "whose," it agrees with the noun that follows it, the thing possessed, not with the antecedent that owns it. *La autora cuyo libro leímos* keeps *cuyo* masculine because *libro* is masculine, even though *autora* is feminine.',
 				],
 			},
@@ -1729,15 +1730,15 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'Do you always need a preposition before "quien" in Spanish?',
-				answer: 'Not always: que handles plenty of relative clauses on its own. But add a preposition to the mix ("to whom," "with whom") and quien(es) takes over from que: "la persona a quien llamé" ("the person I called," literally "to whom I called") or "el amigo con quien viajé" ("the friend I traveled with"). Left bare, quien is limited to adding extra, parenthetical information; identifying exactly which person is meant is que\'s job.',
+				answer: "No. Quien can appear with no preceding preposition in a free relative: Quien llegue primero gana, \"Whoever arrives first wins.\" With a preposition, quien alternates with forms such as el que and el cual: la persona con quien hablé or la persona con la que hablé. When an antecedent is named and no preposition comes first, quien introduces a clause supplying additional information, rather than an ordinary identifying clause.",
 			},
 			{
 				question: 'What\'s the difference between vosotros and ustedes?',
-				answer: 'In Spain, vosotros/vosotras is the informal plural "you" and ustedes is the formal plural "you," a real register distinction. Outside Spain, vosotros disappears from everyday use; ustedes takes over both roles, so a phrase like ustedes son works whether you\'re talking to close friends or to strangers.',
+				answer: "The contrast is regional. Where vosotros is usual, it addresses a familiar group, while ustedes can be formal. In the Canaries and some Andalusian usage, ustedes also addresses friends. Most American varieties use ustedes in either register, without the familiar/formal distinction in that pronoun pair.",
 			},
 			{
 				question: 'What is vos, and is it the same as tú?',
-				answer: 'Vos takes over from tú for informal "you" in Argentina, Uruguay, and Paraguay, plus parts of Central America and Colombia, and the Academia\'s own dictionary of usage treats it as standard rather than substandard. Its conjugated forms break from the tú pattern and put the stress on the final syllable instead: vos sos (not tú eres), vos tenés (not tú tienes), vos hablás (not tú hablas).',
+				answer: "Vos is used alongside or instead of tú for informal \"you\" in Argentina, Uruguay, and Paraguay, plus parts of Central America and Colombia, and the Academia's own dictionary of usage treats it as standard rather than substandard. In the Río de la Plata area, familiar examples have a stressed ending: vos sos (compared with tú eres), vos tenés (compared with tú tienes), vos hablás (compared with tú hablas).",
 			},
 			{
 				question: 'How many subject pronouns does Spanish have?',
@@ -1749,11 +1750,11 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'Do Spanish possessive pronouns agree with the owner or the thing owned?',
-				answer: 'The thing owned, always. Suyo, for example, does the work of his, her, your (formal), and their all with one unvarying shape, since it tracks the possessed noun\'s gender and number rather than who owns it. That flattening is exactly what makes suyo alone so easy to misread, so speakers routinely tack on de él, de ella, or de usted to pin down whose it actually is.',
+				answer: "The long forms match the thing owned: suyo, suya, suyos and suyas mark its gender and number. They do not identify the gender of the owner. Suyo can mean his, her, your or their, so de él, de ella or de usted may clarify whose possession is meant. Mi, tu and su have plural variants, but no separate masculine and feminine versions.",
 			},
 			{
 				question: 'Do I say "yo soy" or "soy"?',
-				answer: '"Soy" on its own is the normal choice, because the verb ending already tells the listener who\'s speaking. Adding "yo" isn\'t wrong; it signals emphasis, the way English stresses a word, so "Yo soy" usually means "I\'m the one who is" rather than a plain statement of fact. Spanish drops subject pronouns by default and brings them back only when the emphasis matters.',
+				answer: "\"Soy\" on its own is the normal choice, because the verb ending already tells the listener who's speaking. Adding \"yo\" can signal contrast or emphasis, the way English stresses a word, so \"Yo soy\" usually means \"I'm the one who is\" rather than a plain statement of fact. Spanish often omits a recoverable subject. An explicit pronoun can also clarify reference; its use varies with context and region.",
 			},
 			{
 				question: 'What are the 12 Spanish pronouns?',
@@ -4595,7 +4596,7 @@ export const guides: Guide[] = [
 		title: 'Ciao Meaning: From "I Am Your Slave" to Hello and Goodbye',
 		description: 'Ciao traces back to a Venetian phrase meaning "I am your slave." Its hello-and-goodbye double duty survived into English, but not into French or Portuguese.',
 		published: '2026-08-21',
-		updated: '2026-08-21',
+		updated: '2026-10-12',
 		coreSummary: 'Ciao descends from Venetian s-ciao/s-ciavo, which Treccani, Italy\'s standard dictionary, glosses at its root as "(sono vostro) schiavo," "(I am your) slave"; Wiktionary\'s Italian entry names the fuller expression behind that gloss, s-ciao vostro, a formal declaration of deference that lost every trace of servility as it contracted into everyday use. Treccani\'s own definition confirms Italian still fires the same word at both the moment of meeting and the moment of parting, but that dual job didn\'t survive the trip everywhere ciao traveled: Larousse\'s entries and Wiktionary\'s record of ciao\'s descendants show French tchao, Portuguese tchau, German tschau, and Spanish chao/chau all kept only the goodbye half, while English, unusually, absorbed both.',
 		language: 'Italian',
 		usageNote: {
@@ -4618,20 +4619,20 @@ export const guides: Guide[] = [
 				heading: 'One word for hello and goodbye, with real formal alternatives',
 				body: [
 					'Treccani\'s definition spells out something English "hello" and "goodbye" never have to deal with: ciao is used, in the dictionary\'s own wording, "al momento dell\'incontro o della separazione," at the moment of meeting or at the moment of separation. Italian doesn\'t reach for two different casual words the way English does; ciao does both jobs, and only context tells a listener which one is meant. Wiktionary\'s English entry shows that double duty survived the word\'s move into English largely intact: it lists ciao under both "Hello, hi" and "Bye, goodbye," treating it as functionally bilingual even in its borrowed form, not slang for one direction only. Not every short borrowed exclamation has as settled an origin story as ciao\'s: [oy vey](/oy-vey-meaning/), the Yiddish cry of dismay, splits etymologists between two unrelated candidate roots, a Germanic one related to English "woe" and a Hebrew-and-Aramaic one, with no consensus on which is correct.',
-					'That freedom comes with a real restriction. Treccani ties ciao specifically to people addressed with tu, Italian\'s informal "you." For anyone else (a stranger, a boss, an older relative met for the first time), Wiktionary\'s Italian entry lists the formal alternatives Italian speakers reach for instead: salve or buongiorno for hello, and arrivederla or arrivederci for goodbye, with ci vediamo ("see you") as a separate colloquial option that isn\'t formal either. Wiktionary\'s usage note on the English entry adds a wrinkle for anyone using the word outside Italy: in the UK and US, some speakers hear ciao as pretentious rather than just casual, an unusually blunt aside for a dictionary to include, and a reminder that a borrowed word can land differently in its adopted language than it does at home. A formal/informal split hard-coded into one greeting isn\'t unique to Italian, either. [Spanish\'s vosotros/ustedes distinction](/spanish-pronouns/) marks the identical kind of register line, just on the pronoun itself instead of on a single word for hello.',
+					"That freedom comes with a real restriction. Treccani ties ciao specifically to people addressed with tu, Italian's informal \"you.\" When formal address is appropriate, Wiktionary's Italian entry lists the formal alternatives Italian speakers reach for instead: salve or buongiorno for hello, and arrivederla or arrivederci for goodbye, with ci vediamo (\"see you\") as a separate colloquial option that isn't formal either. Wiktionary's usage note on the English entry adds a wrinkle for anyone using the word outside Italy: in the UK and US, some speakers hear ciao as pretentious rather than just casual, an unusually blunt aside for a dictionary to include, and a reminder that a borrowed word can land differently in its adopted language than it does at home. A formal/informal split hard-coded into one greeting isn't unique to Italian, either. [Spanish's vosotros/ustedes distinction](/spanish-pronouns/) can mark register in much of Spain. In most of Spanish America, ustedes covers informal as well as formal plural address.",
 				],
 			},
 			{
 				heading: 'Where ciao traveled, and what usually got left behind',
 				body: [
 					'Wiktionary\'s descendants list for the Italian word is long: French (ciao, tchao), German (tschau, ciao), Portuguese (tchau, chau, and the Portugal-specific xau), Spanish (chao, chau), Czech (čau), Polish (ciao), Dutch (ciao, tjo), Russian (чао), Serbo-Croatian (ćao), and dozens more across nearly every language family spoken in Europe. Few loanwords spread this far this fast; ciao\'s arc from a Venetian courtesy phrase to a near-universal European greeting happened largely within the last two centuries.',
-					'What most of those borrowings didn\'t keep is the dual function covered above. Larousse defines tchao itself as purely a familiar way to say au revoir, and its separate synonym dictionary entry for tchao lists adieu and bonsoir as the closest matches, with no hello sense in either listing. Wiktionary\'s Portuguese entry for tchau shows the identical restriction. So does German: tschau, per Wiktionary\'s own descendants list, functions as a casual goodbye, distinct from the language\'s other everyday farewell, tschüss, which despite sounding similar has nothing to do with Italian. Wiktionary traces tschüss through Low German tschüß, from an earlier adjüs, from Dutch adjuus, from Spanish adiós or French adieu, an entirely separate chain that happens to have landed on a similar sound. Two centuries of borrowing turned one Italian word that does two jobs into several European words that mostly do just one, goodbye, while ciao\'s fuller sense mostly stayed home. That\'s the usual shape a loanword takes crossing a border. [Mahalo](/mahalo-meaning/) survives its own trip into English tourist use carrying only its "thanks" sense, leaving the dictionary\'s second meaning, admiration, behind. Ciao runs that pattern in reverse: English is the outlier that kept the whole thing intact, as the "Hello, hi" and "Bye, goodbye" listing above shows, while it\'s French, Portuguese, and German that did the usual narrowing instead.',
+					"What most of those borrowings didn't keep is the dual function covered above. Larousse defines tchao itself as purely a familiar way to say au revoir, and its separate synonym dictionary entry for tchao lists adieu and bonsoir as the closest matches, with no hello sense in either listing. Wiktionary's Portuguese entry for tchau shows the identical restriction. So does German: tschau, per Wiktionary's own descendants list, functions as a casual goodbye, distinct from the language's other everyday farewell, tschüss, which despite sounding similar has nothing to do with Italian. Wiktionary traces tschüss through Low German tschüß, from an earlier adjüs, from Dutch adjuus, from Spanish adiós or French adieu, an entirely separate chain that happens to have landed on a similar sound. These entries document a narrower meaning in several languages. English is not the only borrowing with both senses: Czech čau also means hello and goodbye. Meaning depends on the receiving language. [Mahalo](/mahalo-meaning/) has a documented range including thanks and admiration; a gratitude-focused tourist use does not establish that every English use excludes its other meanings.",
 				],
 			},
 			{
 				heading: 'Not the only greeting with a servile past, and one false lead',
 				body: [
-					'Ciao isn\'t the only common European greeting built on a word for servitude. Servus, still used as a casual hello and goodbye across Austria, Bavaria, and much of the former Habsburg Empire (Hungary, Croatia, Slovenia, Slovakia, Romania), comes directly from the Latin word for "slave" or "servant," reportedly shortened from a fuller courtly phrase, servus humillimus, domine spectabilis, "your most humble servant, noble lord." It lost that submissive meaning the same way s-ciao vostro did, contracting from a declaration of total deference into an everyday greeting. Two unrelated language families, Romance and Germanic, independently arrived at the same move: take a phrase that means "I am your slave" and strip out the subservience, and what\'s left is a casual hello.',
+					"Ciao isn't the only common European greeting built on a word for servitude. Servus, still used as a casual hello and goodbye across Austria, Bavaria, and much of the former Habsburg Empire (Hungary, Croatia, Slovenia, Slovakia, Romania), comes directly from the Latin word for \"slave\" or \"servant,\" reportedly shortened from a fuller courtly phrase, servus humillimus, domine spectabilis, \"your most humble servant, noble lord.\" It lost that submissive meaning the same way s-ciao vostro did, contracting from a declaration of total deference into an everyday greeting. Both greetings have roots in expressions of service. Servus is itself borrowed from Latin, and Romance and Germanic are branches of Indo-European; these examples do not establish independent invention in unrelated language families.",
 					'One connection worth ruling out directly, because the sound makes it an easy trap: Vietnamese chào also means "hello, goodbye," and to an English ear it\'s close enough to ciao that a shared origin seems obvious. Wiktionary\'s entry addresses this head-on, noting in its etymology section that ciao is "not related" to Vietnamese chào. The resemblance is coincidence. Chào comes from an entirely separate linguistic lineage, with no borrowing or shared ancestor connecting it to the Venetian phrase traced above, a reminder that two words sounding alike is never evidence that they\'re related.',
 				],
 			},
@@ -4647,7 +4648,7 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'Why do French tchao and Portuguese tchau only mean goodbye?',
-				answer: 'Because most languages that borrowed ciao only kept half its job. Larousse, the standard French dictionary, defines tchao as nothing more than a casual "au revoir," never a greeting, and the equivalent Portuguese entry carries the identical one-way restriction. English is the exception among ciao\'s borrowers: it kept both the hello and goodbye senses.',
+				answer: "The cited French and Portuguese dictionary entries record a farewell meaning. That contrast is evidence of different meanings in particular languages, rather than proof that most borrowers did the same thing. English ciao and Czech čau both have greeting and farewell senses.",
 			},
 			{
 				question: 'Is German tschau the same word as tschüss?',
@@ -4659,6 +4660,7 @@ export const guides: Guide[] = [
 			},
 		],
 		sources: [
+			{ label: "Wiktionary, Czech čau: greeting and farewell", url: "https://en.wiktionary.org/wiki/%C4%8Dau#Czech" },
 			{ label: 'Treccani, Vocabolario online: "ciao"', url: 'https://www.treccani.it/vocabolario/ciao/' },
 			{ label: 'Wiktionary, "ciao" (English entry: etymology, usage notes, translations)', url: 'https://en.wiktionary.org/wiki/ciao' },
 			{ label: 'Wiktionary, "ciao" (Italian entry: etymology, formal synonyms, descendants)', url: 'https://en.wiktionary.org/wiki/ciao#Italian' },
@@ -4958,39 +4960,39 @@ export const guides: Guide[] = [
 	{
 		slug: 'spanish-present-tense-endings',
 		category: 'Grammar',
-		title: 'Spanish Present Tense Endings: The One Tense With No Time Marker',
-		description: 'Every Spanish tense has its own audible marker, future\'s -ré, imperfect\'s -aba, except the present, which RAE\'s own grammar treats as a genuinely unmarked tense.',
+		title: "Spanish Present Tense Endings: Regular Forms and Zero Marking",
+		description: "The regular -ar and -er/-ir present endings, plus the zero-morpheme analysis of present tense marking described in the RAE glossary.",
 		published: '2026-08-23',
 		updated: '2026-10-12',
 		coreSummary: 'Spanish present tense endings have separate -ar and -er/-ir patterns; -er and -ir differ only in the nosotros and vosotros forms (-ar: -o, -as, -a, -amos, -áis, -an; -er: -o, -es, -e, -emos, -éis, -en; -ir: -o, -es, -e, -imos, -ís, -en), and Real Academia Española\'s own grammatical glossary treats the present as a genuinely unmarked tense, its tense-mood information carried by what RAE calls a morfema cero (zero morpheme), unlike the future\'s audible -ré or the imperfect\'s audible -aba. Most yo-form irregularities that look random reduce to one of two real phonological rules: a /g/ or /ig/ sound inserted before roots ending in -l, -n, -s, -i, or -z (tengo, salgo, oigo, caigo, yazgo), or a spelling swap, g/j or c/z, that exists purely to keep the infinitive\'s consonant sound intact (cojo, venzo).',
 		language: 'Spanish',
 		usageNote: {
-			regionNote: 'Voseo is one of the few places where the present tense really does change. Vos takes stress-final forms with no diphthong at all, hablás, comés, vivís, not tú\'s hablas, comes, vives, which is also why voseo regularizes verbs that are stem-changing under tú: vos querés and vos podés, never vos quieres or vos puedes. The RAE documents regional differences in other tenses too, including the present subjunctive. The forms shown here are the common stress-final present indicative pattern, not a complete account of every variety of voseo.',
+			regionNote: "A common River Plate voseo pattern uses stress-final forms: hablás, comés and vivís. Its querés and podés differ from tú quieres and puedes. Voseo varies by region, however: the RAE also records vos combined with verb forms associated with tú. These examples describe one pattern rather than every use of vos.",
 		},
 		sections: [
 			{
 				heading: 'The endings, worked through in full',
 				body: [
 					'Regular Spanish verbs drop the infinitive ending (-ar, -er, or -ir) and add one of two endings sets in the present tense. -Ar verbs take -o, -as, -a, -amos, -áis, -an: hablo, hablas, habla, hablamos, habláis, hablan. -Er and -ir verbs share the same endings everywhere except two forms: comer gives como, comes, come, comemos, coméis, comen, while vivir gives vivo, vives, vive, vivimos, vivís, viven. The nosotros and vosotros rows are the only place the two conjugations actually diverge, comemos/coméis against vivimos/vivís; every other person is identical between -er and -ir.',
-					'That split point is narrower than it looks in most other Spanish tenses. The [imperfect drops the -er/-ir divide entirely](/spanish-imperfect-endings/) and uses one identical six-form set for both conjugations, no matter the person. The present tense is the one place where -er and -ir verbs stay distinct, and only in two of six forms.',
+					"That split point is narrower than it looks in most other Spanish tenses. The [imperfect drops the -er/-ir divide entirely](/spanish-imperfect-endings/) and uses one identical six-form set for both conjugations, no matter the person. In the present indicative, -er and -ir differ in those two plural forms. They also differ elsewhere, including the infinitives comer/vivir and participles comido/vivido.",
 				],
 				image: {
 					src: '/images/spanish-present-tense-endings-diagram.svg',
-					alt: 'Diagram of the Spanish present tense endings for -ar verbs (hablo, hablas, habla, hablamos, habláis, hablan) and -er/-ir verbs (como/vivo, comes/vives, come/vive, comemos/vivimos, coméis/vivís, comen/viven, split only in nosotros and vosotros), plus a comparison strip showing hablo (present, no audible time marker) against hablaré (future, marked by -é) and hablaba (imperfect, marked by -aba).',
+					alt: 'Diagram of the Spanish present tense endings for -ar verbs (hablo, hablas, habla, hablamos, habláis, hablan) and -er/-ir verbs (como/vivo, comes/vives, come/vive, comemos/vivimos, coméis/vivís, comen/viven, split only in nosotros and vosotros), plus a comparison strip showing hablo (present, no audible time marker) against hablaré (future -ré in the illustrated analysis) and hablaba (imperfect, marked by -aba).',
 				},
 			},
 			{
 				heading: "Why the present doesn't get an audible time marker at all",
 				body: [
-					'Spanish grammar breaks a conjugated verb down into a root, a thematic vowel that marks which conjugation class the verb belongs to, and a desinence that itself carries three further pieces of information: the thematic vowel, a segment coding tense-aspect-mood, and a segment coding person and number. In a tense like the imperfect, that tense-aspect-mood piece is a real, audible chunk of the word: the -aba in hablaba names the imperfect specifically, the same way -é does in the future hablaré. The present tense doesn\'t have an equivalent chunk. Real Academia Española\'s own glossary of grammatical terms states this directly: the present is an unmarked tense, and its tense morpheme is what the glossary calls a morfema cero, a zero morpheme, present in the grammatical analysis but absent as an actual sound.',
-					'That absence is genuinely debated at the edges, not a clean rule RAE hands down without qualification. The academy\'s own reference grammar notes that a form like habla can\'t always be cleanly split into its three theoretical pieces; some analyses treat the ending as one fused chunk carrying all three jobs at once, others posit an unpronounced zero morpheme sitting inside it. What isn\'t in dispute is the practical upshot for a learner: unlike -aba or -é, nothing in a present-tense ending exists purely to announce "this is the present tense." The endings do that job by not adding anything extra at all. That unmarked present-tense ending is still a fully personal, conjugated form, which is exactly what separates it from [the Spanish infinitive](/spanish-infinitive/): hablar itself carries no person, tense, or mood marking whatsoever, the zero-marking idea taken to its logical endpoint rather than just one unmarked tense among several.',
+					"Spanish grammar breaks a conjugated verb down into a root, a thematic vowel that marks which conjugation class the verb belongs to, and a desinence that itself carries three further pieces of information: the thematic vowel, a segment coding tense-aspect-mood, and a segment coding person and number. In a tense like the imperfect, that tense-aspect-mood piece is a real, audible chunk of the word: the -aba in hablaba names the imperfect specifically, as -ré marks future tense in one analysis of hablaré. The present tense doesn't have an equivalent chunk. Real Academia Española's own glossary of grammatical terms describes this analysis using a morfema cero: an unpronounced element representing present tense. This is a grammatical model, not a separate sound that learners must produce.",
+					"That absence is genuinely debated at the edges, not a clean rule RAE hands down without qualification. The academy's own reference grammar notes that a form like habla can't always be cleanly split into its three theoretical pieces; some analyses treat the ending as one fused chunk carrying all three jobs at once, others posit an unpronounced zero morpheme sitting inside it. What isn't in dispute is the practical upshot for a learner: unlike the overt tense marker in hablaba or hablaré, nothing in a present-tense ending exists purely to announce \"this is the present tense.\" The endings do that job by not adding anything extra at all. That unmarked present-tense ending is still a fully personal, conjugated form, which is exactly what separates it from [the Spanish infinitive](/spanish-infinitive/): hablar itself carries no person, tense, or mood marking whatsoever, a nonpersonal form rather than a personal present-tense conjugation.",
 				],
 			},
 			{
 				heading: 'The -go verbs: a real sound-preserving rule, not a memorization list',
 				body: [
 					'A long list of common verbs look irregular only in the yo form, and end in -go: tengo, salgo, pongo, vengo, valgo. Per Real Academia Española\'s own reference on consonantal irregularities, this isn\'t a random pattern; it\'s a documented sound insertion, called epenthesis, that shows up in verbs whose root ends in -l (salir → salgo, valer → valgo), -n (poner → pongo, tener → tengo, venir → vengo), -s (asir → asgo, a rare verb), -i (oír → oigo), or -z (yacer, an archaic verb for "to lie [down]," which the RAE itself says admits three accepted yo forms, yazco, yazgo, and yago, with the -go and -zc- patterns competing side by side). Caer and traer, and the rarer raer and roer, take a slightly different version of the same insertion, adding -ig- rather than a plain -g-: caigo, traigo. Within the present indicative, the -g- insertion appears in yo. Some of these verbs also have vowel changes elsewhere, as in tienes and viene, and the -g- stem extends into the present subjunctive (tenga, venga).',
-					'Six verbs sit outside even this pattern because their yo forms don\'t end in a plain -o at all: soy, estoy, voy, doy end in -oy, sé ends in -é, and he doesn\'t take an -o ending at all. [Those six](/subjunctive-spanish/) are also the ones whose irregularity carries straight through into the subjunctive, since the subjunctive stem is normally built by stripping the -o off the present-tense yo form. A separate, larger family, verbs like conocer and conducir that add a /k/ sound before the yo ending (conozco, conduzco), is covered in full among the [irregular Spanish verbs classified by root type](/irregular-spanish-verbs/), since it belongs to the same consonantal-irregularity category RAE groups the -go verbs under, just a different inserted sound.',
+					'Six verbs sit outside even this pattern because their yo forms don\'t end in a plain -o at all: soy, estoy, voy, doy end in -oy, sé ends in -é, and he doesn\'t take an -o ending at all. [Those six](/subjunctive-spanish/) are also the ones whose irregularity carries straight through into the subjunctive, since the subjunctive stem is normally built by stripping the -o off the present-tense yo form. For consonant insertion, the guide to [irregular Spanish verbs classified by root type](/irregular-spanish-verbs/) discusses conocer → conozco and conducir → conduzco. Those examples illustrate a consonantal change; they do not provide a complete list of -go forms.',
 				],
 			},
 			{
@@ -5008,7 +5010,7 @@ export const guides: Guide[] = [
 			},
 			{
 				question: "Why doesn't Spanish present tense have a special ending the way the future or imperfect does?",
-				answer: 'The Academia\'s glossary classifies it as an unmarked tense: the piece that would normally flag tense and mood counts as what grammarians term a zero morpheme, sound-free by definition, assumed by the analysis but never actually pronounced. The future\'s -ré and the imperfect\'s -aba are genuine, audible pieces built specifically to flag those two tenses; here, that ending only tells you who\'s doing the action and how many of them there are, nothing more.',
+				answer: "The glossary describes the present using a zero morpheme: tense information represented without a pronounced segment. It also notes that some grammatical analyses do not use zero morphemes. The model helps distinguish an overt tense segment, such as future -ré in hablaré, from present marking; it does not mean that a present-tense verb conveys only person and number.",
 			},
 			{
 				question: 'Why do so many common Spanish verbs end in -go in the yo form?',
@@ -5020,7 +5022,7 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'Does vos change the present tense endings?',
-				answer: "Yes, this is one of the few tenses where it does. Vos puts the stress on the final syllable and drops the diphthong entirely, so pensás, tenés, and venís replace tú's piensas, tienes, and vienes. That's also why verbs that normally shift their stem vowel get regularized under vos: vos podés and vos querés, never vos puedes or vos quieres. This describes a common voseo pattern; the RAE also records regional conjugations in the subjunctive and other tenses.",
+				answer: "For many speakers around Buenos Aires and Montevideo, vos uses forms such as pensás, tenés and venís. Stem-changing tú forms can differ: vos podés and querés contrast with tú puedes and quieres. The usage dictionary describes other regional combinations, including vos with the usual tú conjugation, so the stress-final pattern is not universal.",
 			},
 		],
 		sources: [
