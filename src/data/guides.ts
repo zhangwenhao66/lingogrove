@@ -3000,7 +3000,7 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'Do I need to memorize every tense to speak Spanish well?',
-				answer: 'No. The six shown in the chart above (five indicative forms plus the present-tense subjunctive and the command forms) already cover nearly everything a normal spoken exchange requires. The compound tenses (*he hablado*, *había hablado*) are built mechanically from haber once that verb is learned, and the rarer imperfect and future-subjunctive forms are worth recognizing more than producing on the fly.',
+				answer: 'No. The six shown in the chart above (the present, two past forms, future and conditional in the indicative, along with subjunctive present forms; the command discussion is separate) already cover nearly everything a normal spoken exchange requires. The compound tenses (*he hablado*, *había hablado*) are built mechanically from haber once that verb is learned, and the rarer imperfect and future-subjunctive forms are worth recognizing more than producing on the fly.',
 			},
 			{
 				question: 'What\'s the real difference between the preterite and the imperfect?',
@@ -3304,7 +3304,7 @@ export const guides: Guide[] = [
 				body: [
 					'Eight common verbs replace their stem with one containing -u- in the preterite, then all take the same endings: -e, -iste, -o, -imos, -isteis, -ieron, with no written accents anywhere in the paradigm. The verbs: andar → anduv-, estar → estuv-, poder → pud-, poner → pus-, saber → sup-, tener → tuv-, haber → hub-, caber → cup-.',
 					'Take estar as the model: estuve, estuviste, estuvo, estuvimos, estuvisteis, estuvieron. Swap in any of the other seven stems and the endings don\'t change at all. *Estuve en Madrid la semana pasada* ("I was in Madrid last week"). *Tuve que salir temprano* ("I had to leave early"). *No pudimos terminar a tiempo* ("We couldn\'t finish on time").',
-					'Notice there\'s no accent on estuve or estuvo, unlike a regular -ar preterite like hablé or habló. That\'s consistent across every irregular preterite stem covered on this page: the accent marks that distinguish regular yo/él forms (hablé vs. hable, the present subjunctive) simply don\'t apply once the stem itself is irregular, because there\'s no longer a regular form to distinguish from. The endings themselves, for every one of these irregular stems, still closely echo the [regular -er/-ir preterite set](/spanish-preterite-endings/), with -e and -o in place of -í and -ió for yo and él. The j-stem verbs finish their ellos/ellas/ustedes forms in -eron, omitting the i of -ieron.',
+					'Notice there\'s no accent on estuve or estuvo, unlike a regular -ar preterite like hablé or habló. Estuve and estuvo stress the penultimate syllable and end in a vowel, so the general spelling rule leaves them without a tilde. Hablé and habló stress the final syllable and end in a vowel, which requires a tilde. The endings themselves, for every one of these irregular stems, still closely echo the [regular -er/-ir preterite set](/spanish-preterite-endings/), with -e and -o in place of -í and -ió for yo and él. The j-stem verbs finish their ellos/ellas/ustedes forms in -eron, omitting the i of -ieron.',
 				],
 				image: {
 					src: '/images/irregular-preterite-verbs-spanish-diagram.svg',
@@ -3436,7 +3436,7 @@ export const guides: Guide[] = [
 				heading: 'Only three verbs break the pattern, and one barely counts',
 				body: [
 					'Ir and ser are the only two fully irregular verbs in the entire Spanish imperfect. Ir takes iba, ibas, iba, íbamos, ibais, iban, forms with no visible connection to the infinitive stem at all. Ser takes era, eras, era, éramos, erais, eran, equally unconnected to ser itself. Neither one reduces to a stem plus a regular ending; both simply have to be memorized as their own six-form sets.',
-					'Ver is the third verb usually listed as irregular, but it barely qualifies. It takes the completely regular -ía endings, veía, veías, veía, veíamos, veíais, veían, and the only irregularity is that the stem keeps its e instead of dropping to nothing the way a normal -er verb\'s single-letter stem would. Compare it to a genuinely irregular verb like ir, which doesn\'t follow either endings pattern at all, and ver\'s "irregularity" is really just one letter of stem, not a different set of endings. That distinction matters for the same reason it matters in the [irregular preterite verbs](/irregular-preterite-verbs-spanish/): the preterite has whole families of verbs that swap in a new stem and still share one endings set, while the imperfect has almost none of that. Ir and ser are the exceptions, not the start of a pattern, and ver isn\'t really an exception to the endings at all.',
+					'Ver is the third verb usually listed as irregular, but it barely qualifies. It takes the completely regular -ía endings, veía, veías, veía, veíamos, veíais, veían, and the only irregularity is that the stem keeps its e instead of dropping to nothing the way a normal -er verb\'s single-letter stem would. Compare it to a genuinely irregular verb like ir, which doesn\'t follow either endings pattern at all, and ver\'s "irregularity" is really just one letter of stem, not a different set of endings. That distinction matters for the same reason it matters in the [irregular preterite verbs](/irregular-preterite-verbs-spanish/): the preterite has families that swap in a new stem and share a core ending pattern, with -eron for the third-person plural of j-stem verbs, while the imperfect has almost none of that. Ir and ser are the exceptions, not the start of a pattern, and ver isn\'t really an exception to the endings at all.',
 				],
 			},
 		],
@@ -3574,7 +3574,7 @@ export const guides: Guide[] = [
 		description: 'English uses "what" for both qué and cuál, so learners naturally reach for qué asking a name or an email address, the one spot Spanish actually wants cuál instead.',
 		published: '2026-08-17',
 		updated: '2026-08-17',
-		coreSummary: 'Spanish groups nine interrogative words, qué, cuál, quién, cómo, cuán, cuánto, cuándo, dónde, and adónde, under one accent rule: per the RAE, they keep their written tilde even inside an indirect question like no sé dónde vive, because the accent marks the word\'s grammatical role, not its punctuation. The split that actually trips up English speakers isn\'t the accent, though; it\'s qué versus cuál. Both translate as "what," but Spanish reserves qué for definitions and for anything placed directly before a noun (¿qué libro quieres?), and reserves cuál for picking one item out of an implied set, which covers a name, a phone number, or an email address (¿cuál es tu correo electrónico?, never ¿qué es tu correo electrónico?). That\'s the opposite of how English maps "what" onto both situations.',
+		coreSummary: 'Spanish groups nine interrogative words, qué, cuál, quién, cómo, cuán, cuánto, cuándo, dónde, and adónde, under one accent rule: per the RAE, they keep their written tilde even inside an indirect question like no sé dónde vive, because the accent marks the word\'s grammatical role, not its punctuation. The split that actually trips up English speakers isn\'t the accent, though; it\'s qué versus cuál. Both translate as "what," but Qué asks for definitions and commonly precedes a noun (¿qué libro quieres?); cuál can also precede a noun, especially in the Americas. Cuál is used for picking one item out of an implied set, which covers a name, a phone number, or an email address (¿cuál es tu correo electrónico?, never ¿qué es tu correo electrónico?). That\'s the opposite of how English maps "what" onto both situations.',
 		language: 'Spanish',
 		sections: [
 			{
@@ -3585,7 +3585,7 @@ export const guides: Guide[] = [
 				],
 				image: {
 					src: '/images/spanish-question-words-diagram.svg',
-					alt: 'Decision diagram for choosing between qué and cuál: qué directly before a noun is always qué; without a noun right after, a request for a definition or explanation takes qué, while a request for one item from an implied set (a name, phone number, or email address) takes cuál.',
+					alt: 'Decision diagram for qué and cuál: qué is a widely used choice before a noun, while cuál plus a noun is also accepted, especially in the Americas; without a following noun, qué asks for a definition and cuál selects an item from an implied set.',
 				},
 			},
 			{
@@ -3593,7 +3593,7 @@ export const guides: Guide[] = [
 				body: [
 					'English collapses two different questions into one word, "what," and Spanish keeps them apart. Qué asks for a definition or an explanation: ¿Qué es la democracia? ("What is democracy?") wants a concept explained, not one option picked from a list. Cuál asks the opposite kind of question, picking a single item out of a set the speaker already has in mind, even when that set is only implied rather than spelled out: ¿Cuál es tu color favorito? doesn\'t define "favorite color," it asks which one, out of all possible colors, is yours.',
 					'That distinction is what produces the single most common error English speakers make with this pair. A name, a phone number, and an email address are all treated in Spanish as one item selected from an open set (everyone has their own), so all three take cuál, not qué: ¿Cuál es tu nombre?, ¿Cuál es tu número de teléfono?, ¿Cuál es tu correo electrónico? English asks all three with "what," which pulls learners toward the wrong word, ¿Qué es tu nombre?, a sentence a native speaker reads as asking for a definition of the word "name" rather than asking what someone is called.',
-					'The one place qué wins outright, regardless of how many options exist, is directly in front of a noun. ¿Qué libro quieres? ("Which book do you want?") stays qué even when the speaker is choosing among a full shelf of specific books; ¿Cuál libro quieres? is the error English speakers make in the other direction, reaching for cuál because English would say "which" here. Cuál almost never sits immediately before a noun in standard use; it\'s followed by de (¿cuál de los libros?, "which of the books") or stands on its own with a verb (¿cuál quieres?), not by the noun itself.',
+					'Before a noun, qué is a widely used choice: ¿Qué libro quieres? asks which book someone wants, even among a shelf of specific books. Cuál can also function as an interrogative determiner in ¿Cuál libro quieres? The RAE accepts this construction and notes that it is more common in the Americas than in Spain. Cuál can instead stand alone (¿cuál quieres?) or introduce a group with de (¿cuál de los libros?).',
 				],
 			},
 			{
@@ -3606,7 +3606,7 @@ export const guides: Guide[] = [
 			{
 				heading: 'Cuánto is the only one that agrees in gender',
 				body: [
-					'Quién and cuál also have plural forms, quiénes and cuáles, but that\'s number agreement only, and neither one attaches directly in front of a noun the way an ordinary adjective does; ¿cuál libro? isn\'t standard usage (see the qué-before-a-noun rule above). Cuánto goes further: it inflects for both gender and number, becoming cuánto, cuánta, cuántos, or cuántas depending on the noun it modifies, the same way a regular adjective would. ¿Cuánto dinero tienes? (masculine singular, "how much money"), ¿Cuánta agua queda? (feminine singular, "how much water"), ¿Cuántos hermanos tienes? (masculine plural, "how many siblings"), ¿Cuántas personas vinieron? (feminine plural, "how many people came"). Used without a following noun, standing in on its own, cuánto still has to agree with whatever it\'s replacing: ¿Cuántas quieres? only makes sense if the thing being counted is already established as feminine plural in context.',
+					'Quién and cuál also have plural forms, quiénes and cuáles, but that is number agreement only. Quién does not directly modify a noun; cuál can, especially in American usage. Cuánto goes further: it inflects for both gender and number, becoming cuánto, cuánta, cuántos, or cuántas depending on the noun it modifies, the same way a regular adjective would. ¿Cuánto dinero tienes? (masculine singular, "how much money"), ¿Cuánta agua queda? (feminine singular, "how much water"), ¿Cuántos hermanos tienes? (masculine plural, "how many siblings"), ¿Cuántas personas vinieron? (feminine plural, "how many people came"). Used without a following noun, standing in on its own, cuánto still has to agree with whatever it\'s replacing: ¿Cuántas quieres? only makes sense if the thing being counted is already established as feminine plural in context.',
 				],
 			},
 			{
@@ -3623,7 +3623,7 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'Does "qué" ever take "cuál" instead when it comes before a noun?',
-				answer: 'No. Right before a noun, qué stays qué no matter how large the set of options is: someone can ask ¿qué película quieres ver? even with an entire streaming catalog to choose among. Cuál essentially never precedes a noun that way in standard Spanish; it either stands alone next to a verb, as in ¿cuál quieres?, or combines with de to name the group it\'s drawn from, as in ¿cuál de esos dos?',
+				answer: 'Yes: ¿cuál película quieres ver? is accepted, with this determiner use more frequent in American Spanish. ¿Qué película quieres ver? remains a useful default across regions. A bare choice can be ¿cuál quieres? You can name its group with de: ¿cuál de esos dos?',
 			},
 			{
 				question: 'What\'s the actual difference between "por qué" and "porque"?',
@@ -3639,7 +3639,7 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'Does "cuánto" change form depending on what\'s being asked about?',
-				answer: 'Yes. Unlike the rest of the list, cuánto also tracks the noun\'s gender, not just its number, so the word itself changes shape: dinero takes cuánto, agua takes cuánta, hermanos takes cuántos, and personas takes cuántas. Quién and cuál pluralize too, shifting to quiénes for who and cuáles for which, yet that change is strictly about number; gender never enters the picture for those two, and cuánto remains the only one of the three able to sit right next to a noun the way an adjective would.',
+				answer: 'Yes. Unlike the rest of the list, cuánto also tracks the noun\'s gender, not just its number, so the word itself changes shape: dinero takes cuánto, agua takes cuánta, hermanos takes cuántos, and personas takes cuántas. Quién and cuál pluralize too, shifting to quiénes for who and cuáles for which, yet that change is strictly about number; gender never enters the picture for those two, cuál has an accepted determiner use before nouns in many American varieties; quién lacks that use.',
 			},
 		],
 		sources: [

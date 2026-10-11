@@ -8,17 +8,17 @@
 
 	<!-- start box -->
 	<rect x="280" y="98" width="240" height="46" rx="8" fill="#eaf1ea" stroke="#2f6b47"/>
-	<text x="400" y="126" text-anchor="middle" fill="#2f6b47" font-size="13" font-weight="700">Does "qué" sit right before a noun?</text>
+	<text x="400" y="126" text-anchor="middle" fill="#2f6b47" font-size="13" font-weight="700">Will a noun come right after?</text>
 
 	<line x1="330" y1="144" x2="150" y2="176" stroke="#5a5648" stroke-width="1.5"/>
 	<line x1="470" y1="144" x2="650" y2="176" stroke="#5a5648" stroke-width="1.5"/>
 
 	<!-- branch: qué + noun -->
 	<rect x="46" y="176" width="208" height="72" rx="8" fill="#fbead0" stroke="#ddd8c4"/>
-	<text x="150" y="198" text-anchor="middle" fill="#5a5648" font-size="11" font-weight="700">YES &#8594; ALWAYS QUÉ</text>
+	<text x="150" y="198" text-anchor="middle" fill="#5a5648" font-size="11" font-weight="700">YES &#8594; QUÉ IS WIDELY USED</text>
 	<text x="150" y="216" text-anchor="middle" fill="#201f1a" font-size="11">&#191;Qué libro quieres?</text>
-	<text x="150" y="232" text-anchor="middle" fill="#201f1a" font-size="11">never &#191;Cuál libro...?,</text>
-	<text x="150" y="246" text-anchor="middle" fill="#201f1a" font-size="11">even with many options</text>
+	<text x="150" y="232" text-anchor="middle" fill="#201f1a" font-size="11">&#191;Cuál libro...? is also accepted</text>
+	<text x="150" y="246" text-anchor="middle" fill="#201f1a" font-size="11">especially in the Americas</text>
 
 	<rect x="46" y="264" width="208" height="34" rx="8" fill="#2f6b47"/>
 	<text x="150" y="286" text-anchor="middle" fill="#ffffff" font-size="14" font-weight="700">qué + noun</text>
