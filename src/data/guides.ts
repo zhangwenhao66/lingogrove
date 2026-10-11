@@ -1869,6 +1869,14 @@ export const guides: Guide[] = [
 				question: 'Do capital letters take accent marks in Spanish?',
 				answer: "Yes. Writing in capitals does not excuse a word from the tilde, so Ángel is correct and Angel is not. The ñ is a separate matter: it counts as its own letter, so español is not n plus a mark.",
 			},
+			{
+				question: 'How do you pronounce á, é, í, ó, ú?',
+				answer: 'They are the Spanish vowels a, e, i, o and u with written stress marks. Emphasize the syllable containing the marked vowel; the accent does not create an extra letter. The [RAE spelling reference](https://www.rae.es/diccionario-estudiante/docs/ortografia.pdf) separates the vowel letters from the rules for written stress.',
+			},
+			{
+				question: 'How do you type ó?',
+				answer: 'On a Mac, hold down the o key until the accent menu appears, then select ó or press the number displayed beneath it. [Apple Support](https://support.apple.com/en-au/guide/mac-help/mh27474/mac) notes that some apps do not provide this menu. You can also copy ó directly from this answer.',
+			},
 		],
 		sources: [
 			{ label: 'Real Academia Española: El buen uso del español, "Las reglas de acentuación gráfica"', url: 'https://www.rae.es/buen-uso-espa%C3%B1ol/las-reglas-de-acentuaci%C3%B3n-gr%C3%A1fica' },
@@ -3164,6 +3172,10 @@ export const guides: Guide[] = [
 				question: 'Is inshallah related to the Spanish word ojalá?',
 				answer: 'They\'re closely related but not identical. Spanish ojalá, along with its Portuguese cousin oxalá, descends from a related Andalusi Arabic phrase, law shāʾa llāh (or its variant wa shāʾa llāh), carrying roughly the sense "should God so will it," drawing on the same root verb and the same word for God as inshallah, rather than being a direct transliteration of in shāʾa Allāh itself. Both trace to the same underlying idea of leaving an outcome up to God\'s will.',
 			},
+			{
+				question: 'Is it inshallah or Mashallah?',
+				answer: 'Choose inshallah when you hope an event will happen. Choose mashallah when you admire something that already exists or acknowledge a good outcome. [Oxford](https://www.oxfordlearnersdictionaries.com/us/definition/english/inshallah) describes the first as a hope; [Quran 18:39](https://quran.com/en/al-kahf/39) uses the second when someone enters a garden.',
+			},
 		],
 		sources: [
 			{ label: 'Wikipedia, "Inshallah"', url: 'https://en.wikipedia.org/wiki/Inshallah' },
@@ -3245,6 +3257,10 @@ export const guides: Guide[] = [
 			{
 				question: 'What\'s the correct spelling: mashallah, masha\'Allah, or ma sha Allah?',
 				answer: 'None of them is wrong. Arabic doesn\'t map onto the Latin alphabet in one fixed way, so the run-together mashallah, the apostrophed masha\'Allah, and the fully spaced ma sha Allah are all legitimate transliterations of the same Arabic source, ما شاء الله, with no single spelling outranking the rest. The same variation shows up across languages that adopted the phrase: Bosnian settles on Mašala, Turkish writes Maşaallah, and Malay/Indonesian renders it Masya Allah. If you\'re writing for a general audience, mashallah is the spelling readers will recognize fastest.',
+			},
+			{
+				question: 'What does "alhamdulillah" mean?',
+				answer: 'The phrase alhamdulillah gives praise and thanks to God. It is a different expression from mashallah: [Quran 1:2](https://quran.com/en/al-fatihah/2) opens with al-hamdu lillah, while [18:39](https://quran.com/en/al-kahf/39) uses ma sha Allah to acknowledge divine will behind an outcome.',
 			},
 		],
 		sources: [
@@ -5813,6 +5829,10 @@ export const guides: Guide[] = [
 				question: 'Does "voila" ever mean "it\'s been [an amount of time]" in French?',
 				answer: 'Yes, in French, not in English. CNRTL dates that use back to the mid-1700s: paired with a stretch of time plus que, voilà can mark elapsed duration, roughly "it\'s now been [that long] since..." English never picked up that sense; "voila" borrowed only the presenting flourish, not the time-marking one.',
 			},
+			{
+				question: 'How do you pronounce voila?',
+				answer: 'Pronounce two syllables, vwah followed by LAH, and stress LAH. Include the opening v sound: [Merriam-Webster](https://www.merriam-webster.com/dictionary/voil%C3%A0) lists wah-LAH as a nonstandard pronunciation.',
+			},
 		],
 		sources: [
 			{ label: 'CNRTL: "Voilà" (etymology: composé de vois + là, first attestation 1342, Guillaume de Machaut)', url: 'https://www.cnrtl.fr/etymologie/voil%C3%A0' },
@@ -6911,6 +6931,10 @@ export const guides: Guide[] = [
 			{
 				question: 'Is the future perfect common in everyday spoken Spanish?',
 				answer: 'Its conjecture use is genuinely common, reached for constantly to float a likely explanation for whatever\'s evidently over with already. Its literal future use, marking that one future event finishes before another, is real but leans toward written and formal contexts rather than casual talk, similar to how the simple future itself gets crowded out by ir a + infinitive in everyday conversation.',
+			},
+			{
+				question: 'What are examples of future perfect tense?',
+				answer: 'Habré salido means "I will have left" when a later deadline is understood; habremos comido means "we will have eaten." Those same forms can also describe an uncertain conclusion about a past action. The [RAE glossary](https://www.rae.es/gtg/futuro-compuesto-de-indicativo) gives both readings, so the surrounding sentence determines the translation.',
 			},
 		],
 		sources: [

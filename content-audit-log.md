@@ -2075,3 +2075,36 @@
   "build": "npm run build 通过（89 页，0.7s）"
 }
 ```
+
+
+## PAA-FAQ批强(daily-task, 2026-10-11) — run 20261011T-paa-codex-2215
+
+压制期放开：按本轮新GSC曝光降序判定8页，上限8页；5页仅新增6条FAQ，13条候选因语义已覆盖或错题跳过并写本轮拒绝回执，由root串行登记90天冷却。未改旧FAQ、正文、sources、日期或标题。
+
+- voila-meaning: 新增1，跳过3。
+- japanese-honorifics: 新增0，跳过2。
+- inshallah-meaning: 新增1，跳过3。
+- spanish-future-perfect: 新增1，跳过0。
+- ser-vs-estar: 新增0，跳过4。
+- spanish-accent-marks: 新增2，跳过0。
+- mashallah-meaning: 新增1，跳过0。
+- direct-vs-indirect-object-pronouns-spanish: 新增0，跳过1。
+
+逐条跳过理由：
+- voila-meaning / Is voilà Italian or French?：Existing FAQ "What does voila mean?" already states French origin, translation and equivalent English exclamations.
+- voila-meaning / What does voila translate to in English?：Existing FAQ "What does voila mean?" already states French origin, translation and equivalent English exclamations.
+- voila-meaning / What is another word for voila?：Existing FAQ "What does voila mean?" already states French origin, translation and equivalent English exclamations.
+- japanese-honorifics / What are some rare Japanese honorifics?：Rare honorifics are already covered by the existing dono/shi FAQ; oi oi oi is an interjection, outside honorific topic.
+- japanese-honorifics / Why do Japanese say "oi oi oi"?：Interjection question is unrelated to honorific names and politeness.
+- inshallah-meaning / Can non-Muslims say inshallah?：Existing FAQ "Is inshallah used only by Muslims?" covers other religious communities; celebrity religion is unrelated to phrase usage.
+- inshallah-meaning / What is Anne Hathaway's religion?：Celebrity religion is unrelated to the linguistic topic.
+- inshallah-meaning / Why do Christians say inshallah?：Existing FAQ "Is inshallah used only by Muslims?" covers other religious communities; celebrity religion is unrelated to phrase usage.
+- ser-vs-estar / Do Brazilians say "Como estás"?：PAA matched Portuguese query, but article topic is Spanish.
+- ser-vs-estar / Do Brazilians say "tu"?：PAA matched Portuguese query, but article topic is Spanish.
+- ser-vs-estar / What is "I love you" in European Portuguese?：PAA matched Portuguese query, but article topic is Spanish.
+- ser-vs-estar / What's the easiest way to remember ser vs estar?：Three questions concern Portuguese while this article teaches Spanish; memory rule is already answered by existing identity/state FAQ.
+- direct-vs-indirect-object-pronouns-spanish / When to use IOP vs DOP?：Existing FAQ "How do you know whether to use lo or le in a specific sentence?" already answers IOP/DOP choice.
+
+来源：Merriam-Webster voilà、Oxford inshallah、Quran 18:39和1:2、RAE futuro compuesto及Diccionario del estudiante Ortografía、Apple Support mh27474；已用WebSearch/open读取。FAQ内嵌来源链接，未扩写sources数组。
+
+质量：humanizer → avoid-ai-writing实际完整读取kit唯一源并完成逐答案审校，路径/hash及保真回执在/Users/zhangwh/.codex/automation-runtime/runs/paa-faq-gap-fill/20261011T-paa-codex-2215/lingogrove-writing-chain.json。基线8/8通过；每条添加后跑check_prose_patterns，新内容20字重合3条改写清零，全部最终0；commit前再跑全部改动slug。扩散判定：单篇/本次新答案，无旧内容债务。只追加内容证明及检查输出见本轮RUN_DIR。build验证通过后提交，不由本子agent推送/部署，root独审与集成。
