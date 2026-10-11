@@ -1,0 +1,70 @@
+[
+  {
+    "path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/lingo-b7-primary/mext-page-144.txt",
+    "printed_page": 145,
+    "read": "entire printed page text",
+    "quote": "In the volunteer Japanese-language class―At the end of the class",
+    "supports": "sayonara and see you next week in a volunteer Japanese-language class; does not by itself prove primary-school pupils",
+    "file_sha256": "12bcd47fcab03c786769abdd4669190f91d3fdc7dcca787051f6ce3b4cf46e8f"
+  },
+  {
+    "url": "https://kotobank.jp/word/%E3%81%95%E3%82%88%E3%81%AA%E3%82%89-512196",
+    "read": "Digital Daijisen complete headword; web open121lines, core dictionary section",
+    "quote": "［名］(スル) １ 別れること。「独身生活にさよならする」",
+    "supports": "Japanese noun plus suru used for leaving single life; rejects Japanese-never-verb claim"
+  },
+  {
+    "url": "https://doi.org/10.1093/OED/6057982643",
+    "read": "OED own tell historical-thesaurus search result; direct entry JS robot-check blocked",
+    "quote": "sayonara1883– transitive. To send (a person who is leaving)…",
+    "supports": "farewell verb and date; not old-commute phrase as standalone-verb proof; incomplete direct definition not claimed fully read"
+  },
+  {
+    "path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/lingo-b7-primary/ohana-list.txt",
+    "read": "entire Cook message",
+    "supports": "Cook criticizes continuous ana versus nominal na; speculates cognate nest/taro forms; not current consensus survey",
+    "file_sha256": "88552a9ccedaec78e8dedffd2c7039bd6fa1825cf90244cf6d51040870f89ae6"
+  },
+  {
+    "path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/lingo-b7-primary/daijisen-arigato.txt",
+    "read": "entire dictionary entry and page text",
+    "quote": "「ありがたく」のウ音便",
+    "supports": "adverbial arigataku to arigato sound change; Kansai ookini",
+    "file_sha256": "8cf7427e2c735d5ee324f13deebe2ba55710139bce5a6181ac32784ee7a9cdcc"
+  },
+  {
+    "path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/lingo-b7-primary/carinos.txt",
+    "read": "entire ASALE headword and page",
+    "quote": "PR, Bo, Ch, Py, Ar, Ur.",
+    "supports": "Puerto Rico plus five South American countries",
+    "file_sha256": "8fe9e774b3f9746abc1205990bbdb4dadcb44ec055aac9050b0755ff83e0c8a8"
+  },
+  {
+    "path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/lingo-b7-primary/academie-voila.txt",
+    "read": "entire entry/page",
+    "supports": "2014 note describes indicative voi/vois and near/far distinction",
+    "file_sha256": "9dad838f002dfe1277555d71344106c38c084c39c6efda356a2c7e41d8a8cb36"
+  },
+  {
+    "path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/lingo-b7-primary/cnrtl.txt",
+    "read": "only portal returned; no lexical text",
+    "status": "NOT_FULL_LEXICAL_READ; web fallback also portal; no new CNRTL chronology claim added",
+    "file_sha256": "b5a005f44fb050f27102c17239125edd2c046067dc3b08cc7f5699c580e6951a"
+  },
+  {
+    "path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/lingo-b7-primary/mamacita-oed.txt",
+    "read": "403 file; not dictionary text",
+    "fallback": "OED own mother historical thesaurus lists mamacita1887. Does not substantiate all English uses being sexualized.",
+    "file_sha256": "4f46b48d51fcd5d226a20fc1daa0eef7b322e52ab9a489bcd1b0829a5dd6d7d3"
+  },
+  {
+    "url": "https://en.wiktionary.org/wiki/papacito",
+    "read": "Spanish headword etymology/noun sections",
+    "supports": "diminutive daddy; no sexual sense listed in this entry, not language-wide prohibition"
+  },
+  {
+    "url": "https://en.wiktionary.org/wiki/mamita",
+    "read": "Spanish headword etymology/noun sections",
+    "supports": "mommy diminutive/synonym; entry-limited absence does not settle every use"
+  }
+]

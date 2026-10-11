@@ -1,0 +1,409 @@
+[
+  {
+    "slug": "voila-meaning",
+    "original_candidates": [
+      {
+        "source": "正文",
+        "sentence": "French also slots object pronouns directly into both words, me voici (\"here I am\"), nous voilà (\"there we are,\" or \"here we are now\"), using the same [pronouns](/french-pronouns/) that attach to ordinary French verbs, a construction English \"voila\" never picked up at all.",
+        "anchor": "pronouns",
+        "target_slug": "french-pronouns"
+      },
+      {
+        "source": "正文",
+        "sentence": "Voilà isn\\'t the only import that shed most of its original texture on the way into English: [per se](/per-se-meaning/) survived as a narrow legal-and-adverb slice of a much more flexible Latin phrase, the same kind of trim French\\'s \"see there\" underwent once it crossed over.",
+        "anchor": "per se",
+        "target_slug": "per-se-meaning"
+      }
+    ],
+    "current_candidates": [
+      {
+        "source": "body",
+        "sentence": "Another Latin expression used in English is [per se](/per-se-meaning/), meaning \"by itself.\" Its guide distinguishes ordinary adverbial uses from specific legal rules; that distinction is not evidence of the same borrowing history as voilà.",
+        "anchor": "per se",
+        "target_slug": "per-se-meaning"
+      }
+    ],
+    "notes": [
+      {
+        "index": 1,
+        "verdict": "CONFIRMED",
+        "sentence": "Another Latin expression used in English is [per se](/per-se-meaning/), meaning \"by itself.\" Its guide distinguishes ordinary adverbial uses from specific legal rules; that distinction is not evidence of the same borrowing history as voilà.",
+        "target_slug": "per-se-meaning",
+        "note": "Independent review: full source and original target body/all FAQ read. Narrow comparison supported by target quotation: English built three distinct jobs on that literal meaning",
+        "target_article_sha256": "1e024ece1f64d439e72d224906dfd5736184d0025eedfca069f02b6d7353a8d4",
+        "source_article_sha256": "26880508fdb7d5ef057ea5cc736bea00808c31cc20af982f3e79662845dba6ea"
+      }
+    ],
+    "full_source_faq_read": true,
+    "original_semantic_review": [
+      {
+        "index": 1,
+        "original_sentence": "French also slots object pronouns directly into both words, me voici (\"here I am\"), nous voilà (\"there we are,\" or \"here we are now\"), using the same [pronouns](/french-pronouns/) that attach to ordinary French verbs, a construction English \"voila\" never picked up at all.",
+        "target_slug": "french-pronouns",
+        "verdict": "NARROWED_AND_SUPPORTED",
+        "target_quote": "me, te, nous, and vous are identical whether the object is direct or indirect",
+        "reason": "The target supports me/nous as object forms, not every English use or an identical verb construction. Final bridge names those forms.",
+        "target_article_sha256": "36e5c41448451859c0a351bd72f5e33478acaee50de691ec448beeefe40a9ca5"
+      },
+      {
+        "index": 2,
+        "original_sentence": "Voilà isn\\'t the only import that shed most of its original texture on the way into English: [per se](/per-se-meaning/) survived as a narrow legal-and-adverb slice of a much more flexible Latin phrase, the same kind of trim French\\'s \"see there\" underwent once it crossed over.",
+        "target_slug": "per-se-meaning",
+        "verdict": "NARROWED_AND_SUPPORTED",
+        "target_quote": "English built three distinct jobs on that literal meaning",
+        "reason": "The target supports Latin by itself and specific legal applications, not a shared narrowing history. Final bridge separates those topics.",
+        "target_article_sha256": "1e024ece1f64d439e72d224906dfd5736184d0025eedfca069f02b6d7353a8d4"
+      }
+    ]
+  },
+  {
+    "slug": "mamacita-meaning",
+    "original_candidates": [
+      {
+        "source": "正文",
+        "sentence": "Spanish builds a comparable family term the opposite direction, by contraction rather than suffixing: [mijo](/mijo-meaning/) squeezes mi hijo, \"my son,\" into one word used to address a child or close friend, an entirely separate history from the identically spelled word for a cereal grain.",
+        "anchor": "mijo",
+        "target_slug": "mijo-meaning"
+      },
+      {
+        "source": "正文",
+        "sentence": "That two-sense structure, one word doing both jobs depending on who\\'s speaking to whom, is the same shape [habibi](/habibi-meaning/) has in Arabic, where a term built for close relationships also gets used, in a different register, for someone the speaker barely knows.",
+        "anchor": "habibi",
+        "target_slug": "habibi-meaning"
+      },
+      {
+        "source": "正文",
+        "sentence": "Whatever nuance Spanish preserves by keeping \"little mama\" and \"hottie\" as two clearly labeled senses of the same word, English flattened into one, the same narrowing [voilà](/voila-meaning/) underwent when it crossed into English and kept only its dramatic-reveal sense, dropping the French word\\'s separate use for marking elapsed time.",
+        "anchor": "voilà",
+        "target_slug": "voila-meaning"
+      }
+    ],
+    "current_candidates": [
+      {
+        "source": "body",
+        "sentence": "Spanish builds a comparable family term the opposite direction, by contraction rather than suffixing: [mijo](/mijo-meaning/) squeezes mi hijo, \"my son,\" into one word used to address a child or close friend, an entirely separate history from the identically spelled word for a cereal grain.",
+        "anchor": "mijo",
+        "target_slug": "mijo-meaning"
+      }
+    ],
+    "notes": [
+      {
+        "index": 1,
+        "verdict": "CONFIRMED",
+        "sentence": "Spanish builds a comparable family term the opposite direction, by contraction rather than suffixing: [mijo](/mijo-meaning/) squeezes mi hijo, \"my son,\" into one word used to address a child or close friend, an entirely separate history from the identically spelled word for a cereal grain.",
+        "target_slug": "mijo-meaning",
+        "note": "Independent review: full source and original target body/all FAQ read. Narrow comparison supported by target quotation: A second, unrelated mijo is a spoken contraction of mi hijo, \"my son,\"",
+        "target_article_sha256": "8570009abaf00d115ed077f98aefe31bbde77f4c543982d95c147e467e96a575",
+        "source_article_sha256": "503616f4fe3a16776343fd9149b98fb88f334dd160acb4537f13ba9fddf577be"
+      }
+    ],
+    "full_source_faq_read": true,
+    "original_semantic_review": [
+      {
+        "index": 1,
+        "original_sentence": "Spanish builds a comparable family term the opposite direction, by contraction rather than suffixing: [mijo](/mijo-meaning/) squeezes mi hijo, \"my son,\" into one word used to address a child or close friend, an entirely separate history from the identically spelled word for a cereal grain.",
+        "target_slug": "mijo-meaning",
+        "verdict": "NARROWED_AND_SUPPORTED",
+        "target_quote": "A second, unrelated mijo is a spoken contraction of mi hijo, \"my son,\"",
+        "reason": "The target supports the address contraction and separately Latin millet. Comparison is limited to contraction versus suffixing.",
+        "target_article_sha256": "8570009abaf00d115ed077f98aefe31bbde77f4c543982d95c147e467e96a575"
+      },
+      {
+        "index": 2,
+        "original_sentence": "That two-sense structure, one word doing both jobs depending on who\\'s speaking to whom, is the same shape [habibi](/habibi-meaning/) has in Arabic, where a term built for close relationships also gets used, in a different register, for someone the speaker barely knows.",
+        "target_slug": "habibi-meaning",
+        "verdict": "NARROWED_AND_SUPPORTED",
+        "target_quote": "Parents call their children habibi or habibti.",
+        "reason": "Target covers affectionate address in varied relationships, but cannot prove identical borrowing or cultural consequences. Final source separates each context.",
+        "target_article_sha256": "310428ea7a607e75f73503d9e3ebf85b4e4e310c8a7f6c041379b5a5ade51c77"
+      },
+      {
+        "index": 3,
+        "original_sentence": "Whatever nuance Spanish preserves by keeping \"little mama\" and \"hottie\" as two clearly labeled senses of the same word, English flattened into one, the same narrowing [voilà](/voila-meaning/) underwent when it crossed into English and kept only its dramatic-reveal sense, dropping the French word\\'s separate use for marking elapsed time.",
+        "target_slug": "voila-meaning",
+        "verdict": "NARROWED_AND_SUPPORTED",
+        "target_quote": "Merriam-Webster and Dictionary.com describe the English interjection as a way to present something, express approval or suggest a magical appearance.",
+        "reason": "Target lists multiple English interjection functions and French duration; no proof that all English speakers lost a sense or that dictionaries caused adoption. Final source limits to cited entries.",
+        "target_article_sha256": "26880508fdb7d5ef057ea5cc736bea00808c31cc20af982f3e79662845dba6ea"
+      }
+    ]
+  },
+  {
+    "slug": "mijo-meaning",
+    "original_candidates": [
+      {
+        "source": "正文",
+        "sentence": "Wiktionary\\'s entry treats it as a contraction of mi hijo, \"my son,\" with the feminine mija built the same way from mi hija, \"my daughter.\" The [possessive adjective mi](/spanish-possessive-adjectives/) and the noun run together in fast, informal speech, roughly the way English speakers let \"going to\" collapse into \"gonna.\" Wiktionary also records an apostrophized spelling, m\\'ijo, that marks the elision directly on the page, plus a further-contracted mi\\'jo.",
+        "anchor": "possessive adjective mi",
+        "target_slug": "spanish-possessive-adjectives"
+      },
+      {
+        "source": "正文",
+        "sentence": "The vocative mijo has no entry of its own in the Oxford English Dictionary or Merriam-Webster, unlike [mamacita](/mamacita-meaning/), which the OED dates to 1887 in English print and defines with a single, narrowed slang sense.",
+        "anchor": "mamacita",
+        "target_slug": "mamacita-meaning"
+      }
+    ],
+    "current_candidates": [
+      {
+        "source": "body",
+        "sentence": "Wiktionary\\'s entry treats it as a contraction of mi hijo, \"my son,\" with the feminine mija built the same way from mi hija, \"my daughter.\" The [possessive adjective mi](/spanish-possessive-adjectives/) and the noun run together in fast, informal speech, roughly the way English speakers let \"going to\" collapse into \"gonna.\" Wiktionary also records an apostrophized spelling, m\\'ijo, that marks the elision directly on the page, plus a further-contracted mi\\'jo.",
+        "anchor": "possessive adjective mi",
+        "target_slug": "spanish-possessive-adjectives"
+      }
+    ],
+    "notes": [
+      {
+        "index": 1,
+        "verdict": "CONFIRMED",
+        "sentence": "Wiktionary\\'s entry treats it as a contraction of mi hijo, \"my son,\" with the feminine mija built the same way from mi hija, \"my daughter.\" The [possessive adjective mi](/spanish-possessive-adjectives/) and the noun run together in fast, informal speech, roughly the way English speakers let \"going to\" collapse into \"gonna.\" Wiktionary also records an apostrophized spelling, m\\'ijo, that marks the elision directly on the page, plus a further-contracted mi\\'jo.",
+        "target_slug": "spanish-possessive-adjectives",
+        "note": "Independent review: full source and original target body/all FAQ read. Narrow comparison supported by target quotation: Mi/mis (\"my\"), tu/tus (\"your,\" informal singular)",
+        "target_article_sha256": "ac0b0009335bc93259a58ad1f42bba555309f307bbffb7e7d1a765d3a9fae04f",
+        "source_article_sha256": "8570009abaf00d115ed077f98aefe31bbde77f4c543982d95c147e467e96a575"
+      }
+    ],
+    "full_source_faq_read": true,
+    "original_semantic_review": [
+      {
+        "index": 1,
+        "original_sentence": "Wiktionary\\'s entry treats it as a contraction of mi hijo, \"my son,\" with the feminine mija built the same way from mi hija, \"my daughter.\" The [possessive adjective mi](/spanish-possessive-adjectives/) and the noun run together in fast, informal speech, roughly the way English speakers let \"going to\" collapse into \"gonna.\" Wiktionary also records an apostrophized spelling, m\\'ijo, that marks the elision directly on the page, plus a further-contracted mi\\'jo.",
+        "target_slug": "spanish-possessive-adjectives",
+        "verdict": "NARROWED_AND_SUPPORTED",
+        "target_quote": "Mi/mis (\"my\"), tu/tus (\"your,\" informal singular)",
+        "reason": "Mi is a possessive meaning my. Gonna is an illustrative contraction, not a claim of shared ancestry or historical process.",
+        "target_article_sha256": "ac0b0009335bc93259a58ad1f42bba555309f307bbffb7e7d1a765d3a9fae04f"
+      },
+      {
+        "index": 2,
+        "original_sentence": "The vocative mijo has no entry of its own in the Oxford English Dictionary or Merriam-Webster, unlike [mamacita](/mamacita-meaning/), which the OED dates to 1887 in English print and defines with a single, narrowed slang sense.",
+        "target_slug": "mamacita-meaning",
+        "verdict": "NARROWED_AND_SUPPORTED",
+        "target_quote": "The first is simply \"diminutive of mamá,\" unmarked for region or register",
+        "reason": "Target gives Spanish affectionate/slang entries and an English Wiktionary sense. It cannot prove every speaker or dictionary lacks other senses. Source now describes documented senses.",
+        "target_article_sha256": "503616f4fe3a16776343fd9149b98fb88f334dd160acb4537f13ba9fddf577be"
+      }
+    ]
+  },
+  {
+    "slug": "sayonara-meaning",
+    "original_candidates": [
+      {
+        "source": "正文",
+        "sentence": "It\\'s a similar pattern to how English handled [senpai](/senpai-meaning/): a Japanese word absorbed into English, then reshaped and extended in ways the original language never intended.",
+        "anchor": "senpai",
+        "target_slug": "senpai-meaning"
+      }
+    ],
+    "current_candidates": [],
+    "notes": [],
+    "full_source_faq_read": true,
+    "original_semantic_review": [
+      {
+        "index": 1,
+        "original_sentence": "It\\'s a similar pattern to how English handled [senpai](/senpai-meaning/): a Japanese word absorbed into English, then reshaped and extended in ways the original language never intended.",
+        "target_slug": "senpai-meaning",
+        "verdict": "NARROWED_AND_SUPPORTED",
+        "target_quote": "Someone becomes your senpai by having joined the same school, club, team, or company before you did",
+        "reason": "Target describes Japanese seniority and English fandom use; this does not establish a language’s intentions or the same change as sayonara. Final source separates the histories.",
+        "target_article_sha256": "a283e19671e785aa95c69365b54e3ef0cd234eccc55ebfffa846b5787f41c06f"
+      }
+    ]
+  },
+  {
+    "slug": "oy-vey-meaning",
+    "original_candidates": [
+      {
+        "source": "正文",
+        "sentence": "None of this settles which of the two etymology theories above is correct, but it does show that a short cry of \"oh, woe\" built from similar-sounding syllables turns up independently across more than one European language family, not unlike how [schadenfreude](/schadenfreude-meaning/) gave English a single German word for an emotion it otherwise takes a whole sentence to describe.",
+        "anchor": "schadenfreude",
+        "target_slug": "schadenfreude-meaning"
+      },
+      {
+        "source": "正文",
+        "sentence": "Voila made a comparable journey into everyday English out of French, though [voila\\'s](/voila-meaning/) route ran through ordinary dictionary adoption rather than one community\\'s comedians and writers, a reminder that \"borrowed exclamation\" covers more than one kind of route into everyday English.",
+        "anchor": "voila\\'s",
+        "target_slug": "voila-meaning"
+      }
+    ],
+    "current_candidates": [],
+    "notes": [],
+    "full_source_faq_read": true,
+    "original_semantic_review": [
+      {
+        "index": 1,
+        "original_sentence": "None of this settles which of the two etymology theories above is correct, but it does show that a short cry of \"oh, woe\" built from similar-sounding syllables turns up independently across more than one European language family, not unlike how [schadenfreude](/schadenfreude-meaning/) gave English a single German word for an emotion it otherwise takes a whole sentence to describe.",
+        "target_slug": "schadenfreude-meaning",
+        "verdict": "NARROWED_AND_SUPPORTED",
+        "target_quote": "meaning pleasure taken in someone else",
+        "reason": "Target defines pleasure at another’s misfortune, not independent origins of European lament forms. Final bridge identifies the separate borrowing.",
+        "target_article_sha256": "90ca5920dd3ec0a8f414acaca4e406f65e47653ef73dfadf493a2ecc9e4e6702"
+      },
+      {
+        "index": 2,
+        "original_sentence": "Voila made a comparable journey into everyday English out of French, though [voila\\'s](/voila-meaning/) route ran through ordinary dictionary adoption rather than one community\\'s comedians and writers, a reminder that \"borrowed exclamation\" covers more than one kind of route into everyday English.",
+        "target_slug": "voila-meaning",
+        "verdict": "NARROWED_AND_SUPPORTED",
+        "target_quote": "Merriam-Webster and Dictionary.com describe the English interjection as a way to present something, express approval or suggest a magical appearance.",
+        "reason": "Target lists multiple English interjection functions and French duration; no proof that all English speakers lost a sense or that dictionaries caused adoption. Final source limits to cited entries.",
+        "target_article_sha256": "26880508fdb7d5ef057ea5cc736bea00808c31cc20af982f3e79662845dba6ea"
+      }
+    ]
+  },
+  {
+    "slug": "ohana-meaning",
+    "original_candidates": [
+      {
+        "source": "正文",
+        "sentence": "Wehewehe.org, which hosts the Pukui & Elbert Hawaiian Dictionary, the same standard reference cited for [mahalo](/mahalo-meaning/), defines ʻohana plainly: \"family, relative, kin group; related.\" The entry also lists two compounds, ʻohana holoʻokoʻa and ʻohana nui, both used for an extended family or clan rather than an immediate household.",
+        "anchor": "mahalo",
+        "target_slug": "mahalo-meaning"
+      },
+      {
+        "source": "正文",
+        "sentence": "Much like how [habibi](/habibi-meaning/) gets borrowed into English for a warmth the language otherwise splits across several separate words, ʻohana crosses into English carrying its home culture\\'s full weight, and marketers reaching for it usually pick up only the sentiment, not the history.",
+        "anchor": "habibi",
+        "target_slug": "habibi-meaning"
+      }
+    ],
+    "current_candidates": [
+      {
+        "source": "body",
+        "sentence": "Wehewehe.org, which hosts the Pukui & Elbert Hawaiian Dictionary, the same standard reference cited for [mahalo](/mahalo-meaning/), defines ʻohana plainly: \"family, relative, kin group; related.\" The entry also lists two compounds, ʻohana holoʻokoʻa and ʻohana nui, both used for an extended family or clan rather than an immediate household.",
+        "anchor": "mahalo",
+        "target_slug": "mahalo-meaning"
+      }
+    ],
+    "notes": [
+      {
+        "index": 1,
+        "verdict": "CONFIRMED",
+        "sentence": "Wehewehe.org, which hosts the Pukui & Elbert Hawaiian Dictionary, the same standard reference cited for [mahalo](/mahalo-meaning/), defines ʻohana plainly: \"family, relative, kin group; related.\" The entry also lists two compounds, ʻohana holoʻokoʻa and ʻohana nui, both used for an extended family or clan rather than an immediate household.",
+        "target_slug": "mahalo-meaning",
+        "note": "Independent review: full source and original target body/all FAQ read. Narrow comparison supported by target quotation: The Pukui & Elbert Hawaiian Dictionary, compiled by Mary Kawena Pukui and Samuel H. Elbert",
+        "target_article_sha256": "d57cfa86c09d41866d8ff622e76ab182b31777e787a6615ebb40539b70cbb891",
+        "source_article_sha256": "55f4b39845fa0f13d68e2feae8de06a282c0d2c26d4c223bbbf77a6be19b8557"
+      }
+    ],
+    "full_source_faq_read": true,
+    "original_semantic_review": [
+      {
+        "index": 1,
+        "original_sentence": "Wehewehe.org, which hosts the Pukui & Elbert Hawaiian Dictionary, the same standard reference cited for [mahalo](/mahalo-meaning/), defines ʻohana plainly: \"family, relative, kin group; related.\" The entry also lists two compounds, ʻohana holoʻokoʻa and ʻohana nui, both used for an extended family or clan rather than an immediate household.",
+        "target_slug": "mahalo-meaning",
+        "verdict": "NARROWED_AND_SUPPORTED",
+        "target_quote": "The Pukui & Elbert Hawaiian Dictionary, compiled by Mary Kawena Pukui and Samuel H. Elbert",
+        "reason": "Target explicitly names Pukui and Elbert, supporting the common dictionary reference only.",
+        "target_article_sha256": "d57cfa86c09d41866d8ff622e76ab182b31777e787a6615ebb40539b70cbb891"
+      },
+      {
+        "index": 2,
+        "original_sentence": "Much like how [habibi](/habibi-meaning/) gets borrowed into English for a warmth the language otherwise splits across several separate words, ʻohana crosses into English carrying its home culture\\'s full weight, and marketers reaching for it usually pick up only the sentiment, not the history.",
+        "target_slug": "habibi-meaning",
+        "verdict": "NARROWED_AND_SUPPORTED",
+        "target_quote": "Parents call their children habibi or habibti.",
+        "reason": "Target covers affectionate address in varied relationships, but cannot prove identical borrowing or cultural consequences. Final source separates each context.",
+        "target_article_sha256": "310428ea7a607e75f73503d9e3ebf85b4e4e310c8a7f6c041379b5a5ade51c77"
+      }
+    ]
+  },
+  {
+    "slug": "carino-meaning",
+    "original_candidates": [
+      {
+        "source": "正文",
+        "sentence": "It sits in the same family of Spanish endearment vocabulary as [mamacita](/mamacita-meaning/), another word a dictionary entry splits into senses most casual translations flatten into one.",
+        "anchor": "mamacita",
+        "target_slug": "mamacita-meaning"
+      }
+    ],
+    "current_candidates": [
+      {
+        "source": "body",
+        "sentence": "It sits in the same family of Spanish endearment vocabulary as [mamacita](/mamacita-meaning/), whose Wiktionary entry lists affectionate and slang senses.",
+        "anchor": "mamacita",
+        "target_slug": "mamacita-meaning"
+      }
+    ],
+    "notes": [
+      {
+        "index": 1,
+        "verdict": "CONFIRMED",
+        "sentence": "It sits in the same family of Spanish endearment vocabulary as [mamacita](/mamacita-meaning/), whose Wiktionary entry lists affectionate and slang senses.",
+        "target_slug": "mamacita-meaning",
+        "note": "Independent review: full source and original target body/all FAQ read. Narrow comparison supported by target quotation: The first is simply \"diminutive of mamá,\" unmarked for region or register",
+        "target_article_sha256": "503616f4fe3a16776343fd9149b98fb88f334dd160acb4537f13ba9fddf577be",
+        "source_article_sha256": "f0ff612663576a3b7792726cdb96ce01beb4eb08a80b68d4e3b85d02481f4b80"
+      }
+    ],
+    "full_source_faq_read": true,
+    "original_semantic_review": [
+      {
+        "index": 1,
+        "original_sentence": "It sits in the same family of Spanish endearment vocabulary as [mamacita](/mamacita-meaning/), another word a dictionary entry splits into senses most casual translations flatten into one.",
+        "target_slug": "mamacita-meaning",
+        "verdict": "NARROWED_AND_SUPPORTED",
+        "target_quote": "The first is simply \"diminutive of mamá,\" unmarked for region or register",
+        "reason": "Target gives Spanish affectionate/slang entries and an English Wiktionary sense. It cannot prove every speaker or dictionary lacks other senses. Source now describes documented senses.",
+        "target_article_sha256": "503616f4fe3a16776343fd9149b98fb88f334dd160acb4537f13ba9fddf577be"
+      }
+    ]
+  },
+  {
+    "slug": "arigato-meaning",
+    "original_candidates": [
+      {
+        "source": "正文",
+        "sentence": "Japanese farewells hide a similar gap between literal pieces and everyday translation: [sayonara](/sayonara-meaning/) is glossed as a simple \"goodbye,\" but its literal sense is closer to \"if that\\'s how it is,\" and unlike a casual arigatō, it signals a long or permanent parting rather than an everyday one.",
+        "anchor": "sayonara",
+        "target_slug": "sayonara-meaning"
+      },
+      {
+        "source": "正文",
+        "sentence": "That kind of register judgment runs through a lot of Japanese social vocabulary, not just this word: [sayonara](/sayonara-meaning/) carries a formality of its own, one tied to finality rather than politeness, and misjudging either word\\'s weight reads as off in a similar way.",
+        "anchor": "sayonara",
+        "target_slug": "sayonara-meaning"
+      }
+    ],
+    "current_candidates": [
+      {
+        "source": "body",
+        "sentence": "Japanese farewells hide a similar gap between literal pieces and everyday translation: [sayonara](/sayonara-meaning/) is glossed as a simple \"goodbye,\" but its literal sense is closer to \"if that\\'s how it is.\" It can sound final in some settings, but is also used for ordinary classroom departures.",
+        "anchor": "sayonara",
+        "target_slug": "sayonara-meaning"
+      }
+    ],
+    "notes": [
+      {
+        "index": 1,
+        "verdict": "CONFIRMED",
+        "sentence": "Japanese farewells hide a similar gap between literal pieces and everyday translation: [sayonara](/sayonara-meaning/) is glossed as a simple \"goodbye,\" but its literal sense is closer to \"if that\\'s how it is.\" It can sound final in some settings, but is also used for ordinary classroom departures.",
+        "target_slug": "sayonara-meaning",
+        "note": "Independent review: full source and original target body/all FAQ read. Narrow comparison supported by target quotation: This class farewell is ordinary and recurring",
+        "target_article_sha256": "37afd23c18c72b8f259c53480f39fa81b4030d7b39120a233098d590e2708cac",
+        "source_article_sha256": "03e2d700d60fe5bde0c6cbd50974cf0786f4fea36aebdf716c3d5c9965085586"
+      }
+    ],
+    "full_source_faq_read": true,
+    "original_semantic_review": [
+      {
+        "index": 1,
+        "original_sentence": "Japanese farewells hide a similar gap between literal pieces and everyday translation: [sayonara](/sayonara-meaning/) is glossed as a simple \"goodbye,\" but its literal sense is closer to \"if that\\'s how it is,\" and unlike a casual arigatō, it signals a long or permanent parting rather than an everyday one.",
+        "target_slug": "sayonara-meaning",
+        "verdict": "NARROWED_AND_SUPPORTED",
+        "target_quote": "This class farewell is ordinary and recurring",
+        "reason": "Final target distinguishes contextual finality from recurring class departures. MEXT printed145 is volunteer language class, not a school-day child/teacher observation. Bridge now allows routine departures.",
+        "target_article_sha256": "37afd23c18c72b8f259c53480f39fa81b4030d7b39120a233098d590e2708cac"
+      },
+      {
+        "index": 2,
+        "original_sentence": "That kind of register judgment runs through a lot of Japanese social vocabulary, not just this word: [sayonara](/sayonara-meaning/) carries a formality of its own, one tied to finality rather than politeness, and misjudging either word\\'s weight reads as off in a similar way.",
+        "target_slug": "sayonara-meaning",
+        "verdict": "NARROWED_AND_SUPPORTED",
+        "target_quote": "This class farewell is ordinary and recurring",
+        "reason": "Final target distinguishes contextual finality from recurring class departures. MEXT printed145 is volunteer language class, not a school-day child/teacher observation. Bridge now allows routine departures.",
+        "target_article_sha256": "37afd23c18c72b8f259c53480f39fa81b4030d7b39120a233098d590e2708cac"
+      }
+    ]
+  }
+]

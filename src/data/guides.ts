@@ -5803,14 +5803,14 @@ export const guides: Guide[] = [
 				],
 				image: {
 					src: '/images/voila-meaning-diagram.svg',
-					alt: 'Diagram showing French voilà (vois + là, "you see there," first recorded 1342) narrowing in English to a dramatic-reveal interjection, contrasted with the unrelated word viola and the two unrelated real words spelled wallah.',
+					alt: 'Diagram showing voilà from vois and là, its English interjection use, French distance and duration constructions, and the distinct words viola and wallah that can be confused with its spelling.',
 				},
 			},
 			{
 				heading: '"Voici" versus "voilà": the distinction English never adopted',
 				body: [
-					'Voilà has a twin built the same way: voici, from vois plus ci ("here"), the same construction CNRTL cross-references directly under its voilà entry. The pairing was originally about distance, not just style, voici for what is near the speaker, voilà for what sits farther off, the same ci/là contrast that shows up elsewhere in French to mark "here" against "there." Recent French-usage guides and grammar blogs describe that spatial distinction as largely eroded in modern spoken French: voilà now covers most everyday presenting and announcing regardless of actual distance, while voici survives mainly in formal introductions and written contexts, such as introducing a guest or a set of results. French also slots object pronouns directly into both words, me voici ("here I am"), nous voilà ("there we are," or "here we are now"), using Object forms such as me and nous appear in the [French pronouns](/french-pronouns/) guide. These French examples differ from the English interjection listed by Merriam-Webster.',
-					'French also gives voilà a job English speakers who use the borrowed word have never heard of: marking elapsed time. CNRTL\'s own citation record traces this sense to a mid-18th-century attestation, glossed as "il y a exactement (tel laps de temps)," "it has been exactly [such a length of time]." The construction pairs voilà with a duration and que: voilà trois mois qu\'il est parti translates as "he\'s now been gone for three months," Here est parti is passé composé, not present tense. The sentence reports elapsed time since a departure; this duration construction is distinct from the English interjection in the cited dictionary entry.',
+					'Voilà has a twin built the same way: voici, from vois plus ci ("here"), the same construction CNRTL cross-references directly under its voilà entry. The pairing was originally about distance, not just style, voici for what is near the speaker, voilà for what sits farther off, the same ci/là contrast that shows up elsewhere in French to mark "here" against "there." Recent French-usage guides and grammar blogs describe that spatial distinction as largely eroded in modern spoken French: voilà now covers most everyday presenting and announcing regardless of actual distance, while voici survives mainly in formal introductions and written contexts, such as introducing a guest or a set of results. French also slots object pronouns directly into both words, me voici ("here I am"), nous voilà ("there we are," or "here we are now"). Object forms such as me and nous appear in the [French pronouns](/french-pronouns/) guide. These French examples differ from the English interjection listed by Merriam-Webster.',
+					'French also uses voilà to mark elapsed time, a construction distinct from its English interjection use. CNRTL\'s own citation record traces this sense to a mid-18th-century attestation, glossed as "il y a exactement (tel laps de temps)," "it has been exactly [such a length of time]." The construction pairs voilà with a duration and que: voilà trois mois qu\'il est parti translates as "he\'s now been gone for three months." Here est parti is passé composé, not present tense. The sentence reports elapsed time since a departure; this duration construction is distinct from the English interjection in the cited dictionary entry.',
 				],
 			},
 			{
@@ -5847,7 +5847,7 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'Does "voila" ever mean "it\'s been [an amount of time]" in French?',
-				answer: 'Yes, in French, not in English. CNRTL dates that use back to the mid-1700s: paired with a stretch of time plus que, voilà can mark elapsed duration, roughly "it\'s now been [that long] since..." The cited English entry describes an interjection, The French example measures time since an event.',
+				answer: 'Yes, in French, not in English. CNRTL dates that use back to the mid-1700s: paired with a stretch of time plus que, voilà can mark elapsed duration, roughly "it\'s now been [that long] since..." The cited English entry describes an interjection. The French example measures time since an event.',
 			},
 			{
 				question: 'How do you pronounce voila?',
@@ -5916,7 +5916,7 @@ export const guides: Guide[] = [
 		faq: [
 			{
 				question: 'What does "mamacita" mean?',
-				answer: 'Literally "little mama." Mamá means "mom," and Spanish tacks on -cita, a diminutive ending. In Spanish, the word covers two uses: the plain, everyday diminutive families useWiktionary also marks an attractive-woman sense as Latin American slang.',
+				answer: 'Literally "little mama." Mamá means "mom," and Spanish tacks on -cita, a diminutive ending. In Spanish, the word covers two uses: the plain, everyday diminutive families use. Wiktionary also marks an attractive-woman sense as Latin American slang.',
 			},
 			{
 				question: 'Is "mamacita" an insult or a compliment?',
@@ -6010,7 +6010,7 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'Does English have a version of "mijo"?',
-				answer: 'Yes. Wiktionary has an English entry: the word does show up in English text: it glosses mijo, US usage, as a warm way to address a man or boy, backed by citations from The Athletic and the New York Times. These citations document English usage; no claim about the absence of entries from every other dictionary is needed.',
+				answer: 'Yes. Wiktionary includes an English headword for this American endearment, addressed to a male listener. Its supporting quotations include The Athletic and the New York Times, showing this address term in texts written in English.',
 			},
 		],
 		sources: [
@@ -6026,11 +6026,11 @@ export const guides: Guide[] = [
 	{
 		slug: 'sayonara-meaning',
 		category: 'Loanwords',
-		title: 'Sayonara Meaning: Why It\'s Not the Everyday Japanese Goodbye',
+		title: 'Sayonara Meaning: Japanese Farewells Depend on Context',
 		description: 'Sayonara translates as goodbye, but its literal meaning is closer to "if that\'s how it is." It can sound final in some contexts, but it also occurs in routine classroom farewells.',
 		published: '2026-08-27',
 		updated: '2026-10-12',
-		coreSummary: 'Sayonara comes from Japanese sayō naraba, literally "if it be thus" or "if that\'s the way it is," and the Oxford English Dictionary\'s earliest evidence of it in English dates to 1863. In Japanese it can suggest a lasting farewell, depending on the setting. Routine school farewells also use it; mata ne ("see you again") and ja ne ("well then") are casual alternatives. English dictionaries record a farewell sense; a separate OED entry gives evidence from 1883 for an informal verb meaning to get rid of something.',
+		coreSummary: 'Sayonara comes from Japanese sayō naraba, literally "if it be thus" or "if that\'s the way it is," and the Oxford English Dictionary\'s earliest evidence of it in English dates to 1863. In Japanese it can suggest a lasting farewell, depending on the setting. Routine Japanese-language class farewells also use it; mata ne ("see you again") and ja ne ("well then") are casual alternatives. English dictionaries record a farewell sense; a separate OED entry gives evidence from 1883 for a verb used to send a departing person off with a farewell.',
 		language: 'Japanese',
 		usageNote: {
 			register: 'formal',
@@ -6045,14 +6045,14 @@ export const guides: Guide[] = [
 				],
 				image: {
 					src: '/images/sayonara-meaning-diagram.svg',
-					alt: 'Diagram showing the etymology of sayonara from sayō ("that way, thus") plus naraba ("if it be"), and contrasting how the word functions in Japanese, sometimes sounding final but also used for routine school farewells, with casual alternatives mata ne and ja ne, versus English, where it is a generic casual goodbye and OED records a separate verb sense meaning to get rid of something.',
+					alt: 'Diagram showing the etymology of sayonara from sayō ("that way, thus") plus naraba ("if it be"), and contrasting how the word functions in Japanese, sometimes sounding final but also used for routine language-class farewells, with casual alternatives mata ne and ja ne, versus English, where it is a generic casual goodbye and OED records a separate farewell verb.',
 				},
 			},
 			{
-				heading: 'Why it lands as far more final in Japanese than in English',
+				heading: 'When sayonara can sound final',
 				body: [
 					'Sayonara can sound unusually final when said to a close friend whom the speaker expects to see soon. That interpretation depends on context, not simply the conditional phrase in its etymology. Learner guides therefore offer mata ne and ja ne for casual farewells, without making sayonara a word reserved for permanent separation.',
-					'Routine classroom use provides a counterexample to the claim that sayonara always implies permanent separation. The Japanese education ministry\'s handbook illustrates a farewell combining sayonara with a plan to meet the following week. A school-day goodbye can therefore be ordinary and recurring; in a different setting, the same word may sound formal or final.',
+					'Routine classroom use provides a counterexample to the claim that sayonara always implies permanent separation. At the end of a volunteer Japanese-language class in the education ministry\'s handbook, participants say sayonara and mata, raishuu ("see you next week"). This class farewell is ordinary and recurring; in a different setting, the same word may sound formal or final.',
 				],
 			},
 			{
@@ -6063,10 +6063,10 @@ export const guides: Guide[] = [
 				],
 			},
 			{
-				heading: 'How English flattened it into a casual goodbye, and a verb',
+				heading: 'English farewell uses and the separate verb entry',
 				body: [
 					'One documented use of the word as a film title is the 1957 film Sayonara, directed by Joshua Logan and based on James Michener\'s 1954 novel of the same name, starring Marlon Brando as an American Air Force officer who falls for a Japanese dancer during the Korean War. The film was a major awards-season presence, earning ten Academy Award nominations and winning four, including Best Supporting Actress for Miyoshi Umeki, who became the first person of East Asian descent to win an Oscar in an acting category. A film with that title, that cast, and that awards run put the word in front of a mainstream American audience at a scale ordinary borrowing rarely achieves, well after Alcock\'s 1863 usage but decades before the word\'s more recent, throwaway internet-slang phase.',
-					'English didn\'t stop at borrowing the interjection. The OED also lists a separate verb entry for sayonara, with its earliest recorded evidence dating to 1883, and modern usage has run with it: "say sayonara to" something, as in "say sayonara to your old commute," means to get rid of it, dismiss it, or leave it behind for good, a dismissive, often upbeat use with no real Japanese counterpart, since sayonara in Japanese never functions as a verb applied to objects or situations. The [senpai](/senpai-meaning/) guide discusses Japanese seniority relationships and English fandom usage. Those meanings require their own evidence; they do not establish the same history or a language\'s intentions.',
+					'English dictionaries also record sayonara as a verb, with OED evidence beginning in 1883. Its historical thesaurus places the verb among ways of sending a departing person off with a farewell. The phrase "say sayonara to your old commute" is a different construction: say is the verb, and the farewell refers figuratively to leaving something behind. Japanese also forms a verbal expression with suru: Digital Daijisen gives 独身生活にさよならする, saying goodbye to single life. The [senpai](/senpai-meaning/) guide discusses Japanese seniority relationships and English fandom usage. Those meanings require their own evidence; they do not establish the same history or a language\'s intentions.',
 				],
 			},
 		],
@@ -6077,19 +6077,19 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'Do Japanese people actually say "sayonara"?',
-				answer: 'Yes: Japanese teaching materials show pupils and teachers using it at the end of a lesson. With close friends, mata ne or ja ne may suit a casual departure better; the longer goodbye can seem weightier there. Its use at the end of lessons demonstrates that the speakers may still expect to meet again.',
+				answer: 'Yes. An official Japanese teaching handbook depicts the end of a Japanese lesson run by volunteers: the participants use this goodbye and arrange a reunion the following week. Mata ne or ja ne can feel lighter when parting from friends, depending on the conversation.',
 			},
 			{
 				question: 'What\'s the difference between sayonara and mata ne?',
-				answer: 'Mata ne, from mata, meaning "again," and glossed loosely as "catch you soon," is the everyday, casual pick Japanese speakers reach for with people they expect to meet again before long, and it says nothing about how long any gap will run. The effect of sayonara varies with the setting. It may suggest a lasting parting among friends, yet teachers and pupils use it even when they will meet again.',
+				answer: 'Mata ne is an informal expression built on mata, "again," and means something like "see you." Sayonara can feel more final in some conversations, but a language-class example pairs it with a planned reunion. Neither expression alone fixes how long the speakers will be apart.',
 			},
 			{
 				question: 'Is "sayonara" formal or rude in Japanese?',
-				answer: 'Neither, exactly, it\'s not impolite, but it carries real weight. Using it in a casual, near-term goodbye doesn\'t come across as rude so much as overly dramatic or oddly final, with some listeners. A school lesson can end with it even though the participants expect to return.',
+				answer: 'It is a farewell whose tone depends on the situation. Among friends it may feel unusually weighty, while the ministry handbook uses it for an ordinary class departure. It does not require the speakers to be parting permanently.',
 			},
 			{
 				question: 'Is "say sayonara to something" a real English phrase, or just slang?',
-				answer: 'The phrase say sayonara to uses say as its verb and sayonara as the farewell. Separately, the OED carries a separate entry for sayonara as a verb, first recorded in 1883. In modern use, someone might say they\'re ready to sayonara an old habit or a bad job, in the sense of dropping it for good, a usage Japanese has no version of, since there the word stays an interjection and is never pressed into service as a verb.',
+				answer: 'Yes, with say doing the grammatical work in that expression. A distinct OED verb headword, dated to 1883, concerns sending someone on their way with a farewell. Daijisen also records Japanese sayonara followed by suru; its example describes an end to single life.',
 			},
 			{
 				question: 'Is sayonara Spanish or Japanese?',
@@ -6097,10 +6097,12 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'What is another word for "sayonara"?',
-				answer: 'In Japanese, the everyday stand-ins are mata ne, literally "again," and ja ne, which works like "see ya." In English, the plain equivalents are "goodbye" and "farewell," Dictionary entries in English define it as a farewell. Japanese usage includes both weighty partings and the end of a school lesson; the setting affects its force.',
+				answer: 'English equivalents are "farewell" and "goodbye." In casual Japanese conversation, mata ne or ja ne may fit. The ministry’s lesson-ending example includes a future meeting, so using sayonara does not necessarily mean parting forever.',
 			},
 		],
 		sources: [
+			{ label: "Shogakukan Digital Daijisen: sayonara as a noun with suru and as an interjection", url: "https://kotobank.jp/word/%E3%81%95%E3%82%88%E3%81%AA%E3%82%89-512196" },
+			{ label: "OED historical thesaurus under tell: sayonara, farewell verb, 1883", url: "https://doi.org/10.1093/OED/6057982643" },
 			{ label: "MEXT Japanese-language handbook, printed p.145: classroom goodbye and see you next week", url: "https://www.mext.go.jp/a_menu/nihongo_kyoiku/kyoiku/handbook/pdf/en_zensho.pdf" },
 			{ label: 'Oxford English Dictionary: "sayonara, int., n., & adj." (earliest English evidence: 1863, Rutherford Alcock)', url: 'https://www.oed.com/dictionary/sayonara_int' },
 			{ label: 'Oxford English Dictionary: "sayonara, v." (earliest English evidence: 1883, J. J. Smith)', url: 'https://www.oed.com/dictionary/sayonara_v' },
@@ -6147,7 +6149,7 @@ export const guides: Guide[] = [
 				heading: 'When "oy" and "oy vey" entered English, and why the dates don\'t quite agree',
 				body: [
 					'Dictionaries disagree, in a way worth being upfront about, on when this phrase entered English. Merriam-Webster\'s own entry lists 1914 as the first known use of the two-word "oy vey." The Online Etymology Dictionary tells a different story: it dates the standalone "oy" to 1892, in American English, but doesn\'t record the extended "oy vey" until 1959, decades after Merriam-Webster\'s figure for the same two-word phrase. Both are real entries in real, actively maintained dictionaries; their reported dates differ. Those dates document the citations each entry reports, rather than establishing exactly when borrowing began or why the records differ.',
-					'The expression also has documented relatives outside Yiddish entirely. Older Danish and Swedish both have oh ve, carrying a similar sense, and the Montbéliard region of France has its own oy wah, used the same way. None of this settles which of the two etymology theories above is correct, the similar forms alone do not prove independent origins. Danish, Swedish and English are Germanic languages, while the French regional form belongs to a Romance context. A different German borrowing, [schadenfreude](/schadenfreude-meaning/), names pleasure at another person\'s misfortune.',
+					'The expression also has documented relatives outside Yiddish entirely. Older Danish and Swedish both have oh ve, carrying a similar sense, and the Montbéliard region of France has its own oy wah, used the same way. None of this settles which of the two etymology theories above is correct. The similar forms alone do not prove independent origins. Danish, Swedish and English are Germanic languages, while the French regional form belongs to a Romance context. A different German borrowing, [schadenfreude](/schadenfreude-meaning/), names pleasure at another person\'s misfortune.',
 				],
 			},
 			{
@@ -6198,7 +6200,7 @@ export const guides: Guide[] = [
 		slug: 'ohana-meaning',
 		category: 'Loanwords',
 		title: 'Ohana Meaning: Family and Two Accounts of Its Origin',
-		description: 'Ohana is Hawaiian for family, but the Pukui & Elbert dictionary\'s entry includes relatives and kin groups. Two cited accounts connect the word itself traces to a taro plant or a Proto-Polynesian word for "nest."',
+		description: 'Ohana is Hawaiian for family, but the Pukui & Elbert dictionary\'s entry includes relatives and kin groups. The cited accounts connect the word to taro shoots or a reconstructed Polynesian word for "nest."',
 		published: '2026-08-27',
 		updated: '2026-10-12',
 		coreSummary: 'ʻOhana is the Hawaiian word for family, and the Pukui & Elbert Hawaiian Dictionary, the field\'s standard reference, defines it simply as "family, relative, kin group; related," a circle Hawaiian tradition already extended to non-blood relatives and ʻaumakua family guardians, according to the Polynesian Voyaging Society\'s own account of Hawaiian custom. The cited accounts differ: Wiktionary\'s comparative reconstruction traces ʻohana to Proto-Polynesian *kofaŋa, "nest," while a rival account associated with Hawaiian-studies scholar Rubellite Kawena Johnson derives it from ʻohā, a taro plant\'s rooted corm shoots, an image the Kumulipo creation chant deepens further by naming kalo the older sibling of the first Hawaiian person.',
@@ -6212,7 +6214,7 @@ export const guides: Guide[] = [
 				heading: 'What the dictionary actually says ʻohana means',
 				body: [
 					'Wehewehe.org, which hosts the Pukui & Elbert Hawaiian Dictionary, the same standard reference cited for [mahalo](/mahalo-meaning/), defines ʻohana plainly: "family, relative, kin group; related." The entry also lists two compounds, ʻohana holoʻokoʻa and ʻohana nui, both used for an extended family or clan rather than an immediate household.',
-					'The entry includes extended kin groups, not just an immediate household. According to the Polynesian Voyaging Society\'s own account of Hawaiian tradition, published as part of the Hōkūleʻa voyaging canoe program, ʻohana traditionally included parents, grandparents, and children, plus "ties of blood and non-related persons," and even ʻaumakua, family gods or ancestral guardian spirits. English speakers who reach for ʻohana to describe a close, chosen circle of people beyond blood relatives are drawing on a sense the Hawaiian word already carried, The cited Hawaiian account already includes non-blood relationships; English family can also include adopted and chosen relatives.',
+					'The entry includes extended kin groups, not just an immediate household. According to the Polynesian Voyaging Society\'s own account of Hawaiian tradition, published as part of the Hōkūleʻa voyaging canoe program, ʻohana traditionally included parents, grandparents, and children, plus "ties of blood and non-related persons," and even ʻaumakua, family gods or ancestral guardian spirits. English speakers who reach for ʻohana to describe a close, chosen circle of people beyond blood relatives are drawing on a sense the Hawaiian word already carried. The cited Hawaiian account already includes non-blood relationships; English family can also include adopted and chosen relatives.',
 				],
 			},
 			{
@@ -6555,7 +6557,7 @@ export const guides: Guide[] = [
 				heading: 'What the word is actually built from',
 				body: [
 					'Arigatō comes from an older adjective, arigatai, and the two pieces are traceable: ari is a conjugated form of aru, the verb meaning "to exist" or "there is," and gatai is katai, "difficult," voiced (k to g) the way Japanese compounds regularly shift a following consonant. Put together, arigatai means something close to "difficult to exist," and by extension, something uncommon, hard to come by, precious. That\'s a step removed from "thank you": the word started out describing the rarity of a thing, and only later came to express gratitude for it.',
-					'A few language-learning sites simplify the breakdown to "ari, to have" plus "gato, difficult," which blurs two things worth keeping separate. Aru can function like "to have" in Japanese sentence structure (Japanese expresses possession as "X exists for me" rather than with a dedicated verb), but the dictionary sense of aru itself is existence, not possession, and gato isn\'t a standalone morpheme at all; The adjective contains -gatai, related to katai. Digital Daijisen derives arigatō from the adverbial form arigataku through u-onbin, a sound change affecting that ending. The looser gloss isn\'t wrong about the general shape of the word, just imprecise about the two pieces doing the work.',
+					'A few language-learning sites simplify the breakdown to "ari, to have" plus "gato, difficult," which blurs two things worth keeping separate. Aru can function like "to have" in Japanese sentence structure (Japanese expresses possession as "X exists for me" rather than with a dedicated verb), but the dictionary sense of aru itself is existence, not possession, and gato isn\'t a standalone morpheme at all. The adjective contains -gatai, related to katai. Digital Daijisen derives arigatō from the adverbial form arigataku through u-onbin, a sound change affecting that ending. The looser gloss isn\'t wrong about the general shape of the word, just imprecise about the two pieces doing the work.',
 					'This kind of gap between a word\'s literal pieces and its everyday translation shows up elsewhere in borrowed Japanese vocabulary too: [senpai](/senpai-meaning/) is another case where the component parts describe something more structured than the one-word gloss English speakers usually reach for. Japanese farewells hide a similar gap between literal pieces and everyday translation: [sayonara](/sayonara-meaning/) is glossed as a simple "goodbye," but its literal sense is closer to "if that\'s how it is." It can sound final in some settings, but is also used for ordinary classroom departures.',
 				],
 				image: {

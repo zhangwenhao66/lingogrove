@@ -1,0 +1,11 @@
+[
+  {
+    "index": 1,
+    "verdict": "CONFIRMED",
+    "sentence": "It sits in the same family of Spanish endearment vocabulary as [mamacita](/mamacita-meaning/), whose Wiktionary entry lists affectionate and slang senses.",
+    "target_slug": "mamacita-meaning",
+    "note": "Independent review: full source and original target body/all FAQ read. Narrow comparison supported by target quotation: The first is simply \"diminutive of mamá,\" unmarked for region or register",
+    "target_article_sha256": "503616f4fe3a16776343fd9149b98fb88f334dd160acb4537f13ba9fddf577be",
+    "source_article_sha256": "f0ff612663576a3b7792726cdb96ce01beb4eb08a80b68d4e3b85d02481f4b80"
+  }
+]

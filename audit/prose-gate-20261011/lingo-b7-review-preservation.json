@@ -1,0 +1,58 @@
+{
+  "voila-meaning": {
+    "FAQ_count": 6,
+    "FAQ_count_unchanged": true,
+    "FAQ_questions_unchanged": true,
+    "whole_block_internal_URL_sequence_unchanged": true,
+    "source_sha256": "26880508fdb7d5ef057ea5cc736bea00808c31cc20af982f3e79662845dba6ea"
+  },
+  "mamacita-meaning": {
+    "FAQ_count": 5,
+    "FAQ_count_unchanged": true,
+    "FAQ_questions_unchanged": true,
+    "whole_block_internal_URL_sequence_unchanged": true,
+    "source_sha256": "503616f4fe3a16776343fd9149b98fb88f334dd160acb4537f13ba9fddf577be"
+  },
+  "mijo-meaning": {
+    "FAQ_count": 5,
+    "FAQ_count_unchanged": true,
+    "FAQ_questions_unchanged": true,
+    "whole_block_internal_URL_sequence_unchanged": true,
+    "source_sha256": "8570009abaf00d115ed077f98aefe31bbde77f4c543982d95c147e467e96a575"
+  },
+  "sayonara-meaning": {
+    "FAQ_count": 7,
+    "FAQ_count_unchanged": true,
+    "FAQ_questions_unchanged": true,
+    "whole_block_internal_URL_sequence_unchanged": true,
+    "source_sha256": "37afd23c18c72b8f259c53480f39fa81b4030d7b39120a233098d590e2708cac"
+  },
+  "oy-vey-meaning": {
+    "FAQ_count": 6,
+    "FAQ_count_unchanged": true,
+    "FAQ_questions_unchanged": true,
+    "whole_block_internal_URL_sequence_unchanged": true,
+    "source_sha256": "32753827afb838698d45f95291e7c68287ead3035438471daa843c76ed21e9c0"
+  },
+  "ohana-meaning": {
+    "FAQ_count": 5,
+    "FAQ_count_unchanged": true,
+    "FAQ_questions_unchanged": true,
+    "whole_block_internal_URL_sequence_unchanged": true,
+    "source_sha256": "55f4b39845fa0f13d68e2feae8de06a282c0d2c26d4c223bbbf77a6be19b8557"
+  },
+  "carino-meaning": {
+    "FAQ_count": 5,
+    "FAQ_count_unchanged": true,
+    "FAQ_questions_unchanged": true,
+    "whole_block_internal_URL_sequence_unchanged": true,
+    "source_sha256": "f0ff612663576a3b7792726cdb96ce01beb4eb08a80b68d4e3b85d02481f4b80"
+  },
+  "arigato-meaning": {
+    "FAQ_count": 6,
+    "FAQ_count_unchanged": true,
+    "FAQ_questions_unchanged": true,
+    "whole_block_internal_URL_sequence_unchanged": true,
+    "source_sha256": "03e2d700d60fe5bde0c6cbd50974cf0786f4fea36aebdf716c3d5c9965085586"
+  }
+}

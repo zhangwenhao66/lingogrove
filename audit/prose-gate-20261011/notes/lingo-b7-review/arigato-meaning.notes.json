@@ -1,0 +1,11 @@
+[
+  {
+    "index": 1,
+    "verdict": "CONFIRMED",
+    "sentence": "Japanese farewells hide a similar gap between literal pieces and everyday translation: [sayonara](/sayonara-meaning/) is glossed as a simple \"goodbye,\" but its literal sense is closer to \"if that\\'s how it is.\" It can sound final in some settings, but is also used for ordinary classroom departures.",
+    "target_slug": "sayonara-meaning",
+    "note": "Independent review: full source and original target body/all FAQ read. Narrow comparison supported by target quotation: This class farewell is ordinary and recurring",
+    "target_article_sha256": "37afd23c18c72b8f259c53480f39fa81b4030d7b39120a233098d590e2708cac",
+    "source_article_sha256": "03e2d700d60fe5bde0c6cbd50974cf0786f4fea36aebdf716c3d5c9965085586"
+  }
+]

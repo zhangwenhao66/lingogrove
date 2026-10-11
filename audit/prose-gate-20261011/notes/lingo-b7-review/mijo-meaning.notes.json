@@ -1,0 +1,11 @@
+[
+  {
+    "index": 1,
+    "verdict": "CONFIRMED",
+    "sentence": "Wiktionary\\'s entry treats it as a contraction of mi hijo, \"my son,\" with the feminine mija built the same way from mi hija, \"my daughter.\" The [possessive adjective mi](/spanish-possessive-adjectives/) and the noun run together in fast, informal speech, roughly the way English speakers let \"going to\" collapse into \"gonna.\" Wiktionary also records an apostrophized spelling, m\\'ijo, that marks the elision directly on the page, plus a further-contracted mi\\'jo.",
+    "target_slug": "spanish-possessive-adjectives",
+    "note": "Independent review: full source and original target body/all FAQ read. Narrow comparison supported by target quotation: Mi/mis (\"my\"), tu/tus (\"your,\" informal singular)",
+    "target_article_sha256": "ac0b0009335bc93259a58ad1f42bba555309f307bbffb7e7d1a765d3a9fae04f",
+    "source_article_sha256": "8570009abaf00d115ed077f98aefe31bbde77f4c543982d95c147e467e96a575"
+  }
+]

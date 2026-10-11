@@ -1,0 +1,11 @@
+[
+  {
+    "index": 1,
+    "verdict": "CONFIRMED",
+    "sentence": "Another Latin expression used in English is [per se](/per-se-meaning/), meaning \"by itself.\" Its guide distinguishes ordinary adverbial uses from specific legal rules; that distinction is not evidence of the same borrowing history as voilà.",
+    "target_slug": "per-se-meaning",
+    "note": "Independent review: full source and original target body/all FAQ read. Narrow comparison supported by target quotation: English built three distinct jobs on that literal meaning",
+    "target_article_sha256": "1e024ece1f64d439e72d224906dfd5736184d0025eedfca069f02b6d7353a8d4",
+    "source_article_sha256": "26880508fdb7d5ef057ea5cc736bea00808c31cc20af982f3e79662845dba6ea"
+  }
+]

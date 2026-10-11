@@ -1,0 +1,336 @@
+{
+  "reviewer": "/root/myth_umber",
+  "reviewed_commit": "41d717444976a515219119b5f16c93dc6ce840a1",
+  "source_count_expected": 8,
+  "source_count_full_read": 8,
+  "original_candidates_expected": 15,
+  "original_candidates_full_semantic_review": 15,
+  "original_unique_targets_expected": 11,
+  "original_unique_targets_full_body_all_FAQ_read": 11,
+  "original_source_target_snapshots": {
+    "arigato-meaning": {
+      "source": true,
+      "target": false,
+      "path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-lingo-b7/src/data/guides.ts",
+      "article_sha": "572be48224db07062683c923cb0cc690ddeba84157706966265ea42f42680f7b",
+      "FAQ_count": 6,
+      "snapshot": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/lingo-b7-review/arigato-meaning.txt",
+      "full_read": true
+    },
+    "carino-meaning": {
+      "source": true,
+      "target": false,
+      "path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-lingo-b7/src/data/guides.ts",
+      "article_sha": "f0ff612663576a3b7792726cdb96ce01beb4eb08a80b68d4e3b85d02481f4b80",
+      "FAQ_count": 5,
+      "snapshot": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/lingo-b7-review/carino-meaning.txt",
+      "full_read": true
+    },
+    "french-pronouns": {
+      "source": false,
+      "target": true,
+      "path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-lingo-b7/src/data/guides.ts",
+      "article_sha": "36e5c41448451859c0a351bd72f5e33478acaee50de691ec448beeefe40a9ca5",
+      "FAQ_count": 6,
+      "snapshot": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/lingo-b7-review/french-pronouns.txt",
+      "full_read": true
+    },
+    "habibi-meaning": {
+      "source": false,
+      "target": true,
+      "path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-lingo-b7/src/data/guides.ts",
+      "article_sha": "310428ea7a607e75f73503d9e3ebf85b4e4e310c8a7f6c041379b5a5ade51c77",
+      "FAQ_count": 7,
+      "snapshot": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/lingo-b7-review/habibi-meaning.txt",
+      "full_read": true
+    },
+    "mahalo-meaning": {
+      "source": false,
+      "target": true,
+      "path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-lingo-b7/src/data/guides.ts",
+      "article_sha": "d57cfa86c09d41866d8ff622e76ab182b31777e787a6615ebb40539b70cbb891",
+      "FAQ_count": 5,
+      "snapshot": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/lingo-b7-review/mahalo-meaning.txt",
+      "full_read": true
+    },
+    "mamacita-meaning": {
+      "source": true,
+      "target": true,
+      "path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-lingo-b7/src/data/guides.ts",
+      "article_sha": "09ca875aa685ab689e74bb60ba13393fb3347804f1b379e404b647159e2569f8",
+      "FAQ_count": 5,
+      "snapshot": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/lingo-b7-review/mamacita-meaning.txt",
+      "full_read": true
+    },
+    "mijo-meaning": {
+      "source": true,
+      "target": true,
+      "path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-lingo-b7/src/data/guides.ts",
+      "article_sha": "f8f8e46147c20aa217874eafdf82fcabcd3527191149ad801858c95bbb8a053d",
+      "FAQ_count": 5,
+      "snapshot": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/lingo-b7-review/mijo-meaning.txt",
+      "full_read": true
+    },
+    "ohana-meaning": {
+      "source": true,
+      "target": false,
+      "path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-lingo-b7/src/data/guides.ts",
+      "article_sha": "5290234856d0358f2beb23ab46c71f90acb867b1a76866d33e0fd7c50c8bd018",
+      "FAQ_count": 5,
+      "snapshot": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/lingo-b7-review/ohana-meaning.txt",
+      "full_read": true
+    },
+    "oy-vey-meaning": {
+      "source": true,
+      "target": false,
+      "path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-lingo-b7/src/data/guides.ts",
+      "article_sha": "31f012a32cea48d7eb8ee37098ae06545e0ebc0fb30c9bda222f3030cfdb32d5",
+      "FAQ_count": 6,
+      "snapshot": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/lingo-b7-review/oy-vey-meaning.txt",
+      "full_read": true
+    },
+    "per-se-meaning": {
+      "source": false,
+      "target": true,
+      "path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-lingo-b7/src/data/guides.ts",
+      "article_sha": "1e024ece1f64d439e72d224906dfd5736184d0025eedfca069f02b6d7353a8d4",
+      "FAQ_count": 5,
+      "snapshot": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/lingo-b7-review/per-se-meaning.txt",
+      "full_read": true
+    },
+    "sayonara-meaning": {
+      "source": true,
+      "target": true,
+      "path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-lingo-b7/src/data/guides.ts",
+      "article_sha": "5cc6a09e5289c5692c9857d507a5cbe6a363030f4bce06f31b5bc15a8f5a71a2",
+      "FAQ_count": 7,
+      "snapshot": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/lingo-b7-review/sayonara-meaning.txt",
+      "full_read": true
+    },
+    "schadenfreude-meaning": {
+      "source": false,
+      "target": true,
+      "path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-lingo-b7/src/data/guides.ts",
+      "article_sha": "90ca5920dd3ec0a8f414acaca4e406f65e47653ef73dfadf493a2ecc9e4e6702",
+      "FAQ_count": 5,
+      "snapshot": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/lingo-b7-review/schadenfreude-meaning.txt",
+      "full_read": true
+    },
+    "senpai-meaning": {
+      "source": false,
+      "target": true,
+      "path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-lingo-b7/src/data/guides.ts",
+      "article_sha": "a283e19671e785aa95c69365b54e3ef0cd234eccc55ebfffa846b5787f41c06f",
+      "FAQ_count": 5,
+      "snapshot": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/lingo-b7-review/senpai-meaning.txt",
+      "full_read": true
+    },
+    "spanish-possessive-adjectives": {
+      "source": false,
+      "target": true,
+      "path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-lingo-b7/src/data/guides.ts",
+      "article_sha": "ac0b0009335bc93259a58ad1f42bba555309f307bbffb7e7d1a765d3a9fae04f",
+      "FAQ_count": 5,
+      "snapshot": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/lingo-b7-review/spanish-possessive-adjectives.txt",
+      "full_read": true
+    },
+    "voila-meaning": {
+      "source": true,
+      "target": true,
+      "path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-lingo-b7/src/data/guides.ts",
+      "article_sha": "bd5dac0d7f44d10ab4786e2fca03415475d02a8021ee3effd68f61aca2cc99a3",
+      "FAQ_count": 6,
+      "snapshot": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/lingo-b7-review/voila-meaning.txt",
+      "full_read": true
+    }
+  },
+  "original_diff_lines_read": "1-696 without gaps",
+  "current_candidate_count": 6,
+  "manual_evidence": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/lingo-b7-review/manual-bridges.json",
+  "preservation": {
+    "voila-meaning": {
+      "FAQ_count": 6,
+      "FAQ_count_unchanged": true,
+      "FAQ_questions_unchanged": true,
+      "whole_block_internal_URL_sequence_unchanged": true,
+      "source_sha256": "26880508fdb7d5ef057ea5cc736bea00808c31cc20af982f3e79662845dba6ea"
+    },
+    "mamacita-meaning": {
+      "FAQ_count": 5,
+      "FAQ_count_unchanged": true,
+      "FAQ_questions_unchanged": true,
+      "whole_block_internal_URL_sequence_unchanged": true,
+      "source_sha256": "503616f4fe3a16776343fd9149b98fb88f334dd160acb4537f13ba9fddf577be"
+    },
+    "mijo-meaning": {
+      "FAQ_count": 5,
+      "FAQ_count_unchanged": true,
+      "FAQ_questions_unchanged": true,
+      "whole_block_internal_URL_sequence_unchanged": true,
+      "source_sha256": "8570009abaf00d115ed077f98aefe31bbde77f4c543982d95c147e467e96a575"
+    },
+    "sayonara-meaning": {
+      "FAQ_count": 7,
+      "FAQ_count_unchanged": true,
+      "FAQ_questions_unchanged": true,
+      "whole_block_internal_URL_sequence_unchanged": true,
+      "source_sha256": "37afd23c18c72b8f259c53480f39fa81b4030d7b39120a233098d590e2708cac"
+    },
+    "oy-vey-meaning": {
+      "FAQ_count": 6,
+      "FAQ_count_unchanged": true,
+      "FAQ_questions_unchanged": true,
+      "whole_block_internal_URL_sequence_unchanged": true,
+      "source_sha256": "32753827afb838698d45f95291e7c68287ead3035438471daa843c76ed21e9c0"
+    },
+    "ohana-meaning": {
+      "FAQ_count": 5,
+      "FAQ_count_unchanged": true,
+      "FAQ_questions_unchanged": true,
+      "whole_block_internal_URL_sequence_unchanged": true,
+      "source_sha256": "55f4b39845fa0f13d68e2feae8de06a282c0d2c26d4c223bbbf77a6be19b8557"
+    },
+    "carino-meaning": {
+      "FAQ_count": 5,
+      "FAQ_count_unchanged": true,
+      "FAQ_questions_unchanged": true,
+      "whole_block_internal_URL_sequence_unchanged": true,
+      "source_sha256": "f0ff612663576a3b7792726cdb96ce01beb4eb08a80b68d4e3b85d02481f4b80"
+    },
+    "arigato-meaning": {
+      "FAQ_count": 6,
+      "FAQ_count_unchanged": true,
+      "FAQ_questions_unchanged": true,
+      "whole_block_internal_URL_sequence_unchanged": true,
+      "source_sha256": "03e2d700d60fe5bde0c6cbd50974cf0786f4fea36aebdf716c3d5c9965085586"
+    }
+  },
+  "svg_expected": 7,
+  "svg_complete_XML_and_rendered_visuals_read": 7,
+  "changed_SVGs_rendered_after_fix": [
+    "sayonara",
+    "voila"
+  ],
+  "renderer_note": "sharp Japanese kana fallback glyphs not a browser font verification; all text strings separately read",
+  "primary": [
+    {
+      "path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/lingo-b7-primary/mext-page-144.txt",
+      "printed_page": 145,
+      "read": "entire printed page text",
+      "quote": "In the volunteer Japanese-language class―At the end of the class",
+      "supports": "sayonara and see you next week in a volunteer Japanese-language class; does not by itself prove primary-school pupils",
+      "file_sha256": "12bcd47fcab03c786769abdd4669190f91d3fdc7dcca787051f6ce3b4cf46e8f"
+    },
+    {
+      "url": "https://kotobank.jp/word/%E3%81%95%E3%82%88%E3%81%AA%E3%82%89-512196",
+      "read": "Digital Daijisen complete headword; web open121lines, core dictionary section",
+      "quote": "［名］(スル) １ 別れること。「独身生活にさよならする」",
+      "supports": "Japanese noun plus suru used for leaving single life; rejects Japanese-never-verb claim"
+    },
+    {
+      "url": "https://doi.org/10.1093/OED/6057982643",
+      "read": "OED own tell historical-thesaurus search result; direct entry JS robot-check blocked",
+      "quote": "sayonara1883– transitive. To send (a person who is leaving)…",
+      "supports": "farewell verb and date; not old-commute phrase as standalone-verb proof; incomplete direct definition not claimed fully read"
+    },
+    {
+      "path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/lingo-b7-primary/ohana-list.txt",
+      "read": "entire Cook message",
+      "supports": "Cook criticizes continuous ana versus nominal na; speculates cognate nest/taro forms; not current consensus survey",
+      "file_sha256": "88552a9ccedaec78e8dedffd2c7039bd6fa1825cf90244cf6d51040870f89ae6"
+    },
+    {
+      "path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/lingo-b7-primary/daijisen-arigato.txt",
+      "read": "entire dictionary entry and page text",
+      "quote": "「ありがたく」のウ音便",
+      "supports": "adverbial arigataku to arigato sound change; Kansai ookini",
+      "file_sha256": "8cf7427e2c735d5ee324f13deebe2ba55710139bce5a6181ac32784ee7a9cdcc"
+    },
+    {
+      "path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/lingo-b7-primary/carinos.txt",
+      "read": "entire ASALE headword and page",
+      "quote": "PR, Bo, Ch, Py, Ar, Ur.",
+      "supports": "Puerto Rico plus five South American countries",
+      "file_sha256": "8fe9e774b3f9746abc1205990bbdb4dadcb44ec055aac9050b0755ff83e0c8a8"
+    },
+    {
+      "path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/lingo-b7-primary/academie-voila.txt",
+      "read": "entire entry/page",
+      "supports": "2014 note describes indicative voi/vois and near/far distinction",
+      "file_sha256": "9dad838f002dfe1277555d71344106c38c084c39c6efda356a2c7e41d8a8cb36"
+    },
+    {
+      "path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/lingo-b7-primary/cnrtl.txt",
+      "read": "only portal returned; no lexical text",
+      "status": "NOT_FULL_LEXICAL_READ; web fallback also portal; no new CNRTL chronology claim added",
+      "file_sha256": "b5a005f44fb050f27102c17239125edd2c046067dc3b08cc7f5699c580e6951a"
+    },
+    {
+      "path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/lingo-b7-primary/mamacita-oed.txt",
+      "read": "403 file; not dictionary text",
+      "fallback": "OED own mother historical thesaurus lists mamacita1887. Does not substantiate all English uses being sexualized.",
+      "file_sha256": "4f46b48d51fcd5d226a20fc1daa0eef7b322e52ab9a489bcd1b0829a5dd6d7d3"
+    },
+    {
+      "url": "https://en.wiktionary.org/wiki/papacito",
+      "read": "Spanish headword etymology/noun sections",
+      "supports": "diminutive daddy; no sexual sense listed in this entry, not language-wide prohibition"
+    },
+    {
+      "url": "https://en.wiktionary.org/wiki/mamita",
+      "read": "Spanish headword etymology/noun sections",
+      "supports": "mommy diminutive/synonym; entry-limited absence does not settle every use"
+    }
+  ],
+  "english_chain_receipt": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/skill-receipt.json",
+  "humanizer_pass": "Grammar repaired, no sweeping speaker-wide or language-intention claims; direct explanatory wording retained.",
+  "avoid_ai_writing_second_pass": "Factual scope and all names/dates/quotes/URLs rechecked against source, narrower examples distinguish phrase grammar and dictionary verb.",
+  "changed_sources": [
+    "voila-meaning",
+    "mamacita-meaning",
+    "mijo-meaning",
+    "sayonara-meaning",
+    "oy-vey-meaning",
+    "ohana-meaning",
+    "arigato-meaning"
+  ],
+  "checks": {
+    "voila-meaning": {
+      "prose": 0,
+      "bridge": 0,
+      "build": 0
+    },
+    "mamacita-meaning": {
+      "prose": 0,
+      "bridge": 0,
+      "build": 0
+    },
+    "mijo-meaning": {
+      "prose": 0,
+      "bridge": 0,
+      "build": 0
+    },
+    "sayonara-meaning": {
+      "prose": 0,
+      "bridge": 0,
+      "build": 0
+    },
+    "oy-vey-meaning": {
+      "prose": 0,
+      "bridge": 0,
+      "build": 0
+    },
+    "ohana-meaning": {
+      "prose": 0,
+      "bridge": 0,
+      "build": 0
+    },
+    "arigato-meaning": {
+      "prose": 0,
+      "bridge": 0,
+      "build": 0
+    }
+  },
+  "status": "FIXES_COMPLETE_PENDING_PARENT_FOLLOWUP_REVIEW",
+  "no_push": true
+}

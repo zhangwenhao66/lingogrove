@@ -1,0 +1,11 @@
+[
+  {
+    "index": 1,
+    "verdict": "CONFIRMED",
+    "sentence": "Wehewehe.org, which hosts the Pukui & Elbert Hawaiian Dictionary, the same standard reference cited for [mahalo](/mahalo-meaning/), defines ʻohana plainly: \"family, relative, kin group; related.\" The entry also lists two compounds, ʻohana holoʻokoʻa and ʻohana nui, both used for an extended family or clan rather than an immediate household.",
+    "target_slug": "mahalo-meaning",
+    "note": "Independent review: full source and original target body/all FAQ read. Narrow comparison supported by target quotation: The Pukui & Elbert Hawaiian Dictionary, compiled by Mary Kawena Pukui and Samuel H. Elbert",
+    "target_article_sha256": "d57cfa86c09d41866d8ff622e76ab182b31777e787a6615ebb40539b70cbb891",
+    "source_article_sha256": "55f4b39845fa0f13d68e2feae8de06a282c0d2c26d4c223bbbf77a6be19b8557"
+  }
+]
