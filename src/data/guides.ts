@@ -340,27 +340,27 @@ export const guides: Guide[] = [
 		slug: 'deja-vu-meaning',
 		category: 'Loanwords',
 		title: 'Déjà Vu Meaning: What It Actually Means (And Where the Phrase Comes From)',
-		description: 'Déjà vu literally means "already seen" in French. French dictionaries, though, give the phrase a second, more everyday meaning that English never borrowed.',
+		description: 'Déjà vu literally means "already seen" in French. French dictionaries also record an everyday sense of unoriginality; English dictionaries include a familiar or unwelcome repetition as well.',
 		published: '2026-08-03',
-		updated: '2026-08-11',
-		coreSummary: 'In English, "déjà vu" names one specific thing: the eerie feeling of having already experienced a situation that is, in fact, new to you. In French, the phrase covers that same psychological sense but also does ordinary duty as a mild criticism, "nothing new, seen before, unoriginal," a second meaning most English speakers who use the phrase have never encountered.',
+		updated: '2026-10-11',
+		coreSummary: 'In English, "déjà vu" can name the eerie feeling of having already experienced a new situation. Merriam-Webster also records an overly or unpleasantly familiar repetition. French dictionaries cover the memory illusion and an everyday criticism of something banal or unoriginal.',
 		language: 'French',
 		usageNote: {
 			register: 'neutral',
-			regionNote: 'English uses "déjà vu" only for the memory illusion. In everyday French, "c\'est du déjà-vu" is a common way to dismiss something as unoriginal or predictable, closer to English "seen it all before" or "nothing new here," a sense that never made the jump into English.',
+			regionNote: 'In everyday French, "c\'est du déjà-vu" can dismiss something as unoriginal or predictable. English also has a figurative use for an overly or unpleasantly familiar situation; the phrase is not confined to a memory illusion.',
 		},
 		sections: [
 			{
 				heading: 'Literally "already seen": French gives it two jobs',
 				body: [
 					'*Déjà* means "already" and *vu* is the past participle of *voir*, "to see," so *déjà vu* is, word for word, "already seen." That much lines up with how English speakers use the phrase. What doesn\'t line up is that French dictionaries record two separate senses for it. The Larousse dictionary lists the phrase as covering both "a memory disorder giving the sudden and intense impression of having already lived through the present situation in the past," and, separately, "something that is not new, that is banal, without originality."',
-					'That second sense is alive in everyday French in a way it never became in English: *c\'est du déjà-vu* is an ordinary way to say a film, a plot twist, or a political promise is predictable and unoriginal, with no memory illusion involved, just a shrug at something recycled.',
+					'That second sense appears in everyday French: *c\'est du déjà-vu* is an ordinary way to say a film, a plot twist, or a political promise is predictable and unoriginal, with no memory illusion involved, just a shrug at something recycled.',
 				],
 			},
 			{
-				heading: 'How English narrowed it to one specific feeling',
+				heading: 'The memory illusion and the figurative English use',
 				body: [
-					'Merriam-Webster defines déjà vu, in its main English sense, as "the illusion of remembering scenes and events when experienced for the first time": a feeling that you have seen or heard something before, even though you haven\'t. That\'s the sense English adopted wholesale and the sense that stuck, to the exclusion of the French "unoriginal" meaning.',
+					'Merriam-Webster defines déjà vu, in its main English sense, as "the illusion of remembering scenes and events when experienced for the first time": a feeling that you have seen or heard something before, even though you haven\'t. Alongside that memory-illusion definition, Merriam-Webster gives a second English sense for something overly or unpleasantly familiar, such as a poor sports season repeating a familiar pattern.',
 					'The term itself is relatively young as coined vocabulary: the French philosopher Émile Boirac first used it in 1876, in an open letter to the journal *Revue Philosophique* describing "le sentiment du déjà vu" as a specific type of memory illusion. He returned to the term later in his own writing on psychical research, but the coining moment is the 1876 letter, not a book. Either way, the psychological sense is a fairly recent, deliberately coined piece of vocabulary, not an old expression that gradually picked up its clinical meaning over centuries.',
 				],
 			},
@@ -386,7 +386,7 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'Does "déjà-vu" mean something different in French than it does in English?',
-				answer: 'In English the phrase covers just the memory-illusion sense. Standard references on the French side, Larousse among them, also record a second, everyday sense, banal or recycled, no genuine novelty left in it, as in "c\'est du déjà-vu." English never adopted that second meaning.',
+				answer: 'The French expression can describe a memory glitch or dismiss a recycled idea. English has a figurative meaning too: a frustrating repeat of something familiar, according to Merriam-Webster. Both languages therefore allow uses beyond a clinical memory glitch.',
 			},
 			{
 				question: 'Is déjà vu a sign that something is wrong with your brain?',
@@ -411,7 +411,7 @@ export const guides: Guide[] = [
 		title: 'Schadenfreude Meaning: The German Word English Never Had',
 		description: 'Schadenfreude names the pleasure of watching someone else\'s misfortune. German built the word from two plain nouns; English just borrowed it.',
 		published: '2026-08-03',
-		updated: '2026-08-12',
+		updated: '2026-10-11',
 		coreSummary: 'Schadenfreude is a German compound noun (Schaden, "harm, damage," plus Freude, "joy") meaning pleasure taken in someone else\'s misfortune. Duden, the standard German dictionary, defines it as "boshafte Freude über das Missgeschick, Unglück eines andern" ("malicious joy at another\'s mishap or misfortune"), while the corpus-based dictionary DWDS gives a more neutral phrasing without the "malicious" qualifier. English adopted the German word directly rather than translate it, largely because no English word in common use named that exact feeling.',
 		language: 'German',
 		usageNote: {
@@ -438,7 +438,7 @@ export const guides: Guide[] = [
 				body: [
 					'In English, Schadenfreude functions as an uncountable noun, almost always used on its own, not pluralized or modified heavily: *"There was more than a little schadenfreude in the office when the loudest critic\'s project got cancelled."* It keeps its German capitalization in careful writing (German capitalizes all nouns), though English style guides vary and lowercase *schadenfreude* is common and accepted.',
 					'Pronunciation is the other thing that trips up new users: it\'s roughly *SHAH-dən-froy-də*, with the "sch" as an English "sh" sound and the final "e" pronounced as a short, weak vowel rather than silent.',
-					'It sits in the same category as words like [déjà vu](/deja-vu-meaning/) and [senpai](/senpai-meaning/), a foreign phrase English adopted wholesale, not translated, because nothing native said quite the same thing.',
+					'It sits in the same category as words like [déjà vu](/deja-vu-meaning/) and [senpai](/senpai-meaning/), borrowed expressions English uses in their original form. Their English uses can differ from those in the source language.',
 				],
 			},
 			{
@@ -731,7 +731,7 @@ export const guides: Guide[] = [
 		title: 'Ser Conjugation: The Complete Guide to Every Tense',
 		description: 'Ser is Spanish\'s most irregular verb, born of two Latin verbs. All 19 paradigms, simple and compound, are here, sourced from the RAE conjugation table.',
 		published: '2026-08-03',
-		updated: '2026-08-05',
+		updated: '2026-10-11',
 		coreSummary: 'Ser means "to be" in the identity/characteristics sense (see Ser vs. Estar), and it is one of only a handful of fully irregular Spanish verbs: soy, eres, es bear no resemblance to a regular -er verb\'s endings because they descend from an entirely different Latin verb than the rest of ser\'s own paradigm. The table below is the complete paradigm, transcribed from the Real Academia Española: the five simple indicative tenses and their five compound counterparts, all three subjunctives (present, imperfect fuera/fuese, and the near-extinct future fuere) plus their compounds, affirmative and negative commands, and the non-finite forms ser, siendo, sido.',
 		language: 'Spanish',
 		sections: [
@@ -752,7 +752,7 @@ export const guides: Guide[] = [
 					'**Present subjunctive** (*sea, seas, sea...*) shows up after expressions of doubt, wish, or emotion: *Espero que sea verdad.* (I hope it\'s true.)',
 					'**Imperfect subjunctive** has two complete sets of endings, *fuera, fueras, fuera...* and *fuese, fueses, fuese...*, and they are interchangeable: *Si yo fuera rico* and *Si yo fuese rico* both mean "If I were rich." The *-ra* set is far more common in speech on both sides of the Atlantic; the *-se* set survives in writing and in Spain. RAE prints them as a single tense with two forms per slot, which is why the table above gives them on one row.',
 					'**Future subjunctive** (*fuere, fueres, fuere...*) is the one paradigm here you will almost certainly never need to produce. It has dropped out of the spoken language everywhere, and survives mainly in legal and administrative Spanish and in a handful of fixed expressions such as *sea lo que fuere* ("be that as it may"). It is in the table because RAE still prints it, and because reading a contract or an old text will eventually put it in front of you.',
-					'**Affirmative imperative** has no *yo* form, because commands aren\'t given to yourself. *¡Sé fuerte!* (Be strong!) uses the irregular *tú* command form *sé*, spelled identically to *sé* meaning "I know" (from *saber*). The accent-free spelling is correct for both, and context always separates them.',
+					'**Affirmative imperative** has no *yo* form, because commands aren\'t given to yourself. *¡Sé fuerte!* (Be strong!) uses the irregular *tú* command form *sé*, spelled identically to *sé* meaning "I know" (from *saber*). Both verb forms need the written accent; context distinguishes the command from the statement of knowledge.',
 					'**Negative commands** are not built from the imperative at all. Spanish forms them with *no* plus the present subjunctive, which is why the negative row reads *no seas, no sea, no seamos, no seáis, no sean* rather than a negated *sé*. This is a general rule, not something special about ser.',
 				],
 			},
