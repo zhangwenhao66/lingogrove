@@ -1,0 +1,137 @@
+{
+  "reviewed_commit": "a236269",
+  "reviewer": "/root/myth_umber",
+  "status": "FIXED_IN_ISOLATED_REVIEW_WORKTREE_PENDING_PARENT_FOLLOWUP_REVIEW",
+  "source_slugs": [
+    "italian-future-tense",
+    "german-genitive",
+    "german-cases",
+    "german-dative-case",
+    "latin-declensions",
+    "russian-cases",
+    "japanese-honorifics",
+    "italian-congiuntivo"
+  ],
+  "source_body_and_all_faq_read": true,
+  "original_candidates_expected": 12,
+  "original_candidates_reviewed": 12,
+  "unique_targets_expected": 10,
+  "unique_targets_reviewed": 10,
+  "target_body_and_all_faq_read": true,
+  "source_article_sha256": {
+    "italian-future-tense": "128ad5d10e7bf8d7f78acef901da0e3a814eb2a2f6ed98400f534588a35722b0",
+    "german-genitive": "432aef6411db966bfc5cc7729248a8d6ff7bfa2c002c3cb29272fc6fce5ef8d4",
+    "german-cases": "a69583bb80cfee709956569549455c3a48886a10750809519dcf3785808ecff9",
+    "german-dative-case": "258ac9301d114f08797b508969fc58f3bf063c432ccb3dd8f70db61d74ba22d4",
+    "latin-declensions": "a0df0201ebfbbb8bd7f426c60e3db0962e04de3304cec975de7a1de00382ee11",
+    "russian-cases": "4e71f41409ff187733169b1351ecd578025a24502cf75cae40798fa3ebb63e71",
+    "japanese-honorifics": "2ad03232895ef8fedfde5ebae101b0afa0e486df11f6f376ea99b2d9955d961a",
+    "italian-congiuntivo": "5aac7d35a7034cc8ce57f463de126fb7d1bbdb3da2946481686e31f118437ab9"
+  },
+  "target_article_sha256": {
+    "german-adjective-endings": "1108146770909c10a01be52c3e8519a13228b18822f9028d1e9b1ba87472f3f2",
+    "german-cases": "a69583bb80cfee709956569549455c3a48886a10750809519dcf3785808ecff9",
+    "german-perfect-tense": "ece3327e8da565ac55f7abc97f038b7d9d674c828affe4604d4e806118148dac",
+    "italian-future-tense": "128ad5d10e7bf8d7f78acef901da0e3a814eb2a2f6ed98400f534588a35722b0",
+    "japanese-particles-wa-ga-wo-ni": "5c2ff12b4c2d74c3322095bc8cb4582aee94fd845e126e109decdde3b17942da",
+    "latin-declensions": "a0df0201ebfbbb8bd7f426c60e3db0962e04de3304cec975de7a1de00382ee11",
+    "russian-cases": "4e71f41409ff187733169b1351ecd578025a24502cf75cae40798fa3ebb63e71",
+    "senpai-meaning": "a283e19671e785aa95c69365b54e3ef0cd234eccc55ebfffa846b5787f41c06f",
+    "spanish-future-tense": "7862a82541c35fa74184d8d9fe6e096a3c176492b23a351738f9863229acb644",
+    "subjunctive-spanish": "a3c9f1f9db2441dbc5f5c2052da69bb8b2706defe5d86853ba74f0d2b9accb7b"
+  },
+  "svg_expected": 6,
+  "svg_xml_texts_and_rendered_images_reviewed": 6,
+  "svg_renderer": "sharp; Japanese glyphs use renderer fallback fonts, not a browser rendering proof",
+  "confirmed_current_bridges": {
+    "japanese-honorifics": "senpai target directly defines a senior member of the same school/company/group; no equivalence with -kun remains.",
+    "italian-congiuntivo": "Spanish target contains Quiero salir and Quiero que salgas; link claims only these contrasted examples, not its unsupported necessary subject-change generalization."
+  },
+  "original_disappeared_candidates_reviewed": true,
+  "original_disappeared_candidates_scope": "All original 12 were checked against final source and full target: weak/strong labels separated; case inventories distinguished from declension counts; article absence and noun-case loss no longer asserted as causes; grammatical roles/particles not one-to-one; register comparisons not identical processes; Italian/Spanish future histories separated; spelling preservation in future is actual target content.",
+  "mustfix_corrected": [
+    "Dative destination/location core and SVG consistency; movement within same space is not a rule by itself.",
+    "Dative noun summary includes weak masculine singular -(e)n.",
+    "Dative-only verb examples scoped to specific senses/constructions; Duden schmecken has accusative use.",
+    "German cases strong nouns do not use three distinct endings across the three oblique cases.",
+    "Genitive FAQ1 qualifies strong declension; FAQ5 fixes dangling subject/verb around book title.",
+    "Russian description removes residual no-articles causal so; SVG qualifies declinable nouns; new relative-clause agreement corrected.",
+    "Latin third-declension FAQ/SVG withdraw unquantified largest-by-wide-margin claim; Russian animacy bridge matches masculine singular/plural scope.",
+    "Japanese removes first-person-only humble sentence and fixes image alt to speaker side.",
+    "Italian h-preservation bridge comma splice changed to two sentences."
+  ],
+  "primary_independently_read": {
+    "https://grammis.ids-mannheim.de/progr@mm/6858": "Relevant instructional full text lines55–150; location vs destination, including movement at a location.",
+    "https://grammis.ids-mannheim.de/progr@mm/4066": "Relevant full noun-case section lines61–79; -(e)n includes dative weak singular.",
+    "https://www.bunka.go.jp/seisaku/kokugo_nihongo/kokugo_shisaku/keigo/chapter2/detail.html": "Official classification and humbleI/II relevant sections read through line190, including own-side person and recipient distinctions.",
+    "https://www.duden.de/rechtschreibung/schmecken": "Meaning1 explicitly describes tasting/detecting, example nichts schmecken and optional omission of accusative object, distinct from food appealing to someone.",
+    "https://learnitalian.web.unc.edu/home/verbs/subjunctive/": "Full instructional text175–360 read; forms, irregular list15, concrete same/different subject examples and tense constructions."
+  },
+  "target_historical_scope_issues_already_reported_to_parent": [
+    "senpai self-reference and English-only meme absolute (parent queued).",
+    "Spanish subjunctive different-subject necessary condition (parent queued).",
+    "Japanese particles FAQ3 never when written conflicts with normally in final body; reported for parent target followup."
+  ],
+  "skill_chain_receipt": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/skill-receipt.json",
+  "chain_applied": "humanizer then avoid-ai-writing; no new biography/firsthand claims; dates, examples, question inventory and URLs checked after revisions.",
+  "final_changed_source_sha256": {
+    "german-genitive": "cc162f73099388f3d432de1d8714545ad932168d052f95defe61e0c60cb2e49b",
+    "latin-declensions": "15d8fe1f73af8532b6effa83be1c209777fa9add102a8af2d3f2392b917fa3cb",
+    "japanese-honorifics": "1f59e05954b99933cd18b76accced0282fa0f6e5e41c242deea36e754bf5fe7c",
+    "russian-cases": "dafca88f8608eef812ad63e3c8b6aca21bb77247388777807aaf8f7d10fb2076",
+    "italian-congiuntivo": "861efe7a934cce9c068fb07590d74605aa107fa1faa69b9a4e38d48d6231b54a",
+    "german-cases": "7e990475d8f9d4748a5e9766fbfb2c21e4235352748a50d7fa8d276a13967597",
+    "german-dative-case": "43f8becfb2628c3b4436d1f269d775847beb2d2e633b0588314aab0c12c9d66f"
+  },
+  "checks": {
+    "german-genitive": {
+      "faq_count_preserved": true,
+      "urls_preserved": true,
+      "prose": 0,
+      "bridge": 0,
+      "build": 0
+    },
+    "latin-declensions": {
+      "faq_count_preserved": true,
+      "urls_preserved": true,
+      "prose": 0,
+      "bridge": 0,
+      "build": 0
+    },
+    "japanese-honorifics": {
+      "faq_count_preserved": true,
+      "urls_preserved": true,
+      "prose": 0,
+      "bridge": 0,
+      "build": 0
+    },
+    "russian-cases": {
+      "faq_count_preserved": true,
+      "urls_preserved": true,
+      "prose": 0,
+      "bridge": 0,
+      "build": 0
+    },
+    "italian-congiuntivo": {
+      "faq_count_preserved": true,
+      "urls_preserved": true,
+      "prose": 0,
+      "bridge": 0,
+      "build": 0
+    },
+    "german-cases": {
+      "faq_count_preserved": true,
+      "urls_preserved": true,
+      "prose": 0,
+      "bridge": 0,
+      "build": 0
+    },
+    "german-dative-case": {
+      "faq_count_preserved": true,
+      "urls_preserved": true,
+      "prose": 0,
+      "bridge": 0,
+      "build": 0
+    }
+  }
+}

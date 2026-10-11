@@ -8,10 +8,10 @@
 
 	<!-- row 1: dative-only verbs -->
 	<rect x="46" y="100" width="708" height="118" rx="8" fill="#eaf1ea" stroke="#2f6b47"/>
-	<text x="400" y="124" text-anchor="middle" fill="#204a31" font-size="13" font-weight="700">A CLOSED SET OF VERBS TAKES DATIVE ALONE — NO ACCUSATIVE OBJECT AT ALL</text>
+	<text x="400" y="124" text-anchor="middle" fill="#204a31" font-size="13" font-weight="700">COMMON VERBS WITH DATIVE-OBJECT USES</text>
 	<text x="400" y="152" text-anchor="middle" fill="#201f1a" font-size="13" font-weight="700">helfen &#183; danken &#183; gefallen &#183; geh&#246;ren &#183; folgen &#183; gratulieren &#183; passen &#183; schmecken</text>
 	<text x="400" y="178" text-anchor="middle" fill="#5a5648" font-size="10.5">"Die Lehrerin dankt ihren Sch&#252;lerinnen." &#183; "Sie hilft ihm." (grammis)</text>
-	<text x="400" y="200" text-anchor="middle" fill="#5a5648" font-size="10.5" font-style="italic">Test with wem (to/for whom), never wen/was — there's no accusative slot to find.</text>
+	<text x="400" y="200" text-anchor="middle" fill="#5a5648" font-size="10.5" font-style="italic">In these uses, ask wem (to/for whom); other senses may take an accusative object.</text>
 
 	<!-- row 2: pronoun paradigm -->
 	<rect x="46" y="234" width="708" height="128" rx="8" fill="#fbead0" stroke="#ddd8c4"/>
@@ -65,7 +65,7 @@
 	<text x="400" y="752" text-anchor="middle" fill="#201f1a" font-size="11">an &#183; auf &#183; hinter &#183; in &#183; neben &#183; &#252;ber &#183; unter &#183; vor &#183; zwischen &#8212; case depends on the noun phrase</text>
 
 	<rect x="70" y="766" width="320" height="94" rx="6" fill="#fffefa" stroke="#c8dcc9"/>
-	<text x="230" y="788" text-anchor="middle" fill="#201f1a" font-size="11" font-weight="700">Stays in the same space &#8594; DATIVE</text>
+	<text x="230" y="788" text-anchor="middle" fill="#201f1a" font-size="11" font-weight="700">Names the action's location &#8594; DATIVE</text>
 	<text x="230" y="810" text-anchor="middle" fill="#201f1a" font-size="11">"Die Fische schwimmen im Aquarium."</text>
 	<text x="230" y="828" text-anchor="middle" fill="#5a5648" font-size="10">(swimming IS movement, but the</text>
 	<text x="230" y="844" text-anchor="middle" fill="#5a5648" font-size="10">aquarium's boundary never changes)</text>

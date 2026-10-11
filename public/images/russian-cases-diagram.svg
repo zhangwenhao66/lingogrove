@@ -8,7 +8,7 @@
 
 	<!-- row 1: six cases -->
 	<rect x="46" y="98" width="708" height="176" rx="8" fill="#eaf1ea" stroke="#2f6b47"/>
-	<text x="400" y="120" text-anchor="middle" fill="#204a31" font-size="12.5" font-weight="700">SIX CASES, EACH MARKED ON THE NOUN ITSELF (Russian has no articles)</text>
+	<text x="400" y="120" text-anchor="middle" fill="#204a31" font-size="12.5" font-weight="700">SIX CASES ON DECLINABLE NOUNS AND AGREEING WORDS</text>
 
 	<text x="132" y="146" text-anchor="middle" fill="#201f1a" font-size="12" font-weight="700">Nominative</text>
 	<text x="132" y="163" text-anchor="middle" fill="#5a5648" font-size="10">subject &#183; dictionary form</text>
