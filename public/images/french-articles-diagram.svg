@@ -39,7 +39,7 @@
 	<text x="156" y="392" text-anchor="middle" fill="#201f1a" font-size="12" font-style="italic">&#8220;Je vais au cinéma.&#8221;</text>
 	<text x="156" y="410" text-anchor="middle" fill="#5a5648" font-size="11">la and l&#8217; never contract</text>
 
-	<text x="466" y="304" text-anchor="middle" fill="#5a5648" font-size="12" font-weight="700">NEGATION</text>
+	<text x="466" y="304" text-anchor="middle" fill="#5a5648" font-size="12" font-weight="700">NEGATED DIRECT OBJECTS</text>
 	<text x="466" y="328" text-anchor="middle" fill="#204a31" font-size="14" font-weight="700">un/une/des/du/de la/de l&#8217; &#8594; de</text>
 	<text x="466" y="352" text-anchor="middle" fill="#201f1a" font-size="12" font-style="italic">&#8220;Je n&#8217;ai pas de chat.&#8221;</text>
 	<text x="466" y="378" text-anchor="middle" fill="#b5570f" font-size="11" font-weight="700">exceptions keep the original article:</text>

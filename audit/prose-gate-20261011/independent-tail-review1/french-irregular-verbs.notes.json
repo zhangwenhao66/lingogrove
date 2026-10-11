@@ -1,0 +1,22 @@
+[
+  {
+    "index": 1,
+    "sentence": "These four verbs are also among the handful that carry an irregular subjunctive stem, a different irregularity covered in full in [the French subjunctive breakdown](/french-subjunctive/), where avoir and être turn out to be the only two verbs in the language that also swap their subjunctive endings, not just their stem. Être also sits behind a separate irregularity pattern with nothing to do with its own conjugation: it\\'s the auxiliary [French reflexive verbs](/french-reflexive-verbs/) always take instead of avoir, where the real complication isn\\'t the auxiliary choice but when the past participle agrees with the subject and when it doesn\\'t.",
+    "target_slug": "french-subjunctive",
+    "verdict": "CONFIRMED",
+    "note": "Target explicitly distinguishes irregular stems and special avoir/être endings, matching both halves of source comparison. Complete target body and all FAQ actually read; same-round Spanish future exact-hash read reused from lingo-b9-review/read-map.json.",
+    "target_quote": "description: 'Learn common irregular subjunctive stems, the exceptional endings of avoir and être, and how present and past forms work in French clauses.',",
+    "source_sha256": "cadb70da6bf1484a7cc491ec26f24997a07cab51584e2c4ef1c0cabb30d62bb5",
+    "target_sha256": "ab659f07c195345f3ff2f564b26724b5b5c79b48f15a0085125fb6281cac2932"
+  },
+  {
+    "index": 2,
+    "sentence": "These four verbs are also among the handful that carry an irregular subjunctive stem, a different irregularity covered in full in [the French subjunctive breakdown](/french-subjunctive/), where avoir and être turn out to be the only two verbs in the language that also swap their subjunctive endings, not just their stem. Être also sits behind a separate irregularity pattern with nothing to do with its own conjugation: it\\'s the auxiliary [French reflexive verbs](/french-reflexive-verbs/) always take instead of avoir, where the real complication isn\\'t the auxiliary choice but when the past participle agrees with the subject and when it doesn\\'t.",
+    "target_slug": "french-reflexive-verbs",
+    "verdict": "CONFIRMED",
+    "note": "Target FAQ3 requires être with all pronominal compound tense categories; body/FAQ distinguish agreement rules and s’arroger exception. Complete target body and all FAQ actually read; same-round Spanish future exact-hash read reused from lingo-b9-review/read-map.json.",
+    "target_quote": "answer: 'Yes, without exception, across all four types Larousse identifies. Per the OQLF, être is mandatory the moment a pronominal verb hits a compound tense, no matter which of the four categories it falls into. That holds whether it has a subjective pronominal sense (je me suis réjoui), réciproque (ils se seraient mariés), one with no non-reflexive form at all (ils se seront évanouis), or sens passif. Ordinary French verbs mostly default to avoir, with être kept for a short list of movement and existence verbs, but being pronominal at all overrides that default, regardless of what the verb would otherwise take.',",
+    "source_sha256": "cadb70da6bf1484a7cc491ec26f24997a07cab51584e2c4ef1c0cabb30d62bb5",
+    "target_sha256": "b36b4718b720264dfeddbebca70723ce2d407a04db0445cf3d72dba1d58342ca"
+  }
+]

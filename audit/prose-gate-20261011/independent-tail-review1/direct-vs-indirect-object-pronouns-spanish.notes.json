@@ -1,0 +1,32 @@
+[
+  {
+    "index": 1,
+    "sentence": "It\\'s the same underlying pattern as [saber and conocer](/saber-vs-conocer/): English collapses a distinction into one word or one form, Spanish keeps it split, and the split is what actually has to be learned.",
+    "target_slug": "saber-vs-conocer",
+    "verdict": "CONFIRMED",
+    "note": "Target distinguishes factual knowledge/ability from familiarity though both translate know; comparison is limited to English lexical collapse. Complete target body and all FAQ actually read; same-round Spanish future exact-hash read reused from lingo-b9-review/read-map.json.",
+    "target_quote": "coreSummary: 'Saber is for facts, information, and learned skills (sé su número, sé nadar); conocer is for familiarity with people, places, and things (conozco a Ana, conozco Lima). The choice depends on the construction and intended sense. Preterite examples often mean \"found out\" with supe or \"met\" with conocí, but these are common readings rather than mandatory translations in every context.',",
+    "source_sha256": "b250d3761ffdfdcc7c5535dcd301fd3a9193bc6b41eb13f9c082546380baac70",
+    "target_sha256": "287d37d2d7581123d1fb5a95f0fc97afae612cd6548b24351df31f45b94c2214"
+  },
+  {
+    "index": 2,
+    "sentence": "A similar one-word-covers-several-jobs pattern shows up in [Spanish question words](/spanish-question-words/), where English \"what\" maps onto two different words, qué and cuál.",
+    "target_slug": "spanish-question-words",
+    "verdict": "CONFIRMED",
+    "note": "Target contrasts qué definition with cuál selection while both can be English what; no ban on cuál+noun repeated. Complete target body and all FAQ actually read; same-round Spanish future exact-hash read reused from lingo-b9-review/read-map.json.",
+    "target_quote": "coreSummary: 'Spanish groups nine interrogative words, qué, cuál, quién, cómo, cuán, cuánto, cuándo, dónde, and adónde, under one accent rule: per the RAE, they keep their written tilde even inside an indirect question like no sé dónde vive, because the accent marks the word\\'s grammatical role, not its punctuation. The split that actually trips up English speakers isn\\'t the accent, though; it\\'s qué versus cuál. Both translate as \"what.\" Qué asks for definitions and commonly precedes a noun (¿qué libro quieres?); cuál can also precede a noun, especially in the Americas. Cuál is used for picking one item out of an implied set, which covers a name, a phone number, or an email address (¿cuál es tu correo electrónico?, never ¿qué es tu correo electrónico?). That\\'s the opposite of how English maps \"what\" onto both situations.',",
+    "source_sha256": "b250d3761ffdfdcc7c5535dcd301fd3a9193bc6b41eb13f9c082546380baac70",
+    "target_sha256": "1abb5e1f35fd4bb6e476a63fed40498354ac739e8ebfaa7e58ff55537acac2c1"
+  },
+  {
+    "index": 3,
+    "sentence": "This is the same kind of one-English-word-hides-two-Spanish-forms problem that shows up with [por and para](/por-vs-para/): the categories look interchangeable from the English side, and the only way through is to stop translating and ask what job the word is doing in the sentence.",
+    "target_slug": "por-vs-para",
+    "verdict": "CONFIRMED",
+    "note": "Target gives different prepositional jobs translated for; comparison concerns translation ambiguity, not identical grammar. Complete target body and all FAQ actually read; same-round Spanish future exact-hash read reused from lingo-b9-review/read-map.json.",
+    "target_quote": "'English collapses a lot of ground into the single word \"for\": *this gift is for you*, *I studied for two hours*, *thanks for the help*, *we left for Madrid*. Spanish keeps two separate prepositions for that ground, and they are not interchangeable. Using the wrong one is a genuine grammar error, not a stylistic slip, and Spanish speakers notice it immediately.',",
+    "source_sha256": "b250d3761ffdfdcc7c5535dcd301fd3a9193bc6b41eb13f9c082546380baac70",
+    "target_sha256": "ec140a3b8e7f8776c9784ef43c1f90c52c344e66e52d60bb7237c1d6c3e75863"
+  }
+]

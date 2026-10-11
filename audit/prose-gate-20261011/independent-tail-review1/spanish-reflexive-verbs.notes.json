@@ -1,0 +1,12 @@
+[
+  {
+    "index": 1,
+    "sentence": "Placement follows the same rule as [direct and indirect object pronouns](/direct-vs-indirect-object-pronouns-spanish/): the pronoun goes immediately before a conjugated verb (*Me levanto*), and attaches to the end of an infinitive, a gerund, or an affirmative command (*Voy a levantarme*, *Estoy levantándome*, *¡Levántate!*), with a written accent added where needed to keep the original stress.",
+    "target_slug": "direct-vs-indirect-object-pronouns-spanish",
+    "verdict": "CONFIRMED",
+    "note": "Target explains preverbal finite/negative placement and attachment with infinitive/gerund/affirmative commands, matching source examples. Complete target body and all FAQ actually read; same-round Spanish future exact-hash read reused from lingo-b9-review/read-map.json.",
+    "target_quote": "'Negative commands break that pattern: the pronoun goes back in front of the verb, not attached to it. *No lo compres*, never *No cómpralo*. That flip between affirmative and negative commands is one of the more common places learners default to the wrong order out of habit.',",
+    "source_sha256": "2009bc03d9e7ee58f9ca7b6beeeec3ee4ea2d59936f73f5b467ec3fbb787f582",
+    "target_sha256": "b250d3761ffdfdcc7c5535dcd301fd3a9193bc6b41eb13f9c082546380baac70"
+  }
+]

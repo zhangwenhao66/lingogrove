@@ -1,0 +1,12 @@
+[
+  {
+    "index": 1,
+    "sentence": "That same unaccented cuando shows up as the connector [Spanish uses to introduce future-oriented temporal clauses that trigger the subjunctive mood](/subjunctive-spanish/), as in Te llamaré cuando llegue (\\\"I'll call you when I arrive\\\"): a completely different function from the accented cuándo asking when something happens.",
+    "target_slug": "subjunctive-spanish",
+    "verdict": "CONFIRMED",
+    "note": "The current target explicitly requires subjunctive for pending future temporal clauses and contrasts cuando pueda with habitual cuando puedo; no question-mark test is asserted. Complete target body and all FAQ actually read; same-round Spanish future exact-hash read reused from lingo-b9-review/read-map.json.",
+    "target_quote": "'Spanish blocks the future and conditional forms inside temporal clauses introduced by *cuando*, *mientras*, and similar connectors, whenever the clause points at future time. RAE\\'s own grammar states the restriction directly with *desde que*: only *desde que llegue* is grammatical; *desde que llegará* and *desde que llegaría* are not. The present subjunctive is what fills that gap.',",
+    "source_sha256": "a426fd92d0818956fbf2401a2adf1c738261df05ed55209c4b17648a5075f237",
+    "target_sha256": "f6a1deb36466648ec529084a01bb264204f31e1a14ee839c48f047744700a68a"
+  }
+]
