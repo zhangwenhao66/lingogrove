@@ -776,7 +776,7 @@ export const guides: Guide[] = [
 		faq: [
 			{
 				question: 'Why don\'t "soy" and "sería" look like forms of the same verb?',
-				answer: 'The modern paradigm combines historical bases. Latin esse ("to be") supplied the present indicative, Sedere, meaning "to sit," supplied another historical base. A merger in the ancestry of the paradigm does not make its modern forms different verbs, or date how long any earlier separation lasted. The history is not a division between the present and every other tense: the RAE distinguishes several alternating roots, including the fu- base of fui and the er- base found in era.',
+				answer: 'The modern paradigm combines historical bases. Latin esse ("to be") supplied the present indicative. Sedere, meaning "to sit," supplied another historical base. A merger in the ancestry of the paradigm does not make its modern forms different verbs, or date how long any earlier separation lasted. The history is not a division between the present and every other tense: the RAE distinguishes several alternating roots, including the fu- base of fui and the er- base found in era.',
 			},
 			{
 				question: 'Is the preterite of "ser" the same as the preterite of "ir"?',
@@ -4479,7 +4479,7 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'Is "mayor" just a fancier way to say "más grande"?',
-				answer: 'They overlap grammatically but not in everyday use. Grande has mayor as a comparative, and más grande can also be valid, valid for physical size as much as for age, but in practice it\'s used mainly for age: mi hermano mayor, "my older brother." For physical size, Spanish speakers reach for más grande far more often, leaving mayor to carry the age sense in everyday conversation.',
+				answer: 'They overlap grammatically but not in everyday use. Grande has mayor as a comparative, and más grande can also be valid. In mi hermano mayor ("my older brother"), mayor compares age. Más grande is a common choice when the intended comparison is physical size, although mayor can also describe size.',
 			},
 			{
 				question: 'What does "enemigo acérrimo" mean, and why doesn\'t it use "-ísimo"?',
@@ -4838,7 +4838,7 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'Is hacer the same kind of irregular verb as conocer?',
-				answer: 'No, even though both look irregular in the yo form. Conocer belongs to the large -zco consonantal group (c → zc before o and a), the same family that covers dozens of other verbs whose infinitive closes in -acer or -ecer or -ocer or -ucir. Haga, the form hacer takes in the subjunctive, comes from a much narrower, RAE-documented pattern illustrated by haber → haya as well. These substitutions differ from the -zc- addition, A prefixed verb can inherit that pattern too: rehaga belongs to rehacer.',
+				answer: 'No, even though both look irregular in the yo form. Conocer belongs to the large -zco consonantal group (c → zc before o and a), the same family that covers dozens of other verbs whose infinitive closes in -acer or -ecer or -ocer or -ucir. Haga, the form hacer takes in the subjunctive, comes from a much narrower, RAE-documented pattern illustrated by haber → haya as well. That change is separate from adding z before c. A prefixed verb can inherit that pattern too: rehaga belongs to rehacer.',
 			},
 			{
 				question: 'What does it mean for a verb to be "defective" rather than irregular?',
@@ -5291,7 +5291,7 @@ export const guides: Guide[] = [
 			{
 				heading: 'Two irregular patterns, and why they exist',
 				body: [
-					"The first irregular pattern belongs to stem-changing -ir verbs: pedir becomes pidiendo, sentir becomes sintiendo, decir becomes diciendo, venir becomes viniendo, and the vowel shift is e→i in every case. A second, smaller o→u group covers dormir (durmiendo) and morir (muriendo), plus poder (pudiendo), the one -er verb that borrows this -ir-style shift. That shift traces back to a shared cause: pidió and pidiendo, durmió and durmiendo, [show vowel alternations also found in the third-person preterite](/irregular-preterite-verbs-spanish/) for the -ir examples above. Decir has diciendo but dijo: the vowel alternation coincides, while the consonant differs. Poder is a separate exception: its gerund is pudiendo, while its preterite has pud-.",
+					"The first irregular pattern belongs to stem-changing -ir verbs: pedir becomes pidiendo, sentir becomes sintiendo, decir becomes diciendo, venir becomes viniendo, and the vowel shift is e→i in every case. A second, smaller o→u group covers dormir (durmiendo) and morir (muriendo), plus poder (pudiendo), the one -er verb that borrows this -ir-style shift. Some of the vowel alternations coincide: pidió and pidiendo, durmió and durmiendo, [show vowel alternations also found in the third-person preterite](/irregular-preterite-verbs-spanish/) for the -ir examples above. Decir has diciendo but dijo: the vowel alternation coincides, while the consonant differs. Poder is a separate exception: its gerund is pudiendo, while its preterite has pud-.",
 					"The second pattern covers verbs whose stem ends in a vowel: leer (leyendo), oír (oyendo), traer (trayendo), caer (cayendo), construir (construyendo), huir (huyendo). In these vowel-stem forms, unstressed i between vowels becomes y, giving leyendo and cayendo. This is not a ban on adjacent vowels in Spanish: comiendo and the hiatus in caído show why that explanation would be too broad. The underlying ending stays -iendo the whole time; the unstressed i becomes a consonantal y in these forms. Ir has the separately irregular gerund yendo.",
 				],
 			},
