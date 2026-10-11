@@ -1465,6 +1465,10 @@ export const guides: Guide[] = [
 				question: 'What are the six fully irregular present-subjunctive verbs?',
 				answer: 'Dar, ir, saber, estar, haber, and ser: dé, vaya, sepa, esté, haya, and sea. Their yo forms simply aren\'t a plain stem plus -o (soy, estoy, voy, and doy end in -oy; sé ends in -é; he doesn\'t end in -o at all), so the whole formation rule has nothing to work with for these six.',
 			},
+			{
+			  "question": "What are the four forms of subjunctive in Spanish?",
+			  "answer": "The four tenses used in contemporary everyday Spanish are present (cante), present perfect (haya cantado), imperfect (cantara or cantase), and pluperfect (hubiera or hubiese cantado). The compound pair adds a past participle to a conjugated form of haber. This count leaves out the two future forms, which still appear in legal language."
+			},
 		],
 		sources: [
 			{ label: 'Real Academia Española: Glosario de términos gramaticales, "(modo) subjuntivo"', url: 'https://www.rae.es/gtg/modo-subjuntivo' },
@@ -1555,6 +1559,10 @@ export const guides: Guide[] = [
 			{
 				question: 'How does the conditional work in "si tuviera... viajaría" sentences?',
 				answer: 'It\'s a fixed pairing built for situations where present reality doesn\'t match the hypothesis: the si-clause runs on that same past-tense subjunctive form (si tuviera), while the main clause runs in that same conditional form (viajaría). RAE\'s own material walks through this exact construction with a lottery-and-car-buying scenario, and with a speaker imagining standing in someone else\'s shoes. Neither half of the sentence can swap in a different mood or tense there, not a plain subjunctive, not a bare conditional, not the future indicative; the pairing is specific to this construction.',
+			},
+			{
+			  "question": "What are 5 examples of conditional tense?",
+			  "answer": "Here are five Spanish examples: Yo cantaría (I would sing); tú beberías (you would drink); ella escribiría (she would write); nosotros saldríamos (we would leave); ellos harían la cena (they would make dinner). The last two use altered stems, saldr- and har-, while the first three keep their infinitives."
 			},
 		],
 		sources: [
@@ -2316,6 +2324,10 @@ export const guides: Guide[] = [
 			{
 				question: 'Why does "te" become "toi" in "lève-toi" but not in "ne te lève pas"?',
 				answer: 'Saying yes to a command pulls the pronoun behind the verb and upgrades it to its stressed form at the same time, so te turns into toi and me into moi: lève-toi. Saying no undoes both moves at once, pronoun back in front, plain form restored: ne te lève pas. Before en or y specifically, moi and toi contract to m\' and t\' instead of staying spelled out — donnez-m\'en is correct, and the version some speakers insert an extra z-sound into isn\'t.',
+			},
+			{
+			  "question": "What are 5 examples of imperatives?",
+			  "answer": "Five French commands are Écoute (Listen), Attendez ici (Wait here), Finissons le travail (Let us finish the work), Soyez prudents (Be careful), and Ne cours pas (Do not run). These illustrate an instruction to one person, vous and nous forms, an irregular verb, and a prohibition. None needs an expressed subject pronoun."
 			},
 		],
 		sources: [
@@ -4558,6 +4570,10 @@ export const guides: Guide[] = [
 			{
 				question: 'Does si ever take the present subjunctive?',
 				answer: 'No. That\'s one of the four forms the RAE says si rejects outright in current Spanish, alongside the conditional, the future tense, and one further subjunctive form built off the present perfect. A clause like "si tengas dinero" is not a stylistic variant; it\'s an ungrammatical mixing of the real-condition prótasis (which wants tienes, present indicative) with the subjunctive.',
+			},
+			{
+			  "question": "What are the 10 examples of conditional clauses?",
+			  "answer": "Ten Spanish practice sentences are: Si hace frío, llevo guantes; Si llegas temprano, llama; Si termino hoy, descansaré; Si quieres té, preparo agua; Si tuviese tiempo, aprendería ruso; Si ganara más, ahorraría; Si pudieras venir, estaríamos contentos; Si hubiera salido antes, habría llegado puntual; Si hubiesen reservado, habrían conseguido mesa; Si hubieras preguntado, te habría explicado todo. The first four describe open conditions, the next three imagined situations, and the last three unrealised past events. These are constructed examples of the RAE tense patterns."
 			},
 		],
 		sources: [
