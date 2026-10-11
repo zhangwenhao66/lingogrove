@@ -1,0 +1,165 @@
+{
+  "status": "PASS_after_followup_pending_parent_review",
+  "parent": "dff0a6fe5fc22dc9db0b5926cf20d4399fd629a1",
+  "five_sources_full_body_allFAQ_read": [
+    "spanish-pronouns",
+    "spanish-present-tense-endings",
+    "spanish-future-tense",
+    "ciao-meaning",
+    "deja-vu-meaning"
+  ],
+  "four_original_bridge_targets_full_body_allFAQ_read": true,
+  "actual_original_candidates": 4,
+  "current_candidates": 3,
+  "root_diff_complete_read": "all363 lines",
+  "followup_diff_complete_read": true,
+  "SVG_XML_and_actual_PNG_viewed": [
+    "spanish-future-tense root unchanged",
+    "spanish-present-tense-endings own updated: fit and -ba segmentation verified"
+  ],
+  "checks": {
+    "spanish-future-tense": {
+      "prose": 0,
+      "bridge": 0,
+      "build": 0
+    },
+    "ciao-meaning": {
+      "prose": 0,
+      "bridge": 0,
+      "build": 0
+    },
+    "deja-vu-meaning": {
+      "prose": 0,
+      "bridge": 0,
+      "build": 0
+    },
+    "spanish-pronouns": {
+      "prose": 0,
+      "bridge": 0,
+      "build": 0
+    },
+    "spanish-present-tense-endings": {
+      "prose": 0,
+      "bridge": 0,
+      "build": 0
+    }
+  },
+  "questions_counts_original_whole_internal_URL_sequence": {
+    "spanish-pronouns": {
+      "FAQ_count_unchanged": true,
+      "FAQ_questions_unchanged": true,
+      "whole_block_internal_URL_sequence_unchanged": true,
+      "source_sha256": "24572b378f3bd8a86e8ce73c6b54657d3bf1be249fe08083e8eb952ce99f009d"
+    },
+    "spanish-present-tense-endings": {
+      "FAQ_count_unchanged": true,
+      "FAQ_questions_unchanged": true,
+      "whole_block_internal_URL_sequence_unchanged": true,
+      "source_sha256": "ac63fa1267a82b3c7d96440f4fd95f57ed9f197b72e010a438755c7806a99aef"
+    },
+    "spanish-future-tense": {
+      "FAQ_count_unchanged": true,
+      "FAQ_questions_unchanged": true,
+      "whole_block_internal_URL_sequence_unchanged": true,
+      "source_sha256": "8e3a040be8a3d469e43e61775b9cb1f5cf558727855d0296235991232ca17a1b"
+    },
+    "ciao-meaning": {
+      "FAQ_count_unchanged": true,
+      "FAQ_questions_unchanged": true,
+      "whole_block_internal_URL_sequence_unchanged": true,
+      "source_sha256": "0eadaddc6321c0cd91b4694bc93f99f4780626fdddc260a39330f1d1008ffb08"
+    },
+    "deja-vu-meaning": {
+      "FAQ_count_unchanged": true,
+      "FAQ_questions_unchanged": true,
+      "whole_block_internal_URL_sequence_unchanged": true,
+      "source_sha256": "5743c32ad01aa3309cf17d544b72ce9e094a4d127525502a315624fbe5ee390a"
+    }
+  },
+  "original_manual_bridges": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/lingo-b9-review/manual-bridges.json",
+  "exact_current_source_hashes": [
+    {
+      "slug": "spanish-pronouns",
+      "sha256": "f094225688b46b20b8cd75dafebfeddaca72dab6a23d68a89760e6d9fcd15433",
+      "read": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/lingo-b9-review/read/spanish-pronouns.txt",
+      "after_changed_fields": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/lingo-b9-review/changes.json"
+    },
+    {
+      "slug": "spanish-present-tense-endings",
+      "sha256": "3ad81990dff19c12ed42eaed2349ea5e54da7520f59e81bcd55b92a8f8928e44",
+      "read": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/lingo-b9-review/read/spanish-present-tense-endings.txt",
+      "after_changed_fields": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/lingo-b9-review/changes.json"
+    },
+    {
+      "slug": "spanish-future-tense",
+      "sha256": "8e3a040be8a3d469e43e61775b9cb1f5cf558727855d0296235991232ca17a1b",
+      "read": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/lingo-b9-review/read/spanish-future-tense.txt",
+      "after_changed_fields": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/lingo-b9-review/changes.json"
+    },
+    {
+      "slug": "ciao-meaning",
+      "sha256": "0eadaddc6321c0cd91b4694bc93f99f4780626fdddc260a39330f1d1008ffb08",
+      "read": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/lingo-b9-review/read/ciao-meaning.txt",
+      "after_changed_fields": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/lingo-b9-review/changes.json"
+    },
+    {
+      "slug": "deja-vu-meaning",
+      "sha256": "5743c32ad01aa3309cf17d544b72ce9e094a4d127525502a315624fbe5ee390a",
+      "read": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/lingo-b9-review/read/deja-vu-meaning.txt",
+      "after_changed_fields": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/lingo-b9-review/changes.json"
+    }
+  ],
+  "fresh_notes": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/lingo-b9-review/notes",
+  "primary": [
+    {
+      "url": "https://www.rae.es/gtg/desinencia",
+      "coverage": "whole main4–20"
+    },
+    {
+      "url": "https://www.rae.es/gtg/morfema-cero",
+      "coverage": "whole main4–19"
+    },
+    {
+      "url": "https://www.rae.es/gtg/posesivo",
+      "coverage": "whole main4–26"
+    },
+    {
+      "url": "https://www.rae.es/gtg/vocal-temática",
+      "coverage": "whole main4–28"
+    },
+    {
+      "url": "https://www.rae.es/gtg/relativo",
+      "coverage": "whole main4–39"
+    },
+    {
+      "url": "https://www.rae.es/gtg/futuro-simple-de-indicativo",
+      "coverage": "whole main4–29"
+    },
+    {
+      "url": "https://www.rae.es/gramática/morfología/informaciones-morfológicas-presentes-en-las-formas-verbales-i-distinciones-fundamentales",
+      "coverage": "whole main11–63, in particular am-á-ba-mos and tem-i-do/part-i-do; actual independently read",
+      "finding": "One desinence with VT/TAM/PN in segmented analysis; regular -er/-ir participles share -ido."
+    },
+    {
+      "url": "https://health.clevelandclinic.org/deja-vu-what-it-is-and-when-it-may-be-cause-for-concern",
+      "coverage": "whole main16–79 actual independently read",
+      "finding": "No universal lifetime guarantee or diagnosis; frequent/long experiences and other symptoms need medical assessment."
+    },
+    {
+      "url": "https://europepmc.org/articles/PMC6043696",
+      "path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/lingo-b9-deja-primary.txt",
+      "coverage": "complete151-line extracted body including methods/results/discussion/limitations/COI; references only header, not bibliography",
+      "finding": "Healthy87 DV+ vs26 DV-: no significant hippocampal-subfield volume difference; does not disprove physiology or establish all causes. Patient MTLE comparison and spatial/segmentation/self-report limits retained."
+    },
+    {
+      "url": "https://en.wiktionary.org/wiki/%C4%8Dau#Czech",
+      "coverage": "whole Czech entry135–204",
+      "finding": "Both greeting and farewell; source most-borrowings quantifier unsupported, narrowed some."
+    }
+  ],
+  "english_chain": {
+    "receipt": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/skill-receipt.json",
+    "execution": "Applied humanizer then avoid-ai-writing to narrow edits, followed by names/numbers/quotes/links and natural syntax comparison."
+  },
+  "spread": "Grammar/lexeme issues scoped to Lingo. Independently found reflexive every-me/routine and irregular all-ac-er/diphthong claims forwarded to parent and fact_hollow tail batches; no target edited in this WT. Final integrated notes require updated target hashes. No other WT/index changed; no push."
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://www.rae.es/gtg/desinencia",
+    "coverage": "whole main4–20"
+  },
+  {
+    "url": "https://www.rae.es/gtg/morfema-cero",
+    "coverage": "whole main4–19"
+  },
+  {
+    "url": "https://www.rae.es/gtg/posesivo",
+    "coverage": "whole main4–26"
+  },
+  {
+    "url": "https://www.rae.es/gtg/vocal-temática",
+    "coverage": "whole main4–28"
+  },
+  {
+    "url": "https://www.rae.es/gtg/relativo",
+    "coverage": "whole main4–39"
+  },
+  {
+    "url": "https://www.rae.es/gtg/futuro-simple-de-indicativo",
+    "coverage": "whole main4–29"
+  },
+  {
+    "url": "https://www.rae.es/gramática/morfología/informaciones-morfológicas-presentes-en-las-formas-verbales-i-distinciones-fundamentales",
+    "coverage": "whole main11–63, in particular am-á-ba-mos and tem-i-do/part-i-do; actual independently read",
+    "finding": "One desinence with VT/TAM/PN in segmented analysis; regular -er/-ir participles share -ido."
+  },
+  {
+    "url": "https://health.clevelandclinic.org/deja-vu-what-it-is-and-when-it-may-be-cause-for-concern",
+    "coverage": "whole main16–79 actual independently read",
+    "finding": "No universal lifetime guarantee or diagnosis; frequent/long experiences and other symptoms need medical assessment."
+  },
+  {
+    "url": "https://europepmc.org/articles/PMC6043696",
+    "path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/lingo-b9-deja-primary.txt",
+    "coverage": "complete151-line extracted body including methods/results/discussion/limitations/COI; references only header, not bibliography",
+    "finding": "Healthy87 DV+ vs26 DV-: no significant hippocampal-subfield volume difference; does not disprove physiology or establish all causes. Patient MTLE comparison and spatial/segmentation/self-report limits retained."
+  },
+  {
+    "url": "https://en.wiktionary.org/wiki/%C4%8Dau#Czech",
+    "coverage": "whole Czech entry135–204",
+    "finding": "Both greeting and farewell; source most-borrowings quantifier unsupported, narrowed some."
+  }
+]

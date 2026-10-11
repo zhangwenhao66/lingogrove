@@ -1,0 +1,12 @@
+[
+  {
+    "index": 1,
+    "verdict": "CONFIRMED",
+    "sentence": "Italian\\'s future has the same job, which is why [sarà often isn\\'t about the future at all](/italian-future-tense/).",
+    "target_slug": "italian-future-tense",
+    "note": "Target gives a simple-future present conjecture Saranno le tre. Only this modal meaning is shared; no assertion that all future modal statements lose later-time reference or English cannot express inference. Actual target quotation: *Saranno le tre* means",
+    "source_article_sha256": "8e3a040be8a3d469e43e61775b9cb1f5cf558727855d0296235991232ca17a1b",
+    "target_article_sha256": "128ad5d10e7bf8d7f78acef901da0e3a814eb2a2f6ed98400f534588a35722b0",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-lingo-b9/src/data/guides.ts"
+  }
+]

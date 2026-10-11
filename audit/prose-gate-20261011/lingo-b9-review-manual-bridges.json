@@ -1,0 +1,100 @@
+[
+  {
+    "slug": "spanish-pronouns",
+    "original_candidates": [
+      {
+        "source": "body",
+        "sentence": "Where the pronoun attaches, and what happens with verbs like *dormirse* and *quedarse* that use the same forms without a truly reflexive meaning, is covered in full in [Spanish reflexive verbs](/spanish-reflexive-verbs/).",
+        "anchor": "Spanish reflexive verbs",
+        "target_slug": "spanish-reflexive-verbs",
+        "target_quote": "*dormirse* means to fall asleep",
+        "reason": "Target explains infinitive attachment and nonreflexive dormirse/quedarse meanings; source does not assert every daily-routine se is a reflexive argument. Independent target findings about levantarse and every-me are forwarded to root/tail agent for correction.",
+        "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-lingo-b9/src/data/guides.ts",
+        "target_sha256": "be106cac1b65b98822706c0941256c4e74f0d663ad554bc6dd82595346b5abc5"
+      },
+      {
+        "source": "body",
+        "sentence": "The [same unaccented spelling that separates *cuándo* the question word from *cuando* the connector](/spanish-accent-marks/) applies here too: *que* and *cual* only carry a written accent when they\\'re asking or exclaiming something, never when they\\'re doing this relative-clause job.",
+        "anchor": "same unaccented spelling that separates *cuándo* the question word from *cuando* the connector",
+        "target_slug": "spanish-accent-marks",
+        "target_quote": "No sé cuándo llega",
+        "reason": "Target separates interrogative/exclamative cuándo from relative cuando; bridge applies this orthographic contrast to que/cual only, not all accent rules.",
+        "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-lingo-b9/src/data/guides.ts",
+        "target_sha256": "7f2e6a405a40910b2f3078884f42f605adfd8be79c9d48bc70360d47e36a63c4"
+      }
+    ],
+    "current_candidates": [
+      {
+        "source": "body",
+        "sentence": "Where the pronoun attaches, and what happens with verbs like *dormirse* and *quedarse* that use the same forms without a truly reflexive meaning, is covered in full in [Spanish reflexive verbs](/spanish-reflexive-verbs/).",
+        "anchor": "Spanish reflexive verbs",
+        "target_slug": "spanish-reflexive-verbs"
+      },
+      {
+        "source": "body",
+        "sentence": "The [same unaccented spelling that separates *cuándo* the question word from *cuando* the connector](/spanish-accent-marks/) applies here too: *que* and *cual* only carry a written accent when they're asking or exclaiming something, never when they're doing this relative-clause job.",
+        "anchor": "same unaccented spelling that separates *cuándo* the question word from *cuando* the connector",
+        "target_slug": "spanish-accent-marks"
+      }
+    ],
+    "full_source_body_allFAQ_read": true,
+    "original_targets_body_allFAQ_read": true
+  },
+  {
+    "slug": "spanish-present-tense-endings",
+    "original_candidates": [
+      {
+        "source": "body",
+        "sentence": "A separate, larger family, verbs like conocer and conducir that add a /k/ sound before the yo ending (conozco, conduzco), is covered in full among the [irregular Spanish verbs classified by root type](/irregular-spanish-verbs/), since it belongs to the same consonantal-irregularity category RAE groups the -go verbs under, just a different inserted sound.",
+        "anchor": "irregular Spanish verbs classified by root type",
+        "target_slug": "irregular-spanish-verbs",
+        "target_quote": "conocer → conozco",
+        "reason": "Target explicitly exemplifies conocer/conducir consonant changes; revised bridge removes complete -go family coverage assertion and narrows to those examples. Target further unrelated contradictory all-zc and i-diphthong claims forwarded for separate narrow repair.",
+        "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-lingo-b9/src/data/guides.ts",
+        "target_sha256": "c8ff4f030cac8ab7a59f3de5fdebcca0f6c6f9fd39d9cef7672fc1fa79d37bb1"
+      }
+    ],
+    "current_candidates": [],
+    "full_source_body_allFAQ_read": true,
+    "original_targets_body_allFAQ_read": true
+  },
+  {
+    "slug": "spanish-future-tense",
+    "original_candidates": [
+      {
+        "source": "body",
+        "sentence": "Italian\\'s future has the same job, which is why [sarà often isn\\'t about the future at all](/italian-future-tense/).",
+        "anchor": "sarà often isn\\'t about the future at all",
+        "target_slug": "italian-future-tense",
+        "target_quote": "*Saranno le tre* means",
+        "reason": "Target gives a simple-future present conjecture Saranno le tre. Only this modal meaning is shared; no assertion that all future modal statements lose later-time reference or English cannot express inference.",
+        "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-lingo-b9/src/data/guides.ts",
+        "target_sha256": "128ad5d10e7bf8d7f78acef901da0e3a814eb2a2f6ed98400f534588a35722b0"
+      }
+    ],
+    "current_candidates": [
+      {
+        "source": "body",
+        "sentence": "Italian\\'s future has the same job, which is why [sarà often isn\\'t about the future at all](/italian-future-tense/).",
+        "anchor": "sarà often isn\\'t about the future at all",
+        "target_slug": "italian-future-tense"
+      }
+    ],
+    "full_source_body_allFAQ_read": true,
+    "original_targets_body_allFAQ_read": true
+  },
+  {
+    "slug": "ciao-meaning",
+    "original_candidates": [],
+    "current_candidates": [],
+    "full_source_body_allFAQ_read": true,
+    "original_targets_body_allFAQ_read": true
+  },
+  {
+    "slug": "deja-vu-meaning",
+    "original_candidates": [],
+    "current_candidates": [],
+    "full_source_body_allFAQ_read": true,
+    "original_targets_body_allFAQ_read": true
+  }
+]

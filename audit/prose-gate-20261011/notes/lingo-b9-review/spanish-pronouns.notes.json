@@ -1,0 +1,22 @@
+[
+  {
+    "index": 1,
+    "verdict": "CONFIRMED",
+    "sentence": "Where the pronoun attaches, and what happens with verbs like *dormirse* and *quedarse* that use the same forms without a truly reflexive meaning, is covered in full in [Spanish reflexive verbs](/spanish-reflexive-verbs/).",
+    "target_slug": "spanish-reflexive-verbs",
+    "note": "Target explains infinitive attachment and nonreflexive dormirse/quedarse meanings; source does not assert every daily-routine se is a reflexive argument. Independent target findings about levantarse and every-me are forwarded to root/tail agent for correction. Actual target quotation: *dormirse* means to fall asleep",
+    "source_article_sha256": "f094225688b46b20b8cd75dafebfeddaca72dab6a23d68a89760e6d9fcd15433",
+    "target_article_sha256": "be106cac1b65b98822706c0941256c4e74f0d663ad554bc6dd82595346b5abc5",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-lingo-b9/src/data/guides.ts"
+  },
+  {
+    "index": 2,
+    "verdict": "CONFIRMED",
+    "sentence": "The [same unaccented spelling that separates *cuándo* the question word from *cuando* the connector](/spanish-accent-marks/) applies here too: *que* and *cual* only carry a written accent when they're asking or exclaiming something, never when they're doing this relative-clause job.",
+    "target_slug": "spanish-accent-marks",
+    "note": "Target separates interrogative/exclamative cuándo from relative cuando; bridge applies this orthographic contrast to que/cual only, not all accent rules. Actual target quotation: No sé cuándo llega",
+    "source_article_sha256": "f094225688b46b20b8cd75dafebfeddaca72dab6a23d68a89760e6d9fcd15433",
+    "target_article_sha256": "7f2e6a405a40910b2f3078884f42f605adfd8be79c9d48bc70360d47e36a63c4",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-lingo-b9/src/data/guides.ts"
+  }
+]

@@ -4,7 +4,7 @@
 
 	<rect x="24" y="24" width="752" height="56" rx="10" fill="#2f6b47"/>
 	<rect x="24" y="60" width="752" height="20" fill="#2f6b47"/>
-	<text x="400" y="60" text-anchor="middle" fill="#ffffff" font-size="17" font-weight="700">PRESENT TENSE: TWO ENDING SETS, ONE SPLIT POINT</text>
+	<text x="400" y="60" text-anchor="middle" fill="#ffffff" font-size="17" font-weight="700">REGULAR PRESENT ENDINGS: -AR AND -ER/-IR</text>
 
 	<!-- -AR column -->
 	<rect x="42" y="98" width="352" height="240" rx="8" fill="#fbead0" stroke="#ddd8c4"/>
@@ -29,7 +29,7 @@
 	<text x="330" y="282" text-anchor="end" fill="#201f1a" font-size="14" font-weight="600">habl<tspan fill="#b5570f">an</tspan></text>
 
 	<line x1="62" y1="298" x2="374" y2="298" stroke="#ddd8c4" stroke-width="1"/>
-	<text x="218" y="318" text-anchor="middle" fill="#5a5648" font-size="10.5">one set for every -ar verb</text>
+	<text x="218" y="318" text-anchor="middle" fill="#5a5648" font-size="10.5">one set for regular -ar verbs</text>
 
 	<!-- -ER/-IR column -->
 	<rect x="406" y="98" width="352" height="240" rx="8" fill="#fbead0" stroke="#ddd8c4"/>
@@ -83,11 +83,11 @@
 	<!-- Imperfect row -->
 	<rect x="62" y="578" width="676" height="72" rx="6" fill="#fffefa" stroke="#ddd8c4"/>
 	<text x="82" y="604" fill="#5a5648" font-size="11" font-weight="700">IMPERFECT</text>
-	<text x="82" y="632" fill="#201f1a" font-size="20" font-weight="700">habl<tspan fill="#204a31">aba</tspan></text>
+	<text x="82" y="632" fill="#201f1a" font-size="20" font-weight="700">habla<tspan fill="#204a31">ba</tspan></text>
 	<rect x="220" y="612" width="60" height="26" rx="4" fill="#eaf1ea" stroke="#2f6b47" stroke-width="1.5"/>
-	<text x="250" y="629" text-anchor="middle" fill="#204a31" font-size="13" font-weight="700">-aba</text>
-	<text x="470" y="620" text-anchor="middle" fill="#5a5648" font-size="12">its own audible, separately</text>
-	<text x="470" y="638" text-anchor="middle" fill="#5a5648" font-size="12">identifiable syllable</text>
+	<text x="250" y="629" text-anchor="middle" fill="#204a31" font-size="13" font-weight="700">-ba</text>
+	<text x="470" y="620" text-anchor="middle" fill="#5a5648" font-size="12">an overt tense-mood segment</text>
+	<text x="470" y="638" text-anchor="middle" fill="#5a5648" font-size="12">following thematic -a</text>
 
 	<text x="400" y="672" text-anchor="middle" fill="#5a5648" font-size="10.5">present's tense-mood information rides silently on the same ending that marks person and number</text>
 </svg>

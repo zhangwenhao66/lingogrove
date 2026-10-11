@@ -1,0 +1,32 @@
+{
+  "spanish-pronouns": {
+    "FAQ_count_unchanged": true,
+    "FAQ_questions_unchanged": true,
+    "whole_block_internal_URL_sequence_unchanged": true,
+    "source_sha256": "24572b378f3bd8a86e8ce73c6b54657d3bf1be249fe08083e8eb952ce99f009d"
+  },
+  "spanish-present-tense-endings": {
+    "FAQ_count_unchanged": true,
+    "FAQ_questions_unchanged": true,
+    "whole_block_internal_URL_sequence_unchanged": true,
+    "source_sha256": "ac63fa1267a82b3c7d96440f4fd95f57ed9f197b72e010a438755c7806a99aef"
+  },
+  "spanish-future-tense": {
+    "FAQ_count_unchanged": true,
+    "FAQ_questions_unchanged": true,
+    "whole_block_internal_URL_sequence_unchanged": true,
+    "source_sha256": "8e3a040be8a3d469e43e61775b9cb1f5cf558727855d0296235991232ca17a1b"
+  },
+  "ciao-meaning": {
+    "FAQ_count_unchanged": true,
+    "FAQ_questions_unchanged": true,
+    "whole_block_internal_URL_sequence_unchanged": true,
+    "source_sha256": "0eadaddc6321c0cd91b4694bc93f99f4780626fdddc260a39330f1d1008ffb08"
+  },
+  "deja-vu-meaning": {
+    "FAQ_count_unchanged": true,
+    "FAQ_questions_unchanged": true,
+    "whole_block_internal_URL_sequence_unchanged": true,
+    "source_sha256": "5743c32ad01aa3309cf17d544b72ce9e094a4d127525502a315624fbe5ee390a"
+  }
+}
