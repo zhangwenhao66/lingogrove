@@ -38,15 +38,15 @@
 
 	<!-- row 3: countries -->
 	<rect x="46" y="396" width="708" height="150" rx="8" fill="#eaf1ea" stroke="#2f6b47"/>
-	<text x="400" y="420" text-anchor="middle" fill="#2f6b47" font-size="13" font-weight="700">COUNTRIES SPLIT THREE WAYS, NOT ONE</text>
+	<text x="400" y="420" text-anchor="middle" fill="#2f6b47" font-size="13" font-weight="700">COMMON COUNTRY PATTERNS — WITH EXCEPTIONS</text>
 	<text x="164" y="446" text-anchor="middle" fill="#201f1a" font-size="12" font-weight="700">EN + feminine / vowel / silent h</text>
 	<text x="164" y="466" text-anchor="middle" fill="#5a5648" font-size="12">en France, en Chine</text>
 	<text x="400" y="446" text-anchor="middle" fill="#201f1a" font-size="12" font-weight="700">AU + masculine consonant</text>
 	<text x="400" y="466" text-anchor="middle" fill="#5a5648" font-size="12">au Japon, au Canada</text>
 	<text x="636" y="446" text-anchor="middle" fill="#201f1a" font-size="12" font-weight="700">AUX + plural</text>
 	<text x="636" y="466" text-anchor="middle" fill="#5a5648" font-size="12">aux &#201;tats-Unis</text>
-	<text x="400" y="500" text-anchor="middle" fill="#5a5648" font-size="11" font-style="italic">Exception: five countries end in -e but are masculine</text>
-	<text x="400" y="520" text-anchor="middle" fill="#201f1a" font-size="12">le Mexique &#183; le Cambodge &#183; le Mozambique &#183; le Zimbabwe &#183; le Belize &#8594; au Mexique</text>
+	<text x="400" y="500" text-anchor="middle" fill="#5a5648" font-size="11" font-style="italic">Some islands use à: à Cuba, à Malte. Masculine -e examples:</text>
+	<text x="400" y="520" text-anchor="middle" fill="#201f1a" font-size="11">le Mexique &#183; le Cambodge &#183; le Mozambique &#183; le Zimbabwe &#183; le Belize &#183; le Suriname</text>
 
 	<!-- row 4: en vs dans time -->
 	<rect x="46" y="564" width="342" height="168" rx="8" fill="#fdf3e3" stroke="#5a4a2f"/>

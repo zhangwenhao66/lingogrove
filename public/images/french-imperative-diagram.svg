@@ -22,7 +22,7 @@
 
 	<!-- row 2: four irregular verbs -->
 	<rect x="46" y="240" width="708" height="146" rx="8" fill="#eaf1ea" stroke="#2f6b47"/>
-	<text x="400" y="264" text-anchor="middle" fill="#5a5648" font-size="12" font-weight="700">FOUR VERBS BORROW FROM THE SUBJUNCTIVE INSTEAD</text>
+	<text x="400" y="264" text-anchor="middle" fill="#5a5648" font-size="12" font-weight="700">FOUR VERBS HAVE SPECIAL IMPERATIVE FORMS</text>
 
 	<text x="130" y="296" text-anchor="middle" fill="#204a31" font-size="13" font-weight="700">avoir</text>
 	<text x="130" y="316" text-anchor="middle" fill="#201f1a" font-size="12">aie</text>

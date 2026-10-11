@@ -55,7 +55,7 @@
 	<text x="626" y="494" text-anchor="middle" fill="#5a5648" font-size="11">different stem from the singular</text>
 
 	<line x1="66" y1="518" x2="734" y2="518" stroke="#e0d9bd" stroke-width="1"/>
-	<text x="400" y="540" text-anchor="middle" fill="#5a5648" font-size="11" font-style="italic">Weather: qu’il pleuve. Figurative plural: qu’ils pleuvent. Falloir: qu’il faille.</text>
+	<text x="400" y="550" text-anchor="middle" fill="#5a5648" font-size="11" font-style="italic">Weather: qu’il pleuve. Figurative plural: qu’ils pleuvent. Falloir: qu’il faille.</text>
 
 	<!-- row 4: relative clause trigger -->
 	<rect x="46" y="572" width="708" height="86" rx="8" fill="#eaf1ea" stroke="#2f6b47"/>

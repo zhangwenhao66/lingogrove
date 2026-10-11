@@ -1,0 +1,22 @@
+[
+  {
+    "index": 1,
+    "sentence": "Nothing about that change touches the noun system a command might still need; Ouvre la porte keeps [the same definite article rules](/french-articles/) any other French sentence would use.",
+    "target_slug": "french-articles",
+    "verdict": "CONFIRMED",
+    "note": "Target definite article usage for identifiable noun supports Ouvre la porte example. Complete body and ALL FAQ actually read this round; scoped comparison manually checked.",
+    "target_quote": "'The definite articles (le, la, l\\', les) mark a noun that\\'s specific and identifiable, or, more surprising to English speakers, an entire category treated as a whole: Le café est bon pour la santé (\"Coffee is good for your health\") uses le for coffee-in-general, a sentence English states with no article at all. The indefinite articles (un, une, des) mark a countable item that hasn\\'t already been identified: J\\'ai un chat (\"I have a cat,\" one unspecified cat). The partitive articles (du, de la, de l\\') mark an unspecified portion of something usually treated as a mass rather than a count of separate items: Je bois de l\\'eau (\"I drink [some] water\"), a \"some\" that English speakers routinely drop by reflex because their own language doesn\\'t require it.',",
+    "source_sha256": "3cf368b40fabc66d69220e93485b27bb65a729ff3bacf3d86c905682a0faf599",
+    "target_sha256": "b1ac54c6edd050b3783f6ec06ed9284a97e8a410faf34455d655d325521e2fa6"
+  },
+  {
+    "index": 2,
+    "sentence": "[Spanish reflexive verbs](/spanish-reflexive-verbs/) follow a structurally similar split: the pronoun attaches to an affirmative command and moves back in front for a negative one, as in ¡Levántate! versus No te levantes, never No levántate.",
+    "target_slug": "spanish-reflexive-verbs",
+    "verdict": "CONFIRMED",
+    "note": "Target explicitly contrasts affirmative attachment and negative preverbal pronoun in Levántate/No te levantes. Complete body and ALL FAQ actually read this round; scoped comparison manually checked.",
+    "target_quote": "'Placement follows the same rule as [direct and indirect object pronouns](/direct-vs-indirect-object-pronouns-spanish/): the pronoun goes immediately before a conjugated verb (*Me levanto*), and attaches to the end of an infinitive, a gerund, or an affirmative command (*Voy a levantarme*, *Estoy levantándome*, *¡Levántate!*), with a written accent added where needed to keep the original stress. Negative commands put it back in front: *No te levantes*, never *No levántate*.',",
+    "source_sha256": "3cf368b40fabc66d69220e93485b27bb65a729ff3bacf3d86c905682a0faf599",
+    "target_sha256": "dc43a15feab29ac756de3411949af23655f90eaf4946687c19577acbff6115d7"
+  }
+]

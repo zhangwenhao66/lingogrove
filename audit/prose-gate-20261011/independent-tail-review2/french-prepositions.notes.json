@@ -1,0 +1,12 @@
+[
+  {
+    "index": 1,
+    "sentence": "The same fusion covered in [French articles](/french-articles/) applies when le or les is a definite article: the preposition contracts with that article. À + le becomes au (au marché, never à le marché), and à + les becomes aux (aux Pays-Bas, never à les Pays-Bas). À la and à l\\' don\\'t contract with anything and stay as two separate words.",
+    "target_slug": "french-articles",
+    "verdict": "CONFIRMED",
+    "note": "Target contraction section and FAQ specify definite le/les contraction and no contraction of la/l’. Complete body and ALL FAQ actually read this round; scoped comparison manually checked.",
+    "target_quote": "coreSummary: 'French distinguishes three article families: definite articles (le, la, l\\', les) for a specific or generic noun, indefinite articles (un, une, des) for an unspecified countable item, and partitive articles (du, de la, de l\\', des) for an unspecified portion of something treated as a mass. Two rules affect these article forms in different ways: à and de fuse with le and les into au, aux, du, and des whenever a definite article follows them (never with la or l\\'), and negation collapses un, une, des, du, de la, and de l\\' down to de or d\\', with three exceptions: être asserting identity rather than quantity, a sentence that sets up an implicit contrast, and the restrictive ne...que construction, which isn\\'t true negation at all.',",
+    "source_sha256": "9d217d1a442ab9111351b04f5f8686f0e3cafd5279afdaeee652aa63b58df500",
+    "target_sha256": "b1ac54c6edd050b3783f6ec06ed9284a97e8a410faf34455d655d325521e2fa6"
+  }
+]

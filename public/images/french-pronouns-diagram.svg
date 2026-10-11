@@ -22,7 +22,7 @@
 	<text x="140" y="230" text-anchor="middle" fill="#201f1a" font-size="11">&#8594; direct object</text>
 
 	<rect x="46" y="248" width="188" height="34" rx="8" fill="#2f6b47"/>
-	<text x="140" y="270" text-anchor="middle" fill="#ffffff" font-size="14" font-weight="700">me / te / le / la / nous / vous / les</text>
+	<text x="140" y="270" text-anchor="middle" fill="#ffffff" font-size="10" font-weight="700">me / te / le / la / nous / vous / les</text>
 
 	<!-- branch 2: à -->
 	<rect x="306" y="176" width="188" height="58" rx="8" fill="#fbead0" stroke="#ddd8c4"/>
@@ -44,27 +44,27 @@
 	<line x1="400" y1="234" x2="400" y2="326" stroke="#5a5648" stroke-width="1.5"/>
 	<line x1="460" y1="234" x2="580" y2="326" stroke="#5a5648" stroke-width="1.5"/>
 
-	<rect x="126" y="326" width="188" height="52" rx="8" fill="#eaf1ea" stroke="#2f6b47"/>
-	<text x="220" y="348" text-anchor="middle" fill="#5a5648" font-size="11" font-weight="700">À + A THING OR PLACE</text>
-	<text x="220" y="366" text-anchor="middle" fill="#201f1a" font-size="11">Je vais à Paris (standard use)</text>
+	<rect x="116" y="326" width="188" height="52" rx="8" fill="#eaf1ea" stroke="#2f6b47"/>
+	<text x="210" y="348" text-anchor="middle" fill="#5a5648" font-size="11" font-weight="700">À + A THING OR PLACE</text>
+	<text x="210" y="366" text-anchor="middle" fill="#201f1a" font-size="11">Je vais à Paris (standard use)</text>
 
-	<rect x="126" y="392" width="188" height="34" rx="8" fill="#2f6b47"/>
-	<text x="220" y="414" text-anchor="middle" fill="#ffffff" font-size="16" font-weight="700">y</text>
+	<rect x="116" y="392" width="188" height="34" rx="8" fill="#2f6b47"/>
+	<text x="210" y="414" text-anchor="middle" fill="#ffffff" font-size="16" font-weight="700">y</text>
 
-	<rect x="306" y="326" width="188" height="52" rx="8" fill="#eaf1ea" stroke="#2f6b47"/>
-	<text x="400" y="348" text-anchor="middle" fill="#5a5648" font-size="11" font-weight="700">À + A PERSON (most verbs)</text>
-	<text x="400" y="366" text-anchor="middle" fill="#201f1a" font-size="11">parler à, sourire à, téléphoner à</text>
+	<rect x="316" y="326" width="188" height="52" rx="8" fill="#eaf1ea" stroke="#2f6b47"/>
+	<text x="410" y="348" text-anchor="middle" fill="#5a5648" font-size="11" font-weight="700">À + A PERSON (most verbs)</text>
+	<text x="410" y="366" text-anchor="middle" fill="#201f1a" font-size="11">parler à, sourire à, téléphoner à</text>
 
-	<rect x="306" y="392" width="188" height="34" rx="8" fill="#2f6b47"/>
-	<text x="400" y="414" text-anchor="middle" fill="#ffffff" font-size="14" font-weight="700">lui / leur</text>
+	<rect x="316" y="392" width="188" height="34" rx="8" fill="#2f6b47"/>
+	<text x="410" y="414" text-anchor="middle" fill="#ffffff" font-size="14" font-weight="700">lui / leur</text>
 
-	<rect x="486" y="326" width="200" height="66" rx="8" fill="#fce8e6" stroke="#c0554a"/>
-	<text x="586" y="346" text-anchor="middle" fill="#8a3a30" font-size="11" font-weight="700">À + A PERSON, EXCEPT: penser à,</text>
-	<text x="586" y="361" text-anchor="middle" fill="#8a3a30" font-size="11" font-weight="700">tenir à, croire à, être à, among others</text>
-	<text x="586" y="379" text-anchor="middle" fill="#201f1a" font-size="11">Il pense à elle, never &#8220;il lui pense&#8221;</text>
+	<rect x="516" y="326" width="238" height="66" rx="8" fill="#fce8e6" stroke="#c0554a"/>
+	<text x="635" y="346" text-anchor="middle" fill="#8a3a30" font-size="11" font-weight="700">À + A PERSON, EXCEPT: penser à,</text>
+	<text x="635" y="361" text-anchor="middle" fill="#8a3a30" font-size="11" font-weight="700">tenir à, croire à, être à, among others</text>
+	<text x="635" y="379" text-anchor="middle" fill="#201f1a" font-size="11">Il pense à elle, never &#8220;il lui pense&#8221;</text>
 
-	<rect x="486" y="408" width="200" height="34" rx="8" fill="#8a3a30"/>
-	<text x="586" y="430" text-anchor="middle" fill="#ffffff" font-size="13" font-weight="700">à + moi / toi / lui / elle...</text>
+	<rect x="516" y="408" width="238" height="34" rx="8" fill="#8a3a30"/>
+	<text x="635" y="430" text-anchor="middle" fill="#ffffff" font-size="13" font-weight="700">à + moi / toi / lui / elle...</text>
 
 	<line x1="46" y1="466" x2="754" y2="466" stroke="#ddd8c4" stroke-width="1"/>
 

@@ -1392,7 +1392,7 @@ export const guides: Guide[] = [
 		description: 'Spanish class treats the subjunctive as one more verb tense to memorize. It\'s a mood, not a tense, and confusing the two is why the actual trigger never clicks.',
 		published: '2026-08-05',
 		updated: '2026-10-11',
-		coreSummary: 'The Spanish subjunctive is a grammatical mood, not a tense: its tenses locate events in time, while the mood helps express wishes, doubt, influence, or emotional evaluation. It can also occur with known facts. Per the Real Academia Española, it appears in subordinate clauses after verbs of desire, influence, doubt, and emotion in appropriate constructions; different subjects are common in desire and influence examples, but are not a universal requirement. It also fills in for the future tense inside future-referring temporal clauses like cuando, where Spanish grammar blocks from taking the indicative future or conditional.',
+		coreSummary: 'The Spanish subjunctive is a grammatical mood, not a tense: its tenses locate events in time, while the mood helps express wishes, doubt, influence, or emotional evaluation. It can also occur with known facts. Per the Real Academia Española, it appears in subordinate clauses after verbs of desire, influence, doubt, and emotion in appropriate constructions; different subjects are common in desire and influence examples, but are not a universal requirement. It also fills in for the future tense inside future-referring temporal clauses like cuando, where the indicative future and conditional are excluded.',
 		language: 'Spanish',
 		sections: [
 			{
@@ -2258,7 +2258,7 @@ export const guides: Guide[] = [
 		description: 'French commands drop the subject pronoun, and most -er verbs also drop the final -s, until en or y shows up and the -s comes back. Four verbs skip the system entirely.',
 		published: '2026-08-10',
 		updated: '2026-09-11',
-		coreSummary: 'The French imperative exists only in the tu, nous, and vous forms, drops the subject pronoun, and mostly reuses the present indicative, except that -er verbs drop the final -s at tu (chante, not chantes) unless the pronoun en or y follows, when the -s returns for pronunciation (vas-y). Four verbs, avoir, être, savoir, and vouloir, ignore that whole system and borrow their forms from the subjunctive instead (aie, sois, sache, veuille), and object pronouns reverse their order depending on the command: direct object first in an affirmative command (dis-le-moi), back to ordinary word order in a negative one (ne me le dis pas).',
+		coreSummary: 'The French imperative exists only in the tu, nous, and vous forms, drops the subject pronoun, and mostly reuses the present indicative, except that -er verbs drop the final -s at tu (chante, not chantes) unless the pronoun en or y follows, when the -s returns for pronunciation (vas-y). Avoir, être, savoir, and vouloir have special imperative forms (aie, sois, sache, veuille); the plurals of savoir and of vouloir have dedicated imperative forms. With me, te, nous, or vous as the indirect object, the pronoun sequence changes between affirmative and negative commands: direct object first in an affirmative command (dis-le-moi), back to ordinary word order in a negative one (ne me le dis pas).',
 		language: 'French',
 		sections: [
 			{
@@ -2269,7 +2269,7 @@ export const guides: Guide[] = [
 				],
 				image: {
 					src: '/images/french-imperative-diagram.svg',
-					alt: 'Diagram of French imperative formation: dropping the subject pronoun and the -er verb final -s at tu, the -s returning before en/y, the four irregular verbs (avoir, être, savoir, vouloir) borrowing from the subjunctive, and the pronoun order flipping between an affirmative command (dis-le-moi) and a negative one (ne me le dis pas).',
+					alt: 'Diagram of French imperative formation: dropping the subject pronoun and the -er verb final -s at tu, the -s returning before en/y, the special imperative forms of avoir, être, savoir, and vouloir, and the pronoun order flipping between an affirmative command (dis-le-moi) and a negative one (ne me le dis pas).',
 				},
 			},
 			{
@@ -2325,7 +2325,7 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'Why is it "dis-le-moi" and not "dis-moi-le"?',
-				answer: 'French flips the usual word order for a two-pronoun command: the thing being given or told comes right after the verb, and who it\'s given or told to comes second, so dis-le-moi and rendez-le-nous rather than the reverse. An ordinary statement would put those two pronouns in the opposite sequence (il me le dit). Spoken French sometimes swaps them back, but written French sticks with the le-then-moi order.',
+				answer: 'For indirect objects referring to the first or second person (me/te/nous/vous), an affirmative instruction changes the usual sequence: the thing being given or told comes right after the verb, and who it\'s given or told to comes second, so dis-le-moi and rendez-le-nous rather than the reverse. An ordinary statement would put those two pronouns in the opposite sequence (il me le dit). Spoken French sometimes swaps them back, but written French sticks with the le-then-moi order. With lui or leur, the direct object already follows le, la, or les in a statement, so that sequence is retained.',
 			},
 			{
 				question: 'Why does "te" become "toi" in "lève-toi" but not in "ne te lève pas"?',
@@ -2356,8 +2356,8 @@ export const guides: Guide[] = [
 				heading: 'A mood, not a tense — "il faut que" shows the whole logic in three words',
 				body: [
 					'Indicatif, subjonctif and impératif are the three personal moods commonly distinguished in French grammar. The subjunctive expresses such meanings as wishes, doubt, necessity and emotion; it has tenses of its own, while context helps locate the event in time. The traditional label "mode de l\'irréel" should not be read as a universal test separating true events from false ones. The French education ministry illustrates past subjunctive with Je regrette qu’elle ait fait cette erreur: regret does not deny that the error occurred.',
-					'Il faut qu\'elle vienne makes the point in three words. Faut carries the necessity, vienne is what\'s still pending — the sentence doesn\'t claim she has arrived, only that her arrival is required. Set that against Je crois qu\'elle vient, where the identical event (her coming) takes the indicative instead, because now it\'s being asserted as the speaker\'s belief rather than framed as a requirement. The contrast is between belief and necessity. Neither present-tense form by itself fixes when the arrival happens.',
-					'That split, mood tracking stance and not tense, runs through the subjunctive of other Romance languages too, including [Spanish](/subjunctive-spanish/), where the same asserted-versus-wanted contrast shows up under its own set of triggering verbs. In French specifically, the subjunctive is common, not a bookish leftover: il faut que, je veux que, and c\'est dommage que put it into completely ordinary conversation, sometimes more than once in the same exchange. The mood/tense line the subjunctive draws so clearly has a genuine blur spot elsewhere in French verb grammar: [the French future](/french-future-tense/) splits into two competing forms, futur simple and futur proche, and the common "near future vs. far future" explanation for the split is wrong, certainty is one relevant distinction, alongside whether the future is anchored in the present situation; elapsed time alone does not decide the choice. [The conditional](/french-conditional/) is the other one, sorted as a mood by some courses and as an indicative tense by the Quebec language office.',
+					'The three-word phrase il faut que introduces the requirement in Il faut qu\'elle vienne. Faut carries the necessity, vienne is what\'s still pending — the sentence doesn\'t claim she has arrived, only that her arrival is required. Set that against Je crois qu\'elle vient, where the identical event (her coming) takes the indicative instead, because now it\'s being asserted as the speaker\'s belief rather than framed as a requirement. The contrast is between belief and necessity. Neither present-tense form by itself fixes when the arrival happens.',
+					'That split, mood tracking stance and not tense, runs through the subjunctive of other Romance languages too, including [Spanish](/subjunctive-spanish/), where the same asserted-versus-wanted contrast shows up under its own set of triggering verbs. In French specifically, the subjunctive is common, not a bookish leftover: il faut que, je veux que, and c\'est dommage que put it into completely ordinary conversation, sometimes more than once in the same exchange. The mood/tense line the subjunctive draws so clearly has a genuine blur spot elsewhere in French verb grammar: [the French future](/french-future-tense/) splits into two competing forms, futur simple and futur proche, and the common "near future vs. far future" explanation for the split is wrong. Certainty is one relevant distinction, alongside whether the future is anchored in the present situation; elapsed time alone does not decide the choice. [The conditional](/french-conditional/) is the other one, sorted as a mood by some courses and as an indicative tense by the Quebec language office.',
 				],
 				image: {
 					src: '/images/french-subjunctive-diagram.svg',
@@ -2755,7 +2755,7 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'Why does "al" exist but "de la" doesn\'t contract to anything?',
-				answer: 'Spanish only fuses a preposition with one specific article: el, masculine and singular. A plus el becomes al, and de plus el becomes del. La, los, and las stay separate in these prepositional combinations, and neither does the pronoun él, so a él (to him) stays two words. Names and titles beginning with capitalized El are exceptions: El Salvador retains that spelling after a, and El País does so after de.',
+				answer: 'Spanish only fuses a preposition with one specific article: el, masculine and singular. A plus el becomes al, and de plus el becomes del. La, los, and las stay separate in these prepositional combinations, and the pronoun él remains separate too, so a él (to him) stays two words. Names and titles beginning with capitalized El are exceptions: El Salvador retains that spelling after a, and El País does so after de.',
 			},
 			{
 				question: 'Does hasta always mean "until" in Spanish?',
@@ -3543,7 +3543,7 @@ export const guides: Guide[] = [
 				heading: 'Stack two pronouns and they lock into one order, except in a command',
 				body: [
 					'When a sentence needs two object pronouns at once, French doesn\'t let them fall in whatever order feels natural. In an ordinary declarative or [negative sentence](/french-negation/), they line up in a fixed sequence: me/te/se/nous/vous, then le/la/les, then lui/leur, then y, then en. Il me le donne (me before le), Il le lui donne (le before lui, since both are third person and lui drops behind), Il nous y emmène (nous before y), Il y en a (y before en, the fixed phrase "there is/are").',
-					'Affirmative commands use a different personal-object order, where the direct object moves ahead of the indirect one instead (Donne-le-moi, not Donne-moi-le), a rule covered in full, including the hyphenation and the negative-command reversal back to ordinary order, in [the French imperative guide](/french-imperative/). [Spanish double object pronouns](/double-object-pronouns-spanish/) enforce an equally strict order of their own, and also have a separate form-substitution rule: Spanish blocks le or les from sitting directly in front of lo, la, los, or las and substitutes se instead (se lo doy, never le lo doy), while French makes no such substitution; it just lines le/la/les up ahead of lui/leur in sequence, as two separate words, the same way it does for every other pronoun pair.',
+					'When me, te, nous, or vous is the indirect object, an affirmative command puts the direct object ahead of it (Donne-le-moi, not Donne-moi-le), a rule covered in full, including the hyphenation and the negative-command reversal back to ordinary order, in [the French imperative guide](/french-imperative/). [Spanish double object pronouns](/double-object-pronouns-spanish/) enforce an equally strict order of their own, and also have a separate form-substitution rule: Spanish blocks le or les from sitting directly in front of lo, la, los, or las and substitutes se instead (se lo doy, never le lo doy), while French makes no such substitution; it just lines le/la/les up ahead of lui/leur in sequence, as two separate words, in the standard order for that particular pair.',
 				],
 			},
 		],
@@ -4077,10 +4077,10 @@ export const guides: Guide[] = [
 		slug: 'french-prepositions',
 		category: 'Grammar',
 		title: 'French Prepositions: Why À, En, and Dans Don\'t Match English',
-		description: 'À, en, and dans can all translate as "in," chez commonly precedes a person or a personified business name, and countries split three separate ways. The structural rules behind each one.',
+		description: 'À, en, and dans can all translate as "in," chez commonly precedes a person or a personified business name, and country names commonly use en, au, or aux, with additional exceptions. The structural rules behind each one.',
 		published: '2026-08-19',
 		updated: '2026-08-19',
-		coreSummary: 'French prepositions don\'t map onto English one-to-one: à, en, and dans can each translate as "in" depending on what follows, chez commonly names a person or profession and can also introduce a business name, and country names split three ways by gender: en (feminine or beginning with a vowel or silent h), au (masculine beginning with a consonant or aspirated h), and aux (plural), with no single word covering every country. Time works on a separate axis: depuis marks a duration still in progress, pendant marks a bounded duration, and pour marks an intended duration, without by themselves fixing the verb tense.',
+		coreSummary: 'French prepositions don\'t map onto English one-to-one: à, en, and dans can each translate as "in" depending on what follows, chez commonly names a person or profession and can also introduce a business name, and country names commonly follow three patterns: en (feminine or beginning with a vowel or silent h), au (masculine beginning with a consonant or aspirated h), and aux (plural). Some island names instead take à, as in à Cuba and à Malte. Time works on a separate axis: depuis marks a duration still in progress, pendant marks a bounded duration, and pour marks an intended duration, without by themselves fixing the verb tense.',
 		language: 'French',
 		sections: [
 			{
@@ -4094,7 +4094,7 @@ export const guides: Guide[] = [
 				heading: 'À: a point on a map, and a mandatory fusion with le and les',
 				body: [
 					'À marks a location treated as a single point, not a container: a city (à Paris, à Tokyo), a specific address or spot (à la gare, à l\'école, au marché), or a moment in time treated as a fixed point (à midi, à trois heures). It doesn\'t carry any sense of physically being enclosed by something; it just marks where or when.',
-					'The same fusion covered in [French articles](/french-articles/) applies here without exception: à never sits directly next to le or les. À + le becomes au (au marché, never à le marché), and à + les becomes aux (aux Pays-Bas, never à les Pays-Bas). À la and à l\' don\'t contract with anything and stay as two separate words.',
+					'The same fusion covered in [French articles](/french-articles/) applies when le or les is a definite article: the preposition contracts with that article. À + le becomes au (au marché, never à le marché), and à + les becomes aux (aux Pays-Bas, never à les Pays-Bas). À la and à l\' don\'t contract with anything and stay as two separate words.',
 				],
 			},
 			{
@@ -4106,7 +4106,7 @@ export const guides: Guide[] = [
 				],
 				image: {
 					src: '/images/french-prepositions-diagram.svg',
-					alt: 'Diagram contrasting à (a point), dans (a container), and en in country and transport expressions with example sentences, chez with personal and personified business names, the three-way en/au/aux split for country names with the five masculine exceptions ending in -e, en versus dans with time spans, and depuis/pendant/pour as three unrelated ways to translate "for."',
+					alt: 'Diagram contrasting à (a point), dans (a container), and en in country and transport expressions with example sentences, chez with personal and personified business names, common en/au/aux country-name patterns, island-name exceptions with à, and examples of masculine names ending in -e, en versus dans with time spans, and depuis/pendant/pour as three unrelated ways to translate "for."',
 				},
 			},
 			{
@@ -4118,10 +4118,10 @@ export const guides: Guide[] = [
 				],
 			},
 			{
-				heading: 'Countries take three different prepositions, not one',
+				heading: 'Common country-name patterns, and exceptions',
 				body: [
-					'Country names don\'t take a single fixed preposition; the choice depends on the country\'s grammatical gender and number. En pairs with feminine country names, which is most of them, since most countries ending in -e are feminine: en France, en Chine, en Espagne. En also precedes vowel-initial masculine names, such as en Iran. Au pairs with consonant-initial masculine singular country names: au Japon, au Canada, au Brésil. Aux pairs with country names that are grammatically plural: aux États-Unis, aux Pays-Bas.',
-					'A small, fixed set of countries breaks the "-e ending means feminine" pattern and takes au instead of en despite ending in -e: le Mexique, le Cambodge, le Mozambique, le Zimbabwe, and le Belize are all masculine, so it\'s au Mexique and au Cambodge, not en Mexique or en Cambodge. These have to be memorized individually rather than derived from the spelling rule.',
+					'Gender, number, and the initial sound guide the common en, au, and aux patterns for country names. Some island names follow a separate convention, as in à Cuba and à Malte. En pairs with feminine country names, which is most of them, since most countries ending in -e are feminine: en France, en Chine, en Espagne. En also precedes vowel-initial masculine names, such as en Iran. Au pairs with consonant-initial masculine singular country names: au Japon, au Canada, au Brésil. Aux pairs with country names that are grammatically plural: aux États-Unis, aux Pays-Bas.',
+					'Some countries break the "-e ending means feminine" pattern and takes au instead of en despite ending in -e: le Mexique, le Cambodge, le Mozambique, le Zimbabwe, le Belize, and le Suriname are all masculine, so it\'s au Mexique and au Cambodge, not en Mexique or en Cambodge. These have to be memorized individually rather than derived from the spelling rule.',
 					'For ordinary city names without an article, use à; a city name containing le or les can require the usual contraction. À Paris and à Tokyo follow the same pattern no matter what the city\'s name looks like.',
 				],
 			},
@@ -4137,7 +4137,7 @@ export const guides: Guide[] = [
 		faq: [
 			{
 				question: 'Why does "in France" use en but "in Japan" use au?',
-				answer: 'French picks the country preposition by whether the country name is grammatically masculine, feminine, or plural, not by geography. France takes en as a feminine name; le Japon takes au because it is masculine and begins with a consonant. Masculine names beginning in a vowel also use en, as in en Iran. Plural-name countries like the United States take aux (aux États-Unis). A handful of countries, including le Mexique and le Cambodge, end in -e but are masculine anyway and take au despite the usual expectation that an -e ending signals a feminine noun.',
+				answer: 'The name’s grammatical gender, singular or plural form, and opening sound guide the usual choice of en, au, or aux. Island names have exceptions: Cuba and Malte take à. France takes en as a feminine name; le Japon takes au because it is masculine and begins with a consonant. Masculine names beginning in a vowel also use en, as in en Iran. Plural-name countries like the United States take aux (aux États-Unis). A handful of countries, including le Mexique and le Cambodge, end in -e but are masculine anyway and take au despite the usual expectation that an -e ending signals a feminine noun.',
 			},
 			{
 				question: 'What\'s the real difference between à and dans?',
@@ -5292,7 +5292,7 @@ export const guides: Guide[] = [
 		description: "Spanish -ando and -iendo look like English -ing, but the gerund can't be a subject or object in Spanish, and the RAE flags two other common uses as outright wrong.",
 		published: '2026-08-24',
 		updated: '2026-10-12',
-		coreSummary: "Spanish forms the gerund by adding -ando to -ar verbs (hablando) and -iendo to -er/-ir verbs (comiendo, viviendo), with two irregular families: stem-changing -ir verbs shift e→i or o→u (pidiendo, durmiendo), a vowel alternation also found in the corresponding third-person preterite forms, and verbs whose stem ends in a vowel insert a y instead (leyendo, oyendo, construyendo) reflecting the intervocalic change from unstressed i to y. Unlike English \"-ing,\" the gerund is purely verbal in Spanish, never a noun: \"swimming is fun\" is nadar es divertido, with the infinitive, not nadando. The Real Academia Española also singles out two specific patterns as incorrect despite their real-world use, the gerundio de posterioridad (stating an unrelated later action) and the gerundio especificativo (using the gerund to modify a noun the way an adjective clause does).",
+		coreSummary: "Spanish forms the gerund by adding -ando to -ar verbs (hablando) and -iendo to -er/-ir verbs (comiendo, viviendo), with two common irregular patterns: stem-changing -ir verbs shift e→i or o→u (pidiendo, durmiendo), a vowel alternation also found in the corresponding third-person preterite forms, and verbs whose stem ends in a vowel insert a y instead (leyendo, oyendo, construyendo) reflecting the intervocalic change from unstressed i to y. Unlike English \"-ing,\" the gerund normally has a verbal role in Spanish and does not supply an English-style action noun: \"swimming is fun\" is nadar es divertido, with the infinitive, not nadando. Some forms have lexicalized as adjectives, such as hirviendo in agua hirviendo. The Real Academia Española also singles out two specific patterns as incorrect despite their real-world use, the gerundio de posterioridad (stating an unrelated later action) and the gerundio especificativo (using the gerund to modify a noun the way an adjective clause does).",
 		language: 'Spanish',
 		sections: [
 			{
@@ -5341,7 +5341,7 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'What are some examples of the Spanish gerund?',
-				answer: 'The regular forms are the easiest starting point: hablando (speaking), comiendo (eating), viviendo (living), estudiando (studying), escribiendo (writing). Then come the irregulars. -Ir verbs that change their stem, like pidiendo (asking), durmiendo (sleeping), and diciendo (saying), shift a vowel, and verbs with a vowel before the ending switch to -yendo: leyendo (reading), oyendo (hearing), construyendo (building), and yendo (going).',
+				answer: 'The regular forms are the easiest starting point: hablando (speaking), comiendo (eating), viviendo (living), estudiando (studying), escribiendo (writing). Then come the irregulars. -Ir verbs that change their stem, like pidiendo (asking), durmiendo (sleeping), and diciendo (saying), shift a vowel, and verbs with a vowel before the ending switch to -yendo: leyendo (reading), oyendo (hearing), and construyendo (building). For “going,” learn the exceptional form yendo, from ir.',
 			},
 			{
 				question: 'What is the difference between a participio and a gerundio in Spanish?',
@@ -5353,11 +5353,11 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'What are the irregular Spanish gerunds?',
-				answer: 'They fall into two families. -Ir verbs with a stem change (plus poder) swap e→i or o→u: pidiendo, sintiendo, diciendo, viniendo, durmiendo, muriendo, pudiendo — compare the [-ir past-tense forms for él and ellos](/irregular-preterite-verbs-spanish/). Poder is the exception to that comparison: pudiendo has u, but the preterite stem is pud-. Verbs with a vowel-final stem take -yendo instead of -iendo: construyendo, cayendo, trayendo, oyendo, leyendo and huyendo. The exceptional yendo belongs to ir and is learned separately.',
+				answer: 'Two common patterns cover many irregular forms. -Ir verbs with a stem change (plus poder) swap e→i or o→u: pidiendo, sintiendo, diciendo, viniendo, durmiendo, muriendo, pudiendo — compare the [-ir past-tense forms for él and ellos](/irregular-preterite-verbs-spanish/). Poder is the exception to that comparison: pudiendo has u, but the preterite stem is pud-. Verbs with a vowel-final stem take -yendo instead of -iendo: construyendo, cayendo, trayendo, oyendo, leyendo and huyendo. The exceptional yendo belongs to ir and is learned separately.',
 			},
 			{
 				question: 'Can you use the Spanish gerund as a noun, the way English uses "-ing," as in "swimming is fun"?',
-				answer: "No. The Spanish gerund stays locked into verb duty and can't fill a subject, object, or prepositional-object slot the way an English -ing noun can. Spanish reaches for the infinitive in those spots instead: nadar es divertido for \"swimming is fun,\" me encanta leer for \"I love reading,\" never a bare gerund standing in as a noun.",
+				answer: "No. In ordinary use, the Spanish gerund cannot fill a subject, object, or prepositional-object slot the way an English -ing noun can. Spanish reaches for the infinitive in those spots instead: nadar es divertido for \\\\\\\"swimming is fun,\\\\\\\" me encanta leer for \\\\\\\"I love reading,\\\\\\\" never a bare gerund standing in as a noun. The adjective in agua hirviendo (“boiling water”) is a lexicalized exception to the usual verbal role, not a way to use a gerund as an action noun.",
 			},
 			{
 				question: 'What is "gerundio de posterioridad" and why is it considered wrong?',

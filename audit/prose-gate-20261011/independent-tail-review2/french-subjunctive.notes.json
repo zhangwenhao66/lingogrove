@@ -1,0 +1,22 @@
+[
+  {
+    "index": 1,
+    "sentence": "That split, mood tracking stance and not tense, runs through the subjunctive of other Romance languages too, including [Spanish](/subjunctive-spanish/), where the same asserted-versus-wanted contrast shows up under its own set of triggering verbs.",
+    "target_slug": "subjunctive-spanish",
+    "verdict": "CONFIRMED",
+    "note": "Full target body and ALL FAQ actually read: Creo que tiene/Espero que tenga explicitly contrasts asserted belief and hoped-for content without changing time; bridge stays within this example, not a universal rule.",
+    "target_quote": "'Compare *Creo que tiene razón* (\"I think he\\'s right,\" indicative: you\\'re asserting the belief as your own claim) with *Espero que tenga razón* (\"I hope he\\'s right,\" subjunctive: the same content, now framed as hoped-for rather than asserted). Nothing about time moved between those two sentences; both are about right now. What changed is the speaker\\'s stance toward the content of the *que*-clause. The Real Academia Española\\'s own glossary entry puts it in almost exactly those terms: the subjunctive mood shows up constantly in contexts that are *no reales, no verificados o no experimentados*: unreal, unverified, or not (yet) experienced. The same entry also gives Me alegro de que estés aquí: the speaker can know you are here and use the subjunctive to evaluate that fact.',",
+    "source_sha256": "e7c7a588cb36ae287f6316e809d45d447744fed3f6501590d54c168e1b957aa8",
+    "target_sha256": "2e9c9a7816ede2b2b2c956887e1b09d08104a84ad55f8d28916d0e7fbabd38e3"
+  },
+  {
+    "index": 2,
+    "sentence": "These same forms resurface elsewhere in French grammar: [the imperative](/french-imperative/) of avoir, être, savoir, and vouloir includes forms based on subjunctive stems (aie, sois, sache, veuille).",
+    "target_slug": "french-imperative",
+    "verdict": "CONFIRMED",
+    "note": "Target specifies aie/sois/sache/veuille and dedicated plurals, supporting limited forms-includes assertion. Complete body and ALL FAQ actually read this round; scoped comparison manually checked.",
+    "target_quote": "'Avoir, être, savoir, and vouloir don\\'t follow either of the patterns above. Per the OQLF, their tu-form imperative is borrowed from the present subjunctive or from one of its older forms: aie (not \"as\"), sois (not \"es\"), sache (not \"sais\"), veuille (not \"veux\"). Aie confiance en toi and Sache que je serai toujours là pour toi both use these borrowed forms rather than anything an indicative conjugation table would produce.',",
+    "source_sha256": "e7c7a588cb36ae287f6316e809d45d447744fed3f6501590d54c168e1b957aa8",
+    "target_sha256": "0e1b9b2eff689cfd2bc9d36c2f8d1f376f419337d611fc17a26c0ad52bd0e9cf"
+  }
+]
