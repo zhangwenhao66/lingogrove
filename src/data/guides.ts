@@ -3574,7 +3574,7 @@ export const guides: Guide[] = [
 		description: 'English uses "what" for both qué and cuál, so learners naturally reach for qué asking a name or an email address, the one spot Spanish actually wants cuál instead.',
 		published: '2026-08-17',
 		updated: '2026-08-17',
-		coreSummary: 'Spanish groups nine interrogative words, qué, cuál, quién, cómo, cuán, cuánto, cuándo, dónde, and adónde, under one accent rule: per the RAE, they keep their written tilde even inside an indirect question like no sé dónde vive, because the accent marks the word\'s grammatical role, not its punctuation. The split that actually trips up English speakers isn\'t the accent, though; it\'s qué versus cuál. Both translate as "what," but Qué asks for definitions and commonly precedes a noun (¿qué libro quieres?); cuál can also precede a noun, especially in the Americas. Cuál is used for picking one item out of an implied set, which covers a name, a phone number, or an email address (¿cuál es tu correo electrónico?, never ¿qué es tu correo electrónico?). That\'s the opposite of how English maps "what" onto both situations.',
+		coreSummary: 'Spanish groups nine interrogative words, qué, cuál, quién, cómo, cuán, cuánto, cuándo, dónde, and adónde, under one accent rule: per the RAE, they keep their written tilde even inside an indirect question like no sé dónde vive, because the accent marks the word\'s grammatical role, not its punctuation. The split that actually trips up English speakers isn\'t the accent, though; it\'s qué versus cuál. Both translate as "what." Qué asks for definitions and commonly precedes a noun (¿qué libro quieres?); cuál can also precede a noun, especially in the Americas. Cuál is used for picking one item out of an implied set, which covers a name, a phone number, or an email address (¿cuál es tu correo electrónico?, never ¿qué es tu correo electrónico?). That\'s the opposite of how English maps "what" onto both situations.',
 		language: 'Spanish',
 		sections: [
 			{
@@ -3639,7 +3639,7 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'Does "cuánto" change form depending on what\'s being asked about?',
-				answer: 'Yes. Unlike the rest of the list, cuánto also tracks the noun\'s gender, not just its number, so the word itself changes shape: dinero takes cuánto, agua takes cuánta, hermanos takes cuántos, and personas takes cuántas. Quién and cuál pluralize too, shifting to quiénes for who and cuáles for which, yet that change is strictly about number; gender never enters the picture for those two, cuál has an accepted determiner use before nouns in many American varieties; quién lacks that use.',
+				answer: 'Yes. Unlike the rest of the list, cuánto also tracks the noun\'s gender, not just its number, so the word itself changes shape: dinero takes cuánto, agua takes cuánta, hermanos takes cuántos, and personas takes cuántas. Quién and cuál pluralize too, shifting to quiénes for who and cuáles for which, yet that change is strictly about number; gender never enters the picture for those two. American usage often places cuál directly ahead of the thing being selected. Quién lacks that noun-modifying role.',
 			},
 		],
 		sources: [
