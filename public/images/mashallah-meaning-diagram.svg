@@ -38,8 +38,8 @@
 
 	<rect x="24" y="340" width="752" height="96" rx="10" fill="#fffefa" stroke="#ddd8c4"/>
 	<g font-size="14" fill="#201f1a">
-		<text x="48" y="368" font-weight="700">Same three-letter root as inshallah, opposite direction in time</text>
+		<text x="48" y="368" font-weight="700">Same past-tense verb as inshallah, different opening words</text>
 		<text x="48" y="392" fill="#5a5648">Mashallah's shāʾa is past tense: said about something that already exists or just happened.</text>
-		<text x="48" y="412" fill="#5a5648">Inshallah looks forward to something hoped for. Same root (sh-y-ʾ, "to will"), different tense.</text>
+		<text x="48" y="412" fill="#5a5648">Inshallah uses in ("if") for a hoped-for outcome; mashallah begins with mā ("what").</text>
 	</g>
 </svg>

@@ -39,14 +39,14 @@
 	<text x="66" y="440" fill="#5a5648" font-size="10">standard in northern Germany</text>
 	<text x="66" y="455" fill="#5a5648" font-size="10">(south/Austria/Switzerland use sein)</text>
 
-	<text x="66" y="483" fill="#5a5648" font-size="10">Motion with NO stated destination:</text>
+	<text x="66" y="483" fill="#5a5648" font-size="10">Swimming activity (haben possible):</text>
 	<text x="66" y="497" fill="#2f6b47" font-size="11" font-weight="700">ich habe geschwommen</text>
 
 	<text x="429" y="286" fill="#201f1a" font-size="11">sein, bleiben, werden</text>
 	<text x="429" y="301" fill="#201f1a" font-size="11">themselves, always sein</text>
 
-	<text x="429" y="326" fill="#201f1a" font-size="11">Motion WITH a stated</text>
-	<text x="429" y="341" fill="#201f1a" font-size="11">destination/direction:</text>
+	<text x="429" y="326" fill="#201f1a" font-size="11">Motion verbs commonly use sein;</text>
+	<text x="429" y="341" fill="#201f1a" font-size="11">a destination supports this:</text>
 	<text x="429" y="360" fill="#8a4b1f" font-size="12" font-weight="700">ich bin gegangen</text>
 	<text x="429" y="377" fill="#8a4b1f" font-size="12" font-weight="700">ich bin ans Ufer geschwommen</text>
 
@@ -65,7 +65,7 @@
 	<text x="66" y="574" fill="#201f1a" font-size="12" font-weight="700">Regular (weak):</text>
 	<text x="66" y="593" fill="#5a5648" font-size="11">ge- + stem + -t</text>
 	<text x="66" y="612" fill="#2f6b47" font-size="12">machen &#8594; gemacht</text>
-	<text x="66" y="630" fill="#5a5648" font-size="10">stem ends -d/-t/-m/-n: +et</text>
+	<text x="66" y="630" fill="#5a5648" font-size="10">some -d/-t/-m/-n stems: +et</text>
 	<text x="66" y="646" fill="#2f6b47" font-size="12">arbeiten &#8594; gearbeitet</text>
 
 	<text x="292" y="574" fill="#201f1a" font-size="12" font-weight="700">Irregular (strong):</text>
@@ -83,12 +83,12 @@
 
 	<!-- row 4: Perfekt vs Präteritum -->
 	<rect x="46" y="694" width="708" height="164" rx="8" fill="#eaf1ea" stroke="#2f6b47"/>
-	<text x="400" y="718" text-anchor="middle" fill="#204a31" font-size="12" font-weight="700">PERFEKT VS. PR&#196;TERITUM: A REGISTER SPLIT, NOT A MEANING SPLIT</text>
+	<text x="400" y="718" text-anchor="middle" fill="#204a31" font-size="12" font-weight="700">PERFEKT VS. PR&#196;TERITUM: REGISTER AND MEANING</text>
 
-	<text x="66" y="746" fill="#201f1a" font-size="11" font-weight="700">Spoken German (nearly every verb):</text>
+	<text x="66" y="746" fill="#201f1a" font-size="11" font-weight="700">Spoken German (common default):</text>
 	<text x="66" y="765" fill="#2f6b47" font-size="13" font-weight="700">Perfekt</text>
-	<text x="66" y="783" fill="#5a5648" font-size="10">Pr&#228;teritum sounds overly formal</text>
-	<text x="66" y="798" fill="#5a5648" font-size="10">or regionally odd in conversation</text>
+	<text x="66" y="783" fill="#5a5648" font-size="10">Usage also depends on region</text>
+	<text x="66" y="798" fill="#5a5648" font-size="10">and the particular verb</text>
 
 	<text x="292" y="746" fill="#201f1a" font-size="11" font-weight="700">Written narrative (standard):</text>
 	<text x="292" y="765" fill="#2f6b47" font-size="13" font-weight="700">Pr&#228;teritum</text>
@@ -98,8 +98,8 @@
 	<text x="530" y="746" fill="#201f1a" font-size="11" font-weight="700">Exception, even in speech:</text>
 	<text x="530" y="765" fill="#8a4b1f" font-size="12" font-weight="700">war, hatte, wollte,</text>
 	<text x="530" y="783" fill="#8a4b1f" font-size="12" font-weight="700">musste, konnte...</text>
-	<text x="530" y="801" fill="#5a5648" font-size="10">sein, haben, modal verbs stay</text>
-	<text x="530" y="815" fill="#5a5648" font-size="10">in Pr&#228;teritum even when spoken</text>
+	<text x="530" y="801" fill="#5a5648" font-size="10">sein, haben, modal verbs often</text>
+	<text x="530" y="815" fill="#5a5648" font-size="10">use Pr&#228;teritum in speech</text>
 
 	<text x="400" y="838" text-anchor="middle" fill="#5a5648" font-size="10">Source: Duden Sprachwissen ("Perfekt vs. Pr&#228;teritum") + Leibniz-Institut f&#252;r Deutsche Sprache (IDS Mannheim), Grammis</text>
 </svg>
