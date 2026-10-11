@@ -1273,6 +1273,14 @@ export const guides: Guide[] = [
 				question: 'Do reflexive pronouns follow the same position rules as object pronouns?',
 				answer: 'Yes. Word order follows the same pattern as object pronouns: right ahead of a conjugated verb, as in *Me levanto*; joins onto commands, infinitives, and gerunds instead, as in *Levántate* or *duchándome*; and shifts back in front of the verb for negative commands, as in *No te levantes*. This pronoun set overlaps with object pronouns almost everywhere, with a single exception: its third-person form never changes for gender or number and stays "se" no matter what, unlike the lo/la versus le split that object pronouns make.',
 			},
+			{
+				question: 'What are 10 reflexive verbs in Spanish?',
+				answer: 'A daily-routine set covers the common ones: levantarse (getting up), ducharse (showering), lavarse (washing), vestirse (getting dressed), peinarse (combing your hair), afeitarse (shaving), acostarse (going to bed), maquillarse (putting on makeup), sentarse (sitting down), and despertarse (waking up). Each one turns the action back on the person performing it, and that is what makes the pronoun reflexive rather than the meaning-shifting kind found in dormirse or irse.',
+			},
+			{
+				question: 'Can you explain reflexive verbs in Spanish?',
+				answer: 'A reflexive verb uses a pronoun that points back at whoever performs the action, so the doer and the receiver are the same: me lavo is "I wash myself." The pronoun usually comes right in front of a conjugated verb, or attaches to an infinitive, gerund, or command. Plenty of verbs carry those same pronouns but lose the self-referring sense entirely, and the RAE calls those pronominal rather than reflexive.',
+			},
 		],
 		sources: [
 			{ label: 'Real Academia Española: Glosario de términos gramaticales, "verbo pronominal"', url: 'https://www.rae.es/gtg/verbo-pronominal' },
@@ -1733,6 +1741,18 @@ export const guides: Guide[] = [
 			{
 				question: 'Do Spanish possessive pronouns agree with the owner or the thing owned?',
 				answer: 'The thing owned, always. Suyo, for example, does the work of his, her, your (formal), and their all with one unvarying shape, since it tracks the possessed noun\'s gender and number rather than who owns it. That flattening is exactly what makes suyo alone so easy to misread, so speakers routinely tack on de él, de ella, or de usted to pin down whose it actually is.',
+			},
+			{
+				question: 'Do I say "yo soy" or "soy"?',
+				answer: '"Soy" on its own is the normal choice, because the verb ending already tells the listener who\'s speaking. Adding "yo" isn\'t wrong; it signals emphasis, the way English stresses a word, so "Yo soy" usually means "I\'m the one who is" rather than a plain statement of fact. Spanish drops subject pronouns by default and brings them back only when the emphasis matters.',
+			},
+			{
+				question: 'What are the 12 Spanish pronouns?',
+				answer: 'The twelve are the pronouns that act as sentence subjects: yo, tú, usted, él, ella, nosotros, nosotras, vosotros, vosotras, ustedes, ellos, and ellas. Several are one pronoun with a gender or formality split. Tú and usted are both "you," and the plural forms add feminine versions (nosotras, vosotras, ellas) alongside the masculine ones. Regional Spanish swaps in vos for tú across much of Latin America, which adds a thirteenth form in those places.',
+			},
+			{
+				question: 'Is "tú y yo" nosotros or ustedes?',
+				answer: 'Nosotros. "Tú y yo" means "you and I," which is first person plural, and that\'s exactly what nosotros (or nosotras) is for. Ustedes is second person plural, "you all," and it doesn\'t include the speaker, so it can\'t cover a group that contains "I." Think of it this way: yo plus anyone else, and the "we" pronoun takes over.',
 			},
 		],
 		sources: [
@@ -2888,6 +2908,10 @@ export const guides: Guide[] = [
 				question: 'What does "yalla habibi" mean?',
 				answer: 'Yalla is a separate Arabic word, not part of habibi itself. Per Wiktionary, it is a colloquial contraction of يا الله (yā allāh, literally "oh, God") that has lost its religious sense in everyday speech and now functions as an interjection meaning "come on" or "let\'s go, hurry up." Paired with habibi, "yalla habibi" is a common way to hurry someone along affectionately, roughly "come on, dear," not a single fixed phrase with a meaning of its own.',
 			},
+			{
+				question: 'Why do Muslims say habibi?',
+				answer: 'Habibi is Arabic, not religious, so it isn\'t tied to Islam. Arabic speakers of every faith use it, because the word is simply Arabic for "my beloved" and comes from the language rather than any scripture. The association with Muslims comes from Arabic being the most widely recognized language the word appears in, not from the word itself carrying a religious meaning.',
+			},
 		],
 		sources: [
 			{ label: 'Wiktionary: "حبيب" (habib)', url: 'https://en.wiktionary.org/wiki/%D8%AD%D8%A8%D9%8A%D8%A8' },
@@ -2973,6 +2997,10 @@ export const guides: Guide[] = [
 			{
 				question: 'How do you conjugate ser, and does it follow the pattern above?',
 				answer: 'No, ser ignores the hablar pattern almost entirely. It\'s a suppletive verb, meaning its paradigm was assembled from two separate Latin verbs rather than descending from one, so none of its forms come from removing a normal verb ending off one infinitive. The present runs soy, eres, es, somos, sois, son, and the preterite (fui, fuiste, fue, fuimos, fuisteis, fueron) happens to be identical to the preterite of ir, with only context telling the two verbs apart. The ser conjugation page tabulates all nineteen paradigm blocks, counting the eight haber compounds and the voseo form vos sos, transcribed from the RAE conjugation table.',
+			},
+			{
+				question: 'What are the 20 most used verbs in Spanish?',
+				answer: 'There\'s no single official ranking, since it shifts a little depending on whether you count spoken or written Spanish, but a small set tops nearly every frequency list: ser, estar, ir, tener, haber, hacer, poder, decir, querer, saber, ver, dar, creer, deber, pasar, dejar, hablar, venir, esperar, and pensar. The top handful alone carry an outsized share of everyday speech, and ser and estar usually land first.',
 			},
 		],
 		sources: [
@@ -4784,6 +4812,14 @@ export const guides: Guide[] = [
 				question: 'What does it mean for a verb to be "defective" rather than irregular?',
 				answer: 'A defective verb doesn\'t change its forms unpredictably; it\'s simply missing some of them. Take llover and nevar: both weather verbs, and both stuck with only a third-person form to their name, since nothing besides an impersonal "it" is available in "it rains" for the verb to agree with. Soler only shows up in two indicative tenses, the present and the imperfect, with nothing at all in the future, preterite, or conditional.',
 			},
+			{
+				question: 'What are the 10 most important irregular verbs in Spanish?',
+				answer: 'The ones you can\'t avoid, because they\'re also the most frequent: ser, estar, ir, haber, tener, hacer, poder, decir, querer, and saber. All ten are irregular, and between them they carry a large share of everyday speech, which is why they\'re worth learning early. Verbs people use constantly tend to resist regularizing across languages, so the most-used verbs are usually the most irregular ones.',
+			},
+			{
+				question: 'What are the 12 irregular verbs in the Spanish future tense?',
+				answer: 'Twelve verbs swap in a shortened stem for the future (and the conditional, which uses the same stems): caber → cabr-, decir → dir-, haber → habr-, hacer → har-, poder → podr-, poner → pondr-, querer → querr-, saber → sabr-, salir → saldr-, tener → tendr-, valer → valdr-, and venir → vendr-. The endings stay regular, so only the stem changes: tener becomes tendré, poner becomes pondré. No other verb is stem-changing in the future.',
+			},
 		],
 		sources: [
 			{ label: 'Real Academia Española, Nueva gramática básica: "Los verbos irregulares" (overview of the four-category classification plus defective verbs)', url: 'https://www.rae.es/gram%C3%A1tica-b%C3%A1sica/la-flexi%C3%B3n-verbal/los-verbos-irregulares' },
@@ -5250,6 +5286,18 @@ export const guides: Guide[] = [
 		],
 		faq: [
 			{
+				question: 'How do you identify a gerund in Spanish?',
+				answer: 'Look at the ending. A Spanish gerund always ends in -ando (for -ar verbs) or -iendo (for -er and -ir verbs): hablando, comiendo, viviendo. A handful of verbs spell it -yendo instead, like leyendo or construyendo, when a verb\'s stem finishes in a vowel. If a word carries one of those endings and it names an action in progress, it\'s a gerund.',
+			},
+			{
+				question: 'What are some examples of the Spanish gerund?',
+				answer: 'The regular forms are the easiest starting point: hablando (speaking), comiendo (eating), viviendo (living), estudiando (studying), escribiendo (writing). Then come the irregulars. -Ir verbs that change their stem, like pidiendo (asking), durmiendo (sleeping), and diciendo (saying), shift a vowel, and verbs with a vowel before the ending switch to -yendo: leyendo (reading), oyendo (hearing), construyendo (building), and yendo (going).',
+			},
+			{
+				question: 'What is the difference between a participio and a gerundio in Spanish?',
+				answer: 'They\'re two different non-finite forms with two different jobs. The gerundio (-ando/-iendo) describes an action in progress and pairs with estar for progressive tenses: estoy comiendo, "I\'m eating." The participio, the past participle (-ado/-ido), pairs with haber to build compound tenses (he comido, "I have eaten") and also works as an adjective (la puerta cerrada, "the closed door"). One is about doing, the other about done.',
+			},
+			{
 				question: 'How do you form the gerund in Spanish?',
 				answer: 'It comes down to which conjugation a verb belongs to: -ar verbs pick up -ando (cantar turns into cantando), while both -er and -ir verbs take -iendo instead (beber turns into bebiendo, escribir into escribiendo). -Ir verbs that change their stem swap the vowel first, e→i (pedir → pidiendo) or o→u (dormir → durmiendo), and verbs with a vowel right before that ending swap in a y for the plain i (leer → leyendo, oír → oyendo, construir → construyendo) so the spelling never stacks two vowels together.',
 			},
@@ -5493,6 +5541,14 @@ export const guides: Guide[] = [
 			},
 		],
 		faq: [
+			{
+				question: 'How do you know when to use the infinitive in Spanish?',
+				answer: 'Three situations cover most of it. When a verb follows a preposition, it stays in the infinitive: antes de salir, sin decir nada. After a conjugated verb in a periphrasis like ir a, tener que, or deber, the second verb is an infinitive: voy a hablar, tengo que ir. And whenever a verb fills a noun\'s slot, as the subject or object of a sentence, Spanish uses the infinitive where English would use "-ing": leer es divertido, "reading is fun."',
+			},
+			{
+				question: 'What are some Spanish infinitive verbs?',
+				answer: 'Every Spanish verb has an infinitive, and it always ends in -ar, -er, or -ir. Common examples: hablar (to speak), trabajar (to work), comer (to eat), beber (to drink), vivir (to live), escribir (to write). Those three endings also mark out the three verb groups, so knowing which one a verb takes tells you how it conjugates.',
+			},
 			{
 				question: 'Why does "Fumar es malo para la salud" translate as "Smoking is bad for your health" rather than "To smoke is bad for your health"?',
 				answer: 'Both English translations are grammatical, but native English ears tend to favor "smoking," and either way the underlying Spanish grammar stays the same regardless of which English gloss is picked. Spanish hands the noun-like spot to the infinitive alone, since the gerund is shut out of that job entirely. English speakers translating from Spanish don\'t need to worry about which "-ing"-equivalent to reach for; there\'s only ever one option on the Spanish side.',
@@ -5994,6 +6050,14 @@ export const guides: Guide[] = [
 			{
 				question: 'Is "say sayonara to something" a real English phrase, or just slang?',
 				answer: 'It\'s recognized as a genuine verb usage: the OED carries a separate entry for sayonara as a verb, first recorded in 1883. In modern use, someone might say they\'re ready to sayonara an old habit or a bad job, in the sense of dropping it for good, a usage Japanese has no version of, since there the word stays an interjection and is never pressed into service as a verb.',
+			},
+			{
+				question: 'Is sayonara Spanish or Japanese?',
+				answer: 'Japanese, with no Spanish connection at all. It comes from the Japanese phrase sayō naraba, meaning something like "if it must be so," and it entered English through nineteenth-century writing about Japan. Any resemblance to Spanish-sounding words is coincidental; the two languages aren\'t related and the word has no Spanish root.',
+			},
+			{
+				question: 'What is another word for "sayonara"?',
+				answer: 'In Japanese, the everyday stand-ins are mata ne, literally "again," and ja ne, which works like "see ya." In English, the plain equivalents are "goodbye" and "farewell," since English borrowed sayonara as a general farewell and dropped the sense of finality the Japanese word still carries.',
 			},
 		],
 		sources: [

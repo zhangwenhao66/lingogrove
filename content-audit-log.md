@@ -2031,4 +2031,47 @@
   "fairness": "无新增不推进最后实际处理日期；既有日志日期保留",
   "evidence": "/Users/zhangwh/.codex/automation-runtime/runs/paa-faq-gap-fill/20261010T1100/traffic-b-final.json"
 }
+
+```
+
+```json
+{
+  "type": "PAA-FAQ批强(daily-task, 2026-10-11)",
+  "site": "lingogrove",
+  "run_id": "20261011T2041",
+  "suppression_exception": "整站算法压制期放开（Owen 2026-09-24 批准），本次≤8页，只新增 FAQ，不动其他任何内容",
+  "slugs_processed": [
+    "spanish-pronouns",
+    "spanish-reflexive-verbs",
+    "habibi-meaning",
+    "spanish-gerund",
+    "irregular-spanish-verbs",
+    "spanish-verb-tenses-chart",
+    "spanish-infinitive",
+    "sayonara-meaning"
+  ],
+  "faq_added": 14,
+  "per_slug": {
+    "spanish-pronouns": 3,
+    "spanish-reflexive-verbs": 2,
+    "habibi-meaning": 1,
+    "spanish-gerund": 3,
+    "irregular-spanish-verbs": 2,
+    "spanish-verb-tenses-chart": 1,
+    "spanish-infinitive": 2,
+    "sayonara-meaning": 2
+  },
+  "rejections_registered": 12,
+  "rejection_notes": "100/500/50 词清单类无法可靠穷举；Super 7 与 hardest verb 属主题错配或主观；habibi 两条与既有 FAQ 重复；gerund 'three rules' 问法含糊；sayonara 一条与既有 FAQ 重复。写入 research-db/paa_rejections.json（90 天冷却）",
+  "sources_verified": [
+    "西语未来时 12 个不规则词干（caber/decir/haber/hacer/poder/poner/querer/saber/salir/tener/valer/venir）— WebSearch 2026-10-11（SpanishDict/Access 等）",
+    "12 个主格代词、tú y yo = nosotros、yo/soy 省略规则 — 页面既有 RAE 引用与语法事实",
+    "20 个最高频动词为语料库口径、排序随语料库略变 — WebSearch 2026-10-11（CREA/Davies）",
+    "sayonara 源自日语 sayō naraba、非西班牙语 — 页面既有 OED/Etymonline 引用"
+  ],
+  "mechanical": "check_prose_patterns.py 每条新增后与 commit 前逐 slug 运行；8 个 slug 全部退出码 0。首轮 L-0819-9 报出 FAQ 与正文 ≥20 字重合，逐条核对均落在本次新增条目上（边界①），改写至清零；无边界②存量债务",
+  "writing_chain": "Skill(humanizer) -> Skill(avoid-ai-writing) 真实调用后按规则过新增 FAQ；语法示例/术语保真；新增文本无 em/en dash",
+  "scope": "只新增 FAQ；正文 / title / description / sources / 其他 FAQ / conjugation / updated / published 原样保留",
+  "build": "npm run build 通过（89 页，0.7s）"
+}
 ```
