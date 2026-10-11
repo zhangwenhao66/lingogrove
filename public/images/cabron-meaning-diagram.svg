@@ -1,14 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 480" font-family="Georgia, 'Times New Roman', serif">
 	<rect width="900" height="480" fill="#f5f1e6"/>
 
-	<text x="450" y="38" text-anchor="middle" font-size="21" fill="#2b2420" font-weight="bold">Cabra + -ón: "big goat" becomes nine different things</text>
+	<text x="450" y="38" text-anchor="middle" font-size="21" fill="#2b2420" font-weight="bold">RAE: augmentative of cabro; nine senses</text>
 
 	<rect x="30" y="60" width="400" height="390" rx="10" fill="#fffdf8" stroke="#c9bfa0"/>
 	<rect x="470" y="60" width="400" height="390" rx="10" fill="#fffdf8" stroke="#c9bfa0"/>
 
 	<rect x="30" y="60" width="400" height="46" rx="10" fill="#5c3a2a"/>
 	<rect x="30" y="88" width="400" height="18" fill="#5c3a2a"/>
-	<text x="230" y="90" text-anchor="middle" fill="#ffffff" font-size="16.5" font-weight="700">RAE'S 9 SENSES: "GOAT" RANKS 6TH</text>
+	<text x="230" y="90" text-anchor="middle" fill="#ffffff" font-size="16.5" font-weight="700">RAE'S 9 SENSES: "GOAT" IS 6TH</text>
 
 	<rect x="470" y="60" width="400" height="46" rx="10" fill="#3a4a2a"/>
 	<rect x="470" y="88" width="400" height="18" fill="#3a4a2a"/>
@@ -32,7 +32,7 @@
 	</g>
 
 	<line x1="50" y1="356" x2="410" y2="356" stroke="#c9bfa0"/>
-	<text x="50" y="378" fill="#5a5240" font-size="12">Five vulgar/colloquial senses outrank the</text>
+	<text x="50" y="378" fill="#5a5240" font-size="12">Five vulgar/colloquial senses precede the</text>
 	<text x="50" y="396" fill="#5a5240" font-size="12">literal goat before RAE ever reaches it.</text>
 	<text x="50" y="418" fill="#5a5240" font-size="11.5" font-style="italic">RAE, dle.rae.es</text>
 
