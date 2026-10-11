@@ -408,11 +408,11 @@ export const guides: Guide[] = [
 	{
 		slug: 'schadenfreude-meaning',
 		category: 'Loanwords',
-		title: 'Schadenfreude Meaning: The German Word English Never Had',
+		title: 'Schadenfreude Meaning: Pleasure at Someone Else\'s Misfortune',
 		description: 'Schadenfreude names the pleasure of watching someone else\'s misfortune. German built the word from two plain nouns; English just borrowed it.',
 		published: '2026-08-03',
-		updated: '2026-10-11',
-		coreSummary: 'Schadenfreude is a German compound noun (Schaden, "harm, damage," plus Freude, "joy") meaning pleasure taken in someone else\'s misfortune. Duden, the standard German dictionary, defines it as "boshafte Freude über das Missgeschick, Unglück eines andern" ("malicious joy at another\'s mishap or misfortune"), while the corpus-based dictionary DWDS gives a more neutral phrasing without the "malicious" qualifier. English adopted the German word directly rather than translate it, largely because no English word in common use named that exact feeling.',
+		updated: '2026-10-12',
+		coreSummary: 'Schadenfreude is a German compound noun (Schaden, "harm, damage," plus Freude, "joy") meaning pleasure taken in someone else\'s misfortune. Duden, the standard German dictionary, defines it as "boshafte Freude über das Missgeschick, Unglück eines andern" ("malicious joy at another\'s mishap or misfortune"), while the corpus-based dictionary DWDS gives a more neutral phrasing without the "malicious" qualifier. English uses the German borrowing. Definitions of related English words do not, by themselves, establish why it was borrowed.',
 		language: 'German',
 		usageNote: {
 			register: 'neutral',
@@ -423,13 +423,13 @@ export const guides: Guide[] = [
 				heading: 'A compound word English never got around to building',
 				body: [
 					'German builds new words by fusing existing ones together, and *Schadenfreude* is one of the clearest examples: *Schaden* means "harm" or "damage," *Freude* means "joy," and stacking them gives you, transparently, "harm-joy." Duden, the standard reference dictionary for German, defines it as "boshafte Freude über das Missgeschick, Unglück eines andern": malicious joy at another person\'s mishap or misfortune.',
-					'English could have built the same compound out of its own materials ("harm-joy" isn\'t an unreasonable calque). It came close once, in fact: an obscure eighteenth-century coinage named the same feeling but never caught on (more on that below). Instead, English speakers reached for the ready-made German word once they needed to name the feeling precisely, which is the common path a loanword takes when the borrowing language has the concept but no word for it that anyone actually uses.',
+					'English could also describe the feeling with a phrase. The rare English word epicaricacy has been used for it too. The presence of a German borrowing and a rare alternative does not establish that English lacked any way to name the feeling, or why the borrowing spread.',
 				],
 			},
 			{
 				heading: 'The specific feeling it names',
 				body: [
-					'The precision matters: Schadenfreude isn\'t pleasure at just anything bad happening, and it isn\'t wanting harm on someone in advance. It\'s the specific, narrower reaction of enjoying misfortune that has already happened to someone else: a rival sports team blowing a lead, a driver who cut you off getting pulled over two blocks later, a smug prediction aging badly. The emotion is common enough to be near-universal, which is exactly why a one-word label for it was useful enough to travel between languages.',
+					'The precision matters: Schadenfreude isn\'t pleasure at just anything bad happening, and it isn\'t wanting harm on someone in advance. It\'s the specific, narrower reaction of enjoying misfortune that has already happened to someone else: a rival sports team blowing a lead, a driver who cut you off getting pulled over two blocks later, a smug prediction aging badly. The emotion is common enough to be near-universal, but that observation alone does not establish why the word traveled between languages.',
 					'German dictionaries themselves don\'t fully agree on how much moral judgment to build into the definition. Duden\'s "boshafte Freude" leans into "malicious," while DWDS defines the same word without that qualifier, as simply pleasure at another\'s mishap. Psychologists studying the emotion generally treat it the second way: a description of a common reaction, not a verdict on the character of whoever feels it.',
 				],
 			},
@@ -444,15 +444,15 @@ export const guides: Guide[] = [
 			{
 				heading: '"Schadenfreude" isn\'t quite the same thing as "gloating"',
 				body: [
-					'English does have words that sit near schadenfreude, and it\'s worth being precise about how they differ. "Gloating" describes openly, visibly expressing triumph over someone else\'s failure, often when you had some hand in causing it or in besting them directly. It\'s an action, not just a feeling, and it usually shows. Schadenfreude is the private feeling itself, whether or not you ever act on it or had anything to do with causing the misfortune in the first place: you can feel schadenfreude silently, watching the news, about a stranger\'s bad luck you had zero part in.',
-					'That\'s the gap German filled and English didn\'t, in ordinary usage: English has words for showing triumph (gloating, crowing) but no word in common use for the quieter, purely internal version of the same reaction, which is exactly the gap Schadenfreude was borrowed to fill. The rest of LingoGrove\'s [Loanwords hub](/loanwords/) covers other borrowed words, including senpai and mahalo.',
+					'English gloat overlaps with schadenfreude. Merriam-Webster defines the verb to include observing or thinking about something with triumphant, often malicious satisfaction, and gives gloat over an enemy\'s misfortune as an example. Gloating can therefore be private; it does not require an outward display or responsibility for the misfortune. Schadenfreude specifically names pleasure at someone else\'s mishap.',
+					'The terms overlap but have different ranges: gloat can also concern your own success, while schadenfreude specifies another person\'s misfortune. The [Loanwords hub](/loanwords/) covers other borrowings, including senpai and mahalo.',
 				],
 			},
 		],
 		faq: [
 			{
 				question: 'What does "schadenfreude" literally mean, word for word?',
-				answer: 'It\'s a compound of two German nouns: Schaden ("harm" or "damage") and Freude ("joy"). Duden defines the word using the phrase "boshafte Freude," meaning malicious pleasure at someone\'s bad luck, while DWDS drops the "malicious" framing and just calls it pleasure at a mishap.',
+				answer: "Schaden supplies the \"harm\" element; Freude supplies \"joy.\" The Duden entry adds a malicious quality to its definition. DWDS describes enjoyment of somebody else's mishap without that adjective.",
 			},
 			{
 				question: 'Is schadenfreude the same thing as being cruel or mean-spirited?',
@@ -468,7 +468,7 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'Does English have a native word for this at all?',
-				answer: 'Barely, and it never caught on. Reference works record an obscure English coinage, epicaricacy, going back to the early 1700s, built from Greek roots for roughly "joy at evil." It named the identical feeling, but almost nobody used it, so English reached past its own vocabulary for schadenfreude once the concept needed a word people would actually recognize.',
+				answer: "An early eighteenth-century reference records the Greek-derived epicaricacy, a term seldom used today. Both terms concern this feeling, but the existence of one word supplies no explanation for adopting the other.",
 			},
 		],
 		sources: [
@@ -483,12 +483,12 @@ export const guides: Guide[] = [
 		title: 'Senpai Meaning: What It Actually Means in Japanese (Not Just Anime)',
 		description: 'Before it was an internet meme, senpai named a real, structured relationship in Japanese schools and workplaces: not just "someone senior."',
 		published: '2026-08-03',
-		updated: '2026-08-16',
-		coreSummary: 'Senpai (先輩) literally combines 先 ("ahead, before") with 輩 ("fellow, companion, generation") to mean a senior member of the same school, company, or group: someone who joined or started before you and, by the norms of the relationship, is expected to mentor the people who came after. The junior counterpart is kōhai (後輩). English absorbed only the internet-meme sense of the word; the Oxford English Dictionary added "senpai" to its December 2025 update alongside a batch of other Japanese and Korean loanwords.',
+		updated: '2026-10-12',
+		coreSummary: 'Senpai (先輩) literally combines 先 ("ahead, before") with 輩 ("fellow, companion, generation") to mean a senior member of the same school, company, or group: someone who joined or started before you and, by the norms of the relationship, is expected to mentor the people who came after. The junior counterpart is kōhai (後輩). English uses include a senior member or mentor in Japanese arts as well as fandom slang; the Oxford English Dictionary added "senpai" to its December 2025 update alongside a batch of other Japanese and Korean loanwords.',
 		language: 'Japanese',
 		usageNote: {
 			register: 'neutral',
-			regionNote: 'In Japanese, senpai is a neutral, everyday term used seriously in schools, companies, and clubs. The casual, jokey English usage ("notice me, senpai," used for anyone whose attention you want) is an internet-meme sense that grew out of anime fandom starting around 2012 and has little to do with how the word functions in Japanese.',
+			regionNote: 'In Japanese, senpai is a neutral, everyday term used seriously in schools, companies, and clubs. The casual, jokey English usage ("notice me, senpai," used for anyone whose attention you want) is an internet-meme sense that grew out of anime fandom starting around 2012 and is one use rather than the full range of the Japanese or English word.',
 		},
 		sections: [
 			{
@@ -503,7 +503,7 @@ export const guides: Guide[] = [
 				body: [
 					'Senpai-kōhai is a structured, reciprocal relationship built into Japanese schools, sports clubs, and workplaces, not just a label for "older person." Someone becomes your senpai by having joined the same school, club, team, or company before you did: age isn\'t the deciding factor, tenure is. A 22-year-old who joined a company a year before a 30-year-old new hire is still that new hire\'s senpai.',
 					'The relationship carries obligations in both directions: a senpai is expected to look out for and mentor their kōhai, showing them the ropes and taking some responsibility for how they\'re doing, while a kōhai is expected to show a degree of deference and respect in return. It\'s closer to a built-in mentorship system than a simple hierarchy, and it\'s one reason the concept doesn\'t map cleanly onto a single English word: "senior" captures the rank but misses the mentoring expectation.',
-					'One rule that surprises learners: you don\'t call yourself senpai. It\'s a status granted by others, not a label you claim for yourself: a Japanese speaker introducing themselves would never say "I\'m your senpai," even if the relationship is objectively true.',
+					'As an honorific attached to a name, senpai normally addresses or refers to another person. The noun can also describe a relationship, so saying that one is another person\'s senior is not grammatically forbidden. Courtesy and setting determine whether describing yourself that way sounds appropriate.',
 					'Senpai also functions as an honorific suffix, the same way *-san*, *-kun*, and *-chan* do: attached directly to a name, as in *Tanaka-senpai*, it\'s a standard, polite way to address someone senior, whether by surname or first name, and it\'s gender-neutral. Coto Academy describes the relationship as being at its strictest inside school club activities (*bukatsu*), sports clubs like baseball, kendo, or soccer, where the senpai-kōhai structure governs everything from how practice is run to how new members are expected to speak to senior ones.',
 				],
 			},
@@ -511,7 +511,7 @@ export const guides: Guide[] = [
 				heading: 'How English narrowed it into a meme, then a dictionary entry',
 				body: [
 					'The English-internet sense of senpai (used loosely for anyone whose attention or approval you want, romantic or otherwise) grew out of anime and manga fandom, with the phrase "notice me, senpai" spreading on sites like Tumblr starting around 2012 and picking up further momentum once it was used repeatedly by high-profile YouTubers. That usage strips out almost everything about the structured senpai-kōhai relationship and keeps only "someone whose attention is desirable," a different meaning from the Japanese original.',
-					'The word has since moved from internet slang toward formal recognition: the Oxford English Dictionary added "senpai" in its December 2025 update, alongside other recently adopted Japanese and Korean words. That\'s a fairly rare trajectory for a meme-driven usage: most internet slang never reaches a major dictionary at all, unlike older borrowings such as [schadenfreude](/schadenfreude-meaning/), which entered English decades ago through ordinary usage rather than a meme.',
+					'Wiktionary records an English sense for a senior member or mentor in Japanese arts, with a 1974 book citation, as well as a fandom sense for an upperclassman. The OED added an entry in December 2025; an addition date does not establish when a word first entered English. The German borrowing [schadenfreude](/schadenfreude-meaning/) has a different history and denotes pleasure at another person\'s misfortune.',
 				],
 			},
 		],
@@ -522,11 +522,11 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'Can you call yourself "senpai"?',
-				answer: 'No. Japanese speakers treat the title as something others grant you, never something you can award to yourself, so introducing yourself with "I\'m your senpai" would sound off even when your tenure genuinely supports it.',
+				answer: "As a form of address, it usually labels the other person. Describing your own relation to a junior is a different use of the noun. Whether it sounds courteous depends on the setting; there is no blanket grammatical prohibition against referring to your own seniority.",
 			},
 			{
 				question: 'What\'s the difference between the Japanese meaning of senpai and the internet meme?',
-				answer: 'The Japanese term covers a two-way mentorship duty at school, work, or in a club: guidance from the senior, deference from the junior. Online, the word got flattened down to a crush-adjacent shorthand for a person you want noticing you, a shift that traces back to Tumblr-era fan culture in the early 2010s.',
+				answer: "A school or work relationship concerns seniority and may include mentoring. The \"notice me\" catchphrase focuses on receiving attention. English dictionaries also document nonmeme uses, including mentorship in Japanese disciplines.",
 			},
 			{
 				question: 'Is "senpai" an official English word now?',
@@ -1984,10 +1984,10 @@ export const guides: Guide[] = [
 		slug: 'spanish-possessive-adjectives',
 		category: 'Grammar',
 		title: 'Spanish Possessive Adjectives: Mi, Tu, Su, and Why Only Some Agree in Gender',
-		description: 'Of the five basic prenominal possessives, only nuestro and vuestro change for gender. Mi, tu, and su mark number alone, su covers four owners, and vuestro exists only in Spain.',
+		description: 'Of the five basic prenominal possessives, only nuestro and vuestro change for gender. Mi, tu, and su mark number alone, su covers four owners, and vuestro is associated with vosotros and also has formal uses outside Spain.',
 		published: '2026-08-09',
 		updated: '2026-10-12',
-		coreSummary: 'Spanish has five basic prenominal possessives, but they don\'t all follow the same agreement rule: mi, tu, and su are apocopated forms that mark number only, never gender, while nuestro and vuestro carry full gender and number agreement, per the RAE\'s Nueva gramática básica de la lengua española. Su alone stands for four different owners (his, her, your-formal, their), which is why Spanish speakers routinely add a clarifying phrase like de él or de ella, and vuestro is a Spain-only form, since Latin American Spanish reuses su/sus for plural "your" the same way it already does for the subject pronoun ustedes.',
+		coreSummary: 'Spanish has five basic prenominal possessives, but they don\'t all follow the same agreement rule: mi, tu, and su are apocopated forms that mark number only, never gender, while nuestro and vuestro carry full gender and number agreement, per the RAE\'s Nueva gramática básica de la lengua española. Su alone stands for four different owners (his, her, your-formal, their), which is why Spanish speakers routinely add a clarifying phrase like de él or de ella, and vuestro is chiefly associated with Spain\'s vosotros, while Latin American Spanish reuses su/sus for plural "your" the same way it already does for the subject pronoun ustedes.',
 		language: 'Spanish',
 		sections: [
 			{
@@ -1998,14 +1998,14 @@ export const guides: Guide[] = [
 				],
 				image: {
 					src: '/images/spanish-possessive-adjectives-diagram.svg',
-					alt: 'Diagram contrasting mi/tu/su (which mark number only, never gender) with nuestro/vuestro (which mark both gender and number), plus the clarifying phrases (de él, de ella, de usted, de ellos/ellas, de ustedes) used to resolve su\'s built-in ambiguity, and a note that vuestro is used only in Spain.',
+					alt: 'Diagram contrasting mi/tu/su (which mark number only, never gender) with nuestro/vuestro (which mark both gender and number), plus the clarifying phrases (de él, de ella, de usted, de ellos/ellas, de ustedes) used to resolve su\'s built-in ambiguity, and a note that vuestro is chiefly used with vosotros in Spain.',
 				},
 			},
 			{
 				heading: 'Mi, tu, su: apocopated forms that mark number, never gender',
 				body: [
 					'Mi/mis ("my"), tu/tus ("your," informal singular), and su/sus ("his/her/your-formal/their") only ever change for number, and never for the gender of the noun they modify. Mi hermano and mi hermana both take mi, with no -a ending to signal that hermana is feminine; tu perro and tu perra work the same way, and so does su oficina next to su coche. This is unlike Spanish\'s ordinary adjectives, which almost always flex for gender (rojo/roja, alto/alta), and it\'s exactly the pattern learners default to expecting, then have to unlearn for this one function word.',
-					'The reason is historical rather than arbitrary: mi, tu, and su are apocopated (shortened) forms of the longer possessives mío, tuyo, and suyo, which do carry full gender marking when they appear after a noun or stand alone (la casa es mía, not mío). The written accent matters here too: mi (the possessive) and [mí](/spanish-accent-marks/) (the stressed pronoun meaning "for me," used after a preposition) are one of the closed set of diacritical tilde pairs, where the accent mark is the only thing telling two identically spelled words apart. The difference isn\'t only on paper. Mí carries real stress in speech, while mi, like most possessives placed before a noun, doesn\'t; writing mí hermano instead of mi hermano puts the accent on the wrong word entirely, not just a typo a reader would gloss over. That kind of near-invisible marking has a parallel one tense over: [the Spanish present tense](/spanish-present-tense-endings/) is the one tense RAE\'s own grammar treats as carrying no audible time marker at all, unlike the accent-bearing possessive pair above, where a single written stroke is the entire difference between two words.',
+					'Mi, tu and su are short forms corresponding to mío, tuyo and suyo. The longer forms mark gender and number in examples such as la casa es mía. Distinguish possessive mi from stressed [mí](/spanish-accent-marks/), the pronoun used after prepositions. They differ in writing and spoken stress. The [Spanish present-tense guide](/spanish-present-tense-endings/) discusses a separate concept, a zero tense morpheme; it is not the same distinction as mi versus mí.',
 				],
 			},
 			{
@@ -2023,16 +2023,16 @@ export const guides: Guide[] = [
 				],
 			},
 			{
-				heading: 'Vuestro is Spain-only; the rest of the Spanish-speaking world reuses su',
+				heading: 'Vuestro is common with vosotros; Latin American conversation generally uses su',
 				body: [
-					'Vuestro exists because Spain keeps a real register split in the plural "you": informal vosotros/vosotras against formal ustedes, [covered in full for the subject-pronoun side of this same split](/spanish-pronouns/). The possessive follows that exact line. Vuestro coche ("your car," addressed informally to a group) only makes sense where vosotros is in active use.',
+					'Vuestro exists because Spain keeps a real register split in the plural "you": informal vosotros/vosotras against formal ustedes, [covered in full for the subject-pronoun side of this same split](/spanish-pronouns/). The possessive follows that exact line. Vuestro coche is a usual informal plural form where vosotros is used. As noted below, vuestro can also occur with ustedes in formal or ceremonial writing.',
 					'Latin American Spanish drops vosotros from everyday speech and uses ustedes for both informal and formal plural "you," collapsing a distinction Spain keeps. Because there\'s no vosotros in ordinary use to pair a possessive with, there\'s little everyday occasion for vuestro either: su coche covers "your car" (plural, any register) across the region instead, the same su that already covers "his," "her," and "their." A Latin American speaker will recognize vuestro instantly from a book or a Spanish film, and it can still surface in formal or ceremonial writing paired with ustedes, but it isn\'t a form most speakers produce in daily conversation.',
 				],
 			},
 			{
 				heading: 'When the possessive moves after the noun',
 				body: [
-					'Every possessive above sits in front of its noun as a determinante posesivo, per the RAE\'s grammatical glossary, legitimizing the noun phrase the same way an article does, which is why mi and un can\'t both precede casa at once (mi casa or una casa, never un mi casa). Move the long forms (mío, tuyo, suyo, nuestro, vuestro) after the noun instead, and the RAE\'s Nueva gramática treats them as ordinary postnominal adjectives: un amigo mío ("a friend of mine") needs no article beyond the un already there, and la casa es suya ("the house is hers") uses the same long form as a predicate, with no noun attached at all.',
+					'Every possessive above sits in front of its noun as a determinante posesivo, per the RAE\'s grammatical glossary, legitimizing the noun phrase the same way an article does, with mi casa and una casa as usual alternatives. This is not an absolute ban: RAE records article-plus-possessive constructions such as un su amigo and una mi hijita in regional varieties, including parts of Mexico and Central America. Move the long forms (mío, tuyo, suyo, nuestro, vuestro) after the noun instead, and the RAE\'s Nueva gramática treats them as ordinary postnominal adjectives: un amigo mío ("a friend of mine") needs no article beyond the un already there, and la casa es suya ("the house is hers") uses the same long form as a predicate, with no noun attached at all.',
 					'The two positions aren\'t interchangeable in feel. Mi amigo is the neutral, default way to say "my friend," with no particular emphasis on the possession itself. Un amigo mío shifts to the long form specifically to draw attention to whose friend this is, often with the sense of "one friend among several," and it\'s the structure Spanish reaches for when the point is contrast: es idea mía, no tuya ("it\'s my idea, not yours") needs the postnominal form precisely because it\'s setting one owner against another.',
 					'A third, related use goes further still: when the possessive stands in for the noun entirely rather than modifying it, it crosses into a different grammatical category, a possessive pronoun rather than a possessive adjective, typically requiring the definite article (el mío, la suya) when it isn\'t simply following ser. That\'s a separate set of rules from the ones on this page; [the full possessive-pronoun paradigm, alongside the other pronoun families covered in that guide](/spanish-pronouns/), covers it in depth.',
 				],
@@ -2041,11 +2041,11 @@ export const guides: Guide[] = [
 		faq: [
 			{
 				question: 'Why are mi, tu, and su called "apocopated" forms?',
-				answer: 'Apocope means a word gets shortened by dropping its ending. This trio, mi, tu, su, is the trimmed-down version of the longer set, mío, tuyo, suyo, reserved specifically for the position right before a noun. That trimming is also why mi, tu, and su never picked up gender marking: the fuller forms they were cut from carry it (mío/mía), but the cut-down prenominal forms don\'t.',
+				answer: "The short forms are mi, tu and su, with mis, tus and sus for plural possessions. They correspond to longer forms such as mío and tuyo, which can change for gender as well. Calling them apocopated describes their form without supplying a complete historical account.",
 			},
 			{
 				question: 'Why doesn\'t "mi" change for gender, but "nuestro" does?',
-				answer: 'Historical accident, not logic: mi/tu/su are compressed versions of mío/tuyo/suyo, and the compression itself is what stripped out their gender ending. Nuestro/vuestro skipped that compression step entirely, so their final vowel still flexes for gender, just as it would on any regular -o/-a adjective such as alto/alta. A learner memory hook: if a possessive still ends in -o or -a, change the ending like you would on any other adjective; if it doesn\'t end that way, it simply can\'t change.',
+				answer: "Use mi with either libro or casa, then mis for several books or houses. For \"our,\" choose nuestro libro but nuestra casa. This is the agreement pattern learners need; inferring a complete historical cause from today's endings would go further than that description.",
 			},
 			{
 				question: 'What does "su" mean: his, her, your, or their?',
@@ -5452,27 +5452,27 @@ export const guides: Guide[] = [
 		title: 'De Nada Meaning: What "You\'re Welcome" Actually Says in Spanish',
 		description: 'De nada literally means "of nothing." It\'s the default reply to gracias across the Spanish-speaking world, though Colombia and Ecuador commonly reach for a different phrase entirely.',
 		published: '2026-08-24',
-		updated: '2026-08-24',
+		updated: '2026-10-12',
 		coreSummary: 'De nada is built from the preposition de ("of," "from") and nada ("nothing"), so it reads literally as "of nothing" or "it was nothing." Spanish speakers use it as the default reply to gracias ("thank you") in both casual and formal settings, though more formal-sounding alternatives like no hay de qué exist in Mexico and Spain alike, and Colombia and Ecuador commonly answer with a la orden instead.',
 		language: 'Spanish',
 		usageNote: {
 			register: 'neutral',
-			regionNote: 'De nada works everywhere and offends no one. No hay de qué is a slightly more formal-sounding alternative heard in Mexico and Spain alike, not tied to one country, while a la orden ("at your service," originally a military phrase) is the default reply to gracias specifically across Colombia and Ecuador.',
+			regionNote: 'De nada is a conventional reply to thanks; tone and context can still affect how it is received. No hay de qué is a slightly more formal-sounding alternative heard in Mexico and Spain alike, not tied to one country, while a la orden ("at your service," originally a military phrase) is also used to answer thanks in Colombia and Ecuador.',
 		},
 		sections: [
 			{
 				heading: 'What "de" and "nada" actually add up to',
 				body: [
-					'*De* is one of Spanish\'s most common prepositions, covering "of," "from," and "about" depending on context (see [Spanish prepositions](/spanish-prepositions/) for the fuller list of what it does elsewhere). *Nada* means "nothing." Put together word for word, *de nada* reads as "of nothing," which native speakers naturally render into English as "it was nothing" or "don\'t mention it," softer than the stiffer literal version.',
+					'*De* is one of Spanish\'s most common prepositions, covering "of," "from," and "about" depending on context (see [Spanish prepositions](/spanish-prepositions/) for the fuller list of what it does elsewhere). *Nada* means "nothing." Put together word for word, *de nada* reads as "of nothing," which can be translated idiomatically as "it was nothing" or "don\'t mention it," softer than the stiffer literal version.',
 					'*Nada* itself has a stranger history than a plain word for "nothing" usually does. Latin already had a dedicated word for that, *nihil*, but Spanish didn\'t inherit it. Wiktionary\'s etymology entry for the word traces *nada* to the Latin phrase *(nulla) res nata*, literally "(no) thing born," an extension of the older *nemo natus*, "not a soul" (literally "nobody born"). Over centuries, "not a single thing had ever come into being" narrowed down to today\'s plain "nothing," and only the *res nata* portion of that longer phrase survived into modern Spanish as *nada*; Etymonline\'s own entry confirms the same *res nata* chain back through *natus* and the verb *nasci*, "to be born," down to the Proto-Indo-European root *gene-*, "give birth, beget," the same root that also produced English words like "genesis" and "genre."',
-					'The RAE\'s own dictionary entry for the word, at dle.rae.es/nada, gives the core sense as "inexistencia total o carencia absoluta de todo ser": total nonexistence, or the absolute lack of all being. That\'s a considerably heavier definition than the two-syllable reply to *gracias* would suggest, and it\'s worth knowing, because it explains why *de nada* undersells a favor so effectively: it\'s built from a word for total absence. Not every Spanish-sounding set phrase holds up to that kind of word-by-word scrutiny, though: [que sera sera](/que-sera-sera-meaning/), despite its Spanish spelling, isn\'t actually grammatical Spanish at all, missing the lo that real Spanish requires in front of que to carry the "that which" sense the phrase is going for.',
+					'The RAE\'s own dictionary entry for the word, at dle.rae.es/nada, gives the core sense as "inexistencia total o carencia absoluta de todo ser": total nonexistence, or the absolute lack of all being. That\'s a considerably heavier definition than the two-syllable reply to *gracias* would suggest, and it\'s worth knowing, but it is the conventional expression, not that abstract definition alone, that makes de nada a reply to thanks. Not every Spanish-sounding set phrase holds up to that kind of word-by-word scrutiny, though: [que sera sera](/que-sera-sera-meaning/), despite its Spanish spelling, isn\'t actually grammatical Spanish at all, missing the lo that real Spanish requires in front of que to carry the "that which" sense the phrase is going for.',
 				],
 			},
 			{
 				heading: 'A fixed reply, not a sentence you\'re building word by word',
 				body: [
-					'Because *de nada* is also just an ordinary preposition plus a noun, the same two words can mean something completely different outside the "you\'re welcome" context. *Hablamos de nada* means "we talked about nothing [important]," a plain literal sentence with no idiom involved. What tells a listener which one they\'re hearing is timing and context: *de nada* fired back immediately after someone says *gracias* is unmistakably the fixed reply, while *de nada* sitting inside a longer sentence is just the preposition doing its normal job.',
-					'As a fixed reply, native speakers don\'t consciously parse *de nada* into "of" plus "nothing" any more than English speakers stop to parse "you\'re welcome" into "you are welcome [to it]." It functions as a single social unit, learned and produced as a block, which is also why swapping in a synonym for just one half of it (like *"nada"* on its own) doesn\'t work as a substitute; the whole phrase is the unit that carries the meaning. Spanish colloquial vocabulary keeps some much rougher fixed units too: the RAE\'s own dictionary entry for [cabrón](/cabron-meaning/) lists its literal sense, "male goat," sixth out of nine, behind five vulgar or colloquial meanings that carry a completely different register than a polite reply to gracias.',
+					'Because *de nada* is also just an ordinary preposition followed by the pronoun nada, the same two words can mean something completely different outside the "you\'re welcome" context. *Hablamos de nada* means "we talked about nothing [important]," a plain literal sentence with no idiom involved. What tells a listener which one they\'re hearing is timing and context: *de nada* fired back immediately after someone says *gracias* is unmistakably the fixed reply, while *de nada* sitting inside a longer sentence is just the preposition doing its normal job.',
+					'As a fixed reply, Speakers can use the fixed reply without consciously analyzing it as "of" plus "nothing" any more than English speakers stop to parse "you\'re welcome" into "you are welcome [to it]." It functions as a single social unit, learned and produced as a block, which is also why swapping in a synonym for just one half of it (like *"nada"* on its own) doesn\'t work as a substitute; the whole phrase is the unit that carries the meaning. Spanish colloquial vocabulary keeps some much rougher fixed units too: the RAE\'s own dictionary entry for [cabrón](/cabron-meaning/) lists its animal sense, "male goat," alongside vulgar or colloquial meanings that carry a completely different register than a polite reply to gracias.',
 				],
 			},
 			{
@@ -5485,30 +5485,30 @@ export const guides: Guide[] = [
 			{
 				heading: 'What Colombians and Ecuadorians say instead',
 				body: [
-					'The clearest regional break isn\'t formality, it\'s Colombia and Ecuador, where *a la orden* often edges out *de nada* as the default reply entirely. Literally "at your command" or "at your service," the phrase started out strictly military, where per one account of its use it signals subordination, roughly "mission understood," the way an English-speaking soldier might answer "yes, sir." From there it spread into everyday Colombian commerce and service language far beyond any military context: a shopkeeper uses it to invite a customer to keep browsing, a waiter uses it to confirm an order is coming, and it also works as a direct reply to *gracias*. It\'s a single phrase doing several unrelated conversational jobs depending on when it\'s said, not simply a regional synonym for *de nada*, and one description of the phrase\'s spread even calls it "inescapable" once you\'re in the country, precisely because it covers so much more ground than a single fixed reply normally would.',
-					'Costa Rica leans on *con mucho gusto* ("with much pleasure") as its own regional default, a phrase that leans a bit warmer and more effusive than the flat, self-effacing *de nada*. And *por nada* shows up as a near-interchangeable variant of *de nada* in several countries, essentially the same idiom with *de* swapped for *por*. Some speakers argue *por nada* is the more logical of the two, since *por* is the preposition Spanish typically uses to express cause or reason ("for nothing," as in "no trouble at all"), while *de* is a less obvious fit for that job. That\'s a matter of speaker opinion rather than a distinction the RAE draws formally; both forms are widely understood and used, and neither one will get a learner corrected.',
+					'The clearest regional break isn\'t formality, it\'s Colombia and Ecuador, where *a la orden* often edges out *de nada* as the default reply entirely. Literally "at your command" or "at your service," a 2009 usage account describes a military use signaling subordination, roughly "mission understood," the way an English-speaking soldier might answer "yes, sir." The same account also describes everyday Colombian commerce and service uses: a shopkeeper uses it to invite a customer to keep browsing, a waiter uses it to confirm an order is coming, and it also works as a direct reply to *gracias*. This usage account does not establish a complete historical origin for the expression. It\'s a single phrase doing several unrelated conversational jobs depending on when it\'s said, not simply a regional synonym for *de nada*, and one description of the phrase\'s spread even calls it "inescapable" once you\'re in the country, precisely because it covers so much more ground than a single fixed reply normally would.',
+					'Costa Rica leans on *con mucho gusto* ("with much pleasure") as its own regional default, a phrase that leans a bit warmer and more effusive than the flat, self-effacing *de nada*. And *por nada* shows up as a near-interchangeable variant of *de nada* in several countries, essentially the same idiom with *de* swapped for *por*. Some speakers argue *por nada* is the more logical of the two, since *por* is the preposition Spanish typically uses to express cause or reason ("for nothing," as in "no trouble at all"), while *de* is a less obvious fit for that job. That\'s a matter of speaker opinion rather than a distinction the RAE draws formally; both forms are widely understood and used, and acceptability and preference can vary by speaker and setting.',
 				],
 			},
 			{
 				heading: 'Why a word for "nothing" is such a common way to answer thanks',
 				body: [
 					'English does something structurally similar with "no problem" or "it\'s nothing," and that\'s not a coincidence limited to Spanish and English. Downplaying the size of a favor, insisting it cost the speaker no real effort, is one of the most common strategies languages reach for when responding to thanks, precisely because accepting gratitude too readily can come across as claiming credit rather than deflecting it. *De nada*\'s literal "of nothing" fits that pattern exactly: it\'s a small, ready-made way of saying the favor barely registered as a favor at all, which is also why so many of its regional alternatives, *no hay de qué* ("there\'s nothing of which [to speak]"), *por nada* ("for nothing"), lean on the same underlying move rather than inventing a new one.',
-					'That shared logic is also why *de nada* rarely sounds sarcastic or dismissive the way a flat "no problem" occasionally can in English. It\'s so thoroughly conventionalized as a set social formula, produced automatically rather than composed fresh each time, that Spanish speakers don\'t register the "nothing" in it as commentary on how much the favor was actually worth.',
+					'Like other polite formulas, de nada can be said warmly, mechanically or sarcastically. Its literal wording alone does not determine the tone or show how often any particular interpretation occurs.',
 				],
 			},
 		],
 		faq: [
 			{
 				question: 'Does "de nada" literally translate to "you\'re welcome"?',
-				answer: 'No. Word for word it means "of nothing," a preposition and a noun stuck together, not a phrase built to mean "you\'re welcome." It works purely as a set idiom, one Spanish speakers reach for automatically after gracias, the same way English speakers say "you\'re welcome" without stopping to unpack what each piece of that phrase is doing.',
+				answer: "Literally, de contributes \"of\" and nada means \"nothing.\" The usual English reply \"you're welcome\" translates what the expression does socially, rather than each of its words. Nada is a pronoun in this construction.",
 			},
 			{
 				question: 'Is "de nada" formal or informal?',
-				answer: 'It works in both registers and is safe with a boss, a stranger, or a close friend alike. In settings calling for a bit more deliberate politeness, a business email, a service counter, meeting someone senior for the first time, speakers often reach for no hay de qué or es un placer instead, but de nada itself is never actually wrong in a formal context.',
+				answer: "It answers thanks in informal conversations and in many professional exchanges. Es un placer or no hay de qué offer alternatives. A listener can still hear sarcasm or impatience in the delivery, so no fixed formula guarantees an appropriate tone.",
 			},
 			{
 				question: 'What do people say instead of "de nada" in Colombia?',
-				answer: 'A la orden, a phrase that puts the speaker at the other person\'s disposal. It began as a military phrase and expanded into ordinary Colombian shop and service settings, where the same words do several different jobs, welcoming a shopper, confirming an order, or standing in for "you\'re welcome," and only context sorts out which.',
+				answer: "A la orden puts the speaker at someone else’s disposal. Colombian usage accounts document it in shops and services, including welcoming customers, accepting requests and replying to thanks. A military example is evidence of one use, not proof of the origins of the others.",
 			},
 			{
 				question: 'Can "de nada" mean something other than "you\'re welcome"?',
@@ -6462,16 +6462,16 @@ export const guides: Guide[] = [
 		title: 'Verbs Like Gustar: Why "The Book" Is the Subject, Not "I"',
 		description: 'Gustar gets glossed as "to like," which hides the actual grammar: the thing being liked is the subject, and the person doing the liking is only an indirect object.',
 		published: '2026-08-30',
-		updated: '2026-08-30',
-		coreSummary: 'Per the Real Academia Española\'s Diccionario panhispánico de dudas, gustar\'s normal construction puts the cause of the pleasure as the grammatical subject and the person who feels it as an indirect object, the reverse of English "I like the book," where "I" is the subject. A defined class RAE calls verbos de afección psíquica, including encantar, doler, interesar, and molestar, follows the identical pattern, and a wider set of everyday verbs (faltar, importar, quedar) shares the same indirect-object-first word order even though grammars classify them separately.',
+		updated: '2026-10-12',
+		coreSummary: 'Per the Real Academia Española\'s Diccionario panhispánico de dudas, gustar\'s normal construction puts the cause of the pleasure as the grammatical subject and the person who feels it as an indirect object, the reverse of English "I like the book," where "I" is the subject. Other psychological verbs, including encantar, doler, interesar, and molestar, can use that pattern, although some also take direct objects, and a wider set of everyday verbs (faltar, importar, quedar) shares the same indirect-object-first word order even though grammars classify them separately.',
 		language: 'Spanish',
 		sections: [
 			{
 				heading: 'The verb doesn\'t mean "to like" the way its translation suggests',
 				body: [
 					'Every Spanish course translates *gustar* as "to like," and that gloss is close enough for everyday use, but it hides how differently the sentence is built underneath. In "I like the book," English makes the liker the subject and the thing liked the object. Spanish does the opposite. The Real Academia Española\'s Diccionario panhispánico de dudas describes the normal construction directly: the subject is the thing causing the pleasure or attraction, and the person who feels it is expressed through an indirect object. *Me gusta el libro* is closer, mechanically, to "the book pleases me" than to "I like the book," even though the second is how anyone would translate it.',
-					'The RAE\'s own dictionary entry for the verb illustrates this with real examples: *"Vos me gustás mucho"* and *"Le gustaban la buena música y los buenos libros."* In both, the liked thing (*vos*, understood; *la buena música y los buenos libros*) is what the verb agrees with, and the person doing the liking shows up only as *me* or *le*, an indirect object pronoun, never as the subject of the sentence.',
-					'That reversal is a common source of errors for English speakers, who instinctively want to make "I" the subject and conjugate the verb to match it, producing the ungrammatical *"yo gusto"* instead of the correct *me gusta*.',
+					'The RAE\'s own dictionary entry for the verb illustrates this with real examples: *"Vos me gustás mucho"* and *"Le gustaban la buena música y los buenos libros."* In both, the liked thing (*vos*; *la buena música y los buenos libros*) is what the verb agrees with, and the person doing the liking shows up only as *me* or *le*, an indirect object pronoun, never as the subject of the sentence.',
+					'That reversal is a common source of errors for English speakers, who instinctively want to make "I" the subject and conjugate the verb to match it, producing *"yo gusto el libro"* instead of *me gusta el libro*. Yo gusto alone can mean "I am pleasing"; it is not a way to say "I like" in this construction.',
 				],
 				image: {
 					src: '/images/verbs-like-gustar-diagram.svg',
@@ -6481,16 +6481,16 @@ export const guides: Guide[] = [
 			{
 				heading: 'The mechanics: indirect object pronoun + gustar (matching the subject) + the subject',
 				body: [
-					'The formula is fixed: [an indirect object pronoun](/direct-vs-indirect-object-pronouns-spanish/) (*me, te, le, nos, os, les*) comes first, then a form of *gustar*, then the thing being liked, which is the grammatical subject and the thing the verb has to agree with in number. *Me gusta el café* uses *gusta* because *el café* is singular. *Me gustan los perros* switches to *gustan* because *los perros* is plural, not because more than one person is doing the liking.',
-					'This is where the reversal trips up learners in a second, more mechanical way, on top of the conceptual one: because the person (*me*, "I") comes first in the sentence and feels like the subject, it\'s easy to leave *gustar* singular even when the thing liked is plural, producing the common error *"me gusta los perros"* instead of the correct *me gustan los perros*. The check is always the same: find the noun after the verb, and make *gustar* agree with that, never with the pronoun in front of it.',
+					'A common order is: [an indirect object pronoun](/direct-vs-indirect-object-pronouns-spanish/) (*me, te, le, nos, os, les*) comes first, then a form of *gustar*, then the thing being liked, which is the grammatical subject and the thing the verb has to agree with in number. *Me gusta el café* uses *gusta* because *el café* is singular. *Me gustan los perros* switches to *gustan* because *los perros* is plural, not because more than one person is doing the liking.',
+					'This is where the reversal trips up learners in a second, more mechanical way, on top of the conceptual one: because the person (*me*, "I") comes first in the sentence and feels like the subject, it\'s easy to leave *gustar* singular even when the thing liked is plural, producing the common error *"me gusta los perros"* instead of the correct *me gustan los perros*. Find the grammatical subject and make gustar agree with it. The subject can also come first: Los perros me gustan.',
 					'When the thing liked is a verb rather than a noun, such as an infinitive or a string of infinitives, *gustar* stays singular regardless of how many infinitives there are: *Me gusta leer y viajar* ("I like to read and to travel") keeps *gusta*, because the RAE treats the infinitive clause as a single, singular notional subject.',
 				],
 			},
 			{
 				heading: 'Gustar belongs to a defined class of verbs: verbos de afección psíquica',
 				body: [
-					'*Gustar* is not a grammatical oddball; it\'s the best-known member of a class the RAE\'s Glosario de términos gramaticales labels verbo psicológico, and which the Academia\'s grammar elsewhere calls verbos de afección psíquica ("verbs of psychological affection"): verbs that describe a sensation, impression, feeling, or state a person experiences, where the cause of that state is the grammatical subject and the person experiencing it is an indirect object. RAE materials list this group as including *aburrir, agradar, alegrar, asombrar, asustar, disgustar, divertir, doler, encantar, entristecer, entusiasmar, impresionar, interesar, irritar, molestar, preocupar,* and *sorprender*, alongside *gustar* itself.',
-					'Every one of those follows the identical indirect-object-first pattern: *Me aburre esta película* (This movie bores me), *Nos encanta la playa* (We love the beach), *Le duele la cabeza* (Her head hurts / She has a headache), *Te interesan los idiomas* (Languages interest you), *Les molesta el ruido* (Noise bothers them). Learn the *gustar* pattern once and every verb in this list works the same way, with the same agreement rule: the verb matches the thing causing the feeling, not the person feeling it.',
+					'The RAE glossary groups gustar with psychological verbs: verbs expressing sensations, feelings, or the actions causing them. The class includes several constructions. In amar and temer the experiencer is the subject; in Me gusta el chocolate the experiencer is an indirect object. Molestar can alternate: A ella le molesta el ruido uses an indirect object, while La molestaba continuamente con sus llamadas uses a direct object.',
+					'These examples use the indirect-object construction: *Me aburre esta película* (This movie bores me), *Nos encanta la playa* (We love the beach), *Le duele la cabeza* (Her head hurts / She has a headache), *Te interesan los idiomas* (Languages interest you), *Les molesta el ruido* (Noise bothers them). In these particular sentences, the verb matches the thing causing the feeling, not the person feeling it.',
 					'A separate, wider set of everyday verbs, *faltar* (to be lacking), *quedar* (to have left), and *importar* (to matter), shares the identical word order and agreement rule even though Spanish grammars classify them differently from the affection-verb group above (they describe possession, sufficiency, or relevance rather than a psychological reaction). *Me falta dinero* (I\'m short on money), *Nos quedan dos días* (We have two days left), and *No me importa* (It doesn\'t matter to me) all put the thing that matters, is lacking, or remains as the grammatical subject the verb agrees with, exactly like *gustar* does.',
 				],
 			},
@@ -6498,7 +6498,7 @@ export const guides: Guide[] = [
 				heading: 'Clarifying and emphasizing who: a mí, a Juan, a ella',
 				body: [
 					'*Le* and *les* are genuinely ambiguous on their own: *le gusta* could mean "he likes it," "she likes it," or "you (formal) like it," since [Spanish\'s pronoun system](/spanish-pronouns/) reuses the same third-person indirect object pronoun for all three. Spanish resolves that ambiguity, and adds emphasis when needed, by adding a prepositional phrase with *a* alongside the pronoun, not in its place: *A ella le gusta el fútbol* (She likes soccer) keeps *le* and adds *a ella* to specify who. The same construction works for names and nouns: *A Juan le gusta el fútbol*, and for contrast: *A mí me gusta el café, pero a ella no le gusta* (I like coffee, but she doesn\'t).',
-					'That doubling, the indirect object pronoun and its clarifying *a*-phrase both present in the same clause, is a normal, required feature of how Spanish\'s indirect object works with this class of verbs, not redundancy to be trimmed. Dropping *le* and keeping only *a ella*, or the reverse when the reference is genuinely ambiguous, are the two most common ways learners accidentally garble who the sentence is actually about.',
+					'With a stressed personal pronoun such as a ella, keep the matching unstressed pronoun: A ella le gusta el fútbol. An a-phrase naming the experiencer before the verb also normally has a matching clitic. Context can make le clear without a separate a-phrase, so adding one is not always required.',
 				],
 			},
 			{
@@ -6512,7 +6512,7 @@ export const guides: Guide[] = [
 		faq: [
 			{
 				question: 'Why is it "me gusta" and not "yo gusto"?',
-				answer: 'Because with gustar, whoever likes something only ever plays an indirect-object role; it never becomes the sentence\'s subject. Per the RAE, gustar puts what causes the pleasure in the subject slot and routes whoever experiences that pleasure into a pronoun such as te, nos, me, les, os, or le. "Yo gusto" tries to put "I" in that slot, and Spanish simply doesn\'t build the verb that way.',
+				answer: "In Me gustan las novelas, novelas controls the plural gustan; me identifies the experiencer. To express liking a novel, avoid yo gusto la novela. Other constructions are possible: gusto de leer means that I enjoy reading, while gusto can describe my appeal to somebody else.",
 			},
 			{
 				question: 'Why does gustar sometimes change to gustan?',
@@ -6520,7 +6520,7 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'What other verbs work exactly like gustar?',
-				answer: 'RAE grammar sources group gustar with other verbs describing a feeling or sensation the speaker experiences, among them interesar, doler, agradar, sorprender, asombrar, molestar, and entusiasmar. Each one puts the pronoun first and makes the verb match whatever triggers that feeling, exactly as gustar does. A separate everyday set, faltar, quedar, and importar, shares that same pronoun-first structure, although grammar books file them under a different heading, since what they name is a lack, a leftover amount, or relevance to someone, not a psychological state.',
+				answer: "Try Me encanta este lugar or Nos duelen los pies: the place or the feet control agreement. That pattern is useful for several verbs, but not a complete rule for every psychological verb. Molestar, for example, also has constructions involving a direct object.",
 			},
 			{
 				question: 'If "le" already means "to him/her/you," why add "a él" or "a ella" too?',
@@ -6528,7 +6528,7 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'Does "¿Gusta usted una cerveza?" use the same grammar as "me gusta el café"?',
-				answer: 'No. That\'s a separate, narrower transitive use of gustar closer to wanting or wishing for something, which the RAE says is now confined almost entirely to fixed, polite offers. It doesn\'t follow the indirect-object-plus-subject pattern the rest of this article covers, and it isn\'t how gustar is used to say someone likes something.',
+				answer: "No. In that polite offer, gustar is transitive and means wanting something; usted is its subject and cerveza its object. With Me gusta el café, café controls the verb instead. The RAE records both constructions.",
 			},
 		],
 		sources: [
@@ -6634,8 +6634,8 @@ export const guides: Guide[] = [
 		title: 'Que Sera Sera Meaning: A Phrase That Isn\'t Correct Spanish or Italian',
 		description: 'Que sera sera means "whatever will be, will be," but standard Spanish and Italian both reject its grammar. The real story predates the 1956 Doris Day song by centuries.',
 		published: '2026-09-01',
-		updated: '2026-09-01',
-		coreSummary: 'Qué será, será ("whatever will be, will be") is not correct in standard Spanish or Italian: both languages require an article in front of the relative pronoun, giving lo que será, será in Spanish and quel che sarà, sarà in Italian, because que and che alone can\'t carry the "that which" sense English "what" handles on its own. The Spanish-spelled version is documented as an English heraldic motto on a brass plaque dated 1559, and the Italian form turns up in Christopher Marlowe\'s Doctor Faustus around 1590, both roughly four centuries before songwriters Jay Livingston and Ray Evans wrote it as a 1955 song title later sung by Doris Day in Alfred Hitchcock\'s 1956 film The Man Who Knew Too Much.',
+		updated: '2026-10-12',
+		coreSummary: 'Qué será, será ("whatever will be, will be") is not correct in standard Spanish or Italian: usual equivalents add lo in Spanish or quel in Italian, giving lo que será, será in Spanish and quel che sarà, sarà in Italian, so the relative expression carries the intended sense of "whatever." The Spanish-spelled version is documented as an English heraldic motto on a brass plaque dated 1559, and the Italian form turns up in Christopher Marlowe\'s Doctor Faustus around 1590, both roughly four centuries before songwriters Jay Livingston and Ray Evans wrote it as a 1955 song title later sung by Doris Day in Alfred Hitchcock\'s 1956 film The Man Who Knew Too Much.',
 		language: 'Spanish',
 		usageNote: {
 			register: 'neutral',
@@ -6645,9 +6645,9 @@ export const guides: Guide[] = [
 			{
 				heading: 'What the phrase means, and the grammar problem hiding in it',
 				body: [
-					'Qué será, será translates as "what will be, will be," and it\'s used the way English speakers use that translation: as a shrug at an uncertain future, an announcement that whatever happens is out of your hands and there\'s no point fighting it. That sense of cheerful fatalism is the entire reason the phrase caught on, and it\'s not in dispute.',
-					'The grammar underneath it is a different matter. English "what" does two jobs at once: it\'s the word you use to ask a question ("What will happen?") and, separately, a free relative pronoun standing in for "that which" ("I don\'t know what will happen" means "I don\'t know that which will happen"). Spanish and Italian split those two jobs between different words. Qué and che handle the question; neither one, on its own, can stand in for "that which." To say "that which will be, will be" the way a native speaker actually would, Spanish needs lo que será, será and Italian needs quel che sarà, sarà, with lo or quel doing the job qué and che can\'t do alone. Italian has its own well-documented loanword that, unlike this one, really is standard Italian: [ciao](/ciao-meaning/) traces to a genuine Venetian phrase, s-ciao vostro, and English absorbed both its hello and goodbye senses intact, a much cleaner borrowing than the invented-sounding grammar behind que sera sera.',
-					'That\'s the whole story behind why language teachers and native speakers sometimes wince at the phrase: it\'s not gibberish, and everyone understands it, but it\'s a direct, word-for-word carryover of an English grammatical pattern into two languages that don\'t build sentences that way. It\'s the kind of gap that shows up whenever a phrase gets borrowed for its sound rather than checked against a grammar book, similar in spirit to how English adopted French [voilà](/voila-meaning/) for its dramatic-reveal flourish while dropping the distinction voilà originally drew against its counterpart voici.',
+					'Qué será, será translates as "what will be, will be," and it\'s used the way English speakers use that translation: as a shrug at an uncertain future, an announcement that whatever happens is out of your hands and there\'s no point fighting it. That is its familiar fatalistic sense; the meaning alone does not establish every reason for its popularity.',
+					'For the intended "whatever will be" meaning, usual Spanish and Italian equivalents are lo que será, será and quel che sarà, sarà. Calling the latter addition an article in both languages is imprecise: Italian quel is a shortened demonstrative. The expression is established as an English phrase rather than a model for composing an ordinary Spanish or Italian sentence. [Ciao](/ciao-meaning/) is a separate Italian borrowing with greeting and farewell uses; its history does not establish what happened to this phrase.',
+					'Borrowed expressions need not follow all the grammatical patterns of their source language. [Voilà](/voila-meaning/) supplies another example of an English interjection from French, but its dictionary uses do not establish the same borrowing process or show why que sera sera became popular.',
 				],
 				image: {
 					src: '/images/que-sera-sera-meaning-diagram.svg',
@@ -6659,7 +6659,7 @@ export const guides: Guide[] = [
 				body: [
 					'Both spellings of the phrase are documented in English use well over 350 years before Jay Livingston ever wrote a note of music. Per Wikipedia\'s sourced account, the Spanish spelling "qué será, será" appears on a brass plaque inside the Church of St Nicholas in Thames Ditton, Surrey, dated 1559. Separately, the Italian form "che sarà sarà" was adopted as a family motto by either John Russell, 1st Earl of Bedford, or his son Francis Russell, 2nd Earl of Bedford, with the tradition tying its adoption to the elder Russell\'s experience at the Battle of Pavia in 1525 and its appearance on his 1555 tomb; a manuscript from 1582 records the 2nd Earl using it as well, and later generations of the Bedford family kept using it as a heraldic motto for years afterward.',
 					'The phrase then made a documented leap from heraldry into English literature. Christopher Marlowe\'s play Doctor Faustus, written around 1590, has the title character invoke it directly. Wikiquote\'s entry for the play records the line: "What doctrine call you this, Che serà, serà: What will be, shall be" (Act I, scene i), with Marlowe quoting the biblical line "if we say that we have no sin, we deceive ourselves" immediately before it. By the 17th century the saying was showing up regularly in English fiction as shorthand for a fatalistic outlook, and the English-only version, "what will be, will be," appears in Charles Dickens\'s Hard Times in 1854, a century before anyone associated it with a movie or a pop song.',
-					'That history matters because it reframes what the phrase actually is. It didn\'t start as an attempt at authentic Spanish or Italian at all; it started as an English motto borrowing the sound of Romance-language grammar without fully importing its rules, the same way [semper fi](/semper-fi-meaning/) started as a Latin motto centuries before the Marine Corps made it their own in 1883.',
+					'The cited records place the phrase in English heraldry and literature before the song. That establishes earlier use, not the intentions of its first adopter. [Semper fi](/semper-fi-meaning/) is a separate shortened Latin motto whose guide records the Marine Corps adoption of Semper fidelis in 1883.',
 				],
 			},
 			{
@@ -6672,7 +6672,7 @@ export const guides: Guide[] = [
 			{
 				heading: 'Saying it the way a native speaker actually would',
 				body: [
-					'If the goal is standard, grammatically complete Spanish, the phrase is lo que será, será, adding lo before que to carry the "that which" sense the bare qué can\'t. In Italian, the equivalent is quel che sarà, sarà, with quel doing the same job in front of che. In both cases, the fix is a single small word in front of the relative pronoun; nothing else about the phrase needs to change. Sarà itself is the [Italian future tense](/italian-future-tense/) of essere, a form that often isn\'t about the future at all.',
+					'If the goal is standard, grammatically complete Spanish, the phrase is lo que será, será, adding lo before que to carry the "that which" sense the bare qué can\'t. In Italian, the equivalent is quel che sarà, sarà, with quel doing the same job in front of che. In both cases, the fix is a single small word in front of the relative pronoun; nothing else about the phrase needs to change. Sarà is a form of essere in the [Italian future tense](/italian-future-tense/). This motto uses a future-facing meaning; the linked guide also explains conjectural uses in other contexts.',
 					'The doubled verb, será followed by será again, isn\'t the part that\'s broken. Repeating a future-tense verb for emphasis is a normal construction in both languages and matches exactly what the English "will be, will be" is doing. Some casual sources online treat the whole phrase as a compact, unexplained idiom and leave it at that; the fuller picture is that one specific piece, the missing lo or quel, is what separates the famous version from a sentence a Spanish or Italian speaker would actually write. A shorter variant, "que sera" without the second será, shows up on its own in some casual English usage too, carrying the same fatalistic shrug in fewer words, though it\'s a distinct enough phrase from the doubled version to warrant its own look at how it\'s actually used.',
 				],
 			},
@@ -6684,15 +6684,15 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'Is "que sera sera" grammatically correct Spanish?',
-				answer: 'Not as a fluent speaker would put it. A complete sentence needs the article lo attached in front, because on its own qué only works as a question word and doesn\'t double for "that which" the way the phrase requires.',
+				answer: "For the intended meaning in Spanish, put lo before que and retain the written accents: Lo que ser\u00e1, ser\u00e1. The English song title omits that initial word. Other grammatical uses of que still exist.",
 			},
 			{
 				question: 'Is "que sera sera" actually Italian, then?',
-				answer: 'The version most people know traces back to an Italian family motto, but the Italian original has the same gap: it needs quel tacked onto the front of che to be complete. Neither spelling, exactly as it\'s popularly written, matches what someone raised speaking either language would say on their own.',
+				answer: "The corresponding Italian wording is Quel che sar\u00e0 sar\u00e0. Its initial quel is demonstrative. Che has other uses too; the issue here concerns the wording needed to express this particular motto.",
 			},
 			{
 				question: 'Did the Doris Day song or the 1956 movie invent the phrase?',
-				answer: 'No, it\'s far older than either. An engraved marker inside an English parish church already spelled it out in Spanish by 1559, and an Elizabethan playwright put the Italian version into a play his audiences watched around 1590, centuries before Hollywood existed as a film industry at all.',
+				answer: "The historical account predates the song: a church inscription from 1559 and wording from Doctor Faustus are earlier examples. A composition estimate of about 1590 for that play should not be read as a dated performance record.",
 			},
 			{
 				question: 'Why does the popular version use Spanish spelling instead of Italian?',
@@ -6800,18 +6800,18 @@ export const guides: Guide[] = [
 		title: 'Maknae Meaning: A Korean Word Now in the OED',
 		description: 'Maknae names the youngest member of a family or group, a Korean word centuries older than K-pop. The OED added it as a headword in December 2024.',
 		published: '2026-09-04',
-		updated: '2026-09-04',
-		coreSummary: 'Maknae is Korean for the youngest person in a family, friend group, or team, not a word K-pop fandom invented; Wiktionary and linguist Victor Mair both trace it to an 18th-century contraction, 막나이 (mangnai), built from a root meaning "end" plus a verb meaning "to bear" plus an agent suffix. The Oxford English Dictionary added maknae as a headword in its December 2024 update, defining it as "the youngest person in a family or group; the youngest member of a K-pop group," with earliest documented English use traced to 1998, a year ahead of senpai, the Japanese status term it gets compared to most, which the OED did not add until December 2025.',
+		updated: '2026-10-12',
+		coreSummary: 'Maknae is Korean for the youngest person in a family, friend group, or team, not a word K-pop fandom invented; Wiktionary and linguist Victor Mair both trace it to an 18th-century contraction, 막나이 (mangnai), built from a root meaning "end" plus a verb meaning "to bear" plus an agent suffix. The Oxford English Dictionary added maknae as a headword in its December 2024 update, defining it as "the youngest person in a family or group; the youngest member of a K-pop group," with earliest documented English use traced to 1998, while senpai, the Japanese status term it gets compared to most, was added in December 2025. The two entry dates are not a comparison of when the words first entered English.',
 		language: 'Korean',
 		usageNote: {
 			register: 'neutral',
-			regionNote: 'Maknae is an ordinary, affectionate word in Korean, used for the youngest sibling in a family, the newest or youngest hire at a workplace, and the youngest member of a friend group, long before it named a K-pop idol. English fandom use narrows it to the youngest member of an idol group, but that narrowing is a shift in which sense gets used most, not a different word.',
+			regionNote: 'Maknae is an ordinary, affectionate word in Korean, used for the youngest sibling in a family, the youngest member of a workplace group, and the youngest member of a friend group, long before it named a K-pop idol. English fandom use narrows it to the youngest member of an idol group, but that narrowing is a shift in which sense gets used most, not a different word.',
 		},
 		sections: [
 			{
 				heading: 'A Korean family word, centuries older than K-pop',
 				body: [
-					'Maknae, 막내 in Hangul, names the youngest person in a defined group: the last-born child in a family, the newest and youngest member of a team, or, in the sense that reached English fandom, the youngest member of a K-pop idol group. Wiktionary\'s Korean entry traces it to an 18th-century form, 막나이 (mangnai), built from three pieces: 막 (mak, "end"), the same root that shows up in majimak ("the last one") and makbaji ("the tail end of something"); 낳- (nat-, "to bear, to bring forth"); and -이 (-i), an agent suffix. Put together, the word originally described something closer to "the child born at the end," and centuries of everyday use wore that phrase down into a single noun.',
+					'Maknae, 막내 in Hangul, names the youngest person in a defined group: the last-born child in a family, the youngest member of a team, or, in the sense that reached English fandom, the youngest member of a K-pop idol group. Wiktionary\'s Korean entry traces it to an 18th-century form, 막나이 (mangnai), built from three pieces: 막 (mak, "end"), the same root that shows up in majimak ("the last one") and makbaji ("the tail end of something"); 낳- (nat-, "to bear, to bring forth"); and -이 (-i), an agent suffix. Put together, the cited etymology explains the word through "end," "bear" and an agent suffix; it does not document each stage or cause of the contraction.',
 					'Linguist Victor Mair cross-checked that same derivation on Language Log after the Oxford English Dictionary\'s December 2024 update, singling maknae out because it is a native Korean coinage rather than one of the many Korean words built from borrowed Chinese characters. Korean has a direct antonym for it, too: 맏이 (maji), "the eldest," which Wiktionary lists as maknae\'s coordinate opposite. Before any of it touched K-pop, the word already had a formal opposite number and a documented history stretching back roughly three centuries.',
 				],
 				image: {
@@ -6831,7 +6831,7 @@ export const guides: Guide[] = [
 				body: [
 					'Maknae isn\'t waiting for formal recognition the way some fandom borrowings are. The Oxford English Dictionary added it as a headword in its December 2024 update, one of seven Korean words in that batch alongside dalgona, hyung, noraebang, jjigae, tteokbokki, and pansori, the first new Korean words the dictionary had added since September 2021. Language Log quotes the OED\'s own definition directly: maknae is "the youngest person in a family or group; the youngest member of a K-pop group." Secondary reporting on the update traces the OED\'s earliest documented English use of the word to 1998, in writing by J. Y. Kim, predating most of the K-pop groups people now associate it with.',
 					'The word it gets compared to constantly, [senpai](/senpai-meaning/), the Japanese term for a senior member of a group, didn\'t reach the OED until the December 2025 update, a full year behind that timeline. The Korean word closest in function to senpai, sunbae, was added in that same December 2025 batch rather than alongside maknae. Dictionary recognition doesn\'t always track how visible a word feels online; maknae had a formal entry while sunbae, its own language\'s answer to senpai, was still waiting.',
-					'Not every loanword gets there this fast, or at all. [Mamacita](/mamacita-meaning/) needed no such wait, its earliest OED evidence dates back to 1887, but plenty of other loanwords covered on this site, mijo among them, are documented in English print without yet having a dictionary entry of their own. Maknae\'s path ran through K-pop fandom and took a little over a century less than mamacita\'s, but it still arrived.',
+					'The date of a dictionary addition is separate from the date of its earliest quotation. [Mamacita](/mamacita-meaning/) has OED evidence from 1887; that quotation date cannot be compared directly with maknae\'s 2024 addition date to calculate how long either word waited for an entry.',
 				],
 			},
 			{
@@ -6839,14 +6839,14 @@ export const guides: Guide[] = [
 				body: [
 					'Larger K-pop groups rarely have just one member who counts as young. Wiktionary\'s entry for the derived term "maknae line" defines it as the younger members of a group taken collectively, typically the two to four youngest rather than only the single official maknae, formed by blending English "line" with a Korean sense of rain (라인) meaning "members who share a characteristic." Fan communities pair it with matching terms for the other end of the group: a hyung line or unnie line for the older members, depending on whether the group is being discussed in terms male or female members would use for each other.',
 					'The honorifics a maknae actually uses come from the same pairing. Korean\'s Wiktionary entry lists 형 (hyeong) and 언니 (eonni) as maknae\'s coordinate terms, the words a male speaker uses for an older brother or senior male, and a female speaker uses for an older sister or senior female. A maknae doesn\'t just get called maknae; they\'re also the one using hyung or eonni to address everyone senior to them, the two ends of the same relationship.',
-					'The word has traveled well past Korean and English, too. Wiktionary\'s descendants list for 막내 records borrowings into Japanese, as マンネ (manne) and マッネ (ma\'ne), into Mandarin, as 忙內/忙内 (mángnèi), and into Russian, as макнэ́ (maknɛ́), a spread that roughly tracks where K-pop fandom itself has grown largest.',
+					'The word has traveled well past Korean and English, too. Wiktionary\'s descendants list for 막내 records borrowings into Japanese, as マンネ (manne) and マッネ (ma\'ne), into Mandarin, as 忙內/忙内 (mángnèi), and into Russian, as макнэ́ (maknɛ́), examples of borrowings rather than a ranking of the size of K-pop fandoms.',
 				],
 			},
 		],
 		faq: [
 			{
 				question: 'What does "maknae" mean?',
-				answer: 'It marks whoever joined last: a household\'s last-born child, a fresh hire still finding their footing, or an idol group\'s most junior member. One label covers a lot of different "youngest" situations, not just the K-pop one most English speakers meet it through first.',
+				answer: "It identifies whoever is youngest within the relevant family or team. In an idol band, that means its youngest performer. A colleague hired yesterday need not qualify: the person may be older than everyone already employed.",
 			},
 			{
 				question: 'Is "maknae" or "mangnae" the correct spelling?',
@@ -6854,7 +6854,7 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'Is "maknae" only a K-pop term?',
-				answer: 'Not originally, and not even mostly. Families, offices, and friend groups all used the word long before any idol group existed, back to a documented 18th-century root. It even has a formal opposite, maji, "eldest," a pairing that casual internet slang almost never bothers building.',
+				answer: "No. Its Korean uses include the youngest child at home and the person with the lowest age in a team. The etymological source records an eighteenth-century antecedent, so its history begins before idol entertainment.",
 			},
 			{
 				question: 'What is a "maknae line"?',
@@ -6881,18 +6881,18 @@ export const guides: Guide[] = [
 	{
 		slug: 'spanish-future-perfect',
 		category: 'Grammar',
-		title: 'Spanish Compound Future: A Guess, Not a Prediction',
-		description: 'The Spanish future perfect, habré hablado, looks like a plain prediction. Its most common real job is guessing about something that has probably already happened.',
+		title: 'Spanish Future Perfect: Completed Future Actions and Guesses About the Past',
+		description: 'The Spanish future perfect, habré hablado, looks like a plain prediction. It can also express a guess about something that has already happened.',
 		published: '2026-09-09',
-		updated: '2026-09-09',
-		coreSummary: 'The Spanish future perfect (futuro compuesto) combines the future tense of haber with an unchanging past participle: habré hablado, habrás comido, habrá vivido. Per the Real Academia Española, it marks anteriority, one future action finishing before a later reference point, but its far more common everyday role is a hedge about the past: guessing that something has probably already happened, roughly equivalent to English "must have."',
+		updated: '2026-10-12',
+		coreSummary: 'The Spanish future perfect (futuro compuesto) combines the future tense of haber with an unchanging past participle: habré hablado, habrás comido, habrá vivido. Per the Real Academia Española, it marks anteriority, one future action finishing before a later reference point, it also has a modal use that hedges about the past: guessing that something has probably already happened, roughly equivalent to English "must have."',
 		language: 'Spanish',
 		sections: [
 			{
-				heading: '"Habrá salido" doesn\'t mean "she will have left"',
+				heading: '"Habrá salido" can mean "she has probably left"',
 				body: [
-					'Translated word for word, the Spanish future perfect looks like a strictly future-facing tense: *habré terminado* becomes "I will have finished," a form English reserves for one job, marking that something is done before a later point. Spanish keeps that job too, further down. But open a real conversation and the far more common use of the tense is a guess about something that has probably already happened. The phone rings, nobody picks up, and a Spanish speaker says *"Habrá salido ya"*: not "she will have left," but "she\'s probably left already."',
-					'The Real Academia Española\'s own grammar gives essentially the same example with a different verb: *"Me habré confundido al anotar el número"*, which it glosses as roughly "I must have gotten the number wrong when I wrote it down," not any statement about a future mistake. That gap between the literal English translation and the actual meaning is the single biggest trap in this tense, and it mirrors a trap Spanish\'s [simple future tense sets for the exact same reason](/spanish-future-tense/): both tenses can drop their future meaning entirely and turn into a guess instead.',
+					'The Spanish future perfect can mark completion before a future reference point: Para las ocho habrá salido means "By eight she will have left." In another context, No contesta. Habrá salido ya means "She is not answering. She has probably left already." The surrounding sentence determines whether it is a prediction or a conjecture.',
+					'The Real Academia Española\'s own grammar gives essentially the same example with a different verb: *"Me habré confundido al anotar el número"*, which it glosses as roughly "I must have gotten the number wrong when I wrote it down," not any statement about a future mistake. That gap between the literal English translation and the actual meaning is a translation trap. The [Spanish simple future](/spanish-future-tense/) also has a conjectural use; identifying that shared use does not rank either use by frequency.',
 				],
 				image: {
 					src: '/images/spanish-future-perfect-diagram.svg',
@@ -6909,36 +6909,36 @@ export const guides: Guide[] = [
 			{
 				heading: 'Fourteen verbs whose participle isn\'t just -ado or -ido',
 				body: [
-					'A closed set of Spanish participles, the ones the Real Academia Española calls *participios fuertes* or *irregulares*, replace the expected *-ado*/*-ido* ending with a stressed-root form instead: *abierto* (abrir), *absuelto* (absolver), *cubierto* (cubrir), *dicho* (decir), *disuelto* (disolver), *escrito* (escribir), *hecho* (hacer), *muerto* (morir), *puesto* (poner), *resuelto* (resolver), *roto* (romper), *satisfecho* (satisfacer), *visto* (ver), and *vuelto* (volver). Every one of these plugs straight into the future perfect the same way a regular participle would: *habrá dicho, habremos hecho, habrán vuelto*.',
-					'A smaller handful of verbs have two competing participles that both stay in real use, one regular and one irregular: *imprimir* gives both *imprimido* and *impreso*, *freír* gives both *freído* and *frito*, and *proveer* gives both *proveído* and *provisto*. Per RAE, either form works in a compound tense (*hemos imprimido veinte ejemplares*, *habían impreso las copias* are both attested), but the split isn\'t random: the regular form shows up more in present- and future-facing compounds, while the irregular form is more common looking backward, in a pluperfect like *había impreso*. Reached for as a plain adjective instead of part of a verb phrase, only the irregular form is standard: *libros impresos*, *huevos fritos*, never *imprimidos* or *freídos*.',
+					'These examples of Spanish participles, the ones the Real Academia Española calls *participios fuertes* or *irregulares*, replace the expected *-ado*/*-ido* ending with a stressed-root form instead: *abierto* (abrir), *absuelto* (absolver), *cubierto* (cubrir), *dicho* (decir), *disuelto* (disolver), *escrito* (escribir), *hecho* (hacer), *muerto* (morir), *puesto* (poner), *resuelto* (resolver), *roto* (romper), *satisfecho* (satisfacer), *visto* (ver), and *vuelto* (volver). Every one of these plugs straight into the future perfect the same way a regular participle would: *habrá dicho, habremos hecho, habrán vuelto*.',
+					'A smaller handful of verbs have two competing participles that both stay in real use, one regular and one irregular: *imprimir* gives both *imprimido* and *impreso*, *freír* gives both *freído* and *frito*, and *proveer* gives both *proveído* and *provisto*. Per RAE, either form works in a compound tense (*hemos imprimido veinte ejemplares*, *habían impreso las copias* are both attested), but the split isn\'t random: the DPD entries for imprimir and freír allow both forms in compound tenses and passive constructions. They describe a general preference for impreso and frito, not a rule assigning forms to future versus past time. Reached for as a plain adjective instead of part of a verb phrase, impreso is preferred and frito is used almost exclusively: libros impresos and huevos fritos.',
 				],
 			},
 			{
 				heading: 'The genuinely future use: marking which of two future events finishes first',
 				body: [
 					'The straightforward, future-facing use of this tense is anteriority: one action will be complete before a second, later point that is itself still ahead of now. *"Para cuando llegues a casa, ya habré terminado de cocinar la cena"* ("By the time you get home, I\'ll have already finished cooking dinner") sets up two future moments, your arrival and the finished dinner, and places the second one before the first. *"Habré leído todo el libro para el lunes"* ("I\'ll have read the whole book by Monday") makes the same point with a deadline in place of an event.',
-					'This use shows up mostly in planning, writing, and formal or careful speech, the kind of sentence built around a *para cuando*, *cuando*, or *antes de que* clause that fixes the later reference point. It\'s a real, standard part of the tense, and worth recognizing, but it turns up in ordinary conversation far less often than the conjecture use covered next.',
+					'Planning and deadlines provide clear examples of the future-facing use. A para cuando clause or a date can establish the later reference point. The RAE glossary describes both anteriority and conjecture, without ranking their overall frequency in everyday conversation.',
 				],
 			},
 			{
 				heading: 'The conjecture use: guessing about the past, not the future',
 				body: [
-					'The use that actually dominates spoken Spanish points backward. RAE describes the compound future of conjecture as roughly equivalent to a present perfect plus a modal marker of probability: *"Habrá estado enfermo"* works out to about *"Probablemente ha estado enfermo"* ("He\'s probably been sick"). The tense itself carries the hedge; no separate word for "probably" is required, though Spanish speakers can and do add one anyway for emphasis.',
-					'More examples read naturally in everyday contexts: *"No contesta el teléfono. Habrá salido ya"* ("He\'s not picking up. He must have already left"), or *"Habrán llegado tarde por el tráfico"* ("They probably arrived late because of the traffic"). This is the exact same modal trick Spanish\'s [simple future tense uses to guess about right now](/spanish-future-tense/), just aimed one step further back: it targets something already finished, not something unfolding this very moment. *Serán las tres* guesses about the present; *habrán llegado* guesses about the past.',
+					'The conjecture use points backward. RAE describes the compound future of conjecture as roughly equivalent to a present perfect plus a modal marker of probability: *"Habrá estado enfermo"* works out to about *"Probablemente ha estado enfermo"* ("He\'s probably been sick"). The tense itself carries the hedge; no separate word for "probably" is required, though Spanish speakers can and do add one anyway for emphasis.',
+					'More examples read naturally in everyday contexts: *"No contesta el teléfono. Habrá salido ya"* ("He\'s not picking up. He must have already left"), or *"Habrán llegado tarde por el tráfico"* ("They probably arrived late because of the traffic"). The [Spanish simple future](/spanish-future-tense/) can express a conjecture about the present. In this compound-future example, it targets something already finished, not something unfolding this very moment. *Serán las tres* guesses about the present; *habrán llegado* guesses about the past.',
 				],
 			},
 			{
 				heading: 'Habrá llegado vs. ha llegado vs. probablemente ha llegado',
 				body: [
 					'Three ways of saying roughly the same thing carry different weights of certainty. *Ha llegado* ("she\'s arrived") states it as settled fact. *Habrá llegado* ("she\'s probably arrived") carries the uncertainty inside the verb form itself, no extra word needed. *Probablemente ha llegado* says the identical thing by bolting an adverb onto the plain present perfect, with no tense change at all. All three are grammatical, but only the middle one lets the tense itself do the hedging, which is why it\'s worth learning as its own form, not just as a stylistic variant of the present perfect.',
-					'This compound-tense structure, an auxiliary\'s own tense plus an unchanging participle, isn\'t unique to Spanish. [German\'s Perfekt builds the same way](/german-perfect-tense/), a present-tense haben or sein plus an unchanging Partizip II, though the two languages\' compound tenses don\'t line up use-for-use beyond that shared architecture. Spanish\'s own six-tense everyday core, including where this compound future sits relative to the simple forms, is [laid out in full on the site\'s tense overview](/spanish-verb-tenses-chart/).',
+					'This compound-tense structure, an auxiliary\'s own tense plus an unchanging participle, isn\'t unique to Spanish. [German Perfekt](/german-perfect-tense/) also combines an auxiliary and a participle: a present-tense haben or sein plus an unchanging Partizip II, though the two languages\' compound tenses don\'t line up use-for-use beyond that shared architecture. A selection of Spanish tenses, including where this compound future sits relative to the simple forms, is [laid out on the site\'s tense overview](/spanish-verb-tenses-chart/).',
 				],
 			},
 		],
 		faq: [
 			{
 				question: 'Does "habré hablado" always mean "I will have spoken"?',
-				answer: 'No. That literal translation only covers one of its two real uses, the anteriority use, where one future action wraps up ahead of some other, still-later moment, as in para el viernes ya habré entregado el informe (by Friday, the report will be turned in). More often, Spanish reaches for this tense as a futuro de conjetura, floating a likely explanation for whatever\'s evidently over and done with: "Habrá salido" means she has most likely gone already; it isn\'t predicting anything that hasn\'t happened yet.',
+				answer: 'No. That literal translation only covers one of its two real uses, the anteriority use, where one future action wraps up ahead of some other, still-later moment, as in para el viernes ya habré entregado el informe (by Friday, the report will be turned in). The tense can also serve as a futuro de conjetura, floating a likely explanation for whatever\'s evidently over and done with: "Habrá salido" means she has most likely gone already; it isn\'t predicting anything that hasn\'t happened yet.',
 			},
 			{
 				question: 'How do you form the Spanish future perfect?',
@@ -6946,19 +6946,19 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'Which participles are irregular in the Spanish future perfect?',
-				answer: 'The same set that\'s irregular in every haber-based compound tense: abierto (abrir), dicho (decir), escrito (escribir), hecho (hacer), muerto (morir), puesto (poner), roto (romper), visto (ver), vuelto (volver), plus absuelto, cubierto, disuelto, resuelto, and satisfecho. A few verbs, like imprimir and freír, keep two coexisting participles (imprimido/impreso, freído/frito); RAE treats both as valid ways to build a compound form, with the regular one turning up more when the sentence points ahead and the irregular one turning up more when it points back, as in a pluperfect.',
+				answer: 'The same set that\'s irregular in every haber-based compound tense: abierto (abrir), dicho (decir), escrito (escribir), hecho (hacer), muerto (morir), puesto (poner), roto (romper), visto (ver), vuelto (volver), plus absuelto, cubierto, disuelto, resuelto, and satisfecho. A few verbs, like imprimir and freír, keep two coexisting participles (imprimido/impreso, freído/frito); RAE treats both as valid ways to build a compound form, without making the choice depend on whether the event lies ahead or in the past.',
 			},
 			{
 				question: 'What\'s the difference between "habrá llegado" and "llegará"?',
-				answer: 'Llegará is the plain simple future: "she will arrive," a straightforward prediction about something not yet complete. Habrá llegado belongs to the other tense this article covers, and in its most common use it isn\'t predicting arrival at all; it\'s floating a guess that the arrival is already behind us: "she has probably arrived." One form points forward at what hasn\'t happened yet; the other points backward at what likely already has.',
+				answer: "An arrival next week might be predicted with llegará; a deadline can make habrá llegado a forecast of an arrival completed by then. Context can also give either form a modal interpretation: uncertainty about a present situation with the simple form, or about a completed arrival with the compound.",
 			},
 			{
 				question: 'Is the future perfect common in everyday spoken Spanish?',
-				answer: 'Its conjecture use is genuinely common, reached for constantly to float a likely explanation for whatever\'s evidently over with already. Its literal future use, marking that one future event finishes before another, is real but leans toward written and formal contexts rather than casual talk, similar to how the simple future itself gets crowded out by ir a + infinitive in everyday conversation.',
+				answer: "The Academy describes a frequent conjectural reading, illustrated by Me habré confundido. It also allows a future deadline to establish when an action must be finished. Those descriptions are not a spoken-language frequency table comparing the two readings.",
 			},
 			{
 				question: 'What are examples of future perfect tense?',
-				answer: 'Habré salido means "I will have left" when a later deadline is understood; habremos comido means "we will have eaten." Those same forms can also describe an uncertain conclusion about a past action. The [RAE glossary](https://www.rae.es/gtg/futuro-compuesto-de-indicativo) gives both readings, so the surrounding sentence determines the translation.',
+				answer: "Habré hablado can be \"I will have spoken\" with an upcoming deadline, or \"I must have spoken\" as a supposition. The meaning must be read in context. The [RAE glossary](https://www.rae.es/gtg/futuro-compuesto-de-indicativo) explains the completed-action and supposition readings.",
 			},
 		],
 		sources: [

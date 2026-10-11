@@ -3,7 +3,7 @@
 
 	<rect x="24" y="24" width="852" height="72" rx="10" fill="#3a3a52"/>
 	<text x="450" y="56" text-anchor="middle" fill="#ffffff" font-size="19" font-weight="700">"QUE SERA SERA": NOT CORRECT SPANISH OR ITALIAN, AS WRITTEN</text>
-	<text x="450" y="82" text-anchor="middle" fill="#d8d6e6" font-size="13.5">que/che alone can't carry "that which" the way English "what" does</text>
+	<text x="450" y="82" text-anchor="middle" fill="#d8d6e6" font-size="13.5">For this intended meaning: lo que (Spanish) / quel che (Italian)</text>
 
 	<!-- Column 1: the grammar fix -->
 	<rect x="24" y="120" width="270" height="390" rx="10" fill="#fffefa" stroke="#ddd8c4"/>
@@ -14,7 +14,7 @@
 	<g font-size="13.5">
 		<text x="46" y="196" fill="#5a5648">Popularly written:</text>
 		<text x="46" y="216" font-weight="700" fill="#201f1a">Que será, será</text>
-		<text x="46" y="234" fill="#5a5648">Que serà, serà</text>
+		<text x="46" y="234" fill="#5a5648">Che sarà, sarà</text>
 
 		<text x="46" y="272" fill="#5a5648">Standard Spanish:</text>
 		<text x="46" y="292" font-weight="700" fill="#201f1a">Lo que será, será</text>
@@ -22,12 +22,12 @@
 		<text x="46" y="326" fill="#5a5648">Standard Italian:</text>
 		<text x="46" y="346" font-weight="700" fill="#201f1a">Quel che sarà, sarà</text>
 
-		<text x="46" y="386" font-weight="700" fill="#201f1a">Why "que"/"che" fails</text>
+		<text x="46" y="386" font-weight="700" fill="#201f1a">The intended relative sense</text>
 		<text x="46" y="404" fill="#5a5648">English "what" doubles as</text>
-		<text x="46" y="420" fill="#5a5648">question word and "that</text>
-		<text x="46" y="436" fill="#5a5648">which." Que/che only do</text>
-		<text x="46" y="452" fill="#5a5648">the question-word job;</text>
-		<text x="46" y="468" fill="#5a5648">lo/quel supply the rest.</text>
+		<text x="46" y="420" fill="#5a5648">a question or "that</text>
+		<text x="46" y="436" fill="#5a5648">which." In this phrase,</text>
+		<text x="46" y="452" fill="#5a5648">lo que / quel che form</text>
+		<text x="46" y="468" fill="#5a5648">the relative expression.</text>
 	</g>
 
 	<!-- Column 2: before the song -->
