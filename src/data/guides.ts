@@ -1654,19 +1654,19 @@ export const guides: Guide[] = [
 		title: 'Spanish Pronouns: Seven Families and Their Different Forms',
 		description: 'Subject, object, reflexive, prepositional, possessive, demonstrative and relative pronouns do different jobs. Some share forms; others mark gender, number or register.',
 		published: '2026-08-06',
-		updated: '2026-10-11',
+		updated: '2026-10-12',
 		coreSummary: 'This guide covers seven pronoun families: subject, object, reflexive, prepositional, possessive, demonstrative and relative. The object and reflexive sets share me, te, nos and os, while prepositional forms include mí and ti. Regional subject forms include vosotros, ustedes and vos. Object pronouns carry enough internal complexity, including the lo/la versus le/les split and how the two fuse into pairs like se lo, to need their own two dedicated guides, not just a short summary here.',
 		language: 'Spanish',
 		sections: [
 			{
-				heading: 'One search term, six different grammatical jobs',
+				heading: 'One search term, seven different grammatical jobs',
 				body: [
 					'"Spanish pronouns" isn\'t one grammar topic. The first six families have different jobs; relative pronouns add a seventh, linking clauses. A subject pronoun (*yo*, *tú*) tells you who\'s performing the verb. An object pronoun (*lo*, *le*) tells you who or what is receiving the action. A reflexive pronoun (*se*) tells you the subject and the object are the same entity. A prepositional pronoun (*mí*, *conmigo*) only ever follows a preposition. A possessive pronoun (*mío*, *suyo*) stands in for "my [noun]" or "his [noun]" without naming the noun. A demonstrative pronoun (*esto*, *aquello*) points at something without naming it at all.',
-					'The good news: Spanish reuses the same small set of forms across most of these families. *Me*, *te*, *nos*, and *os* show up, unchanged, as object pronouns, reflexive pronouns, but prepositional pronouns use a different set, including mí and ti. The learning curve isn\'t spread evenly across the whole system. It concentrates almost entirely in the third person, where the families actually diverge from each other, and in a handful of regional splits that change which subject pronoun a whole country uses.',
+					'Some forms recur in more than one family: *me*, *te*, *nos*, and *os* serve as object and reflexive pronouns. Prepositional forms include mí and ti instead. Third-person object choices and regional subject forms are two areas that need separate attention.',
 				],
 				image: {
 					src: '/images/spanish-pronouns-diagram.svg',
-					alt: 'Diagram of six Spanish pronoun families (subject, object, reflexive, prepositional, possessive, demonstrative), each with example forms and a sample sentence, noting that me/te/nos/os are shared across several families while the third person and region are where they actually diverge.',
+					alt: 'Diagram illustrating subject, object, reflexive, prepositional, possessive and demonstrative pronouns with examples. Object and reflexive sets share me, te, nos and os; prepositional examples include mí and ti. Relative pronouns are covered separately below.',
 				},
 			},
 			{
@@ -1984,17 +1984,17 @@ export const guides: Guide[] = [
 		slug: 'spanish-possessive-adjectives',
 		category: 'Grammar',
 		title: 'Spanish Possessive Adjectives: Mi, Tu, Su, and Why Only Some Agree in Gender',
-		description: 'Only two of Spanish\'s seven possessives change for gender. Mi, tu, and su mark number alone, su covers four owners, and vuestro exists only in Spain.',
+		description: 'Of the five basic prenominal possessives, only nuestro and vuestro change for gender. Mi, tu, and su mark number alone, su covers four owners, and vuestro exists only in Spain.',
 		published: '2026-08-09',
-		updated: '2026-09-02',
-		coreSummary: 'Spanish has seven possessive-adjective forms, but they don\'t all follow the same agreement rule: mi, tu, and su are apocopated forms that mark number only, never gender, while nuestro and vuestro carry full gender and number agreement, per the RAE\'s Nueva gramática básica de la lengua española. Su alone stands for four different owners (his, her, your-formal, their), which is why Spanish speakers routinely add a clarifying phrase like de él or de ella, and vuestro is a Spain-only form, since Latin American Spanish reuses su/sus for plural "your" the same way it already does for the subject pronoun ustedes.',
+		updated: '2026-10-12',
+		coreSummary: 'Spanish has five basic prenominal possessives, but they don\'t all follow the same agreement rule: mi, tu, and su are apocopated forms that mark number only, never gender, while nuestro and vuestro carry full gender and number agreement, per the RAE\'s Nueva gramática básica de la lengua española. Su alone stands for four different owners (his, her, your-formal, their), which is why Spanish speakers routinely add a clarifying phrase like de él or de ella, and vuestro is a Spain-only form, since Latin American Spanish reuses su/sus for plural "your" the same way it already does for the subject pronoun ustedes.',
 		language: 'Spanish',
 		sections: [
 			{
-				heading: 'Seven words, one job, two different agreement rules',
+				heading: 'Five basic forms, one job, two different agreement rules',
 				body: [
-					'A Spanish possessive placed in front of a noun (mi hermano, tu casa, su coche) is what the RAE\'s grammar glossary calls a determinante posesivo, distinct from a possessive that follows the noun (un amigo mío, la casa suya), which the Academia\'s Nueva gramática treats as behaving like an ordinary postnominal adjective. This guide covers the prenominal set, since that\'s what "mi casa" and "spanish possessive adjectives" both point at: mi/mis, tu/tus, su/sus, nuestro/nuestra/nuestros/nuestras, and vuestro/vuestra/vuestros/vuestras, seven forms covering six grammatical persons because su does double duty for third-person singular and third-person plural alike.',
-					'Two things about that list trip learners up almost immediately. First, only two of the seven forms change shape for gender; the rest stay fixed no matter what they modify. Second, su by itself is ambiguous on its own, not a learner error but an actual gap in the word\'s information, and Spanish has a fixed, everyday fix for it.',
+					'A Spanish possessive placed in front of a noun (mi hermano, tu casa, su coche) is what the RAE\'s grammar glossary calls a determinante posesivo, distinct from a possessive that follows the noun (un amigo mío, la casa suya), which the Academia\'s Nueva gramática treats as behaving like an ordinary postnominal adjective. This guide covers the prenominal set, since that\'s what "mi casa" and "spanish possessive adjectives" both point at: mi/mis, tu/tus, su/sus, nuestro/nuestra/nuestros/nuestras, and vuestro/vuestra/vuestros/vuestras, five basic forms with number and, for two of them, gender variants, covering the six grammatical persons because su does double duty for third-person singular and third-person plural alike.',
+					'Two things about that list trip learners up almost immediately. First, only nuestro and vuestro change shape for gender; the rest stay fixed no matter what they modify. Second, su by itself is ambiguous on its own, not a learner error but an actual gap in the word\'s information, and Spanish has a fixed, everyday fix for it.',
 				],
 				image: {
 					src: '/images/spanish-possessive-adjectives-diagram.svg',
@@ -2034,7 +2034,7 @@ export const guides: Guide[] = [
 				body: [
 					'Every possessive above sits in front of its noun as a determinante posesivo, per the RAE\'s grammatical glossary, legitimizing the noun phrase the same way an article does, which is why mi and un can\'t both precede casa at once (mi casa or una casa, never un mi casa). Move the long forms (mío, tuyo, suyo, nuestro, vuestro) after the noun instead, and the RAE\'s Nueva gramática treats them as ordinary postnominal adjectives: un amigo mío ("a friend of mine") needs no article beyond the un already there, and la casa es suya ("the house is hers") uses the same long form as a predicate, with no noun attached at all.',
 					'The two positions aren\'t interchangeable in feel. Mi amigo is the neutral, default way to say "my friend," with no particular emphasis on the possession itself. Un amigo mío shifts to the long form specifically to draw attention to whose friend this is, often with the sense of "one friend among several," and it\'s the structure Spanish reaches for when the point is contrast: es idea mía, no tuya ("it\'s my idea, not yours") needs the postnominal form precisely because it\'s setting one owner against another.',
-					'A third, related use goes further still: when the possessive stands in for the noun entirely rather than modifying it, it crosses into a different grammatical category, a possessive pronoun rather than a possessive adjective, typically requiring the definite article (el mío, la suya) when it isn\'t simply following ser. That\'s a separate set of rules from the ones on this page; [the full possessive-pronoun paradigm, alongside Spanish\'s five other pronoun families](/spanish-pronouns/), covers it in depth.',
+					'A third, related use goes further still: when the possessive stands in for the noun entirely rather than modifying it, it crosses into a different grammatical category, a possessive pronoun rather than a possessive adjective, typically requiring the definite article (el mío, la suya) when it isn\'t simply following ser. That\'s a separate set of rules from the ones on this page; [the full possessive-pronoun paradigm, alongside the other pronoun families covered in that guide](/spanish-pronouns/), covers it in depth.',
 				],
 			},
 		],
@@ -3288,7 +3288,7 @@ export const guides: Guide[] = [
 		title: 'Irregular Preterite Verbs in Spanish: The Patterns Behind the Chaos',
 		description: 'Spanish\'s irregular preterite verbs look like they need pure memorization. Most of the common ones don\'t; they sort into a handful of predictable stem families.',
 		published: '2026-08-16',
-		updated: '2026-09-13',
+		updated: '2026-10-12',
 		coreSummary: 'Spanish does have irregular preterite verbs, but most of the frequent ones cluster into three families that share endings once you know the new stem: a u-stem group (estar → estuve, tener → tuve, poder → pude), an i-stem group (hacer → hice, querer → quise, venir → vine), and a j-stem group (decir → dije, traer → traje) that drops the i before -eron, so dijeron, not dijieron. Dar, ver, ir, and ser sit outside all three families with their own forms, and a separate group of -ir verbs (pedir, dormir) only shifts in the third person, which is a different phenomenon from true stem irregularity.',
 		language: 'Spanish',
 		sections: [
@@ -3304,7 +3304,7 @@ export const guides: Guide[] = [
 				body: [
 					'Eight common verbs replace their stem with one containing -u- in the preterite, then all take the same endings: -e, -iste, -o, -imos, -isteis, -ieron, with no written accents anywhere in the paradigm. The verbs: andar → anduv-, estar → estuv-, poder → pud-, poner → pus-, saber → sup-, tener → tuv-, haber → hub-, caber → cup-.',
 					'Take estar as the model: estuve, estuviste, estuvo, estuvimos, estuvisteis, estuvieron. Swap in any of the other seven stems and the endings don\'t change at all. *Estuve en Madrid la semana pasada* ("I was in Madrid last week"). *Tuve que salir temprano* ("I had to leave early"). *No pudimos terminar a tiempo* ("We couldn\'t finish on time").',
-					'Notice there\'s no accent on estuve or estuvo, unlike a regular -ar preterite like hablé or habló. That\'s consistent across every irregular preterite stem covered on this page: the accent marks that distinguish regular yo/él forms (hablé vs. hable, the present subjunctive) simply don\'t apply once the stem itself is irregular, because there\'s no longer a regular form to distinguish from. The endings themselves, for every one of these irregular stems, still closely echo the [regular -er/-ir preterite set](/spanish-preterite-endings/), just with a bare -e and -o standing in for the accented -í and -ió in the yo and él forms; what makes a verb irregular here is only ever the stem, never an unrelated ending list.',
+					'Notice there\'s no accent on estuve or estuvo, unlike a regular -ar preterite like hablé or habló. That\'s consistent across every irregular preterite stem covered on this page: the accent marks that distinguish regular yo/él forms (hablé vs. hable, the present subjunctive) simply don\'t apply once the stem itself is irregular, because there\'s no longer a regular form to distinguish from. The endings themselves, for every one of these irregular stems, still closely echo the [regular -er/-ir preterite set](/spanish-preterite-endings/), with -e and -o in place of -í and -ió for yo and él. The j-stem verbs finish their ellos/ellas/ustedes forms in -eron, omitting the i of -ieron.',
 				],
 				image: {
 					src: '/images/irregular-preterite-verbs-spanish-diagram.svg',
@@ -3323,7 +3323,7 @@ export const guides: Guide[] = [
 				heading: 'Two verbs that don\'t fit any family: dar and ver',
 				body: [
 					'Dar is an -ar verb, so by the regular pattern it should take -é, -aste, -ó, -amos, -asteis, -aron. It doesn\'t. Instead, dar borrows the -er/-ir ending set with the accents removed: di, diste, dio, dimos, disteis, dieron. *Me dio su número de teléfono* ("She gave me her phone number"). There\'s no stem change here (the stem is just d-), only a borrowed ending set, which makes dar irregular for a different reason than the u/i/j-stem verbs above.',
-					'Ver keeps the regular -er endings, but drops every written accent because its stem is just a single vowel: vi, viste, vio, vimos, visteis, vieron. Compare that to a regular -er verb like comer (comí, comió, with accents on the í and ió) and the missing accents on vi and vio stand out immediately. *Vi la película ayer* ("I saw the movie yesterday").',
+					'Ver keeps the regular -er endings, but drops every written accent in the monosyllabic forms vi and vio; its paradigm is vi, viste, vio, vimos, visteis, vieron. Compare that to a regular -er verb like comer (comí, comió, with accents on the í and ió) and the missing accents on vi and vio stand out immediately. *Vi la película ayer* ("I saw the movie yesterday").',
 					'Both dar and ver used to be written with accents on their third-person singular forms, dió and vió, before a 1959 Real Academia Española spelling reform removed accent marks from one-syllable words as a general rule, with only a small set of diacritical exceptions (like sí "yes" versus si "if") kept for meaning. Dió and vió are now considered misspellings, but they still turn up in older books and in writing by people who learned the pre-reform convention.',
 				],
 			},
@@ -3374,7 +3374,7 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'Are dar and ver irregular in the preterite?',
-				answer: 'Yes, though not for the same reason as the stem-family verbs above. Dar, technically an -ar verb, takes the same six person-endings as an -er/-ir verb but drops every accent, giving di for yo and dio for él/ella. Ver\'s forms carry no accent either, but for another reason entirely: its stem is a single letter, so there\'s no vowel cluster left to mark, producing vi for yo and vio for él/ella. Neither verb involves a changed stem the way estar → estuve or hacer → hice does.',
+				answer: 'Yes, though not for the same reason as the stem-family verbs above. Dar, technically an -ar verb, takes the same six person-endings as an -er/-ir verb but drops every accent, giving di for yo and dio for él/ella. Vi and vio follow the spelling rule for single-syllable words, which normally have no written accent. The other forms are viste, vimos, visteis and vieron. Neither verb involves a changed stem the way estar → estuve or hacer → hice does.',
 			},
 			{
 				question: 'How do you tell "fui" the ir-verb from "fui" the ser-verb apart?',
@@ -3400,11 +3400,11 @@ export const guides: Guide[] = [
 		title: 'Spanish Imperfect Endings: The Two Patterns and Three Exceptions',
 		description: 'Every regular Spanish verb takes one of only two endings sets in the imperfect. The accent marks aren\'t random either: two separate spelling rules decide exactly where they land.',
 		published: '2026-08-16',
-		updated: '2026-09-16',
+		updated: '2026-10-12',
 		coreSummary: 'Regular Spanish verbs take one of only two endings sets in the imperfect: -ar verbs use -aba, -abas, -aba, -ábamos, -abais, -aban, while -er and -ir verbs share a single set, -ía, -ías, -ía, -íamos, -íais, -ían, with no split between the two conjugations at all. Only three verbs break from these patterns: ir (iba...) and ser (era...) are fully irregular, while ver (veía...) barely counts as an exception, since it keeps the regular -ía endings and only trims its own stem.',
 		language: 'Spanish',
 		usageNote: {
-			regionNote: 'Voseo, the vos-based system used instead of tú across much of Central America, Argentina, Uruguay, and parts of Chile, does not touch the imperfect at all. Vos takes the exact same imperfect forms as tú (vos hablabas, vos comías), unlike the present tense, where vos has its own distinct forms (vos hablás, not tú hablas). The imperfect, along with the preterite, future, conditional, and subjunctive, is one of the tenses where voseo and tuteo speakers use identical conjugations; only the present indicative and the informal imperative carry a separate vos paradigm.',
+			regionNote: 'Voseo, the vos-based system used instead of tú in several regions of the Americas, usually leaves the imperfect unchanged. Vos takes the exact same imperfect forms as tú (vos hablabas, vos comías), unlike the present tense, where vos has its own distinct forms (vos hablás, not tú hablas). The RAE says voseo does not usually alter the imperfect, while noting Chilean forms such as hablabai. Voseo patterns differ by region and can also affect the subjunctive and other tenses.',
 		},
 		sections: [
 			{
@@ -3459,7 +3459,7 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'Does vos change the imperfect endings?',
-				answer: 'No. Voseo has its own conjugation in only two slots, the present tense and the informal command form. Everywhere else, imperfect included, vos simply borrows tú\'s forms: vos jugabas, vos leías, vos vivías.',
+				answer: 'Usually the forms match tú: vos jugabas, vos leías and vos vivías. Chilean speakers may say hablabai, a regional ending listed by the RAE. Distinct vos conjugations are not restricted to the indicative present and commands; their extent depends on the region.',
 			},
 			{
 				question: 'What are the imperfect endings for -ar verbs?',
@@ -4959,11 +4959,11 @@ export const guides: Guide[] = [
 		title: 'Spanish Present Tense Endings: The One Tense With No Time Marker',
 		description: 'Every Spanish tense has its own audible marker, future\'s -ré, imperfect\'s -aba, except the present, which RAE\'s own grammar treats as a genuinely unmarked tense.',
 		published: '2026-08-23',
-		updated: '2026-08-23',
-		coreSummary: 'Spanish present tense endings split by conjugation only in the nosotros and vosotros forms (-ar: -o, -as, -a, -amos, -áis, -an; -er: -o, -es, -e, -emos, -éis, -en; -ir: -o, -es, -e, -imos, -ís, -en), and Real Academia Española\'s own grammatical glossary treats the present as a genuinely unmarked tense, its tense-mood information carried by what RAE calls a morfema cero (zero morpheme), unlike the future\'s audible -ré or the imperfect\'s audible -aba. Most yo-form irregularities that look random reduce to one of two real phonological rules: a /g/ or /ig/ sound inserted before roots ending in -l, -n, -s, -i, or -z (tengo, salgo, oigo, caigo, yazgo), or a spelling swap, g/j or c/z, that exists purely to keep the infinitive\'s consonant sound intact (cojo, venzo).',
+		updated: '2026-10-12',
+		coreSummary: 'Spanish present tense endings have separate -ar and -er/-ir patterns; -er and -ir differ only in the nosotros and vosotros forms (-ar: -o, -as, -a, -amos, -áis, -an; -er: -o, -es, -e, -emos, -éis, -en; -ir: -o, -es, -e, -imos, -ís, -en), and Real Academia Española\'s own grammatical glossary treats the present as a genuinely unmarked tense, its tense-mood information carried by what RAE calls a morfema cero (zero morpheme), unlike the future\'s audible -ré or the imperfect\'s audible -aba. Most yo-form irregularities that look random reduce to one of two real phonological rules: a /g/ or /ig/ sound inserted before roots ending in -l, -n, -s, -i, or -z (tengo, salgo, oigo, caigo, yazgo), or a spelling swap, g/j or c/z, that exists purely to keep the infinitive\'s consonant sound intact (cojo, venzo).',
 		language: 'Spanish',
 		usageNote: {
-			regionNote: 'Voseo is one of the few places where the present tense really does change. Vos takes stress-final forms with no diphthong at all, hablás, comés, vivís, not tú\'s hablas, comes, vives, which is also why voseo regularizes verbs that are stem-changing under tú: vos querés and vos podés, never vos quieres or vos puedes. Per Real Academia Española\'s own dictionary of doubts, every other tense (preterite, imperfect, future, conditional, subjunctive) uses the identical form for vos and tú; the present indicative and the informal imperative are the only two places voseo has its own distinct paradigm.',
+			regionNote: 'Voseo is one of the few places where the present tense really does change. Vos takes stress-final forms with no diphthong at all, hablás, comés, vivís, not tú\'s hablas, comes, vives, which is also why voseo regularizes verbs that are stem-changing under tú: vos querés and vos podés, never vos quieres or vos puedes. The RAE documents regional differences in other tenses too, including the present subjunctive. The forms shown here are the common stress-final present indicative pattern, not a complete account of every variety of voseo.',
 		},
 		sections: [
 			{
@@ -4987,7 +4987,7 @@ export const guides: Guide[] = [
 			{
 				heading: 'The -go verbs: a real sound-preserving rule, not a memorization list',
 				body: [
-					'A long list of common verbs look irregular only in the yo form, and end in -go: tengo, salgo, pongo, vengo, valgo. Per Real Academia Española\'s own reference on consonantal irregularities, this isn\'t a random pattern; it\'s a documented sound insertion, called epenthesis, that shows up in verbs whose root ends in -l (salir → salgo, valer → valgo), -n (poner → pongo, tener → tengo, venir → vengo), -s (asir → asgo, a rare verb), -i (oír → oigo), or -z (yacer, an archaic verb for "to lie [down]," which the RAE itself says admits three accepted yo forms, yazco, yazgo, and yago, with the -go and -zc- patterns competing side by side). Caer and traer, and the rarer raer and roer, take a slightly different version of the same insertion, adding -ig- rather than a plain -g-: caigo, traigo. In every one of these verbs, only the yo form is affected; tú, él, nosotros, and the rest of the paradigm conjugate on the regular stem (sales, pone, viene, cae, trae).',
+					'A long list of common verbs look irregular only in the yo form, and end in -go: tengo, salgo, pongo, vengo, valgo. Per Real Academia Española\'s own reference on consonantal irregularities, this isn\'t a random pattern; it\'s a documented sound insertion, called epenthesis, that shows up in verbs whose root ends in -l (salir → salgo, valer → valgo), -n (poner → pongo, tener → tengo, venir → vengo), -s (asir → asgo, a rare verb), -i (oír → oigo), or -z (yacer, an archaic verb for "to lie [down]," which the RAE itself says admits three accepted yo forms, yazco, yazgo, and yago, with the -go and -zc- patterns competing side by side). Caer and traer, and the rarer raer and roer, take a slightly different version of the same insertion, adding -ig- rather than a plain -g-: caigo, traigo. Within the present indicative, the -g- insertion appears in yo. Some of these verbs also have vowel changes elsewhere, as in tienes and viene, and the -g- stem extends into the present subjunctive (tenga, venga).',
 					'Six verbs sit outside even this pattern because their yo forms don\'t end in a plain -o at all: soy, estoy, voy, doy end in -oy, sé ends in -é, and he doesn\'t take an -o ending at all. [Those six](/subjunctive-spanish/) are also the ones whose irregularity carries straight through into the subjunctive, since the subjunctive stem is normally built by stripping the -o off the present-tense yo form. A separate, larger family, verbs like conocer and conducir that add a /k/ sound before the yo ending (conozco, conduzco), is covered in full among the [irregular Spanish verbs classified by root type](/irregular-spanish-verbs/), since it belongs to the same consonantal-irregularity category RAE groups the -go verbs under, just a different inserted sound.',
 				],
 			},
@@ -5002,7 +5002,7 @@ export const guides: Guide[] = [
 		faq: [
 			{
 				question: 'What are the regular Spanish present tense endings?',
-				answer: '-Ar verbs use -o for yo, -as for tú, -a for él/ella, -amos for nosotros, -áis for vosotros, and -an for ellos, giving forms like hablo and habláis. That same set covers -er and -ir verbs too, apart from two spots: -er verbs use -emos, -éis (comemos, coméis), while -ir verbs use -imos, -ís (vivimos, vivís).',
+				answer: '-Ar verbs use -o for yo, -as for tú, -a for él/ella, -amos for nosotros, -áis for vosotros, and -an for ellos, giving forms like hablo and habláis. For -er and -ir verbs, the shared endings are -o, -es, -e and -en. Their plural first- and second-person forms differ: -er adds -emos/-éis, whereas -ir adds -imos/-ís, as in comemos versus vivimos.',
 			},
 			{
 				question: "Why doesn't Spanish present tense have a special ending the way the future or imperfect does?",
@@ -5010,7 +5010,7 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'Why do so many common Spanish verbs end in -go in the yo form?',
-				answer: "Linguists call the pattern epenthesis, and it's tied to the sound at the end of the root rather than being a random list to memorize. A root ending in -l picks it up (salir turns into salgo), and so does a root ending in -n (poner → pongo and tener → tengo among them), the rare -s verb asir (→ asgo), a root ending in -i such as oír (→ oigo), and -z (yacer, where the RAE recognizes three coexisting yo forms: yago, yazgo, and yazco). Caer and traer take a related -ig- insertion instead (caigo, traigo). None of these changes ever spread past that one yo slot.",
+				answer: "Linguists call the pattern epenthesis, and it's tied to the sound at the end of the root rather than being a random list to memorize. A root ending in -l picks it up (salir turns into salgo), and so does a root ending in -n (poner → pongo and tener → tengo among them), the rare -s verb asir (→ asgo), a root ending in -i such as oír (→ oigo), and -z (yacer, where the RAE recognizes three coexisting yo forms: yago, yazgo, and yazco). Caer and traer take a related -ig- insertion instead (caigo, traigo). Ponga illustrates the subjunctive use of this consonant, retained from pongo.",
 			},
 			{
 				question: 'Is "cojo" (from coger) an irregular verb?',
@@ -5018,7 +5018,7 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'Does vos change the present tense endings?',
-				answer: "Yes, this is one of the few tenses where it does. Vos puts the stress on the final syllable and drops the diphthong entirely, so pensás, tenés, and venís replace tú's piensas, tienes, and vienes. That's also why verbs that normally shift their stem vowel get regularized under vos: vos podés and vos querés, never vos puedes or vos quieres. Every other tense uses identical forms for vos and tú.",
+				answer: "Yes, this is one of the few tenses where it does. Vos puts the stress on the final syllable and drops the diphthong entirely, so pensás, tenés, and venís replace tú's piensas, tienes, and vienes. That's also why verbs that normally shift their stem vowel get regularized under vos: vos podés and vos querés, never vos puedes or vos quieres. This describes a common voseo pattern; the RAE also records regional conjugations in the subjunctive and other tenses.",
 			},
 		],
 		sources: [
