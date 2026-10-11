@@ -4,7 +4,7 @@
 
 	<rect x="24" y="24" width="752" height="56" rx="10" fill="#2f6b47"/>
 	<rect x="24" y="60" width="752" height="20" fill="#2f6b47"/>
-	<text x="400" y="60" text-anchor="middle" fill="#ffffff" font-size="18" font-weight="700">TWO PRETERITE ENDINGS SETS, THREE ACCENTS EACH</text>
+	<text x="400" y="60" text-anchor="middle" fill="#ffffff" font-size="18" font-weight="700">TWO PRETERITE ENDINGS SETS, TWO ACCENTED FORMS EACH</text>
 
 	<!-- -AR column -->
 	<rect x="42" y="98" width="352" height="330" rx="8" fill="#fbead0" stroke="#ddd8c4"/>
@@ -73,10 +73,10 @@
 	<!-- Bottom note -->
 	<rect x="42" y="446" width="716" height="200" rx="8" fill="#fbead0" stroke="#ddd8c4"/>
 	<text x="400" y="472" text-anchor="middle" fill="#5a5648" font-size="12" font-weight="700">ONE MISTAKE, SHARED BY TÚ AND VOS</text>
-	<text x="62" y="500" fill="#201f1a" font-size="12.5">Every other tú form ends in -s: hablas, hablabas, hablarás, hablarías.</text>
+	<text x="62" y="500" fill="#201f1a" font-size="12.5">Many other tú forms end in -s: hablas, hablabas, hablarás, hablarías.</text>
 	<text x="62" y="522" fill="#201f1a" font-size="12.5">The preterite breaks that pattern: hablaste has no final -s.</text>
-	<text x="62" y="554" fill="#8a3d13" font-size="13" font-weight="700">✗ hablastes, comistes, dijistes — nonstandard, from analogy with every other tú form</text>
+	<text x="62" y="554" fill="#8a3d13" font-size="13" font-weight="700">✗ hablastes, comistes, dijistes — nonstandard, from analogy with other tú forms</text>
 	<text x="62" y="580" fill="#204a31" font-size="13" font-weight="700">✓ hablaste, comiste, dijiste — the standard tú and vos form alike</text>
 	<text x="62" y="612" fill="#5a5648" font-size="11">Voseo regions (Argentina, Uruguay, parts of Central America) use these same standard forms;</text>
-	<text x="62" y="630" fill="#5a5648" font-size="11">voseo only creates its own distinct endings in the present tense and informal commands.</text>
+	<text x="62" y="630" fill="#5a5648" font-size="11">other voseo endings depend on region, including subjunctive and past forms.</text>
 </svg>

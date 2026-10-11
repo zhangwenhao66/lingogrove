@@ -729,16 +729,16 @@ export const guides: Guide[] = [
 		slug: 'ser-conjugation',
 		category: 'Conjugations',
 		title: 'Ser Conjugation: The Complete Guide to Every Tense',
-		description: 'Ser is Spanish\'s most irregular verb, born of two Latin verbs. All 19 paradigms, simple and compound, are here, sourced from the RAE conjugation table.',
+		description: 'Ser is a highly irregular Spanish verb, born of two Latin verbs. All 19 paradigms, simple and compound, are here, sourced from the RAE conjugation table.',
 		published: '2026-08-03',
-		updated: '2026-10-11',
-		coreSummary: 'Ser means "to be" in the identity/characteristics sense (see Ser vs. Estar), and it is one of only a handful of fully irregular Spanish verbs: soy, eres, es bear no resemblance to a regular -er verb\'s endings because they descend from an entirely different Latin verb than the rest of ser\'s own paradigm. The table below is the complete paradigm, transcribed from the Real Academia Española: the five simple indicative tenses and their five compound counterparts, all three subjunctives (present, imperfect fuera/fuese, and the near-extinct future fuere) plus their compounds, affirmative and negative commands, and the non-finite forms ser, siendo, sido.',
+		updated: '2026-10-12',
+		coreSummary: 'Ser means "to be" in the identity/characteristics sense (see Ser vs. Estar), and it is one of only a handful of fully irregular Spanish verbs: soy, eres, es bear no resemblance to a regular -er verb\'s endings within a suppletive paradigm with roots such as s-, er- and fu-. The table below is the complete paradigm, transcribed from the Real Academia Española: the five simple indicative tenses and their five compound counterparts, all three subjunctives (present, imperfect fuera/fuese, and the near-extinct future fuere) plus their compounds, affirmative and negative commands, and the non-finite forms ser, siendo, sido.',
 		language: 'Spanish',
 		sections: [
 			{
 				heading: 'Why ser breaks every conjugation pattern',
 				body: [
-					'Regular Spanish verbs conjugate by attaching a predictable set of endings to a stem: that\'s the whole system behind verbs like hablar or vivir. Ser doesn\'t follow that system because, historically, it isn\'t really one verb: Spanish ser is suppletive, meaning its paradigm was assembled from two different Latin verbs rather than descending cleanly from one. According to the linguistic research site Spanish Linguist, the present-tense indicative forms (*soy, eres, es, somos, sois, son*) descend from the Latin verb *esse* ("to be"), while nearly everything else in ser\'s conjugation (the infinitive itself, the subjunctive, the future and conditional stems, and the *tú* imperative *sé*) descends instead from Latin *sedere*, "to sit."',
+					'Regular Spanish verbs conjugate by attaching a predictable set of endings to a stem: that\'s the whole system behind verbs like hablar or vivir. Ser doesn\'t follow that system because, historically, it isn\'t really one verb: Spanish ser is suppletive, meaning its paradigm was assembled from two different Latin verbs rather than descending cleanly from one. According to the linguistic research site Spanish Linguist, the present-tense indicative forms (*soy, eres, es, somos, sois, son*) descend from the Latin verb *esse* ("to be"), with *sedere*, "to sit," also contributing to the historical development of ser. This is not a present-versus-everything-else split: the RAE describes roots such as er- in era and fu- in fui and fuera as well.',
 					'That\'s the actual reason *soy* and *sería* don\'t look like they belong to the same verb at first glance: for most of Spanish\'s history, they effectively didn\'t. Two separate Latin verbs merged into a single paradigm, and Spanish speakers today just learn the result as one (extremely irregular) verb. That fusion is a separate question from what *ser* actually does in a sentence, which the [ser vs. estar comparison](/ser-vs-estar/) covers in full.',
 				],
 			},
@@ -760,14 +760,14 @@ export const guides: Guide[] = [
 				heading: 'The compound tenses: haber plus one unchanging word',
 				body: [
 					'Eight of the nineteen blocks above are compound tenses, and they are the easy eight. Every Spanish compound tense is a conjugated form of *haber* followed by a past participle, and a participle sitting after *haber* never agrees with anything, so ser contributes exactly one unchanging word to all eight of them: *sido*. Learn *haber* once and you get *he sido, había sido, hube sido, habré sido, habría sido, haya sido, hubiera sido* and *hubiere sido* for free.',
-					'In practice you will use three of them. *He sido* (present perfect) reports a state that still touches the present: *He sido profesor durante veinte años.* (I\'ve been a teacher for twenty years.) *Había sido* (pluperfect) sets one past event behind another: *Ya había sido director cuando lo conocí.* (He had already been director when I met him.) *Hubiera sido* (pluperfect subjunctive) carries counterfactuals: *Hubiera sido mejor callarse.* (It would have been better to keep quiet.)',
-					'The other compound forms are real but marginal. The preterite anterior *hube sido* is essentially literary and appears after time conjunctions like *apenas* or *después de que*; modern Spanish uses the plain preterite or pluperfect instead. The future perfect subjunctive *hubiere sido* belongs to the same legal register as *fuere*.',
+					'Three useful starting examples are these. *He sido* (present perfect) reports a state that still touches the present: *He sido profesor durante veinte años.* (I\'ve been a teacher for twenty years.) *Había sido* (pluperfect) sets one past event behind another: *Ya había sido director cuando lo conocí.* (He had already been director when I met him.) *Hubiera sido* (pluperfect subjunctive) carries counterfactuals: *Hubiera sido mejor callarse.* (It would have been better to keep quiet.)',
+					'Other compounds include everyday forms such as habré sido, habría sido and haya sido. Two forms are much more restricted. The preterite anterior *hube sido* is essentially literary and appears after time conjunctions like *apenas* or *después de que*; modern Spanish uses the plain preterite or pluperfect instead. The future perfect subjunctive *hubiere sido* belongs to the same legal register as *fuere*.',
 				],
 			},
 			{
 				heading: 'A regional variant the table above doesn\'t cover: voseo',
 				body: [
-					'The table on this page uses *tú* for the informal singular "you," which is standard across Spain and most of Latin America. But in Argentina, Uruguay, and parts of Central America, everyday speech uses *vos* instead of *tú* (a system called *voseo*), and ser is one of only two verbs (alongside *ir*) that breaks the regular voseo pattern. Most verbs form their voseo present by swapping a final "-r" for "-s" and shifting the stress to the last syllable, but ser\'s voseo present is simply *vos sos*, not a predictable variation on *tú eres*.',
+					'The table on this page uses *tú* for the informal singular "you," which is standard across Spain and most of Latin America. But in Argentina, Uruguay, and parts of Central America, everyday speech uses *vos* instead of *tú* (a system called *voseo*), and ser is one of only two verbs (alongside *ir*) that breaks the regular voseo pattern. For regular -ar and -er verbs in the common stress-final voseo pattern, replacing infinitive -r with -s gives forms such as hablás and comés; regular -ir verbs take -ís, as in vivís, but ser\'s voseo present is simply *vos sos*, not a predictable variation on *tú eres*.',
 					'In Rioplatense Spanish, the dialect spoken around the Río de la Plata basin covering Argentina and Uruguay, *voseo* isn\'t a casual regionalism confined to friends. It\'s the everyday standard, used in schools, advertising, and television. A learner who only knows *tú eres* will still be understood there, but *vos sos* is what they\'ll actually hear.',
 					'This is not a dialect curiosity that reference works leave out. RAE\'s own conjugation table puts *sos* on the same line as *eres*, labelled "tú / vos," rather than treating it as a footnote. The one place *vos* changes nothing is the command form: the voseo imperative of ser is *sé*, identical to the *tú* form, which is unusual, since most verbs take a distinct stressed voseo command.',
 				],
@@ -776,7 +776,7 @@ export const guides: Guide[] = [
 		faq: [
 			{
 				question: 'Why don\'t "soy" and "sería" look like forms of the same verb?',
-				answer: 'In effect, for a long stretch of the language\'s development they weren\'t the same verb. Ser grew out of a merger between a pair of unrelated Latin verbs: the present tense (soy, eres, es...) comes from esse, the Latin verb meaning "to be," whereas almost all the remaining forms, including the infinitive ser itself, come from sedere, meaning "to sit," instead.',
+				answer: 'In effect, for a long stretch of the language\'s development they weren\'t the same verb. Ser grew out of a merger between a pair of unrelated Latin verbs: the present tense (soy, eres, es...) comes from esse, the Latin verb meaning "to be," sedere (the Latin verb for sitting) contributed forms as well. The history is not a division between the present and every other tense: the RAE distinguishes several alternating roots, including the fu- base of fui and the er- base found in era.',
 			},
 			{
 				question: 'Is the preterite of "ser" the same as the preterite of "ir"?',
@@ -796,7 +796,7 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'Where do the forms in this table come from?',
-				answer: 'Every form was pulled on 2026-08-04 directly from RAE and ASALE\'s published conjugation table for ser in the Diccionario de la lengua española, the standard authority for Spanish verb morphology. Two independent re-checks against Wiktionary confirmed that data the same day: its ser entry validated every plain-tense row along with both command forms, and its haber entry validated the eight rows built by adding an auxiliary, since every compound tense in Spanish pairs a conjugated haber with one fixed participle. Nothing here was typed from memory. The data table, the generator that builds the page from it, and the unit tests asserting every form are open in the site\'s repository for anyone who wants to check the work.',
+				answer: 'The main reference for the forms is the ser entry and its conjugation table in the Diccionario de la lengua española, published by RAE and ASALE. The sources below also link to Wiktionary entries for ser and haber. Compound forms pair the appropriate haber form with sido; the negative-command row is shown separately here for convenience. The displayed table can be compared with these references.',
 			},
 		],
 		sources: [
@@ -3991,18 +3991,18 @@ export const guides: Guide[] = [
 		title: 'Spanish Preterite Endings: The Two Sets and Where the Accents Go',
 		description: 'Every regular Spanish verb takes one of two preterite endings sets, with accents that follow a real rule, not habit, and one common mistake shared by tú and vos.',
 		published: '2026-08-19',
-		updated: '2026-08-19',
-		coreSummary: 'Regular Spanish verbs take one of two endings sets in the preterite: -ar verbs use -é, -aste, -ó, -amos, -asteis, -aron, while -er and -ir verbs share -í, -iste, -ió, -imos, -isteis, -ieron. Three of those six forms in each set carry a written accent (yo and él/ella/usted), because Spanish requires a tilde on any word stressed on its final syllable that ends in a vowel. The nosotros form is identical to the present tense for -ar and -ir verbs (hablamos, vivimos mean both "we speak/spoke" and "we live/lived"), but not for -er verbs, where comemos (present) and comimos (preterite) differ. A widespread nonstandard habit tacks an extra -s onto the tú form, turning hablaste into hablastes, and comes from analogy with every other tú conjugation, which does end in -s.',
+		updated: '2026-10-12',
+		coreSummary: 'Regular Spanish verbs take one of two endings sets in the preterite: -ar verbs use -é, -aste, -ó, -amos, -asteis, -aron, while -er and -ir verbs share -í, -iste, -ió, -imos, -isteis, -ieron. Two of those six forms in each set carry a written accent (yo and él/ella/usted), because Spanish requires a tilde on any word stressed on its final syllable that ends in a vowel. The nosotros form is identical to the present tense for -ar and -ir verbs (hablamos, vivimos mean both "we speak/spoke" and "we live/lived"), but not for -er verbs, where comemos (present) and comimos (preterite) differ. A widespread nonstandard habit tacks an extra -s onto the tú form, turning hablaste into hablastes, and comes from analogy with many other tú forms that end in -s.',
 		language: 'Spanish',
 		usageNote: {
-			regionNote: 'Voseo regions use the same standard preterite forms as tú (vos hablaste, vos comiste), since voseo only creates distinct verb forms in the present indicative and the informal imperative. In casual Rioplatense speech an extra -s sometimes gets added to that shared tú/vos form (vos hablastes), which is the same nonstandard habit covered below for tú, not a separate voseo-specific ending.',
+			regionNote: 'Voseo regions use the same standard preterite forms as tú (vos hablaste, vos comiste), although regional voseo also has distinct forms in other tenses. In casual Rioplatense speech an extra -s sometimes gets added to that shared tú/vos form (vos hablastes), which is the same nonstandard habit covered below for tú, not a separate voseo-specific ending.',
 		},
 		sections: [
 			{
 				heading: 'The two endings sets, worked through in full',
 				body: [
 					'Regular preterite verbs take one of exactly two endings sets, decided only by whether the infinitive ends in -ar or in -er/-ir. -Ar verbs (modeled on hablar): hablé, hablaste, habló, hablamos, hablasteis, hablaron. -Er and -ir verbs share a single set (modeled on comer and vivir): comí, comiste, comió, comimos, comisteis, comieron; viví, viviste, vivió, vivimos, vivisteis, vivieron. There is no separate -er set and -ir set here, unlike the present tense, where the two conjugations split in the nosotros and vosotros forms (comemos/coméis versus vivimos/vivís).',
-					'*Hablé con mi hermana ayer* ("I talked with my sister yesterday"). *Comimos en ese restaurante la semana pasada* ("We ate at that restaurant last week"). *¿A qué hora llegaste?* ("What time did you arrive?"). Every regular verb in the language slots into one of these two sets with no further variation; irregularities come from a different stem, never a third set of endings. For the verbs that do swap in a new stem, see the [irregular preterite verbs](/irregular-preterite-verbs-spanish/) breakdown.',
+					'*Hablé con mi hermana ayer* ("I talked with my sister yesterday"). *Comimos en ese restaurante la semana pasada* ("We ate at that restaurant last week"). *¿A qué hora llegaste?* ("What time did you arrive?"). Every regular verb in the language slots into one of these two sets with no further variation; strong irregular preterites use their own unaccented endings, with -eron rather than -ieron in the j-stem group. For the verbs that do swap in a new stem, see the [irregular preterite verbs](/irregular-preterite-verbs-spanish/) breakdown.',
 				],
 				image: {
 					src: '/images/spanish-preterite-endings-diagram.svg',
@@ -4012,7 +4012,7 @@ export const guides: Guide[] = [
 			{
 				heading: 'Why the accents land on yo and él/ella/usted, and nowhere else',
 				body: [
-					'Three of the six forms in each preterite set carry a written accent: hablé/habló and comí/comió/viví/vivió, on the yo and él/ella/usted rows. That follows a general Spanish stress rule, not a special preterite-only exception. Spanish requires a written accent on any word stressed on its last syllable (a class called aguda) when that word ends in a vowel, or in -n or -s not preceded by another consonant. Per Real Academia Española\'s own reference on the general accentuation rules, that\'s the same rule that puts a tilde on words like comité, colibrí, and razón.',
+					'Two of the six forms in each preterite set carry a written accent: hablé/habló and comí/comió/viví/vivió, on the yo and él/ella/usted rows. That follows a general Spanish stress rule, not a special preterite-only exception. Spanish requires a written accent on any word stressed on its last syllable (a class called aguda) when that word ends in a vowel, or in -n or -s not preceded by another consonant. Per Real Academia Española\'s own reference on the general accentuation rules, that\'s the same rule that puts a tilde on words like comité, colibrí, and razón.',
 					'Hablé and habló are both stressed on their final syllable and end in a vowel, so the rule forces the accent. Hablaste, hablamos, and hablasteis are all llana, stressed on their second-to-last syllable, so none of them qualify, and hablaron is llana too, stressed the same way, so its final -n doesn\'t trigger an accent either. That\'s a different mechanism from the [Spanish imperfect\'s accent rule](/spanish-imperfect-endings/), where the -ía endings take a tilde in every single form because of a hiato (a stressed vowel next to another vowel), not because of where the stress falls. The preterite and the imperfect both use written accents to carry real grammatical weight, but two separate orthography rules are doing the work. Which tense a Spanish speaker actually reaches for to describe a recent event, this preterite or the [present perfect](/spanish-present-perfect/), isn\'t fixed either: it splits by region, with most of Latin America defaulting to the preterite for something that happened moments ago and most of Spain reaching for the present perfect instead.',
 				],
 			},
@@ -4026,8 +4026,8 @@ export const guides: Guide[] = [
 			{
 				heading: '"Hablastes" is wrong, and the reason it keeps happening is the same for tú and vos',
 				body: [
-					'A widespread nonstandard habit adds an extra -s to the tú preterite form: hablaste wrongly picks up an -s to become hablastes, comiste becomes comistes, and dijiste becomes dijistes. Every other tú conjugation in Spanish ends in -s (hablas, hablarás, hablabas, hablarías, hablaras), which makes the preterite the one tense where tú breaks that pattern with a bare -e or -iste ending. The extra -s is an analogy correcting for that irregularity, not a random typo, which is also why it shows up reliably across very different Spanish-speaking regions, not clustered in any single one.',
-					'The same habit surfaces under vos, since voseo uses the identical standard preterite forms as tú (vos hablaste, vos comiste, vos viniste), not a distinct set of its own. In casual Rioplatense speech, vos hablastes turns up for the same analogical reason as tú hablastes; it\'s treated as informal and corrected in writing in both cases, not a recognized separate voseo ending. Voseo does have its own distinct forms elsewhere, in the present tense and the informal imperative, but the preterite isn\'t one of them.',
+					'A widespread nonstandard habit adds an extra -s to the tú preterite form: hablaste wrongly picks up an -s to become hablastes, comiste becomes comistes, and dijiste becomes dijistes. Many other finite tú forms end in -s (hablas, hablarás, hablabas, hablarías, hablaras), which makes the preterite the one tense where tú breaks that pattern with a bare -e or -iste ending. The extra -s is an analogy correcting for that irregularity, not a random typo, which is also why it shows up reliably across very different Spanish-speaking regions, not clustered in any single one.',
+					'Forms without final -s, such as vos hablaste, vos comiste and vos viniste, are preferred in standard voseo. The RAE also records an etymological voseo preterite with final -s, which generally receives negative social evaluation. In casual Rioplatense speech, vos hablastes turns up for the same analogical reason as tú hablastes; it\'s treated as informal and corrected in writing in both cases, not a recognized separate voseo ending. The extent of distinct voseo forms varies by region; it is not confined to the indicative present and commands.',
 				],
 			},
 		],
@@ -4050,7 +4050,7 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'Does vos change the preterite endings?',
-				answer: 'No. There are only two spots where voseo really breaks from tú: how it conjugates in the present, and its own version of a casual command. Everywhere else, including the preterite, vos borrows the exact same conjugations tú uses, vos hablaste and vos comiste among them, right down to sharing that same wrongly-added -s (vos hablastes) that also turns up under tú.',
+				answer: 'The preferred standard forms usually match tú: vos hablaste and vos comiste. The RAE also documents etymological forms with final -s, generally viewed negatively, and other regional variations. Distinct voseo conjugations are not limited to the present indicative and commands.',
 			},
 		],
 		sources: [
@@ -4159,8 +4159,8 @@ export const guides: Guide[] = [
 		title: 'Spanish Conjunctions: Why "But" Isn\'t Always Pero',
 		description: 'A vocabulary list hands you y, o, pero, sino, ni and stops. It won\'t tell you y turns into e before an i-sound, or why pero and sino aren\'t interchangeable.',
 		published: '2026-08-19',
-		updated: '2026-08-19',
-		coreSummary: 'Spanish conjunctions carry rules English "and," "or," and "but" don\'t need: per the RAE, the copulative y becomes e before a word that starts with an /i/ sound, and o becomes u before an /o/ sound, purely so the two vowels don\'t collide. And "but" splits into two non-interchangeable words: pero restricts a claim without denying it, while sino replaces it outright and only follows an explicit negation, switching to sino que whenever a conjugated verb comes next.',
+		updated: '2026-10-12',
+		coreSummary: 'Spanish conjunctions carry rules English "and," "or," and "but" don\'t need: per the RAE, the copulative y becomes e before a word that starts with an /i/ sound, and o becomes u before an /o/ sound, purely so the two vowels don\'t collide. And "but" splits into two non-interchangeable words: pero restricts a claim without denying it, while sino replaces it outright and requires an explicit or implicit negation in its corrective use, switching to sino que whenever a conjugated verb comes next.',
 		language: 'Spanish',
 		sections: [
 			{
@@ -4201,7 +4201,7 @@ export const guides: Guide[] = [
 				heading: 'Ni…ni, and the comma that almost never goes before it',
 				body: [
 					'Ni ("nor") most often shows up doubled, as the discontinuous conjunction ni…ni, coordinating two or more elements as a single negative set: Ni lava ni presta la batea (She neither washes nor lends the washtub); El mandatario se refirió a los jóvenes que ni trabajan ni estudian (The official was referring to young people who neither work nor study). Per the Real Academia\'s Ortografía, as summarized in Fundéu\'s own style guidance, a comma is incompatible with y, e, ni, o, and u whenever they\'re joining members of a series or equivalent syntactic elements within the same sentence — so no comma goes before ni…ni linking two verb phrases, and none goes before a plain o or y doing the same job in a short list.',
-					'The exceptions are narrow and deliberate rather than a loophole to lean on. A comma can appear when the conjunction is repeated before every item in a longer series for rhetorical emphasis (polisíndeton), or when the coordinated sequence functions more like a parenthetical aside than a plain, flat list. Outside those two specific cases, treating ni, y, or o like an ordinary comma-preceded word is the actual error, not the exception.',
+					'The exceptions are narrow and deliberate rather than a loophole to lean on. A comma can appear when the conjunction is repeated before every item in a longer series for rhetorical emphasis (polisíndeton), or when the coordinated sequence functions more like a parenthetical aside than a plain, flat list. These are examples of exceptions, only two of several punctuation exceptions. For a simple coordinated list, do not add a comma automatically.',
 				],
 			},
 		],
@@ -4416,15 +4416,15 @@ export const guides: Guide[] = [
 		title: 'Spanish Superlatives: -ísimo, El Más, and the Forms Between Them',
 		description: 'Spanish has two unrelated things called "superlative," plus a rare Latin-inherited suffix and an RAE-recognized prefix strategy most learners never hear about.',
 		published: '2026-08-20',
-		updated: '2026-08-20',
-		coreSummary: 'Spanish keeps two grammatically separate constructions under the label "superlative": the relative superlative (el/la más + adjective + an optional de group) ranks one member against others, while the absolute superlative (usually the suffix -ísimo, occasionally the Latin-inherited -érrimo, or informally a prefix like re- or súper-) marks an extreme degree with no comparison group at all. Per the RAE, four adjectives (bueno, malo, grande, pequeño) build their relative superlative irregularly as mejor, peor, mayor, and menor, not with más, and a small set of adjectives, mostly frozen in set phrases like enemigo acérrimo, still take the archaic -érrimo suffix inherited straight from Latin instead of the regular -ísimo.',
+		updated: '2026-10-12',
+		coreSummary: 'Spanish keeps two grammatically separate constructions under the label "superlative": the relative superlative (el/la más + adjective + an optional de group) ranks one member against others, while the absolute superlative (usually the suffix -ísimo, occasionally the Latin-inherited -érrimo, or informally a prefix like re- or súper-) marks an extreme degree with no comparison group at all. Per the RAE, four adjectives (bueno, malo, grande, pequeño) build their relative superlative irregularly as mejor, peor, mayor, and menor, alongside regular alternatives whose acceptability depends on meaning, and a small set of adjectives, mostly frozen in set phrases like enemigo acérrimo, still take the archaic -érrimo suffix inherited straight from Latin instead of the regular -ísimo.',
 		language: 'Spanish',
 		sections: [
 			{
 				heading: 'Two different things share the name "superlative"',
 				body: [
 					'English speakers usually meet "superlative" as one category: add -est or put "most" in front, done. Spanish grammar splits that single English idea into two constructions that don\'t work the same way and aren\'t interchangeable. The RAE\'s own glossary defines them separately: the superlativo relativo expresses a property held by one member of a group to a higher degree than the rest of that group, while the superlativo absoluto expresses the extreme degree of a quality without comparing it to anything.',
-					'Ana es la más alta de la clase ("Ana is the tallest in the class") is relative: there\'s a group (la clase) and Ana is being ranked against it. Ana es altísima ("Ana is extremely tall") is absolute: there\'s no group, no ranking, just a claim about how tall Ana is on her own. Swap them and the sentence still parses, but it stops meaning what you meant: la más alta without a group reads as incomplete, and altísima de la clase isn\'t how the absolute form is used at all. It\'s the same kind of collapse-in-English problem that makes [por and para](/por-vs-para/) hard to tell apart: one English word, two unrelated Spanish grammar rules underneath it.',
+					'Ana es la más alta de la clase ("Ana is the tallest in the class") is relative: there\'s a group (la clase) and Ana is being ranked against it. Ana es altísima ("Ana is extremely tall") is absolute: there\'s no group, no ranking, just a claim about how tall Ana is on her own. Swap them and the sentence still parses, but it stops meaning what you meant: la más alta can leave its group implicit in context, and altísima de la clase isn\'t how the absolute form is used at all. It\'s the same kind of collapse-in-English problem that makes [por and para](/por-vs-para/) hard to tell apart: one English word, two unrelated Spanish grammar rules underneath it.',
 				],
 				image: {
 					src: '/images/spanish-superlatives-diagram.svg',
@@ -4435,21 +4435,21 @@ export const guides: Guide[] = [
 				heading: 'The relative superlative: article + más/menos, group optional',
 				body: [
 					'The RAE\'s Nueva gramática básica breaks the relative superlative into three parts: the first term (the entity being described, Ana), the quantificative group (más or menos, or one of the irregular forms below), and a restrictive complement or "coda" that names the comparison group: de la clase, de mis amigos, del equipo. That third part is explicitly optional in the RAE\'s own account: la más alta is a complete, grammatical sentence even with the group left unstated if context already supplies it.',
-					'Word order is fixed: article, then más or menos, then the adjective, then the optional de-phrase. La más interesante película, with the adjective before the noun, isn\'t how this construction works. The article attaches to the noun the property belongs to, and the comparison sits after it: la película más interesante de la temporada.',
+					'A common noun-plus-adjective pattern is la película más interesante de la temporada. The RAE also shows irregular superlatives before the noun, as in la peor película del certamen; the construction does not impose one fixed position on every adjective.',
 				],
 			},
 			{
-				heading: 'The irregular relative superlatives: why "más bueno" is wrong',
+				heading: 'Irregular superlatives and their regular alternatives',
 				body: [
-					'Four common adjectives don\'t take más or menos at all when they\'re used as a relative superlative (or a comparative). Bueno becomes mejor, malo becomes peor, grande becomes mayor, and pequeño becomes menor. Más bueno and más malo are the kind of error that marks a sentence as clearly non-native, not a minor stylistic slip.',
-					'Mayor and menor carry a wrinkle the -ísimo forms don\'t: in everyday use they lean toward age rather than physical size. Mi hermano mayor means "my older brother," and a Spanish speaker describing a bigger house will usually reach for una casa más grande rather than una casa mayor, even though mayor is available and grammatically fine for size too. The RAE itself doesn\'t restrict mayor/menor to age, but the age reading is the one that dominates in practice, which is why más grande and más pequeño survive in casual speech alongside mejor/peor even though the same "don\'t use más with these" logic would predict otherwise.',
+					'Bueno, malo, grande and pequeño have the irregular comparative forms mejor, peor, mayor and menor. Regular alternatives also exist: the RAE accepts más bueno and más malo for character or taste, and más grande and más pequeño for size. Meaning decides which form fits; the regular alternatives are not blanket errors.',
+					'Mayor and menor carry a wrinkle the -ísimo forms don\'t: in everyday use they lean toward age rather than physical size. Mi hermano mayor means "my older brother," and a Spanish speaker describing a bigger house will usually reach for una casa más grande rather than una casa mayor, even though mayor is available and grammatically fine for size too. The RAE itself doesn\'t restrict mayor/menor to age, but the age reading is the one that dominates in practice, which is why más grande and más pequeño survive in casual speech alongside the irregular forms.',
 				],
 			},
 			{
 				heading: 'Forming -ísimo: the spelling changes exist to protect the sound',
 				body: [
 					'For most adjectives, forming the absolute superlative just means dropping the final vowel and adding -ísimo, -ísima, -ísimos, or -ísimas, with the accent on that í mandatory: alto becomes altísimo, lenta becomes lentísima. Adjectives already ending in a consonant like -l or -r just take the suffix directly (fácil becomes facilísimo, popular becomes popularísimo), per the RAE\'s own list in El buen uso del español. Like [demonstrative adjectives](/spanish-demonstrative-adjectives/), the resulting form still has to agree in gender and number with the noun it modifies: altísimo, altísima, altísimos, altísimas, not one fixed shape.',
-					'Several endings force a spelling change to keep the pronunciation intact rather than the grammar. A final -z becomes -c- before the suffix (feliz → felicísimo, RAE\'s own example), a final -co becomes -quísimo (rico → riquísimo) and a final -go becomes -guísimo (largo → larguísimo), both there so the hard c/g sound survives in front of í. Adjectives ending in -or or -n insert a -c- as well: mayor becomes mayorcísimo, and joven becomes jovencísimo. That means an already-irregular comparative like mayor can still take its own absolute superlative, a form most Spanish courses skip entirely.',
+					'Several endings force a spelling change to keep the pronunciation intact rather than the grammar. A final -z becomes -c- before the suffix (feliz → felicísimo, RAE\'s own example), a final -co becomes -quísimo (rico → riquísimo) and a final -go becomes -guísimo (largo → larguísimo), both there so the hard c/g sound survives in front of í. Some adjectives insert -c-: mayor becomes mayorcísimo, and joven becomes jovencísimo. This is not a general rule for every -or adjective, as popularísimo shows. That means an already-irregular comparative like mayor can still take its own absolute superlative, a form most Spanish courses skip entirely.',
 					'The vowel-ending rules split by stress. Adjectives ending in the unstressed diphthong -io/-ia drop both vowels: sucio becomes sucísimo, amplia becomes amplísima. Adjectives ending in the stressed hiato -ío/-ía drop only the final vowel, keeping the accented í: frío becomes friísimo. The two look almost identical on the page (sucio vs. frío) but land on different suffix shapes because Spanish treats a diphthong and a hiatus as different vowel structures.',
 				],
 			},
@@ -4457,14 +4457,14 @@ export const guides: Guide[] = [
 				heading: 'The Latin fossils: -érrimo, and why "acérrimo" doesn\'t mean "acre" anymore',
 				body: [
 					'A small closed set of adjectives keeps a superlative suffix inherited directly from Latin, -érrimo/-érrima, not the regular -ísimo. The RAE\'s Nueva gramática lists it alongside -ísimo as one of the two suffixes that mark "grado extremo," but the list of words that still use it is short and mostly frozen: pobre → paupérrimo, célebre → celebérrimo, íntegro → integérrimo, áspero → aspérrimo, and acre → acérrimo.',
-					'That last one survives almost entirely inside one fixed phrase: enemigo acérrimo, "bitter" or "sworn enemy." Acre on its own means acrid or bitter-tasting, but most speakers who say enemigo acérrimo aren\'t thinking about taste at all. The word has drifted into functioning as a pure intensifier bolted onto enemigo, detached from the adjective it technically superlatives. Spanish speakers use it fluently without necessarily being able to name the base adjective it comes from, which is a different kind of irregularity than mejor/peor: those are irregular but transparent, while -érrimo forms are irregular and largely opaque outside the handful of phrases that kept them alive.',
+					'Acérrimo appears in phrases such as enemigo acérrimo, "bitter" or "sworn enemy," and defensor acérrimo, "staunch defender." Acre on its own means acrid or bitter-tasting, but most speakers who say enemigo acérrimo aren\'t thinking about taste at all. In these uses it expresses a strong degree of commitment or opposition; literal taste is not the intended sense. Spanish speakers use it fluently without necessarily being able to name the base adjective it comes from, which is a different kind of irregularity than mejor/peor: those are irregular but transparent, while -érrimo forms are irregular and largely opaque outside the handful of phrases that kept them alive.',
 				],
 			},
 			{
 				heading: 'A third option the RAE names but most courses skip: prefixes',
 				body: [
 					'The RAE\'s own account of the absolute superlative doesn\'t stop at suffixes. Its glossary on grado superlativo explicitly lists prefixation as a third way to build one, giving reguapo, superatractivo, and hipercalórico as examples alongside altísimo: re-, super-, mega-, and hiper- attached directly to the adjective, no suffix needed.',
-					'That prefix strategy isn\'t evenly distributed across the Spanish-speaking world. A 2019 study of intensifiers in Buenos Aires and Tucumán, Argentina describes re- as occupying a specialized, highly productive slot in Rioplatense Spanish specifically, well beyond its more occasional use elsewhere: relindo, rebueno, and recaro are ordinary spoken Spanish in Argentina and Uruguay in contexts where riquísimo or buenísimo would sound equally natural but noticeably more formal. The prefix chain can also stack for extra emphasis in casual speech: recontra- and requete- both function as intensified versions of re- itself. None of this shows up in writing the way -ísimo does. Re- and its relatives stay almost entirely spoken and informal, while -ísimo works comfortably in both registers.',
+					'That prefix strategy isn\'t evenly distributed across the Spanish-speaking world. A 2019 study of intensifiers in Buenos Aires and Tucumán, Argentina describes re- as occupying a specialized, highly productive slot in Rioplatense Spanish specifically, well beyond its more occasional use elsewhere: relindo, rebueno, and recaro are ordinary spoken Spanish in Argentina and Uruguay in contexts where riquísimo or buenísimo would sound equally natural but noticeably more formal. The prefix chain can also stack for extra emphasis in casual speech: recontra- and requete- both function as intensified versions of re- itself. Re- and its relatives are associated with informal registers and also appear in informal writing; -ísimo is used across both informal and formal registers.',
 				],
 			},
 		],
@@ -4474,8 +4474,8 @@ export const guides: Guide[] = [
 				answer: 'La más alta ranks one person or thing against a group, stated or implied, as in la más alta del grupo, meaning she ranks above everyone else in that group; that\'s the relative-type reading. Altísima just claims Ana is extraordinarily tall, full stop, with no group being compared at all; that\'s the absolute-type reading. A sentence can use either, but they answer different questions: one answers "highest compared to what," the other answers "how extreme."',
 			},
 			{
-				question: 'Why can\'t I say "más bueno" or "más malo"?',
-				answer: 'Bueno and malo don\'t use más to build their comparative or ranking-type superlative at all: they have dedicated irregular forms, mejor and peor, the same way English uses "better/best" instead of "more good." A native speaker hears "más bueno" or "más malo" as an unmistakable non-native slip, not a stylistic choice.',
+				question: 'Can I say "más bueno" or "más malo"?',
+				answer: 'Yes. For moral character or a pleasant or unpleasant flavor, forms with más are accepted. In many other comparisons, choose mejor or peor. The intended sense matters.',
 			},
 			{
 				question: 'Is "mayor" just a fancier way to say "más grande"?',
@@ -4483,11 +4483,11 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'What does "enemigo acérrimo" mean, and why doesn\'t it use "-ísimo"?',
-				answer: 'Acérrimo is a Latin fossil, the superlative of acre ("acrid" or "bitter"), built with the archaic suffix -érrimo in place of -ísimo, the ending most adjectives take. Outside the one set phrase it forms, a sworn or bitter rival called an enemigo acérrimo, it barely gets used, and the people who do say it usually can\'t trace it back to acre; it just reads as extra emphasis stacked onto enemigo.',
+				answer: 'Acérrimo is a Latin fossil, the superlative of acre ("acrid" or "bitter"), built with the archaic suffix -érrimo in place of -ísimo, the ending most adjectives take. An enemigo acérrimo is a sworn foe; a defensor acérrimo is an unwavering supporter. Both phrases use the adjective for intensity, without describing a bitter flavor.',
 			},
 			{
 				question: 'Is "recontra-" a real intensifier, or just slang?',
-				answer: 'It\'s real, spoken, informal Spanish, not a written-register form. RAE names re- directly as one legitimate route to that extreme-degree reading, alongside super- and hiper-, and it carries extra weight south of the River Plate, where speakers even stack an extra layer onto it (recontra-, requete-) for casual conversation that needs even more punch.',
+				answer: 'It is an informal intensifier used in speech and informal writing. RAE names re- directly as one legitimate route to that extreme-degree reading, alongside super- and hiper-, and it carries extra weight south of the River Plate, where speakers even stack an extra layer onto it (recontra-, requete-) for casual conversation that needs even more punch.',
 			},
 			{
 				question: 'Do you always need "de" after "el más + adjective"?',
@@ -4508,17 +4508,17 @@ export const guides: Guide[] = [
 		slug: 'spanish-si-clauses',
 		category: 'Grammar',
 		title: 'Spanish Si Clauses: The Three Types and Their Tense Rules',
-		description: 'Si clauses split into three fixed tense pairings, real, potential, and unreal past, and mixing the pairings produces a specific error the RAE calls out by name.',
+		description: 'Si clauses split into three common conditional patterns, real, potential, and unreal past, and mixing the pairings produces a specific error the RAE calls out by name.',
 		published: '2026-08-21',
-		updated: '2026-08-21',
-		coreSummary: 'Spanish si clauses pair a prótasis (the si-part) with an apódosis (the result) in one of three fixed combinations: real conditions take present indicative then present, future, or imperative; potential (present-hypothetical) conditions take imperfect subjunctive then conditional; unreal past conditions take pluperfect subjunctive then compound conditional or pluperfect subjunctive. Per the Real Academia Española, si itself rejects the future, the conditional, and both the present and present-perfect subjunctive in the prótasis, which is exactly why "si tendría" and "si tengas" are flagged as errors, not accepted variants.',
+		updated: '2026-10-12',
+		coreSummary: 'Spanish si clauses pair a prótasis (the si-part) with an apódosis (the result) in three common patterns: real conditions use indicative forms other than future or conditional in the si-clause, often present indicative with a present, future or imperative result; potential (present-hypothetical) conditions take imperfect subjunctive then conditional; unreal past conditions take pluperfect subjunctive then compound conditional or pluperfect subjunctive. Per the Real Academia Española, conditional si rejects the future, the conditional, and both the present and present-perfect subjunctive in the prótasis, which is exactly why "si tendría" and "si tengas" are flagged as errors, not accepted variants.',
 		language: 'Spanish',
 		sections: [
 			{
-				heading: 'Two clauses, one fixed pairing between them',
+				heading: 'Two clauses, with related tense choices',
 				body: [
-					'The RAE\'s grammatical glossary names the two halves directly: the si-clause is the prótasis, the condition that has to be met, and the result clause is the apódosis, what follows if that condition holds. The two aren\'t chosen independently. Spanish locks each type of condition to one specific tense in the prótasis and one specific tense (or narrow pair of tenses) in the apódosis, and swapping a tense from one pairing into another is what produces the errors native speakers notice immediately.',
-					'English "if" clauses are far more forgiving about tense mixing, which is part of why this structure trips up English-speaking learners. Spanish has exactly three pairings in everyday use, sorted by how real the condition is: something that might actually happen, something that\'s hypothetical right now, and something that didn\'t happen in the past.',
+					'The RAE\'s grammatical glossary names the two halves directly: the si-clause is the prótasis, the condition that has to be met, and the result clause is the apódosis, what follows if that condition holds. The two aren\'t chosen independently. Tense choices express how the speaker views the condition and its result. The three patterns below are useful starting points, but real conditions can refer to past facts and mixed conditionals can connect a past condition with a present result.',
+					'English "if" clauses are far more forgiving about tense mixing, which is part of why this structure trips up English-speaking learners. The three common patterns covered here are, sorted by how real the condition is: something that might actually happen, something that\'s hypothetical right now, and something that didn\'t happen in the past.',
 				],
 				image: {
 					src: '/images/spanish-si-clauses-diagram.svg',
@@ -4528,8 +4528,8 @@ export const guides: Guide[] = [
 			{
 				heading: 'Real conditions: a possibility, not a guess',
 				body: [
-					'When the condition is genuinely open, something that could well happen, the prótasis takes the present indicative and the apódosis takes present, future, or imperative indicative. *Si llueve, me quedo en casa* ("If it rains, I stay home") states a general pattern; *Si vienes temprano, cenaremos juntos* ("If you come early, we\'ll have dinner together") reports a specific future plan; *Si vieras a Pepe, dile que sí* ("If you see Pepe, tell him yes") gives an instruction. All three keep the same present-indicative prótasis and just vary which indicative tense (or mood, for the command) carries the result.',
-					'Nothing about this pairing signals doubt. The present indicative in the prótasis is doing the same job it does everywhere else in Spanish, reporting something as a straightforward fact, which is exactly why real conditions never take the subjunctive: there\'s no hypothesis to mark. French\'s own conditional mood follows a parallel chronological logic in its si clauses, [pairing si with a strict sequence of tenses](/french-conditional/), though French builds its three pairings out of indicative forms throughout, where Spanish switches into the subjunctive for exactly the two less-than-certain pairings above.',
+					'When the condition is genuinely open, something that could well happen, a common pattern puts present indicative in the prótasis and present or future indicative, or an imperative, in the apódosis. *Si llueve, me quedo en casa* ("If it rains, I stay home") states a general pattern; *Si vienes temprano, cenaremos juntos* ("If you come early, we\'ll have dinner together") reports a specific future plan; *Si ves a Pepe, dile que sí* ("If you see Pepe, tell him yes") gives an instruction. All three keep the same present-indicative prótasis and just vary which indicative tense (or mood, for the command) carries the result.',
+					'Nothing about this pairing signals doubt. The present indicative in the prótasis is doing the same job it does everywhere else in Spanish, reporting something as a straightforward fact, which is exactly why the real-condition pattern uses indicative forms; it can also refer to past events. French\'s own conditional mood follows a parallel chronological logic in its si clauses, [pairing si with a strict sequence of tenses](/french-conditional/), though the French si-clauses in those patterns use indicative forms, where Spanish switches into the subjunctive for exactly the two less-than-certain pairings above.',
 				],
 			},
 			{
@@ -4542,14 +4542,14 @@ export const guides: Guide[] = [
 			{
 				heading: 'Unreal past: what didn\'t happen, and its double negative',
 				body: [
-					'For conditions that are contrary to a past fact, the prótasis moves to the pluperfect subjunctive (hubiera or hubiese + past participle) and the apódosis takes the compound conditional (habría + past participle) or, just as validly, the pluperfect subjunctive again. *Si se lo hubieran explicado, lo habría entendido* and *Si se lo hubieran explicado, lo hubiera entendido* are both correct per the RAE, describing an explanation that never happened and, as a result, an understanding that never followed. Per the RAE\'s own reply on the alternation, habría and hubiera are the two forms actually competing for that apódosis slot; hubiese is grammatical there too, but shows up less often than either of the other two.',
+					'For conditions that are contrary to a past fact, the prótasis moves to the pluperfect subjunctive (hubiera or hubiese + past participle) and, for a past result, the apódosis takes the compound conditional (habría + past participle) or, just as validly, the pluperfect subjunctive again. *Si se lo hubieran explicado, lo habría entendido* and *Si se lo hubieran explicado, lo hubiera entendido* are both correct per the RAE, describing an explanation that never happened and, as a result, an understanding that never followed. Per the RAE\'s own reply on the alternation, habría and hubiera are the two forms actually competing for that apódosis slot; hubiese is grammatical there too, but shows up less often than either of the other two.',
 					'The logic runs backward from what the English glosses suggest at first glance: an affirmative unreal-past condition designates a past situation that did not occur, while a negative one designates a situation that did occur. *Si hubiera estudiado, habría aprobado* means the person didn\'t study and didn\'t pass; *si no hubiera llovido, habríamos salido* means it did rain and they didn\'t go out. Reading the affirmative or negative on the surface without tracking that inversion is a common source of misreading these sentences, not just producing them.',
 				],
 			},
 			{
-				heading: 'Why "si tendría" is a named error, not a regional variant',
+				heading: 'Why "si tendría" is outside the standard conditional pattern',
 				body: [
-					'The RAE is explicit about what si rejects in the prótasis in current Spanish: the future (*si tendrás dinero), the conditional (*si tendrías dinero), the present subjunctive (*si tengas dinero), and the present-perfect subjunctive (*si hayas tenido dinero). "Si tendría dinero, me compraría un coche" is that second error in the wild, a conditional sitting where the imperfect subjunctive belongs (si tuviera dinero). The same substitution one tense further back, using the compound conditional inside the prótasis itself (si habría tenido, rather than si hubiera tenido) instead of keeping it confined to the apódosis where it belongs, is documented as a feature of speech in some regions of Latin America and in Basque-contact areas of northern Spain, including Navarra, Cantabria, and La Rioja, which is why it\'s worth flagging by name and not treating as a universal slip.',
+					'The RAE is explicit about what conditional si rejects in the prótasis in current standard Spanish: the future (*si tendrás dinero), the conditional (*si tendrías dinero), the present subjunctive (*si tengas dinero), and the present-perfect subjunctive (*si hayas tenido dinero). "Si tendría dinero, me compraría un coche" is that second error in the wild, a conditional sitting where the imperfect subjunctive belongs (si tuviera dinero). The same substitution one tense further back, using the compound conditional inside the prótasis itself (si habría tenido, rather than si hubiera tenido) instead of keeping it confined to the apódosis where it belongs, is documented as a feature of speech in some regions of Latin America and in Basque-contact areas of northern Spain, including Navarra, Cantabria, and La Rioja, which is why it\'s worth flagging by name and not treating as a universal slip.',
 					'One more prótasis form is now effectively extinct outside of one register: the future subjunctive (si tuvieres, si hubieres tenido) was ordinary in medieval and classical Spanish, but per the RAE it is not part of the modern general language and survives almost entirely in legal and administrative wording, the same fossilized-register pattern the [French subjunctive guide](/french-subjunctive/) describes for that language\'s own literary-only past subjunctive tenses. A learner will encounter it in a contract long before hearing it in conversation, if ever.',
 				],
 			},
@@ -4557,11 +4557,11 @@ export const guides: Guide[] = [
 		faq: [
 			{
 				question: 'What are the three types of si clauses in Spanish?',
-				answer: 'Spanish ties si to one of three set patterns. A condition that could genuinely happen pairs a tienes-style present tense in the si-clause with a result that lands on the present, the future, or a direct command (Si estudias, aprobarás, "if you study, you\'ll pass"). A guess about how things stand right now pairs tuviera-style forms in the si-clause with a conditional result (Si fuera rico, viajaría más, "if I were rich, I\'d travel more"). And a condition already closed off because its moment has passed pairs hubiera-style forms in the si-clause with a result that either repeats that same form or shifts to habría (Si lo hubiera sabido, te habría llamado). None of the three tenses can be swapped between patterns.',
+				answer: 'Spanish ties si to one of three set patterns. A condition that could genuinely happen pairs a tienes-style present tense in the si-clause with a result that lands on the present, the future, or a direct command (Si estudias, aprobarás, "if you study, you\'ll pass"). A guess about how things stand right now pairs tuviera-style forms in the si-clause with a conditional result (Si fuera rico, viajaría más, "if I were rich, I\'d travel more"). And a condition already closed off because its moment has passed pairs hubiera-style forms in the si-clause with a result that either repeats that same form or shifts to habría (Si lo hubiera sabido, te habría llamado). These are common models, not exhaustive pairings. The result can belong to now even if the condition concerns yesterday: Si hubiera ahorrado, ahora tendría una casa connects past saving with having a home now.',
 			},
 			{
 				question: 'Why is "si tendría" wrong?',
-				answer: 'RAE grammar explicitly bars four forms from the prótasis after si: the conditional, the future, the tengas-type subjunctive, and a further subjunctive form built on the present perfect. The classic slip, si tendría dinero, drops that barred conditional in where the tuviera-form belongs. An earlier link in that same substitution chain, habría tenido standing in for hubiera tenido, is heard in spoken Spanish in several Latin American countries and near the Basque Country in northern Spain, though it still isn\'t treated as standard usage.',
+				answer: 'In a conditional sentence, the RAE excludes four conjugations from the clause that states the condition: the conditional, the future, the tengas-type subjunctive, and a further subjunctive form built on the present perfect. The classic slip, si tendría dinero, drops that barred conditional in where the tuviera-form belongs. An earlier link in that same substitution chain, habría tenido standing in for hubiera tenido, is heard in spoken Spanish in several Latin American countries and near the Basque Country in northern Spain, though it still isn\'t treated as standard usage.',
 			},
 			{
 				question: 'Is "si hubiera estudiado, habría aprobado" or "hubiera aprobado" correct?',
@@ -4569,7 +4569,7 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'Does si ever take the present subjunctive?',
-				answer: 'No. That\'s one of the four forms the RAE says si rejects outright in current Spanish, alongside the conditional, the future tense, and one further subjunctive form built off the present perfect. A clause like "si tengas dinero" is not a stylistic variant; it\'s an ungrammatical mixing of the real-condition prótasis (which wants tienes, present indicative) with the subjunctive.',
+				answer: 'A regular conditional clause uses tienes or tuviera, not tengas. The exclusion concerns the if-clause described in this article, alongside the conditional, the future tense, and one further subjunctive form built off the present perfect. A clause like "si tengas dinero" is not a stylistic variant; it\'s an ungrammatical mixing of the indicative tienes used for an open condition with the subjunctive.',
 			},
 			{
 			  "question": "What are the 10 examples of conditional clauses?",
@@ -4754,8 +4754,8 @@ export const guides: Guide[] = [
 		title: 'Irregular Spanish Verbs: The Four Types the RAE Actually Uses',
 		description: 'Most guides sort Spanish irregular verbs by how hard they are to memorize. The RAE sorts them by what actually changes: the vowel, the consonant, both, or the root itself.',
 		published: '2026-08-22',
-		updated: '2026-08-22',
-		coreSummary: 'The Real Academia Española doesn\'t classify Spanish\'s irregular verbs by how common or difficult they are; it classifies them by which part of the stem changes. Vocalic irregularities swap a stem vowel for another vowel or a diphthong (pedir → pido, contar → cuento). Consonantal irregularities change or add a consonant instead (conocer → conozco). Mixed irregularities do both at once, as in decir → digo. A separate suppletive group (ir, ser, estar, dar, haber) fuses more than one historical root into a single modern paradigm, and defective verbs like llover and soler are irregular because they\'re missing entire forms, not because anything in them changes.',
+		updated: '2026-10-12',
+		coreSummary: 'The Real Academia Española doesn\'t classify Spanish\'s irregular verbs by how common or difficult they are; it classifies them by which part of the stem changes. Vocalic irregularities swap a stem vowel for another vowel or a diphthong (pedir → pido, contar → cuento). Consonantal irregularities change or add a consonant instead (conocer → conozco). Mixed irregularities do both at once, as in decir → digo. The RAE treats ir, ser, estar, dar and haber as verbs of special conjugation; suppletion, illustrated by ir and ser, involves different roots within one paradigm, and defective verbs like llover and soler are irregular because they\'re missing entire forms, not because anything in them changes.',
 		language: 'Spanish',
 		sections: [
 			{
@@ -4766,20 +4766,20 @@ export const guides: Guide[] = [
 				],
 				image: {
 					src: '/images/irregular-spanish-verbs-diagram.svg',
-					alt: 'Four-quadrant diagram of the RAE\'s irregular verb categories: vocalic (contar→cuento, pedir→pido, adquirir→adquiero, jugar→juego), consonantal (conocer→conozco, producir→produzco, hacer→haga, haber→haya), mixed (decir→digo, both vowel and consonant change together), and suppletive (ir, ser, estar, dar, haber, each built from more than one historical root).',
+					alt: 'Four-quadrant diagram of the RAE\'s irregular verb categories: vocalic (contar→cuento, pedir→pido, adquirir→adquiero, jugar→juego), consonantal (conocer→conozco, producir→produzco, hacer→haga, haber→haya), mixed (decir→digo, both vowel and consonant change together), and special conjugation, with suppletive roots in ir and ser.',
 				},
 			},
 			{
 				heading: 'Vocalic irregularities: the stem vowel itself moves',
 				body: [
-					'The largest irregular family swaps one stem vowel for another, sometimes for a full diphthong. *E → ie* covers verbs like acertar (acierto), entender (entiendo), and discernir (discierno). *O → ue* covers contar (cuento) and mover (muevo). Two much smaller patterns sit alongside these: *i → ie* applies to exactly two verbs in the entire language, adquirir (adquiero) and inquirir (inquiero), and *u → ue* applies to exactly one, jugar (juego). None of these four patterns touches the nosotros or vosotros forms, because the stem isn\'t stressed there: contamos and contáis keep the plain o, and only cuento, cuentas, cuenta, and cuentan carry the diphthong.',
+					'The largest irregular family swaps one stem vowel for another, sometimes for a full diphthong. *E → ie* covers verbs like acertar (acierto), entender (entiendo), and discernir (discierno). *O → ue* covers contar (cuento) and mover (muevo). Two much smaller patterns sit alongside these: *i → ie* applies to exactly two verbs in the entire language, adquirir (adquiero) and inquirir (inquiero), and *u → ue* applies to exactly one, jugar (juego). In the present indicative, these diphthong patterns leave nosotros and vosotros unchanged because the stem is not stressed there: contamos and contáis keep the plain o, and only cuento, cuentas, cuenta, and cuentan carry the diphthong.',
 					'A related but distinct vocalic pattern swaps one plain vowel for another without ever forming a diphthong: pedir → pido, servir → sirvo, seguir → sigo. The RAE groups this *e → i* alternation under the same vocalic heading as the diphthong verbs above, because both are, mechanically, a vowel replacing a vowel in the stressed stem; the only difference is whether the replacement happens to land on a diphthong or a single vowel.',
 				],
 			},
 			{
 				heading: 'Consonantal irregularities: a sound gets swapped or added',
 				body: [
-					'A second RAE category covers verbs where a consonant, not a vowel, is what changes. The largest group by far is verbs ending in -acer, -ecer, -ocer, and -ucir, whose stem consonant becomes -zc- in the yo form and throughout the present subjunctive: conocer → conozco, aparecer → aparezco, conducir → conduzco, producir → produzco, traducir → traduzco, reducir → reduzco. This isn\'t quite every verb with those endings, though: hacer, decir, and satisfacer end in a vowel plus -cer/-cir like the -zco verbs above, but build their yo form a different way entirely (hago, digo, satisfago), and hacer\'s pattern is covered on its own just below. Mecer and remecer are a further outlier: they take a plain c → z swap (mezo, remezo), not the double -zc- the rest of the group uses. Every other form of the -zco verbs themselves stays completely regular: conoces, conoce, conocemos are untouched.',
+					'A second RAE category covers verbs where a consonant, not a vowel, is what changes. The largest group by far is verbs ending in -acer, -ecer, -ocer, and -ucir, whose stem consonant becomes -zc- in the yo form and throughout the present subjunctive: conocer → conozco, aparecer → aparezco, conducir → conduzco, producir → produzco, traducir → traduzco, reducir → reduzco. This isn\'t quite every verb with those endings, though: hacer, decir, and satisfacer end in a vowel plus -cer/-cir like the -zco verbs above, but build their yo form a different way entirely (hago, digo, satisfago), and hacer\'s pattern is covered on its own just below. Mecer and remecer are a further outlier: they take a plain c → z swap (mezo, remezo), not the double -zc- the rest of the group uses. Other persons in their present indicative lack -zc-: conoces, conoce and conocemos. This says nothing about their irregularities in other tenses, such as conduje.',
 					'A much narrower consonantal pattern involves just two verbs, and only in the subjunctive. Hacer and haber are, per the RAE\'s own description, the only two Spanish verbs whose root consonant itself changes in that mood, giving haga and haya rather than a form built the way -zco verbs are. It\'s a one-off substitution, not a productive rule you can extend to any other verb.',
 				],
 			},
@@ -4791,16 +4791,16 @@ export const guides: Guide[] = [
 				],
 			},
 			{
-				heading: 'Suppletive roots: verbs stitched together from more than one Latin ancestor',
+				heading: 'Special conjugations and suppletive roots',
 				body: [
-					'Five common verbs, ir, ser, estar, dar, and haber, get their own category in the RAE\'s grammar because their irregularity isn\'t a vowel or consonant swap within one root; it\'s the survival of two or more genuinely separate historical roots inside a single modern paradigm. Ir keeps its original root in the infinitive, imperative, and gerund (ir, id, yendo), switches to a different root for the present (voy, vas, va), and switches again for the preterite and present subjunctive (fui, vaya). Ser follows the same pattern: soy and es trace back to a different Latin verb than fui and sido do.',
-					'Estar is the mildest case in this group: it conjugates almost entirely by the regular rules for an -ar verb, and its one real irregularity is the "strong" preterite stem estuve, covered along with the rest of Spanish\'s strong preterites in [the irregular preterite verbs guide](/irregular-preterite-verbs-spanish/). Dar is the reverse oddity: it\'s an -ar verb by form, but its preterite (di, dio, dieron) borrows -er/-ir endings even though the infinitive would suggest -ar ones. For ser\'s complete paradigm across every mood and tense, see [the full ser conjugation table](/ser-conjugation/).',
+					'The RAE discusses haber, ser, ir, estar and dar under special conjugation, then distinguishes suppletive roots. Ir and ser illustrate suppletion through sharply different stems: ir has voy, iba and fui, while ser has soy, era and fui. Vaya belongs with the present stem of ir, not with fui. Listing five special conjugations does not mean that all five combine different Latin verbs.',
+					'Estar is the mildest case in this group: it conjugates almost entirely by the regular rules for an -ar verb, with irregular forms including estoy, esté and the strong preterite estuve, covered along with the rest of Spanish\'s strong preterites in [the irregular preterite verbs guide](/irregular-preterite-verbs-spanish/). Dar is the reverse oddity: it\'s an -ar verb by form, but its preterite (di, dio, dieron) borrows -er/-ir endings even though the infinitive would suggest -ar ones. For ser\'s complete paradigm across every mood and tense, see [the full ser conjugation table](/ser-conjugation/).',
 				],
 			},
 			{
 				heading: 'Defective verbs: irregular by missing forms, not by changing them',
 				body: [
-					'The RAE adds a sixth pattern that isn\'t about alternation at all: verbs that simply lack certain forms of their own paradigm. Weather verbs like llover (to rain) and nevar (to snow) exist only in the third-person singular, because there\'s no grammatical subject for "it rains" beyond the impersonal it. Soler ("to usually do something") conjugates only in the present and imperfect indicative; there\'s no future or preterite soler at all, only a different construction used to cover that meaning. A third group, verbs like atañer and concernir ("to concern" or "to be relevant to"), stays restricted to third-person forms for a different reason: they describe situations or facts rather than people, so there\'s no coherent subject for a "yo atango" or "tú atañes" to attach to.',
+					'The RAE also discusses a separate pattern that isn\'t about alternation at all: verbs that simply lack certain forms of their own paradigm. Weather verbs like llover and nevar are normally impersonal and third-person singular in their weather senses, but figurative uses can have other subjects. Soler is most often used in the present and imperfect, in both indicative and subjunctive; the RAE also records rare compound forms such as he solido. It is not used in the future, conditional or imperative. A third group, verbs like atañer and concernir ("to concern" or "to be relevant to"), stays restricted to third-person forms for a different reason: they describe situations or facts rather than people, so there\'s no coherent subject for a "yo atango" or "tú atañes" to attach to.',
 				],
 			},
 			{
@@ -4822,7 +4822,7 @@ export const guides: Guide[] = [
 		faq: [
 			{
 				question: 'What are the four types of irregular verbs in Spanish, according to the RAE?',
-				answer: 'The RAE\'s Nueva gramática groups irregularities into vocalic (a stem vowel changes, as in contar → cuento or pedir → pido), consonantal (a stem consonant changes or gets added, as in conocer → conozco), mixed (both happen at once, decir turning into digo being the textbook case), and suppletive (one modern paradigm actually descends from two or three separate Latin ancestors fused into a single verb, true of exactly five: haber, ser, ir, dar, estar). A separate, non-alternating pattern, defective verbs, covers verbs that are flat-out missing whole forms, none of it a matter of anything changing.',
+				answer: 'The RAE\'s Nueva gramática groups irregularities into vocalic (a stem vowel changes, as in contar → cuento or pedir → pido), consonantal (a stem consonant changes or gets added, as in conocer → conozco), mixed (both happen at once, decir turning into digo being the textbook case), and suppletive (one verb can draw on contrasting bases: compare voy with fui, or soy with era). Another RAE section treats five exceptional paradigms: estar, dar, haber, ir and ser. A separate, non-alternating pattern, defective verbs, covers verbs that are flat-out missing whole forms, none of it a matter of anything changing.',
 			},
 			{
 				question: 'What\'s the difference between vocalic and consonantal irregularity?',
@@ -4834,7 +4834,7 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'Are ir and ser irregular for the same reason?',
-				answer: 'They\'re both suppletive, but not built identically. Ir hangs onto its old root across four forms (imperfect, gerund, imperative, infinitive), then it changes again for present-tense forms like voy, and changes once more by the time you reach fui or vaya. Ser splits the same way, one root behind soy/es, a different one behind fui/sido. In the preterite specifically, the two verbs converge completely: [ir and ser share one identical paradigm](/irregular-preterite-verbs-spanish/), fui, fuiste, fue, fuimos, fuisteis, fueron.',
+				answer: 'Both have suppletive stems, but their patterns differ. Ir alternates forms such as voy, iba and fui; vaya continues the stem seen in voy. For ser, the examples are fui, soy and era. Such contrasts should not be reduced to a claim that soy/es and fui/sido each share one Latin source. In the preterite specifically, the two verbs converge completely: [ir and ser share one identical paradigm](/irregular-preterite-verbs-spanish/), fui, fuiste, fue, fuimos, fuisteis, fueron.',
 			},
 			{
 				question: 'Is hacer the same kind of irregular verb as conocer?',
@@ -4842,7 +4842,7 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'What does it mean for a verb to be "defective" rather than irregular?',
-				answer: 'A defective verb doesn\'t change its forms unpredictably; it\'s simply missing some of them. Take llover and nevar: both weather verbs, and both stuck with only a third-person form to their name, since nothing besides an impersonal "it" is available in "it rains" for the verb to agree with. Soler only shows up in two indicative tenses, the present and the imperfect, with nothing at all in the future, preterite, or conditional.',
+				answer: 'A defective verb doesn\'t change its forms unpredictably; it\'s simply missing some of them. For literal rain or snow, these weather verbs use an impersonal form; metaphorical subjects are possible. With soler, suelo and solía are common, as are corresponding subjunctive forms. Rarely, a compound such as he solido occurs. Soler is absent from commands and from future or conditional conjugations.',
 			},
 			{
 				question: 'What are the 10 most important irregular verbs in Spanish?',
@@ -4850,7 +4850,7 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'What are the 12 irregular verbs in the Spanish future tense?',
-				answer: 'Twelve verbs swap in a shortened stem for the future (and the conditional, which uses the same stems): caber → cabr-, decir → dir-, haber → habr-, hacer → har-, poder → podr-, poner → pondr-, querer → querr-, saber → sabr-, salir → saldr-, tener → tendr-, valer → valdr-, and venir → vendr-. The endings stay regular, so only the stem changes: tener becomes tendré, poner becomes pondré. No other verb is stem-changing in the future.',
+				answer: 'Twelve verbs swap in a shortened stem for the future (and the conditional, which uses the same stems): caber → cabr-, decir → dir-, haber → habr-, hacer → har-, poder → podr-, poner → pondr-, querer → querr-, saber → sabr-, salir → saldr-, tener → tendr-, valer → valdr-, and venir → vendr-. The endings stay regular, so only the stem changes: tener becomes tendré, poner becomes pondré. Derived verbs can follow these models too: mantener has mantendr- and convenir has convendr-.',
 			},
 		],
 		sources: [
@@ -5121,7 +5121,7 @@ export const guides: Guide[] = [
 		title: 'Spanish Present Perfect: Haber + Participle, and the Regional Split',
 		description: '"El taxi ha llegado" is standard in Spain and would sound odd across much of Latin America, where "el taxi llegó" covers the exact same moment. The RAE\'s own account of the split, plus every irregular participle.',
 		published: '2026-08-23',
-		updated: '2026-08-23',
+		updated: '2026-10-12',
 		coreSummary: 'The Spanish present perfect (pretérito perfecto compuesto) combines a conjugated form of haber with a past participle that never changes for gender or number in this construction. The RAE\'s own grammar states plainly that this is the verb form whose uses show the widest geographic variation in Spanish today: most of Spain uses it as the default for recent, even same-day events (El taxi ha llegado hace un momento), while most of Latin America prefers the simple preterite for that same recency (El taxi llegó hace un momento), and Andean Spanish adds a further, unrelated evidential reading that has nothing to do with recency at all.',
 		language: 'Spanish',
 		sections: [
@@ -5129,7 +5129,7 @@ export const guides: Guide[] = [
 				heading: 'Formation: haber, conjugated, plus an unchanging participle',
 				body: [
 					'The present perfect pairs a present-tense form of *haber* (*he, has, ha, hemos, habéis, han*) with the past participle of the main verb. Regular participles swap *-ar* for *-ado* and *-er*/*-ir* for *-ido*: *hablar* → *hablado*, *comer* → *comido*, *vivir* → *vivido*. *He hablado con ella.* (I\'ve spoken with her.) *Hemos comido ya.* (We\'ve already eaten.) Questions and negatives keep the exact same word order as any other Spanish verb: *¿Has comido?* (Have you eaten?), *No he comido* (I haven\'t eaten), with nothing inserted between *haber* and the participle in either case.',
-					'The participle inside this construction is frozen: it never agrees in gender or number with the subject, unlike the same word used as an adjective. *Ella ha escrito la carta* and *Ellos han escrito la carta* both keep *escrito*, never *escrita* or *escritos*, even though the subject changes. That invariance is specific to the compound tense; the moment the same participle stands alone as an adjective (*la carta escrita*), it starts agreeing again, the same way a past participle regains full adjective behavior once it leaves a compound tense in [French](/french-past-participle/).',
+					'The participle inside this construction is frozen: it never agrees in gender or number with the subject, unlike the same word used as an adjective. *Ella ha escrito la carta* and *Ellos han escrito la carta* both keep *escrito*, never *escrita* or *escritos*, even though the subject changes. That invariance is specific to the compound tense; the moment the same participle stands alone as an adjective (*la carta escrita*), it starts agreeing again, whereas [French](/french-past-participle/) has its own agreement rules for participles with avoir, with être and as adjectives.',
 				],
 			},
 			{
@@ -5144,17 +5144,17 @@ export const guides: Guide[] = [
 				},
 			},
 			{
-				heading: 'Haber and the participle can\'t be split',
+				heading: 'Adverbs and object pronouns have different placement rules',
 				body: [
-					'English lets an adverb sit between "have" and the participle: "I have already eaten," "She has never seen it." Spanish doesn\'t allow the equivalent split. *Ya he comido* (not *he ya comido*) and *Nunca lo ha visto* (not *ha nunca visto lo*) both keep *haber* locked directly against the participle, with the adverb pushed to one side of the whole unit instead of wedged inside it.',
-					'The same rule blocks object pronouns from breaking up the pair. *Lo he visto* (I\'ve seen it) attaches the pronoun before *haber*, never between *haber* and the participle, and never after the participle either; there\'s no *He visto lo* or *He lo visto* in standard Spanish. Object pronouns work the same way with every compound tense built from haber, not just this one; the pronoun always lands in front of the whole *haber* + participle unit, whether the tense is present perfect, pluperfect, or future perfect. The [future perfect](/spanish-future-perfect/) follows that same no-splitting rule, though its most common real-world job isn\'t a forecast at all: habré llegado usually signals a guess about something that has probably already happened, not a prediction about what\'s still to come.',
+					'*Ya he comido* and *Nunca lo ha visto* are useful everyday patterns. They do not establish a ban on every intervening adverb: the RAE records compound tenses with adverbs such as casi, previamente and recientemente between haber and the participle. Placement depends on the adverb and context.',
+					'Unstressed object pronouns, by contrast, do not split the pair. *Lo he visto* (I\'ve seen it) attaches the pronoun before *haber*, never between *haber* and the participle, and never after the participle either; there\'s no *He visto lo* or *He lo visto* in standard Spanish. Object pronouns work the same way with every compound tense built from haber, not just this one; the pronoun always lands in front of the whole *haber* + participle unit, whether the tense is present perfect, pluperfect, or future perfect. The [future perfect](/spanish-future-perfect/) uses the same object-pronoun placement. It can also express a guess about a completed event, alongside completion before a future reference point.',
 				],
 			},
 			{
 				heading: 'Present perfect vs. simple preterite: what actually decides it',
 				body: [
-					'Set the regional split aside for a moment, and the core distinction is about whether the past event still bears on the present. *He perdido las llaves* (I\'ve lost my keys) reports a state that\'s still true right now, the keys are still missing. *Perdí las llaves ayer, pero las encontré* (I lost my keys yesterday, but I found them) reports a closed, finished episode with no bearing on the present moment. Swapping the tenses in either sentence would sound off to a fluent ear, independent of any regional preference.',
-					'Certain words tend to pull toward one tense or the other. *Ya* (already), *todavía no* (not yet), *alguna vez* (ever), and *nunca* (never) commonly pair with the present perfect, because they\'re inherently about a span reaching into now: *¿Has estado alguna vez en Perú?* (Have you ever been to Peru?), *Todavía no he terminado* (I still haven\'t finished). A specific, closed past date, *ayer, la semana pasada, en 2020*, pulls toward the simple preterite instead, because it fixes the event in a segment of time that\'s already sealed off: *Fui a Perú en 2020* (I went to Peru in 2020), *La llamé la semana pasada* (I called her last week). These tendencies hold everywhere; what shifts by region, covered next, is how much recency alone can pull an event toward the perfect even without one of these explicit markers.',
+					'Set the regional split aside for a moment, and the core distinction is about whether the past event still bears on the present. *He perdido las llaves* (I\'ve lost my keys) reports a state that\'s still true right now, the keys are still missing. *Perdí las llaves ayer, pero las encontré* (I lost my keys yesterday, but I found them) reports a closed, finished episode with no bearing on the present moment. This contrast is useful in varieties that distinguish the two forms this way; it is not a rule independent of regional usage.',
+					'Certain words tend to pull toward one tense or the other. *Ya* (already), *todavía no* (not yet), *alguna vez* (ever), and *nunca* (never) commonly pair with the present perfect, because they\'re inherently about a span reaching into now: *¿Has estado alguna vez en Perú?* (Have you ever been to Peru?), *Todavía no he terminado* (I still haven\'t finished). A specific, closed past date, *ayer, la semana pasada, en 2020*, pulls toward the simple preterite instead, because it fixes the event in a segment of time that\'s already sealed off: *Fui a Perú en 2020* (I went to Peru in 2020), *La llamé la semana pasada* (I called her last week). These associations vary geographically; another difference by region, covered next, is how much recency alone can pull an event toward the perfect even without one of these explicit markers.',
 				],
 			},
 			{
@@ -5172,11 +5172,11 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'What are the irregular Spanish past participles?',
-				answer: 'A dozen common verbs take a "strong" form instead: *vuelto* from *volver*, *visto* from *ver*, *satisfecho* from *satisfacer*, *resuelto* from *resolver*, *roto* from *romper*, *puesto* from *poner*, *muerto* from *morir*, *hecho* from *hacer*, *escrito* from *escribir*, *dicho* from *decir*, *cubierto* from *cubrir*, and *abierto* from *abrir* — plus verbs built on top of these, like *descubierto* and *devuelto*. Two verbs, *bendecir* along with *maldecir*, break that inherited pattern: their true participles are the everyday, regular-looking *bendecido*/*maldecido*, while *maldito* and *bendito* survive only as adjectives.',
+				answer: 'A dozen common verbs take a "strong" form instead: *vuelto* from *volver*, *visto* from *ver*, *satisfecho* from *satisfacer*, *resuelto* from *resolver*, *roto* from *romper*, *puesto* from *poner*, *muerto* from *morir*, *hecho* from *hacer*, *escrito* from *escribir*, *dicho* from *decir*, *cubierto* from *cubrir*, and *abierto* from *abrir* — plus verbs built on top of these, like *descubierto* and *devuelto*. Two verbs, *bendecir* along with *maldecir*, break that inherited pattern: their true participles are the everyday, regular-looking *bendecido*/*maldecido*, while *maldito* and *bendito* have adjectival and nominal uses, plus expressions such as bendito sea.',
 			},
 			{
 				question: 'Can I put an adverb between "he" and the participle, like English does?',
-				answer: 'No. Spanish treats the whole haber-plus-participle pair as one locked unit; an adverb has to sit outside it entirely rather than slot in between the two pieces. *Ya he comido* and *Siempre lo he creído* are correct; *he ya comido* is not standard Spanish, even though that same kind of split ("I\'ve already eaten," with the adverb wedged in) is completely normal in English.',
+				answer: 'Sometimes. Common choices are *Siempre lo he creído* or *Ya he comido*, but the RAE also accepts intervening adverbs in compound tenses, including recientemente, as well as previously-oriented previamente or the approximator casi. Not every adverb works in every position. For a pronoun object, put lo before the auxiliary: *lo he visto* is the accepted order.',
 			},
 			{
 				question: 'Is "he hablado" used the same way in Spain and Latin America?',
@@ -5273,8 +5273,8 @@ export const guides: Guide[] = [
 		title: "The Spanish Gerund: Formation, Irregulars, and Why It's Never a Noun",
 		description: "Spanish -ando and -iendo look like English -ing, but the gerund can't be a subject or object in Spanish, and the RAE flags two other common uses as outright wrong.",
 		published: '2026-08-24',
-		updated: '2026-08-24',
-		coreSummary: "Spanish forms the gerund by adding -ando to -ar verbs (hablando) and -iendo to -er/-ir verbs (comiendo, viviendo), with two irregular families: stem-changing -ir verbs shift e→i or o→u (pidiendo, durmiendo), the same stem shift the third-person preterite uses, and verbs whose stem ends in a vowel insert a y instead (leyendo, oyendo, construyendo) so two vowels never collide. Unlike English \"-ing,\" the gerund is purely verbal in Spanish, never a noun: \"swimming is fun\" is nadar es divertido, with the infinitive, not nadando. The Real Academia Española also singles out two specific patterns as incorrect despite their real-world use, the gerundio de posterioridad (stating an unrelated later action) and the gerundio especificativo (using the gerund to modify a noun the way an adjective clause does).",
+		updated: '2026-10-12',
+		coreSummary: "Spanish forms the gerund by adding -ando to -ar verbs (hablando) and -iendo to -er/-ir verbs (comiendo, viviendo), with two irregular families: stem-changing -ir verbs shift e→i or o→u (pidiendo, durmiendo), the same stem shift the third-person preterite uses, and verbs whose stem ends in a vowel insert a y instead (leyendo, oyendo, construyendo) reflecting the intervocalic change from unstressed i to y. Unlike English \"-ing,\" the gerund is purely verbal in Spanish, never a noun: \"swimming is fun\" is nadar es divertido, with the infinitive, not nadando. The Real Academia Española also singles out two specific patterns as incorrect despite their real-world use, the gerundio de posterioridad (stating an unrelated later action) and the gerundio especificativo (using the gerund to modify a noun the way an adjective clause does).",
 		language: 'Spanish',
 		sections: [
 			{
@@ -5291,14 +5291,14 @@ export const guides: Guide[] = [
 			{
 				heading: 'Two irregular patterns, and why they exist',
 				body: [
-					"The first irregular pattern belongs to stem-changing -ir verbs: pedir becomes pidiendo, sentir becomes sintiendo, decir becomes diciendo, venir becomes viniendo, and the vowel shift is e→i in every case. A second, smaller o→u group covers dormir (durmiendo) and morir (muriendo), plus poder (pudiendo), the one -er verb that borrows this -ir-style shift. That shift traces back to a shared cause: pidió and pidiendo, durmió and durmiendo, [pull from the same altered stem the third-person preterite uses](/irregular-preterite-verbs-spanish/) for these same verbs, so the two forms line up for a structural reason rather than by coincidence.",
-					"The second pattern covers verbs whose stem ends in a vowel: leer (leyendo), oír (oyendo), traer (trayendo), caer (cayendo), construir (construyendo), huir (huyendo), and ir (yendo). Spanish doesn't tolerate two vowels landing side by side where -iendo would otherwise attach directly to a vowel-final stem, le-iendo or ca-iendo, so the unstressed i between two vowels turns into a y instead, giving leyendo and cayendo. The underlying ending stays -iendo the whole time; only the spelling adjusts to keep the sounds distinct.",
+					"The first irregular pattern belongs to stem-changing -ir verbs: pedir becomes pidiendo, sentir becomes sintiendo, decir becomes diciendo, venir becomes viniendo, and the vowel shift is e→i in every case. A second, smaller o→u group covers dormir (durmiendo) and morir (muriendo), plus poder (pudiendo), the one -er verb that borrows this -ir-style shift. That shift traces back to a shared cause: pidió and pidiendo, durmió and durmiendo, [pull from the same altered stem the third-person preterite uses](/irregular-preterite-verbs-spanish/) for the -ir examples above. Poder is a separate exception: its gerund is pudiendo, while its preterite has pud-.",
+					"The second pattern covers verbs whose stem ends in a vowel: leer (leyendo), oír (oyendo), traer (trayendo), caer (cayendo), construir (construyendo), huir (huyendo), and ir (yendo). In these forms, unstressed i between vowels becomes y, giving leyendo and cayendo. This is not a ban on adjacent vowels in Spanish: comiendo and the hiatus in caído show why that explanation would be too broad. The underlying ending stays -iendo the whole time; only the spelling adjusts to keep the sounds distinct.",
 				],
 			},
 			{
 				heading: 'What the gerund is actually for',
 				body: [
-					"The gerund's single most common job is building progressive tenses with estar: estoy comiendo (I am eating), estaba lloviendo (it was raining). [Ser vs. estar](/ser-vs-estar/) covers why estar, never ser, is the verb that pairs with a gerund this way; there are no exceptions to that rule anywhere in standard Spanish. Beyond estar, a handful of other verbs combine with the gerund for related but distinct meanings: seguir and continuar plus a gerund mean \"to keep doing something\" (sigue lloviendo, \"it's still raining\"), llevar plus a time expression and a gerund expresses how long something has been going on (llevo dos años estudiando español, \"I've been studying Spanish for two years\"), and ir plus a gerund can frame an action as gradual or incremental (va mejorando, \"it's gradually improving\").",
+					"The gerund's single most common job is building progressive tenses with estar: estoy comiendo (I am eating), estaba lloviendo (it was raining). Estar forms this progressive construction. The [ser vs. estar comparison](/ser-vs-estar/) explains their different uses in descriptions; it is not a full account of gerund constructions. Beyond estar, a handful of other verbs combine with the gerund for related but distinct meanings: seguir and continuar plus a gerund mean \"to keep doing something\" (sigue lloviendo, \"it's still raining\"), llevar plus a time expression and a gerund expresses how long something has been going on (llevo dos años estudiando español, \"I've been studying Spanish for two years\"), and ir plus a gerund can frame an action as gradual or incremental (va mejorando, \"it's gradually improving\").",
 					"Outside those verb-plus-gerund constructions, the gerund also stands alone as an adverbial modifier describing how or under what circumstances something happens: se acercó arrastrándose (he approached, dragging himself along) or salió corriendo (she left running, i.e., she ran out). There's also a perfect gerund, habiendo plus a past participle, for an action completed before another one: habiendo terminado el examen, salió del aula (having finished the exam, she left the classroom). All of these keep the gerund doing verb-like work, describing an action or a manner, never standing in as the name of a thing.",
 				],
 			},
@@ -5331,11 +5331,11 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'How do you form the gerund in Spanish?',
-				answer: 'It comes down to which conjugation a verb belongs to: -ar verbs pick up -ando (cantar turns into cantando), while both -er and -ir verbs take -iendo instead (beber turns into bebiendo, escribir into escribiendo). -Ir verbs that change their stem swap the vowel first, e→i (pedir → pidiendo) or o→u (dormir → durmiendo), and verbs with a vowel right before that ending swap in a y for the plain i (leer → leyendo, oír → oyendo, construir → construyendo) so the spelling never stacks two vowels together.',
+				answer: 'It comes down to which conjugation a verb belongs to: -ar verbs pick up -ando (cantar turns into cantando), while both -er and -ir verbs take -iendo instead (beber turns into bebiendo, escribir into escribiendo). -Ir verbs that change their stem swap the vowel first, e→i (pedir → pidiendo) or o→u (dormir → durmiendo), and verbs with a vowel right before that ending swap in a y for the plain i (leer → leyendo, oír → oyendo, construir → construyendo), with y representing the change in an unstressed i located between vowels.',
 			},
 			{
 				question: 'What are the irregular Spanish gerunds?',
-				answer: 'They fall into two families. -Ir verbs with a stem change (plus poder) swap e→i or o→u: pidiendo, sintiendo, diciendo, viniendo, durmiendo, muriendo, pudiendo — the identical vowel change [these same verbs make in the preterite when he/she/they is doing the action](/irregular-preterite-verbs-spanish/). Verbs with a vowel-final stem take -yendo instead of -iendo: construyendo, cayendo, trayendo, oyendo, leyendo, huyendo, and yendo (ir), which is fully irregular.',
+				answer: 'They fall into two families. -Ir verbs with a stem change (plus poder) swap e→i or o→u: pidiendo, sintiendo, diciendo, viniendo, durmiendo, muriendo, pudiendo — compare the [-ir past-tense forms for él and ellos](/irregular-preterite-verbs-spanish/). Poder is the exception to that comparison: pudiendo has u, but the preterite stem is pud-. Verbs with a vowel-final stem take -yendo instead of -iendo: construyendo, cayendo, trayendo, oyendo, leyendo, huyendo, and yendo (ir), which is fully irregular.',
 			},
 			{
 				question: 'Can you use the Spanish gerund as a noun, the way English uses "-ing," as in "swimming is fun"?',

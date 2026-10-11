@@ -28,5 +28,5 @@
 	<!-- Row 4: the rejected error -->
 	<rect x="48" y="392" width="704" height="52" rx="6" fill="#f3e3e1" stroke="#e3bdb8"/>
 	<text x="400" y="415" text-anchor="middle" fill="#8a3b34" font-size="15" font-weight="600">RAE marks "si tendría" and "si tengas" as incorrect</text>
-	<text x="400" y="434" text-anchor="middle" fill="#8a3b34" font-size="13">si never takes the future, the conditional, or the present/present-perfect subjunctive</text>
+	<text x="400" y="434" text-anchor="middle" fill="#8a3b34" font-size="13">Conditional si rejects these forms; other uses of si have different rules</text>
 </svg>

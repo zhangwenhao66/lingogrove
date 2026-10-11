@@ -42,8 +42,8 @@
 		<text x="301" y="246" fill="#5a5648">morir → muriendo</text>
 		<text x="301" y="266" fill="#5a5648">(also poder → pudiendo)</text>
 
-		<text x="301" y="302" font-weight="700">Same shift as</text>
-		<text x="301" y="322" fill="#5a5648">the 3rd-person preterite:</text>
+		<text x="301" y="302" font-weight="700">For the -ir examples:</text>
+		<text x="301" y="322" fill="#5a5648">same 3rd-person preterite shift.</text>
 		<text x="301" y="342" fill="#5a5648">pidió / pidiendo</text>
 	</g>
 
@@ -56,8 +56,8 @@
 		<text x="560" y="208" fill="#5a5648">ir → yendo</text>
 
 		<text x="560" y="248" font-weight="700">-iendo becomes</text>
-		<text x="560" y="268" fill="#5a5648">-yendo so two vowels</text>
-		<text x="560" y="288" fill="#5a5648">never sit side by side.</text>
+		<text x="560" y="268" fill="#5a5648">-yendo: intervocalic i</text>
+		<text x="560" y="288" fill="#5a5648">becomes y in these forms.</text>
 	</g>
 
 	<line x1="24" y1="380" x2="776" y2="380" stroke="#ddd8c4" stroke-width="1"/>
