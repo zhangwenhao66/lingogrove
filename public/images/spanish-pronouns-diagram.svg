@@ -4,7 +4,7 @@
 
 	<rect x="24" y="24" width="752" height="56" rx="10" fill="#2f6b47"/>
 	<rect x="24" y="60" width="752" height="20" fill="#2f6b47"/>
-	<text x="400" y="60" text-anchor="middle" fill="#ffffff" font-size="19" font-weight="700">SIX FAMILIES OF SPANISH PRONOUNS</text>
+	<text x="400" y="60" text-anchor="middle" fill="#ffffff" font-size="19" font-weight="700">SIX FAMILIES SHOWN FROM THIS GUIDE</text>
 
 	<!-- row 1 -->
 	<rect x="46" y="102" width="220" height="150" rx="8" fill="#fbead0" stroke="#ddd8c4"/>
@@ -41,7 +41,7 @@
 	<text x="156" y="328" text-anchor="middle" fill="#204a31" font-size="14" font-weight="700">mí, ti, sí,</text>
 	<text x="156" y="346" text-anchor="middle" fill="#204a31" font-size="14" font-weight="700">conmigo, contigo</text>
 	<text x="156" y="392" text-anchor="middle" fill="#201f1a" font-size="12" font-style="italic">"¿Vienes conmigo?"</text>
-	<text x="156" y="410" text-anchor="middle" fill="#5a5648" font-size="11">con fuses; entre/según don't</text>
+	<text x="156" y="410" text-anchor="middle" fill="#5a5648" font-size="11">con fuses; other uses vary</text>
 
 	<text x="400" y="304" text-anchor="middle" fill="#5a5648" font-size="12" font-weight="700">POSSESSIVE</text>
 	<text x="400" y="328" text-anchor="middle" fill="#204a31" font-size="14" font-weight="700">mi/mío, tu/tuyo,</text>

@@ -7,7 +7,7 @@
 	<text x="63" y="91" fill="#5a5648" font-size="15">Si tuviera dinero,</text>
 	<rect x="400" y="62" width="352" height="46" rx="6" fill="#e4efe6" stroke="#bcd6c2"/>
 	<text x="415" y="91" fill="#204a31" font-size="15" font-weight="600">viajaría.</text>
-	<text x="470" y="91" fill="#5a5648" font-size="13">(I would travel, but I don't have the money)</text>
+	<text x="470" y="91" fill="#5a5648" font-size="13">(I would travel if I had the money)</text>
 
 	<!-- Row 2: future-in-the-past / reported speech -->
 	<text x="48" y="152" fill="#201f1a" font-size="19" font-weight="700">Future-in-the-past: a plan reported from a past vantage point</text>
@@ -18,7 +18,7 @@
 	<text x="480" y="215" text-anchor="middle" fill="#5a5648" font-size="13">(announced he would retire the following year)</text>
 
 	<!-- Row 3: courtesy / attenuation scale -->
-	<text x="48" y="270" fill="#201f1a" font-size="19" font-weight="700">Courtesy scale: softening a request, weakest to strongest</text>
+	<text x="48" y="270" fill="#201f1a" font-size="19" font-weight="700">Three ways to phrase a request</text>
 	<line x1="48" y1="330" x2="752" y2="330" stroke="#ddd8c4" stroke-width="2"/>
 	<circle cx="120" cy="330" r="7" fill="#8a3b2e"/>
 	<text x="120" y="360" text-anchor="middle" fill="#8a3b2e" font-size="15" font-weight="600">Quiero café.</text>
@@ -28,5 +28,5 @@
 	<text x="400" y="380" text-anchor="middle" fill="#8a8674" font-size="12">(imperfect, softer)</text>
 	<circle cx="680" cy="330" r="7" fill="#2f6b47"/>
 	<text x="680" y="360" text-anchor="middle" fill="#204a31" font-size="15" font-weight="600">Querría un café.</text>
-	<text x="680" y="380" text-anchor="middle" fill="#8a8674" font-size="12">(conditional, most attenuated)</text>
+	<text x="680" y="380" text-anchor="middle" fill="#8a8674" font-size="12">(conditional, attenuated)</text>
 </svg>

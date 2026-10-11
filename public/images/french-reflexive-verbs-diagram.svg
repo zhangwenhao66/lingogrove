@@ -10,9 +10,9 @@
 	<rect x="46" y="102" width="345" height="130" rx="8" fill="#eaf1ea" stroke="#2f6b47"/>
 	<text x="218" y="126" text-anchor="middle" fill="#2f6b47" font-size="13" font-weight="700">ESSENTIELLEMENT PRONOMINAL</text>
 	<text x="218" y="150" text-anchor="middle" fill="#201f1a" font-size="13">s&#8217;&#233;vanouir &#183; se souvenir &#183; s&#8217;enfuir</text>
-	<text x="218" y="172" text-anchor="middle" fill="#5a5648" font-size="11" font-style="italic">no verb exists without &#171;se&#187; &#8212;</text>
-	<text x="218" y="190" text-anchor="middle" fill="#5a5648" font-size="11" font-style="italic">&#171;&#233;vanouir&#187; alone isn&#8217;t a word</text>
-	<text x="218" y="212" text-anchor="middle" fill="#8a8570" font-size="10">participle always agrees with subject</text>
+	<text x="218" y="172" text-anchor="middle" fill="#5a5648" font-size="11" font-style="italic">used with «se» in current French —</text>
+	<text x="218" y="190" text-anchor="middle" fill="#5a5648" font-size="11" font-style="italic">se souvenir, s’enfuir, s’évanouir</text>
+	<text x="218" y="212" text-anchor="middle" fill="#8a8570" font-size="10">subject agreement; check exceptions</text>
 
 	<rect x="409" y="102" width="345" height="130" rx="8" fill="#eaf1ea" stroke="#2f6b47"/>
 	<text x="581" y="126" text-anchor="middle" fill="#2f6b47" font-size="13" font-weight="700">R&#201;FL&#201;CHI (REFLEXIVE)</text>
@@ -32,8 +32,8 @@
 	<text x="581" y="272" text-anchor="middle" fill="#2f6b47" font-size="13" font-weight="700">SENS PASSIF (PASSIVE SENSE)</text>
 	<text x="581" y="296" text-anchor="middle" fill="#201f1a" font-size="13">Ce bois se travaille bien</text>
 	<text x="581" y="316" text-anchor="middle" fill="#5a5648" font-size="11" font-style="italic">this wood works well &#8212;</text>
-	<text x="581" y="334" text-anchor="middle" fill="#5a5648" font-size="11" font-style="italic">no person is doing the acting</text>
-	<text x="581" y="356" text-anchor="middle" fill="#8a8570" font-size="10">participle always agrees with subject</text>
+	<text x="581" y="334" text-anchor="middle" fill="#5a5648" font-size="11" font-style="italic">the agent is not named</text>
+	<text x="581" y="356" text-anchor="middle" fill="#8a8570" font-size="10">subject agreement; check exceptions</text>
 
 	<!-- auxiliary banner -->
 	<rect x="46" y="398" width="708" height="70" rx="8" fill="#fdf3e3" stroke="#5a4a2f"/>
