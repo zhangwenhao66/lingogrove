@@ -2568,7 +2568,7 @@ export const guides: Guide[] = [
 		faq: [
 			{
 				question: 'Why does "no hables" look completely different from "habla"?',
-				answer: 'Because these forms belong to different grammatical uses. Habla addresses tú in an affirmative instruction. Its spelling also occurs in the indicative, as in él habla, but that is a different grammatical use. Hables, in no hables, is drawn instead from the present tense of the subjunctive mood; per the RAE, Spanish\'s imperative simply has no negative branch, so any command turned negative, no matter who it\'s aimed at, takes its shape from subjunctive forms rather than imperative ones.',
+				answer: 'Because these forms belong to different grammatical uses. Habla addresses tú in an affirmative instruction. Its spelling also occurs in the indicative, as in él habla, but that is a different grammatical use. Hables, in no hables, is drawn instead from the present tense of the subjunctive mood; per the RAE, Spanish\'s imperative simply has no negative branch, so conjugated negative instructions use subjunctive verb shapes. An impersonal infinitive notice such as No fumar is a different construction.',
 			},
 			{
 				question: 'What are the eight irregular tú commands in Spanish?',
