@@ -5785,21 +5785,21 @@ export const guides: Guide[] = [
 		slug: 'voila-meaning',
 		category: 'Loanwords',
 		title: 'Voila Meaning: French "See There" and Why People Write "Wallah"',
-		description: 'Voila comes from French vois ("you see") and là ("there"). English kept the dramatic reveal but not the near/far distinction, and its dropped "v" sound produced "wallah."',
+		description: 'Voila comes from French vois ("you see") and là ("there"). English dictionaries list its use as an interjection; "wallah" is one attempted spelling based on how it sounds.',
 		published: '2026-08-26',
-		updated: '2026-08-26',
-		coreSummary: 'Voilà is built from vois, the second-person singular indicative of French voir ("to see"), plus là ("there"); the CNRTL etymological dictionary traces it to 1342, when it was paired with voici to mark something near versus something farther off, a distinction modern French has mostly abandoned in favor of voilà alone. English kept only the word\'s dramatic-reveal sense, never took on French\'s separate use of voilà to mean "it has now been [some length of time]," and a weakened "v" sound in casual pronunciation produced spelling variants including "wallah" and "viola," both of which happen to already be different, unrelated words.',
+		updated: '2026-10-12',
+		coreSummary: 'Voilà is built from vois, the second-person singular indicative of French voir ("to see"), plus là ("there"); the CNRTL etymological dictionary traces it to 1342, when it was paired with voici to mark something near versus something farther off. The pair can distinguish nearer from farther objects, although voilà also presents nearby things in conversation. Merriam-Webster lists the English interjection for drawing attention, expressing approval or suggesting a magical appearance. Its usage note discusses spellings such as "wallah" based on pronunciation; "viola" is a separate spelling mix-up.',
 		language: 'French',
 		usageNote: {
 			register: 'neutral',
-			regionNote: 'Voilà itself carries no regional split in French; the variation is entirely on the English side, where careful writing keeps the grave accent and the "v" sound (vwah-LAH), while casual speech and writing increasingly drop both, producing spellings like "voila," "wallah," and, mistakenly, "viola."',
+			regionNote: 'French spells voilà with a grave accent. English writing also uses voila without the accent. Merriam-Webster distinguishes its standard opening v from a variant omitting that initial consonant; its note discusses attempted spellings such as wallah. Viola is a separate word that can be written in error.',
 		},
 		sections: [
 			{
 				heading: 'What "voilà" literally means, and its first recorded use in 1342',
 				body: [
-					'Voilà is not one word but a fused command: the CNRTL, France\'s national reference dictionary for etymology, describes it as a compound "de la 2e personne de l\'indicatif de voir et de la particule là," built from the second-person singular indicative of voir ("to see") and the adverb là ("there"). Literally, voilà says "you see [it] there." CNRTL\'s earliest citation for the word dates to 1342, recorded as vela in Guillaume de Machaut\'s poem Le Dit dou Lyon, where it was already being used to point at "une personne ou une chose relativement éloignée," a person or thing at some remove from the speaker. French still writes the word with its grave accent, voilà; English borrowings routinely drop it, leaving voila.',
-					'By the time it reached Merriam-Webster and Dictionary.com as an English entry, voilà had narrowed to a single job: an interjection used to call attention to something, to express satisfaction or approval, or to suggest that something has appeared as if by magic, roughly the effect of saying "here it is," "look at that," or "ta-da" while presenting or revealing something just finished or shown off. Cambridge Dictionary\'s pronunciation guide gives the sound as vwah-LAH, with the same "v" English speakers use in "van," not a silent or softened one, however often that "v" gets lost in practice.',
+					'Voilà is a single word formed from two elements: the CNRTL, France\'s national reference dictionary for etymology, describes it as a compound "de la 2e personne de l\'indicatif de voir et de la particule là," built from the second-person singular indicative of voir ("to see") and the adverb là ("there"). Literally, voilà says "you see [it] there." CNRTL\'s earliest citation for the word dates to 1342, recorded as vela in Guillaume de Machaut\'s poem Le Dit dou Lyon, where it was already being used to point at "une personne ou une chose relativement éloignée," a person or thing at some remove from the speaker. French still writes the word with its grave accent, voilà; English borrowings routinely drop it, leaving voila.',
+					'By the time it reached Merriam-Webster and Dictionary.com as an English entry, the English dictionaries listed it as an interjection used to call attention to something, to express satisfaction or approval, or to suggest that something has appeared as if by magic, roughly the effect of saying "here it is," "look at that," or "ta-da" while presenting or revealing something just finished or shown off. Cambridge Dictionary\'s pronunciation guide gives the sound as vwah-LAH, with the same "v" English speakers use in "van," not a silent or softened one, however often that "v" gets lost in practice.',
 				],
 				image: {
 					src: '/images/voila-meaning-diagram.svg',
@@ -5809,14 +5809,14 @@ export const guides: Guide[] = [
 			{
 				heading: '"Voici" versus "voilà": the distinction English never adopted',
 				body: [
-					'Voilà has a twin built the same way: voici, from vois plus ci ("here"), the same construction CNRTL cross-references directly under its voilà entry. The pairing was originally about distance, not just style, voici for what is near the speaker, voilà for what sits farther off, the same ci/là contrast that shows up elsewhere in French to mark "here" against "there." Recent French-usage guides and grammar blogs describe that spatial distinction as largely eroded in modern spoken French: voilà now covers most everyday presenting and announcing regardless of actual distance, while voici survives mainly in formal introductions and written contexts, such as introducing a guest or a set of results. French also slots object pronouns directly into both words, me voici ("here I am"), nous voilà ("there we are," or "here we are now"), using the same [pronouns](/french-pronouns/) that attach to ordinary French verbs, a construction English "voila" never picked up at all.',
-					'French also gives voilà a job English speakers who use the borrowed word have never heard of: marking elapsed time. CNRTL\'s own citation record traces this sense to a mid-18th-century attestation, glossed as "il y a exactement (tel laps de temps)," "it has been exactly [such a length of time]." The construction pairs voilà with a duration and que: voilà trois mois qu\'il est parti translates as "he\'s now been gone for three months," built with French present tense even though the natural English rendering needs a past tense. Nothing about that sense survived the word\'s trip into English; an English speaker saying "voila" is never talking about how long something has been going on.',
+					'Voilà has a twin built the same way: voici, from vois plus ci ("here"), the same construction CNRTL cross-references directly under its voilà entry. The pairing was originally about distance, not just style, voici for what is near the speaker, voilà for what sits farther off, the same ci/là contrast that shows up elsewhere in French to mark "here" against "there." Recent French-usage guides and grammar blogs describe that spatial distinction as largely eroded in modern spoken French: voilà now covers most everyday presenting and announcing regardless of actual distance, while voici survives mainly in formal introductions and written contexts, such as introducing a guest or a set of results. French also slots object pronouns directly into both words, me voici ("here I am"), nous voilà ("there we are," or "here we are now"), using Object forms such as me and nous appear in the [French pronouns](/french-pronouns/) guide. These French examples differ from the English interjection listed by Merriam-Webster.',
+					'French also gives voilà a job English speakers who use the borrowed word have never heard of: marking elapsed time. CNRTL\'s own citation record traces this sense to a mid-18th-century attestation, glossed as "il y a exactement (tel laps de temps)," "it has been exactly [such a length of time]." The construction pairs voilà with a duration and que: voilà trois mois qu\'il est parti translates as "he\'s now been gone for three months," Here est parti is passé composé, not present tense. The sentence reports elapsed time since a departure; this duration construction is distinct from the English interjection in the cited dictionary entry.',
 				],
 			},
 			{
 				heading: 'How English narrowed the word, and the "voila" vs. "viola" mix-up',
 				body: [
-					'What actually crossed into English, per both Merriam-Webster and Dictionary.com, was the presenting-and-revealing sense alone: the reflexive imperative "you see" collapsed into a flourish that announces something is finished, found, or on display, with no requirement that the thing be literally far from the speaker the way fourteenth-century French demanded. That narrowing is exactly what produces the most common English error attached to the word: writing viola instead of voila.',
+					'Merriam-Webster and Dictionary.com describe the English interjection as a way to present something, express approval or suggest a magical appearance. It does not require an object to be far away. A separate writing error reverses the last two letters of voila, producing viola; a difference in word meaning does not establish why that error occurs.',
 					'Viola is a real, correctly spelled English word, a string instrument sized between a violin and a cello, or, separately, a name for a group of flowering plants, and it shares no history at all with the French voir family. Washington State University\'s long-running Common Errors in English Usage site, maintained by linguist Paul Brians, catalogs the mix-up directly under an entry titled "viola/voila," noting that writers reach for the more familiar English word viola when they mean the interjection, producing sentences that read as if a musical instrument had just been presented instead of an idea, a dish, or a finished task. Spell-check software doesn\'t catch the error because both words are legitimate English spellings; only meaning gives away the mistake. The two aren\'t even close in sound once spoken aloud: voila is vwah-LAH, viola is vee-OH-luh, a completely different vowel pattern and stress that has nothing to do with why the written mix-up happens so often.',
 				],
 			},
@@ -5824,14 +5824,14 @@ export const guides: Guide[] = [
 				heading: 'One spelling, three unrelated origins: "voila," "viola," and "wallah"',
 				body: [
 					'The written confusion runs in a second direction too, toward a word that looks even less like French: wallah. Merriam-Webster\'s own entry for voilà notes that the "v" at the start of vwah-LAH is sometimes not clearly heard in casual speech, and that this weakening has produced a family of respelling attempts, including vwa-lah, wa-lah, wa-la, and wallah. The language blog Grammarphobia, run by longtime usage writers Patricia O\'Conner and Stewart Kellerman, devoted an entire post to the drift back in August 2016, tracing how English speakers unfamiliar with the French spelling reconstruct the sound they hear rather than the word they\'d see written down, landing, by coincidence, on a spelling two entirely different words already own.',
-					'The Indo-Aryan suffix -wala (also written -wallah) has nothing to do with French at all. Per Wikipedia\'s entry on the word, it derives from Sanskrit pālá combined with the Middle Indo-Aryan suffix -ka-, and functions in Hindi, Urdu, Bengali, and related languages as an agentive or associative ending: a chaiwala is someone who serves tea, a dabbawala delivers lunchboxes, and British military slang from the early twentieth century borrowed the pattern wholesale for terms like "base wallah." A second, entirely separate wallah sits in Arabic: wallah (والله) is an oath, built from wa- ("by," used in swearing) plus Allah ("God"), and functions as "I swear to God" in everyday speech across the Arabic-speaking world. Neither the Indo-Aryan suffix nor the Arabic oath has any etymological connection to the other, or to the French voir that produced voilà; all three converge on the same handful of letters purely because English speakers, guessing at an unfamiliar French sound, happened to land on spellings that two older, unrelated words had already claimed. Voilà isn\'t the only import that shed most of its original texture on the way into English: [per se](/per-se-meaning/) survived as a narrow legal-and-adverb slice of a much more flexible Latin phrase, the same kind of trim French\'s "see there" underwent once it crossed over.',
+					'The Indo-Aryan suffix -wala (also written -wallah) has nothing to do with French at all. Per Wikipedia\'s entry on the word, it derives from Sanskrit pālá combined with the Middle Indo-Aryan suffix -ka-, and functions in Hindi, Urdu, Bengali, and related languages as an agentive or associative ending: a chaiwala is someone who serves tea, a dabbawala delivers lunchboxes, and British military slang from the early twentieth century borrowed the pattern wholesale for terms like "base wallah." A second, entirely separate wallah sits in Arabic: wallah (والله) is an oath, built from wa- ("by," used in swearing) plus Allah ("God"), and functions as "I swear to God" in everyday speech across the Arabic-speaking world. Neither the Indo-Aryan suffix nor the Arabic oath has any etymological connection to the other, or to the French voir that produced voilà; all three converge on the same handful of letters purely because English speakers, guessing at an unfamiliar French sound, happened to land on spellings that two older, unrelated words had already claimed. Another Latin expression used in English is [per se](/per-se-meaning/), meaning "by itself." Its guide distinguishes ordinary adverbial uses from specific legal rules; that distinction is not evidence of the same borrowing history as voilà.',
 				],
 			},
 		],
 		faq: [
 			{
 				question: 'What does "voila" mean?',
-				answer: 'Voilà is French for "you see there," built from vois ("you see," the indicative form of voir) plus là ("there"), first recorded in 1342. In English, it survives only as an exclamation for drawing eyes toward something, showing you\'re pleased with it, or announcing that it\'s finished or revealed, roughly equivalent to "here it is" or "ta-da."',
+				answer: 'Voilà is French for "you see there," built from vois ("you see," the indicative form of voir) plus là ("there"), first recorded in 1342. The English meaning given by Merriam-Webster is an exclamation for drawing eyes toward something, showing you\'re pleased with it, or announcing that it\'s finished or revealed, roughly equivalent to "here it is" or "ta-da."',
 			},
 			{
 				question: 'Why do people write "wallah" instead of "voila"?',
@@ -5847,7 +5847,7 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'Does "voila" ever mean "it\'s been [an amount of time]" in French?',
-				answer: 'Yes, in French, not in English. CNRTL dates that use back to the mid-1700s: paired with a stretch of time plus que, voilà can mark elapsed duration, roughly "it\'s now been [that long] since..." English never picked up that sense; "voila" borrowed only the presenting flourish, not the time-marking one.',
+				answer: 'Yes, in French, not in English. CNRTL dates that use back to the mid-1700s: paired with a stretch of time plus que, voilà can mark elapsed duration, roughly "it\'s now been [that long] since..." The cited English entry describes an interjection, The French example measures time since an event.',
 			},
 			{
 				question: 'How do you pronounce voila?',
@@ -5869,11 +5869,11 @@ export const guides: Guide[] = [
 	{
 		slug: 'mamacita-meaning',
 		category: 'Loanwords',
-		title: 'Mamacita Meaning: How "Little Mama" Became English Slang for "Hottie"',
-		description: 'Mamacita literally means "little mama," built from mamá plus the diminutive suffix -cita. Spanish keeps two senses side by side; English borrowed only the sexualized one.',
+		title: 'Mamacita Meaning: Little Mama, Affection and Slang',
+		description: 'Mamacita literally means "little mama," built from mamá plus the diminutive suffix -cita. Wiktionary lists affectionate and slang senses in Spanish, and a slang sense in its English entry.',
 		published: '2026-08-26',
-		updated: '2026-08-26',
-		coreSummary: 'Mamacita is built from mamá ("mom") plus -cita, a variant of the Spanish diminutive suffix -ita added to words that already end in a vowel other than -o, so it literally means "little mama." Wiktionary\'s own entry for the word records two distinct senses: a plain, affectionate diminutive of mamá with no region label, and a sense marked specifically "Latin America, slang" meaning "babe" or "hottie," a sexually attractive woman. The Oxford English Dictionary\'s earliest evidence for the word in English dates to 1887, in Overland Monthly, but the English borrowing kept only the second sense, stripped of the first.',
+		updated: '2026-10-12',
+		coreSummary: 'Mamacita is built from mamá ("mom") plus -cita, a Spanish diminutive ending, so it literally means "little mama." Wiktionary\'s own entry for the word records two distinct senses: a plain, affectionate diminutive of mamá with no region label, and a sense marked specifically "Latin America, slang" meaning "babe" or "hottie," a sexually attractive woman. The Oxford English Dictionary\'s earliest evidence for the word in English dates to 1887, in Overland Monthly, while Wiktionary lists a slang sense in its English entry. That entry alone cannot establish every use of the word in English.',
 		language: 'Spanish',
 		usageNote: {
 			register: 'casual',
@@ -5883,40 +5883,40 @@ export const guides: Guide[] = [
 			{
 				heading: 'Mamá plus -cita: the grammar behind "little mama"',
 				body: [
-					'Wiktionary\'s entry for the Spanish suffix -cito describes it as an alternative form of -ito, "added to masculine words and names to denote a diminutive form," used especially "with words ending in a consonant or a vowel other than -o," and, unlike -ito, one that "does not delete the final vowel" of the word it attaches to. The feminine counterpart, -cita, works the same way. Mamá already ends in the vowel -á, not -o, so the regular diminutive path (which would delete a final vowel and add -ita) doesn\'t apply cleanly; -cita attaches instead, giving mamá + -cita = mamacita, "little mama." The masculine parallel is exact: Wiktionary\'s entry for papacito glosses it simply as "diminutive of papá; daddy," built from the identical papá + -cito pattern. Spanish builds a comparable family term the opposite direction, by contraction rather than suffixing: [mijo](/mijo-meaning/) squeezes mi hijo, "my son," into one word used to address a child or close friend, an entirely separate history from the identically spelled word for a cereal grain.',
-					'Spanish also splits the word\'s pronunciation along a line that has nothing to do with mamacita specifically: what happens to the letter c before an i. Wiktionary\'s pronunciation guide gives two IPA forms, /mamaˈθita/ in Spain and Equatorial Guinea, where c before i or e is pronounced like English "th" (a feature called distinción), and /mamaˈsita/ in Latin America and the Philippines, where that same c is pronounced /s/ (seseo). The same split shows up in papacito, following the same rule for the identical -cito/-cita spelling.',
+					'Wiktionary\'s entry for the Spanish suffix -cito describes it as an alternative form of -ito, "added to masculine words and names to denote a diminutive form," used especially "with words ending in a consonant or a vowel other than -o," and, unlike -ito, one that "does not delete the final vowel" of the word it attaches to. The feminine counterpart, -cita, works the same way. In mamacita, -cita follows mamá, giving mamá + -cita = mamacita, "little mama." The masculine parallel is exact: Wiktionary\'s entry for papacito glosses it simply as "diminutive of papá; daddy," built from the identical papá + -cito pattern. Spanish builds a comparable family term the opposite direction, by contraction rather than suffixing: [mijo](/mijo-meaning/) squeezes mi hijo, "my son," into one word used to address a child or close friend, an entirely separate history from the identically spelled word for a cereal grain.',
+					'Spanish also splits the word\'s pronunciation along a line that has nothing to do with mamacita specifically: what happens to the letter c before an i. Wiktionary\'s pronunciation guide gives two IPA forms, /mamaˈθita/ among speakers using distinción in Spain and Equatorial Guinea; their c before i or e is pronounced like English "th" (a feature called distinción), and /mamaˈsita/ in Latin America and the Philippines, where that same c is pronounced /s/ (seseo). The same split shows up in papacito, following the same rule for the identical -cito/-cita spelling.',
 				],
 				image: {
 					src: '/images/mamacita-meaning-diagram.svg',
-					alt: 'Diagram showing mamá plus the diminutive suffix -cita forming mamacita ("little mama"), with two IPA pronunciations by region, alongside the word\'s two senses in Spanish: a plain affectionate diminutive, and a Latin America-marked slang sense for an attractive woman that English borrowed on its own.',
+					alt: 'Diagram showing mamá plus the diminutive suffix -cita forming mamacita ("little mama"), with two IPA pronunciations by region, alongside the word\'s two senses in Spanish: a plain affectionate diminutive, and a Latin America-marked slang sense for an attractive woman that Wiktionary lists in its English entry.',
 				},
 			},
 			{
 				heading: 'Two senses, one word: "mommy" and "hottie" side by side in Spanish',
 				body: [
 					'Wiktionary\'s Spanish-language entry for mamacita doesn\'t treat this as one meaning with a loose figurative extension; it lists two separate senses. The first is simply "diminutive of mamá," unmarked for region or register, the ordinary affectionate word a child might use for their mother. The second is labeled "(Latin America, slang) babe, hottie (sexually attractive woman)," geographically restricted in a way the first sense isn\'t.',
-					'Wiktionary backs the slang sense with a real, dated citation, not a made-up example: a line from "Dura," the 2018 reggaetón single by Daddy Yankee, "\'Tás dura, mamacita, te fuiste de nivel" (roughly, "you\'re fierce, mamacita, you\'ve leveled up"), where mamacita functions exactly as the "hottie" gloss describes, not as anything related to motherhood. That two-sense structure, one word doing both jobs depending on who\'s speaking to whom, is the same shape [habibi](/habibi-meaning/) has in Arabic, where a term built for close relationships also gets used, in a different register, for someone the speaker barely knows.',
+					'Wiktionary backs the slang sense with a real, dated citation, not a made-up example: a line from "Dura," the 2018 reggaetón single by Daddy Yankee, "\'Tás dura, mamacita, te fuiste de nivel" (roughly, "you\'re fierce, mamacita, you\'ve leveled up"), where mamacita functions exactly as the "hottie" gloss describes, not as anything related to motherhood. The Arabic address term [habibi](/habibi-meaning/) also depends on the relationship and setting. Its guide discusses affectionate and casual address. Mamacita has the two senses listed above.',
 				],
 			},
 			{
 				heading: 'What English kept, and what it dropped',
 				body: [
-					'The Oxford English Dictionary records mamacita as an English word in its own right, with an etymology tracing it to Spanish mamá plus -cita and its earliest documented English use in 1887, in the periodical Overland Monthly. Wiktionary\'s separate entry for the English borrowing defines it with a single line: "(slang) A babe, a hottie (sexually attractive woman)." There is no family or affectionate sense listed on the English side at all. Whatever nuance Spanish preserves by keeping "little mama" and "hottie" as two clearly labeled senses of the same word, English flattened into one, the same narrowing [voilà](/voila-meaning/) underwent when it crossed into English and kept only its dramatic-reveal sense, dropping the French word\'s separate use for marking elapsed time.',
-					'That narrowing has a real consequence: in English, and often in Spanish when the word is directed at someone the speaker doesn\'t know, mamacita carries none of the neutral, mom-adjacent warmth its etymology suggests. Journalist Laura Martínez wrote about this directly for NPR\'s Code Switch in 2014: she grew up around catcalling in Mexico City, mostly with other words like "sabrosa" and "rica," and later, in her own New York City neighborhood, a stranger yelled "Mamacita!" at her outside a fruit stand, not intended, and not received, as a reference to motherhood. Her essay\'s title makes the gap explicit: "Don\'t Call Me \'Mamacita.\' I Am Not Your Mommy." Not every fixed piece of everyday Spanish carries that kind of charged history: [de nada](/de-nada-meaning/), the standard reply to gracias, stays neutral in every register and every relationship, family, stranger, or otherwise, the opposite end of the spectrum from a word whose meaning depends entirely on who is saying it to whom.',
+					'The Oxford English Dictionary records mamacita as an English word in its own right, with an etymology tracing it to Spanish mamá plus -cita and its earliest documented English use in 1887, in the periodical Overland Monthly. Wiktionary\'s separate entry for the English borrowing defines it with a single line: "(slang) A babe, a hottie (sexually attractive woman)." There is no family or affectionate sense listed on the English side at all. That is a difference between the two Wiktionary entries, not proof that English speakers never use the family sense. The [voilà](/voila-meaning/) guide separately compares a French duration construction with the English interjection listed by Merriam-Webster; the two cases do not establish a shared borrowing process.',
+					'The affectionate literal translation does not make a stranger\'s use welcome. Journalist Laura Martínez wrote about this directly for NPR\'s Code Switch in 2014: she grew up around catcalling in Mexico City, mostly with other words like "sabrosa" and "rica," and later, in her own New York City neighborhood, a stranger yelled "Mamacita!" at her outside a fruit stand, not intended, and not received, as a reference to motherhood. Her essay\'s title makes the gap explicit: "Don\'t Call Me \'Mamacita.\' I Am Not Your Mommy." Not every fixed piece of everyday Spanish carries that kind of charged history: [de nada](/de-nada-meaning/), the standard reply to gracias, is a conventional response to thanks. Its guide describes regional alternatives, while the reception of mamacita depends on the speaker, listener and setting.',
 				],
 			},
 			{
 				heading: 'Who says it, and to whom, changes what it means',
 				body: [
 					'None of this makes mamacita an inherently offensive word; it makes it a word whose meaning depends heavily on the relationship between speaker and listener, more than most loanwords English has picked up. Used by a parent to a young daughter, or between partners who already know each other, it lands as the plain affectionate diminutive Wiktionary lists first. Called out by a stranger on a street, it lands as the second sense, unmoored from any family context and, per Martínez\'s account, experienced as harassment rather than a compliment.',
-					'The masculine counterpart, papacito, follows the identical grammar: papá + -cito, which Wiktionary glosses simply as "diminutive of papá; daddy," with synonyms papi, papaíto, and papito. A closely related term, mamita, is listed by Wiktionary as a direct synonym of mamacita, built with the more common -ita suffix straight onto a shortened stem rather than the -cita variant, and used, like mamacita\'s first sense, as an unmarked term of endearment for "mommy." Wiktionary doesn\'t document a second, sexualized sense for either papacito or mamita the way it does for mamacita itself, which is exactly what makes mamacita worth a separate note: how cleanly its two senses split by both region and relationship, and how completely English kept only one of them.',
+					'The masculine counterpart, papacito, follows the identical grammar: papá + -cito, which Wiktionary glosses simply as "diminutive of papá; daddy," with synonyms papi, papaíto, and papito. A closely related term, mamita, is listed by Wiktionary as a direct synonym of mamacita, built with the more common -ita suffix straight onto a shortened stem rather than the -cita variant, and used, like mamacita\'s first sense, as an unmarked term of endearment for "mommy." Wiktionary doesn\'t document a second, sexualized sense for either papacito or mamita the way it does for mamacita itself, which is exactly what makes mamacita worth a separate note: how cleanly its two senses split by both region and relationship, and the different senses recorded in Wiktionary\'s Spanish and English entries.',
 				],
 			},
 		],
 		faq: [
 			{
 				question: 'What does "mamacita" mean?',
-				answer: 'Literally "little mama." Mamá means "mom," and Spanish tacks on -cita, a diminutive ending that attaches to words not ending in -o. In Spanish, the word covers two uses: the plain, everyday diminutive families use, and a slang sense unique to Latin America, roughly "babe" or "hottie."',
+				answer: 'Literally "little mama." Mamá means "mom," and Spanish tacks on -cita, a diminutive ending. In Spanish, the word covers two uses: the plain, everyday diminutive families useWiktionary also marks an attractive-woman sense as Latin American slang.',
 			},
 			{
 				question: 'Is "mamacita" an insult or a compliment?',
@@ -5924,11 +5924,11 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'Why does "mamacita" sound different in Spain than in Mexico?',
-				answer: 'Spanish pronunciation of c splits by region whenever it comes before i or e. Equatorial Guinea and Spain use distinción, giving it a sound close to English "th" (/mamaˈθita/); in the Philippines and most of Latin America, that same c comes out as /s/, a pattern called seseo (/mamaˈsita/). This isn\'t specific to mamacita; the same rule applies to papacito and any other Spanish word with that letter combination.',
+				answer: "Many Spaniards distinguish the c sound from s, pronouncing mamacita with a th-like sound. Mexico uses s instead. Spain also has seseo in the Canaries and parts of Andalusia, so the contrast depends on the accent, not merely the country.",
 			},
 			{
 				question: 'Does English "mamacita" mean the same thing as Spanish "mamacita"?',
-				answer: 'No. The OED\'s earliest citation for the English word dates to 1887, and Wiktionary\'s English-language listing keeps only the slang meaning, roughly "hottie," with nothing about the family-oriented "little mama" sense. That warmer meaning stays on the Spanish side only.',
+				answer: 'No. The OED\'s earliest citation for the English word dates to 1887, and Wiktionary\'s English-language listing keeps only the slang meaning, roughly "hottie," with nothing about the family-oriented "little mama" sense. An entry lists meanings without exhaustively defining what every speaker can say.',
 			},
 			{
 				question: 'What\'s the male equivalent of "mamacita"?',
@@ -5950,8 +5950,8 @@ export const guides: Guide[] = [
 		title: 'Mijo Meaning: Millet, or "My Son"? Two Unrelated Spanish Words',
 		description: 'Mijo has two unrelated histories: a cereal grain from Latin milium, and a contracted form of "mi hijo" (my son), used to address a child or close friend.',
 		published: '2026-08-26',
-		updated: '2026-08-26',
-		coreSummary: 'The RAE dictionary lists mijo first as a cereal grain, millet in English, tracing to Latin milium and further back to a Proto-Indo-European root meaning "to grind." A second, unrelated mijo is a spoken contraction of mi hijo, "my son," used across most of Spanish-speaking Latin America and the Canary Islands as a vocative for a child, younger relative, or close friend; the feminine form mija works the same way from mi hija. The two words share five letters and nothing else, and only the vocative one has a feminine counterpart or a diminutive form.',
+		updated: '2026-10-12',
+		coreSummary: 'The RAE dictionary lists mijo first as a cereal grain, millet in English, tracing it to Latin milium. A second, unrelated mijo is a spoken contraction of mi hijo, "my son," used across most of Spanish-speaking Latin America and the Canary Islands as a vocative for a child, younger relative, or close friend; the feminine form mija works the same way from mi hija. The two words share four letters but have separate histories. The address term has the feminine counterpart mija; the grain noun is masculine.',
 		language: 'Spanish',
 		usageNote: {
 			register: 'casual',
@@ -5961,7 +5961,7 @@ export const guides: Guide[] = [
 			{
 				heading: 'Millet and "my son": completely different words that happen to be spelled the same',
 				body: [
-					'The Real Academia Española\'s dictionary gives mijo a botanical definition first: a plant in the grass family, native to India, with long pointed leaves and flower clusters that curve at the tip, grown for a small, round, shiny, yellowish-white seed. In English, that seed and the plant it comes from are called millet. RAE traces the word back through Latin milium, which in turn descends from a Proto-Indo-European root meaning "to grind" or "crush." That same root family also produced English words like "mill" and "meal." Nothing in that chain touches family, affection, or children.',
+					'The Real Academia Española\'s dictionary gives mijo a botanical definition first: a plant in the grass family, native to India, with long pointed leaves and flower clusters that curve at the tip, grown for a small, round, shiny, yellowish-white seed. In English, that seed and the plant it comes from are called millet. The RAE entry gives Latin milium as its etymology. Nothing in that chain touches family, affection, or children.',
 					'The second mijo is built from scratch, out of Spanish itself, by a completely different process. Wiktionary\'s entry treats it as a contraction of mi hijo, "my son," with the feminine mija built the same way from mi hija, "my daughter." The [possessive adjective mi](/spanish-possessive-adjectives/) and the noun run together in fast, informal speech, roughly the way English speakers let "going to" collapse into "gonna." Wiktionary also records an apostrophized spelling, m\'ijo, that marks the elision directly on the page, plus a further-contracted mi\'jo. The Academia Canaria de la Lengua describes the same process from the listening end: in a 2024 consultation answer, it notes that mi hijo and mi hija, used as vocatives, are "sometimes pronounced mijo / mija in spoken speech, pronunciations that can be reproduced in writing when it is intended to represent this informal pronunciation."',
 				],
 				image: {
@@ -5984,10 +5984,10 @@ export const guides: Guide[] = [
 				],
 			},
 			{
-				heading: 'In English print, but not yet in an English dictionary',
+				heading: 'English citations and dictionary coverage',
 				body: [
-					'The vocative mijo has no entry of its own in the Oxford English Dictionary or Merriam-Webster, unlike [mamacita](/mamacita-meaning/), which the OED dates to 1887 in English print and defines with a single, narrowed slang sense. But that doesn\'t mean mijo stays entirely inside Spanish. Wiktionary\'s own English-language entry for the word defines it as, in US usage, "a term of endearment for a man or boy; dear, darling, my heart," borrowed directly from Spanish, and backs that definition with citations from English-language publications, including the New York Times and The Athletic. A related Spanish endearment, [cariño](/carino-meaning/), has "darling" as only one of the five senses RAE lists for it.',
-					'That gap, real citations in English print but no entry in either major English dictionary, marks mijo as a word partway through the crossing mamacita finished more than a century ago. Mamacita\'s move into English was clean and narrow: one meaning, no family sense, fully lexicographized by the OED. Mijo\'s English use is documented but not yet formalized. Anyone searching "mijo meaning" today is about as likely to be decoding a Spanish sentence as encountering a word that\'s already functioning, unofficially, as English.',
+					'The [mamacita](/mamacita-meaning/) guide compares the affectionate and slang senses listed in Wiktionary. Mijo also has documented English uses. Wiktionary\'s own English-language entry for the word defines it as, in US usage, "a term of endearment for a man or boy; dear, darling, my heart," borrowed directly from Spanish, and backs that definition with citations from English-language publications, including the New York Times and The Athletic. A related Spanish endearment, [cariño](/carino-meaning/), has "darling" as only one of the five senses RAE lists for it.',
+					'A dictionary citation documents a use; it is not a test of whether a word has finished entering a language. Wiktionary records mijo as an English endearment, while the Spanish references above distinguish the address term from the grain noun. Context determines which use a reader encounters.',
 				],
 			},
 		],
@@ -6010,7 +6010,7 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'Does English have a version of "mijo"?',
-				answer: 'Not in a major dictionary. Neither Merriam-Webster nor the OED carries mijo as an entry, unlike mamacita, whose slang sense the OED traces back to 1887. That said, per Wiktionary, the word does show up in English text: it glosses mijo, US usage, as a warm way to address a man or boy, backed by citations from The Athletic and the New York Times. That\'s evidence the word already circulates in English, just not yet in a formal dictionary.',
+				answer: 'Yes. Wiktionary has an English entry: the word does show up in English text: it glosses mijo, US usage, as a warm way to address a man or boy, backed by citations from The Athletic and the New York Times. These citations document English usage; no claim about the absence of entries from every other dictionary is needed.',
 			},
 		],
 		sources: [
@@ -6027,14 +6027,14 @@ export const guides: Guide[] = [
 		slug: 'sayonara-meaning',
 		category: 'Loanwords',
 		title: 'Sayonara Meaning: Why It\'s Not the Everyday Japanese Goodbye',
-		description: 'Sayonara translates as goodbye, but its literal meaning is closer to "if that\'s how it is." In Japanese it signals a long or permanent parting, not an everyday one.',
+		description: 'Sayonara translates as goodbye, but its literal meaning is closer to "if that\'s how it is." It can sound final in some contexts, but it also occurs in routine classroom farewells.',
 		published: '2026-08-27',
-		updated: '2026-08-27',
-		coreSummary: 'Sayonara comes from Japanese sayō naraba, literally "if it be thus" or "if that\'s the way it is," and the Oxford English Dictionary\'s earliest evidence of it in English dates to 1863. In Japanese it still carries that original weight of finality: it implies an indefinite or permanent separation, so native speakers use it sparingly and reach instead for mata ne ("see you again") or ja ne ("well then") for ordinary goodbyes, a nuance the word lost once English adopted it as a generic farewell and, per a separate OED entry with evidence from 1883, even stretched it into an informal verb meaning to get rid of something.',
+		updated: '2026-10-12',
+		coreSummary: 'Sayonara comes from Japanese sayō naraba, literally "if it be thus" or "if that\'s the way it is," and the Oxford English Dictionary\'s earliest evidence of it in English dates to 1863. In Japanese it can suggest a lasting farewell, depending on the setting. Routine school farewells also use it; mata ne ("see you again") and ja ne ("well then") are casual alternatives. English dictionaries record a farewell sense; a separate OED entry gives evidence from 1883 for an informal verb meaning to get rid of something.',
 		language: 'Japanese',
 		usageNote: {
 			register: 'formal',
-			regionNote: 'In Japanese, sayonara implies a long or possibly permanent parting and is used sparingly; reaching for it in an ordinary, see-you-tomorrow goodbye can sound overly dramatic. English borrowed only the generic "goodbye" sense, and casual use there, including the informal verb "to sayonara something," meaning to get rid of it, carries none of that original weight.',
+			regionNote: 'In some Japanese contexts, sayonara can sound final; routine classroom departures show that it does not always imply permanent separation. English dictionaries record a farewell and a separate informal verb sense. The context determines whether a particular use sounds final.',
 		},
 		sections: [
 			{
@@ -6045,28 +6045,28 @@ export const guides: Guide[] = [
 				],
 				image: {
 					src: '/images/sayonara-meaning-diagram.svg',
-					alt: 'Diagram showing the etymology of sayonara from sayō ("that way, thus") plus naraba ("if it be"), and contrasting how the word functions in Japanese, implying an indefinite or permanent separation and used sparingly with everyday alternatives mata ne and ja ne, versus English, where it is a generic casual goodbye and OED records a separate verb sense meaning to get rid of something.',
+					alt: 'Diagram showing the etymology of sayonara from sayō ("that way, thus") plus naraba ("if it be"), and contrasting how the word functions in Japanese, sometimes sounding final but also used for routine school farewells, with casual alternatives mata ne and ja ne, versus English, where it is a generic casual goodbye and OED records a separate verb sense meaning to get rid of something.',
 				},
 			},
 			{
 				heading: 'Why it lands as far more final in Japanese than in English',
 				body: [
-					'Most English-language explanations gloss over the actual gap between how English and Japanese speakers use this word. In Japanese, sayonara isn\'t the all-purpose "bye" that English treats it as; it implies that the separation will last a while, possibly indefinitely, which is exactly what its literal "if that\'s how it is" meaning suggests: an acknowledgment that circumstances are forcing a real parting, not a quick errand-run goodbye. Japanese-language guides aimed at learners, including LiveJapan and Bento Japanese, describe native speakers using it rarely in daily life and specifically warn against using it with close friends or family when a near-term reunion is expected, since it can come across as needlessly final or even cold.',
-					'That doesn\'t mean the word is never used, and one everyday exception surprises a lot of learners: elementary school classrooms. Teacher-facing guides to Japanese classroom language describe children being taught to say sayōnara to their teacher at the end of the school day, with the teacher saying it right back, a routine, daily use that looks at odds with the "rare and dramatic" reputation the word has everywhere else. The word\'s meaning hasn\'t shifted for the classroom; the ritualized, once-a-day goodbye between a class and its teacher happens to be exactly the kind of bounded, formally marked parting sayonara is built for, distinct from the many small, informal comings and goings among friends that mata ne and ja ne cover instead. Outside school and outside genuinely weighty partings, such as moving away permanently, graduating, retiring, or ending a relationship, several Japanese-learning resources note that saying sayonara to someone you expect to see again soon can read as a joke or as unintentionally melodramatic, the opposite of how casually English speakers toss the word around.',
+					'Sayonara can sound unusually final when said to a close friend whom the speaker expects to see soon. That interpretation depends on context, not simply the conditional phrase in its etymology. Learner guides therefore offer mata ne and ja ne for casual farewells, without making sayonara a word reserved for permanent separation.',
+					'Routine classroom use provides a counterexample to the claim that sayonara always implies permanent separation. The Japanese education ministry\'s handbook illustrates a farewell combining sayonara with a plan to meet the following week. A school-day goodbye can therefore be ordinary and recurring; in a different setting, the same word may sound formal or final.',
 				],
 			},
 			{
 				heading: 'What Japanese speakers say instead',
 				body: [
-					'For the everyday goodbyes English speakers assume sayonara covers, Japanese has other, far more common options. Mata ne (またね), built on mata ("again"), means roughly "see you again" and is the standard casual goodbye between friends who expect to meet up soon. Ja ne (じゃあね), literally closer to "well then," works the same way, a light, informal sign-off comparable to English "see ya." Neither carries any implication about how long the separation will last, which is exactly why they, not sayonara, are what actually gets said at the end of a normal day. Workplace Japanese adds its own dedicated farewell, otsukaresama deshita, used specifically when leaving a job or meeting, another sign of how much everyday ground sayonara doesn\'t actually cover despite its reputation as "the" Japanese word for goodbye.',
-					'Readers building out more of their Japanese beyond greetings can go a level deeper with the particles that structure sentences in the first place: the [Japanese particles guide](/japanese-particles-wa-ga-wo-ni/) covers wa, ga, wo, and ni, the small words that do the grammatical work English handles with word order instead.',
+					'For the everyday goodbyes English speakers assume sayonara covers, Japanese has other, far more common options. Mata ne (またね), built on mata ("again"), means roughly "see you again" and is the standard casual goodbye between friends who expect to meet up soon. Ja ne (じゃあね), literally closer to "well then," works the same way, a light, informal sign-off comparable to English "see ya." These casual expressions leave open when the speakers will meet again; sayonara also occurs in routine classroom farewells. Workplace Japanese adds its own dedicated farewell, otsukaresama deshita, used specifically when leaving a job or meeting, another sign of how much everyday ground sayonara doesn\'t actually cover despite its reputation as "the" Japanese word for goodbye.',
+					'Readers building out more of their Japanese beyond greetings can go a level deeper with the particles that structure sentences in the first place: the [Japanese particles guide](/japanese-particles-wa-ga-wo-ni/) covers wa, ga, wo, and ni, grammatical markers used for topics, subjects, objects and other relationships. The guide distinguishes their roles from English constructions.',
 				],
 			},
 			{
 				heading: 'How English flattened it into a casual goodbye, and a verb',
 				body: [
-					'Sayonara\'s entrenchment in American English owes a lot to a specific mid-century moment: the 1957 film Sayonara, directed by Joshua Logan and based on James Michener\'s 1954 novel of the same name, starring Marlon Brando as an American Air Force officer who falls for a Japanese dancer during the Korean War. The film was a major awards-season presence, earning ten Academy Award nominations and winning four, including Best Supporting Actress for Miyoshi Umeki, who became the first person of East Asian descent to win an Oscar in an acting category. A film with that title, that cast, and that awards run put the word in front of a mainstream American audience at a scale ordinary borrowing rarely achieves, well after Alcock\'s 1863 usage but decades before the word\'s more recent, throwaway internet-slang phase.',
-					'English didn\'t stop at borrowing the interjection. The OED also lists a separate verb entry for sayonara, with its earliest recorded evidence dating to 1883, and modern usage has run with it: "say sayonara to" something, as in "say sayonara to your old commute," means to get rid of it, dismiss it, or leave it behind for good, a dismissive, often upbeat use with no real Japanese counterpart, since sayonara in Japanese never functions as a verb applied to objects or situations. It\'s a similar pattern to how English handled [senpai](/senpai-meaning/): a Japanese word absorbed into English, then reshaped and extended in ways the original language never intended.',
+					'One documented use of the word as a film title is the 1957 film Sayonara, directed by Joshua Logan and based on James Michener\'s 1954 novel of the same name, starring Marlon Brando as an American Air Force officer who falls for a Japanese dancer during the Korean War. The film was a major awards-season presence, earning ten Academy Award nominations and winning four, including Best Supporting Actress for Miyoshi Umeki, who became the first person of East Asian descent to win an Oscar in an acting category. A film with that title, that cast, and that awards run put the word in front of a mainstream American audience at a scale ordinary borrowing rarely achieves, well after Alcock\'s 1863 usage but decades before the word\'s more recent, throwaway internet-slang phase.',
+					'English didn\'t stop at borrowing the interjection. The OED also lists a separate verb entry for sayonara, with its earliest recorded evidence dating to 1883, and modern usage has run with it: "say sayonara to" something, as in "say sayonara to your old commute," means to get rid of it, dismiss it, or leave it behind for good, a dismissive, often upbeat use with no real Japanese counterpart, since sayonara in Japanese never functions as a verb applied to objects or situations. The [senpai](/senpai-meaning/) guide discusses Japanese seniority relationships and English fandom usage. Those meanings require their own evidence; they do not establish the same history or a language\'s intentions.',
 				],
 			},
 		],
@@ -6077,19 +6077,19 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'Do Japanese people actually say "sayonara"?',
-				answer: 'Rarely, in everyday situations. The word signals that a separation may stretch on for good; people mostly reserve it for genuinely final goodbyes, formal contexts, or dramatic effect, and generally avoid it with friends or family they\'ll likely see again before long, where it can land as oddly dramatic.',
+				answer: 'Yes: Japanese teaching materials show pupils and teachers using it at the end of a lesson. With close friends, mata ne or ja ne may suit a casual departure better; the longer goodbye can seem weightier there. Its use at the end of lessons demonstrates that the speakers may still expect to meet again.',
 			},
 			{
 				question: 'What\'s the difference between sayonara and mata ne?',
-				answer: 'Mata ne, from mata, meaning "again," and glossed loosely as "catch you soon," is the everyday, casual pick Japanese speakers reach for with people they expect to meet again before long, and it says nothing about how long any gap will run. Sayonara carries that implication directly, a parting that could go on indefinitely or for good; that difference is why it isn\'t the everyday equivalent English speakers often assume it is.',
+				answer: 'Mata ne, from mata, meaning "again," and glossed loosely as "catch you soon," is the everyday, casual pick Japanese speakers reach for with people they expect to meet again before long, and it says nothing about how long any gap will run. The effect of sayonara varies with the setting. It may suggest a lasting parting among friends, yet teachers and pupils use it even when they will meet again.',
 			},
 			{
 				question: 'Is "sayonara" formal or rude in Japanese?',
-				answer: 'Neither, exactly, it\'s not impolite, but it carries real weight. Using it in a casual, near-term goodbye doesn\'t come across as rude so much as overly dramatic or oddly final, since the word already points at a parting that might never be undone.',
+				answer: 'Neither, exactly, it\'s not impolite, but it carries real weight. Using it in a casual, near-term goodbye doesn\'t come across as rude so much as overly dramatic or oddly final, with some listeners. A school lesson can end with it even though the participants expect to return.',
 			},
 			{
 				question: 'Is "say sayonara to something" a real English phrase, or just slang?',
-				answer: 'It\'s recognized as a genuine verb usage: the OED carries a separate entry for sayonara as a verb, first recorded in 1883. In modern use, someone might say they\'re ready to sayonara an old habit or a bad job, in the sense of dropping it for good, a usage Japanese has no version of, since there the word stays an interjection and is never pressed into service as a verb.',
+				answer: 'The phrase say sayonara to uses say as its verb and sayonara as the farewell. Separately, the OED carries a separate entry for sayonara as a verb, first recorded in 1883. In modern use, someone might say they\'re ready to sayonara an old habit or a bad job, in the sense of dropping it for good, a usage Japanese has no version of, since there the word stays an interjection and is never pressed into service as a verb.',
 			},
 			{
 				question: 'Is sayonara Spanish or Japanese?',
@@ -6097,10 +6097,11 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'What is another word for "sayonara"?',
-				answer: 'In Japanese, the everyday stand-ins are mata ne, literally "again," and ja ne, which works like "see ya." In English, the plain equivalents are "goodbye" and "farewell," since English borrowed sayonara as a general farewell and dropped the sense of finality the Japanese word still carries.',
+				answer: 'In Japanese, the everyday stand-ins are mata ne, literally "again," and ja ne, which works like "see ya." In English, the plain equivalents are "goodbye" and "farewell," Dictionary entries in English define it as a farewell. Japanese usage includes both weighty partings and the end of a school lesson; the setting affects its force.',
 			},
 		],
 		sources: [
+			{ label: "MEXT Japanese-language handbook, printed p.145: classroom goodbye and see you next week", url: "https://www.mext.go.jp/a_menu/nihongo_kyoiku/kyoiku/handbook/pdf/en_zensho.pdf" },
 			{ label: 'Oxford English Dictionary: "sayonara, int., n., & adj." (earliest English evidence: 1863, Rutherford Alcock)', url: 'https://www.oed.com/dictionary/sayonara_int' },
 			{ label: 'Oxford English Dictionary: "sayonara, v." (earliest English evidence: 1883, J. J. Smith)', url: 'https://www.oed.com/dictionary/sayonara_v' },
 			{ label: 'Online Etymology Dictionary: "Sayonara"', url: 'https://www.etymonline.com/word/sayonara' },
@@ -6116,8 +6117,8 @@ export const guides: Guide[] = [
 		title: 'Oy Vey Meaning: The Yiddish Exclamation for "Oh, Woe"',
 		description: 'Oy vey is a Yiddish exclamation of dismay meaning "oh, woe." One theory ties it to Hebrew and Aramaic; another traces "vey" to the German root behind English "woe."',
 		published: '2026-08-27',
-		updated: '2026-08-27',
-		coreSummary: 'Oy vey is a Yiddish interjection expressing dismay or exasperation, translated "oh, woe!" or "woe is me!" Etymologist Douglas Harper traces vey to German Weh, the same root Etymonline\'s own entry for the English word "woe" lists as a close relative, while a second, competing theory holds that oy comes from Biblical Hebrew and vey from its Aramaic equivalent, both older than Yiddish itself. Dictionaries disagree on exactly when the two-word phrase entered English: Merriam-Webster gives a first known use of 1914, while the Online Etymology Dictionary dates the standalone "oy" to 1892 and doesn\'t record the extended "oy vey" until 1959.',
+		updated: '2026-10-12',
+		coreSummary: 'Oy vey is a Yiddish interjection expressing dismay or exasperation, translated "oh, woe!" or "woe is me!" Etymologist Douglas Harper traces vey to German Weh, the same root Etymonline\'s own entry for the English word "woe" lists as a close relative, while a second, competing theory holds that oy comes from Biblical Hebrew and vey from its Aramaic equivalent, both older than Yiddish itself. The dictionaries report different first-use dates: Merriam-Webster gives a first known use of 1914, while the Online Etymology Dictionary dates the standalone "oy" to 1892 and doesn\'t record the extended "oy vey" until 1959.',
 		language: 'Yiddish',
 		usageNote: {
 			register: 'informal',
@@ -6134,26 +6135,26 @@ export const guides: Guide[] = [
 			{
 				heading: 'Oy, oy vey, oy vey iz mir, oy gevalt: related words, not volume settings',
 				body: [
-					'Oy alone is the simplest, most versatile form: a general-purpose sigh of dismay or surprise that fits almost any minor setback. Oy vey is the extended, most commonly used version in English, and it shortens back down to plain "oy" just as easily as it expands. Oy vey iz mir stretches the phrase further into a fuller lament, literally "oh, woe is me," sometimes written with the more Germanic-looking spelling oy vey ist mir.',
+					'Oy alone is the simplest, most versatile form: a general-purpose sigh of dismay or surprise that fits almost any minor setback. Oy vey is an extended form used in English, and it shortens back down to plain "oy" just as easily as it expands. Oy vey iz mir stretches the phrase further into a fuller lament, literally "oh, woe is me," sometimes written with the more Germanic-looking spelling oy vey ist mir.',
 					'Oy gevalt uses a completely different second word. Gevalt is cognate with German Gewalt, and traces back through Middle High German gewalt and Old High German giwalt to a root meaning "power" or "authority"; in Yiddish it means "force" or "violence," and by extension works as a cry of alarm comparable to shouting "Help!" in English. Wikipedia\'s own overview notes that oy gevalt can carry a similar meaning to oy vey, or shift instead toward shock, alarm, or amazement, depending on tone and context. That flexibility is exactly why it isn\'t just a louder version of vey: it\'s a different word, from a different root, that happens to sit in the same small family of Yiddish exclamations.',
 				],
 				image: {
 					src: '/images/oy-vey-meaning-diagram.svg',
-					alt: 'Diagram comparing four related Yiddish exclamations: oy (mildest, general dismay), oy vey (most common, shortens back to oy), oy vey iz mir (fuller lament, "oh, woe is me"), and oy gevalt (a different word, from a root meaning "force" or "power," that can carry a similar meaning or shift toward shock and alarm), plus a box explaining the two competing etymology theories for vey.',
+					alt: 'Diagram comparing four related Yiddish exclamations: oy (short exclamation), oy vey (two-word form, can shorten to oy), oy vey iz mir (fuller lament, "oh, woe is me"), and oy gevalt (a different word, from a root meaning "force" or "power," that can carry a similar meaning or shift toward shock and alarm), plus a box explaining the two competing etymology theories for vey.',
 				},
 			},
 			{
 				heading: 'When "oy" and "oy vey" entered English, and why the dates don\'t quite agree',
 				body: [
-					'Dictionaries disagree, in a way worth being upfront about, on when this phrase entered English. Merriam-Webster\'s own entry lists 1914 as the first known use of the two-word "oy vey." The Online Etymology Dictionary tells a different story: it dates the standalone "oy" to 1892, in American English, but doesn\'t record the extended "oy vey" until 1959, decades after Merriam-Webster\'s figure for the same two-word phrase. Both are real entries in real, actively maintained dictionaries; they simply drew on different citation evidence when settling on a "first known use," which is common enough for short, informal interjections that did not leave much of a paper trail before dictionaries started tracking them closely.',
-					'The expression also has documented relatives outside Yiddish entirely. Older Danish and Swedish both have oh ve, carrying a similar sense, and the Montbéliard region of France has its own oy wah, used the same way. None of this settles which of the two etymology theories above is correct, but it does show that a short cry of "oh, woe" built from similar-sounding syllables turns up independently across more than one European language family, not unlike how [schadenfreude](/schadenfreude-meaning/) gave English a single German word for an emotion it otherwise takes a whole sentence to describe.',
+					'Dictionaries disagree, in a way worth being upfront about, on when this phrase entered English. Merriam-Webster\'s own entry lists 1914 as the first known use of the two-word "oy vey." The Online Etymology Dictionary tells a different story: it dates the standalone "oy" to 1892, in American English, but doesn\'t record the extended "oy vey" until 1959, decades after Merriam-Webster\'s figure for the same two-word phrase. Both are real entries in real, actively maintained dictionaries; their reported dates differ. Those dates document the citations each entry reports, rather than establishing exactly when borrowing began or why the records differ.',
+					'The expression also has documented relatives outside Yiddish entirely. Older Danish and Swedish both have oh ve, carrying a similar sense, and the Montbéliard region of France has its own oy wah, used the same way. None of this settles which of the two etymology theories above is correct, the similar forms alone do not prove independent origins. Danish, Swedish and English are Germanic languages, while the French regional form belongs to a Romance context. A different German borrowing, [schadenfreude](/schadenfreude-meaning/), names pleasure at another person\'s misfortune.',
 				],
 			},
 			{
 				heading: 'From a Yiddish sigh to a phrase most English speakers just know',
 				body: [
 					'Oy vey now appears in general-purpose English dictionaries and gets used by plenty of people who have never spoken a word of Yiddish and may not know the phrase started there. Linguist Sarah Bunin Benor, who directs the Jewish Language Project at Hebrew Union College, has studied exactly this pattern in a chapter titled "Pastrami, Verklempt, and Tshootspa: Non-Jews\' Use of Jewish Language in the United States," published in the American Jewish Year Book 2020. Her research traces how Yiddish expressions moved into the general American vocabulary largely through Jewish comedians, writers, and entertainers, from the Borscht Belt resorts of the mid-20th century through Hollywood figures like Mel Brooks and, later, sitcoms such as Jerry Seinfeld\'s.',
-					'A study in the Journal of Jewish Languages, titled "Oy with the Poodles Already!": Yiddishisms and Non-Jewish Characters on American Sitcoms, examined how far that spread has gone: it found Yiddish borrowings, oy vey included, used by non-Jewish characters across American television comedy, not just Jewish ones. That reach helps explain why the phrase can feel like ordinary English to a lot of speakers today, even though its two syllables trace back to a specific religious and linguistic community. Voila made a comparable journey into everyday English out of French, though [voila\'s](/voila-meaning/) route ran through ordinary dictionary adoption rather than one community\'s comedians and writers, a reminder that "borrowed exclamation" covers more than one kind of route into everyday English.',
+					'A study in the Journal of Jewish Languages, titled "Oy with the Poodles Already!": Yiddishisms and Non-Jewish Characters on American Sitcoms, examined how far that spread has gone: it found Yiddish borrowings, oy vey included, used by non-Jewish characters across American television comedy, not just Jewish ones. That reach helps explain why the phrase can feel like ordinary English to a lot of speakers today, even though its two syllables trace back to a specific religious and linguistic community. English dictionaries also record the French interjection [voila](/voila-meaning/). An entry documents usage; its presence does not establish the channel through which speakers adopted a word.',
 				],
 			},
 		],
@@ -6168,7 +6169,7 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'What\'s the difference between "oy," "oy vey," and "oy gevalt"?',
-				answer: 'Oy is the mildest, most general form. Oy vey is the fuller form most people actually reach for; it can contract right back down to a solo "oy" without losing its sense. Oy gevalt swaps in an entirely separate second word, gevalt, which conveys real force in Yiddish rather than a gentle sigh. Depending on tone, it either lines up with oy vey\'s sense or tilts instead toward alarm and shock.',
+				answer: 'Oy is the shorter form. Oy vey adds a second interjection; it can contract right back down to a solo "oy" without losing its sense. Oy gevalt swaps in an entirely separate second word, gevalt, which conveys real force in Yiddish rather than a gentle sigh. Depending on tone, it either lines up with oy vey\'s sense or tilts instead toward alarm and shock.',
 			},
 			{
 				question: 'What does "oy vey iz mir" mean?',
@@ -6196,11 +6197,11 @@ export const guides: Guide[] = [
 	{
 		slug: 'ohana-meaning',
 		category: 'Loanwords',
-		title: 'Ohana Meaning: The Taro Root Behind Hawaii\'s Word for Family',
-		description: 'Ohana is Hawaiian for family, but the Pukui & Elbert dictionary\'s entry covers more ground than the English word does, and linguists dispute whether the word itself traces to a taro plant or a Proto-Polynesian word for "nest."',
+		title: 'Ohana Meaning: Family and Two Accounts of Its Origin',
+		description: 'Ohana is Hawaiian for family, but the Pukui & Elbert dictionary\'s entry includes relatives and kin groups. Two cited accounts connect the word itself traces to a taro plant or a Proto-Polynesian word for "nest."',
 		published: '2026-08-27',
-		updated: '2026-08-27',
-		coreSummary: 'ʻOhana is the Hawaiian word for family, and the Pukui & Elbert Hawaiian Dictionary, the field\'s standard reference, defines it simply as "family, relative, kin group; related," a circle Hawaiian tradition already extended to non-blood relatives and ʻaumakua family guardians, according to the Polynesian Voyaging Society\'s own account of Hawaiian custom. Its origin is genuinely disputed: Wiktionary\'s comparative reconstruction traces ʻohana to Proto-Polynesian *kofaŋa, "nest," while a rival account associated with Hawaiian-studies scholar Rubellite Kawena Johnson derives it from ʻohā, a taro plant\'s rooted corm shoots, an image the Kumulipo creation chant deepens further by naming kalo the older sibling of the first Hawaiian person.',
+		updated: '2026-10-12',
+		coreSummary: 'ʻOhana is the Hawaiian word for family, and the Pukui & Elbert Hawaiian Dictionary, the field\'s standard reference, defines it simply as "family, relative, kin group; related," a circle Hawaiian tradition already extended to non-blood relatives and ʻaumakua family guardians, according to the Polynesian Voyaging Society\'s own account of Hawaiian custom. The cited accounts differ: Wiktionary\'s comparative reconstruction traces ʻohana to Proto-Polynesian *kofaŋa, "nest," while a rival account associated with Hawaiian-studies scholar Rubellite Kawena Johnson derives it from ʻohā, a taro plant\'s rooted corm shoots, an image the Kumulipo creation chant deepens further by naming kalo the older sibling of the first Hawaiian person.',
 		language: 'Hawaiian',
 		usageNote: {
 			register: 'neutral',
@@ -6211,19 +6212,19 @@ export const guides: Guide[] = [
 				heading: 'What the dictionary actually says ʻohana means',
 				body: [
 					'Wehewehe.org, which hosts the Pukui & Elbert Hawaiian Dictionary, the same standard reference cited for [mahalo](/mahalo-meaning/), defines ʻohana plainly: "family, relative, kin group; related." The entry also lists two compounds, ʻohana holoʻokoʻa and ʻohana nui, both used for an extended family or clan rather than an immediate household.',
-					'That definition is already broader than most English speakers picture when they hear "family." According to the Polynesian Voyaging Society\'s own account of Hawaiian tradition, published as part of the Hōkūleʻa voyaging canoe program, ʻohana traditionally included parents, grandparents, and children, plus "ties of blood and non-related persons," and even ʻaumakua, family gods or ancestral guardian spirits. English speakers who reach for ʻohana to describe a close, chosen circle of people beyond blood relatives are drawing on a sense the Hawaiian word already carried, arguably a narrower slice of a category built from the start to include people connected by more than birth.',
+					'The entry includes extended kin groups, not just an immediate household. According to the Polynesian Voyaging Society\'s own account of Hawaiian tradition, published as part of the Hōkūleʻa voyaging canoe program, ʻohana traditionally included parents, grandparents, and children, plus "ties of blood and non-related persons," and even ʻaumakua, family gods or ancestral guardian spirits. English speakers who reach for ʻohana to describe a close, chosen circle of people beyond blood relatives are drawing on a sense the Hawaiian word already carried, The cited Hawaiian account already includes non-blood relationships; English family can also include adopted and chosen relatives.',
 				],
 			},
 			{
 				heading: 'Two rival accounts of where the word comes from',
 				body: [
 					'Wiktionary\'s etymology entry gives the comparative-linguistics reconstruction as the primary account: ʻohana traces to Proto-Polynesian *kofaŋa, "nest," built from *kofa plus the nominalizing suffix -ŋa, with cognates surviving elsewhere in the family as words that still mean "nest," including Māori kōhanga, Samoan ōfaga, and Rarotongan koʻanga. Under this account, Hawaiian shifted the old "nest" sense toward "family" on its own, the way a bird\'s nest and the brood raised in it are already conceptually close.',
-					'A second, more culturally specific account gets recorded far more often in general reference material. Hawaiian-studies scholar Rubellite Kawena Johnson, in a theory documented in a 2001 exchange on the LINGUIST List, derived ʻohana instead from ʻohā, the corm, or root shoot, that grows off a taro plant\'s older stock, plus -ana, functioning roughly like the English suffix "-ing," so the word names something growing off a shared root: an offshoot, or offspring. A respondent in that same exchange pointed out that Milner\'s Samoan dictionary lists a second sense for the cognate ōfaga, a pile of taro tops set aside for replanting, which would tie the "nest" and "taro" stories together rather than leaving them as flatly competing theories. Neither side in that discussion settled the question, and Hawaiian dictionaries themselves don\'t adjudicate it either; both derivations still circulate today.',
+					'A 2001 LINGUIST List message by Ken Cook quotes Scott Whitney\'s report of Rubellite Kawena Johnson\'s taro-based account: ʻohā is a corm shoot from older taro stock. Cook then challenges the report\'s identification of -ana with English "-ing," distinguishing a continuous-aspect marker from the nominal suffix -na. He also notes Samoan dictionary entries for a nest and for taro tops awaiting replanting. This is evidence of that discussion, not a survey establishing present-day linguistic consensus.',
 					'Whichever account is right, kalo was the staple crop grown for generations in wetland loʻi (irrigated terraces) across the islands, the primary source of poi and daily sustenance long before Western contact, which is why the taro-based story resonates even where the comparative reconstruction points elsewhere.',
 				],
 				image: {
 					src: '/images/ohana-meaning-diagram.svg',
-					alt: 'Diagram comparing two rival etymologies for ʻohana: Proto-Polynesian *kofaŋa, "nest" (cognate with Māori kōhanga and Samoan ōfaga), versus ʻohā, a taro corm shoot, plus the suffix -na, the account associated with scholar Rubellite Kawena Johnson, alongside two side panels: who traditionally counted as ʻohana (blood relatives, non-related persons, and ʻaumakua family guardian spirits) and the Kumulipo\'s Hāloa story, where taro grows from a buried, stillborn first child and the second child, Hāloa, becomes the first Hawaiian person.',
+					alt: 'Diagram comparing two rival etymologies for ʻohana: Proto-Polynesian *kofaŋa, "nest" (cognate with Māori kōhanga and Samoan ōfaga), versus ʻohā, a taro corm shoot, with a disputed suffix analysis reported by Ken Cook in 2001, alongside two side panels: who traditionally counted as ʻohana (blood relatives, non-related persons, and ʻaumakua family guardian spirits) and the Kumulipo\'s Hāloa story, where taro grows from a buried, stillborn first child and the second child, Hāloa, becomes the first Hawaiian person.',
 				},
 			},
 			{
@@ -6236,15 +6237,15 @@ export const guides: Guide[] = [
 			{
 				heading: 'From a Disney line to a corporate slogan, and the pushback that followed',
 				body: [
-					'Most English speakers outside Hawaiʻi encountered ʻohana through a single line of dialogue: "Ohana means family. Family means nobody gets left behind or forgotten," spoken repeatedly in Disney\'s 2002 animated film Lilo & Stitch. Directors Chris Sanders and Dean DeBlois chose the Hawaiian word deliberately, using its extended, chosen-family sense to underline the film\'s core theme that a family doesn\'t have to be the one someone was born into.',
-					'Businesses picked up the word too, sometimes with less care about where it came from. Salesforce named its entire workforce and internal community program "Ohana," a practice tracing back to the company\'s 1999 founding alongside other Hawaiian-themed branding and imagery. In 2018, employees raised concerns that this amounted to cultural appropriation; one employee, quoted by The Daily Beast, wrote that Hawaiian-culture references at the company had amounted to "appropriation, misappropriation, or misrepresentation." The company convened focus groups with Native Hawaiian employees in response and scaled back some of the Hawaiian terminology in its internal branding. It\'s a useful case for anyone reaching for ʻohana in a business context: the word carries a specific creation story and a living culture behind it, and treating it as a free-floating synonym for "team" has already generated real, documented friction. Much like how [habibi](/habibi-meaning/) gets borrowed into English for a warmth the language otherwise splits across several separate words, ʻohana crosses into English carrying its home culture\'s full weight, and marketers reaching for it usually pick up only the sentiment, not the history.',
+					'The word appears in a widely known line of dialogue: "Ohana means family. Family means nobody gets left behind or forgotten," spoken repeatedly in Disney\'s 2002 animated film Lilo & Stitch. Directors Chris Sanders and Dean DeBlois chose the Hawaiian word deliberately, using its extended, chosen-family sense to underline the film\'s core theme that a family doesn\'t have to be the one someone was born into.',
+					'Businesses picked up the word too, sometimes with less care about where it came from. Salesforce named its entire workforce and internal community program "Ohana," a practice tracing back to the company\'s 1999 founding alongside other Hawaiian-themed branding and imagery. In 2018, employees raised concerns that this amounted to cultural appropriation; one employee, quoted by The Daily Beast, wrote that Hawaiian-culture references at the company had amounted to "appropriation, misappropriation, or misrepresentation." The company convened focus groups with Native Hawaiian employees in response and scaled back some of the Hawaiian terminology in its internal branding. It\'s a useful case for anyone reaching for ʻohana in a business context: the word carries a specific creation story and a living culture behind it, and treating it as a free-floating synonym for "team" has already generated real, documented friction. The [habibi](/habibi-meaning/) guide separately discusses an Arabic term of affectionate address and how context affects its reception. It does not establish the same borrowing history or cultural implications as ʻohana.',
 				],
 			},
 		],
 		faq: [
 			{
 				question: 'What does ohana mean in Hawaiian?',
-				answer: 'Per Pukui & Elbert\'s dictionary, ʻohana covers family members and relatives, the wider kin group as a whole. That circle is traditionally broader than what English speakers usually mean by "family," including blood relatives, adopted or unrelated family, plus ʻaumakua, guardian spirits of the family line, per Hawaiian oral tradition.',
+				answer: 'Per Pukui & Elbert\'s dictionary, ʻohana covers family members and relatives, the wider kin group as a whole. According to the voyaging society, this can encompass relatives by birth, people brought into the family, and ʻaumakua, guardian spirits of the family line, per Hawaiian oral tradition.',
 			},
 			{
 				question: 'Does ohana only refer to family by blood?',
@@ -6252,7 +6253,7 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'Where does the word ohana come from?',
-				answer: 'Linguists dispute this. One camp, following comparative linguistics on Wiktionary, traces ʻohana to a reconstructed Proto-Polynesian root, *kofaŋa ("nest"), cognate with words that keep the "nest" sense today in Māori (kōhanga) and Samoan (ōfaga). A second, competing theory credited to scholar Rubellite Johnson traces ʻohana instead to ʻohā, the shoot that sprouts off an older taro corm, combined with the suffix -ana. Neither explanation has won out, and a 2001 scholarly back-and-forth left the question open.',
+				answer: 'The cited sources give different accounts. Wiktionary traces ʻohana to a reconstructed Proto-Polynesian root, *kofaŋa ("nest"), cognate with words that keep the "nest" sense today in Māori (kōhanga) and Samoan (ōfaga). Ken Cook\'s 2001 message quotes a taro-shoot account attributed through Scott Whitney to Rubellite Johnson, but criticizes its suffix analysis: nominal -na is not continuous-aspect ana. A single post from 2001 cannot settle what researchers currently agree on.',
 			},
 			{
 				question: 'Is "ohana means family, family means nobody gets left behind" a traditional Hawaiian saying?',
@@ -6382,7 +6383,7 @@ export const guides: Guide[] = [
 		title: 'Cariño Meaning: Darling Is Only One of RAE\'s Five Definitions',
 		description: 'RAE\'s dictionary gives cariño five senses, affection, a gesture, nostalgia, careful effort, and a gift, and marks its origin as disputed, without tracing it to Latin "dear."',
 		published: '2026-08-28',
-		updated: '2026-08-28',
+		updated: '2026-10-12',
 		coreSummary: 'The RAE dictionary lists five distinct senses under cariño: affection felt toward someone or something, a physical manifestation of that affection (usually plural, cariños), nostalgia or longing, the care taken over a task, and a gift. RAE marks the word\'s origin as disputed, comparing it to Latin carēre ("to lack") and an Aragonese word cariño meaning specifically "nostalgia," rather than tracing it to Latin carus ("dear") the way several language-learning sites describe it. ASALE\'s Diccionario de americanismos (DAMER) documents the gift sense as current in Nicaragua, the Dominican Republic, Colombia\'s Cauca department, Peru, Bolivia, and northwestern Argentina, and records a Chilean phrase, cariño malo, that names the opposite of affection: ingratitude toward someone who loves you.',
 		language: 'Spanish',
 		usageNote: {
@@ -6405,7 +6406,7 @@ export const guides: Guide[] = [
 				heading: 'Where cariño literally means a gift, not a feeling',
 				body: [
 					'RAE\'s fifth sense, regalo, obsequio, isn\'t a loose figurative stretch from "affection" to "something given out of affection." ASALE\'s Diccionario de americanismos (DAMER) treats it as its own dictionary entry, defining cariño as "a gift given to someone as a sign of affection" and marking that sense as current in Nicaragua, the Dominican Republic, Colombia\'s Cauca department, Peru, Bolivia, and northwestern Argentina. In those places, "te traje un cariño" describes handing someone an actual object, not just a warm feeling.',
-					'DAMER records a related formula specific to Peru: no hay cariño en esta casa, literally "there\'s no cariño in this house." DAMER glosses it as an indirect way for a guest to hint that they\'d like to be offered something to eat or drink while visiting someone else\'s home, playing on the gift sense of the word instead of the affection sense: the house isn\'t short on warmth, it\'s short on what\'s being handed over. That kind of dictionary entry hiding a second, unrelated meaning under a familiar spelling isn\'t unique to cariño; [mijo](/mijo-meaning/) carries an entirely separate botanical sense (millet) alongside its use as a vocative for "my son."',
+					'DAMER records a related formula specific to Peru: no hay cariño en esta casa, literally "there\'s no cariño in this house." DAMER glosses it as an indirect way for a guest to hint that they\'d like to be offered something to eat or drink while visiting someone else\'s home, playing on the gift sense of the word instead of the affection sense: the house isn\'t short on warmth, it\'s short on what\'s being handed over. These are senses of cariño; the entries do not establish separate etymologies. In a separate case, [mijo](/mijo-meaning/) has a grain noun from Latin and a vocative formed from mi hijo; its guide distinguishes those histories.',
 				],
 			},
 			{
@@ -6419,7 +6420,7 @@ export const guides: Guide[] = [
 				heading: 'A word for saying goodbye, and one that never takes a feminine form',
 				body: [
 					'DAMER lists a separate headword, ¡cariños!, used as an interjection in Puerto Rico, Bolivia, Chile, Paraguay, Argentina, and Uruguay: it expresses affection toward a person, or toward that person\'s family, at the moment of saying goodbye to them, functioning something like English speakers saying "give my love to the family" on the way out the door. It\'s a distinct headword from cariño itself, built on the same plural cariños that RAE\'s second sense already covers (the manifestations of affection: hugs, caresses, gestures), but repurposed specifically as a farewell.',
-					'One more detail sets cariño apart from a word like querido/querida when it\'s used to address someone directly: Wiktionary\'s entry notes that as a vocative, cariño has no separate feminine form. Addressing a woman as cariño doesn\'t change the word at all, unlike querida, which agrees with the person being addressed. The same entry lists caress and a plain "gift" sense (dádiva, regalo, obsequio) as additional English glosses for the noun, alongside affection and the vocative "dear, darling, honey, love," echoing RAE\'s five-sense structure in its own separate entry. It sits in the same family of Spanish endearment vocabulary as [mamacita](/mamacita-meaning/), another word a dictionary entry splits into senses most casual translations flatten into one.',
+					'One more detail sets cariño apart from a word like querido/querida when it\'s used to address someone directly: Wiktionary\'s entry notes that as a vocative, cariño has no separate feminine form. Addressing a woman as cariño doesn\'t change the word at all, unlike querida, which agrees with the person being addressed. The same entry lists caress and a plain "gift" sense (dádiva, regalo, obsequio) as additional English glosses for the noun, alongside affection and the vocative "dear, darling, honey, love," echoing RAE\'s five-sense structure in its own separate entry. It sits in the same family of Spanish endearment vocabulary as [mamacita](/mamacita-meaning/), whose Wiktionary entry lists affectionate and slang senses.',
 				],
 			},
 		],
@@ -6434,7 +6435,7 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'Does "cariño" come from Latin "carus" ("dear")?',
-				answer: 'RAE doesn\'t say so. Its entry treats the derivation as unresolved and points instead to two comparison words, "to lack" in Latin and an Aragonese term for nostalgia, one of which lines up with a sense RAE already lists for the word itself. A separate Wiktionary entry lands in the same uncertain place without pinning down a source either. The "from Latin carus" story, repeated on quite a few language-teaching blogs, isn\'t what either dictionary\'s entry for cariño itself states.',
+				answer: 'RAE doesn\'t say so. Its entry treats the derivation as unresolved and points instead to two comparison words, "to lack" in Latin and an Aragonese term for nostalgia, one of which lines up with a sense RAE already lists for the word itself. Wiktionary also labels the origin uncertain and offers a possible Aragonese connection. The "from Latin carus" story, repeated on quite a few language-teaching blogs, isn\'t what either dictionary\'s entry for cariño itself states.',
 			},
 			{
 				question: 'Why does "cariño malo" mean the opposite of affection?',
@@ -6442,7 +6443,7 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'What does "¡cariños!" mean at the end of a message or when leaving?',
-				answer: 'DAMER catalogs it under its own entry, separate from the main cariño headword, current across six South American countries: an interjection for sending affection to someone (or their family) at the exact moment of parting, close to how an English speaker might send regards to a friend\'s household right before leaving.',
+				answer: 'DAMER catalogs it under its own entry, separate from the main cariño headword, recorded for Puerto Rico and five South American countries: an interjection for sending affection to someone (or their family) at the exact moment of parting, close to how an English speaker might send regards to a friend\'s household right before leaving.',
 			},
 		],
 		sources: [
@@ -6542,20 +6543,20 @@ export const guides: Guide[] = [
 		title: 'Arigato Meaning: The Real Origin Isn\'t the Portuguese Obrigado',
 		description: 'Arigato and the Portuguese obrigado sound alike by coincidence. The word\'s real root is a Japanese adjective for "rare," documented since 759 CE.',
 		published: '2026-08-31',
-		updated: '2026-08-31',
+		updated: '2026-10-12',
 		coreSummary: 'Arigatō traces back to the Japanese adjective arigatai, built from ari (a form of aru, "to exist") and gatai (a voiced form of katai, "difficult"), so its literal sense is closer to "hard to come by" or "rare" than to a direct word for gratitude. The Man\'yōshū, Japan\'s oldest poetry anthology, records an early form of the word in its poem 4011, compiled around 759 CE, centuries before Portuguese ships ever reached Japan, which makes the word\'s resemblance to Portuguese obrigado (from Latin obligātus, first attested meaning "thank you" a century after that contact) a coincidence rather than a borrowing.',
 		language: 'Japanese',
 		usageNote: {
 			register: 'casual',
-			regionNote: 'No regional split across Japan the way some loanwords have; the variable that matters here is formality, not geography. Plain arigatō works with friends, family, and people of equal or lower status, but can land as abrupt with strangers, elders, or in professional settings, where arigatō gozaimasu is the expected default.',
+			regionNote: 'This guide focuses on politeness. Regional alternatives also exist: Shogakukan\'s Digital Daijisen notes ookini in Kansai. Plain arigatō works with friends, family, and people of equal or lower status, but can land as abrupt with strangers, elders, or in professional settings, where arigatō gozaimasu is the expected default.',
 		},
 		sections: [
 			{
 				heading: 'What the word is actually built from',
 				body: [
 					'Arigatō comes from an older adjective, arigatai, and the two pieces are traceable: ari is a conjugated form of aru, the verb meaning "to exist" or "there is," and gatai is katai, "difficult," voiced (k to g) the way Japanese compounds regularly shift a following consonant. Put together, arigatai means something close to "difficult to exist," and by extension, something uncommon, hard to come by, precious. That\'s a step removed from "thank you": the word started out describing the rarity of a thing, and only later came to express gratitude for it.',
-					'A few language-learning sites simplify the breakdown to "ari, to have" plus "gato, difficult," which blurs two things worth keeping separate. Aru can function like "to have" in Japanese sentence structure (Japanese expresses possession as "X exists for me" rather than with a dedicated verb), but the dictionary sense of aru itself is existence, not possession, and gato isn\'t a standalone morpheme at all; it\'s katai after the sound shift that Japanese compounding produces. The looser gloss isn\'t wrong about the general shape of the word, just imprecise about the two pieces doing the work.',
-					'This kind of gap between a word\'s literal pieces and its everyday translation shows up elsewhere in borrowed Japanese vocabulary too: [senpai](/senpai-meaning/) is another case where the component parts describe something more structured than the one-word gloss English speakers usually reach for. Japanese farewells hide a similar gap between literal pieces and everyday translation: [sayonara](/sayonara-meaning/) is glossed as a simple "goodbye," but its literal sense is closer to "if that\'s how it is," and unlike a casual arigatō, it signals a long or permanent parting rather than an everyday one.',
+					'A few language-learning sites simplify the breakdown to "ari, to have" plus "gato, difficult," which blurs two things worth keeping separate. Aru can function like "to have" in Japanese sentence structure (Japanese expresses possession as "X exists for me" rather than with a dedicated verb), but the dictionary sense of aru itself is existence, not possession, and gato isn\'t a standalone morpheme at all; The adjective contains -gatai, related to katai. Digital Daijisen derives arigatō from the adverbial form arigataku through u-onbin, a sound change affecting that ending. The looser gloss isn\'t wrong about the general shape of the word, just imprecise about the two pieces doing the work.',
+					'This kind of gap between a word\'s literal pieces and its everyday translation shows up elsewhere in borrowed Japanese vocabulary too: [senpai](/senpai-meaning/) is another case where the component parts describe something more structured than the one-word gloss English speakers usually reach for. Japanese farewells hide a similar gap between literal pieces and everyday translation: [sayonara](/sayonara-meaning/) is glossed as a simple "goodbye," but its literal sense is closer to "if that\'s how it is." It can sound final in some settings, but is also used for ordinary classroom departures.',
 				],
 				image: {
 					src: '/images/arigato-meaning-diagram.svg',
@@ -6565,7 +6566,7 @@ export const guides: Guide[] = [
 			{
 				heading: 'A word with a paper trail going back to 759 CE',
 				body: [
-					'The Man\'yōshū, a Nara-period anthology compiled around 759 CE and the oldest surviving collection of Japanese poetry, contains an early form of this word in its poem 4011. From there, the pronunciation shifted gradually across the following centuries: arigatashi to arigataku to arigatau, settling into the modern arigatō. The word also shows up in Heian-era prose, including the Tale of Genji and Sei Shōnagon\'s Pillow Book, works written roughly a thousand years ago, which shows the term stayed in continuous use through the transition from its older "rare, hard to come by" sense toward the gratitude sense modern speakers know.',
+					'The Man\'yōshū, a Nara-period anthology compiled around 759 CE and the oldest surviving collection of Japanese poetry, contains an early form of this word in its poem 4011. The related forms are not simply successive pronunciations: arigatashi is an adjective and arigataku its adverbial form. Digital Daijisen identifies u-onbin of arigataku as the source of arigatō. The word also shows up in Heian-era prose, including the Tale of Genji and Sei Shōnagon\'s Pillow Book, works written roughly a thousand years ago, which shows the term stayed in continuous use through the transition from its older "rare, hard to come by" sense toward the gratitude sense modern speakers know.',
 					'That long, documented history matters for what comes next: any claim about where arigatō came from has to reckon with a word already on the page long before Portuguese traders ever set foot in Japan.',
 				],
 			},
@@ -6581,7 +6582,7 @@ export const guides: Guide[] = [
 				body: [
 					'Arigatō by itself is casual. It\'s the right register with friends, family, classmates, or anyone of equal or lower social standing, and in relaxed everyday exchanges. Add gozaimasu and it becomes arigatō gozaimasu, the polite default for talking to someone older, a stranger, a coworker, or anyone in a professional context; it\'s the safer choice any time the relationship isn\'t already familiar. Doumo intensifies either version without changing its formality: doumo arigatō stays casual, doumo arigatō gozaimasu stays polite, and both roughly mean "thanks a lot" or "thank you very much."',
 					'The rule of thumb Japanese teachers give beginners holds up: the longer the phrase, the more formal it reads. Dropping gozaimasu with a stranger or a boss doesn\'t make you sound young so much as abrupt, since it skips a politeness marker the situation calls for. When in doubt, arigatō gozaimasu covers nearly every situation a traveler or learner is likely to run into.',
-					'That kind of register judgment runs through a lot of Japanese social vocabulary, not just this word: [sayonara](/sayonara-meaning/) carries a formality of its own, one tied to finality rather than politeness, and misjudging either word\'s weight reads as off in a similar way.',
+					'That kind of register judgment runs through a lot of Japanese social vocabulary, not just this word: [sayonara](/sayonara-meaning/) carries a formality of its own, which can sound final in some contexts. Its ordinary classroom use shows why the situation matters; it is not a direct equivalent of adding a politeness marker to arigatō.',
 				],
 			},
 			{
@@ -6598,7 +6599,7 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'Does "arigato" come from the Portuguese "obrigado"?',
-				answer: 'No. The two "thank you" words being nearly interchangeable in sound is pure luck: Japan\'s written record shows this word\'s ancestor generations before any Portuguese ship reached its shores, and its European counterpart traces to an unrelated Latin root, only picking up its thanks-giving sense afterward.',
+				answer: 'No. The two "thank you" words sounding somewhat alike is pure luck: Japan\'s written record shows this word\'s ancestor generations before any Portuguese ship reached its shores, and its European counterpart traces to an unrelated Latin root, only picking up its thanks-giving sense afterward.',
 			},
 			{
 				question: 'Is it rude to just say "arigato" without "gozaimasu"?',
@@ -6618,6 +6619,7 @@ export const guides: Guide[] = [
 			},
 		],
 		sources: [
+			{ label: "Shogakukan Digital Daijisen, via Kotobank: arigataku u-onbin and Kansai ookini", url: "https://kotobank.jp/word/%E6%9C%89%E9%9B%A3%E3%81%86-428222" },
 			{ label: 'Self Taught Japanese: "The real origin of arigatou (ありがとう), Japanese for Thank You" (etymology from aru + katai, Man\'yōshū poem 4011, Genji and Pillow Book attestations, sound-shift chain arigatashi to arigatō)', url: 'https://selftaughtjapanese.com/2015/11/02/the-real-origin-of-arigatou-%E3%81%82%E3%82%8A%E3%81%8C%E3%81%A8%E3%81%86-japanese-for-thank-you/' },
 			{ label: 'sci.lang.japan FAQ: "Is arigatō related to Portuguese obrigado?" (timeline debunking the borrowing claim, obrigado from Latin obligātus, first Portuguese-Japanese contact in the 1540s)', url: 'https://www.sljfaq.org/afaq/arigatou.html' },
 			{ label: 'Wiktionary: "arigato" and "ありがとう" (romanization variants, etymology, usage)', url: 'https://en.wiktionary.org/wiki/arigato' },

@@ -25,11 +25,11 @@
 	<rect x="24" y="184" width="360" height="20" fill="#2f4f6b"/>
 	<text x="204" y="188" text-anchor="middle" fill="#ffffff" font-size="16" font-weight="700">In Japanese</text>
 	<g fill="#201f1a" font-size="14">
-		<text x="48" y="238" font-weight="700">Implies indefinite or</text>
-		<text x="48" y="258" font-weight="700">permanent separation</text>
-		<text x="48" y="288" fill="#5a5648">Used sparingly: reaching for</text>
-		<text x="48" y="306" fill="#5a5648">it in an everyday goodbye can</text>
-		<text x="48" y="324" fill="#5a5648">sound overly dramatic</text>
+		<text x="48" y="238" font-weight="700">Can sound final in</text>
+		<text x="48" y="258" font-weight="700">some situations</text>
+		<text x="48" y="288" fill="#5a5648">Also used at school:</text>
+		<text x="48" y="306" fill="#5a5648">a goodbye can accompany</text>
+		<text x="48" y="324" fill="#5a5648">"see you next week"</text>
 		<text x="48" y="366" font-weight="700">Everyday alternatives:</text>
 		<text x="48" y="388" fill="#5a5648">mata ne, "see you again"</text>
 		<text x="48" y="408" fill="#5a5648">ja ne, "well then, bye"</text>
@@ -43,11 +43,11 @@
 		<text x="440" y="238" font-weight="700">Generic, casual goodbye</text>
 		<text x="440" y="258" fill="#5a5648">OED's earliest record: 1863</text>
 		<text x="440" y="288" font-weight="700">Extended into a verb</text>
-		<text x="440" y="308" fill="#5a5648">"say sayonara to" something,</text>
+		<text x="440" y="308" fill="#5a5648">"sayonara" as a verb,</text>
 		<text x="440" y="326" fill="#5a5648">meaning to get rid of it</text>
 		<text x="440" y="346" fill="#5a5648">(OED's separate verb entry,</text>
 		<text x="440" y="364" fill="#5a5648">earliest record: 1883)</text>
-		<text x="440" y="404" fill="#5a5648">Neither sense carries the</text>
-		<text x="440" y="420" fill="#5a5648">Japanese weight of finality</text>
+		<text x="440" y="404" fill="#5a5648">Japanese school farewells</text>
+		<text x="440" y="420" fill="#5a5648">need not be permanent</text>
 	</g>
 </svg>

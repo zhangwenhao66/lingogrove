@@ -12,14 +12,14 @@
 
 	<rect x="416" y="24" width="360" height="140" rx="10" fill="#fffefa" stroke="#ddd8c4"/>
 	<g fill="#201f1a" font-size="15">
-		<text x="440" y="52" font-weight="700">Account 2: taro-based (R. K. Johnson)</text>
-		<text x="440" y="76" fill="#5a5648" font-size="13">ʻohā, taro corm shoot, + -ana ("-ing")</text>
+		<text x="440" y="52" font-weight="700">Account 2: taro account reported in 2001</text>
+		<text x="440" y="76" fill="#5a5648" font-size="13">Cook disputes -ana; distinguishes nominal -na</text>
 		<text x="440" y="96" fill="#5a5648" font-size="13">New shoots grow their own roots and</text>
 		<text x="440" y="114" fill="#5a5648" font-size="13">leaves while attached to the parent corm</text>
-		<text x="440" y="140" fill="#5a5648" font-size="12">Source: 2001 LINGUIST List exchange</text>
+		<text x="440" y="140" fill="#5a5648" font-size="12">Source: Ken Cook, LINGUIST List, 2001</text>
 	</g>
 
-	<text x="400" y="182" text-anchor="middle" fill="#8a7a3f" font-size="13">Neither account is settled; both still circulate</text>
+	<text x="400" y="182" text-anchor="middle" fill="#8a7a3f" font-size="13">This message is not a current research-consensus survey</text>
 
 	<line x1="400" y1="192" x2="400" y2="216" stroke="#8a7a3f" stroke-width="2"/>
 	<polygon points="400,224 392,208 408,208" fill="#8a7a3f"/>
