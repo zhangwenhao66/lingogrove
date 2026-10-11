@@ -15,10 +15,10 @@
 	<!-- row 2: mood/tense classification, genuinely contested -->
 	<rect x="46" y="192" width="708" height="64" rx="8" fill="#fbead0" stroke="#ddd8c4"/>
 	<text x="400" y="216" text-anchor="middle" fill="#5a5648" font-size="12" font-weight="700">MOOD OR TENSE? THE CLASSIFICATION IS GENUINELY CONTESTED</text>
-	<text x="400" y="238" text-anchor="middle" fill="#201f1a" font-size="12" font-style="italic">OQLF: a tense of the indicative. Lawless French and others: still its own mood. Spanish's condicional has the same split.</text>
+	<text x="400" y="238" text-anchor="middle" fill="#201f1a" font-size="12" font-style="italic">OQLF: indicative tense; Lawless French: mood. RAE: Spanish condicional is indicative.</text>
 
 	<!-- row 3: si-clause chronological chart header -->
-	<text x="400" y="284" text-anchor="middle" fill="#5a5648" font-size="12" font-weight="700">THE SI-CLAUSE RULE: CONDITION NEVER OUTRUNS CONSEQUENCE</text>
+	<text x="400" y="284" text-anchor="middle" fill="#5a5648" font-size="12" font-weight="700">COMMON HYPOTHETICAL SI-CLAUSE PATTERNS</text>
 
 	<!-- three pairing rows -->
 	<rect x="46" y="296" width="708" height="52" rx="6" fill="#ffffff" stroke="#2f6b47" stroke-width="1.5"/>

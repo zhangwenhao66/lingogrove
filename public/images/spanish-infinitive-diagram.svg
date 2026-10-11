@@ -11,11 +11,11 @@
 	<rect x="409" y="102" width="345" height="150" rx="8" fill="#fbead0" stroke="#ddd8c4"/>
 
 	<text x="218" y="126" text-anchor="middle" fill="#5a5648" font-size="12" font-weight="700">FILLING A NOUN&#8217;S SPOT</text>
-	<text x="218" y="126" dy="14" text-anchor="middle" fill="#5a5648" font-size="11">the gerund is barred from this job</text>
+	<text x="218" y="126" dy="14" text-anchor="middle" fill="#5a5648" font-size="11">ordinary noun-like verb use</text>
 	<text x="218" y="172" text-anchor="middle" fill="#2f6b47" font-size="17" font-weight="700">Fumar es malo.</text>
 	<text x="218" y="196" text-anchor="middle" fill="#201f1a" font-size="12" font-style="italic">&#8220;Smoking is bad.&#8221;</text>
-	<text x="218" y="220" text-anchor="middle" fill="#5a5648" font-size="11">no gerund-based version exists</text>
-	<text x="218" y="238" text-anchor="middle" fill="#5a5648" font-size="11">to reach for instead</text>
+	<text x="218" y="220" text-anchor="middle" fill="#5a5648" font-size="11">fumando cannot replace fumar</text>
+	<text x="218" y="238" text-anchor="middle" fill="#5a5648" font-size="11">in this sentence</text>
 
 	<text x="581" y="126" text-anchor="middle" fill="#5a5648" font-size="12" font-weight="700">AFTER A PREPOSITION</text>
 	<text x="581" y="126" dy="14" text-anchor="middle" fill="#5a5648" font-size="11">where English switches to &#8220;-ing&#8221;</text>
@@ -33,7 +33,7 @@
 	<text x="145" y="368" text-anchor="middle" fill="#201f1a" font-size="11" font-style="italic">Debes tener cuidado.</text>
 
 	<text x="330" y="330" text-anchor="middle" fill="#204a31" font-size="13" font-weight="700">deber de + infinitivo</text>
-	<text x="330" y="350" text-anchor="middle" fill="#5a5648" font-size="11">conjecture, not obligation</text>
+	<text x="330" y="350" text-anchor="middle" fill="#5a5648" font-size="11">commonly conjecture</text>
 	<text x="330" y="368" text-anchor="middle" fill="#201f1a" font-size="11" font-style="italic">Deben de ser hermanos.</text>
 
 	<text x="530" y="330" text-anchor="middle" fill="#204a31" font-size="13" font-weight="700">tener que / haber de</text>
@@ -45,7 +45,7 @@
 	<text x="700" y="368" text-anchor="middle" fill="#201f1a" font-size="11" font-style="italic">Voy a esperarla.</text>
 
 	<line x1="70" y1="392" x2="734" y2="392" stroke="#c8dcc9" stroke-width="1"/>
-	<text x="400" y="414" text-anchor="middle" fill="#5a5648" font-size="11" font-style="italic">Negation splits too: &#8220;No debes decírselo&#8221; keeps the obligation; &#8220;No tienes que&#8221; erases it entirely.</text>
+	<text x="400" y="414" text-anchor="middle" fill="#5a5648" font-size="11" font-style="italic">DPD: deber with or without de can express obligation or conjecture; context matters.</text>
 
 	<!-- row 3: standing in for a command, valid vs discouraged -->
 	<rect x="46" y="460" width="345" height="150" rx="8" fill="#eaf1ea" stroke="#2f6b47"/>
@@ -68,5 +68,5 @@
 
 	<rect x="46" y="676" width="708" height="60" rx="8" fill="#fbead0" stroke="#ddd8c4"/>
 	<text x="400" y="700" text-anchor="middle" fill="#5a5648" font-size="11" font-weight="700">SIMPLE VS. COMPOUND INFINITIVE</text>
-	<text x="400" y="720" text-anchor="middle" fill="#201f1a" font-size="11" font-style="italic">terminar (no completion marked) &#8212; haber terminado (already complete relative to the main verb)</text>
+	<text x="400" y="720" text-anchor="middle" fill="#201f1a" font-size="11" font-style="italic">terminar — haber terminado: compound marks prior completion; context can supply it with either.</text>
 </svg>
