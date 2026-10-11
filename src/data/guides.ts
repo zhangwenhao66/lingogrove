@@ -375,7 +375,7 @@ export const guides: Guide[] = [
 				heading: 'The word for the opposite feeling',
 				body: [
 					'If déjà vu is something new feeling falsely familiar, *jamais vu* (literally "never seen") is the reverse: something genuinely familiar suddenly feeling strange or unrecognized. Cleveland Clinic describes it as the feeling that something you know well seems unreal or unfamiliar, and gives the common example of staring at an ordinary word until it stops looking like a real word. It\'s the less famous sibling of déjà vu, but it\'s a real, separately studied phenomenon, not just wordplay on the more famous term.',
-					'Déjà vu belongs to a small club of loanwords English kept in their original form because no native word covered the same specific ground. [Schadenfreude](/schadenfreude-meaning/) is the German entry in that same club.',
+					'Déjà vu is one of the expressions English borrowed in its original form. [Schadenfreude](/schadenfreude-meaning/) is another, from German.',
 				],
 			},
 		],
@@ -1294,7 +1294,7 @@ export const guides: Guide[] = [
 		title: 'Spanish Future Tense: Ir a + Infinitive vs. the Simple Future',
 		description: 'Spanish has two ways to talk about the future, and picking the "wrong" one isn\'t just a style slip. One of them barely means future at all in half its real uses.',
 		published: '2026-08-05',
-		updated: '2026-08-25',
+		updated: '2026-10-11',
 		coreSummary: 'Spanish uses two distinct constructions for the future: the periphrasis ir a + infinitive (voy a llamar), which now dominates everyday speech, and the simple future tense (llamaré), built by adding one set of endings, historically fused from the present tense of haber, directly onto the infinitive. Per the Real Academia Española, the simple future is increasingly replaced by ir a + infinitive in spoken American Spanish, but it survives specifically for the futuro de conjetura (guessing about the present, as in Serán las tres, "it\'s probably three") and for formal, literary, and legal registers: a modal use that has no future-tense meaning in English at all.',
 		language: 'Spanish',
 		sections: [
@@ -1313,7 +1313,7 @@ export const guides: Guide[] = [
 				heading: 'Building the periphrastic future',
 				body: [
 					'The formation is mechanical: conjugate *ir* in the present tense (*voy, vas, va, vamos, vais, van*), add *a*, then add any infinitive unchanged. *Va a llover.* (It\'s going to rain.) *Vamos a comer.* (We\'re going to eat.) Nothing about the main verb changes; all the conjugating happens on *ir*.',
-					'When the main verb takes a reflexive or object pronoun, Spanish allows it in two positions: attached to the end of the infinitive, or moved in front of the conjugated *ir*. *Voy a levantarme temprano* and *Me voy a levantar temprano* both mean "I\'m going to get up early," with no difference in meaning. This is the same either-or placement Spanish uses whenever [a conjugated verb is directly followed by an infinitive](/spanish-reflexive-verbs/); it isn\'t specific to the future.',
+					'When the main verb takes a reflexive or object pronoun, Spanish allows it in two positions: attached to the end of the infinitive, or moved in front of the conjugated *ir*. *Voy a levantarme temprano* and *Me voy a levantar temprano* both mean "I\'m going to get up early," with no difference in meaning. The placement patterns for [reflexive pronouns](/spanish-reflexive-verbs/) also include attaching the pronoun to an infinitive; it isn\'t specific to the future.',
 				],
 			},
 			{
@@ -1388,7 +1388,7 @@ export const guides: Guide[] = [
 		title: 'Spanish Subjunctive: Why It\'s a Mood, Not a Tense',
 		description: 'Spanish class treats the subjunctive as one more verb tense to memorize. It\'s a mood, not a tense, and confusing the two is why the actual trigger never clicks.',
 		published: '2026-08-05',
-		updated: '2026-08-27',
+		updated: '2026-10-11',
 		coreSummary: 'The Spanish subjunctive is a grammatical mood, not a tense: it doesn\'t mark when something happens, only whether the speaker presents it as fact versus wanted, doubted, ordered, or felt. Per the Real Academia Española, it appears in subordinate clauses after verbs of desire, influence, doubt, and emotion whenever the clause\'s subject differs from the main clause\'s. It also fills in for the future tense inside temporal clauses like cuando, which Spanish grammar blocks from taking the indicative future or conditional.',
 		language: 'Spanish',
 		sections: [
@@ -1417,7 +1417,7 @@ export const guides: Guide[] = [
 				heading: 'Six verbs where the drop-the-o trick has nothing to grab onto',
 				body: [
 					'*Ser, estar, ir, haber, saber,* and *dar* don\'t build a subjunctive stem from their *yo* form at all: *sea, esté, vaya, haya, sepa,* and *dé*. The reason the mechanical rule breaks down here is specific, not just "these verbs are weird": the strip-the-*o* trick needs a *yo* form that\'s a plain stem plus *-o*. None of these six qualifies. *Soy, estoy, voy,* and *doy* end in *-oy*, not *-o*; *sé* ends in *-é*; *he* doesn\'t end in *-o* at all. With no plain *-o* ending to strip, there\'s no regular stem to derive an ending from, so these six are memorized outright rather than built from a rule.',
-					'The same six verbs are the ones that already break nearly every other regular pattern Spanish has: [*ser*, one of Spanish\'s most irregular verbs, gets a full comparison against *estar*](/ser-vs-estar/), and [*saber*](/saber-vs-conocer/) is one of the handful of verbs whose *yo* form (*sé*) doesn\'t even end in *-o* in the present indicative, which is exactly why its subjunctive can\'t be derived the ordinary way either.',
+					'These six verbs have irregular present indicative forms: [*ser*, one of Spanish\'s most irregular verbs, gets a full comparison against *estar*](/ser-vs-estar/), and [*saber*](/saber-vs-conocer/) is one of the handful of verbs whose *yo* form (*sé*) doesn\'t even end in *-o* in the present indicative, which is exactly why its subjunctive can\'t be derived the ordinary way either.',
 				],
 			},
 			{
@@ -1440,7 +1440,7 @@ export const guides: Guide[] = [
 				body: [
 					'Spanish blocks the future and conditional forms inside temporal clauses introduced by *cuando*, *mientras*, and similar connectors, whenever the clause points at future time. RAE\'s own grammar states the restriction directly with *desde que*: only *desde que llegue* is grammatical; *desde que llegará* and *desde que llegaría* are not. The present subjunctive is what fills that gap.',
 					'*Vendré cuando pueda* ("I\'ll come when I\'m able to") uses the subjunctive because the coming-and-being-able-to are both still pending, not yet real. Compare *Vengo cuando puedo*: indicative, a general habitual statement ("I come whenever I\'m able to," describing a standing fact about the speaker, no specific future event pending at all). Same two verbs, different mood, and the shift is exactly the real-versus-not-yet-real distinction from the opening section, just applied to time instead of to desire or doubt.',
-					'Spanish grammar preserves an even older fossil of this same idea. [The simple future tense](/spanish-future-tense/) has a subjunctive counterpart most speakers never use: the *futuro simple de subjuntivo* (*cantare*) and *futuro compuesto de subjuntivo* (*hubiere cantado*). Per the RAE, their use today is reduced almost exclusively to legal texts, one of the few corners of the language where a form everyday speech abandoned centuries ago is still technically alive.',
+					'Spanish grammar preserves an even older fossil of this same idea. Distinct from [the simple indicative future](/spanish-future-tense/), Spanish preserves two rarely used future subjunctive forms: the *futuro simple de subjuntivo* (*cantare*) and *futuro compuesto de subjuntivo* (*hubiere cantado*). Per the RAE, their use today is reduced almost exclusively to legal texts, one of the few corners of the language where a form everyday speech abandoned centuries ago is still technically alive.',
 				],
 			},
 		],
@@ -1651,18 +1651,18 @@ export const guides: Guide[] = [
 	{
 		slug: 'spanish-pronouns',
 		category: 'Grammar',
-		title: 'Spanish Pronouns: All Six Families in One Place',
-		description: 'Six pronoun families (subject, object, reflexive, prepositional, possessive, demonstrative) share most forms; they diverge mainly by person and region.',
+		title: 'Spanish Pronouns: Seven Families and Their Different Forms',
+		description: 'Subject, object, reflexive, prepositional, possessive, demonstrative and relative pronouns do different jobs. Some share forms; others mark gender, number or register.',
 		published: '2026-08-06',
-		updated: '2026-09-17',
-		coreSummary: 'Spanish organizes pronouns into six families (subject, object, reflexive, prepositional, possessive, and demonstrative) that reuse the same core forms (me, te, nos, os) across almost every role, so the real learning curve concentrates in the third person and in regional splits like vosotros versus ustedes and the voseo pronoun vos. Object pronouns carry enough internal complexity, including the lo/la versus le/les split and how the two fuse into pairs like se lo, to need their own two dedicated guides, not just a short summary here.',
+		updated: '2026-10-11',
+		coreSummary: 'This guide covers seven pronoun families: subject, object, reflexive, prepositional, possessive, demonstrative and relative. The object and reflexive sets share me, te, nos and os, while prepositional forms include mí and ti. Regional subject forms include vosotros, ustedes and vos. Object pronouns carry enough internal complexity, including the lo/la versus le/les split and how the two fuse into pairs like se lo, to need their own two dedicated guides, not just a short summary here.',
 		language: 'Spanish',
 		sections: [
 			{
 				heading: 'One search term, six different grammatical jobs',
 				body: [
-					'"Spanish pronouns" isn\'t one grammar topic. It\'s six, and they don\'t all work the same way. A subject pronoun (*yo*, *tú*) tells you who\'s performing the verb. An object pronoun (*lo*, *le*) tells you who or what is receiving the action. A reflexive pronoun (*se*) tells you the subject and the object are the same entity. A prepositional pronoun (*mí*, *conmigo*) only ever follows a preposition. A possessive pronoun (*mío*, *suyo*) stands in for "my [noun]" or "his [noun]" without naming the noun. A demonstrative pronoun (*esto*, *aquello*) points at something without naming it at all.',
-					'The good news: Spanish reuses the same small set of forms across most of these families. *Me*, *te*, *nos*, and *os* show up, unchanged, as object pronouns, reflexive pronouns, and (with a preposition in front) prepositional pronouns. The learning curve isn\'t spread evenly across the whole system. It concentrates almost entirely in the third person, where the families actually diverge from each other, and in a handful of regional splits that change which subject pronoun a whole country uses.',
+					'"Spanish pronouns" isn\'t one grammar topic. The first six families have different jobs; relative pronouns add a seventh, linking clauses. A subject pronoun (*yo*, *tú*) tells you who\'s performing the verb. An object pronoun (*lo*, *le*) tells you who or what is receiving the action. A reflexive pronoun (*se*) tells you the subject and the object are the same entity. A prepositional pronoun (*mí*, *conmigo*) only ever follows a preposition. A possessive pronoun (*mío*, *suyo*) stands in for "my [noun]" or "his [noun]" without naming the noun. A demonstrative pronoun (*esto*, *aquello*) points at something without naming it at all.',
+					'The good news: Spanish reuses the same small set of forms across most of these families. *Me*, *te*, *nos*, and *os* show up, unchanged, as object pronouns, reflexive pronouns, but prepositional pronouns use a different set, including mí and ti. The learning curve isn\'t spread evenly across the whole system. It concentrates almost entirely in the third person, where the families actually diverge from each other, and in a handful of regional splits that change which subject pronoun a whole country uses.',
 				],
 				image: {
 					src: '/images/spanish-pronouns-diagram.svg',
@@ -1724,7 +1724,7 @@ export const guides: Guide[] = [
 		faq: [
 			{
 				question: 'How many types of pronouns does Spanish have?',
-				answer: 'Seven groups, end to end: subject (yo, tú/vos, usted...), object (me, te, lo/la, le...), reflexive (me, te, se...), prepositional (mí, ti, conmigo...), possessive (mi/mío, tu/tuyo...), demonstrative (este/esto, ese/eso, aquel/aquello), and relative (que, quien, el cual, cuyo), which links two clauses instead of standing in for a single person or thing on its own. The first six reuse me, te, nos, and os for first and second person almost everywhere; the third person, plus a handful of country-by-country splits, is what actually separates them.',
+				answer: 'Seven groups, end to end: subject (yo, tú/vos, usted...), object (me, te, lo/la, le...), reflexive (me, te, se...), prepositional (mí, ti, conmigo...), possessive (mi/mío, tu/tuyo...), demonstrative (este/esto, ese/eso, aquel/aquello), and relative (que, quien, el cual, cuyo), which links two clauses instead of standing in for a single person or thing on its own. Me, te, nos and os can fill an object slot or refer back to the subject. With prepositions, mí and ti are two possible forms. The remaining choices depend on the person addressed and the variety of Spanish.',
 			},
 			{
 				question: 'Do you always need a preposition before "quien" in Spanish?',
@@ -1784,7 +1784,7 @@ export const guides: Guide[] = [
 		title: 'Spanish Accent Marks: The Rules Behind Every Tilde',
 		description: 'Spanish writes an accent only when a word breaks its default stress pattern, or when two identical words need telling apart, not on every stressed syllable.',
 		published: '2026-08-06',
-		updated: '2026-09-30',
+		updated: '2026-10-11',
 		coreSummary: 'Spanish does not mark every stressed syllable with a written accent; it marks only the ones that break a predictable default (agudas ending in a vowel, or in n or s not preceded by another consonant; llanas ending in any other consonant; esdrújulas and sobresdrújulas always) per the RAE\'s Ortografía de la lengua española, plus a separate, closed list of diacritical tildes (tú/tu, él/el, sí/si, dé/de, sé/se, té/te, mí/mi, más/mas, and the interrogative set qué/que, cuál/cual, quién/quien, cómo/como, cuándo/cuando, dónde/donde) that exist purely to distinguish two identically spelled words with unrelated grammatical jobs. A 2010 RAE reform also removed the accent requirement from the adverb solo and the demonstrative pronouns este/ese/aquel, a change many English-language guides still haven\'t caught up with.',
 		language: 'Spanish',
 		sections: [
@@ -1863,7 +1863,7 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'Do Spanish accent marks change pronunciation, or just spelling?',
-				answer: "Mostly pronunciation. Across the four stress classes covered above, the tilde is simply marking which syllable gets the emphasis when the word is spoken, a fact about the word that holds true regardless of whether the spelling ends up needing a written mark for it. Pairs like tú/tu or sí/si break that pattern: both words in each pair carry identical spoken emphasis, so there the accent exists purely to separate their meanings in writing, not to record anything about how they sound.",
+				answer: "Mostly pronunciation. Across the four stress classes covered above, the tilde is simply marking which syllable gets the emphasis when the word is spoken, a fact about the word that holds true regardless of whether the spelling ends up needing a written mark for it. Pairs like tú/tu or sí/si break that pattern: the accented form is tonic and its unaccented counterpart is atonic. The written mark distinguishes their grammatical functions as well as that stress contrast.",
 			},
 			{
 				question: 'Does estoy have an accent mark?',
