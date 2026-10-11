@@ -53,13 +53,13 @@
 		<text x="560" y="148" fill="#5a5648">oír → oyendo</text>
 		<text x="560" y="168" fill="#5a5648">traer → trayendo</text>
 		<text x="560" y="188" fill="#5a5648">construir → construyendo</text>
-		<text x="560" y="208" fill="#5a5648">ir → yendo</text>
+		<text x="560" y="208" fill="#5a5648">ir → yendo (special form)</text>
 
 		<text x="560" y="248" font-weight="700">-iendo becomes</text>
 		<text x="560" y="268" fill="#5a5648">-yendo: intervocalic i</text>
-		<text x="560" y="288" fill="#5a5648">becomes y in these forms.</text>
+		<text x="560" y="288" fill="#5a5648">becomes y in vowel-stem forms.</text>
 	</g>
 
 	<line x1="24" y1="380" x2="776" y2="380" stroke="#ddd8c4" stroke-width="1"/>
-	<text x="400" y="410" text-anchor="middle" fill="#5a5648" font-size="13" font-style="italic">In every column, only the verb form changes. The endings -ando / -iendo never do.</text>
+	<text x="400" y="410" text-anchor="middle" fill="#5a5648" font-size="13" font-style="italic">Formation patterns: -ando, -iendo, and consonantal y in forms such as leyendo.</text>
 </svg>
