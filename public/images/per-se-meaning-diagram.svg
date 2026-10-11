@@ -63,19 +63,19 @@
 
 	<g fill="#201f1a" font-size="13.5">
 		<text x="628" y="196" font-weight="700">Negligence per se</text>
-		<text x="628" y="216" fill="#5a5648">breaking a safety statute</text>
-		<text x="628" y="234" fill="#5a5648">automatically establishes</text>
-		<text x="628" y="252" fill="#5a5648">negligence: no separate</text>
-		<text x="628" y="270" fill="#5a5648">proof of carelessness</text>
+		<text x="628" y="216" fill="#5a5648">unexcused protective-statute breach</text>
+		<text x="628" y="234" fill="#5a5648">may establish breach of duty</text>
+		<text x="628" y="252" fill="#5a5648">where the doctrine applies;</text>
+		<text x="628" y="270" fill="#5a5648">causation and harm still matter</text>
 
 		<text x="628" y="310" font-weight="700">Illegal per se</text>
-		<text x="628" y="330" fill="#5a5648">(antitrust): conduct like</text>
-		<text x="628" y="348" fill="#5a5648">price-fixing is presumed</text>
-		<text x="628" y="366" fill="#5a5648">an unreasonable restraint</text>
-		<text x="628" y="384" fill="#5a5648">on trade automatically</text>
+		<text x="628" y="330" fill="#5a5648">(antitrust): certain competitor</text>
+		<text x="628" y="348" fill="#5a5648">agreements, such as price-fixing,</text>
+		<text x="628" y="366" fill="#5a5648">are illegal without a separate</text>
+		<text x="628" y="384" fill="#5a5648">inquiry into competitive effects</text>
 
-		<text x="628" y="424" font-weight="700">Shared logic:</text>
-		<text x="628" y="444" fill="#5a5648">"by itself" = presumed,</text>
-		<text x="628" y="462" fill="#5a5648">not case-by-case proven</text>
+		<text x="628" y="424" font-weight="700">Different legal questions:</text>
+		<text x="628" y="444" fill="#5a5648">breach of duty versus illegality;</text>
+		<text x="628" y="462" fill="#5a5648">neither proves every case fact</text>
 	</g>
 </svg>
