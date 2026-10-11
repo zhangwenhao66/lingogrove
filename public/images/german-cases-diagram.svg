@@ -73,7 +73,7 @@
 	<rect x="70" y="558" width="660" height="26" rx="4" fill="#fdeaea" stroke="#c99"/>
 	<text x="400" y="575" text-anchor="middle" fill="#8a2e2e" font-size="11">grammis citation: "da lockten sie den B&#228;ren mit Honig," a real newspaper example</text>
 
-	<text x="400" y="608" text-anchor="middle" fill="#5a5648" font-size="10.5" font-style="italic">Every other case, gender, and inflection class: the noun looks identical to its nominative form.</text>
+	<text x="400" y="608" text-anchor="middle" fill="#5a5648" font-size="10.5" font-style="italic">Some nouns also retain archaic dative singular -e; check the individual paradigm.</text>
 
 	<!-- row 4: prepositions by case -->
 	<rect x="46" y="646" width="708" height="164" rx="8" fill="#fbead0" stroke="#ddd8c4"/>
@@ -89,7 +89,7 @@
 	<text x="200" y="744" fill="#201f1a" font-size="11">w&#228;hrend &#183; trotz &#183; wegen &#183; (an)statt, though wegen increasingly heard with dative in speech</text>
 
 	<text x="70" y="768" fill="#201f1a" font-size="11" font-weight="700">Two-way:</text>
-	<text x="200" y="768" fill="#201f1a" font-size="11">an &#183; auf &#183; hinter &#183; in &#183; neben &#183; &#252;ber &#183; unter &#183; vor &#183; zwischen (movement = acc., location = dat.)</text>
+	<text x="200" y="768" fill="#201f1a" font-size="11">an &#183; auf &#183; hinter &#183; in &#183; neben &#183; &#252;ber &#183; unter &#183; vor &#183; zwischen (destination = acc.; location of an action = dat.)</text>
 
 	<text x="400" y="796" text-anchor="middle" fill="#5a5648" font-size="10.5" font-style="italic">Same Rektion relationship grammis describes for verbs: helfen always takes dative, sehen always takes accusative.</text>
 

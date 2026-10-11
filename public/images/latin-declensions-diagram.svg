@@ -55,7 +55,7 @@
 	<text x="400" y="484" text-anchor="middle" fill="#5a5648" font-size="12" font-weight="700">WHY THE GENITIVE, NOT THE NOMINATIVE</text>
 	<text x="400" y="508" text-anchor="middle" fill="#204a31" font-size="12">Several declensions share nominative endings (equus and manus both end in &#8211;us), so dictionaries list</text>
 	<text x="400" y="528" text-anchor="middle" fill="#204a31" font-size="12">both principal parts: nominative singular, then genitive singular. Strip the genitive&#8217;s ending and what&#8217;s</text>
-	<text x="400" y="548" text-anchor="middle" fill="#204a31" font-size="12">left is the oblique stem, the base every other case is built from.</text>
+	<text x="400" y="548" text-anchor="middle" fill="#204a31" font-size="12">left is the oblique stem, a practical base for many case forms, with exceptions.</text>
 
 	<text x="400" y="598" text-anchor="middle" fill="#5a5648" font-size="11" font-style="italic">Each declension also has its own dative, accusative, ablative, and plural endings: see the tables below.</text>
 </svg>
