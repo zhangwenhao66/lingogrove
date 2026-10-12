@@ -564,5 +564,11 @@
   "https://lingogrove.com/italian-congiuntivo/": {
     "submitted_date": "2026-09-24",
     "verified_status": "pending"
+  },
+  "https://lingogrove.com/puerto-rican-spanish-vs-mexican-spanish/": {
+    "submitted_date": "2026-10-12",
+    "last_submitted_date": "2026-10-12",
+    "verified_status": "pending",
+    "note": "[{\"urls\":[\"https://lingogrove.com/puerto-rican-spanish-vs-mexican-spanish/\"],\"results\":[{\"endpoint\":\"Bing\",\"accepted\":true,\"status\":200},{\"endpoint\":\"Yandex\",\"accepted\":false,\"status\":null,\"error\":\"timeout/error\"}]}]"
   }
 }
