@@ -241,7 +241,7 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'Do all Spanish-speaking countries use ser and estar the same way?',
-				answer: 'The core identity-vs-state logic holds across every Spanish-speaking country. What shifts from place to place is how much ground estar covers in everyday conversation: a contact variety like the Spanish spoken in the Basque Country lets it creep into slots ser would fill elsewhere. Caribbean speech, meanwhile, hews closer to the older pattern than Mexico, Central America, or the Andes do; those latter regions let estar creep into adjective slots that would default to ser elsewhere. That regional shift leaves the underlying rule untouched; it only changes how frequently people stretch the edge cases.',
+				answer: 'The core identity-vs-state logic holds across every Spanish-speaking country. What shifts from place to place is how much ground estar covers in everyday conversation: a contact variety like the Spanish spoken in the Basque Country lets it creep into slots ser would fill elsewhere. Caribbean speech, meanwhile, hews closer to the older pattern than Mexico, Central America, or the Andes do; those latter regions let estar creep into adjective slots that would default to ser elsewhere. That regional shift leaves the underlying rule untouched; it only changes how frequently people stretch the edge cases. For a fuller picture of how Caribbean and Mexican Spanish diverge, see the comparison of [Puerto Rican and Mexican Spanish](/puerto-rican-spanish-vs-mexican-spanish/).',
 			},
 		],
 		sources: [
@@ -1846,7 +1846,7 @@ export const guides: Guide[] = [
 				heading: 'Applying it without re-deriving the rules every time',
 				body: [
 					"In practice, fluent Spanish writers aren't running the agudas/llanas calculation on every word; they've simply memorized where the tildes go, the same way English speakers don't consciously apply spelling rules to write \"receive\" correctly. For a learner, the fastest path to the same fluency is counting backward from the end of an unfamiliar word: is the stress on the last syllable, the second-to-last, or further back? Check that against what the ending would predict by default. If the two disagree, the word needs a tilde.",
-					"The diacritical pairs and the interrogative set are worth memorizing as a fixed list rather than deriving, since they don't follow the stress rules at all. And it's worth knowing that casual Spanish writing (texting, social media, quick notes) routinely drops accents that formal writing keeps; that's a register choice speakers make deliberately, not evidence that the accent doesn't matter. In anything meant to be read as standard, correctly punctuated Spanish, the RAE's rules above are still the ones in force.",
+					"The diacritical pairs and the interrogative set are worth memorizing as a fixed list rather than deriving, since they don't follow the stress rules at all. And it's worth knowing that casual Spanish writing (texting, social media, quick notes) routinely drops accents that formal writing keeps; that's a register choice speakers make deliberately, not evidence that the accent doesn't matter. In anything meant to be read as standard, correctly punctuated Spanish, the RAE's rules above are still the ones in force. Spelling is standardized across the Spanish-speaking world, while pronunciation is not, and the differences are easy to hear once you know where to listen; the comparison of [Puerto Rican and Mexican Spanish](/puerto-rican-spanish-vs-mexican-spanish/) covers the most common fault lines.",
 				],
 			},
 		],
@@ -7166,6 +7166,110 @@ export const guides: Guide[] = [
 			{ label: 'Treccani, Enciclopedia on line: "Congiuntivo"', url: 'https://www.treccani.it/enciclopedia/congiuntivo/' },
 			{ label: 'University of North Carolina at Chapel Hill, Learn Italian: "Subjunctive" (forms, tenses, conjunctions, cross-checked)', url: 'https://learnitalian.web.unc.edu/home/verbs/subjunctive/' },
 			{ label: 'Europass Italian, "Italian Subjunctive (Congiuntivo)" (present forms, spelling changes, and consecutio, cross-checked)', url: 'https://www.europassitalian.com/learn/grammar/verbal-moods-and-tenses/subjunctive/' },
+		],
+	},
+	{
+		slug: 'puerto-rican-spanish-vs-mexican-spanish',
+		category: 'Grammar',
+		title: 'Puerto Rican vs Mexican Spanish: What Differs',
+		description: 'Puerto Rican and Mexican Spanish differ on more than accent. The letter s behaves differently, the bus goes by another name, and question word order is not the same.',
+		published: '2026-10-12',
+		updated: '2026-10-12',
+		coreSummary: 'Puerto Rican Spanish vs Mexican Spanish differ most sharply in how they treat the letter s: Puerto Rico aspirates or drops syllable-final s (las rosas becomes [laɦ ˈrosah]) while central Mexican Spanish keeps it, and Puerto Rico turns syllable-final r into l. The two also split on everyday vocabulary, where a bus is guagua in Puerto Rico and camión in Mexico, and on question word order, where Puerto Rican Spanish allows ¿Qué tú quieres? and Mexican Spanish uses ¿Qué quieres?',
+		language: 'Spanish',
+		sections: [
+			{
+				heading: 'How far apart the two varieties actually sit',
+				body: [
+					'Puerto Rican Spanish vs Mexican Spanish is a comparison between two ends of the Spanish-speaking Americas. Mexican Spanish belongs to the highland group: its consonants are clipped, its unstressed vowels are often swallowed in fast speech, and the s at the end of a syllable stays a full s. Puerto Rican Spanish belongs to the Caribbean group, alongside Cuban and Dominican Spanish, where consonants weaken at the end of a syllable and the rhythm runs quicker. The two are the same language on paper and clearly different ones in the ear.',
+					'The two are not equally familiar to learners. Mexican Spanish is the variety most widely exported through dubbing, television and film, which is why it is often taken for a neutral standard. Puerto Rican Spanish sits at the other end: it is one of the varieties most heavily shaped by contact with English and by Taíno and African vocabulary, and it carries pronunciation habits that a standard textbook never prepares you for. If you learned your [Spanish question words](/spanish-question-words/) from a Mexican course, the Puerto Rican versions will still sound unfamiliar.',
+				],
+			},
+			{
+				heading: 'The letter s is the clearest line between the two',
+				body: [
+					'Syllable-final s is the single most reliable way to tell a Caribbean speaker from a Mexican one by ear. In Puerto Rico the s at the end of a syllable is aspirated to a breathy [h] or dropped outright. Las rosas comes out closer to [laɦ ˈrosah] than to [las ˈrosas], and los dos sounds like [loɦ ðoh]. The aspiration is not a marker of casual speech or of low education. It runs across social classes and across the island, in towns and in the countryside alike.',
+					'Central Mexican Spanish keeps that s. A speaker from Mexico City or the surrounding highlands pronounces las rosas with both s sounds intact, at the start of the phrase and at the end.',
+					'The two varieties do agree on one point that separates them from most of Spain. Both have seseo: the letter z and the soft c before i or e are pronounced as s, so zapato is [saˈpato] and azul is [aˈsul], never with the th sound of peninsular Spanish.',
+				],
+				image: {
+					src: '/images/puerto-rican-spanish-vs-mexican-spanish-diagram.svg',
+					alt: 'Two panels comparing the phrase "las rosas". The Puerto Rico panel shows it transcribed [laɦ ˈrosah], with the syllable-final s turned into a breath or dropped. The central Mexico panel shows the same phrase transcribed [las ˈrosas], with both s sounds kept.',
+				},
+			},
+			{
+				heading: 'r turns into l, and d falls away',
+				body: [
+					'Puerto Rican Spanish reshapes consonants in the middle and at the end of words as well. A syllable-final r becomes an l, which is why the island\'s own name is often heard as Puelto Rico and arte can come out as alte.',
+					'The d between vowels, or at the end of a word, weakens and frequently disappears. Estado reduces to something close to [ehˈtao] and pared to [paˈɾe]. Mexican Spanish weakens some consonants in rapid speech too, but the systematic loss of intervocalic and final d is a Caribbean habit.',
+				],
+			},
+			{
+				heading: 'The same object, two everyday words',
+				body: [
+					'Vocabulary is where the two varieties surprise each other most. None of the words below is slang, and none is a mistake. They are the ordinary words a shopkeeper, a bus driver or a parent would reach for.',
+					'The bus is guagua in Puerto Rico and camión in Mexico. The Real Academia Española records guagua as the ordinary word for a vehicle running a fixed urban or interurban route in the Antilles, the Canary Islands, Guatemala and Equatorial Guinea. The Diccionario de americanismos marks camión as the Mexican word for a public-transport bus, distinct from the cargo truck the same word names elsewhere.',
+					'A drinking straw is popote in Mexico, a borrowing from Nahuatl popotl, and sorbeto in Puerto Rico, sitting beside the sorbete used in Ecuador, Peru, Argentina and Uruguay. Beans are frijoles in Mexico, the general American Spanish word, and habichuelas in Puerto Rico and the Dominican Republic.',
+					'The pattern behind the splits is not random. Mexican Spanish draws a large share of its regional vocabulary from Nahuatl. Puerto Rican Spanish draws on Taíno, on African languages carried through the slave trade, and on English.',
+				],
+			},
+			{
+				heading: '¿Qué tú quieres? and the word order question',
+				body: [
+					'The sharpest grammatical difference sits in questions. Standard Spanish places the verb before an expressed subject in a wh-question: ¿Qué quieres tú? Puerto Rican Spanish regularly allows the opposite order, with the subject first: ¿Qué tú quieres? Mexican Spanish does not.',
+					'This is not a slip. A quantitative study of 882 wh-questions in Puerto Rican conversational speech found subject-verb order in roughly 47% of them against only 4% with the standard verb-subject order. Non-inversion turned up in 14% of all wh-questions, rising to 25% when the question had an overt subject. Cuban and Dominican Spanish show the same tendency.',
+					'Linguists have argued about the cause for decades. One proposal ties the fixed order to the loss of word-final s and n in Caribbean speech: with those endings gone, word order takes over part of the work they once did. Other explanations point to the high rate of expressed subject pronouns in these varieties, or to a broader drift from flexible to rigid word order across the Caribbean.',
+				],
+			},
+			{
+				heading: 'What the two varieties share',
+				body: [
+					'The differences above are easy to overstate, because the shared ground is much larger. Both varieties have seseo and both merge ll with y, the change known as yeísmo. Both use tú for the informal singular and ustedes for the plural, with no vos. Both prefer the simple preterite where peninsular Spanish would use the present perfect, so Esta mañana tuve un accidente is normal on both sides of the comparison while Esta mañana he tenido un accidente sounds European.',
+					'That shared base is why a Puerto Rican and a Mexican speaker understand each other with almost no friction. The features above mark where someone is from. They rarely block meaning, and a learner who knows one variety is not starting over with the other. The verb system and the core grammar are shared, so two useful places to start are the guides to [Spanish prepositions](/spanish-prepositions/) and to the [ser and estar distinction](/ser-vs-estar/).',
+				],
+			},
+			{
+				heading: 'Where the two varieties trip each other up',
+				body: [
+					'The real pitfalls are words that look familiar and mean something else. Guagua is the clearest case. In Puerto Rico it is a bus. In Argentina, Bolivia, Chile, Colombia, Ecuador and Peru the same word means a baby, from Quechua wáwa, and using it for a vehicle there will get a laugh.',
+					'The straw and bean splits cut in a milder direction. A Mexican asking for popote in San Juan, or a Puerto Rican asking for habichuelas in Mexico City, will be understood in the end, but not at once, and usually only after a round of pointing.',
+					'The word order difference is the one that stands out most. ¿Qué tú quieres? is unremarkable in San Juan and conspicuous in Mexico City, where the standard ¿Qué quieres? is the only form a listener expects. Learners who pick up the Puerto Rican pattern and carry it to Mexico will be understood, but they will sound like they learned their Spanish somewhere specific.',
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'Is Puerto Rican Spanish the same as Mexican Spanish?',
+				answer: 'No. They are one language, and speakers of each understand the other without much trouble, but they belong to different dialect groups. The island variety is Caribbean: syllable-final consonants weaken, and a question can put the subject ahead of the verb. The Mexican variety is highland and keeps those consonants. The ordinary nouns for a bus, a straw or beans also come out differently.',
+			},
+			{
+				question: 'What are the differences between Spanish spoken in Spain and Spanish spoken in Puerto Rico?',
+				answer: 'Several, and they run in both directions. Standard peninsular pronunciation separates z and soft c from s; the island does not, so both come out as s. Most of Spain pronounces a final s in full, though the southern varieties aspirate it the way the island does. The island also says ustedes where most of Spain says vosotros, and reaches for the simple past in situations where Spain prefers the perfect.',
+			},
+			{
+				question: 'Do Puerto Ricans and Mexicans understand each other?',
+				answer: 'Almost always. Shared grammar and common core vocabulary carry the conversation. Friction shows up in a small set of everyday nouns, such as guagua against camión, and in the island habit of placing the subject first in a question, which a Mexican listener hears as non-standard but still follows.',
+			},
+			{
+				question: 'Why do Puerto Ricans say ¿Qué tú quieres? instead of ¿Qué quieres?',
+				answer: 'Because Caribbean Spanish lets a subject stand in front of the verb in a wh-question, where standard Spanish inverts them. It is a systematic trait of the whole Caribbean group, not an error. Recorded conversation from the island puts the subject-first pattern near 47%, against roughly 4% for the standard one.',
+			},
+			{
+				question: 'Is guagua a rude word?',
+				answer: 'No. On the island guagua simply means a bus, with no slang or vulgar edge. The confusion comes from elsewhere: in several Andean and southern South American countries the same word is the ordinary term for a baby, borrowed from Quechua.',
+			},
+		],
+		sources: [
+			{ label: 'Real Academia Española, Diccionario de la lengua española: "guagua"', url: 'https://dle.rae.es/guagua' },
+			{ label: 'ASALE, Diccionario de americanismos: "camión" (México, autobús)', url: 'https://www.rae.es/damer/cami%C3%B3n' },
+			{ label: 'ASALE, Diccionario de americanismos: "guaguita" (Puerto Rico)', url: 'https://www.asale.org/damer/guaguita' },
+			{ label: 'ASALE, Diccionario de americanismos: "popote" (México, del náhuatl popotl)', url: 'https://www.asale.org/damer/popote' },
+			{ label: 'ASALE, Diccionario de americanismos: "sorbete" (Ecuador, Perú, Argentina, Uruguay)', url: 'https://www.asale.org/damer/sorbete' },
+			{ label: 'Real Academia Española, Diccionario panhispánico de dudas: "frijol"', url: 'https://panhispanico.es-academic.com/3919/fr%C3%ADjol' },
+			{ label: 'Navarro Tomás, "La S y el seseo" (University of Pennsylvania Linguistics)', url: 'http://ling.upenn.edu/courses/ling521/Navarro1948S.pdf' },
+			{ label: 'University of Colorado Boulder, "Subject-verb word-order in Spanish interrogatives: A quantitative analysis of Puerto Rican Spanish"', url: 'https://scholar.colorado.edu/downloads/4f16c362g' },
+			{ label: 'John M. Lipski, "Beyond the Isogloss: Trends in Hispanic Dialectology"', url: 'https://johnlipski.github.io/isogloss.pdf' },
+			{ label: 'Latin American Spanish, "Puerto Rican Spanish: A Learner\'s Guide"', url: 'https://www.latinamericanspanish.com/puerto-rican-spanish/' },
 		],
 	},
 ];

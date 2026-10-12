@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 380" role="img" aria-labelledby="t d">
+  <title id="t">How Puerto Rican and central Mexican Spanish treat the s at the end of a syllable</title>
+  <desc id="d">Two stacked panels. The Puerto Rican panel shows las rosas pronounced with the syllable-final s turning into a breath or dropping. The central Mexican panel shows the same phrase with both s sounds kept as a full s.</desc>
+  <rect x="0" y="0" width="820" height="380" fill="#fbfaf7"/>
+  <text x="40" y="46" font-family="Georgia, serif" font-size="21" fill="#2b2b2b">The s at the end of a syllable</text>
+  <text x="40" y="72" font-family="Georgia, serif" font-size="14" fill="#6b6b6b">The same phrase, said two ways</text>
+
+  <rect x="40" y="96" width="740" height="118" rx="10" fill="#eef4fb" stroke="#c3d6ea"/>
+  <text x="64" y="128" font-family="Helvetica, Arial, sans-serif" font-size="13" letter-spacing="1" fill="#3c6fa3">PUERTO RICO (CARIBBEAN)</text>
+  <text x="64" y="164" font-family="Georgia, serif" font-size="22" fill="#1f2b36">las rosas</text>
+  <text x="240" y="164" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#3c6fa3">[laɦ ˈrosah]</text>
+  <text x="64" y="196" font-family="Georgia, serif" font-size="14" fill="#41525f">the final s becomes a breath, or is dropped</text>
+
+  <rect x="40" y="228" width="740" height="118" rx="10" fill="#f2f7ef" stroke="#cfe0c4"/>
+  <text x="64" y="260" font-family="Helvetica, Arial, sans-serif" font-size="13" letter-spacing="1" fill="#4d7a35">CENTRAL MEXICO (HIGHLAND)</text>
+  <text x="64" y="296" font-family="Georgia, serif" font-size="22" fill="#1f2b36">las rosas</text>
+  <text x="240" y="296" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#4d7a35">[las ˈrosas]</text>
+  <text x="64" y="328" font-family="Georgia, serif" font-size="14" fill="#41525f">both s sounds are kept in full</text>
+</svg>

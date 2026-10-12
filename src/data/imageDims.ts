@@ -111,8 +111,16 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 560,
   "w": 900
  },
+ "/images/italian-congiuntivo-diagram.svg": {
+  "h": 420,
+  "w": 800
+ },
  "/images/italian-future-tense-diagram.svg": {
   "h": 420,
+  "w": 800
+ },
+ "/images/japanese-honorifics-diagram.svg": {
+  "h": 400,
   "w": 800
  },
  "/images/japanese-particles-wa-ga-wo-ni-diagram.svg": {
@@ -162,6 +170,10 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
  "/images/preterite-vs-imperfect-diagram.svg": {
   "h": 340,
   "w": 800
+ },
+ "/images/puerto-rican-spanish-vs-mexican-spanish-diagram.svg": {
+  "h": 380,
+  "w": 820
  },
  "/images/que-sera-sera-meaning-diagram.svg": {
   "h": 600,
