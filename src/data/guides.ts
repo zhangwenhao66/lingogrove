@@ -2325,7 +2325,7 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'Why is it "dis-le-moi" and not "dis-moi-le"?',
-				answer: 'For indirect objects referring to the first or second person (me/te/nous/vous), an affirmative instruction changes the usual sequence: the thing being given or told comes right after the verb, and who it\'s given or told to comes second, so dis-le-moi and rendez-le-nous rather than the reverse. An ordinary statement would put those two pronouns in the opposite sequence (il me le dit). Spoken French sometimes swaps them back, but written French sticks with the le-then-moi order. With lui or leur, the direct object already follows le, la, or les in a statement, so that sequence is retained.',
+				answer: 'For indirect objects referring to the first or second person (me/te/nous/vous), an affirmative instruction changes the usual sequence: the thing being given or told comes right after the verb, and who it\'s given or told to comes second, so dis-le-moi and rendez-le-nous rather than the reverse. An ordinary statement would put those two pronouns in the opposite sequence (il me le dit). Spoken French sometimes swaps them back, but written French sticks with the le-then-moi order. In a statement, lui/leur already follow the direct forms le/la/les; the command form retains this sequence.',
 			},
 			{
 				question: 'Why does "te" become "toi" in "lève-toi" but not in "ne te lève pas"?',
@@ -4121,7 +4121,7 @@ export const guides: Guide[] = [
 				heading: 'Common country-name patterns, and exceptions',
 				body: [
 					'Gender, number, and the initial sound guide the common en, au, and aux patterns for country names. Some island names follow a separate convention, as in à Cuba and à Malte. En pairs with feminine country names, which is most of them, since most countries ending in -e are feminine: en France, en Chine, en Espagne. En also precedes vowel-initial masculine names, such as en Iran. Au pairs with consonant-initial masculine singular country names: au Japon, au Canada, au Brésil. Aux pairs with country names that are grammatically plural: aux États-Unis, aux Pays-Bas.',
-					'Some countries break the "-e ending means feminine" pattern and takes au instead of en despite ending in -e: le Mexique, le Cambodge, le Mozambique, le Zimbabwe, le Belize, and le Suriname are all masculine, so it\'s au Mexique and au Cambodge, not en Mexique or en Cambodge. These have to be memorized individually rather than derived from the spelling rule.',
+					'Some countries break the "-e ending means feminine" pattern and take au instead of en despite ending in -e: le Mexique, le Cambodge, le Mozambique, le Zimbabwe, le Belize, and le Suriname are all masculine, so it\'s au Mexique and au Cambodge, not en Mexique or en Cambodge. These have to be memorized individually rather than derived from the spelling rule.',
 					'For ordinary city names without an article, use à; a city name containing le or les can require the usual contraction. À Paris and à Tokyo follow the same pattern no matter what the city\'s name looks like.',
 				],
 			},
@@ -5357,7 +5357,7 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'Can you use the Spanish gerund as a noun, the way English uses "-ing," as in "swimming is fun"?',
-				answer: "No. In ordinary use, the Spanish gerund cannot fill a subject, object, or prepositional-object slot the way an English -ing noun can. Spanish reaches for the infinitive in those spots instead: nadar es divertido for \\\\\\\"swimming is fun,\\\\\\\" me encanta leer for \\\\\\\"I love reading,\\\\\\\" never a bare gerund standing in as a noun. The adjective in agua hirviendo (“boiling water”) is a lexicalized exception to the usual verbal role, not a way to use a gerund as an action noun.",
+				answer: "No. In ordinary use, the Spanish gerund cannot fill a subject, object, or prepositional-object slot the way an English -ing noun can. Spanish reaches for the infinitive in those spots instead: nadar es divertido for \"swimming is fun,\" me encanta leer for \"I love reading,\" never a bare gerund standing in as a noun. The adjective in agua hirviendo (“boiling water”) is a lexicalized exception to the usual verbal role, not a way to use a gerund as an action noun.",
 			},
 			{
 				question: 'What is "gerundio de posterioridad" and why is it considered wrong?',
