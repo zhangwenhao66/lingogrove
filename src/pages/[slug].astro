@@ -9,7 +9,7 @@ import ConjugationDrill from '../components/ConjugationDrill.astro';
 import FeedbackMark from '../components/FeedbackMark.astro';
 import TutorPick from '../components/TutorPick.astro';
 import { guides, type Guide } from '../data/guides';
-import { AUTHOR_NAME, SITE_ORIGIN } from '../consts';
+import { AUTHOR_NAME, SITE_ORIGIN, SITE_TITLE } from '../consts';
 
 export function getStaticPaths() {
 	return guides.map((guide) => ({
@@ -122,6 +122,10 @@ const heroAvifMobile = (() => {
 		dateModified={toISO(guide.updated)}
 		authorName={AUTHOR_NAME}
 		authorUrl={`${SITE_ORIGIN}/about/`}
+		publisherName={SITE_TITLE}
+		publisherId={`${SITE_ORIGIN}/#organization`}
+		publisherUrl={`${SITE_ORIGIN}/`}
+		publisherLogo={`${SITE_ORIGIN}/logo-512.png`}
 		image={heroImage}
 		imageWidth={imgDims(heroImage)?.w}
 		imageHeight={imgDims(heroImage)?.h}
