@@ -264,3 +264,9 @@ curl复查 `/spanish/resources` 与 `/french/resources`（均HTTP 200），两�
 - 发出已17天，`gmail_send.py list --query "from:beckj@wabash.edu"`返回空确认对方从未回复，Wabash College图书馆是真实高校机构资源指南，具备真实权威度，符合跟进条件。撰写1-2句简短跟进邮件（过Skill(humanizer)+Skill(avoid-ai-writing)人工核对，无破折号/AI高频词），`gmail_send.py send --from lingogrove --reply-to 1a00945a1beab9a7`，Message ID `1a062428ae10247a`。**标记 `followed_up_once`。**
 
 **累计口径**：LingoGrove断链置换战术累计已发送6封pitch（含本轮1封跟进）；已验证`not_replaced` 2条、`verified_live_backlink_confirmed` 0条，转化率仍为0。
+
+
+## 2026-10-12 Codex断链专项复查
+
+旧pitch源页HTTP200，未发现本站href；DFS当前快照未发现原来源域。仅历史复查，非新提交/非获链；原信已过14天跟进窗口，不补发。证据：/Users/zhangwh/.codex/automation-runtime/runs/trafficsite-broken-link-building/20261012T2100/old-review.json、/Users/zhangwh/.codex/automation-runtime/runs/trafficsite-broken-link-building/20261012T2100/lingogrove-backlinks.txt。共同机会索引已保存历史标记及30天后复查，不更新新机会处理日期。
+本轮4站复查API合计$0.0966。本专项新增0、获链0；17站今日共同台账新动作2/102缺100（War回答未成超链接），逐站 /Users/zhangwh/.codex/automation-runtime/runs/trafficsite-broken-link-building/20261012T2100/17站当日覆盖.md。原十站累计79封/0确认口径及旧ID差异保留，旧低转化待办不重复创建；10月9日三份待批稿未动。
