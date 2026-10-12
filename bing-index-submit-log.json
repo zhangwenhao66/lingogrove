@@ -221,5 +221,14 @@
       "https://lingogrove.com/double-object-pronouns-spanish/"
     ],
     "method": "SubmitUrlBatch"
+  },
+  {
+    "date": "2026-10-12",
+    "site": "lingogrove.com",
+    "action": "submitted",
+    "submitted_urls": [
+      "https://lingogrove.com/puerto-rican-spanish-vs-mexican-spanish/"
+    ],
+    "method": "SubmitUrl"
   }
 ]
