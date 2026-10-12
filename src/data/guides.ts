@@ -438,7 +438,7 @@ export const guides: Guide[] = [
 			{
 				heading: 'How to actually use it in an English sentence',
 				body: [
-					'In English, Schadenfreude functions as an uncountable noun, almost always used on its own, not pluralized or modified heavily: *"There was more than a little schadenfreude in the office when the loudest critic\'s project got cancelled."* German capitalizes this noun. Merriam-Webster lists lowercase *schadenfreude* in English and also records the capitalized variant.',
+					'In English, Schadenfreude functions as an uncountable noun, almost always used on its own, not pluralized or modified heavily: *"There was more than a little schadenfreude in the office when the loudest critic\'s project got canceled."* German capitalizes this noun. Merriam-Webster lists lowercase *schadenfreude* in English and also records the capitalized variant.',
 					'Pronunciation is the other thing that trips up new users: it\'s roughly *SHAH-dən-froy-də*, with the "sch" as an English "sh" sound and the final "e" pronounced as a short, weak vowel rather than silent.',
 					'It sits in the same category as words like [déjà vu](/deja-vu-meaning/) and [senpai](/senpai-meaning/), borrowed expressions English uses in their original form. Their English uses can differ from those in the source language.',
 				],
@@ -6201,7 +6201,7 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'How do you use "oy vey" in a sentence?',
-				answer: 'Use it as an exclamation on its own or at the start of a sentence when something goes wrong or wears you out: "Oy vey, the flight got cancelled again." Merriam-Webster defines it as an expression of dismay, frustration, or grief. In everyday English it is often half joking, which suits small annoyances better than serious loss.',
+				answer: 'Use it as an exclamation on its own or at the start of a sentence when something goes wrong or wears you out: "Oy vey, the flight got canceled again." Merriam-Webster defines it as an expression of dismay, frustration, or grief. In everyday English it is often half joking, which suits small annoyances better than serious loss.',
 			},
 		],
 		sources: [
