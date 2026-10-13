@@ -2108,3 +2108,24 @@
 来源：Merriam-Webster voilà、Oxford inshallah、Quran 18:39和1:2、RAE futuro compuesto及Diccionario del estudiante Ortografía、Apple Support mh27474；已用WebSearch/open读取。FAQ内嵌来源链接，未扩写sources数组。
 
 质量：humanizer → avoid-ai-writing实际完整读取kit唯一源并完成逐答案审校，路径/hash及保真回执在/Users/zhangwh/.codex/automation-runtime/runs/paa-faq-gap-fill/20261011T-paa-codex-2215/lingogrove-writing-chain.json。基线8/8通过；每条添加后跑check_prose_patterns，新内容20字重合3条改写清零，全部最终0；commit前再跑全部改动slug。扩散判定：单篇/本次新答案，无旧内容债务。只追加内容证明及检查输出见本轮RUN_DIR。build验证通过后提交，不由本子agent推送/部署，root独审与集成。
+
+
+## R-seo-29 维基百科正文归因回溯 · L-1012-2（2026-10-13）
+
+扩散判定：通用 / 全矩阵扫描：应查17站、实查17站、未检查0；扫描时9站仍有候选待分批核对（状态输出见 `/Users/zhangwh/.codex/receipts/wikipedia-lingogrove-20261013/matrix-scan-before.txt`）/ LingoGrove 原始宽口径基线12处、8篇，窄口径2处、1篇；本批实际核对12/12，未检查0。源码快照在 `baseline-wide.txt`，窄口径基线由 HEAD 源码重跑并存于 `baseline-narrow.txt`。
+
+本批逐句活页核对：
+- `japanese-particles-wa-ga-wo-ni`：历史假名用法归因仍在；“几百年音变”超出所引页面，删除该时间跨度。额外发现 Mikami 的1960年书名/论点归因与日文人物页不符；移除未获该页支持的年份、书籍论点及现已无对应正文用途的日文维基来源项。
+- `inshallah-meaning`：两条候选说法仍在；其中“穆斯林、阿拉伯基督徒及其他宗教阿拉伯语使用者”段落在维基页面带 `citation needed`，正文已注明该标记与核对日期。另将未被页面支持的法语殖民拼写来源说法移除，拼写列表改为页面实际列出的形式。美国部队传播说法仍在，已标核对日期。
+- `semper-fi-meaning`：Sousa 进行曲条目说法仍在，已标核对日期；`Semper paratus` 条目带全页 primary-sources notice，正文已披露。
+- `french-irregular-verbs`：4条候选（分组、数量级、封闭类、拼写/词干规则）均仍在，原始页面支持，保留约数并加同句核对日期。
+- `russian-cases`：locative/partitive 例句仍在，页面支持，已加同句核对日期。
+- `voila-meaning`：-wala 词源与例句仍在，页面支持，已加同句核对日期。
+- `french-future-tense`：法语未来时/être 词干史说法仍在；移除未由该法语维基页支持的西班牙语未来时比较，保留法语范围事实并加核对日期。法语 URL 返回重定向指令，已另抓最终目标 `Futur_simple_en_français`。
+- `que-sera-sera-meaning`：1559年牌匾与相关历史说法仍在，页面支持且保留原有不确定性措辞，已加核对日期。
+
+抓取：2026-10-13 使用 `curl -sS -L -m 40` 抓取对应维基 raw 页面；全部返回HTTP 200，法语页另抓重定向目标。原文快照及两个独立复核回执位于 `/Users/zhangwh/.codex/receipts/wikipedia-lingogrove-20261013/`。去AI味链：已读取并按 `~/.claude/skills/humanizer/SKILL.md` → `~/.claude/skills/avoid-ai-writing/SKILL.md` 对改动句逐项审校；仅最小事实修订，核回数字、专名、引语、URL。
+
+处置统计：候选12条均在当天核对后加同句日期（12）；改引底层来源0；删除/收窄超出来源范围的额外断言3处（日语 Mikami 归因、Inshallah 拼写地域解释、法语页中的西语未来时比较）；明确披露维基 citation-needed 1处及 primary-sources notice 1处。全站宽/窄扫描均退出码0、0候选。8篇 `run_checks.py`：每篇不通过0；未检查项16或17项（工具清单未支持单篇模式，及 worktree 路径无法反推站名的 hero-crop 项；逐项输出保存在 `/tmp/lingo-final-check-*.txt`，日语篇在FAQ修订后复跑为38通过/0不通过/17未检查）。
+
+扩散判定：通用 / 修复：当场8篇；派发无 / 防复发：`check_wikipedia_attribution_drift.py` 已纳入 `CHECKS.json` 第54项；教训 `L-1012-2` + 发布共用块 `B-129` 第15项。提交与线上验证将在本条后续回填；本次未检查范围仅为矩阵中仍待后续批次处理的其余候选，不计为通过。
