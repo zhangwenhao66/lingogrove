@@ -1,0 +1,18 @@
+[
+  {
+    "index": 1,
+    "sentence": "Teachers get it, but so do doctors, martial arts instructors, and published authors, because the suffix really marks \"someone whose skill puts them in a position to teach me,\" not \"person who works at a school.\" [Senpai](/senpai-meaning/), the suffix that\\'s now also an English loanword for someone further along the same path, an upperclassman or a more senior coworker, names a senior member of the same group.",
+    "target_slug": "senpai-meaning",
+    "verdict": "CONFIRMED",
+    "note": "Target describes senpai seniority within same school/workplace/group and its English borrowing; no universal teacher identity claim.",
+    "target_quote": "'先輩 is written with two characters. 先 (*sen*) means \"before, ahead, previous.\" It\\'s the same character used in words like *saki* (先, \"ahead\" or \"the future,\" depending on context). 輩 (*hai*, here read *pai*) means \"fellow, companion, people of the same group.\" It shows up in words for peer groups and generations. The institutional sense is close to \"one of us who came before.\" Daijisen also includes seniority in age, standing, experience or skill; the word is not limited to membership in the same group. The Japanese-English dictionary Jisho glosses it as \"senior (at school, work, etc.); superior; elder; older person; predecessor.\"',",
+    "source_article_sha256": "1f59e05954b99933cd18b76accced0282fa0f6e5e41c242deea36e754bf5fe7c",
+    "target_article_sha256": "be4c6144453fe3728062d5e99319080c2131387166764bcffdff3486279d0450",
+    "source_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-lingo-integration/src/data/guides.ts",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-lingo-integration/src/data/guides.ts",
+    "provenance": "manual final current-target assertion comparison, with literal support below",
+    "additional_target_body_support_quotes": [
+      "'Wiktionary records an English sense for a senior member or mentor in Japanese arts, with a 1974 book citation, as well as a fandom sense for an upperclassman. The OED added an entry in December 2025; an addition date does not establish when a word first entered English. The German borrowing [schadenfreude](/schadenfreude-meaning/) has a different history and denotes pleasure at another person\\'s misfortune.',"
+    ]
+  }
+]

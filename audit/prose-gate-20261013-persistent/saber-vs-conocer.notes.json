@@ -1,0 +1,28 @@
+[
+  {
+    "index": 1,
+    "sentence": "These readings depend on aspect and context, rather than a rule that quise always means \"tried\" or no quise always means \"refused.\" Learners who\\'ve already sorted out the [broader preterite-versus-imperfect split](/preterite-vs-imperfect/) still trip on this group specifically, because the meaning shift is larger than \"completed vs. ongoing.\" It\\'s closer to two different English verbs mapping onto the same Spanish root.",
+    "target_slug": "preterite-vs-imperfect",
+    "verdict": "CONFIRMED",
+    "note": "Current aspect target supports only the referenced broader completed-whole versus ongoing viewpoint; quise/no quise qualification is on the source and is not attributed to that target. Ser/estar target supports two words corresponding to English to be; no fixed automatic meaning shift asserted.",
+    "target_quote": "coreSummary: 'The preterite (canté) presents a past action as a completed whole, with a clear edge. The imperfect (cantaba) presents a past action or state in progress, without marking where it started or ended. How long something took doesn\\'t decide the choice: a preterite action can span years and an imperfect one can span seconds. What decides it is the angle the speaker takes on the action.',",
+    "source_article_sha256": "287d37d2d7581123d1fb5a95f0fc97afae612cd6548b24351df31f45b94c2214",
+    "target_article_sha256": "4e7cd058868917bccbc1a21c6a3ae581f27f110d99e9fd4ba47cb9c71fbe7c4c",
+    "source_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-lingo-integration/src/data/guides.ts",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-lingo-integration/src/data/guides.ts",
+    "provenance": "manual final current-target assertion comparison, with literal support below"
+  },
+  {
+    "index": 2,
+    "sentence": "One more contrast worth having next to this one: [ser and estar](/ser-vs-estar/) split English \"to be\" the way saber/conocer splits \"to know,\" and the underlying move for both pairs is the same: stop translating the English word, and ask what kind of claim the sentence is actually making.",
+    "target_slug": "ser-vs-estar",
+    "verdict": "CONFIRMED",
+    "note": "Current aspect target supports only the referenced broader completed-whole versus ongoing viewpoint; quise/no quise qualification is on the source and is not attributed to that target. Ser/estar target supports two words corresponding to English to be; no fixed automatic meaning shift asserted.",
+    "target_quote": "coreSummary: 'Ser identifies and defines: identity, origin, inherent characteristics, time, and material. Estar locates and describes a state: location, condition, and the result of a change. The common shorthand \"ser is permanent, estar is temporary\" breaks down often enough (someone can be permanently dead and use estar, or be only briefly a student and use ser) that it\\'s more reliable to ask whether the sentence is defining the subject or reporting its current condition.',",
+    "source_article_sha256": "287d37d2d7581123d1fb5a95f0fc97afae612cd6548b24351df31f45b94c2214",
+    "target_article_sha256": "9ac60999416eb202f30a8cf663d53d2e9bcc1151527582c5b367500fe6d9de98",
+    "source_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-lingo-integration/src/data/guides.ts",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-lingo-integration/src/data/guides.ts",
+    "provenance": "manual final current-target assertion comparison, with literal support below"
+  }
+]

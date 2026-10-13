@@ -1,0 +1,31 @@
+[
+  {
+    "index": 1,
+    "sentence": "Where the pronoun attaches, and what happens with verbs like *dormirse* and *quedarse* that use the same forms without a truly reflexive meaning, is covered in full in [Spanish reflexive verbs](/spanish-reflexive-verbs/).",
+    "target_slug": "spanish-reflexive-verbs",
+    "verdict": "CONFIRMED",
+    "note": "First current target distinguishes genuine reflexive and pronominal uses plus placement. Second target contrasts interrogative/exclamative accents with unaccented relative/connective forms.",
+    "target_quote": "'Placement follows the same rule as [direct and indirect object pronouns](/direct-vs-indirect-object-pronouns-spanish/): the pronoun goes immediately before a conjugated verb (*Me levanto*), and attaches to the end of an infinitive, a gerund, or an affirmative command (*Voy a levantarme*, *Estoy levantándome*, *¡Levántate!*), with a written accent added where needed to keep the original stress. Negative commands put it back in front: *No te levantes*, never *No levántate*.',",
+    "source_article_sha256": "7c116d19f9ffdd4a89402a0943da5b6c32eeb3029c4252e821fcb60a9037ad37",
+    "target_article_sha256": "2009bc03d9e7ee58f9ca7b6beeeec3ee4ea2d59936f73f5b467ec3fbb787f582",
+    "source_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-lingo-integration/src/data/guides.ts",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-lingo-integration/src/data/guides.ts",
+    "provenance": "manual final current-target assertion comparison, with literal support below"
+  },
+  {
+    "index": 2,
+    "sentence": "The [same unaccented spelling that separates *cuándo* the question word from *cuando* the connector](/spanish-accent-marks/) applies here too: *que* and *cual* only carry a written accent when they're asking or exclaiming something, never when they're doing this relative-clause job.",
+    "target_slug": "spanish-accent-marks",
+    "verdict": "CONFIRMED",
+    "note": "First current target distinguishes genuine reflexive and pronominal uses plus placement. Second target contrasts interrogative/exclamative accents with unaccented relative/connective forms.",
+    "target_quote": "\"A related but distinct set of diacritical tildes covers interrogative and exclamative words: qué, cuál, quién, cómo, cuán, cuánto, cuándo, dónde, and adónde, per the RAE's dedicated entry on this group. These carry the tilde whenever they're asking or exclaiming something, directly, as in ¿Cuándo llegas? (\\\"When are you arriving?\\\"), or indirectly inside a larger sentence, as in No sé cuándo llega (\\\"I don't know when he's arriving\\\"). Their unaccented twins (que, cual, quien, como, cuando, donde) do a completely different grammatical job as relative pronouns or conjunctions: Llegó cuando quiso (\\\"He arrived when he wanted to\\\") uses cuando as a plain connector joining two clauses, with no question implied anywhere in the sentence.\",",
+    "source_article_sha256": "7c116d19f9ffdd4a89402a0943da5b6c32eeb3029c4252e821fcb60a9037ad37",
+    "target_article_sha256": "a426fd92d0818956fbf2401a2adf1c738261df05ed55209c4b17648a5075f237",
+    "source_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-lingo-integration/src/data/guides.ts",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-lingo-integration/src/data/guides.ts",
+    "provenance": "manual final current-target assertion comparison, with literal support below",
+    "additional_target_body_support_quotes": [
+      "\"A related but distinct set of diacritical tildes covers interrogative and exclamative words: qué, cuál, quién, cómo, cuán, cuánto, cuándo, dónde, and adónde, per the RAE's dedicated entry on this group. These carry the tilde whenever they're asking or exclaiming something, directly, as in ¿Cuándo llegas? (\\\"When are you arriving?\\\"), or indirectly inside a larger sentence, as in No sé cuándo llega (\\\"I don't know when he's arriving\\\"). Their unaccented twins (que, cual, quien, como, cuando, donde) do a completely different grammatical job as relative pronouns or conjunctions: Llegó cuando quiso (\\\"He arrived when he wanted to\\\") uses cuando as a plain connector joining two clauses, with no question implied anywhere in the sentence.\","
+    ]
+  }
+]

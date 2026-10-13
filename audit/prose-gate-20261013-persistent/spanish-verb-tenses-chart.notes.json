@@ -1,0 +1,15 @@
+[
+  {
+    "index": 1,
+    "sentence": "[This site\\'s dedicated comparison of the two](/preterite-vs-imperfect/) covers additional pairs where the same verb changes meaning depending on which one is used.",
+    "target_slug": "preterite-vs-imperfect",
+    "verdict": "CONFIRMED",
+    "note": "Target contrasts llegué/dormía with llegaba/durmió, supporting additional paired aspect interpretations; no invented conocí/conocía example attributed to target.",
+    "target_quote": "'The clearest way to see the distinction is a pair that uses the same verb and changes only the aspect. *Cuando llegué, ella dormía* (\"When I arrived, she was sleeping\") uses preterite for the arrival (a completed, single event) and imperfect for the sleeping, which was already in progress and had no marked start or end from the sentence\\'s point of view. Swap the verbs: *Cuando llegaba, ella durmió* would be an odd sentence, because it treats the arrival as ongoing and the sleeping as a sudden, completed event, which doesn\\'t match how these situations normally unfold.',",
+    "source_article_sha256": "e0a14f3cafa56fffe603bab44bf0e1a35be48a29aca14844839ea9212af6b5b7",
+    "target_article_sha256": "4e7cd058868917bccbc1a21c6a3ae581f27f110d99e9fd4ba47cb9c71fbe7c4c",
+    "source_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-lingo-integration/src/data/guides.ts",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-lingo-integration/src/data/guides.ts",
+    "provenance": "manual final current-target assertion comparison, with literal support below"
+  }
+]

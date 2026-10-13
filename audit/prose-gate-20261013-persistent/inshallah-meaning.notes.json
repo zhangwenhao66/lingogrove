@@ -1,0 +1,15 @@
+[
+  {
+    "index": 1,
+    "sentence": "The related phrase [mashallah](/mashallah-meaning/) is built on the same verb but means \"God has willed it,\" not \"God willing.\"",
+    "target_slug": "mashallah-meaning",
+    "verdict": "CONFIRMED",
+    "note": "Target parses mā shāʾa llāh and will/willed; shared verb only, not identical pragmatics.",
+    "target_quote": "'The root ش-ي-ء (sh-y-ʾ) carries the sense of \"will\" or \"intention\" in Arabic, and it sits behind two words in this phrase at once: the everyday noun شيء (shayʾ, \"thing\") and the past-tense verb شَاءَ (shāʾa, \"he willed\" or \"he wished\") that mashallah is actually built on. Add مَا (mā), a relative pronoun meaning \"what\" or \"that which,\" and الله (Allāh), simply the Arabic word for God, and the three combine into mā shāʾa -llāh, which reads literally as \"what God has willed [has occurred].\" English glosses usually expand that to \"God has willed it\" rather than translating word for word, since a literal rendering reads awkwardly in English.',",
+    "source_article_sha256": "bee212f23cec9f6d6760ac9584c03287b576d12a1aa8ae483e46f65b1ec57814",
+    "target_article_sha256": "05462c76436e9ef1a5e33d3f3a51dff4e18fed8592880503f2a737c5087ab307",
+    "source_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-lingo-integration/src/data/guides.ts",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-lingo-integration/src/data/guides.ts",
+    "provenance": "manual final current-target assertion comparison, with literal support below"
+  }
+]

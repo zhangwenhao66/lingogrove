@@ -1,0 +1,15 @@
+[
+  {
+    "index": 1,
+    "sentence": "It\\'s the same kind of collapse-in-English problem that makes [por and para](/por-vs-para/) hard to tell apart: one English word, two unrelated Spanish grammar rules underneath it.",
+    "target_slug": "por-vs-para",
+    "verdict": "CONFIRMED",
+    "note": "Target describes two Spanish prepositions translated English for; comparison concerns English translation collapse only.",
+    "target_quote": "coreSummary: 'Para marks purpose, destination, deadline, or recipient: the thing an action is aimed at. Por marks cause, means, duration, exchange, or motion through a place: the thing an action moves through or comes from. Both can translate as English \"for,\" which is exactly why the English translation is the wrong tool for choosing between them.',",
+    "source_article_sha256": "34cc28b2e7cfb9dbc80d412896f1041245f8e10385dec86a7a78a7ab49c8470e",
+    "target_article_sha256": "ec140a3b8e7f8776c9784ef43c1f90c52c344e66e52d60bb7237c1d6c3e75863",
+    "source_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-lingo-integration/src/data/guides.ts",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-lingo-integration/src/data/guides.ts",
+    "provenance": "manual final current-target assertion comparison, with literal support below"
+  }
+]

@@ -1,0 +1,28 @@
+[
+  {
+    "index": 1,
+    "sentence": "Ser also happens to be one of Spanish\\'s most irregular verbs in its own right: its [full conjugation table](/ser-conjugation/) is worth a look if soy, era, and fui don\\'t look to you like forms of the same word.",
+    "target_slug": "ser-conjugation",
+    "verdict": "CONFIRMED",
+    "note": "Target explicitly supplies the referenced irregular forms or the cause/purpose distinction; analogy is restricted to choosing a grammatical function rather than translating.",
+    "target_quote": "coreSummary: 'Ser means \"to be\" in the identity/characteristics sense (see Ser vs. Estar), and it is one of only a handful of fully irregular Spanish verbs: soy, eres, es bear no resemblance to a regular -er verb\\'s endings within a suppletive paradigm with roots such as s-, er- and fu-. The table below is the complete paradigm, transcribed from the Real Academia Española: the five simple indicative tenses and their five compound counterparts, all three subjunctives (present, imperfect fuera/fuese, and the near-extinct future fuere) plus their compounds, affirmative and negative commands, and the non-finite forms ser, siendo, sido.',",
+    "source_article_sha256": "9ac60999416eb202f30a8cf663d53d2e9bcc1151527582c5b367500fe6d9de98",
+    "target_article_sha256": "932730bb8d626092d7928219eb1613f20f3e57aa6f61a8cf5a76ee636a1e6ed6",
+    "source_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-lingo-integration/src/data/guides.ts",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-lingo-integration/src/data/guides.ts",
+    "provenance": "manual final current-target assertion comparison, with literal support below"
+  },
+  {
+    "index": 2,
+    "sentence": "And if por vs. para is next on your list of mixed-up pairs, [that one works on a similar logic](/por-vs-para/): stop translating \"for\" and ask what job the word is doing.",
+    "target_slug": "por-vs-para",
+    "verdict": "CONFIRMED",
+    "note": "Target explicitly supplies the referenced irregular forms or the cause/purpose distinction; analogy is restricted to choosing a grammatical function rather than translating.",
+    "target_quote": "coreSummary: 'Para marks purpose, destination, deadline, or recipient: the thing an action is aimed at. Por marks cause, means, duration, exchange, or motion through a place: the thing an action moves through or comes from. Both can translate as English \"for,\" which is exactly why the English translation is the wrong tool for choosing between them.',",
+    "source_article_sha256": "9ac60999416eb202f30a8cf663d53d2e9bcc1151527582c5b367500fe6d9de98",
+    "target_article_sha256": "ec140a3b8e7f8776c9784ef43c1f90c52c344e66e52d60bb7237c1d6c3e75863",
+    "source_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-lingo-integration/src/data/guides.ts",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-lingo-integration/src/data/guides.ts",
+    "provenance": "manual final current-target assertion comparison, with literal support below"
+  }
+]

@@ -1,0 +1,15 @@
+[
+  {
+    "index": 1,
+    "sentence": "That distinction matters for the same reason it matters in the [irregular preterite verbs](/irregular-preterite-verbs-spanish/): the preterite has families that swap in a new stem and share a core ending pattern, with -eron for the third-person plural of j-stem verbs, while the imperfect has almost none of that.",
+    "target_slug": "irregular-preterite-verbs-spanish",
+    "verdict": "CONFIRMED",
+    "note": "Target documents changed preterite stems, shared ending family and j-stem -eron; comparison does not assert all irregular paradigms identical.",
+    "target_quote": "'Notice there\\'s no accent on estuve or estuvo, unlike a regular -ar preterite like hablé or habló. Estuve and estuvo stress the penultimate syllable and end in a vowel, so the general spelling rule leaves them without a tilde. Hablé and habló stress the final syllable and end in a vowel, which requires a tilde. The endings themselves, for every one of these irregular stems, still closely echo the [regular -er/-ir preterite set](/spanish-preterite-endings/), with -e and -o in place of -í and -ió for yo and él. The j-stem verbs finish their ellos/ellas/ustedes forms in -eron, omitting the i of -ieron.',",
+    "source_article_sha256": "22ae95115e42f6cd9cd558912a84ad8436c3a2e71f1bebb6a8a7d6126871d9d6",
+    "target_article_sha256": "14cf971f72f268535cb304759a1ef877d398f8a4f0487e038811b2b30b47ff3c",
+    "source_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-lingo-integration/src/data/guides.ts",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-lingo-integration/src/data/guides.ts",
+    "provenance": "manual final current-target assertion comparison, with literal support below"
+  }
+]

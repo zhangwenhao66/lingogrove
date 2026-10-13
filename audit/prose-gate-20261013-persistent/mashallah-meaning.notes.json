@@ -1,0 +1,15 @@
+[
+  {
+    "index": 1,
+    "sentence": "Mashallah and [inshallah](/inshallah-meaning/) contain the same verb, shāʾa.",
+    "target_slug": "inshallah-meaning",
+    "verdict": "CONFIRMED",
+    "note": "Target parses in shāʾa llāh using shāʾa; shared verb only.",
+    "target_quote": "'Inshallah is built from three separate Arabic words, not one. إن (in) is a conditional particle meaning \"if.\" شاء (shāʾa) is a past-tense verb meaning \"he willed\" or \"he wished.\" الله (Allāh) is simply the Arabic word for God, used by Arabic-speaking Muslims, Christians, and Jews alike. Strung together, in shāʾa Allāh reads literally as \"if God has willed [it],\" which English renderings soften to \"God willing\" or \"if God wills.\" Wiktionary\\'s entry for the phrase preserves exactly this three-part structure rather than treating it as a single fused word. The related phrase [mashallah](/mashallah-meaning/) is built on the same verb but means \"God has willed it,\" not \"God willing.\"',",
+    "source_article_sha256": "05462c76436e9ef1a5e33d3f3a51dff4e18fed8592880503f2a737c5087ab307",
+    "target_article_sha256": "bee212f23cec9f6d6760ac9584c03287b576d12a1aa8ae483e46f65b1ec57814",
+    "source_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-lingo-integration/src/data/guides.ts",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-lingo-integration/src/data/guides.ts",
+    "provenance": "manual final current-target assertion comparison, with literal support below"
+  }
+]

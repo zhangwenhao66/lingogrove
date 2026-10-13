@@ -1,0 +1,28 @@
+[
+  {
+    "index": 1,
+    "sentence": "Once the celebration is over, the two other everyday phrases worth having on hand are [good night in Spanish](/good-night-in-spanish/) and the different registers behind [saying \"I love you\" in Spanish](/i-love-you-in-spanish/), both of which come with the same kind of nuance that a direct translation misses.",
+    "target_slug": "good-night-in-spanish",
+    "verdict": "CONFIRMED",
+    "note": "Target documents greeting/farewell uses or te quiero/te amo registers; comparison is only that literal translations omit pragmatic nuance.",
+    "target_quote": "answer: 'Context does the work: if someone says it as you\\'re arriving, they\\'re greeting you; if they say it as you or they are leaving, it\\'s a farewell. The phrase itself doesn\\'t distinguish the two the way English splits \"good evening\" (hello) from \"good night\" (goodbye).',",
+    "source_article_sha256": "21c579c45de643ee658710e149ab44b6102b5b0138b3cbb0743ca38a42931ab0",
+    "target_article_sha256": "61e99db9f470a223a41fac2c158734df4a518eec79911f0a41f26c190e9c78ea",
+    "source_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-lingo-integration/src/data/guides.ts",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-lingo-integration/src/data/guides.ts",
+    "provenance": "manual final current-target assertion comparison, with literal support below"
+  },
+  {
+    "index": 2,
+    "sentence": "Once the celebration is over, the two other everyday phrases worth having on hand are [good night in Spanish](/good-night-in-spanish/) and the different registers behind [saying \"I love you\" in Spanish](/i-love-you-in-spanish/), both of which come with the same kind of nuance that a direct translation misses.",
+    "target_slug": "i-love-you-in-spanish",
+    "verdict": "CONFIRMED",
+    "note": "Target documents greeting/farewell uses or te quiero/te amo registers; comparison is only that literal translations omit pragmatic nuance.",
+    "target_quote": "'Spanish has two common verbs that can both be translated \"to love\": *querer* (whose core meaning is closer to \"to want\" or \"to care for\") and *amar* (a more elevated, specifically love-focused verb). *Te quiero* and *te amo* (\"I love/want you\" and \"I love you,\" respectively) pull from those two verbs, and their emotional force can differ in context. The RAE also defines querer as amar, so the meanings overlap.',",
+    "source_article_sha256": "21c579c45de643ee658710e149ab44b6102b5b0138b3cbb0743ca38a42931ab0",
+    "target_article_sha256": "b711199f66560a420b1490a4fd4c4800b020a77edb626c70745a0f7f63e70cae",
+    "source_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-lingo-integration/src/data/guides.ts",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-lingo-integration/src/data/guides.ts",
+    "provenance": "manual final current-target assertion comparison, with literal support below"
+  }
+]

@@ -1,0 +1,15 @@
+[
+  {
+    "index": 1,
+    "sentence": "*Le* and *les* are genuinely ambiguous on their own: *le gusta* could mean \"he likes it,\" \"she likes it,\" or \"you (formal) like it,\" since [Spanish\\'s pronoun system](/spanish-pronouns/) reuses the same third-person indirect object pronoun for all three.",
+    "target_slug": "spanish-pronouns",
+    "verdict": "CONFIRMED",
+    "note": "Current target le/les third-person indirect-object forms include formal usted/es; source singular le can denote him/her/formal you.",
+    "target_quote": "'Direct object pronouns (*me, te, lo, la, nos, os, los, las*) replace whatever receives a verb\\'s action; indirect object pronouns (*me, te, le, nos, os, les*) replace whoever the action is done to or for. The second-edition DPD also accepts le or les as a direct object for grammatically masculine persons; it is more common in the singular. Courtesy leísmo referring to usted is accepted, including female addressees, especially in fixed greetings. These exceptions do not license le for inanimate direct objects. Every person except the third shares identical forms between the two sets, which means nearly all of the real complexity sits in *lo/la* versus *le/les*, and in what happens when both show up in the same sentence, as in *se lo doy* rather than the ungrammatical *le lo doy*. The indirect set is also what [verbs like gustar](/verbs-like-gustar/) use for the person, since the thing liked is the grammatical subject.',",
+    "source_article_sha256": "c9844c83483db90418fe542f3d3a12c0d92dd5248b6c9efd030d12e92e790092",
+    "target_article_sha256": "7c116d19f9ffdd4a89402a0943da5b6c32eeb3029c4252e821fcb60a9037ad37",
+    "source_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-lingo-integration/src/data/guides.ts",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-lingo-integration/src/data/guides.ts",
+    "provenance": "manual final current-target assertion comparison, with literal support below"
+  }
+]

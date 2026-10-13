@@ -1,0 +1,15 @@
+[
+  {
+    "index": 1,
+    "sentence": "They never precede a noun, never change for number, and never take a written accent, unlike their gendered counterparts, which historically could carry one as pronouns before [the 2010 spelling reform dropped that requirement](/spanish-accent-marks/).",
+    "target_slug": "spanish-accent-marks",
+    "verdict": "CONFIRMED",
+    "note": "Target discusses the 2010 removal of an obligatory demonstrative-pronoun tilde and current ambiguity option; historical assertion only.",
+    "target_quote": "\"For decades, style guides taught sólo (the adverb meaning \\\"only\\\") as requiring a diacritical tilde whenever a sentence was genuinely ambiguous with solo the adjective (\\\"alone\\\"): for instance, ¿Trabajas sólo los lunes? (\\\"Do you work only on Mondays?\\\" versus \\\"Do you work alone on Mondays?\\\"). The same held for éste/ésta/aquél as the accented forms of the demonstrative pronouns in equally ambiguous contexts, versus their unaccented adjective counterparts. Even under RAE's pre-2010 rules, dating back to 1959, the tilde had already been optional wherever no real ambiguity existed; the 2010 Ortografía de la lengua española went further and dropped the requirement even in those genuinely ambiguous cases. Per the Academia's own explanatory notice on the change, both solo and the demonstrative pronouns este, ese, and aquel (with their feminine and plural forms) are now written without a tilde as the standard, RAE-endorsed practice: the accent is optional in genuinely ambiguous cases, never required.\",",
+    "source_article_sha256": "32849da71545fd1e1f80aefa6f64716bcfa879417d01b0628da2d66c48dca826",
+    "target_article_sha256": "a426fd92d0818956fbf2401a2adf1c738261df05ed55209c4b17648a5075f237",
+    "source_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-lingo-integration/src/data/guides.ts",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-lingo-integration/src/data/guides.ts",
+    "provenance": "manual final current-target assertion comparison, with literal support below"
+  }
+]

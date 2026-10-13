@@ -1,0 +1,28 @@
+[
+  {
+    "index": 1,
+    "sentence": "It sits in the same category as words like [déjà vu](/deja-vu-meaning/) and [senpai](/senpai-meaning/), borrowed expressions English uses in their original form.",
+    "target_slug": "deja-vu-meaning",
+    "verdict": "CONFIRMED",
+    "note": "Target supports an expression borrowed into English with original spelling; no claim that English lacks alternatives or preserves every source-language sense.",
+    "target_quote": "coreSummary: 'In English, \"déjà vu\" can name the eerie feeling of having already experienced a new situation. Merriam-Webster also records an overly or unpleasantly familiar repetition. French dictionaries cover the memory illusion and an everyday criticism of something banal or unoriginal.',",
+    "source_article_sha256": "93a98041f01322a9f1f04cd7b381526d002ac2f1d44b9ec174ed9cc9645bd2b7",
+    "target_article_sha256": "5743c32ad01aa3309cf17d544b72ce9e094a4d127525502a315624fbe5ee390a",
+    "source_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-lingo-integration/src/data/guides.ts",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-lingo-integration/src/data/guides.ts",
+    "provenance": "manual final current-target assertion comparison, with literal support below"
+  },
+  {
+    "index": 2,
+    "sentence": "It sits in the same category as words like [déjà vu](/deja-vu-meaning/) and [senpai](/senpai-meaning/), borrowed expressions English uses in their original form.",
+    "target_slug": "senpai-meaning",
+    "verdict": "CONFIRMED",
+    "note": "Target supports an expression borrowed into English with original spelling; no claim that English lacks alternatives or preserves every source-language sense.",
+    "target_quote": "'先輩 is written with two characters. 先 (*sen*) means \"before, ahead, previous.\" It\\'s the same character used in words like *saki* (先, \"ahead\" or \"the future,\" depending on context). 輩 (*hai*, here read *pai*) means \"fellow, companion, people of the same group.\" It shows up in words for peer groups and generations. The institutional sense is close to \"one of us who came before.\" Daijisen also includes seniority in age, standing, experience or skill; the word is not limited to membership in the same group. The Japanese-English dictionary Jisho glosses it as \"senior (at school, work, etc.); superior; elder; older person; predecessor.\"',",
+    "source_article_sha256": "93a98041f01322a9f1f04cd7b381526d002ac2f1d44b9ec174ed9cc9645bd2b7",
+    "target_article_sha256": "be4c6144453fe3728062d5e99319080c2131387166764bcffdff3486279d0450",
+    "source_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-lingo-integration/src/data/guides.ts",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-lingo-integration/src/data/guides.ts",
+    "provenance": "manual final current-target assertion comparison, with literal support below"
+  }
+]

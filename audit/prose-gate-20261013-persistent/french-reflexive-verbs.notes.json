@@ -1,0 +1,15 @@
+[
+  {
+    "index": 1,
+    "sentence": "The se pronoun stays attached to the conjugated verb the same way any object pronoun does, and ne...pas simply sandwiches the pair, following the same [word order rules](/french-negation/) that apply to every other negated verb: elle ne se lave pas, ils ne se sont pas téléphoné.",
+    "target_slug": "french-negation",
+    "verdict": "CONFIRMED",
+    "note": "Current target gives ne before finite verb/clitic group and pas after finite auxiliary; examples elle ne se lave pas/ils ne se sont pas téléphoné align.",
+    "target_quote": "coreSummary: 'French negation is built from two parts, ne plus a second negative word (pas, jamais, plus, rien, personne, aucun, nulle part, ni), that sandwich the conjugated verb: Je ne sais pas. In compound tenses and before infinitives, most of those second words keep hugging the auxiliary or infinitive the same way pas does, but per the Office québécois de la langue française, personne, nulle part, and aucun break that pattern and follow the past participle or infinitive when used as complements. A negative subject instead precedes the verb: Personne n’est venu. Ne...que is a separate structure entirely, a restriction meaning \"only\" rather than a true negation, and its que half moves to sit directly in front of whatever it restricts, not staying fixed after the verb.',",
+    "source_article_sha256": "b36b4718b720264dfeddbebca70723ce2d407a04db0445cf3d72dba1d58342ca",
+    "target_article_sha256": "5c312bb874d659fcf03b2e24e388a0412d2dd33a529bf0939bc6c2cbd215c93e",
+    "source_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-lingo-integration/src/data/guides.ts",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-lingo-integration/src/data/guides.ts",
+    "provenance": "manual final current-target assertion comparison, with literal support below"
+  }
+]

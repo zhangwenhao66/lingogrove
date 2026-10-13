@@ -1,0 +1,18 @@
+[
+  {
+    "index": 1,
+    "sentence": "It sits in the same family of Spanish endearment vocabulary as [mamacita](/mamacita-meaning/), whose Wiktionary entry lists affectionate and slang senses.",
+    "target_slug": "mamacita-meaning",
+    "verdict": "CONFIRMED",
+    "note": "Target documents affectionate and slang mamacita senses via Wiktionary; comparison is restricted to endearment vocabulary.",
+    "target_quote": "'Wiktionary\\'s entry for the Spanish suffix -cito describes it as an alternative form of -ito, \"added to masculine words and names to denote a diminutive form,\" used especially \"with words ending in a consonant or a vowel other than -o,\" and, unlike -ito, one that \"does not delete the final vowel\" of the word it attaches to. The feminine counterpart, -cita, works the same way. In mamacita, -cita follows mamá, giving mamá + -cita = mamacita, \"little mama.\" The masculine parallel is exact: Wiktionary\\'s entry for papacito glosses it simply as \"diminutive of papá; daddy,\" built from the identical papá + -cito pattern. Spanish builds a comparable family term the opposite direction, by contraction rather than suffixing: [mijo](/mijo-meaning/) squeezes mi hijo, \"my son,\" into one word used to address a child or close friend, an entirely separate history from the identically spelled word for a cereal grain.',",
+    "source_article_sha256": "f0ff612663576a3b7792726cdb96ce01beb4eb08a80b68d4e3b85d02481f4b80",
+    "target_article_sha256": "503616f4fe3a16776343fd9149b98fb88f334dd160acb4537f13ba9fddf577be",
+    "source_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-lingo-integration/src/data/guides.ts",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-lingo-integration/src/data/guides.ts",
+    "provenance": "manual final current-target assertion comparison, with literal support below",
+    "additional_target_body_support_quotes": [
+      "'Wiktionary\\'s Spanish-language entry for mamacita doesn\\'t treat this as one meaning with a loose figurative extension; it lists two separate senses. The first is simply \"diminutive of mamá,\" unmarked for region or register, the ordinary affectionate word a child might use for their mother. The second is labeled \"(Latin America, slang) babe, hottie (sexually attractive woman),\" geographically restricted in a way the first sense isn\\'t.',"
+    ]
+  }
+]

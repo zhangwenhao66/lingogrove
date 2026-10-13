@@ -1,0 +1,15 @@
+[
+  {
+    "index": 1,
+    "sentence": "\"She would visit every summer\" describes a repeated past habit, which French renders with the imperfect (elle rendait visite chaque été), not the conditional, despite the English wording looking identical to a hypothetical \"would.\" The hypothetical and future-of-the-past senses of \"would\" can map onto the conditionnel; the habitual-past sense doesn\\'t, which is the exact same trap [Spanish\\'s own conditional entry describes](/spanish-conditional-tense/) for that language\\'s identical false-friend problem with \"would.\"",
+    "target_slug": "spanish-conditional-tense",
+    "verdict": "CONFIRMED",
+    "note": "Current Spanish conditional target distinguishes hypothetical/future-of-past would from past habitual would rendered imperfect; exact restricted false-friend comparison.",
+    "target_quote": "'English \"would\" is genuinely ambiguous, and that ambiguity is exactly what trips up learners translating into Spanish. \"She would visit every summer\" describes a repeated habit in the past (no hypothesis involved, nothing conditional about it), and that sentence takes the Spanish imperfect: *visitaba cada verano*. \"She would visit if she had the time\" is a hypothetical conditional, contingent on having the time, and that one takes the conditional: *visitaría si tuviera tiempo*. These examples illustrate one contrast, without exhausting the uses of *cantaría, visitaría,* and *comería*. For the first, plain habitual \"would,\" Spanish wants [the imperfect](/preterite-vs-imperfect/) instead. For this plain past habit, visitaba gives the intended meaning; visitaría would invite a conditional or future-from-past reading instead.',",
+    "source_article_sha256": "117c5737f21a80b2d2c10362b4fd7df59b8170dd497adde5ee2db6c2bfebd23a",
+    "target_article_sha256": "8b6c30691027d115f07ef92be9cc00312d8c969028e552ea9a43104d621ac378",
+    "source_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-lingo-integration/src/data/guides.ts",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-lingo-integration/src/data/guides.ts",
+    "provenance": "manual final current-target assertion comparison, with literal support below"
+  }
+]

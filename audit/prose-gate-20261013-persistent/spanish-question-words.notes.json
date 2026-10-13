@@ -1,0 +1,15 @@
+[
+  {
+    "index": 1,
+    "sentence": "The broader logic behind that cause-versus-purpose split, and how the same distinction shows up outside questions entirely, is covered in the [por vs. para guide](/por-vs-para/).",
+    "target_slug": "por-vs-para",
+    "verdict": "CONFIRMED",
+    "note": "Target distinguishes cause por and goal para, supporting the causal/purpose question contrast.",
+    "target_quote": "coreSummary: 'Para marks purpose, destination, deadline, or recipient: the thing an action is aimed at. Por marks cause, means, duration, exchange, or motion through a place: the thing an action moves through or comes from. Both can translate as English \"for,\" which is exactly why the English translation is the wrong tool for choosing between them.',",
+    "source_article_sha256": "1abb5e1f35fd4bb6e476a63fed40498354ac739e8ebfaa7e58ff55537acac2c1",
+    "target_article_sha256": "ec140a3b8e7f8776c9784ef43c1f90c52c344e66e52d60bb7237c1d6c3e75863",
+    "source_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-lingo-integration/src/data/guides.ts",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-lingo-integration/src/data/guides.ts",
+    "provenance": "manual final current-target assertion comparison, with literal support below"
+  }
+]

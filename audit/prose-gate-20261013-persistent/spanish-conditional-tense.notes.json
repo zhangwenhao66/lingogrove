@@ -1,0 +1,15 @@
+[
+  {
+    "index": 1,
+    "sentence": "Nothing about the ending changes depending on conjugation class, the same trait [the simple future tense](/spanish-future-tense/) has.",
+    "target_slug": "spanish-future-tense",
+    "verdict": "CONFIRMED",
+    "note": "Current future target uses one shared six-person ending family across infinitive classes; bridge concerns endings, not identical stems.",
+    "target_quote": "'Once the stem is settled, the endings are identical to any regular verb\\'s: *tener* becomes *tendré, tendrás, tendrá, tendremos, tendréis, tendrán*. Ser, otherwise one of Spanish\\'s most irregular verbs, isn\\'t on this list at all; [its future tense conjugates entirely regularly](/ser-conjugation/): *seré, serás, será, seremos, seréis, serán*.',",
+    "source_article_sha256": "8b6c30691027d115f07ef92be9cc00312d8c969028e552ea9a43104d621ac378",
+    "target_article_sha256": "8e3a040be8a3d469e43e61775b9cb1f5cf558727855d0296235991232ca17a1b",
+    "source_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-lingo-integration/src/data/guides.ts",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-lingo-integration/src/data/guides.ts",
+    "provenance": "manual final current-target assertion comparison, with literal support below"
+  }
+]

@@ -1,0 +1,28 @@
+[
+  {
+    "index": 1,
+    "sentence": "Spanish draws a comparably sharp, easy-to-miss line among its own small connecting words, too: [Spanish conjunctions](/spanish-conjunctions/) covers why pero and sino aren\\'t interchangeable translations of \"but,\" a distinction English collapses into one word the same way it collapses por and para into \"for.\"",
+    "target_slug": "spanish-conjunctions",
+    "verdict": "CONFIRMED",
+    "note": "Comparison concerns two Spanish distinctions hidden by one English translation, not identical grammatical mechanisms.",
+    "target_quote": "'Spanish\\'s core conjunctions read like a short list: y (and), o (or), pero and sino (both \"but\"), ni (nor), and aunque (although, even though). Memorizing what each one means in isolation takes a few minutes. What trips up English speakers is that two of these words don\\'t behave the way their English translations suggest at all — y and o physically change shape depending on the sound that follows them, and pero and sino aren\\'t interchangeable synonyms for \"but,\" they make different claims about the sentence around them.',",
+    "source_article_sha256": "ec140a3b8e7f8776c9784ef43c1f90c52c344e66e52d60bb7237c1d6c3e75863",
+    "target_article_sha256": "31e82d37cdee0f4093dcc782b76d51fd89bc1ca096edfce793b274b8e4157eb0",
+    "source_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-lingo-integration/src/data/guides.ts",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-lingo-integration/src/data/guides.ts",
+    "provenance": "manual final current-target assertion comparison, with literal support below"
+  },
+  {
+    "index": 2,
+    "sentence": "Por and para aren\\'t the only pair of Spanish words that collapse into one option in English: [ser and estar](/ser-vs-estar/) both translate as \"to be,\" and the logic for telling them apart works the same way this one does.",
+    "target_slug": "ser-vs-estar",
+    "verdict": "CONFIRMED",
+    "note": "Comparison concerns two Spanish distinctions hidden by one English translation, not identical grammatical mechanisms.",
+    "target_quote": "coreSummary: 'Ser identifies and defines: identity, origin, inherent characteristics, time, and material. Estar locates and describes a state: location, condition, and the result of a change. The common shorthand \"ser is permanent, estar is temporary\" breaks down often enough (someone can be permanently dead and use estar, or be only briefly a student and use ser) that it\\'s more reliable to ask whether the sentence is defining the subject or reporting its current condition.',",
+    "source_article_sha256": "ec140a3b8e7f8776c9784ef43c1f90c52c344e66e52d60bb7237c1d6c3e75863",
+    "target_article_sha256": "9ac60999416eb202f30a8cf663d53d2e9bcc1151527582c5b367500fe6d9de98",
+    "source_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-lingo-integration/src/data/guides.ts",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-lingo-integration/src/data/guides.ts",
+    "provenance": "manual final current-target assertion comparison, with literal support below"
+  }
+]

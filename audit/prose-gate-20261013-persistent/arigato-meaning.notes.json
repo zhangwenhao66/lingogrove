@@ -1,0 +1,19 @@
+[
+  {
+    "index": 1,
+    "sentence": "Japanese farewells hide a similar gap between literal pieces and everyday translation: [sayonara](/sayonara-meaning/) is glossed as a simple \"goodbye,\" but its literal sense is closer to \"if that\\'s how it is.\" It can sound final in some settings, but is also used for ordinary classroom departures.",
+    "target_slug": "sayonara-meaning",
+    "verdict": "CONFIRMED",
+    "note": "Target gives literal conditional derivation and ordinary classroom use alongside possible finality; narrow translation gap comparison.",
+    "target_quote": "'Routine classroom use provides a counterexample to the claim that sayonara always implies permanent separation. At the end of a volunteer Japanese-language class in the education ministry\\'s handbook, participants say sayonara and mata, raishuu (\"see you next week\"). This class farewell is ordinary and recurring; in a different setting, the same word may sound formal or final.',",
+    "source_article_sha256": "03e2d700d60fe5bde0c6cbd50974cf0786f4fea36aebdf716c3d5c9965085586",
+    "target_article_sha256": "37afd23c18c72b8f259c53480f39fa81b4030d7b39120a233098d590e2708cac",
+    "source_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-lingo-integration/src/data/guides.ts",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-lingo-integration/src/data/guides.ts",
+    "provenance": "manual final current-target assertion comparison, with literal support below",
+    "additional_target_body_support_quotes": [
+      "'Sayonara is an alteration of the Japanese sayō naraba, where sayō means \"thus\" or \"that way\" and naraba means \"if it be.\" Put together, the phrase literally says something closer to \"if that\\'s how it is\" or \"if it must be so\" than to a dedicated word for \"goodbye.\" Etymonline, Dictionary.com, and Wiktionary all converge on this same breakdown, and Wiktionary\\'s Japanese entry gives the fuller, more traditional form as さようなら (sayōnara), with さよなら (sayonara) as the shorter, less formal variant that most learners encounter first.',",
+      "'Routine classroom use provides a counterexample to the claim that sayonara always implies permanent separation. At the end of a volunteer Japanese-language class in the education ministry\\'s handbook, participants say sayonara and mata, raishuu (\"see you next week\"). This class farewell is ordinary and recurring; in a different setting, the same word may sound formal or final.',"
+    ]
+  }
+]

@@ -1,0 +1,15 @@
+[
+  {
+    "index": 1,
+    "sentence": "It\\'s the same lesson [Spanish prepositions](/spanish-prepositions/) teach about a different word class: the short list is the easy part, and the real rules only show up once you start putting the words to work in a sentence.",
+    "target_slug": "spanish-prepositions",
+    "verdict": "CONFIRMED",
+    "note": "Target discusses preposition usage beyond memorizing its inventory; analogy concerns a learning task, not interchangeable word classes.",
+    "target_quote": "coreSummary: 'Spanish has a set of common prepositions, including de, en, and a, which express relationships in many everyday sentences. Personal a has no English equivalent and depends on the object and the verb, with personal specificity playing an important role. Verbs like pensar, soñar, depender, and consistir pair with a fixed preposition that rarely matches the one the English verb takes, only a+el (al) and de+el (del) contract, and hasta can reverse its own meaning in Mexican and Central American Spanish depending on the verb it modifies.',",
+    "source_article_sha256": "31e82d37cdee0f4093dcc782b76d51fd89bc1ca096edfce793b274b8e4157eb0",
+    "target_article_sha256": "c6b6194f865b2628c359e7fe5e6431b474332b0986a9ad28aca2cadce7d82694",
+    "source_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-lingo-integration/src/data/guides.ts",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-lingo-integration/src/data/guides.ts",
+    "provenance": "manual final current-target assertion comparison, with literal support below"
+  }
+]

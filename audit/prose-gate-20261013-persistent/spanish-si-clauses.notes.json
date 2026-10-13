@@ -1,0 +1,12 @@
+[
+  {
+    "index": 1,
+    "sentence": "The [French conditional guide](/french-conditional/) illustrates similar common patterns: an imperfect indicative condition with a conditional-present result, or a pluperfect indicative condition with a present or past conditional result.",
+    "target_slug": "french-conditional",
+    "verdict": "CONFIRMED",
+    "note": "Actual entire current source and ALL FAQ plus current complete target body/ALL FAQ read. Narrow comparison concerns illustrative conditional patterns, or specifically imperfect/pluperfect older subjunctive; no exhaustive chronology or claim that ordinary past subjunctive is literary. Independent primary OQLF24140 fullmain and OQLF24236/24237 fullmain read; RAE GTGsubj4–28 confirms known-fact uses.",
+    "target_quote": "'The OQLF gives common hypothetical patterns in which the verb directly governed by conditional si is indicative present or past, rather than future or conditional. These are useful models, not an exhaustive list of every combination. Si + present can pair with a future-tense consequence (si Mélanie oublie mon anniversaire, je lui pardonnerai). Si + imperfect pairs with a conditional-present consequence describing something that could still happen (si Mélanie oubliait mon anniversaire, je lui pardonnerais, not si Mélanie oublierait). Si + pluperfect can pair with a conditional present for a current hypothetical result, or with a conditional past for an unreal past result (si tu avais été attentif, je n\\'aurais pas eu besoin de répéter).',",
+    "source_sha256": "b578a0c80f6f3e0e32b99fc8733412170cb2324964d4f6042ef3210e8179026b",
+    "target_sha256": "117c5737f21a80b2d2c10362b4fd7df59b8170dd497adde5ee2db6c2bfebd23a"
+  }
+]

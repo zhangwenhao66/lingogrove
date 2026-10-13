@@ -1,0 +1,15 @@
+[
+  {
+    "index": 1,
+    "sentence": "The endings themselves, for every one of these irregular stems, still closely echo the [regular -er/-ir preterite set](/spanish-preterite-endings/), with -e and -o in place of -í and -ió for yo and él.",
+    "target_slug": "spanish-preterite-endings",
+    "verdict": "CONFIRMED",
+    "note": "Target lists the regular -er/-ir endings; source explicitly qualifies the irregular substitution in yo/él and its own j-stem exceptions.",
+    "target_quote": "answer: 'For -ar verbs, the six endings run -é (yo), -aste (tú), -ó (él/ella), -amos (nosotros), -asteis (vosotros), and -aron (ellos), giving forms like hablé and hablamos. -Er and -ir verbs, by contrast, use one shared set: -í for yo, -iste for tú, -ió for él/ella, -imos for nosotros, -isteis for vosotros, -ieron for ellos (comí/viví, comiste/viviste, comió/vivió, comimos/vivimos, comisteis/vivisteis, comieron/vivieron).',",
+    "source_article_sha256": "14cf971f72f268535cb304759a1ef877d398f8a4f0487e038811b2b30b47ff3c",
+    "target_article_sha256": "bcaa77a701a5e57f02becc86899c92c929258cc36f9daa180406ab263cd039b8",
+    "source_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-lingo-integration/src/data/guides.ts",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-lingo-integration/src/data/guides.ts",
+    "provenance": "manual final current-target assertion comparison, with literal support below"
+  }
+]

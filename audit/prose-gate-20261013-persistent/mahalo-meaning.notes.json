@@ -1,0 +1,15 @@
+[
+  {
+    "index": 1,
+    "sentence": "There is a second, separate Polynesian root that happens to look almost identical: *masalo at the older Central Pacific level, glossed \"think about, consider, suspect.\" POLLEX records this one in East Futuna (masalo, \"think, be of the opinion that\") and East Uvea, whose reflex is spelled mahalo, identical to the Hawaiian word, but glossed \"to think, presume, suspect, conjecture.\" That East Uvea mahalo and the Hawaiian mahalo this article is about are not the same word reaching two islands; they\\'re two different Proto-Polynesian roots that happened to converge on the same modern spelling, one meaning \"admire\" and the other \"suspect.\" English-facing tourist use commonly glosses mahalo as \"thanks.\" Another borrowed word, [schadenfreude](/schadenfreude-meaning/), names pleasure at another person\\'s misfortune.",
+    "target_slug": "schadenfreude-meaning",
+    "verdict": "CONFIRMED",
+    "note": "Target defines pleasure at another’s misfortune. No shared etymology or same lexical meaning is asserted.",
+    "target_quote": "coreSummary: 'Schadenfreude is a German compound noun (Schaden, \"harm, damage,\" plus Freude, \"joy\") meaning pleasure taken in someone else\\'s misfortune. Duden, the standard German dictionary, defines it as \"boshafte Freude über das Missgeschick, Unglück eines andern\" (\"malicious joy at another\\'s mishap or misfortune\"), while the corpus-based dictionary DWDS gives a more neutral phrasing without the \"malicious\" qualifier. English uses the German borrowing. Definitions of related English words do not, by themselves, establish why it was borrowed.',",
+    "source_article_sha256": "d57cfa86c09d41866d8ff622e76ab182b31777e787a6615ebb40539b70cbb891",
+    "target_article_sha256": "93a98041f01322a9f1f04cd7b381526d002ac2f1d44b9ec174ed9cc9645bd2b7",
+    "source_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-lingo-integration/src/data/guides.ts",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-lingo-integration/src/data/guides.ts",
+    "provenance": "manual final current-target assertion comparison, with literal support below"
+  }
+]

@@ -1,0 +1,15 @@
+[
+  {
+    "index": 1,
+    "sentence": "Wehewehe.org, which hosts the Pukui & Elbert Hawaiian Dictionary, the same standard reference cited for [mahalo](/mahalo-meaning/), defines ʻohana plainly: \"family, relative, kin group; related.\" The entry also lists two compounds, ʻohana holoʻokoʻa and ʻohana nui, both used for an extended family or clan rather than an immediate household.",
+    "target_slug": "mahalo-meaning",
+    "verdict": "CONFIRMED",
+    "note": "Target cites Pukui and Elbert hosted at Wehewehe as a dictionary source; shared reference only, not same etymology.",
+    "target_quote": "'The Pukui & Elbert Hawaiian Dictionary, compiled by Mary Kawena Pukui and Samuel H. Elbert and still the field\\'s standard reference, lists mahalo as a noun and transitive verb (nvt.) with two senses under one entry. The first is thanks or gratitude, and to thank: mahalo nui loa, \"thanks very much\"; ʻōlelo mahalo, \"compliment\"; mahalo ā nui, another way of saying \"thanks very much.\" The second is admiration, praise, esteem, regards, or respects, and to admire, praise, or appreciate, illustrated in the dictionary with ʻo wau nō me ka mahalo (\"I am, [yours] respectfully\") and its own worked example ka mea i mahalo ʻia, Mr. Pākī, glossed \"the esteemed Mr. Pākī.\"',",
+    "source_article_sha256": "55f4b39845fa0f13d68e2feae8de06a282c0d2c26d4c223bbbf77a6be19b8557",
+    "target_article_sha256": "d57cfa86c09d41866d8ff622e76ab182b31777e787a6615ebb40539b70cbb891",
+    "source_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-lingo-integration/src/data/guides.ts",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-lingo-integration/src/data/guides.ts",
+    "provenance": "manual final current-target assertion comparison, with literal support below"
+  }
+]

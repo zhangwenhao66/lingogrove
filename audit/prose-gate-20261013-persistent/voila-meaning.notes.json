@@ -1,0 +1,15 @@
+[
+  {
+    "index": 1,
+    "sentence": "Another Latin expression used in English is [per se](/per-se-meaning/), meaning \"by itself.\" Its guide distinguishes ordinary adverbial uses from specific legal rules; that distinction is not evidence of the same borrowing history as voilà.",
+    "target_slug": "per-se-meaning",
+    "verdict": "CONFIRMED",
+    "note": "Target gives per se by itself and separate legal applications; bridge disclaims proof of equivalent borrowing history.",
+    "target_quote": "'Per se is built from two Latin words: per (\"by,\" \"through\") and sē, the reflexive pronoun for \"itself, himself, herself, themselves.\" Attached to per, sē takes the accusative case, and the pair reads literally as \"by itself.\" That reflexive pronoun has a distant relative already sitting inside English: Etymonline and Wiktionary trace both Latin sē and English self back to the same Proto-Indo-European root, reconstructed as *s(w)e-. The two words didn\\'t arrive in Modern English by the same route, though. Self came through Proto-Germanic *selbaz, while Latin sē turned into a prefix, se- or sed-, buried inside a long list of English words borrowed straight from Latin: secede, seclude, secret, separate, sever.',",
+    "source_article_sha256": "26880508fdb7d5ef057ea5cc736bea00808c31cc20af982f3e79662845dba6ea",
+    "target_article_sha256": "d41cb88b2ad3536018f2f53ff08457562662528a382ef9c83f17febb21f17fcd",
+    "source_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-lingo-integration/src/data/guides.ts",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-lingo-integration/src/data/guides.ts",
+    "provenance": "manual final current-target assertion comparison, with literal support below"
+  }
+]

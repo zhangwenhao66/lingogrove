@@ -1,0 +1,28 @@
+[
+  {
+    "index": 1,
+    "sentence": "The [Spanish present-tense guide](/spanish-present-tense-endings/) discusses a separate concept, a zero tense morpheme; it is not the same distinction as mi versus mí.",
+    "target_slug": "spanish-present-tense-endings",
+    "verdict": "CONFIRMED",
+    "note": "First target zero tense morpheme is explicitly a separate concept. Second target vosotros/vosotras versus ustedes supports the informal/formal plural possessive link; does not rely on unrelated le/les.",
+    "target_quote": "\"Spanish grammar breaks a conjugated verb down into a root and a desinence. In one common analysis, that desinence has three segments: the thematic vowel marking conjugation class, a segment coding tense-aspect-mood, and a segment coding person and number. In a tense like the imperfect, that tense-aspect-mood piece is a real, audible chunk of the word: the -ba in hablaba marks the imperfect, following the thematic vowel -a, as -ré marks future tense in one analysis of hablaré. The present tense doesn't have an equivalent chunk. Real Academia Española's own glossary of grammatical terms describes this analysis using a morfema cero: an unpronounced element representing present tense. This is a grammatical model, not a separate sound that learners must produce.\",",
+    "source_article_sha256": "c31b820a0b1201cb90904c7ee76ffbea39fb7898f06680ba0bc32e97aab5decc",
+    "target_article_sha256": "3ad81990dff19c12ed42eaed2349ea5e54da7520f59e81bcd55b92a8f8928e44",
+    "source_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-lingo-integration/src/data/guides.ts",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-lingo-integration/src/data/guides.ts",
+    "provenance": "manual final current-target assertion comparison, with literal support below"
+  },
+  {
+    "index": 2,
+    "sentence": "Where informal vosotros/vosotras is used alongside formal ustedes, vuestro usually accompanies the informal plural, [covered in full for the subject-pronoun side of this same split](/spanish-pronouns/).",
+    "target_slug": "spanish-pronouns",
+    "verdict": "CONFIRMED",
+    "note": "First target zero tense morpheme is explicitly a separate concept. Second target vosotros/vosotras versus ustedes supports the informal/formal plural possessive link; does not rely on unrelated le/les.",
+    "target_quote": "\"Two splits are worth knowing. First, the plural \\\"you\\\": much of Spain distinguishes informal vosotros/vosotras from formal ustedes. The Canary Islands and parts of Andalusia also use ustedes informally. Most of Spanish America uses ustedes for both registers. Vosotros sois de España can address people from Spain wherever they happen to be; its use depends on the speaker and variety of Spanish, not the location of the conversation.\",",
+    "source_article_sha256": "c31b820a0b1201cb90904c7ee76ffbea39fb7898f06680ba0bc32e97aab5decc",
+    "target_article_sha256": "7c116d19f9ffdd4a89402a0943da5b6c32eeb3029c4252e821fcb60a9037ad37",
+    "source_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-lingo-integration/src/data/guides.ts",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-lingo-integration/src/data/guides.ts",
+    "provenance": "manual final current-target assertion comparison, with literal support below"
+  }
+]

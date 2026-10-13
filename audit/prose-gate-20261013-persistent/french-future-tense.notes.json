@@ -1,0 +1,32 @@
+[
+  {
+    "index": 1,
+    "sentence": "Once the stem is settled, though, every one of these verbs still takes the same six shared endings as *chanter* or *vendre*; nothing about the endings themselves ever changes, in French [any more than it does in Spanish](/spanish-future-tense/).",
+    "target_slug": "spanish-future-tense",
+    "verdict": "CONFIRMED",
+    "note": "Target formation separates stem changes from one six-person ending set; French source does likewise. Complete target body and all FAQ actually read; same-round Spanish future exact-hash read reused from lingo-b9-review/read-map.json.",
+    "target_quote": "'Once the stem is settled, the endings are identical to any regular verb\\'s: *tener* becomes *tendré, tendrás, tendrá, tendremos, tendréis, tendrán*. Ser, otherwise one of Spanish\\'s most irregular verbs, isn\\'t on this list at all; [its future tense conjugates entirely regularly](/ser-conjugation/): *seré, serás, será, seremos, seréis, serán*.',",
+    "source_sha256": "1628da66ddc9acff1a39e94b62cbf043ee96af4757847f0acd864eab8ae304ce",
+    "target_sha256": "8e3a040be8a3d469e43e61775b9cb1f5cf558727855d0296235991232ca17a1b"
+  },
+  {
+    "index": 2,
+    "sentence": "*Aller, avoir,* and *être* are also three of the handful of verbs [whose subjunctive stems break the regular pattern](/french-subjunctive/), though the two irregularities aren\\'t the same shape: *être*\\'s subjunctive stem (*soi-*) and its future stem (*ser-*) come from entirely different places, which the next section explains.",
+    "target_slug": "french-subjunctive",
+    "verdict": "CONFIRMED",
+    "note": "Target lists the irregular subjunctive stems including aller/avoir/être; source distinguishes this from future stems. Complete target body and all FAQ actually read; same-round Spanish future exact-hash read reused from lingo-b9-review/read-map.json.",
+    "target_quote": "'The following ten verbs provide useful irregular examples, rather than an exhaustive inventory: aller, avoir, être, faire, falloir, pleuvoir, pouvoir, savoir, valoir, and vouloir. They don\\'t all break the same way, and sorting them by what actually breaks is more useful than memorizing them as one flat list.',",
+    "source_sha256": "1628da66ddc9acff1a39e94b62cbf043ee96af4757847f0acd864eab8ae304ce",
+    "target_sha256": "ab659f07c195345f3ff2f564b26724b5b5c79b48f15a0085125fb6281cac2932"
+  },
+  {
+    "index": 3,
+    "sentence": "The [Italian future tense](/italian-future-tense/) carries the same conjectural use, where sarà often isn\\'t about the future at all.",
+    "target_slug": "italian-future-tense",
+    "verdict": "CONFIRMED",
+    "note": "Target explicitly glosses present-time epistemic future as probably three, matching the conjectural sarà comparison. Complete target body and all FAQ actually read; same-round Spanish future exact-hash read reused from lingo-b9-review/read-map.json.",
+    "target_quote": "'The tell is almost always context, not grammar: there\\'s no future time marker in the sentence, and the situation being described is something the speaker is uncertain about right now, not later. Asked what time it is with no clock visible, *Saranno le tre* means \"It\\'s probably three,\" not any statement about a future three o\\'clock.',",
+    "source_sha256": "1628da66ddc9acff1a39e94b62cbf043ee96af4757847f0acd864eab8ae304ce",
+    "target_sha256": "128ad5d10e7bf8d7f78acef901da0e3a814eb2a2f6ed98400f534588a35722b0"
+  }
+]

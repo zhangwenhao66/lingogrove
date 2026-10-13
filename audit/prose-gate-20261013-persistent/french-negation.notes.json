@@ -1,0 +1,15 @@
+[
+  {
+    "index": 1,
+    "sentence": "That reduction, including its three real exceptions (a linking être, an implicit contrast, and the restrictive ne...que construction covered above, which keeps the article unchanged because nothing is actually being denied), is covered in full in [the French articles guide](/french-articles/); it\\'s the same negation system this article covers, just reaching one step further into the sentence.",
+    "target_slug": "french-articles",
+    "verdict": "CONFIRMED",
+    "note": "Current article target reduces indefinite/partitive direct-object articles under full negation, with être/contrast/ne…que exceptions; comparison is scoped to those same exceptions.",
+    "target_quote": "'Three situations keep the original article; it doesn\\'t collapse to de, according to the Office québécois de la langue française\\'s grammar reference. The first is the verb être functioning as a linking verb: Ce n\\'est pas un problème (\"That\\'s not a problem\") keeps un rather than shifting to de problème, because être here is asserting or denying an identity, not counting or measuring a quantity of something. The second is a sentence built around an implicit contrast, where the negated noun is being weighed against a different one, not denied outright: Nous n\\'avons pas des reproches à te faire, mais des éloges (\"We don\\'t have criticisms for you, but praise\") and Nicole ne boira pas du vin ce soir, mais de la bière (\"Nicole won\\'t drink wine tonight, but beer\") both keep the original article on the negated side, because the sentence is substituting one thing for another, not claiming zero quantity. The third isn\\'t really negation at all: ne...que restricts a quantity to \"only\" without denying it, and it generally keeps the article unchanged too, per the same OQLF reference. Nous n\\'avons que des compliments à te faire (\"We only have compliments for you\") keeps des without reducing to de, because nothing is actually being denied.',",
+    "source_article_sha256": "5c312bb874d659fcf03b2e24e388a0412d2dd33a529bf0939bc6c2cbd215c93e",
+    "target_article_sha256": "3fe19b50b4e38a136eb7d50ecb2488640bd0fb9928b86b829fdb9f2351378826",
+    "source_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-lingo-integration/src/data/guides.ts",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-lingo-integration/src/data/guides.ts",
+    "provenance": "manual final current-target assertion comparison, with literal support below"
+  }
+]

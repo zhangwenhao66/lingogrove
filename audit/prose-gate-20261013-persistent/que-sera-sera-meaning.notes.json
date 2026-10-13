@@ -1,0 +1,15 @@
+[
+  {
+    "index": 1,
+    "sentence": "[Voilà](/voila-meaning/) supplies another example of an English interjection from French, but its dictionary uses do not establish the same borrowing process or show why que sera sera became popular.",
+    "target_slug": "voila-meaning",
+    "verdict": "CONFIRMED",
+    "note": "Target treats English voilà as interjection; bridge explicitly declines to infer equivalent borrowing processes.",
+    "target_quote": "'By the time it reached Merriam-Webster and Dictionary.com as an English entry, the English dictionaries listed it as an interjection used to call attention to something, to express satisfaction or approval, or to suggest that something has appeared as if by magic, roughly the effect of saying \"here it is,\" \"look at that,\" or \"ta-da\" while presenting or revealing something just finished or shown off. Cambridge Dictionary\\'s pronunciation guide gives the sound as vwah-LAH, with the same \"v\" English speakers use in \"van,\" not a silent or softened one, however often that \"v\" gets lost in practice.',",
+    "source_article_sha256": "fd62f75eb20e69b18aad620493684981ba84f37d2332b186aff7bc0d3d727a7b",
+    "target_article_sha256": "26880508fdb7d5ef057ea5cc736bea00808c31cc20af982f3e79662845dba6ea",
+    "source_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-lingo-integration/src/data/guides.ts",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-lingo-integration/src/data/guides.ts",
+    "provenance": "manual final current-target assertion comparison, with literal support below"
+  }
+]

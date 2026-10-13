@@ -1,0 +1,15 @@
+[
+  {
+    "index": 1,
+    "sentence": "The [Spanish subjunctive](/subjunctive-spanish/) page contrasts quiero salir with quiero que salgas.",
+    "target_slug": "subjunctive-spanish",
+    "verdict": "CONFIRMED",
+    "note": "Current Spanish target contrasts quiero salir and quiero que salgas as examples, without universal subject-change rule.",
+    "target_quote": "'With querer in ordinary desire constructions, a shared subject normally takes an infinitive: *Quiero salir* (I want to leave), not *Quiero que salga*. A different subject can instead be expressed with *que* + subjunctive: *Quiero que salgas* (I want you to leave). That subject contrast is a useful querer pattern, not a condition on every subjunctive clause. The Academy also documents emotion and evaluation predicates with the subjunctive, including reactions to known facts.',",
+    "source_article_sha256": "861efe7a934cce9c068fb07590d74605aa107fa1faa69b9a4e38d48d6231b54a",
+    "target_article_sha256": "2e9c9a7816ede2b2b2c956887e1b09d08104a84ad55f8d28916d0e7fbabd38e3",
+    "source_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-lingo-integration/src/data/guides.ts",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-lingo-integration/src/data/guides.ts",
+    "provenance": "manual final current-target assertion comparison, with literal support below"
+  }
+]

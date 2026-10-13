@@ -1,0 +1,668 @@
+{
+  "repository": "lingogrove",
+  "data_path": "src/data/guides.ts",
+  "data_sha256": "d8393b823018a8ac7ca0fceb16b160f69c901f66853cbc36dd5c637aa8321371",
+  "scripts_sha256": {
+    "check_prose_patterns.py": "839e4077688cbf644f8fbab26c27bcc9a18e8e9c508344cda996b1fa23631a37",
+    "check_bridge_sentences.py": "c6cb21d4d00fdfa46c2dd0106f92b2ded62f9bafb365ff46ab6c8b75c622734e"
+  },
+  "expected": 81,
+  "checked": 81,
+  "unexamined": 0,
+  "failed": 0,
+  "candidate_slugs": 47,
+  "candidate_sentences": 62,
+  "manifest_coverage_matches": true,
+  "stale_manifest_slugs": [],
+  "results": [
+    {
+      "slug": "por-vs-para",
+      "status": "passed",
+      "candidates": 2,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "ser-vs-estar",
+      "status": "passed",
+      "candidates": 2,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "preterite-vs-imperfect",
+      "status": "passed",
+      "candidates": 0,
+      "prose_exit": 0,
+      "bridge_scan_exit": 0,
+      "bridge_verify": "not_required_zero_candidates"
+    },
+    {
+      "slug": "deja-vu-meaning",
+      "status": "passed",
+      "candidates": 0,
+      "prose_exit": 0,
+      "bridge_scan_exit": 0,
+      "bridge_verify": "not_required_zero_candidates"
+    },
+    {
+      "slug": "schadenfreude-meaning",
+      "status": "passed",
+      "candidates": 2,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "senpai-meaning",
+      "status": "passed",
+      "candidates": 0,
+      "prose_exit": 0,
+      "bridge_scan_exit": 0,
+      "bridge_verify": "not_required_zero_candidates"
+    },
+    {
+      "slug": "happy-birthday-in-spanish",
+      "status": "passed",
+      "candidates": 2,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "good-night-in-spanish",
+      "status": "passed",
+      "candidates": 2,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "i-love-you-in-spanish",
+      "status": "passed",
+      "candidates": 0,
+      "prose_exit": 0,
+      "bridge_scan_exit": 0,
+      "bridge_verify": "not_required_zero_candidates"
+    },
+    {
+      "slug": "ser-conjugation",
+      "status": "passed",
+      "candidates": 0,
+      "prose_exit": 0,
+      "bridge_scan_exit": 0,
+      "bridge_verify": "not_required_zero_candidates"
+    },
+    {
+      "slug": "saber-vs-conocer",
+      "status": "passed",
+      "candidates": 2,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "direct-vs-indirect-object-pronouns-spanish",
+      "status": "passed",
+      "candidates": 3,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "spanish-reflexive-verbs",
+      "status": "passed",
+      "candidates": 1,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "spanish-future-tense",
+      "status": "passed",
+      "candidates": 1,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "subjunctive-spanish",
+      "status": "passed",
+      "candidates": 0,
+      "prose_exit": 0,
+      "bridge_scan_exit": 0,
+      "bridge_verify": "not_required_zero_candidates"
+    },
+    {
+      "slug": "spanish-conditional-tense",
+      "status": "passed",
+      "candidates": 1,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "double-object-pronouns-spanish",
+      "status": "passed",
+      "candidates": 1,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "spanish-pronouns",
+      "status": "passed",
+      "candidates": 2,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "spanish-accent-marks",
+      "status": "passed",
+      "candidates": 1,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "french-articles",
+      "status": "passed",
+      "candidates": 0,
+      "prose_exit": 0,
+      "bridge_scan_exit": 0,
+      "bridge_verify": "not_required_zero_candidates"
+    },
+    {
+      "slug": "spanish-possessive-adjectives",
+      "status": "passed",
+      "candidates": 2,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "spanish-demonstrative-adjectives",
+      "status": "passed",
+      "candidates": 1,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "japanese-particles-wa-ga-wo-ni",
+      "status": "passed",
+      "candidates": 1,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "french-imperative",
+      "status": "passed",
+      "candidates": 2,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "french-subjunctive",
+      "status": "passed",
+      "candidates": 2,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "german-adjective-endings",
+      "status": "passed",
+      "candidates": 0,
+      "prose_exit": 0,
+      "bridge_scan_exit": 0,
+      "bridge_verify": "not_required_zero_candidates"
+    },
+    {
+      "slug": "spanish-commands",
+      "status": "passed",
+      "candidates": 0,
+      "prose_exit": 0,
+      "bridge_scan_exit": 0,
+      "bridge_verify": "not_required_zero_candidates"
+    },
+    {
+      "slug": "french-negation",
+      "status": "passed",
+      "candidates": 1,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "spanish-prepositions",
+      "status": "passed",
+      "candidates": 0,
+      "prose_exit": 0,
+      "bridge_scan_exit": 0,
+      "bridge_verify": "not_required_zero_candidates"
+    },
+    {
+      "slug": "german-perfect-tense",
+      "status": "passed",
+      "candidates": 0,
+      "prose_exit": 0,
+      "bridge_scan_exit": 0,
+      "bridge_verify": "not_required_zero_candidates"
+    },
+    {
+      "slug": "habibi-meaning",
+      "status": "passed",
+      "candidates": 0,
+      "prose_exit": 0,
+      "bridge_scan_exit": 0,
+      "bridge_verify": "not_required_zero_candidates"
+    },
+    {
+      "slug": "spanish-verb-tenses-chart",
+      "status": "passed",
+      "candidates": 1,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "inshallah-meaning",
+      "status": "passed",
+      "candidates": 1,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "mashallah-meaning",
+      "status": "passed",
+      "candidates": 1,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "irregular-preterite-verbs-spanish",
+      "status": "passed",
+      "candidates": 1,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "spanish-imperfect-endings",
+      "status": "passed",
+      "candidates": 1,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "french-pronouns",
+      "status": "passed",
+      "candidates": 0,
+      "prose_exit": 0,
+      "bridge_scan_exit": 0,
+      "bridge_verify": "not_required_zero_candidates"
+    },
+    {
+      "slug": "spanish-question-words",
+      "status": "passed",
+      "candidates": 1,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "italian-future-tense",
+      "status": "passed",
+      "candidates": 0,
+      "prose_exit": 0,
+      "bridge_scan_exit": 0,
+      "bridge_verify": "not_required_zero_candidates"
+    },
+    {
+      "slug": "mahalo-meaning",
+      "status": "passed",
+      "candidates": 1,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "german-genitive",
+      "status": "passed",
+      "candidates": 0,
+      "prose_exit": 0,
+      "bridge_scan_exit": 0,
+      "bridge_verify": "not_required_zero_candidates"
+    },
+    {
+      "slug": "german-cases",
+      "status": "passed",
+      "candidates": 0,
+      "prose_exit": 0,
+      "bridge_scan_exit": 0,
+      "bridge_verify": "not_required_zero_candidates"
+    },
+    {
+      "slug": "spanish-preterite-endings",
+      "status": "passed",
+      "candidates": 1,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "french-prepositions",
+      "status": "passed",
+      "candidates": 1,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "spanish-conjunctions",
+      "status": "passed",
+      "candidates": 1,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "french-reflexive-verbs",
+      "status": "passed",
+      "candidates": 1,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "french-past-participle",
+      "status": "passed",
+      "candidates": 0,
+      "prose_exit": 0,
+      "bridge_scan_exit": 0,
+      "bridge_verify": "not_required_zero_candidates"
+    },
+    {
+      "slug": "spanish-superlatives",
+      "status": "passed",
+      "candidates": 1,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "spanish-si-clauses",
+      "status": "passed",
+      "candidates": 1,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "ciao-meaning",
+      "status": "passed",
+      "candidates": 0,
+      "prose_exit": 0,
+      "bridge_scan_exit": 0,
+      "bridge_verify": "not_required_zero_candidates"
+    },
+    {
+      "slug": "french-conditional",
+      "status": "passed",
+      "candidates": 1,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "irregular-spanish-verbs",
+      "status": "passed",
+      "candidates": 0,
+      "prose_exit": 0,
+      "bridge_scan_exit": 0,
+      "bridge_verify": "not_required_zero_candidates"
+    },
+    {
+      "slug": "per-se-meaning",
+      "status": "passed",
+      "candidates": 0,
+      "prose_exit": 0,
+      "bridge_scan_exit": 0,
+      "bridge_verify": "not_required_zero_candidates"
+    },
+    {
+      "slug": "spanish-present-tense-endings",
+      "status": "passed",
+      "candidates": 0,
+      "prose_exit": 0,
+      "bridge_scan_exit": 0,
+      "bridge_verify": "not_required_zero_candidates"
+    },
+    {
+      "slug": "german-dative-case",
+      "status": "passed",
+      "candidates": 0,
+      "prose_exit": 0,
+      "bridge_scan_exit": 0,
+      "bridge_verify": "not_required_zero_candidates"
+    },
+    {
+      "slug": "spanish-present-perfect",
+      "status": "passed",
+      "candidates": 1,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "latin-declensions",
+      "status": "passed",
+      "candidates": 0,
+      "prose_exit": 0,
+      "bridge_scan_exit": 0,
+      "bridge_verify": "not_required_zero_candidates"
+    },
+    {
+      "slug": "spanish-gerund",
+      "status": "passed",
+      "candidates": 0,
+      "prose_exit": 0,
+      "bridge_scan_exit": 0,
+      "bridge_verify": "not_required_zero_candidates"
+    },
+    {
+      "slug": "semper-fi-meaning",
+      "status": "passed",
+      "candidates": 0,
+      "prose_exit": 0,
+      "bridge_scan_exit": 0,
+      "bridge_verify": "not_required_zero_candidates"
+    },
+    {
+      "slug": "de-nada-meaning",
+      "status": "passed",
+      "candidates": 0,
+      "prose_exit": 0,
+      "bridge_scan_exit": 0,
+      "bridge_verify": "not_required_zero_candidates"
+    },
+    {
+      "slug": "spanish-infinitive",
+      "status": "passed",
+      "candidates": 0,
+      "prose_exit": 0,
+      "bridge_scan_exit": 0,
+      "bridge_verify": "not_required_zero_candidates"
+    },
+    {
+      "slug": "french-irregular-verbs",
+      "status": "passed",
+      "candidates": 2,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "russian-cases",
+      "status": "passed",
+      "candidates": 0,
+      "prose_exit": 0,
+      "bridge_scan_exit": 0,
+      "bridge_verify": "not_required_zero_candidates"
+    },
+    {
+      "slug": "voila-meaning",
+      "status": "passed",
+      "candidates": 1,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "mamacita-meaning",
+      "status": "passed",
+      "candidates": 1,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "mijo-meaning",
+      "status": "passed",
+      "candidates": 1,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "sayonara-meaning",
+      "status": "passed",
+      "candidates": 0,
+      "prose_exit": 0,
+      "bridge_scan_exit": 0,
+      "bridge_verify": "not_required_zero_candidates"
+    },
+    {
+      "slug": "oy-vey-meaning",
+      "status": "passed",
+      "candidates": 0,
+      "prose_exit": 0,
+      "bridge_scan_exit": 0,
+      "bridge_verify": "not_required_zero_candidates"
+    },
+    {
+      "slug": "ohana-meaning",
+      "status": "passed",
+      "candidates": 1,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "french-future-tense",
+      "status": "passed",
+      "candidates": 3,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "carino-meaning",
+      "status": "passed",
+      "candidates": 1,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "verbs-like-gustar",
+      "status": "passed",
+      "candidates": 1,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "arigato-meaning",
+      "status": "passed",
+      "candidates": 1,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "que-sera-sera-meaning",
+      "status": "passed",
+      "candidates": 1,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "cabron-meaning",
+      "status": "passed",
+      "candidates": 0,
+      "prose_exit": 0,
+      "bridge_scan_exit": 0,
+      "bridge_verify": "not_required_zero_candidates"
+    },
+    {
+      "slug": "maknae-meaning",
+      "status": "passed",
+      "candidates": 0,
+      "prose_exit": 0,
+      "bridge_scan_exit": 0,
+      "bridge_verify": "not_required_zero_candidates"
+    },
+    {
+      "slug": "spanish-future-perfect",
+      "status": "passed",
+      "candidates": 0,
+      "prose_exit": 0,
+      "bridge_scan_exit": 0,
+      "bridge_verify": "not_required_zero_candidates"
+    },
+    {
+      "slug": "japanese-honorifics",
+      "status": "passed",
+      "candidates": 1,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "italian-congiuntivo",
+      "status": "passed",
+      "candidates": 1,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "puerto-rican-spanish-vs-mexican-spanish",
+      "status": "passed",
+      "candidates": 0,
+      "prose_exit": 0,
+      "bridge_scan_exit": 0,
+      "bridge_verify": "not_required_zero_candidates"
+    },
+    {
+      "slug": "french-plus-que-parfait",
+      "status": "passed",
+      "candidates": 1,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    }
+  ],
+  "source_commit": "4a15884e8bcf1047982887b963e99f681fcbc891"
+}

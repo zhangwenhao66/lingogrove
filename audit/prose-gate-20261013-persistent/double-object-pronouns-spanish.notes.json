@@ -1,0 +1,15 @@
+[
+  {
+    "index": 1,
+    "sentence": "Double object pronouns follow the [same placement pattern as a single object or reflexive pronoun](/spanish-reflexive-verbs/): they go immediately in front of a conjugated verb (*Te lo doy.",
+    "target_slug": "spanish-reflexive-verbs",
+    "verdict": "CONFIRMED",
+    "note": "Current target explicitly gives finite preverbal placement and infinitive/gerund/affirmative-command attachment. Candidate sentence splitter truncates at Te lo doy.; entire source paragraph was read.",
+    "target_quote": "'Placement follows the same rule as [direct and indirect object pronouns](/direct-vs-indirect-object-pronouns-spanish/): the pronoun goes immediately before a conjugated verb (*Me levanto*), and attaches to the end of an infinitive, a gerund, or an affirmative command (*Voy a levantarme*, *Estoy levantándome*, *¡Levántate!*), with a written accent added where needed to keep the original stress. Negative commands put it back in front: *No te levantes*, never *No levántate*.',",
+    "source_article_sha256": "f2c5b0d0be721a38d319b31b8550b09c58d7c766e8be1d4bacfb13f585331b7f",
+    "target_article_sha256": "2009bc03d9e7ee58f9ca7b6beeeec3ee4ea2d59936f73f5b467ec3fbb787f582",
+    "source_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-lingo-integration/src/data/guides.ts",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-lingo-integration/src/data/guides.ts",
+    "provenance": "manual final current-target assertion comparison, with literal support below"
+  }
+]

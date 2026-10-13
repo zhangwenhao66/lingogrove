@@ -1,0 +1,18 @@
+[
+  {
+    "index": 1,
+    "sentence": "The noun [senpai](/senpai-meaning/) presents a different translation problem: it names a senior member of the same school, workplace or group, with expectations of guidance.",
+    "target_slug": "senpai-meaning",
+    "verdict": "CONFIRMED",
+    "note": "Target defines senpai by seniority within the same group and guidance; bridge explicitly describes a separate lexical translation issue.",
+    "target_quote": "'先輩 is written with two characters. 先 (*sen*) means \"before, ahead, previous.\" It\\'s the same character used in words like *saki* (先, \"ahead\" or \"the future,\" depending on context). 輩 (*hai*, here read *pai*) means \"fellow, companion, people of the same group.\" It shows up in words for peer groups and generations. The institutional sense is close to \"one of us who came before.\" Daijisen also includes seniority in age, standing, experience or skill; the word is not limited to membership in the same group. The Japanese-English dictionary Jisho glosses it as \"senior (at school, work, etc.); superior; elder; older person; predecessor.\"',",
+    "source_article_sha256": "84981a766dfd1f977b29cace58ec18c2b94eb9933f3922cf73aa4f27ba0099fa",
+    "target_article_sha256": "be4c6144453fe3728062d5e99319080c2131387166764bcffdff3486279d0450",
+    "source_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-lingo-integration/src/data/guides.ts",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-lingo-integration/src/data/guides.ts",
+    "provenance": "manual final current-target assertion comparison, with literal support below",
+    "additional_target_body_support_quotes": [
+      "'The relationship carries obligations in both directions: a senpai is expected to look out for and mentor their kōhai, showing them the ropes and taking some responsibility for how they\\'re doing, while a kōhai is expected to show a degree of deference and respect in return. It\\'s closer to a built-in mentorship system than a simple hierarchy, and it\\'s one reason the concept doesn\\'t map cleanly onto a single English word: \"senior\" captures the rank but misses the mentoring expectation.',"
+    ]
+  }
+]

@@ -1,0 +1,15 @@
+[
+  {
+    "index": 1,
+    "sentence": "That\\'s a different mechanism from the [Spanish imperfect\\'s accent rule](/spanish-imperfect-endings/), where the -ía endings take a tilde in every single form because of a hiato (a stressed closed vowel, here í, next to an open vowel), not because of where the stress falls.",
+    "target_slug": "spanish-imperfect-endings",
+    "verdict": "CONFIRMED",
+    "note": "Target explicitly grounds every -ía imperfect tilde in hiatus, distinct from regular preterite final stress.",
+    "target_quote": "'Here every single form carries a written accent, on the í, and that\\'s a different rule from the one that puts the accent on hablábamos. Real Academia Española\\'s orthography guide states that a stressed closed vowel (i or u) next to an open vowel (a, e, o) always takes a written accent, overriding the general stress rules entirely, and lists sabíais, an imperfect form, as one of its own examples of the rule. That combination, a stressed í touching an a, is called a hiato: without the accent, ia would tend to collapse into a single glide syllable, and the accent is what keeps the í as its own syllable and marks it as the stressed one. Every person of the -ía set has that same í-next-to-a shape, which is why the accent shows up in all six forms instead of just one.',",
+    "source_article_sha256": "bcaa77a701a5e57f02becc86899c92c929258cc36f9daa180406ab263cd039b8",
+    "target_article_sha256": "22ae95115e42f6cd9cd558912a84ad8436c3a2e71f1bebb6a8a7d6126871d9d6",
+    "source_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-lingo-integration/src/data/guides.ts",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-lingo-integration/src/data/guides.ts",
+    "provenance": "manual final current-target assertion comparison, with literal support below"
+  }
+]

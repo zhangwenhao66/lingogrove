@@ -1,0 +1,12 @@
+[
+  {
+    "index": 1,
+    "sentence": "That invariance is specific to the compound tense; the moment the same participle stands alone as an adjective (*la carta escrita*), it starts agreeing again, whereas [French](/french-past-participle/) has its own agreement rules for participles with avoir, with être and as adjectives.",
+    "target_slug": "french-past-participle",
+    "verdict": "CONFIRMED",
+    "note": "Entire current French participle target body and ALL FAQ actually read this round. Target distinguishes avoir preceding-direct-object agreement, être subject agreement with pronominal qualifications, and adjectival agreement. No Spanish-style blanket invariance asserted for French.",
+    "target_quote": "'Pronominal verbs also use être, but agreement depends on their type. Essentially pronominal verbs such as se souvenir generally agree with their subject. S\\'arroger is an exception: its participle agrees with a preceding direct object. Occasionally pronominal uses such as se laver or se parler instead require the direct-object test, including whether se is direct or indirect and whether a separate direct object precedes the verb. That mechanism, including why it produces agreement in some pronominal sentences and not others, is covered in full in [the French reflexive verbs guide](/french-reflexive-verbs/); the guide distinguishes subject agreement from the direct-object test, rather than applying one rule to every pronominal verb.',",
+    "source_article_sha256": "c708d9a23706844f88fa420b80eb53a90585685c63704bef4307bc8854bc31e0",
+    "target_article_sha256": "3a5b4665aaad5110a6b3e657dc6b45354c5ae59ccb51e05954d3f3a3fdab2237"
+  }
+]

@@ -1,0 +1,28 @@
+[
+  {
+    "index": 1,
+    "sentence": "For other everyday phrases with the same kind of hidden nuance, see how to say [happy birthday](/happy-birthday-in-spanish/) and [\"I love you\"](/i-love-you-in-spanish/) in Spanish.",
+    "target_slug": "happy-birthday-in-spanish",
+    "verdict": "CONFIRMED",
+    "note": "Target gives cumpleaños/felicitaciones distinctions or te quiero/te amo registers; comparison is limited to pragmatic nuance.",
+    "target_quote": "'*Feliz cumpleaños* (*feliz* \"happy\" plus *cumpleaños* \"birthday\") is the standard phrase everywhere Spanish is spoken, with no meaningful regional split the way some other phrases on this site have. *Cumpleaños* is itself a compressed piece of grammar: it comes from *cumple* (a form of *cumplir*, \"to complete\" or \"to fulfill\") plus *años* (\"years\"), so the word literally means \"[one] completes years.\" The Real Academia Española defines it simply as \"aniversario del nacimiento de una persona,\" the anniversary of a person\\'s birth, and notes that as a noun it\\'s written as one word (*su cumpleaños*), while the underlying verb phrase stays two words (*mamá cumple años hoy*, \"mom has a birthday today,\" literally \"turns years today\").',",
+    "source_article_sha256": "61e99db9f470a223a41fac2c158734df4a518eec79911f0a41f26c190e9c78ea",
+    "target_article_sha256": "21c579c45de643ee658710e149ab44b6102b5b0138b3cbb0743ca38a42931ab0",
+    "source_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-lingo-integration/src/data/guides.ts",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-lingo-integration/src/data/guides.ts",
+    "provenance": "manual final current-target assertion comparison, with literal support below"
+  },
+  {
+    "index": 2,
+    "sentence": "For other everyday phrases with the same kind of hidden nuance, see how to say [happy birthday](/happy-birthday-in-spanish/) and [\"I love you\"](/i-love-you-in-spanish/) in Spanish.",
+    "target_slug": "i-love-you-in-spanish",
+    "verdict": "CONFIRMED",
+    "note": "Target gives cumpleaños/felicitaciones distinctions or te quiero/te amo registers; comparison is limited to pragmatic nuance.",
+    "target_quote": "'Spanish has two common verbs that can both be translated \"to love\": *querer* (whose core meaning is closer to \"to want\" or \"to care for\") and *amar* (a more elevated, specifically love-focused verb). *Te quiero* and *te amo* (\"I love/want you\" and \"I love you,\" respectively) pull from those two verbs, and their emotional force can differ in context. The RAE also defines querer as amar, so the meanings overlap.',",
+    "source_article_sha256": "61e99db9f470a223a41fac2c158734df4a518eec79911f0a41f26c190e9c78ea",
+    "target_article_sha256": "b711199f66560a420b1490a4fd4c4800b020a77edb626c70745a0f7f63e70cae",
+    "source_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-lingo-integration/src/data/guides.ts",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-lingo-integration/src/data/guides.ts",
+    "provenance": "manual final current-target assertion comparison, with literal support below"
+  }
+]

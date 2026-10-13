@@ -1,0 +1,15 @@
+[
+  {
+    "index": 1,
+    "sentence": "Wiktionary\\'s entry treats it as a contraction of mi hijo, \"my son,\" with the feminine mija built the same way from mi hija, \"my daughter.\" The [possessive adjective mi](/spanish-possessive-adjectives/) and the noun run together in fast, informal speech, roughly the way English speakers let \"going to\" collapse into \"gonna.\" Wiktionary also records an apostrophized spelling, m\\'ijo, that marks the elision directly on the page, plus a further-contracted mi\\'jo.",
+    "target_slug": "spanish-possessive-adjectives",
+    "verdict": "CONFIRMED",
+    "note": "Target identifies mi as first-person possessive adjective; contraction analogy is stated on source, not attributed to target.",
+    "target_quote": "'A Spanish possessive placed in front of a noun (mi hermano, tu casa, su coche) is what the RAE\\'s grammar glossary calls a determinante posesivo, distinct from a possessive that follows the noun (un amigo mío, la casa suya), which the Academia\\'s Nueva gramática treats as behaving like an ordinary postnominal adjective. This guide covers the prenominal set, since that\\'s what \"mi casa\" and \"spanish possessive adjectives\" both point at: mi/mis, tu/tus, su/sus, nuestro/nuestra/nuestros/nuestras, and vuestro/vuestra/vuestros/vuestras, five basic forms with number and, for two of them, gender variants, covering the six grammatical persons because su does double duty for third-person singular and third-person plural alike.',",
+    "source_article_sha256": "8570009abaf00d115ed077f98aefe31bbde77f4c543982d95c147e467e96a575",
+    "target_article_sha256": "c31b820a0b1201cb90904c7ee76ffbea39fb7898f06680ba0bc32e97aab5decc",
+    "source_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-lingo-integration/src/data/guides.ts",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-lingo-integration/src/data/guides.ts",
+    "provenance": "manual final current-target assertion comparison, with literal support below"
+  }
+]
