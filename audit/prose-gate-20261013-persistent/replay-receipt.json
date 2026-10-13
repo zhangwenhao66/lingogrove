@@ -3,8 +3,9 @@
   "data_path": "src/data/guides.ts",
   "data_sha256": "d8393b823018a8ac7ca0fceb16b160f69c901f66853cbc36dd5c637aa8321371",
   "scripts_sha256": {
-    "check_prose_patterns.py": "839e4077688cbf644f8fbab26c27bcc9a18e8e9c508344cda996b1fa23631a37",
-    "check_bridge_sentences.py": "c6cb21d4d00fdfa46c2dd0106f92b2ded62f9bafb365ff46ab6c8b75c622734e"
+    "check_prose_patterns.py": "3984f35ddf9ae4d26f571c45ec45ce607a10ad65de7f2e202c18bdf8aad3972c",
+    "check_bridge_sentences.py": "c6cb21d4d00fdfa46c2dd0106f92b2ded62f9bafb365ff46ab6c8b75c622734e",
+    "check_article_preservation.py": "78b4a5359164148e0da2a8f7b8de182d9acb3b201e79c89567fb59e1250a9231"
   },
   "expected": 81,
   "checked": 81,
@@ -664,5 +665,6 @@
       "bridge_verify_exit": 0
     }
   ],
-  "source_commit": "4a15884e8bcf1047982887b963e99f681fcbc891"
+  "source_commit": "edbc487899d0d6caca18a3a23e43cc4d3eac518a",
+  "evidence_input": "git archive of committed site tree and committed kit scanner with its parser dependency"
 }
