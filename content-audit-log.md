@@ -2128,4 +2128,4 @@
 
 处置统计：候选12条均在当天核对后加同句日期（12）；改引底层来源0；删除/收窄超出来源范围的额外断言3处（日语 Mikami 归因、Inshallah 拼写地域解释、法语页中的西语未来时比较）；明确披露维基 citation-needed 1处及 primary-sources notice 1处。全站宽/窄扫描均退出码0、0候选。8篇 `run_checks.py`：每篇不通过0；未检查项16或17项（工具清单未支持单篇模式，及 worktree 路径无法反推站名的 hero-crop 项；逐项输出保存在 `/tmp/lingo-final-check-*.txt`，日语篇在FAQ修订后复跑为38通过/0不通过/17未检查）。
 
-扩散判定：通用 / 修复：当场8篇；派发无 / 防复发：`check_wikipedia_attribution_drift.py` 已纳入 `CHECKS.json` 第54项；教训 `L-1012-2` + 发布共用块 `B-129` 第15项。提交与线上验证将在本条后续回填；本次未检查范围仅为矩阵中仍待后续批次处理的其余候选，不计为通过。
+扩散判定：通用 / 修复：当场8篇；派发无 / 防复发：`check_wikipedia_attribution_drift.py` 已纳入 `CHECKS.json` 第54项；教训 `L-1012-2` + 发布共用块 `B-129` 第15项。源码提交 `ae3fa8a5c4c4445137e1063164a33316832cf8b5`（`fix: verify Wikipedia attribution backlog in LingoGrove`），已推送到 `main`；2026-10-13 对8个变更URL分别使用 `?cb=20261013-$RANDOM` 绕缓存请求，全部HTTP 200，逐页检查到本批日期/更正文案，均可见。构建 `npm run build` 成功，91页。IndexNow对本次8个变更URL提交：Bing HTTP 200接收；Yandex超时，状态未确认且未重试，回执记在 `indexnow-submit-log.json`。矩阵其余批次仍有候选的站不属于本批处理结果，不计为通过。
