@@ -4351,7 +4351,7 @@ export const guides: Guide[] = [
 		title: 'French Past Participle: Why "Dû" Has an Accent and "Due" Doesn\'t',
 		description: 'Regular participles just add é or i. Devoir\'s dû keeps a circumflex only in the masculine singular, and a participle used with avoir only agrees with a direct object that comes before it.',
 		published: '2026-08-20',
-		updated: '2026-08-20',
+		updated: '2026-10-13',
 		coreSummary: 'Per the OQLF, French classifies only -er verbs and -ir verbs with an -issant present participle as regular, which gives predictable participles like aimé and fini; every other verb, including all -re and -oir verbs, is irregular and its participle (dû, pu, su, voulu, and dozens more) may follow a recurring family pattern or require separate learning. A participle used with avoir stays invariable unless a direct object already sits before the verb, as in les lettres que j\'ai écrites, while a participle used with être normally agrees with the subject outright, with separate rules for pronominal verbs: essentially pronominal verbs generally agree with the subject, with exceptions such as s\'arroger; forms such as se laver use a preceding-direct-object test. Devoir\'s dû keeps its circumflex accent only in the masculine singular, specifically to stay distinct from the article du.',
 		language: 'French',
 		sections: [
@@ -4370,7 +4370,7 @@ export const guides: Guide[] = [
 				heading: 'The irregular participles that carry the highest-frequency verbs',
 				body: [
 					'The OQLF\'s own comparison table for four common -oir verbs shows how differently their participles land even though their infinitives look alike: devoir, pouvoir, savoir, and vouloir give dû, pu, su, and voulu, contrasting forms for verbs that share an -oir ending; dû, pu, and su have the same vowel sound. None of the four follows any predictable rule from the infinitive; they simply have to be memorized as a set, the same way English speakers memorize "go, went, gone" without expecting a pattern to carry over to "grow, grew, grown."',
-					'Some of the most common -re and -ir (non-issant) irregular participles follow their own recurring shapes even without a single unifying rule: faire → fait, dire → dit, mettre → mis, prendre → pris, écrire → écrit, ouvrir → ouvert. None of these is derivable from the infinitive the way aimé or fini are; they belong to the same "learn it as a set" category as dû, pu, su, and voulu, just with different endings from each other.',
+					'Some of the most common -re and -ir (non-issant) irregular participles follow their own recurring shapes even without a single unifying rule: faire → fait, dire → dit, mettre → mis, prendre → pris, écrire → écrit, ouvrir → ouvert. None of these is derivable from the infinitive the way aimé or fini are; they belong to the same "learn it as a set" category as dû, pu, su, and voulu, just with different endings from each other. The participle also carries the agreement in compound tenses, which the [plus-que-parfait](/french-plus-que-parfait/) page walks through for both auxiliaries.',
 				],
 			},
 			{
@@ -4689,7 +4689,7 @@ export const guides: Guide[] = [
 		title: 'French Conditional: When "Si Tu Voudrais" Is Wrong',
 		description: 'French uses several common si-clause tense patterns, and the conditional is normally barred from a clause expressing a condition: a rule nearly every learner breaks at least once.',
 		published: '2026-08-21',
-		updated: '2026-09-29',
+		updated: '2026-10-13',
 		coreSummary: 'The French conditionnel is built by adding the imperfect\'s endings (-ais, -ais, -ait, -ions, -iez, -aient) onto the same -r- stem the simple future uses, and its classification is genuinely contested: the Office québécois de la langue française treats it as a tense within the indicative, noting its structural relationship to future and imperfect forms, while other standard references, including Lawless French, still teach it as its own mood built around hypothetical meaning. What almost nobody disputes is the si-clause rule: si pairs with a present or past-tense verb, never with the future or the conditional itself, so je viendrais si tu voudrais is wrong regardless of how natural it sounds, though the conditional does return after si in two narrower cases, when si introduces an indirect question (nous aimerions savoir si vous seriez disposée à entrer en fonction le mois prochain) or a concession.',
 		language: 'French',
 		sections: [
@@ -4716,7 +4716,7 @@ export const guides: Guide[] = [
 				heading: 'The si rule: why the if-clause can never take the conditional',
 				body: [
 					'The OQLF gives common hypothetical patterns in which the verb directly governed by conditional si is indicative present or past, rather than future or conditional. These are useful models, not an exhaustive list of every combination. Si + present can pair with a future-tense consequence (si Mélanie oublie mon anniversaire, je lui pardonnerai). Si + imperfect pairs with a conditional-present consequence describing something that could still happen (si Mélanie oubliait mon anniversaire, je lui pardonnerais, not si Mélanie oublierait). Si + pluperfect can pair with a conditional present for a current hypothetical result, or with a conditional past for an unreal past result (si tu avais été attentif, je n\'aurais pas eu besoin de répéter).',
-					'Putting the conditional directly after si is one of the errors French teachers correct most often in English-speaking learners, because both halves of a hypothetical sentence feel equally uncertain to a speaker in the moment, even though French uses different tense and mood patterns in the condition and its result. [Spanish also distinguishes common open, present-hypothetical and unreal-past conditions](/spanish-si-clauses/), with mixed pairings possible as well: the imperfect and pluperfect that appear in a French si-clause are both indicative forms, while the equivalent Spanish protases switch into the imperfect or pluperfect subjunctive instead. These examples illustrate differing mood choices. Additional pairings exist in both languages.',
+					'Putting the conditional directly after si is one of the errors French teachers correct most often in English-speaking learners, because both halves of a hypothetical sentence feel equally uncertain to a speaker in the moment, even though French uses different tense and mood patterns in the condition and its result. [Spanish also distinguishes common open, present-hypothetical and unreal-past conditions](/spanish-si-clauses/), with mixed pairings possible as well: the imperfect and pluperfect that appear in a French si-clause are both indicative forms, while the equivalent Spanish protases switch into the imperfect or pluperfect subjunctive instead. These examples illustrate differing mood choices. Additional pairings exist in both languages. The [plus-que-parfait](/french-plus-que-parfait/) sits one step further back than the pairings on this page, marking what was already done before the past moment being narrated.',
 					'The rule has two narrower exceptions, and both hinge on what si is actually doing in the sentence: not every si sets up a condition. The better-known one: when si introduces an indirect question, the conditional is fully correct on either side of it. Nous aimerions savoir si vous seriez disposée à entrer en fonction le mois prochain is a reported version of the direct question seriez-vous disposée...?, not a hypothesis, so the ban doesn\'t apply. The reliable test is substitution: a translation with "whether" helps identify interrogative si, where the conditional is allowed. An ordinary hypothetical "if" construction instead follows the tense restrictions just described; other si meanings must be considered separately. The second, rarer exception is concessive si, where the clause concedes a point without laying down a condition at all: per the OQLF, si l\'on ne saurait affirmer hors de tout doute qu\'il pleuvra, on peut assurément dire que le ciel sera couvert ("granted, no one can say for certain it will rain, but the sky will definitely be overcast") uses the conditional saurait in the concessive clause; pleuvra is inside its embedded complement. Here si means something closer to "granted that" than "if." French grammar sites commonly summarize the base rule with the rhyme les si n\'aiment pas les rais, "the ifs don\'t like the -rais endings," a mnemonic that covers only the conditional si and says nothing about either exception.',
 				],
 			},
@@ -7270,6 +7270,108 @@ export const guides: Guide[] = [
 			{ label: 'University of Colorado Boulder, "Subject-verb word-order in Spanish interrogatives: A quantitative analysis of Puerto Rican Spanish"', url: 'https://scholar.colorado.edu/downloads/4f16c362g' },
 			{ label: 'John M. Lipski, "Beyond the Isogloss: Trends in Hispanic Dialectology"', url: 'https://johnlipski.github.io/isogloss.pdf' },
 			{ label: 'Latin American Spanish, "Puerto Rican Spanish: A Learner\'s Guide"', url: 'https://www.latinamericanspanish.com/puerto-rican-spanish/' },
+		],
+	},
+	{
+		slug: 'french-plus-que-parfait',
+		category: 'Grammar',
+		title: 'French Plus-Que-Parfait: When to Use It, and Why',
+		description: 'The plus-que-parfait marks an action already complete before another past moment. Here is how it is built with avoir or être in the imparfait, when the tense is required, and when it is not.',
+		published: '2026-10-13',
+		updated: '2026-10-13',
+		coreSummary: 'When to use the plus-que-parfait comes down to three situations: an action that precedes another past action, the hypothetical si-clause that pairs with the conditionnel passé, and reported speech that shifts a passé composé back a step. The tense is built from avoir or être in the imparfait plus a past participle, and it is not simply "the earlier past": Lawless French\'s condition is that the two verbs have to be related, so a plain sequence of events stays in the passé composé.',
+		language: 'French',
+		sections: [
+			{
+				heading: 'What the plus-que-parfait marks',
+				body: [
+					'The plus-que-parfait is the tense for an action that had already finished before another moment in the past. English uses the same shape for it: had plus a past participle. Elle avait beaucoup travaillé avant de pouvoir jouer le morceau parfaitement ("She had worked hard before she could play the piece perfectly") keeps the working and the playing on two different rungs of the same past.',
+					'That is why the tense rarely stands alone. The later event normally arrives in the passé composé or the imparfait, and Lingolia frames the plus-que-parfait as the form for faits, situations et actions qui ont eu lieu avant le moment du passé que l\'on raconte, the things that happened before the past moment being narrated.',
+					'Lawless French adds a condition that the conjugation rules alone do not cover: the two verbs have to be connected. The earlier action should have led to the later one, or had some bearing on it. Two events that are merely listed in order keep the passé composé, as in J\'ai fini tout le travail et puis je suis parti ("I finished all the work, then I left"). Finishing and leaving are sequenced, not related, so the past perfect is not needed there.',
+				],
+				image: {
+					src: '/images/french-plus-que-parfait-diagram.svg',
+					alt: 'Timeline diagram of the French past tenses: the plus-que-parfait (j\'avais fini) furthest back, the imparfait as a background band, the passé composé (je suis arrivé) as the later reference point, and now at the right, with the imparfait forms of avoir and être listed underneath.',
+				},
+			},
+			{
+				heading: 'How the tense is built',
+				body: [
+					'Build it in two pieces: avoir or être conjugated in the imparfait, followed by the past participle of the main verb.',
+					'Larousse\'s conjugator gives both auxiliary paradigms in full. Avoir runs j\'avais, tu avais, il/elle/on avait, nous avions, vous aviez, ils/elles avaient. Être runs j\'étais, tu étais, il/elle/on était, nous étions, vous étiez, ils/elles étaient.',
+					'Regular participles follow the same three endings as everywhere else: -er becomes -é (aimer, aimé), -ir becomes -i (finir, fini), -re becomes -u (vendre, vendu). Irregular participles have to be learned verb by verb, and the [French past participle](/french-past-participle/) guide covers the accent and agreement oddities among them.',
+					'So j\'avais mangé is "I had eaten" and elle était partie is "she had left". Negation wraps the auxiliary, not the participle: je n\'avais pas mangé.',
+				],
+			},
+			{
+				heading: 'The avoir/être choice',
+				body: [
+					'Most verbs take avoir. Être covers two groups: pronominal verbs, which keep their reflexive pronoun (je m\'étais levé), and a closed set of movement and change-of-state verbs. Lingolia lists them as naître/mourir, aller/venir, monter/descendre, arriver/partir, entrer/sortir, apparaître, devenir, passer, rester, retourner and tomber, together with their compounds such as revenir, rentrer, remonter, redescendre and repartir.',
+					'Several of those verbs change auxiliary when they take a direct object, and the meaning shifts with it. Lingolia\'s example pair makes the difference visible: À quelle heure étais-tu sorti ce matin-là? has no direct object, so être is correct, while Avais-tu sorti les carottes du frigo hier soir? has les carottes as its direct object, so the verb takes avoir. Descendre, (r)entrer, (re)monter and retourner behave the same way.',
+					'The auxiliary itself is not new information at this point. The plus-que-parfait uses the same avoir and être split as the passé composé, and the same agreement rules apply to both tenses. What changes is only the tense the auxiliary is conjugated in, which moves from the present into the imparfait.',
+				],
+			},
+			{
+				heading: 'Agreement rules for the participle',
+				body: [
+					'With être, the participle agrees with the subject in gender and number: il était allé, elle était allée, ils étaient allés, elles étaient allées.',
+					'With avoir, the participle agrees only when a direct object precedes the verb. Lingolia\'s example is la lettre qu\'elle avait écrite, where the direct object la lettre sits in front of avait écrit. With no preceding object there is no agreement: elle avait écrit la lettre.',
+					'The object standing in front can be a noun or a pronoun. Lingolia gives the noun case as la lettre qu\'elle avait écrite, and notes that a personal pronoun such as me, te, le, la, nous or vous triggers the same agreement when it comes before the verb.',
+					'These are the agreement rules the passé composé already uses, since both tenses are built the same way from an auxiliary plus a participle.',
+				],
+			},
+			{
+				heading: 'Three situations that call for it',
+				body: [
+					'The first is plain anteriority: one past action happened before another. Le soleil avait déjà commencé à se coucher quand je suis arrivé ("The sun had already started to set when I arrived") puts the sunset behind the arrival.',
+					'The second is the hypothetical si-clause, where the plus-que-parfait states the condition and the conditionnel passé states the outcome: Si j\'avais fini le travail, je serais parti tôt ("If I had finished the work, I would have left early"). There is no second past action to be earlier than here; the whole construction is counterfactual, and Lawless French notes this is where the tense appears without a following past event. The [French conditional](/french-conditional/) page works through the same si-clause pairing from the other side.',
+					'A third setting is indirect speech. When the reporting verb sits in the past, a passé composé in the original moves back one step. Lawless French gives the mapping: the present becomes the imparfait, the passé composé becomes the plus-que-parfait, and the future becomes the conditional. J\'ai fini le travail reported after a past verb therefore comes back as il a dit qu\'il avait fini le travail, with avoir shifted from the present into the imparfait.',
+					'The later event can also be compressed instead of stated. Avant de plus an infinitive, avant que plus the subjunctive, or avant plus a noun all do the job: J\'avais fini tout le travail avant de partir ("I had finished all the work before leaving").',
+				],
+			},
+			{
+				heading: 'Where the three past tenses sit',
+				body: [
+					'Set beside the other two past tenses, the plus-que-parfait covers the layer furthest back. The imparfait is the tense of an incomplete or ongoing action or state of being, which Lawless French ties to description, habit and background. The passé composé presents a past event as a completed whole, and it is usually the later verb in a sentence that also contains a plus-que-parfait. The plus-que-parfait sits behind both, marking what was already done before the reference point arrived.',
+					'The practical test is order plus connection. If a reader needs to know that one thing was already done before the other happened, the plus-que-parfait is the tense. If the two events simply sit side by side in a narrative, or if the point is what was going on in the background, one of the other two past tenses is doing the work.',
+					'One sentence can separate all three. In Quand je suis arrivé à la fête, tout le monde était déjà parti, et la musique jouait encore, the arrival is the reference point and takes the passé composé, the guests\' departure had already happened and takes the plus-que-parfait, and the music was still going in the background, which is the imparfait\'s job. Move the events around and the tenses follow the meaning rather than the sentence order.',
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'When should you use the plus-que-parfait in French?',
+				answer: 'Three cases cover almost everything: an event that was over before a later past event, a counterfactual si-clause, and an event reported indirectly after a past reporting verb. When none applies and the events sit in plain sequence, no extra past layer is needed.',
+			},
+			{
+				question: 'What is the difference between the pluperfect and the perfect?',
+				answer: 'In French these are two separate tenses: passé composé and plus-que-parfait. One reports an event at a single point in the past; the other puts that same event behind a second past moment. J\'ai mangé means "I ate" or "I have eaten"; j\'avais mangé means "I had eaten".',
+			},
+			{
+				question: 'How do you form the plus-que-parfait?',
+				answer: 'Pair the imparfait of avoir or être with the participle of the verb you are using: j\'avais mangé, elle était partie. The auxiliary is the part that changes form. In the negative, ne...pas closes around the auxiliary rather than the participle.',
+			},
+			{
+				question: 'Does the past participle agree in the plus-que-parfait?',
+				answer: 'Yes, under the same conditions as any compound past tense. An être auxiliary makes the participle match whoever or whatever the subject is (elle était partie, ils étaient partis). An avoir auxiliary makes it match only when the object comes first, as in les fleurs qu\'il avait cueillies.',
+			},
+			{
+				question: 'Why does sortir sometimes take être and sometimes avoir?',
+				answer: 'The auxiliary follows the object, not the verb. With no object and the sense of going out, it is être (nous étions sortis tôt). With an object and the sense of taking something out, it is avoir (nous avions sorti les chaises). Descendre, monter, entrer and retourner follow the same pattern.',
+			},
+			{
+				question: 'Is "j\'avais mangé" the same as "j\'ai mangé"?',
+				answer: 'No. J\'ai mangé stands on its own; j\'avais mangé needs a second past moment to point back from. That dependency is why the tense seldom appears by itself in a sentence.',
+			},
+		],
+		sources: [
+			{ label: 'Lingolia Français: "Le plus-que-parfait" (formation, the avoir/être split, agreement, negation)', url: 'https://francais.lingolia.com/fr/grammaire/les-temps/le-plus-que-parfait' },
+			{ label: 'Lawless French: "Past Perfect aka Pluperfect" (anteriority, the relationship requirement, si-clauses, avant de / avant que)', url: 'https://www.lawlessfrench.com/grammar/past-perfect/' },
+			{ label: 'Lawless French: "Imparfait" (incomplete or ongoing action or state of being; description, habit, background)', url: 'https://www.lawlessfrench.com/grammar/imperfect/' },
+			{ label: 'Lawless French: "Indirect speech" (the passé composé to pluperfect back-shift after a past reporting verb)', url: 'https://www.lawlessfrench.com/grammar/indirect-speech/' },
+			{ label: 'Gymglish / Frantastique: "The plus-que-parfait in French" (completed actions, anteriority, hypothetical si)', url: 'https://www.gymglish.com/en/frantastique/french-grammar/the-plus-que-parfait' },
+			{ label: 'Larousse, Conjugateur: "avoir" (imparfait paradigm)', url: 'https://www.larousse.fr/conjugaison/francais/avoir' },
+			{ label: 'Larousse, Conjugateur: "être" (imparfait paradigm)', url: 'https://www.larousse.fr/conjugaison/francais/%C3%AAtre' },
 		],
 	},
 ];

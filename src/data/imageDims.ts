@@ -40,7 +40,7 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "w": 800
  },
  "/images/french-future-tense-diagram.svg": {
-  "h": 360,
+  "h": 390,
   "w": 800
  },
  "/images/french-imperative-diagram.svg": {
@@ -57,6 +57,10 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
  },
  "/images/french-past-participle-diagram.svg": {
   "h": 760,
+  "w": 800
+ },
+ "/images/french-plus-que-parfait-diagram.svg": {
+  "h": 400,
   "w": 800
  },
  "/images/french-prepositions-diagram.svg": {
