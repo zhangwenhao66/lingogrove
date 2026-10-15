@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" font-family="system-ui, -apple-system, sans-serif">
+	<rect width="800" height="400" fill="#f6f4e9"/>
+
+	<text x="40" y="48" fill="#201f1a" font-size="21" font-weight="700">Where the pronoun goes</text>
+	<text x="40" y="74" fill="#5c594d" font-size="14">Both languages keep the same subject-verb-object frame. One word crosses the verb.</text>
+
+	<!-- ================= English row ================= -->
+	<text x="40" y="120" fill="#201f1a" font-size="15" font-weight="700">English</text>
+
+	<rect x="40" y="132" width="180" height="54" rx="5" fill="#ffffff" stroke="#201f1a" stroke-width="1.5"/>
+	<text x="130" y="156" fill="#201f1a" font-size="15" text-anchor="middle">My sister</text>
+	<text x="130" y="175" fill="#5c594d" font-size="11" text-anchor="middle">subject</text>
+
+	<rect x="240" y="132" width="150" height="54" rx="5" fill="#ffffff" stroke="#201f1a" stroke-width="1.5"/>
+	<text x="315" y="156" fill="#201f1a" font-size="15" text-anchor="middle">reads</text>
+	<text x="315" y="175" fill="#5c594d" font-size="11" text-anchor="middle">verb</text>
+
+	<rect x="410" y="132" width="150" height="54" rx="5" fill="#c9a227" fill-opacity="0.30" stroke="#7a6212" stroke-width="2"/>
+	<text x="485" y="156" fill="#7a6212" font-size="15" text-anchor="middle">it</text>
+	<text x="485" y="175" fill="#7a6212" font-size="11" text-anchor="middle">object pronoun</text>
+
+	<!-- ================= Spanish row ================= -->
+	<text x="40" y="240" fill="#201f1a" font-size="15" font-weight="700">Spanish</text>
+
+	<rect x="40" y="252" width="180" height="54" rx="5" fill="#ffffff" stroke="#201f1a" stroke-width="1.5"/>
+	<text x="130" y="276" fill="#201f1a" font-size="15" text-anchor="middle">Mi hermana</text>
+	<text x="130" y="295" fill="#5c594d" font-size="11" text-anchor="middle">subject</text>
+
+	<rect x="240" y="252" width="150" height="54" rx="5" fill="#c9a227" fill-opacity="0.30" stroke="#7a6212" stroke-width="2"/>
+	<text x="315" y="276" fill="#7a6212" font-size="15" text-anchor="middle">lo</text>
+	<text x="315" y="295" fill="#7a6212" font-size="11" text-anchor="middle">object pronoun</text>
+
+	<rect x="410" y="252" width="150" height="54" rx="5" fill="#ffffff" stroke="#201f1a" stroke-width="1.5"/>
+	<text x="485" y="276" fill="#201f1a" font-size="15" text-anchor="middle">lee</text>
+	<text x="485" y="295" fill="#5c594d" font-size="11" text-anchor="middle">verb</text>
+
+	<!-- movement arrow: the pronoun crosses the verb -->
+	<path d="M470 132 C 470 100, 330 100, 322 246" fill="none" stroke="#7a6212" stroke-width="2" stroke-dasharray="6 4"/>
+	<polygon points="322,250 316,238 329,238" fill="#7a6212"/>
+	<text x="404" y="94" fill="#7a6212" font-size="13" text-anchor="middle">the pronoun crosses in front of the verb</text>
+
+	<!-- ================= bottom: command flip ================= -->
+	<line x1="588" y1="132" x2="588" y2="306" stroke="#201f1a" stroke-width="1" opacity="0.35"/>
+
+	<text x="604" y="150" fill="#201f1a" font-size="14" font-weight="700">Same verb, two orders</text>
+	<text x="604" y="178" fill="#5c594d" font-size="12">Affirmative command</text>
+	<text x="604" y="200" fill="#2f5d50" font-size="17" font-weight="700">hazlo</text>
+	<text x="604" y="219" fill="#5c594d" font-size="11">pronoun attached, one word</text>
+
+	<text x="604" y="256" fill="#5c594d" font-size="12">Negative command</text>
+	<text x="604" y="278" fill="#8a5a2b" font-size="17" font-weight="700">no lo hagas</text>
+	<text x="604" y="297" fill="#5c594d" font-size="11">pronoun moves back in front</text>
+
+	<!-- footer note -->
+	<text x="40" y="352" fill="#201f1a" font-size="14" font-weight="700">Where the accent comes from</text>
+	<text x="40" y="376" fill="#5c594d" font-size="13">Attaching a pronoun adds a syllable at the end, so the stress can move further back:</text>
+	<text x="40" y="394" fill="#5c594d" font-size="13">come → cómetelo · lleve → llévesemelo · compren → cómprenlo</text>
+</svg>

@@ -1214,7 +1214,7 @@ export const guides: Guide[] = [
 		title: 'Spanish Reflexive Verbs: How "Se" Actually Works (It Isn\'t Always "Yourself")',
 		description: 'Me lavo means "I wash myself." Me duermo doesn\'t mean "I sleep myself": it means "I fall asleep." The RAE calls that second "se" pronominal, not reflexivo.',
 		published: '2026-08-04',
-		updated: '2026-08-24',
+		updated: '2026-10-16',
 		coreSummary: 'A Spanish reflexive verb, strictly defined, is one where the pronoun (me, te, se, nos, os, se) refers back to the same person doing the action, as in me lavo, "I wash myself." Many verbs that look identical in form, like dormirse, irse, quedarse, and comerse, use the same pronouns without that self-referring meaning at all; the RAE classifies these as verbos pronominales rather than true reflexives, because the "se" shifts what the verb means instead of standing in for a person.',
 		language: 'Spanish',
 		sections: [
@@ -1230,6 +1230,7 @@ export const guides: Guide[] = [
 				body: [
 					'The reflexive pronouns are *me, te, se, nos, os, se*: the same atonic clitic set used for direct and indirect objects, with one simplification. Unlike *lo/la* versus *le*, the third-person reflexive is always *se*, for singular or plural, masculine or feminine. There\'s no gender-marked reflexive form to choose between.',
 					'Placement follows the same rule as [direct and indirect object pronouns](/direct-vs-indirect-object-pronouns-spanish/): the pronoun goes immediately before a conjugated verb (*Me levanto*), and attaches to the end of an infinitive, a gerund, or an affirmative command (*Voy a levantarme*, *Estoy levantándome*, *¡Levántate!*), with a written accent added where needed to keep the original stress. Negative commands put it back in front: *No te levantes*, never *No levántate*.',
+					'The same split runs through object pronouns generally, and [the guide to Spanish sentence structure](/spanish-sentence-structure-vs-english/) places it beside the other ways Spanish order diverges from English.',
 				],
 			},
 			{
@@ -3585,7 +3586,7 @@ export const guides: Guide[] = [
 		title: 'Spanish Question Words: The Full List, Qué vs. Cuál',
 		description: 'English uses "what" for both qué and cuál, so learners naturally reach for qué asking a name or an email address, the one spot Spanish actually wants cuál instead.',
 		published: '2026-08-17',
-		updated: '2026-08-17',
+		updated: '2026-10-16',
 		coreSummary: 'Spanish groups nine interrogative words, qué, cuál, quién, cómo, cuán, cuánto, cuándo, dónde, and adónde, under one accent rule: per the RAE, they keep their written tilde even inside an indirect question like no sé dónde vive, because the accent marks the word\'s grammatical role, not its punctuation. The split that actually trips up English speakers isn\'t the accent, though; it\'s qué versus cuál. Both translate as "what." Qué asks for definitions and commonly precedes a noun (¿qué libro quieres?); cuál can also precede a noun, especially in the Americas. Cuál is used for picking one item out of an implied set, which covers a name, a phone number, or an email address (¿cuál es tu correo electrónico?, never ¿qué es tu correo electrónico?). That\'s the opposite of how English maps "what" onto both situations.',
 		language: 'Spanish',
 		sections: [
@@ -3594,6 +3595,7 @@ export const guides: Guide[] = [
 				body: [
 					'Spanish has nine core interrogative words: qué ("what"), quién/quiénes ("who"), cuál/cuáles ("which/what," see below), cómo ("how"), cuándo ("when"), dónde ("where"), adónde ("where to"), cuán ("how," an intensifier mostly used in exclamations, not questions), and cuánto/cuánta/cuántos/cuántas ("how much/how many"). Por qué ("why") is this same qué preceded by the preposition por, not a separate word.',
 					'Every one of these carries a written accent, and per the [RAE\'s own entry on the diacritical tilde](https://www.rae.es/buen-uso-espa%C3%B1ol/qu%C3%A9-cu%C3%A1l-qui%C3%A9n-c%C3%B3mo-cu%C3%A1n-cu%C3%A1nto-cu%C3%A1ndo-d%C3%B3nde-y-ad%C3%B3nde-con-tilde), that accent stays in place regardless of punctuation: a direct question, an indirect one folded into a longer sentence, or an exclamation all keep it. The [accent-marks guide](/spanish-accent-marks/) covers the mechanism behind that rule in full, including why an indirect question doesn\'t drop the tilde; this list is the complete set it applies to.',
+					'The inverted opening *\u00bf* and the auxiliary English needs but Spanish does not are covered in [how Spanish sentence structure differs from English](/spanish-sentence-structure-vs-english/).',
 				],
 				image: {
 					src: '/images/spanish-question-words-diagram.svg',
@@ -7371,6 +7373,110 @@ export const guides: Guide[] = [
 			{ label: 'Gymglish / Frantastique: "The plus-que-parfait in French" (completed actions, anteriority, hypothetical si)', url: 'https://www.gymglish.com/en/frantastique/french-grammar/the-plus-que-parfait' },
 			{ label: 'Larousse, Conjugateur: "avoir" (imparfait paradigm)', url: 'https://www.larousse.fr/conjugaison/francais/avoir' },
 			{ label: 'Larousse, Conjugateur: "être" (imparfait paradigm)', url: 'https://www.larousse.fr/conjugaison/francais/%C3%AAtre' },
+		],
+	},
+	{
+		slug: 'spanish-sentence-structure-vs-english',
+		category: 'Grammar',
+		title: 'How Spanish Word Order Differs From English Sentence Structure',
+		description: 'Both languages run subject-verb-object, so the visible difference sits in the small words: pronouns and adjectives move in Spanish and stay put in English.',
+		published: '2026-10-16',
+		updated: '2026-10-16',
+		coreSummary: 'Spanish sentence structure vs English looks more different than it is: both languages run subject-verb-object, so what separates them is where the small words go. Spanish drops the subject pronoun when the verb ending already names the person, sends object pronouns in front of a conjugated verb, and keeps adjectives after the noun.',
+		language: 'Spanish',
+		sections: [
+			{
+				heading: 'The frame is the same in both languages',
+				body: [
+					'Reference grammars describe English and Spanish the same way. The unmarked order of an affirmative statement in both is subject, then verb, then object. Wikipedia\'s [overview of Spanish grammar](https://en.wikipedia.org/wiki/Spanish_grammar) states it directly, that Spanish unmarked word order for affirmative declarative sentences is subject-verb-object, and adds the qualification that matters more in practice: word order is variable, with topicalization and focus deciding which alternative gets used. Verb-subject-object, verb-object-subject and object-verb-subject all appear in ordinary Spanish, while English reserves its own reordering for a much narrower set of cases.',
+					'This is why the two languages can feel further apart than their grammars are. A learner braced for a different skeleton will spend a long time hunting for a difference that is not there. Both languages build the same plain statement the same way: *mi hermana lee un libro* is *my sister reads a book*, slot for slot. The trouble starts once pronouns and adjectives enter the sentence, because those pieces are what Spanish moves.',
+				],
+			},
+			{
+				heading: 'Five sentence types, side by side',
+				body: [
+					'Setting the two languages out by sentence type makes the pattern visible. The frame holds in every row; a different small word moves in each.',
+					'<table class="word-table"><thead><tr><th>Sentence type</th><th>English order</th><th>Spanish order</th><th>What moves</th></tr></thead><tbody><tr><td class="headword">Statement, noun object</td><td>Subject, verb, object: <em>My sister reads a book.</em></td><td>Subject, verb, object: <em>Mi hermana lee un libro.</em></td><td>Nothing. The subject can shift to the end of the sentence for emphasis.</td></tr><tr><td class="headword">Statement, pronoun object</td><td>Subject, verb, pronoun: <em>My sister reads it.</em></td><td>Subject, pronoun, verb: <em>Mi hermana lo lee.</em></td><td>The object pronoun crosses to the front of the verb.</td></tr><tr><td class="headword">Negation</td><td>Subject, auxiliary, <em>not</em>, verb: <em>My sister does not read it.</em></td><td>Subject, <em>no</em>, pronoun, verb: <em>Mi hermana no lo lee.</em></td><td>No auxiliary. <em>No</em> goes in front of the pronoun cluster.</td></tr><tr><td class="headword">Yes or no question</td><td>Auxiliary, subject, verb: <em>Does my sister read it?</em></td><td>Verb, subject, pronoun: <em>&iquest;Lo lee mi hermana?</em></td><td>No auxiliary, and an opening <em>&iquest;</em>. The subject often drops entirely.</td></tr><tr><td class="headword">Information question</td><td>Question word, auxiliary, subject, verb: <em>What does my sister read?</em></td><td>Question word, verb, subject: <em>&iquest;Qu&eacute; lee mi hermana?</em></td><td>The verb follows the question word with nothing between them.</td></tr></tbody></table>',
+					'Two of those rows account for most of what people mean when they say Spanish word order is different, and both involve a pronoun. English leaves an object pronoun exactly where the noun it replaced used to sit. Spanish picks that pronoun up and sets it down before the verb, which is where the front-loaded look of Spanish sentences comes from. The guide to [Spanish pronouns](/spanish-pronouns/) maps the seven pronoun families, only some of which can occupy that slot, and [direct and indirect object pronouns](/direct-vs-indirect-object-pronouns-spanish/) covers what happens when two of them stack up and the indirect one turns into *se*.',
+				],
+				image: {
+					src: '/images/spanish-sentence-structure-vs-english-diagram.svg',
+					alt: 'Slot diagram comparing word order in the two languages: English runs subject, verb, object pronoun (My sister | reads | it), while Spanish moves the object pronoun in front of the verb (Mi hermana | lo | lee), with a side panel showing the affirmative command hazlo attached as one word against the negative command no lo hagas kept separate.',
+				},
+			},
+			{
+				heading: 'Why the subject can disappear in Spanish',
+				body: [
+					'One asymmetry runs the other way and shows up early. English insists on a subject in every finite clause, and Spanish does not. Wikipedia notes, checked 16 October 2026, that because subject pronouns are often dropped, a Spanish sentence routinely turns up with a verb and a direct object and no stated subject at all.',
+					'The reason is in the verb ending. *Leo* is a complete clause on its own and means *I read*; *lee* means *he reads* or *she reads*, and the sentence is still complete without either pronoun in front. English verb forms are far less distinctive, so a bare *reads* leaves the reader guessing who is doing it, which is why the pronoun is not optional there. The endings carry the information in Spanish, so the pronoun would only repeat what the verb already said.',
+					'Leaving the pronoun out is the default, not a casual habit. When a Spanish speaker does say *yo leo*, the pronoun is doing a job, usually marking a contrast, as in *yo leo, t&uacute; escribes*. A learner who keeps the pronoun in every sentence produces something that reads as emphatic from beginning to end.',
+				],
+			},
+			{
+				heading: 'Where the object pronoun goes',
+				body: [
+					'This part is rule-governed rather than a matter of feel, and the rule is short enough to apply by hand. The Royal Spanish Academy\'s [usage guide](https://www.rae.es/buen-uso-espa%C3%B1ol/uso-y-posici%C3%B3n-de-los-pronombres-%C3%A1tonos-i) describes the unaccented pronouns as leaning phonetically on the neighbouring verb, and splits them by which side they land on. Those that come first are proclitic and are written as separate words; those that follow are enclitic and are written joined to the verb.',
+					'The placement test runs in one direction. In current Spanish, the guide says, these pronouns go after the verb when they attach to infinitives, to gerunds, and to affirmative imperatives, and before it for every other verb form. Its own examples run *comprarlo*, *comprándolo*, *compradlo* and *cómprenlo* on the attached side, against *Lo compró*, *Se fue* and *No se lo digas* on the separated side. The Academy\'s [dictionary of doubts](https://www.rae.es/dpd/pronombres%20personales%20%C3%A1tonos) adds the constraint behind the pattern: these pronouns cannot follow a finite verb form that is negative, which is why the negative command comes back as *no lo hagas* and not as a single joined word. A negated infinitive is a different case and still takes the pronoun attached, as in *prefiero no hacerlo*.',
+					'Joining the pronoun also changes the spelling. Because the written accent has to follow the stress, a word that gains a syllable at the end can gain an accent as well. The Academy\'s dictionary gives the working examples: *déselo*, *cuéntame* and *entiéndannos* carry a written accent because they became stressed on the third syllable from the end, and the dictionary states the wider rule by stress position rather than by length: words stressed there or further back *siempre llevan tilde*, always carry the tilde, which its examples *cómetelo* and *llévesemelo* show.',
+					'Two reductions are worth knowing by name because they look like typos otherwise. Adding *nos* to a first-person plural subjunctive used as a command drops the *s* of the verb: *dejemos* plus *nos* is written *dejémonos*. Adding *se* to a verb already ending in *-s* collapses the two: *pongamos* plus *se* plus *lo* is written *pongámoselo*.',
+					'One corner stays flexible. When an infinitive or a gerund sits inside a verbal periphrasis, or when the infinitive depends on another verb, the Academy notes that there is some freedom in where the pronoun goes, so both orders turn up in edited prose.',
+				],
+			},
+			{
+				heading: 'Negation and questions',
+				body: [
+					'Both of these are easier in Spanish than in English, because neither one needs an auxiliary. English has to recruit *do* to carry the negative or to open a question, which is what produces *does not read* and *does she read*. Spanish sends the verb straight to work. Negation is *no* in front of the verb, and since the pronouns sit between the two, the order is *no* first and then the pronoun cluster. A question is the verb with an opening *&iquest;* and a closing *?*, as in *&iquest;Lo lee mi hermana?*.',
+					'That difference is why translating an English question word for word produces something that reads as a statement. *Does my sister read it* carries its question marking on the auxiliary that Spanish does not have, so the Spanish version marks the question at the edges instead, with the punctuation, and with the subject usually pushed behind the verb or left out. The guide to [Spanish question words](/spanish-question-words/) covers the accent that separates *qu&eacute;* and *cu&aacute;l* from their plain relatives.',
+				],
+			},
+			{
+				heading: 'Adjectives follow the noun',
+				body: [
+					'This is the last piece that makes an English-shaped sentence sound translated. Wikipedia\'s summary of Spanish adjectives puts the default first: in Spanish, adjectives usually go after the noun they modify, and the exception is when the speaker or writer is being emphatic or even poetic about a quality. The difference is not decorative. *Mi casa roja* identifies the red house among houses; *mi roja casa* stresses how red the house is. English fixes the order and pushes the emphasis into the voice, so the same contrast is not available.',
+					'The same reference adds a second behaviour worth keeping in mind at the end of a sentence: a Spanish adjective can stand in for a noun on its own, so *los altos* means the tall ones, with no hint of rudeness attached to the shorthand.',
+				],
+			},
+			{
+				heading: 'What this means when you build a sentence',
+				body: [
+					'Start at the verb. If the verb is a simple conjugated form and there is a pronoun object anywhere after it, the pronoun is almost certainly in the wrong place; move it in front. If the verb is an infinitive, a gerund or an affirmative command, check the opposite way, and then check whether the joined form needs an accent or a doubled consonant somewhere.',
+					'Then look at the subject. If it is a personal pronoun that the verb ending already identifies, delete it. *Yo leo* is grammatical but marked, reserved for contrast, and an unbroken run of *yo, t&uacute;, &eacute;l* at the start of Spanish sentences is a reliable sign that the writer is thinking in English.',
+					'Finally, check the nouns. Any adjective sitting in front of its noun is making a claim about emphasis, and if that was not the intention, it belongs behind. When two languages differ this little in structure, these three places are where a sentence built on English tends to go wrong.',
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'What is the correct sentence structure in Spanish?',
+				answer: 'A sentence with a noun object follows the doer-then-action pattern in both languages. Spanish changes that skeleton in three places: a pronoun standing in for the object jumps ahead of the verb, a subject pronoun the verb already signals gets dropped, and negatives and questions are formed without adding a helper word.',
+			},
+			{
+				question: 'Is Spanish word order the same as English word order?',
+				answer: 'For a plain statement with a noun object, yes. Both languages put the subject first and the verb second. They part company once a pronoun stands in for the object, once the ending on the verb makes an explicit pronoun unnecessary, and once an adjective attaches to a noun.',
+			},
+			{
+				question: 'Where do object pronouns go in Spanish?',
+				answer: 'Ahead of the verb for ordinary conjugated forms. With non-finite forms such as the infinitive and the gerund, and with a positive command, they attach to the end instead. A negative command pushes them back ahead of the verb, so the positive version is one word and the negative version is two.',
+			},
+			{
+				question: 'Why can you leave out the subject in Spanish but not in English?',
+				answer: 'The ending on the verb already marks who is speaking, so *leo* needs no pronoun to name the subject. English endings are much less informative, and a bare *reads* gives the reader no way to tell who is doing the reading, so the pronoun has to stay.',
+			},
+			{
+				question: 'Do Spanish adjectives always come after the noun?',
+				answer: 'They usually do, and putting one in front is a deliberate choice that stresses the quality. The same adjective in the two positions can answer different questions: which one, or how much of that quality.',
+			},
+			{
+				question: 'How do you make a sentence negative in Spanish?',
+				answer: 'Add *no* immediately before the verb. Any pronouns come after the *no*, and the verb does not move. Spanish has no counterpart to English *do*, and a pronoun cannot be attached to a negated finite verb form, though infinitives under negation keep theirs.',
+			},
+		],
+		sources: [
+			{ label: 'Real Academia Española, El buen uso del español: "Uso y posición de los pronombres átonos (I)" (proclitic and enclitic placement; the infinitive, gerund and affirmative imperative rule)', url: 'https://www.rae.es/buen-uso-espa%C3%B1ol/uso-y-posici%C3%B3n-de-los-pronombres-%C3%A1tonos-i' },
+			{ label: 'Real Academia Española, Diccionario panhispánico de dudas: "pronombres personales átonos" (proclitic and enclitic forms; the ban on postposing after a negated verb; the dejemos + nos and pongamos + se + lo reductions)', url: 'https://www.rae.es/dpd/pronombres%20personales%20%C3%A1tonos' },
+			{ label: 'Real Academia Española, Diccionario panhispánico de dudas: "tilde" (§1.2.3 esdrújula and sobresdrújula words always carry the accent, incl. cómetelo, llévesemelo; §5.3 written accents on verb forms carrying enclitic pronouns, incl. déselo, cuéntame, entiéndannos)', url: 'https://www.rae.es/dpd/tilde' },
+			{ label: 'Real Academia Española, Diccionario panhispánico de dudas: "signos de interrogación" (§1 the question mark is a double sign delimiting direct interrogative sequences; §2.1 Spanish has no interrogative introducer equivalent to the English auxiliary "do")', url: 'https://www.rae.es/dpd/signos%20de%20interrogaci%C3%B3n' },
+			{ label: 'Wikipedia: "Spanish grammar" (unmarked subject-verb-object order and its variability; frequent omission of the subject pronoun; usual position of adjectives after the noun)', url: 'https://en.wikipedia.org/wiki/Spanish_grammar' },
 		],
 	},
 ];

@@ -238,7 +238,9 @@ const heroAvifMobile = (() => {
 			{guide.sections.map((section) => (
 				<section class="mb-8 border-b border-[var(--rule)] pb-8 last:mb-0 last:border-b-0 last:pb-0">
 					<h2 class="font-display mb-3.5 text-xl font-bold text-[var(--ink)]">{section.heading}</h2>
-					{section.body.map((paragraph) => <p class="mb-3.5 text-[0.9375rem] leading-[1.85] text-[var(--ink)]/70 last:mb-0" set:html={md(paragraph)} />)}
+					{section.body.map((paragraph) => /^\s*<(table|ul|ol|blockquote|div|figure)\b/i.test(paragraph)
+						? <div class="mb-3.5 text-[0.9375rem] leading-[1.85] text-[var(--ink)]/70 last:mb-0" set:html={md(paragraph)} />
+						: <p class="mb-3.5 text-[0.9375rem] leading-[1.85] text-[var(--ink)]/70 last:mb-0" set:html={md(paragraph)} />)}
 					{section.image && (
 						<figure class="m-0 mt-5">
 							<img src={section.image.src} alt={section.image.alt} class="mx-auto h-auto max-h-[70vh] w-auto max-w-full" loading="lazy"

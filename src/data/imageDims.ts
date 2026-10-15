@@ -275,6 +275,10 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 460,
   "w": 800
  },
+ "/images/spanish-sentence-structure-vs-english-diagram.svg": {
+  "h": 400,
+  "w": 800
+ },
  "/images/spanish-si-clauses-diagram.svg": {
   "h": 460,
   "w": 800
