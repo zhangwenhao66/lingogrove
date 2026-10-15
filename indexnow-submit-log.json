@@ -584,5 +584,11 @@
     "last_submitted_date": "2026-10-13",
     "verified_status": "pending",
     "note": "[{\"urls\":[\"https://lingogrove.com/french-plus-que-parfait/\"],\"results\":[{\"endpoint\":\"Bing\",\"accepted\":true,\"status\":200},{\"endpoint\":\"Yandex\",\"accepted\":false,\"status\":null,\"error\":\"timeout/error\"}]}]"
+  },
+  "https://lingogrove.com/spanish-sentence-structure-vs-english/": {
+    "submitted_date": "2026-10-15",
+    "last_submitted_date": "2026-10-15",
+    "verified_status": "pending",
+    "note": "[{\"urls\":[\"https://lingogrove.com/spanish-sentence-structure-vs-english/\"],\"results\":[{\"endpoint\":\"Bing\",\"accepted\":true,\"status\":200},{\"endpoint\":\"Yandex\",\"accepted\":true,\"status\":202}]}]"
   }
 }
