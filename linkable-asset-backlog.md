@@ -78,3 +78,15 @@
 ## 已否决 / 暂缓
 
 **2026-09-13 统计数据枢纽页筛查记录**（第四类资产，避免下次planning任务重复评估）——候选头词 **language learning statistics 2026**。`Skill(keyword-screening)` v2分档：**B**（真实SERP开放位6个 `europa.eu`/`tutorbase.com`/`businessofapps.com`/`multimedia-english.com`/`simonandsimon.co.uk`/`pewresearch.org`，最年轻开放域名businessofapps.com注册158个月，无年轻站证据）。已确认原始数据源：①Duolingo年度Language Report（覆盖100+国家×语言排名，体量大）②British Council《Future of English》报告 ③Ethnologue（SIL International，7,170种在用语言的权威计数）④Pew Research Center语言学习调查 ⑤欧盟统计局（ec.europa.eu）外语学习统计。**分档和原始源均过线**，但LingoGrove自8/24起算法整站压制中（矩阵第3个被打站），本任务硬性要求"压制中三站只做筛查记录，不进backlog待制作"，本条**不登记为待制作**，留档供压制解除后直接复用。
+
+## 2026-10-17 恢复筛查：language learning statistics 2026 `[待制作]`
+
+此前记录保留在“已否决 / 暂缓”作为历史：当时因整站压制，虽已确认数据源但按规则不进入待制作。本次确认站点恢复投产后重新筛查，候选恢复为待制作；制作仍须逐条核实统计值、口径与来源，不得把数据集容量写成已核实统计条数。
+
+- **类别**：统计数据枢纽（全站最多一个；本候选为当前唯一）
+- **关键词筛查**：2026-10-17 通过 keyword-screening v2；`language learning statistics 2026` 的 10 条自然结果完整，开放位 7 个，AIO 存在；开放域名中最年轻为 polychatapp.com（RDAP 年龄 18 个月），RDAP 未检查数为 0，分档 A。SERP 原始记录：`research-db/direct-api-log/20261017T152112Z_serp_language-learning-statistics-2026_a944790f.json`。
+- **竞争资产抽查**：SERP 前列的 Kent State 页面 `https://www.kent.edu/mcls/translation-ma/blog/language-learning-trends-and-statistics` 页面 RD 10；Eurostat `https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Foreign_language_learning_statistics` 页面 RD 125；Preply `https://preply.com/en/blog/global-language-learning-report/` 页面 RD 20。对应原始记录分别为 `research-db/direct-api-log/20261017T152344Z_domain_https---www-kent-edu-mcls-translation-ma_375e7b19.json`、`research-db/direct-api-log/20261017T152252Z_domain_https---ec-europa-eu-eurostat-statistics_80055147.json`、`research-db/direct-api-log/20261017T152346Z_domain_https---preply-com-en-blog-global-langua_f7a02b64.json`。这三种页面展示了机构趋势/官方统计、教育机构趋势整理、年度平台报告等不同呈现方式。
+- **可做资产**：按国家/地区、年份、教育阶段与指标筛选的语言学习数据表，配每项数据的定义、覆盖范围、更新时间与直达来源；优先整理 Eurostat `educ_uoe_lang01`、`educ_uoe_lang02`、`educ_uoe_lang03`，并以 British Council 2025 学校调查、Pew 2026 美国调查和 Duolingo 2024 年度报告补充不同口径。Eurostat `educ_uoe_lang03` 的公开表覆盖 2012–2024，页面显示 2,053 个单元格、40 个实体；这是筛选空间，不代表已核实 2,053 个独立事实。目标 50+ 条须在制作时逐条回溯原始表并标注样本/地区，避免把特定学校阶段或美国调查外推为全球结论。
+- **引用动机与传播**：可供语言教育、学校课程与语言学习趋势文章引用；提供可下载 CSV/图表与按来源跳转的国家/年份表，方便编辑复用并保留归因链接。无用户输入或隐私依赖；随 Eurostat/报告新版本复核并更新。
+- **来源**：Eurostat 数据浏览器 `https://ec.europa.eu/eurostat/databrowser/view/educ_uoe_lang03/default/table`；British Council `https://www.britishcouncil.org/research-insight/language-trends-england-2025`；Pew `https://www.pewresearch.org/short-reads/2026/08/03/what-do-americans-think-about-language-learning-in-us-schools/`；Duolingo `https://blog.duolingo.com/2024-duolingo-language-report/`。
+- **成本与复核边界**：本次有效筛查及三个正确页面的 RD 查询共 $0.076。其间两次用错误猜测的 Kent State / Preply 页面 URL 查询，各 $0.024，已识别并用 SERP 实际页面 URL 重查；总 DataForSEO 实际支出 $0.124。只纳入正确 URL 的 RD 结果。未制作、未外联、未发布。
